@@ -119,6 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25a037a5a13c04e3b3b31893419eb1f0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html#a25a037a5a13c04e3b3b31893419eb1f0">updateState</a> (StateType &amp;state, int channel=-1)</td></tr>
 <tr class="memdesc:a25a037a5a13c04e3b3b31893419eb1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the coefficients in a filter state.  <a href="classsst_1_1filters_1_1FilterCoefficientMaker.html#a25a037a5a13c04e3b3b31893419eb1f0">More...</a><br /></td></tr>
 <tr class="separator:a25a037a5a13c04e3b3b31893419eb1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8355ef71eb2ad118c0d9c49d383bfee"><td class="memTemplParams" colspan="2">template&lt;typename StateType &gt; </td></tr>
+<tr class="memitem:ab8355ef71eb2ad118c0d9c49d383bfee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html#ab8355ef71eb2ad118c0d9c49d383bfee">updateCoefficients</a> (StateType &amp;state, int channel=0)</td></tr>
+<tr class="memdesc:ab8355ef71eb2ad118c0d9c49d383bfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the local coefficients with the coefficients from the filter state.  <a href="classsst_1_1filters_1_1FilterCoefficientMaker.html#ab8355ef71eb2ad118c0d9c49d383bfee">More...</a><br /></td></tr>
+<tr class="separator:ab8355ef71eb2ad118c0d9c49d383bfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -284,7 +288,7 @@ class sst::filters::FilterCoefficientMaker&lt; TuningProvider &gt;</h3>
 </div><div class="memdoc">
 
 <p>Creates filter coefficients for a given set of filter parameters. </p>
-<p>Note that frequency is expected in units of MIDI note number. </p>
+<p>Note that frequency is expected in units of MIDI note number, with A440 = 0. </p>
 
 <p class="reference">References <a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a7333b0d7a4b5625e532f3f704feb0a0ea09263cad1e22a01a04040ad60adfff92">sst::filters::OBXDFilter::FOUR_POLE</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa7e9b99cbd38b303d2b5b6edde30ea7e8">sst::filters::fut_apf</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa7ef6a531389d90ee6f8367e07085942c">sst::filters::fut_bp12</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa796e8eb0e0775f41034d05020d6d4015">sst::filters::fut_bp24</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fab8f78a029414b4313f12515e31edba2e">sst::filters::fut_comb_neg</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fae18ef7d5ce9a9f8cf134718221141ca9">sst::filters::fut_comb_pos</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa497e3f3489fe3642ff02a73c535f8516">sst::filters::fut_cutoffwarp_ap</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa7d1e06506d6654bb5862670aa3c461c7">sst::filters::fut_cutoffwarp_bp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa01213d001b7ce25ba5eb326e0341ddfc">sst::filters::fut_cutoffwarp_hp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faca0a95f13a5c0199f5e54ff9765b6c2c">sst::filters::fut_cutoffwarp_lp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fae5dce7d790304e15ae0a4b1c75536961">sst::filters::fut_cutoffwarp_n</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa935a727596903b474fc4d1b65a4a612f">sst::filters::fut_diode</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa860930bd018f00a66936f04d1474e6c9">sst::filters::fut_hp12</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa64062ea633dd1a07c1b944bed86d5b35">sst::filters::fut_hp24</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fac927ed8a25f32542c96401441e2f08a9">sst::filters::fut_k35_hp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa2844790c33bc6623f1406c1afb18aee5">sst::filters::fut_k35_lp</a>, <a class="el" href="namespacesst_1_1filters.html#a13be7e5b50775a230e1a53575602ae1d">sst::filters::fut_k35_saturations</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa31f054dc78925dca8a3711ce6c59fe99">sst::filters::fut_lp12</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa1dd7485a93dfef9499a8c13e8b8e5608">sst::filters::fut_lp24</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa2c2b816ee87c0f5f13d77060b7dab009">sst::filters::fut_lpmoog</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa2064b26f0af5c1e34074ca551af4c620">sst::filters::fut_none</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa738fa83400a3fa4fee09a50d769a4e40">sst::filters::fut_notch12</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa985f8ddbc4851d3c0afc051ee3bd00b6">sst::filters::fut_notch24</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faf2ace5138d45bc212a9778a0a1e34104">sst::filters::fut_obxd_2pole_bp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fab40b5cd2b4c4c4ba0a6577deb2c5676a">sst::filters::fut_obxd_2pole_hp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa5b1577908496d6c063b19d0e70528cd8">sst::filters::fut_obxd_2pole_lp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fae7c43f1b7dc9519a3fd3d49d8dea0507">sst::filters::fut_obxd_2pole_n</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa9ee024cf497f56e312e0a82944bbb21b">sst::filters::fut_obxd_4pole</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa5d7f1ce67c28d32388affb1a2f0347dd">sst::filters::fut_resonancewarp_ap</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fad89d9e2b705a7a983a462adb1d0304c7">sst::filters::fut_resonancewarp_bp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fafc7a205bbf76c0c3cbe5cba551c812c2">sst::filters::fut_resonancewarp_hp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faa99881df93a8eb10164a6cbadbb8714a">sst::filters::fut_resonancewarp_lp</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faabd668443534fa42a1ed6c3e44981ac4">sst::filters::fut_resonancewarp_n</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa11093d9dc94aaa0359025a8ed9447d32">sst::filters::fut_SNH</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa42fc17ad79a303fbc4a36cda9dc18a51">sst::filters::fut_tripole</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa633c95b6e15cda622052174224973609">sst::filters::fut_vintageladder</a>, <a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#adf1d49a14faf7ca251f89a753102825b">sst::filters::K35Filter::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1DiodeLadderFilter.html#a028428606fac08c436d8c48842c463e0">sst::filters::DiodeLadderFilter::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#aa77f5e996f0b96d9c99c33d09cfb4470">sst::filters::OBXDFilter::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1ResonanceWarp.html#a773c3c4565fc1f9c9746bdcfa9880758">sst::filters::ResonanceWarp::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1VintageLadder_1_1RK.html#a88a7c5dfc2bc5ae41434530bfa3cf181">sst::filters::VintageLadder::RK::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1CutoffWarp.html#a2a5c558cce5dec2271aaa01a2ba7fa3f">sst::filters::CutoffWarp::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#aefd5e2a64d98da6ae292b133b0a57499">sst::filters::TriPoleFilter::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a782130a25f918b2315032926801b8e21">sst::filters::VintageLadder::Huov::makeCoefficients()</a>, <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fadd20116b6094af079feefed7c1ff5658">sst::filters::num_filter_types</a>, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa3ecceae3c6b031fc52980d2f4911c876">sst::filters::st_SVF</a>, and <a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a7333b0d7a4b5625e532f3f704feb0a0ea498953ef19e6517ea9100c7b591a4d7e">sst::filters::OBXDFilter::TWO_POLE</a>.</p>
 
@@ -320,6 +324,39 @@ class sst::filters::FilterCoefficientMaker&lt; TuningProvider &gt;</h3>
 <p>To update the coefficients for a single channel, pass a channel index to the channel argument, otherwise the same coefficients will be used for all channels. </p>
 
 <p class="reference">References <a class="el" href="FastMath_8h.html#ac54ae397901fe700628cafadea3c5208">C</a>, <a class="el" href="namespacesst_1_1filters.html#a0e477c7b1b57147e6b307cdae7ba4bf1">sst::filters::n_cm_coeffs</a>, and <a class="el" href="namespacesst_1_1filters_1_1detail.html#a48beb1055beaf967f0be1b51ff5fcae2">sst::filters::detail::set1f()</a>.</p>
+
+</div>
+</div>
+<a id="ab8355ef71eb2ad118c0d9c49d383bfee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8355ef71eb2ad118c0d9c49d383bfee">&#9670;&nbsp;</a></span>updateCoefficients()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateCoefficients </td>
+          <td>(</td>
+          <td class="paramtype">StateType &amp;&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the local coefficients with the coefficients from the filter state. </p>
+<p>This is necessary since the filter state is responsible for smoothing the filter coefficients. </p>
+
+<p class="reference">References <a class="el" href="FastMath_8h.html#ac54ae397901fe700628cafadea3c5208">C</a>, <a class="el" href="namespacesst_1_1filters_1_1detail.html#aed2d716165b2fe2c46d9b025de197a1d">sst::filters::detail::get1f()</a>, and <a class="el" href="namespacesst_1_1filters.html#a0e477c7b1b57147e6b307cdae7ba4bf1">sst::filters::n_cm_coeffs</a>.</p>
 
 </div>
 </div>
@@ -379,7 +416,7 @@ class sst::filters::FilterCoefficientMaker&lt; TuningProvider &gt;</h3>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 7 2022 11:33:34 for sst-filters by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 24 2022 22:19:03 for sst-filters by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
