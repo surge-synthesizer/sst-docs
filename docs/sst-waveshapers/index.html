@@ -88,7 +88,15 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>Tests: <a href="https://dev.azure.com/surge-synthesizer/surge/_apis/build/status/surge-synthesizer.sst-waveshapers?branchName=main"><img src="https://dev.azure.com/surge-synthesizer/surge/_apis/build/status/surge-synthesizer.sst-waveshapers?branchName=main" alt="CI Build Status" class="inline"/></a></p>
 <p>This repository contains the waveshapers from the <a href="https://github.com/surge-synthesizer/surge">Surge Synthesizer</a> as a submodule.</p>
-<p>Currently a work-in-progress. Check back later!</p>
+<p>Current waveshapers include:</p><ul>
+<li>Saturators</li>
+<li>Rectifiers</li>
+<li>Wavefolders</li>
+<li>Additive</li>
+<li>Fuzzes</li>
+<li>Trigonometric</li>
+</ul>
+<p>For more information, see the <a href="https://surge-synthesizer.github.io/sst-docs/docs/sst-waveshapers/index.html">API documentation</a>.</p>
 <h1>Usage</h1>
 <p><code>sst-waveshapers</code> is a header-only library, so it is possible to use the library simply by adding <code>include/</code> to your header search paths, and writing <code>#include &lt;<a class="el" href="waveshapers_8h.html">sst/waveshapers.h</a>&gt;</code> somewhere in your source code. However, it is recommended to use the provided CMake configuration.</p>
 <div class="fragment"><div class="line">add_subdirectory(path/to/sst-waveshapers)</div>
@@ -98,13 +106,17 @@ $(function() {
 <p>To build and run the sst-waveshapers unit tests: </p><div class="fragment"><div class="line">cmake -Bbuild</div>
 <div class="line">cmake --build build</div>
 <div class="line">./build/test-binary/sst-waveshapers-tests</div>
-</div><!-- fragment --><h1>License</h1>
+</div><!-- fragment --><h1>Building Examples</h1>
+<p>To build the sst-waveshapers examples: </p><div class="fragment"><div class="line">cmake -Bbuild -DSST_WAVESHAPERS_BUILD_EXAMPLES=ON</div>
+<div class="line">cmake --build build</div>
+</div><!-- fragment --><p>Example binaries will be located in <code>build/example-binaries/</code>.</p>
+<h1>License</h1>
 <p>The code in this repository is licensed under the General Public License v3. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 27 2022 22:32:06 for sst-waveshapers by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 29 2022 08:45:48 for sst-waveshapers by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
