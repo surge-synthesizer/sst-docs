@@ -102,9 +102,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a69477b193482315a1e827b43596dc768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52a82197d986eb76ae542135bec4673c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1FilterPlotParameters.html#a52a82197d986eb76ae542135bec4673c">endFreqHz</a> = 20000.0f</td></tr>
 <tr class="separator:a52a82197d986eb76ae542135bec4673c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a076477a6458790a0fa97af3d5fa82af1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1FilterPlotParameters.html#a076477a6458790a0fa97af3d5fa82af1">inputAmplitude</a> = 1.0f</td></tr>
+<tr class="memitem:a076477a6458790a0fa97af3d5fa82af1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1FilterPlotParameters.html#a076477a6458790a0fa97af3d5fa82af1">inputAmplitude</a> = 1.0f / juce::MathConstants&lt;float&gt;::sqrt2</td></tr>
 <tr class="separator:a076477a6458790a0fa97af3d5fa82af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d08dd382acce14c2bde621d1932b402"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1FilterPlotParameters.html#a6d08dd382acce14c2bde621d1932b402">freqSmoothOctaves</a> = 1.0f / 3.0f</td></tr>
+<tr class="memitem:a6d08dd382acce14c2bde621d1932b402"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1FilterPlotParameters.html#a6d08dd382acce14c2bde621d1932b402">freqSmoothOctaves</a> = 1.0f / 12.0f</td></tr>
 <tr class="separator:a6d08dd382acce14c2bde621d1932b402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -157,7 +157,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float inputAmplitude = 1.0f</td>
+          <td class="memname">float inputAmplitude = 1.0f / juce::MathConstants&lt;float&gt;::sqrt2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -171,7 +171,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float freqSmoothOctaves = 1.0f / 3.0f</td>
+          <td class="memname">float freqSmoothOctaves = 1.0f / 12.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -184,7 +184,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 1 2022 16:59:17 for sst-filters by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun May 22 2022 12:04:40 for sst-filters by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
