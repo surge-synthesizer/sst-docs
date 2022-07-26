@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadfilterunitstate_472',['QuadFilterUnitState',['../structsst_1_1filters_1_1QuadFilterUnitState.html',1,'sst::filters']]]
+  ['halfratefilter_480',['HalfRateFilter',['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html',1,'sst::filters::HalfRate']]]
 ];

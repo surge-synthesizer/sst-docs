@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['readme_2emd_510',['README.md',['../README_8md.html',1,'']]],
-  ['resonancewarp_2eh_511',['ResonanceWarp.h',['../ResonanceWarp_8h.html',1,'']]]
+  ['quadfilterunit_2eh_519',['QuadFilterUnit.h',['../QuadFilterUnit_8h.html',1,'']]],
+  ['quadfilterunit_5fimpl_2eh_520',['QuadFilterUnit_Impl.h',['../QuadFilterUnit__Impl_8h.html',1,'']]]
 ];

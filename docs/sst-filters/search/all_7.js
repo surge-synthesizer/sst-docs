@@ -7,11 +7,13 @@ var searchData=
   ['h_5fres_156',['h_res',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5a1e84c47b1967bd221bd91bf2120c2402',1,'sst::filters::VintageLadder::Huov']]],
   ['h_5fstage_157',['h_stage',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57eafd9f1fc8da711f5a86cc49c9c56e612c',1,'sst::filters::VintageLadder::Huov']]],
   ['h_5fstagetanh_158',['h_stageTanh',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57ea74bb4af407ea54bbf461f55b2c5ff4e3',1,'sst::filters::VintageLadder::Huov']]],
-  ['hardclip8_5fsd_159',['hardclip8_sd',['../namespacesst_1_1filters_1_1utilities.html#ad37f27ef9ea5f23be81fca3116d70afe',1,'sst::filters::utilities']]],
-  ['hardclip_5fblock_160',['hardclip_block',['../namespacesst_1_1filters_1_1utilities.html#a3a0f9e68437db4351e31dbbb8dace35e',1,'sst::filters::utilities']]],
-  ['hardclip_5fblock8_161',['hardclip_block8',['../namespacesst_1_1filters_1_1utilities.html#af246e2cef83a69d65d5054845d5e24e3',1,'sst::filters::utilities']]],
-  ['hardclip_5fps_162',['hardclip_ps',['../namespacesst_1_1filters_1_1utilities.html#ae1ef54d82614300b24fdbe4f7763633d',1,'sst::filters::utilities']]],
-  ['hardclip_5fss_163',['hardclip_ss',['../namespacesst_1_1filters_1_1utilities.html#a956d67eaf8084284dea55c3c5053a124',1,'sst::filters::utilities']]],
-  ['huov_5fcoeffs_164',['huov_coeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5',1,'sst::filters::VintageLadder::Huov']]],
-  ['huov_5fregoffsets_165',['huov_regoffsets',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57e',1,'sst::filters::VintageLadder::Huov']]]
+  ['halfratefilter_159',['HalfRateFilter',['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html',1,'HalfRateFilter'],['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html#a8f51428ef17a53e3e48eaf83f88f179c',1,'sst::filters::HalfRate::HalfRateFilter::HalfRateFilter()']]],
+  ['halfratefilter_2eh_160',['HalfRateFilter.h',['../HalfRateFilter_8h.html',1,'']]],
+  ['hardclip8_5fsd_161',['hardclip8_sd',['../namespacesst_1_1filters_1_1utilities.html#ad37f27ef9ea5f23be81fca3116d70afe',1,'sst::filters::utilities']]],
+  ['hardclip_5fblock_162',['hardclip_block',['../namespacesst_1_1filters_1_1utilities.html#a3a0f9e68437db4351e31dbbb8dace35e',1,'sst::filters::utilities']]],
+  ['hardclip_5fblock8_163',['hardclip_block8',['../namespacesst_1_1filters_1_1utilities.html#af246e2cef83a69d65d5054845d5e24e3',1,'sst::filters::utilities']]],
+  ['hardclip_5fps_164',['hardclip_ps',['../namespacesst_1_1filters_1_1utilities.html#ae1ef54d82614300b24fdbe4f7763633d',1,'sst::filters::utilities']]],
+  ['hardclip_5fss_165',['hardclip_ss',['../namespacesst_1_1filters_1_1utilities.html#a956d67eaf8084284dea55c3c5053a124',1,'sst::filters::utilities']]],
+  ['huov_5fcoeffs_166',['huov_coeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5',1,'sst::filters::VintageLadder::Huov']]],
+  ['huov_5fregoffsets_167',['huov_regoffsets',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57e',1,'sst::filters::VintageLadder::Huov']]]
 ];

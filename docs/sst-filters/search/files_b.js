@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tripolefilter_2eh_514',['TriPoleFilter.h',['../TriPoleFilter_8h.html',1,'']]],
-  ['tuningprovider_2eh_515',['TuningProvider.h',['../TuningProvider_8h.html',1,'']]]
+  ['shared_2eh_523',['shared.h',['../shared_8h.html',1,'']]],
+  ['sinctable_2eh_524',['SincTable.h',['../SincTable_8h.html',1,'']]]
 ];
