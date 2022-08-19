@@ -9,7 +9,7 @@ var searchData=
   ['waveshapertables_91',['WaveshaperTables',['../structsst_1_1waveshapers_1_1WaveshaperTables.html',1,'WaveshaperTables'],['../structsst_1_1waveshapers_1_1WaveshaperTables.html#a034768242b1aa502231846e319fa0d05',1,'sst::waveshapers::WaveshaperTables::WaveshaperTables()']]],
   ['waveshapertables_2eh_92',['WaveshaperTables.h',['../WaveshaperTables_8h.html',1,'']]],
   ['waveshapertype_93',['WaveshaperType',['../namespacesst_1_1waveshapers.html#aa37aacf59f66da78b0b69e2d9ac89245',1,'sst::waveshapers']]],
-  ['weights_94',['weights',['../structsst_1_1waveshapers_1_1ChebSeries.html#af480cd640ee98cf83ad8dbdd1ad5899c',1,'sst::waveshapers::ChebSeries']]],
+  ['weights_94',['weights',['../structsst_1_1waveshapers_1_1ChebSeries.html#ad2c825c90d3c97311a74929d3189d53a',1,'sst::waveshapers::ChebSeries']]],
   ['westcoastfoldadaa_95',['westCoastFoldADAA',['../namespacesst_1_1waveshapers.html#aba2c3144d09cd2a78f9cdfe27a7c59de',1,'sst::waveshapers']]],
   ['ws_5flut_96',['WS_LUT',['../namespacesst_1_1waveshapers.html#acd650bf1d477adf77944154fa4fd5304',1,'sst::waveshapers']]],
   ['ws_5fpm1_5flut_97',['WS_PM1_LUT',['../namespacesst_1_1waveshapers.html#a6d21cc9826a453a46a7ca910d7ff3fd9',1,'sst::waveshapers']]],
