@@ -108,10 +108,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d399f68a8b6519d26da9697fb10ace7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17e66675f4136b857fdbbbc902fca2c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a17e66675f4136b857fdbbbc902fca2c2">push</a> (T unit)</td></tr>
 <tr class="separator:a17e66675f4136b857fdbbbc902fca2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614746a6085b1666d368e63fb042ebd2"><td class="memItemLeft" align="right" valign="top">std::enable_if&lt; std::is_copy_constructible_v&lt; T &gt;, void &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a614746a6085b1666d368e63fb042ebd2">push</a> (const T *units, std::size_t sz)</td></tr>
-<tr class="separator:a614746a6085b1666d368e63fb042ebd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12bf1147a01580f1fc5bebfea96f0b9b"><td class="memItemLeft" align="right" valign="top">std::enable_if&lt; std::is_copy_constructible_v&lt; T &gt;, void &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a12bf1147a01580f1fc5bebfea96f0b9b">push</a> (const std::vector&lt; T &gt; &amp;v)</td></tr>
-<tr class="separator:a12bf1147a01580f1fc5bebfea96f0b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b4b615c08e3d77ccc4779cf58fe7fa6"><td class="memTemplParams" colspan="2">template&lt;typename U  = T&gt; </td></tr>
+<tr class="memitem:a3b4b615c08e3d77ccc4779cf58fe7fa6"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_copy_constructible_v&lt; U &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a3b4b615c08e3d77ccc4779cf58fe7fa6">push</a> (const T *units, std::size_t sz)</td></tr>
+<tr class="separator:a3b4b615c08e3d77ccc4779cf58fe7fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17cbdb8514d63137f85e2b842379e5f"><td class="memTemplParams" colspan="2">template&lt;typename U  = T&gt; </td></tr>
+<tr class="memitem:aa17cbdb8514d63137f85e2b842379e5f"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_copy_constructible_v&lt; U &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#aa17cbdb8514d63137f85e2b842379e5f">push</a> (const std::vector&lt; T &gt; &amp;v)</td></tr>
+<tr class="separator:aa17cbdb8514d63137f85e2b842379e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bccd94c4239c019c480e507cb6159ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a0bccd94c4239c019c480e507cb6159ee">subscribe</a> ()</td></tr>
 <tr class="separator:a0bccd94c4239c019c480e507cb6159ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04fc89aa31e530fde28909fa75cdef76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a04fc89aa31e530fde28909fa75cdef76">unsubscribe</a> ()</td></tr>
@@ -222,16 +224,18 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#aa17cbdb8514d63137f85e2b842379e5f">SimpleRingBuffer&lt; T, N, MemoryOrder &gt;::push()</a>.</p>
+
 </div>
 </div>
-<a id="a614746a6085b1666d368e63fb042ebd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a614746a6085b1666d368e63fb042ebd2">&#9670;&nbsp;</a></span>push() <span class="overload">[2/3]</span></h2>
+<a id="a3b4b615c08e3d77ccc4779cf58fe7fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b4b615c08e3d77ccc4779cf58fe7fa6">&#9670;&nbsp;</a></span>push() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt;std::is_copy_constructible_v&lt;T&gt;, void&gt;::type push </td>
+          <td class="memname">std::enable_if_t&lt;std::is_copy_constructible_v&lt;U&gt; &gt; push </td>
           <td>(</td>
           <td class="paramtype">const T *&#160;</td>
           <td class="paramname"><em>units</em>, </td>
@@ -252,14 +256,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a12bf1147a01580f1fc5bebfea96f0b9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12bf1147a01580f1fc5bebfea96f0b9b">&#9670;&nbsp;</a></span>push() <span class="overload">[3/3]</span></h2>
+<a id="aa17cbdb8514d63137f85e2b842379e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17cbdb8514d63137f85e2b842379e5f">&#9670;&nbsp;</a></span>push() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt;std::is_copy_constructible_v&lt;T&gt;, void&gt;::type push </td>
+          <td class="memname">std::enable_if_t&lt;std::is_copy_constructible_v&lt;U&gt; &gt; push </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -268,9 +272,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a12bf1147a01580f1fc5bebfea96f0b9b">SimpleRingBuffer&lt; T, N, MemoryOrder &gt;::push()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a12bf1147a01580f1fc5bebfea96f0b9b">SimpleRingBuffer&lt; T, N, MemoryOrder &gt;::push()</a>.</p>
+<p class="reference">References <a class="el" href="classsst_1_1cpputils_1_1SimpleRingBuffer.html#a17e66675f4136b857fdbbbc902fca2c2">SimpleRingBuffer&lt; T, N, MemoryOrder &gt;::push()</a>.</p>
 
 </div>
 </div>
@@ -331,7 +333,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 12 2022 00:04:07 for sst-cpputils by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Sep 12 2022 12:15:16 for sst-cpputils by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
