@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['cpputils_13',['cpputils',['../namespacesst_1_1cpputils.html',1,'sst']]],
-  ['internal_14',['internal',['../namespacesst_1_1cpputils_1_1internal.html',1,'sst::cpputils']]],
-  ['simpleringbuffer_15',['SimpleRingBuffer',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html',1,'SimpleRingBuffer&lt; T, N, MemoryOrder &gt;'],['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a16fd6af771d250b4fe7f107f29dede61',1,'sst::cpputils::SimpleRingBuffer::SimpleRingBuffer()']]],
-  ['sst_16',['sst',['../namespacesst.html',1,'']]],
-  ['subscribe_17',['subscribe',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a0bccd94c4239c019c480e507cb6159ee',1,'sst::cpputils::SimpleRingBuffer']]],
-  ['subscribed_18',['subscribed',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a0bbca55d6c8f234990c4f78bf4449288',1,'sst::cpputils::SimpleRingBuffer']]]
+  ['readpos_5f_15',['readPos_',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#aa5bbdd05f08f7c53aefdfe9aa981c4c8',1,'sst::cpputils::internal::RingBufferInternal']]],
+  ['ring_5fbuffer_2eh_16',['ring_buffer.h',['../ring__buffer_8h.html',1,'']]],
+  ['ringbufferinternal_17',['RingBufferInternal',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html',1,'RingBufferInternal&lt; N, MemoryOrder &gt;'],['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a87ff845c4556e170437df782b086aa42',1,'sst::cpputils::internal::RingBufferInternal::RingBufferInternal()']]],
+  ['ringbufferinternal_3c_20n_2c_20std_3a_3amemory_5forder_5frelaxed_20_3e_18',['RingBufferInternal&lt; N, std::memory_order_relaxed &gt;',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html',1,'sst::cpputils::internal']]]
 ];
