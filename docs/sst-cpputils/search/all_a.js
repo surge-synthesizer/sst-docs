@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writepos_5f_29',['writePos_',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a26121752602b260ef411d84766757e81',1,'sst::cpputils::internal::RingBufferInternal']]]
+  ['unsubscribe_31',['unsubscribe',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a04fc89aa31e530fde28909fa75cdef76',1,'sst::cpputils::internal::RingBufferInternal']]]
 ];

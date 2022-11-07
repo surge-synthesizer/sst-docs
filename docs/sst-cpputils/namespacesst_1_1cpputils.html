@@ -121,6 +121,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ad0261f51afa379d96d9fd7c7042c3d76"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1cpputils.html#ad0261f51afa379d96d9fd7c7042c3d76">nodal_erase_if</a> (ContainerType &amp;container, UnaryPredicate q)</td></tr>
 <tr class="memdesc:ad0261f51afa379d96d9fd7c7042c3d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to std::erase_if, but much easier to use for node-based containers (e.g.  <a href="namespacesst_1_1cpputils.html#ad0261f51afa379d96d9fd7c7042c3d76">More...</a><br /></td></tr>
 <tr class="separator:ad0261f51afa379d96d9fd7c7042c3d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0886b0977cd0a19d4c2654b091d3d9b"><td class="memTemplParams" colspan="2">template&lt;typename Func , typename... Params&gt; </td></tr>
+<tr class="memitem:aa0886b0977cd0a19d4c2654b091d3d9b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1cpputils.html#aa0886b0977cd0a19d4c2654b091d3d9b">bind_front</a> (Func &amp;&amp;func, Params &amp;&amp;... frontParams)</td></tr>
+<tr class="memdesc:aa0886b0977cd0a19d4c2654b091d3d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary replacement for std::bind_front, which is only available in C++20.  <a href="namespacesst_1_1cpputils.html#aa0886b0977cd0a19d4c2654b091d3d9b">More...</a><br /></td></tr>
+<tr class="separator:aa0886b0977cd0a19d4c2654b091d3d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd79d5d75c2b85df7f95a6762d121903"><td class="memTemplParams" colspan="2">template&lt;typename Func , typename... Params&gt; </td></tr>
+<tr class="memitem:acd79d5d75c2b85df7f95a6762d121903"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1cpputils.html#acd79d5d75c2b85df7f95a6762d121903">bind_back</a> (Func &amp;&amp;func, Params &amp;&amp;... backParams)</td></tr>
+<tr class="memdesc:acd79d5d75c2b85df7f95a6762d121903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary replacement for std::bind_back, which is only available in C++23.  <a href="namespacesst_1_1cpputils.html#acd79d5d75c2b85df7f95a6762d121903">More...</a><br /></td></tr>
+<tr class="separator:acd79d5d75c2b85df7f95a6762d121903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57860267740b98d48b2eab17ca38838"><td class="memTemplParams" colspan="2">template&lt;typename T , typename TIter  = decltype(std::begin(std::declval&lt;T&gt;())), typename  = decltype(std::end(std::declval&lt;T&gt;()))&gt; </td></tr>
 <tr class="memitem:ad57860267740b98d48b2eab17ca38838"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1cpputils.html#ad57860267740b98d48b2eab17ca38838">enumerate</a> (T &amp;&amp;iterable)</td></tr>
 <tr class="separator:ad57860267740b98d48b2eab17ca38838"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +252,66 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa0886b0977cd0a19d4c2654b091d3d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0886b0977cd0a19d4c2654b091d3d9b">&#9670;&nbsp;</a></span>bind_front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto sst::cpputils::bind_front </td>
+          <td>(</td>
+          <td class="paramtype">Func &amp;&amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Params &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>frontParams</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Temporary replacement for std::bind_front, which is only available in C++20. </p>
+
+</div>
+</div>
+<a id="acd79d5d75c2b85df7f95a6762d121903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd79d5d75c2b85df7f95a6762d121903">&#9670;&nbsp;</a></span>bind_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto sst::cpputils::bind_back </td>
+          <td>(</td>
+          <td class="paramtype">Func &amp;&amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Params &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>backParams</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Temporary replacement for std::bind_back, which is only available in C++23. </p>
+
+</div>
+</div>
 <a id="ad57860267740b98d48b2eab17ca38838"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad57860267740b98d48b2eab17ca38838">&#9670;&nbsp;</a></span>enumerate()</h2>
 
@@ -309,7 +377,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 4 2022 11:57:35 for sst-cpputils by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 7 2022 04:09:02 for sst-cpputils by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
