@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ringbufferinternal_60',['RingBufferInternal',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a87ff845c4556e170437df782b086aa42',1,'sst::cpputils::internal::RingBufferInternal']]]
+  ['nodal_5ferase_5fif_61',['nodal_erase_if',['../namespacesst_1_1cpputils.html#ad0261f51afa379d96d9fd7c7042c3d76',1,'sst::cpputils']]]
 ];
