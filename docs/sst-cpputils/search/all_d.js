@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writepos_5f_35',['writePos_',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a26121752602b260ef411d84766757e81',1,'sst::cpputils::internal::RingBufferInternal']]]
+  ['value_5ftype_44',['value_type',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a265a253612b46abed17c61b0a5e5ce30',1,'sst::cpputils::SimpleRingBuffer']]]
 ];
