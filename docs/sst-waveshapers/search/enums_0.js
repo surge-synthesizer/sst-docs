@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waveshapertype_246',['WaveshaperType',['../namespacesst_1_1waveshapers.html#aa37aacf59f66da78b0b69e2d9ac89245',1,'sst::waveshapers']]]
+  ['choice_1518',['Choice',['../structCatch_1_1CaseSensitive.html#ac5102e0b11ce43d0b9ef595c3c3ab0c3',1,'Catch::CaseSensitive']]]
 ];

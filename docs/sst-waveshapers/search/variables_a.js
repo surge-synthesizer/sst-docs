@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ys_244',['yS',['../structsst_1_1waveshapers_1_1FolderADAA.html#a2d18ac2c5e09ff67d56f715112e3a9ff',1,'sst::waveshapers::FolderADAA::yS()'],['../structsst_1_1waveshapers_1_1FolderADAA.html#a0947f81cdd5b0752d20df7564471cf5f',1,'sst::waveshapers::FolderADAA::ys()']]]
+  ['r_1486',['R',['../structsst_1_1waveshapers_1_1QuadWaveshaperState.html#ae4b694ed4d1b36324c16e0f1952c6442',1,'sst::waveshapers::QuadWaveshaperState']]],
+  ['resultdisposition_1487',['resultDisposition',['../structCatch_1_1AssertionInfo.html#a17000016e15f416feada995f72fe5a60',1,'Catch::AssertionInfo']]]
 ];

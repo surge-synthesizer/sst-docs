@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['n_5fws_5ftypes_247',['n_ws_types',['../namespacesst_1_1waveshapers.html#aa37aacf59f66da78b0b69e2d9ac89245a7c7190ee5ad25258bcdb9a18ebf8c3f1',1,'sst::waveshapers']]]
+  ['always_1529',['Always',['../structCatch_1_1ShowDurations.html#aaa1d79978a2f33bd9e0827e98e2fcc22ae1a8e8cd4807ad56b76df10995885c33',1,'Catch::ShowDurations']]],
+  ['auto_1530',['Auto',['../structCatch_1_1UseColour.html#ac9375db469490767ea03553413d97007ab81b7469043e9c54603ca3aebbe38e90',1,'Catch::UseColour']]]
 ];

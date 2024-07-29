@@ -1,8 +1,16 @@
 var searchData=
 [
-  ['wavefolder_222',['WAVEFOLDER',['../namespacesst_1_1waveshapers.html#accafb8004db01702d1eb97846f72e9f1',1,'sst::waveshapers']]],
-  ['waveshapertables_223',['WaveshaperTables',['../structsst_1_1waveshapers_1_1WaveshaperTables.html#a034768242b1aa502231846e319fa0d05',1,'sst::waveshapers::WaveshaperTables']]],
-  ['westcoastfoldadaa_224',['westCoastFoldADAA',['../namespacesst_1_1waveshapers.html#aba2c3144d09cd2a78f9cdfe27a7c59de',1,'sst::waveshapers']]],
-  ['ws_5flut_225',['WS_LUT',['../namespacesst_1_1waveshapers.html#acd650bf1d477adf77944154fa4fd5304',1,'sst::waveshapers']]],
-  ['ws_5fpm1_5flut_226',['WS_PM1_LUT',['../namespacesst_1_1waveshapers.html#a6d21cc9826a453a46a7ca910d7ff3fd9',1,'sst::waveshapers']]]
+  ['pluralise_1283',['pluralise',['../structCatch_1_1pluralise.html#ae6b1889a1cd40261b867a88409222de0',1,'Catch::pluralise']]],
+  ['plus12_1284',['Plus12',['../namespacesst_1_1waveshapers.html#a076f1f70346b4ebf104dbfde13b2eb1c',1,'sst::waveshapers']]],
+  ['plus12345_1285',['Plus12345',['../namespacesst_1_1waveshapers.html#a34f5ca3aa4833e9d1ee57b4530a2dfc1',1,'sst::waveshapers']]],
+  ['plus13_1286',['Plus13',['../namespacesst_1_1waveshapers.html#ab1cc02a126233a8784cef843ef82c159',1,'sst::waveshapers']]],
+  ['plus14_1287',['Plus14',['../namespacesst_1_1waveshapers.html#a1d86a4d2b4342e1a518d3feb2455f478',1,'sst::waveshapers']]],
+  ['plus15_1288',['Plus15',['../namespacesst_1_1waveshapers.html#a7def3f9e17e887dc13e9bbeccf99b009',1,'sst::waveshapers']]],
+  ['plussaw3_1289',['PlusSaw3',['../namespacesst_1_1waveshapers.html#a962031eeb16e72778adfcd789d0e3fc8',1,'sst::waveshapers']]],
+  ['plussqr3_1290',['PlusSqr3',['../namespacesst_1_1waveshapers.html#a767eb7f57c4b69d9c14b607dfa474f9b',1,'sst::waveshapers']]],
+  ['popscopedmessage_1291',['popScopedMessage',['../structCatch_1_1IResultCapture.html#a5fcd6b2255bf78403841f9420e5c8c71',1,'Catch::IResultCapture']]],
+  ['posrect_5fkernel_1292',['posrect_kernel',['../namespacesst_1_1waveshapers.html#ac09ea7c5f7df83f8da32dc8310369802',1,'sst::waveshapers']]],
+  ['predicate_1293',['Predicate',['../namespaceCatch_1_1Matchers.html#a034f2de6c0aac6f4a662fdf2558aedce',1,'Catch::Matchers']]],
+  ['predicatematcher_1294',['PredicateMatcher',['../classCatch_1_1Matchers_1_1Generic_1_1PredicateMatcher.html#a00911df293d6c2859ecbdf28f245ebfc',1,'Catch::Matchers::Generic::PredicateMatcher']]],
+  ['pushscopedmessage_1295',['pushScopedMessage',['../structCatch_1_1IResultCapture.html#a2a3670ca594c6a5f7cc1723f58ad8492',1,'Catch::IResultCapture']]]
 ];

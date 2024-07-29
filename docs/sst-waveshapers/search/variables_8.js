@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['waveshapers_240',['waveshapers',['../structsst_1_1waveshapers_1_1WaveshaperTables.html#a1fec141791618dbf16b1a30c26e9808c',1,'sst::waveshapers::WaveshaperTables']]],
-  ['weights_241',['weights',['../structsst_1_1waveshapers_1_1ChebSeries.html#ad2c825c90d3c97311a74929d3189d53a',1,'sst::waveshapers::ChebSeries']]],
-  ['wst_5fnames_242',['wst_names',['../namespacesst_1_1waveshapers.html#a10fc32ffc0db8aa4a7c3e78f109010ca',1,'sst::waveshapers']]]
+  ['n_1479',['N',['../structsst_1_1waveshapers_1_1LUTBase.html#a8eee69f4f513623c72ccbaea4e0fb706',1,'sst::waveshapers::LUTBase']]],
+  ['n_5fwaveshaper_5fregisters_1480',['n_waveshaper_registers',['../namespacesst_1_1waveshapers.html#a2c7a9b95fadc0c0a402889a1b228ce4b',1,'sst::waveshapers']]],
+  ['name_1481',['name',['../structCatch_1_1NameAndTags.html#a07185b5c89db1bd2e26974a173040240',1,'Catch::NameAndTags::name()'],['../structCatch_1_1SectionInfo.html#a9b45b3e13bd9167aab02e17e08916231',1,'Catch::SectionInfo::name()'],['../structCatch_1_1TestCaseInfo.html#a9b45b3e13bd9167aab02e17e08916231',1,'Catch::TestCaseInfo::name()']]]
 ];

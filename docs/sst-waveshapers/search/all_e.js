@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['r_61',['R',['../structsst_1_1waveshapers_1_1QuadWaveshaperState.html#ae4b694ed4d1b36324c16e0f1952c6442',1,'sst::waveshapers::QuadWaveshaperState']]],
-  ['readme_2emd_62',['README.md',['../README_8md.html',1,'']]],
-  ['rectifiers_2eh_63',['Rectifiers.h',['../Rectifiers_8h.html',1,'']]]
+  ['quadwaveshaper_2eh_566',['QuadWaveshaper.h',['../QuadWaveshaper_8h.html',1,'']]],
+  ['quadwaveshaper_5fimpl_2eh_567',['QuadWaveshaper_Impl.h',['../QuadWaveshaper__Impl_8h.html',1,'']]],
+  ['quadwaveshaperptr_568',['QuadWaveshaperPtr',['../namespacesst_1_1waveshapers.html#aa442e1a7d391b853414342099b5fec8b',1,'sst::waveshapers']]],
+  ['quadwaveshaperstate_569',['QuadWaveshaperState',['../structsst_1_1waveshapers_1_1QuadWaveshaperState.html',1,'sst::waveshapers']]],
+  ['quiet_570',['Quiet',['../namespaceCatch.html#abf3be10d03894afb391f3a2935e3b313a098753f8980036f4b936e3d4b6997111',1,'Catch']]]
 ];

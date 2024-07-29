@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['cheb2_5fkernel_7',['cheb2_kernel',['../namespacesst_1_1waveshapers.html#a1a42f013a9aaaea67c0b18050e999964',1,'sst::waveshapers']]],
-  ['cheb3_5fkernel_8',['cheb3_kernel',['../namespacesst_1_1waveshapers.html#a79d5e84de79f1c091329842f0dd90ee4',1,'sst::waveshapers']]],
-  ['cheb4_5fkernel_9',['cheb4_kernel',['../namespacesst_1_1waveshapers.html#a0a3a6f2163f6b80c8d5a5caac2f7ea0d',1,'sst::waveshapers']]],
-  ['cheb5_5fkernel_10',['cheb5_kernel',['../namespacesst_1_1waveshapers.html#a55f3bff247ebae6c05c43d4eb036e774',1,'sst::waveshapers']]],
-  ['chebseries_11',['ChebSeries',['../structsst_1_1waveshapers_1_1ChebSeries.html',1,'ChebSeries&lt; len &gt;'],['../structsst_1_1waveshapers_1_1ChebSeries.html#adafa770d40fb42f03d88d308e49d1f42',1,'sst::waveshapers::ChebSeries::ChebSeries()']]],
-  ['cheby_5fcore_12',['CHEBY_CORE',['../namespacesst_1_1waveshapers.html#a8dc5cfaa2e720b9ee943c48ab150a2ea',1,'sst::waveshapers']]],
-  ['clip_13',['CLIP',['../namespacesst_1_1waveshapers.html#ab7288ab4d4c558200980516dc513d134',1,'sst::waveshapers']]],
-  ['cmake_5fminimum_5frequired_14',['cmake_minimum_required',['../CMakeLists_8txt.html#a3561d2c2247d5a3a2363ed5828165454',1,'CMakeLists.txt']]],
-  ['cmakelists_2etxt_15',['CMakeLists.txt',['../CMakeLists_8txt.html',1,'']]],
-  ['cs_16',['cS',['../structsst_1_1waveshapers_1_1FolderADAA.html#ad3d69ae261f7a8b888d64c883c305443',1,'sst::waveshapers::FolderADAA']]]
+  ['beforeexit_32',['BeforeExit',['../structCatch_1_1WaitForKeypress.html#a7d8cf541190124fad592b314fc8849b1a3495ae39e4e1c5d7d8c78372c90d44f8',1,'Catch::WaitForKeypress']]],
+  ['beforestart_33',['BeforeStart',['../structCatch_1_1WaitForKeypress.html#a7d8cf541190124fad592b314fc8849b1a2418f85f445875f88f5bae787187c7fe',1,'Catch::WaitForKeypress']]],
+  ['beforestartandexit_34',['BeforeStartAndExit',['../structCatch_1_1WaitForKeypress.html#a7d8cf541190124fad592b314fc8849b1ac11fc6acd9e4317505a21f536ecb3f21',1,'Catch::WaitForKeypress']]],
+  ['begin_35',['begin',['../classCatch_1_1StringRef.html#a43564d19bdbc133e4a81cc1a2c002254',1,'Catch::StringRef']]],
+  ['benchmark_36',['Benchmark',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea939f08513d0c3666bc2c966265b27bd2',1,'Catch::TestCaseInfo']]],
+  ['benchmarkconfidenceinterval_37',['benchmarkConfidenceInterval',['../structCatch_1_1IConfig.html#adb16dc2cf0ab8b34717e1b042cf1257f',1,'Catch::IConfig']]],
+  ['benchmarknoanalysis_38',['benchmarkNoAnalysis',['../structCatch_1_1IConfig.html#abaec792b8c13f4c7dae5643dd5447255',1,'Catch::IConfig']]],
+  ['benchmarkresamples_39',['benchmarkResamples',['../structCatch_1_1IConfig.html#a5a829c9d7a01de730b91d2d1b63d1c09',1,'Catch::IConfig']]],
+  ['benchmarksamples_40',['benchmarkSamples',['../structCatch_1_1IConfig.html#a7a01d5fde0eecd0c8ad66dedaf40bcbf',1,'Catch::IConfig']]],
+  ['benchmarkwarmuptime_41',['benchmarkWarmupTime',['../structCatch_1_1IConfig.html#ac051dc3ef5c6a671b29a2466920692f7',1,'Catch::IConfig']]],
+  ['binaryexpr_42',['BinaryExpr',['../classCatch_1_1BinaryExpr.html#a3e74f05cf3b544bf169bad3865a419dc',1,'Catch::BinaryExpr::BinaryExpr()'],['../classCatch_1_1BinaryExpr.html',1,'BinaryExpr&lt; LhsT, RhsT &gt;']]]
 ];
