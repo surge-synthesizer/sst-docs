@@ -1,4 +1,5 @@
-# sst-docs
-Documentation Repo (auto-generated)
+# Doxygen Documentation for sst-libraries
 
-Coming soon. Quick test.
+- [sst-cpputils](docs/sst-cpputils)
+- [sst-filters](docs/sst-filters)
+- [sst-waveshapers](docs/sst-waveshapers)
