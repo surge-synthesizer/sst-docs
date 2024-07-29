@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basic_5fdsp_2eh_503',['basic_dsp.h',['../basic__dsp_8h.html',1,'']]]
+  ['biquadfilter_2eh_1430',['BiquadFilter.h',['../BiquadFilter_8h.html',1,'']]]
 ];

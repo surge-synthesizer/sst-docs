@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['obxd12dbcoeff_748',['Obxd12dBCoeff',['../namespacesst_1_1filters_1_1OBXDFilter.html#a6afb72829aefe0074a44fccdda7195e9',1,'sst::filters::OBXDFilter']]],
-  ['obxd24dbcoeff_749',['Obxd24dBCoeff',['../namespacesst_1_1filters_1_1OBXDFilter.html#a433869c0a284007d9b9e625b994f1c19',1,'sst::filters::OBXDFilter']]]
+  ['k35_5fcoeffs_2059',['k35_coeffs',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223',1,'sst::filters::K35Filter']]],
+  ['k35_5fstate_2060',['k35_state',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042',1,'sst::filters::K35Filter']]]
 ];

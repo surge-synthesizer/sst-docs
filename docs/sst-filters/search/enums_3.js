@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['k35_5fcoeffs_744',['k35_coeffs',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223',1,'sst::filters::K35Filter']]],
-  ['k35_5fstate_745',['k35_state',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042',1,'sst::filters::K35Filter']]]
+  ['huov_5fcoeffs_2056',['huov_coeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5',1,'sst::filters::VintageLadder::Huov']]],
+  ['huov_5fregoffsets_2057',['huov_regoffsets',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57e',1,'sst::filters::VintageLadder::Huov']]]
 ];

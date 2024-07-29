@@ -1,17 +1,15 @@
 var searchData=
 [
-  ['fastcos_549',['fastcos',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a28f2993291489c54ecf3f63a3b3195d9',1,'sst::filters::utilities::DSP']]],
-  ['fastcossse_550',['fastcosSSE',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a603741b13e8eaf068fb7d3437720f1af',1,'sst::filters::utilities::DSP']]],
-  ['fastexp_551',['fastexp',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a1ca1ba94010832c3176243432298e882',1,'sst::filters::utilities::DSP']]],
-  ['fastexpsse_552',['fastexpSSE',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a6550c100c90bf2723ef19bb3de775c53',1,'sst::filters::utilities::DSP']]],
-  ['fastsin_553',['fastsin',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a0841ef332c0c2b625e57cf86b69154c5',1,'sst::filters::utilities::DSP']]],
-  ['fastsinsse_554',['fastsinSSE',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#afe7f110bc7971cdb8bd7b780b10c2fa8',1,'sst::filters::utilities::DSP']]],
-  ['fasttan_555',['fasttan',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a74ffcbf69ab90d42ece4dae7c312cf75',1,'sst::filters::utilities::DSP']]],
-  ['fasttanh_556',['fasttanh',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a16dc789842092a24076642d2ba01b0be',1,'sst::filters::utilities::DSP']]],
-  ['fasttanhsse_557',['fasttanhSSE',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#aa3f66f25d99c09fc399fad26052a2d63',1,'sst::filters::utilities::DSP']]],
-  ['fasttanhsseclamped_558',['fasttanhSSEclamped',['../namespacesst_1_1filters_1_1utilities_1_1DSP.html#a6787392ddce57ab3a770c19a6423b920',1,'sst::filters::utilities::DSP']]],
-  ['filtercoefficientmaker_559',['FilterCoefficientMaker',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a8c05ac96c891831b246dda2f61d4dd4a',1,'sst::filters::FilterCoefficientMaker']]],
-  ['filterplotter_560',['FilterPlotter',['../classsst_1_1filters_1_1FilterPlotter.html#a1e39b5ce2f351a16b7dd75cb5dc50c21',1,'sst::filters::FilterPlotter']]],
-  ['float2i15_5fblock_561',['float2i15_block',['../namespacesst_1_1filters_1_1utilities.html#a2010bfca11f2ae49e3dc3973ea97f552',1,'sst::filters::utilities']]],
-  ['fromdirect_562',['FromDirect',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a0dc5bd487be9c5db01319420f9a73372',1,'sst::filters::FilterCoefficientMaker']]]
+  ['fetchcoeffs_1544',['fetchCoeffs',['../structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd',1,'sst::filters::CytomicSVF']]],
+  ['filter_1545',['filter',['../namespaceCatch_1_1Generators.html#afd87f4cbf259f2252aee164d6905b18b',1,'Catch::Generators']]],
+  ['filtercoefficientmaker_1546',['FilterCoefficientMaker',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a8c05ac96c891831b246dda2f61d4dd4a',1,'sst::filters::FilterCoefficientMaker']]],
+  ['filtergenerator_1547',['FilterGenerator',['../classCatch_1_1Generators_1_1FilterGenerator.html#a28981d26f19e23454bf7dc5b74791836',1,'Catch::Generators::FilterGenerator']]],
+  ['filtergroupname_1548',['filterGroupName',['../namespacesst_1_1filters.html#a634ec4e9c3a9a1f69511266c3b4b6b77',1,'sst::filters']]],
+  ['filterplotter_1549',['FilterPlotter',['../classsst_1_1filters_1_1FilterPlotter.html#a1e39b5ce2f351a16b7dd75cb5dc50c21',1,'sst::filters::FilterPlotter']]],
+  ['filtertests_1550',['filterTests',['../namespaceCatch.html#ab5da9aa67c42a3f626aea07d0b556829',1,'Catch']]],
+  ['finalizedescription_1551',['finalizeDescription',['../namespaceCatch_1_1Matchers_1_1Generic_1_1Detail.html#a79ef1103073f7a8d31735436d2012835',1,'Catch::Matchers::Generic::Detail']]],
+  ['fixedvaluesgenerator_1552',['FixedValuesGenerator',['../classCatch_1_1Generators_1_1FixedValuesGenerator.html#aab41160bff7d0ca4de21072d4cd999fe',1,'Catch::Generators::FixedValuesGenerator']]],
+  ['formatreconstructedexpression_1553',['formatReconstructedExpression',['../namespaceCatch.html#a520110c31f26cf9892595772ab814fc0',1,'Catch']]],
+  ['from_5frange_1554',['from_range',['../namespaceCatch_1_1Generators.html#a9d2acedb284b77addf4397c1c26918f3',1,'Catch::Generators::from_range(InputIterator from, InputSentinel to)'],['../namespaceCatch_1_1Generators.html#aeb88d6a42add0362432ce03fa35b6dd4',1,'Catch::Generators::from_range(Container const &amp;cnt)']]],
+  ['fromdirect_1555',['FromDirect',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a0dc5bd487be9c5db01319420f9a73372',1,'sst::filters::FilterCoefficientMaker']]]
 ];

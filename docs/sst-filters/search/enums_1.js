@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['filtersubtype_740',['FilterSubType',['../namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1eba',1,'sst::filters']]],
-  ['filtertype_741',['FilterType',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94f',1,'sst::filters']]]
+  ['dlf_5fcoeffs_2051',['dlf_coeffs',['../namespacesst_1_1filters_1_1DiodeLadderFilter.html#a114cad316d03b044968b374c9f7a0861',1,'sst::filters::DiodeLadderFilter']]],
+  ['dlf_5fstate_2052',['dlf_state',['../namespacesst_1_1filters_1_1CutoffWarp.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::CutoffWarp::dlf_state()'],['../namespacesst_1_1filters_1_1DiodeLadderFilter.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::DiodeLadderFilter::dlf_state()'],['../namespacesst_1_1filters_1_1ResonanceWarp.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::ResonanceWarp::dlf_state()']]]
 ];

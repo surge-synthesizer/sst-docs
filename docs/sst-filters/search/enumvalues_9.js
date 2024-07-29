@@ -1,6 +1,14 @@
 var searchData=
 [
-  ['pole_5fmix_865',['pole_mix',['../namespacesst_1_1filters_1_1OBXDFilter.html#a433869c0a284007d9b9e625b994f1c19af803ef715db6d31af0f892f054b46ab1',1,'sst::filters::OBXDFilter']]],
-  ['pole_5fmix_5finv_5fint_866',['pole_mix_inv_int',['../namespacesst_1_1filters_1_1OBXDFilter.html#a433869c0a284007d9b9e625b994f1c19afc833e0c9be816aa34bdae433585274a',1,'sst::filters::OBXDFilter']]],
-  ['pole_5fmix_5fscaled_867',['pole_mix_scaled',['../namespacesst_1_1filters_1_1OBXDFilter.html#a433869c0a284007d9b9e625b994f1c19ae2d0cbcc6717059a3dcc00c516da3bdc',1,'sst::filters::OBXDFilter']]]
+  ['k35_5f2z_2167',['k35_2z',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042ae02a307db9149e9884e8cf0146ec36dd',1,'sst::filters::K35Filter']]],
+  ['k35_5falpha_2168',['k35_alpha',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a9468cf0685637c39cd34d082aa39552b',1,'sst::filters::K35Filter']]],
+  ['k35_5fg_2169',['k35_G',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a565150e9aaa4cf48581419d151fa88ab',1,'sst::filters::K35Filter']]],
+  ['k35_5fhb_2170',['k35_hb',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a306b245d6d883ffe652a2606869f6236',1,'sst::filters::K35Filter']]],
+  ['k35_5fhz_2171',['k35_hz',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042a19e8002e25a3ce414fa70c6595845015',1,'sst::filters::K35Filter']]],
+  ['k35_5fk_2172',['k35_k',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a8b06ad07d1de935eb8bf2c4035fbfc63',1,'sst::filters::K35Filter']]],
+  ['k35_5flb_2173',['k35_lb',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a7882e731d88b726aa4af569a7d5d43b6',1,'sst::filters::K35Filter']]],
+  ['k35_5flz_2174',['k35_lz',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042a954e6dcc132150583f606904e1cfc16f',1,'sst::filters::K35Filter']]],
+  ['k35_5fsaturation_2175',['k35_saturation',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a57b52c85edbe95a4bdfa5636c97e4da9',1,'sst::filters::K35Filter']]],
+  ['k35_5fsaturation_5fblend_2176',['k35_saturation_blend',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a0366b6092da73d42b789fa4c5cc658fd',1,'sst::filters::K35Filter']]],
+  ['k35_5fsaturation_5fblend_5finv_2177',['k35_saturation_blend_inv',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a25363971234bc196359513f32823ee16',1,'sst::filters::K35Filter']]]
 ];

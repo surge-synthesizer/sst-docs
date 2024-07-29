@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['dlf_5fcoeffs_738',['dlf_coeffs',['../namespacesst_1_1filters_1_1DiodeLadderFilter.html#a114cad316d03b044968b374c9f7a0861',1,'sst::filters::DiodeLadderFilter']]],
-  ['dlf_5fstate_739',['dlf_state',['../namespacesst_1_1filters_1_1CutoffWarp.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::CutoffWarp::dlf_state()'],['../namespacesst_1_1filters_1_1DiodeLadderFilter.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::DiodeLadderFilter::dlf_state()'],['../namespacesst_1_1filters_1_1ResonanceWarp.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::ResonanceWarp::dlf_state()']]]
+  ['choice_2050',['Choice',['../structCatch_1_1CaseSensitive.html#ac5102e0b11ce43d0b9ef595c3c3ab0c3',1,'Catch::CaseSensitive']]]
 ];

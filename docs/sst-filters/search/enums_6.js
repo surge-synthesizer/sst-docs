@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['params_750',['Params',['../namespacesst_1_1filters_1_1OBXDFilter.html#ab126c13bc335f4a996ef88c85aec7a24',1,'sst::filters::OBXDFilter']]],
-  ['poles_751',['Poles',['../namespacesst_1_1filters_1_1OBXDFilter.html#a7333b0d7a4b5625e532f3f704feb0a0e',1,'sst::filters::OBXDFilter']]]
+  ['mode_2061',['Mode',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911',1,'sst::filters::CytomicSVF']]]
 ];

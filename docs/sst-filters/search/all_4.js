@@ -1,7 +1,27 @@
 var searchData=
 [
-  ['eight_5fseven_5fsix_54',['eight_seven_six',['../namespacesst_1_1filters_1_1OBXDFilter.html#ab14d0a6f2090f21f878beb61d5297499',1,'sst::filters::OBXDFilter']]],
-  ['encodems_55',['encodeMS',['../namespacesst_1_1filters_1_1utilities.html#a27fd0f84effb1959572cb58f1517d1a9',1,'sst::filters::utilities']]],
-  ['endfreqhz_56',['endFreqHz',['../structsst_1_1filters_1_1FilterPlotParameters.html#a52a82197d986eb76ae542135bec4673c',1,'sst::filters::FilterPlotParameters']]],
-  ['extended_5fcomb_57',['EXTENDED_COMB',['../namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964',1,'sst::filters']]]
+  ['eight_5fseven_5fsix_238',['eight_seven_six',['../namespacesst_1_1filters_1_1OBXDFilter.html#ab14d0a6f2090f21f878beb61d5297499',1,'sst::filters::OBXDFilter']]],
+  ['emplaceunscopedmessage_239',['emplaceUnscopedMessage',['../structCatch_1_1IResultCapture.html#afb16467a89f969d68a61ad1667df168f',1,'Catch::IResultCapture']]],
+  ['empty_240',['empty',['../classCatch_1_1StringRef.html#a918aa2db77648f4bd28d098b2291208a',1,'Catch::StringRef::empty()'],['../structCatch_1_1SourceLineInfo.html#a3f6fc5de06a318920d84f3c3742db07f',1,'Catch::SourceLineInfo::empty()']]],
+  ['end_241',['end',['../classCatch_1_1StringRef.html#a428cfcc26f33036be7c76ab287ea06c5',1,'Catch::StringRef']]],
+  ['endfreqhz_242',['endFreqHz',['../structsst_1_1filters_1_1FilterPlotParameters.html#a52a82197d986eb76ae542135bec4673c',1,'sst::filters::FilterPlotParameters']]],
+  ['endswith_243',['EndsWith',['../namespaceCatch_1_1Matchers.html#ae5a45efb4538c57c43e04f3f9043ad6e',1,'Catch::Matchers']]],
+  ['endswith_244',['endsWith',['../namespaceCatch.html#afd801a3e33fd7a8b91ded0d02747a93f',1,'Catch::endsWith(std::string const &amp;s, char suffix)'],['../namespaceCatch.html#ada025504f627feaf9ac68ca391515dff',1,'Catch::endsWith(std::string const &amp;s, std::string const &amp;suffix)']]],
+  ['endswithmatcher_245',['EndsWithMatcher',['../structCatch_1_1Matchers_1_1StdString_1_1EndsWithMatcher.html',1,'EndsWithMatcher'],['../structCatch_1_1Matchers_1_1StdString_1_1EndsWithMatcher.html#a6f26b8f4520d36620d66b128b6adc7fa',1,'Catch::Matchers::StdString::EndsWithMatcher::EndsWithMatcher()']]],
+  ['enuminfo_246',['EnumInfo',['../structCatch_1_1Detail_1_1EnumInfo.html',1,'Catch::Detail']]],
+  ['epsilon_247',['epsilon',['../classCatch_1_1Detail_1_1Approx.html#a815392ed384fbcf5a858db3c7a77427f',1,'Catch::Detail::Approx::epsilon()'],['../structCatch_1_1Matchers_1_1Vector_1_1ApproxMatcher.html#a85cb827583e3c5d8468541c00997a686',1,'Catch::Matchers::Vector::ApproxMatcher::epsilon()']]],
+  ['equals_248',['Equals',['../namespaceCatch_1_1Matchers.html#af8af7dfc338335ed4c788cb1b37fc59f',1,'Catch::Matchers::Equals(std::string const &amp;str, CaseSensitive::Choice caseSensitivity=CaseSensitive::Yes)'],['../namespaceCatch_1_1Matchers.html#a3ab7fff821bc655bd4875cc1aa745101',1,'Catch::Matchers::Equals(std::vector&lt; T, AllocComp &gt; const &amp;comparator)']]],
+  ['equalsmatcher_249',['EqualsMatcher',['../structCatch_1_1Matchers_1_1StdString_1_1EqualsMatcher.html',1,'EqualsMatcher'],['../structCatch_1_1Matchers_1_1Vector_1_1EqualsMatcher.html',1,'EqualsMatcher&lt; T, AllocComp, AllocMatch &gt;'],['../structCatch_1_1Matchers_1_1StdString_1_1EqualsMatcher.html#a09dad110bfad2e4c31cf14336b66f98d',1,'Catch::Matchers::StdString::EqualsMatcher::EqualsMatcher()'],['../structCatch_1_1Matchers_1_1Vector_1_1EqualsMatcher.html#afafe881fd89d8f8119da2dbfc5e1907c',1,'Catch::Matchers::Vector::EqualsMatcher::EqualsMatcher()']]],
+  ['error_250',['error',['../structCatch_1_1Totals.html#a11614f44ef4d939bdd984953346a7572',1,'Catch::Totals']]],
+  ['exception_251',['Exception',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa17524a77b7673b0322cc15aa590d1e41',1,'Catch::ResultWas']]],
+  ['exceptionearlyreported_252',['exceptionEarlyReported',['../structCatch_1_1IResultCapture.html#ac1ec1b665bef0c1206c636436b7fb69d',1,'Catch::IResultCapture']]],
+  ['exceptionmessagematcher_253',['ExceptionMessageMatcher',['../classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher.html',1,'ExceptionMessageMatcher'],['../classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher.html#ad36cee92b97670fb5661758bf22e5e93',1,'Catch::Matchers::Exception::ExceptionMessageMatcher::ExceptionMessageMatcher()']]],
+  ['exceptiontranslatefunction_254',['exceptionTranslateFunction',['../namespaceCatch.html#a6f900893104846a2e846ed3bc2b2b9ed',1,'Catch']]],
+  ['exceptiontranslatorregistrar_255',['ExceptionTranslatorRegistrar',['../classCatch_1_1ExceptionTranslatorRegistrar.html',1,'ExceptionTranslatorRegistrar'],['../classCatch_1_1ExceptionTranslatorRegistrar.html#a41195e69dec3350b6b0af52ec3c95c1e',1,'Catch::ExceptionTranslatorRegistrar::ExceptionTranslatorRegistrar()']]],
+  ['exceptiontranslators_256',['ExceptionTranslators',['../namespaceCatch.html#af5fceb90be311e8dbcaabc51c8aba7ed',1,'Catch']]],
+  ['expectedtofail_257',['expectedToFail',['../structCatch_1_1TestCaseInfo.html#aba4bddd0635617aec213220cb0dc4efc',1,'Catch::TestCaseInfo']]],
+  ['explicitfailure_258',['ExplicitFailure',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa4d37b01bc48e760e3e50a51357eb98be',1,'Catch::ResultWas']]],
+  ['expressionfailed_259',['ExpressionFailed',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaad196f293906219128dbbdcdddba5245b',1,'Catch::ResultWas']]],
+  ['exprlhs_260',['ExprLhs',['../classCatch_1_1ExprLhs.html',1,'ExprLhs&lt; LhsT &gt;'],['../classCatch_1_1ExprLhs.html#a01faa5a338f454b1932fd3dae1337979',1,'Catch::ExprLhs::ExprLhs()']]],
+  ['extended_5fcomb_261',['EXTENDED_COMB',['../namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964',1,'sst::filters']]]
 ];

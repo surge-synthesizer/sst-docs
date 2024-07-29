@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unmask_5fsubtype_946',['UNMASK_SUBTYPE',['../namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0',1,'sst::filters']]]
+  ['ok_2226',['Ok',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa06d32f047358de4e6a30c28046f4688e',1,'Catch::ResultWas']]]
 ];

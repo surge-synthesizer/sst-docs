@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['sinctable_481',['SincTable',['../structsst_1_1filters_1_1utilities_1_1SincTable.html',1,'sst::filters::utilities']]]
+  ['decomposer_1258',['Decomposer',['../structCatch_1_1Decomposer.html',1,'Catch']]],
+  ['defaulttuninganddbadapter_1259',['DefaultTuningAndDBAdapter',['../structsst_1_1filters_1_1Biquad_1_1DefaultTuningAndDBAdapter.html',1,'sst::filters::Biquad']]]
 ];
