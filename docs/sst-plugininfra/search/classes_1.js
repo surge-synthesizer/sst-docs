@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['binaryexpr_1053',['BinaryExpr',['../classCatch_1_1BinaryExpr.html',1,'Catch']]],
-  ['binding_1054',['Binding',['../structsst_1_1plugininfra_1_1KeyMapManager_1_1Binding.html',1,'sst::plugininfra::KeyMapManager']]]
+  ['fpustateguard_75',['FPUStateGuard',['../structsst_1_1plugininfra_1_1cpufeatures_1_1FPUStateGuard.html',1,'sst::plugininfra::cpufeatures']]]
 ];
