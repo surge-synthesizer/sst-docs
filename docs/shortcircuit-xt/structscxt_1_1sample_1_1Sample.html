@@ -173,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c118a56bf5fd6f887506fff5d9478d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a772d5960b176004c19c05448caca753f"><td class="memItemLeft" align="right" valign="top">const fs::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a772d5960b176004c19c05448caca753f">getPath</a> () const</td></tr>
 <tr class="separator:a772d5960b176004c19c05448caca753f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20005311aa045ecc418018ff9fbb990e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a20005311aa045ecc418018ff9fbb990e">getMD5Sum</a> () const</td></tr>
+<tr class="separator:a20005311aa045ecc418018ff9fbb990e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3cb24d9917c5789fd7d77b29abcb044"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#ae3cb24d9917c5789fd7d77b29abcb044">getCompoundPreset</a> () const</td></tr>
 <tr class="separator:ae3cb24d9917c5789fd7d77b29abcb044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c9aefe2e0ffa7fb7bb22d738c6c37bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a6c9aefe2e0ffa7fb7bb22d738c6c37bb">getCompoundInstrument</a> () const</td></tr>
@@ -254,6 +256,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa2d2c7128429e05a9821ecdc992afec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd54db44deb77f599f600479aea631a3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#abd54db44deb77f599f600479aea631a3">displayName</a> {}</td></tr>
 <tr class="separator:abd54db44deb77f599f600479aea631a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0cd658a947f15c542f739648c23420"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#aac0cd658a947f15c542f739648c23420">md5Sum</a> {}</td></tr>
+<tr class="separator:aac0cd658a947f15c542f739648c23420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9d3076c7fd698357ca478e223b7286"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a2e9d3076c7fd698357ca478e223b7286">preset</a> {-1}</td></tr>
 <tr class="separator:a2e9d3076c7fd698357ca478e223b7286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdaec00e75d76173d9a0e57d97da359e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#afdaec00e75d76173d9a0e57d97da359e">instrument</a> {-1}</td></tr>
@@ -535,7 +539,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt.html#a57542d9e5c56204844cb51f16bfb5a23">scxt::extensionMatches()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1infrastructure.html#aa163d713da2d6bd75d50dffb24bdbc51">scxt::infrastructure::createMD5SumFromFile()</a>, and <a class="el" href="namespacescxt.html#a57542d9e5c56204844cb51f16bfb5a23">scxt::extensionMatches()</a>.</p>
 
 </div>
 </div>
@@ -603,6 +607,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#aca0ee3e9166266a388f3f890fc1cd31a">Sample::mFileName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2e2e29cf627ab83f3fbf677135623a1c">Sample::getSampleFileAddress()</a>.</p>
+
+</div>
+</div>
+<a id="a20005311aa045ecc418018ff9fbb990e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20005311aa045ecc418018ff9fbb990e">&#9670;&nbsp;</a></span>getMD5Sum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string getMD5Sum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#aac0cd658a947f15c542f739648c23420">Sample::md5Sum</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2e2e29cf627ab83f3fbf677135623a1c">Sample::getSampleFileAddress()</a>.</p>
 
@@ -686,7 +711,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a6c9aefe2e0ffa7fb7bb22d738c6c37bb">Sample::getCompoundInstrument()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae3cb24d9917c5789fd7d77b29abcb044">Sample::getCompoundPreset()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae39b205b2c6ef2edc8435c558bc8f9aa">Sample::getCompoundRegion()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a772d5960b176004c19c05448caca753f">Sample::getPath()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a6c9aefe2e0ffa7fb7bb22d738c6c37bb">Sample::getCompoundInstrument()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae3cb24d9917c5789fd7d77b29abcb044">Sample::getCompoundPreset()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae39b205b2c6ef2edc8435c558bc8f9aa">Sample::getCompoundRegion()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a20005311aa045ecc418018ff9fbb990e">Sample::getMD5Sum()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a772d5960b176004c19c05448caca753f">Sample::getPath()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 </div>
 </div>
@@ -1570,6 +1595,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aac0cd658a947f15c542f739648c23420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0cd658a947f15c542f739648c23420">&#9670;&nbsp;</a></span>md5Sum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string md5Sum {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#a20005311aa045ecc418018ff9fbb990e">Sample::getMD5Sum()</a>.</p>
+
+</div>
+</div>
 <a id="a2e9d3076c7fd698357ca478e223b7286"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e9d3076c7fd698357ca478e223b7286">&#9670;&nbsp;</a></span>preset</h2>
 
@@ -2111,7 +2152,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 5 2024 21:04:52 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Aug 6 2024 00:40:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
