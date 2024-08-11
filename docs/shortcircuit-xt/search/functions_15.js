@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['velocityrange_4851',['VelocityRange',['../structscxt_1_1engine_1_1VelocityRange.html#aae946f892fff32c07600a012e3aaf440',1,'scxt::engine::VelocityRange::VelocityRange()=default'],['../structscxt_1_1engine_1_1VelocityRange.html#aae0a2345c186d718d1015194e95a1322',1,'scxt::engine::VelocityRange::VelocityRange(int s, int e)']]],
-  ['visibilitychanged_4852',['visibilityChanged',['../structscxt_1_1ui_1_1AboutScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::AboutScreen::visibilityChanged()'],['../structscxt_1_1ui_1_1LogScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::LogScreen::visibilityChanged()'],['../structscxt_1_1ui_1_1MixerScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::MixerScreen::visibilityChanged()'],['../structscxt_1_1ui_1_1WelcomeScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::WelcomeScreen::visibilityChanged()']]],
-  ['voice_4853',['Voice',['../structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356',1,'scxt::voice::Voice']]],
-  ['voicecountfor_4854',['voiceCountFor',['../structscxt_1_1ui_1_1multi_1_1MappingDisplay.html#abb36c68332ca09cf02ba8be03f94d2b1',1,'scxt::ui::multi::MappingDisplay']]],
-  ['voicecountforinitializationaction_4855',['voiceCountForInitializationAction',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a5b014898c3044c8fc509941ab9f9bb45',1,'scxt::engine::Engine::VoiceManagerResponder']]],
-  ['voicemanagerresponder_4856',['VoiceManagerResponder',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a662d0f97671e0d3ad5c02ad8374aa6c8',1,'scxt::engine::Engine::VoiceManagerResponder']]],
-  ['voicestarted_4857',['voiceStarted',['../structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520',1,'scxt::voice::Voice']]]
+  ['velocityrange_4859',['VelocityRange',['../structscxt_1_1engine_1_1VelocityRange.html#aae946f892fff32c07600a012e3aaf440',1,'scxt::engine::VelocityRange::VelocityRange()=default'],['../structscxt_1_1engine_1_1VelocityRange.html#aae0a2345c186d718d1015194e95a1322',1,'scxt::engine::VelocityRange::VelocityRange(int s, int e)']]],
+  ['visibilitychanged_4860',['visibilityChanged',['../structscxt_1_1ui_1_1AboutScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::AboutScreen::visibilityChanged()'],['../structscxt_1_1ui_1_1LogScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::LogScreen::visibilityChanged()'],['../structscxt_1_1ui_1_1MixerScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::MixerScreen::visibilityChanged()'],['../structscxt_1_1ui_1_1WelcomeScreen.html#a017838bc9dfe9fac4f47396d49c5dc28',1,'scxt::ui::WelcomeScreen::visibilityChanged()']]],
+  ['voice_4861',['Voice',['../structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356',1,'scxt::voice::Voice']]],
+  ['voicecountfor_4862',['voiceCountFor',['../structscxt_1_1ui_1_1multi_1_1MappingDisplay.html#abb36c68332ca09cf02ba8be03f94d2b1',1,'scxt::ui::multi::MappingDisplay']]],
+  ['voicecountforinitializationaction_4863',['voiceCountForInitializationAction',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a5b014898c3044c8fc509941ab9f9bb45',1,'scxt::engine::Engine::VoiceManagerResponder']]],
+  ['voicemanagerresponder_4864',['VoiceManagerResponder',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a662d0f97671e0d3ad5c02ad8374aa6c8',1,'scxt::engine::Engine::VoiceManagerResponder']]],
+  ['voicestarted_4865',['voiceStarted',['../structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520',1,'scxt::voice::Voice']]]
 ];
