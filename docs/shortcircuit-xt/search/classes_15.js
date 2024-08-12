@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['ziparchiveholder_3561',['ZipArchiveHolder',['../structscxt_1_1sample_1_1ZipArchiveHolder.html',1,'scxt::sample']]],
-  ['zone_3562',['Zone',['../structscxt_1_1engine_1_1Zone.html',1,'scxt::engine']]],
-  ['zoneaddress_3563',['ZoneAddress',['../structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html',1,'scxt::selection::SelectionManager']]],
-  ['zonemappingdata_3564',['ZoneMappingData',['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html',1,'scxt::engine::Zone']]],
-  ['zoneorgroupelements_3565',['ZoneOrGroupElements',['../structscxt_1_1ui_1_1MultiScreen_1_1ZoneOrGroupElements.html',1,'scxt::ui::MultiScreen']]],
-  ['zoneoutputinfo_3566',['ZoneOutputInfo',['../structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html',1,'scxt::engine::Zone']]],
-  ['zonesidebar_3567',['ZoneSidebar',['../structscxt_1_1ui_1_1multi_1_1ZoneSidebar.html',1,'scxt::ui::multi']]],
-  ['zonetraits_3568',['ZoneTraits',['../structscxt_1_1ui_1_1MultiScreen_1_1ZoneTraits.html',1,'scxt::ui::MultiScreen']]],
-  ['zoomable_3569',['Zoomable',['../structscxt_1_1ui_1_1multi_1_1Zoomable.html',1,'scxt::ui::multi']]],
-  ['zoomablewaveform_3570',['ZoomableWaveform',['../structscxt_1_1ui_1_1multi_1_1SampleDisplay_1_1ZoomableWaveform.html',1,'scxt::ui::multi::SampleDisplay']]],
-  ['zoomfactor_3571',['zoomFactor',['../structscxt_1_1ui_1_1multi_1_1Zoomable_1_1zoomFactor.html',1,'scxt::ui::multi::Zoomable']]]
+  ['wave_5facid_5fchunk_3608',['wave_acid_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html',1,'scxt::sample::loaders']]],
+  ['wave_5finst_5fchunk_3609',['wave_inst_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html',1,'scxt::sample::loaders']]],
+  ['wave_5fstrc_5fentry_3610',['wave_strc_entry',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__entry.html',1,'scxt::sample::loaders']]],
+  ['wave_5fstrc_5fheader_3611',['wave_strc_header',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__header.html',1,'scxt::sample::loaders']]],
+  ['wavheader_3612',['wavheader',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html',1,'scxt::sample::loaders']]],
+  ['welcomescreen_3613',['WelcomeScreen',['../structscxt_1_1ui_1_1WelcomeScreen.html',1,'scxt::ui']]],
+  ['wireframecolors_3614',['WireframeColors',['../structscxt_1_1ui_1_1theme_1_1WireframeColors.html',1,'scxt::ui::theme']]],
+  ['writerworker_3615',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'scxt::browser']]]
 ];

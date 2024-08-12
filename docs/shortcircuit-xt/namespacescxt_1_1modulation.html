@@ -137,8 +137,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae4e7fc3f59568b85161947e4d2405d71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5">groupMatrixMetadata_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1modulation.html#ae4e7fc3f59568b85161947e4d2405d71">getGroupMatrixMetadata</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html">engine::Group</a> &amp;g)</td></tr>
-<tr class="separator:ae4e7fc3f59568b85161947e4d2405d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b886e5fbdf91f92125198eb96713a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5">groupMatrixMetadata_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1modulation.html#ad0b886e5fbdf91f92125198eb96713a1">getGroupMatrixMetadata</a> (const <a class="el" href="structscxt_1_1engine_1_1Group.html">engine::Group</a> &amp;g)</td></tr>
+<tr class="separator:ad0b886e5fbdf91f92125198eb96713a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89f81b325d546e63f5074da3a0c4f387"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1modulation.html#a89f81b325d546e63f5074da3a0c4f387">secondsToNormalizedEnvTime</a> (double s)</td></tr>
 <tr class="separator:a89f81b325d546e63f5074da3a0c4f387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -256,8 +256,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae4e7fc3f59568b85161947e4d2405d71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4e7fc3f59568b85161947e4d2405d71">&#9670;&nbsp;</a></span>getGroupMatrixMetadata()</h2>
+<a id="ad0b886e5fbdf91f92125198eb96713a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b886e5fbdf91f92125198eb96713a1">&#9670;&nbsp;</a></span>getGroupMatrixMetadata()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +265,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5">groupMatrixMetadata_t</a> getGroupMatrixMetadata </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Group.html">engine::Group</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Group.html">engine::Group</a> &amp;&#160;</td>
           <td class="paramname"><em>g</em></td><td>)</td>
           <td></td>
         </tr>
@@ -274,7 +274,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a4c7480820975ac36da69bcb76180d9c7">ModulationCurves::allCurves</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a4c286d7071c9e048d5ccad1d0da8e3aa">ModulationCurves::curveNames</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aea04a8c27813a0dcdee556ca70d3409d">Engine::groupModSources</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#affd0ede8d72f996e7b4a922042b7a2fa">Engine::groupModTargets</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">scxt::messaging::client::setProcessorType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">scxt::messaging::client::setProcessorType()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aadc1e4d411f3dcf084ddf32252077ae3">scxt::messaging::client::updateMacroFullState()</a>.</p>
 
 </div>
 </div>
@@ -299,7 +299,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 11 2024 21:08:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Aug 12 2024 18:33:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

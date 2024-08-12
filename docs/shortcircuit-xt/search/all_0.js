@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['a_0',['A',['../structscxt_1_1ui_1_1multi_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::multi::AdsrPane::UIStore']]],
-  ['a_1',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage']]],
+  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage']]],
+  ['a_1',['A',['../structscxt_1_1ui_1_1multi_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::multi::AdsrPane::UIStore']]],
   ['a1_2',['a1',['../structscxt_1_1ui_1_1multi_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::multi::ModRow']]],
   ['a2_3',['a2',['../structscxt_1_1ui_1_1multi_1_1ModRow.html#a4dfbc2824813cd40f00fe10560e57827',1,'scxt::ui::multi::ModRow']]],
   ['a2s_5fnone_4',['a2s_none',['../namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeac8f1aafc39c9defe3850f070e3cf27f6',1,'scxt::messaging::audio']]],
@@ -164,8 +164,8 @@ var searchData=
   ['auxattachments_161',['auxAttachments',['../structscxt_1_1ui_1_1mixer_1_1ChannelStrip.html#a5c173d6bb580abb6f7ba6914a123ce70',1,'scxt::ui::mixer::ChannelStrip']]],
   ['auxbusses_162',['auxBusses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#a46ef26c886fc445b54d3c4c071ff900d',1,'scxt::engine::Patch::Busses']]],
   ['auxlabel_163',['auxLabel',['../structscxt_1_1ui_1_1mixer_1_1ChannelStrip.html#a62286cab4aa2369c58e0921c8fdc07c3',1,'scxt::ui::mixer::ChannelStrip']]],
-  ['auxlocation_164',['auxLocation',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#ab26241814dbcea6b2a648b59e71798e4',1,'scxt::engine::Bus::BusSendStorage']]],
-  ['auxlocation_165',['AuxLocation',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a2a79863b610e64afc88282f0dee0f411',1,'scxt::engine::Bus::BusSendStorage']]],
+  ['auxlocation_164',['AuxLocation',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a2a79863b610e64afc88282f0dee0f411',1,'scxt::engine::Bus::BusSendStorage']]],
+  ['auxlocation_165',['auxLocation',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#ab26241814dbcea6b2a648b59e71798e4',1,'scxt::engine::Bus::BusSendStorage']]],
   ['auxoutputpostvca_166',['auxoutputPostVCA',['../structscxt_1_1engine_1_1Bus.html#a0aae9dc175e62a8887f90bad062a64ec',1,'scxt::engine::Bus']]],
   ['auxoutputprefx_167',['auxoutputPreFX',['../structscxt_1_1engine_1_1Bus.html#a9d6b1733629e9d4255b6a79b6bc454d2',1,'scxt::engine::Bus']]],
   ['auxoutputprevca_168',['auxoutputPreVCA',['../structscxt_1_1engine_1_1Bus.html#aa0a981f8c66c55403f4983074660a43b',1,'scxt::engine::Bus']]],

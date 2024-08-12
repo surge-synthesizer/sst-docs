@@ -1,26 +1,9 @@
 var searchData=
 [
-  ['part_3445',['Part',['../structscxt_1_1engine_1_1Part.html',1,'scxt::engine']]],
-  ['parteffectspane_3446',['PartEffectsPane',['../structscxt_1_1ui_1_1mixer_1_1PartEffectsPane.html',1,'scxt::ui::mixer']]],
-  ['partgroupsidebar_3447',['PartGroupSidebar',['../structscxt_1_1ui_1_1multi_1_1PartGroupSidebar.html',1,'scxt::ui::multi']]],
-  ['partsidebar_3448',['PartSidebar',['../structscxt_1_1ui_1_1multi_1_1PartSidebar.html',1,'scxt::ui::multi']]],
-  ['patch_3449',['Patch',['../structscxt_1_1engine_1_1Patch.html',1,'scxt::engine']]],
-  ['pathtozone_5ft_3450',['pathToZone_t',['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html',1,'scxt::engine::Engine']]],
-  ['payload_3451',['Payload',['../unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html',1,'AudioToSerialization::Payload'],['../unionscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1Payload.html',1,'SerializationToAudio::Payload']]],
-  ['payloaddataattachment_3452',['PayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html',1,'scxt::ui::connectors']]],
-  ['playscreen_3453',['PlayScreen',['../structscxt_1_1ui_1_1PlayScreen.html',1,'scxt::ui']]],
-  ['posiximpl_3454',['posixImpl',['../structscxt_1_1infrastructure_1_1posixImpl.html',1,'scxt::infrastructure']]],
-  ['processor_3455',['Processor',['../structscxt_1_1dsp_1_1processor_1_1Processor.html',1,'scxt::dsp::processor']]],
-  ['processorcontroldescription_3456',['ProcessorControlDescription',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html',1,'scxt::dsp::processor']]],
-  ['processordefaultmix_3457',['ProcessorDefaultMix',['../structscxt_1_1dsp_1_1processor_1_1ProcessorDefaultMix.html',1,'scxt::dsp::processor']]],
-  ['processordescription_3458',['ProcessorDescription',['../structscxt_1_1dsp_1_1processor_1_1ProcessorDescription.html',1,'scxt::dsp::processor']]],
-  ['processorimplementor_3459',['ProcessorImplementor',['../structscxt_1_1dsp_1_1processor_1_1ProcessorImplementor.html',1,'scxt::dsp::processor']]],
-  ['processorpane_3460',['ProcessorPane',['../structscxt_1_1ui_1_1multi_1_1ProcessorPane.html',1,'scxt::ui::multi']]],
-  ['processorstorage_3461',['ProcessorStorage',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html',1,'scxt::dsp::processor']]],
-  ['processortarget_3462',['ProcessorTarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1ProcessorTarget.html',1,'GroupMatrixEndpoints::ProcessorTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1ProcessorTarget.html',1,'MatrixEndpoints::ProcessorTarget']]],
-  ['processortargetendpointdata_3463',['ProcessorTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['processortargetendpointdata_3c_20tg_2c_20_27gprc_27_3e_3464',['ProcessorTargetEndpointData&lt; TG, &apos;gprc&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['processortargetendpointdata_3c_20tg_2c_20_27proc_27_3e_3465',['ProcessorTargetEndpointData&lt; TG, &apos;proc&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['proctab_3466',['ProcTab',['../structscxt_1_1ui_1_1multi_1_1ProcTab.html',1,'scxt::ui::multi']]],
-  ['pt_3467',['pt',['../structscxt_1_1ui_1_1multi_1_1EqDisplaySupport_1_1pt.html',1,'scxt::ui::multi::EqDisplaySupport']]]
+  ['opcode_3493',['OpCode',['../structscxt_1_1sfz__support_1_1SFZParser_1_1OpCode.html',1,'scxt::sfz_support::SFZParser']]],
+  ['outpanegrouptraits_3494',['OutPaneGroupTraits',['../structscxt_1_1ui_1_1multi_1_1OutPaneGroupTraits.html',1,'scxt::ui::multi']]],
+  ['outpanezonetraits_3495',['OutPaneZoneTraits',['../structscxt_1_1ui_1_1multi_1_1OutPaneZoneTraits.html',1,'scxt::ui::multi']]],
+  ['outputpane_3496',['OutputPane',['../structscxt_1_1ui_1_1multi_1_1OutputPane.html',1,'scxt::ui::multi']]],
+  ['outputtab_3497',['OutputTab',['../structscxt_1_1ui_1_1multi_1_1OutputTab.html',1,'scxt::ui::multi']]],
+  ['outputtarget_3498',['OutputTarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html',1,'GroupMatrixEndpoints::OutputTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1OutputTarget.html',1,'MatrixEndpoints::OutputTarget']]]
 ];

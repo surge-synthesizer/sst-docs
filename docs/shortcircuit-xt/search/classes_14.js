@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['wave_5facid_5fchunk_3553',['wave_acid_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html',1,'scxt::sample::loaders']]],
-  ['wave_5finst_5fchunk_3554',['wave_inst_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html',1,'scxt::sample::loaders']]],
-  ['wave_5fstrc_5fentry_3555',['wave_strc_entry',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__entry.html',1,'scxt::sample::loaders']]],
-  ['wave_5fstrc_5fheader_3556',['wave_strc_header',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__header.html',1,'scxt::sample::loaders']]],
-  ['wavheader_3557',['wavheader',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html',1,'scxt::sample::loaders']]],
-  ['welcomescreen_3558',['WelcomeScreen',['../structscxt_1_1ui_1_1WelcomeScreen.html',1,'scxt::ui']]],
-  ['wireframecolors_3559',['WireframeColors',['../structscxt_1_1ui_1_1theme_1_1WireframeColors.html',1,'scxt::ui::theme']]],
-  ['writerworker_3560',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'scxt::browser']]]
+  ['velocityrange_3603',['VelocityRange',['../structscxt_1_1engine_1_1VelocityRange.html',1,'scxt::engine']]],
+  ['vmconfig_3604',['VMConfig',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html',1,'scxt::engine::Engine']]],
+  ['voice_3605',['Voice',['../structscxt_1_1voice_1_1Voice.html',1,'scxt::voice']]],
+  ['voicedisplaystateitem_3606',['VoiceDisplayStateItem',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html',1,'scxt::engine::Engine::SharedUIMemoryState']]],
+  ['voicemanagerresponder_3607',['VoiceManagerResponder',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html',1,'scxt::engine::Engine']]]
 ];

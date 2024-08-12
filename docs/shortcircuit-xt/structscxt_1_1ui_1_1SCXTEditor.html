@@ -193,6 +193,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae212ecd0576d8c72598ce4c7fef1211f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af38205a97c059775a223e32791976bdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#af38205a97c059775a223e32791976bdd">onAllProcessorDescriptions</a> (const std::vector&lt; <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorDescription.html">dsp::processor::ProcessorDescription</a> &gt; &amp;v)</td></tr>
 <tr class="separator:af38205a97c059775a223e32791976bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827f35c9e5ce3ffda837fe698c57484b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a827f35c9e5ce3ffda837fe698c57484b">onMacroFullState</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa5baf2e40994f43a1a595947155a606e">scxt::messaging::client::macroFullState_t</a> &amp;)</td></tr>
+<tr class="separator:a827f35c9e5ce3ffda837fe698c57484b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c634b0082b81880fe3c77fd138d7dce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a2c634b0082b81880fe3c77fd138d7dce">onMacroValue</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a02f1ef61f935b1c500b4f260666b6a23">scxt::messaging::client::macroValue_t</a> &amp;)</td></tr>
+<tr class="separator:a2c634b0082b81880fe3c77fd138d7dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8556b0a82a85546b031fddac2a374ce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a8556b0a82a85546b031fddac2a374ce8">doSelectionAction</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;, bool selecting, bool distinct, bool asLead)</td></tr>
 <tr class="separator:a8556b0a82a85546b031fddac2a374ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77b3f0054b11d9ad4a04efe4871ce5ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a77b3f0054b11d9ad4a04efe4871ce5ea">doSelectionAction</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html">selection::SelectionManager::SelectActionContents</a> &amp;)</td></tr>
@@ -272,6 +276,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4afd2843a741dc96d43f51fc7c7c7ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2037652d3b0a98e9164b025131d4ffee"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorDescription.html">dsp::processor::ProcessorDescription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a2037652d3b0a98e9164b025131d4ffee">allProcessors</a></td></tr>
 <tr class="separator:a2037652d3b0a98e9164b025131d4ffee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7572e65c8d1a81507ad4048867bb8a2"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>, scxt::macrosPerPart &gt;, scxt::numParts &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#af7572e65c8d1a81507ad4048867bb8a2">macroCache</a></td></tr>
+<tr class="separator:af7572e65c8d1a81507ad4048867bb8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426431ad08fe0fe24310ddbda4d9f1d2"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a426431ad08fe0fe24310ddbda4d9f1d2">currentLeadZoneSelection</a></td></tr>
 <tr class="separator:a426431ad08fe0fe24310ddbda4d9f1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae675321833a69544d265e3510b2fba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a8ae675321833a69544d265e3510b2fba">allZoneSelections</a></td></tr>
@@ -442,7 +448,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a562978ff8c4be1b9acce2df720c5de20">SCXTEditor::themeApplier</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroDisplay.html#a9ddec51f0a0c8259e3da0a791f11b959">MacroDisplay::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1StepLFOPane_1_1StepRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">StepLFOPane::StepRender::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1Keyboard.html#a4f2c219a2cbbd6b61e7c41564dac6169">Keyboard::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingZones.html#a4f2c219a2cbbd6b61e7c41564dac6169">MappingZones::paint()</a>, and <a class="el" href="structscxt_1_1ui_1_1WelcomeScreen.html#a4f2c219a2cbbd6b61e7c41564dac6169">WelcomeScreen::paint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#a4fc5985fa7d6fd8132a6eebbe859a36e">SingleMacroEditor::onStyleChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1StepLFOPane_1_1StepRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">StepLFOPane::StepRender::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1Keyboard.html#a4f2c219a2cbbd6b61e7c41564dac6169">Keyboard::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingZones.html#a4f2c219a2cbbd6b61e7c41564dac6169">MappingZones::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1NarrowVerticalMenu.html#a4f2c219a2cbbd6b61e7c41564dac6169">NarrowVerticalMenu::paint()</a>, and <a class="el" href="structscxt_1_1ui_1_1WelcomeScreen.html#a4f2c219a2cbbd6b61e7c41564dac6169">WelcomeScreen::paint()</a>.</p>
 
 </div>
 </div>
@@ -1164,6 +1170,46 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a827f35c9e5ce3ffda837fe698c57484b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827f35c9e5ce3ffda837fe698c57484b">&#9670;&nbsp;</a></span>onMacroFullState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onMacroFullState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa5baf2e40994f43a1a595947155a606e">scxt::messaging::client::macroFullState_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#af7572e65c8d1a81507ad4048867bb8a2">SCXTEditor::macroCache</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a27ce1e75782f9b3658a8955ce7928e0c">SCXTEditor::multiScreen</a>.</p>
+
+</div>
+</div>
+<a id="a2c634b0082b81880fe3c77fd138d7dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c634b0082b81880fe3c77fd138d7dce">&#9670;&nbsp;</a></span>onMacroValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onMacroValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a02f1ef61f935b1c500b4f260666b6a23">scxt::messaging::client::macroValue_t</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#ac5856f216c4e61269838ba634d799388">SCLOG_WFUNC</a>.</p>
+
+</div>
+</div>
 <a id="a8556b0a82a85546b031fddac2a374ce8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8556b0a82a85546b031fddac2a374ce8">&#9670;&nbsp;</a></span>doSelectionAction() <span class="overload">[1/2]</span></h2>
 
@@ -1365,7 +1411,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a9c77147098a7a532ef631d348e7209ff">SCXTEditor::setTooltipContents()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad">ModRow&lt; GZTrait &gt;::updateTooltip()</a>, and <a class="el" href="structscxt_1_1ui_1_1HasEditor.html#a4944d08fa01b119c220cb92ed6802d7e">HasEditor::updateValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a9c77147098a7a532ef631d348e7209ff">SCXTEditor::setTooltipContents()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroValueAttachment.html#a1b8455cde112285aa6020040a06fcf2a">MacroValueAttachment::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad">ModRow&lt; GZTrait &gt;::updateTooltip()</a>, and <a class="el" href="structscxt_1_1ui_1_1HasEditor.html#a4944d08fa01b119c220cb92ed6802d7e">HasEditor::updateValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1697,7 +1743,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1HeaderRegion.html#a2c96b0935386c0e0676b2af06f035825">HeaderRegion::HeaderRegion()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroDisplay.html#a9ddec51f0a0c8259e3da0a791f11b959">MacroDisplay::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1Keyboard.html#a4f2c219a2cbbd6b61e7c41564dac6169">Keyboard::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingZones.html#a4f2c219a2cbbd6b61e7c41564dac6169">MappingZones::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1WelcomeScreen.html#a4f2c219a2cbbd6b61e7c41564dac6169">WelcomeScreen::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1LfoPane.html#ae4c27ae89339d9200bc83ac1c8f957fb">LfoPane::rebuildPanelComponents()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a90d4c69bf62b6eb3ba41a736f4d571d3">SCXTEditor::themeColor()</a>, and <a class="el" href="structscxt_1_1ui_1_1MultiScreen_1_1ZoneOrGroupElements.html#a6038db708492953475ef2aa588cccebd">MultiScreen::ZoneOrGroupElements&lt; ZGTrait &gt;::ZoneOrGroupElements()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1HeaderRegion.html#a2c96b0935386c0e0676b2af06f035825">HeaderRegion::HeaderRegion()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#a4fc5985fa7d6fd8132a6eebbe859a36e">SingleMacroEditor::onStyleChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1Keyboard.html#a4f2c219a2cbbd6b61e7c41564dac6169">Keyboard::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingZones.html#a4f2c219a2cbbd6b61e7c41564dac6169">MappingZones::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1WelcomeScreen.html#a4f2c219a2cbbd6b61e7c41564dac6169">WelcomeScreen::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1LfoPane.html#ae4c27ae89339d9200bc83ac1c8f957fb">LfoPane::rebuildPanelComponents()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a90d4c69bf62b6eb3ba41a736f4d571d3">SCXTEditor::themeColor()</a>, and <a class="el" href="structscxt_1_1ui_1_1MultiScreen_1_1ZoneOrGroupElements.html#a6038db708492953475ef2aa588cccebd">MultiScreen::ZoneOrGroupElements&lt; ZGTrait &gt;::ZoneOrGroupElements()</a>.</p>
 
 </div>
 </div>
@@ -1823,7 +1869,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a83abbeda22fc5e6c2b35523b64199c1c">SCXTEditor::idle()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#aa0b4ac59513a9b5abe352daf1fb77e4a">SCXTEditor::onBrowserRefresh()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a2adf10f850010b84203b3440e65d3635">SCXTEditor::onGroupMatrix()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#afad0b70099f99bb7750686f716735d31">SCXTEditor::onGroupMatrixMetadata()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a1330cd0a78ce4540f8932f3993305089">SCXTEditor::onGroupOrZoneEnvelopeUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a723104ed1b020e01d21e831e55db259b">SCXTEditor::onGroupOrZoneModulatorStorageUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a9a08c137076b81e4adc4469485c9ac1e">SCXTEditor::onGroupOrZoneProcessorDataAndMetadata()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a69b4bbbf02ef37e89c818df46497d047">SCXTEditor::onGroupOutputInfoUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a242531a59b330ee05a989930b0c3bfcb">SCXTEditor::onGroupZoneMappingSummary()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a037d54eb620a387afe73de25bb1a54df">SCXTEditor::onMappingUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a02e769292dabf1f9fce1e17390fb5e12">SCXTEditor::onSamplesUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a6a319906ad2e1f673c9570eda8c44f42">SCXTEditor::onSelectedPart()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a20921cc044d9c1a86ef1d5f8740745e1">SCXTEditor::onSelectionState()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a3367fe28e32f220af83560293a9bf466">SCXTEditor::onStructureUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ac17ad3fe807fad521a75ab194f5017b6">SCXTEditor::onZoneOutputInfoUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a4eb8be5f14be71c1e2a3f23f257c8dd0">SCXTEditor::onZoneProcessorDataMismatch()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a6697d2ff6a49a6bfe1e092cd7fa4dc78">SCXTEditor::onZoneVoiceMatrix()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a9e5bc6bf64fa5ecdb8f3c53ee46e38cc">SCXTEditor::onZoneVoiceMatrixMetadata()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a31cc081b3c77bc8855de79094fc1da42">SCXTEditor::resized()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a361a3b160e4fc7bea79922c1315fd8fa">SCXTEditor::setActiveScreen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a83abbeda22fc5e6c2b35523b64199c1c">SCXTEditor::idle()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#aa0b4ac59513a9b5abe352daf1fb77e4a">SCXTEditor::onBrowserRefresh()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a2adf10f850010b84203b3440e65d3635">SCXTEditor::onGroupMatrix()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#afad0b70099f99bb7750686f716735d31">SCXTEditor::onGroupMatrixMetadata()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a1330cd0a78ce4540f8932f3993305089">SCXTEditor::onGroupOrZoneEnvelopeUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a723104ed1b020e01d21e831e55db259b">SCXTEditor::onGroupOrZoneModulatorStorageUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a9a08c137076b81e4adc4469485c9ac1e">SCXTEditor::onGroupOrZoneProcessorDataAndMetadata()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a69b4bbbf02ef37e89c818df46497d047">SCXTEditor::onGroupOutputInfoUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a242531a59b330ee05a989930b0c3bfcb">SCXTEditor::onGroupZoneMappingSummary()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a827f35c9e5ce3ffda837fe698c57484b">SCXTEditor::onMacroFullState()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a037d54eb620a387afe73de25bb1a54df">SCXTEditor::onMappingUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a02e769292dabf1f9fce1e17390fb5e12">SCXTEditor::onSamplesUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a6a319906ad2e1f673c9570eda8c44f42">SCXTEditor::onSelectedPart()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a20921cc044d9c1a86ef1d5f8740745e1">SCXTEditor::onSelectionState()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a3367fe28e32f220af83560293a9bf466">SCXTEditor::onStructureUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ac17ad3fe807fad521a75ab194f5017b6">SCXTEditor::onZoneOutputInfoUpdated()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a4eb8be5f14be71c1e2a3f23f257c8dd0">SCXTEditor::onZoneProcessorDataMismatch()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a6697d2ff6a49a6bfe1e092cd7fa4dc78">SCXTEditor::onZoneVoiceMatrix()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a9e5bc6bf64fa5ecdb8f3c53ee46e38cc">SCXTEditor::onZoneVoiceMatrixMetadata()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a31cc081b3c77bc8855de79094fc1da42">SCXTEditor::resized()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a361a3b160e4fc7bea79922c1315fd8fa">SCXTEditor::setActiveScreen()</a>.</p>
 
 </div>
 </div>
@@ -2051,6 +2097,22 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af7572e65c8d1a81507ad4048867bb8a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7572e65c8d1a81507ad4048867bb8a2">&#9670;&nbsp;</a></span>macroCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;std::array&lt;<a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>, scxt::macrosPerPart&gt;, scxt::numParts&gt; macroCache</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroValueAttachment.html#aea7d589c1e562e3e0dd516a5a98b7e3f">MacroValueAttachment::macro()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a827f35c9e5ce3ffda837fe698c57484b">SCXTEditor::onMacroFullState()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#af68593d9a59e9f6868c042d98c40d0f8">SingleMacroEditor::textEditorEscapeKeyPressed()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#afe2ae487385b026a963da24803e47670">SingleMacroEditor::textEditorFocusLost()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#af3c5c8a1c6d6863f501ddc188e98e794">SingleMacroEditor::textEditorReturnKeyPressed()</a>, and <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#a93ce6459324d62b8843e92a50f120ff6">SingleMacroEditor::updateFromEditorData()</a>.</p>
+
+</div>
+</div>
 <a id="a426431ad08fe0fe24310ddbda4d9f1d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a426431ad08fe0fe24310ddbda4d9f1d2">&#9670;&nbsp;</a></span>currentLeadZoneSelection</h2>
 
@@ -2111,7 +2173,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1GroupZoneSidebarBase.html#af290c45a7c8fabb27fc38d1e5439d057">GroupZoneSidebarBase&lt; T, forZone &gt;::addGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a1e90a170d15ebb79eb664e776c7a4e0b">SCXTEditor::getSelectedPart()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a6a319906ad2e1f673c9570eda8c44f42">SCXTEditor::onSelectedPart()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1PartGroupSidebar.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">PartGroupSidebar::selectedPartChanged()</a>, and <a class="el" href="structscxt_1_1ui_1_1multi_1_1GroupZoneSidebarBase.html#a9a4441a580d6e7e6c4c37ec051e71b32">GroupZoneSidebarBase&lt; T, forZone &gt;::showPartSelectorMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1GroupZoneSidebarBase.html#af290c45a7c8fabb27fc38d1e5439d057">GroupZoneSidebarBase&lt; T, forZone &gt;::addGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a1e90a170d15ebb79eb664e776c7a4e0b">SCXTEditor::getSelectedPart()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroDisplay.html#a8328c8b52610b9eb34056b6e39d7c075">MacroDisplay::macroDataChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a8328c8b52610b9eb34056b6e39d7c075">MappingPane::macroDataChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroDisplay.html#a1a6848960c5cc04e624d73af883b7087">MacroDisplay::MacroDisplay()</a>, <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a6a319906ad2e1f673c9570eda8c44f42">SCXTEditor::onSelectedPart()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MacroDisplay.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">MacroDisplay::selectedPartChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1PartGroupSidebar.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">PartGroupSidebar::selectedPartChanged()</a>, and <a class="el" href="structscxt_1_1ui_1_1multi_1_1GroupZoneSidebarBase.html#a9a4441a580d6e7e6c4c37ec051e71b32">GroupZoneSidebarBase&lt; T, forZone &gt;::showPartSelectorMenu()</a>.</p>
 
 </div>
 </div>
@@ -2242,7 +2304,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 11 2024 21:08:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Aug 12 2024 18:33:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

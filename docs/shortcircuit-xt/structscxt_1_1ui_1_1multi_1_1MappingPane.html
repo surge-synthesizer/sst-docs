@@ -120,6 +120,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f4ae7077cb0c03b6a8cb28d99af2de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34fc0c9c0ac96cf6ae4b2ee2752e8751"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a34fc0c9c0ac96cf6ae4b2ee2752e8751">setGroupZoneMappingSummary</a> (const <a class="el" href="structscxt_1_1engine_1_1Part.html#a85f38853122f9bd95f41c77b7c115f88">engine::Part::zoneMappingSummary_t</a> &amp;)</td></tr>
 <tr class="separator:a34fc0c9c0ac96cf6ae4b2ee2752e8751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09ba8432af2d4c84f3d2cb9fba4a70c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">selectedPartChanged</a> ()</td></tr>
+<tr class="separator:ae09ba8432af2d4c84f3d2cb9fba4a70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8328c8b52610b9eb34056b6e39d7c075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a8328c8b52610b9eb34056b6e39d7c075">macroDataChanged</a> (int part, int index)</td></tr>
+<tr class="separator:a8328c8b52610b9eb34056b6e39d7c075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41a50df744da23fc68bdda7d54d15ebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a41a50df744da23fc68bdda7d54d15ebc">editorSelectionChanged</a> ()</td></tr>
 <tr class="separator:a41a50df744da23fc68bdda7d54d15ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae24edc30d5392498e092ab6b82282d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#ae24edc30d5392498e092ab6b82282d44">setActive</a> (bool b)</td></tr>
@@ -288,6 +292,55 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae09ba8432af2d4c84f3d2cb9fba4a70c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae09ba8432af2d4c84f3d2cb9fba4a70c">&#9670;&nbsp;</a></span>selectedPartChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void selectedPartChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#aabb41acbb24c23a800a81b6e223de9ce">MappingPane::macroDisplay</a>.</p>
+
+</div>
+</div>
+<a id="a8328c8b52610b9eb34056b6e39d7c075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8328c8b52610b9eb34056b6e39d7c075">&#9670;&nbsp;</a></span>macroDataChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void macroDataChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#aabb41acbb24c23a800a81b6e223de9ce">MappingPane::macroDisplay</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>.</p>
+
+</div>
+</div>
 <a id="a41a50df744da23fc68bdda7d54d15ebc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a41a50df744da23fc68bdda7d54d15ebc">&#9670;&nbsp;</a></span>editorSelectionChanged()</h2>
 
@@ -439,7 +492,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a31cc081b3c77bc8855de79094fc1da42">MappingPane::resized()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a8328c8b52610b9eb34056b6e39d7c075">MappingPane::macroDataChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#a31cc081b3c77bc8855de79094fc1da42">MappingPane::resized()</a>, and <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingPane.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">MappingPane::selectedPartChanged()</a>.</p>
 
 </div>
 </div>
@@ -482,7 +535,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 11 2024 21:08:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Aug 12 2024 18:33:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
