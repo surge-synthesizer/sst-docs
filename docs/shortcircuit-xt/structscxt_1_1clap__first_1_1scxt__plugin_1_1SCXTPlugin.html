@@ -89,7 +89,9 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SCXTPlugin Struct Reference</div>  </div>
@@ -120,10 +122,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:adf8c539dfd8f79c5c941447dd3c5eebf"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; sst::clap_juce_shim::ClapJuceShim &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#adf8c539dfd8f79c5c941447dd3c5eebf">clapJuceShim</a></td></tr>
 <tr class="separator:adf8c539dfd8f79c5c941447dd3c5eebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:ae2480caac475f0823c21fdb715d8491c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491c">MainThreadActions</a> : uint64_t { <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc">RESCAN_PARAM_IVT</a> = 1 &lt;&lt; 0
+ }</td></tr>
+<tr class="separator:ae2480caac475f0823c21fdb715d8491c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a716c7a12230acabe4a80a3ebb67db286"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a716c7a12230acabe4a80a3ebb67db286">activate</a> (double sampleRate, uint32_t minFrameCount, uint32_t maxFrameCount) noexcept override</td></tr>
 <tr class="separator:a716c7a12230acabe4a80a3ebb67db286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1d7554f952ca318905d9eebedc7a0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#abd1d7554f952ca318905d9eebedc7a0b">onMainThread</a> () noexcept override</td></tr>
+<tr class="separator:abd1d7554f952ca318905d9eebedc7a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac12b2509f466e9d5de857fd5ad1d36e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aac12b2509f466e9d5de857fd5ad1d36e">implementsAudioPorts</a> () const noexcept override</td></tr>
 <tr class="separator:aac12b2509f466e9d5de857fd5ad1d36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78eb5a00b6e0af43447e76124613b842"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a78eb5a00b6e0af43447e76124613b842">audioPortsCount</a> (bool isInput) const noexcept override</td></tr>
@@ -146,7 +156,56 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a1d34688a243a74dafce70fd08b671944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad8a01a414b01be1115df85e9227fd63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aad8a01a414b01be1115df85e9227fd63">stateLoad</a> (const clap_istream *stream) noexcept override</td></tr>
 <tr class="separator:aad8a01a414b01be1115df85e9227fd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcfc18fc18ddfaf4db36a81dfcc9e9c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#abcfc18fc18ddfaf4db36a81dfcc9e9c3">implementsParams</a> () const noexcept override</td></tr>
+<tr class="separator:abcfc18fc18ddfaf4db36a81dfcc9e9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede5162ac99847f5ed31028f157b7f02"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aede5162ac99847f5ed31028f157b7f02">paramsCount</a> () const noexcept override</td></tr>
+<tr class="separator:aede5162ac99847f5ed31028f157b7f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae2d7bd35e012f0a9d3fa9076ee68c40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aae2d7bd35e012f0a9d3fa9076ee68c40">paramsInfo</a> (uint32_t paramIndex, clap_param_info *info) const noexcept override</td></tr>
+<tr class="separator:aae2d7bd35e012f0a9d3fa9076ee68c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a661f4bcab0f25b54010ada324c0b0a0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a661f4bcab0f25b54010ada324c0b0a0a">paramsValue</a> (clap_id paramId, double *value) noexcept override</td></tr>
+<tr class="separator:a661f4bcab0f25b54010ada324c0b0a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece058fe4ae801f08bfdfb3cbb33cdda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aece058fe4ae801f08bfdfb3cbb33cdda">paramsValueToText</a> (clap_id paramId, double value, char *display, uint32_t size) noexcept override</td></tr>
+<tr class="separator:aece058fe4ae801f08bfdfb3cbb33cdda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e2094e099aefe2e45dc48e39356070"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aa9e2094e099aefe2e45dc48e39356070">paramsTextToValue</a> (clap_id paramId, const char *display, double *value) noexcept override</td></tr>
+<tr class="separator:aa9e2094e099aefe2e45dc48e39356070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0afbf5937b8b819562544f49c2fcb7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ad0afbf5937b8b819562544f49c2fcb7f">paramsFlush</a> (const clap_input_events *in, const clap_output_events *out) noexcept override</td></tr>
+<tr class="separator:ad0afbf5937b8b819562544f49c2fcb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95892cacbeab87ef855a74af4898164e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a95892cacbeab87ef855a74af4898164e">macroFor</a> (uint32_t paramId) const</td></tr>
+<tr class="separator:a95892cacbeab87ef855a74af4898164e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae714daad27f44d4780fc9410c9a2af85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">handleParamValueEvent</a> (const clap_event_param_value *)</td></tr>
+<tr class="separator:ae714daad27f44d4780fc9410c9a2af85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a87428f1c4380347e7b524f4082de6600"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87428f1c4380347e7b524f4082de6600">nextMainThreadAction</a></td></tr>
+<tr class="separator:a87428f1c4380347e7b524f4082de6600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ae2480caac475f0823c21fdb715d8491c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2480caac475f0823c21fdb715d8491c">&#9670;&nbsp;</a></span>MainThreadActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491c">MainThreadActions</a> : uint64_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc"></a>RESCAN_PARAM_IVT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0ca7b3b7351a7145a77b265750e0d4e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ca7b3b7351a7145a77b265750e0d4e8">&#9670;&nbsp;</a></span>SCXTPlugin()</h2>
@@ -164,7 +223,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#adf8c539dfd8f79c5c941447dd3c5eebf">SCXTPlugin::clapJuceShim</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#adf8c539dfd8f79c5c941447dd3c5eebf">SCXTPlugin::clapJuceShim</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87428f1c4380347e7b524f4082de6600">SCXTPlugin::nextMainThreadAction</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 </div>
 </div>
@@ -229,6 +288,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#af61884fac4cd566e76778b2c777675dd">Engine::prepareToPlay()</a>.</p>
+
+</div>
+</div>
+<a id="abd1d7554f952ca318905d9eebedc7a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1d7554f952ca318905d9eebedc7a0b">&#9670;&nbsp;</a></span>onMainThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onMainThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87428f1c4380347e7b524f4082de6600">SCXTPlugin::nextMainThreadAction</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc">SCXTPlugin::RESCAN_PARAM_IVT</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 </div>
 </div>
@@ -442,7 +528,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Transport_1_1Signature.html#a57ce9b490045dee0e7ac036695bfc8b6">Transport::Signature::denominator</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2f6b27613feaf21455a80e6f0dd9d3ed">SampleRateSupport::getSampleRateInv()</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb">Transport::hostTimeInBeats</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#a487b4713b41138abdbf182e9e324202a">Transport::lastBarStartInBeats</a>, <a class="el" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Transport_1_1Signature.html#a2e8cfa1f1e977bc67cc88cba452bb9e0">Transport::Signature::numerator</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4761b6ba0eb9e99231fb118ada734d4e">Engine::onTransportUpdated()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#ade2d5584b42d3cf760f14d8fc0843960">Transport::signature</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#ade20423e91627f07e610924cb0081623">Transport::status</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#aff2f6d52166217d13f9b2072c9e67c13">Transport::tempo</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#aeb002722b3112ec2e884accf27e57e2d">Transport::timeInBeats</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#afa7db0b14554b0e575a83992d79a6970">Engine::transport</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Transport_1_1Signature.html#a57ce9b490045dee0e7ac036695bfc8b6">Transport::Signature::denominator</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2f6b27613feaf21455a80e6f0dd9d3ed">SampleRateSupport::getSampleRateInv()</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb">Transport::hostTimeInBeats</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#a487b4713b41138abdbf182e9e324202a">Transport::lastBarStartInBeats</a>, <a class="el" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Transport_1_1Signature.html#a2e8cfa1f1e977bc67cc88cba452bb9e0">Transport::Signature::numerator</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4761b6ba0eb9e99231fb118ada734d4e">Engine::onTransportUpdated()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">scxt::messaging::audio::s2a_param_beginendedit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">scxt::messaging::audio::s2a_param_refresh</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">scxt::messaging::audio::s2a_param_set_value</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#ade2d5584b42d3cf760f14d8fc0843960">Transport::signature</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#ade20423e91627f07e610924cb0081623">Transport::status</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#aff2f6d52166217d13f9b2072c9e67c13">Transport::tempo</a>, <a class="el" href="structscxt_1_1engine_1_1Transport.html#aeb002722b3112ec2e884accf27e57e2d">Transport::timeInBeats</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#afa7db0b14554b0e575a83992d79a6970">Engine::transport</a>.</p>
 
 </div>
 </div>
@@ -470,7 +556,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">SCXTPlugin::handleParamValueEvent()</a>.</p>
 
 </div>
 </div>
@@ -551,7 +637,321 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+</div>
+</div>
+<a id="abcfc18fc18ddfaf4db36a81dfcc9e9c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfc18fc18ddfaf4db36a81dfcc9e9c3">&#9670;&nbsp;</a></span>implementsParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool implementsParams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aede5162ac99847f5ed31028f157b7f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede5162ac99847f5ed31028f157b7f02">&#9670;&nbsp;</a></span>paramsCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t paramsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae2d7bd35e012f0a9d3fa9076ee68c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae2d7bd35e012f0a9d3fa9076ee68c40">&#9670;&nbsp;</a></span>paramsInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool paramsInfo </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>paramIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">clap_param_info *&#160;</td>
+          <td class="paramname"><em>info</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#a15da6af574f224c54ffae94ef208e4e7">Macro::partIndexToMacroID()</a>.</p>
+
+</div>
+</div>
+<a id="a661f4bcab0f25b54010ada324c0b0a0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a661f4bcab0f25b54010ada324c0b0a0a">&#9670;&nbsp;</a></span>paramsValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool paramsValue </td>
+          <td>(</td>
+          <td class="paramtype">clap_id&#160;</td>
+          <td class="paramname"><em>paramId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Macro.html#a2c44d8cccaddec444b52b622da413a64">Macro::isMacroID()</a>.</p>
+
+</div>
+</div>
+<a id="aece058fe4ae801f08bfdfb3cbb33cdda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece058fe4ae801f08bfdfb3cbb33cdda">&#9670;&nbsp;</a></span>paramsValueToText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool paramsValueToText </td>
+          <td>(</td>
+          <td class="paramtype">clap_id&#160;</td>
+          <td class="paramname"><em>paramId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>display</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Macro.html#a2c44d8cccaddec444b52b622da413a64">Macro::isMacroID()</a>.</p>
+
+</div>
+</div>
+<a id="aa9e2094e099aefe2e45dc48e39356070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e2094e099aefe2e45dc48e39356070">&#9670;&nbsp;</a></span>paramsTextToValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool paramsTextToValue </td>
+          <td>(</td>
+          <td class="paramtype">clap_id&#160;</td>
+          <td class="paramname"><em>paramId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>display</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Macro.html#a2c44d8cccaddec444b52b622da413a64">Macro::isMacroID()</a>.</p>
+
+</div>
+</div>
+<a id="ad0afbf5937b8b819562544f49c2fcb7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0afbf5937b8b819562544f49c2fcb7f">&#9670;&nbsp;</a></span>paramsFlush()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void paramsFlush </td>
+          <td>(</td>
+          <td class="paramtype">const clap_input_events *&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const clap_output_events *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95892cacbeab87ef855a74af4898164e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95892cacbeab87ef855a74af4898164e">&#9670;&nbsp;</a></span>macroFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>&amp; macroFor </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>paramId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>.</p>
+
+</div>
+</div>
+<a id="ae714daad27f44d4780fc9410c9a2af85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae714daad27f44d4780fc9410c9a2af85">&#9670;&nbsp;</a></span>handleParamValueEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void handleParamValueEvent </td>
+          <td>(</td>
+          <td class="paramtype">const clap_event_param_value *&#160;</td>
+          <td class="paramname"><em>pev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a2c44d8cccaddec444b52b622da413a64">Macro::isMacroID()</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>.</p>
 
 </div>
 </div>
@@ -664,7 +1064,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b">SCXTPlugin::createEditor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b">SCXTPlugin::createEditor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">SCXTPlugin::handleParamValueEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a95892cacbeab87ef855a74af4898164e">SCXTPlugin::macroFor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
 
 </div>
 </div>
@@ -679,6 +1079,30 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87428f1c4380347e7b524f4082de6600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87428f1c4380347e7b524f4082de6600">&#9670;&nbsp;</a></span>nextMainThreadAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;uint64_t&gt; nextMainThreadAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#abd1d7554f952ca318905d9eebedc7a0b">SCXTPlugin::onMainThread()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>.</p>
 
 </div>
 </div>
@@ -705,7 +1129,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 14 2024 12:19:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Aug 14 2024 20:52:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

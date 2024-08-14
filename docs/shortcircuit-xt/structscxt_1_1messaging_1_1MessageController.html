@@ -202,6 +202,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7ee25557124ca62cac72371071ab9bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059908adaa65b2e6f0e162eca3d95ab2"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a059908adaa65b2e6f0e162eca3d95ab2">c2sMessageBytes</a> {0}</td></tr>
 <tr class="separator:a059908adaa65b2e6f0e162eca3d95ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e08d99b7ea11e3cb27c551cd6e43f4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(uint64_t)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ac1e08d99b7ea11e3cb27c551cd6e43f4">requestHostCallback</a> {nullptr}</td></tr>
+<tr class="separator:ac1e08d99b7ea11e3cb27c551cd6e43f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54eb9a6919e3820dae6900c813e8bc5b"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a54eb9a6919e3820dae6900c813e8bc5b">passWrapperEventsToWrapperQueue</a> {false}</td></tr>
+<tr class="separator:a54eb9a6919e3820dae6900c813e8bc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71575a7b394e0d40476c6ed9d46931c2"><td class="memItemLeft" align="right" valign="top">sst::cpputils::SimpleRingBuffer&lt; <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a0b795d7ab21b36c987e8ce79cb4e903f">serializationToAudioMessage_t</a>, 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a71575a7b394e0d40476c6ed9d46931c2">engineToPluginWrapperQueue</a></td></tr>
+<tr class="separator:a71575a7b394e0d40476c6ed9d46931c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -918,6 +924,48 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac1e08d99b7ea11e3cb27c551cd6e43f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e08d99b7ea11e3cb27c551cd6e43f4">&#9670;&nbsp;</a></span>requestHostCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(uint64_t)&gt; requestHostCallback {nullptr}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54eb9a6919e3820dae6900c813e8bc5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54eb9a6919e3820dae6900c813e8bc5b">&#9670;&nbsp;</a></span>passWrapperEventsToWrapperQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; passWrapperEventsToWrapperQueue {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71575a7b394e0d40476c6ed9d46931c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71575a7b394e0d40476c6ed9d46931c2">&#9670;&nbsp;</a></span>engineToPluginWrapperQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sst::cpputils::SimpleRingBuffer&lt;<a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a0b795d7ab21b36c987e8ce79cb4e903f">serializationToAudioMessage_t</a>, 1024&gt; engineToPluginWrapperQueue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="messaging_8h.html">messaging.h</a></li>
 <li><a class="el" href="messaging_8cpp.html">messaging.cpp</a></li>
@@ -925,7 +973,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 14 2024 12:19:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Aug 14 2024 20:52:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

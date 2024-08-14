@@ -106,6 +106,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html">SerializationToAudio</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message originated from the audio thread.  <a href="structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html">SerializationToAudio::FourUintsFourFloats</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1Payload.html">SerializationToAudio::Payload</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -128,13 +130,20 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea02b54a675f0a2e364a0989a8967947e7">a2s_structure_refresh</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea0a910c1193018ce85a098e91ea280cab">a2s_processor_refresh</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeafab4a8c21e1cd6439a9210f18bde8e32">a2s_macro_updated</a>
 <br />
  }</td></tr>
 <tr class="memdesc:aa974023fde004b7cc772017b25d663ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">We need fixed size data structures to communicate audio &lt;&gt; serialization thread basically.  <a href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663ee">More...</a><br /></td></tr>
 <tr class="separator:aa974023fde004b7cc772017b25d663ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae372219b06bf199a914539dbc1c5519"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519">SerializationToAudioMessageId</a> { <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519aeda1041f795d6be290656a1fa9b5f39e">s2a_none</a>
+<tr class="memitem:aae372219b06bf199a914539dbc1c5519"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519">SerializationToAudioMessageId</a> { <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519aeda1041f795d6be290656a1fa9b5f39e">s2a_none</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ae40f2f8aaed78d8328a1f48ba42bef97">s2a_dispatch_to_pointer</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519a8e67f985b77d0a7b03d1ac6ff6b79938">s2a_dispatch_to_pointer_under_structurelock</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">s2a_param_beginendedit</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">s2a_param_set_value</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">s2a_param_refresh</a>
+<br />
  }</td></tr>
 <tr class="separator:aae372219b06bf199a914539dbc1c5519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,7 +155,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 14 2024 12:19:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Aug 14 2024 20:52:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
