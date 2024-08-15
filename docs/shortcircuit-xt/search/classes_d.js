@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['narrowverticalmenu_3551',['NarrowVerticalMenu',['../structscxt_1_1ui_1_1multi_1_1NarrowVerticalMenu.html',1,'scxt::ui::multi']]]
+  ['narrowverticalmenu_3554',['NarrowVerticalMenu',['../structscxt_1_1ui_1_1multi_1_1NarrowVerticalMenu.html',1,'scxt::ui::multi']]]
 ];
