@@ -141,6 +141,9 @@ $(function() {
 <li>rebuildPanelComponents()
 : <a class="el" href="structscxt_1_1ui_1_1multi_1_1LfoPane.html#ae4c27ae89339d9200bc83ac1c8f957fb">LfoPane</a>
 </li>
+<li>rebuildPositionsAndVisibilites()
+: <a class="el" href="structscxt_1_1ui_1_1PlayScreen.html#a7219f6177c8cc555c3c8dd4e815bd5da">PlayScreen</a>
+</li>
 <li>recalcContents()
 : <a class="el" href="structscxt_1_1ui_1_1browser_1_1DriveFSArea.html#a292ee7bfb83e40bf8a4d193323895a49">DriveFSArea</a>
 </li>
@@ -161,6 +164,9 @@ $(function() {
 </li>
 <li>rectangleForKey()
 : <a class="el" href="structscxt_1_1ui_1_1multi_1_1Keyboard.html#a3dd892b66381dc8d9a942d1bd4a35015">Keyboard</a>
+</li>
+<li>rectangleForPart()
+: <a class="el" href="structscxt_1_1ui_1_1PlayScreen.html#a67bcedfc36520a087cad60c41e078dc8">PlayScreen</a>
 </li>
 <li>rectangleForRange()
 : <a class="el" href="structscxt_1_1ui_1_1multi_1_1MappingZones.html#ad85baae141891167c4b94646f352d790">MappingZones</a>
@@ -191,7 +197,7 @@ $(function() {
 </li>
 <li>registerGroupModSource()
 : <a class="el" href="structscxt_1_1engine_1_1Engine.html#a272d13f3412ecc7c0dac020063090443">Engine</a>
-, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#ac748d081b3934c305a5692181cfc1a12">GroupMatrixEndpoints</a>
+, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a5c84b1f36c758add5b38b777ec2df3ed">GroupMatrixEndpoints</a>
 </li>
 <li>registerGroupModTarget()
 : <a class="el" href="structscxt_1_1engine_1_1Engine.html#a295f478cd4b3655fc9505bcb3e1051bf">Engine</a>
@@ -314,17 +320,18 @@ $(function() {
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1OutputTab.html#a298fcdbc45d2ded018c681f590378425">OutputTab&lt; OTTraits &gt;</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1PartGroupSidebar.html#a31cc081b3c77bc8855de79094fc1da42">PartGroupSidebar</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1PartSidebar.html#a31cc081b3c77bc8855de79094fc1da42">PartSidebar</a>
+, <a class="el" href="structscxt_1_1ui_1_1multi_1_1PartSidebarCard.html#a31cc081b3c77bc8855de79094fc1da42">PartSidebarCard</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1ProcessorPane.html#a31cc081b3c77bc8855de79094fc1da42">ProcessorPane</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1ProcTab.html#a298fcdbc45d2ded018c681f590378425">ProcTab&lt; OTTraits &gt;</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1SampleDisplay_1_1FileInfos.html#a298fcdbc45d2ded018c681f590378425">SampleDisplay::FileInfos</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1SampleDisplay.html#a298fcdbc45d2ded018c681f590378425">SampleDisplay</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1SampleWaveform.html#a31cc081b3c77bc8855de79094fc1da42">SampleWaveform</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1SingleMacroEditor.html#a31cc081b3c77bc8855de79094fc1da42">SingleMacroEditor</a>
-, <a class="el" href="structscxt_1_1ui_1_1multi_1_1SinglePart.html#a31cc081b3c77bc8855de79094fc1da42">SinglePart</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1StepLFOPane.html#a31cc081b3c77bc8855de79094fc1da42">StepLFOPane</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1ZoneSidebar.html#a31cc081b3c77bc8855de79094fc1da42">ZoneSidebar</a>
 , <a class="el" href="structscxt_1_1ui_1_1multi_1_1Zoomable.html#a31cc081b3c77bc8855de79094fc1da42">Zoomable</a>
 , <a class="el" href="structscxt_1_1ui_1_1MultiScreen.html#a31cc081b3c77bc8855de79094fc1da42">MultiScreen</a>
+, <a class="el" href="structscxt_1_1ui_1_1PlayScreen.html#a31cc081b3c77bc8855de79094fc1da42">PlayScreen</a>
 , <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a31cc081b3c77bc8855de79094fc1da42">SCXTEditor</a>
 , <a class="el" href="structSCXTApplicationWindow_1_1Intermediate.html#a31cc081b3c77bc8855de79094fc1da42">SCXTApplicationWindow::Intermediate</a>
 , <a class="el" href="structSCXTApplicationWindow.html#a31cc081b3c77bc8855de79094fc1da42">SCXTApplicationWindow</a>
@@ -406,7 +413,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 14 2024 22:11:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Aug 15 2024 19:00:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

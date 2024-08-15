@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage']]],
-  ['a_1',['A',['../structscxt_1_1ui_1_1multi_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::multi::AdsrPane::UIStore']]],
+  ['a_0',['A',['../structscxt_1_1ui_1_1multi_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::multi::AdsrPane::UIStore']]],
+  ['a_1',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage']]],
   ['a1_2',['a1',['../structscxt_1_1ui_1_1multi_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::multi::ModRow']]],
   ['a2_3',['a2',['../structscxt_1_1ui_1_1multi_1_1ModRow.html#a4dfbc2824813cd40f00fe10560e57827',1,'scxt::ui::multi::ModRow']]],
   ['a2s_5fmacro_5fupdated_4',['a2s_macro_updated',['../namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeafab4a8c21e1cd6439a9210f18bde8e32',1,'scxt::messaging::audio']]],
