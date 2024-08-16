@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vupeak_743',['VUPeak',['../structsst_1_1basic__blocks_1_1dsp_1_1VUPeak.html',1,'sst::basic_blocks::dsp']]]
+  ['vupeak_744',['VUPeak',['../structsst_1_1basic__blocks_1_1dsp_1_1VUPeak.html',1,'sst::basic_blocks::dsp']]]
 ];
