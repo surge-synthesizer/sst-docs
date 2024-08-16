@@ -69,6 +69,6 @@ var searchData=
   ['colormapid_6495',['colormapId',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a35bf3803c9b69e58cf25451789a5708e',1,'scxt::infrastructure']]],
   ['control_6496',['control',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a5d8add8effb2a9964dbebfd27c9ddd31',1,'scxt::sfz_support::SFZParser::Header']]],
   ['create_5fempty_5fzone_6497',['CREATE_EMPTY_ZONE',['../structscxt_1_1ui_1_1multi_1_1MappingZones.html#a3fe1dc281e20599dff9635c050a28b8ca38cdb8656f6122e54ee3ba161532e901',1,'scxt::ui::multi::MappingZones']]],
-  ['curve_6498',['CURVE',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a2267c8aab80fd31714c264f251e343cf',1,'scxt::modulation::shared::HasModulators']]],
-  ['curve_6499',['curve',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7aa673a4424e2543d3d0b6a8ae18364371',1,'scxt::sfz_support::SFZParser::Header']]]
+  ['curve_6498',['curve',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7aa673a4424e2543d3d0b6a8ae18364371',1,'scxt::sfz_support::SFZParser::Header']]],
+  ['curve_6499',['CURVE',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a2267c8aab80fd31714c264f251e343cf',1,'scxt::modulation::shared::HasModulators']]]
 ];

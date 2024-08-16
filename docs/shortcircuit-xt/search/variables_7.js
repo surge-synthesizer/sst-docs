@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['h_5445',['h',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a2df332e04a7d2398918045205822b91b',1,'scxt::browser::SQL::Statement::h()'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a85f2f1bd58b3b44ffdf3881823393959',1,'scxt::modulation::modulators::AdsrStorage::h()']]],
-  ['h_5446',['H',['../structscxt_1_1ui_1_1multi_1_1AdsrPane_1_1UIStore.html#a2f029caa6936992bae6bd23abe2f12fa',1,'scxt::ui::multi::AdsrPane::UIStore']]],
+  ['h_5444',['h',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a85f2f1bd58b3b44ffdf3881823393959',1,'scxt::modulation::modulators::AdsrStorage']]],
+  ['h_5445',['H',['../structscxt_1_1ui_1_1multi_1_1AdsrPane_1_1UIStore.html#a2f029caa6936992bae6bd23abe2f12fa',1,'scxt::ui::multi::AdsrPane::UIStore']]],
+  ['h_5446',['h',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a2df332e04a7d2398918045205822b91b',1,'scxt::browser::SQL::Statement']]],
   ['halfrate_5447',['halfRate',['../structscxt_1_1voice_1_1Voice.html#ad5202c9ef68f643df6d1ae0c4fb30786',1,'scxt::voice::Voice']]],
   ['hasknobs_5448',['hasKnobs',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a8e3e3517102b1b2f4362decf758f72ba',1,'scxt::ui::theme::ColorMap']]],
   ['hasossignal_5449',['hasOSSignal',['../structscxt_1_1engine_1_1Bus.html#af4e259eb89bafbc8b01f223e97954afe',1,'scxt::engine::Bus']]],

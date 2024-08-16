@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['channelstrip_2ecpp_3762',['ChannelStrip.cpp',['../ChannelStrip_8cpp.html',1,'']]],
-  ['channelstrip_2eh_3763',['ChannelStrip.h',['../ChannelStrip_8h.html',1,'']]],
-  ['clap_2dconfig_2ecpp_3764',['clap-config.cpp',['../clap-config_8cpp.html',1,'']]],
-  ['clap_2dconfig_2eh_3765',['clap-config.h',['../clap-config_8h.html',1,'']]],
-  ['client_5fjson_5fdetails_2eh_3766',['client_json_details.h',['../client__json__details_8h.html',1,'']]],
-  ['client_5fmacros_2eh_3767',['client_macros.h',['../client__macros_8h.html',1,'']]],
-  ['client_5fmessages_2eh_3768',['client_messages.h',['../client__messages_8h.html',1,'']]],
-  ['client_5fserial_2eh_3769',['client_serial.h',['../client__serial_8h.html',1,'']]],
-  ['client_5fserial_5fimpl_2eh_3770',['client_serial_impl.h',['../client__serial__impl_8h.html',1,'']]],
-  ['colormap_2ecpp_3771',['ColorMap.cpp',['../ColorMap_8cpp.html',1,'']]],
-  ['colormap_2eh_3772',['ColorMap.h',['../ColorMap_8h.html',1,'']]],
-  ['configuration_2eh_3773',['configuration.h',['../configuration_8h.html',1,'']]],
-  ['curvelfo_2eh_3774',['curvelfo.h',['../curvelfo_8h.html',1,'']]]
+  ['channelstrip_2ecpp_3757',['ChannelStrip.cpp',['../ChannelStrip_8cpp.html',1,'']]],
+  ['channelstrip_2eh_3758',['ChannelStrip.h',['../ChannelStrip_8h.html',1,'']]],
+  ['clap_2dconfig_2ecpp_3759',['clap-config.cpp',['../clap-config_8cpp.html',1,'']]],
+  ['clap_2dconfig_2eh_3760',['clap-config.h',['../clap-config_8h.html',1,'']]],
+  ['client_5fjson_5fdetails_2eh_3761',['client_json_details.h',['../client__json__details_8h.html',1,'']]],
+  ['client_5fmacros_2eh_3762',['client_macros.h',['../client__macros_8h.html',1,'']]],
+  ['client_5fmessages_2eh_3763',['client_messages.h',['../client__messages_8h.html',1,'']]],
+  ['client_5fserial_2eh_3764',['client_serial.h',['../client__serial_8h.html',1,'']]],
+  ['client_5fserial_5fimpl_2eh_3765',['client_serial_impl.h',['../client__serial__impl_8h.html',1,'']]],
+  ['colormap_2ecpp_3766',['ColorMap.cpp',['../ColorMap_8cpp.html',1,'']]],
+  ['colormap_2eh_3767',['ColorMap.h',['../ColorMap_8h.html',1,'']]],
+  ['configuration_2eh_3768',['configuration.h',['../configuration_8h.html',1,'']]],
+  ['curvelfo_2eh_3769',['curvelfo.h',['../curvelfo_8h.html',1,'']]]
 ];
