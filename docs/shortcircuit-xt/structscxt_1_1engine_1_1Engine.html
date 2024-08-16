@@ -120,6 +120,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html">SharedUIMemoryState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1StreamGuard.html">StreamGuard</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html">UnstreamGuard</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html">VMConfig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">VoiceManagerResponder</a></td></tr>
@@ -127,6 +131,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a61de0b10c20c18509354c848d4d27197"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197">StreamReason</a> { <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a54cd67a1b8e9f285cac7720057e93288">IN_PROCESS</a>
+, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">FOR_MULTI</a>
+, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8">FOR_DAW</a>
+ }</td></tr>
+<tr class="separator:a61de0b10c20c18509354c848d4d27197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e3cf62a5911eb558292f451dc2f36f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e3cf62a5911eb558292f451dc2f36f5">voiceManager_t</a> = sst::voicemanager::VoiceManager&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html">VMConfig</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">VoiceManagerResponder</a> &gt;</td></tr>
 <tr class="separator:a7e3cf62a5911eb558292f451dc2f36f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16469390d3c378adf6e7f3ecfb75921d"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int32_t, int32_t, int32_t, int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a16469390d3c378adf6e7f3ecfb75921d">processorAddress_t</a></td></tr>
@@ -318,6 +327,8 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a8920c60f8387f751a912efee95fb4040"><td class="memItemLeft" align="right" valign="top">static thread_local bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a8920c60f8387f751a912efee95fb4040">isFullEngineUnstream</a> {false}</td></tr>
 <tr class="separator:a8920c60f8387f751a912efee95fb4040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27d5bfdcc698690a1e20eed44f08a1e"><td class="memItemLeft" align="right" valign="top">static thread_local <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197">StreamReason</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab27d5bfdcc698690a1e20eed44f08a1e">streamReason</a> {StreamReason::IN_PROCESS}</td></tr>
+<tr class="separator:ab27d5bfdcc698690a1e20eed44f08a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d655302f49fa9e3d489cf971f5bb779"><td class="memItemLeft" align="right" valign="top">static thread_local uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d655302f49fa9e3d489cf971f5bb779">fullEngineUnstreamStreamingVersion</a> {0}</td></tr>
 <tr class="separator:a4d655302f49fa9e3d489cf971f5bb779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -436,6 +447,26 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a61de0b10c20c18509354c848d4d27197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61de0b10c20c18509354c848d4d27197">&#9670;&nbsp;</a></span>StreamReason</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197">StreamReason</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a61de0b10c20c18509354c848d4d27197a54cd67a1b8e9f285cac7720057e93288"></a>IN_PROCESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920"></a>FOR_MULTI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8"></a>FOR_DAW&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -1655,7 +1686,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1json_1_1EngineStreamGuard.html#a1130beb43bc1a13193833f25399d6ea9">EngineStreamGuard::EngineStreamGuard()</a>, and <a class="el" href="structscxt_1_1json_1_1EngineStreamGuard.html#a6138ac15de6ce4d58d463c0c13d2f731">EngineStreamGuard::~EngineStreamGuard()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#ad37d7c7b1f36b5eaa9ee3d1d100ef2ad">Engine::UnstreamGuard::UnstreamGuard()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#acc89f194447c3ab407f1a2dd73a640b3">Engine::UnstreamGuard::~UnstreamGuard()</a>.</p>
+
+</div>
+</div>
+<a id="ab27d5bfdcc698690a1e20eed44f08a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27d5bfdcc698690a1e20eed44f08a1e">&#9670;&nbsp;</a></span>streamReason</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">thread_local <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197">Engine::StreamReason</a> streamReason {StreamReason::IN_PROCESS}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1StreamGuard.html#aa77bc916878ecfbd888632b8a520e606">Engine::StreamGuard::StreamGuard()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1StreamGuard.html#a4ed6adad51e527ccc240918e1029114b">Engine::StreamGuard::~StreamGuard()</a>.</p>
 
 </div>
 </div>
@@ -1679,7 +1734,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1json_1_1EngineStreamGuard.html#a1130beb43bc1a13193833f25399d6ea9">EngineStreamGuard::EngineStreamGuard()</a>, and <a class="el" href="structscxt_1_1json_1_1EngineStreamGuard.html#a6138ac15de6ce4d58d463c0c13d2f731">EngineStreamGuard::~EngineStreamGuard()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#ad37d7c7b1f36b5eaa9ee3d1d100ef2ad">Engine::UnstreamGuard::UnstreamGuard()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#acc89f194447c3ab407f1a2dd73a640b3">Engine::UnstreamGuard::~UnstreamGuard()</a>.</p>
 
 </div>
 </div>
@@ -1869,7 +1924,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 16 2024 02:24:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Aug 16 2024 20:43:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

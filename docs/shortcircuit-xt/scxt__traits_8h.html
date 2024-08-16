@@ -113,8 +113,8 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a2e26558c6d1878ba7f3418fd230d533c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c">STREAM_ENUM</a>(E,  toS,  fromS)</td></tr>
 <tr class="separator:a2e26558c6d1878ba7f3418fd230d533c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2da12e6fe34295dcd5cc22af3e0a5c73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a2da12e6fe34295dcd5cc22af3e0a5c73">SC_INSERT</a>(x,  a,  b)&#160;&#160;&#160;x.insert({{a, tao::json::basic_value&lt;Traits&gt;(b)}});</td></tr>
-<tr class="separator:a2da12e6fe34295dcd5cc22af3e0a5c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add972a37ef55a1b06009b25d0f3308ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce">STREAM_ENUM_WITH_DEFAULT</a>(E,  d,  toS,  fromS)</td></tr>
+<tr class="separator:add972a37ef55a1b06009b25d0f3308ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eb10a708bea6a32009e42e3b9cddd4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
 <tr class="separator:a3eb10a708bea6a32009e42e3b9cddd4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f33706ffb79d45bdbe99bd53c505c16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
@@ -125,6 +125,14 @@ Macros</h2></td></tr>
 <tr class="separator:a736b41371004bb8ceee5979bfe57e3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6188a9f89568c431c9a62943b1c3b770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a6188a9f89568c431c9a62943b1c3b770">SC_UNSTREAMING_FROM_PRIOR_TO</a>(x)&#160;&#160;&#160;    engine::Engine::isFullEngineUnstream &amp;&amp;engine::Engine::fullEngineUnstreamStreamingVersion &lt; x</td></tr>
 <tr class="separator:a6188a9f89568c431c9a62943b1c3b770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61f273d3f81bf9f1c0f1317c7aacd5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>&#160;&#160;&#160;    (engine::Engine::streamReason == engine::Engine::StreamReason::IN_PROCESS)</td></tr>
+<tr class="separator:aa61f273d3f81bf9f1c0f1317c7aacd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97dec24bb288cba9fb61ed75b87a159c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a97dec24bb288cba9fb61ed75b87a159c">SC_STREAMING_FOR_DAW</a>&#160;&#160;&#160;(engine::Engine::streamReason == engine::Engine::StreamReason::FOR_DAW)</td></tr>
+<tr class="separator:a97dec24bb288cba9fb61ed75b87a159c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f86e569958ddb9171b290224ec9d696"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a1f86e569958ddb9171b290224ec9d696">SC_STREAMING_FOR_MULTI</a>&#160;&#160;&#160;    (engine::Engine::streamReason == engine::Engine::StreamReason::FOR_MULTI)</td></tr>
+<tr class="separator:a1f86e569958ddb9171b290224ec9d696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3945e1c14aceb270665e1063a3442d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scxt__traits_8h.html#a1d3945e1c14aceb270665e1063a3442d">SC_STREAMING_FOR_DAW_OR_MULTI</a>&#160;&#160;&#160;(<a class="el" href="scxt__traits_8h.html#a97dec24bb288cba9fb61ed75b87a159c">SC_STREAMING_FOR_DAW</a> || <a class="el" href="scxt__traits_8h.html#a1f86e569958ddb9171b290224ec9d696">SC_STREAMING_FOR_MULTI</a>)</td></tr>
+<tr class="separator:a1d3945e1c14aceb270665e1063a3442d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -152,6 +160,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a8fdf9f957ee11cdf9fd93118879ff20a"><td class="memTemplParams" colspan="2">template&lt;typename V , typename R &gt; </td></tr>
 <tr class="memitem:a8fdf9f957ee11cdf9fd93118879ff20a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a8fdf9f957ee11cdf9fd93118879ff20a">findOrDefault</a> (V &amp;v, const std::string &amp;key, R &amp;r)</td></tr>
 <tr class="separator:a8fdf9f957ee11cdf9fd93118879ff20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1e09c20365e7e80b4c4013d25abf6c"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename R &gt; </td></tr>
+<tr class="memitem:ace1e09c20365e7e80b4c4013d25abf6c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ace1e09c20365e7e80b4c4013d25abf6c">addToObject</a> (V &amp;v, const std::string &amp;key, const R &amp;val)</td></tr>
+<tr class="separator:ace1e09c20365e7e80b4c4013d25abf6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47dd7f4841cad12c301c1e777678b9a8"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename R &gt; </td></tr>
+<tr class="memitem:a47dd7f4841cad12c301c1e777678b9a8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a47dd7f4841cad12c301c1e777678b9a8">addUnlessDefault</a> (V &amp;v, const std::string &amp;key, const R &amp;defVal, const R &amp;val)</td></tr>
+<tr class="separator:a47dd7f4841cad12c301c1e777678b9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a2e26558c6d1878ba7f3418fd230d533c"></a>
@@ -207,38 +221,44 @@ Functions</h2></td></tr>
 <div class="line">            r = fromS(s);                                                                          \</div>
 <div class="line">        }                                                                                          \</div>
 <div class="line">    };</div>
-<div class="ttc" id="ascxt__traits_8h_html_a6188a9f89568c431c9a62943b1c3b770"><div class="ttname"><a href="scxt__traits_8h.html#a6188a9f89568c431c9a62943b1c3b770">SC_UNSTREAMING_FROM_PRIOR_TO</a></div><div class="ttdeci">#define SC_UNSTREAMING_FROM_PRIOR_TO(x)</div><div class="ttdef"><b>Definition:</b> scxt_traits.h:155</div></div>
+<div class="ttc" id="ascxt__traits_8h_html_a6188a9f89568c431c9a62943b1c3b770"><div class="ttname"><a href="scxt__traits_8h.html#a6188a9f89568c431c9a62943b1c3b770">SC_UNSTREAMING_FROM_PRIOR_TO</a></div><div class="ttdeci">#define SC_UNSTREAMING_FROM_PRIOR_TO(x)</div><div class="ttdef"><b>Definition:</b> scxt_traits.h:205</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a2da12e6fe34295dcd5cc22af3e0a5c73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2da12e6fe34295dcd5cc22af3e0a5c73">&#9670;&nbsp;</a></span>SC_INSERT</h2>
+<a id="add972a37ef55a1b06009b25d0f3308ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add972a37ef55a1b06009b25d0f3308ce">&#9670;&nbsp;</a></span>STREAM_ENUM_WITH_DEFAULT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SC_INSERT</td>
+          <td class="memname">#define STREAM_ENUM_WITH_DEFAULT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
+          <td class="paramname">E, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
+          <td class="paramname">d, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
+          <td class="paramname">toS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fromS&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;x.insert({{a, tao::json::basic_value&lt;Traits&gt;(b)}});</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -318,6 +338,7 @@ Functions</h2></td></tr>
 <div class="line">        template &lt;<span class="keyword">template</span> &lt;<span class="keyword">typename</span>...&gt; <span class="keyword">class </span>Traits&gt;                                             \</div>
 <div class="line">        static <span class="keywordtype">void</span> assign(tao::json::basic_value&lt;Traits&gt; &amp;v, <span class="keyword">const</span> rt_t &amp;from)                    \</div>
 <div class="line">        {                                                                                          \</div>
+<div class="line">            using val_t = tao::json::basic_value&lt;Traits&gt;;                                          \</div>
 <div class="line">            auto &amp;t = from;                                                                        \</div>
 <div class="line">            assignBlock                                                                            \</div>
 <div class="line">        }                                                                                          \</div>
@@ -367,10 +388,66 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa61f273d3f81bf9f1c0f1317c7aacd5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61f273d3f81bf9f1c0f1317c7aacd5d">&#9670;&nbsp;</a></span>SC_STREAMING_FOR_IN_PROCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SC_STREAMING_FOR_IN_PROCESS&#160;&#160;&#160;    (engine::Engine::streamReason == engine::Engine::StreamReason::IN_PROCESS)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97dec24bb288cba9fb61ed75b87a159c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97dec24bb288cba9fb61ed75b87a159c">&#9670;&nbsp;</a></span>SC_STREAMING_FOR_DAW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SC_STREAMING_FOR_DAW&#160;&#160;&#160;(engine::Engine::streamReason == engine::Engine::StreamReason::FOR_DAW)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f86e569958ddb9171b290224ec9d696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f86e569958ddb9171b290224ec9d696">&#9670;&nbsp;</a></span>SC_STREAMING_FOR_MULTI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SC_STREAMING_FOR_MULTI&#160;&#160;&#160;    (engine::Engine::streamReason == engine::Engine::StreamReason::FOR_MULTI)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d3945e1c14aceb270665e1063a3442d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3945e1c14aceb270665e1063a3442d">&#9670;&nbsp;</a></span>SC_STREAMING_FOR_DAW_OR_MULTI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SC_STREAMING_FOR_DAW_OR_MULTI&#160;&#160;&#160;(<a class="el" href="scxt__traits_8h.html#a97dec24bb288cba9fb61ed75b87a159c">SC_STREAMING_FOR_DAW</a> || <a class="el" href="scxt__traits_8h.html#a1f86e569958ddb9171b290224ec9d696">SC_STREAMING_FOR_MULTI</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 16 2024 02:24:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Aug 16 2024 20:43:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

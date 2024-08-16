@@ -87,33 +87,33 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">selection_traits.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1json_1_1scxt__traits_3_01scxt_1_1selection_1_1SelectionManager_1_1SelectActionContents_01_4.html">scxt_traits&lt; scxt::selection::SelectionManager::SelectActionContents &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1json_1_1scxt__traits_3_01scxt_1_1selection_1_1SelectionManager_1_1ZoneAddress_01_4.html">scxt_traits&lt; scxt::selection::SelectionManager::ZoneAddress &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1json_1_1scxt__traits_3_01selection_1_1SelectionManager_01_4.html">scxt_traits&lt; selection::SelectionManager &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacescxt"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html">scxt</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacescxt_1_1json"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html">scxt::json</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a90c1a43dcce318d0758f5762769b3c6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a90c1a43dcce318d0758f5762769b3c6a">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html">scxt::selection::SelectionManager::SelectActionContents</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto &amp;e=from;assert(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>);v={{&quot;p&quot;, e.part}, {&quot;g&quot;, e.group}, {&quot;z&quot;, e.zone}, {&quot;s&quot;, e.selecting}, {&quot;d&quot;, e.distinct}, {&quot;sl&quot;, e.selectingAsLead}, {&quot;fz&quot;, e.forZone}, {&quot;ic&quot;, e.isContiguous}, {&quot;cf&quot;, e.contiguousFrom}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;z=to;findIf(v, &quot;p&quot;, z.part);findIf(v, &quot;g&quot;, z.group);findIf(v, &quot;z&quot;, z.zone);findIf(v, &quot;s&quot;, z.selecting);findIf(v, &quot;d&quot;, z.distinct);findIf(v, &quot;sl&quot;, z.selectingAsLead);findIf(v, &quot;fz&quot;, z.forZone);findIf(v, &quot;ic&quot;, z.isContiguous);findIf(v, &quot;cf&quot;, z.contiguousFrom);}))</td></tr>
+<tr class="separator:a90c1a43dcce318d0758f5762769b3c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8bb8f272df4ac17dacb2fb01f573d65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ae8bb8f272df4ac17dacb2fb01f573d65">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">scxt::selection::SelectionManager::ZoneAddress</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(t.part==-1 &amp;&amp;t.group==-1 &amp;&amp;t.zone==-1) { v=tao::json::empty_object;} else { v={{&quot;p&quot;, t.part}, {&quot;g&quot;, t.group}, {&quot;z&quot;, t.zone}};} }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ findOrSet(v, {&quot;p&quot;, &quot;part&quot;}, -1, result.part);findOrSet(v, {&quot;g&quot;, &quot;group&quot;}, -1, result.group);findOrSet(v, {&quot;z&quot;, &quot;zone&quot;}, -1, result.zone);}))</td></tr>
+<tr class="separator:ae8bb8f272df4ac17dacb2fb01f573d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636e68058b8c580fead043efe72d3130"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a636e68058b8c580fead043efe72d3130">SC_STREAMDEF</a> (selection::SelectionManager, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto &amp;e=from;v={{&quot;zones&quot;, e.allSelectedZones}, {&quot;leadZone&quot;, e.leadZone}, {&quot;groups&quot;, e.allSelectedGroups}, {&quot;tabs&quot;, e.otherTabSelection}, {&quot;selectedPart&quot;, e.selectedPart}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;z=to;if(<a class="el" href="scxt__traits_8h.html#a6188a9f89568c431c9a62943b1c3b770">SC_UNSTREAMING_FROM_PRIOR_TO</a>(0x2024 '07 '24)) { z.selectedPart=0;findIf(v, &quot;tabs&quot;, z.otherTabSelection);findIf(v, &quot;zones&quot;, z.allSelectedZones[0]);findIf(v, &quot;groups&quot;, z.allSelectedGroups[0]);findIf(v, &quot;leadZone&quot;, z.leadZone[0]);} else { findIf(v, &quot;tabs&quot;, z.otherTabSelection);findIf(v, &quot;zones&quot;, z.allSelectedZones);findIf(v, &quot;groups&quot;, z.allSelectedGroups);findIf(v, &quot;leadZone&quot;, z.leadZone);findIf(v, &quot;selectedPart&quot;, z.selectedPart);} selection::SelectionManager::ZoneAddress za;if(!z.allSelectedZones[z.selectedPart].empty()) { selection::SelectionManager::SelectActionContents sac{ z.leadZone[z.selectedPart]};sac.distinct=false;z.selectAction(sac);} }))</td></tr>
+<tr class="separator:a636e68058b8c580fead043efe72d3130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 16 2024 02:24:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Aug 16 2024 20:43:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
