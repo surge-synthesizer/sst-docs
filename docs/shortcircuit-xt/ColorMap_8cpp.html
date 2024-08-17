@@ -88,7 +88,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ColorMap.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,11 +99,7 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1WireframeColors.html">WireframeColors</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1TestColors.html">TestColors</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1HiContrastDark.html">HiContrastDark</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1StdMapColormap.html">StdMapColormap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -111,11 +110,54 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacescxt_1_1ui_1_1theme"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1theme.html">scxt::ui::theme</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac54ae397901fe700628cafadea3c5208"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>(x)</td></tr>
+<tr class="separator:ac54ae397901fe700628cafadea3c5208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2a7c381d2dca25be3993bf97a35ad622"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1theme.html#a2a7c381d2dca25be3993bf97a35ad622">metadata_t</a> = std::map&lt; std::string, std::string &gt;</td></tr>
+<tr class="separator:a2a7c381d2dca25be3993bf97a35ad622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061789a2e4f07dedb208461fbbc27666"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1theme.html#a061789a2e4f07dedb208461fbbc27666">colors_t</a> = std::map&lt; std::string, std::string &gt;</td></tr>
+<tr class="separator:a061789a2e4f07dedb208461fbbc27666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea51e24a07fd0f39db586d3a1243d982"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1theme.html#aea51e24a07fd0f39db586d3a1243d982">colormap_t</a> = std::tuple&lt; metadata_t, colors_t &gt;</td></tr>
+<tr class="separator:aea51e24a07fd0f39db586d3a1243d982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a741993ac880d89139341a0ac5c1190a8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1theme.html#a741993ac880d89139341a0ac5c1190a8">keyName</a> (ColorMap::Colors c)</td></tr>
+<tr class="separator:a741993ac880d89139341a0ac5c1190a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65cecfd1effd0cbe9ee62189f5581d2f"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; class... Transformers, template&lt; typename... &gt; class Traits&gt; </td></tr>
+<tr class="memitem:a65cecfd1effd0cbe9ee62189f5581d2f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1theme.html#a65cecfd1effd0cbe9ee62189f5581d2f">to_pretty_stream</a> (std::ostream &amp;os, const tao::json::basic_value&lt; Traits &gt; &amp;v)</td></tr>
+<tr class="separator:a65cecfd1effd0cbe9ee62189f5581d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ac54ae397901fe700628cafadea3c5208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac54ae397901fe700628cafadea3c5208">&#9670;&nbsp;</a></span>C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">case</span> ColorMap::Colors::x:                                                                      \</div>
+<div class="line">        return #x;</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Aug 17 2024 00:22:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Aug 17 2024 14:34:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

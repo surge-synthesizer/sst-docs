@@ -91,6 +91,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structscxt_1_1ui_1_1theme_1_1ColorMap-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ColorMap Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -103,73 +104,76 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="structscxt_1_1ui_1_1theme_1_1ColorMap__inherit__graph.png" border="0" usemap="#aColorMap_inherit__map" alt="Inheritance graph"/></div>
 <map name="aColorMap_inherit__map" id="aColorMap_inherit__map">
-<area shape="rect" title=" " alt="" coords="155,5,239,32"/>
-<area shape="rect" href="structscxt_1_1ui_1_1theme_1_1HiContrastDark.html" title=" " alt="" coords="5,80,128,107"/>
-<area shape="rect" href="structscxt_1_1ui_1_1theme_1_1TestColors.html" title=" " alt="" coords="153,80,242,107"/>
-<area shape="rect" href="structscxt_1_1ui_1_1theme_1_1WireframeColors.html" title=" " alt="" coords="266,80,398,107"/>
+<area shape="rect" title=" " alt="" coords="31,5,115,32"/>
+<area shape="rect" href="structscxt_1_1ui_1_1theme_1_1StdMapColormap.html" title=" " alt="" coords="5,80,140,107"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aae0e12934c548e8ba6d37fe3a62182a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5">BuiltInColorMaps</a> : uint32_t { <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5ab2c0b77d8e0e4b72d36e6aab661eb5e3">WIREFRAME</a> = 'wire'
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5af917d6c11c85b4ac32e30d1cc9da25eb">LIGHT</a> = 'lite'
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5abb4548a0eb26cc8cc9b0b8506c893fb0">HICONTRAST_DARK</a> = 'hico'
 , <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5ab2f0cd22b1963becef8b91d29d567fe8">TEST</a> = 'test'
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5abb4548a0eb26cc8cc9b0b8506c893fb0">HICONTRAST_DARK</a> = 'hidk'
  }</td></tr>
 <tr class="separator:aae0e12934c548e8ba6d37fe3a62182a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ecd4f2ec2ebfe8d5b0163e4ac2a967"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> { <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9df8ba08a5b7f88ebf6977ffad839177">accent_1a</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ae47e0d7e96befc66fbf90661b9b7b772">accent_1b</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a28cfd4ac575d75daa5c58da8dd0b3c69">accent_2a</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a93a539cf4f7322f0f003dd53117d4e5b">accent_2a_alpha_a</a>
+<tr class="memitem:a0b96022cb9768c4cfbb8c14eb2a214e6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a> : size_t { <br />
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a9df8ba08a5b7f88ebf6977ffad839177">accent_1a</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae47e0d7e96befc66fbf90661b9b7b772">accent_1b</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a28cfd4ac575d75daa5c58da8dd0b3c69">accent_2a</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a93a539cf4f7322f0f003dd53117d4e5b">accent_2a_alpha_a</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1a8581b3e2003aa6b3d74a00d43534c5">accent_2a_alpha_b</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a39bbbdd876b3453905f72758c8995839">accent_2a_alpha_c</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a7031f9414e0ac12813028b0f5f49f860">accent_2b</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a79aedc7a44abc411a30ba13a4eaa7f5c">accent_2b_alpha_a</a>
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1a8581b3e2003aa6b3d74a00d43534c5">accent_2a_alpha_b</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a39bbbdd876b3453905f72758c8995839">accent_2a_alpha_c</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a7031f9414e0ac12813028b0f5f49f860">accent_2b</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a79aedc7a44abc411a30ba13a4eaa7f5c">accent_2b_alpha_a</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a872af2f357563d7d5e61b39cd02e9539">accent_2b_alpha_b</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a653d2fd310ab56e1e719d1552b573539">accent_2b_alpha_c</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a47c81afcaecd0c454f2831c675c306dc">bg_1</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ae2a59cca8a86addc0f7e670a459a8cb9">bg_2</a>
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a872af2f357563d7d5e61b39cd02e9539">accent_2b_alpha_b</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a653d2fd310ab56e1e719d1552b573539">accent_2b_alpha_c</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a47c81afcaecd0c454f2831c675c306dc">bg_1</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9">bg_2</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a434823a2f8c4d3f554ade5f2635e49bf">bg_3</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1ed24f6c7bd3f77fa9a5764390227b2c">gutter_2</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa34cf25ea57f84b59e5d58a31fe0319f">gutter_3</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ad35995b1be6a9b14adfdd670ad2824d9">panel_outline_2</a>
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf">bg_3</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1ed24f6c7bd3f77fa9a5764390227b2c">gutter_2</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa34cf25ea57f84b59e5d58a31fe0319f">gutter_3</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ad35995b1be6a9b14adfdd670ad2824d9">panel_outline_2</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa6f1b72a27e5d1b78b33247156bf0f98">panel_outline_3</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9e7f4619092039a6c3208d1cc6c2327f">knob_fill</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967afe63ac7639a2b0174fe2d3cb8262c055">generic_content_highest</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a6776e6e05a046312f031e246d33cf5a7">generic_content_high</a>
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa6f1b72a27e5d1b78b33247156bf0f98">panel_outline_3</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a9e7f4619092039a6c3208d1cc6c2327f">knob_fill</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6afe63ac7639a2b0174fe2d3cb8262c055">generic_content_highest</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a6776e6e05a046312f031e246d33cf5a7">generic_content_high</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ac1a902c80eade27803d29c67d5c44e7d">generic_content_medium</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a0d5812bd394a2eac2a0a1d2bd022115a">generic_content_low</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a0a8859eb8d4091919240af8fe7aa69ed">generic_content_lowest</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a84c67309a0faea80e63cde6f16bf2cf2">grid_primary</a>
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ac1a902c80eade27803d29c67d5c44e7d">generic_content_medium</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a0d5812bd394a2eac2a0a1d2bd022115a">generic_content_low</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a0a8859eb8d4091919240af8fe7aa69ed">generic_content_lowest</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2">grid_primary</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a29d80ab9513a594bbef277117253fbe6">grid_secondary</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa246b98221cf9c026dadd71ee2564dca">warning_1a</a>
-, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1a2732fde988a8a8716c036a52a26e7c">warning_1b</a>
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6">grid_secondary</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa246b98221cf9c026dadd71ee2564dca">warning_1a</a>
+, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1a2732fde988a8a8716c036a52a26e7c">warning_1b</a>
 <br />
  }</td></tr>
-<tr class="separator:a55ecd4f2ec2ebfe8d5b0163e4ac2a967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a0b96022cb9768c4cfbb8c14eb2a214e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e6191dd6f5d1897383e5bca301811bc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a5e6191dd6f5d1897383e5bca301811bc">~ColorMap</a> ()=default</td></tr>
 <tr class="separator:a5e6191dd6f5d1897383e5bca301811bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae875a63723daf4ad0a482dfe435ba2b5"><td class="memItemLeft" align="right" valign="top">juce::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae875a63723daf4ad0a482dfe435ba2b5">get</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> c, float alpha=1.f) const</td></tr>
+<tr class="memitem:ae875a63723daf4ad0a482dfe435ba2b5"><td class="memItemLeft" align="right" valign="top">juce::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae875a63723daf4ad0a482dfe435ba2b5">get</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a> c, float alpha=1.f) const</td></tr>
 <tr class="separator:ae875a63723daf4ad0a482dfe435ba2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2cf18bcba46f09ca8204b26a85938bf"><td class="memItemLeft" align="right" valign="top">virtual juce::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae2cf18bcba46f09ca8204b26a85938bf">getHover</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> c, float alpha=1.f) const</td></tr>
+<tr class="memitem:ae2cf18bcba46f09ca8204b26a85938bf"><td class="memItemLeft" align="right" valign="top">virtual juce::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae2cf18bcba46f09ca8204b26a85938bf">getHover</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a> c, float alpha=1.f) const</td></tr>
 <tr class="separator:ae2cf18bcba46f09ca8204b26a85938bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55f6eea09bb7a6d1ffa8a680494146f2"><td class="memItemLeft" align="right" valign="top">virtual juce::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55f6eea09bb7a6d1ffa8a680494146f2">getImpl</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> c, float alpha=1.f) const =0</td></tr>
+<tr class="memitem:a55f6eea09bb7a6d1ffa8a680494146f2"><td class="memItemLeft" align="right" valign="top">virtual juce::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55f6eea09bb7a6d1ffa8a680494146f2">getImpl</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a> c, float alpha=1.f) const =0</td></tr>
 <tr class="separator:a55f6eea09bb7a6d1ffa8a680494146f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e49c1bc47826eab71bce8f6e3c7863"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aa2e49c1bc47826eab71bce8f6e3c7863">toJson</a> () const</td></tr>
+<tr class="separator:aa2e49c1bc47826eab71bce8f6e3c7863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab934fdd43c448776352c4a8327094bf9"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html">ColorMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ab934fdd43c448776352c4a8327094bf9">createColorMap</a> (<a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5">BuiltInColorMaps</a> cm)</td></tr>
 <tr class="separator:ab934fdd43c448776352c4a8327094bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ec5bec3aa1b01db153d8f664cd8b26"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html">ColorMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a60ec5bec3aa1b01db153d8f664cd8b26">jsonToColormap</a> (const std::string &amp;json)</td></tr>
+<tr class="separator:a60ec5bec3aa1b01db153d8f664cd8b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -177,6 +181,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a94673e8ce55c046fff157222a09cd6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3e3517102b1b2f4362decf758f72ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a8e3e3517102b1b2f4362decf758f72ba">hasKnobs</a> {false}</td></tr>
 <tr class="separator:a8e3e3517102b1b2f4362decf758f72ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f31dea17cf878ba164f4e97677adf3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a63f31dea17cf878ba164f4e97677adf3">hoverFactor</a> {0.1f}</td></tr>
+<tr class="separator:a63f31dea17cf878ba164f4e97677adf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ae1fd4ec1b3166409787d3dd520a75994"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae1fd4ec1b3166409787d3dd520a75994">FILE_COLORMAP_ID</a> {'fcmp'}</td></tr>
+<tr class="separator:ae1fd4ec1b3166409787d3dd520a75994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ff49fbdc9be2c7e60b1c93df70d953"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a36ff49fbdc9be2c7e60b1c93df70d953">lastColor</a> {(int)Colors::warning_1b}</td></tr>
+<tr class="separator:a36ff49fbdc9be2c7e60b1c93df70d953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aae0e12934c548e8ba6d37fe3a62182a5"></a>
@@ -192,51 +205,52 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aae0e12934c548e8ba6d37fe3a62182a5ab2c0b77d8e0e4b72d36e6aab661eb5e3"></a>WIREFRAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae0e12934c548e8ba6d37fe3a62182a5ab2f0cd22b1963becef8b91d29d567fe8"></a>TEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aae0e12934c548e8ba6d37fe3a62182a5af917d6c11c85b4ac32e30d1cc9da25eb"></a>LIGHT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aae0e12934c548e8ba6d37fe3a62182a5abb4548a0eb26cc8cc9b0b8506c893fb0"></a>HICONTRAST_DARK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aae0e12934c548e8ba6d37fe3a62182a5ab2f0cd22b1963becef8b91d29d567fe8"></a>TEST&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">&#9670;&nbsp;</a></span>Colors</h2>
+<a id="a0b96022cb9768c4cfbb8c14eb2a214e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b96022cb9768c4cfbb8c14eb2a214e6">&#9670;&nbsp;</a></span>Colors</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a></td>
+          <td class="memname">enum <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a> : size_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9df8ba08a5b7f88ebf6977ffad839177"></a>accent_1a&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ae47e0d7e96befc66fbf90661b9b7b772"></a>accent_1b&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a28cfd4ac575d75daa5c58da8dd0b3c69"></a>accent_2a&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a93a539cf4f7322f0f003dd53117d4e5b"></a>accent_2a_alpha_a&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1a8581b3e2003aa6b3d74a00d43534c5"></a>accent_2a_alpha_b&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a39bbbdd876b3453905f72758c8995839"></a>accent_2a_alpha_c&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a7031f9414e0ac12813028b0f5f49f860"></a>accent_2b&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a79aedc7a44abc411a30ba13a4eaa7f5c"></a>accent_2b_alpha_a&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a872af2f357563d7d5e61b39cd02e9539"></a>accent_2b_alpha_b&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a653d2fd310ab56e1e719d1552b573539"></a>accent_2b_alpha_c&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a47c81afcaecd0c454f2831c675c306dc"></a>bg_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ae2a59cca8a86addc0f7e670a459a8cb9"></a>bg_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a434823a2f8c4d3f554ade5f2635e49bf"></a>bg_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1ed24f6c7bd3f77fa9a5764390227b2c"></a>gutter_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa34cf25ea57f84b59e5d58a31fe0319f"></a>gutter_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ad35995b1be6a9b14adfdd670ad2824d9"></a>panel_outline_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa6f1b72a27e5d1b78b33247156bf0f98"></a>panel_outline_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9e7f4619092039a6c3208d1cc6c2327f"></a>knob_fill&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967afe63ac7639a2b0174fe2d3cb8262c055"></a>generic_content_highest&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a6776e6e05a046312f031e246d33cf5a7"></a>generic_content_high&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ac1a902c80eade27803d29c67d5c44e7d"></a>generic_content_medium&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a0d5812bd394a2eac2a0a1d2bd022115a"></a>generic_content_low&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a0a8859eb8d4091919240af8fe7aa69ed"></a>generic_content_lowest&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a84c67309a0faea80e63cde6f16bf2cf2"></a>grid_primary&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a29d80ab9513a594bbef277117253fbe6"></a>grid_secondary&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa246b98221cf9c026dadd71ee2564dca"></a>warning_1a&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1a2732fde988a8a8716c036a52a26e7c"></a>warning_1b&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a9df8ba08a5b7f88ebf6977ffad839177"></a>accent_1a&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6ae47e0d7e96befc66fbf90661b9b7b772"></a>accent_1b&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a28cfd4ac575d75daa5c58da8dd0b3c69"></a>accent_2a&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a93a539cf4f7322f0f003dd53117d4e5b"></a>accent_2a_alpha_a&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a1a8581b3e2003aa6b3d74a00d43534c5"></a>accent_2a_alpha_b&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a39bbbdd876b3453905f72758c8995839"></a>accent_2a_alpha_c&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a7031f9414e0ac12813028b0f5f49f860"></a>accent_2b&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a79aedc7a44abc411a30ba13a4eaa7f5c"></a>accent_2b_alpha_a&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a872af2f357563d7d5e61b39cd02e9539"></a>accent_2b_alpha_b&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a653d2fd310ab56e1e719d1552b573539"></a>accent_2b_alpha_c&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a47c81afcaecd0c454f2831c675c306dc"></a>bg_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9"></a>bg_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf"></a>bg_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a1ed24f6c7bd3f77fa9a5764390227b2c"></a>gutter_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6aa34cf25ea57f84b59e5d58a31fe0319f"></a>gutter_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6ad35995b1be6a9b14adfdd670ad2824d9"></a>panel_outline_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6aa6f1b72a27e5d1b78b33247156bf0f98"></a>panel_outline_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a9e7f4619092039a6c3208d1cc6c2327f"></a>knob_fill&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6afe63ac7639a2b0174fe2d3cb8262c055"></a>generic_content_highest&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a6776e6e05a046312f031e246d33cf5a7"></a>generic_content_high&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6ac1a902c80eade27803d29c67d5c44e7d"></a>generic_content_medium&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a0d5812bd394a2eac2a0a1d2bd022115a"></a>generic_content_low&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a0a8859eb8d4091919240af8fe7aa69ed"></a>generic_content_lowest&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2"></a>grid_primary&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6"></a>grid_secondary&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6aa246b98221cf9c026dadd71ee2564dca"></a>warning_1a&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0b96022cb9768c4cfbb8c14eb2a214e6a1a2732fde988a8a8716c036a52a26e7c"></a>warning_1b&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -292,9 +306,9 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5abb4548a0eb26cc8cc9b0b8506c893fb0">ColorMap::HICONTRAST_DARK</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5ab2f0cd22b1963becef8b91d29d567fe8">ColorMap::TEST</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af">ColorMap::WIREFRAME</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5abb4548a0eb26cc8cc9b0b8506c893fb0">ColorMap::HICONTRAST_DARK</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1JSONAssetLibrary.html#ad59c170b1da4bb8957309efbd43da05f">JSONAssetLibrary::jsonForAsset()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a60ec5bec3aa1b01db153d8f664cd8b26">ColorMap::jsonToColormap()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5af917d6c11c85b4ac32e30d1cc9da25eb">ColorMap::LIGHT</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5ab2f0cd22b1963becef8b91d29d567fe8">ColorMap::TEST</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af">ColorMap::WIREFRAME</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">SCXTEditor::resetColorsFromUserPreferences()</a>.</p>
 
 </div>
 </div>
@@ -307,7 +321,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">juce::Colour get </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a>&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -324,9 +338,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55f6eea09bb7a6d1ffa8a680494146f2">ColorMap::getImpl()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a8e3e3517102b1b2f4362decf758f72ba">ColorMap::hasKnobs</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9e7f4619092039a6c3208d1cc6c2327f">ColorMap::knob_fill</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55f6eea09bb7a6d1ffa8a680494146f2">ColorMap::getImpl()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a8e3e3517102b1b2f4362decf758f72ba">ColorMap::hasKnobs</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a9e7f4619092039a6c3208d1cc6c2327f">ColorMap::knob_fill</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae2cf18bcba46f09ca8204b26a85938bf">ColorMap::getHover()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1HiContrastDark.html#a5fd60dc3b78335d9c7411de8db18fa7c">HiContrastDark::getHover()</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1HiContrastDark.html#a804d6d4c4f8ebcb41165ad0818e06a46">HiContrastDark::getImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae2cf18bcba46f09ca8204b26a85938bf">ColorMap::getHover()</a>.</p>
 
 </div>
 </div>
@@ -342,7 +356,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual juce::Colour getHover </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a>&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -364,9 +378,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="structscxt_1_1ui_1_1theme_1_1HiContrastDark.html#a5fd60dc3b78335d9c7411de8db18fa7c">HiContrastDark</a>.</p>
-
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae875a63723daf4ad0a482dfe435ba2b5">ColorMap::get()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae875a63723daf4ad0a482dfe435ba2b5">ColorMap::get()</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a63f31dea17cf878ba164f4e97677adf3">ColorMap::hoverFactor</a>.</p>
 
 </div>
 </div>
@@ -382,7 +394,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual juce::Colour getImpl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6">Colors</a>&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -404,9 +416,56 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structscxt_1_1ui_1_1theme_1_1HiContrastDark.html#a804d6d4c4f8ebcb41165ad0818e06a46">HiContrastDark</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1TestColors.html#a804d6d4c4f8ebcb41165ad0818e06a46">TestColors</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1WireframeColors.html#a804d6d4c4f8ebcb41165ad0818e06a46">WireframeColors</a>.</p>
+<p>Implemented in <a class="el" href="structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#a804d6d4c4f8ebcb41165ad0818e06a46">StdMapColormap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae875a63723daf4ad0a482dfe435ba2b5">ColorMap::get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae875a63723daf4ad0a482dfe435ba2b5">ColorMap::get()</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aa2e49c1bc47826eab71bce8f6e3c7863">ColorMap::toJson()</a>.</p>
+
+</div>
+</div>
+<a id="aa2e49c1bc47826eab71bce8f6e3c7863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e49c1bc47826eab71bce8f6e3c7863">&#9670;&nbsp;</a></span>toJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string toJson </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a55f6eea09bb7a6d1ffa8a680494146f2">ColorMap::getImpl()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a63f31dea17cf878ba164f4e97677adf3">ColorMap::hoverFactor</a>, <a class="el" href="namespacescxt_1_1ui_1_1theme.html#a741993ac880d89139341a0ac5c1190a8">scxt::ui::theme::keyName()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a36ff49fbdc9be2c7e60b1c93df70d953">ColorMap::lastColor</a>, and <a class="el" href="namespacescxt_1_1ui_1_1theme.html#a65cecfd1effd0cbe9ee62189f5581d2f">scxt::ui::theme::to_pretty_stream()</a>.</p>
+
+</div>
+</div>
+<a id="a60ec5bec3aa1b01db153d8f664cd8b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60ec5bec3aa1b01db153d8f664cd8b26">&#9670;&nbsp;</a></span>jsonToColormap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html">ColorMap</a> &gt; jsonToColormap </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>json</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ab934fdd43c448776352c4a8327094bf9">ColorMap::createColorMap()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">SCXTEditor::resetColorsFromUserPreferences()</a>.</p>
 
 </div>
 </div>
@@ -423,7 +482,55 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ab934fdd43c448776352c4a8327094bf9">ColorMap::createColorMap()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ab934fdd43c448776352c4a8327094bf9">ColorMap::createColorMap()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">SCXTEditor::resetColorsFromUserPreferences()</a>.</p>
+
+</div>
+</div>
+<a id="ae1fd4ec1b3166409787d3dd520a75994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1fd4ec1b3166409787d3dd520a75994">&#9670;&nbsp;</a></span>FILE_COLORMAP_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t FILE_COLORMAP_ID {'fcmp'}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">SCXTEditor::addUIThemesMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">SCXTEditor::resetColorsFromUserPreferences()</a>.</p>
+
+</div>
+</div>
+<a id="a36ff49fbdc9be2c7e60b1c93df70d953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36ff49fbdc9be2c7e60b1c93df70d953">&#9670;&nbsp;</a></span>lastColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int lastColor {(int)Colors::warning_1b}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#a5fca3c86c109f19e8b7d2732827de238">StdMapColormap::setupFromColormap()</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aa2e49c1bc47826eab71bce8f6e3c7863">ColorMap::toJson()</a>.</p>
 
 </div>
 </div>
@@ -443,6 +550,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a63f31dea17cf878ba164f4e97677adf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f31dea17cf878ba164f4e97677adf3">&#9670;&nbsp;</a></span>hoverFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float hoverFactor {0.1f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae2cf18bcba46f09ca8204b26a85938bf">ColorMap::getHover()</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#aa2e49c1bc47826eab71bce8f6e3c7863">ColorMap::toJson()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="ColorMap_8h.html">ColorMap.h</a></li>
 <li><a class="el" href="ColorMap_8cpp.html">ColorMap.cpp</a></li>
@@ -450,7 +573,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Aug 17 2024 00:22:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Aug 17 2024 14:34:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
