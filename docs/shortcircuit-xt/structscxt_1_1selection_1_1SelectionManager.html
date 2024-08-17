@@ -113,6 +113,8 @@ Public Types</h2></td></tr>
 <tr class="separator:acf5fcdaecfe60be057e76a93cac9fded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a021ed9ebefe1a4392cfe832bff1e9e09"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_set&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">ZoneAddress</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress_1_1Hash.html">ZoneAddress::Hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selectedZones_t</a></td></tr>
 <tr class="separator:a021ed9ebefe1a4392cfe832bff1e9e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed61bdfeb99338477d79a8685899b8dd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd">otherTabSelection_t</a> = std::unordered_map&lt; std::string, std::string &gt;</td></tr>
+<tr class="separator:aed61bdfeb99338477d79a8685899b8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -154,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30f3355083c7915552b5cde0929f98f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1627a557c821a9e8bf7166a2b2144899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">sendSelectedPartMacrosToClient</a> ()</td></tr>
 <tr class="separator:a1627a557c821a9e8bf7166a2b2144899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db6a336135772f175e8b4755f757318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">sendOtherTabsSelectionToClient</a> ()</td></tr>
+<tr class="separator:a3db6a336135772f175e8b4755f757318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb43b83d1c89f3fcd99a48d718e4959e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">configureAndSendZoneModMatrixMetadata</a> (int p, int g, int z)</td></tr>
 <tr class="separator:abb43b83d1c89f3fcd99a48d718e4959e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33e9e73efdb881d0e61b0a6d78d70e1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">copyZoneProcessorLeadToAll</a> (int which)</td></tr>
@@ -167,8 +171,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa43980f69e7c0e9e2d54a64a453ff231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19ef90d0277f9a76a61fd8c333b4407f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a19ef90d0277f9a76a61fd8c333b4407f">selectedPart</a> {0}</td></tr>
 <tr class="separator:a19ef90d0277f9a76a61fd8c333b4407f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a694967c427d06a93df7be24de06563af"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a694967c427d06a93df7be24de06563af">otherTabSelection</a></td></tr>
-<tr class="separator:a694967c427d06a93df7be24de06563af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643ca68181466b5e6942c941619571fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd">otherTabSelection_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a643ca68181466b5e6942c941619571fe">otherTabSelection</a></td></tr>
+<tr class="separator:a643ca68181466b5e6942c941619571fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ad50cbe6b430707912e732ab07f1797"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selectedZones_t</a>, scxt::numParts &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ad50cbe6b430707912e732ab07f1797">allSelectedZones</a></td></tr>
 <tr class="separator:a6ad50cbe6b430707912e732ab07f1797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67b909552452dbc88a8d42ec3f77e269"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selectedZones_t</a>, scxt::numParts &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a67b909552452dbc88a8d42ec3f77e269">allSelectedGroups</a></td></tr>
@@ -196,6 +200,20 @@ Protected Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef std::unordered_set&lt;<a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">ZoneAddress</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress_1_1Hash.html">ZoneAddress::Hash</a>&gt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selectedZones_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed61bdfeb99338477d79a8685899b8dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed61bdfeb99338477d79a8685899b8dd">&#9670;&nbsp;</a></span>otherTabSelection_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd">otherTabSelection_t</a> =  std::unordered_map&lt;std::string, std::string&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -719,6 +737,25 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3db6a336135772f175e8b4755f757318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db6a336135772f175e8b4755f757318">&#9670;&nbsp;</a></span>sendOtherTabsSelectionToClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sendOtherTabsSelectionToClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa43980f69e7c0e9e2d54a64a453ff231">SelectionManager::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a643ca68181466b5e6942c941619571fe">SelectionManager::otherTabSelection</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baad87a56d36df65e0f1380e343d1f37d7">scxt::messaging::client::s2c_send_othertab_selection</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
+
+</div>
+</div>
 <a id="abb43b83d1c89f3fcd99a48d718e4959e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb43b83d1c89f3fcd99a48d718e4959e">&#9670;&nbsp;</a></span>configureAndSendZoneModMatrixMetadata()</h2>
 
@@ -812,7 +849,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3ac2a725b23ec3aedb4c61bbc5111bd5">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3ac2a725b23ec3aedb4c61bbc5111bd5">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
 
 </div>
 </div>
@@ -832,17 +869,19 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a694967c427d06a93df7be24de06563af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a694967c427d06a93df7be24de06563af">&#9670;&nbsp;</a></span>otherTabSelection</h2>
+<a id="a643ca68181466b5e6942c941619571fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643ca68181466b5e6942c941619571fe">&#9670;&nbsp;</a></span>otherTabSelection</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::string, std::string&gt; otherTabSelection</td>
+          <td class="memname"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd">otherTabSelection_t</a> otherTabSelection</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>.</p>
 
 </div>
 </div>
@@ -917,7 +956,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Aug 17 2024 15:02:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Aug 17 2024 17:32:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
