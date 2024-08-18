@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['c_5275',['c',['../unionscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1Payload.html#acabc4da30d6ff8e88131ae5843a4961a',1,'scxt::messaging::audio::SerializationToAudio::Payload::c()'],['../unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#acabc4da30d6ff8e88131ae5843a4961a',1,'scxt::messaging::audio::AudioToSerialization::Payload::c()']]],
-  ['c2smessagebytes_5276',['c2sMessageBytes',['../structscxt_1_1messaging_1_1MessageController.html#a059908adaa65b2e6f0e162eca3d95ab2',1,'scxt::messaging::MessageController']]],
-  ['c2smessagecount_5277',['c2sMessageCount',['../structscxt_1_1messaging_1_1MessageController.html#a7ee25557124ca62cac72371071ab9bf0',1,'scxt::messaging::MessageController']]],
+  ['c_5274',['c',['../unionscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1Payload.html#acabc4da30d6ff8e88131ae5843a4961a',1,'scxt::messaging::audio::SerializationToAudio::Payload::c()'],['../unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#acabc4da30d6ff8e88131ae5843a4961a',1,'scxt::messaging::audio::AudioToSerialization::Payload::c()']]],
+  ['c2smessagebytes_5275',['c2sMessageBytes',['../structscxt_1_1messaging_1_1MessageController.html#a059908adaa65b2e6f0e162eca3d95ab2',1,'scxt::messaging::MessageController']]],
+  ['c2smessagecount_5276',['c2sMessageCount',['../structscxt_1_1messaging_1_1MessageController.html#a7ee25557124ca62cac72371071ab9bf0',1,'scxt::messaging::MessageController']]],
+  ['cachelastzone_5277',['cacheLastZone',['../structscxt_1_1ui_1_1multi_1_1MappingZones.html#ac8e4138a4ec82a6a34a0f23cbc2530b5',1,'scxt::ui::multi::MappingZones']]],
   ['callback_5278',['callback',['../structscxt_1_1ui_1_1connectors_1_1DirectBooleanPayloadDataAttachment.html#aa081e30ff05191741594f68e40c6e4f2',1,'scxt::ui::connectors::DirectBooleanPayloadDataAttachment']]],
   ['callbackmutex_5279',['callbackMutex',['../structscxt_1_1ui_1_1SCXTEditor.html#a066fd3d99930bcb327e0f7c510cdacd0',1,'scxt::ui::SCXTEditor']]],
   ['callbackqueue_5280',['callbackQueue',['../structscxt_1_1ui_1_1SCXTEditor.html#ade1b04c7f564261b2d6f2a704c811f47',1,'scxt::ui::SCXTEditor']]],
