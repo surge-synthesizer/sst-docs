@@ -88,6 +88,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
@@ -112,6 +113,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8cb82200b06867dd162611986399cf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87fef62a07ab01df326862712708f4cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87fef62a07ab01df326862712708f4cb">registerOrUnregisterTimer</a> (clap_id &amp;id, int ms, bool reg) override</td></tr>
 <tr class="separator:a87fef62a07ab01df326862712708f4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab98e2c427c732e01a22b1b998a14f23e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab98e2c427c732e01a22b1b998a14f23e">synchronousEngineUnstream</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &gt; &amp;e, const std::string &amp;payload)</td></tr>
+<tr class="separator:ab98e2c427c732e01a22b1b998a14f23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -637,7 +643,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>.</p>
 
 </div>
 </div>
@@ -1051,6 +1057,46 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab98e2c427c732e01a22b1b998a14f23e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98e2c427c732e01a22b1b998a14f23e">&#9670;&nbsp;</a></span>synchronousEngineUnstream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool synchronousEngineUnstream </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>payload</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">scxt::messaging::client::cont</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structSCXTApplicationWindow.html#a61d281eaf31d450551b58ba2e14e4d1a">SCXTApplicationWindow::SCXTApplicationWindow()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f927056a84436370e7582e443fe3071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f927056a84436370e7582e443fe3071">&#9670;&nbsp;</a></span>engine</h2>
@@ -1064,7 +1110,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b">SCXTPlugin::createEditor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">SCXTPlugin::handleParamValueEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a95892cacbeab87ef855a74af4898164e">SCXTPlugin::macroFor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b">SCXTPlugin::createEditor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">SCXTPlugin::handleParamValueEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a95892cacbeab87ef855a74af4898164e">SCXTPlugin::macroFor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab98e2c427c732e01a22b1b998a14f23e">SCXTPlugin::synchronousEngineUnstream()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1175,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 19 2024 22:17:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Aug 20 2024 12:08:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

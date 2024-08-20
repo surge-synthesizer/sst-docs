@@ -106,8 +106,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad42c10fd54401227cacf9fe377599819"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad42c10fd54401227cacf9fe377599819">streamState_t</a> = std::string</td></tr>
-<tr class="separator:ad42c10fd54401227cacf9fe377599819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2818732bc59b21306d07775fc937bf7a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2818732bc59b21306d07775fc937bf7a">unstreamEngineStatePayload_t</a> = std::string</td></tr>
+<tr class="separator:a2818732bc59b21306d07775fc937bf7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574b718fce2749e383b52ea87a1f398b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a574b718fce2749e383b52ea87a1f398b">stopSounds_t</a> = bool</td></tr>
 <tr class="separator:a574b718fce2749e383b52ea87a1f398b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -115,10 +115,10 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a81333ce4d15454e2abfdf9749fddf195"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a81333ce4d15454e2abfdf9749fddf195">SERIAL_TO_CLIENT</a> (EngineStatusUpdate, s2c_engine_status, engine::Engine::EngineStatusMessage, onEngineStatus)</td></tr>
 <tr class="separator:a81333ce4d15454e2abfdf9749fddf195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf1d76790d25a70f39124fee7b6e6807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#adf1d76790d25a70f39124fee7b6e6807">onUnstream</a> (const streamState_t &amp;payload, engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
-<tr class="separator:adf1d76790d25a70f39124fee7b6e6807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ab0b64fe9064c140951a393064541f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a08ab0b64fe9064c140951a393064541f">CLIENT_TO_SERIAL</a> (UnstreamIntoEngine, c2s_unstream_state, streamState_t, onUnstream(payload, engine, cont))</td></tr>
-<tr class="separator:a08ab0b64fe9064c140951a393064541f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f06f62f3d7817cec26cc745112e05f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a19f06f62f3d7817cec26cc745112e05f">doUnstreamEngineState</a> (const unstreamEngineStatePayload_t &amp;payload, engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:a19f06f62f3d7817cec26cc745112e05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59b7d9cc94e5aaad3496351543871bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af59b7d9cc94e5aaad3496351543871bb">CLIENT_TO_SERIAL</a> (UnstreamEngineState, c2s_unstream_engine_state, unstreamEngineStatePayload_t, doUnstreamEngineState(payload, engine, cont))</td></tr>
+<tr class="separator:af59b7d9cc94e5aaad3496351543871bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fd57571de228872bdcf3160dfe93b7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6fd57571de228872bdcf3160dfe93b7e">stopSoundsMessage</a> (const stopSounds_t &amp;payload, messaging::MessageController &amp;cont)</td></tr>
 <tr class="separator:a6fd57571de228872bdcf3160dfe93b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6579a7db7ded34f0a153d00ff5bccf4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6579a7db7ded34f0a153d00ff5bccf4e">CLIENT_TO_SERIAL</a> (StopSounds, c2s_silence_engine, stopSounds_t, stopSoundsMessage(payload, cont))</td></tr>
@@ -127,7 +127,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 19 2024 22:17:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Aug 20 2024 12:08:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

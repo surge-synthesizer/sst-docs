@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['d_5334',['d',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'scxt::modulation::modulators::AdsrStorage']]],
-  ['d_5335',['D',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7297db0a44694783e2d08e47b10c314a',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore']]],
-  ['d_5336',['d',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a7b8a5867044515ce1010eb912dc386b8',1,'scxt::browser::SQL::TxnGuard']]],
+  ['d_5335',['d',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a7b8a5867044515ce1010eb912dc386b8',1,'scxt::browser::SQL::TxnGuard::d()'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'scxt::modulation::modulators::AdsrStorage::d()']]],
+  ['d_5336',['D',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7297db0a44694783e2d08e47b10c314a',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore']]],
   ['data_5337',['data',['../structscxt_1_1infrastructure_1_1posixImpl.html#a735984d41155bc1032e09bece8f8d66d',1,'scxt::infrastructure::posixImpl::data()'],['../structscxt_1_1modulation_1_1modulators_1_1StepLFOStorage.html#ab390cc0a8a14c206cdc049fe07d14ddf',1,'scxt::modulation::modulators::StepLFOStorage::data()']]],
   ['datasize_5338',['datasize',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html#a7e1a0ea769d8bcfeb3ac0cdc17a20810',1,'scxt::sample::loaders::riffheader']]],
   ['datasize_5339',['dataSize',['../structscxt_1_1infrastructure_1_1posixImpl.html#a78f9703861dd365a513c2c5aab9f9239',1,'scxt::infrastructure::posixImpl']]],
