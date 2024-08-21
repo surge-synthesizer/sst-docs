@@ -124,8 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5340b657b53faafd743da6a2ce8cfd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1fe354f53e2bb26856822036cdcb26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a0e1fe354f53e2bb26856822036cdcb26">multiSelectAction</a> (const std::vector&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html">SelectActionContents</a> &gt; &amp;v)</td></tr>
 <tr class="separator:a0e1fe354f53e2bb26856822036cdcb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac2a725b23ec3aedb4c61bbc5111bd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3ac2a725b23ec3aedb4c61bbc5111bd5">guaranteeConsistencyAfterDeletes</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)</td></tr>
-<tr class="separator:a3ac2a725b23ec3aedb4c61bbc5111bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96868bd98d529905496e738eb0462595"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a96868bd98d529905496e738eb0462595">guaranteeConsistencyAfterDeletes</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, bool zoneDeleted, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">ZoneAddress</a> &amp;addressDeleted)</td></tr>
+<tr class="separator:a96868bd98d529905496e738eb0462595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0c913c244dbcd34b906e88b62b50d63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae0c913c244dbcd34b906e88b62b50d63">selectPart</a> (int16_t part)</td></tr>
 <tr class="separator:ae0c913c244dbcd34b906e88b62b50d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a218f9f929351e0c010e828335cd63348"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">clearAllSelections</a> ()</td></tr>
@@ -188,6 +188,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a6c8602bd29ee2e3d7002fe9a90204740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a045854dba3b34f5ebf4ff1c1acd28f1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">guaranteeSelectedLead</a> ()</td></tr>
 <tr class="separator:a045854dba3b34f5ebf4ff1c1acd28f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a1f92ee2dcfb262118d931778b648c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">guaranteeSelectedLeadSomewhereIn</a> (int part, int group, int zone)</td></tr>
+<tr class="separator:ac7a1f92ee2dcfb262118d931778b648c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21b1c125398c5b1bba89b73d38e6d423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">debugDumpSelectionState</a> ()</td></tr>
 <tr class="separator:a21b1c125398c5b1bba89b73d38e6d423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -301,8 +303,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ac2a725b23ec3aedb4c61bbc5111bd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac2a725b23ec3aedb4c61bbc5111bd5">&#9670;&nbsp;</a></span>guaranteeConsistencyAfterDeletes()</h2>
+<a id="a96868bd98d529905496e738eb0462595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96868bd98d529905496e738eb0462595">&#9670;&nbsp;</a></span>guaranteeConsistencyAfterDeletes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,8 +313,24 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void guaranteeConsistencyAfterDeletes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
-          <td class="paramname"><em>engine</em></td><td>)</td>
+          <td class="paramname"><em>engine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>zoneDeleted</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">ZoneAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>addressDeleted</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -415,7 +433,51 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a67b909552452dbc88a8d42ec3f77e269">SelectionManager::allSelectedGroups</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ad50cbe6b430707912e732ab07f1797">SelectionManager::allSelectedZones</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1f4a453c451eff4bdc96f2bd7633a519">SelectionManager::leadGroup</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a69712477cf32e168a1385362cb83ff87">SelectionManager::leadZone</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#ac5856f216c4e61269838ba634d799388">SCLOG_WFUNC</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a19ef90d0277f9a76a61fd8c333b4407f">SelectionManager::selectedPart</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a0e1fe354f53e2bb26856822036cdcb26">SelectionManager::multiSelectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae0c913c244dbcd34b906e88b62b50d63">SelectionManager::selectPart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a0e1fe354f53e2bb26856822036cdcb26">SelectionManager::multiSelectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae0c913c244dbcd34b906e88b62b50d63">SelectionManager::selectPart()</a>.</p>
+
+</div>
+</div>
+<a id="ac7a1f92ee2dcfb262118d931778b648c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a1f92ee2dcfb262118d931778b648c">&#9670;&nbsp;</a></span>guaranteeSelectedLeadSomewhereIn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void guaranteeSelectedLeadSomewhereIn </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>zone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa43980f69e7c0e9e2d54a64a453ff231">SelectionManager::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1f4a453c451eff4bdc96f2bd7633a519">SelectionManager::leadGroup</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a69712477cf32e168a1385362cb83ff87">SelectionManager::leadZone</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a19ef90d0277f9a76a61fd8c333b4407f">SelectionManager::selectedPart</a>.</p>
 
 </div>
 </div>
@@ -849,7 +911,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3ac2a725b23ec3aedb4c61bbc5111bd5">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a96868bd98d529905496e738eb0462595">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
 
 </div>
 </div>
@@ -865,7 +927,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aabf7a2876743d34cd23546977ceaf1ad">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3c40bd1238a634d72792e9fa30a43bae">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a588755b35a4159b0c245b35d1e87896b">SelectionManager::currentlySelectedGroups()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a7d2c0a0d9cc2814dcedfdc55611cb95b">SelectionManager::currentlySelectedPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3ac2a725b23ec3aedb4c61bbc5111bd5">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae0c913c244dbcd34b906e88b62b50d63">SelectionManager::selectPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aabf7a2876743d34cd23546977ceaf1ad">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3c40bd1238a634d72792e9fa30a43bae">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a588755b35a4159b0c245b35d1e87896b">SelectionManager::currentlySelectedGroups()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a7d2c0a0d9cc2814dcedfdc55611cb95b">SelectionManager::currentlySelectedPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a96868bd98d529905496e738eb0462595">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae0c913c244dbcd34b906e88b62b50d63">SelectionManager::selectPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
 
 </div>
 </div>
@@ -897,7 +959,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3ac2a725b23ec3aedb4c61bbc5111bd5">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a96868bd98d529905496e738eb0462595">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
 
 </div>
 </div>
@@ -929,7 +991,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3c40bd1238a634d72792e9fa30a43bae">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3c40bd1238a634d72792e9fa30a43bae">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
 
 </div>
 </div>
@@ -945,7 +1007,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aabf7a2876743d34cd23546977ceaf1ad">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aabf7a2876743d34cd23546977ceaf1ad">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>.</p>
 
 </div>
 </div>
@@ -956,7 +1018,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 21 2024 20:34:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Aug 21 2024 21:54:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
