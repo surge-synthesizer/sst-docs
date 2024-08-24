@@ -173,8 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac8ff40d03d74393d13ded7da82c0f7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4b4985a2db49f3cb08f116ac6b78e1f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#af4b4985a2db49f3cb08f116ac6b78e1f">removeZone</a> (const <a class="el" href="namespacescxt.html#a8d628dbcbcc81f552ff36618d1e5b494">ZoneID</a> &amp;zid)</td></tr>
 <tr class="separator:af4b4985a2db49f3cb08f116ac6b78e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1f512ab0fcc05612f8e3d6a4664ce9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">isActive</a> ()</td></tr>
-<tr class="separator:aa1f512ab0fcc05612f8e3d6a4664ce9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354c7d206ec624b9bdbb81f3b788f826"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a354c7d206ec624b9bdbb81f3b788f826">isActive</a> () const</td></tr>
+<tr class="separator:a354c7d206ec624b9bdbb81f3b788f826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8af129bc0266426f2c557d96e2b51603"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a8af129bc0266426f2c557d96e2b51603">addActiveZone</a> ()</td></tr>
 <tr class="separator:a8af129bc0266426f2c557d96e2b51603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a115e1323f3527f684dd243b6914d92ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a115e1323f3527f684dd243b6914d92ce">removeActiveZone</a> ()</td></tr>
@@ -187,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abf843557abaa8bfcda9b93d659b14322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ea5a4cf8758c2628df340c09c9f7465"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">onProcessorTypeChanged</a> (int w, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">dsp::processor::ProcessorType</a> t)</td></tr>
 <tr class="separator:a9ea5a4cf8758c2628df340c09c9f7465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3991fb53c76f77b1272aee7e23968199"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a3991fb53c76f77b1272aee7e23968199">updateRingout</a> ()</td></tr>
+<tr class="separator:a3991fb53c76f77b1272aee7e23968199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16fbd33531141ad7b5691a447b143752"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structscxt_1_1engine_1_1Group.html#a7b359822d545f5aa6ca7dab8c0ca68c6">zoneContainer_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a16fbd33531141ad7b5691a447b143752">getZones</a> () const</td></tr>
 <tr class="separator:a16fbd33531141ad7b5691a447b143752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add61874760717321c4c4f0d627c6a6eb"><td class="memItemLeft" align="right" valign="top">zoneContainer_t::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#add61874760717321c4c4f0d627c6a6eb">begin</a> () noexcept</td></tr>
@@ -294,6 +296,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af6224631cfd74675f1c9aa7107c7443a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf8f50736ff9d65b02601e94b5c7c89b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">activeZones</a> {0}</td></tr>
 <tr class="separator:acf8f50736ff9d65b02601e94b5c7c89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ec986deeb2eeb71fb8df16cd672fb8"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#aa2ec986deeb2eeb71fb8df16cd672fb8">ringoutTime</a> {0}</td></tr>
+<tr class="separator:aa2ec986deeb2eeb71fb8df16cd672fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c305f7111ecf3e0bb3630f188b790a"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#ae0c305f7111ecf3e0bb3630f188b790a">ringoutMax</a> {0}</td></tr>
+<tr class="separator:ae0c305f7111ecf3e0bb3630f188b790a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html">HasGroupZoneProcessors&lt; Group &gt;</a></td></tr>
 <tr class="memitem:a201b46ffc7096da22ec732440aedeae4 inherit pub_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">dsp::processor::ProcessorStorage</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a295fedd8f04dcd330a6ee4f7a72862e9">processorCount</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a201b46ffc7096da22ec732440aedeae4">processorStorage</a></td></tr>
 <tr class="separator:a201b46ffc7096da22ec732440aedeae4 inherit pub_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -503,6 +509,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#a354c7d206ec624b9bdbb81f3b788f826">Group::isActive()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4">Group::rePrepareAndBindGroupMatrix()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a8af129bc0266426f2c557d96e2b51603">Group::addActiveZone()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>.</p>
 
@@ -740,8 +748,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa1f512ab0fcc05612f8e3d6a4664ce9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1f512ab0fcc05612f8e3d6a4664ce9a">&#9670;&nbsp;</a></span>isActive()</h2>
+<a id="a354c7d206ec624b9bdbb81f3b788f826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354c7d206ec624b9bdbb81f3b788f826">&#9670;&nbsp;</a></span>isActive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -750,12 +758,14 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">bool isActive </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">Group::activeZones</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">Group::activeZones</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae0c305f7111ecf3e0bb3630f188b790a">Group::ringoutMax</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#aa2ec986deeb2eeb71fb8df16cd672fb8">Group::ringoutTime</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb">Group::attack()</a>.</p>
 
 </div>
 </div>
@@ -774,7 +784,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">Group::activeZones</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a03d599b01048fd44a64f6b0e72c6a058">Part::addActiveGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb">Group::attack()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">Group::activeZones</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a03d599b01048fd44a64f6b0e72c6a058">Part::addActiveGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb">Group::attack()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#aa2ec986deeb2eeb71fb8df16cd672fb8">Group::ringoutTime</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0000e6c83d3eba34b2929b56902dcffa">Zone::addVoice()</a>.</p>
 
@@ -795,7 +805,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">Group::activeZones</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#af6224631cfd74675f1c9aa7107c7443a">Group::mUILag</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a4c5a9da87bb5957097aeb3d250ec1028">Part::removeActiveGroup()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b">Group::activeZones</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#af6224631cfd74675f1c9aa7107c7443a">Group::mUILag</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a4c5a9da87bb5957097aeb3d250ec1028">Part::removeActiveGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae0c305f7111ecf3e0bb3630f188b790a">Group::ringoutMax</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aa2ec986deeb2eeb71fb8df16cd672fb8">Group::ringoutTime</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a3991fb53c76f77b1272aee7e23968199">Group::updateRingout()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac5da2e6909a5dde1e667b8aa089b88b7">Zone::removeVoice()</a>.</p>
 
@@ -847,7 +857,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#aa1836675edeb334df67a27b566ec8870">GroupMatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a438dcc16a215c8148d894bd448255eb5">GroupMatrixEndpoints::bindTargetBaseValues()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5d4f5fa2843a572e4fd699aef7787278">Group::endpoints</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6">Group::modMatrix</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5308cde9f07f4c600b30244cf05dc009">Group::routingTable</a>, and <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a21daac55346cc8be355ea6437613428d">GroupMatrixEndpoints::sources</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a76bd2fa77271864a08c074372ea030bb">Group::setupOnUnstream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb">Group::attack()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a76bd2fa77271864a08c074372ea030bb">Group::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -900,6 +910,27 @@ Additional Inherited Members</h2></td></tr>
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a13d54f1c387e1042c6769ffd3b1067d6">HasGroupZoneProcessors&lt; Group &gt;::asT()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab6ff72994d3fcd9e16b2a3b32ee6a949">Group::processorPlacementStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a80ddc0de71c64997250da26111d9700f">Group::processors</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fab6080b828311d406f61ea40920cfecf7">scxt::dsp::processor::proct_none</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#af75bc3e5af9efb0e1954fbc96e978737">scxt::dsp::processor::spawnProcessorInPlace()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#af98be2b15b8754d18053520c94223a33">scxt::dsp::processor::unspawnProcessor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a76bd2fa77271864a08c074372ea030bb">Group::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a3991fb53c76f77b1272aee7e23968199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3991fb53c76f77b1272aee7e23968199">&#9670;&nbsp;</a></span>updateRingout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateRingout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#a80ddc0de71c64997250da26111d9700f">Group::processors</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae0c305f7111ecf3e0bb3630f188b790a">Group::ringoutMax</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#aa2ec986deeb2eeb71fb8df16cd672fb8">Group::ringoutTime</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a115e1323f3527f684dd243b6914d92ce">Group::removeActiveZone()</a>.</p>
 
 </div>
 </div>
@@ -1293,7 +1324,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#af01fe963b4d079001758b734085e6c8a">Group::~Group()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a3991fb53c76f77b1272aee7e23968199">Group::updateRingout()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#af01fe963b4d079001758b734085e6c8a">Group::~Group()</a>.</p>
 
 </div>
 </div>
@@ -1411,7 +1442,39 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a8af129bc0266426f2c557d96e2b51603">Group::addActiveZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Group::isActive()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a115e1323f3527f684dd243b6914d92ce">Group::removeActiveZone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a8af129bc0266426f2c557d96e2b51603">Group::addActiveZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a354c7d206ec624b9bdbb81f3b788f826">Group::isActive()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a115e1323f3527f684dd243b6914d92ce">Group::removeActiveZone()</a>.</p>
+
+</div>
+</div>
+<a id="aa2ec986deeb2eeb71fb8df16cd672fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2ec986deeb2eeb71fb8df16cd672fb8">&#9670;&nbsp;</a></span>ringoutTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t ringoutTime {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a8af129bc0266426f2c557d96e2b51603">Group::addActiveZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a354c7d206ec624b9bdbb81f3b788f826">Group::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a115e1323f3527f684dd243b6914d92ce">Group::removeActiveZone()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a3991fb53c76f77b1272aee7e23968199">Group::updateRingout()</a>.</p>
+
+</div>
+</div>
+<a id="ae0c305f7111ecf3e0bb3630f188b790a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c305f7111ecf3e0bb3630f188b790a">&#9670;&nbsp;</a></span>ringoutMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t ringoutMax {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a354c7d206ec624b9bdbb81f3b788f826">Group::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a115e1323f3527f684dd243b6914d92ce">Group::removeActiveZone()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a3991fb53c76f77b1272aee7e23968199">Group::updateRingout()</a>.</p>
 
 </div>
 </div>
@@ -1422,7 +1485,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Aug 24 2024 17:05:43 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Aug 24 2024 17:09:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
