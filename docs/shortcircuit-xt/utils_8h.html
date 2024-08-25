@@ -102,8 +102,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ID.html">ID&lt; idType_v &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is just a little class to make sure we can have IDs for all of our items which are quick to copy but type differentiated so we don't accidentally use a ZoneID on a Sample or some such.  <a href="structscxt_1_1ID.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1LeakDetected.html">LeakDetected&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class which forces move semantics and optionally runs a naive leak detector.  <a href="classscxt_1_1MoveableOnly.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,8 +121,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2e09787ef4ebb8bfdbfabbc33223cc20"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a2e09787ef4ebb8bfdbfabbc33223cc20">USE_SIMPLE_LEAK_DETECTOR</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a2e09787ef4ebb8bfdbfabbc33223cc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21b2a427c04359f36808a9599b552083"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(...)</td></tr>
 <tr class="separator:a21b2a427c04359f36808a9599b552083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a625d50372c14206767b37135450b522d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a625d50372c14206767b37135450b522d">SCLOG_ONCE</a>(...)</td></tr>
@@ -159,8 +155,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af30d13f7f4ec31045eb52b11834dfc79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#af30d13f7f4ec31045eb52b11834dfc79">showLeakLog</a> ()</td></tr>
-<tr class="separator:af30d13f7f4ec31045eb52b11834dfc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19ffc53eab8d8d971895057141636590"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a19ffc53eab8d8d971895057141636590">postToLog</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a19ffc53eab8d8d971895057141636590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6c6d4f23a5af95f408987034a51148c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#af6c6d4f23a5af95f408987034a51148c">getFullLog</a> ()</td></tr>
@@ -178,20 +172,6 @@ Functions</h2></td></tr>
 <tr class="separator:ad5300c314d1fc81ff37f6415dae71076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2e09787ef4ebb8bfdbfabbc33223cc20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e09787ef4ebb8bfdbfabbc33223cc20">&#9670;&nbsp;</a></span>USE_SIMPLE_LEAK_DETECTOR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define USE_SIMPLE_LEAK_DETECTOR&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a21b2a427c04359f36808a9599b552083"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21b2a427c04359f36808a9599b552083">&#9670;&nbsp;</a></span>SCLOG</h2>
 
@@ -213,8 +193,8 @@ Functions</h2></td></tr>
 <div class="line">                 &lt;&lt; __VA_ARGS__ &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;                                                           <a class="code" href="namespacescxt.html#a19ffc53eab8d8d971895057141636590">\</a></div>
 <div class="line"><a class="code" href="namespacescxt.html#a19ffc53eab8d8d971895057141636590">        scxt::postToLog</a>(oss_macr.str());                                                           \</div>
 <div class="line">    }</div>
-<div class="ttc" id="anamespacescxt_html_a19ffc53eab8d8d971895057141636590"><div class="ttname"><a href="namespacescxt.html#a19ffc53eab8d8d971895057141636590">scxt::postToLog</a></div><div class="ttdeci">void postToLog(const std::string &amp;s)</div><div class="ttdef"><b>Definition:</b> utils.cpp:83</div></div>
-<div class="ttc" id="anamespacescxt_html_a8e49ec8fc52d71c0423912645e3e3e03"><div class="ttname"><a href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a></div><div class="ttdeci">std::string logTimestamp()</div><div class="ttdef"><b>Definition:</b> utils.cpp:117</div></div>
+<div class="ttc" id="anamespacescxt_html_a19ffc53eab8d8d971895057141636590"><div class="ttname"><a href="namespacescxt.html#a19ffc53eab8d8d971895057141636590">scxt::postToLog</a></div><div class="ttdeci">void postToLog(const std::string &amp;s)</div><div class="ttdef"><b>Definition:</b> utils.cpp:69</div></div>
+<div class="ttc" id="anamespacescxt_html_a8e49ec8fc52d71c0423912645e3e3e03"><div class="ttname"><a href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a></div><div class="ttdeci">std::string logTimestamp()</div><div class="ttdef"><b>Definition:</b> utils.cpp:103</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -376,7 +356,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 25 2024 11:44:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Aug 25 2024 18:42:08 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

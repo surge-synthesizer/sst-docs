@@ -139,8 +139,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ID.html">ID</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is just a little class to make sure we can have IDs for all of our items which are quick to copy but type differentiated so we don't accidentally use a ZoneID on a Sample or some such.  <a href="structscxt_1_1ID.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1LeakDetected.html">LeakDetected</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class which forces move semantics and optionally runs a naive leak detector.  <a href="classscxt_1_1MoveableOnly.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,8 +168,6 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a81fa0ad7d773f57faa592541446e7eec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a81fa0ad7d773f57faa592541446e7eec">printStackTrace</a> (int fd)</td></tr>
 <tr class="separator:a81fa0ad7d773f57faa592541446e7eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af30d13f7f4ec31045eb52b11834dfc79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#af30d13f7f4ec31045eb52b11834dfc79">showLeakLog</a> ()</td></tr>
-<tr class="separator:af30d13f7f4ec31045eb52b11834dfc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19ffc53eab8d8d971895057141636590"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a19ffc53eab8d8d971895057141636590">postToLog</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a19ffc53eab8d8d971895057141636590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6c6d4f23a5af95f408987034a51148c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#af6c6d4f23a5af95f408987034a51148c">getFullLog</a> ()</td></tr>
@@ -188,8 +184,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae2bffa894d83563a9e1f635e827f672e"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#ae2bffa894d83563a9e1f635e827f672e">allocLog</a></td></tr>
-<tr class="separator:ae2bffa894d83563a9e1f635e827f672e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ed4e2e604e59227624ba22c4161bc64"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a1ed4e2e604e59227624ba22c4161bc64">logMutex</a></td></tr>
 <tr class="separator:a1ed4e2e604e59227624ba22c4161bc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0aea81a825777d44d959d8d9a143b63"><td class="memItemLeft" align="right" valign="top">std::deque&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#ad0aea81a825777d44d959d8d9a143b63">logMessages</a></td></tr>
@@ -300,27 +294,6 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a6cd25c1f7d2bb2486c2da9d573c4f39d">Part::getGroup()</a>.</p>
-
-</div>
-</div>
-<a id="af30d13f7f4ec31045eb52b11834dfc79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af30d13f7f4ec31045eb52b11834dfc79">&#9670;&nbsp;</a></span>showLeakLog()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void showLeakLog </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="namespacescxt.html#ae2bffa894d83563a9e1f635e827f672e">allocLog</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
 
 </div>
 </div>
@@ -461,22 +434,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ae2bffa894d83563a9e1f635e827f672e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2bffa894d83563a9e1f635e827f672e">&#9670;&nbsp;</a></span>allocLog</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt; std::string, std::pair&lt; int, int &gt; &gt; allocLog</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classscxt_1_1LeakDetected.html#ac65b8207912f1a71b346f1cf5d29f698">LeakDetected&lt; T &gt;::leakDetect()</a>, and <a class="el" href="namespacescxt.html#af30d13f7f4ec31045eb52b11834dfc79">showLeakLog()</a>.</p>
-
-</div>
-</div>
 <a id="a1ed4e2e604e59227624ba22c4161bc64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ed4e2e604e59227624ba22c4161bc64">&#9670;&nbsp;</a></span>logMutex</h2>
 
@@ -512,7 +469,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 25 2024 11:44:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Aug 25 2024 18:42:08 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
