@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['favoritespane_3654',['FavoritesPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1FavoritesPane.html',1,'scxt::ui::app::browser_ui']]],
-  ['fileinfos_3655',['FileInfos',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay_1_1FileInfos.html',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
-  ['filemapview_3656',['FileMapView',['../classscxt_1_1infrastructure_1_1FileMapView.html',1,'scxt::infrastructure']]],
-  ['fouruintsfourfloats_3657',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]]
+  ['favoritespane_3668',['FavoritesPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1FavoritesPane.html',1,'scxt::ui::app::browser_ui']]],
+  ['fileinfos_3669',['FileInfos',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay_1_1FileInfos.html',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
+  ['filemapview_3670',['FileMapView',['../classscxt_1_1infrastructure_1_1FileMapView.html',1,'scxt::infrastructure']]],
+  ['fouruintsfourfloats_3671',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]]
 ];
