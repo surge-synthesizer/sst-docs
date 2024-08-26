@@ -171,7 +171,7 @@ var searchData=
   ['modulator_5fstorage_2ecpp_1733',['modulator_storage.cpp',['../modulator__storage_8cpp.html',1,'']]],
   ['modulator_5fstorage_2eh_1734',['modulator_storage.h',['../modulator__storage_8h.html',1,'']]],
   ['modulatorshape_1735',['ModulatorShape',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d',1,'scxt::modulation::ModulatorStorage']]],
-  ['modulatorshape_1736',['modulatorShape',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae70f3768921500ada61ee1ed0d97bb63',1,'scxt::ui::app::edit_screen::LfoPane']]],
+  ['modulatorshape_1736',['modulatorShape',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a2fd969073a79eb852bd27e13254e875d',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['modulatorshapea_1737',['modulatorShapeA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae20fdbd1b3a33487d65a85812e9b8a3e',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['modulatorstorage_1738',['modulatorStorage',['../structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529',1,'scxt::engine::Group::modulatorStorage()'],['../structscxt_1_1engine_1_1Zone.html#a3d011e30e8f8231d575309995eb36acd',1,'scxt::engine::Zone::modulatorStorage()']]],
   ['modulatorstorage_1739',['ModulatorStorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html',1,'scxt::modulation']]],
