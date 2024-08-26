@@ -207,6 +207,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad8e3d11b28ab80532e6147590edb9c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94bc74bd81412cf9d6641ec73a97bdcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a94bc74bd81412cf9d6641ec73a97bdcd">itemDropped</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
 <tr class="separator:a94bc74bd81412cf9d6641ec73a97bdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3b7ed050a2fc96b1e4e2750e83fbaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#aff3b7ed050a2fc96b1e4e2750e83fbaf">itemDragEnter</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:aff3b7ed050a2fc96b1e4e2750e83fbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edfeefd0f1563d51e64ecd4953dee5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a9edfeefd0f1563d51e64ecd4953dee5d">itemDragExit</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:a9edfeefd0f1563d51e64ecd4953dee5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a17ffb5b1df1ec2eb6eb4330aba180c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a1a17ffb5b1df1ec2eb6eb4330aba180c">reapplyStyle</a> ()</td></tr>
 <tr class="separator:a1a17ffb5b1df1ec2eb6eb4330aba180c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a42b31a7130ebeee777dfd733dc7e1e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afd392348a4980f94929e870d2917ddd6">intEditor_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a9a42b31a7130ebeee777dfd733dc7e1e">createAndLayoutPowerButton</a> (const sst::jucegui::layout::ExplicitLayout &amp;elo, const std::string &amp;lotag, const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875">int_attachment_t</a> &gt; &amp;at)</td></tr>
@@ -1205,6 +1209,58 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aff3b7ed050a2fc96b1e4e2750e83fbaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3b7ed050a2fc96b1e4e2750e83fbaf">&#9670;&nbsp;</a></span>itemDragEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itemDragEnter </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9edfeefd0f1563d51e64ecd4953dee5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9edfeefd0f1563d51e64ecd4953dee5d">&#9670;&nbsp;</a></span>itemDragExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itemDragExit </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1a17ffb5b1df1ec2eb6eb4330aba180c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a17ffb5b1df1ec2eb6eb4330aba180c">&#9670;&nbsp;</a></span>reapplyStyle()</h2>
 
@@ -1615,7 +1671,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 26 2024 00:12:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Aug 26 2024 00:35:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
