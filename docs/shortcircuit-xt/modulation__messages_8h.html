@@ -106,10 +106,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a681fe7be0c48e1a88abe94c633954e31"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int, voice::modulation::Matrix::RoutingTable::Routing, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a681fe7be0c48e1a88abe94c633954e31">indexedZoneRowUpdate_t</a></td></tr>
-<tr class="separator:a681fe7be0c48e1a88abe94c633954e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab5572746a5dc921fc7304435c1c708"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int, modulation::GroupMatrix::RoutingTable::Routing, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6ab5572746a5dc921fc7304435c1c708">indexedGroupRowUpdate_t</a></td></tr>
-<tr class="separator:a6ab5572746a5dc921fc7304435c1c708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee36856f682f7a268621f7e03ebd7aa0"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int, voice::modulation::Matrix::RoutingTable::Routing, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aee36856f682f7a268621f7e03ebd7aa0">zoneRoutingRowPayload_t</a></td></tr>
+<tr class="separator:aee36856f682f7a268621f7e03ebd7aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70858f5691444538db005687b8eeb10"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int, modulation::GroupMatrix::RoutingTable::Routing, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af70858f5691444538db005687b8eeb10">updateGroupRoutingRowPayload_t</a></td></tr>
+<tr class="separator:af70858f5691444538db005687b8eeb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e35a9241690bfa0ea71a9376cbee12"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; bool, bool, int, modulation::ModulatorStorage &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66e35a9241690bfa0ea71a9376cbee12">indexedModulatorStorageUpdate_t</a></td></tr>
 <tr class="separator:a66e35a9241690bfa0ea71a9376cbee12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -123,21 +123,21 @@ Functions</h2></td></tr>
 <tr class="separator:a559ffdba54443bce065912da4f37b2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76d054f8706a30d198bbb0fb09d7b493"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a76d054f8706a30d198bbb0fb09d7b493">SERIAL_TO_CLIENT</a> (UpdateGroupMatrix, s2c_update_group_matrix, modulation::GroupMatrix::RoutingTable, onGroupMatrix)</td></tr>
 <tr class="separator:a76d054f8706a30d198bbb0fb09d7b493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc731b3d7aa892c7285300dd30f0cf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8bc731b3d7aa892c7285300dd30f0cf1">indexedZoneRoutingRowUpdated</a> (const indexedZoneRowUpdate_t &amp;payload, const engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
-<tr class="separator:a8bc731b3d7aa892c7285300dd30f0cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94136a04e8d43de63d3dce2453a4e2f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a94136a04e8d43de63d3dce2453a4e2f1">CLIENT_TO_SERIAL</a> (IndexedZoneRoutingRowUpdated, c2s_update_zone_routing_row, indexedZoneRowUpdate_t, indexedZoneRoutingRowUpdated(payload, engine, cont))</td></tr>
-<tr class="separator:a94136a04e8d43de63d3dce2453a4e2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d7777947b7de9edc4f29ec4f9001e4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1d7777947b7de9edc4f29ec4f9001e4c">indexedGroupRoutingRowUpdated</a> (const indexedGroupRowUpdate_t &amp;payload, const engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
-<tr class="separator:a1d7777947b7de9edc4f29ec4f9001e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad82bb6343a9ab0fd1066821688585d20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82bb6343a9ab0fd1066821688585d20">CLIENT_TO_SERIAL</a> (IndexedGroupRoutingRowUpdated, c2s_update_group_routing_row, indexedGroupRowUpdate_t, indexedGroupRoutingRowUpdated(payload, engine, cont))</td></tr>
-<tr class="separator:ad82bb6343a9ab0fd1066821688585d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46acbf2e974b6185608ef0fb7abc4355"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a46acbf2e974b6185608ef0fb7abc4355">doUpdateZoneRoutingRow</a> (const zoneRoutingRowPayload_t &amp;payload, const engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:a46acbf2e974b6185608ef0fb7abc4355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37980e5caea4f471eabd615b78901fdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a37980e5caea4f471eabd615b78901fdb">CLIENT_TO_SERIAL</a> (UpdateZoneRoutingRow, c2s_update_zone_routing_row, zoneRoutingRowPayload_t, doUpdateZoneRoutingRow(payload, engine, cont))</td></tr>
+<tr class="separator:a37980e5caea4f471eabd615b78901fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100f324142fb014324c7a34e123a6c4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a100f324142fb014324c7a34e123a6c4d">doUpdateGroupRoutingRow</a> (const updateGroupRoutingRowPayload_t &amp;payload, const engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:a100f324142fb014324c7a34e123a6c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cd0d4b23183cdd139df5695ed8c0c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a15cd0d4b23183cdd139df5695ed8c0c8">CLIENT_TO_SERIAL</a> (UpdateGroupRoutingRow, c2s_update_group_routing_row, updateGroupRoutingRowPayload_t, doUpdateGroupRoutingRow(payload, engine, cont))</td></tr>
+<tr class="separator:a15cd0d4b23183cdd139df5695ed8c0c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a842dc6b1012de80c9513f4461f314b7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a842dc6b1012de80c9513f4461f314b7a">SERIAL_TO_CLIENT</a> (UpdateZoneLfo, s2c_update_group_or_zone_individual_modulator_storage, indexedModulatorStorageUpdate_t, onGroupOrZoneModulatorStorageUpdated)</td></tr>
 <tr class="separator:a842dc6b1012de80c9513f4461f314b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 28 2024 13:27:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Aug 28 2024 20:21:08 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
