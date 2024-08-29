@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['readme_5fjson_5fassets_2emd_4097',['README_JSON_ASSETS.md',['../README__JSON__ASSETS_8md.html',1,'']]],
-  ['resampling_2eh_4098',['resampling.h',['../resampling_8h.html',1,'']]],
-  ['riff_5fmemfile_2eh_4099',['riff_memfile.h',['../riff__memfile_8h.html',1,'']]],
-  ['riff_5fwave_2eh_4100',['riff_wave.h',['../riff__wave_8h.html',1,'']]],
-  ['routing_2eh_4101',['routing.h',['../routing_8h.html',1,'']]]
+  ['readme_5fjson_5fassets_2emd_4093',['README_JSON_ASSETS.md',['../README__JSON__ASSETS_8md.html',1,'']]],
+  ['resampling_2eh_4094',['resampling.h',['../resampling_8h.html',1,'']]],
+  ['riff_5fmemfile_2eh_4095',['riff_memfile.h',['../riff__memfile_8h.html',1,'']]],
+  ['riff_5fwave_2eh_4096',['riff_wave.h',['../riff__wave_8h.html',1,'']]],
+  ['routing_2eh_4097',['routing.h',['../routing_8h.html',1,'']]]
 ];
