@@ -62,7 +62,7 @@ var searchData=
   ['delayt_596',['delayT',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html#a5bf2ac2658867e594ebffdba47d37aff',1,'scxt::modulation::shared::LFOTargetEndpointData::Curve::delayT()'],['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Env.html#a5bf2ac2658867e594ebffdba47d37aff',1,'scxt::modulation::shared::LFOTargetEndpointData::Env::delayT()']]],
   ['delthis_597',['delThis',['../unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#a6f0269de02b857ee91d3b624de40247b',1,'scxt::messaging::audio::AudioToSerialization::Payload']]],
   ['denominator_598',['denominator',['../structscxt_1_1engine_1_1Transport_1_1Signature.html#a57ce9b490045dee0e7ac036695bfc8b6',1,'scxt::engine::Transport::Signature']]],
-  ['depth_599',['depth',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a56269575d0dbbfb95d414e9eb1be0e35',1,'scxt::ui::app::edit_screen::ModRow']]],
+  ['depth_599',['depth',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a9cb1a6559f6cab9ef613a0d94edfa28e',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['depthattachment_600',['depthAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#ae4429052da5478faee00f4a016d77dd6',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['descfor_601',['descFor',['../namespacescxt_1_1datamodel_1_1detail.html#a33f5edd35b33e8314989cfb4d5519845',1,'scxt::datamodel::detail']]],
   ['describevalue_602',['describeValue',['../namespacescxt_1_1datamodel.html#ac7dab393fd187d928c3dfef730cdbf1d',1,'scxt::datamodel']]],
