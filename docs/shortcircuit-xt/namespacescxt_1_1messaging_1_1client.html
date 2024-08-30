@@ -126,8 +126,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:a45ce03949e6cbbe61b0eec65231dad0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b706ab3d3f11d930fa29e798678088b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b">groupOutputInfoUpdate_t</a> = std::pair&lt; bool, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">engine::Group::GroupOutputInfo</a> &gt;</td></tr>
 <tr class="separator:a5b706ab3d3f11d930fa29e798678088b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada86fb4afbaecab8d198790762462453"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ada86fb4afbaecab8d198790762462453">renameGroup_t</a> = std::tuple&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a>, std::string &gt;</td></tr>
-<tr class="separator:ada86fb4afbaecab8d198790762462453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace25f3092aacad4de1a2080cde45f141"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; bool, int, bool, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ace25f3092aacad4de1a2080cde45f141">adsrViewResponsePayload_t</a></td></tr>
 <tr class="separator:ace25f3092aacad4de1a2080cde45f141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f72a6ea5056f902a343cb7ce1e1482e"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f72a6ea5056f902a343cb7ce1e1482e">s2cError_t</a></td></tr>
@@ -247,25 +245,26 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ab0462323980c05fe3497086e95d8e221">c2s_delete_group</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ad35e7bd9d3c4dd8fd6fe98d1cc21dabf">c2s_clear_part</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a42573c6e22d67298b865663669a3c1f0">c2s_rename_zone</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6c7255c16720c4f98da647e5d79e26e3">c2s_rename_group</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af6e7a626420f03e2725e19788d8e47ec">c2s_set_tuning_mode</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a4bdb4972064d9c0393883402a86615fd">c2s_noteonoff</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af6e7a626420f03e2725e19788d8e47ec">c2s_set_tuning_mode</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a4bdb4972064d9c0393883402a86615fd">c2s_noteonoff</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa1a80a997a9e67622a9f2e7b9816708a">c2s_initialize_mixer</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a9eb33b5e751a5ecf363b680cecc08980">c2s_set_mixer_effect</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aad5ee289cfb3c95ed4e7869f61930dc1">c2s_set_mixer_effect_storage</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a1de05f0352b583b5a7285e3d73d1e82b">c2s_set_mixer_send_storage</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aad5ee289cfb3c95ed4e7869f61930dc1">c2s_set_mixer_effect_storage</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a1de05f0352b583b5a7285e3d73d1e82b">c2s_set_mixer_send_storage</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a2b14e742bc6843223bff2f32fd36a31f">c2s_add_browser_device_location</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ab561d315604383b905764d09ebca1190">c2s_request_debug_action</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abab0f6a286c7fc43fbbb13eac0e03e65">c2s_silence_engine</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abe5afa1afc7cad1b8d44037cb30ed31d">c2s_set_macro_full_state</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abab0f6a286c7fc43fbbb13eac0e03e65">c2s_silence_engine</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abe5afa1afc7cad1b8d44037cb30ed31d">c2s_set_macro_full_state</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a041ef4576400121a6cdbe46854e6ec98">c2s_set_macro_value</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af5d96734ff002b94a3ce475ed735a520">c2s_request_host_callback</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ad42c31162608729ee3903b3f767c114f">c2s_macro_begin_end_edit</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a01660e8b42f7535c8ef91924ee4c87a3">c2s_set_othertab_selection</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ad42c31162608729ee3903b3f767c114f">c2s_macro_begin_end_edit</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a01660e8b42f7535c8ef91924ee4c87a3">c2s_set_othertab_selection</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a18c23a001da74389dfe73ab5077e4ce2">c2s_send_full_part_config</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa7dc9db1a8a2bf3cf00854d63cb5b124">num_clientToSerializationMessages</a>
 <br />
@@ -362,10 +361,6 @@ Functions</h2></td></tr>
 <tr class="separator:aee36695f990d4d6f4fd9dedda5cb30cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a541b9709576b83a45b2fa8159c4c5696"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a541b9709576b83a45b2fa8159c4c5696">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateGroupOutputBoolValue, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ac538fce21a8d0936da81313fe4f56ec1">c2s_update_group_output_bool_value</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">detail::diffMsg_t</a>&lt; bool &gt;, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">engine::Group::GroupOutputInfo</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad55c2e12dedb566c2b4e878c29ebb355">detail::updateGroupMemberValue</a>(&amp;<a class="el" href="structscxt_1_1engine_1_1Group.html#a427ed2fbbfee558084c2f89eb9a60932">engine::Group::outputInfo</a>, payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:a541b9709576b83a45b2fa8159c4c5696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c7c7d14050de103e6bd0dfe642799e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66c7c7d14050de103e6bd0dfe642799e">renameGroup</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ada86fb4afbaecab8d198790762462453">renameGroup_t</a> &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
-<tr class="separator:a66c7c7d14050de103e6bd0dfe642799e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb57af37169549435f4be1230cff749e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb57af37169549435f4be1230cff749e">CLIENT_TO_SERIAL</a> (RenameGroup, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6c7255c16720c4f98da647e5d79e26e3">c2s_rename_group</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ada86fb4afbaecab8d198790762462453">renameGroup_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66c7c7d14050de103e6bd0dfe642799e">renameGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
-<tr class="separator:afb57af37169549435f4be1230cff749e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76ca2629dc7e0a2d9997642db796ffd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab76ca2629dc7e0a2d9997642db796ffd">SERIAL_TO_CLIENT</a> (AdsrGroupOrZoneUpdate, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba919ace373ea77549b0b0298e8b56713e">s2c_update_group_or_zone_adsr_view</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ace25f3092aacad4de1a2080cde45f141">adsrViewResponsePayload_t</a>, onGroupOrZoneEnvelopeUpdated)</td></tr>
 <tr class="separator:ab76ca2629dc7e0a2d9997642db796ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f221e29f3c4e704a94d51bb9ffec18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae8f221e29f3c4e704a94d51bb9ffec18">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateZoneOrGroupEGFloatValue, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a70324e54c972c1debdbdbb8c3e7b8ae1">c2s_update_zone_or_group_eg_float_value</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1ad7c008ee8f924c152ad7525f62949c">detail::indexedZoneOrGroupDiffMsg_t</a>&lt; float &gt;, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">detail::updateZoneOrGroupIndexedMemberValue</a>(&amp;<a class="el" href="structscxt_1_1engine_1_1Zone.html#a304c5a1b0120647ea09c9f6f29a9fe0c">engine::Zone::egStorage</a>, &amp;<a class="el" href="structscxt_1_1engine_1_1Group.html#abed4bded42bb67b9efbc0096d162c8df">engine::Group::gegStorage</a>, payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
@@ -374,6 +369,16 @@ Functions</h2></td></tr>
 <tr class="separator:a9625077cdca5d97fa43b3022231b3f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4e7d31bc8ccf989d038a384f663cef0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4e7d31bc8ccf989d038a384f663cef0">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateZoneOrGroupModStorageBoolValue, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a89f088f59a8225c92c98689c5cb78967">c2s_update_zone_or_group_modstorage_bool_value</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1ad7c008ee8f924c152ad7525f62949c">detail::indexedZoneOrGroupDiffMsg_t</a>&lt; bool &gt;, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">detail::updateZoneOrGroupIndexedMemberValue</a>(&amp;<a class="el" href="structscxt_1_1engine_1_1Zone.html#a3d011e30e8f8231d575309995eb36acd">engine::Zone::modulatorStorage</a>, &amp;<a class="el" href="structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529">engine::Group::modulatorStorage</a>, payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:ad4e7d31bc8ccf989d038a384f663cef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1e7ac2eb8ae4f6f7fbdad9f37c243f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5f1e7ac2eb8ae4f6f7fbdad9f37c243f">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateZoneOrGroupModStorageInt16TValue, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a7711d9cf8ecfc79cf333c05c47799869">c2s_update_zone_or_group_modstorage_int16_t_value</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1ad7c008ee8f924c152ad7525f62949c">detail::indexedZoneOrGroupDiffMsg_t</a>&lt; int16_t &gt;, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">detail::updateZoneOrGroupIndexedMemberValue</a>(&amp;<a class="el" href="structscxt_1_1engine_1_1Zone.html#a3d011e30e8f8231d575309995eb36acd">engine::Zone::modulatorStorage</a>, &amp;<a class="el" href="structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529">engine::Group::modulatorStorage</a>, payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, [payload](auto &amp;eng) { auto forZone=std::get&lt; 0 &gt;(payload);if(forZone) { auto lz=eng.getSelectionManager() -&gt;currentLeadZone(eng);if(lz.has_value()) { auto &amp;z=eng.getPatch() -&gt;getPart(lz-&gt;part) -&gt;getGroup(lz-&gt;group) -&gt;getZone(lz-&gt;zone);<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient</a>(<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa1637fd9b7e9399b5a449211f863ea71">messaging::client::s2c_update_zone_matrix_metadata</a>, <a class="el" href="namespacescxt_1_1voice_1_1modulation.html#aead5c355c38246681cad44120421af6c">voice::modulation::getVoiceMatrixMetadata</a>(*z), *(eng.getMessageController()));} } else { auto lg=eng.getSelectionManager() -&gt;currentLeadGroup(eng);} }, nullptr, [payload](auto &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, const auto &amp;gs) { auto idx=std::get&lt; 1 &gt;(payload);assert(engine.getMessageController() -&gt;threadingChecker.isAudioThread());for(auto[p, g, z] :gs) { auto &amp;grp=engine.getPatch() -&gt;getPart(p) -&gt;getGroup(g);grp-&gt;resetLFOs(idx);grp-&gt;rePrepareAndBindGroupMatrix();} })) using renameGroupZonePayload_t</td></tr>
+<tr class="separator:a5f1e7ac2eb8ae4f6f7fbdad9f37c243f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9018653894008e65808adfa2b3b25f0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">doRenameGroup</a> (const renameGroupZonePayload_t &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="separator:a9018653894008e65808adfa2b3b25f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1eee4e49c8b52020dcff4130866086c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa1eee4e49c8b52020dcff4130866086c">CLIENT_TO_SERIAL</a> (RenameGroup, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6c7255c16720c4f98da647e5d79e26e3">c2s_rename_group</a>, renameGroupZonePayload_t, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">doRenameGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="separator:aa1eee4e49c8b52020dcff4130866086c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a4bbb393ddae72288b9c44c78c7efd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">doRenameZone</a> (const renameGroupZonePayload_t &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="separator:a62a4bbb393ddae72288b9c44c78c7efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a313e21a197d157c5ff4bd4fcb7af3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab3a313e21a197d157c5ff4bd4fcb7af3">CLIENT_TO_SERIAL</a> (RenameZone, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a42573c6e22d67298b865663669a3c1f0">c2s_rename_zone</a>, renameGroupZonePayload_t, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">doRenameZone</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="separator:ab3a313e21a197d157c5ff4bd4fcb7af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e911953bdcdede2c3d08cbf70ec2f35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8e911953bdcdede2c3d08cbf70ec2f35">SERIAL_TO_CLIENT</a> (ReportError, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baba133a40bbaec2220169b6d81418631b">s2c_report_error</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f72a6ea5056f902a343cb7ce1e1482e">s2cError_t</a>, onErrorFromEngine)</td></tr>
 <tr class="separator:a8e911953bdcdede2c3d08cbf70ec2f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a205c5aa46001267df0453a842cbdd4fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a205c5aa46001267df0453a842cbdd4fa">CLIENT_TO_SERIAL</a> (SetTuningMode, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af6e7a626420f03e2725e19788d8e47ec">c2s_set_tuning_mode</a>, int32_t, engine.midikeyRetuner.setTuningMode((<a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278">tuning::MidikeyRetuner::TuningMode</a>) payload))</td></tr>
@@ -663,20 +668,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b">groupOutputInfoUpdate_t</a> =  std::pair&lt;bool, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">engine::Group::GroupOutputInfo</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada86fb4afbaecab8d198790762462453"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada86fb4afbaecab8d198790762462453">&#9670;&nbsp;</a></span>renameGroup_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ada86fb4afbaecab8d198790762462453">renameGroup_t</a> =  std::tuple&lt;<a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a>, std::string&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1163,6 +1154,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879ab54ca89c20bd52e0595615cddb7f8449"></a>c2s_delete_selected_zones&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879ab0462323980c05fe3497086e95d8e221"></a>c2s_delete_group&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879ad35e7bd9d3c4dd8fd6fe98d1cc21dabf"></a>c2s_clear_part&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a42573c6e22d67298b865663669a3c1f0"></a>c2s_rename_zone&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a6c7255c16720c4f98da647e5d79e26e3"></a>c2s_rename_group&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879af6e7a626420f03e2725e19788d8e47ec"></a>c2s_set_tuning_mode&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a4bdb4972064d9c0393883402a86615fd"></a>c2s_noteonoff&#160;</td><td class="fielddoc"></td></tr>
@@ -1268,7 +1260,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1e198c5b2817da76590571a8282c47af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e198c5b2817da76590571a8282c47af">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[1/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e198c5b2817da76590571a8282c47af">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[1/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1395,7 +1387,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae74da34043d239f9c5cfb9aace26ffa6">cacheSerializationMessagesAbsentClient()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a94605f77a0a1fd31d0e2f9462ecfb095">MessageController::clientCallback</a>, <a class="el" href="structscxt_1_1ThreadingChecker.html#a591c5a87e0cd89f78479b744b8344225">ThreadingChecker::isSerialThread()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a3e6649457a084a6ee0311c4b53510ad5">MessageController::preClientConnectionCache</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a7d0fccb0fdff4d149ddec921da5ba1f9">MessageController::reportErrorToClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baba133a40bbaec2220169b6d81418631b">s2c_report_error</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ae530c6d2cba421820d4dd43d209aa140">MessageController::threadingChecker</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a93bd8c1b1df748b4c9b3b457204d4e6e">CLIENT_TO_SERIAL_CONSTRAINED()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa0121bbd0213ad520a7cef5a16cb2494">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a72579353582d278f8e2461dbb15e3e66">doUpdateLeadZoneMapping()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">moveZoneFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad7295a222d61cef70cd5436e2c8e779f">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66c7c7d14050de103e6bd0dfe642799e">renameGroup()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a7d0fccb0fdff4d149ddec921da5ba1f9">MessageController::reportErrorToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ab67e5f6098b672b851c2a159a2bf14d3">Bus::sendBusEffectInfoToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a1621e6afdb43cd3ebacbd6bdf35e17a7">Bus::sendBusSendStorageToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aeff781e3ee2bc0ef083bd6295ce27784">Engine::sendEngineStatusToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aaedf6344041da5eea0012860faeacf19">Engine::sendFullRefreshToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abb525e855030e3ca75d3dcd268839531">Engine::sendMetadataToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">setProcessorType()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a581b3694e553349f9a30aad7d740f118">MessageController::updateClientActivityNotification()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aadc1e4d411f3dcf084ddf32252077ae3">updateMacroFullState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5f1e7ac2eb8ae4f6f7fbdad9f37c243f">CLIENT_TO_SERIAL_CONSTRAINED()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa0121bbd0213ad520a7cef5a16cb2494">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a72579353582d278f8e2461dbb15e3e66">doUpdateLeadZoneMapping()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">moveZoneFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad7295a222d61cef70cd5436e2c8e779f">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">removeZone()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a7d0fccb0fdff4d149ddec921da5ba1f9">MessageController::reportErrorToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ab67e5f6098b672b851c2a159a2bf14d3">Bus::sendBusEffectInfoToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a1621e6afdb43cd3ebacbd6bdf35e17a7">Bus::sendBusSendStorageToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aeff781e3ee2bc0ef083bd6295ce27784">Engine::sendEngineStatusToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aaedf6344041da5eea0012860faeacf19">Engine::sendFullRefreshToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abb525e855030e3ca75d3dcd268839531">Engine::sendMetadataToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">setProcessorType()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a581b3694e553349f9a30aad7d740f118">MessageController::updateClientActivityNotification()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aadc1e4d411f3dcf084ddf32252077ae3">updateMacroFullState()</a>.</p>
 
 </div>
 </div>
@@ -1576,7 +1568,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a65f753de388d3751379ca829dbc3b384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f753de388d3751379ca829dbc3b384">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[2/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f753de388d3751379ca829dbc3b384">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[2/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1692,7 +1684,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af59b7d9cc94e5aaad3496351543871bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af59b7d9cc94e5aaad3496351543871bb">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[3/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af59b7d9cc94e5aaad3496351543871bb">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[3/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1762,7 +1754,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6579a7db7ded34f0a153d00ff5bccf4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6579a7db7ded34f0a153d00ff5bccf4e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[4/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6579a7db7ded34f0a153d00ff5bccf4e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[4/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1882,7 +1874,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acc3c84f45cf360eb4c3307104a1c5226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc3c84f45cf360eb4c3307104a1c5226">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3c84f45cf360eb4c3307104a1c5226">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1928,7 +1920,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aee36695f990d4d6f4fd9dedda5cb30cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee36695f990d4d6f4fd9dedda5cb30cc">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aee36695f990d4d6f4fd9dedda5cb30cc">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1974,7 +1966,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a541b9709576b83a45b2fa8159c4c5696"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a541b9709576b83a45b2fa8159c4c5696">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a541b9709576b83a45b2fa8159c4c5696">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2008,82 +2000,6 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad55c2e12dedb566c2b4e878c29ebb355">detail::updateGroupMemberValue</a> &amp;::::,,,&#160;</td>
           <td class="paramname"><em>cont</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66c7c7d14050de103e6bd0dfe642799e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66c7c7d14050de103e6bd0dfe642799e">&#9670;&nbsp;</a></span>renameGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void scxt::messaging::client::renameGroup </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ada86fb4afbaecab8d198790762462453">renameGroup_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>payload</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
-          <td class="paramname"><em>engine</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;&#160;</td>
-          <td class="paramname"><em>cont</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6fdf332d7f46bbf1ff77118ddbc6f622">Engine::getPartGroupZoneStructure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">s2c_send_pgz_structure</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient()</a>.</p>
-
-</div>
-</div>
-<a id="afb57af37169549435f4be1230cff749e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb57af37169549435f4be1230cff749e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[5/41]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">scxt::messaging::client::CLIENT_TO_SERIAL </td>
-          <td>(</td>
-          <td class="paramtype">RenameGroup&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6c7255c16720c4f98da647e5d79e26e3">c2s_rename_group</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ada86fb4afbaecab8d198790762462453">renameGroup_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66c7c7d14050de103e6bd0dfe642799e">renameGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
-          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2136,7 +2052,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae8f221e29f3c4e704a94d51bb9ffec18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8f221e29f3c4e704a94d51bb9ffec18">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8f221e29f3c4e704a94d51bb9ffec18">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[4/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2182,7 +2098,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9625077cdca5d97fa43b3022231b3f8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9625077cdca5d97fa43b3022231b3f8a">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9625077cdca5d97fa43b3022231b3f8a">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2228,7 +2144,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad4e7d31bc8ccf989d038a384f663cef0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4e7d31bc8ccf989d038a384f663cef0">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e7d31bc8ccf989d038a384f663cef0">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2262,6 +2178,218 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">detail::updateZoneOrGroupIndexedMemberValue</a> &amp;::::, &amp;::::,,,&#160;</td>
           <td class="paramname"><em>cont</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f1e7ac2eb8ae4f6f7fbdad9f37c243f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1e7ac2eb8ae4f6f7fbdad9f37c243f">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[7/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">scxt::messaging::client::CLIENT_TO_SERIAL_CONSTRAINED </td>
+          <td>(</td>
+          <td class="paramtype">UpdateZoneOrGroupModStorageInt16TValue&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a7711d9cf8ecfc79cf333c05c47799869">c2s_update_zone_or_group_modstorage_int16_t_value</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1ad7c008ee8f924c152ad7525f62949c">detail::indexedZoneOrGroupDiffMsg_t</a>&lt; int16_t &gt;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">detail::updateZoneOrGroupIndexedMemberValue</a>(&amp;::::, &amp;::::,,,, [] &amp;eng { auto forZone=std::get&lt; 0 &gt;(payload);if(forZone) { auto lz=eng.getSelectionManager() -&gt;currentLeadZone(eng);if(lz.has_value()) { auto &amp;z=eng.getPatch() -&gt;getPart(lz-&gt;part) -&gt;getGroup(lz-&gt;group) -&gt;getZone(lz-&gt;zone);<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient</a>(<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa1637fd9b7e9399b5a449211f863ea71">messaging::client::s2c_update_zone_matrix_metadata</a>, <a class="el" href="namespacescxt_1_1voice_1_1modulation.html#aead5c355c38246681cad44120421af6c">voice::modulation::getVoiceMatrixMetadata</a>(*z), *(eng.getMessageController()));} } else { auto lg=eng.getSelectionManager() -&gt;currentLeadGroup(eng);} }&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nullptr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[payload] (auto &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, const auto &amp;gs) { auto idx=std::get&lt; 1 &gt;(payload);assert(engine.getMessageController() -&gt;threadingChecker.isAudioThread());for(auto[p, g, z] :gs) { auto &amp;grp=engine.getPatch() -&gt;getPart(p) -&gt;getGroup(g);grp-&gt;resetLFOs(idx);grp-&gt;rePrepareAndBindGroupMatrix();} }&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1voice_1_1modulation.html#aead5c355c38246681cad44120421af6c">scxt::voice::modulation::getVoiceMatrixMetadata()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa1637fd9b7e9399b5a449211f863ea71">s2c_update_zone_matrix_metadata</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient()</a>.</p>
+
+</div>
+</div>
+<a id="a9018653894008e65808adfa2b3b25f0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9018653894008e65808adfa2b3b25f0b">&#9670;&nbsp;</a></span>doRenameGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scxt::messaging::client::doRenameGroup </td>
+          <td>(</td>
+          <td class="paramtype">const renameGroupZonePayload_t &amp;&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;&#160;</td>
+          <td class="paramname"><em>cont</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6fdf332d7f46bbf1ff77118ddbc6f622">Engine::getPartGroupZoneStructure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">s2c_send_pgz_structure</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient()</a>.</p>
+
+</div>
+</div>
+<a id="aa1eee4e49c8b52020dcff4130866086c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1eee4e49c8b52020dcff4130866086c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[5/42]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">scxt::messaging::client::CLIENT_TO_SERIAL </td>
+          <td>(</td>
+          <td class="paramtype">RenameGroup&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6c7255c16720c4f98da647e5d79e26e3">c2s_rename_group</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">renameGroupZonePayload_t&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">doRenameGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62a4bbb393ddae72288b9c44c78c7efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a4bbb393ddae72288b9c44c78c7efd">&#9670;&nbsp;</a></span>doRenameZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scxt::messaging::client::doRenameZone </td>
+          <td>(</td>
+          <td class="paramtype">const renameGroupZonePayload_t &amp;&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;&#160;</td>
+          <td class="paramname"><em>cont</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6fdf332d7f46bbf1ff77118ddbc6f622">Engine::getPartGroupZoneStructure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">s2c_send_pgz_structure</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba670c98a3542d24d405b6bf8a2b4399f9">s2c_send_selected_group_zone_mapping_summary</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient()</a>.</p>
+
+</div>
+</div>
+<a id="ab3a313e21a197d157c5ff4bd4fcb7af3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a313e21a197d157c5ff4bd4fcb7af3">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[6/42]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">scxt::messaging::client::CLIENT_TO_SERIAL </td>
+          <td>(</td>
+          <td class="paramtype">RenameZone&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a42573c6e22d67298b865663669a3c1f0">c2s_rename_zone</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">renameGroupZonePayload_t&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">doRenameZone</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2314,7 +2442,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a205c5aa46001267df0453a842cbdd4fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a205c5aa46001267df0453a842cbdd4fa">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[6/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a205c5aa46001267df0453a842cbdd4fa">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[7/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2420,7 +2548,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a07139d3e6aa19985a8cb1732505f693a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07139d3e6aa19985a8cb1732505f693a">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[7/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07139d3e6aa19985a8cb1732505f693a">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[8/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2496,7 +2624,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a91b18263d54612a422b9daf65796c9ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91b18263d54612a422b9daf65796c9ad">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[8/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91b18263d54612a422b9daf65796c9ad">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[9/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2652,7 +2780,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6579c4abf37e85f0c27a397e7d6f4251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6579c4abf37e85f0c27a397e7d6f4251">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[9/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6579c4abf37e85f0c27a397e7d6f4251">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[10/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2728,7 +2856,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa8c6b5c57f6dbcae34546fdedfda2732"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8c6b5c57f6dbcae34546fdedfda2732">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[10/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c6b5c57f6dbcae34546fdedfda2732">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[11/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2804,7 +2932,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab21a17f06271e37eb8443ddcbc9390ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab21a17f06271e37eb8443ddcbc9390ac">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[11/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab21a17f06271e37eb8443ddcbc9390ac">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[12/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2954,7 +3082,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae7927ce9f32802940531392154020187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7927ce9f32802940531392154020187">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[12/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7927ce9f32802940531392154020187">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[13/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3024,7 +3152,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aecdf199b65d0a5b509882f704398dd2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecdf199b65d0a5b509882f704398dd2c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[13/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aecdf199b65d0a5b509882f704398dd2c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[14/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3094,7 +3222,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9c20e8e4a0bf0477fafa88623551c207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c20e8e4a0bf0477fafa88623551c207">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[14/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c20e8e4a0bf0477fafa88623551c207">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[15/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3330,7 +3458,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a37980e5caea4f471eabd615b78901fdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37980e5caea4f471eabd615b78901fdb">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[15/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37980e5caea4f471eabd615b78901fdb">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[16/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3406,7 +3534,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a15cd0d4b23183cdd139df5695ed8c0c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15cd0d4b23183cdd139df5695ed8c0c8">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[16/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15cd0d4b23183cdd139df5695ed8c0c8">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[17/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3642,7 +3770,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afc65e43b36a86b292dc472ec46781180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc65e43b36a86b292dc472ec46781180">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[17/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc65e43b36a86b292dc472ec46781180">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[18/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3718,7 +3846,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a46c61c8676c7ae3676e59d701b6cbbc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46c61c8676c7ae3676e59d701b6cbbc2">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[18/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c61c8676c7ae3676e59d701b6cbbc2">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[19/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3758,7 +3886,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9765394bad7320db85212235eae95fcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9765394bad7320db85212235eae95fcc">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[19/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9765394bad7320db85212235eae95fcc">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[20/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3914,7 +4042,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9601b1d604d6973aee78e11465c759e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9601b1d604d6973aee78e11465c759e9">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[20/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9601b1d604d6973aee78e11465c759e9">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[21/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3954,7 +4082,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4f758add6ff183697cb4be3fc196d864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f758add6ff183697cb4be3fc196d864">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[21/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f758add6ff183697cb4be3fc196d864">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[22/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3994,7 +4122,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad81cd662edf6e7f96e3b37107d4aef65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad81cd662edf6e7f96e3b37107d4aef65">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad81cd662edf6e7f96e3b37107d4aef65">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4040,7 +4168,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a286a3fd6c66f47727c74450e9c79d4ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a286a3fd6c66f47727c74450e9c79d4ab">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a286a3fd6c66f47727c74450e9c79d4ab">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4092,7 +4220,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a23ea68d025fe859ffd7020f11797e3a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ea68d025fe859ffd7020f11797e3a6">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ea68d025fe859ffd7020f11797e3a6">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4180,7 +4308,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5a8c831f7d77574708620dd2136f33c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a8c831f7d77574708620dd2136f33c8">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[22/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8c831f7d77574708620dd2136f33c8">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[23/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4256,7 +4384,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a27566850e7bcc1b662fd883e04d6c55d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27566850e7bcc1b662fd883e04d6c55d">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[23/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a27566850e7bcc1b662fd883e04d6c55d">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[24/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4326,7 +4454,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aefcae5476696de2ac40d4e8660375ef2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefcae5476696de2ac40d4e8660375ef2">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[24/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aefcae5476696de2ac40d4e8660375ef2">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[25/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4396,7 +4524,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a08ba6e5577c6df3f2422047d9091b2f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08ba6e5577c6df3f2422047d9091b2f0">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[25/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ba6e5577c6df3f2422047d9091b2f0">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[26/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4436,7 +4564,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af489d548615c0209b2bd6491f90e9365"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af489d548615c0209b2bd6491f90e9365">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[26/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af489d548615c0209b2bd6491f90e9365">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[27/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4586,7 +4714,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2147ef2463175ea0e237755515b0071c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2147ef2463175ea0e237755515b0071c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[27/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2147ef2463175ea0e237755515b0071c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[28/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4668,7 +4796,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acaa270105de9c6a92761c29c30c43e58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaa270105de9c6a92761c29c30c43e58">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[28/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa270105de9c6a92761c29c30c43e58">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[29/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4708,7 +4836,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac73486c405d5d7220a735cb0099a673c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac73486c405d5d7220a735cb0099a673c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[29/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73486c405d5d7220a735cb0099a673c">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[30/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4912,7 +5040,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acd7bb8c80be7b3c11bed70ad64640740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7bb8c80be7b3c11bed70ad64640740">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[30/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd7bb8c80be7b3c11bed70ad64640740">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[31/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5024,7 +5152,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a749eb4da6e6c09de71d12f877e826888"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a749eb4da6e6c09de71d12f877e826888">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[31/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a749eb4da6e6c09de71d12f877e826888">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[32/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5100,7 +5228,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a279676a20cb6174713e26d940d43d65e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279676a20cb6174713e26d940d43d65e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[32/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a279676a20cb6174713e26d940d43d65e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[33/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5196,7 +5324,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac0a92e2317c5d60a35459305c2449e4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0a92e2317c5d60a35459305c2449e4b">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[33/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a92e2317c5d60a35459305c2449e4b">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[34/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5272,7 +5400,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9a5c309975791e5fbd820435eb339ae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a5c309975791e5fbd820435eb339ae5">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[34/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a5c309975791e5fbd820435eb339ae5">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[35/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5348,7 +5476,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aab1517f45f4f870b6713d2448c3494d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab1517f45f4f870b6713d2448c3494d4">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[35/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aab1517f45f4f870b6713d2448c3494d4">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[36/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5424,7 +5552,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae1ded2cd7328e26e652c80627e8c1ed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1ded2cd7328e26e652c80627e8c1ed9">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[36/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ded2cd7328e26e652c80627e8c1ed9">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[37/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5500,7 +5628,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8c597c7b7031b5c7a350e697d97c1456"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c597c7b7031b5c7a350e697d97c1456">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[37/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c597c7b7031b5c7a350e697d97c1456">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[38/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5576,7 +5704,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6ad5befdd34d0cffa7abfbeffe469680"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ad5befdd34d0cffa7abfbeffe469680">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[38/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad5befdd34d0cffa7abfbeffe469680">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[39/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5692,7 +5820,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae2104945cc0dd717a46dccfd5289d98f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2104945cc0dd717a46dccfd5289d98f">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[39/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2104945cc0dd717a46dccfd5289d98f">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[40/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5732,7 +5860,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afb1abe63a41620eb848180a0e3bcb1ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb1abe63a41620eb848180a0e3bcb1ac">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1abe63a41620eb848180a0e3bcb1ac">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5778,7 +5906,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a93bd8c1b1df748b4c9b3b457204d4e6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93bd8c1b1df748b4c9b3b457204d4e6e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a93bd8c1b1df748b4c9b3b457204d4e6e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5902,7 +6030,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a25884eea8ba4426801d443cbe7d45a3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25884eea8ba4426801d443cbe7d45a3a">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[40/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a25884eea8ba4426801d443cbe7d45a3a">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[41/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5942,7 +6070,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae673067d4e3eb09a883b5a18c872c83e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae673067d4e3eb09a883b5a18c872c83e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae673067d4e3eb09a883b5a18c872c83e">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6028,7 +6156,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4674c836798dfaebe0d00c9790917742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4674c836798dfaebe0d00c9790917742">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4674c836798dfaebe0d00c9790917742">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6074,7 +6202,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a786f015bf1d210599ddfe903e4cee70d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a786f015bf1d210599ddfe903e4cee70d">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a786f015bf1d210599ddfe903e4cee70d">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL_CONSTRAINED() <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6156,7 +6284,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0274d9f2b03b183354d79a85e2a3f5c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0274d9f2b03b183354d79a85e2a3f5c7">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[41/41]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0274d9f2b03b183354d79a85e2a3f5c7">&#9670;&nbsp;</a></span>CLIENT_TO_SERIAL() <span class="overload">[42/42]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6208,7 +6336,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a716c7a12230acabe4a80a3ebb67db286">SCXTPlugin::activate()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad1a46f2969527d75a89d198a3b48c6c2">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af8fd6e85517fb0453ba5df24cf31df8e">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab9ef956087b5989423d1b04e2dc97430">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab228caff5a80b06b15e3ae1ae8539e2b">doAddBlankZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa0121bbd0213ad520a7cef5a16cb2494">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#acbc425bb6f7b7db58be2f6a32ded9328">doApplyMultiSelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a840634d0e352dbadc7bd3669398aff6c">doApplySelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a93f087746fa6f79ef401432e1384fd01">doBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac5a1e902453c8e80c1e5855869a349c7">doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2334e4716cb70a2df49be293be969452">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0871c2b78ab04a8007ecfc6fa2d0db9d">doResetEngine()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4ca6da3ea4ce3329a86352216b07d45">doSaveMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a19f06f62f3d7817cec26cc745112e05f">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a100f324142fb014324c7a34e123a6c4d">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a206d2defecb2f63da4e9eba276d55060">doUpdateLeadZoneAssociatedSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a72579353582d278f8e2461dbb15e3e66">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa5f87da215ab6abdb35e37a129ee55c0">doUpdateOtherTabSelection()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a46acbf2e974b6185608ef0fb7abc4355">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a1fee96b2fb621699dd36e9b4830295c1">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">moveZoneFromTo()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aae2d7bd35e012f0a9d3fa9076ee68c40">SCXTPlugin::paramsInfo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad7295a222d61cef70cd5436e2c8e779f">pgzSerialSide()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae18d05f121ab3bf26fe144062a62502a">SCXTPlugin::process()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f54f67f0e959bc6c734e1b94d7c2806">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66c7c7d14050de103e6bd0dfe642799e">renameGroup()</a>, <a class="el" href="structSCXTApplicationWindow.html#a61d281eaf31d450551b58ba2e14e4d1a">SCXTApplicationWindow::SCXTApplicationWindow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">setProcessorType()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aad8a01a414b01be1115df85e9227fd63">SCXTPlugin::stateLoad()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a1d34688a243a74dafce70fd08b671944">SCXTPlugin::stateSave()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a454a95a640adf9d4bb143be6e9e906c4">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a43a12a7a62127744bba530b019643f0a">swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ac15b58cb28c41a44d8c884f94aa66861">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad55c2e12dedb566c2b4e878c29ebb355">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#add197b029905ecf899431d85b834ae17">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a60ddd0375c578508edf6c9f20861a482">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a017a2b8c3bccd92670e1d46bb42f316b">scxt::messaging::client::detail::updateZoneMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>, and <a class="el" href="structSCXTApplicationWindow.html#a36da71285d93884cce24c270198c9582">SCXTApplicationWindow::~SCXTApplicationWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a716c7a12230acabe4a80a3ebb67db286">SCXTPlugin::activate()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad1a46f2969527d75a89d198a3b48c6c2">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af8fd6e85517fb0453ba5df24cf31df8e">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab9ef956087b5989423d1b04e2dc97430">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab228caff5a80b06b15e3ae1ae8539e2b">doAddBlankZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa0121bbd0213ad520a7cef5a16cb2494">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#acbc425bb6f7b7db58be2f6a32ded9328">doApplyMultiSelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a840634d0e352dbadc7bd3669398aff6c">doApplySelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a93f087746fa6f79ef401432e1384fd01">doBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac5a1e902453c8e80c1e5855869a349c7">doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2334e4716cb70a2df49be293be969452">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0871c2b78ab04a8007ecfc6fa2d0db9d">doResetEngine()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4ca6da3ea4ce3329a86352216b07d45">doSaveMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a19f06f62f3d7817cec26cc745112e05f">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a100f324142fb014324c7a34e123a6c4d">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a206d2defecb2f63da4e9eba276d55060">doUpdateLeadZoneAssociatedSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a72579353582d278f8e2461dbb15e3e66">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa5f87da215ab6abdb35e37a129ee55c0">doUpdateOtherTabSelection()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a46acbf2e974b6185608ef0fb7abc4355">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a1fee96b2fb621699dd36e9b4830295c1">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">moveZoneFromTo()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aae2d7bd35e012f0a9d3fa9076ee68c40">SCXTPlugin::paramsInfo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad7295a222d61cef70cd5436e2c8e779f">pgzSerialSide()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae18d05f121ab3bf26fe144062a62502a">SCXTPlugin::process()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f54f67f0e959bc6c734e1b94d7c2806">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">removeZone()</a>, <a class="el" href="structSCXTApplicationWindow.html#a61d281eaf31d450551b58ba2e14e4d1a">SCXTApplicationWindow::SCXTApplicationWindow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">setProcessorType()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aad8a01a414b01be1115df85e9227fd63">SCXTPlugin::stateLoad()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a1d34688a243a74dafce70fd08b671944">SCXTPlugin::stateSave()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a454a95a640adf9d4bb143be6e9e906c4">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a43a12a7a62127744bba530b019643f0a">swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ac15b58cb28c41a44d8c884f94aa66861">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad55c2e12dedb566c2b4e878c29ebb355">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#add197b029905ecf899431d85b834ae17">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a60ddd0375c578508edf6c9f20861a482">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a017a2b8c3bccd92670e1d46bb42f316b">scxt::messaging::client::detail::updateZoneMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>, and <a class="el" href="structSCXTApplicationWindow.html#a36da71285d93884cce24c270198c9582">SCXTApplicationWindow::~SCXTApplicationWindow()</a>.</p>
 
 </div>
 </div>
@@ -6227,14 +6355,14 @@ Variables</h2></td></tr>
 <div class="line">    <span class="keywordflow">if</span> (partNumber &lt; 0 || partNumber &gt; numParts)</div>
 <div class="line">        partNumber = 0</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad1a46f2969527d75a89d198a3b48c6c2">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af8fd6e85517fb0453ba5df24cf31df8e">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab9ef956087b5989423d1b04e2dc97430">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">clearPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa0121bbd0213ad520a7cef5a16cb2494">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17a0a1b9088b771e5d73672d7610ccc2">doHostCallback()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a919e38cd7062b6802c45af9bf23401b0">doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2334e4716cb70a2df49be293be969452">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0871c2b78ab04a8007ecfc6fa2d0db9d">doResetEngine()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a19f06f62f3d7817cec26cc745112e05f">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a100f324142fb014324c7a34e123a6c4d">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a206d2defecb2f63da4e9eba276d55060">doUpdateLeadZoneAssociatedSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a72579353582d278f8e2461dbb15e3e66">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a46acbf2e974b6185608ef0fb7abc4355">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">moveZoneFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad7295a222d61cef70cd5436e2c8e779f">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f54f67f0e959bc6c734e1b94d7c2806">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66c7c7d14050de103e6bd0dfe642799e">renameGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aaedf6344041da5eea0012860faeacf19">Engine::sendFullRefreshToClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a82dd8b65f4e563048546f5afe2bfcfa8">setBusEffectStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a874f5380599624669599d56f687db5a6">setBusEffectToType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a553eadc4adb1aa90bedeee0ba54970ff">setBusSendStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6fd57571de228872bdcf3160dfe93b7e">stopSoundsMessage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a454a95a640adf9d4bb143be6e9e906c4">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a43a12a7a62127744bba530b019643f0a">swapZoneProcessors()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab98e2c427c732e01a22b1b998a14f23e">SCXTPlugin::synchronousEngineUnstream()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ac15b58cb28c41a44d8c884f94aa66861">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad55c2e12dedb566c2b4e878c29ebb355">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aadc1e4d411f3dcf084ddf32252077ae3">updateMacroFullState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0bf1599f33ccf32be978f0ff9caafb7e">updateMacroValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae0327f4c49b6554da4fb779b16e170ca">updatePartFullConfig()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#add197b029905ecf899431d85b834ae17">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a60ddd0375c578508edf6c9f20861a482">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a017a2b8c3bccd92670e1d46bb42f316b">scxt::messaging::client::detail::updateZoneMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad1a46f2969527d75a89d198a3b48c6c2">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af8fd6e85517fb0453ba5df24cf31df8e">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab9ef956087b5989423d1b04e2dc97430">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">clearPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a33e9e73efdb881d0e61b0a6d78d70e1f">SelectionManager::copyZoneProcessorLeadToAll()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa0121bbd0213ad520a7cef5a16cb2494">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17a0a1b9088b771e5d73672d7610ccc2">doHostCallback()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a919e38cd7062b6802c45af9bf23401b0">doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2334e4716cb70a2df49be293be969452">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0871c2b78ab04a8007ecfc6fa2d0db9d">doResetEngine()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a19f06f62f3d7817cec26cc745112e05f">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a100f324142fb014324c7a34e123a6c4d">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a206d2defecb2f63da4e9eba276d55060">doUpdateLeadZoneAssociatedSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a72579353582d278f8e2461dbb15e3e66">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a46acbf2e974b6185608ef0fb7abc4355">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">moveZoneFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad7295a222d61cef70cd5436e2c8e779f">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f54f67f0e959bc6c734e1b94d7c2806">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">removeZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aaedf6344041da5eea0012860faeacf19">Engine::sendFullRefreshToClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a82dd8b65f4e563048546f5afe2bfcfa8">setBusEffectStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a874f5380599624669599d56f687db5a6">setBusEffectToType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a553eadc4adb1aa90bedeee0ba54970ff">setBusSendStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6fd57571de228872bdcf3160dfe93b7e">stopSoundsMessage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a454a95a640adf9d4bb143be6e9e906c4">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a43a12a7a62127744bba530b019643f0a">swapZoneProcessors()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab98e2c427c732e01a22b1b998a14f23e">SCXTPlugin::synchronousEngineUnstream()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ac15b58cb28c41a44d8c884f94aa66861">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad55c2e12dedb566c2b4e878c29ebb355">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aadc1e4d411f3dcf084ddf32252077ae3">updateMacroFullState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0bf1599f33ccf32be978f0ff9caafb7e">updateMacroValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae0327f4c49b6554da4fb779b16e170ca">updatePartFullConfig()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#add197b029905ecf899431d85b834ae17">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a60ddd0375c578508edf6c9f20861a482">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a017a2b8c3bccd92670e1d46bb42f316b">scxt::messaging::client::detail::updateZoneMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a7dbebe328e64b130c262b9546a7962d4">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 29 2024 13:04:36 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Aug 30 2024 00:29:21 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
