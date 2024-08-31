@@ -4,7 +4,7 @@ var searchData=
   ['wav_5ffile_6599',['WAV_FILE',['../structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6',1,'scxt::sample::Sample']]],
   ['wavedatastart_6600',['waveDataStart',['../structscxt_1_1exs__support_1_1EXSSample.html#a4f36089fa0a4277748b1cc945939d5a1',1,'scxt::exs_support::EXSSample']]],
   ['waveform_6601',['waveform',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay_1_1ZoomableWaveform.html#a86a5106996c966ef11e676174f8373c6',1,'scxt::ui::app::edit_screen::SampleDisplay::ZoomableWaveform']]],
-  ['waveforms_6602',['waveforms',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay.html#aefe69e09a3374528fed794a709877066',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
+  ['waveforms_6602',['waveforms',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay.html#a55259b18e03ee99493e19b14db00bbe5',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
   ['waveformstabbedgroup_6603',['waveformsTabbedGroup',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay.html#afa3bcf4918912c8b3425b28f7913d0f9',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
   ['waveformviewport_6604',['waveformViewport',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay_1_1ZoomableWaveform.html#aa2aa152f89d077fab1c0d69fa9cf09b3',1,'scxt::ui::app::edit_screen::SampleDisplay::ZoomableWaveform']]],
   ['wavesize_6605',['waveSize',['../structscxt_1_1dsp_1_1GeneratorIO.html#af7fcb7dc871abfb94689070aece93291',1,'scxt::dsp::GeneratorIO']]],

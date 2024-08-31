@@ -1,10 +1,10 @@
 var searchData=
 [
   ['s2cerror_5ft_6742',['s2cError_t',['../namespacescxt_1_1messaging_1_1client.html#a8f72a6ea5056f902a343cb7ce1e1482e',1,'scxt::messaging::client']]],
-  ['sample_5fattachment_5ft_6743',['sample_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay.html#aa5d06ef63a16b3143bb4dd3600611543',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
+  ['sample_5fattachment_5ft_6743',['sample_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleDisplay.html#addedbf10b4f946ecec77b3d41e684e25',1,'scxt::ui::app::edit_screen::SampleDisplay']]],
   ['sampleaddressesandids_5ft_6744',['sampleAddressesAndIds_t',['../structscxt_1_1sample_1_1SampleManager.html#a541a38eb16192d237e364bbbd3e2e73b',1,'scxt::sample::SampleManager']]],
   ['sampleid_6745',['SampleID',['../namespacescxt.html#af418a648931e8c259c3eb4367be46ab0',1,'scxt']]],
-  ['sampleselectedzoneviewresposne_5ft_6746',['sampleSelectedZoneViewResposne_t',['../namespacescxt_1_1messaging_1_1client.html#ac0c40047fbd8c37fa8b122f175e78081',1,'scxt::messaging::client']]],
+  ['sampleselectedzoneviewresposne_5ft_6746',['sampleSelectedZoneViewResposne_t',['../namespacescxt_1_1messaging_1_1client.html#ad3a2d16d67453184fe08ebcf1a54f1dc',1,'scxt::messaging::client']]],
   ['scxt_5fvalue_6747',['scxt_value',['../namespacescxt_1_1json.html#ac446571383e62306252614eafda63f0c',1,'scxt::json']]],
   ['section_5ft_6748',['section_t',['../structscxt_1_1sfz__support_1_1SFZParser.html#a2aa18da9bb0a12059cd70a89405ec766',1,'scxt::sfz_support::SFZParser']]],
   ['selectedstatemessage_5ft_6749',['selectedStateMessage_t',['../namespacescxt_1_1messaging_1_1client.html#af6d7203378f8e34f8f3d5b3dbc093631',1,'scxt::messaging::client']]],
