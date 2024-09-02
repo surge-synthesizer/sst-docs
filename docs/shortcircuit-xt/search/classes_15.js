@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['wave_5facid_5fchunk_3908',['wave_acid_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html',1,'scxt::sample::loaders']]],
-  ['wave_5finst_5fchunk_3909',['wave_inst_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html',1,'scxt::sample::loaders']]],
-  ['wave_5fstrc_5fentry_3910',['wave_strc_entry',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__entry.html',1,'scxt::sample::loaders']]],
-  ['wave_5fstrc_5fheader_3911',['wave_strc_header',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__header.html',1,'scxt::sample::loaders']]],
-  ['wavheader_3912',['wavheader',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html',1,'scxt::sample::loaders']]],
-  ['welcomescreen_3913',['WelcomeScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'scxt::ui::app::other_screens']]],
-  ['writerworker_3914',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'scxt::browser']]]
+  ['wave_5facid_5fchunk_3917',['wave_acid_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html',1,'scxt::sample::loaders']]],
+  ['wave_5finst_5fchunk_3918',['wave_inst_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html',1,'scxt::sample::loaders']]],
+  ['wave_5fstrc_5fentry_3919',['wave_strc_entry',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__entry.html',1,'scxt::sample::loaders']]],
+  ['wave_5fstrc_5fheader_3920',['wave_strc_header',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__header.html',1,'scxt::sample::loaders']]],
+  ['wavheader_3921',['wavheader',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html',1,'scxt::sample::loaders']]],
+  ['welcomescreen_3922',['WelcomeScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['writerworker_3923',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'scxt::browser']]]
 ];

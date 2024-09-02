@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['browser_2ecpp_3980',['browser.cpp',['../browser_8cpp.html',1,'']]],
-  ['browser_2eh_3981',['browser.h',['../browser_8h.html',1,'']]],
-  ['browser_5fdb_2ecpp_3982',['browser_db.cpp',['../browser__db_8cpp.html',1,'']]],
-  ['browser_5fdb_2eh_3983',['browser_db.h',['../browser__db_8h.html',1,'']]],
-  ['browser_5flin_2ecpp_3984',['browser_lin.cpp',['../browser__lin_8cpp.html',1,'']]],
-  ['browser_5fmacos_2emm_3985',['browser_macos.mm',['../browser__macos_8mm.html',1,'']]],
-  ['browser_5fmessages_2eh_3986',['browser_messages.h',['../browser__messages_8h.html',1,'']]],
-  ['browser_5fwin_2ecpp_3987',['browser_win.cpp',['../browser__win_8cpp.html',1,'']]],
-  ['browserpane_2ecpp_3988',['BrowserPane.cpp',['../BrowserPane_8cpp.html',1,'']]],
-  ['browserpane_2eh_3989',['BrowserPane.h',['../BrowserPane_8h.html',1,'']]],
-  ['bus_2ecpp_3990',['bus.cpp',['../bus_8cpp.html',1,'']]],
-  ['bus_2eh_3991',['bus.h',['../bus_8h.html',1,'']]],
-  ['buspane_2ecpp_3992',['BusPane.cpp',['../BusPane_8cpp.html',1,'']]],
-  ['buspane_2eh_3993',['BusPane.h',['../BusPane_8h.html',1,'']]]
+  ['browser_2ecpp_3989',['browser.cpp',['../browser_8cpp.html',1,'']]],
+  ['browser_2eh_3990',['browser.h',['../browser_8h.html',1,'']]],
+  ['browser_5fdb_2ecpp_3991',['browser_db.cpp',['../browser__db_8cpp.html',1,'']]],
+  ['browser_5fdb_2eh_3992',['browser_db.h',['../browser__db_8h.html',1,'']]],
+  ['browser_5flin_2ecpp_3993',['browser_lin.cpp',['../browser__lin_8cpp.html',1,'']]],
+  ['browser_5fmacos_2emm_3994',['browser_macos.mm',['../browser__macos_8mm.html',1,'']]],
+  ['browser_5fmessages_2eh_3995',['browser_messages.h',['../browser__messages_8h.html',1,'']]],
+  ['browser_5fwin_2ecpp_3996',['browser_win.cpp',['../browser__win_8cpp.html',1,'']]],
+  ['browserpane_2ecpp_3997',['BrowserPane.cpp',['../BrowserPane_8cpp.html',1,'']]],
+  ['browserpane_2eh_3998',['BrowserPane.h',['../BrowserPane_8h.html',1,'']]],
+  ['bus_2ecpp_3999',['bus.cpp',['../bus_8cpp.html',1,'']]],
+  ['bus_2eh_4000',['bus.h',['../bus_8h.html',1,'']]],
+  ['buspane_2ecpp_4001',['BusPane.cpp',['../BusPane_8cpp.html',1,'']]],
+  ['buspane_2eh_4002',['BusPane.h',['../BusPane_8h.html',1,'']]]
 ];
