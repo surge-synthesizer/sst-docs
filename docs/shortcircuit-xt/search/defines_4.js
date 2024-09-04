@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['interpolation_5fmethod_7272',['INTERPOLATION_METHOD',['../voice_8cpp.html#a28074ffb7b041454c826ee07ed606bb3',1,'voice.cpp']]]
+  ['has_5fmemfn_7255',['HAS_MEMFN',['../processor__impl_8h.html#a6a3517f8689319b560f466e60f89287e',1,'processor_impl.h']]],
+  ['hdr_5fhelper_7256',['HDR_HELPER',['../sfz__parse_8cpp.html#accb3e6fcc64ccb83ed375a8ec44ab6be',1,'sfz_parse.cpp']]]
 ];
