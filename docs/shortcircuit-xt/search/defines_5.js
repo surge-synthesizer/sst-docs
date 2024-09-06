@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['interpolation_5fmethod_7261',['INTERPOLATION_METHOD',['../voice_8cpp.html#a28074ffb7b041454c826ee07ed606bb3',1,'voice.cpp']]]
+  ['kpmono_7265',['KPMono',['../generator_8cpp.html#a7ee2cbc8e4d8d2bffad6d76363c02a8b',1,'generator.cpp']]],
+  ['kpstereo_7266',['KPStereo',['../generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56',1,'generator.cpp']]]
 ];

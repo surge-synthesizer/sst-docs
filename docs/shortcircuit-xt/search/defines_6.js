@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['kpmono_7262',['KPMono',['../generator_8cpp.html#a7ee2cbc8e4d8d2bffad6d76363c02a8b',1,'generator.cpp']]],
-  ['kpstereo_7263',['KPStereo',['../generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56',1,'generator.cpp']]]
+  ['parse_5fwith_5fcrappy_5fcode_7267',['PARSE_WITH_CRAPPY_CODE',['../sfz__parse_8cpp.html#af67e69659adbbc13a5f04402076408ce',1,'sfz_parse.cpp']]],
+  ['proc_5fdefault_5fmix_7268',['PROC_DEFAULT_MIX',['../definition__helpers_8h.html#a4382065f3a78e7e1a7f5064c339a23cc',1,'definition_helpers.h']]],
+  ['process_5fas_5fjson_7269',['PROCESS_AS_JSON',['../client__serial__impl_8h.html#ae21dd4fee6b6bdbaba039220f12e9eec',1,'client_serial_impl.h']]]
 ];

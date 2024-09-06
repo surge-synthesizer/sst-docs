@@ -128,6 +128,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5eab1a4bf9d56efaaa88266f56aac0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e7eb66e9513ee7945a2ce204ee0147e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a8e7eb66e9513ee7945a2ce204ee0147e">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0">engine::Zone::VariantPlaybackMode</a>, engine::Zone::toStringVariantPlaybackMode, engine::Zone::fromStringVariantPlaybackMode)</td></tr>
 <tr class="separator:a8e7eb66e9513ee7945a2ce204ee0147e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85844b98f655fb5dbd57b64cb0c381da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a85844b98f655fb5dbd57b64cb0c381da">STREAM_ENUM</a> (<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">dsp::InterpolationTypes</a>, <a class="el" href="namespacescxt_1_1dsp.html#a766dabd8f6cb9b62a0b666234248f7f9">dsp::toStringInterpolationTypes</a>, <a class="el" href="namespacescxt_1_1dsp.html#a363a5685c7ca4189d6889140ab55d92f">dsp::fromStringInterpolationTypes</a>)</td></tr>
+<tr class="separator:a85844b98f655fb5dbd57b64cb0c381da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb999a6a12d74585d15b4f3121c19d70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#adb999a6a12d74585d15b4f3121c19d70">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">scxt::engine::Zone::SingleVariant</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto &amp;s=from;if(s.active) { v={{&quot;active&quot;, s.active}, {&quot;id&quot;, s.sampleID}, {&quot;startSample&quot;, s.startSample}, {&quot;endSample&quot;, s.endSample}, {&quot;startLoop&quot;, s.startLoop}, {&quot;endLoop&quot;, s.endLoop}, {&quot;playMode&quot;, s.playMode}, {&quot;loopActive&quot;, s.loopActive}, {&quot;playReverse&quot;, s.playReverse}, {&quot;loopMode&quot;, s.loopMode}, {&quot;loopDirection&quot;, s.loopDirection}, {&quot;loopCountWhenCounted&quot;, s.loopCountWhenCounted}, {&quot;loopFade&quot;, s.loopFade}};} else { v=tao::json::empty_object;} }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;s=to;<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;active&quot;, false, s.active);if(s.active) { <a class="el" href="namespacescxt_1_1json.html#ad980a8be9a7ee1d53265e88389c44a5d">findIf</a>(v, &quot;id&quot;, s.sampleID);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;startSample&quot;, -1, s.startSample);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;endSample&quot;, -1, s.endSample);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;startLoop&quot;, -1, s.startLoop);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;endLoop&quot;, -1, s.endLoop);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;playMode&quot;, engine::Zone::PlayMode::NORMAL, s.playMode);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;loopActive&quot;, false, s.loopActive);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;playReverse&quot;, false, s.playReverse);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;loopMode&quot;, engine::Zone::LoopMode::LOOP_DURING_VOICE, s.loopMode);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;loopDirection&quot;, engine::Zone::LoopDirection::FORWARD_ONLY, s.loopDirection);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;loopFade&quot;, 0, s.loopFade);<a class="el" href="namespacescxt_1_1json.html#a328b7ad7e2f1aed175392ee8d439688d">findOrSet</a>(v, &quot;loopCountWhenCounted&quot;, 0, s.loopCountWhenCounted);} else { s=<a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">scxt::engine::Zone::SingleVariant</a>();assert(!s.active);} }))</td></tr>
 <tr class="separator:adb999a6a12d74585d15b4f3121c19d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86e1827b395b8a320b46540aaa242997"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a86e1827b395b8a320b46540aaa242997">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html">scxt::engine::Zone::Variants</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;variants&quot;, t.variants}, {&quot;variantPlaybackMode&quot;, t.variantPlaybackMode}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#ad980a8be9a7ee1d53265e88389c44a5d">findIf</a>(v, {&quot;variants&quot;, &quot;samples&quot;}, result.variants);<a class="el" href="namespacescxt_1_1json.html#ad980a8be9a7ee1d53265e88389c44a5d">findIf</a>(v, &quot;variantPlaybackMode&quot;, result.variantPlaybackMode);}))</td></tr>
@@ -334,7 +336,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afaf3429a948d30019f41c101641a76be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaf3429a948d30019f41c101641a76be">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf3429a948d30019f41c101641a76be">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +370,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa5e81f8d772304f37a0fe9c259c74ad2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5e81f8d772304f37a0fe9c259c74ad2">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e81f8d772304f37a0fe9c259c74ad2">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +404,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa376a4f6566c1637d94c7cce565bb3a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa376a4f6566c1637d94c7cce565bb3a0">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa376a4f6566c1637d94c7cce565bb3a0">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,7 +438,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af92c0ef2911d15c0b945960bc91b9262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af92c0ef2911d15c0b945960bc91b9262">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af92c0ef2911d15c0b945960bc91b9262">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,7 +472,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5eab1a4bf9d56efaaa88266f56aac0da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5eab1a4bf9d56efaaa88266f56aac0da">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eab1a4bf9d56efaaa88266f56aac0da">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,7 +506,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8e7eb66e9513ee7945a2ce204ee0147e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e7eb66e9513ee7945a2ce204ee0147e">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e7eb66e9513ee7945a2ce204ee0147e">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,6 +527,40 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">engine::Zone::fromStringVariantPlaybackMode&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85844b98f655fb5dbd57b64cb0c381da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85844b98f655fb5dbd57b64cb0c381da">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">scxt::json::STREAM_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">dsp::InterpolationTypes</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1dsp.html#a766dabd8f6cb9b62a0b666234248f7f9">dsp::toStringInterpolationTypes</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1dsp.html#a363a5685c7ca4189d6889140ab55d92f">dsp::fromStringInterpolationTypes</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -846,7 +882,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5d2f51ed2865d266b7eae2991a7df64f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d2f51ed2865d266b7eae2991a7df64f">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2f51ed2865d266b7eae2991a7df64f">&#9670;&nbsp;</a></span>STREAM_ENUM() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1773,7 +1809,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 6 2024 08:56:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Sep 6 2024 21:37:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
