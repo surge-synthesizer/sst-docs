@@ -83,7 +83,7 @@ var searchData=
   ['intermediumfor_1269',['interMediumFor',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#aded303201684d4ddfb5ed2bf48406045',1,'scxt::ui::theme::ThemeApplier']]],
   ['intermedtf_1270',['interMedTF',['../structscxt_1_1ui_1_1SCXTJuceLookAndFeel.html#aa0c5e722b6e118d1c74cf7b305d69a2b',1,'scxt::ui::SCXTJuceLookAndFeel']]],
   ['interpartmargin_1271',['interPartMargin',['../structscxt_1_1ui_1_1app_1_1play__screen_1_1PlayScreen.html#a835133808d84708c79761425a8f7e8eb',1,'scxt::ui::app::play_screen::PlayScreen']]],
-  ['interpolationtype_1272',['interpolationType',['../structscxt_1_1dsp_1_1GeneratorState.html#a3a70fff560deedcbe683597ce85f490f',1,'scxt::dsp::GeneratorState::interpolationType()'],['../structscxt_1_1engine_1_1Zone_1_1Variants.html#a0b0987a6f936890af8291a442e33c2ca',1,'scxt::engine::Zone::Variants::interpolationType()']]],
+  ['interpolationtype_1272',['interpolationType',['../structscxt_1_1dsp_1_1GeneratorState.html#a3a70fff560deedcbe683597ce85f490f',1,'scxt::dsp::GeneratorState::interpolationType()'],['../structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a0b0987a6f936890af8291a442e33c2ca',1,'scxt::engine::Zone::SingleVariant::interpolationType()']]],
   ['interpolationtypes_1273',['InterpolationTypes',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5',1,'scxt::dsp']]],
   ['interregularfor_1274',['interRegularFor',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#a3c5a02790b5ec148836a417d483c4312',1,'scxt::ui::theme::ThemeApplier']]],
   ['intmap_1275',['intMap',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer_1_1ComponentHelper.html#ad295bdbba643c342317b86ee58067465',1,'scxt::ui::connectors::JSONLayoutConsumer::ComponentHelper']]],
