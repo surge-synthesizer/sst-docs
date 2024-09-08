@@ -191,6 +191,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a768819b872e808ea6c02d72b4be23dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76164bcacb19f5ff71e7634151c871b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a76164bcacb19f5ff71e7634151c871b2">attachToSampleAtVariation</a> (const <a class="el" href="structscxt_1_1sample_1_1SampleManager.html">sample::SampleManager</a> &amp;manager, const <a class="el" href="namespacescxt.html#af418a648931e8c259c3eb4367be46ab0">SampleID</a> &amp;sid, int16_t variation)</td></tr>
 <tr class="separator:a76164bcacb19f5ff71e7634151c871b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291ee7994708c326909163e0fe6ff5f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">setNormalizedSampleLevel</a> (bool usePeak=false, int associatedSampleID=-1)</td></tr>
+<tr class="separator:a291ee7994708c326909163e0fe6ff5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedca2d687f0ee05b3748aa550c037544"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">clearNormalizedSampleLevel</a> (int associatedSampleID=-1)</td></tr>
+<tr class="separator:aedca2d687f0ee05b3748aa550c037544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f512ab0fcc05612f8e3d6a4664ce9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">isActive</a> ()</td></tr>
 <tr class="separator:aa1f512ab0fcc05612f8e3d6a4664ce9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9588da702f57c6cc3291c76db582d6bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a9588da702f57c6cc3291c76db582d6bf">terminateAllVoices</a> ()</td></tr>
@@ -778,6 +782,56 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a291ee7994708c326909163e0fe6ff5f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291ee7994708c326909163e0fe6ff5f6">&#9670;&nbsp;</a></span>setNormalizedSampleLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setNormalizedSampleLevel </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>usePeak</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>associatedSampleID</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#acb125eff744110fcf42747e8cc351c99">scxt::dsp::sample_analytics::computePeak()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#ac2c870bd01e1c643fefd038d5ef48712">scxt::dsp::sample_analytics::computeRMS()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aef8f213f20b2a44ec737da9d36960a24">Zone::maxVariantsPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>.</p>
+
+</div>
+</div>
+<a id="aedca2d687f0ee05b3748aa550c037544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedca2d687f0ee05b3748aa550c037544">&#9670;&nbsp;</a></span>clearNormalizedSampleLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearNormalizedSampleLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>associatedSampleID</em> = <code>-1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#aef8f213f20b2a44ec737da9d36960a24">Zone::maxVariantsPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>.</p>
+
+</div>
+</div>
 <a id="aa1f512ab0fcc05612f8e3d6a4664ce9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1f512ab0fcc05612f8e3d6a4664ce9a">&#9670;&nbsp;</a></span>isActive()</h2>
 
@@ -1040,6 +1094,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
+
 </div>
 </div>
 <a id="a8af2c886b1421a375b8e1b8ddd05d153"></a>
@@ -1068,7 +1124,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a768819b872e808ea6c02d72b4be23dd2">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76164bcacb19f5ff71e7634151c871b2">Zone::attachToSampleAtVariation()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4f13175170726410627f012e212f8131">Zone::getNumSampleLoaded()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#af74b153065cc9499bff153b8b6643c39">Zone::Zone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a768819b872e808ea6c02d72b4be23dd2">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76164bcacb19f5ff71e7634151c871b2">Zone::attachToSampleAtVariation()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4f13175170726410627f012e212f8131">Zone::getNumSampleLoaded()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#af74b153065cc9499bff153b8b6643c39">Zone::Zone()</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1140,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a768819b872e808ea6c02d72b4be23dd2">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a185d2c29fb4eecfc23b3d9e15773087b">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a768819b872e808ea6c02d72b4be23dd2">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a185d2c29fb4eecfc23b3d9e15773087b">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
 
 </div>
 </div>
@@ -1389,7 +1445,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2024 12:37:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 8 2024 16:11:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

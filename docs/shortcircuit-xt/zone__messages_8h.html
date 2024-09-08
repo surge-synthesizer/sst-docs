@@ -112,6 +112,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:ad3a2d16d67453184fe08ebcf1a54f1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a301d9e62e05b47819f82ffa7c64bed47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a301d9e62e05b47819f82ffa7c64bed47">updateLeadZoneSingleVariantPayload_t</a> = std::tuple&lt; size_t, engine::Zone::SingleVariant &gt;</td></tr>
 <tr class="separator:a301d9e62e05b47819f82ffa7c64bed47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003e3299399bb33b2ee9c8ff04039fe0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a003e3299399bb33b2ee9c8ff04039fe0">normalizeVariantAmplitudePayload_t</a> = std::tuple&lt; size_t, bool &gt;</td></tr>
+<tr class="separator:a003e3299399bb33b2ee9c8ff04039fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5d34c9cd58e9ceba5d4bdec072ee7ef"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad5d34c9cd58e9ceba5d4bdec072ee7ef">clearVariantAmplitudeNormalizationPayload_t</a> = size_t</td></tr>
+<tr class="separator:ad5d34c9cd58e9ceba5d4bdec072ee7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99fcf20070cedcf3ee8063f5643466df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a99fcf20070cedcf3ee8063f5643466df">zoneOutputInfoUpdate_t</a> = std::pair&lt; bool, engine::Zone::ZoneOutputInfo &gt;</td></tr>
 <tr class="separator:a99fcf20070cedcf3ee8063f5643466df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a519fe80e44d79239c1f0b90522dbb36d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a519fe80e44d79239c1f0b90522dbb36d">addBlankZonePayload_t</a> = std::array&lt; int, 6 &gt;</td></tr>
@@ -135,6 +139,14 @@ Functions</h2></td></tr>
 <tr class="separator:a4cf34b8563407d4a0a614352a68c6d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa404db7d45bf066c91c49cdb11134267"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa404db7d45bf066c91c49cdb11134267">CLIENT_TO_SERIAL</a> (UpdateLeadZoneSingleVariant, c2s_update_lead_zone_single_variant, updateLeadZoneSingleVariantPayload_t, doUpdateLeadZoneSingleVariant(payload, engine, cont))</td></tr>
 <tr class="separator:aa404db7d45bf066c91c49cdb11134267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ed301247766a3e14e26a7fce9f593b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4ed301247766a3e14e26a7fce9f593b5">doNormalizeVariantAmplitude</a> (const normalizeVariantAmplitudePayload_t &amp;payload, const engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:a4ed301247766a3e14e26a7fce9f593b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3383cb610ade073f0a314346949a7bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af3383cb610ade073f0a314346949a7bb">CLIENT_TO_SERIAL</a> (NormalizeVariantAmplitude, c2s_normalize_variant_amplitude, normalizeVariantAmplitudePayload_t, doNormalizeVariantAmplitude(payload, engine, cont))</td></tr>
+<tr class="separator:af3383cb610ade073f0a314346949a7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07dd8d9ba593417775d2e9494254d551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07dd8d9ba593417775d2e9494254d551">doClearVariantAmplitudeNormalization</a> (const clearVariantAmplitudeNormalizationPayload_t &amp;payload, const engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:a07dd8d9ba593417775d2e9494254d551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03988d0bf158ade44b21e359ee44d3a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a03988d0bf158ade44b21e359ee44d3a3">CLIENT_TO_SERIAL</a> (ClearVariantAmplitudeNormalization, c2s_clear_variant_amplitude_normalization, clearVariantAmplitudeNormalizationPayload_t, doClearVariantAmplitudeNormalization(payload, engine, cont))</td></tr>
+<tr class="separator:a03988d0bf158ade44b21e359ee44d3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ec57e92dc84055e647affd789f31ea4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0ec57e92dc84055e647affd789f31ea4">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateZoneVariantsInt16TValue, c2s_update_zone_variants_int16_t, detail::diffMsg_t&lt; int16_t &gt;, engine::Zone::Variants, detail::updateZoneMemberValue(&amp;engine::Zone::variantData, payload, engine, cont))</td></tr>
 <tr class="separator:a0ec57e92dc84055e647affd789f31ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef9d0639e0e41cc9fc5973f2da7c49b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef9d0639e0e41cc9fc5973f2da7c49b6">SERIAL_TO_CLIENT</a> (ZoneOutputInfoUpdated, s2c_update_zone_output_info, zoneOutputInfoUpdate_t, onZoneOutputInfoUpdated)</td></tr>
@@ -151,7 +163,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2024 12:37:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 8 2024 16:11:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

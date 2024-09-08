@@ -130,6 +130,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abaa137deb6e56ca32b1ed2dd9c48a4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517a693b91041ec5055eedb925526fc5"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a517a693b91041ec5055eedb925526fc5">loopFade</a> {0}</td></tr>
 <tr class="separator:a517a693b91041ec5055eedb925526fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17661b4c3e775280584c70ff8f976671"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a17661b4c3e775280584c70ff8f976671">normalizationAmplitude</a> {0.f}</td></tr>
+<tr class="separator:a17661b4c3e775280584c70ff8f976671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af698b1ed7ee6972e701fa13bd3143d2e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#af698b1ed7ee6972e701fa13bd3143d2e">pitchOffset</a> {0.f}</td></tr>
+<tr class="separator:af698b1ed7ee6972e701fa13bd3143d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bef58f966d97b1ace9bd3a58ffd9a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a31bef58f966d97b1ace9bd3a58ffd9a6">amplitude</a> {0.f}</td></tr>
+<tr class="separator:a31bef58f966d97b1ace9bd3a58ffd9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a73e99a9aa091d55922fead97f75d2ea4"></a>
@@ -148,7 +154,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a03c996f9fcf0e10baeb3e700be0c409a">Zone::SingleVariant::active</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#ace08ff119f0750c65d2e09971ede6b7d">Zone::SingleVariant::endLoop</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#aa88ca41fc4d4a2400848c94aac989970">Zone::SingleVariant::endSample</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a626226e0109f7151434041ddec2aacff">Zone::SingleVariant::sampleID</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a7003450bf9ea9a337165df89606c6f08">Zone::SingleVariant::startLoop</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a88077c763fdceb50c1e6d9378922ed97">Zone::SingleVariant::startSample</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a03c996f9fcf0e10baeb3e700be0c409a">Zone::SingleVariant::active</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a31bef58f966d97b1ace9bd3a58ffd9a6">Zone::SingleVariant::amplitude</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#ace08ff119f0750c65d2e09971ede6b7d">Zone::SingleVariant::endLoop</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#aa88ca41fc4d4a2400848c94aac989970">Zone::SingleVariant::endSample</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a17661b4c3e775280584c70ff8f976671">Zone::SingleVariant::normalizationAmplitude</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#af698b1ed7ee6972e701fa13bd3143d2e">Zone::SingleVariant::pitchOffset</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a626226e0109f7151434041ddec2aacff">Zone::SingleVariant::sampleID</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a7003450bf9ea9a337165df89606c6f08">Zone::SingleVariant::startLoop</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a88077c763fdceb50c1e6d9378922ed97">Zone::SingleVariant::startSample</a>.</p>
 
 </div>
 </div>
@@ -361,13 +367,61 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a17661b4c3e775280584c70ff8f976671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17661b4c3e775280584c70ff8f976671">&#9670;&nbsp;</a></span>normalizationAmplitude</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float normalizationAmplitude {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a73e99a9aa091d55922fead97f75d2ea4">Zone::SingleVariant::operator==()</a>.</p>
+
+</div>
+</div>
+<a id="af698b1ed7ee6972e701fa13bd3143d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af698b1ed7ee6972e701fa13bd3143d2e">&#9670;&nbsp;</a></span>pitchOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float pitchOffset {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a73e99a9aa091d55922fead97f75d2ea4">Zone::SingleVariant::operator==()</a>.</p>
+
+</div>
+</div>
+<a id="a31bef58f966d97b1ace9bd3a58ffd9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31bef58f966d97b1ace9bd3a58ffd9a6">&#9670;&nbsp;</a></span>amplitude</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float amplitude {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a73e99a9aa091d55922fead97f75d2ea4">Zone::SingleVariant::operator==()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="zone_8h.html">zone.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2024 12:37:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 8 2024 16:11:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
