@@ -117,6 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a156294d0fe3e6e70fbc2708420e5dcd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2db34c12011e4c284915880e0030956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1MemoryPool.html#af2db34c12011e4c284915880e0030956">preReservePool</a> (size_t blockSize)</td></tr>
 <tr class="separator:af2db34c12011e4c284915880e0030956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bbd8013bbece16e274d4851e4535ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1MemoryPool.html#a18bbd8013bbece16e274d4851e4535ee">preReserveSingleInstancePool</a> (size_t blockSize)</td></tr>
+<tr class="separator:a18bbd8013bbece16e274d4851e4535ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059855e2abd68fc122d82e14d74ccab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1MemoryPool.html#aa5a8c9b1a9886f19af279aee47dff745">data_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1MemoryPool.html#a059855e2abd68fc122d82e14d74ccab1">checkoutBlock</a> (size_t blockSize)</td></tr>
 <tr class="separator:a059855e2abd68fc122d82e14d74ccab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eb78972707e9de8df2d518a43ae3dde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1MemoryPool.html#a8eb78972707e9de8df2d518a43ae3dde">returnBlock</a> (<a class="el" href="structscxt_1_1engine_1_1MemoryPool.html#aa5a8c9b1a9886f19af279aee47dff745">data_t</a> *block, size_t blockSize)</td></tr>
@@ -168,6 +170,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -187,7 +191,31 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1processor_1_1SCXTVFXConfig.html#a296347114bdac4115add23044edbcd5d">SCXTVFXConfig&lt; OSFactor &gt;::preReservePool()</a>, and <a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html#aa830f90addda4d1ffe453ffb7cef4bcc">Processor::setupProcessor()</a>.</p>
+
+</div>
+</div>
+<a id="a18bbd8013bbece16e274d4851e4535ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18bbd8013bbece16e274d4851e4535ee">&#9670;&nbsp;</a></span>preReserveSingleInstancePool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void preReserveSingleInstancePool </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>blockSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1processor_1_1SCXTVFXConfig.html#ab957242cc4b3a861363c8d2f90c45311">SCXTVFXConfig&lt; OSFactor &gt;::preReserveSingleInstancePool()</a>, and <a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html#aa830f90addda4d1ffe453ffb7cef4bcc">Processor::setupProcessor()</a>.</p>
 
 </div>
 </div>
@@ -206,6 +234,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1processor_1_1SCXTVFXConfig.html#a950b1e86025daac463d990d446ef046d">SCXTVFXConfig&lt; OSFactor &gt;::checkoutBlock()</a>.</p>
 
@@ -237,6 +267,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1processor_1_1SCXTVFXConfig.html#a20de64c08a1d60a1dc05d8330b61114a">SCXTVFXConfig&lt; OSFactor &gt;::returnBlock()</a>.</p>
 
 </div>
@@ -248,7 +280,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 9 2024 18:09:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Sep 10 2024 15:21:40 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
