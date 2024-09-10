@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['dahdenvelope_696',['DAHDEnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html',1,'sst::basic_blocks::modulators']]],
-  ['dahdsrenvelope_697',['DAHDSREnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDSREnvelope.html',1,'sst::basic_blocks::modulators']]],
-  ['darenvelope_698',['DAREnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAREnvelope.html',1,'sst::basic_blocks::modulators']]],
-  ['dbtolinearprovider_699',['DbToLinearProvider',['../structsst_1_1basic__blocks_1_1tables_1_1DbToLinearProvider.html',1,'sst::basic_blocks::tables']]],
-  ['detailtypeno_700',['detailTypeNo',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1details_1_1detailTypeNo.html',1,'sst::basic_blocks::mod_matrix::details']]],
-  ['discretestagesenvelope_701',['DiscreteStagesEnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html',1,'sst::basic_blocks::modulators']]],
-  ['discretestagesenvelope_3c_20block_5fsize_2c_20tensecondrange_20_3e_702',['DiscreteStagesEnvelope&lt; BLOCK_SIZE, TenSecondRange &gt;',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html',1,'sst::basic_blocks::modulators']]],
-  ['dpwpulseoscillator_703',['DPWPulseOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWPulseOscillator.html',1,'sst::basic_blocks::dsp']]],
-  ['dpwsawoscillator_704',['DPWSawOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html',1,'sst::basic_blocks::dsp']]],
-  ['driftlfo_705',['DriftLFO',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html',1,'sst::basic_blocks::dsp']]]
+  ['dahdenvelope_697',['DAHDEnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html',1,'sst::basic_blocks::modulators']]],
+  ['dahdsrenvelope_698',['DAHDSREnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDSREnvelope.html',1,'sst::basic_blocks::modulators']]],
+  ['darenvelope_699',['DAREnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAREnvelope.html',1,'sst::basic_blocks::modulators']]],
+  ['dbtolinearprovider_700',['DbToLinearProvider',['../structsst_1_1basic__blocks_1_1tables_1_1DbToLinearProvider.html',1,'sst::basic_blocks::tables']]],
+  ['detailtypeno_701',['detailTypeNo',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1details_1_1detailTypeNo.html',1,'sst::basic_blocks::mod_matrix::details']]],
+  ['discretestagesenvelope_702',['DiscreteStagesEnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html',1,'sst::basic_blocks::modulators']]],
+  ['discretestagesenvelope_3c_20block_5fsize_2c_20tensecondrange_20_3e_703',['DiscreteStagesEnvelope&lt; BLOCK_SIZE, TenSecondRange &gt;',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html',1,'sst::basic_blocks::modulators']]],
+  ['dpwpulseoscillator_704',['DPWPulseOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWPulseOscillator.html',1,'sst::basic_blocks::dsp']]],
+  ['dpwsawoscillator_705',['DPWSawOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html',1,'sst::basic_blocks::dsp']]],
+  ['driftlfo_706',['DriftLFO',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html',1,'sst::basic_blocks::dsp']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['b_56',['B',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a59f0e83edd2fc0a8fd275a68f45afebe',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp']]],
-  ['b_57',['b',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#aa6598e5eacf0ff022041dc48e58c266e',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower']]],
+  ['b_56',['b',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#aa6598e5eacf0ff022041dc48e58c266e',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower']]],
+  ['b_57',['B',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a59f0e83edd2fc0a8fd275a68f45afebe',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp']]],
   ['b0_58',['b0',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#aae36fc890ea9532f56273eb4ff3d8fc3',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b0()'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a0ae30649ebfdcaca88281806664fde5b',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b0()']]],
   ['b1_59',['b1',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a0a909289ec9fbfaa70c0e112ec9e3b15',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b1()'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a1a66f86672c0f8e0b9a3e8352c10c387',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b1()']]],
   ['b2_60',['b2',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a746bcb222044619e5a9b335d242a2a92',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b2()'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a17182c0a597f9f341db6c9f64fce1261',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b2()']]],
@@ -24,9 +24,10 @@ var searchData=
   ['blocksize_77',['blockSize',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a4aaa73e329d20f35039fa5cdd2e6f648',1,'sst::basic_blocks::dsp::lipol_sse']]],
   ['blocksizeinv_78',['blockSizeInv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aad365b34254175c01dc69b321d4dde53',1,'sst::basic_blocks::dsp::lipol_sse']]],
   ['bool_79',['BOOL',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7ae663dbb8f8244e122acb5bd6b2c216e1',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['bq_80',['BQ',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html',1,'HilbertTransformMonoFloat::BQ'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html',1,'HilbertTransformStereoSSE::BQ']]],
-  ['bs_5finv_81',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
-  ['bs_5finv_5fdef_82',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
-  ['buffer_83',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
-  ['buffer_5fsz_84',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]]
+  ['boolean_80',['boolean',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a54a211ac234172119d7ee8f89cb53750',1,'sst::basic_blocks::dsp::RNG']]],
+  ['bq_81',['BQ',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html',1,'HilbertTransformMonoFloat::BQ'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html',1,'HilbertTransformStereoSSE::BQ']]],
+  ['bs_5finv_82',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
+  ['bs_5finv_5fdef_83',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
+  ['buffer_84',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
+  ['buffer_5fsz_85',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]]
 ];

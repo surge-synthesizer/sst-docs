@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadratureoscillator_724',['QuadratureOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html',1,'sst::basic_blocks::dsp']]]
+  ['quadratureoscillator_725',['QuadratureOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html',1,'sst::basic_blocks::dsp']]]
 ];
