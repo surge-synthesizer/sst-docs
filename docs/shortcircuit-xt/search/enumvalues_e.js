@@ -78,10 +78,11 @@ var searchData=
   ['proct_5fphaser_7202',['proct_Phaser',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa87e7f4937395c0a490c7fffe50822658',1,'scxt::dsp::processor']]],
   ['proct_5fshepard_7203',['proct_shepard',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa07afad2c04e237ccc96937b63be223af',1,'scxt::dsp::processor']]],
   ['proct_5fstaticphaser_7204',['proct_StaticPhaser',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa88ee88ab8016e0cae87e0932e23b301d',1,'scxt::dsp::processor']]],
-  ['proct_5fstringresonator_7205',['proct_stringResonator',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa2109dd59fb578e54b8a3221a1b56c0b7',1,'scxt::dsp::processor']]],
-  ['proct_5fsupersvf_7206',['proct_SuperSVF',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa679129f5399ff556163e1296284cb57b',1,'scxt::dsp::processor']]],
-  ['proct_5fsurgebiquads_7207',['proct_SurgeBiquads',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa8147c2d9ee83eb80e6b3dab630b96f53',1,'scxt::dsp::processor']]],
-  ['proct_5fsurgefilters_7208',['proct_SurgeFilters',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faf7011a55bffe7ddf5c5d5f119336eff3',1,'scxt::dsp::processor']]],
-  ['proct_5ftremolo_7209',['proct_Tremolo',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa565b314a547f34480a2f4b92c6493dfe',1,'scxt::dsp::processor']]],
-  ['proct_5fvolpan_7210',['proct_volpan',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faeb1870a46f8a73f36532fb6d48ad33dc',1,'scxt::dsp::processor']]]
+  ['proct_5fstereofieldmanip_7205',['proct_stereofieldmanip',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa54ef7142de0db813359f5e96316a0b0d',1,'scxt::dsp::processor']]],
+  ['proct_5fstringresonator_7206',['proct_stringResonator',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa2109dd59fb578e54b8a3221a1b56c0b7',1,'scxt::dsp::processor']]],
+  ['proct_5fsupersvf_7207',['proct_SuperSVF',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa679129f5399ff556163e1296284cb57b',1,'scxt::dsp::processor']]],
+  ['proct_5fsurgebiquads_7208',['proct_SurgeBiquads',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa8147c2d9ee83eb80e6b3dab630b96f53',1,'scxt::dsp::processor']]],
+  ['proct_5fsurgefilters_7209',['proct_SurgeFilters',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faf7011a55bffe7ddf5c5d5f119336eff3',1,'scxt::dsp::processor']]],
+  ['proct_5ftremolo_7210',['proct_Tremolo',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa565b314a547f34480a2f4b92c6493dfe',1,'scxt::dsp::processor']]],
+  ['proct_5fvolpan_7211',['proct_volpan',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faeb1870a46f8a73f36532fb6d48ad33dc',1,'scxt::dsp::processor']]]
 ];
