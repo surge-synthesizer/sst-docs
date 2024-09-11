@@ -105,6 +105,8 @@ Functions</h2></td></tr>
 <tr class="separator:a789d0c386de9c3ab6581fa8315297b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c78d4133b45117423f51367cfd9e87b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a4c78d4133b45117423f51367cfd9e87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cc7fed982f9bc94257d36c470cf979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a63cc7fed982f9bc94257d36c470cf979">initFromResourceBundle</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine)</td></tr>
+<tr class="separator:a63cc7fed982f9bc94257d36c470cf979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8355d53952166b1b89bf9c1339bfeb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine)</td></tr>
 <tr class="separator:ad8355d53952166b1b89bf9c1339bfeb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd0b891a42395d077d02430c107992e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a2bd0b891a42395d077d02430c107992e">streamPart</a> (const fs::path &amp;toFile, const <a class="el" href="structscxt_1_1engine_1_1Part.html">scxt::engine::Part</a> &amp;)</td></tr>
@@ -245,6 +247,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a63cc7fed982f9bc94257d36c470cf979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63cc7fed982f9bc94257d36c470cf979">&#9670;&nbsp;</a></span>initFromResourceBundle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool initFromResourceBundle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">scxt::messaging::client::cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3a8a839dd79b8918b4a9e3e11c5465ff">Engine::stopAllSounds()</a>, and <a class="el" href="namespacescxt_1_1json.html#acddb4f9a5bc14015b119dde106fab7d1">scxt::json::unstreamEngineState()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a949b29771ed31bd2e3f7e2725bfa159c">scxt::messaging::client::doResetEngine()</a>.</p>
+
+</div>
+</div>
 <a id="ad8355d53952166b1b89bf9c1339bfeb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8355d53952166b1b89bf9c1339bfeb9">&#9670;&nbsp;</a></span>loadMulti()</h2>
 
@@ -334,7 +358,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 11 2024 14:53:46 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Sep 11 2024 23:28:28 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
