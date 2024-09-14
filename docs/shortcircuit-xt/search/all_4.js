@@ -60,7 +60,7 @@ var searchData=
   ['endnote_760',['endNote',['../structscxt_1_1exs__support_1_1EXSGroup.html#abef0ae0cf1a5d1d95e36bee1e0931853',1,'scxt::exs_support::EXSGroup']]],
   ['endp_761',['endP',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fadb49e7f174779d056a7d0c4a0ddb40bf',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['endpoints_762',['endpoints',['../structscxt_1_1engine_1_1Group.html#a5d4f5fa2843a572e4fd699aef7787278',1,'scxt::engine::Group::endpoints()'],['../structscxt_1_1voice_1_1Voice.html#a17debed7e83edfa5f64b3616a16fef03',1,'scxt::voice::Voice::endpoints()']]],
-  ['endpoints_763',['ENDPOINTS',['../structscxt_1_1engine_1_1Zone.html#a3bed0edb8ad65d1494e8af77cb6ee2cbaf177f01b411631e4ec5f79071dbfb7e7',1,'scxt::engine::Zone']]],
+  ['endpoints_763',['ENDPOINTS',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7',1,'scxt::engine::Zone']]],
   ['endsample_764',['endSample',['../structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#aa88ca41fc4d4a2400848c94aac989970',1,'scxt::engine::Zone::SingleVariant']]],
   ['endsamplehz_765',['endSampleHZ',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a1cc922b63146f4b35a5dcd0818aa20a7',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
   ['engine_766',['engine',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a81e632e66b52e5c21e533bf5a40f2795',1,'scxt::engine::Engine::VoiceManagerResponder']]],

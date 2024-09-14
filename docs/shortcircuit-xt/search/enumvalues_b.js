@@ -2,7 +2,7 @@ var searchData=
 [
   ['main_7112',['MAIN',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46a186495f7da296bf880df3a22a492b378',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['main_5f0_7113',['MAIN_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a75274e8f1cfaacc079bb527e204c18c8',1,'scxt::engine']]],
-  ['mapping_7114',['MAPPING',['../structscxt_1_1engine_1_1Zone.html#a3bed0edb8ad65d1494e8af77cb6ee2cba931c2f54425315717778a396e670ed80',1,'scxt::engine::Zone']]],
+  ['mapping_7114',['MAPPING',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80',1,'scxt::engine::Zone']]],
   ['master_7115',['master',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a7b985b1f49b47e8e7e116316c4915c31',1,'scxt::sfz_support::SFZParser::Header']]],
   ['mf_5ffromcurrent_7116',['mf_FromCurrent',['../namespacescxt_1_1sample_1_1loaders.html#a64ef8dfaebae64d60164bdd0e5fd6183a038dbfa364f89c35561182245efebee3',1,'scxt::sample::loaders']]],
   ['mf_5ffromend_7117',['mf_FromEnd',['../namespacescxt_1_1sample_1_1loaders.html#a64ef8dfaebae64d60164bdd0e5fd6183a9135fca2ab11b60e3d45ccf2dc98c1dc',1,'scxt::sample::loaders']]],

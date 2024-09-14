@@ -106,7 +106,7 @@ var searchData=
   ['sampleid_2637',['sampleID',['../structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a626226e0109f7151434041ddec2aacff',1,'scxt::engine::Zone::SingleVariant']]],
   ['sampleid_2638',['SampleID',['../namespacescxt.html#af418a648931e8c259c3eb4367be46ab0',1,'scxt']]],
   ['sampleindex_2639',['sampleIndex',['../structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729',1,'scxt::voice::Voice::sampleIndex()'],['../structscxt_1_1exs__support_1_1EXSZone.html#aa667dd8f6ee08e3a7a99c4edad8096ff',1,'scxt::exs_support::EXSZone::sampleIndex()'],['../structscxt_1_1engine_1_1Zone.html#acaaeff7bcb88bba08068cd529e0a0729',1,'scxt::engine::Zone::sampleIndex()']]],
-  ['sampleinformationread_2640',['SampleInformationRead',['../structscxt_1_1engine_1_1Zone.html#a3bed0edb8ad65d1494e8af77cb6ee2cb',1,'scxt::engine::Zone']]],
+  ['sampleinformationread_2640',['SampleInformationRead',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48',1,'scxt::engine::Zone']]],
   ['samplelength_2641',['sampleLength',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1FileInfos.html#ad74aaff8f50a64706ad9375b7907ca7c',1,'scxt::ui::app::edit_screen::VariantDisplay::FileInfos']]],
   ['sampleloop_2642',['SampleLoop',['../structscxt_1_1sample_1_1loaders_1_1SampleLoop.html',1,'scxt::sample::loaders']]],
   ['samplemanager_2643',['SampleManager',['../structscxt_1_1sample_1_1SampleManager.html#afae3a54a4a010bdcd6ce7e6006e5bb4d',1,'scxt::sample::SampleManager']]],

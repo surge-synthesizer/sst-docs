@@ -52,7 +52,7 @@ var searchData=
   ['mapels_3c_20std_3a_3aunique_5fptr_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3aglyphpainter_20_3e_20_3e_1640',['MapEls&lt; std::unique_ptr&lt; sst::jucegui::components::GlyphPainter &gt; &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['mapels_3c_20std_3a_3aunique_5fptr_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3alabel_20_3e_20_3e_1641',['MapEls&lt; std::unique_ptr&lt; sst::jucegui::components::Label &gt; &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['mapping_1642',['mapping',['../structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2',1,'scxt::engine::Zone']]],
-  ['mapping_1643',['MAPPING',['../structscxt_1_1engine_1_1Zone.html#a3bed0edb8ad65d1494e8af77cb6ee2cba931c2f54425315717778a396e670ed80',1,'scxt::engine::Zone']]],
+  ['mapping_1643',['MAPPING',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80',1,'scxt::engine::Zone']]],
   ['mappingchangedfromgui_1644',['mappingChangedFromGUI',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a1dc1410f30069052c4906830fbd69ff0',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['mappingdisplay_1645',['MappingDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ae3ae89e871814e11941ef35658b9d0c6',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['mappingdisplay_1646',['mappingDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#a0b756006b4501465dac145b7ee598848',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane']]],
