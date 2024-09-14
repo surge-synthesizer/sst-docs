@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage']]],
-  ['a_1',['A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore']]],
+  ['a_0',['A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore']]],
+  ['a_1',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage']]],
   ['a1_2',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a2_3',['a2',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a4dfbc2824813cd40f00fe10560e57827',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a2s_5fdelete_5fthis_5fpointer_4',['a2s_delete_this_pointer',['../namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea9d1f082dc69ddbe20757f3f74ce31380',1,'scxt::messaging::audio']]],
@@ -42,7 +42,7 @@ var searchData=
   ['activezones_39',['activeZones',['../structscxt_1_1engine_1_1Group.html#acf8f50736ff9d65b02601e94b5c7c89b',1,'scxt::engine::Group']]],
   ['activitynotificationpayload_5ft_40',['activityNotificationPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a45ce03949e6cbbe61b0eec65231dad0f',1,'scxt::messaging::client']]],
   ['addactivegroup_41',['addActiveGroup',['../structscxt_1_1engine_1_1Part.html#a03d599b01048fd44a64f6b0e72c6a058',1,'scxt::engine::Part']]],
-  ['addactivezone_42',['addActiveZone',['../structscxt_1_1engine_1_1Group.html#a8af129bc0266426f2c557d96e2b51603',1,'scxt::engine::Group']]],
+  ['addactivezone_42',['addActiveZone',['../structscxt_1_1engine_1_1Group.html#a2bb44d57e37f6ac4be8d29e658a1fb94',1,'scxt::engine::Group']]],
   ['addblankzonepayload_5ft_43',['addBlankZonePayload_t',['../namespacescxt_1_1messaging_1_1client.html#a519fe80e44d79239c1f0b90522dbb36d',1,'scxt::messaging::client']]],
   ['adddebug_44',['addDebug',['../structscxt_1_1browser_1_1WriterWorker.html#a19eb2a8043f63dd8ef6008334f3a937f',1,'scxt::browser::WriterWorker']]],
   ['adddevicelocation_45',['addDeviceLocation',['../structscxt_1_1browser_1_1WriterWorker.html#a28b11ad1c9fb1dcc5881b0e1c6c9d467',1,'scxt::browser::WriterWorker::addDeviceLocation()'],['../structscxt_1_1browser_1_1BrowserDB.html#a4d0bbfd11d7a600ffc5a9d631f89ab2c',1,'scxt::browser::BrowserDB::addDeviceLocation()']]],
