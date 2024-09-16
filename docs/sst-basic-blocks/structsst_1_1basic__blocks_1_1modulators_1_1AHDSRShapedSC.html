@@ -121,8 +121,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a78bce482aac8a2906b24d9a7b215980a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a78bce482aac8a2906b24d9a7b215980a">AHDSRShapedSC</a> (SRProvider *s)</td></tr>
 <tr class="separator:a78bce482aac8a2906b24d9a7b215980a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ced4887eecf88a3bc3f81579768a8e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8ced4887eecf88a3bc3f81579768a8e0">attackFrom</a> (float fv)</td></tr>
-<tr class="separator:a8ced4887eecf88a3bc3f81579768a8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac274f22e9be97cbbda9e4043d73785b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#ac274f22e9be97cbbda9e4043d73785b5">attackFrom</a> (float fv, bool skipAttack=false)</td></tr>
+<tr class="separator:ac274f22e9be97cbbda9e4043d73785b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03b25ee64356c2f5dda131c971cee020"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a03b25ee64356c2f5dda131c971cee020">dPhase</a> (float x)</td></tr>
 <tr class="separator:a03b25ee64356c2f5dda131c971cee020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed0ebe286194697fc76f63edc21b1c8f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aed0ebe286194697fc76f63edc21b1c8f">fastPow</a> (double a, double b)</td></tr>
@@ -289,8 +289,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ced4887eecf88a3bc3f81579768a8e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ced4887eecf88a3bc3f81579768a8e0">&#9670;&nbsp;</a></span>attackFrom()</h2>
+<a id="ac274f22e9be97cbbda9e4043d73785b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac274f22e9be97cbbda9e4043d73785b5">&#9670;&nbsp;</a></span>attackFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,13 +299,23 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">void attackFrom </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>fv</em></td><td>)</td>
+          <td class="paramname"><em>fv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>skipAttack</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a0b0af3fdcbef992f25a52d0e1309bf2d">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::attackStartValue</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a275dd6dafe5d4455e599ffd15feb06f8">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::phase</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebaa79c06e9d028e1961b8c2e5ed710a4e2">DiscreteStagesEnvelope&lt; BLOCK_SIZE, RangeProvider &gt;::s_attack</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a0b0af3fdcbef992f25a52d0e1309bf2d">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::attackStartValue</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f">DiscreteStagesEnvelope&lt; BLOCK_SIZE, TenSecondRange &gt;::outBlock0</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a275dd6dafe5d4455e599ffd15feb06f8">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::phase</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebaa79c06e9d028e1961b8c2e5ed710a4e2">DiscreteStagesEnvelope&lt; BLOCK_SIZE, RangeProvider &gt;::s_attack</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebac6eefd7e11de9a9dd3d1ad0f9b6696ab">DiscreteStagesEnvelope&lt; BLOCK_SIZE, RangeProvider &gt;::s_hold</a>.</p>
 
 </div>
 </div>
@@ -788,7 +798,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8ced4887eecf88a3bc3f81579768a8e0">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::attackFrom()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a9a0af09d43a52af10e46b112a4dcacf3">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::kernel()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8044f00f5370d0c9ba02a5ddb90f7c1a">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::processCore()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#ac274f22e9be97cbbda9e4043d73785b5">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::attackFrom()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a9a0af09d43a52af10e46b112a4dcacf3">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::kernel()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8044f00f5370d0c9ba02a5ddb90f7c1a">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::processCore()</a>.</p>
 
 </div>
 </div>
@@ -804,7 +814,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8ced4887eecf88a3bc3f81579768a8e0">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::attackFrom()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8044f00f5370d0c9ba02a5ddb90f7c1a">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::processCore()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#ac274f22e9be97cbbda9e4043d73785b5">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::attackFrom()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a8044f00f5370d0c9ba02a5ddb90f7c1a">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::processCore()</a>.</p>
 
 </div>
 </div>
@@ -830,7 +840,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 16 2024 01:41:55 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Sep 16 2024 23:58:12 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
