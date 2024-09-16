@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadratureoscillators_2eh_785',['QuadratureOscillators.h',['../QuadratureOscillators_8h.html',1,'']]]
+  ['quadratureoscillators_2eh_788',['QuadratureOscillators.h',['../QuadratureOscillators_8h.html',1,'']]]
 ];
