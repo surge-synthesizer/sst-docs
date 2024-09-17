@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interpolationtypes_6901',['InterpolationTypes',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5',1,'scxt::dsp']]]
+  ['expressionids_6933',['ExpressionIDs',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9',1,'scxt::voice::Voice']]]
 ];
