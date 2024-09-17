@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['channelstrip_3669',['ChannelStrip',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html',1,'scxt::ui::app::mixer_screen']]],
-  ['clientactivitynotificationguard_3670',['ClientActivityNotificationGuard',['../structscxt_1_1messaging_1_1MessageController_1_1ClientActivityNotificationGuard.html',1,'scxt::messaging::MessageController']]],
-  ['clienttoserializationtype_3671',['ClientToSerializationType',['../structscxt_1_1messaging_1_1client_1_1ClientToSerializationType.html',1,'scxt::messaging::client']]],
-  ['colormap_3672',['ColorMap',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html',1,'scxt::ui::theme']]],
-  ['componenthelper_3673',['ComponentHelper',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer_1_1ComponentHelper.html',1,'scxt::ui::connectors::JSONLayoutConsumer']]],
-  ['config_3674',['Config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'scxt::engine::dtl']]],
-  ['cuepoint_3675',['CuePoint',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html',1,'scxt::sample::loaders']]],
-  ['curve_3676',['Curve',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
-  ['curvedraw_3677',['CurveDraw',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
-  ['curvelfo_3678',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
-  ['curvelfopane_3679',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['curvelfostorage_3680',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]]
+  ['channelstrip_3666',['ChannelStrip',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html',1,'scxt::ui::app::mixer_screen']]],
+  ['clientactivitynotificationguard_3667',['ClientActivityNotificationGuard',['../structscxt_1_1messaging_1_1MessageController_1_1ClientActivityNotificationGuard.html',1,'scxt::messaging::MessageController']]],
+  ['clienttoserializationtype_3668',['ClientToSerializationType',['../structscxt_1_1messaging_1_1client_1_1ClientToSerializationType.html',1,'scxt::messaging::client']]],
+  ['colormap_3669',['ColorMap',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html',1,'scxt::ui::theme']]],
+  ['componenthelper_3670',['ComponentHelper',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer_1_1ComponentHelper.html',1,'scxt::ui::connectors::JSONLayoutConsumer']]],
+  ['config_3671',['Config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'scxt::engine::dtl']]],
+  ['cuepoint_3672',['CuePoint',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html',1,'scxt::sample::loaders']]],
+  ['curve_3673',['Curve',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
+  ['curvedraw_3674',['CurveDraw',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
+  ['curvelfo_3675',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
+  ['curvelfopane_3676',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
+  ['curvelfostorage_3677',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]]
 ];

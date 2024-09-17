@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['offset_6162',['offset',['../structscxt_1_1exs__support_1_1EXSZone.html#a97bd6c077f3c7769f575b82988b9b668',1,'scxt::exs_support::EXSZone']]],
-  ['omnichannel_6163',['omniChannel',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d',1,'scxt::engine::Part::PartConfiguration']]],
-  ['oneshot_6164',['oneshot',['../structscxt_1_1exs__support_1_1EXSZone.html#a37dc77f178f39540e01854d81ff0607c',1,'scxt::exs_support::EXSZone']]],
-  ['onfirstedit_6165',['onFirstEdit',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html#a9bb5f676bfb629b4953b08ec17d0ab0c',1,'scxt::ui::connectors::DummyContinuous']]],
-  ['onguichanged_6166',['onGuiChanged',['../structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a3d867e4e02b5429c0b204982dfff1c47',1,'scxt::ui::connectors::SamplePointDataAttachment']]],
-  ['onguivaluechanged_6167',['onGuiValueChanged',['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a62c69762d8d57b9e1e8e9ad8c4ca1f30',1,'scxt::ui::connectors::PayloadDataAttachment::onGuiValueChanged()'],['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ab1920def2c6b561351a786a8eb037de6',1,'scxt::ui::connectors::DiscretePayloadDataAttachment::onGuiValueChanged()']]],
+  ['offset_6161',['offset',['../structscxt_1_1exs__support_1_1EXSZone.html#a97bd6c077f3c7769f575b82988b9b668',1,'scxt::exs_support::EXSZone']]],
+  ['omnichannel_6162',['omniChannel',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d',1,'scxt::engine::Part::PartConfiguration']]],
+  ['oneshot_6163',['oneshot',['../structscxt_1_1exs__support_1_1EXSZone.html#a37dc77f178f39540e01854d81ff0607c',1,'scxt::exs_support::EXSZone']]],
+  ['onfirstedit_6164',['onFirstEdit',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html#a9bb5f676bfb629b4953b08ec17d0ab0c',1,'scxt::ui::connectors::DummyContinuous']]],
+  ['onguichanged_6165',['onGuiChanged',['../structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a3d867e4e02b5429c0b204982dfff1c47',1,'scxt::ui::connectors::SamplePointDataAttachment']]],
+  ['onguivaluechanged_6166',['onGuiValueChanged',['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a62c69762d8d57b9e1e8e9ad8c4ca1f30',1,'scxt::ui::connectors::PayloadDataAttachment::onGuiValueChanged()'],['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ab1920def2c6b561351a786a8eb037de6',1,'scxt::ui::connectors::DiscretePayloadDataAttachment::onGuiValueChanged()']]],
+  ['onpopupmenu_6167',['onPopupMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a00f153e619a0f486e550928b46566b2d',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
   ['onselchanged_6168',['onSelChanged',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1BandSelect.html#a2347fe0ab9f4b31878184f7fd1b47293',1,'scxt::ui::app::edit_screen::EqDisplayBase::BandSelect']]],
   ['onto_6169',['onto',['../structSCXTApplicationWindow_1_1Intermediate.html#ab1f2fe9bf97eb68d03d410a3a6c392cd',1,'SCXTApplicationWindow::Intermediate']]],
   ['onzoomchanged_6170',['onZoomChanged',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ab33fee5b638c3de90fdd6f523f047ba5',1,'scxt::ui::app::SCXTEditor']]],

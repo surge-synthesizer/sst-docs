@@ -224,6 +224,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a30323f344b32cbbf81ed28b13c6c7bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c0115542d198c9c7539a3c4eb45f3d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4c0115542d198c9c7539a3c4eb45f3d7">zoomFactor</a> {1.f}</td></tr>
 <tr class="separator:a4c0115542d198c9c7539a3c4eb45f3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f153e619a0f486e550928b46566b2d"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a00f153e619a0f486e550928b46566b2d">onPopupMenu</a> {nullptr}</td></tr>
+<tr class="separator:a00f153e619a0f486e550928b46566b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d4a9df7846ae21e576edd6f840a045"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a02d4a9df7846ae21e576edd6f840a045">vStart</a> {0.f}</td></tr>
 <tr class="separator:a02d4a9df7846ae21e576edd6f840a045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86f1dc2107120b1e0fabebe6e2d2f07b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a86f1dc2107120b1e0fabebe6e2d2f07b">vZoom</a> {1.f}</td></tr>
@@ -581,7 +583,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#af0ec452082b6ad261cf3464c33b88f13">SampleWaveform::endLoopHZ</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a1cc922b63146f4b35a5dcd0818aa20a7">SampleWaveform::endSampleHZ</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">SampleWaveform::HZ_DRAG_LOOPEND</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">SampleWaveform::HZ_DRAG_LOOPSTART</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">SampleWaveform::HZ_DRAG_SAMPEND</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">SampleWaveform::HZ_DRAG_SAMPSTART</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">SampleWaveform::NONE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ae5d73ab7bb082f67a87d75406abca091">SampleWaveform::startLoopHZ</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad7b2bee2d93164710622884b82566af1">SampleWaveform::startSampleHZ</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#af0ec452082b6ad261cf3464c33b88f13">SampleWaveform::endLoopHZ</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a1cc922b63146f4b35a5dcd0818aa20a7">SampleWaveform::endSampleHZ</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">SampleWaveform::HZ_DRAG_LOOPEND</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">SampleWaveform::HZ_DRAG_LOOPSTART</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">SampleWaveform::HZ_DRAG_SAMPEND</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">SampleWaveform::HZ_DRAG_SAMPSTART</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">SampleWaveform::NONE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a00f153e619a0f486e550928b46566b2d">SampleWaveform::onPopupMenu</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ae5d73ab7bb082f67a87d75406abca091">SampleWaveform::startLoopHZ</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad7b2bee2d93164710622884b82566af1">SampleWaveform::startSampleHZ</a>.</p>
 
 </div>
 </div>
@@ -609,7 +611,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3313926bb7b6f840394dea719a4009da">SampleWaveform::display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">SampleWaveform::NONE</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aaf60ac46670e758971a23812d5c3fe91">VariantDisplay::onSamplePointChangedFromGUI()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3313926bb7b6f840394dea719a4009da">SampleWaveform::display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">SampleWaveform::NONE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a00f153e619a0f486e550928b46566b2d">SampleWaveform::onPopupMenu</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aaf60ac46670e758971a23812d5c3fe91">VariantDisplay::onSamplePointChangedFromGUI()</a>.</p>
 
 </div>
 </div>
@@ -1106,6 +1108,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a00f153e619a0f486e550928b46566b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f153e619a0f486e550928b46566b2d">&#9670;&nbsp;</a></span>onPopupMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void()&gt; onPopupMenu {nullptr}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a7573082fd3086ba3775b602db61290bb">SampleWaveform::mouseDown()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a6eabfe70d2d9352ed41a16e2882e1645">SampleWaveform::mouseUp()</a>.</p>
+
+</div>
+</div>
 <a id="a02d4a9df7846ae21e576edd6f840a045"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02d4a9df7846ae21e576edd6f840a045">&#9670;&nbsp;</a></span>vStart</h2>
 
@@ -1145,7 +1163,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 17 2024 01:04:07 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Sep 17 2024 13:51:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
