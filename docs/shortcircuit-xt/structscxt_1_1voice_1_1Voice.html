@@ -227,6 +227,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac46e821ae08930cc9e257642e34275a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d8e5ff37d120a7d2bbfdfd1dc30816"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a73d8e5ff37d120a7d2bbfdfd1dc30816">velKeyFade</a> {1.f}</td></tr>
 <tr class="separator:a73d8e5ff37d120a7d2bbfdfd1dc30816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88ad8ca1ef1c33c297c91e1950fa195"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#ab88ad8ca1ef1c33c297c91e1950fa195">keytrackPerOct</a> {0.f}</td></tr>
+<tr class="separator:ab88ad8ca1ef1c33c297c91e1950fa195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07d616744e269fe15200a8a1326de513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1voice_1_1modulation_1_1Matrix.html">scxt::voice::modulation::Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a07d616744e269fe15200a8a1326de513">modMatrix</a></td></tr>
 <tr class="separator:a07d616744e269fe15200a8a1326de513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17debed7e83edfa5f64b3616a16fef03"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html">modulation::MatrixEndpoints</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a17debed7e83edfa5f64b3616a16fef03">endpoints</a></td></tr>
@@ -575,7 +577,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculates the pitch of this voice with modulation, MPE, tuning etc in. </p>
 
-<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87a2d059ff3004eb769848369d28a509">Voice::channel</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a17debed7e83edfa5f64b3616a16fef03">Voice::endpoints</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1b660e6b718a88e94bc7a994dbfe3a47">Zone::getEngine()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a3496dfc7a27df7eead65d48ed89e6867">Voice::key</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2">Zone::mapping</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a23174a8e7a1c4ec2dac457d59320cdd6">Engine::midikeyRetuner</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8b12aaa43ec8eb476290a2f801f9126b">Voice::originalMidiKey</a>, <a class="el" href="structscxt_1_1dsp_1_1Smoother.html#a1084d7e47a5571b229a33ad347cc9453">Smoother::output</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1cc3b4d370625a856e41bce8eb26640b">Zone::ZoneMappingData::pbDown</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#adc3abe36fe849a46d6fb43ff916342d3">Zone::ZoneMappingData::pbUp</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a679e19b0fefe5f7de7a89a6f51a9cfa4">Part::pitchBendSmoother</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a565236ee34e2c54ad4aa1a226a79ff5b">MidikeyRetuner::retuneRemappedKey()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87a2d059ff3004eb769848369d28a509">Voice::channel</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a17debed7e83edfa5f64b3616a16fef03">Voice::endpoints</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1b660e6b718a88e94bc7a994dbfe3a47">Zone::getEngine()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a3496dfc7a27df7eead65d48ed89e6867">Voice::key</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ab88ad8ca1ef1c33c297c91e1950fa195">Voice::keytrackPerOct</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2">Zone::mapping</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a23174a8e7a1c4ec2dac457d59320cdd6">Engine::midikeyRetuner</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8b12aaa43ec8eb476290a2f801f9126b">Voice::originalMidiKey</a>, <a class="el" href="structscxt_1_1dsp_1_1Smoother.html#a1084d7e47a5571b229a33ad347cc9453">Smoother::output</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1cc3b4d370625a856e41bce8eb26640b">Zone::ZoneMappingData::pbDown</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#adc3abe36fe849a46d6fb43ff916342d3">Zone::ZoneMappingData::pbUp</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a679e19b0fefe5f7de7a89a6f51a9cfa4">Part::pitchBendSmoother</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a565236ee34e2c54ad4aa1a226a79ff5b">MidikeyRetuner::retuneRemappedKey()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>.</p>
 
@@ -977,6 +979,22 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab88ad8ca1ef1c33c297c91e1950fa195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88ad8ca1ef1c33c297c91e1950fa195">&#9670;&nbsp;</a></span>keytrackPerOct</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float keytrackPerOct {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>.</p>
 
 </div>
 </div>
@@ -1475,7 +1493,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 17 2024 00:22:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Sep 17 2024 00:52:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
