@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['riffheader_3860',['riffheader',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html',1,'scxt::sample::loaders']]],
-  ['riffmemfile_3861',['RIFFMemFile',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html',1,'scxt::sample::loaders']]],
-  ['rngsources_3862',['RNGSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1RNGSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
-  ['routingextrapayload_3863',['RoutingExtraPayload',['../structscxt_1_1modulation_1_1shared_1_1RoutingExtraPayload.html',1,'scxt::modulation::shared']]],
-  ['rowaddcomponent_3864',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowAddComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]],
-  ['rowcomponent_3865',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]]
+  ['riffheader_3871',['riffheader',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html',1,'scxt::sample::loaders']]],
+  ['riffmemfile_3872',['RIFFMemFile',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html',1,'scxt::sample::loaders']]],
+  ['rngsources_3873',['RNGSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1RNGSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['routingextrapayload_3874',['RoutingExtraPayload',['../structscxt_1_1modulation_1_1shared_1_1RoutingExtraPayload.html',1,'scxt::modulation::shared']]],
+  ['rowaddcomponent_3875',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowAddComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]],
+  ['rowcomponent_3876',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]]
 ];
