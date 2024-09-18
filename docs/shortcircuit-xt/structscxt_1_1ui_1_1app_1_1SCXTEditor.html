@@ -146,6 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af28a920cb5da46aca95b02c095e3203d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6f49a148c16767e4a462295910625c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9b6f49a148c16767e4a462295910625c">configureHasDiscreteMenuBuilder</a> (sst::jucegui::components::HasDiscreteParamMenuBuilder *)</td></tr>
 <tr class="separator:a9b6f49a148c16767e4a462295910625c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0bc6b86b747b615543fb129fad1d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1f0bc6b86b747b615543fb129fad1d57">popupMenuForContinuous</a> (sst::jucegui::components::ContinuousParamEditor *e)</td></tr>
+<tr class="separator:a1f0bc6b86b747b615543fb129fad1d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a886a9378efdfd83dc00ded0a3a993801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a886a9378efdfd83dc00ded0a3a993801">onErrorFromEngine</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f72a6ea5056f902a343cb7ce1e1482e">scxt::messaging::client::s2cError_t</a> &amp;)</td></tr>
 <tr class="separator:a886a9378efdfd83dc00ded0a3a993801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9878417c76503cf066501443c24c131c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9878417c76503cf066501443c24c131c">onEngineStatus</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html">engine::Engine::EngineStatusMessage</a> &amp;e)</td></tr>
@@ -706,7 +708,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a1041a8c5abf524fc10ea92a2513aec6e">LfoPane::pickPresets()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#a4197260f188bcd045acdbdaa585eb8c8">ProcTab&lt; OTTraits &gt;::selectNewProcRouting()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#abb060be4f0a0d37d6483df2ab5fa6ca9">ChannelStrip::showAuxRouting()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a0f2c5facc451058c675a581b04255d7c">ModRow&lt; GZTrait &gt;::showCurveMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#ada275e5feafb3dec7bc7bd8c01bbc44f">DriveFSListBoxRow::showDirectoryPopup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a519ca21046c2205de04746c4139b9dcf">MixerScreen::showFXSelectionMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane.html#aa9e7c4363457165c58560c2b489d05e6">AdsrPane::showHamburgerMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a538bac8117c6f9cc41f37b675b2bafcb">VariantDisplay::showLoopModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a547646815560a705ed2ab461dbf46d04">SCXTEditor::showMainMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1play__screen_1_1PlayScreen.html#aba5bd9067aa6f261123165a337c7957d">PlayScreen::showMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a267e625fbad445da07ef74b784edc2ee">PartSidebarCard::showMidiModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a9a4441a580d6e7e6c4c37ec051e71b32">GroupZoneSidebarBase&lt; T, forZone &gt;::showPartSelectorMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a99946a0c2f97da59d13c58aec694437e">VariantDisplay::showPlayModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a5c1b31e6104f2f2b71db8dcf742e3188">ModRow&lt; GZTrait &gt;::showSourceMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a9f24326e2b3618e702d8f92732c36cd5">VariantDisplay::showSRCMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a5c895d9d0acd0276265b36cbdb3231ed">ModRow&lt; GZTrait &gt;::showTargetMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#af96c14f5c62443ca35a67e3b2fb5a7cd">VariantDisplay::showVariantPlaymodeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8f7bf025d3243cde6d8daa2da3a0477f">VariantDisplay::showVariantTabMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#af8a5693e6853312ce65f28188cd8c16c">ZoneLayoutDisplay::showZoneMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a1041a8c5abf524fc10ea92a2513aec6e">LfoPane::pickPresets()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1f0bc6b86b747b615543fb129fad1d57">SCXTEditor::popupMenuForContinuous()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#a4197260f188bcd045acdbdaa585eb8c8">ProcTab&lt; OTTraits &gt;::selectNewProcRouting()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#abb060be4f0a0d37d6483df2ab5fa6ca9">ChannelStrip::showAuxRouting()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a0f2c5facc451058c675a581b04255d7c">ModRow&lt; GZTrait &gt;::showCurveMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#ada275e5feafb3dec7bc7bd8c01bbc44f">DriveFSListBoxRow::showDirectoryPopup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a519ca21046c2205de04746c4139b9dcf">MixerScreen::showFXSelectionMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane.html#aa9e7c4363457165c58560c2b489d05e6">AdsrPane::showHamburgerMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a538bac8117c6f9cc41f37b675b2bafcb">VariantDisplay::showLoopModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a547646815560a705ed2ab461dbf46d04">SCXTEditor::showMainMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1play__screen_1_1PlayScreen.html#aba5bd9067aa6f261123165a337c7957d">PlayScreen::showMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a267e625fbad445da07ef74b784edc2ee">PartSidebarCard::showMidiModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a9a4441a580d6e7e6c4c37ec051e71b32">GroupZoneSidebarBase&lt; T, forZone &gt;::showPartSelectorMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a99946a0c2f97da59d13c58aec694437e">VariantDisplay::showPlayModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a5c1b31e6104f2f2b71db8dcf742e3188">ModRow&lt; GZTrait &gt;::showSourceMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a9f24326e2b3618e702d8f92732c36cd5">VariantDisplay::showSRCMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a5c895d9d0acd0276265b36cbdb3231ed">ModRow&lt; GZTrait &gt;::showTargetMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#af96c14f5c62443ca35a67e3b2fb5a7cd">VariantDisplay::showVariantPlaymodeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8f7bf025d3243cde6d8daa2da3a0477f">VariantDisplay::showVariantTabMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#af8a5693e6853312ce65f28188cd8c16c">ZoneLayoutDisplay::showZoneMenu()</a>.</p>
 
 </div>
 </div>
@@ -725,6 +727,28 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f0bc6b86b747b615543fb129fad1d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f0bc6b86b747b615543fb129fad1d57">&#9670;&nbsp;</a></span>popupMenuForContinuous()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void popupMenuForContinuous </td>
+          <td>(</td>
+          <td class="paramtype">sst::jucegui::components::ContinuousParamEditor *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af28a920cb5da46aca95b02c095e3203d">SCXTEditor::defaultPopupMenuOptions()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1509,7 +1533,7 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a36d6dbbe184b626cd934b88dc3986f1b">HasEditor::setupWidgetForValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1530,7 +1554,7 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a36d6dbbe184b626cd934b88dc3986f1b">HasEditor::setupWidgetForValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1817,7 +1841,7 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a3a5c220394e639a91b7a0b5f6006a339">SCXTEditor::sendToSerialization()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a36d6dbbe184b626cd934b88dc3986f1b">HasEditor::setupWidgetForValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1847,7 +1871,7 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a3a5c220394e639a91b7a0b5f6006a339">SCXTEditor::sendToSerialization()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a36d6dbbe184b626cd934b88dc3986f1b">HasEditor::setupWidgetForValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -2527,7 +2551,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 18 2024 13:49:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Sep 18 2024 18:00:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
