@@ -203,10 +203,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aae24f07a180012eec58f3d0f1197f324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480afa6b15ad7c8548bd904a7830564a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a480afa6b15ad7c8548bd904a7830564a">activeGroups</a> {0}</td></tr>
 <tr class="separator:a480afa6b15ad7c8548bd904a7830564a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a269d4a2f6734ce1fc40530518a6d9320"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1dsp_1_1Smoother.html">dsp::Smoother</a>, 128 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a269d4a2f6734ce1fc40530518a6d9320">midiCCSmoothers</a></td></tr>
-<tr class="separator:a269d4a2f6734ce1fc40530518a6d9320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679e19b0fefe5f7de7a89a6f51a9cfa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1dsp_1_1Smoother.html">dsp::Smoother</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a679e19b0fefe5f7de7a89a6f51a9cfa4">pitchBendSmoother</a></td></tr>
-<tr class="separator:a679e19b0fefe5f7de7a89a6f51a9cfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7224373a760c867fe4d15fb431e5b55c"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 128 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a7224373a760c867fe4d15fb431e5b55c">midiCCValues</a> {}</td></tr>
+<tr class="separator:a7224373a760c867fe4d15fb431e5b55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b143144b9c99c08e36bd164c8a358a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#af0b143144b9c99c08e36bd164c8a358a">pitchBendValue</a> {0.f}</td></tr>
+<tr class="separator:af0b143144b9c99c08e36bd164c8a358a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2849d97f9e68d6209109c3ef4f89fad3"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Macro.html">Macro</a>, macrosPerPart &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a2849d97f9e68d6209109c3ef4f89fad3">macros</a></td></tr>
 <tr class="separator:a2849d97f9e68d6209109c3ef4f89fad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structscxt_1_1SampleRateSupport"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structscxt_1_1SampleRateSupport')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structscxt_1_1SampleRateSupport.html">SampleRateSupport</a></td></tr>
@@ -293,7 +293,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a9be08912e7ba3234feb8615d9ab10371">Macro::defaultNameFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a2849d97f9e68d6209109c3ef4f89fad3">Part::macros</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a679e19b0fefe5f7de7a89a6f51a9cfa4">Part::pitchBendSmoother</a>, and <a class="el" href="structscxt_1_1dsp_1_1Smoother.html#ae6152f5c09e4b97453133fd5960298ee">Smoother::setTarget()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a9be08912e7ba3234feb8615d9ab10371">Macro::defaultNameFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a2849d97f9e68d6209109c3ef4f89fad3">Part::macros</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>.</p>
 
 </div>
 </div>
@@ -339,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::DEFAULT_BUS</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a269d4a2f6734ce1fc40530518a6d9320">Part::midiCCSmoothers</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8afebebca2c506ca98f20beddd238db623">scxt::engine::PART_0</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a679e19b0fefe5f7de7a89a6f51a9cfa4">Part::pitchBendSmoother</a>, and <a class="el" href="structscxt_1_1dsp_1_1Smoother.html#aef869b86ca98514f9bc5a56ed5953e01">Smoother::step()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::DEFAULT_BUS</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8afebebca2c506ca98f20beddd238db623">scxt::engine::PART_0</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>.</p>
 
 </div>
 </div>
@@ -543,7 +543,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structscxt_1_1SampleRateSupport.html#a3650775b58cd69830a71bec674222a40">SampleRateSupport</a>.</p>
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#a269d4a2f6734ce1fc40530518a6d9320">Part::midiCCSmoothers</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a679e19b0fefe5f7de7a89a6f51a9cfa4">Part::pitchBendSmoother</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a56c05744d5ef6b301c0f586d6e818101">SampleRateSupport::samplerate</a>, and <a class="el" href="structscxt_1_1SampleRateSupport.html#a01c502bd437d80506bb1232a14f12c27">SampleRateSupport::setSampleRate()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1SampleRateSupport.html#a56c05744d5ef6b301c0f586d6e818101">SampleRateSupport::samplerate</a>.</p>
 
 </div>
 </div>
@@ -800,35 +800,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a269d4a2f6734ce1fc40530518a6d9320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a269d4a2f6734ce1fc40530518a6d9320">&#9670;&nbsp;</a></span>midiCCSmoothers</h2>
+<a id="a7224373a760c867fe4d15fb431e5b55c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7224373a760c867fe4d15fb431e5b55c">&#9670;&nbsp;</a></span>midiCCValues</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1dsp_1_1Smoother.html">dsp::Smoother</a>, 128&gt; midiCCSmoothers</td>
+          <td class="memname">std::array&lt;float, 128&gt; midiCCValues {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a0ff935d0f3c3944592bf3f9e273c8a55">Part::onSampleRateChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af598e4a49c063ed0e67aad484e6670f9">Engine::VoiceManagerResponder::setMIDI1CC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af598e4a49c063ed0e67aad484e6670f9">Engine::VoiceManagerResponder::setMIDI1CC()</a>.</p>
 
 </div>
 </div>
-<a id="a679e19b0fefe5f7de7a89a6f51a9cfa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a679e19b0fefe5f7de7a89a6f51a9cfa4">&#9670;&nbsp;</a></span>pitchBendSmoother</h2>
+<a id="af0b143144b9c99c08e36bd164c8a358a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b143144b9c99c08e36bd164c8a358a">&#9670;&nbsp;</a></span>pitchBendValue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structscxt_1_1dsp_1_1Smoother.html">dsp::Smoother</a> pitchBendSmoother</td>
+          <td class="memname">float pitchBendValue {0.f}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a0ff935d0f3c3944592bf3f9e273c8a55">Part::onSampleRateChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a085d883ab42e611f275961252691f487">Engine::VoiceManagerResponder::setVoiceMIDIPitchBend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a085d883ab42e611f275961252691f487">Engine::VoiceManagerResponder::setVoiceMIDIPitchBend()</a>.</p>
 
 </div>
 </div>
@@ -855,7 +855,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 18 2024 04:03:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Sep 18 2024 13:49:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

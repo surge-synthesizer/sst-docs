@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['bandselect_3682',['BandSelect',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1BandSelect.html',1,'scxt::ui::app::edit_screen::EqDisplayBase']]],
-  ['baseclass_3683',['BaseClass',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1EqAdapter_1_1BaseClass.html',1,'scxt::ui::app::edit_screen::EqDisplayBase::EqAdapter']]],
-  ['booleanpayloaddataattachment_3684',['BooleanPayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],
-  ['browser_3685',['Browser',['../structscxt_1_1browser_1_1Browser.html',1,'scxt::browser']]],
-  ['browserdb_3686',['BrowserDB',['../structscxt_1_1browser_1_1BrowserDB.html',1,'scxt::browser']]],
-  ['browserpane_3687',['BrowserPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html',1,'scxt::ui::app::browser_ui']]],
-  ['bus_3688',['Bus',['../structscxt_1_1engine_1_1Bus.html',1,'scxt::engine']]],
-  ['buseffect_3689',['BusEffect',['../structscxt_1_1engine_1_1BusEffect.html',1,'scxt::engine']]],
-  ['buseffectstorage_3690',['BusEffectStorage',['../structscxt_1_1engine_1_1BusEffectStorage.html',1,'scxt::engine']]],
-  ['buspane_3691',['BusPane',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html',1,'scxt::ui::app::mixer_screen']]],
-  ['bussendstorage_3692',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html',1,'scxt::engine::Bus']]],
-  ['busses_3693',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html',1,'scxt::engine::Patch']]]
+  ['bandselect_3685',['BandSelect',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1BandSelect.html',1,'scxt::ui::app::edit_screen::EqDisplayBase']]],
+  ['baseclass_3686',['BaseClass',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1EqAdapter_1_1BaseClass.html',1,'scxt::ui::app::edit_screen::EqDisplayBase::EqAdapter']]],
+  ['booleanpayloaddataattachment_3687',['BooleanPayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],
+  ['browser_3688',['Browser',['../structscxt_1_1browser_1_1Browser.html',1,'scxt::browser']]],
+  ['browserdb_3689',['BrowserDB',['../structscxt_1_1browser_1_1BrowserDB.html',1,'scxt::browser']]],
+  ['browserpane_3690',['BrowserPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html',1,'scxt::ui::app::browser_ui']]],
+  ['bus_3691',['Bus',['../structscxt_1_1engine_1_1Bus.html',1,'scxt::engine']]],
+  ['buseffect_3692',['BusEffect',['../structscxt_1_1engine_1_1BusEffect.html',1,'scxt::engine']]],
+  ['buseffectstorage_3693',['BusEffectStorage',['../structscxt_1_1engine_1_1BusEffectStorage.html',1,'scxt::engine']]],
+  ['buspane_3694',['BusPane',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html',1,'scxt::ui::app::mixer_screen']]],
+  ['bussendstorage_3695',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html',1,'scxt::engine::Bus']]],
+  ['busses_3696',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html',1,'scxt::engine::Patch']]]
 ];

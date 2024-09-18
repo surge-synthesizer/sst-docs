@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trace_5fdb_7395',['TRACE_DB',['../browser__db_8cpp.html#adea089337ccb65021e653bfbdfae9bcc',1,'browser_db.cpp']]]
+  ['trace_5fdb_7393',['TRACE_DB',['../browser__db_8cpp.html#adea089337ccb65021e653bfbdfae9bcc',1,'browser_db.cpp']]]
 ];
