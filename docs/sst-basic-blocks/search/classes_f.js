@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['uicomponentlaghandler_748',['UIComponentLagHandler',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandler.html',1,'sst::basic_blocks::dsp']]],
-  ['unisonsetup_749',['UnisonSetup',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html',1,'sst::basic_blocks::dsp']]]
+  ['tensecondrange_771',['TenSecondRange',['../structsst_1_1basic__blocks_1_1modulators_1_1TenSecondRange.html',1,'sst::basic_blocks::modulators']]],
+  ['thirtytwosecondrange_772',['ThirtyTwoSecondRange',['../structsst_1_1basic__blocks_1_1modulators_1_1ThirtyTwoSecondRange.html',1,'sst::basic_blocks::modulators']]],
+  ['twentyfivesecondexp_773',['TwentyFiveSecondExp',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html',1,'sst::basic_blocks::modulators']]],
+  ['twominuterange_774',['TwoMinuteRange',['../structsst_1_1basic__blocks_1_1modulators_1_1TwoMinuteRange.html',1,'sst::basic_blocks::modulators']]],
+  ['twotothexprovider_775',['TwoToTheXProvider',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html',1,'sst::basic_blocks::tables']]]
 ];

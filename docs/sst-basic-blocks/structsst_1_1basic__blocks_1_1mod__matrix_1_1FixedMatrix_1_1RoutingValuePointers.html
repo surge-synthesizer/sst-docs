@@ -101,6 +101,11 @@ Public Types</h2></td></tr>
 , <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164">MULTIPLICATIVE</a>
  }</td></tr>
 <tr class="separator:add86e7c88dd109abea3f708b422f31f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42292dd6d9a35e5f2fe8eef07664b1d4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4">LagStyle</a> { <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a> = 0
+, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a1727ed9a073b4a7d8db1f20310afad47">EXPLAG</a> = 1
+, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a8e7fdefc512ff27e6226b5e4e77709f4">LINLAG</a> = 2
+ }</td></tr>
+<tr class="separator:a42292dd6d9a35e5f2fe8eef07664b1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -120,6 +125,18 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a427ccf17ba1afd2774781e8d0f9721ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaaf951fbbfdbe5e8ebe23cd46cd89b9"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#add86e7c88dd109abea3f708b422f31f0">sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers::ApplicationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#afaaf951fbbfdbe5e8ebe23cd46cd89b9">ADDITIVE</a></td></tr>
 <tr class="separator:afaaf951fbbfdbe5e8ebe23cd46cd89b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a211ed8e1fb430dd236f4bf0893e346b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html">dsp::OnePoleLag</a>&lt; float, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a211ed8e1fb430dd236f4bf0893e346b3">sourceLagExp</a></td></tr>
+<tr class="separator:a211ed8e1fb430dd236f4bf0893e346b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9a17bcf184c812374f298130fab7318"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html">dsp::OnePoleLag</a>&lt; float, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#af9a17bcf184c812374f298130fab7318">sourceViaLagExp</a></td></tr>
+<tr class="separator:af9a17bcf184c812374f298130fab7318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa94f4401e42caf516b32dfd099d6b3e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html">dsp::LinearLag</a>&lt; float, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#aa94f4401e42caf516b32dfd099d6b3e1">sourceLagLin</a></td></tr>
+<tr class="separator:aa94f4401e42caf516b32dfd099d6b3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b92f3bb416a826e5aec93f5e4ef4a71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html">dsp::LinearLag</a>&lt; float, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a1b92f3bb416a826e5aec93f5e4ef4a71">sourceViaLagLin</a></td></tr>
+<tr class="separator:a1b92f3bb416a826e5aec93f5e4ef4a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497e720224ed281be96f7eeb72b48c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4">LagStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a497e720224ed281be96f7eeb72b48c77">sourceLagStyle</a> {<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>}</td></tr>
+<tr class="separator:a497e720224ed281be96f7eeb72b48c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f24d03c66d328c5163d3e073934edb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4">LagStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a9f24d03c66d328c5163d3e073934edb2">sourceViaLagStyle</a> {<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>}</td></tr>
+<tr class="separator:a9f24d03c66d328c5163d3e073934edb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="add86e7c88dd109abea3f708b422f31f0"></a>
@@ -136,6 +153,25 @@ Public Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="add86e7c88dd109abea3f708b422f31f0ac0c02294c1fb924d8ee2ae11f9426c0e"></a>ADDITIVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164"></a>MULTIPLICATIVE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a42292dd6d9a35e5f2fe8eef07664b1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42292dd6d9a35e5f2fe8eef07664b1d4">&#9670;&nbsp;</a></span>LagStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4">LagStyle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a42292dd6d9a35e5f2fe8eef07664b1d4a1727ed9a073b4a7d8db1f20310afad47"></a>EXPLAG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a42292dd6d9a35e5f2fe8eef07664b1d4a8e7fdefc512ff27e6226b5e4e77709f4"></a>LINLAG&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -251,7 +287,91 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>.</p>
+
+</div>
+</div>
+<a id="a211ed8e1fb430dd236f4bf0893e346b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211ed8e1fb430dd236f4bf0893e346b3">&#9670;&nbsp;</a></span>sourceLagExp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html">dsp::OnePoleLag</a>&lt;float, false&gt; sourceLagExp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9a17bcf184c812374f298130fab7318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a17bcf184c812374f298130fab7318">&#9670;&nbsp;</a></span>sourceViaLagExp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html">dsp::OnePoleLag</a>&lt;float, false&gt; sourceViaLagExp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa94f4401e42caf516b32dfd099d6b3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa94f4401e42caf516b32dfd099d6b3e1">&#9670;&nbsp;</a></span>sourceLagLin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html">dsp::LinearLag</a>&lt;float, false&gt; sourceLagLin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b92f3bb416a826e5aec93f5e4ef4a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b92f3bb416a826e5aec93f5e4ef4a71">&#9670;&nbsp;</a></span>sourceViaLagLin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html">dsp::LinearLag</a>&lt;float, false&gt; sourceViaLagLin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a497e720224ed281be96f7eeb72b48c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497e720224ed281be96f7eeb72b48c77">&#9670;&nbsp;</a></span>sourceLagStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4">LagStyle</a> sourceLagStyle {<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f24d03c66d328c5163d3e073934edb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f24d03c66d328c5163d3e073934edb2">&#9670;&nbsp;</a></span>sourceViaLagStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4">LagStyle</a> sourceViaLagStyle {<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -261,7 +381,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 20 2024 01:15:16 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Sep 20 2024 15:35:44 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

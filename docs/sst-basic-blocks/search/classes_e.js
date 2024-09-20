@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['tensecondrange_743',['TenSecondRange',['../structsst_1_1basic__blocks_1_1modulators_1_1TenSecondRange.html',1,'sst::basic_blocks::modulators']]],
-  ['thirtytwosecondrange_744',['ThirtyTwoSecondRange',['../structsst_1_1basic__blocks_1_1modulators_1_1ThirtyTwoSecondRange.html',1,'sst::basic_blocks::modulators']]],
-  ['twentyfivesecondexp_745',['TwentyFiveSecondExp',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html',1,'sst::basic_blocks::modulators']]],
-  ['twominuterange_746',['TwoMinuteRange',['../structsst_1_1basic__blocks_1_1modulators_1_1TwoMinuteRange.html',1,'sst::basic_blocks::modulators']]],
-  ['twotothexprovider_747',['TwoToTheXProvider',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html',1,'sst::basic_blocks::tables']]]
+  ['shortcircuitsinctableprovider_764',['ShortcircuitSincTableProvider',['../structsst_1_1basic__blocks_1_1tables_1_1ShortcircuitSincTableProvider.html',1,'sst::basic_blocks::tables']]],
+  ['simplelfo_765',['SimpleLFO',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html',1,'sst::basic_blocks::modulators']]],
+  ['slewlimiter_766',['SlewLimiter',['../structsst_1_1basic__blocks_1_1dsp_1_1SlewLimiter.html',1,'sst::basic_blocks::dsp']]],
+  ['ssesincdelayline_767',['SSESincDelayLine',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html',1,'sst::basic_blocks::dsp']]],
+  ['surgelag_768',['SurgeLag',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html',1,'sst::basic_blocks::dsp']]],
+  ['surgequadrosc_769',['SurgeQuadrOsc',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html',1,'sst::basic_blocks::dsp']]],
+  ['surgesinctableprovider_770',['SurgeSincTableProvider',['../structsst_1_1basic__blocks_1_1tables_1_1SurgeSincTableProvider.html',1,'sst::basic_blocks::tables']]]
 ];

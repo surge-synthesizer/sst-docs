@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['shortcircuitsinctableprovider_736',['ShortcircuitSincTableProvider',['../structsst_1_1basic__blocks_1_1tables_1_1ShortcircuitSincTableProvider.html',1,'sst::basic_blocks::tables']]],
-  ['simplelfo_737',['SimpleLFO',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html',1,'sst::basic_blocks::modulators']]],
-  ['slewlimiter_738',['SlewLimiter',['../structsst_1_1basic__blocks_1_1dsp_1_1SlewLimiter.html',1,'sst::basic_blocks::dsp']]],
-  ['ssesincdelayline_739',['SSESincDelayLine',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html',1,'sst::basic_blocks::dsp']]],
-  ['surgelag_740',['SurgeLag',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html',1,'sst::basic_blocks::dsp']]],
-  ['surgequadrosc_741',['SurgeQuadrOsc',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html',1,'sst::basic_blocks::dsp']]],
-  ['surgesinctableprovider_742',['SurgeSincTableProvider',['../structsst_1_1basic__blocks_1_1tables_1_1SurgeSincTableProvider.html',1,'sst::basic_blocks::tables']]]
+  ['rng_759',['RNG',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html',1,'sst::basic_blocks::dsp']]],
+  ['routing_760',['Routing',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable_1_1Routing.html',1,'sst::basic_blocks::mod_matrix::RoutingTable']]],
+  ['routingtable_761',['RoutingTable',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable.html',1,'sst::basic_blocks::mod_matrix']]],
+  ['routingvaluepointers_762',['RoutingValuePointers',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
+  ['runningaverage_763',['RunningAverage',['../structsst_1_1basic__blocks_1_1dsp_1_1RunningAverage.html',1,'sst::basic_blocks::dsp']]]
 ];

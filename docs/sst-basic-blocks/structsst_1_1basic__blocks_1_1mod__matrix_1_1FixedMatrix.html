@@ -132,8 +132,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a700b6117f6bc445d469a812fe38a194a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">updateRoutingState</a> (const <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a949693c347eea9b7e8b0cf0026332f3a">RoutingTable</a> &amp;rt)</td></tr>
 <tr class="separator:a700b6117f6bc445d469a812fe38a194a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17165ddf6f3d9464032b27838897aac1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">prepare</a> (<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a628f67f3edaeace971fa9695afba99a4">RT</a> &amp;rt)</td></tr>
-<tr class="separator:a17165ddf6f3d9464032b27838897aac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a187f6ca8ecafcc58ce93bac773aa56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">prepare</a> (<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a628f67f3edaeace971fa9695afba99a4">RT</a> &amp;rt, double sampleRate, int blockSize)</td></tr>
+<tr class="separator:a0a187f6ca8ecafcc58ce93bac773aa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9c5136d19b1a95fc427e0852deab5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">process</a> ()</td></tr>
 <tr class="separator:a2e9c5136d19b1a95fc427e0852deab5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1989dbea12de982a723a9c14d4883534"><td class="memItemLeft" align="right" valign="top">const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">getTargetValuePointer</a> (const typename TR::TargetIdentifier &amp;s) const</td></tr>
@@ -149,6 +149,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a267d73634d8f8b37a16aa32a2e55c82a inherit pub_methods_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d73db48c336db8f806f61288d328724 inherit pub_methods_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724">isTargetModMatrixDepth</a> (typename TR::TargetIdentifier &amp;t)</td></tr>
 <tr class="separator:a8d73db48c336db8f806f61288d328724 inherit pub_methods_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22951bbee60a30dc21364db6db511e79 inherit pub_methods_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a22951bbee60a30dc21364db6db511e79">supportsLag</a> (typename TR::SourceIdentifier &amp;s)</td></tr>
+<tr class="separator:a22951bbee60a30dc21364db6db511e79 inherit pub_methods_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -175,6 +177,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html">ModMatrix&lt; ModMatrixTraits &gt;</a></td></tr>
 <tr class="memitem:ad54d1de5ed6ba1786db9f820d05a2f73 inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#ad54d1de5ed6ba1786db9f820d05a2f73">canSelfModulate</a> {details::has_isTargetModMatrixDepth&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
 <tr class="separator:ad54d1de5ed6ba1786db9f820d05a2f73 inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7e15701c0e66d38a436c8083db1f99 inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#aad7e15701c0e66d38a436c8083db1f99">canSupportsLag</a> {details::has_supportsLag&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
+<tr class="separator:aad7e15701c0e66d38a436c8083db1f99 inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfe04156f656b3e2fb63517279c2aecf inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#acfe04156f656b3e2fb63517279c2aecf">supportsCurves</a> {details::has_getCurveOperator&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
 <tr class="separator:acfe04156f656b3e2fb63517279c2aecf inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878824344a67c1b6f88b227ca3045fd1 inherit pub_static_attribs_structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a878824344a67c1b6f88b227ca3045fd1">supportsMultiplicative</a> {details::has_getIsMultiplicative&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
@@ -256,12 +260,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a6932a2d2b617c165979d8600fb8ec6ac">FixedMatrix&lt; ModMatrixTraits &gt;::isOutputMapped</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a3bf3f1721defa208b2fb806cb0f27ce9">FixedMatrix&lt; ModMatrixTraits &gt;::isSourceUsed</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#ae8a788bc82d6653ae34d209c52d6ae7d">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::routes</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2d64e543bf486faf03386cef09967d33">FixedMatrix&lt; ModMatrixTraits &gt;::targetToOutputIndex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>.</p>
 
 </div>
 </div>
-<a id="a17165ddf6f3d9464032b27838897aac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17165ddf6f3d9464032b27838897aac1">&#9670;&nbsp;</a></span>prepare()</h2>
+<a id="a0a187f6ca8ecafcc58ce93bac773aa56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a187f6ca8ecafcc58ce93bac773aa56">&#9670;&nbsp;</a></span>prepare()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,13 +274,29 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void prepare </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a628f67f3edaeace971fa9695afba99a4">RT</a> &amp;&#160;</td>
-          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td class="paramname"><em>rt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>blockSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#afaaf951fbbfdbe5e8ebe23cd46cd89b9">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::ADDITIVE</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a399416091d6258552816818c49dc7137">FixedMatrix&lt; ModMatrixTraits &gt;::matrixOutputs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::MULTIPLICATIVE</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#ae8a788bc82d6653ae34d209c52d6ae7d">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::routes</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a7d8ee0528f55e47af92562579da9bfd8">FixedMatrix&lt; ModMatrixTraits &gt;::routingValuePointers</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a2c3bf1ad567fa1a35fb3b5b8ce4970ed">ModMatrix&lt; ModMatrixTraits &gt;::sourceValues</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2d64e543bf486faf03386cef09967d33">FixedMatrix&lt; ModMatrixTraits &gt;::targetToOutputIndex</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">FixedMatrix&lt; ModMatrixTraits &gt;::updateRoutingState()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#afaaf951fbbfdbe5e8ebe23cd46cd89b9">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::ADDITIVE</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a1727ed9a073b4a7d8db1f20310afad47">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::EXPLAG</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a8e7fdefc512ff27e6226b5e4e77709f4">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::LINLAG</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a399416091d6258552816818c49dc7137">FixedMatrix&lt; ModMatrixTraits &gt;::matrixOutputs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::MULTIPLICATIVE</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4ac157bdf0b85a40d2619cbc8bc1ae5fe2">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::NONE</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#ae8a788bc82d6653ae34d209c52d6ae7d">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::routes</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a7d8ee0528f55e47af92562579da9bfd8">FixedMatrix&lt; ModMatrixTraits &gt;::routingValuePointers</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a2c3bf1ad567fa1a35fb3b5b8ce4970ed">ModMatrix&lt; ModMatrixTraits &gt;::sourceValues</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2d64e543bf486faf03386cef09967d33">FixedMatrix&lt; ModMatrixTraits &gt;::targetToOutputIndex</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">FixedMatrix&lt; ModMatrixTraits &gt;::updateRoutingState()</a>.</p>
 
 </div>
 </div>
@@ -295,7 +315,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a399416091d6258552816818c49dc7137">FixedMatrix&lt; ModMatrixTraits &gt;::matrixOutputs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a7d8ee0528f55e47af92562579da9bfd8">FixedMatrix&lt; ModMatrixTraits &gt;::routingValuePointers</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2d64e543bf486faf03386cef09967d33">FixedMatrix&lt; ModMatrixTraits &gt;::targetToOutputIndex</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a1727ed9a073b4a7d8db1f20310afad47">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::EXPLAG</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a8e7fdefc512ff27e6226b5e4e77709f4">FixedMatrix&lt; ModMatrixTraits &gt;::RoutingValuePointers::LINLAG</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a399416091d6258552816818c49dc7137">FixedMatrix&lt; ModMatrixTraits &gt;::matrixOutputs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a7d8ee0528f55e47af92562579da9bfd8">FixedMatrix&lt; ModMatrixTraits &gt;::routingValuePointers</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2d64e543bf486faf03386cef09967d33">FixedMatrix&lt; ModMatrixTraits &gt;::targetToOutputIndex</a>.</p>
 
 </div>
 </div>
@@ -354,7 +374,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
 
 </div>
 </div>
@@ -370,7 +390,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
 
 </div>
 </div>
@@ -402,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">FixedMatrix&lt; ModMatrixTraits &gt;::updateRoutingState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">FixedMatrix&lt; ModMatrixTraits &gt;::updateRoutingState()</a>.</p>
 
 </div>
 </div>
@@ -428,7 +448,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 20 2024 01:15:16 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Sep 20 2024 15:35:44 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

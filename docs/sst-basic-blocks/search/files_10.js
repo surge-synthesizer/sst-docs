@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vupeak_2eh_798',['VUPeak.h',['../VUPeak_8h.html',1,'']]]
+  ['vupeak_2eh_826',['VUPeak.h',['../VUPeak_8h.html',1,'']]]
 ];

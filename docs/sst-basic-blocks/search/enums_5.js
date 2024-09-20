@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['shape_1366',['Shape',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37c',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['stage_1367',['Stage',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604eb',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
+  ['quantization_1412',['Quantization',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];

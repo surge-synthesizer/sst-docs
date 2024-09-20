@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['c_86',['C',['../FastMath_8h.html#ac54ae397901fe700628cafadea3c5208',1,'C():&#160;FastMath.h'],['../FastMath_8h.html#ac54ae397901fe700628cafadea3c5208',1,'C():&#160;FastMath.h'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#ac6f5ace5be51101e94c2d282d7c5cc89',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::C()']]],
-  ['canabsolute_87',['canAbsolute',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a791bd3976fc999f50c1a246009820afc',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['candeactivate_88',['canDeactivate',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa3800fb6fa245f95f6883652a9fcb34f',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['candeform_89',['canDeform',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a3abe993a22eee37a980ae9ce76ae20eb',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['canextend_90',['canExtend',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a302d5a35693ef0e174f98420fe69ff4c',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['canselfmodulate_91',['canSelfModulate',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#ad54d1de5ed6ba1786db9f820d05a2f73',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
+  ['c_85',['C',['../FastMath_8h.html#ac54ae397901fe700628cafadea3c5208',1,'C():&#160;FastMath.h'],['../FastMath_8h.html#ac54ae397901fe700628cafadea3c5208',1,'C():&#160;FastMath.h'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#ac6f5ace5be51101e94c2d282d7c5cc89',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::C()']]],
+  ['canabsolute_86',['canAbsolute',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a791bd3976fc999f50c1a246009820afc',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['candeactivate_87',['canDeactivate',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa3800fb6fa245f95f6883652a9fcb34f',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['candeform_88',['canDeform',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a3abe993a22eee37a980ae9ce76ae20eb',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['canextend_89',['canExtend',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a302d5a35693ef0e174f98420fe69ff4c',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['canselfmodulate_90',['canSelfModulate',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#ad54d1de5ed6ba1786db9f820d05a2f73',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
+  ['cansupportslag_91',['canSupportsLag',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#aad7e15701c0e66d38a436c8083db1f99',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['cantemposync_92',['canTemposync',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a52084cfd21a8d23100b6d3ac915d5ab2',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['changedown_93',['changeDown',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1ModulationDisplay.html#a3aeb2400eeddf6c3c1023b58bf516584',1,'sst::basic_blocks::params::ParamMetaData::ModulationDisplay']]],
   ['changeup_94',['changeUp',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1ModulationDisplay.html#a38d66fec60c8879806e6484bfa9c9b92',1,'sst::basic_blocks::params::ParamMetaData::ModulationDisplay']]],

@@ -27,8 +27,9 @@ var searchData=
   ['etscale_198',['etScale',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ad5f311af75f756821c66279c2c6e634d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
   ['exa_199',['exA',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac8b1747df6e21f5fa78eba5cde202309',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['exb_200',['exB',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a652148b13645df951c255c1d6a59b35c',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['explut_201',['expLut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aabdd1840d4a8ae0d2621946fca989c8c',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['explutsize_202',['expLutSize',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#ad572d3f0c713202e85e5e39d835c0b3f',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['extendable_203',['extendable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1f147fa80fe946c1cb356f91fc9c91c8',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['extrapayload_204',['extraPayload',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable_1_1Routing.html#a6ede8498885866867889e49d6190e831',1,'sst::basic_blocks::mod_matrix::RoutingTable::Routing']]]
+  ['explag_201',['EXPLAG',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a1727ed9a073b4a7d8db1f20310afad47',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers']]],
+  ['explut_202',['expLut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aabdd1840d4a8ae0d2621946fca989c8c',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['explutsize_203',['expLutSize',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#ad572d3f0c713202e85e5e39d835c0b3f',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['extendable_204',['extendable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1f147fa80fe946c1cb356f91fc9c91c8',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['extrapayload_205',['extraPayload',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable_1_1Routing.html#a6ede8498885866867889e49d6190e831',1,'sst::basic_blocks::mod_matrix::RoutingTable::Routing']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['polarity_1364',['Polarity',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a84a045fa4024e050ca8be6d33311a054',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['mod_5fwaves_1410',['mod_waves',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170d',1,'sst::basic_blocks::modulators::FXModControl']]]
 ];

@@ -128,6 +128,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a475d49726ed60209066069662a1cb284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec8edafc2e92cdefa625d6246f9aecf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#aeec8edafc2e92cdefa625d6246f9aecf">updateRoutingAt</a> (size_t position, const typename TR::SourceIdentifier &amp;source, const typename TR::SourceIdentifier &amp;sourceVia, const typename TR::CurveIdentifier &amp;curve, const typename TR::TargetIdentifier &amp;target, float depth)</td></tr>
 <tr class="separator:aeec8edafc2e92cdefa625d6246f9aecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab8b21a3b89dff4e561877a49843f7c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#aab8b21a3b89dff4e561877a49843f7c1">setSourceLagAt</a> (size_t position, int16_t lagInMS, bool isExp=true)</td></tr>
+<tr class="memdesc:aab8b21a3b89dff4e561877a49843f7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lag for the source.  <a href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#aab8b21a3b89dff4e561877a49843f7c1">More...</a><br /></td></tr>
+<tr class="separator:aab8b21a3b89dff4e561877a49843f7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73afebeabac8e75a923698ee68abf7d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a73afebeabac8e75a923698ee68abf7d9">setSourceViaLagAt</a> (size_t position, int16_t lagInMS, bool isExp=true)</td></tr>
+<tr class="memdesc:a73afebeabac8e75a923698ee68abf7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lag for the sourceVia.  <a href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a73afebeabac8e75a923698ee68abf7d9">More...</a><br /></td></tr>
+<tr class="separator:a73afebeabac8e75a923698ee68abf7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -320,6 +326,96 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aab8b21a3b89dff4e561877a49843f7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab8b21a3b89dff4e561877a49843f7c1">&#9670;&nbsp;</a></span>setSourceLagAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setSourceLagAt </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>lagInMS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isExp</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the lag for the source. </p>
+<p>This gets snapped as static when you call prepare.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The route index to update </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#ae8a788bc82d6653ae34d209c52d6ae7d">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::routes</a>.</p>
+
+</div>
+</div>
+<a id="a73afebeabac8e75a923698ee68abf7d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73afebeabac8e75a923698ee68abf7d9">&#9670;&nbsp;</a></span>setSourceViaLagAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setSourceViaLagAt </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>lagInMS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isExp</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the lag for the sourceVia. </p>
+<p>This gets snapped as static when you call prepare.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The route index to update </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#ae8a788bc82d6653ae34d209c52d6ae7d">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::routes</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="ae8a788bc82d6653ae34d209c52d6ae7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8a788bc82d6653ae34d209c52d6ae7d">&#9670;&nbsp;</a></span>routes</h2>
@@ -333,7 +429,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#abcd9cddf18881cfb5205ca08d18032d3">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::updateActiveAt()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a70c359ad5d58eb5b94fd252eb20816e9">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::updateDepthAt()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a475d49726ed60209066069662a1cb284">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::updateRoutingAt()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">FixedMatrix&lt; ModMatrixTraits &gt;::updateRoutingState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#aab8b21a3b89dff4e561877a49843f7c1">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::setSourceLagAt()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a73afebeabac8e75a923698ee68abf7d9">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::setSourceViaLagAt()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#abcd9cddf18881cfb5205ca08d18032d3">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::updateActiveAt()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a70c359ad5d58eb5b94fd252eb20816e9">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::updateDepthAt()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a475d49726ed60209066069662a1cb284">FixedLengthRoutingTable&lt; ModMatrixTraits &gt;::updateRoutingAt()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a700b6117f6bc445d469a812fe38a194a">FixedMatrix&lt; ModMatrixTraits &gt;::updateRoutingState()</a>.</p>
 
 </div>
 </div>
@@ -343,7 +439,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 20 2024 01:15:16 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Sep 20 2024 15:35:44 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

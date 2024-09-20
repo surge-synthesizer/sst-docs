@@ -124,6 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a267d73634d8f8b37a16aa32a2e55c82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d73db48c336db8f806f61288d328724"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724">isTargetModMatrixDepth</a> (typename TR::TargetIdentifier &amp;t)</td></tr>
 <tr class="separator:a8d73db48c336db8f806f61288d328724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22951bbee60a30dc21364db6db511e79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a22951bbee60a30dc21364db6db511e79">supportsLag</a> (typename TR::SourceIdentifier &amp;s)</td></tr>
+<tr class="separator:a22951bbee60a30dc21364db6db511e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -138,6 +140,8 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ad54d1de5ed6ba1786db9f820d05a2f73"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#ad54d1de5ed6ba1786db9f820d05a2f73">canSelfModulate</a> {details::has_isTargetModMatrixDepth&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
 <tr class="separator:ad54d1de5ed6ba1786db9f820d05a2f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7e15701c0e66d38a436c8083db1f99"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#aad7e15701c0e66d38a436c8083db1f99">canSupportsLag</a> {details::has_supportsLag&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
+<tr class="separator:aad7e15701c0e66d38a436c8083db1f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfe04156f656b3e2fb63517279c2aecf"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#acfe04156f656b3e2fb63517279c2aecf">supportsCurves</a> {details::has_getCurveOperator&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
 <tr class="separator:acfe04156f656b3e2fb63517279c2aecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878824344a67c1b6f88b227ca3045fd1"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a878824344a67c1b6f88b227ca3045fd1">supportsMultiplicative</a> {details::has_getIsMultiplicative&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td></tr>
@@ -271,6 +275,26 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a22951bbee60a30dc21364db6db511e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22951bbee60a30dc21364db6db511e79">&#9670;&nbsp;</a></span>supportsLag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool supportsLag </td>
+          <td>(</td>
+          <td class="paramtype">typename TR::SourceIdentifier &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#aad7e15701c0e66d38a436c8083db1f99">ModMatrix&lt; ModMatrixTraits &gt;::canSupportsLag</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a270a4d898f548b1ad42b6c0538752d67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a270a4d898f548b1ad42b6c0538752d67">&#9670;&nbsp;</a></span>baseValues</h2>
@@ -284,7 +308,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a7172b4d7d30837310de6bf6c42bf6655">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a7172b4d7d30837310de6bf6c42bf6655">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a1989dbea12de982a723a9c14d4883534">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
 
 </div>
 </div>
@@ -300,7 +324,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a986aaba501969d6e0d8634ff0dc4a850">ModMatrix&lt; ModMatrixTraits &gt;::bindSourceValue()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a17165ddf6f3d9464032b27838897aac1">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a986aaba501969d6e0d8634ff0dc4a850">ModMatrix&lt; ModMatrixTraits &gt;::bindSourceValue()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>.</p>
 
 </div>
 </div>
@@ -341,6 +365,30 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724">ModMatrix&lt; ModMatrixTraits &gt;::isTargetModMatrixDepth()</a>.</p>
+
+</div>
+</div>
+<a id="aad7e15701c0e66d38a436c8083db1f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7e15701c0e66d38a436c8083db1f99">&#9670;&nbsp;</a></span>canSupportsLag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool canSupportsLag {details::has_supportsLag&lt;<a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5">TR</a>&gt;::value}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a22951bbee60a30dc21364db6db511e79">ModMatrix&lt; ModMatrixTraits &gt;::supportsLag()</a>.</p>
 
 </div>
 </div>
@@ -394,7 +442,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 20 2024 01:15:16 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Sep 20 2024 15:35:44 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
