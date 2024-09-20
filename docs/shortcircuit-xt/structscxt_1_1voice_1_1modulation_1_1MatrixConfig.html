@@ -119,6 +119,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a35d554151cd3468026d5a154e9d399f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a647ec765ba255356bbb00c9ad6b492ae"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a647ec765ba255356bbb00c9ad6b492ae">getIsMultiplicative</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">TargetIdentifier</a> &amp;ti)</td></tr>
 <tr class="separator:a647ec765ba255356bbb00c9ad6b492ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a35c4a132739e56b805db5ada286cbd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a9a35c4a132739e56b805db5ada286cbd">supportsLag</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3">SourceIdentifier</a> &amp;s)</td></tr>
+<tr class="separator:a9a35c4a132739e56b805db5ada286cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae60c66466bcab1676d22fca4107e0b0b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#ae60c66466bcab1676d22fca4107e0b0b">isTargetModMatrixDepth</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">TargetIdentifier</a> &amp;t)</td></tr>
 <tr class="separator:ae60c66466bcab1676d22fca4107e0b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43070c9b0cf369830633bbc0f1a46bd0"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a43070c9b0cf369830633bbc0f1a46bd0">getTargetModMatrixElement</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">TargetIdentifier</a> &amp;t)</td></tr>
@@ -305,6 +307,34 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9a35c4a132739e56b805db5ada286cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a35c4a132739e56b805db5ada286cbd">&#9670;&nbsp;</a></span>supportsLag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool supportsLag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3">SourceIdentifier</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a625d50372c14206767b37135450b522d">SCLOG_ONCE</a>.</p>
+
+</div>
+</div>
 <a id="ae60c66466bcab1676d22fca4107e0b0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae60c66466bcab1676d22fca4107e0b0b">&#9670;&nbsp;</a></span>isTargetModMatrixDepth()</h2>
 
@@ -331,7 +361,7 @@ Static Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1TargetIdentifier.html#aa178363d826483dc1060b99c46c1502e">TargetIdentifier::gid</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, and <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a43070c9b0cf369830633bbc0f1a46bd0">MatrixConfig::getTargetModMatrixElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a43070c9b0cf369830633bbc0f1a46bd0">MatrixConfig::getTargetModMatrixElement()</a>.</p>
 
 </div>
 </div>
@@ -360,8 +390,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1TargetIdentifier.html#aafd95f8c7a99b9189ede7cdf0871ebe8">TargetIdentifier::index</a>, and <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#ae60c66466bcab1676d22fca4107e0b0b">MatrixConfig::isTargetModMatrixDepth()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>.</p>
 
 </div>
 </div>
@@ -443,7 +471,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 20 2024 00:31:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Sep 20 2024 15:48:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
