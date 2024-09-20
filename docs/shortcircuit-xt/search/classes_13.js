@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['uistore_3970',['UIStore',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
-  ['uistore_3c_20scxt_3a_3aui_3a_3aconnectors_3a_3apayloaddataattachment_20_3e_3971',['UIStore&lt; scxt::ui::connectors::PayloadDataAttachment &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
-  ['uistore_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3aknob_20_3e_3972',['UIStore&lt; sst::jucegui::components::Knob &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
-  ['uistore_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3alabel_20_3e_3973',['UIStore&lt; sst::jucegui::components::Label &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
-  ['uistore_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3avslider_20_3e_3974',['UIStore&lt; sst::jucegui::components::VSlider &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
-  ['unstreamguard_3975',['UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html',1,'scxt::engine::Engine']]]
+  ['uistore_3966',['UIStore',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
+  ['uistore_3c_20scxt_3a_3aui_3a_3aconnectors_3a_3apayloaddataattachment_20_3e_3967',['UIStore&lt; scxt::ui::connectors::PayloadDataAttachment &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
+  ['uistore_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3aknob_20_3e_3968',['UIStore&lt; sst::jucegui::components::Knob &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
+  ['uistore_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3alabel_20_3e_3969',['UIStore&lt; sst::jucegui::components::Label &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
+  ['uistore_3c_20sst_3a_3ajucegui_3a_3acomponents_3a_3avslider_20_3e_3970',['UIStore&lt; sst::jucegui::components::VSlider &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html',1,'scxt::ui::app::edit_screen::AdsrPane']]],
+  ['unstreamguard_3971',['UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html',1,'scxt::engine::Engine']]]
 ];
