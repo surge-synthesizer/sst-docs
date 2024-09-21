@@ -128,6 +128,9 @@ Public Types</h2></td></tr>
 , <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47a68f238a8346cca6b5e9e08c63b0b248d">CUSTOM_STEP_COUNT</a>
  }</td></tr>
 <tr class="separator:a79bb097a884417fa68a01a38c4857d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7489d426e232a62a4039ca21e585f487"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487">Features</a> : uint64_t { <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26">SUPPORTS_MULTIPLICATIVE_MODULATION</a> = 1 &lt;&lt; 0
+ }</td></tr>
+<tr class="separator:a7489d426e232a62a4039ca21e585f487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56667947ffdbdeea280ff228b5e14bd2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2">DisplayScale</a> { <br />
 &#160;&#160;<a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2adc101ebf31c49c2d4b80b7c6f59f22cb">LINEAR</a>
 , <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2aacf8bf2155350b1368b6b53a840131e7">A_TWO_TO_THE_B</a>
@@ -167,6 +170,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a699adb25b9d4b9902291428e7dc41706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f6fd1fcb6c9c4e8f5f2e5fb8d59395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a58f6fd1fcb6c9c4e8f5f2e5fb8d59395">withQuantizedStepCount</a> (int steps) const</td></tr>
 <tr class="separator:a58f6fd1fcb6c9c4e8f5f2e5fb8d59395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e9847cf88f7c47ff993f56af1526d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24e9847cf88f7c47ff993f56af1526d3">withFeature</a> (<a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487">Features</a> f) const</td></tr>
+<tr class="separator:a24e9847cf88f7c47ff993f56af1526d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31075ddcfd0a7b8ce682f2f354777cc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a31075ddcfd0a7b8ce682f2f354777cc5">hasFeature</a> (<a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487">Features</a> f) const</td></tr>
+<tr class="separator:a31075ddcfd0a7b8ce682f2f354777cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0adfb0a2cd01ff44b943473983b1e69a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a0adfb0a2cd01ff44b943473983b1e69a">withSupportsMultiplicativeModulation</a> () const</td></tr>
+<tr class="separator:a0adfb0a2cd01ff44b943473983b1e69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395fc9cc94050942c72130ba69a5e1be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a395fc9cc94050942c72130ba69a5e1be">hasSupportsMultiplicativeModulation</a> () const</td></tr>
+<tr class="separator:a395fc9cc94050942c72130ba69a5e1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d4ee398f822f08c0176cf4b182e1dc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ae1d4ee398f822f08c0176cf4b182e1dc">valueToString</a> (float val, const <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html">FeatureState</a> &amp;fs={}) const</td></tr>
 <tr class="separator:ae1d4ee398f822f08c0176cf4b182e1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98252ceb2bf0cf32c1d076352b43ca7d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a98252ceb2bf0cf32c1d076352b43ca7d">valueToAlternateString</a> (float val) const</td></tr>
@@ -337,6 +348,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a33e372a6ffedb317c01faaf6749d3bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f92efa4c0f766e9b79f9e9e68cd1936"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a5f92efa4c0f766e9b79f9e9e68cd1936">quantizationParam</a> {0.f}</td></tr>
 <tr class="separator:a5f92efa4c0f766e9b79f9e9e68cd1936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1dc338ad367a55250fe0fbec08d432"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6f1dc338ad367a55250fe0fbec08d432">features</a> {0}</td></tr>
+<tr class="separator:a6f1dc338ad367a55250fe0fbec08d432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9255fe1c132b4c49368bf7b130c1dee3"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2">sst::basic_blocks::params::ParamMetaData::DisplayScale</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a9255fe1c132b4c49368bf7b130c1dee3">LINEAR</a></td></tr>
 <tr class="separator:a9255fe1c132b4c49368bf7b130c1dee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1729796f03559082040198b11c08f0ff"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1729796f03559082040198b11c08f0ff">unit</a></td></tr>
@@ -452,6 +465,31 @@ Static Public Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a79bb097a884417fa68a01a38c4857d47a2aaad87d1cb3c39230ee586d7808378b"></a>NO_QUANTIZATION&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a79bb097a884417fa68a01a38c4857d47adcb7463017fd5e88e64081ec593bb8be"></a>CUSTOM_INTERVAL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a79bb097a884417fa68a01a38c4857d47a68f238a8346cca6b5e9e08c63b0b248d"></a>CUSTOM_STEP_COUNT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a7489d426e232a62a4039ca21e585f487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7489d426e232a62a4039ca21e585f487">&#9670;&nbsp;</a></span>Features</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487">Features</a> : uint64_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26"></a>SUPPORTS_MULTIPLICATIVE_MODULATION&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -686,6 +724,88 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47a68f238a8346cca6b5e9e08c63b0b248d">ParamMetaData::CUSTOM_STEP_COUNT</a>.</p>
+
+</div>
+</div>
+<a id="a24e9847cf88f7c47ff993f56af1526d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24e9847cf88f7c47ff993f56af1526d3">&#9670;&nbsp;</a></span>withFeature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a> withFeature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487">Features</a>&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6f1dc338ad367a55250fe0fbec08d432">ParamMetaData::features</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a0adfb0a2cd01ff44b943473983b1e69a">ParamMetaData::withSupportsMultiplicativeModulation()</a>.</p>
+
+</div>
+</div>
+<a id="a31075ddcfd0a7b8ce682f2f354777cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31075ddcfd0a7b8ce682f2f354777cc5">&#9670;&nbsp;</a></span>hasFeature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasFeature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487">Features</a>&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6f1dc338ad367a55250fe0fbec08d432">ParamMetaData::features</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a395fc9cc94050942c72130ba69a5e1be">ParamMetaData::hasSupportsMultiplicativeModulation()</a>.</p>
+
+</div>
+</div>
+<a id="a0adfb0a2cd01ff44b943473983b1e69a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0adfb0a2cd01ff44b943473983b1e69a">&#9670;&nbsp;</a></span>withSupportsMultiplicativeModulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a> withSupportsMultiplicativeModulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26">ParamMetaData::SUPPORTS_MULTIPLICATIVE_MODULATION</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24e9847cf88f7c47ff993f56af1526d3">ParamMetaData::withFeature()</a>.</p>
+
+</div>
+</div>
+<a id="a395fc9cc94050942c72130ba69a5e1be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a395fc9cc94050942c72130ba69a5e1be">&#9670;&nbsp;</a></span>hasSupportsMultiplicativeModulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasSupportsMultiplicativeModulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a31075ddcfd0a7b8ce682f2f354777cc5">ParamMetaData::hasFeature()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26">ParamMetaData::SUPPORTS_MULTIPLICATIVE_MODULATION</a>.</p>
 
 </div>
 </div>
@@ -2552,6 +2672,22 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f1dc338ad367a55250fe0fbec08d432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1dc338ad367a55250fe0fbec08d432">&#9670;&nbsp;</a></span>features</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t features {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a31075ddcfd0a7b8ce682f2f354777cc5">ParamMetaData::hasFeature()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24e9847cf88f7c47ff993f56af1526d3">ParamMetaData::withFeature()</a>.</p>
+
+</div>
+</div>
 <a id="a9255fe1c132b4c49368bf7b130c1dee3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9255fe1c132b4c49368bf7b130c1dee3">&#9670;&nbsp;</a></span>LINEAR</h2>
 
@@ -2870,7 +3006,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 20 2024 20:47:09 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Sep 21 2024 14:54:20 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

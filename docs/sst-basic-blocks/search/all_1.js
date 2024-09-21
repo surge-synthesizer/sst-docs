@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['b_57',['B',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a59f0e83edd2fc0a8fd275a68f45afebe',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp']]],
-  ['b_58',['b',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#aa6598e5eacf0ff022041dc48e58c266e',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower']]],
+  ['b_57',['b',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#aa6598e5eacf0ff022041dc48e58c266e',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower']]],
+  ['b_58',['B',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a59f0e83edd2fc0a8fd275a68f45afebe',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp']]],
   ['b0_59',['b0',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#aae36fc890ea9532f56273eb4ff3d8fc3',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b0()'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a0ae30649ebfdcaca88281806664fde5b',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b0()']]],
   ['b1_60',['b1',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a0a909289ec9fbfaa70c0e112ec9e3b15',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b1()'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a1a66f86672c0f8e0b9a3e8352c10c387',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b1()']]],
   ['b2_61',['b2',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a746bcb222044619e5a9b335d242a2a92',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b2()'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a17182c0a597f9f341db6c9f64fce1261',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b2()']]],

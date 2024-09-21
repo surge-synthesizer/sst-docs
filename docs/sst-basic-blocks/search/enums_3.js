@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mod_5fwaves_1407',['mod_waves',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170d',1,'sst::basic_blocks::modulators::FXModControl']]]
+  ['lagstyle_1419',['LagStyle',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers']]]
 ];
