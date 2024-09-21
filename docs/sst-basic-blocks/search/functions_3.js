@@ -5,7 +5,7 @@ var searchData=
   ['darenvelope_889',['DAREnvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAREnvelope.html#ad7ab4bfc7865e43bca4ab2ee865a0ed7',1,'sst::basic_blocks::modulators::DAREnvelope']]],
   ['dbtolinear_890',['dbToLinear',['../structsst_1_1basic__blocks_1_1tables_1_1DbToLinearProvider.html#acf193d9324554fd4710e456d7c8eb66d',1,'sst::basic_blocks::tables::DbToLinearProvider']]],
   ['deactivatable_891',['deactivatable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24544c516b69d28b016ca97e221c6d16',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['decodems_892',['decodeMS',['../namespacesst_1_1basic__blocks_1_1dsp.html#a617c94bb09ac61851ef81a2f3d5a4fa4',1,'sst::basic_blocks::dsp']]],
+  ['decodems_892',['decodeMS',['../namespacesst_1_1basic__blocks_1_1dsp.html#aa906c81835136d0117c0701eff6973f7',1,'sst::basic_blocks::dsp']]],
   ['deformable_893',['deformable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac2c832c51a67b266d3c672daf4917774',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['deltato01_894',['deltaTo01',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#af9c12ab7b625960e5f130f0ae800d08c',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
   ['detune_895',['detune',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#a12b70518665f964408b93d4a1fdb8b1c',1,'sst::basic_blocks::dsp::UnisonSetup']]],

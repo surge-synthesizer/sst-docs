@@ -15,7 +15,7 @@ var searchData=
   ['deactivatable_137',['deactivatable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24544c516b69d28b016ca97e221c6d16',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['decibel_138',['DECIBEL',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a75c3c273fd1f97ac29fe0051c752d23a',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['decimalplaces_139',['decimalPlaces',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a476b8abd31ed52ce84c0f9c8f643f91b',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['decodems_140',['decodeMS',['../namespacesst_1_1basic__blocks_1_1dsp.html#a617c94bb09ac61851ef81a2f3d5a4fa4',1,'sst::basic_blocks::dsp']]],
+  ['decodems_140',['decodeMS',['../namespacesst_1_1basic__blocks_1_1dsp.html#aa906c81835136d0117c0701eff6973f7',1,'sst::basic_blocks::dsp']]],
   ['defaultmidinoteoctaveoffset_141',['defaultMidiNoteOctaveOffset',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24490998313315761ab508b465caa056',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['defaultval_142',['defaultVal',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a74bcb798e7d591d22fc4b1d7408b53f0',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['deformable_143',['deformable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac2c832c51a67b266d3c672daf4917774',1,'sst::basic_blocks::params::ParamMetaData']]],
