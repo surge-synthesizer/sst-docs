@@ -145,6 +145,10 @@ Public Types</h2></td></tr>
 <tr class="separator:aadf0e0b59d63ad05771dab3175f3d10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad521a2327793bb527c7fde1cdf5bff1c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> = std::function&lt; std::string(const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a> &amp;)&gt;</td></tr>
 <tr class="separator:ad521a2327793bb527c7fde1cdf5bff1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34935a6b77a0c86ff774258d6ae41d17"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a> = std::function&lt; bool(const <a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a> &amp;, const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a> &amp;)&gt;</td></tr>
+<tr class="separator:a34935a6b77a0c86ff774258d6ae41d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f8290581a967d5c1022856a45d3e560"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a4f8290581a967d5c1022856a45d3e560">gmodTgtBoolFn_t</a> = std::function&lt; bool(const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a> &amp;)&gt;</td></tr>
+<tr class="separator:a4f8290581a967d5c1022856a45d3e560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98bff2c87a981e9d1b8cbfc6f92168fa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa">vmodSrcStrFn_t</a> = std::function&lt; std::string(const <a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a> &amp;, const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3">voice::modulation::MatrixConfig::SourceIdentifier</a> &amp;)&gt;</td></tr>
 <tr class="separator:a98bff2c87a981e9d1b8cbfc6f92168fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e0ae684714d211980b6ba5490858805"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a1e0ae684714d211980b6ba5490858805">gmodSrcStrFn_t</a> = std::function&lt; std::string(const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3">voice::modulation::MatrixConfig::SourceIdentifier</a> &amp;)&gt;</td></tr>
@@ -220,12 +224,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6fdf332d7f46bbf1ff77118ddbc6f622"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52173ba952f4077ced65683ac0f91bb7"><td class="memItemLeft" align="right" valign="top">const std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1MemoryPool.html">MemoryPool</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a52173ba952f4077ced65683ac0f91bb7">getMemoryPool</a> ()</td></tr>
 <tr class="separator:a52173ba952f4077ced65683ac0f91bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add570bfcbbe7a421adbcec0831484846"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#add570bfcbbe7a421adbcec0831484846">registerVoiceModTarget</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a> pathFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a> nameFn)</td></tr>
-<tr class="separator:add570bfcbbe7a421adbcec0831484846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4190ea78331633ca27d753911e743ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af4190ea78331633ca27d753911e743ce">registerVoiceModTarget</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a> pathFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a> nameFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a> additiveFn)</td></tr>
+<tr class="separator:af4190ea78331633ca27d753911e743ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefdf9732e879ef0d86e787ac4a14fda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#afefdf9732e879ef0d86e787ac4a14fda">registerVoiceModSource</a> (const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3">voice::modulation::MatrixConfig::SourceIdentifier</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa">vmodSrcStrFn_t</a> pathFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa">vmodSrcStrFn_t</a> nameFn)</td></tr>
 <tr class="separator:afefdf9732e879ef0d86e787ac4a14fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a295f478cd4b3655fc9505bcb3e1051bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a295f478cd4b3655fc9505bcb3e1051bf">registerGroupModTarget</a> (const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> pathFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> nameFn)</td></tr>
-<tr class="separator:a295f478cd4b3655fc9505bcb3e1051bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e19074069e5ca63ac2a39e226cbb60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a62e19074069e5ca63ac2a39e226cbb60">registerGroupModTarget</a> (const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> pathFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> nameFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4f8290581a967d5c1022856a45d3e560">gmodTgtBoolFn_t</a> additiveFn)</td></tr>
+<tr class="separator:a62e19074069e5ca63ac2a39e226cbb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a272d13f3412ecc7c0dac020063090443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a272d13f3412ecc7c0dac020063090443">registerGroupModSource</a> (const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a81d83b21526a395420500f659e8fddb3">modulation::GroupMatrixConfig::SourceIdentifier</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1e0ae684714d211980b6ba5490858805">gmodSrcStrFn_t</a> pathFn, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1e0ae684714d211980b6ba5490858805">gmodSrcStrFn_t</a> nameFn)</td></tr>
 <tr class="separator:a272d13f3412ecc7c0dac020063090443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a201f8f892fe45f0740e390389ce5030f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a201f8f892fe45f0740e390389ce5030f">terminateVoicesForZone</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a> &amp;z)</td></tr>
@@ -300,10 +304,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a517e3a5ba16b52ffd3c63fc55ae1feea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a994658a266476552cf76b65015d4750a"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">stopEngineRequests</a> {0}</td></tr>
 <tr class="separator:a994658a266476552cf76b65015d4750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a354798067f3c16bcfee50f03b0a17dc8"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a>, std::pair&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a354798067f3c16bcfee50f03b0a17dc8">voiceModTargets</a></td></tr>
-<tr class="separator:a354798067f3c16bcfee50f03b0a17dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd0ede8d72f996e7b4a922042b7a2fa"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a>, std::pair&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#affd0ede8d72f996e7b4a922042b7a2fa">groupModTargets</a></td></tr>
-<tr class="separator:affd0ede8d72f996e7b4a922042b7a2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5453f1e362ebc04139075497fd3b6698"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a>, std::tuple&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a5453f1e362ebc04139075497fd3b6698">voiceModTargets</a></td></tr>
+<tr class="separator:a5453f1e362ebc04139075497fd3b6698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc17f42784ef6ae9d57583cd45efe15"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a>, std::tuple&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4f8290581a967d5c1022856a45d3e560">gmodTgtBoolFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a8dc17f42784ef6ae9d57583cd45efe15">groupModTargets</a></td></tr>
+<tr class="separator:a8dc17f42784ef6ae9d57583cd45efe15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79c6385bc42f8a3a62a1c9e8a66c763d"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3">voice::modulation::MatrixConfig::SourceIdentifier</a>, std::pair&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa">vmodSrcStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa">vmodSrcStrFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a79c6385bc42f8a3a62a1c9e8a66c763d">voiceModSources</a></td></tr>
 <tr class="separator:a79c6385bc42f8a3a62a1c9e8a66c763d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea04a8c27813a0dcdee556ca70d3409d"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a81d83b21526a395420500f659e8fddb3">modulation::GroupMatrixConfig::SourceIdentifier</a>, std::pair&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1e0ae684714d211980b6ba5490858805">gmodSrcStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1e0ae684714d211980b6ba5490858805">gmodSrcStrFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#aea04a8c27813a0dcdee556ca70d3409d">groupModSources</a></td></tr>
@@ -404,6 +408,34 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a> =  std::function&lt;std::string( const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a> &amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34935a6b77a0c86ff774258d6ae41d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34935a6b77a0c86ff774258d6ae41d17">&#9670;&nbsp;</a></span>vmodTgtBoolFn_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a> =  std::function&lt;bool( const <a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a> &amp;, const <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a> &amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f8290581a967d5c1022856a45d3e560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f8290581a967d5c1022856a45d3e560">&#9670;&nbsp;</a></span>gmodTgtBoolFn_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4f8290581a967d5c1022856a45d3e560">gmodTgtBoolFn_t</a> =  std::function&lt;bool(const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, const <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a> &amp;)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1241,8 +1273,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="add570bfcbbe7a421adbcec0831484846"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add570bfcbbe7a421adbcec0831484846">&#9670;&nbsp;</a></span>registerVoiceModTarget()</h2>
+<a id="af4190ea78331633ca27d753911e743ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4190ea78331633ca27d753911e743ce">&#9670;&nbsp;</a></span>registerVoiceModTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1263,7 +1295,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>&#160;</td>
-          <td class="paramname"><em>nameFn</em>&#160;</td>
+          <td class="paramname"><em>nameFn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a>&#160;</td>
+          <td class="paramname"><em>additiveFn</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1273,7 +1311,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#ac900633d83a5c45d6f8ef31d2b6f24b6">MatrixEndpoints::registerVoiceModTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#ab6965e384046953908c4c44f0c8cb9ec">MatrixEndpoints::registerVoiceModTarget()</a>.</p>
 
 </div>
 </div>
@@ -1313,8 +1351,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a295f478cd4b3655fc9505bcb3e1051bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a295f478cd4b3655fc9505bcb3e1051bf">&#9670;&nbsp;</a></span>registerGroupModTarget()</h2>
+<a id="a62e19074069e5ca63ac2a39e226cbb60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e19074069e5ca63ac2a39e226cbb60">&#9670;&nbsp;</a></span>registerGroupModTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1335,7 +1373,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>&#160;</td>
-          <td class="paramname"><em>nameFn</em>&#160;</td>
+          <td class="paramname"><em>nameFn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a4f8290581a967d5c1022856a45d3e560">gmodTgtBoolFn_t</a>&#160;</td>
+          <td class="paramname"><em>additiveFn</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1345,7 +1389,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a297887228a22d8ae0ee3a4dbe043c286">GroupMatrixEndpoints::registerGroupModTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a196bdc8add4414729b41cbfe7bc71384">GroupMatrixEndpoints::registerGroupModTarget()</a>.</p>
 
 </div>
 </div>
@@ -1847,14 +1891,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a354798067f3c16bcfee50f03b0a17dc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a354798067f3c16bcfee50f03b0a17dc8">&#9670;&nbsp;</a></span>voiceModTargets</h2>
+<a id="a5453f1e362ebc04139075497fd3b6698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5453f1e362ebc04139075497fd3b6698">&#9670;&nbsp;</a></span>voiceModTargets</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a>, std::pair&lt;<a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>&gt; &gt; voiceModTargets</td>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a>, std::tuple&lt;<a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a>&gt; &gt; voiceModTargets</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1863,14 +1907,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="affd0ede8d72f996e7b4a922042b7a2fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd0ede8d72f996e7b4a922042b7a2fa">&#9670;&nbsp;</a></span>groupModTargets</h2>
+<a id="a8dc17f42784ef6ae9d57583cd45efe15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc17f42784ef6ae9d57583cd45efe15">&#9670;&nbsp;</a></span>groupModTargets</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a>, std::pair&lt;<a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>&gt; &gt; groupModTargets</td>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">modulation::GroupMatrixConfig::TargetIdentifier</a>, std::tuple&lt;<a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c">gmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4f8290581a967d5c1022856a45d3e560">gmodTgtBoolFn_t</a>&gt; &gt; groupModTargets</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1918,7 +1962,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 14:17:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Sep 21 2024 15:33:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
