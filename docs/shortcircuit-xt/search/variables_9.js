@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jog_6023',['jog',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#ae041af4417d7f4e4d669f2920268c82f',1,'scxt::ui::app::edit_screen::StepLFOPane']]]
+  ['jog_6027',['jog',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#ae041af4417d7f4e4d669f2920268c82f',1,'scxt::ui::app::edit_screen::StepLFOPane']]]
 ];
