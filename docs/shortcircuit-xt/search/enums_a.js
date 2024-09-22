@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['triggermode_7008',['TriggerMode',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127',1,'scxt::modulation::ModulatorStorage']]],
-  ['tuningmode_7009',['TuningMode',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278',1,'scxt::tuning::MidikeyRetuner']]],
-  ['type_7010',['Type',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'scxt::sfz_support::SFZParser::Header']]]
+  ['triggermode_7022',['TriggerMode',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127',1,'scxt::modulation::ModulatorStorage']]],
+  ['tuningmode_7023',['TuningMode',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278',1,'scxt::tuning::MidikeyRetuner']]],
+  ['type_7024',['Type',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'scxt::sfz_support::SFZParser::Header']]]
 ];

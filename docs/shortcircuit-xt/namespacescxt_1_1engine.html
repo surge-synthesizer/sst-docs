@@ -89,6 +89,7 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -134,6 +135,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> = void(*)(int16_t, float *const)</td></tr>
+<tr class="separator:a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:abda9c7d4255cb9369a2cc3208fb3dec8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">BusAddress</a> : int16_t { <br />
@@ -157,7 +163,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>
 , <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10">rotaryspeaker</a>
+, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>
 <br />
  }</td></tr>
 <tr class="separator:acefc6050a5b9c5c80a81b073b07bee54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +173,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ae02bc1a79069839d30c329fedf98a667"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">createEffect</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *e, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a> *s)</td></tr>
 <tr class="separator:ae02bc1a79069839d30c329fedf98a667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b669c3d0956eb3de15f01ef35434263"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8b669c3d0956eb3de15f01ef35434263">getBusEffectRemapStreamingFunction</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p)</td></tr>
+<tr class="separator:a8b669c3d0956eb3de15f01ef35434263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a908f1a6ae20fcc3f5ee11e6e42d27f02"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a908f1a6ae20fcc3f5ee11e6e42d27f02">toStringAvailableBusEffects</a> (const <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> &amp;p)</td></tr>
 <tr class="separator:a908f1a6ae20fcc3f5ee11e6e42d27f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c2e23afd0082fc3e450f60bec93f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a51c2e23afd0082fc3e450f60bec93f01">fromStringAvailableBusEffects</a> (const std::string &amp;s)</td></tr>
@@ -180,6 +189,21 @@ Variables</h2></td></tr>
 <tr class="memitem:a960c5262d8150647d8cb3ba9fbbff234"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a960c5262d8150647d8cb3ba9fbbff234">lfosPerZone</a> {scxt::lfosPerZone}</td></tr>
 <tr class="separator:a960c5262d8150647d8cb3ba9fbbff234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a8ff3b6ee1771f9e0212b6350dcd84844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ff3b6ee1771f9e0212b6350dcd84844">&#9670;&nbsp;</a></span>busRemapFn_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> =  void (*)(int16_t, float *const)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="abda9c7d4255cb9369a2cc3208fb3dec8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abda9c7d4255cb9369a2cc3208fb3dec8">&#9670;&nbsp;</a></span>BusAddress</h2>
@@ -222,6 +246,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852"></a>delay&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9"></a>treemonster&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac"></a>nimbus&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10"></a>rotaryspeaker&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3"></a>bonsai&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -260,9 +285,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">none</a>, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a6a7a893ab200564a1c030c3ac7fe2a95">BusEffectStorage::params</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>, and <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a3e0f7f8a0a7afae851d2400f45ae0260">BusEffectStorage::type</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">none</a>, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a6a7a893ab200564a1c030c3ac7fe2a95">BusEffectStorage::params</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10">rotaryspeaker</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>, and <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a3e0f7f8a0a7afae851d2400f45ae0260">BusEffectStorage::type</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Bus::initializeAfterUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Bus.html#a811f54e8a3235096db56f12a52aa33eb">Bus::setBusEffectType()</a>.</p>
+
+</div>
+</div>
+<a id="a8b669c3d0956eb3de15f01ef35434263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b669c3d0956eb3de15f01ef35434263">&#9670;&nbsp;</a></span>getBusEffectRemapStreamingFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt; getBusEffectRemapStreamingFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">none</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>, <a class="el" href="bus_8cpp.html#aa8fce856c9a04566167af3036654b02b">RETVAL</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10">rotaryspeaker</a>, and <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>.</p>
 
 </div>
 </div>
@@ -282,7 +327,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">none</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>, and <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">none</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10">rotaryspeaker</a>, and <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>.</p>
 
 </div>
 </div>
@@ -380,7 +425,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:29:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 22 2024 23:35:53 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

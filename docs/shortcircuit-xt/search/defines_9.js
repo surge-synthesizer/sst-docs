@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unsignedtofloat_7453',['UnsignedToFloat',['../load__aiff_8cpp.html#afd8de94c42627e5b7d2ba53263d45cb8',1,'load_aiff.cpp']]]
+  ['trace_5fdb_7468',['TRACE_DB',['../browser__db_8cpp.html#adea089337ccb65021e653bfbdfae9bcc',1,'browser_db.cpp']]]
 ];

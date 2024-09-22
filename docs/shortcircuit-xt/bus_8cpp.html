@@ -89,6 +89,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">bus.cpp File Reference</div>  </div>
@@ -113,15 +114,81 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacescxt_1_1engine_1_1dtl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html">scxt::engine::dtl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a6a3517f8689319b560f466e60f89287e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bus_8cpp.html#a6a3517f8689319b560f466e60f89287e">HAS_MEMFN</a>(M)</td></tr>
+<tr class="separator:a6a3517f8689319b560f466e60f89287e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8fce856c9a04566167af3036654b02b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bus_8cpp.html#aa8fce856c9a04566167af3036654b02b">RETVAL</a>(x)</td></tr>
+<tr class="separator:aa8fce856c9a04566167af3036654b02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a16a610cd85518840fbde389fee78a016"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a16a610cd85518840fbde389fee78a016">HAS_MEMFN</a> (remapParametersForStreamingVersion)</td></tr>
+<tr class="separator:a16a610cd85518840fbde389fee78a016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae02bc1a79069839d30c329fedf98a667"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; BusEffect &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">createEffect</a> (AvailableBusEffects p, Engine *e, BusEffectStorage *s)</td></tr>
 <tr class="separator:ae02bc1a79069839d30c329fedf98a667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b669c3d0956eb3de15f01ef35434263"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int16_t, busRemapFn_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8b669c3d0956eb3de15f01ef35434263">getBusEffectRemapStreamingFunction</a> (AvailableBusEffects p)</td></tr>
+<tr class="separator:a8b669c3d0956eb3de15f01ef35434263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a6a3517f8689319b560f466e60f89287e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a3517f8689319b560f466e60f89287e">&#9670;&nbsp;</a></span>HAS_MEMFN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HAS_MEMFN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">M</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span>HasMemFn_##M                                                       \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">        using No = uint8_t;                                                                        \</div>
+<div class="line">        using Yes = uint64_t;                                                                      \</div>
+<div class="line">        static_assert(<span class="keyword">sizeof</span>(No) != <span class="keyword">sizeof</span>(Yes));                                                  \</div>
+<div class="line">        template &lt;typename C&gt; <span class="keyword">static</span> Yes test(decltype(&amp;C::M) *);                                  \</div>
+<div class="line">        template &lt;typename C&gt; <span class="keyword">static</span> No test(...);                                                 \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">      public:                                                                                      \</div>
+<div class="line">        enum                                                                                       \</div>
+<div class="line">        {                                                                                          \</div>
+<div class="line">            value = <span class="keyword">sizeof</span>(test&lt;T&gt;(<span class="keyword">nullptr</span>)) == <span class="keyword">sizeof</span>(Yes)                                        \</div>
+<div class="line">        };                                                                                         \</div>
+<div class="line">    };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa8fce856c9a04566167af3036654b02b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8fce856c9a04566167af3036654b02b">&#9670;&nbsp;</a></span>RETVAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RETVAL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        sfx::x&lt;dtl::Config&gt;::streamingVersion,                                                     \</div>
+<div class="line">            &amp;sfx::x&lt;dtl::Config&gt;::remapParametersForStreamingVersion                               \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:29:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 22 2024 23:35:53 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
