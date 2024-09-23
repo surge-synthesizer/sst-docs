@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['debugactions_3761',['DebugActions',['../structscxt_1_1messaging_1_1client_1_1DebugActions.html',1,'scxt::messaging::client']]],
-  ['defaultsprovider_3762',['DefaultsProvider',['../structscxt_1_1infrastructure_1_1DefaultsProvider.html',1,'scxt::infrastructure']]],
-  ['devicespane_3763',['DevicesPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DevicesPane.html',1,'scxt::ui::app::browser_ui']]],
-  ['directbooleanpayloaddataattachment_3764',['DirectBooleanPayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1DirectBooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],
-  ['discretepayloaddataattachment_3765',['DiscretePayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html',1,'scxt::ui::connectors']]],
-  ['discretepayloaddataattachment_3c_20payload_2c_20bool_20_3e_3766',['DiscretePayloadDataAttachment&lt; Payload, bool &gt;',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html',1,'scxt::ui::connectors']]],
-  ['drivearea_3767',['DriveArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html',1,'scxt::ui::app::browser_ui']]],
-  ['drivefsarea_3768',['DriveFSArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html',1,'scxt::ui::app::browser_ui']]],
-  ['drivefslistboxmodel_3769',['DriveFSListBoxModel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxModel.html',1,'scxt::ui::app::browser_ui']]],
-  ['drivefslistboxrow_3770',['DriveFSListBoxRow',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html',1,'scxt::ui::app::browser_ui']]],
-  ['drivelistboxmodel_3771',['DriveListBoxModel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveListBoxModel.html',1,'scxt::ui::app::browser_ui']]],
-  ['dummycontinuous_3772',['DummyContinuous',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html',1,'scxt::ui::connectors']]]
+  ['debugactions_3764',['DebugActions',['../structscxt_1_1messaging_1_1client_1_1DebugActions.html',1,'scxt::messaging::client']]],
+  ['defaultsprovider_3765',['DefaultsProvider',['../structscxt_1_1infrastructure_1_1DefaultsProvider.html',1,'scxt::infrastructure']]],
+  ['devicespane_3766',['DevicesPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DevicesPane.html',1,'scxt::ui::app::browser_ui']]],
+  ['directbooleanpayloaddataattachment_3767',['DirectBooleanPayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1DirectBooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],
+  ['discretepayloaddataattachment_3768',['DiscretePayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html',1,'scxt::ui::connectors']]],
+  ['discretepayloaddataattachment_3c_20payload_2c_20bool_20_3e_3769',['DiscretePayloadDataAttachment&lt; Payload, bool &gt;',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html',1,'scxt::ui::connectors']]],
+  ['drivearea_3770',['DriveArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html',1,'scxt::ui::app::browser_ui']]],
+  ['drivefsarea_3771',['DriveFSArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html',1,'scxt::ui::app::browser_ui']]],
+  ['drivefslistboxmodel_3772',['DriveFSListBoxModel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxModel.html',1,'scxt::ui::app::browser_ui']]],
+  ['drivefslistboxrow_3773',['DriveFSListBoxRow',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html',1,'scxt::ui::app::browser_ui']]],
+  ['drivelistboxmodel_3774',['DriveListBoxModel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveListBoxModel.html',1,'scxt::ui::app::browser_ui']]],
+  ['dummycontinuous_3775',['DummyContinuous',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html',1,'scxt::ui::connectors']]]
 ];
