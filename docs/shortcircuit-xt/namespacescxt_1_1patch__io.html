@@ -105,14 +105,14 @@ Functions</h2></td></tr>
 <tr class="separator:a789d0c386de9c3ab6581fa8315297b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c78d4133b45117423f51367cfd9e87b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a4c78d4133b45117423f51367cfd9e87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba727a60097c4fcf0b2b63e99340d7b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aba727a60097c4fcf0b2b63e99340d7b7">savePart</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
+<tr class="separator:aba727a60097c4fcf0b2b63e99340d7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63cc7fed982f9bc94257d36c470cf979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a63cc7fed982f9bc94257d36c470cf979">initFromResourceBundle</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine)</td></tr>
 <tr class="separator:a63cc7fed982f9bc94257d36c470cf979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8355d53952166b1b89bf9c1339bfeb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine)</td></tr>
 <tr class="separator:ad8355d53952166b1b89bf9c1339bfeb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bd0b891a42395d077d02430c107992e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a2bd0b891a42395d077d02430c107992e">streamPart</a> (const fs::path &amp;toFile, const <a class="el" href="structscxt_1_1engine_1_1Part.html">scxt::engine::Part</a> &amp;)</td></tr>
-<tr class="separator:a2bd0b891a42395d077d02430c107992e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a892b6010fab272a747fa495d127373a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a892b6010fab272a747fa495d127373a0">unstreamPart</a> (const fs::path &amp;fromFile, <a class="el" href="structscxt_1_1engine_1_1Part.html">scxt::engine::Part</a> &amp;)</td></tr>
-<tr class="separator:a892b6010fab272a747fa495d127373a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7afd64ec278fef13b0b8c2d88cbc1784"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine, int part)</td></tr>
+<tr class="separator:a7afd64ec278fef13b0b8c2d88cbc1784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6f7ba825e18ad7c459caceab5ee69206"></a>
@@ -141,7 +141,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#aba727a60097c4fcf0b2b63e99340d7b7">savePart()</a>.</p>
 
 </div>
 </div>
@@ -161,7 +161,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto()</a>.</p>
 
 </div>
 </div>
@@ -191,7 +191,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#aba727a60097c4fcf0b2b63e99340d7b7">savePart()</a>.</p>
 
 </div>
 </div>
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto()</a>.</p>
 
 </div>
 </div>
@@ -244,6 +244,44 @@ Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#aca96d4a179b72bd3a70bde031e6644d9">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a6f7ba825e18ad7c459caceab5ee69206">addSCManifest()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4ca6da3ea4ce3329a86352216b07d45">scxt::messaging::client::doSaveMulti()</a>.</p>
+
+</div>
+</div>
+<a id="aba727a60097c4fcf0b2b63e99340d7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba727a60097c4fcf0b2b63e99340d7b7">&#9670;&nbsp;</a></span>savePart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool savePart </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#aca96d4a179b72bd3a70bde031e6644d9">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a6f7ba825e18ad7c459caceab5ee69206">addSCManifest()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001">Engine::FOR_PART</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a302b4e1c541732e931a80247643935ff">scxt::messaging::client::doSaveSelectedPart()</a>.</p>
 
 </div>
 </div>
@@ -299,23 +337,29 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2bd0b891a42395d077d02430c107992e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bd0b891a42395d077d02430c107992e">&#9670;&nbsp;</a></span>streamPart()</h2>
+<a id="a7afd64ec278fef13b0b8c2d88cbc1784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7afd64ec278fef13b0b8c2d88cbc1784">&#9670;&nbsp;</a></span>loadPartInto()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool scxt::patch_io::streamPart </td>
+          <td class="memname">bool loadPartInto </td>
           <td>(</td>
           <td class="paramtype">const fs::path &amp;&#160;</td>
-          <td class="paramname"><em>toFile</em>, </td>
+          <td class="paramname"><em>p</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Part.html">scxt::engine::Part</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -325,40 +369,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a892b6010fab272a747fa495d127373a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a892b6010fab272a747fa495d127373a0">&#9670;&nbsp;</a></span>unstreamPart()</h2>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">scxt::messaging::client::cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a789d0c386de9c3ab6581fa8315297b05">readSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#abf20da6efd282fbfcf195c1862ff006f">readSCManifest()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3a8a839dd79b8918b4a9e3e11c5465ff">Engine::stopAllSounds()</a>, and <a class="el" href="namespacescxt_1_1json.html#af5e7411383672fffa6f6f5a0ea297087">scxt::json::unstreamPartState()</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool scxt::patch_io::unstreamPart </td>
-          <td>(</td>
-          <td class="paramtype">const fs::path &amp;&#160;</td>
-          <td class="paramname"><em>fromFile</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Part.html">scxt::engine::Part</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae58656a91a6a9e63ddb5ca2894159b22">scxt::messaging::client::doLoadPartInto()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 22 2024 23:35:53 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Sep 23 2024 13:43:11 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

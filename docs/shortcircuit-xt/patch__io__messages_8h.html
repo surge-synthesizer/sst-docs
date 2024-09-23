@@ -88,6 +88,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">patch_io_messages.h File Reference</div>  </div>
@@ -103,19 +104,32 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacescxt_1_1messaging_1_1client"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html">scxt::messaging::client</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aa29b7aef2255d4b9256f8fe666eac11a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa29b7aef2255d4b9256f8fe666eac11a">loadPartIntoPayload_t</a> = std::tuple&lt; std::string, int16_t &gt;</td></tr>
+<tr class="separator:aa29b7aef2255d4b9256f8fe666eac11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad4ca6da3ea4ce3329a86352216b07d45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4ca6da3ea4ce3329a86352216b07d45">doSaveMulti</a> (const std::string &amp;s, engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
 <tr class="separator:ad4ca6da3ea4ce3329a86352216b07d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46c61c8676c7ae3676e59d701b6cbbc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a46c61c8676c7ae3676e59d701b6cbbc2">CLIENT_TO_SERIAL</a> (SaveMulti, c2s_save_multi, std::string, doSaveMulti(payload, engine, cont))</td></tr>
 <tr class="separator:a46c61c8676c7ae3676e59d701b6cbbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9765394bad7320db85212235eae95fcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9765394bad7320db85212235eae95fcc">CLIENT_TO_SERIAL</a> (LoadMulti, c2s_load_multi, std::string, patch_io::loadMulti(fs::path{payload}, engine))</td></tr>
-<tr class="separator:a9765394bad7320db85212235eae95fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9ff96398f429290f338b7c40e11444"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aba9ff96398f429290f338b7c40e11444">CLIENT_TO_SERIAL</a> (LoadMulti, c2s_load_multi, std::string, patch_io::loadMulti(fs::path(fs::u8path(payload)), engine))</td></tr>
+<tr class="separator:aba9ff96398f429290f338b7c40e11444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302b4e1c541732e931a80247643935ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a302b4e1c541732e931a80247643935ff">doSaveSelectedPart</a> (const std::string &amp;s, engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:a302b4e1c541732e931a80247643935ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb716a2b213935eb7a7a8a5f6f7b3e0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#adb716a2b213935eb7a7a8a5f6f7b3e0c">CLIENT_TO_SERIAL</a> (SaveSelectedPart, c2s_save_selected_part, std::string, doSaveSelectedPart(payload, engine, cont))</td></tr>
+<tr class="separator:adb716a2b213935eb7a7a8a5f6f7b3e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae58656a91a6a9e63ddb5ca2894159b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae58656a91a6a9e63ddb5ca2894159b22">doLoadPartInto</a> (const loadPartIntoPayload_t &amp;payload, engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
+<tr class="separator:ae58656a91a6a9e63ddb5ca2894159b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69adec98bd324b7978b2ee1cdcee440c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a69adec98bd324b7978b2ee1cdcee440c">CLIENT_TO_SERIAL</a> (LoadPartInto, c2s_load_part_into, loadPartIntoPayload_t, doLoadPartInto(payload, engine, cont))</td></tr>
+<tr class="separator:a69adec98bd324b7978b2ee1cdcee440c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 22 2024 23:35:53 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Sep 23 2024 13:43:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
