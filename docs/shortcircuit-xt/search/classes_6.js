@@ -1,18 +1,18 @@
 var searchData=
 [
-  ['generatorio_3808',['GeneratorIO',['../structscxt_1_1dsp_1_1GeneratorIO.html',1,'scxt::dsp']]],
-  ['generatorstate_3809',['GeneratorState',['../structscxt_1_1dsp_1_1GeneratorState.html',1,'scxt::dsp']]],
-  ['group_3810',['Group',['../structscxt_1_1engine_1_1Group.html',1,'scxt::engine']]],
-  ['groupcontrols_3811',['GroupControls',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupControls.html',1,'scxt::ui::app::edit_screen']]],
-  ['groupmatrix_3812',['GroupMatrix',['../structscxt_1_1modulation_1_1GroupMatrix.html',1,'scxt::modulation']]],
-  ['groupmatrixconfig_3813',['GroupMatrixConfig',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html',1,'scxt::modulation']]],
-  ['groupmatrixendpoints_3814',['GroupMatrixEndpoints',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html',1,'scxt::modulation']]],
-  ['groupoutputinfo_3815',['GroupOutputInfo',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html',1,'scxt::engine::Group']]],
-  ['groupsidebar_3816',['GroupSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html',1,'scxt::ui::app::edit_screen']]],
-  ['grouptraits_3817',['GroupTraits',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1GroupTraits.html',1,'scxt::ui::app::edit_screen::EditScreen']]],
-  ['groupzonelistboxmodel_3818',['GroupZoneListBoxModel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel.html',1,'scxt::ui::app::edit_screen']]],
-  ['groupzonelistboxmodel_3c_20sidebarparent_2c_20forzone_20_3e_3819',['GroupZoneListBoxModel&lt; SidebarParent, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel.html',1,'scxt::ui::app::edit_screen']]],
-  ['groupzonesidebarbase_3820',['GroupZoneSidebarBase',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html',1,'scxt::ui::app::edit_screen']]],
-  ['groupzonesidebarbase_3c_20groupsidebar_2c_20false_20_3e_3821',['GroupZoneSidebarBase&lt; GroupSidebar, false &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html',1,'scxt::ui::app::edit_screen']]],
-  ['groupzonesidebarbase_3c_20zonesidebar_2c_20true_20_3e_3822',['GroupZoneSidebarBase&lt; ZoneSidebar, true &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html',1,'scxt::ui::app::edit_screen']]]
+  ['generatorio_3809',['GeneratorIO',['../structscxt_1_1dsp_1_1GeneratorIO.html',1,'scxt::dsp']]],
+  ['generatorstate_3810',['GeneratorState',['../structscxt_1_1dsp_1_1GeneratorState.html',1,'scxt::dsp']]],
+  ['group_3811',['Group',['../structscxt_1_1engine_1_1Group.html',1,'scxt::engine']]],
+  ['groupcontrols_3812',['GroupControls',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupControls.html',1,'scxt::ui::app::edit_screen']]],
+  ['groupmatrix_3813',['GroupMatrix',['../structscxt_1_1modulation_1_1GroupMatrix.html',1,'scxt::modulation']]],
+  ['groupmatrixconfig_3814',['GroupMatrixConfig',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html',1,'scxt::modulation']]],
+  ['groupmatrixendpoints_3815',['GroupMatrixEndpoints',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html',1,'scxt::modulation']]],
+  ['groupoutputinfo_3816',['GroupOutputInfo',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html',1,'scxt::engine::Group']]],
+  ['groupsidebar_3817',['GroupSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html',1,'scxt::ui::app::edit_screen']]],
+  ['grouptraits_3818',['GroupTraits',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1GroupTraits.html',1,'scxt::ui::app::edit_screen::EditScreen']]],
+  ['groupzonelistboxmodel_3819',['GroupZoneListBoxModel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel.html',1,'scxt::ui::app::edit_screen']]],
+  ['groupzonelistboxmodel_3c_20sidebarparent_2c_20forzone_20_3e_3820',['GroupZoneListBoxModel&lt; SidebarParent, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel.html',1,'scxt::ui::app::edit_screen']]],
+  ['groupzonesidebarbase_3821',['GroupZoneSidebarBase',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html',1,'scxt::ui::app::edit_screen']]],
+  ['groupzonesidebarbase_3c_20groupsidebar_2c_20false_20_3e_3822',['GroupZoneSidebarBase&lt; GroupSidebar, false &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html',1,'scxt::ui::app::edit_screen']]],
+  ['groupzonesidebarbase_3c_20zonesidebar_2c_20true_20_3e_3823',['GroupZoneSidebarBase&lt; ZoneSidebar, true &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html',1,'scxt::ui::app::edit_screen']]]
 ];
