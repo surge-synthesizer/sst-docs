@@ -144,8 +144,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a83a3cf791ac15a44d7b4d0634e066a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad20897c5c8bd47f5d4005989bead0e55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ad20897c5c8bd47f5d4005989bead0e55">reset</a> ()</td></tr>
 <tr class="separator:ad20897c5c8bd47f5d4005989bead0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5239d829c0a2d762ff988d5c1dd56d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ad5239d829c0a2d762ff988d5c1dd56d7">resetMissingList</a> ()</td></tr>
-<tr class="separator:ad5239d829c0a2d762ff988d5c1dd56d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3efec34f6266e1239a24e5c8a82443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">addIdAlias</a> (const <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &amp;from, const <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &amp;to)</td></tr>
 <tr class="separator:a9b3efec34f6266e1239a24e5c8a82443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a675dc449d7e1c53ad3854c4bbd597de0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1SampleID.html">SampleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a675dc449d7e1c53ad3854c4bbd597de0">resolveAlias</a> (const <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &amp;a)</td></tr>
@@ -162,8 +160,6 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa606eb1806378ba1c4abc6e94b9ff996"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structscxt_1_1ThreadingChecker.html">ThreadingChecker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aa606eb1806378ba1c4abc6e94b9ff996">threadingChecker</a></td></tr>
 <tr class="separator:aa606eb1806378ba1c4abc6e94b9ff996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88cdb0d072d64b0772ba0af28b17a1ee"><td class="memItemLeft" align="right" valign="top">std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a88cdb0d072d64b0772ba0af28b17a1ee">missingList</a></td></tr>
-<tr class="separator:a88cdb0d072d64b0772ba0af28b17a1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe556989e5153e3fd964baf4cfc18c1c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#afe556989e5153e3fd964baf4cfc18c1c">streamingVersion</a> {0x2112'01'01}</td></tr>
 <tr class="separator:afe556989e5153e3fd964baf4cfc18c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab48a58f8cb4f8fcc54cf6f3c76f41045"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ab48a58f8cb4f8fcc54cf6f3c76f41045">sampleMemoryInBytes</a> {0}</td></tr>
@@ -540,7 +536,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51">SampleManager::loadSampleByPath()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ace95d78ce342e49a9b6ee31cf846540b">SampleManager::loadSampleFromMultiSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74">SampleManager::loadSampleFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a88cdb0d072d64b0772ba0af28b17a1ee">SampleManager::missingList</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51">SampleManager::loadSampleByPath()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ace95d78ce342e49a9b6ee31cf846540b">SampleManager::loadSampleFromMultiSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74">SampleManager::loadSampleFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
 
 </div>
 </div>
@@ -579,25 +575,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#afe556989e5153e3fd964baf4cfc18c1c">SampleManager::streamingVersion</a>.</p>
-
-</div>
-</div>
-<a id="ad5239d829c0a2d762ff988d5c1dd56d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5239d829c0a2d762ff988d5c1dd56d7">&#9670;&nbsp;</a></span>resetMissingList()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void resetMissingList </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a88cdb0d072d64b0772ba0af28b17a1ee">SampleManager::missingList</a>.</p>
 
 </div>
 </div>
@@ -664,22 +641,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a88cdb0d072d64b0772ba0af28b17a1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88cdb0d072d64b0772ba0af28b17a1ee">&#9670;&nbsp;</a></span>missingList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;fs::path&gt; missingList</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ad5239d829c0a2d762ff988d5c1dd56d7">SampleManager::resetMissingList()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a62462e265230f69a9d3db6e4ef303023">SampleManager::restoreFromSampleAddressesAndIDs()</a>.</p>
-
-</div>
-</div>
 <a id="afe556989e5153e3fd964baf4cfc18c1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe556989e5153e3fd964baf4cfc18c1c">&#9670;&nbsp;</a></span>streamingVersion</h2>
 
@@ -719,7 +680,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 24 2024 21:50:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Sep 25 2024 17:48:47 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

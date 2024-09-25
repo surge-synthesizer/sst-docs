@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['haseditor_3837',['HasEditor',['../structscxt_1_1ui_1_1app_1_1HasEditor.html',1,'scxt::ui::app']]],
-  ['hasgroupzoneprocessors_3838',['HasGroupZoneProcessors',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html',1,'scxt::engine']]],
-  ['hasgroupzoneprocessors_3c_20group_20_3e_3839',['HasGroupZoneProcessors&lt; Group &gt;',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html',1,'scxt::engine']]],
-  ['hasgroupzoneprocessors_3c_20zone_20_3e_3840',['HasGroupZoneProcessors&lt; Zone &gt;',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html',1,'scxt::engine']]],
-  ['hash_3841',['Hash',['../structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress_1_1Hash.html',1,'scxt::selection::SelectionManager::ZoneAddress']]],
-  ['hash_3c_20scxt_3a_3aid_3c_20idtype_20_3e_20_3e_3842',['hash&lt; scxt::ID&lt; idType &gt; &gt;',['../structstd_1_1hash_3_01scxt_1_1ID_3_01idType_01_4_01_4.html',1,'std']]],
-  ['hash_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_20_3e_3843',['hash&lt; scxt::modulation::shared::SourceIdentifier &gt;',['../structstd_1_1hash_3_01scxt_1_1modulation_1_1shared_1_1SourceIdentifier_01_4.html',1,'std']]],
-  ['hash_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3atargetidentifier_20_3e_3844',['hash&lt; scxt::modulation::shared::TargetIdentifier &gt;',['../structstd_1_1hash_3_01scxt_1_1modulation_1_1shared_1_1TargetIdentifier_01_4.html',1,'std']]],
-  ['hash_3c_20scxt_3a_3asampleid_20_3e_3845',['hash&lt; scxt::SampleID &gt;',['../structstd_1_1hash_3_01scxt_1_1SampleID_01_4.html',1,'std']]],
-  ['hasmodulators_3846',['HasModulators',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
-  ['hasmodulators_3c_20group_20_3e_3847',['HasModulators&lt; Group &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
-  ['hasmodulators_3c_20voice_20_3e_3848',['HasModulators&lt; Voice &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
-  ['header_3849',['Header',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html',1,'scxt::sfz_support::SFZParser']]],
-  ['headerregion_3850',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html',1,'scxt::ui::app::shared']]]
+  ['haseditor_3852',['HasEditor',['../structscxt_1_1ui_1_1app_1_1HasEditor.html',1,'scxt::ui::app']]],
+  ['hasgroupzoneprocessors_3853',['HasGroupZoneProcessors',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html',1,'scxt::engine']]],
+  ['hasgroupzoneprocessors_3c_20group_20_3e_3854',['HasGroupZoneProcessors&lt; Group &gt;',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html',1,'scxt::engine']]],
+  ['hasgroupzoneprocessors_3c_20zone_20_3e_3855',['HasGroupZoneProcessors&lt; Zone &gt;',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html',1,'scxt::engine']]],
+  ['hash_3856',['Hash',['../structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress_1_1Hash.html',1,'scxt::selection::SelectionManager::ZoneAddress']]],
+  ['hash_3c_20scxt_3a_3aid_3c_20idtype_20_3e_20_3e_3857',['hash&lt; scxt::ID&lt; idType &gt; &gt;',['../structstd_1_1hash_3_01scxt_1_1ID_3_01idType_01_4_01_4.html',1,'std']]],
+  ['hash_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_20_3e_3858',['hash&lt; scxt::modulation::shared::SourceIdentifier &gt;',['../structstd_1_1hash_3_01scxt_1_1modulation_1_1shared_1_1SourceIdentifier_01_4.html',1,'std']]],
+  ['hash_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3atargetidentifier_20_3e_3859',['hash&lt; scxt::modulation::shared::TargetIdentifier &gt;',['../structstd_1_1hash_3_01scxt_1_1modulation_1_1shared_1_1TargetIdentifier_01_4.html',1,'std']]],
+  ['hash_3c_20scxt_3a_3asampleid_20_3e_3860',['hash&lt; scxt::SampleID &gt;',['../structstd_1_1hash_3_01scxt_1_1SampleID_01_4.html',1,'std']]],
+  ['hasmodulators_3861',['HasModulators',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
+  ['hasmodulators_3c_20group_20_3e_3862',['HasModulators&lt; Group &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
+  ['hasmodulators_3c_20voice_20_3e_3863',['HasModulators&lt; Voice &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
+  ['header_3864',['Header',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html',1,'scxt::sfz_support::SFZParser']]],
+  ['headerregion_3865',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html',1,'scxt::ui::app::shared']]]
 ];

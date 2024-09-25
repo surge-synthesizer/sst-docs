@@ -126,6 +126,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1MemoryPool.html">MemoryPool</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html">Part</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Patch.html">Patch</a></td></tr>
@@ -183,6 +185,8 @@ Functions</h2></td></tr>
 <tr class="separator:a908f1a6ae20fcc3f5ee11e6e42d27f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c2e23afd0082fc3e450f60bec93f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a51c2e23afd0082fc3e450f60bec93f01">fromStringAvailableBusEffects</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a51c2e23afd0082fc3e450f60bec93f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">collectMissingResolutionWorkItems</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
+<tr class="separator:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -373,6 +377,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aedb1e8b9c27cac0dbf06791e4fb64d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedb1e8b9c27cac0dbf06791e4fb64d17">&#9670;&nbsp;</a></span>collectMissingResolutionWorkItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &gt; collectMissingResolutionWorkItems </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html#acb4c66c7dfc67fbd12a1e7afac873c39">MissingResolutionWorkItem::address</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html#ae10771ab1367ced7862a347eef8a9518">MissingResolutionWorkItem::md5sum</a>, <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html#acf59817b7053ce33c8d96406e1ca31b7">MissingResolutionWorkItem::path</a>, and <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html#a13c7f7a47a2f681d97e00e0862286cef">MissingResolutionWorkItem::variant</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="acbabe8eb069bff3780fba3458b35d02c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbabe8eb069bff3780fba3458b35d02c">&#9670;&nbsp;</a></span>lfosPerGroup</h2>
@@ -447,7 +471,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 24 2024 21:50:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Sep 25 2024 17:48:47 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
