@@ -187,6 +187,10 @@ Functions</h2></td></tr>
 <tr class="separator:a51c2e23afd0082fc3e450f60bec93f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">collectMissingResolutionWorkItems</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a310c75970c853335dea58fc8034c67f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a310c75970c853335dea58fc8034c67f7">resolveSingleFileMissingWorkItem</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;mwi, const fs::path &amp;p)</td></tr>
+<tr class="separator:a310c75970c853335dea58fc8034c67f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc1542075401a7cb697eb7667c031ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a6fc1542075401a7cb697eb7667c031ca">resolveMultiFileMissingWorkItem</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;mwi, const fs::path &amp;p)</td></tr>
+<tr class="separator:a6fc1542075401a7cb697eb7667c031ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -397,6 +401,82 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a310c75970c853335dea58fc8034c67f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310c75970c853335dea58fc8034c67f7">&#9670;&nbsp;</a></span>resolveSingleFileMissingWorkItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resolveSingleFileMissingWorkItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;&#160;</td>
+          <td class="paramname"><em>mwi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6b7b41ba981a4de07faa1e1d29ab1349">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html#a6897f44981fcc71c2fa75b9f6bdbe1fa">MissingResolutionWorkItem::missingID</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="structscxt_1_1SampleID.html#aac993ecccd3d88aafefb6b8e3caa1dee">SampleID::to_string()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0ff465be3532711a053dcd01a3810afc">scxt::messaging::client::doResolveSample()</a>.</p>
+
+</div>
+</div>
+<a id="a6fc1542075401a7cb697eb7667c031ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc1542075401a7cb697eb7667c031ca">&#9670;&nbsp;</a></span>resolveMultiFileMissingWorkItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resolveMultiFileMissingWorkItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;&#160;</td>
+          <td class="paramname"><em>mwi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt.html#a57542d9e5c56204844cb51f16bfb5a23">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4d0321a6c9b40ddfa3cc7e53a66183b4">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3936cee50c5fa40f7f5d93fcc56046d4">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6b7b41ba981a4de07faa1e1d29ab1349">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html#a6897f44981fcc71c2fa75b9f6bdbe1fa">MissingResolutionWorkItem::missingID</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0ff465be3532711a053dcd01a3810afc">scxt::messaging::client::doResolveSample()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="acbabe8eb069bff3780fba3458b35d02c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbabe8eb069bff3780fba3458b35d02c">&#9670;&nbsp;</a></span>lfosPerGroup</h2>
@@ -471,7 +551,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 26 2024 18:17:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Sep 26 2024 21:59:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
