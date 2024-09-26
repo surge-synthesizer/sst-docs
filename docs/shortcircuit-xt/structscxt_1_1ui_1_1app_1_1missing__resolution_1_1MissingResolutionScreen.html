@@ -118,6 +118,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6b5eb44266a8bd8e271ccf6da53b3ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3848bcbdd29e797cc980d3243b0d1403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a3848bcbdd29e797cc980d3243b0d1403">setWorkItemList</a> (const std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">engine::MissingResolutionWorkItem</a> &gt; &amp;l)</td></tr>
 <tr class="separator:a3848bcbdd29e797cc980d3243b0d1403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346b1981e17628ab5248d1d20261b14b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a346b1981e17628ab5248d1d20261b14b">resolveItem</a> (int idx)</td></tr>
+<tr class="separator:a346b1981e17628ab5248d1d20261b14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ceae81dc9b31ea7fc82f3a98cbeb79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a57ceae81dc9b31ea7fc82f3a98cbeb79">applyResolution</a> (int idx, const fs::path &amp;toThis)</td></tr>
+<tr class="separator:a57ceae81dc9b31ea7fc82f3a98cbeb79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b2f9ce43d3483ce5e6bfcf7ce1f5f91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a9b2f9ce43d3483ce5e6bfcf7ce1f5f91">JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html">MissingResolutionScreen</a>)</td></tr>
 <tr class="separator:a9b2f9ce43d3483ce5e6bfcf7ce1f5f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
@@ -142,6 +146,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab14807616c461d906861a0eb067757c9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; juce::Component &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#ab14807616c461d906861a0eb067757c9">contentsArea</a></td></tr>
 <tr class="separator:ab14807616c461d906861a0eb067757c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16161ec3acd5a45aed07f0ecabed5a6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; juce::FileChooser &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#ae16161ec3acd5a45aed07f0ecabed5a6">fileChooser</a></td></tr>
+<tr class="separator:ae16161ec3acd5a45aed07f0ecabed5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb277d678ffd50e1e9ca372fe3077bc3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">engine::MissingResolutionWorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3">workItems</a></td></tr>
 <tr class="separator:acb277d678ffd50e1e9ca372fe3077bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
@@ -269,6 +275,56 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a346b1981e17628ab5248d1d20261b14b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a346b1981e17628ab5248d1d20261b14b">&#9670;&nbsp;</a></span>resolveItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resolveItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#ae16161ec3acd5a45aed07f0ecabed5a6">MissingResolutionScreen::fileChooser</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3">MissingResolutionScreen::workItems</a>.</p>
+
+</div>
+</div>
+<a id="a57ceae81dc9b31ea7fc82f3a98cbeb79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57ceae81dc9b31ea7fc82f3a98cbeb79">&#9670;&nbsp;</a></span>applyResolution()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void applyResolution </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>toThis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3">MissingResolutionScreen::workItems</a>.</p>
+
+</div>
+</div>
 <a id="a9b2f9ce43d3483ce5e6bfcf7ce1f5f91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b2f9ce43d3483ce5e6bfcf7ce1f5f91">&#9670;&nbsp;</a></span>JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR()</h2>
 
@@ -304,6 +360,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae16161ec3acd5a45aed07f0ecabed5a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae16161ec3acd5a45aed07f0ecabed5a6">&#9670;&nbsp;</a></span>fileChooser</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;juce::FileChooser&gt; fileChooser</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a346b1981e17628ab5248d1d20261b14b">MissingResolutionScreen::resolveItem()</a>.</p>
+
+</div>
+</div>
 <a id="acb277d678ffd50e1e9ca372fe3077bc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb277d678ffd50e1e9ca372fe3077bc3">&#9670;&nbsp;</a></span>workItems</h2>
 
@@ -316,7 +388,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a4f2c219a2cbbd6b61e7c41564dac6169">Contents::paint()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a3848bcbdd29e797cc980d3243b0d1403">MissingResolutionScreen::setWorkItemList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a57ceae81dc9b31ea7fc82f3a98cbeb79">MissingResolutionScreen::applyResolution()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a4f2c219a2cbbd6b61e7c41564dac6169">Contents::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a346b1981e17628ab5248d1d20261b14b">MissingResolutionScreen::resolveItem()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a3848bcbdd29e797cc980d3243b0d1403">MissingResolutionScreen::setWorkItemList()</a>.</p>
 
 </div>
 </div>
@@ -327,7 +399,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 25 2024 17:48:47 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Sep 26 2024 15:14:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
