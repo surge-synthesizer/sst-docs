@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['rescaler_4023',['ReScaler',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow_1_1ReScaler.html',1,'scxt::ui::app::edit_screen::ModRow']]],
-  ['riffheader_4024',['riffheader',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html',1,'scxt::sample::loaders']]],
-  ['riffmemfile_4025',['RIFFMemFile',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html',1,'scxt::sample::loaders']]],
-  ['rngsources_4026',['RNGSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1RNGSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
-  ['routingextrapayload_4027',['RoutingExtraPayload',['../structscxt_1_1modulation_1_1shared_1_1RoutingExtraPayload.html',1,'scxt::modulation::shared']]],
-  ['rowaddcomponent_4028',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowAddComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]],
-  ['rowcomponent_4029',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]]
+  ['rescaler_4019',['ReScaler',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow_1_1ReScaler.html',1,'scxt::ui::app::edit_screen::ModRow']]],
+  ['riffheader_4020',['riffheader',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html',1,'scxt::sample::loaders']]],
+  ['riffmemfile_4021',['RIFFMemFile',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html',1,'scxt::sample::loaders']]],
+  ['rngsources_4022',['RNGSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1RNGSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['routingextrapayload_4023',['RoutingExtraPayload',['../structscxt_1_1modulation_1_1shared_1_1RoutingExtraPayload.html',1,'scxt::modulation::shared']]],
+  ['rowaddcomponent_4024',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowAddComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]],
+  ['rowcomponent_4025',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]]
 ];
