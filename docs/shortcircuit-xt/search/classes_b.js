@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['layoutandkeyboard_3921',['LayoutAndKeyboard',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1LayoutAndKeyboard.html',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
-  ['lfopane_3922',['LfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['lfosourcebase_3923',['LFOSourceBase',['../structLFOSourceBase.html',1,'']]],
-  ['lfosourcebase_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_2c_20_27grlf_27_2c_20lfospergroup_2c_20registergroupmodsource_20_3e_3924',['LFOSourceBase&lt; scxt::modulation::shared::SourceIdentifier, &apos;grlf&apos;, lfosPerGroup, registerGroupModSource &gt;',['../structLFOSourceBase.html',1,'']]],
-  ['lfosourcebase_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_2c_20_27znlf_27_2c_20lfosperzone_2c_20registervoicemodsource_20_3e_3925',['LFOSourceBase&lt; scxt::modulation::shared::SourceIdentifier, &apos;znlf&apos;, lfosPerZone, registerVoiceModSource &gt;',['../structLFOSourceBase.html',1,'']]],
-  ['lfotarget_3926',['LFOTarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1LFOTarget.html',1,'GroupMatrixEndpoints::LFOTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1LFOTarget.html',1,'MatrixEndpoints::LFOTarget']]],
-  ['lfotargetendpointdata_3927',['LFOTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['lfotargetendpointdata_3c_20tg_2c_20_27glfo_27_3e_3928',['LFOTargetEndpointData&lt; TG, &apos;glfo&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['lfotargetendpointdata_3c_20tg_2c_20_27lfo_20_27_3e_3929',['LFOTargetEndpointData&lt; TG, &apos;lfo &apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['loadablefile_3930',['LoadableFile',['../structscxt_1_1browser_1_1Browser_1_1LoadableFile.html',1,'scxt::browser::Browser']]],
-  ['lockedexception_3931',['LockedException',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html',1,'scxt::browser::SQL']]],
-  ['logscreen_3932',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]]
+  ['layoutandkeyboard_3923',['LayoutAndKeyboard',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1LayoutAndKeyboard.html',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
+  ['lfopane_3924',['LfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html',1,'scxt::ui::app::edit_screen']]],
+  ['lfosourcebase_3925',['LFOSourceBase',['../structLFOSourceBase.html',1,'']]],
+  ['lfosourcebase_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_2c_20_27grlf_27_2c_20lfospergroup_2c_20registergroupmodsource_20_3e_3926',['LFOSourceBase&lt; scxt::modulation::shared::SourceIdentifier, &apos;grlf&apos;, lfosPerGroup, registerGroupModSource &gt;',['../structLFOSourceBase.html',1,'']]],
+  ['lfosourcebase_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_2c_20_27znlf_27_2c_20lfosperzone_2c_20registervoicemodsource_20_3e_3927',['LFOSourceBase&lt; scxt::modulation::shared::SourceIdentifier, &apos;znlf&apos;, lfosPerZone, registerVoiceModSource &gt;',['../structLFOSourceBase.html',1,'']]],
+  ['lfotarget_3928',['LFOTarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1LFOTarget.html',1,'GroupMatrixEndpoints::LFOTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1LFOTarget.html',1,'MatrixEndpoints::LFOTarget']]],
+  ['lfotargetendpointdata_3929',['LFOTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
+  ['lfotargetendpointdata_3c_20tg_2c_20_27glfo_27_3e_3930',['LFOTargetEndpointData&lt; TG, &apos;glfo&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
+  ['lfotargetendpointdata_3c_20tg_2c_20_27lfo_20_27_3e_3931',['LFOTargetEndpointData&lt; TG, &apos;lfo &apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
+  ['loadablefile_3932',['LoadableFile',['../structscxt_1_1browser_1_1Browser_1_1LoadableFile.html',1,'scxt::browser::Browser']]],
+  ['lockedexception_3933',['LockedException',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html',1,'scxt::browser::SQL']]],
+  ['logscreen_3934',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]]
 ];
