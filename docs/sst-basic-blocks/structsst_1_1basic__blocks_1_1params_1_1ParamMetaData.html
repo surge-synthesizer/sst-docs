@@ -295,8 +295,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9141504e06051e98068689642630e57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af9141504e06051e98068689642630e57">asAudibleFrequency</a> ()</td></tr>
 <tr class="separator:af9141504e06051e98068689642630e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a573dc6def8a4468cfc1ba2e52d95334a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a573dc6def8a4468cfc1ba2e52d95334a">asCubicDecibelAttenuation</a> ()</td></tr>
+<tr class="memdesc:a573dc6def8a4468cfc1ba2e52d95334a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 0...1 value where the amplitude is the value cubed and the display is in decibels.  <a href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a573dc6def8a4468cfc1ba2e52d95334a">More...</a><br /></td></tr>
 <tr class="separator:a573dc6def8a4468cfc1ba2e52d95334a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a79cd79d778fed01e897a0a0da2c3b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1a79cd79d778fed01e897a0a0da2c3b0">asCubicDecibelAttenuationWithUpperDBBound</a> (float maxDB)</td></tr>
+<tr class="memdesc:a1a79cd79d778fed01e897a0a0da2c3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This creates a param with a max val different from 1, such that the value of 1 is still 0db and the max val is the dbs provided.  <a href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1a79cd79d778fed01e897a0a0da2c3b0">More...</a><br /></td></tr>
+<tr class="separator:a1a79cd79d778fed01e897a0a0da2c3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bfe7621fcfe67a916f45916d7b8c2c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1bfe7621fcfe67a916f45916d7b8c2c2">asCubicDecibelUpTo</a> (float maxDb)</td></tr>
+<tr class="memdesc:a1bfe7621fcfe67a916f45916d7b8c2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This assumes you have a 0...1 underlyer and want it to represent a scaled range up to some decibels.  <a href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1bfe7621fcfe67a916f45916d7b8c2c2">More...</a><br /></td></tr>
 <tr class="separator:a1bfe7621fcfe67a916f45916d7b8c2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af04803d21c815cc406c2f9680a4b4499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af04803d21c815cc406c2f9680a4b4499">asLinearDecibel</a> (float lower=-96, float upper=12)</td></tr>
 <tr class="separator:af04803d21c815cc406c2f9680a4b4499"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2257,7 +2262,39 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>A 0...1 value where the amplitude is the value cubed and the display is in decibels. </p>
+
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1bfe7621fcfe67a916f45916d7b8c2c2">ParamMetaData::asCubicDecibelUpTo()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1a79cd79d778fed01e897a0a0da2c3b0">ParamMetaData::asCubicDecibelAttenuationWithUpperDBBound()</a>.</p>
+
+</div>
+</div>
+<a id="a1a79cd79d778fed01e897a0a0da2c3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a79cd79d778fed01e897a0a0da2c3b0">&#9670;&nbsp;</a></span>asCubicDecibelAttenuationWithUpperDBBound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html">ParamMetaData</a> asCubicDecibelAttenuationWithUpperDBBound </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This creates a param with a max val different from 1, such that the value of 1 is still 0db and the max val is the dbs provided. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxDB</td><td>Decibels for the top of range </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a573dc6def8a4468cfc1ba2e52d95334a">ParamMetaData::asCubicDecibelAttenuation()</a>.</p>
 
 </div>
 </div>
@@ -2276,6 +2313,14 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This assumes you have a 0...1 underlyer and want it to represent a scaled range up to some decibels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxDb</td><td>the decibels represented by the '1' extram </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a8ac197e157ddeb12284464c5353360b9">ParamMetaData::CUBED_AS_DECIBEL</a>, <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ab658a7e242a86f01d39c2fa9c179961d">ParamMetaData::FLOAT</a>, <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a0ae4d42a80bb52a384289f99f72d3855">ParamMetaData::withDefault()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a39d750fce1f3e088849c0597d607784b">ParamMetaData::withRange()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a60bd30fb786bf4f68769119218170b1e">ParamMetaData::withType()</a>.</p>
 
@@ -3008,7 +3053,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 28 2024 22:02:47 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 29 2024 00:11:18 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
