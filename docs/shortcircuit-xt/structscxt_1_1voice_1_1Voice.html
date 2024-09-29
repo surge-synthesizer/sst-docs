@@ -133,8 +133,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a9b03541840ed282f2687903729ec6c08 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb9c0362bbf3ffb805ed163533f7b100 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; Voice, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a></td></tr>
 <tr class="separator:acb9c0362bbf3ffb805ed163533f7b100 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42809d03d1fb5cea77f262534efc04d6 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; Voice, blockSize&lt;&lt; 1, sst::basic_blocks::modulators::TwentyFiveSecondExp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a42809d03d1fb5cea77f262534efc04d6">ahdsrenvOS_t</a></td></tr>
-<tr class="separator:a42809d03d1fb5cea77f262534efc04d6 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261641475a9d30882de46423a7edc253 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; DoubleRate,(blockSize&lt;&lt; 1), sst::basic_blocks::modulators::TwentyFiveSecondExp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a></td></tr>
+<tr class="separator:a261641475a9d30882de46423a7edc253 inherit pub_types_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -176,6 +176,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a23b477d0e2d399f75d585d154c346591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb1b8365fab04d2aed97104b154c54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#aeeb1b8365fab04d2aed97104b154c54f">cleanupVoice</a> ()</td></tr>
 <tr class="separator:aeeb1b8365fab04d2aed97104b154c54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff935d0f3c3944592bf3f9e273c8a55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a0ff935d0f3c3944592bf3f9e273c8a55">onSampleRateChanged</a> () override</td></tr>
+<tr class="separator:a0ff935d0f3c3944592bf3f9e273c8a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classscxt_1_1MoveableOnly"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classscxt_1_1MoveableOnly')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly&lt; Voice &gt;</a></td></tr>
 <tr class="memitem:a1f8dcf41d494138fedc7c478fd9cc171 inherit pub_methods_classscxt_1_1MoveableOnly"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1MoveableOnly.html#a1f8dcf41d494138fedc7c478fd9cc171">MoveableOnly</a> (<a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:a1f8dcf41d494138fedc7c478fd9cc171 inherit pub_methods_classscxt_1_1MoveableOnly"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,11 +200,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d419e3fd20ef26c7153a037b5ed95e7 inherit pub_methods_structscxt_1_1SampleRateSupport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619a3d4ead5c102b0cb3e5f0c2526870 inherit pub_methods_structscxt_1_1SampleRateSupport"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1SampleRateSupport.html#a619a3d4ead5c102b0cb3e5f0c2526870">assertSampleRateSet</a> ()</td></tr>
 <tr class="separator:a619a3d4ead5c102b0cb3e5f0c2526870 inherit pub_methods_structscxt_1_1SampleRateSupport"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3650775b58cd69830a71bec674222a40 inherit pub_methods_structscxt_1_1SampleRateSupport"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1SampleRateSupport.html#a3650775b58cd69830a71bec674222a40">onSampleRateChanged</a> ()</td></tr>
-<tr class="separator:a3650775b58cd69830a71bec674222a40 inherit pub_methods_structscxt_1_1SampleRateSupport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1modulation_1_1shared_1_1HasModulators')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html">HasModulators&lt; Voice &gt;</a></td></tr>
 <tr class="memitem:aa3a1ebcb142070ab93b983fbd89b9e6f inherit pub_methods_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa3a1ebcb142070ab93b983fbd89b9e6f">HasModulators</a> (Voice *that)</td></tr>
 <tr class="separator:aa3a1ebcb142070ab93b983fbd89b9e6f inherit pub_methods_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f9720712a490acf59a08bd036a3eb8 inherit pub_methods_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a31f9720712a490acf59a08bd036a3eb8">setHasModulatorsSampleRate</a> (double sr, double sri)</td></tr>
+<tr class="separator:a31f9720712a490acf59a08bd036a3eb8 inherit pub_methods_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -254,7 +256,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a5cde926fe7fa57df484aa530a4ea421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac775918c8e0b64fd7d6d8e098b1117ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#ac775918c8e0b64fd7d6d8e098b1117ed">eg2</a> {<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ae783bb2cffbc3bb7af44249e33e72350">eg</a>[1]}</td></tr>
 <tr class="separator:ac775918c8e0b64fd7d6d8e098b1117ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a314929a2d5e6773973ba69e4fa588875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a42809d03d1fb5cea77f262534efc04d6">ahdsrenvOS_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a314929a2d5e6773973ba69e4fa588875">aegOS</a> {<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">egOS</a>[0]}</td></tr>
+<tr class="memitem:a314929a2d5e6773973ba69e4fa588875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a314929a2d5e6773973ba69e4fa588875">aegOS</a> {<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">egOS</a>[0]}</td></tr>
 <tr class="separator:a314929a2d5e6773973ba69e4fa588875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b46a2ddf8cd1d6333531c2fffefc4a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a50b46a2ddf8cd1d6333531c2fffefc4a">transportPhasors</a> [scxt::numTransportPhasors]</td></tr>
 <tr class="separator:a50b46a2ddf8cd1d6333531c2fffefc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,6 +325,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8c16432d74d313179ad0247b42fbd570 inherit pub_attribs_structscxt_1_1SampleRateSupport"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1SampleRateSupport.html#a8c16432d74d313179ad0247b42fbd570">samplerate_inv</a></td></tr>
 <tr class="separator:a8c16432d74d313179ad0247b42fbd570 inherit pub_attribs_structscxt_1_1SampleRateSupport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html">HasModulators&lt; Voice &gt;</a></td></tr>
+<tr class="memitem:a39a6cb1f8e50e7e85cd177e9d6e7d96a inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html">scxt::modulation::shared::HasModulators::DoubleRate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a39a6cb1f8e50e7e85cd177e9d6e7d96a">doubleRate</a></td></tr>
+<tr class="separator:a39a6cb1f8e50e7e85cd177e9d6e7d96a inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83308dd900b9570be1b702d279fbb13c inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08">scxt::modulation::shared::HasModulators::LFOEvaluator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a83308dd900b9570be1b702d279fbb13c">lfoEvaluator</a> [<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a>]</td></tr>
 <tr class="separator:a83308dd900b9570be1b702d279fbb13c inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2430e3ba3afd1e67de66b9ccbad3319a inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1StepLFO.html">scxt::modulation::modulators::StepLFO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2430e3ba3afd1e67de66b9ccbad3319a">stepLfos</a> [<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a>]</td></tr>
@@ -333,7 +337,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af128a756acffdaa3bc4762dc45cf2666 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae783bb2cffbc3bb7af44249e33e72350 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ae783bb2cffbc3bb7af44249e33e72350">eg</a> [<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa9a964306449deb450be8895593be46f">egsPerObject</a>]</td></tr>
 <tr class="separator:ae783bb2cffbc3bb7af44249e33e72350 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad96e5220aa4b0c9ee5c86e0768fac296 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a42809d03d1fb5cea77f262534efc04d6">ahdsrenvOS_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">egOS</a> [<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa9a964306449deb450be8895593be46f">egsPerObject</a>]</td></tr>
+<tr class="memitem:ad96e5220aa4b0c9ee5c86e0768fac296 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">egOS</a> [<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa9a964306449deb450be8895593be46f">egsPerObject</a>]</td></tr>
 <tr class="separator:ad96e5220aa4b0c9ee5c86e0768fac296 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d211a12926b4f264b4a9ea12f2a50f6 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7d211a12926b4f264b4a9ea12f2a50f6">lfosActive</a></td></tr>
 <tr class="separator:a7d211a12926b4f264b4a9ea12f2a50f6 inherit pub_attribs_structscxt_1_1modulation_1_1shared_1_1HasModulators"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -769,6 +773,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ff935d0f3c3944592bf3f9e273c8a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff935d0f3c3944592bf3f9e273c8a55">&#9670;&nbsp;</a></span>onSampleRateChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onSampleRateChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="structscxt_1_1SampleRateSupport.html#a3650775b58cd69830a71bec674222a40">SampleRateSupport</a>.</p>
+
+<p class="reference">References <a class="el" href="structscxt_1_1SampleRateSupport.html#a56c05744d5ef6b301c0f586d6e818101">SampleRateSupport::samplerate</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a8c16432d74d313179ad0247b42fbd570">SampleRateSupport::samplerate_inv</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a31f9720712a490acf59a08bd036a3eb8">HasModulators&lt; Voice &gt;::setHasModulatorsSampleRate()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2c1c74ab0f9f541a682d6a8e6f55bde2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c1c74ab0f9f541a682d6a8e6f55bde2">&#9670;&nbsp;</a></span>output</h2>
@@ -1179,7 +1212,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a42809d03d1fb5cea77f262534efc04d6">ahdsrenvOS_t</a>&amp; aegOS {<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">egOS</a>[0]}</td>
+          <td class="memname"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a>&amp; aegOS {<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">egOS</a>[0]}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1603,7 +1636,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 29 2024 13:16:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Sep 29 2024 23:04:57 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
