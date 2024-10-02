@@ -117,6 +117,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html">HasGroupZoneProcessors</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maintain the state of keys ccs etc...  <a href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate if a group is triggered.  <a href="structscxt_1_1engine_1_1GroupTrigger.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class representing a range of the keyboard with fade zones on either end.  <a href="structscxt_1_1engine_1_1KeyboardRange.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +191,10 @@ Functions</h2></td></tr>
 <tr class="separator:a908f1a6ae20fcc3f5ee11e6e42d27f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c2e23afd0082fc3e450f60bec93f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a51c2e23afd0082fc3e450f60bec93f01">fromStringAvailableBusEffects</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a51c2e23afd0082fc3e450f60bec93f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8b20bbd337346b587b920dcd13b1c4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a2d8b20bbd337346b587b920dcd13b1c4">makeMacroGroupTrigger</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
+<tr class="separator:a2d8b20bbd337346b587b920dcd13b1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66820b4010cfb0a7816cb4e996becf62"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a66820b4010cfb0a7816cb4e996becf62">makeMIDI1CCGroupTrigger</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
+<tr class="separator:a66820b4010cfb0a7816cb4e996becf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">collectMissingResolutionWorkItems</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a310c75970c853335dea58fc8034c67f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a310c75970c853335dea58fc8034c67f7">resolveSingleFileMissingWorkItem</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;mwi, const fs::path &amp;p)</td></tr>
@@ -381,6 +391,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2d8b20bbd337346b587b920dcd13b1c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d8b20bbd337346b587b920dcd13b1c4">&#9670;&nbsp;</a></span>makeMacroGroupTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a>&gt; scxt::engine::makeMacroGroupTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66820b4010cfb0a7816cb4e996becf62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66820b4010cfb0a7816cb4e996becf62">&#9670;&nbsp;</a></span>makeMIDI1CCGroupTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a>&gt; scxt::engine::makeMIDI1CCGroupTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aedb1e8b9c27cac0dbf06791e4fb64d17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aedb1e8b9c27cac0dbf06791e4fb64d17">&#9670;&nbsp;</a></span>collectMissingResolutionWorkItems()</h2>
 
@@ -551,7 +597,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 1 2024 12:45:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Oct 2 2024 16:19:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

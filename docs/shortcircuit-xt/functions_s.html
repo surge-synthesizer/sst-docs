@@ -99,7 +99,7 @@ $(function() {
 : <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#af46952b9c6a58134dd11ed5332813ba7">Engine::SharedUIMemoryState::VoiceDisplayStateItem</a>
 </li>
 <li>Sample()
-: <a class="el" href="structscxt_1_1sample_1_1Sample.html#af338d729c459654963a511ac9f383db4">Sample</a>
+: <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae08c4409a4e4efcf679decd275c83791">Sample</a>
 </li>
 <li>sample
 : <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ae610328ce0cd5a45fa37377b3d23a0cc">SFZParser::Header</a>
@@ -217,13 +217,13 @@ $(function() {
 , <a class="el" href="structscxt_1_1exs__support_1_1EXSSample.html#ad16762d495115c2606417076f062c39d">EXSSample</a>
 , <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">HasModulators&lt; T &gt;::DoubleRate</a>
 , <a class="el" href="structscxt_1_1sample_1_1aiff__CommonChunk.html#a65964431e01ada9f93c2fcaf88d3a396">aiff_CommonChunk</a>
+, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport</a>
 </li>
 <li>samplerate
 : <a class="el" href="structscxt_1_1SampleRateSupport.html#a56c05744d5ef6b301c0f586d6e818101">SampleRateSupport</a>
 </li>
 <li>sampleRate
-: <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport</a>
-, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1FileInfos.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">VariantDisplay::FileInfos</a>
+: <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1FileInfos.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">VariantDisplay::FileInfos</a>
 </li>
 <li>samplerate_inv
 : <a class="el" href="structscxt_1_1SampleRateSupport.html#a8c16432d74d313179ad0247b42fbd570">SampleRateSupport</a>
@@ -551,9 +551,6 @@ $(function() {
 <li>setBusEffectType()
 : <a class="el" href="structscxt_1_1engine_1_1Bus.html#a811f54e8a3235096db56f12a52aa33eb">Bus</a>
 </li>
-<li>setChannelPressure()
-: <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a688036680ad02560cd03e02812fcfd69">Engine::VoiceManagerResponder</a>
-</li>
 <li>setCPULevel()
 : <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a21e9ad4a9bc6eb3b39338b30f02f1e2b">HeaderRegion</a>
 </li>
@@ -620,7 +617,13 @@ $(function() {
 : <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab827e3b125372d4d5b8be35f81a5f16d">Sample</a>
 </li>
 <li>setMIDI1CC()
-: <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af598e4a49c063ed0e67aad484e6670f9">Engine::VoiceManagerResponder</a>
+: <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html#a972628738edefc953b399c3ec11a0870">Engine::MonoVoiceManagerResponder</a>
+</li>
+<li>setMIDIChannelPressure()
+: <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html#a952179f04b3657bad29c6dde1db0b75c">Engine::MonoVoiceManagerResponder</a>
+</li>
+<li>setMIDIPitchBend()
+: <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html#a41866fc32f35e5b3de24d53ffcc0b73c">Engine::MonoVoiceManagerResponder</a>
 </li>
 <li>setModulatorStorage()
 : <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a3f0369fce1183209ccb7b767b0403b18">LfoPane</a>
@@ -809,9 +812,6 @@ $(function() {
 </li>
 <li>setVoiceMIDIMPEChannelPitchBend()
 : <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder</a>
-</li>
-<li>setVoiceMIDIPitchBend()
-: <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a085d883ab42e611f275961252691f487">Engine::VoiceManagerResponder</a>
 </li>
 <li>setVoicePolyphonicParameterModulation()
 : <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a65fe418857ec3ea0ec3998acde9c7c56">Engine::VoiceManagerResponder</a>
@@ -1136,7 +1136,8 @@ $(function() {
 : <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad7b2bee2d93164710622884b82566af1">SampleWaveform</a>
 </li>
 <li>state
-: <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#a52bf4efd4c9555ec60b9584c5ac7a7dc">StepLFO</a>
+: <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html#af0d56290c6f9c18c1130da853ce75b6d">GroupTrigger</a>
+, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#a52bf4efd4c9555ec60b9584c5ac7a7dc">StepLFO</a>
 </li>
 <li>State
 : <a class="el" href="structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a5d74787dedbc4e11c1ab15bf487e61f8">JSONLayoutConsumer</a>
@@ -1262,11 +1263,11 @@ $(function() {
 <li>StreamReason
 : <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197">Engine</a>
 </li>
-<li>string()
-: <a class="el" href="structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a8ca7e45715365b527abc838b65d29fe9">JSONLayoutConsumer</a>
-</li>
 <li>STRING
 : <a class="el" href="structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#ae4e345b0c7dd1a9361db89ba9e98b924">JSONLayoutConsumer</a>
+</li>
+<li>string()
+: <a class="el" href="structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a8ca7e45715365b527abc838b65d29fe9">JSONLayoutConsumer</a>
 </li>
 <li>stringToValue
 : <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a75c010be9aa6cc0139f01f4a76e6c77a">PayloadDataAttachment&lt; Payload, ValueType &gt;</a>
@@ -1340,7 +1341,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 1 2024 12:45:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Oct 2 2024 16:19:52 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

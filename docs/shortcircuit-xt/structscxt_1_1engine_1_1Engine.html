@@ -114,8 +114,9 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html">EngineStatusMessage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html">MonoVoiceManagerResponder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Midi-style events.  <a href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1PGZStructureBundle.html">PGZStructureBundle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,8 +139,8 @@ Public Types</h2></td></tr>
 , <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8">FOR_DAW</a>
  }</td></tr>
 <tr class="separator:a61de0b10c20c18509354c848d4d27197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e3cf62a5911eb558292f451dc2f36f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e3cf62a5911eb558292f451dc2f36f5">voiceManager_t</a> = sst::voicemanager::VoiceManager&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html">VMConfig</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">VoiceManagerResponder</a> &gt;</td></tr>
-<tr class="separator:a7e3cf62a5911eb558292f451dc2f36f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ef4a4c562251f5707a7a955dc16fc7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7">voiceManager_t</a> = sst::voicemanager::VoiceManager&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html">VMConfig</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">VoiceManagerResponder</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html">MonoVoiceManagerResponder</a> &gt;</td></tr>
+<tr class="separator:aa4ef4a4c562251f5707a7a955dc16fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16469390d3c378adf6e7f3ecfb75921d"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int32_t, int32_t, int32_t, int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a16469390d3c378adf6e7f3ecfb75921d">processorAddress_t</a></td></tr>
 <tr class="separator:a16469390d3c378adf6e7f3ecfb75921d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e1d06e4210aa8369a13d3b017d68293"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1PGZStructureBundle.html">PGZStructureBundle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a5e1d06e4210aa8369a13d3b017d68293">pgzStructure_t</a></td></tr>
@@ -181,6 +182,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4761b6ba0eb9e99231fb118ada734d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f4a7a47674c8fe7c817d983bfee318e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9f4a7a47674c8fe7c817d983bfee318e">updateTransportPhasors</a> ()</td></tr>
 <tr class="separator:a9f4a7a47674c8fe7c817d983bfee318e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9ca2277922fe68f6e6f92ec8c85b9d4a">processMIDI1Event</a> (uint16_t midiPort, const uint8_t data[3])</td></tr>
+<tr class="memdesc:a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Midi-style events.  <a href="structscxt_1_1engine_1_1Engine.html#a9ca2277922fe68f6e6f92ec8c85b9d4a">More...</a><br /></td></tr>
+<tr class="separator:a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11beb9fd52d4b4aec6743a7bfbf17366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a11beb9fd52d4b4aec6743a7bfbf17366">processNoteOnEvent</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id, double velocity, float retune)</td></tr>
+<tr class="separator:a11beb9fd52d4b4aec6743a7bfbf17366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16551e1b6c8c878cee39bca5885bff56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a16551e1b6c8c878cee39bca5885bff56">processNoteOffEvent</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id, double velocity)</td></tr>
+<tr class="separator:a16551e1b6c8c878cee39bca5885bff56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90ae6483c98b25f92f9d6f90cd229ede"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a90ae6483c98b25f92f9d6f90cd229ede">findZone</a> (int16_t channel, int16_t key, int32_t noteId, int16_t velocity, std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a>, maxVoices &gt; &amp;res)</td></tr>
 <tr class="separator:a90ae6483c98b25f92f9d6f90cd229ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ff935d0f3c3944592bf3f9e273c8a55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a0ff935d0f3c3944592bf3f9e273c8a55">onSampleRateChanged</a> () override</td></tr>
@@ -283,7 +291,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a23174a8e7a1c4ec2dac457d59320cdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff1fddf6450d9a2ac0a6591a3fa0989"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">scxt::engine::Engine::VoiceManagerResponder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a6ff1fddf6450d9a2ac0a6591a3fa0989">this</a></td></tr>
 <tr class="separator:a6ff1fddf6450d9a2ac0a6591a3fa0989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a387ddf9f9e4622be2ac461024a301d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e3cf62a5911eb558292f451dc2f36f5">voiceManager_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d">voiceManager</a> {voiceManagerResponder}</td></tr>
+<tr class="memitem:afa2578fdbdf0c974476aacbba0f4684a"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html">scxt::engine::Engine::MonoVoiceManagerResponder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#afa2578fdbdf0c974476aacbba0f4684a">this</a></td></tr>
+<tr class="separator:afa2578fdbdf0c974476aacbba0f4684a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a387ddf9f9e4622be2ac461024a301d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7">voiceManager_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d">voiceManager</a> {voiceManagerResponder, monoVoiceManagerResponder}</td></tr>
 <tr class="separator:a9a387ddf9f9e4622be2ac461024a301d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b989bf1cfed06d1649d8f09644acf0"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">activeVoices</a> {0}</td></tr>
 <tr class="separator:a96b989bf1cfed06d1649d8f09644acf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,14 +357,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a6e75222f396afa5250ac25637c0d2492 inherit pro_methods_classscxt_1_1MoveableOnly"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a7e3cf62a5911eb558292f451dc2f36f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e3cf62a5911eb558292f451dc2f36f5">&#9670;&nbsp;</a></span>voiceManager_t</h2>
+<a id="aa4ef4a4c562251f5707a7a955dc16fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ef4a4c562251f5707a7a955dc16fc7">&#9670;&nbsp;</a></span>voiceManager_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e3cf62a5911eb558292f451dc2f36f5">voiceManager_t</a> =  sst::voicemanager::VoiceManager&lt;<a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html">VMConfig</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">VoiceManagerResponder</a>&gt;</td>
+          <td class="memname">using <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7">voiceManager_t</a> =  sst::voicemanager::VoiceManager&lt;<a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html">VMConfig</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">VoiceManagerResponder</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html">MonoVoiceManagerResponder</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -549,7 +559,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">scxt::messaging::client::clearPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac5a1e902453c8e80c1e5855869a349c7">scxt::messaging::client::doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a919e38cd7062b6802c45af9bf23401b0">scxt::messaging::client::doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">scxt::messaging::client::doRenameZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">scxt::messaging::client::moveZoneFromTo()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aae2d7bd35e012f0a9d3fa9076ee68c40">SCXTPlugin::paramsInfo()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af61884fac4cd566e76778b2c777675dd">Engine::prepareToPlay()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae18d05f121ab3bf26fe144062a62502a">SCXTPlugin::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f54f67f0e959bc6c734e1b94d7c2806">scxt::messaging::client::processMidiFromGUI()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae8fa4fba751326442ae850a2d9c865a0">Zone::processWithOS()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">scxt::messaging::client::removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">scxt::messaging::client::removeZone()</a>, <a class="el" href="namespacescxt_1_1engine.html#a6fc1542075401a7cb697eb7667c031ca">scxt::engine::resolveMultiFileMissingWorkItem()</a>, <a class="el" href="namespacescxt_1_1engine.html#a310c75970c853335dea58fc8034c67f7">scxt::engine::resolveSingleFileMissingWorkItem()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba727a60097c4fcf0b2b63e99340d7b7">scxt::patch_io::savePart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">scxt::messaging::client::setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a454a95a640adf9d4bb143be6e9e906c4">scxt::messaging::client::swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a43a12a7a62127744bba530b019643f0a">scxt::messaging::client::swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1json.html#af5e7411383672fffa6f6f5a0ea297087">scxt::json::unstreamPartState()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a45936cce93ebf1bfdfd7ba305e03e864">Engine::~Engine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a520737119b7b70998c24a94f246ab199">scxt::messaging::client::clearPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb43b83d1c89f3fcd99a48d718e4959e">SelectionManager::configureAndSendZoneModMatrixMetadata()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac5a1e902453c8e80c1e5855869a349c7">scxt::messaging::client::doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a919e38cd7062b6802c45af9bf23401b0">scxt::messaging::client::doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9018653894008e65808adfa2b3b25f0b">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a62a4bbb393ddae72288b9c44c78c7efd">scxt::messaging::client::doRenameZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3aeb25118b83a98b2991e2ace37b3138">scxt::messaging::client::moveZoneFromTo()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aae2d7bd35e012f0a9d3fa9076ee68c40">SCXTPlugin::paramsInfo()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af61884fac4cd566e76778b2c777675dd">Engine::prepareToPlay()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae18d05f121ab3bf26fe144062a62502a">SCXTPlugin::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f54f67f0e959bc6c734e1b94d7c2806">scxt::messaging::client::processMidiFromGUI()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aedbc2a2a3c980c6c5fc21e65715f4f52">SelectionManager::processorTypesForSelectedZones()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae8fa4fba751326442ae850a2d9c865a0">Zone::processWithOS()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad22b5c7fe75d5fe334e4e8bc7f62416f">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aef55be905920e27c3f37db9ee558092c">scxt::messaging::client::removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a74d58aa5f6a1ec6f9ccfaaa88ec79d1e">scxt::messaging::client::removeZone()</a>, <a class="el" href="namespacescxt_1_1engine.html#a6fc1542075401a7cb697eb7667c031ca">scxt::engine::resolveMultiFileMissingWorkItem()</a>, <a class="el" href="namespacescxt_1_1engine.html#a310c75970c853335dea58fc8034c67f7">scxt::engine::resolveSingleFileMissingWorkItem()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba727a60097c4fcf0b2b63e99340d7b7">scxt::patch_io::savePart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a5340b657b53faafd743da6a2ce8cfd1a">SelectionManager::selectAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab6d8acb77f3bb041ca0e4620545e7f32">SelectionManager::sendDisplayDataForSingleGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html#a972628738edefc953b399c3ec11a0870">Engine::MonoVoiceManagerResponder::setMIDI1CC()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html#a41866fc32f35e5b3de24d53ffcc0b73c">Engine::MonoVoiceManagerResponder::setMIDIPitchBend()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa22534b89bec4685facb25606f4ac0f8">scxt::messaging::client::setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a454a95a640adf9d4bb143be6e9e906c4">scxt::messaging::client::swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a43a12a7a62127744bba530b019643f0a">scxt::messaging::client::swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1json.html#af5e7411383672fffa6f6f5a0ea297087">scxt::json::unstreamPartState()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a45936cce93ebf1bfdfd7ba305e03e864">Engine::~Engine()</a>.</p>
 
 </div>
 </div>
@@ -692,6 +702,135 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ca2277922fe68f6e6f92ec8c85b9d4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca2277922fe68f6e6f92ec8c85b9d4a">&#9670;&nbsp;</a></span>processMIDI1Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processMIDI1Event </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>midiPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>[3]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Midi-style events. </p>
+<p>Each event is assumed to be at the top of the blockSize sample block </p>
+
+</div>
+</div>
+<a id="a11beb9fd52d4b4aec6743a7bfbf17366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11beb9fd52d4b4aec6743a7bfbf17366">&#9670;&nbsp;</a></span>processNoteOnEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processNoteOnEvent </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>note_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>velocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>retune</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16551e1b6c8c878cee39bca5885bff56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16551e1b6c8c878cee39bca5885bff56">&#9670;&nbsp;</a></span>processNoteOffEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processNoteOffEvent </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>note_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>velocity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a90ae6483c98b25f92f9d6f90cd229ede"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90ae6483c98b25f92f9d6f90cd229ede">&#9670;&nbsp;</a></span>findZone()</h2>
 
@@ -735,8 +874,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d">Part::PartConfiguration::omniChannel</a>.</p>
 
 </div>
 </div>
@@ -1626,13 +1763,27 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a6ff1fddf6450d9a2ac0a6591a3fa0989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ff1fddf6450d9a2ac0a6591a3fa0989">&#9670;&nbsp;</a></span>this</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ff1fddf6450d9a2ac0a6591a3fa0989">&#9670;&nbsp;</a></span>this <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">struct <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html">scxt::engine::Engine::VoiceManagerResponder</a>* this</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa2578fdbdf0c974476aacbba0f4684a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2578fdbdf0c974476aacbba0f4684a">&#9670;&nbsp;</a></span>this <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html">scxt::engine::Engine::MonoVoiceManagerResponder</a>* this</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1646,7 +1797,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e3cf62a5911eb558292f451dc2f36f5">voiceManager_t</a> voiceManager {voiceManagerResponder}</td>
+          <td class="memname"><a class="el" href="structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7">voiceManager_t</a> voiceManager {voiceManagerResponder, monoVoiceManagerResponder}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1966,7 +2117,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 1 2024 12:45:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Oct 2 2024 16:19:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
