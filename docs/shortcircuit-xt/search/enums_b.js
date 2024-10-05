@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['uint16_5ft_7330',['uint16_t',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1ToBeDeleted.html#a5a8b2dc9e45a9ee81a94ef304fb62505',1,'scxt::messaging::audio::AudioToSerialization::ToBeDeleted']]]
+  ['triggermode_7367',['TriggerMode',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127',1,'scxt::modulation::ModulatorStorage']]],
+  ['tuningmode_7368',['TuningMode',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278',1,'scxt::tuning::MidikeyRetuner']]],
+  ['type_7369',['Type',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'scxt::sfz_support::SFZParser::Header']]]
 ];

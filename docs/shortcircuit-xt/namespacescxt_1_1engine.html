@@ -117,8 +117,14 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html">HasGroupZoneProcessors</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTMacro.html">GTMacro</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html">GTMIDI1CC</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maintain the state of keys ccs etc...  <a href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate if a group is triggered.  <a href="structscxt_1_1engine_1_1GroupTrigger.html#details">More...</a><br /></td></tr>
@@ -149,6 +155,8 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> = void(*)(int16_t, float *const)</td></tr>
 <tr class="separator:a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ef92ac6a3eccff054dfc51aea1ef92"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a> = uint8_t[2048]</td></tr>
+<tr class="separator:ae7ef92ac6a3eccff054dfc51aea1ef92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -182,6 +190,11 @@ Enumerations</h2></td></tr>
 <tr class="memitem:afd1b761f8d14a5ed98feaaa0c7cc4596"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#afd1b761f8d14a5ed98feaaa0c7cc4596">ZoneFeatures</a> { <a class="el" href="namespacescxt_1_1engine.html#afd1b761f8d14a5ed98feaaa0c7cc4596a55abd6c8b0460e54822565c5b2d2c0cc">MISSING_SAMPLE</a> = 1 &lt;&lt; 0
  }</td></tr>
 <tr class="separator:afd1b761f8d14a5ed98feaaa0c7cc4596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99904f2c6e1ed9d61e6f170de982c100"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> : int32_t { <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>
+ }</td></tr>
+<tr class="separator:a99904f2c6e1ed9d61e6f170de982c100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -193,10 +206,16 @@ Functions</h2></td></tr>
 <tr class="separator:a908f1a6ae20fcc3f5ee11e6e42d27f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c2e23afd0082fc3e450f60bec93f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a51c2e23afd0082fc3e450f60bec93f01">fromStringAvailableBusEffects</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a51c2e23afd0082fc3e450f60bec93f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d8b20bbd337346b587b920dcd13b1c4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a2d8b20bbd337346b587b920dcd13b1c4">makeMacroGroupTrigger</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
-<tr class="separator:a2d8b20bbd337346b587b920dcd13b1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66820b4010cfb0a7816cb4e996becf62"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a66820b4010cfb0a7816cb4e996becf62">makeMIDI1CCGroupTrigger</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
-<tr class="separator:a66820b4010cfb0a7816cb4e996becf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953a87c1f2d571853bac7926eb67fd6f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a953a87c1f2d571853bac7926eb67fd6f">toStringGroupTriggerID</a> (const <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> &amp;p)</td></tr>
+<tr class="separator:a953a87c1f2d571853bac7926eb67fd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861773719d557bfe222f7672c3aee61a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a861773719d557bfe222f7672c3aee61a">fromStringGroupTriggerID</a> (const std::string &amp;s)</td></tr>
+<tr class="separator:a861773719d557bfe222f7672c3aee61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6210863a530f402f3d7fcbcdebd2854"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">GroupTriggerConditions::Conjunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ac6210863a530f402f3d7fcbcdebd2854">fromStringConditionsConjunction</a> (const std::string &amp;s)</td></tr>
+<tr class="separator:ac6210863a530f402f3d7fcbcdebd2854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13058f697d308308bbf26a1e8d920524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a13058f697d308308bbf26a1e8d920524">makeGroupTrigger</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> id, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;gis, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a> &amp;st, <a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a> &amp;bf)</td></tr>
+<tr class="separator:a13058f697d308308bbf26a1e8d920524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c226bc2339219c74e57603acbe2ad2b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8c226bc2339219c74e57603acbe2ad2b">getGroupTriggerDisplayName</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>)</td></tr>
+<tr class="separator:a8c226bc2339219c74e57603acbe2ad2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">collectMissingResolutionWorkItems</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a310c75970c853335dea58fc8034c67f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a310c75970c853335dea58fc8034c67f7">resolveSingleFileMissingWorkItem</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;mwi, const fs::path &amp;p)</td></tr>
@@ -222,6 +241,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> =  void (*)(int16_t, float *const)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7ef92ac6a3eccff054dfc51aea1ef92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ef92ac6a3eccff054dfc51aea1ef92">&#9670;&nbsp;</a></span>GroupTriggerBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a> =  uint8_t[2048]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -290,6 +323,33 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afd1b761f8d14a5ed98feaaa0c7cc4596a55abd6c8b0460e54822565c5b2d2c0cc"></a>MISSING_SAMPLE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a99904f2c6e1ed9d61e6f170de982c100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99904f2c6e1ed9d61e6f170de982c100">&#9670;&nbsp;</a></span>GroupTriggerID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> : int32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c"></a>MACRO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745"></a>MIDICC&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -393,34 +453,120 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2d8b20bbd337346b587b920dcd13b1c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d8b20bbd337346b587b920dcd13b1c4">&#9670;&nbsp;</a></span>makeMacroGroupTrigger()</h2>
+<a id="a953a87c1f2d571853bac7926eb67fd6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953a87c1f2d571853bac7926eb67fd6f">&#9670;&nbsp;</a></span>toStringGroupTriggerID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a>&gt; scxt::engine::makeMacroGroupTrigger </td>
+          <td class="memname">std::string toStringGroupTriggerID </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
+
 </div>
 </div>
-<a id="a66820b4010cfb0a7816cb4e996becf62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66820b4010cfb0a7816cb4e996becf62">&#9670;&nbsp;</a></span>makeMIDI1CCGroupTrigger()</h2>
+<a id="a861773719d557bfe222f7672c3aee61a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861773719d557bfe222f7672c3aee61a">&#9670;&nbsp;</a></span>fromStringGroupTriggerID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a>&gt; scxt::engine::makeMIDI1CCGroupTrigger </td>
+          <td class="memname"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> fromStringGroupTriggerID </td>
           <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
+
+</div>
+</div>
+<a id="ac6210863a530f402f3d7fcbcdebd2854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6210863a530f402f3d7fcbcdebd2854">&#9670;&nbsp;</a></span>fromStringConditionsConjunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">GroupTriggerConditions::Conjunction</a> scxt::engine::fromStringConditionsConjunction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532">GroupTriggerConditions::AND</a>, <a class="el" href="namespacescxt.html#aed726e8b248ac5376913860b73ef3977">scxt::makeEnumInverse()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa756eaf1e3554bffb0df4a824191577f6">GroupTriggerConditions::OR_NOT</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aea5777c4a999c83a04d211a5bd130ae8">GroupTriggerConditions::toStringGroupConditionsConjunction()</a>.</p>
+
+</div>
+</div>
+<a id="a13058f697d308308bbf26a1e8d920524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13058f697d308308bbf26a1e8d920524">&#9670;&nbsp;</a></span>makeGroupTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> * makeGroupTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;&#160;</td>
+          <td class="paramname"><em>gis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>bf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="group__triggers_8cpp.html#a08e6ac896c71158832c8ac77ff2b6c38">CS</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a8c226bc2339219c74e57603acbe2ad2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c226bc2339219c74e57603acbe2ad2b">&#9670;&nbsp;</a></span>getGroupTriggerDisplayName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string scxt::engine::getGroupTriggerDisplayName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -599,7 +745,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 3 2024 22:17:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Oct 5 2024 15:26:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

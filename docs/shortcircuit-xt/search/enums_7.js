@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['mainselection_7310',['MainSelection',['../structscxt_1_1selection_1_1SelectionManager.html#acf5fcdaecfe60be057e76a93cac9fded',1,'scxt::selection::SelectionManager']]],
-  ['mainthreadactions_7311',['MainThreadActions',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491c',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
-  ['mfseek_7312',['mfseek',['../namespacescxt_1_1sample_1_1loaders.html#a64ef8dfaebae64d60164bdd0e5fd6183',1,'scxt::sample::loaders']]],
-  ['modulatorshape_7313',['ModulatorShape',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d',1,'scxt::modulation::ModulatorStorage']]],
-  ['mousestate_7314',['MouseState',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8c',1,'scxt::ui::app::edit_screen::SampleWaveform::MouseState()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8c',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay::MouseState()']]]
+  ['lfoevaluator_7346',['LFOEvaluator',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08',1,'scxt::modulation::shared::HasModulators']]],
+  ['lfopresets_7347',['LFOPresets',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33ce',1,'scxt::modulation::modulators']]],
+  ['loopdirection_7348',['LoopDirection',['../structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741',1,'scxt::engine::Zone']]],
+  ['loopmode_7349',['LoopMode',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3',1,'scxt::engine::Zone']]]
 ];

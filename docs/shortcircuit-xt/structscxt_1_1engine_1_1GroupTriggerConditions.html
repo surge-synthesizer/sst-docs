@@ -88,7 +88,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structscxt_1_1engine_1_1GroupTriggerConditions-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">GroupTriggerConditions Struct Reference</div>  </div>
@@ -97,51 +100,185 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae29d2dadfea903e924a7b6526b34a1dd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae29d2dadfea903e924a7b6526b34a1dd">Conjunction</a> { <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae29d2dadfea903e924a7b6526b34a1dda865555c9f2e0458a7078486aa1b3254f">AND</a>
-, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae29d2dadfea903e924a7b6526b34a1dda96727447c0ad447987df1c6415aef074">OR</a>
+<tr class="memitem:a4bf3727f5c3c89a9e7d3b88969ce767a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a> : int32_t { <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532">AND</a>
+, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa1d00e7dce692e8dc3f6877f035e3a616">OR</a>
+, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef">AND_NOT</a>
+, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa756eaf1e3554bffb0df4a824191577f6">OR_NOT</a>
  }</td></tr>
-<tr class="separator:ae29d2dadfea903e924a7b6526b34a1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a4bf3727f5c3c89a9e7d3b88969ce767a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1e9e69264ed14d682ebcb24f030fe1ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions</a> ()</td></tr>
+<tr class="separator:a1e9e69264ed14d682ebcb24f030fe1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5023e4bb12e409c6c26aa286104a3422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">setupOnUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
+<tr class="separator:a5023e4bb12e409c6c26aa286104a3422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aea5777c4a999c83a04d211a5bd130ae8"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aea5777c4a999c83a04d211a5bd130ae8">toStringGroupConditionsConjunction</a> (const <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a> &amp;p)</td></tr>
+<tr class="separator:aea5777c4a999c83a04d211a5bd130ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade045c3c42747e92427d52359c0149a9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ade045c3c42747e92427d52359c0149a9">fromStringConditionsConjunction</a> (const std::string &amp;p)</td></tr>
+<tr class="separator:ade045c3c42747e92427d52359c0149a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6c83e827d3ddc6b7a6779d4804da033c"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> &gt;, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a6c83e827d3ddc6b7a6779d4804da033c">conditions</a></td></tr>
-<tr class="separator:a6c83e827d3ddc6b7a6779d4804da033c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a652414a89e705a43378458b3bf1ad498"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">active</a></td></tr>
+<tr class="memitem:abda13b12191d775aae7efc6e99cd4c50"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a>, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">storage</a> {}</td></tr>
+<tr class="separator:abda13b12191d775aae7efc6e99cd4c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652414a89e705a43378458b3bf1ad498"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">active</a> {}</td></tr>
 <tr class="separator:a652414a89e705a43378458b3bf1ad498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac545a5e654abc7547f56c978ee10e7ed"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae29d2dadfea903e924a7b6526b34a1dd">Conjunction</a>, scxt::triggerConditionsPerGroup - 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ac545a5e654abc7547f56c978ee10e7ed">conjunctions</a></td></tr>
+<tr class="memitem:ac545a5e654abc7547f56c978ee10e7ed"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a>, scxt::triggerConditionsPerGroup - 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ac545a5e654abc7547f56c978ee10e7ed">conjunctions</a></td></tr>
 <tr class="separator:ac545a5e654abc7547f56c978ee10e7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a0433a601f9bd2f8e4057a8d8cab4341e"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a>, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a0433a601f9bd2f8e4057a8d8cab4341e">conditionBuffers</a></td></tr>
+<tr class="separator:a0433a601f9bd2f8e4057a8d8cab4341e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5c853752e69cfb66dbe5606629ca1d"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> *, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">conditions</a> {}</td></tr>
+<tr class="separator:a5d5c853752e69cfb66dbe5606629ca1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ae29d2dadfea903e924a7b6526b34a1dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae29d2dadfea903e924a7b6526b34a1dd">&#9670;&nbsp;</a></span>Conjunction</h2>
+<a id="a4bf3727f5c3c89a9e7d3b88969ce767a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf3727f5c3c89a9e7d3b88969ce767a">&#9670;&nbsp;</a></span>Conjunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a> : int32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532"></a>AND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4bf3727f5c3c89a9e7d3b88969ce767aa1d00e7dce692e8dc3f6877f035e3a616"></a>OR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef"></a>AND_NOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4bf3727f5c3c89a9e7d3b88969ce767aa756eaf1e3554bffb0df4a824191577f6"></a>OR_NOT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1e9e69264ed14d682ebcb24f030fe1ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9e69264ed14d682ebcb24f030fe1ba">&#9670;&nbsp;</a></span>GroupTriggerConditions()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae29d2dadfea903e924a7b6526b34a1dd">Conjunction</a></td>
+          <td class="memname"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html">GroupTriggerConditions</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae29d2dadfea903e924a7b6526b34a1dda865555c9f2e0458a7078486aa1b3254f"></a>AND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae29d2dadfea903e924a7b6526b34a1dda96727447c0ad447987df1c6415aef074"></a>OR&#160;</td><td class="fielddoc"></td></tr>
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">GroupTriggerConditions::active</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aea5777c4a999c83a04d211a5bd130ae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea5777c4a999c83a04d211a5bd130ae8">&#9670;&nbsp;</a></span>toStringGroupConditionsConjunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string toStringGroupConditionsConjunction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
 </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532">GroupTriggerConditions::AND</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef">GroupTriggerConditions::AND_NOT</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa1d00e7dce692e8dc3f6877f035e3a616">GroupTriggerConditions::OR</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa756eaf1e3554bffb0df4a824191577f6">GroupTriggerConditions::OR_NOT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1engine.html#ac6210863a530f402f3d7fcbcdebd2854">scxt::engine::fromStringConditionsConjunction()</a>.</p>
+
+</div>
+</div>
+<a id="ade045c3c42747e92427d52359c0149a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade045c3c42747e92427d52359c0149a9">&#9670;&nbsp;</a></span>fromStringConditionsConjunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a> fromStringConditionsConjunction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5023e4bb12e409c6c26aa286104a3422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5023e4bb12e409c6c26aa286104a3422">&#9670;&nbsp;</a></span>setupOnUnstream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setupOnUnstream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;&#160;</td>
+          <td class="paramname"><em>gis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a0433a601f9bd2f8e4057a8d8cab4341e">GroupTriggerConditions::conditionBuffers</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>, <a class="el" href="namespacescxt_1_1engine.html#a13058f697d308308bbf26a1e8d920524">scxt::engine::makeGroupTrigger()</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">scxt::engine::NONE</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">GroupTriggerConditions::storage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a76bd2fa77271864a08c074372ea030bb">Group::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6c83e827d3ddc6b7a6779d4804da033c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c83e827d3ddc6b7a6779d4804da033c">&#9670;&nbsp;</a></span>conditions</h2>
+<a id="abda13b12191d775aae7efc6e99cd4c50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda13b12191d775aae7efc6e99cd4c50">&#9670;&nbsp;</a></span>storage</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a>&gt;, scxt::triggerConditionsPerGroup&gt; conditions</td>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a>, scxt::triggerConditionsPerGroup&gt; storage {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -152,10 +289,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;bool, scxt::triggerConditionsPerGroup&gt; active</td>
+          <td class="memname">std::array&lt;bool, scxt::triggerConditionsPerGroup&gt; active {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>.</p>
 
 </div>
 </div>
@@ -166,20 +305,69 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae29d2dadfea903e924a7b6526b34a1dd">Conjunction</a>, scxt::triggerConditionsPerGroup - 1&gt; conjunctions</td>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a>, scxt::triggerConditionsPerGroup - 1&gt; conjunctions</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a id="a0433a601f9bd2f8e4057a8d8cab4341e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0433a601f9bd2f8e4057a8d8cab4341e">&#9670;&nbsp;</a></span>conditionBuffers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a>, scxt::triggerConditionsPerGroup&gt; conditionBuffers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a5d5c853752e69cfb66dbe5606629ca1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5c853752e69cfb66dbe5606629ca1d">&#9670;&nbsp;</a></span>conditions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a> *, scxt::triggerConditionsPerGroup&gt; conditions {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="group__triggers_8h.html">group_triggers.h</a></li>
+<li><a class="el" href="group__triggers_8cpp.html">group_triggers.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 3 2024 22:17:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Oct 5 2024 15:26:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
