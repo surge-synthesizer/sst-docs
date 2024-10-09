@@ -113,6 +113,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e9e69264ed14d682ebcb24f030fe1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5023e4bb12e409c6c26aa286104a3422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">setupOnUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
 <tr class="separator:a5023e4bb12e409c6c26aa286104a3422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f92dbb541f0e403a5eec0852b75c11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a73f92dbb541f0e403a5eec0852b75c11">value</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;) const</td></tr>
+<tr class="separator:a73f92dbb541f0e403a5eec0852b75c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -127,6 +129,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abda13b12191d775aae7efc6e99cd4c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652414a89e705a43378458b3bf1ad498"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">active</a> {}</td></tr>
 <tr class="separator:a652414a89e705a43378458b3bf1ad498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b386b3a47dc6c8c3f0af8bd4d66ed9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aa0b386b3a47dc6c8c3f0af8bd4d66ed9">alwaysReturnsTrue</a> {true}</td></tr>
+<tr class="separator:aa0b386b3a47dc6c8c3f0af8bd4d66ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac545a5e654abc7547f56c978ee10e7ed"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a">Conjunction</a>, scxt::triggerConditionsPerGroup - 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ac545a5e654abc7547f56c978ee10e7ed">conjunctions</a></td></tr>
 <tr class="separator:ac545a5e654abc7547f56c978ee10e7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -261,9 +265,39 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a0433a601f9bd2f8e4057a8d8cab4341e">GroupTriggerConditions::conditionBuffers</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>, <a class="el" href="namespacescxt_1_1engine.html#a13058f697d308308bbf26a1e8d920524">scxt::engine::makeGroupTrigger()</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">scxt::engine::NONE</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">GroupTriggerConditions::storage</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aa0b386b3a47dc6c8c3f0af8bd4d66ed9">GroupTriggerConditions::alwaysReturnsTrue</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a0433a601f9bd2f8e4057a8d8cab4341e">GroupTriggerConditions::conditionBuffers</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>, <a class="el" href="namespacescxt_1_1engine.html#a13058f697d308308bbf26a1e8d920524">scxt::engine::makeGroupTrigger()</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">scxt::engine::NONE</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">GroupTriggerConditions::storage</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a76bd2fa77271864a08c074372ea030bb">Group::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a73f92dbb541f0e403a5eec0852b75c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f92dbb541f0e403a5eec0852b75c11">&#9670;&nbsp;</a></span>value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool value </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;&#160;</td>
+          <td class="paramname"><em>g</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">GroupTriggerConditions::active</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aa0b386b3a47dc6c8c3f0af8bd4d66ed9">GroupTriggerConditions::alwaysReturnsTrue</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>.</p>
 
 </div>
 </div>
@@ -280,7 +314,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
 
 </div>
 </div>
@@ -296,7 +330,23 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a73f92dbb541f0e403a5eec0852b75c11">GroupTriggerConditions::value()</a>.</p>
+
+</div>
+</div>
+<a id="aa0b386b3a47dc6c8c3f0af8bd4d66ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0b386b3a47dc6c8c3f0af8bd4d66ed9">&#9670;&nbsp;</a></span>alwaysReturnsTrue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool alwaysReturnsTrue {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a73f92dbb541f0e403a5eec0852b75c11">GroupTriggerConditions::value()</a>.</p>
 
 </div>
 </div>
@@ -358,7 +408,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a73f92dbb541f0e403a5eec0852b75c11">GroupTriggerConditions::value()</a>.</p>
 
 </div>
 </div>
@@ -369,7 +419,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 5 2024 17:19:47 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Oct 9 2024 13:11:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
