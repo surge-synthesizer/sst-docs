@@ -112,10 +112,12 @@ Functions</h2></td></tr>
 <tr class="separator:aa7ff0c4fef2f0e5001096105fe22963b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc683be8b89ad3197bbaf8959b38698c"><td class="memItemLeft" align="right" valign="top">const clap_plugin_descriptor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1clap__first.html#adc683be8b89ad3197bbaf8959b38698c">clap_get_plugin_descriptor</a> (const clap_plugin_factory *f, uint32_t w)</td></tr>
 <tr class="separator:adc683be8b89ad3197bbaf8959b38698c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10958f575af856c53cf160438130059f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1clap__first.html#a10958f575af856c53cf160438130059f">clap_init</a> (const char *p)</td></tr>
-<tr class="separator:a10958f575af856c53cf160438130059f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a709ee26dbea0f3730b37b3d5ce6110ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1clap__first.html#a709ee26dbea0f3730b37b3d5ce6110ec">clap_deinit</a> ()</td></tr>
-<tr class="separator:a709ee26dbea0f3730b37b3d5ce6110ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb34bc16b83eb56bd1025e8033100166"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1clap__first.html#acb34bc16b83eb56bd1025e8033100166">get_factory</a> (const char *factory_id)</td></tr>
+<tr class="separator:acb34bc16b83eb56bd1025e8033100166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d512d53b0fce4694444176415b7c3d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1clap__first.html#a2d512d53b0fce4694444176415b7c3d6">clap_init</a> (const char *p)</td></tr>
+<tr class="separator:a2d512d53b0fce4694444176415b7c3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58468ad90465cf68fdf6cd0c066347c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1clap__first.html#a58468ad90465cf68fdf6cd0c066347c2">clap_deinit</a> ()</td></tr>
+<tr class="separator:a58468ad90465cf68fdf6cd0c066347c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -188,14 +190,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a10958f575af856c53cf160438130059f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10958f575af856c53cf160438130059f">&#9670;&nbsp;</a></span>clap_init()</h2>
+<a id="acb34bc16b83eb56bd1025e8033100166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb34bc16b83eb56bd1025e8033100166">&#9670;&nbsp;</a></span>get_factory()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool scxt::clap_first::clap_init </td>
+          <td class="memname">const void * get_factory </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>factory_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1clap__first.html#aecfdbffa04f8b11c7cf267c0fa40b330">scxt_auv2_factory</a>, and <a class="el" href="namespacescxt_1_1clap__first.html#a76f232e9fabb171ea78d9b37ac5c57f4">scxt_clap_factory</a>.</p>
+
+</div>
+</div>
+<a id="a2d512d53b0fce4694444176415b7c3d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d512d53b0fce4694444176415b7c3d6">&#9670;&nbsp;</a></span>clap_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool clap_init </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -206,14 +228,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a709ee26dbea0f3730b37b3d5ce6110ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a709ee26dbea0f3730b37b3d5ce6110ec">&#9670;&nbsp;</a></span>clap_deinit()</h2>
+<a id="a58468ad90465cf68fdf6cd0c066347c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58468ad90465cf68fdf6cd0c066347c2">&#9670;&nbsp;</a></span>clap_deinit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void scxt::clap_first::clap_deinit </td>
+          <td class="memname">void clap_deinit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -240,9 +262,11 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code" href="namespacescxt_1_1clap__first.html#adc683be8b89ad3197bbaf8959b38698c">clap_get_plugin_descriptor</a>,</div>
 <div class="line">    clap_create_plugin,</div>
 <div class="line">}</div>
-<div class="ttc" id="anamespacescxt_1_1clap__first_html_aa7ff0c4fef2f0e5001096105fe22963b"><div class="ttname"><a href="namespacescxt_1_1clap__first.html#aa7ff0c4fef2f0e5001096105fe22963b">scxt::clap_first::clap_get_plugin_count</a></div><div class="ttdeci">uint32_t clap_get_plugin_count(const clap_plugin_factory *f)</div><div class="ttdef"><b>Definition:</b> scxt-clap-entry.cpp:57</div></div>
-<div class="ttc" id="anamespacescxt_1_1clap__first_html_adc683be8b89ad3197bbaf8959b38698c"><div class="ttname"><a href="namespacescxt_1_1clap__first.html#adc683be8b89ad3197bbaf8959b38698c">scxt::clap_first::clap_get_plugin_descriptor</a></div><div class="ttdeci">const clap_plugin_descriptor * clap_get_plugin_descriptor(const clap_plugin_factory *f, uint32_t w)</div><div class="ttdef"><b>Definition:</b> scxt-clap-entry.cpp:58</div></div>
+<div class="ttc" id="anamespacescxt_1_1clap__first_html_aa7ff0c4fef2f0e5001096105fe22963b"><div class="ttname"><a href="namespacescxt_1_1clap__first.html#aa7ff0c4fef2f0e5001096105fe22963b">scxt::clap_first::clap_get_plugin_count</a></div><div class="ttdeci">uint32_t clap_get_plugin_count(const clap_plugin_factory *f)</div><div class="ttdef"><b>Definition:</b> scxt-clap-entry-impl.cpp:49</div></div>
+<div class="ttc" id="anamespacescxt_1_1clap__first_html_adc683be8b89ad3197bbaf8959b38698c"><div class="ttname"><a href="namespacescxt_1_1clap__first.html#adc683be8b89ad3197bbaf8959b38698c">scxt::clap_first::clap_get_plugin_descriptor</a></div><div class="ttdeci">const clap_plugin_descriptor * clap_get_plugin_descriptor(const clap_plugin_factory *f, uint32_t w)</div><div class="ttdef"><b>Definition:</b> scxt-clap-entry-impl.cpp:50</div></div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1clap__first.html#acb34bc16b83eb56bd1025e8033100166">get_factory()</a>.</p>
+
 </div>
 </div>
 <a id="aecfdbffa04f8b11c7cf267c0fa40b330"></a>
@@ -260,12 +284,14 @@ Variables</h2></td></tr>
 <div class="line">                                                              <span class="stringliteral">&quot;Surge Synth Team&quot;</span>, </div>
 <div class="line">                                                              clap_get_auv2_info}</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1clap__first.html#acb34bc16b83eb56bd1025e8033100166">get_factory()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 9 2024 22:56:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Oct 11 2024 12:03:29 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
