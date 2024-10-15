@@ -228,6 +228,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8e2f1ec67e93de7517eed468e0ac3715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a713d97b97f0bdaa5b1242e104026e837"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a713d97b97f0bdaa5b1242e104026e837">showTooltip</a> (const juce::Component &amp;relativeTo)</td></tr>
 <tr class="separator:a713d97b97f0bdaa5b1242e104026e837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ea42cb8bbba0630446cfa5a6303080c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1ea42cb8bbba0630446cfa5a6303080c">showTooltip</a> (const juce::Component &amp;relativeTo, const juce::Point&lt; int &gt; &amp;internalPosition)</td></tr>
+<tr class="separator:a1ea42cb8bbba0630446cfa5a6303080c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791d063ee6d06f8d68e04cb6266a2d17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a791d063ee6d06f8d68e04cb6266a2d17">repositionTooltip</a> (const juce::Component &amp;relativeTo, const juce::Point&lt; int &gt; &amp;internalPosition)</td></tr>
+<tr class="separator:a791d063ee6d06f8d68e04cb6266a2d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb9104d43a8ae01c2023f36390a1909f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f">hideTooltip</a> ()</td></tr>
 <tr class="separator:adb9104d43a8ae01c2023f36390a1909f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242b3ed5730f5a8275007dcc8ca3e4d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a242b3ed5730f5a8275007dcc8ca3e4d1">setTooltipContents</a> (const std::string &amp;title, const std::vector&lt; sst::jucegui::components::ToolTip::Row &gt; &amp;rows)</td></tr>
@@ -1585,7 +1589,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a713d97b97f0bdaa5b1242e104026e837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a713d97b97f0bdaa5b1242e104026e837">&#9670;&nbsp;</a></span>showTooltip()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a713d97b97f0bdaa5b1242e104026e837">&#9670;&nbsp;</a></span>showTooltip() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1606,6 +1610,68 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1ea42cb8bbba0630446cfa5a6303080c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ea42cb8bbba0630446cfa5a6303080c">&#9670;&nbsp;</a></span>showTooltip() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void showTooltip </td>
+          <td>(</td>
+          <td class="paramtype">const juce::Component &amp;&#160;</td>
+          <td class="paramname"><em>relativeTo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const juce::Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>internalPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
+
+</div>
+</div>
+<a id="a791d063ee6d06f8d68e04cb6266a2d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791d063ee6d06f8d68e04cb6266a2d17">&#9670;&nbsp;</a></span>repositionTooltip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void repositionTooltip </td>
+          <td>(</td>
+          <td class="paramtype">const juce::Component &amp;&#160;</td>
+          <td class="paramname"><em>relativeTo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const juce::Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>internalPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a278d9b27ae24a65205f4079608988d93">ZoneLayoutDisplay::updateTooltipContents()</a>.</p>
+
+</div>
+</div>
 <a id="adb9104d43a8ae01c2023f36390a1909f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb9104d43a8ae01c2023f36390a1909f">&#9670;&nbsp;</a></span>hideTooltip()</h2>
 
@@ -1623,7 +1689,7 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a6eabfe70d2d9352ed41a16e2882e1645">ZoneLayoutDisplay::mouseUp()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1655,7 +1721,7 @@ Protected Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9c77147098a7a532ef631d348e7209ff">SCXTEditor::setTooltipContents()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1MacroValueAttachment.html#a1b8455cde112285aa6020040a06fcf2a">MacroValueAttachment::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad">ModRow&lt; GZTrait &gt;::updateTooltip()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a4944d08fa01b119c220cb92ed6802d7e">HasEditor::updateValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9c77147098a7a532ef631d348e7209ff">SCXTEditor::setTooltipContents()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1MacroValueAttachment.html#a1b8455cde112285aa6020040a06fcf2a">MacroValueAttachment::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad">ModRow&lt; GZTrait &gt;::updateTooltip()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a278d9b27ae24a65205f4079608988d93">ZoneLayoutDisplay::updateTooltipContents()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a4944d08fa01b119c220cb92ed6802d7e">HasEditor::updateValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -2291,7 +2357,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f">SCXTEditor::hideTooltip()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ac0d1135471eeb7f62d494303c3bf3b79">SCXTEditor::setTooltipContents()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a713d97b97f0bdaa5b1242e104026e837">SCXTEditor::showTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f">SCXTEditor::hideTooltip()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a791d063ee6d06f8d68e04cb6266a2d17">SCXTEditor::repositionTooltip()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ac0d1135471eeb7f62d494303c3bf3b79">SCXTEditor::setTooltipContents()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a713d97b97f0bdaa5b1242e104026e837">SCXTEditor::showTooltip()</a>.</p>
 
 </div>
 </div>
@@ -2652,7 +2718,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 13 2024 15:10:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Oct 15 2024 13:44:40 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
