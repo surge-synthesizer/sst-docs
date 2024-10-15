@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['aboutinfo_3917',['AboutInfo',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen_1_1AboutInfo.html',1,'scxt::ui::app::other_screens::AboutScreen']]],
-  ['aboutlink_3918',['AboutLink',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html',1,'scxt::ui::app::other_screens']]],
-  ['aboutscreen_3919',['AboutScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html',1,'scxt::ui::app::other_screens']]],
-  ['adsrpane_3920',['AdsrPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['adsrstorage_3921',['AdsrStorage',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html',1,'scxt::modulation::modulators']]],
-  ['aiff_5fcommonchunk_3922',['aiff_CommonChunk',['../structscxt_1_1sample_1_1aiff__CommonChunk.html',1,'scxt::sample']]],
-  ['aiff_5finst_5fchunk_3923',['aiff_INST_chunk',['../structscxt_1_1sample_1_1aiff__INST__chunk.html',1,'scxt::sample']]],
-  ['aiff_5floop_3924',['aiff_loop',['../structscxt_1_1sample_1_1aiff__loop.html',1,'scxt::sample']]],
-  ['aiff_5fmarker_3925',['aiff_marker',['../structscxt_1_1sample_1_1aiff__marker.html',1,'scxt::sample']]],
-  ['audiocallback_3926',['AudioCallback',['../structSCXTApplicationWindow_1_1AudioCallback.html',1,'SCXTApplicationWindow']]],
-  ['audiothreadcallback_3927',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
-  ['audiotoserialization_3928',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
+  ['aboutinfo_3913',['AboutInfo',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen_1_1AboutInfo.html',1,'scxt::ui::app::other_screens::AboutScreen']]],
+  ['aboutlink_3914',['AboutLink',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html',1,'scxt::ui::app::other_screens']]],
+  ['aboutscreen_3915',['AboutScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['adsrpane_3916',['AdsrPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane.html',1,'scxt::ui::app::edit_screen']]],
+  ['adsrstorage_3917',['AdsrStorage',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html',1,'scxt::modulation::modulators']]],
+  ['aiff_5fcommonchunk_3918',['aiff_CommonChunk',['../structscxt_1_1sample_1_1aiff__CommonChunk.html',1,'scxt::sample']]],
+  ['aiff_5finst_5fchunk_3919',['aiff_INST_chunk',['../structscxt_1_1sample_1_1aiff__INST__chunk.html',1,'scxt::sample']]],
+  ['aiff_5floop_3920',['aiff_loop',['../structscxt_1_1sample_1_1aiff__loop.html',1,'scxt::sample']]],
+  ['aiff_5fmarker_3921',['aiff_marker',['../structscxt_1_1sample_1_1aiff__marker.html',1,'scxt::sample']]],
+  ['audiocallback_3922',['AudioCallback',['../structSCXTApplicationWindow_1_1AudioCallback.html',1,'SCXTApplicationWindow']]],
+  ['audiothreadcallback_3923',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
+  ['audiotoserialization_3924',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
 ];
