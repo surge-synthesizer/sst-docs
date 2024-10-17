@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['quad_5fbspline_427',['quad_bspline',['../namespacesst_1_1basic__blocks_1_1dsp.html#ac95276833c2fc335ad341ef7479fb993',1,'sst::basic_blocks::dsp']]],
-  ['quadratureoscillator_428',['QuadratureOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html',1,'sst::basic_blocks::dsp']]],
-  ['quadratureoscillators_2eh_429',['QuadratureOscillators.h',['../QuadratureOscillators_8h.html',1,'']]],
-  ['quantization_430',['Quantization',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['quantizationparam_431',['quantizationParam',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a5f92efa4c0f766e9b79f9e9e68cd1936',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['quantize_432',['quantize',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a62242c2d6f47848a7431d5a14d7b53d8',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['quad_5fbspline_428',['quad_bspline',['../namespacesst_1_1basic__blocks_1_1dsp.html#ac95276833c2fc335ad341ef7479fb993',1,'sst::basic_blocks::dsp']]],
+  ['quadratureoscillator_429',['QuadratureOscillator',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html',1,'sst::basic_blocks::dsp']]],
+  ['quadratureoscillators_2eh_430',['QuadratureOscillators.h',['../QuadratureOscillators_8h.html',1,'']]],
+  ['quantization_431',['Quantization',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['quantizationparam_432',['quantizationParam',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a5f92efa4c0f766e9b79f9e9e68cd1936',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['quantize_433',['quantize',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a62242c2d6f47848a7431d5a14d7b53d8',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
