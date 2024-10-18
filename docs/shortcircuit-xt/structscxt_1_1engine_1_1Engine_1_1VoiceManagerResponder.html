@@ -117,6 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:affd08c1c39f84dd91bad3f4b06c5f581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93cc351710d4de96dc0b08069b8bfb66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">setVoiceMIDIMPEChannelPitchBend</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, uint16_t pb14bit)</td></tr>
 <tr class="separator:a93cc351710d4de96dc0b08069b8bfb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d31db150aa19dc07018eb237c4b4b52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a2d31db150aa19dc07018eb237c4b4b52">setVoiceMIDIMPEChannelPressure</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int8_t val)</td></tr>
+<tr class="separator:a2d31db150aa19dc07018eb237c4b4b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab732c6a5cd59ae8a4e79a6d748de485d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#ab732c6a5cd59ae8a4e79a6d748de485d">setVoiceMIDIMPETimbre</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int8_t val)</td></tr>
+<tr class="separator:ab732c6a5cd59ae8a4e79a6d748de485d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65fe418857ec3ea0ec3998acde9c7c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a65fe418857ec3ea0ec3998acde9c7c56">setVoicePolyphonicParameterModulation</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, uint32_t parameter, double value)</td></tr>
 <tr class="separator:a65fe418857ec3ea0ec3998acde9c7c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54fc77660484b7ff4bb719c302539778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a54fc77660484b7ff4bb719c302539778">setNoteExpression</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int32_t expression, double value)</td></tr>
@@ -381,7 +385,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a23b477d0e2d399f75d585d154c346591">Voice::release()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a23b477d0e2d399f75d585d154c346591">Voice::release()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a5e5de1a1853ea5f9e4841b75da4f885d">Voice::releaseVelocity</a>.</p>
 
 </div>
 </div>
@@ -466,6 +470,68 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae">Voice::isVoiceAssigned</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#abc5218bab3d28dbbd429ee90dcc0af1c">Voice::mpePitchBend</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87737d01abcbada84ef3fde7c95a4237">Part::PartConfiguration::mpePitchBendRange</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
+
+</div>
+</div>
+<a id="a2d31db150aa19dc07018eb237c4b4b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d31db150aa19dc07018eb237c4b4b52">&#9670;&nbsp;</a></span>setVoiceMIDIMPEChannelPressure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setVoiceMIDIMPEChannelPressure </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae">Voice::isVoiceAssigned</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ae9920c761fabdc09be2712a9b6d41213">Voice::mpePressure</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
+
+</div>
+</div>
+<a id="ab732c6a5cd59ae8a4e79a6d748de485d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab732c6a5cd59ae8a4e79a6d748de485d">&#9670;&nbsp;</a></span>setVoiceMIDIMPETimbre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setVoiceMIDIMPETimbre </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae">Voice::isVoiceAssigned</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aa736aaec95d461a0c742dc72d3a7d17f">Voice::mpeTimbre</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
 </div>
 </div>
@@ -675,7 +741,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 17 2024 13:15:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Oct 18 2024 22:00:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
