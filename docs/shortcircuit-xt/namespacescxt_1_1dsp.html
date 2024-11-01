@@ -188,8 +188,8 @@ Variables</h2></td></tr>
 <tr class="separator:a662597a0cb8a7cb5acd4c6948f23fbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d03ca06c0a42deca076884b7a9e8f99"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a7d03ca06c0a42deca076884b7a9e8f99">I16InvScale2</a> = (1.f / (32768.f))</td></tr>
 <tr class="separator:a7d03ca06c0a42deca076884b7a9e8f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb04dbfc4f658593705763c559689ea0"><td class="memItemLeft" align="right" valign="top">const __m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#acb04dbfc4f658593705763c559689ea0">I16InvScale_m128</a> = _mm_set1_ps(<a class="el" href="namespacescxt_1_1dsp.html#a662597a0cb8a7cb5acd4c6948f23fbc4">I16InvScale</a>)</td></tr>
-<tr class="separator:acb04dbfc4f658593705763c559689ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8528154080fa8336d1e157ec4cd16305"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a8528154080fa8336d1e157ec4cd16305">I16InvScale_m128</a> = SIMD_MM(set1_ps)(<a class="el" href="namespacescxt_1_1dsp.html#a662597a0cb8a7cb5acd4c6948f23fbc4">I16InvScale</a>)</td></tr>
+<tr class="separator:a8528154080fa8336d1e157ec4cd16305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ac37d62d8ef7d4f366424ed181ce014b1"></a>
@@ -702,14 +702,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acb04dbfc4f658593705763c559689ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb04dbfc4f658593705763c559689ea0">&#9670;&nbsp;</a></span>I16InvScale_m128</h2>
+<a id="a8528154080fa8336d1e157ec4cd16305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8528154080fa8336d1e157ec4cd16305">&#9670;&nbsp;</a></span>I16InvScale_m128</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const __m128 I16InvScale_m128 = _mm_set1_ps(<a class="el" href="namespacescxt_1_1dsp.html#a662597a0cb8a7cb5acd4c6948f23fbc4">I16InvScale</a>)</td>
+          <td class="memname">const auto I16InvScale_m128 = SIMD_MM(set1_ps)(<a class="el" href="namespacescxt_1_1dsp.html#a662597a0cb8a7cb5acd4c6948f23fbc4">I16InvScale</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -721,7 +721,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 31 2024 15:23:05 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Nov 1 2024 17:06:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
