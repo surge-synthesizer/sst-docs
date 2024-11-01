@@ -110,15 +110,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a722197982835b82ee8aca5482c8d83c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#a722197982835b82ee8aca5482c8d83c9">F</a>(a)&#160;&#160;&#160;_mm_set_ps1(a)</td></tr>
+<tr class="memitem:a722197982835b82ee8aca5482c8d83c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#a722197982835b82ee8aca5482c8d83c9">F</a>(a)&#160;&#160;&#160;SIMD_MM(set_ps1)(a)</td></tr>
 <tr class="separator:a722197982835b82ee8aca5482c8d83c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee024c5945e8ca04515fea3513aeeaaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#aee024c5945e8ca04515fea3513aeeaaa">M</a>(a,  b)&#160;&#160;&#160;_mm_mul_ps(a, b)</td></tr>
+<tr class="memitem:aee024c5945e8ca04515fea3513aeeaaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#aee024c5945e8ca04515fea3513aeeaaa">M</a>(a,  b)&#160;&#160;&#160;SIMD_MM(mul_ps)(a, b)</td></tr>
 <tr class="separator:aee024c5945e8ca04515fea3513aeeaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5e973f0ad08438b86334cf6e94fa16a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>(a,  b)&#160;&#160;&#160;_mm_div_ps(a, b)</td></tr>
+<tr class="memitem:aa5e973f0ad08438b86334cf6e94fa16a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>(a,  b)&#160;&#160;&#160;SIMD_MM(div_ps)(a, b)</td></tr>
 <tr class="separator:aa5e973f0ad08438b86334cf6e94fa16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42b2ebd385e21f96a9663ad9f6c5e481"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>(a,  b)&#160;&#160;&#160;_mm_add_ps(a, b)</td></tr>
+<tr class="memitem:a42b2ebd385e21f96a9663ad9f6c5e481"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>(a,  b)&#160;&#160;&#160;SIMD_MM(add_ps)(a, b)</td></tr>
 <tr class="separator:a42b2ebd385e21f96a9663ad9f6c5e481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6788d74a4942a2ca2568da3a582d73a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>(a,  b)&#160;&#160;&#160;_mm_sub_ps(a, b)</td></tr>
+<tr class="memitem:a6788d74a4942a2ca2568da3a582d73a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="K35Filter_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>(a,  b)&#160;&#160;&#160;SIMD_MM(sub_ps)(a, b)</td></tr>
 <tr class="separator:a6788d74a4942a2ca2568da3a582d73a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -149,10 +149,10 @@ Functions</h2></td></tr>
 <tr class="separator:adf1d49a14faf7ca251f89a753102825b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab60eb424d78968eff6d2a44ac7590514"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#ab60eb424d78968eff6d2a44ac7590514">processCoeffs</a> (QuadFilterUnitState *__restrict f)</td></tr>
 <tr class="separator:ab60eb424d78968eff6d2a44ac7590514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745c024d58479618842891fa61bfcb65"><td class="memItemLeft" align="right" valign="top">__m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a745c024d58479618842891fa61bfcb65">process_lp</a> (QuadFilterUnitState *__restrict f, __m128 input)</td></tr>
-<tr class="separator:a745c024d58479618842891fa61bfcb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d9481790eb9c56fac85c3d8d15b124"><td class="memItemLeft" align="right" valign="top">__m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a17d9481790eb9c56fac85c3d8d15b124">process_hp</a> (QuadFilterUnitState *__restrict f, __m128 input)</td></tr>
-<tr class="separator:a17d9481790eb9c56fac85c3d8d15b124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bd0ec5be8c5ff4508dc655299c9609e"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a2bd0ec5be8c5ff4508dc655299c9609e">process_lp</a> (QuadFilterUnitState *__restrict f, SIMD_M128 input)</td></tr>
+<tr class="separator:a2bd0ec5be8c5ff4508dc655299c9609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91aa143c9afe2237d2a3e71d5d412c0a"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a91aa143c9afe2237d2a3e71d5d412c0a">process_hp</a> (QuadFilterUnitState *__restrict f, SIMD_M128 input)</td></tr>
+<tr class="separator:a91aa143c9afe2237d2a3e71d5d412c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a722197982835b82ee8aca5482c8d83c9"></a>
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">a</td><td>)</td>
-          <td>&#160;&#160;&#160;_mm_set_ps1(a)</td>
+          <td>&#160;&#160;&#160;SIMD_MM(set_ps1)(a)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -194,7 +194,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_mul_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(mul_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -222,7 +222,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_div_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(div_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -250,7 +250,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_add_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(add_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -278,7 +278,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_sub_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(sub_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -288,7 +288,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:00:57 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Nov 1 2024 15:17:28 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

@@ -136,9 +136,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2a5c558cce5dec2271aaa01a2ba7fa3f"><td class="memTemplParams" colspan="2">template&lt;typename TuningProvider &gt; </td></tr>
 <tr class="memitem:a2a5c558cce5dec2271aaa01a2ba7fa3f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1CutoffWarp.html#a2a5c558cce5dec2271aaa01a2ba7fa3f">makeCoefficients</a> (<a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html">FilterCoefficientMaker</a>&lt; TuningProvider &gt; *cm, float freq, float reso, int type, int subtype, float sampleRate, TuningProvider *provider)</td></tr>
 <tr class="separator:a2a5c558cce5dec2271aaa01a2ba7fa3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a536c11e5d9a2eac55a75fa4a509f961c"><td class="memTemplParams" colspan="2">template&lt;FilterSubType subtype&gt; </td></tr>
-<tr class="memitem:a536c11e5d9a2eac55a75fa4a509f961c"><td class="memTemplItemLeft" align="right" valign="top">__m128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1CutoffWarp.html#a536c11e5d9a2eac55a75fa4a509f961c">process</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, __m128 input)</td></tr>
-<tr class="separator:a536c11e5d9a2eac55a75fa4a509f961c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6c436f9d467248c0eb2ee07ce2ff52"><td class="memTemplParams" colspan="2">template&lt;FilterSubType subtype&gt; </td></tr>
+<tr class="memitem:abc6c436f9d467248c0eb2ee07ce2ff52"><td class="memTemplItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1CutoffWarp.html#abc6c436f9d467248c0eb2ee07ce2ff52">process</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, SIMD_M128 input)</td></tr>
+<tr class="separator:abc6c436f9d467248c0eb2ee07ce2ff52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This namespace contains an adaptation of the filter found at <a href="https://ccrma.stanford.edu/~jatin/ComplexNonlinearities/NLFeedback.html">https://ccrma.stanford.edu/~jatin/ComplexNonlinearities/NLFeedback.html</a> with coefficient calculation from <a href="https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html">https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html</a>. </p>
@@ -273,14 +273,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a536c11e5d9a2eac55a75fa4a509f961c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a536c11e5d9a2eac55a75fa4a509f961c">&#9670;&nbsp;</a></span>process()</h2>
+<a id="abc6c436f9d467248c0eb2ee07ce2ff52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6c436f9d467248c0eb2ee07ce2ff52">&#9670;&nbsp;</a></span>process()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__m128 sst::filters::CutoffWarp::process </td>
+          <td class="memname">SIMD_M128 sst::filters::CutoffWarp::process </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict&#160;</td>
           <td class="paramname"><em>f</em>, </td>
@@ -288,7 +288,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">__m128&#160;</td>
+          <td class="paramtype">SIMD_M128&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -306,7 +306,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:00:57 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Nov 1 2024 15:17:28 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

@@ -1,12 +1,12 @@
 var searchData=
 [
   ['a_0',['A',['../CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;CutoffWarp.h'],['../DiodeLadder_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;DiodeLadder.h'],['../K35Filter_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;K35Filter.h'],['../ResonanceWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;ResonanceWarp.h'],['../TriPoleFilter_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;TriPoleFilter.h'],['../VintageLadders_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;VintageLadders.h'],['../VintageLadders_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481',1,'A():&#160;VintageLadders.h']]],
-  ['a1_1',['a1',['../structsst_1_1filters_1_1CytomicSVF.html#a4ed297c592fcaff2637f279ccb1470aa',1,'sst::filters::CytomicSVF']]],
-  ['a1_5fprior_2',['a1_prior',['../structsst_1_1filters_1_1CytomicSVF.html#adc4b2d8ab2d8cce9830e4a350b73dde3',1,'sst::filters::CytomicSVF']]],
-  ['a2_3',['a2',['../structsst_1_1filters_1_1CytomicSVF.html#a87fc05ba27e1686dd619e28e979a2833',1,'sst::filters::CytomicSVF']]],
-  ['a2_5fprior_4',['a2_prior',['../structsst_1_1filters_1_1CytomicSVF.html#a2ca6829c4d614b08c67c89cf64790424',1,'sst::filters::CytomicSVF']]],
-  ['a3_5',['a3',['../structsst_1_1filters_1_1CytomicSVF.html#a00a747decace0541745ce45cf14c0773',1,'sst::filters::CytomicSVF']]],
-  ['a3_5fprior_6',['a3_prior',['../structsst_1_1filters_1_1CytomicSVF.html#afdcb331ee9a64279da522ccfaf576005',1,'sst::filters::CytomicSVF']]],
+  ['a1_1',['a1',['../structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c',1,'sst::filters::CytomicSVF']]],
+  ['a1_5fprior_2',['a1_prior',['../structsst_1_1filters_1_1CytomicSVF.html#a5c534bc2a48a0fdd15ee6de18ea20dec',1,'sst::filters::CytomicSVF']]],
+  ['a2_3',['a2',['../structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046',1,'sst::filters::CytomicSVF']]],
+  ['a2_5fprior_4',['a2_prior',['../structsst_1_1filters_1_1CytomicSVF.html#a0b27750e0190bdc88e47b4c7053fa7c7',1,'sst::filters::CytomicSVF']]],
+  ['a3_5',['a3',['../structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b',1,'sst::filters::CytomicSVF']]],
+  ['a3_5fprior_6',['a3_prior',['../structsst_1_1filters_1_1CytomicSVF.html#a97805af31b978cda03d245def5aed588',1,'sst::filters::CytomicSVF']]],
   ['abortafter_7',['abortAfter',['../structCatch_1_1IConfig.html#a621432727b92b7c3102ed728f0a313c8',1,'Catch::IConfig']]],
   ['aborting_8',['aborting',['../structCatch_1_1IRunner.html#a2381db9faa246adc67547afcfb176dc2',1,'Catch::IRunner']]],
   ['acquiregeneratortracker_9',['acquireGeneratorTracker',['../structCatch_1_1IResultCapture.html#aeb9e2e5f0dfbd23852a553521c36ef84',1,'Catch::IResultCapture::acquireGeneratorTracker()'],['../namespaceCatch_1_1Generators.html#ac1fe3550c5f97370fc6729e04d7571b8',1,'Catch::Generators::acquireGeneratorTracker()']]],

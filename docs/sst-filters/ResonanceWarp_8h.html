@@ -110,13 +110,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a722197982835b82ee8aca5482c8d83c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#a722197982835b82ee8aca5482c8d83c9">F</a>(a)&#160;&#160;&#160;_mm_set_ps1(a)</td></tr>
+<tr class="memitem:a722197982835b82ee8aca5482c8d83c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#a722197982835b82ee8aca5482c8d83c9">F</a>(a)&#160;&#160;&#160;SIMD_MM(set_ps1)(a)</td></tr>
 <tr class="separator:a722197982835b82ee8aca5482c8d83c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee024c5945e8ca04515fea3513aeeaaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#aee024c5945e8ca04515fea3513aeeaaa">M</a>(a,  b)&#160;&#160;&#160;_mm_mul_ps(a, b)</td></tr>
+<tr class="memitem:aee024c5945e8ca04515fea3513aeeaaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#aee024c5945e8ca04515fea3513aeeaaa">M</a>(a,  b)&#160;&#160;&#160;SIMD_MM(mul_ps)(a, b)</td></tr>
 <tr class="separator:aee024c5945e8ca04515fea3513aeeaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42b2ebd385e21f96a9663ad9f6c5e481"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>(a,  b)&#160;&#160;&#160;_mm_add_ps(a, b)</td></tr>
+<tr class="memitem:a42b2ebd385e21f96a9663ad9f6c5e481"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>(a,  b)&#160;&#160;&#160;SIMD_MM(add_ps)(a, b)</td></tr>
 <tr class="separator:a42b2ebd385e21f96a9663ad9f6c5e481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6788d74a4942a2ca2568da3a582d73a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>(a,  b)&#160;&#160;&#160;_mm_sub_ps(a, b)</td></tr>
+<tr class="memitem:a6788d74a4942a2ca2568da3a582d73a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResonanceWarp_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>(a,  b)&#160;&#160;&#160;SIMD_MM(sub_ps)(a, b)</td></tr>
 <tr class="separator:a6788d74a4942a2ca2568da3a582d73a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -155,9 +155,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a773c3c4565fc1f9c9746bdcfa9880758"><td class="memTemplParams" colspan="2">template&lt;typename TuningProvider &gt; </td></tr>
 <tr class="memitem:a773c3c4565fc1f9c9746bdcfa9880758"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1ResonanceWarp.html#a773c3c4565fc1f9c9746bdcfa9880758">makeCoefficients</a> (FilterCoefficientMaker&lt; TuningProvider &gt; *cm, float freq, float reso, int type, float sampleRate, TuningProvider *provider)</td></tr>
 <tr class="separator:a773c3c4565fc1f9c9746bdcfa9880758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dc4deb53f07b5165364b6eef9cb7208"><td class="memTemplParams" colspan="2">template&lt;FilterSubType subtype&gt; </td></tr>
-<tr class="memitem:a6dc4deb53f07b5165364b6eef9cb7208"><td class="memTemplItemLeft" align="right" valign="top">__m128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1ResonanceWarp.html#a6dc4deb53f07b5165364b6eef9cb7208">process</a> (QuadFilterUnitState *__restrict f, __m128 input)</td></tr>
-<tr class="separator:a6dc4deb53f07b5165364b6eef9cb7208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b863e967416ebe4279c73e31d1bc514"><td class="memTemplParams" colspan="2">template&lt;FilterSubType subtype&gt; </td></tr>
+<tr class="memitem:a4b863e967416ebe4279c73e31d1bc514"><td class="memTemplItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1ResonanceWarp.html#a4b863e967416ebe4279c73e31d1bc514">process</a> (QuadFilterUnitState *__restrict f, SIMD_M128 input)</td></tr>
+<tr class="separator:a4b863e967416ebe4279c73e31d1bc514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a722197982835b82ee8aca5482c8d83c9"></a>
@@ -171,7 +171,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">a</td><td>)</td>
-          <td>&#160;&#160;&#160;_mm_set_ps1(a)</td>
+          <td>&#160;&#160;&#160;SIMD_MM(set_ps1)(a)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -199,7 +199,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_mul_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(mul_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,7 +227,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_add_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(add_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -255,7 +255,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_sub_ps(a, b)</td>
+          <td></td><td>&#160;&#160;&#160;SIMD_MM(sub_ps)(a, b)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,7 +265,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:00:57 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Nov 1 2024 15:17:28 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

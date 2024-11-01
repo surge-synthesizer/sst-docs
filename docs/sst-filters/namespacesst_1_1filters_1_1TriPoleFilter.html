@@ -146,9 +146,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aefd5e2a64d98da6ae292b133b0a57499"><td class="memTemplParams" colspan="2">template&lt;typename TuningProvider &gt; </td></tr>
 <tr class="memitem:aefd5e2a64d98da6ae292b133b0a57499"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#aefd5e2a64d98da6ae292b133b0a57499">makeCoefficients</a> (<a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html">FilterCoefficientMaker</a>&lt; TuningProvider &gt; *cm, float freq, float reso, int, float sampleRate, TuningProvider *provider)</td></tr>
 <tr class="separator:aefd5e2a64d98da6ae292b133b0a57499"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2470a2ad133a1d544bfcb136c6b1eee8"><td class="memTemplParams" colspan="2">template&lt;FilterSubType subtype&gt; </td></tr>
-<tr class="memitem:a2470a2ad133a1d544bfcb136c6b1eee8"><td class="memTemplItemLeft" align="right" valign="top">__m128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, __m128 in)</td></tr>
-<tr class="separator:a2470a2ad133a1d544bfcb136c6b1eee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656e6de5b12256c106f476d45ee090e5"><td class="memTemplParams" colspan="2">template&lt;FilterSubType subtype&gt; </td></tr>
+<tr class="memitem:a656e6de5b12256c106f476d45ee090e5"><td class="memTemplItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, SIMD_M128 in)</td></tr>
+<tr class="separator:a656e6de5b12256c106f476d45ee090e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -296,14 +296,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2470a2ad133a1d544bfcb136c6b1eee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2470a2ad133a1d544bfcb136c6b1eee8">&#9670;&nbsp;</a></span>process()</h2>
+<a id="a656e6de5b12256c106f476d45ee090e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656e6de5b12256c106f476d45ee090e5">&#9670;&nbsp;</a></span>process()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__m128 sst::filters::TriPoleFilter::process </td>
+          <td class="memname">SIMD_M128 sst::filters::TriPoleFilter::process </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict&#160;</td>
           <td class="paramname"><em>f</em>, </td>
@@ -311,7 +311,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">__m128&#160;</td>
+          <td class="paramtype">SIMD_M128&#160;</td>
           <td class="paramname"><em>in</em>&#160;</td>
         </tr>
         <tr>
@@ -347,7 +347,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -371,7 +371,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -395,7 +395,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -419,7 +419,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -465,7 +465,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -511,7 +511,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -535,7 +535,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a2470a2ad133a1d544bfcb136c6b1eee8">process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1TriPoleFilter.html#a656e6de5b12256c106f476d45ee090e5">process()</a>.</p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:00:57 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Nov 1 2024 15:17:28 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

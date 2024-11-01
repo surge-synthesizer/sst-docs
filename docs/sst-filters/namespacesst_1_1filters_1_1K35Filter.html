@@ -125,10 +125,10 @@ Functions</h2></td></tr>
 <tr class="separator:adf1d49a14faf7ca251f89a753102825b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab60eb424d78968eff6d2a44ac7590514"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#ab60eb424d78968eff6d2a44ac7590514">processCoeffs</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f)</td></tr>
 <tr class="separator:ab60eb424d78968eff6d2a44ac7590514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745c024d58479618842891fa61bfcb65"><td class="memItemLeft" align="right" valign="top">__m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a745c024d58479618842891fa61bfcb65">process_lp</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, __m128 input)</td></tr>
-<tr class="separator:a745c024d58479618842891fa61bfcb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d9481790eb9c56fac85c3d8d15b124"><td class="memItemLeft" align="right" valign="top">__m128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a17d9481790eb9c56fac85c3d8d15b124">process_hp</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, __m128 input)</td></tr>
-<tr class="separator:a17d9481790eb9c56fac85c3d8d15b124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bd0ec5be8c5ff4508dc655299c9609e"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a2bd0ec5be8c5ff4508dc655299c9609e">process_lp</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, SIMD_M128 input)</td></tr>
+<tr class="separator:a2bd0ec5be8c5ff4508dc655299c9609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91aa143c9afe2237d2a3e71d5d412c0a"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a91aa143c9afe2237d2a3e71d5d412c0a">process_hp</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, SIMD_M128 input)</td></tr>
+<tr class="separator:a91aa143c9afe2237d2a3e71d5d412c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This namespace contains an adaptation of the filter from <a href="https://github.com/TheWaveWarden/odin2/blob/master/Source/audio/Filters/Korg35Filter.cpp">https://github.com/TheWaveWarden/odin2/blob/master/Source/audio/Filters/Korg35Filter.cpp</a>. </p>
@@ -261,18 +261,18 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="K35Filter_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, and <a class="el" href="namespacesst_1_1filters.html#a0e477c7b1b57147e6b307cdae7ba4bf1">sst::filters::n_cm_coeffs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a17d9481790eb9c56fac85c3d8d15b124">process_hp()</a>, and <a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a745c024d58479618842891fa61bfcb65">process_lp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a91aa143c9afe2237d2a3e71d5d412c0a">process_hp()</a>, and <a class="el" href="namespacesst_1_1filters_1_1K35Filter.html#a2bd0ec5be8c5ff4508dc655299c9609e">process_lp()</a>.</p>
 
 </div>
 </div>
-<a id="a745c024d58479618842891fa61bfcb65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a745c024d58479618842891fa61bfcb65">&#9670;&nbsp;</a></span>process_lp()</h2>
+<a id="a2bd0ec5be8c5ff4508dc655299c9609e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bd0ec5be8c5ff4508dc655299c9609e">&#9670;&nbsp;</a></span>process_lp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__m128 sst::filters::K35Filter::process_lp </td>
+          <td class="memname">SIMD_M128 sst::filters::K35Filter::process_lp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict&#160;</td>
           <td class="paramname"><em>f</em>, </td>
@@ -280,7 +280,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">__m128&#160;</td>
+          <td class="paramtype">SIMD_M128&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -297,14 +297,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a17d9481790eb9c56fac85c3d8d15b124"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17d9481790eb9c56fac85c3d8d15b124">&#9670;&nbsp;</a></span>process_hp()</h2>
+<a id="a91aa143c9afe2237d2a3e71d5d412c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91aa143c9afe2237d2a3e71d5d412c0a">&#9670;&nbsp;</a></span>process_hp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__m128 sst::filters::K35Filter::process_hp </td>
+          <td class="memname">SIMD_M128 sst::filters::K35Filter::process_hp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict&#160;</td>
           <td class="paramname"><em>f</em>, </td>
@@ -312,7 +312,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">__m128&#160;</td>
+          <td class="paramtype">SIMD_M128&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -332,7 +332,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 21 2024 22:00:57 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Nov 1 2024 15:17:28 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
