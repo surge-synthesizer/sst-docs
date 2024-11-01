@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadwaveshaperptr_1517',['QuadWaveshaperPtr',['../namespacesst_1_1waveshapers.html#aa442e1a7d391b853414342099b5fec8b',1,'sst::waveshapers']]]
+  ['quadwaveshaperptr_1516',['QuadWaveshaperPtr',['../namespacesst_1_1waveshapers.html#a5e6eec985574377afe4ff705078a83b8',1,'sst::waveshapers']]]
 ];
