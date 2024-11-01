@@ -14,7 +14,7 @@ var searchData=
   ['checkmodmatrixconstraints_100',['CheckModMatrixConstraints',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1details_1_1CheckModMatrixConstraints.html',1,'sst::basic_blocks::mod_matrix::details']]],
   ['checkmodmatrixconstraints_3c_20modmatrixtraits_20_3e_101',['CheckModMatrixConstraints&lt; ModMatrixTraits &gt;',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1details_1_1CheckModMatrixConstraints.html',1,'sst::basic_blocks::mod_matrix::details']]],
   ['clamptopirange_102',['clampToPiRange',['../namespacesst_1_1basic__blocks_1_1dsp.html#a07ccaca86e988c6966121ef4e3d6b92d',1,'sst::basic_blocks::dsp']]],
-  ['clamptopirangesse_103',['clampToPiRangeSSE',['../namespacesst_1_1basic__blocks_1_1dsp.html#a75d6bbf863f0fb0b7727cb766af34a9f',1,'sst::basic_blocks::dsp']]],
+  ['clamptopirangesse_103',['clampToPiRangeSSE',['../namespacesst_1_1basic__blocks_1_1dsp.html#a029e6d3cf7b775790cb0efc25d047fbf',1,'sst::basic_blocks::dsp']]],
   ['clear_104',['clear',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#ac8bb3912a3ce86b15842e79d0b421204',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
   ['clear_5fblock_105',['clear_block',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a98fb12f6ec0c05708d32d51e52fd11ce',1,'sst::basic_blocks::mechanics']]],
   ['clippers_2eh_106',['Clippers.h',['../Clippers_8h.html',1,'']]],
