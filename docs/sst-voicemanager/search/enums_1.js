@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['playmode_166',['PlayMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34',1,'sst::voicemanager::VoiceManager']]]
+  ['midi1dialect_212',['MIDI1Dialect',['../structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c',1,'sst::voicemanager::VoiceManager']]],
+  ['monoplaymodefeatures_213',['MonoPlayModeFeatures',['../structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0',1,'sst::voicemanager::VoiceManager']]]
 ];

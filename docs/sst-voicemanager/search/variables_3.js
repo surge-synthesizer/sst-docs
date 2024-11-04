@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['key_135',['key',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a4e8f191bf9d01c37e72e9cf26741c54f',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]]
+  ['heldbysustain_170',['heldBySustain',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html#aa6fe8a3bf5d32887cb16436e03d518b1',1,'sst::voicemanager::VoiceManager::Details::IndividualKeyState']]]
 ];

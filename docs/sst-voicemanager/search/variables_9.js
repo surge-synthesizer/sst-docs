@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['stealingprioritymode_154',['stealingPriorityMode',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ab5119895a722c03170323df5ed090a9c',1,'sst::voicemanager::VoiceManager::Details']]],
-  ['sustainon_155',['sustainOn',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6314693e0292248543f2df3cad954767',1,'sst::voicemanager::VoiceManager::Details']]]
+  ['playmode_186',['playMode',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a1feaa7fde3dfe3639c87501c770c7106',1,'sst::voicemanager::VoiceManager::Details']]],
+  ['playmodefeatures_187',['playModeFeatures',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#af7dabb149b581c504ede0ac4a3348f5a',1,'sst::voicemanager::VoiceManager::Details']]],
+  ['polygroup_188',['polyGroup',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#aad9dfcda460626838f03a505747b37b5',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]],
+  ['polylimits_189',['polyLimits',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5d9bf5c9c11483195d0b8a27e13948ab',1,'sst::voicemanager::VoiceManager::Details']]],
+  ['polyphonygroup_190',['polyphonyGroup',['../structsst_1_1voicemanager_1_1VoiceBeginBufferEntry.html#a80ea6ba8357d86a9ec71ffff1943feea',1,'sst::voicemanager::VoiceBeginBufferEntry']]],
+  ['port_191',['port',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#af113e27943856fda379256192bf93450',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]]
 ];

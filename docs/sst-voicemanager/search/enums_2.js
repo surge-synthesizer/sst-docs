@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['repeatedkeymode_167',['RepeatedKeyMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b',1,'sst::voicemanager::VoiceManager']]]
+  ['playmode_214',['PlayMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34',1,'sst::voicemanager::VoiceManager']]]
 ];

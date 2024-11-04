@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['piano_177',['PIANO',['../structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35ba8c7b64c24baaabd3f1fda4ae322c8c40',1,'sst::voicemanager::VoiceManager']]],
-  ['poly_178',['POLY',['../structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34a7d85766d041d397d096dcbc0d7c793fd',1,'sst::voicemanager::VoiceManager']]]
+  ['oldest_229',['OLDEST',['../structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60affec199ac034a0999ccfcb7f0325c8a3',1,'sst::voicemanager::VoiceManager']]],
+  ['on_5frelease_5fto_5fhighest_230',['ON_RELEASE_TO_HIGHEST',['../structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a9a6af52606029e53f171e3bf3a48db51',1,'sst::voicemanager::VoiceManager']]],
+  ['on_5frelease_5fto_5flatest_231',['ON_RELEASE_TO_LATEST',['../structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0aca5c7bda3d4f794b159e33ab1224cdb0',1,'sst::voicemanager::VoiceManager']]],
+  ['on_5frelease_5fto_5flowest_232',['ON_RELEASE_TO_LOWEST',['../structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a1ee9db4f3c06106d0119724a4afb3fe1',1,'sst::voicemanager::VoiceManager']]]
 ];

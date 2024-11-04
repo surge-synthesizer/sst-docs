@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['constraints_61',['constraints',['../namespacesst_1_1voicemanager_1_1constraints.html',1,'sst::voicemanager']]],
-  ['satisfies_62',['satisfies',['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#abf7a5c8a055cc8b35f716c02d6701e4c',1,'sst::voicemanager::constraints::ConstraintsChecker']]],
-  ['setplaymode_63',['setPlaymode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a8030793a4ec121d882149b9f568e124d',1,'sst::voicemanager::VoiceManager']]],
-  ['setpolyphonygroupvoicelimit_64',['setPolyphonyGroupVoiceLimit',['../structsst_1_1voicemanager_1_1VoiceManager.html#ac89509ca91f60fb81c06806753a45dcc',1,'sst::voicemanager::VoiceManager']]],
-  ['setstealingprioritymode_65',['setStealingPriorityMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a185935e19f0805f41d79904a40a3158b',1,'sst::voicemanager::VoiceManager']]],
-  ['sst_66',['sst',['../namespacesst.html',1,'']]],
-  ['sst_20voice_20manager_67',['SST Voice Manager',['../index.html',1,'']]],
-  ['stealingprioritymode_68',['stealingPriorityMode',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ab5119895a722c03170323df5ed090a9c',1,'sst::voicemanager::VoiceManager::Details']]],
-  ['stealingprioritymode_69',['StealingPriorityMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60',1,'sst::voicemanager::VoiceManager']]],
-  ['sustainon_70',['sustainOn',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6314693e0292248543f2df3cad954767',1,'sst::voicemanager::VoiceManager::Details']]],
-  ['voicemanager_71',['voicemanager',['../namespacesst_1_1voicemanager.html',1,'sst']]]
+  ['registervoiceendcallback_74',['registerVoiceEndCallback',['../structsst_1_1voicemanager_1_1VoiceManager.html#af8604a1373be862db876c118cc81cdf0',1,'sst::voicemanager::VoiceManager']]],
+  ['repeatedkeymode_75',['RepeatedKeyMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b',1,'sst::voicemanager::VoiceManager']]],
+  ['responder_76',['Responder',['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#a06dbe2d739a09a17f84b66dae320a164',1,'sst::voicemanager::constraints::ConstraintsChecker::Responder()'],['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#ae1b467a52813273b7f44c809cc70428e',1,'sst::voicemanager::constraints::ConstraintsChecker::Responder()'],['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#ab6dc0c247c00e357bc1fde1c12773005',1,'sst::voicemanager::constraints::ConstraintsChecker::Responder()'],['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#aa29558758173e12a6f47e83ffd86e283',1,'sst::voicemanager::constraints::ConstraintsChecker::Responder()'],['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#a75f7ba83c0c7d66dbb409b8ecef76a70',1,'sst::voicemanager::constraints::ConstraintsChecker::Responder()'],['../structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#ac2ea224898f4d0a0bfc7715b4bda5fce',1,'sst::voicemanager::constraints::ConstraintsChecker::Responder()']]],
+  ['responder_77',['responder',['../structsst_1_1voicemanager_1_1VoiceManager.html#a0f95855e1cc27deb8cd9aa6893c3b6c3',1,'sst::voicemanager::VoiceManager']]],
+  ['routechannelpressure_78',['routeChannelPressure',['../structsst_1_1voicemanager_1_1VoiceManager.html#a6a360b30eae9486c04dcf78970030e84',1,'sst::voicemanager::VoiceManager']]],
+  ['routemidi1cc_79',['routeMIDI1CC',['../structsst_1_1voicemanager_1_1VoiceManager.html#afe0b693f7ad4ce339f3b5def6e7fd282',1,'sst::voicemanager::VoiceManager']]],
+  ['routemidipitchbend_80',['routeMIDIPitchBend',['../structsst_1_1voicemanager_1_1VoiceManager.html#af778b88dd24052be024bba7fb4a6a4f5',1,'sst::voicemanager::VoiceManager']]],
+  ['routenoteexpression_81',['routeNoteExpression',['../structsst_1_1voicemanager_1_1VoiceManager.html#ad6eef07fda2aa296c7852b88e6268d20',1,'sst::voicemanager::VoiceManager']]],
+  ['routepolyphonicaftertouch_82',['routePolyphonicAftertouch',['../structsst_1_1voicemanager_1_1VoiceManager.html#a4d543c0eecbf554d14865c24d107c780',1,'sst::voicemanager::VoiceManager']]],
+  ['routepolyphonicparametermodulation_83',['routePolyphonicParameterModulation',['../structsst_1_1voicemanager_1_1VoiceManager.html#ab64ce9ad7c2bfbea26ae815e2266d726',1,'sst::voicemanager::VoiceManager']]]
 ];

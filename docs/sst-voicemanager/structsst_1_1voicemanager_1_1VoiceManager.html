@@ -107,24 +107,42 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:adef5d969ee0c8fd79b4d073310cdfb6c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c">MIDI1Dialect</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6ca5c31ee2ace1af2ce16f690e4dc284691">MIDI1</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6ca94c53a60ef3d68581fdefb175e1031ad">MIDI1_MPE</a>
+<tr class="memitem:adef5d969ee0c8fd79b4d073310cdfb6c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c">MIDI1Dialect</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6cacb398c5bd3cc5ca72ecbd569fbd1446c">MIDI1</a>
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6cafb569f09e96f08cea687595495260e52">MIDI1_MPE</a>
  }</td></tr>
 <tr class="separator:adef5d969ee0c8fd79b4d073310cdfb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35ba9507d769c24a55cd7f2e5ff074adaa77">MULTI_VOICE</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35ba8c7b64c24baaabd3f1fda4ae322c8c40">PIANO</a>
+<tr class="memitem:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566">MULTI_VOICE</a>
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130">PIANO</a>
  }</td></tr>
+<tr class="memdesc:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a key is struck twice while still gated or sustained, do we start a new voice or do we re-use the voice (and move the note id) or do we trigger a second voice.  <a href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">More...</a><br /></td></tr>
 <tr class="separator:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a188092ed559d356ade9a517d60ec3f34"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34a7d85766d041d397d096dcbc0d7c793fd">POLY</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34a3828195437a1112429b5c7a3e8780570">MONO</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34a8c2deaff3bc2f3bab05176d16424977f">MONO_LEGATO</a>
+<tr class="memitem:a188092ed559d356ade9a517d60ec3f34"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ad067247cfabc0d4f5b62e6f24bf2b43a">POLY_VOICES</a>
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ab1cfde9170ea5d634846591999893099">MONO_NOTES</a>
  }</td></tr>
+<tr class="memdesc:a188092ed559d356ade9a517d60ec3f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">The voice manager can either run in a mode where it manages to voice limits in a polyphonic mode (but multi-voice notes still steal together) or can manage to a single note with essentially unlimited voices.  <a href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">More...</a><br /></td></tr>
 <tr class="separator:a188092ed559d356ade9a517d60ec3f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fe62f239d82bfcbfd6f04d3a1f41e60"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60ad825b24862971065ad76d104df24d6f7">OLDEST</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60ae21a4e10ac16b844ebb238a2333bb594">HIGHEST</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60ae321c2eb4e64b32d51da602bc6352f1d">LOWEST</a>
+<tr class="memitem:af6cc76daccd7eafe7d70e76061f99ed0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0">MonoPlayModeFeatures</a> : uint64_t { <br />
+&#160;&#160;<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">NONE</a> = 0
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a80b61156f92f4479797b5f9968bcd4e2">MONO_RETRIGGER</a> = 1 &lt;&lt; 0
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0afb9e58b03fe52c744df80518f2645934">MONO_LEGATO</a> = 1 &lt;&lt; 1
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0aca5c7bda3d4f794b159e33ab1224cdb0">ON_RELEASE_TO_LATEST</a> = 1 &lt;&lt; 2
+, <br />
+&#160;&#160;<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a9a6af52606029e53f171e3bf3a48db51">ON_RELEASE_TO_HIGHEST</a> = 1 &lt;&lt; 3
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a1ee9db4f3c06106d0119724a4afb3fe1">ON_RELEASE_TO_LOWEST</a> = 1 &lt;&lt; 4
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a60342bd31214d0ede9aa88d547e74b1d">NATURAL_MONO</a> = MONO_RETRIGGER | ON_RELEASE_TO_LATEST
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a130aff181a0ddeb2d2fd12f81e114adb">NATURAL_LEGATO</a> = MONO_LEGATO | ON_RELEASE_TO_LATEST
+<br />
  }</td></tr>
+<tr class="memdesc:af6cc76daccd7eafe7d70e76061f99ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mono Playmode is somewhat ambiguous, meaning many things.  <a href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0">More...</a><br /></td></tr>
+<tr class="separator:af6cc76daccd7eafe7d70e76061f99ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fe62f239d82bfcbfd6f04d3a1f41e60"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60affec199ac034a0999ccfcb7f0325c8a3">OLDEST</a>
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60ad08bf58ccd0f9cf567cf14bf1216369f">HIGHEST</a>
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60a664626f39fdbfdb9cfe98285a9e161f9">LOWEST</a>
+ }</td></tr>
+<tr class="memdesc:a8fe62f239d82bfcbfd6f04d3a1f41e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">StealingPriorityMode deteremines how to pick a voice to steal when an appropriate voice or note limit is met.  <a href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">More...</a><br /></td></tr>
 <tr class="separator:a8fe62f239d82bfcbfd6f04d3a1f41e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e669dee7cdcc76ccf5160443531a32"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt; Cfg &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a10e669dee7cdcc76ccf5160443531a32">initInstruction_t</a></td></tr>
+<tr class="separator:a10e669dee7cdcc76ccf5160443531a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -158,10 +176,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec246739838d962211ec3124c7f26ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f2ae1a5aceaf3cd3ee076e8769e31f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a0f2ae1a5aceaf3cd3ee076e8769e31f3">allSoundsOff</a> ()</td></tr>
 <tr class="separator:a0f2ae1a5aceaf3cd3ee076e8769e31f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef62de268f4d9014a08633d9d475ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8ef62de268f4d9014a08633d9d475ef5">guaranteeGroup</a> (uint64_t groupId)</td></tr>
+<tr class="separator:a8ef62de268f4d9014a08633d9d475ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac89509ca91f60fb81c06806753a45dcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#ac89509ca91f60fb81c06806753a45dcc">setPolyphonyGroupVoiceLimit</a> (uint64_t groupId, int32_t limit)</td></tr>
 <tr class="separator:ac89509ca91f60fb81c06806753a45dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8030793a4ec121d882149b9f568e124d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8030793a4ec121d882149b9f568e124d">setPlaymode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> pm)</td></tr>
-<tr class="separator:a8030793a4ec121d882149b9f568e124d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2efe3914d8eab69575de1d445a38c386"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a2efe3914d8eab69575de1d445a38c386">setPlaymode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> pm, uint64_t features=(uint64_t) <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">MonoPlayModeFeatures::NONE</a>)</td></tr>
+<tr class="separator:a2efe3914d8eab69575de1d445a38c386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185935e19f0805f41d79904a40a3158b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a185935e19f0805f41d79904a40a3158b">setStealingPriorityMode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> pm)</td></tr>
 <tr class="separator:a185935e19f0805f41d79904a40a3158b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -199,21 +219,44 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
   </table>
   </dd>
 </dl>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="adef5d969ee0c8fd79b4d073310cdfb6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adef5d969ee0c8fd79b4d073310cdfb6c">&#9670;&nbsp;</a></span>MIDI1Dialect</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a10e669dee7cdcc76ccf5160443531a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e669dee7cdcc76ccf5160443531a32">&#9670;&nbsp;</a></span>initInstruction_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c">MIDI1Dialect</a></td>
+          <td class="memname">typedef <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt;Cfg&gt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a10e669dee7cdcc76ccf5160443531a32">initInstruction_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="adef5d969ee0c8fd79b4d073310cdfb6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef5d969ee0c8fd79b4d073310cdfb6c">&#9670;&nbsp;</a></span>MIDI1Dialect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c">MIDI1Dialect</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adef5d969ee0c8fd79b4d073310cdfb6ca5c31ee2ace1af2ce16f690e4dc284691"></a>MIDI1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adef5d969ee0c8fd79b4d073310cdfb6ca94c53a60ef3d68581fdefb175e1031ad"></a>MIDI1_MPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adef5d969ee0c8fd79b4d073310cdfb6cacb398c5bd3cc5ca72ecbd569fbd1446c"></a>MIDI1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adef5d969ee0c8fd79b4d073310cdfb6cafb569f09e96f08cea687595495260e52"></a>MIDI1_MPE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -223,15 +266,25 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>If a key is struck twice while still gated or sustained, do we start a new voice or do we re-use the voice (and move the note id) or do we trigger a second voice. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35ba9507d769c24a55cd7f2e5ff074adaa77"></a>MULTI_VOICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35ba8c7b64c24baaabd3f1fda4ae322c8c40"></a>PIANO&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566"></a>MULTI_VOICE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130"></a>PIANO&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -241,16 +294,70 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>The voice manager can either run in a mode where it manages to voice limits in a polyphonic mode (but multi-voice notes still steal together) or can manage to a single note with essentially unlimited voices. </p>
+<p>This is controlled by the group PlayMode. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a188092ed559d356ade9a517d60ec3f34a7d85766d041d397d096dcbc0d7c793fd"></a>POLY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188092ed559d356ade9a517d60ec3f34a3828195437a1112429b5c7a3e8780570"></a>MONO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188092ed559d356ade9a517d60ec3f34a8c2deaff3bc2f3bab05176d16424977f"></a>MONO_LEGATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a188092ed559d356ade9a517d60ec3f34ad067247cfabc0d4f5b62e6f24bf2b43a"></a>POLY_VOICES&#160;</td><td class="fielddoc"><p>The voice manager manages voice counts from any number of keys in piano mode. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a188092ed559d356ade9a517d60ec3f34ab1cfde9170ea5d634846591999893099"></a>MONO_NOTES&#160;</td><td class="fielddoc"><p>The voice manager makes sure the consequence of only one key is playing at a time, independent of voices. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="af6cc76daccd7eafe7d70e76061f99ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cc76daccd7eafe7d70e76061f99ed0">&#9670;&nbsp;</a></span>MonoPlayModeFeatures</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0">MonoPlayModeFeatures</a> : uint64_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mono Playmode is somewhat ambiguous, meaning many things. </p>
+<p>So lets enumerate the features. Hope we have fewer than 64. Even though these are using the bits as features they are not all possible to be active simultaneusly. As well as distinct bit values, we provide a few preset | combinations of flags for common use cases. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0a80b61156f92f4479797b5f9968bcd4e2"></a>MONO_RETRIGGER&#160;</td><td class="fielddoc"><p>A new keypress triggers a new voice. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0afb9e58b03fe52c744df80518f2645934"></a>MONO_LEGATO&#160;</td><td class="fielddoc"><p>A new keypress moves the playing voice. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0aca5c7bda3d4f794b159e33ab1224cdb0"></a>ON_RELEASE_TO_LATEST&#160;</td><td class="fielddoc"><p>mono release return to latest </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0a9a6af52606029e53f171e3bf3a48db51"></a>ON_RELEASE_TO_HIGHEST&#160;</td><td class="fielddoc"><p>release to highest </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0a1ee9db4f3c06106d0119724a4afb3fe1"></a>ON_RELEASE_TO_LOWEST&#160;</td><td class="fielddoc"><p>release to lowest </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0a60342bd31214d0ede9aa88d547e74b1d"></a>NATURAL_MONO&#160;</td><td class="fielddoc"><p>What a 'mono' button would do. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6cc76daccd7eafe7d70e76061f99ed0a130aff181a0ddeb2d2fd12f81e114adb"></a>NATURAL_LEGATO&#160;</td><td class="fielddoc"><p>What a 'legato' button would do. </p>
+</td></tr>
 </table>
 
 </div>
@@ -260,16 +367,27 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>StealingPriorityMode deteremines how to pick a voice to steal when an appropriate voice or note limit is met. </p>
+<p>HIGHEST and LOWEST are in midi-key space. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8fe62f239d82bfcbfd6f04d3a1f41e60ad825b24862971065ad76d104df24d6f7"></a>OLDEST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8fe62f239d82bfcbfd6f04d3a1f41e60ae21a4e10ac16b844ebb238a2333bb594"></a>HIGHEST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8fe62f239d82bfcbfd6f04d3a1f41e60ae321c2eb4e64b32d51da602bc6352f1d"></a>LOWEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8fe62f239d82bfcbfd6f04d3a1f41e60affec199ac034a0999ccfcb7f0325c8a3"></a>OLDEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fe62f239d82bfcbfd6f04d3a1f41e60ad08bf58ccd0f9cf567cf14bf1216369f"></a>HIGHEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8fe62f239d82bfcbfd6f04d3a1f41e60a664626f39fdbfdb9cfe98285a9e161f9"></a>LOWEST&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -420,6 +538,8 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="voicemanager__impl_8h.html#a71f8cd5477d398a11cd11f99d9779362">VML</a>.</p>
+
 </div>
 </div>
 <a id="aba799e15e853199fe5b0b45d9a0e98e7"></a>
@@ -453,6 +573,8 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="voicemanager__impl_8h.html#a71f8cd5477d398a11cd11f99d9779362">VML</a>.</p>
 
 </div>
 </div>
@@ -764,6 +886,26 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
 
 </div>
 </div>
+<a id="a8ef62de268f4d9014a08633d9d475ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ef62de268f4d9014a08633d9d475ef5">&#9670;&nbsp;</a></span>guaranteeGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void guaranteeGroup </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>groupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a14a5ff450c1193d13c5edc8c4fb3c425">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::Details()</a>.</p>
+
+</div>
+</div>
 <a id="ac89509ca91f60fb81c06806753a45dcc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac89509ca91f60fb81c06806753a45dcc">&#9670;&nbsp;</a></span>setPolyphonyGroupVoiceLimit()</h2>
 
@@ -792,8 +934,8 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
 
 </div>
 </div>
-<a id="a8030793a4ec121d882149b9f568e124d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8030793a4ec121d882149b9f568e124d">&#9670;&nbsp;</a></span>setPlaymode()</h2>
+<a id="a2efe3914d8eab69575de1d445a38c386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2efe3914d8eab69575de1d445a38c386">&#9670;&nbsp;</a></span>setPlaymode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,7 +950,13 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a>&#160;</td>
-          <td class="paramname"><em>pm</em>&#160;</td>
+          <td class="paramname"><em>pm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>features</em> = <code>(uint64_t)<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">MonoPlayModeFeatures::NONE</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -917,7 +1065,7 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a305d6381f91b6f2206493a53e82e0a7a">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::doMPEChannelPressure()</a>, and <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adc73f5d68f4f61b789acfb28530e8bdc">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::doMPEPitchBend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ae85d867ae38f9351dc4e1f2f59398227">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::doMonoRetrigger()</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a305d6381f91b6f2206493a53e82e0a7a">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::doMPEChannelPressure()</a>, and <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adc73f5d68f4f61b789acfb28530e8bdc">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::doMPEPitchBend()</a>.</p>
 
 </div>
 </div>
@@ -944,7 +1092,7 @@ struct sst::voicemanager::VoiceManager&lt; Cfg, Responder, MonoResponder &gt;</h
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 24 2024 16:26:20 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Nov 4 2024 23:31:37 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

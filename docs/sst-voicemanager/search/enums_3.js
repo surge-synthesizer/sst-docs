@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stealingprioritymode_168',['StealingPriorityMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60',1,'sst::voicemanager::VoiceManager']]]
+  ['repeatedkeymode_215',['RepeatedKeyMode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b',1,'sst::voicemanager::VoiceManager']]]
 ];
