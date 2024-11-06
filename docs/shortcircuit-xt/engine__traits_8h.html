@@ -88,6 +88,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">engine_traits.h File Reference</div>  </div>
@@ -101,6 +102,13 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacescxt_1_1json"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html">scxt::json</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a1a92826e40c6c35737b100598a66ce4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine__traits_8h.html#a1a92826e40c6c35737b100598a66ce4b">PMTS</a>(pm,  s)</td></tr>
+<tr class="separator:a1a92826e40c6c35737b100598a66ce4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a92826e40c6c35737b100598a66ce4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine__traits_8h.html#a1a92826e40c6c35737b100598a66ce4b">PMTS</a>(pm,  s)</td></tr>
+<tr class="separator:a1a92826e40c6c35737b100598a66ce4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a18adb3de3e91f1080b098760c2071535"><td class="memItemLeft" align="right" valign="top">SC_STREAMDEF(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: Engine is streaming for state 'IN_PROCESS'&quot;);} v={{&quot;streamingVersion&quot;, scxt::currentStreamingVersion}, {&quot;streamingVersionHumanReadable&quot;, scxt::humanReadableVersion(scxt::currentStreamingVersion)}, {&quot;patch&quot;, from.getPatch()}, {&quot;selectionManager&quot;, from.getSelectionManager()}, {&quot;sampleManager&quot;, from.getSampleManager()}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ assert(to.getMessageController() -&gt;threadingChecker.isSerialThread());auto sv{0};findIf(v, &quot;streamingVersion&quot;, sv);<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstreaming engine state. Stream version : &quot;&lt;&lt; scxt::humanReadableVersion(sv));engine::Engine::UnstreamGuard sg(sv);findIf(v, &quot;sampleManager&quot;, *(to.getSampleManager()));findIf(v, &quot;patch&quot;, *(to.getPatch()));findIf(v, &quot;selectionManager&quot;, *(to.getSelectionManager()));to.getPatch() -&gt;setupBussesOnUnstream(to);to.onPartConfigurationUpdated();to.getPatch() -&gt;setSampleRate(to.getSampleRate());})) SC_STREAMDEF(scxt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a18adb3de3e91f1080b098760c2071535">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;p&quot;, t.part}, {&quot;i&quot;, t.index}, {&quot;v&quot;, t.value}};addUnlessDefault&lt; val_t &gt;(v, &quot;bp&quot;, false, t.isBipolar);addUnlessDefault&lt; val_t &gt;(v, &quot;st&quot;, false, t.isStepped);addUnlessDefault&lt; val_t &gt;(v, &quot;sc&quot;,(size_t) 1, t.stepCount);addUnlessDefault&lt; val_t &gt;(v, &quot;nm&quot;, scxt::engine::Macro::defaultNameFor(t.index), t.name);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ findIf(v, &quot;v&quot;, result.value);findIf(v, &quot;i&quot;, result.index);findIf(v, &quot;p&quot;, result.part);findOrSet(v, &quot;bp&quot;, false, result.isBipolar);findOrSet(v, &quot;st&quot;, false, result.isStepped);findOrSet(v, &quot;sc&quot;, 1, result.stepCount);findOrSet(v, &quot;nm&quot;, scxt::engine::Macro::defaultNameFor(result.index), result.name);}))</td></tr>
@@ -113,8 +121,16 @@ Functions</h2></td></tr>
 <tr class="separator:a7a54c23ace25a492c56d604c42b4ad57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f8781f38359866e8e9495c8a3c92c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a58f8781f38359866e8e9495c8a3c92c0">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html">scxt::engine::GroupTriggerConditions</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ bool anyConfigured{false};for(const auto &amp;c :from.storage) { anyConfigured|=(c.id !=<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">scxt::engine::GroupTriggerID::NONE</a>);} if(anyConfigured) { v={{&quot;st&quot;, from.storage}, {&quot;ac&quot;, from.active}, {&quot;conj&quot;, from.conjunctions}};} else { v=tao::json::empty_object;} }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ findIf(v, &quot;st&quot;, to.storage);findIf(v, &quot;ac&quot;, to.active);findIf(v, &quot;conj&quot;, to.conjunctions);}))</td></tr>
 <tr class="separator:a58f8781f38359866e8e9495c8a3c92c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a275070c2a45907a2a21c312fea7fd2dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a275070c2a45907a2a21c312fea7fd2dc">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">scxt::engine::Group::GroupOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;procRouting&quot;, t.procRouting}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ findIf(v, &quot;amplitude&quot;, result.amplitude);findIf(v, &quot;pan&quot;, result.pan);findIf(v, &quot;muted&quot;, result.muted);findIf(v, &quot;procRouting&quot;, result.procRouting);findIf(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);findIf(v, &quot;oversample&quot;, result.oversample);int rt{engine::BusAddress::DEFAULT_BUS};findIf(v, &quot;routeTo&quot;, rt);findIf(v, &quot;hip&quot;, result.hasIndependentPolyLimit);findIf(v, &quot;pl&quot;, result.polyLimit);result.routeTo=(engine::BusAddress)(rt);}))</td></tr>
-<tr class="separator:a275070c2a45907a2a21c312fea7fd2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ee484d7a298781ac7ec0fbdc865653"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a36ee484d7a298781ac7ec0fbdc865653">groupInfoPlayModeTo</a> (uint32_t p)</td></tr>
+<tr class="separator:a36ee484d7a298781ac7ec0fbdc865653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42900ba086449d4f87e1ff8cc19c0fa4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a42900ba086449d4f87e1ff8cc19c0fa4">groupInfoPlayModeFrom</a> (const std::string &amp;s)</td></tr>
+<tr class="separator:a42900ba086449d4f87e1ff8cc19c0fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085affcab4e3c89cb75c84e00bf52c04"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a085affcab4e3c89cb75c84e00bf52c04">groupInfoPlayModeFeatureTo</a> (uint64_t x)</td></tr>
+<tr class="separator:a085affcab4e3c89cb75c84e00bf52c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb360fea8ba76676e1a397ebd89900d5"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#adb360fea8ba76676e1a397ebd89900d5">groupInfoPlayModeFeatureFrom</a> (const std::string &amp;x)</td></tr>
+<tr class="separator:adb360fea8ba76676e1a397ebd89900d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0bd9be50c0793ff9c84f6864f96003"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#adf0bd9be50c0793ff9c84f6864f96003">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">scxt::engine::Group::GroupOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;procRouting&quot;, t.procRouting}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}, {&quot;vpm&quot;, groupInfoPlayModeTo(t.vmPlayModeInt)}, {&quot;vpf&quot;, groupInfoPlayModeFeatureTo(t.vmPlayModeFeaturesInt)}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ findIf(v, &quot;amplitude&quot;, result.amplitude);findIf(v, &quot;pan&quot;, result.pan);findIf(v, &quot;muted&quot;, result.muted);findIf(v, &quot;procRouting&quot;, result.procRouting);findIf(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);findIf(v, &quot;oversample&quot;, result.oversample);int rt{engine::BusAddress::DEFAULT_BUS};findIf(v, &quot;routeTo&quot;, rt);findIf(v, &quot;hip&quot;, result.hasIndependentPolyLimit);findIf(v, &quot;pl&quot;, result.polyLimit);result.routeTo=(engine::BusAddress)(rt);std::string tmp;findIf(v, &quot;vpm&quot;, tmp);result.vmPlayModeInt=groupInfoPlayModeFrom(tmp);findIf(v, &quot;vpf&quot;, tmp);result.vmPlayModeFeaturesInt=groupInfoPlayModeFeatureFrom(tmp);}))</td></tr>
+<tr class="separator:adf0bd9be50c0793ff9c84f6864f96003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2194fe97d1c6848405ddd3aed4632e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ae2194fe97d1c6848405ddd3aed4632e7">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html">scxt::engine::Group</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;zones&quot;, t.getZones()}, {&quot;name&quot;, t.getName()}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;routingTable&quot;, t.routingTable}, {&quot;gegStorage&quot;, t.gegStorage}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;triggerConditions&quot;, t.triggerConditions}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;group=to;findIf(v, &quot;name&quot;, group.name);findIf(v, &quot;gegStorage&quot;, group.gegStorage);findIf(v, &quot;outputInfo&quot;, group.outputInfo);findIf(v, &quot;processorStorage&quot;, group.processorStorage);findIf(v, &quot;routingTable&quot;, group.routingTable);findIf(v, &quot;triggerConditions&quot;, group.triggerConditions);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, group.modulatorStorage);group.clearZones();auto vzones=v.at(&quot;zones&quot;).get_array();for(const auto vz :vzones) { auto idx=group.addZone(std::make_unique&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a> &gt;()) - 1;vz.to(*(group.getZone(idx)));if(group.parentPart &amp;&amp;group.parentPart-&gt;parentPatch &amp;&amp;group.parentPart-&gt;parentPatch-&gt;parentEngine) { group.getZone(idx) -&gt;setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));} } group.setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));}))</td></tr>
 <tr class="separator:ae2194fe97d1c6848405ddd3aed4632e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2dc8c1fb7bbedc117f9f8267212ee08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ad2dc8c1fb7bbedc117f9f8267212ee08">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html">scxt::engine::Zone::ZoneOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amp&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;to&quot;,(int) t.routeTo}};addUnlessDefault&lt; val_t &gt;(v, &quot;prt&quot;, engine::Zone::ProcRoutingPath::procRoute_linear, t.procRouting);addUnlessDefault&lt; val_t &gt;(v, &quot;muted&quot;, false, t.muted);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zo=to;findIf(v, {&quot;amp&quot;, &quot;amplitude&quot;}, zo.amplitude);findIf(v, &quot;pan&quot;, zo.pan);findOrSet(v, &quot;muted&quot;, false, zo.muted);findOrSet(v, {&quot;prt&quot;, &quot;procRouting&quot;}, engine::Zone::ProcRoutingPath::procRoute_linear, zo.procRouting);int rt{engine::BusAddress::DEFAULT_BUS};findIf(v, {&quot;to&quot;, &quot;routeTo&quot;}, rt);if(rt &gt;=engine::BusAddress::ERROR_BUS &amp;&amp;rt&lt;=engine::BusAddress::AUX_0+numAux) zo.routeTo=(engine::BusAddress)(rt);else zo.routeTo=engine::BusAddress::DEFAULT_BUS;}))</td></tr>
@@ -154,10 +170,76 @@ Functions</h2></td></tr>
 <tr class="memitem:a295aec02359e8b3fd8edee33323c7f87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a295aec02359e8b3fd8edee33323c7f87">SC_STREAMDEF</a> (engine::Patch::Busses, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;mainBus&quot;, t.mainBus}, {&quot;partBusses&quot;, t.partBusses}, {&quot;auxBusses&quot;, t.auxBusses}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ findIf(v, &quot;mainBus&quot;, to.mainBus);findIf(v, &quot;partBusses&quot;, to.partBusses);findIf(v, &quot;auxBusses&quot;, to.auxBusses);to.reconfigureSolo();to.reconfigureOutputBusses();}))</td></tr>
 <tr class="separator:a295aec02359e8b3fd8edee33323c7f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a1a92826e40c6c35737b100598a66ce4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a92826e40c6c35737b100598a66ce4b">&#9670;&nbsp;</a></span>PMTS <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PMTS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pm, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (x &amp; (uint64_t)engine::Engine::voiceManager_t::MonoPlayModeFeatures::pm)                    \</div>
+<div class="line">        oss &lt;&lt; <span class="stringliteral">&quot;|&quot;</span> &lt;&lt; s <span class="stringliteral">&quot;|&quot;</span>;</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1a92826e40c6c35737b100598a66ce4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a92826e40c6c35737b100598a66ce4b">&#9670;&nbsp;</a></span>PMTS <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PMTS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pm, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        std::string q = std::string(<span class="stringliteral">&quot;|&quot;</span>) + s + <span class="stringliteral">&quot;|&quot;</span>;                                                \</div>
+<div class="line">        if (x.find(q) != std::string::npos)                                                        \</div>
+<div class="line">        {                                                                                          \</div>
+<div class="line">            res |= (uint64_t)engine::Engine::voiceManager_t::MonoPlayModeFeatures::pm;             \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 4 2024 18:59:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Nov 6 2024 14:13:29 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
