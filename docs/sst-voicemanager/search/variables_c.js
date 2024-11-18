@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['totalusedvoices_197',['totalUsedVoices',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a293840e714ef6419e8c0439db5ab42f0',1,'sst::voicemanager::VoiceManager::Details']]],
-  ['transaction_198',['transaction',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html#a6ebb556861aa3aa3299a9b880e865f0e',1,'sst::voicemanager::VoiceManager::Details::IndividualKeyState']]],
-  ['transactionid_199',['transactionId',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a4eba956d8fc1f71854ae16d8f8d744dd',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]]
+  ['start_201',['START',['../structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a7bd05fa0213b0f0f0acb5a7c52f0a348',1,'sst::voicemanager::VoiceInitInstructionsEntry']]],
+  ['stealingprioritymode_202',['stealingPriorityMode',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ab5119895a722c03170323df5ed090a9c',1,'sst::voicemanager::VoiceManager::Details']]],
+  ['sustainon_203',['sustainOn',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6314693e0292248543f2df3cad954767',1,'sst::voicemanager::VoiceManager::Details']]]
 ];

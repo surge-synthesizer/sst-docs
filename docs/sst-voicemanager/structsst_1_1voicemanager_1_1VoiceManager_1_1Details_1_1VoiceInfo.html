@@ -99,6 +99,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a938bc74ad1d4c309e5584b53d7a0ac06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a938bc74ad1d4c309e5584b53d7a0ac06">matches</a> (int16_t pt, int16_t ch, int16_t k, int32_t nid)</td></tr>
 <tr class="separator:a938bc74ad1d4c309e5584b53d7a0ac06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525eb159a7ab6b038403b51de984b11c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a525eb159a7ab6b038403b51de984b11c">snapOriginalToCurrent</a> ()</td></tr>
+<tr class="separator:a525eb159a7ab6b038403b51de984b11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -110,6 +112,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4e8f191bf9d01c37e72e9cf26741c54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a518d5ec56eda1f15cedee978e67a4d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a7a518d5ec56eda1f15cedee978e67a4d">noteId</a> {-1}</td></tr>
 <tr class="separator:a7a518d5ec56eda1f15cedee978e67a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044be47edf574431d82786a6d4583d60"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a044be47edf574431d82786a6d4583d60">originalPort</a> {0}</td></tr>
+<tr class="separator:a044be47edf574431d82786a6d4583d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd408cdcaf30ad1c5f3d50099ee72349"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#afd408cdcaf30ad1c5f3d50099ee72349">originalChannel</a> {0}</td></tr>
+<tr class="separator:afd408cdcaf30ad1c5f3d50099ee72349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f4e4bfd101857b133ea5d6f79816f65"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a8f4e4bfd101857b133ea5d6f79816f65">originalKey</a> {0}</td></tr>
+<tr class="separator:a8f4e4bfd101857b133ea5d6f79816f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69940111852820daa47bb336b50d0df6"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a69940111852820daa47bb336b50d0df6">voiceCounter</a> {0}</td></tr>
 <tr class="separator:a69940111852820daa47bb336b50d0df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eba956d8fc1f71854ae16d8f8d744dd"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a4eba956d8fc1f71854ae16d8f8d744dd">transactionId</a> {0}</td></tr>
@@ -158,6 +166,23 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a525eb159a7ab6b038403b51de984b11c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a525eb159a7ab6b038403b51de984b11c">&#9670;&nbsp;</a></span>snapOriginalToCurrent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void snapOriginalToCurrent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215,6 +240,48 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int32_t noteId {-1}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a044be47edf574431d82786a6d4583d60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a044be47edf574431d82786a6d4583d60">&#9670;&nbsp;</a></span>originalPort</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t originalPort {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd408cdcaf30ad1c5f3d50099ee72349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd408cdcaf30ad1c5f3d50099ee72349">&#9670;&nbsp;</a></span>originalChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t originalChannel {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f4e4bfd101857b133ea5d6f79816f65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f4e4bfd101857b133ea5d6f79816f65">&#9670;&nbsp;</a></span>originalKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t originalKey {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -311,7 +378,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 7 2024 01:00:08 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Nov 18 2024 20:17:17 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
