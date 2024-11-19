@@ -115,6 +115,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af1fdc0db386ae9545f0d180595aeaa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd08c1c39f84dd91bad3f4b06c5f581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#affd08c1c39f84dd91bad3f4b06c5f581">retriggerVoiceWithNewNoteID</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int32_t noteid, float velocity)</td></tr>
 <tr class="separator:affd08c1c39f84dd91bad3f4b06c5f581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ee470de9a13b66b96a9749fda244c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8">moveVoice</a> (typename <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195">VMConfig::voice_t</a> *, uint16_t, uint16_t, uint16_t, float)</td></tr>
+<tr class="separator:a90ee470de9a13b66b96a9749fda244c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a723e3171783a4538ebf80b5a1ddac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">moveAndRetriggerVoice</a> (typename <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195">VMConfig::voice_t</a> *, uint16_t, uint16_t, uint16_t, float)</td></tr>
+<tr class="separator:a50a723e3171783a4538ebf80b5a1ddac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93cc351710d4de96dc0b08069b8bfb66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">setVoiceMIDIMPEChannelPitchBend</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, uint16_t pb14bit)</td></tr>
 <tr class="separator:a93cc351710d4de96dc0b08069b8bfb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d31db150aa19dc07018eb237c4b4b52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a2d31db150aa19dc07018eb237c4b4b52">setVoiceMIDIMPEChannelPressure</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int8_t val)</td></tr>
@@ -459,6 +463,102 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a90ee470de9a13b66b96a9749fda244c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90ee470de9a13b66b96a9749fda244c8">&#9670;&nbsp;</a></span>moveVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void moveVoice </td>
+          <td>(</td>
+          <td class="paramtype">typename <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195">VMConfig::voice_t</a> *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a3496dfc7a27df7eead65d48ed89e6867">Voice::key</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8b12aaa43ec8eb476290a2f801f9126b">Voice::originalMidiKey</a>.</p>
+
+</div>
+</div>
+<a id="a50a723e3171783a4538ebf80b5a1ddac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a723e3171783a4538ebf80b5a1ddac">&#9670;&nbsp;</a></span>moveAndRetriggerVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void moveAndRetriggerVoice </td>
+          <td>(</td>
+          <td class="paramtype">typename <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195">VMConfig::voice_t</a> *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>vel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ae783bb2cffbc3bb7af44249e33e72350">HasModulators&lt; T &gt;::eg</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad96e5220aa4b0c9ee5c86e0768fac296">HasModulators&lt; T &gt;::egOS</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#acd8c1dccc93a1818ecea0dc4474a43c7">Voice::isGated</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a3496dfc7a27df7eead65d48ed89e6867">Voice::key</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8b12aaa43ec8eb476290a2f801f9126b">Voice::originalMidiKey</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+</div>
+</div>
 <a id="a93cc351710d4de96dc0b08069b8bfb66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93cc351710d4de96dc0b08069b8bfb66">&#9670;&nbsp;</a></span>setVoiceMIDIMPEChannelPitchBend()</h2>
 
@@ -715,7 +815,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 18 2024 19:11:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Tue Nov 19 2024 03:15:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
