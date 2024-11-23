@@ -105,7 +105,7 @@ var searchData=
   ['outputl_2177',['outputL',['../structscxt_1_1dsp_1_1GeneratorIO.html#ab9594154e71a26b3b7e6706db885a15d',1,'scxt::dsp::GeneratorIO']]],
   ['outputleveldbp_2178',['outputLevelDbP',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a9c6a88e79ad79071fd2f2c9b09d1db9c',1,'scxt::modulation::shared::ProcessorTargetEndpointData']]],
   ['outputleveldbt_2179',['outputLevelDbT',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a660e0d4c7532710bf3e4ac74c42dafb8',1,'scxt::modulation::shared::ProcessorTargetEndpointData']]],
-  ['outputmenu_2180',['outputMenu',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a1dab02f188d7cebece269d76a5ff7426',1,'scxt::ui::app::mixer_screen::ChannelStrip::outputMenu()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a1dab02f188d7cebece269d76a5ff7426',1,'scxt::ui::app::edit_screen::GroupSettingsCard::outputMenu()']]],
+  ['outputmenu_2180',['outputMenu',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a1dab02f188d7cebece269d76a5ff7426',1,'scxt::ui::app::mixer_screen::ChannelStrip::outputMenu()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a7c3be757c311778adbcec2cef475a0ae',1,'scxt::ui::app::edit_screen::GroupSettingsCard::outputMenu()']]],
   ['outputos_2181',['outputOS',['../structscxt_1_1engine_1_1Bus.html#a2e836b22ffbe44ca0e1f84ee428a2e7b',1,'scxt::engine::Bus']]],
   ['outputpan_2182',['outputPan',['../structscxt_1_1voice_1_1Voice.html#a3d500907c5b37e91490aabc4c4d155b3',1,'scxt::voice::Voice']]],
   ['outputpane_2183',['outputPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#ab4029f52bc21021b6e2ac1f50f89a0c1',1,'scxt::ui::app::edit_screen::ProcTab']]],

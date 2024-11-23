@@ -113,7 +113,7 @@ var searchData=
   ['previousiskeytracked_6917',['previousIsKeytracked',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a13b127808a78ca64e4e0f4d147e83b2d',1,'scxt::dsp::processor::ProcessorStorage']]],
   ['prevvalue_6918',['prevValue',['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a56672daee6cd7c160366b72241a5a7e4',1,'scxt::ui::connectors::PayloadDataAttachment::prevValue()'],['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a56672daee6cd7c160366b72241a5a7e4',1,'scxt::ui::connectors::DiscretePayloadDataAttachment::prevValue()']]],
   ['prioglyph_6919',['prioGlyph',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a3f54046a63b1adb9ee78fadb20c18775',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
-  ['priomenu_6920',['prioMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#ab4fe4aaafc5a2e04d2b0111e95026f70',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
+  ['priomenu_6920',['prioMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a6b0674bc0b33db1d4870e40fe49db54e',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['proc_6921',['proc',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputPane.html#a991ade209a37d52209dd734cd3b1ddf3',1,'scxt::ui::app::edit_screen::OutputPane']]],
   ['processorconsumesmono_6922',['processorConsumesMono',['../structscxt_1_1voice_1_1Voice.html#a3c7ea73ce321efde8c534c8a97ff3128',1,'scxt::voice::Voice']]],
   ['processorcontroldescription_6923',['processorControlDescription',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a612c55316430e5847e5934b9b595f391',1,'scxt::ui::app::edit_screen::ProcessorPane']]],

@@ -55,7 +55,7 @@ var searchData=
   ['midiglyph_6666',['midiGlyph',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a80849bb930f261eb39c42e5ff43df54b',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['midikeyretuner_6667',['midikeyRetuner',['../structscxt_1_1engine_1_1Engine.html#a23174a8e7a1c4ec2dac457d59320cdd6',1,'scxt::engine::Engine']]],
   ['midilrbutton_6668',['midiLRButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac7031f548c431bb9cff9557b398f7c58',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
-  ['midimenu_6669',['midiMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a0793f4b4695a6805050eafb50c41703a',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
+  ['midimenu_6669',['midiMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a7d3b0e88925061a2ba8e81bcd470f475',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['midimode_6670',['midiMode',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#adc55745a7db56c3ebe1195ea8a2e5181',1,'scxt::ui::app::shared::PartSidebarCard']]],
   ['midinote_6671',['midiNote',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#a847de9e45e11004f843ebe0f7099d0de',1,'scxt::engine::Engine::SharedUIMemoryState::VoiceDisplayStateItem']]],
   ['midinotestatecounter_6672',['midiNoteStateCounter',['../structscxt_1_1engine_1_1Engine.html#ac2a579006ef9e2e2fb89eea500856522',1,'scxt::engine::Engine']]],

@@ -504,7 +504,7 @@ var searchData=
   ['src_3289',['src',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa968bfe603d5a4456d5662129093c7ddc',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['srcbutton_3290',['srcButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aad879a9b489e2959b46c8a86ff2b02d0',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['srclabel_3291',['SRCLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a1d27aed002a1c3305c0f8a28079af785',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
-  ['srcmenu_3292',['srcMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#ab23577baa3fe9e8f7f72728eb6562bbc',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
+  ['srcmenu_3292',['srcMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#af0409498c00d2c5724c9cbacc89431b1',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['sse_5finclude_2eh_3293',['sse_include.h',['../sse__include_8h.html',1,'']]],
   ['sst_3294',['sst',['../namespacesst.html',1,'']]],
   ['sstvoiceeffectshim_3295',['SSTVoiceEffectShim',['../structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html',1,'SSTVoiceEffectShim&lt; T &gt;'],['../structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#a45c4640640e0096b2655208e3a7df62c',1,'scxt::dsp::processor::SSTVoiceEffectShim::SSTVoiceEffectShim()']]],

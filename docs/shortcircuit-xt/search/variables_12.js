@@ -105,7 +105,7 @@ var searchData=
   ['spos2_7119',['spos2',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__entry.html#a883c61459971c8d4be2edfc15d699d6c',1,'scxt::sample::loaders::wave_strc_entry']]],
   ['srcbutton_7120',['srcButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aad879a9b489e2959b46c8a86ff2b02d0',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['srclabel_7121',['SRCLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a1d27aed002a1c3305c0f8a28079af785',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
-  ['srcmenu_7122',['srcMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#ab23577baa3fe9e8f7f72728eb6562bbc',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
+  ['srcmenu_7122',['srcMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#af0409498c00d2c5724c9cbacc89431b1',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['st_7123',['sT',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a9d67faaef1c57396f887b7b974e2527b',1,'scxt::modulation::shared::EGTargetEndpointData']]],
   ['start_5fphase_7124',['start_phase',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a531e94091a7078352fdf447e6758a9f7',1,'scxt::modulation::ModulatorStorage']]],
   ['startbeat_7125',['startBeat',['../structscxt_1_1voice_1_1Voice.html#acdc560c28dcd5512128939eaa90ec517',1,'scxt::voice::Voice']]],

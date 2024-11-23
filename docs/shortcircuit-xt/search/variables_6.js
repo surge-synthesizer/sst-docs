@@ -12,7 +12,7 @@ var searchData=
   ['givenname_6398',['givenName',['../structscxt_1_1engine_1_1Zone.html#aadaedef47b6be01238e9e2690e0153ca',1,'scxt::engine::Zone']]],
   ['glidedrag_6399',['glideDrag',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a675384abbba774ef0ec704023af50f0d',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['glideglpyh_6400',['glideGlpyh',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#accdadddeaf10ff05c9128d03b3b41bd1',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
-  ['glidemenu_6401',['glideMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#ae426d516b07b92812178168281c3e14a',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
+  ['glidemenu_6401',['glideMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a1e8315342295e21b23d036f90428979d',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['glyphlabels_6402',['glyphLabels',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#ac965e16a29cb84b68f2b785f4519b67a',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['glyphs_6403',['glyphs',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#af2ec6bae12fe8a4ac1207d65e875b973',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['grains_5finitialized_6404',['grains_initialized',['../structscxt_1_1sample_1_1Sample.html#a769c0828f96b1faf1d0dd66300891245',1,'scxt::sample::Sample']]],
