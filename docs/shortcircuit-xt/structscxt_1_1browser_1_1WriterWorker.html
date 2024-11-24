@@ -126,8 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86a28e8f04a4f4e49d37ea84c5807a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19eb2a8043f63dd8ef6008334f3a937f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a19eb2a8043f63dd8ef6008334f3a937f">addDebug</a> (const std::string &amp;m)</td></tr>
 <tr class="separator:a19eb2a8043f63dd8ef6008334f3a937f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28b11ad1c9fb1dcc5881b0e1c6c9d467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a28b11ad1c9fb1dcc5881b0e1c6c9d467">addDeviceLocation</a> (const fs::path &amp;m)</td></tr>
-<tr class="separator:a28b11ad1c9fb1dcc5881b0e1c6c9d467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60cb2957a3b5946b5a52b2c3ce952fe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a60cb2957a3b5946b5a52b2c3ce952fe4">addDeviceLocation</a> (const fs::path &amp;m, bool add)</td></tr>
+<tr class="separator:a60cb2957a3b5946b5a52b2c3ce952fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e3782283c1e47785c9b5a63dffabc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7">enqueueWorkItem</a> (<a class="el" href="structscxt_1_1browser_1_1WriterWorker_1_1EnQAble.html">EnQAble</a> *p)</td></tr>
 <tr class="separator:a66e3782283c1e47785c9b5a63dffabc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6aa1966a4ed8170b9a9ee619e0432bd"><td class="memItemLeft" align="right" valign="top">sqlite3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#ab6aa1966a4ed8170b9a9ee619e0432bd">getReadOnlyConn</a> (bool notifyOnError=true)</td></tr>
@@ -337,8 +337,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a28b11ad1c9fb1dcc5881b0e1c6c9d467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28b11ad1c9fb1dcc5881b0e1c6c9d467">&#9670;&nbsp;</a></span>addDeviceLocation()</h2>
+<a id="a60cb2957a3b5946b5a52b2c3ce952fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60cb2957a3b5946b5a52b2c3ce952fe4">&#9670;&nbsp;</a></span>addDeviceLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,8 +347,18 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">void addDeviceLocation </td>
           <td>(</td>
           <td class="paramtype">const fs::path &amp;&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>add</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -420,7 +430,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">        <span class="stringliteral">&quot;1003&quot;</span></div>
+<div class="line">        <span class="stringliteral">&quot;1004&quot;</span></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a37fd7d4f70d32c7993fe34e2dee703e6">WriterWorker::setupDatabase()</a>.</p>
 
@@ -462,6 +472,10 @@ Static Public Attributes</h2></td></tr>
 <div class="line"><span class="stringliteral">    id integer primary key,</span></div>
 <div class="line"><span class="stringliteral">    path varchar(2048)</span></div>
 <div class="line"><span class="stringliteral">);</span></div>
+<div class="line"><span class="stringliteral">CREATE TABLE IF NOT EXISTS IndexedDeviceLocations (</span></div>
+<div class="line"><span class="stringliteral">    id integer primary key,</span></div>
+<div class="line"><span class="stringliteral">    device_id integer</span></div>
+<div class="line"><span class="stringliteral">)</span></div>
 <div class="line"><span class="stringliteral">    )SQL&quot;</span></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a37fd7d4f70d32c7993fe34e2dee703e6">WriterWorker::setupDatabase()</a>.</p>
@@ -634,7 +648,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 23 2024 17:44:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Nov 24 2024 14:20:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

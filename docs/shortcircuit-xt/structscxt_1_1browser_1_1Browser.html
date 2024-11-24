@@ -107,15 +107,19 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a1f2fb1be2c5822cc9daf69e4f01137cc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a1f2fb1be2c5822cc9daf69e4f01137cc">errorReporter_t</a> = std::function&lt; void(const std::string &amp;, const std::string &amp;)&gt;</td></tr>
 <tr class="separator:a1f2fb1be2c5822cc9daf69e4f01137cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6a4a51e9d0e08b28c499b50e1ad843a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#ae6a4a51e9d0e08b28c499b50e1ad843a">indexedRootPath_t</a> = std::tuple&lt; fs::path, std::string, bool &gt;</td></tr>
+<tr class="separator:ae6a4a51e9d0e08b28c499b50e1ad843a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac486fb782dd134698078502609d2da44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#ac486fb782dd134698078502609d2da44">Browser</a> (<a class="el" href="structscxt_1_1browser_1_1BrowserDB.html">BrowserDB</a> &amp;, const <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html">infrastructure::DefaultsProvider</a> &amp;, const fs::path &amp;<a class="el" href="structscxt_1_1browser_1_1Browser.html#af968b3af9937e9ef2df84cf21680f2da">userDirectory</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a1f2fb1be2c5822cc9daf69e4f01137cc">errorReporter_t</a> reportError)</td></tr>
 <tr class="separator:ac486fb782dd134698078502609d2da44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae35d243c8ab4d4de49cce197c817124b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; fs::path, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#ae35d243c8ab4d4de49cce197c817124b">getRootPathsForDeviceView</a> () const</td></tr>
-<tr class="separator:ae35d243c8ab4d4de49cce197c817124b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42c4c5f349d4fce9d3372443a61e720f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a42c4c5f349d4fce9d3372443a61e720f">addRootPathForDeviceView</a> (const fs::path &amp;)</td></tr>
-<tr class="separator:a42c4c5f349d4fce9d3372443a61e720f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f619a8e86af8377269be799b51771d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae6a4a51e9d0e08b28c499b50e1ad843a">indexedRootPath_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a39f619a8e86af8377269be799b51771d">getRootPathsForDeviceView</a> () const</td></tr>
+<tr class="separator:a39f619a8e86af8377269be799b51771d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2fd79db8aff1386b4ec5e1bcd710b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#aa2fd79db8aff1386b4ec5e1bcd710b5f">addRootPathForDeviceView</a> (const fs::path &amp;, bool indexed)</td></tr>
+<tr class="separator:aa2fd79db8aff1386b4ec5e1bcd710b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08aa7a59455b5d96121c17f715d3a344"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a08aa7a59455b5d96121c17f715d3a344">removeRootPathForDeviceView</a> (const fs::path &amp;)</td></tr>
+<tr class="separator:a08aa7a59455b5d96121c17f715d3a344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85dd1ebe38b06d6af05c9413b6da7085"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; fs::path, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a85dd1ebe38b06d6af05c9413b6da7085">getOSDefaultRootPathsForDeviceView</a> () const</td></tr>
 <tr class="separator:a85dd1ebe38b06d6af05c9413b6da7085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -156,6 +160,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structscxt_1_1browser_1_1Browser.html#a1f2fb1be2c5822cc9daf69e4f01137cc">errorReporter_t</a> =  std::function&lt;void(const std::string &amp;, const std::string &amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6a4a51e9d0e08b28c499b50e1ad843a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6a4a51e9d0e08b28c499b50e1ad843a">&#9670;&nbsp;</a></span>indexedRootPath_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae6a4a51e9d0e08b28c499b50e1ad843a">indexedRootPath_t</a> =  std::tuple&lt;fs::path, std::string, bool&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -206,14 +224,14 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae35d243c8ab4d4de49cce197c817124b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae35d243c8ab4d4de49cce197c817124b">&#9670;&nbsp;</a></span>getRootPathsForDeviceView()</h2>
+<a id="a39f619a8e86af8377269be799b51771d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f619a8e86af8377269be799b51771d">&#9670;&nbsp;</a></span>getRootPathsForDeviceView()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::pair&lt; fs::path, std::string &gt; &gt; getRootPathsForDeviceView </td>
+          <td class="memname">std::vector&lt; <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae6a4a51e9d0e08b28c499b50e1ad843a">Browser::indexedRootPath_t</a> &gt; getRootPathsForDeviceView </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -221,14 +239,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1Browser.html#a0c6453be11222a12e777946e368b2da0">Browser::browserDb</a>, <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a9b30ae40ee27a0024a43e227853d0788">BrowserDB::getDeviceLocations()</a>, and <a class="el" href="structscxt_1_1browser_1_1Browser.html#a85dd1ebe38b06d6af05c9413b6da7085">Browser::getOSDefaultRootPathsForDeviceView()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1Browser.html#a0c6453be11222a12e777946e368b2da0">Browser::browserDb</a>, <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a0a8b919f3fd2eabf3d1b5569fbd13b96">BrowserDB::getDeviceLocations()</a>, and <a class="el" href="structscxt_1_1browser_1_1Browser.html#a85dd1ebe38b06d6af05c9413b6da7085">Browser::getOSDefaultRootPathsForDeviceView()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#aeeaf6e0beae4c5960c46d00c6d147295">BrowserPane::resetRoots()</a>.</p>
 
 </div>
 </div>
-<a id="a42c4c5f349d4fce9d3372443a61e720f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42c4c5f349d4fce9d3372443a61e720f">&#9670;&nbsp;</a></span>addRootPathForDeviceView()</h2>
+<a id="aa2fd79db8aff1386b4ec5e1bcd710b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2fd79db8aff1386b4ec5e1bcd710b5f">&#9670;&nbsp;</a></span>addRootPathForDeviceView()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,13 +255,43 @@ Public Attributes</h2></td></tr>
           <td class="memname">void addRootPathForDeviceView </td>
           <td>(</td>
           <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indexed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a81cb895b2550609df05772c7f025b94f">BrowserDB::addRemoveDeviceLocation()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a0c6453be11222a12e777946e368b2da0">Browser::browserDb</a>, and <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a4dcf028d138751f68edd2fee9197982a">BrowserDB::waitForJobsOutstandingComplete()</a>.</p>
+
+</div>
+</div>
+<a id="a08aa7a59455b5d96121c17f715d3a344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08aa7a59455b5d96121c17f715d3a344">&#9670;&nbsp;</a></span>removeRootPathForDeviceView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void removeRootPathForDeviceView </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a4d0bbfd11d7a600ffc5a9d631f89ab2c">BrowserDB::addDeviceLocation()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a0c6453be11222a12e777946e368b2da0">Browser::browserDb</a>, and <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a4dcf028d138751f68edd2fee9197982a">BrowserDB::waitForJobsOutstandingComplete()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a81cb895b2550609df05772c7f025b94f">BrowserDB::addRemoveDeviceLocation()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a0c6453be11222a12e777946e368b2da0">Browser::browserDb</a>, and <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a4dcf028d138751f68edd2fee9197982a">BrowserDB::waitForJobsOutstandingComplete()</a>.</p>
 
 </div>
 </div>
@@ -412,7 +460,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae35d243c8ab4d4de49cce197c817124b">Browser::getRootPathsForDeviceView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a39f619a8e86af8377269be799b51771d">Browser::getRootPathsForDeviceView()</a>.</p>
 
 </div>
 </div>
@@ -491,7 +539,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a42c4c5f349d4fce9d3372443a61e720f">Browser::addRootPathForDeviceView()</a>, and <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae35d243c8ab4d4de49cce197c817124b">Browser::getRootPathsForDeviceView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#aa2fd79db8aff1386b4ec5e1bcd710b5f">Browser::addRootPathForDeviceView()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a39f619a8e86af8377269be799b51771d">Browser::getRootPathsForDeviceView()</a>, and <a class="el" href="structscxt_1_1browser_1_1Browser.html#a08aa7a59455b5d96121c17f715d3a344">Browser::removeRootPathForDeviceView()</a>.</p>
 
 </div>
 </div>
@@ -521,7 +569,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 23 2024 17:44:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Nov 24 2024 14:20:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

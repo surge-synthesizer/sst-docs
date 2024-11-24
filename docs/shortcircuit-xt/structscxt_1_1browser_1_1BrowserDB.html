@@ -102,10 +102,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2afc05fad183c5636fe4cffdbbe87082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec866111e323071d6e69c5e43db68e75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#aec866111e323071d6e69c5e43db68e75">writeDebugMessage</a> (const std::string &amp;)</td></tr>
 <tr class="separator:aec866111e323071d6e69c5e43db68e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0bbfd11d7a600ffc5a9d631f89ab2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a4d0bbfd11d7a600ffc5a9d631f89ab2c">addDeviceLocation</a> (const fs::path &amp;)</td></tr>
-<tr class="separator:a4d0bbfd11d7a600ffc5a9d631f89ab2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b30ae40ee27a0024a43e227853d0788"><td class="memItemLeft" align="right" valign="top">std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a9b30ae40ee27a0024a43e227853d0788">getDeviceLocations</a> ()</td></tr>
-<tr class="separator:a9b30ae40ee27a0024a43e227853d0788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81cb895b2550609df05772c7f025b94f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a81cb895b2550609df05772c7f025b94f">addRemoveDeviceLocation</a> (const fs::path &amp;, bool)</td></tr>
+<tr class="separator:a81cb895b2550609df05772c7f025b94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8b919f3fd2eabf3d1b5569fbd13b96"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; fs::path, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a0a8b919f3fd2eabf3d1b5569fbd13b96">getDeviceLocations</a> ()</td></tr>
+<tr class="separator:a0a8b919f3fd2eabf3d1b5569fbd13b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2562f2aa425bd8d657ee1a42ce557d8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a2562f2aa425bd8d657ee1a42ce557d8f">numberOfJobsOutstanding</a> () const</td></tr>
 <tr class="separator:a2562f2aa425bd8d657ee1a42ce557d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dcf028d138751f68edd2fee9197982a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a4dcf028d138751f68edd2fee9197982a">waitForJobsOutstandingComplete</a> (int maxWaitInMS) const</td></tr>
@@ -166,34 +166,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d0bbfd11d7a600ffc5a9d631f89ab2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0bbfd11d7a600ffc5a9d631f89ab2c">&#9670;&nbsp;</a></span>addDeviceLocation()</h2>
+<a id="a81cb895b2550609df05772c7f025b94f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81cb895b2550609df05772c7f025b94f">&#9670;&nbsp;</a></span>addRemoveDeviceLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void addDeviceLocation </td>
+          <td class="memname">void addRemoveDeviceLocation </td>
           <td>(</td>
           <td class="paramtype">const fs::path &amp;&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>add</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a42c4c5f349d4fce9d3372443a61e720f">Browser::addRootPathForDeviceView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#aa2fd79db8aff1386b4ec5e1bcd710b5f">Browser::addRootPathForDeviceView()</a>, and <a class="el" href="structscxt_1_1browser_1_1Browser.html#a08aa7a59455b5d96121c17f715d3a344">Browser::removeRootPathForDeviceView()</a>.</p>
 
 </div>
 </div>
-<a id="a9b30ae40ee27a0024a43e227853d0788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b30ae40ee27a0024a43e227853d0788">&#9670;&nbsp;</a></span>getDeviceLocations()</h2>
+<a id="a0a8b919f3fd2eabf3d1b5569fbd13b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8b919f3fd2eabf3d1b5569fbd13b96">&#9670;&nbsp;</a></span>getDeviceLocations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; fs::path &gt; getDeviceLocations </td>
+          <td class="memname">std::vector&lt; std::pair&lt; fs::path, bool &gt; &gt; getDeviceLocations </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -203,7 +213,7 @@ Public Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="structscxt_1_1browser_1_1SQL_1_1Exception.html#aac1c33909e01e1dfc85617cf2477d3eb">Exception::what()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae35d243c8ab4d4de49cce197c817124b">Browser::getRootPathsForDeviceView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a39f619a8e86af8377269be799b51771d">Browser::getRootPathsForDeviceView()</a>.</p>
 
 </div>
 </div>
@@ -240,7 +250,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a42c4c5f349d4fce9d3372443a61e720f">Browser::addRootPathForDeviceView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#aa2fd79db8aff1386b4ec5e1bcd710b5f">Browser::addRootPathForDeviceView()</a>, and <a class="el" href="structscxt_1_1browser_1_1Browser.html#a08aa7a59455b5d96121c17f715d3a344">Browser::removeRootPathForDeviceView()</a>.</p>
 
 </div>
 </div>
@@ -251,7 +261,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 23 2024 17:44:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Nov 24 2024 14:20:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

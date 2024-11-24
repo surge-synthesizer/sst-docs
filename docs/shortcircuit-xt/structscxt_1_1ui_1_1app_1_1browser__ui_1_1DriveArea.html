@@ -87,6 +87,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea-members.html">List of all members</a>  </div>
@@ -106,6 +107,11 @@ $(function() {
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html">DriveAreaRow</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a81fb73eeaa9203a7522e3a33d44b5e8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html">BrowserPane</a> *b, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *e)</td></tr>
@@ -116,6 +122,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4f2c219a2cbbd6b61e7c41564dac6169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31cc081b3c77bc8855de79094fc1da42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a31cc081b3c77bc8855de79094fc1da42">resized</a> () override</td></tr>
 <tr class="separator:a31cc081b3c77bc8855de79094fc1da42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c11708618f9fdcc4db855d1c54ffc03"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; juce::Component &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a3c11708618f9fdcc4db855d1c54ffc03">makeComponent</a> ()</td></tr>
+<tr class="separator:a3c11708618f9fdcc4db855d1c54ffc03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3fb1b220155a56188545da65b83853"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a8a3fb1b220155a56188545da65b83853">assignComponentToRow</a> (const std::unique_ptr&lt; juce::Component &gt; &amp;c, int r)</td></tr>
+<tr class="separator:a8a3fb1b220155a56188545da65b83853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd85977aedfc562f901b382cdfc7422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a5dd85977aedfc562f901b382cdfc7422">setRowSelection</a> (const std::unique_ptr&lt; juce::Component &gt; &amp;c, bool r)</td></tr>
+<tr class="separator:a5dd85977aedfc562f901b382cdfc7422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
 <tr class="memitem:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#ae7c2e1db62fd864b342d056dfc91fb98">HasEditor</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *e)</td></tr>
 <tr class="separator:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,10 +155,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aacc5f9ac436b0d2551b610780dab6918"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html">BrowserPane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aacc5f9ac436b0d2551b610780dab6918">browserPane</a> {nullptr}</td></tr>
 <tr class="separator:aacc5f9ac436b0d2551b610780dab6918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b57d29a967ab2c1997a967acbb12eb"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveListBoxModel.html">DriveListBoxModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a07b57d29a967ab2c1997a967acbb12eb">model</a></td></tr>
-<tr class="separator:a07b57d29a967ab2c1997a967acbb12eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec647df9c7374b52a76820faccf16c72"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; juce::ListBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aec647df9c7374b52a76820faccf16c72">lbox</a></td></tr>
-<tr class="separator:aec647df9c7374b52a76820faccf16c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89468b272052c624c39591e7a79a97b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; sst::jucegui::components::ListView &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#ac89468b272052c624c39591e7a79a97b">listView</a></td></tr>
+<tr class="separator:ac89468b272052c624c39591e7a79a97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
 <tr class="memitem:a7a92928a81039469a2ce959b39d89d2b inherit pub_attribs_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">editor</a> {nullptr}</td></tr>
 <tr class="separator:a7a92928a81039469a2ce959b39d89d2b inherit pub_attribs_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +188,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aacc5f9ac436b0d2551b610780dab6918">DriveArea::browserPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aec647df9c7374b52a76820faccf16c72">DriveArea::lbox</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a07b57d29a967ab2c1997a967acbb12eb">DriveArea::model</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a8a3fb1b220155a56188545da65b83853">DriveArea::assignComponentToRow()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aacc5f9ac436b0d2551b610780dab6918">DriveArea::browserPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#ac89468b272052c624c39591e7a79a97b">DriveArea::listView</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a3c11708618f9fdcc4db855d1c54ffc03">DriveArea::makeComponent()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#ac284cc4ee4813b7e2974d33c4773775f">BrowserPane::roots</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a5dd85977aedfc562f901b382cdfc7422">DriveArea::setRowSelection()</a>.</p>
 
 </div>
 </div>
@@ -196,8 +206,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aec647df9c7374b52a76820faccf16c72">DriveArea::lbox</a>.</p>
 
 </div>
 </div>
@@ -253,7 +261,90 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#aec647df9c7374b52a76820faccf16c72">DriveArea::lbox</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#ac89468b272052c624c39591e7a79a97b">DriveArea::listView</a>.</p>
+
+</div>
+</div>
+<a id="a3c11708618f9fdcc4db855d1c54ffc03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c11708618f9fdcc4db855d1c54ffc03">&#9670;&nbsp;</a></span>makeComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;juce::Component&gt; makeComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>.</p>
+
+</div>
+</div>
+<a id="a8a3fb1b220155a56188545da65b83853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a3fb1b220155a56188545da65b83853">&#9670;&nbsp;</a></span>assignComponentToRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void assignComponentToRow </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; juce::Component &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#aea6b6f618b7657f98eef223548c90d76">DriveArea::DriveAreaRow::rowNumber</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>.</p>
+
+</div>
+</div>
+<a id="a5dd85977aedfc562f901b382cdfc7422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd85977aedfc562f901b382cdfc7422">&#9670;&nbsp;</a></span>setRowSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setRowSelection </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; juce::Component &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#a9ee682957ef18956fbe33afe9b6222fa">DriveArea::DriveAreaRow::selected</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>.</p>
 
 </div>
 </div>
@@ -270,39 +361,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a4f2c219a2cbbd6b61e7c41564dac6169">DriveArea::paint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#a143b8c20d729b74cf8f56b4425a72406">DriveFSListBoxRow::enclosingBox()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxModel.html#a3903df3db098bd0ec64dd50a79608c09">DriveFSListBoxModel::getNumRows()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1sfData.html#a6016e7c4b100464fe6bcddd745b1e1c9">sfData::getValue()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1sfData.html#a4d514d74a65d63102bed0643f12528e2">sfData::getValueAsStringFor()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#a30e7e2e04a095405646723ac95856c1a">DriveFSListBoxRow::isFile()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#a157094d9b4f4477360601d2ecbaaafaf">DriveFSListBoxRow::mouseDoubleClick()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#a7573082fd3086ba3775b602db61290bb">DriveArea::DriveAreaRow::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#af4b7e0f49cf4e0fde0dbcdcae6a3410c">DriveFSListBoxRow::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#a09d58428ae7c3742bb1a5f1f3ed827b7">DriveFSListBoxRow::mouseDrag()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#a4f2c219a2cbbd6b61e7c41564dac6169">DriveArea::DriveAreaRow::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a4f2c219a2cbbd6b61e7c41564dac6169">DriveArea::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#a4f2c219a2cbbd6b61e7c41564dac6169">DriveFSListBoxRow::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxModel.html#a069b3537746c4e115f3dbcc662ccac48">DriveFSListBoxModel::refreshComponentForRow()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1sfData.html#abb8c9ae8337003286f380f7566290396">sfData::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#ada275e5feafb3dec7bc7bd8c01bbc44f">DriveFSListBoxRow::showDirectoryPopup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#aa0b85af9d1203458c31986770eb8cb37">DriveArea::DriveAreaRow::showPopup()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSListBoxRow.html#a01bea4d7f7b7edb783aace559241bbcf">DriveFSListBoxRow::stopPreview()</a>.</p>
 
 </div>
 </div>
-<a id="a07b57d29a967ab2c1997a967acbb12eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b57d29a967ab2c1997a967acbb12eb">&#9670;&nbsp;</a></span>model</h2>
+<a id="ac89468b272052c624c39591e7a79a97b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac89468b272052c624c39591e7a79a97b">&#9670;&nbsp;</a></span>listView</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveListBoxModel.html">DriveListBoxModel</a>&gt; model</td>
+          <td class="memname">std::unique_ptr&lt;sst::jucegui::components::ListView&gt; listView</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>.</p>
-
-</div>
-</div>
-<a id="aec647df9c7374b52a76820faccf16c72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec647df9c7374b52a76820faccf16c72">&#9670;&nbsp;</a></span>lbox</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;juce::ListBox&gt; lbox</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a31cc081b3c77bc8855de79094fc1da42">DriveArea::resized()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a6fb3ef5ec5e86e76be982ea1c493fbc9">DriveArea::~DriveArea()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a81fb73eeaa9203a7522e3a33d44b5e8a">DriveArea::DriveArea()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#a7573082fd3086ba3775b602db61290bb">DriveArea::DriveAreaRow::mouseDown()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#a31cc081b3c77bc8855de79094fc1da42">DriveArea::resized()</a>.</p>
 
 </div>
 </div>
@@ -312,7 +387,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 23 2024 17:44:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sun Nov 24 2024 14:20:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
