@@ -172,6 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00362513949c830014ef34e1eb207412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9655921be6d53d2de10258a32a34b57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#aa9655921be6d53d2de10258a32a34b57">panOutputsBy</a> (bool inputIsMono, const <a class="el" href="structscxt_1_1voice_1_1Voice.html#a998e9cf4247b55a1cee872655bed30be">lipol</a> &amp;pv)</td></tr>
 <tr class="separator:aa9655921be6d53d2de10258a32a34b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fd3fad449c6b339f5e6a0dfe94587d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a69fd3fad449c6b339f5e6a0dfe94587d">setIsGated</a> (bool g)</td></tr>
+<tr class="separator:a69fd3fad449c6b339f5e6a0dfe94587d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12cac3382532a82a02011368a7d5fefb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">attack</a> ()</td></tr>
 <tr class="separator:a12cac3382532a82a02011368a7d5fefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23b477d0e2d399f75d585d154c346591"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a23b477d0e2d399f75d585d154c346591">release</a> ()</td></tr>
@@ -319,6 +321,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a35a96d79def9851ed57c1c3671aea1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8c1dccc93a1818ecea0dc4474a43c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#acd8c1dccc93a1818ecea0dc4474a43c7">isGated</a> {false}</td></tr>
 <tr class="separator:acd8c1dccc93a1818ecea0dc4474a43c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac214ff19da92055a9a1c6bdb3bcc262d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#ac214ff19da92055a9a1c6bdb3bcc262d">isGatedF</a> {0.f}</td></tr>
+<tr class="separator:ac214ff19da92055a9a1c6bdb3bcc262d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f67ee51da7c99c12c6d3aaf59337f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a16f67ee51da7c99c12c6d3aaf59337f7">isReleasedF</a> {0.f}</td></tr>
+<tr class="separator:a16f67ee51da7c99c12c6d3aaf59337f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2f5bbea39a4fd81059a1c78e713e2c7"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, maxGeneratorsPerVoice &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#ad2f5bbea39a4fd81059a1c78e713e2c7">isGeneratorRunning</a> {}</td></tr>
 <tr class="separator:ad2f5bbea39a4fd81059a1c78e713e2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f600a1abcc7e5ce66949e79f4aeda0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a9f600a1abcc7e5ce66949e79f4aeda0d">isAnyGeneratorRunning</a> {}</td></tr>
@@ -773,6 +779,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a69fd3fad449c6b339f5e6a0dfe94587d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69fd3fad449c6b339f5e6a0dfe94587d">&#9670;&nbsp;</a></span>setIsGated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setIsGated </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>g</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#acd8c1dccc93a1818ecea0dc4474a43c7">Voice::isGated</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac214ff19da92055a9a1c6bdb3bcc262d">Voice::isGatedF</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a16f67ee51da7c99c12c6d3aaf59337f7">Voice::isReleasedF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a23b477d0e2d399f75d585d154c346591">Voice::release()</a>.</p>
+
+</div>
+</div>
 <a id="a12cac3382532a82a02011368a7d5fefb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12cac3382532a82a02011368a7d5fefb">&#9670;&nbsp;</a></span>attack()</h2>
 
@@ -788,7 +816,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7d7dcdccaaf35cac6f84f5e5f33f94fa">Voice::isAEGRunning</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#acd8c1dccc93a1818ecea0dc4474a43c7">Voice::isGated</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae">Voice::isVoiceAssigned</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a521624bf3f7f941b6285e5b7539545ce">Voice::isVoicePlaying</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a5e5de1a1853ea5f9e4841b75da4f885d">Voice::releaseVelocity</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7d7dcdccaaf35cac6f84f5e5f33f94fa">Voice::isAEGRunning</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae">Voice::isVoiceAssigned</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a521624bf3f7f941b6285e5b7539545ce">Voice::isVoicePlaying</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a5e5de1a1853ea5f9e4841b75da4f885d">Voice::releaseVelocity</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69fd3fad449c6b339f5e6a0dfe94587d">Voice::setIsGated()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
@@ -807,7 +835,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#acd8c1dccc93a1818ecea0dc4474a43c7">Voice::isGated</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69fd3fad449c6b339f5e6a0dfe94587d">Voice::setIsGated()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a9e5be4497b811ed646dfe5379d580e53">Engine::VoiceManagerResponder::releaseVoice()</a>.</p>
 
@@ -1731,7 +1759,39 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a23b477d0e2d399f75d585d154c346591">Voice::release()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69fd3fad449c6b339f5e6a0dfe94587d">Voice::setIsGated()</a>.</p>
+
+</div>
+</div>
+<a id="ac214ff19da92055a9a1c6bdb3bcc262d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac214ff19da92055a9a1c6bdb3bcc262d">&#9670;&nbsp;</a></span>isGatedF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float isGatedF {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69fd3fad449c6b339f5e6a0dfe94587d">Voice::setIsGated()</a>.</p>
+
+</div>
+</div>
+<a id="a16f67ee51da7c99c12c6d3aaf59337f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f67ee51da7c99c12c6d3aaf59337f7">&#9670;&nbsp;</a></span>isReleasedF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float isReleasedF {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69fd3fad449c6b339f5e6a0dfe94587d">Voice::setIsGated()</a>.</p>
 
 </div>
 </div>
@@ -1860,7 +1920,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 24 2024 21:41:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Nov 25 2024 00:52:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
