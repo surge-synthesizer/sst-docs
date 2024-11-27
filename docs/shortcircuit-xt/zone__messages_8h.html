@@ -157,6 +157,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4674c836798dfaebe0d00c9790917742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786f015bf1d210599ddfe903e4cee70d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a786f015bf1d210599ddfe903e4cee70d">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateZoneOutputInt16TValue, c2s_update_zone_output_int16_t_value, detail::diffMsg_t&lt; int16_t &gt;, engine::Zone::ZoneOutputInfo, detail::updateZoneMemberValue(&amp;engine::Zone::outputInfo, payload, engine, cont))</td></tr>
 <tr class="separator:a786f015bf1d210599ddfe903e4cee70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08e19cd56222a80219c8a7dff15bf907"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a08e19cd56222a80219c8a7dff15bf907">CLIENT_TO_SERIAL_CONSTRAINED</a> (UpdateZoneOutputInt16TValueThenRefresh, c2s_update_zone_output_int16_t_value_then_refresh, detail::diffMsg_t&lt; int16_t &gt;, engine::Zone::ZoneOutputInfo, detail::updateZoneMemberValue(&amp;engine::Zone::outputInfo, payload, engine, cont, [](auto const &amp;eng) { auto lz=eng.getSelectionManager() -&gt;currentLeadZone(eng);if(lz.has_value()) { eng.getSelectionManager() -&gt;sendDisplayDataForZonesBasedOnLead(lz-&gt;part, lz-&gt;group, lz-&gt;zone);} }))</td></tr>
+<tr class="separator:a08e19cd56222a80219c8a7dff15bf907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab228caff5a80b06b15e3ae1ae8539e2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab228caff5a80b06b15e3ae1ae8539e2b">doAddBlankZone</a> (const addBlankZonePayload_t &amp;payload, engine::Engine &amp;engine, MessageController &amp;cont)</td></tr>
 <tr class="separator:ab228caff5a80b06b15e3ae1ae8539e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0274d9f2b03b183354d79a85e2a3f5c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0274d9f2b03b183354d79a85e2a3f5c7">CLIENT_TO_SERIAL</a> (AddBlankZone, c2s_add_blank_zone, addBlankZonePayload_t, doAddBlankZone(payload, engine, cont))</td></tr>
@@ -167,7 +169,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 26 2024 13:34:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Nov 27 2024 13:12:22 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
