@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lastpbbychannel_178',['lastPBByChannel',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a0da06d7ac9c97590ff3878511ed774f0',1,'sst::voicemanager::VoiceManager::Details']]]
+  ['lastpbbychannel_0',['lastPBByChannel',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a0da06d7ac9c97590ff3878511ed774f0',1,'sst::voicemanager::VoiceManager::Details']]]
 ];
