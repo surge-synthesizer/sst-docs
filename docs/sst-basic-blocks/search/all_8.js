@@ -25,5 +25,6 @@ var searchData=
   ['issourceused_22',['isSourceUsed',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a3bf3f1721defa208b2fb806cb0f27ce9',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
   ['istargetmodmatrixdepth_23',['isTargetModMatrixDepth',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['istemposynced_24',['isTemposynced',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#ac0619ca413db11e8dd8f58515efd1078',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
-  ['isunipolar_25',['isUnipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a73c7b584a84fbf1991e841c26562d9e9',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['isunipolar_25',['isUnipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a73c7b584a84fbf1991e841c26562d9e9',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['iszero_26',['isZero',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#abdc732c60eae4c4f0f352b6a01e01578',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];
