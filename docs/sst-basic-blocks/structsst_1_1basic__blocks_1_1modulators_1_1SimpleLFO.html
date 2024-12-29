@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1001e9b7574db118a1ed92ed2bb7a44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fecf21c01b6c40372a7434bdbaadabb" id="r_a3fecf21c01b6c40372a7434bdbaadabb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO</a> (SRProvider *s)</td></tr>
 <tr class="separator:a3fecf21c01b6c40372a7434bdbaadabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca3093cc7625b0aca6ba43d19331393c" id="r_aca3093cc7625b0aca6ba43d19331393c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">restartRandomSequence</a> ()</td></tr>
+<tr class="separator:aca3093cc7625b0aca6ba43d19331393c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a830a29d343c04e79f98e51908fbc6380" id="r_a830a29d343c04e79f98e51908fbc6380"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a830a29d343c04e79f98e51908fbc6380">bend1</a> (float x, float d)</td></tr>
 <tr class="separator:a830a29d343c04e79f98e51908fbc6380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3eb913b485a3dcf8f9969d7b563e4ec" id="r_ac3eb913b485a3dcf8f9969d7b563e4ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">attackForDisplay</a> (const int lshape)</td></tr>
@@ -233,7 +235,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a3f60d46ce011d4d89d74d2c9f9c36e2a">sst::basic_blocks::dsp::correlated_noise_o2mk2_suppliedrng()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac98c90e35e911c575849ca6ecca20617">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::objrngRef</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::outputBlock</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1076c00dbcec33df7341db6380fce815">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngCurrent</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afd78047e19ef1b32d34501538758e5a1">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngHistory</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a798f47cf8edc2b3735f62f34b491493e">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngState</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aabb34c2ee05a0aaab7b9465931798971">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::urng</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac98c90e35e911c575849ca6ecca20617">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::objrngRef</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::outputBlock</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aabb34c2ee05a0aaab7b9465931798971">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::urng</a>.</p>
 
 </div>
 </div>
@@ -255,11 +257,34 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a3f60d46ce011d4d89d74d2c9f9c36e2a">sst::basic_blocks::dsp::correlated_noise_o2mk2_suppliedrng()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#acfad75ef9a610dfa4e9c14dd183b5540">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::objrng</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::outputBlock</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a994588f3ca1bae9d28842cbba305fb8b">RNG::reseedWithClock()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1076c00dbcec33df7341db6380fce815">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngCurrent</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afd78047e19ef1b32d34501538758e5a1">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngHistory</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a798f47cf8edc2b3735f62f34b491493e">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngState</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aabb34c2ee05a0aaab7b9465931798971">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::urng</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#acfad75ef9a610dfa4e9c14dd183b5540">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::objrng</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::outputBlock</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a994588f3ca1bae9d28842cbba305fb8b">RNG::reseedWithClock()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aabb34c2ee05a0aaab7b9465931798971">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::urng</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aca3093cc7625b0aca6ba43d19331393c" name="aca3093cc7625b0aca6ba43d19331393c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca3093cc7625b0aca6ba43d19331393c">&#9670;&#160;</a></span>restartRandomSequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void restartRandomSequence </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a3f60d46ce011d4d89d74d2c9f9c36e2a">sst::basic_blocks::dsp::correlated_noise_o2mk2_suppliedrng()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1076c00dbcec33df7341db6380fce815">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngCurrent</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afd78047e19ef1b32d34501538758e5a1">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngHistory</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a798f47cf8edc2b3735f62f34b491493e">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::rngState</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aabb34c2ee05a0aaab7b9465931798971">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::urng</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abe168195b865ac1c9ade023b72cf6ae8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attack()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1001e9b7574db118a1ed92ed2bb7a44c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>.</p>
+
+</div>
+</div>
 <a id="a830a29d343c04e79f98e51908fbc6380" name="a830a29d343c04e79f98e51908fbc6380"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a830a29d343c04e79f98e51908fbc6380">&#9670;&#160;</a></span>bend1()</h2>
 
@@ -332,7 +357,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a7c49b3241c910e59657b2659895fc1ba">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::lastDPhase</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::outputBlock</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a275dd6dafe5d4455e599ffd15feb06f8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::phase</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a7c49b3241c910e59657b2659895fc1ba">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::lastDPhase</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::outputBlock</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a275dd6dafe5d4455e599ffd15feb06f8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::phase</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca8eafd79bc5dd29c18cd354acfee5b844">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SH_NOISE</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca5d62a763f5ea43d894107cfd2929d36b">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SMOOTH_NOISE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>.</p>
 
@@ -516,7 +541,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1001e9b7574db118a1ed92ed2bb7a44c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1001e9b7574db118a1ed92ed2bb7a44c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>.</p>
 
 </div>
 </div>
@@ -560,7 +585,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1001e9b7574db118a1ed92ed2bb7a44c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>.</p>
 
 </div>
 </div>
@@ -578,7 +603,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1001e9b7574db118a1ed92ed2bb7a44c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>.</p>
 
 </div>
 </div>
@@ -596,7 +621,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a3fecf21c01b6c40372a7434bdbaadabb">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1001e9b7574db118a1ed92ed2bb7a44c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::SimpleLFO()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac3eb913b485a3dcf8f9969d7b563e4ec">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::attackForDisplay()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a22d98e17cfab9d3724142a4359d363d8">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::process_block()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aca3093cc7625b0aca6ba43d19331393c">SimpleLFO&lt; SRProvider, BLOCK_SIZE &gt;::restartRandomSequence()</a>.</p>
 
 </div>
 </div>
@@ -714,7 +739,7 @@ template&lt;typename SRProvider , int BLOCK_SIZE&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 28 2024 18:32:01 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Dec 29 2024 23:09:34 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
