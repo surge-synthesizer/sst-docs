@@ -9,7 +9,7 @@ var searchData=
   ['basevalues_6',['baseValues',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['basic_20blocks_20simd_20setup_20h_20header_20providces_20a_20set_20of_20macros_20and_20defines_7',['sst/basic-blocks/simd/setup.h header providces a set of macros and defines',['../the.html',1,'']]],
   ['below_5fone_5fis_5finverse_5ffraction_8',['BELOW_ONE_IS_INVERSE_FRACTION',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487ada6b665cbafd117add7075fbdeab0850',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['bend1_9',['bend1',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a830a29d343c04e79f98e51908fbc6380',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['bend1_9',['bend1',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a7550e501c5676d862e2ebc434e37acd4',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['bessi0_10',['BESSI0',['../namespacesst_1_1basic__blocks_1_1dsp.html#aa39a21612ca7f5d8f36a63eb218bc521',1,'sst::basic_blocks::dsp']]],
   ['bindsourceconstantvalue_11',['bindSourceConstantValue',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a267d73634d8f8b37a16aa32a2e55c82a',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['bindsourcevalue_12',['bindSourceValue',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a986aaba501969d6e0d8634ff0dc4a850',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],

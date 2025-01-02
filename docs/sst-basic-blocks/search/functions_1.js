@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['bend1_0',['bend1',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a830a29d343c04e79f98e51908fbc6380',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['bend1_0',['bend1',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a7550e501c5676d862e2ebc434e37acd4',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['bessi0_1',['BESSI0',['../namespacesst_1_1basic__blocks_1_1dsp.html#aa39a21612ca7f5d8f36a63eb218bc521',1,'sst::basic_blocks::dsp']]],
   ['bindsourceconstantvalue_2',['bindSourceConstantValue',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a267d73634d8f8b37a16aa32a2e55c82a',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['bindsourcevalue_3',['bindSourceValue',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a986aaba501969d6e0d8634ff0dc4a850',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
