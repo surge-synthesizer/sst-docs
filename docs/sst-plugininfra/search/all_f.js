@@ -7,7 +7,8 @@ var searchData=
   ['sst_3a_3aplugininfra_3a_3acpufeatures_4',['cpufeatures',['../namespacesst_1_1plugininfra_1_1cpufeatures.html',1,'sst::plugininfra']]],
   ['sst_3a_3aplugininfra_3a_3adefaults_5',['defaults',['../namespacesst_1_1plugininfra_1_1defaults.html',1,'sst::plugininfra']]],
   ['sst_3a_3aplugininfra_3a_3amisc_5fplatform_6',['misc_platform',['../namespacesst_1_1plugininfra_1_1misc__platform.html',1,'sst::plugininfra']]],
-  ['sst_3a_3aplugininfra_3a_3apaths_7',['paths',['../namespacesst_1_1plugininfra_1_1paths.html',1,'sst::plugininfra']]],
-  ['streamtoxml_8',['streamToXML',['../structsst_1_1plugininfra_1_1KeyMapManager.html#a24abfe7b30ea0535de9b8e75df4b7f11',1,'sst::plugininfra::KeyMapManager']]],
-  ['stringtoenum_9',['stringToEnum',['../structsst_1_1plugininfra_1_1KeyMapManager.html#a3ea05f0824b2827f3c58ecd76391e1bd',1,'sst::plugininfra::KeyMapManager']]]
+  ['sst_3a_3aplugininfra_3a_3apatch_5fsupport_7',['patch_support',['../namespacesst_1_1plugininfra_1_1patch__support.html',1,'sst::plugininfra']]],
+  ['sst_3a_3aplugininfra_3a_3apaths_8',['paths',['../namespacesst_1_1plugininfra_1_1paths.html',1,'sst::plugininfra']]],
+  ['streamtoxml_9',['streamToXML',['../structsst_1_1plugininfra_1_1KeyMapManager.html#a24abfe7b30ea0535de9b8e75df4b7f11',1,'sst::plugininfra::KeyMapManager']]],
+  ['stringtoenum_10',['stringToEnum',['../structsst_1_1plugininfra_1_1KeyMapManager.html#a3ea05f0824b2827f3c58ecd76391e1bd',1,'sst::plugininfra::KeyMapManager']]]
 ];
