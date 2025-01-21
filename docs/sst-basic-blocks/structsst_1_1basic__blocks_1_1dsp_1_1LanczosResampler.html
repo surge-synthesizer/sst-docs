@@ -125,6 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f538d5d59336a5fa5e44ff56bf984cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f4b624e99c50e0e35fee2efbd5a33ff" id="r_a4f4b624e99c50e0e35fee2efbd5a33ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a4f4b624e99c50e0e35fee2efbd5a33ff">populateNextBlockSize</a> (float *fL, float *fR)</td></tr>
 <tr class="separator:a4f4b624e99c50e0e35fee2efbd5a33ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f65219e8d511f5b6437d5ff4fc6771" id="r_a51f65219e8d511f5b6437d5ff4fc6771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a51f65219e8d511f5b6437d5ff4fc6771">populateNextBlockSizeLin</a> (float *fL, float *fR)</td></tr>
+<tr class="separator:a51f65219e8d511f5b6437d5ff4fc6771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41bd1614cb9b746503d477d6dc3ca92" id="r_ad41bd1614cb9b746503d477d6dc3ca92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ad41bd1614cb9b746503d477d6dc3ca92">populateNextBlockSizeZOH</a> (float *fL, float *fR)</td></tr>
+<tr class="separator:ad41bd1614cb9b746503d477d6dc3ca92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaff04b6876ac79ce8133f81f4c801d28" id="r_aaff04b6876ac79ce8133f81f4c801d28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#aaff04b6876ac79ce8133f81f4c801d28">populateNextBlockSizeOS</a> (float *fL, float *fR)</td></tr>
 <tr class="separator:aaff04b6876ac79ce8133f81f4c801d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68d7be8fd558f4c7ef19b24e25be86e7" id="r_a68d7be8fd558f4c7ef19b24e25be86e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a68d7be8fd558f4c7ef19b24e25be86e7">advanceReadPointer</a> (size_t n)</td></tr>
@@ -446,6 +450,66 @@ template&lt;int bs&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void populateNextBlockSize </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>fL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>fR</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51f65219e8d511f5b6437d5ff4fc6771" name="a51f65219e8d511f5b6437d5ff4fc6771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f65219e8d511f5b6437d5ff4fc6771">&#9670;&#160;</a></span>populateNextBlockSizeLin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int bs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void populateNextBlockSizeLin </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>fL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>fR</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad41bd1614cb9b746503d477d6dc3ca92" name="ad41bd1614cb9b746503d477d6dc3ca92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41bd1614cb9b746503d477d6dc3ca92">&#9670;&#160;</a></span>populateNextBlockSizeZOH()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int bs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void populateNextBlockSizeZOH </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
           <td class="paramname"><em>fL</em>, </td>
@@ -919,7 +983,7 @@ template&lt;int blockSize&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 7 2025 00:20:13 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jan 21 2025 13:47:41 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
