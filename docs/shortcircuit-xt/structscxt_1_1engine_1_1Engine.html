@@ -212,10 +212,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac1e6ca1c2d67b1f62347d6ab9b0a52eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0c7b1b3bc6f5de37db424e9b96920bd" id="r_ac0c7b1b3bc6f5de37db424e9b96920bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ac0c7b1b3bc6f5de37db424e9b96920bd">releaseVoice</a> (int16_t channel, int16_t key, int32_t noteid, int32_t releaseVelocity)</td></tr>
 <tr class="separator:ac0c7b1b3bc6f5de37db424e9b96920bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883e85c3d09e3a66decb25cc76ba557e" id="r_a883e85c3d09e3a66decb25cc76ba557e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a883e85c3d09e3a66decb25cc76ba557e">releaseAllVoices</a> ()</td></tr>
-<tr class="separator:a883e85c3d09e3a66decb25cc76ba557e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a8a839dd79b8918b4a9e3e11c5465ff" id="r_a3a8a839dd79b8918b4a9e3e11c5465ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a3a8a839dd79b8918b4a9e3e11c5465ff">stopAllSounds</a> ()</td></tr>
-<tr class="separator:a3a8a839dd79b8918b4a9e3e11c5465ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9accfb8f190d6cc9914ce8335358624f" id="r_a9accfb8f190d6cc9914ce8335358624f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9accfb8f190d6cc9914ce8335358624f">immediatelyTerminateAllVoices</a> ()</td></tr>
+<tr class="separator:a9accfb8f190d6cc9914ce8335358624f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1a3cd42909b90fc0f629a29a06788d" id="r_a1c1a3cd42909b90fc0f629a29a06788d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a1c1a3cd42909b90fc0f629a29a06788d">assertActiveVoiceCount</a> ()</td></tr>
 <tr class="separator:a1c1a3cd42909b90fc0f629a29a06788d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af948c5aaceac9e2092ca05c1a62df6b1" id="r_af948c5aaceac9e2092ca05c1a62df6b1"><td class="memItemLeft" align="right" valign="top">const std::unique_ptr&lt; <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">getMessageController</a> () const</td></tr>
@@ -326,6 +324,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac2a579006ef9e2e2fb89eea500856522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b949281fdbab90ee09d7a7dcad0e175" id="r_a3b949281fdbab90ee09d7a7dcad0e175"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a3b949281fdbab90ee09d7a7dcad0e175">lastMidiNoteStateCounter</a> {0}</td></tr>
 <tr class="separator:a3b949281fdbab90ee09d7a7dcad0e175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1142de052c0968c97d403c56d76698a6" id="r_a1142de052c0968c97d403c56d76698a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a1142de052c0968c97d403c56d76698a6">forceVoiceUpdate</a> {false}</td></tr>
+<tr class="separator:a1142de052c0968c97d403c56d76698a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c4509a50792c8b1f7050e220e791bb0" id="r_a7c4509a50792c8b1f7050e220e791bb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7c4509a50792c8b1f7050e220e791bb0">sendSamplePosition</a> {true}</td></tr>
 <tr class="separator:a7c4509a50792c8b1f7050e220e791bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517e3a5ba16b52ffd3c63fc55ae1feea" id="r_a517e3a5ba16b52ffd3c63fc55ae1feea"><td class="memItemLeft" align="right" valign="top">sst::basic_blocks::dsp::RNG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">rng</a></td></tr>
@@ -673,7 +673,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Process into an array of size stereoOutputs * 2 * blocksize. </p>
 <p>Returns true if processing should continue </p>
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeac7ac4e70759b346c0a57955460f35a2b">scxt::messaging::audio::a2s_pointer_complete</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea048e03647a42bc8e9399b401bbf2736f">scxt::messaging::audio::a2s_schedule_sample_purge</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">Engine::activeVoices</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1c1a3cd42909b90fc0f629a29a06788d">Engine::assertActiveVoiceCount()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515">Engine::SharedUIMemoryState::busVULevels</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#aeaf6dcbb7fe820bb38a6c60a81870009">Engine::SharedUIMemoryState::cpuLevel</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a720d015ff549a10a1c95cf89aaf7f076">MessageController::AudioThreadCallback::exec()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#aa7c0e8c9cc04c5f1945436c389d963ab">AudioToSerialization::id</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3b949281fdbab90ee09d7a7dcad0e175">Engine::lastMidiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2f185d52aeeded7eb9b83bbbdc577833">Engine::lastUpdateVoiceDisplayState</a>, <a class="el" href="init-maker_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac2a579006ef9e2e2fb89eea500856522">Engine::midiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d">Engine::modifyStructureMutex</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ac157bdf0b85a40d2619cbc8bc1ae5fe2">AudioToSerialization::NONE</a>, <a class="el" href="unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#a117104b82864d3b23ec174af6d392709">AudioToSerialization::Payload::p</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a54d050ac7d728e18a89898aeb024ef49">AudioToSerialization::payload</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">Engine::previewVoice</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ae40f2f8aaed78d8328a1f48ba42bef97">scxt::messaging::audio::s2a_dispatch_to_pointer</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519a8e67f985b77d0a7b03d1ac6ff6b79938">scxt::messaging::audio::s2a_dispatch_to_pointer_under_structurelock</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519aeda1041f795d6be290656a1fa9b5f39e">scxt::messaging::audio::s2a_none</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">scxt::messaging::audio::s2a_param_beginendedit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">scxt::messaging::audio::s2a_param_refresh</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">scxt::messaging::audio::s2a_param_set_value</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7c4509a50792c8b1f7050e220e791bb0">Engine::sendSamplePosition</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9bbc52323b419776f6a21d0d44a938ee">Engine::sharedUIMemoryState</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9f4a7a47674c8fe7c817d983bfee318e">Engine::updateTransportPhasors()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a76662573e0462aca22d3018003cb09ae">Engine::updateVoiceDisplayStateEvery</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#af62beb4a64abc4f62fda610645e9524c">Engine::SharedUIMemoryState::voiceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7a37043aee9af5106e72c49ccdde816e">Engine::SharedUIMemoryState::voiceDisplayItems</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a408a95b412a5479d84121bae03afed35">Engine::SharedUIMemoryState::voiceDisplayStateWriteCounter</a>, and <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ae5decaba54764e59201825ee99c0d177">AudioToSerialization::VOID_STAR</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeac7ac4e70759b346c0a57955460f35a2b">scxt::messaging::audio::a2s_pointer_complete</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea048e03647a42bc8e9399b401bbf2736f">scxt::messaging::audio::a2s_schedule_sample_purge</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">Engine::activeVoices</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1c1a3cd42909b90fc0f629a29a06788d">Engine::assertActiveVoiceCount()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515">Engine::SharedUIMemoryState::busVULevels</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#aeaf6dcbb7fe820bb38a6c60a81870009">Engine::SharedUIMemoryState::cpuLevel</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a720d015ff549a10a1c95cf89aaf7f076">MessageController::AudioThreadCallback::exec()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1142de052c0968c97d403c56d76698a6">Engine::forceVoiceUpdate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#aa7c0e8c9cc04c5f1945436c389d963ab">AudioToSerialization::id</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3b949281fdbab90ee09d7a7dcad0e175">Engine::lastMidiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2f185d52aeeded7eb9b83bbbdc577833">Engine::lastUpdateVoiceDisplayState</a>, <a class="el" href="init-maker_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac2a579006ef9e2e2fb89eea500856522">Engine::midiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d">Engine::modifyStructureMutex</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ac157bdf0b85a40d2619cbc8bc1ae5fe2">AudioToSerialization::NONE</a>, <a class="el" href="unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#a117104b82864d3b23ec174af6d392709">AudioToSerialization::Payload::p</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a54d050ac7d728e18a89898aeb024ef49">AudioToSerialization::payload</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">Engine::previewVoice</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ae40f2f8aaed78d8328a1f48ba42bef97">scxt::messaging::audio::s2a_dispatch_to_pointer</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519a8e67f985b77d0a7b03d1ac6ff6b79938">scxt::messaging::audio::s2a_dispatch_to_pointer_under_structurelock</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519aeda1041f795d6be290656a1fa9b5f39e">scxt::messaging::audio::s2a_none</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">scxt::messaging::audio::s2a_param_beginendedit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">scxt::messaging::audio::s2a_param_refresh</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">scxt::messaging::audio::s2a_param_set_value</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7c4509a50792c8b1f7050e220e791bb0">Engine::sendSamplePosition</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9bbc52323b419776f6a21d0d44a938ee">Engine::sharedUIMemoryState</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9f4a7a47674c8fe7c817d983bfee318e">Engine::updateTransportPhasors()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a76662573e0462aca22d3018003cb09ae">Engine::updateVoiceDisplayStateEvery</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#af62beb4a64abc4f62fda610645e9524c">Engine::SharedUIMemoryState::voiceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7a37043aee9af5106e72c49ccdde816e">Engine::SharedUIMemoryState::voiceDisplayItems</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a408a95b412a5479d84121bae03afed35">Engine::SharedUIMemoryState::voiceDisplayStateWriteCounter</a>, and <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ae5decaba54764e59201825ee99c0d177">AudioToSerialization::VOID_STAR</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae18d05f121ab3bf26fe144062a62502a">SCXTPlugin::process()</a>.</p>
 
@@ -1022,14 +1022,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a883e85c3d09e3a66decb25cc76ba557e" name="a883e85c3d09e3a66decb25cc76ba557e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a883e85c3d09e3a66decb25cc76ba557e">&#9670;&#160;</a></span>releaseAllVoices()</h2>
+<a id="a9accfb8f190d6cc9914ce8335358624f" name="a9accfb8f190d6cc9914ce8335358624f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9accfb8f190d6cc9914ce8335358624f">&#9670;&#160;</a></span>immediatelyTerminateAllVoices()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void releaseAllVoices </td>
+          <td class="memname">void immediatelyTerminateAllVoices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1037,26 +1037,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1142de052c0968c97d403c56d76698a6">Engine::forceVoiceUpdate</a>.</p>
 
-</div>
-</div>
-<a id="a3a8a839dd79b8918b4a9e3e11c5465ff" name="a3a8a839dd79b8918b4a9e3e11c5465ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a8a839dd79b8918b4a9e3e11c5465ff">&#9670;&#160;</a></span>stopAllSounds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stopAllSounds </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">scxt::messaging::client::doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a63cc7fed982f9bc94257d36c470cf979">scxt::patch_io::initFromResourceBundle()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">scxt::patch_io::loadPartInto()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">scxt::messaging::client::doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a63cc7fed982f9bc94257d36c470cf979">scxt::patch_io::initFromResourceBundle()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">scxt::patch_io::loadPartInto()</a>.</p>
 
 </div>
 </div>
@@ -1840,7 +1823,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>.</p>
 
 </div>
 </div>
@@ -2054,6 +2037,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1142de052c0968c97d403c56d76698a6" name="a1142de052c0968c97d403c56d76698a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1142de052c0968c97d403c56d76698a6">&#9670;&#160;</a></span>forceVoiceUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool forceVoiceUpdate {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9accfb8f190d6cc9914ce8335358624f">Engine::immediatelyTerminateAllVoices()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>.</p>
+
+</div>
+</div>
 <a id="a7c4509a50792c8b1f7050e220e791bb0" name="a7c4509a50792c8b1f7050e220e791bb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c4509a50792c8b1f7050e220e791bb0">&#9670;&#160;</a></span>sendSamplePosition</h2>
 
@@ -2173,7 +2172,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 21 2025 21:20:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jan 21 2025 22:01:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
