@@ -20,6 +20,6 @@ var searchData=
   ['lowpassenvelopefollower_17',['lowpassenvelopefollower',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html',1,'LowPassEnvelopeFollower'],['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#ab4f2dd4322defaec76e85332279cc2c5',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower::LowPassEnvelopeFollower()']]],
   ['lp_18',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
   ['lpinv_19',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lut_20',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a0f3a8d31059d2f5d154f364372677aaa',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['lutsinitialized_21',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a6a39869ae0980b2b204fad59ac481a83',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['lut_20',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['lutsinitialized_21',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];
