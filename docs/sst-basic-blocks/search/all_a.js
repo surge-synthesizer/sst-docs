@@ -17,9 +17,10 @@ var searchData=
   ['lipol_14',['lipol',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html',1,'lipol&lt; T, defaultBlockSize, first_run_checks &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a59557288eecf56e4e35172cd4aafc653',1,'sst::basic_blocks::dsp::lipol::lipol()']]],
   ['lipol_3c_20float_2c_20blocksize_2c_20true_20_3e_15',['lipol&lt; float, blockSize, true &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html',1,'sst::basic_blocks::dsp']]],
   ['lipol_5fsse_16',['lipol_sse',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html',1,'lipol_sse&lt; maxBlockSize, first_run_checks &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a167702362a9ce8241ab9fe7c195a5753',1,'sst::basic_blocks::dsp::lipol_sse::lipol_sse()']]],
-  ['lowpassenvelopefollower_17',['lowpassenvelopefollower',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html',1,'LowPassEnvelopeFollower'],['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#ab4f2dd4322defaec76e85332279cc2c5',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower::LowPassEnvelopeFollower()']]],
-  ['lp_18',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lpinv_19',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lut_20',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['lutsinitialized_21',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['logarithmic_17',['LOGARITHMIC',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a71bf32ee139bca740e5417d978347587',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['lowpassenvelopefollower_18',['lowpassenvelopefollower',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html',1,'LowPassEnvelopeFollower'],['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#ab4f2dd4322defaec76e85332279cc2c5',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower::LowPassEnvelopeFollower()']]],
+  ['lp_19',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
+  ['lpinv_20',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
+  ['lut_21',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['lutsinitialized_22',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];
