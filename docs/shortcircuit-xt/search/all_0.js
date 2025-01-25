@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A']]],
+  ['a_0',['a',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a']]],
   ['a1_1',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a1a_2',['a1A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a4cb4d419a0ae7aa614224fc63aaedf91',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['a1m_3',['a1M',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae249681fe8195a228d7a011cf493b154',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
@@ -18,7 +18,7 @@ var searchData=
   ['a2s_5fstructure_5frefresh_15',['a2s_structure_refresh',['../namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea02b54a675f0a2e364a0989a8967947e7',1,'scxt::messaging::audio']]],
   ['aboutinfo_16',['AboutInfo',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen_1_1AboutInfo.html',1,'scxt::ui::app::other_screens::AboutScreen']]],
   ['aboutlink_17',['aboutlink',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html#a858f615aa0bf5e65d211e585b4a4df88',1,'scxt::ui::app::other_screens::AboutLink::AboutLink()'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html',1,'AboutLink']]],
-  ['aboutscreen_18',['aboutscreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html',1,'AboutScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#adc5d2ef3825dbd2383cf1d67263d22ac',1,'scxt::ui::app::other_screens::AboutScreen::AboutScreen()'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495',1,'scxt::ui::app::SCXTEditor::aboutScreen']]],
+  ['aboutscreen_18',['aboutscreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html',1,'AboutScreen'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495',1,'scxt::ui::app::SCXTEditor::aboutScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#adc5d2ef3825dbd2383cf1d67263d22ac',1,'scxt::ui::app::other_screens::AboutScreen::AboutScreen()']]],
   ['aboutscreen_2ecpp_19',['AboutScreen.cpp',['../AboutScreen_8cpp.html',1,'']]],
   ['aboutscreen_2eh_20',['AboutScreen.h',['../AboutScreen_8h.html',1,'']]],
   ['accent_5f1a_21',['accent_1a',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a9df8ba08a5b7f88ebf6977ffad839177',1,'scxt::ui::theme::ColorMap']]],

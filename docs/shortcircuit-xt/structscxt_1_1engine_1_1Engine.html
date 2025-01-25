@@ -229,6 +229,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af94e97186461d2e7fd8f6973fd8c3800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae656f5d5481c7ea460801f3032ec2703" id="r_ae656f5d5481c7ea460801f3032ec2703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ae656f5d5481c7ea460801f3032ec2703">createEmptyZone</a> (<a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
 <tr class="separator:ae656f5d5481c7ea460801f3032ec2703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61479fa991f1882e9df18d21466ec98f" id="r_a61479fa991f1882e9df18d21466ec98f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f">duplicateZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
+<tr class="separator:a61479fa991f1882e9df18d21466ec98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bf567bdf605ba7a632afeffbfc0135d" id="r_a7bf567bdf605ba7a632afeffbfc0135d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7bf567bdf605ba7a632afeffbfc0135d">copyZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
+<tr class="separator:a7bf567bdf605ba7a632afeffbfc0135d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0dc578e222078942c6a2dd5deea8bfc" id="r_ad0dc578e222078942c6a2dd5deea8bfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ad0dc578e222078942c6a2dd5deea8bfc">pasteZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
+<tr class="separator:ad0dc578e222078942c6a2dd5deea8bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab460934eecee782ca126dbe7e7e9a768" id="r_ab460934eecee782ca126dbe7e7e9a768"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab460934eecee782ca126dbe7e7e9a768">loadSf2MultiSampleIntoSelectedPart</a> (const fs::path &amp;)</td></tr>
 <tr class="separator:ab460934eecee782ca126dbe7e7e9a768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb525e855030e3ca75d3dcd268839531" id="r_abb525e855030e3ca75d3dcd268839531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#abb525e855030e3ca75d3dcd268839531">sendMetadataToClient</a> () const</td></tr>
@@ -330,6 +336,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7c4509a50792c8b1f7050e220e791bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517e3a5ba16b52ffd3c63fc55ae1feea" id="r_a517e3a5ba16b52ffd3c63fc55ae1feea"><td class="memItemLeft" align="right" valign="top">sst::basic_blocks::dsp::RNG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">rng</a></td></tr>
 <tr class="separator:a517e3a5ba16b52ffd3c63fc55ae1feea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07e28dada3c5c8b85abb8637f07916b" id="r_ab07e28dada3c5c8b85abb8637f07916b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab07e28dada3c5c8b85abb8637f07916b">zoneClipboard</a></td></tr>
+<tr class="separator:ab07e28dada3c5c8b85abb8637f07916b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a994658a266476552cf76b65015d4750a" id="r_a994658a266476552cf76b65015d4750a"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">stopEngineRequests</a> {0}</td></tr>
 <tr class="separator:a994658a266476552cf76b65015d4750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5453f1e362ebc04139075497fd3b6698" id="r_a5453f1e362ebc04139075497fd3b6698"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85">voice::modulation::MatrixConfig::TargetIdentifier</a>, std::tuple&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b">vmodTgtStrFn_t</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17">vmodTgtBoolFn_t</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a5453f1e362ebc04139075497fd3b6698">voiceModTargets</a></td></tr>
@@ -1271,6 +1279,66 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a61479fa991f1882e9df18d21466ec98f" name="a61479fa991f1882e9df18d21466ec98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61479fa991f1882e9df18d21466ec98f">&#9670;&#160;</a></span>duplicateZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicateZone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a082609aca8dd1fd593ede41702bc8830">SelectionManager::ZoneAddress::group</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a3d6dc40be4cd08cbfcd7abf54b1a50bc">SelectionManager::ZoneAddress::zone</a>.</p>
+
+</div>
+</div>
+<a id="a7bf567bdf605ba7a632afeffbfc0135d" name="a7bf567bdf605ba7a632afeffbfc0135d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bf567bdf605ba7a632afeffbfc0135d">&#9670;&#160;</a></span>copyZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void copyZone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a082609aca8dd1fd593ede41702bc8830">SelectionManager::ZoneAddress::group</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a3d6dc40be4cd08cbfcd7abf54b1a50bc">SelectionManager::ZoneAddress::zone</a>.</p>
+
+</div>
+</div>
+<a id="ad0dc578e222078942c6a2dd5deea8bfc" name="ad0dc578e222078942c6a2dd5deea8bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0dc578e222078942c6a2dd5deea8bfc">&#9670;&#160;</a></span>pasteZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pasteZone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a082609aca8dd1fd593ede41702bc8830">SelectionManager::ZoneAddress::group</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>.</p>
+
+</div>
+</div>
 <a id="ab460934eecee782ca126dbe7e7e9a768" name="ab460934eecee782ca126dbe7e7e9a768"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab460934eecee782ca126dbe7e7e9a768">&#9670;&#160;</a></span>loadSf2MultiSampleIntoSelectedPart()</h2>
 
@@ -2085,6 +2153,20 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ab07e28dada3c5c8b85abb8637f07916b" name="ab07e28dada3c5c8b85abb8637f07916b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07e28dada3c5c8b85abb8637f07916b">&#9670;&#160;</a></span>zoneClipboard</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string zoneClipboard</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a994658a266476552cf76b65015d4750a" name="a994658a266476552cf76b65015d4750a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a994658a266476552cf76b65015d4750a">&#9670;&#160;</a></span>stopEngineRequests</h2>
 
@@ -2172,7 +2254,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 24 2025 14:47:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Jan 25 2025 00:35:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

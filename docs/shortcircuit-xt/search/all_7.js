@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['h_0',['h',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a85f2f1bd58b3b44ffdf3881823393959',1,'scxt::modulation::modulators::AdsrStorage::h'],['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a2df332e04a7d2398918045205822b91b',1,'scxt::browser::SQL::Statement::h'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a2f029caa6936992bae6bd23abe2f12fa',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::H']]],
+  ['h_0',['h',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a2f029caa6936992bae6bd23abe2f12fa',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::H'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a85f2f1bd58b3b44ffdf3881823393959',1,'scxt::modulation::modulators::AdsrStorage::h'],['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a2df332e04a7d2398918045205822b91b',1,'scxt::browser::SQL::Statement::h']]],
   ['halfrate_1',['halfRate',['../structscxt_1_1voice_1_1Voice.html#ad5202c9ef68f643df6d1ae0c4fb30786',1,'scxt::voice::Voice']]],
   ['handleevent_2',['handleEvent',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['handleincomingmidimessage_3',['handleIncomingMidiMessage',['../structSCXTApplicationWindow_1_1AudioCallback.html#aa73285f7ff8e9986c8bb170ed7e0a6b0',1,'SCXTApplicationWindow::AudioCallback']]],
