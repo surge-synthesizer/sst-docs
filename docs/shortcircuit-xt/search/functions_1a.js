@@ -57,9 +57,10 @@ var searchData=
   ['_7eunstreamguard_54',['~UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#acc89f194447c3ab407f1a2dd73a640b3',1,'scxt::engine::Engine::UnstreamGuard']]],
   ['_7evariantdisplay_55',['~VariantDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aae1118c4218038e042cc5e73bbdb3b9d',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['_7evoice_56',['~Voice',['../structscxt_1_1voice_1_1Voice.html#a5063ff08093aec1bf535da54f82d2b46',1,'scxt::voice::Voice']]],
-  ['_7ewriterworker_57',['~WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28',1,'scxt::browser::WriterWorker']]],
-  ['_7eziparchiveholder_58',['~ZipArchiveHolder',['../structscxt_1_1sample_1_1ZipArchiveHolder.html#a02bf16fcf3a021654b4d48c2037dd3d3',1,'scxt::sample::ZipArchiveHolder']]],
-  ['_7ezone_59',['~Zone',['../structscxt_1_1engine_1_1Zone.html#aa578fb94963108f603cc9950eb3944bb',1,'scxt::engine::Zone']]],
-  ['_7ezoneorgroupelements_60',['~ZoneOrGroupElements',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a84aef4f6d6c858b735f02217c22121b9',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements']]],
-  ['_7ezonesidebar_61',['~ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af9b51ebb5ae29b372e8f92dde7947eb3',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
+  ['_7ewithsampleinfo_57',['~WithSampleInfo',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#afb4ee2df912f12222d737ef76915e116',1,'scxt::ui::app::browser_ui::WithSampleInfo']]],
+  ['_7ewriterworker_58',['~WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28',1,'scxt::browser::WriterWorker']]],
+  ['_7eziparchiveholder_59',['~ZipArchiveHolder',['../structscxt_1_1sample_1_1ZipArchiveHolder.html#a02bf16fcf3a021654b4d48c2037dd3d3',1,'scxt::sample::ZipArchiveHolder']]],
+  ['_7ezone_60',['~Zone',['../structscxt_1_1engine_1_1Zone.html#aa578fb94963108f603cc9950eb3944bb',1,'scxt::engine::Zone']]],
+  ['_7ezoneorgroupelements_61',['~ZoneOrGroupElements',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a84aef4f6d6c858b735f02217c22121b9',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements']]],
+  ['_7ezonesidebar_62',['~ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af9b51ebb5ae29b372e8f92dde7947eb3',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
 ];

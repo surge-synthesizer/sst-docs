@@ -10,8 +10,9 @@ var searchData=
   ['browser_5fwin_2ecpp_7',['browser_win.cpp',['../browser__win_8cpp.html',1,'']]],
   ['browserpane_2ecpp_8',['BrowserPane.cpp',['../BrowserPane_8cpp.html',1,'']]],
   ['browserpane_2eh_9',['BrowserPane.h',['../BrowserPane_8h.html',1,'']]],
-  ['bus_2ecpp_10',['bus.cpp',['../bus_8cpp.html',1,'']]],
-  ['bus_2eh_11',['bus.h',['../bus_8h.html',1,'']]],
-  ['buspane_2ecpp_12',['BusPane.cpp',['../BusPane_8cpp.html',1,'']]],
-  ['buspane_2eh_13',['BusPane.h',['../BusPane_8h.html',1,'']]]
+  ['browserpaneinterfaces_2eh_10',['BrowserPaneInterfaces.h',['../BrowserPaneInterfaces_8h.html',1,'']]],
+  ['bus_2ecpp_11',['bus.cpp',['../bus_8cpp.html',1,'']]],
+  ['bus_2eh_12',['bus.h',['../bus_8h.html',1,'']]],
+  ['buspane_2ecpp_13',['BusPane.cpp',['../BusPane_8cpp.html',1,'']]],
+  ['buspane_2eh_14',['BusPane.h',['../BusPane_8h.html',1,'']]]
 ];

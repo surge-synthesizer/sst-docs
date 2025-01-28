@@ -7,7 +7,7 @@ var searchData=
   ['egtarget_4',['egtarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1EGTarget.html#a653f3426cefc1f1e0bd28e325b3473fe',1,'scxt::modulation::GroupMatrixEndpoints::EGTarget::EGTarget()'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1EGTarget.html#a653f3426cefc1f1e0bd28e325b3473fe',1,'scxt::voice::modulation::MatrixEndpoints::EGTarget::EGTarget()']]],
   ['egtargetendpointdata_5',['EGTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a48c225d154854a832efe99558247853c',1,'scxt::modulation::shared::EGTargetEndpointData']]],
   ['element_6',['element',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a985d3aada76d906956262371ef7b5e28',1,'scxt::ui::connectors::JSONLayoutConsumer']]],
-  ['end_7',['end',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#aaf81d3fdaf258088d7692fa70cece087',1,'scxt::browser::SQL::TxnGuard::end()'],['../structscxt_1_1engine_1_1Group.html#abb0ad88301ce28ed1b15b9467b24d871',1,'scxt::engine::Group::end()'],['../structscxt_1_1engine_1_1Part.html#a8442530fa79dead49c4c9d06bbafec8c',1,'scxt::engine::Part::end()'],['../structscxt_1_1engine_1_1Patch.html#a2c1dcb44c1ffef72268ddad7bbc327ca',1,'scxt::engine::Patch::end()']]],
+  ['end_7',['end',['../structscxt_1_1engine_1_1Patch.html#a2c1dcb44c1ffef72268ddad7bbc327ca',1,'scxt::engine::Patch::end()'],['../structscxt_1_1engine_1_1Part.html#a8442530fa79dead49c4c9d06bbafec8c',1,'scxt::engine::Part::end()'],['../structscxt_1_1engine_1_1Group.html#abb0ad88301ce28ed1b15b9467b24d871',1,'scxt::engine::Group::end()'],['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#aaf81d3fdaf258088d7692fa70cece087',1,'scxt::browser::SQL::TxnGuard::end()']]],
   ['end_5farray_8',['end_array',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a47f3d7bac799e57c4e66220787cf1261',1,'scxt::ui::connectors::JSONLayoutConsumer']]],
   ['end_5fobject_9',['end_object',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a19870f3eba21ebbed4e295dbddb6a62a',1,'scxt::ui::connectors::JSONLayoutConsumer']]],
   ['endeditnotifyengine_10',['endEditNotifyEngine',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a63e9f10c64f051288a21d0963092c0d8',1,'scxt::ui::app::SCXTEditor']]],
@@ -33,10 +33,12 @@ var searchData=
   ['execcompleteonser_30',['execCompleteOnSer',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#aec4631dc96d3dc81c3c524e786e76818',1,'scxt::messaging::MessageController::AudioThreadCallback']]],
   ['executeonclientfor_31',['executeOnClientFor',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a988092edb6b6793c2dc65a9f93f1a302',1,'scxt::messaging::client::detail']]],
   ['executeonserializationfor_32',['executeOnSerializationFor',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a427433558240e8f34365600d60702a19',1,'scxt::messaging::client::detail']]],
-  ['exsgroup_33',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html#a0d8c86db4513ef1cffe3896e3a4f0919',1,'scxt::exs_support::EXSGroup']]],
-  ['exsinstrument_34',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html#a51a6d333a350646a55ac6859ed741d64',1,'scxt::exs_support::EXSInstrument']]],
-  ['exsobject_35',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html#a54f86fac8834b230bedf087caaa7c636',1,'scxt::exs_support::EXSObject']]],
-  ['exssample_36',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html#a3d795e2ccac42ab6d395c88bb8c0c5db',1,'scxt::exs_support::EXSSample']]],
-  ['exszone_37',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html#a68070d07b2f5fe164e23331831a9bb6b',1,'scxt::exs_support::EXSZone']]],
-  ['extensionmatches_38',['extensionMatches',['../namespacescxt.html#a606be123afc606046b0b1d315f755cf1',1,'scxt']]]
+  ['expandforbrowser_33',['expandForBrowser',['../structscxt_1_1browser_1_1Browser.html#a1d753333cfc34e17d0ec466a654cc797',1,'scxt::browser::Browser']]],
+  ['expandmultifile_34',['expandMultifile',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#a4e10d0da44bd3faca5c9a20abbf10ac1',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
+  ['exsgroup_35',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html#a0d8c86db4513ef1cffe3896e3a4f0919',1,'scxt::exs_support::EXSGroup']]],
+  ['exsinstrument_36',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html#a51a6d333a350646a55ac6859ed741d64',1,'scxt::exs_support::EXSInstrument']]],
+  ['exsobject_37',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html#a54f86fac8834b230bedf087caaa7c636',1,'scxt::exs_support::EXSObject']]],
+  ['exssample_38',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html#a3d795e2ccac42ab6d395c88bb8c0c5db',1,'scxt::exs_support::EXSSample']]],
+  ['exszone_39',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html#a68070d07b2f5fe164e23331831a9bb6b',1,'scxt::exs_support::EXSZone']]],
+  ['extensionmatches_40',['extensionMatches',['../namespacescxt.html#a606be123afc606046b0b1d315f755cf1',1,'scxt']]]
 ];

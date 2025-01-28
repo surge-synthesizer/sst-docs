@@ -37,7 +37,7 @@ var searchData=
   ['s2c_5fupdate_5fzone_5fmatrix_34',['s2c_update_zone_matrix',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baacc9ef610e767705b43b854f86db414e',1,'scxt::messaging::client']]],
   ['s2c_5fupdate_5fzone_5fmatrix_5fmetadata_35',['s2c_update_zone_matrix_metadata',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa1637fd9b7e9399b5a449211f863ea71',1,'scxt::messaging::client']]],
   ['s2c_5fupdate_5fzone_5foutput_5finfo_36',['s2c_update_zone_output_info',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba3a3450f9198b81658cebc988da838548',1,'scxt::messaging::client']]],
-  ['sample_37',['sample',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ae610328ce0cd5a45fa37377b3d23a0cc',1,'scxt::sfz_support::SFZParser::Header']]],
+  ['sample_37',['sample',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ae610328ce0cd5a45fa37377b3d23a0cc',1,'scxt::sfz_support::SFZParser::Header::sample'],['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aa48574801b7270ffdadab4b3d77da90a1',1,'scxt::sample::compound::CompoundElement::SAMPLE']]],
   ['sf2_5ffile_38',['SF2_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75',1,'scxt::sample::Sample']]],
   ['showknobs_39',['showKnobs',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4ae94156f19b6b847d97e62a5805e80f28',1,'scxt::infrastructure']]],
   ['sinc_40',['Sinc',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798',1,'scxt::dsp']]],

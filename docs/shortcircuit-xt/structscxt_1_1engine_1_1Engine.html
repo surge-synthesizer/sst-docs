@@ -225,8 +225,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af61884fac4cd566e76778b2c777675dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e70607c88dcd40282ec2348d632be5c" id="r_a3e70607c88dcd40282ec2348d632be5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">loadSampleIntoSelectedPartAndGroup</a> (const fs::path &amp;, int16_t rootKey=60, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
 <tr class="separator:a3e70607c88dcd40282ec2348d632be5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af94e97186461d2e7fd8f6973fd8c3800" id="r_af94e97186461d2e7fd8f6973fd8c3800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af94e97186461d2e7fd8f6973fd8c3800">loadSampleIntoZone</a> (const fs::path &amp;, int16_t part, int16_t group, int16_t zone, int sampleID, int16_t rootKey=60, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
-<tr class="separator:af94e97186461d2e7fd8f6973fd8c3800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e92b2c4cf812fd0a77f30ab4fbf7ca4" id="r_a7e92b2c4cf812fd0a77f30ab4fbf7ca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">loadCompoundElementIntoSelectedPartAndGroup</a> (const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">scxt::sample::compound::CompoundElement</a> &amp;, int16_t rootKey=60, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
+<tr class="separator:a7e92b2c4cf812fd0a77f30ab4fbf7ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade35f926459a5bc7d652e07c9223938b" id="r_ade35f926459a5bc7d652e07c9223938b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b">loadSampleIntoZone</a> (const fs::path &amp;, int16_t part, int16_t group, int16_t zone, int variantID)</td></tr>
+<tr class="separator:ade35f926459a5bc7d652e07c9223938b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac45f49390d5c5d185046d0c991e61c66" id="r_ac45f49390d5c5d185046d0c991e61c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ac45f49390d5c5d185046d0c991e61c66">loadCompoundElementIntoZone</a> (const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &amp;, int16_t part, int16_t group, int16_t zone, int variantID)</td></tr>
+<tr class="separator:ac45f49390d5c5d185046d0c991e61c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae656f5d5481c7ea460801f3032ec2703" id="r_ae656f5d5481c7ea460801f3032ec2703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ae656f5d5481c7ea460801f3032ec2703">createEmptyZone</a> (<a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
 <tr class="separator:ae656f5d5481c7ea460801f3032ec2703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61479fa991f1882e9df18d21466ec98f" id="r_a61479fa991f1882e9df18d21466ec98f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f">duplicateZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
@@ -1106,7 +1110,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">scxt::messaging::client::clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aec63d9e8343ec9c8d7223d682faf6490">scxt::messaging::client::CLIENT_TO_SERIAL_CONSTRAINED()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad12e066232cab2f43c00004861d9eb05">scxt::messaging::client::CLIENT_TO_SERIAL_CONSTRAINED()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a652680377a5df59fa8760fa4eb9d8cbd">scxt::messaging::client::doApplyMultiSelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7d814f5b79219c0a591c22081901dc6a">scxt::messaging::client::doApplySelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f352a01130a65029603b2d01ea3508a">scxt::messaging::client::doBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa15578524be981e580533f015487e6be">scxt::messaging::client::doClearVariantAmplitudeNormalization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a232318b8cebfff64d001385be1bc3479">scxt::messaging::client::doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1401f97a9b2207ba388a1453ec9702c8">scxt::messaging::client::doDeleteVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ee41fdc4559e51f6572e05c45f5f4c7">scxt::messaging::client::doNormalizeVariantAmplitude()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">scxt::messaging::client::doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa9134fba4f2e281e8ff641837a4b8498">scxt::messaging::client::doRequestZoneDataRefresh()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5a899852f62a908a58510905c2fb860f">scxt::messaging::client::doSaveSelectedPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986dd81c46c55f3dc98c567e16597123">scxt::messaging::client::doUpdateGroupOutputInfoPolyphony()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af228951b72404340e8ed06a7d89d2a27">scxt::messaging::client::doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aed12a59c163020a143ac196889234242">scxt::messaging::client::doUpdateGroupTriggerConditions()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4552129ff0700fce63ce135dc6b3d36">scxt::messaging::client::doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab479f4d297c5f3a0fff65b37f6e566c6">scxt::messaging::client::doUpdateLeadZoneSingleVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9708124f64deae70e578b33772c913c2">scxt::messaging::client::doUpdateOtherTabSelection()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae02682ca8125d6224ca444f9158af56c">scxt::messaging::client::doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af94e97186461d2e7fd8f6973fd8c3800">Engine::loadSampleIntoZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">scxt::messaging::client::processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">scxt::messaging::client::removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">scxt::messaging::client::removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">scxt::messaging::client::setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6c070f30deebf08cdff5b0db2957e96a">scxt::messaging::client::swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4757644acb5222bb9ed3999e222026a5">scxt::messaging::client::swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">scxt::messaging::client::detail::updateZoneMemberValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">scxt::messaging::client::clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aec63d9e8343ec9c8d7223d682faf6490">scxt::messaging::client::CLIENT_TO_SERIAL_CONSTRAINED()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad12e066232cab2f43c00004861d9eb05">scxt::messaging::client::CLIENT_TO_SERIAL_CONSTRAINED()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a652680377a5df59fa8760fa4eb9d8cbd">scxt::messaging::client::doApplyMultiSelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7d814f5b79219c0a591c22081901dc6a">scxt::messaging::client::doApplySelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f352a01130a65029603b2d01ea3508a">scxt::messaging::client::doBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa15578524be981e580533f015487e6be">scxt::messaging::client::doClearVariantAmplitudeNormalization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a232318b8cebfff64d001385be1bc3479">scxt::messaging::client::doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1401f97a9b2207ba388a1453ec9702c8">scxt::messaging::client::doDeleteVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ee41fdc4559e51f6572e05c45f5f4c7">scxt::messaging::client::doNormalizeVariantAmplitude()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">scxt::messaging::client::doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa9134fba4f2e281e8ff641837a4b8498">scxt::messaging::client::doRequestZoneDataRefresh()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5a899852f62a908a58510905c2fb860f">scxt::messaging::client::doSaveSelectedPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986dd81c46c55f3dc98c567e16597123">scxt::messaging::client::doUpdateGroupOutputInfoPolyphony()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af228951b72404340e8ed06a7d89d2a27">scxt::messaging::client::doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aed12a59c163020a143ac196889234242">scxt::messaging::client::doUpdateGroupTriggerConditions()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4552129ff0700fce63ce135dc6b3d36">scxt::messaging::client::doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab479f4d297c5f3a0fff65b37f6e566c6">scxt::messaging::client::doUpdateLeadZoneSingleVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9708124f64deae70e578b33772c913c2">scxt::messaging::client::doUpdateOtherTabSelection()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae02682ca8125d6224ca444f9158af56c">scxt::messaging::client::doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac45f49390d5c5d185046d0c991e61c66">Engine::loadCompoundElementIntoZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b">Engine::loadSampleIntoZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">scxt::messaging::client::processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">scxt::messaging::client::removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">scxt::messaging::client::removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">scxt::messaging::client::setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6c070f30deebf08cdff5b0db2957e96a">scxt::messaging::client::swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4757644acb5222bb9ed3999e222026a5">scxt::messaging::client::swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">scxt::messaging::client::detail::updateZoneMemberValue()</a>.</p>
 
 </div>
 </div>
@@ -1173,14 +1177,58 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6fdf332d7f46bbf1ff77118ddbc6f622">Engine::getPartGroupZoneStructure()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ab460934eecee782ca126dbe7e7e9a768">Engine::loadSf2MultiSampleIntoSelectedPart()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">scxt::messaging::client::addSample()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">scxt::messaging::client::addSampleWithRange()</a>.</p>
 
 </div>
 </div>
-<a id="af94e97186461d2e7fd8f6973fd8c3800" name="af94e97186461d2e7fd8f6973fd8c3800"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af94e97186461d2e7fd8f6973fd8c3800">&#9670;&#160;</a></span>loadSampleIntoZone()</h2>
+<a id="a7e92b2c4cf812fd0a77f30ab4fbf7ca4" name="a7e92b2c4cf812fd0a77f30ab4fbf7ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">&#9670;&#160;</a></span>loadCompoundElementIntoSelectedPartAndGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loadCompoundElementIntoSelectedPartAndGroup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">scxt::sample::compound::CompoundElement</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>rootKey</em> = <code>60</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a>&#160;</td>
+          <td class="paramname"><em>krange</em> = <code>{48,&#160;72}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a>&#160;</td>
+          <td class="paramname"><em>vrange</em> = <code>{0,&#160;127}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aab9a2965cc36333e4b9c1b0e055435d45">CompoundElement::INSTRUMENT</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#aac29fa85a95a2efeaeb4fd65637aa0c3">CompoundElement::sampleAddress</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a170b50cc424270f113ea75be93646a84">scxt::messaging::client::addCompoundElementWithRange()</a>.</p>
+
+</div>
+</div>
+<a id="ade35f926459a5bc7d652e07c9223938b" name="ade35f926459a5bc7d652e07c9223938b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade35f926459a5bc7d652e07c9223938b">&#9670;&#160;</a></span>loadSampleIntoZone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1213,25 +1261,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sampleID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>rootKey</em> = <code>60</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a>&#160;</td>
-          <td class="paramname"><em>krange</em> = <code>{48,&#160;72}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a>&#160;</td>
-          <td class="paramname"><em>vrange</em> = <code>{0,&#160;127}</code>&#160;</td>
+          <td class="paramname"><em>variantID</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1244,6 +1274,56 @@ Additional Inherited Members</h2></td></tr>
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a889089b552d89f3cc9268e0664cc6f97">scxt::messaging::client::addSampleInZone()</a>.</p>
+
+</div>
+</div>
+<a id="ac45f49390d5c5d185046d0c991e61c66" name="ac45f49390d5c5d185046d0c991e61c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac45f49390d5c5d185046d0c991e61c66">&#9670;&#160;</a></span>loadCompoundElementIntoZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loadCompoundElementIntoZone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>zone</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>variantID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, and <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#aac29fa85a95a2efeaeb4fd65637aa0c3">CompoundElement::sampleAddress</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2c3100a2920a4d446703ac22bc743fb8">scxt::messaging::client::addCompoundElementInZone()</a>.</p>
 
 </div>
 </div>
@@ -1356,8 +1436,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1infrastructure.html#a747ff15adc12dc69d4d145330abacbc8">scxt::infrastructure::createMD5SumFromFile()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1modulation.html#a3d82406d5494c9bbcba713e9fa2c585f">scxt::modulation::secondsToNormalizedEnvTime()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
 
 </div>
 </div>
@@ -1482,7 +1560,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#afd1b761f8d14a5ed98feaaa0c7cc4596a55abd6c8b0460e54822565c5b2d2c0cc">scxt::engine::MISSING_SAMPLE</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">scxt::messaging::client::clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">scxt::messaging::client::doRenameZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">scxt::messaging::client::pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">scxt::messaging::client::removeSelectedZones()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">scxt::messaging::client::removeZone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">scxt::messaging::client::clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">scxt::messaging::client::doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">scxt::messaging::client::pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">scxt::messaging::client::removeSelectedZones()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">scxt::messaging::client::removeZone()</a>.</p>
 
 </div>
 </div>
@@ -2254,7 +2332,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 25 2025 00:35:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jan 28 2025 17:18:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
