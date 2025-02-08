@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d_0',['d',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D'],['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d']]],
+  ['d_0',['d',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D']]],
   ['d2_1',['d2',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#aac1777fc7cfc528c03b3e8c38f14e2b9',1,'sst::basic_blocks::dsp::DriftLFO']]],
   ['dahdenvelope_2',['dahdenvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html',1,'DAHDEnvelope&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#a9259f19be7c6acd85e7bfc5290b197da',1,'sst::basic_blocks::modulators::DAHDEnvelope::DAHDEnvelope()']]],
   ['dahdenvelope_2eh_3',['DAHDEnvelope.h',['../DAHDEnvelope_8h.html',1,'']]],

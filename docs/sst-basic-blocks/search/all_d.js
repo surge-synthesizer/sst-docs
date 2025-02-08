@@ -9,12 +9,13 @@ var searchData=
   ['onepolelag_3c_20float_2c_20false_20_3e_6',['OnePoleLag&lt; float, false &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html',1,'sst::basic_blocks::dsp']]],
   ['onepolelag_3c_20t_2c_20true_20_3e_7',['OnePoleLag&lt; T, true &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html',1,'sst::basic_blocks::dsp']]],
   ['onsampleratechanged_8',['onsampleratechanged',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::ADSREnvelope::onSampleRateChanged()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::DAHDEnvelope::onSampleRateChanged()']]],
-  ['operator_3d_3d_9',['operator==',['../namespacesst_1_1basic__blocks_1_1mod__matrix_1_1details.html#a61d3eb60f880a7303baef76ac9725856',1,'sst::basic_blocks::mod_matrix::details']]],
-  ['oscillatordriftunisoncharacter_2eh_10',['OscillatorDriftUnisonCharacter.h',['../OscillatorDriftUnisonCharacter_8h.html',1,'']]],
-  ['outblock0_11',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['output_12',['output',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputblock_13',['outputBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['outputcache_14',['outputCache',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab052e8cf7ad5ebfe770f8577db3af81d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputcachecubed_15',['outputCacheCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a3f142fe566c46d572d9ac4129dd1eee4',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputcubed_16',['outputCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#abc62f19a9752d21cad0625df584b0c6a',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
+  ['onto_9',['onto',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#ae80baca8373aed0d4ee7e717df7aeb24',1,'sst::basic_blocks::dsp::LagCollection::Lagger']]],
+  ['operator_3d_3d_10',['operator==',['../namespacesst_1_1basic__blocks_1_1mod__matrix_1_1details.html#a61d3eb60f880a7303baef76ac9725856',1,'sst::basic_blocks::mod_matrix::details']]],
+  ['oscillatordriftunisoncharacter_2eh_11',['OscillatorDriftUnisonCharacter.h',['../OscillatorDriftUnisonCharacter_8h.html',1,'']]],
+  ['outblock0_12',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['output_13',['output',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputblock_14',['outputBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['outputcache_15',['outputCache',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab052e8cf7ad5ebfe770f8577db3af81d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputcachecubed_16',['outputCacheCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a3f142fe566c46d572d9ac4129dd1eee4',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputcubed_17',['outputCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#abc62f19a9752d21cad0625df584b0c6a',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
 ];
