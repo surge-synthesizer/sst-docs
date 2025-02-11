@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qfusubtypemasks_2070',['QFUSubtypeMasks',['../namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbe',1,'sst::filters']]]
+  ['rkm_5fcoeffs_0',['rkm_coeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1RK.html#a717da62cd85c72d7d3244485ea9cb201',1,'sst::filters::VintageLadder::RK']]]
 ];

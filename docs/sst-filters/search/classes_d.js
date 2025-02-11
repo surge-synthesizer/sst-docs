@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pluralise_1324',['pluralise',['../structCatch_1_1pluralise.html',1,'Catch']]],
-  ['predicatematcher_1325',['PredicateMatcher',['../classCatch_1_1Matchers_1_1Generic_1_1PredicateMatcher.html',1,'Catch::Matchers::Generic']]]
+  ['quadfilterunitstate_0',['QuadFilterUnitState',['../structsst_1_1filters_1_1QuadFilterUnitState.html',1,'sst::filters']]]
 ];

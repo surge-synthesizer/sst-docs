@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['saturator_2072',['Saturator',['../namespacesst_1_1filters_1_1CutoffWarp.html#a14130043d3e197b28fb5008045974680',1,'sst::filters::CutoffWarp::Saturator()'],['../namespacesst_1_1filters_1_1ResonanceWarp.html#a14130043d3e197b28fb5008045974680',1,'sst::filters::ResonanceWarp::Saturator()']]],
-  ['specialproperties_2073',['SpecialProperties',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3e',1,'Catch::TestCaseInfo']]]
+  ['thr_5fcoeffs_0',['thr_coeffs',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a150ef846871372dc0d371903c1606a73',1,'sst::filters::TriPoleFilter']]],
+  ['thr_5fstate_1',['thr_state',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a93eaace6b6329bb890792b0de43f6b0f',1,'sst::filters::TriPoleFilter']]]
 ];
