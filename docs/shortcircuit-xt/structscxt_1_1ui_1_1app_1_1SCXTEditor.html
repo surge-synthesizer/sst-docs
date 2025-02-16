@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4680da9cf2555473ad40f972dc1b4ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077e91be7d6384f6f8b7497f096bb210" id="r_a077e91be7d6384f6f8b7497f096bb210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">resetColorsFromUserPreferences</a> ()</td></tr>
 <tr class="separator:a077e91be7d6384f6f8b7497f096bb210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc5985fa7d6fd8132a6eebbe859a36e" id="r_a4fc5985fa7d6fd8132a6eebbe859a36e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a4fc5985fa7d6fd8132a6eebbe859a36e">onStyleChanged</a> () override</td></tr>
+<tr class="separator:a4fc5985fa7d6fd8132a6eebbe859a36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac94570f82bd707c2c03be6490dbc583e" id="r_ac94570f82bd707c2c03be6490dbc583e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ac94570f82bd707c2c03be6490dbc583e">showMissingResolutionScreen</a> ()</td></tr>
 <tr class="separator:ac94570f82bd707c2c03be6490dbc583e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95b205c245a10f77432fa6c9ceb282b" id="r_ad95b205c245a10f77432fa6c9ceb282b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor</a> (<a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;e, <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html">infrastructure::DefaultsProvider</a> &amp;d, const <a class="el" href="structscxt_1_1sample_1_1SampleManager.html">sample::SampleManager</a> &amp;s, const <a class="el" href="structscxt_1_1browser_1_1Browser.html">scxt::browser::Browser</a> &amp;b, const <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html">engine::Engine::SharedUIMemoryState</a> &amp;state)</td></tr>
@@ -278,8 +280,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abd7eb05c241426d6bf5de3965cf77c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517e3a5ba16b52ffd3c63fc55ae1feea" id="r_a517e3a5ba16b52ffd3c63fc55ae1feea"><td class="memItemLeft" align="right" valign="top">sst::basic_blocks::dsp::RNG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a517e3a5ba16b52ffd3c63fc55ae1feea">rng</a></td></tr>
 <tr class="separator:a517e3a5ba16b52ffd3c63fc55ae1feea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d1b432a6f80f612e7cfdb857e93d00" id="r_a67d1b432a6f80f612e7cfdb857e93d00"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1SCXTJuceLookAndFeel.html">SCXTJuceLookAndFeel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a67d1b432a6f80f612e7cfdb857e93d00">lnf</a></td></tr>
-<tr class="separator:a67d1b432a6f80f612e7cfdb857e93d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace991c5713de19e2e0cd095f4a3bac03" id="r_ace991c5713de19e2e0cd095f4a3bac03"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; sst::jucegui::style::LookAndFeelManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ace991c5713de19e2e0cd095f4a3bac03">lnf</a></td></tr>
+<tr class="separator:ace991c5713de19e2e0cd095f4a3bac03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a260138fe5fb6f63371b171fdd5fc8729" id="r_a260138fe5fb6f63371b171fdd5fc8729"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor_1_1IdleTimer.html">IdleTimer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a260138fe5fb6f63371b171fdd5fc8729">idleTimer</a></td></tr>
 <tr class="separator:a260138fe5fb6f63371b171fdd5fc8729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8800b3cae8e135ef56599873ef23de7" id="r_af8800b3cae8e135ef56599873ef23de7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html">shared::HeaderRegion</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af8800b3cae8e135ef56599873ef23de7">headerRegion</a></td></tr>
@@ -433,7 +435,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495">SCXTEditor::aboutScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a066fd3d99930bcb327e0f7c510cdacd0">SCXTEditor::callbackMutex</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ade1b04c7f564261b2d6f2a704c811f47">SCXTEditor::callbackQueue</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a54b1172b77d92a58e3f9511a74f6921b">SCXTEditor::defaultsProvider</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ab827b2a9c31c0b653adbe02d59e914e4">SCXTEditor::drainCallbackQueue()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ace3831ed6d3bc85141bd6caee5406351">SCXTEditor::editScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a6e865f5779d7bd217aaeb2fa37e6f604">SCXTEditor::focusDebugger</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af8800b3cae8e135ef56599873ef23de7">SCXTEditor::headerRegion</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a260138fe5fb6f63371b171fdd5fc8729">SCXTEditor::idleTimer</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a67d1b432a6f80f612e7cfdb857e93d00">SCXTEditor::lnf</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a16d9e6a24e0ae783e2832b3204667696">SCXTEditor::logScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae7b98ceafcfc33ba9aad0dea05a1e998">SCXTEditor::missingResolutionScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae2dd07651703077d725c9b481a9b4f97">SCXTEditor::mixerScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a12c8c061c428ad6a4a0189d1636f472a">SCXTEditor::msgCont</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a4d5fcfa6bee4e7b08d20c5222db8b343">scxt::infrastructure::octave0</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa5b5e16e811d89b6ad6ef69035a8a920">SCXTEditor::playScreen</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1845a081a9a74d53d528dec9d18705ea">MessageController::registerClient()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">SCXTEditor::resetColorsFromUserPreferences()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a84cd19a3761d949aec5eba3ed2b52bf7">SCXTEditor::setZoomFactor()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e">SCXTEditor::welcomeScreen</a>, and <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a9b6b1f625393dc0f51b702cbe35b5996">scxt::infrastructure::zoomLevel</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495">SCXTEditor::aboutScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a066fd3d99930bcb327e0f7c510cdacd0">SCXTEditor::callbackMutex</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ade1b04c7f564261b2d6f2a704c811f47">SCXTEditor::callbackQueue</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a54b1172b77d92a58e3f9511a74f6921b">SCXTEditor::defaultsProvider</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ab827b2a9c31c0b653adbe02d59e914e4">SCXTEditor::drainCallbackQueue()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ace3831ed6d3bc85141bd6caee5406351">SCXTEditor::editScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a6e865f5779d7bd217aaeb2fa37e6f604">SCXTEditor::focusDebugger</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af8800b3cae8e135ef56599873ef23de7">SCXTEditor::headerRegion</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a260138fe5fb6f63371b171fdd5fc8729">SCXTEditor::idleTimer</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ace991c5713de19e2e0cd095f4a3bac03">SCXTEditor::lnf</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a16d9e6a24e0ae783e2832b3204667696">SCXTEditor::logScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae7b98ceafcfc33ba9aad0dea05a1e998">SCXTEditor::missingResolutionScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae2dd07651703077d725c9b481a9b4f97">SCXTEditor::mixerScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a12c8c061c428ad6a4a0189d1636f472a">SCXTEditor::msgCont</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a4d5fcfa6bee4e7b08d20c5222db8b343">scxt::infrastructure::octave0</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa5b5e16e811d89b6ad6ef69035a8a920">SCXTEditor::playScreen</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1845a081a9a74d53d528dec9d18705ea">MessageController::registerClient()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a077e91be7d6384f6f8b7497f096bb210">SCXTEditor::resetColorsFromUserPreferences()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a84cd19a3761d949aec5eba3ed2b52bf7">SCXTEditor::setZoomFactor()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e">SCXTEditor::welcomeScreen</a>, and <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a9b6b1f625393dc0f51b702cbe35b5996">scxt::infrastructure::zoomLevel</a>.</p>
 
 </div>
 </div>
@@ -515,6 +517,33 @@ Protected Member Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a35bf3803c9b69e58cf25451789a5708e">scxt::infrastructure::colormapId</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4aef9618f27f7f010ef1743fc7057f2e8b">scxt::infrastructure::colormapPathIfFile</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ab934fdd43c448776352c4a8327094bf9">ColorMap::createColorMap()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a54b1172b77d92a58e3f9511a74f6921b">SCXTEditor::defaultsProvider</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#ae1fd4ec1b3166409787d3dd520a75994">ColorMap::FILE_COLORMAP_ID</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a60ec5bec3aa1b01db153d8f664cd8b26">ColorMap::jsonToColormap()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#ad0a62b86e9fde49eaa0b0e90e260dfb8">ThemeApplier::recolorStylesheetWith()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4ae94156f19b6b847d97e62a5805e80f28">scxt::infrastructure::showKnobs</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562978ff8c4be1b9acce2df720c5de20">SCXTEditor::themeApplier</a>, and <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af">ColorMap::WIREFRAME</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>.</p>
+
+</div>
+</div>
+<a id="a4fc5985fa7d6fd8132a6eebbe859a36e" name="a4fc5985fa7d6fd8132a6eebbe859a36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc5985fa7d6fd8132a6eebbe859a36e">&#9670;&#160;</a></span>onStyleChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onStyleChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ace991c5713de19e2e0cd095f4a3bac03">SCXTEditor::lnf</a>.</p>
 
 </div>
 </div>
@@ -2204,19 +2233,19 @@ template&lt;typename A &gt; </div>
 
 </div>
 </div>
-<a id="a67d1b432a6f80f612e7cfdb857e93d00" name="a67d1b432a6f80f612e7cfdb857e93d00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67d1b432a6f80f612e7cfdb857e93d00">&#9670;&#160;</a></span>lnf</h2>
+<a id="ace991c5713de19e2e0cd095f4a3bac03" name="ace991c5713de19e2e0cd095f4a3bac03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace991c5713de19e2e0cd095f4a3bac03">&#9670;&#160;</a></span>lnf</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1SCXTJuceLookAndFeel.html">SCXTJuceLookAndFeel</a>&gt; lnf</td>
+          <td class="memname">std::unique_ptr&lt;sst::jucegui::style::LookAndFeelManager&gt; lnf</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a4fc5985fa7d6fd8132a6eebbe859a36e">SCXTEditor::onStyleChanged()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>.</p>
 
 </div>
 </div>
@@ -2769,7 +2798,7 @@ template&lt;typename A &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 15 2025 19:08:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Feb 16 2025 17:30:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

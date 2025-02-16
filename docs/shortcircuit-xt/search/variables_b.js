@@ -34,7 +34,7 @@ var searchData=
   ['listbox_31',['listBox',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#add785babf61a030e35078d7830bc7b7d',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase']]],
   ['listboxmodel_32',['listBoxModel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a8dd73d16d10bd30cd4ce5992fc6146a5',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase']]],
   ['listview_33',['listview',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSRowComponent.html#a5cfa5e237f4d7a370e318dd531e7e776',1,'scxt::ui::app::browser_ui::DriveFSRowComponent::listView'],['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea.html#ac89468b272052c624c39591e7a79a97b',1,'scxt::ui::app::browser_ui::DriveArea::listView'],['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#a7c5dedadea9e71afc9252fe609bcee19',1,'scxt::ui::app::browser_ui::DriveFSArea::listView']]],
-  ['lnf_34',['lnf',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a67d1b432a6f80f612e7cfdb857e93d00',1,'scxt::ui::app::SCXTEditor']]],
+  ['lnf_34',['lnf',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ace991c5713de19e2e0cd095f4a3bac03',1,'scxt::ui::app::SCXTEditor']]],
   ['lockbutton_35',['lockButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#afa1dc1596b24eea9cbd0d07f4fbf4f2a',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
   ['logdisplay_36',['logDisplay',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a24544cd288d97aabc06bce31996242f4',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['logmessages_37',['logMessages',['../namespacescxt.html#ad0aea81a825777d44d959d8d9a143b63',1,'scxt']]],
