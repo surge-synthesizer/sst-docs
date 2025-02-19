@@ -2,7 +2,7 @@ var searchData=
 [
   ['lag_0',['lag',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a4b65420109f0302f0044a571b82f6bfa',1,'sst::basic_blocks::dsp::LagCollection::Lagger']]],
   ['lag_2eh_1',['Lag.h',['../Lag_8h.html',1,'']]],
-  ['lagcollection_2',['LagCollection',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html',1,'sst::basic_blocks::dsp']]],
+  ['lagcollection_2',['lagcollection',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html',1,'LagCollection&lt; N &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#ad59144e87ea3dc1c97e130ecd3876873',1,'sst::basic_blocks::dsp::LagCollection::LagCollection()']]],
   ['lagcollection_2eh_3',['LagCollection.h',['../LagCollection_8h.html',1,'']]],
   ['lagger_4',['Lagger',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html',1,'sst::basic_blocks::dsp::LagCollection']]],
   ['lags_5',['lags',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#af3e8595c9a695017794e0d9e14d8d678',1,'sst::basic_blocks::dsp::LagCollection']]],
