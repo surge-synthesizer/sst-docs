@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['lru_13',['LRU',['../classsst_1_1cpputils_1_1LRU.html#aa2f5a8b508b7995f22b1b30e4bdbeb1b',1,'sst::cpputils::LRU::LRU()'],['../classsst_1_1cpputils_1_1LRU.html',1,'LRU&lt; Key, Value, lock_free &gt;']]],
-  ['lru_5fcache_2eh_14',['lru_cache.h',['../lru__cache_8h.html',1,'']]]
+  ['get_0',['get',['../classsst_1_1cpputils_1_1LRU.html#a98c4b8188886d276927b5003e71126df',1,'sst::cpputils::LRU::get(const Key &amp;key)'],['../classsst_1_1cpputils_1_1LRU.html#ad42659c021a0ea388bc467dc1839261a',1,'sst::cpputils::LRU::get(const Key &amp;key, ConstructionArgs &amp;&amp;...args)']]]
 ];

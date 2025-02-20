@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ringbufferinternal_86',['RingBufferInternal',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a87ff845c4556e170437df782b086aa42',1,'sst::cpputils::internal::RingBufferInternal']]]
+  ['lru_0',['LRU',['../classsst_1_1cpputils_1_1LRU.html#aa2f5a8b508b7995f22b1b30e4bdbeb1b',1,'sst::cpputils::LRU']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readpos_5f_93',['readPos_',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#aa5bbdd05f08f7c53aefdfe9aa981c4c8',1,'sst::cpputils::internal::RingBufferInternal']]]
+  ['activehead_0',['activeHead',['../structsst_1_1cpputils_1_1active__set__overlay.html#a91c433550708c006e896cb9c2d70e731',1,'sst::cpputils::active_set_overlay']]]
 ];

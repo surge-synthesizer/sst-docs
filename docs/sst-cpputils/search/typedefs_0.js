@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_5ftype_96',['value_type',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a265a253612b46abed17c61b0a5e5ce30',1,'sst::cpputils::SimpleRingBuffer']]]
+  ['difference_5ftype_0',['difference_type',['../structsst_1_1cpputils_1_1active__set__overlay_1_1iterator.html#ace405568d0b2f3fad4990044252c7732',1,'sst::cpputils::active_set_overlay::iterator']]]
 ];
