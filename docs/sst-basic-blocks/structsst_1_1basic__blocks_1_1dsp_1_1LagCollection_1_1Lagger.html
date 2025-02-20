@@ -103,6 +103,8 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;LagCollection.h&gt;</code></p>
+
+<p>Inherits participant.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,10 +121,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae80baca8373aed0d4ee7e717df7aeb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b65420109f0302f0044a571b82f6bfa" id="r_a4b65420109f0302f0044a571b82f6bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html">LinearLag</a>&lt; float, true &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a4b65420109f0302f0044a571b82f6bfa">lag</a></td></tr>
 <tr class="separator:a4b65420109f0302f0044a571b82f6bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa245800d02bc8dc316b3b09136162242" id="r_aa245800d02bc8dc316b3b09136162242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html">Lagger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#aa245800d02bc8dc316b3b09136162242">next</a> {nullptr}</td></tr>
-<tr class="separator:aa245800d02bc8dc316b3b09136162242"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65b30ba02170c00c8b84c8b2c5edb8d0" id="r_a65b30ba02170c00c8b84c8b2c5edb8d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html">Lagger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a65b30ba02170c00c8b84c8b2c5edb8d0">prev</a> {nullptr}</td></tr>
-<tr class="separator:a65b30ba02170c00c8b84c8b2c5edb8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a750b5d744c39a06bfb13e6eb010e35d0" id="r_a750b5d744c39a06bfb13e6eb010e35d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a></td></tr>
 <tr class="separator:a750b5d744c39a06bfb13e6eb010e35d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -146,8 +144,6 @@ template&lt;int N&gt; </div>
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a95067243b72a23863ec07c821797455c">LagCollection&lt; N &gt;::Lagger::apply()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a4b65420109f0302f0044a571b82f6bfa">LagCollection&lt; N &gt;::Lagger::lag</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html#a2e9c5136d19b1a95fc427e0852deab5c">LinearLag&lt; T, first_run &gt;::process()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a277ccb67626b1f6c3e4931cd8a9ccba3">LagCollection&lt; N &gt;::processAll()</a>.</p>
-
 </div>
 </div>
 <a id="a2c59f8d2818e62499055863ab80fe6c6" name="a2c59f8d2818e62499055863ab80fe6c6"></a>
@@ -168,8 +164,6 @@ template&lt;int N&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a95067243b72a23863ec07c821797455c">LagCollection&lt; N &gt;::Lagger::apply()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a4b65420109f0302f0044a571b82f6bfa">LagCollection&lt; N &gt;::Lagger::lag</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html#a2c59f8d2818e62499055863ab80fe6c6">LinearLag&lt; T, first_run &gt;::snapToTarget()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a20689eee78bb1943d712ded835a16090">LagCollection&lt; N &gt;::snapAllActiveToTarget()</a>.</p>
 
 </div>
 </div>
@@ -211,7 +205,7 @@ template&lt;int N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a95067243b72a23863ec07c821797455c">LagCollection&lt; N &gt;::Lagger::apply()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a277ccb67626b1f6c3e4931cd8a9ccba3">LagCollection&lt; N &gt;::processAll()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a95067243b72a23863ec07c821797455c">LagCollection&lt; N &gt;::Lagger::apply()</a>.</p>
 
 </div>
 </div>
@@ -230,42 +224,6 @@ template&lt;int N&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a95067243b72a23863ec07c821797455c">LagCollection&lt; N &gt;::Lagger::apply()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a2e9c5136d19b1a95fc427e0852deab5c">LagCollection&lt; N &gt;::Lagger::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a2c59f8d2818e62499055863ab80fe6c6">LagCollection&lt; N &gt;::Lagger::snapToTarget()</a>.</p>
-
-</div>
-</div>
-<a id="aa245800d02bc8dc316b3b09136162242" name="aa245800d02bc8dc316b3b09136162242"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa245800d02bc8dc316b3b09136162242">&#9670;&#160;</a></span>next</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html">Lagger</a>* next {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a277ccb67626b1f6c3e4931cd8a9ccba3">LagCollection&lt; N &gt;::processAll()</a>.</p>
-
-</div>
-</div>
-<a id="a65b30ba02170c00c8b84c8b2c5edb8d0" name="a65b30ba02170c00c8b84c8b2c5edb8d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65b30ba02170c00c8b84c8b2c5edb8d0">&#9670;&#160;</a></span>prev</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html">Lagger</a> * prev {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a277ccb67626b1f6c3e4931cd8a9ccba3">LagCollection&lt; N &gt;::processAll()</a>.</p>
 
 </div>
 </div>
@@ -291,7 +249,7 @@ template&lt;int N&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 19 2025 21:46:03 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Feb 20 2025 22:06:44 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
