@@ -160,7 +160,8 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T, int N&gt;<br />
 struct sst::cpputils::fixed_memory_allocator_impl&lt; T, N &gt;</div><p>template&lt;typename T, int N&gt; STLFixedAllocator provides an implementation of the stl Allocator protocol on a fixed array of size N. </p>
 <p>A common use would be to have T be an int or a pointer. It basically works as a shared pointer.</p>
-<p>Note this allocator is <em>not</em> thread safe. do not use it for STL classes which are shared across multiple threads. </p>
+<p>Note this allocator is <em>not</em> thread safe. do not use it for STL classes which are shared across multiple threads.</p>
+<p>As of this writing you should <em>not</em> use this class. It works but the allocation method is painfully naive. It exists as an interface outline for how you would allocate in STL onto pre-allocated blocks and nothing more (and it works, but has a linear-time-in-N allocate cost). </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="afb9ded5f49336ae503bb9f2035ea902b" name="afb9ded5f49336ae503bb9f2035ea902b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb9ded5f49336ae503bb9f2035ea902b">&#9670;&#160;</a></span>value_type</h2>
@@ -540,7 +541,7 @@ template&lt;typename T , int N&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 20 2025 17:24:37 for sst-cpputils by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Feb 20 2025 20:04:19 for sst-cpputils by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
