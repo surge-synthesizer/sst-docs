@@ -111,7 +111,6 @@ $(function() {
 Public Types</h2></td></tr>
 <tr class="memitem:acbd603b5f7c788a74eade8d4837ba684" id="r_acbd603b5f7c788a74eade8d4837ba684"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684">Instruction</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684ab078ffd28db767c502ac367053f6e0ac">START</a>
 , <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684ab85df04e922fe1dd3c1f0692faeaacef">SKIP</a>
-, <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684a8c76059ebc8bc4dab0edf40e87ea9266">MOVE_FROM</a>
  }</td></tr>
 <tr class="separator:acbd603b5f7c788a74eade8d4837ba684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d9a86774fb712cbcf590066b6fae06" id="r_a82d9a86774fb712cbcf590066b6fae06"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a82d9a86774fb712cbcf590066b6fae06">buffer_t</a> = std::array&lt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt; Cfg &gt;, Cfg::maxVoiceCount &gt;</td></tr>
@@ -121,8 +120,6 @@ Public Types</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7bd05fa0213b0f0f0acb5a7c52f0a348" id="r_a7bd05fa0213b0f0f0acb5a7c52f0a348"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684">sst::voicemanager::VoiceInitInstructionsEntry::Instruction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a7bd05fa0213b0f0f0acb5a7c52f0a348">START</a></td></tr>
 <tr class="separator:a7bd05fa0213b0f0f0acb5a7c52f0a348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff80986b83a7cdb62c8dae7edd8de273" id="r_aff80986b83a7cdb62c8dae7edd8de273"><td class="memItemLeft" align="right" valign="top">Cfg::voice_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#aff80986b83a7cdb62c8dae7edd8de273">moveFromVoice</a> {nullptr}</td></tr>
-<tr class="separator:aff80986b83a7cdb62c8dae7edd8de273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Cfg&gt;<br />
@@ -171,8 +168,6 @@ template&lt;typename Cfg &gt; </div>
 </td></tr>
 <tr><td class="fieldname"><a id="acbd603b5f7c788a74eade8d4837ba684ab85df04e922fe1dd3c1f0692faeaacef" name="acbd603b5f7c788a74eade8d4837ba684ab85df04e922fe1dd3c1f0692faeaacef"></a>SKIP&#160;</td><td class="fielddoc"><p>Skip this voice altogether. The voice manager has discarded it. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="acbd603b5f7c788a74eade8d4837ba684a8c76059ebc8bc4dab0edf40e87ea9266" name="acbd603b5f7c788a74eade8d4837ba684a8c76059ebc8bc4dab0edf40e87ea9266"></a>MOVE_FROM&#160;</td><td class="fielddoc"><p>The voice at this index is a move of the voice pointer. </p>
-</td></tr>
 </table>
 
 </div>
@@ -194,29 +189,13 @@ template&lt;typename Cfg &gt; </div>
 
 </div>
 </div>
-<a id="aff80986b83a7cdb62c8dae7edd8de273" name="aff80986b83a7cdb62c8dae7edd8de273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff80986b83a7cdb62c8dae7edd8de273">&#9670;&#160;</a></span>moveFromVoice</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Cfg &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">Cfg::voice_t* moveFromVoice {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="voicemanager_8h.html">voicemanager.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 25 2025 14:14:53 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Feb 25 2025 16:48:21 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
