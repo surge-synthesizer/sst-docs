@@ -9,11 +9,12 @@ var searchData=
   ['lastdphasex_6',['lastDPhaseX',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a3e498698365a882e638e453839823791',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
   ['lastfrate_7',['lastFRate',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afddea5f0355c34fad94fe3b733696405',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['lastrate_8',['lastRate',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a73057348cdbdbb316bfe40716fbd5f5f',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['lasttarget_9',['lastTarget',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a049eb909257a8fedb9c5891ab90d3633',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['lasttsscale_10',['lastTSScale',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a53caa1768de648318f9705e9bf6fa23f',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['linear_11',['LINEAR',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a9255fe1c132b4c49368bf7b130c1dee3',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['lp_12',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lpinv_13',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lut_14',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['lutsinitialized_15',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['lastsr_9',['lastsr',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#afa6313f31e7212203a48617408105dc3',1,'sst::basic_blocks::modulators::AHDSRShapedSC::lastSR'],['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afa6313f31e7212203a48617408105dc3',1,'sst::basic_blocks::modulators::SimpleLFO::lastSR']]],
+  ['lasttarget_10',['lastTarget',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a049eb909257a8fedb9c5891ab90d3633',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['lasttsscale_11',['lastTSScale',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a53caa1768de648318f9705e9bf6fa23f',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['linear_12',['LINEAR',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a9255fe1c132b4c49368bf7b130c1dee3',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['lp_13',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
+  ['lpinv_14',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
+  ['lut_15',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['lutsinitialized_16',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];
