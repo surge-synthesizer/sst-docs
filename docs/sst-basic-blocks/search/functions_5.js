@@ -16,10 +16,11 @@ var searchData=
   ['fasttanh_13',['fasttanh',['../namespacesst_1_1basic__blocks_1_1dsp.html#a47653e76478519c2bd195a79fefd8213',1,'sst::basic_blocks::dsp']]],
   ['fasttanhsse_14',['fasttanhSSE',['../namespacesst_1_1basic__blocks_1_1dsp.html#a0157275447c940689c090989825a56a6',1,'sst::basic_blocks::dsp']]],
   ['fasttanhsseclamped_15',['fasttanhSSEclamped',['../namespacesst_1_1basic__blocks_1_1dsp.html#a9dfb5fa4053b06de48f1aaeb5ce883eb',1,'sst::basic_blocks::dsp']]],
-  ['featurestate_16',['FeatureState',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#a0e32b948bff830fce8f771b2c9a89c25',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
-  ['fillblock_17',['fillBlock',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html#abeebc3c44ea4e76dd9338206ff3e2af3',1,'sst::basic_blocks::dsp::DPWSawOscillator']]],
-  ['filter_18',['filter',['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#a7cc05a2d7dc1581885c818581f376b0c',1,'sst::basic_blocks::dsp::DCBlocker']]],
-  ['fordisplay_19',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
-  ['freeze_20',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['fxmodcontrol_21',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#aa7ae4866c7f600cd1f7cc5f8eba8b9e1',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri)']]]
+  ['fasttansse_16',['fasttanSSE',['../namespacesst_1_1basic__blocks_1_1dsp.html#a28991946705150b3973b2065271cb0b5',1,'sst::basic_blocks::dsp']]],
+  ['featurestate_17',['FeatureState',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#a0e32b948bff830fce8f771b2c9a89c25',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
+  ['fillblock_18',['fillBlock',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html#abeebc3c44ea4e76dd9338206ff3e2af3',1,'sst::basic_blocks::dsp::DPWSawOscillator']]],
+  ['filter_19',['filter',['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#a7cc05a2d7dc1581885c818581f376b0c',1,'sst::basic_blocks::dsp::DCBlocker']]],
+  ['fordisplay_20',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
+  ['freeze_21',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['fxmodcontrol_22',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#aa7ae4866c7f600cd1f7cc5f8eba8b9e1',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri)']]]
 ];

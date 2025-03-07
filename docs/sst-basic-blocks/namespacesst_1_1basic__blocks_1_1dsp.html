@@ -208,10 +208,12 @@ Functions</h2></td></tr>
 <tr class="separator:ac709b283f3bb2a786d853870e075d5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b643d7672ed0431fd549f761bd635b3" id="r_a6b643d7672ed0431fd549f761bd635b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a6b643d7672ed0431fd549f761bd635b3">clampToPiRangeSSE</a> (<a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> x)</td></tr>
 <tr class="separator:a6b643d7672ed0431fd549f761bd635b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47653e76478519c2bd195a79fefd8213" id="r_a47653e76478519c2bd195a79fefd8213"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a47653e76478519c2bd195a79fefd8213">fasttanh</a> (float x) noexcept</td></tr>
-<tr class="separator:a47653e76478519c2bd195a79fefd8213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42541b10bfd7a222ec39c59866e8be24" id="r_a42541b10bfd7a222ec39c59866e8be24"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a42541b10bfd7a222ec39c59866e8be24">fasttan</a> (float x) noexcept</td></tr>
 <tr class="separator:a42541b10bfd7a222ec39c59866e8be24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28991946705150b3973b2065271cb0b5" id="r_a28991946705150b3973b2065271cb0b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a28991946705150b3973b2065271cb0b5">fasttanSSE</a> (<a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> x) noexcept</td></tr>
+<tr class="separator:a28991946705150b3973b2065271cb0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47653e76478519c2bd195a79fefd8213" id="r_a47653e76478519c2bd195a79fefd8213"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a47653e76478519c2bd195a79fefd8213">fasttanh</a> (float x) noexcept</td></tr>
+<tr class="separator:a47653e76478519c2bd195a79fefd8213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0157275447c940689c090989825a56a6" id="r_a0157275447c940689c090989825a56a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a0157275447c940689c090989825a56a6">fasttanhSSE</a> (<a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> x)</td></tr>
 <tr class="separator:a0157275447c940689c090989825a56a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dfb5fa4053b06de48f1aaeb5ce883eb" id="r_a9dfb5fa4053b06de48f1aaeb5ce883eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html#a9dfb5fa4053b06de48f1aaeb5ce883eb">fasttanhSSEclamped</a> (<a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> x)</td></tr>
@@ -650,8 +652,8 @@ template&lt;size_t blockSize&gt; </div>
 
 </div>
 </div>
-<a id="a47653e76478519c2bd195a79fefd8213" name="a47653e76478519c2bd195a79fefd8213"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47653e76478519c2bd195a79fefd8213">&#9670;&#160;</a></span>fasttanh()</h2>
+<a id="a42541b10bfd7a222ec39c59866e8be24" name="a42541b10bfd7a222ec39c59866e8be24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42541b10bfd7a222ec39c59866e8be24">&#9670;&#160;</a></span>fasttan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -660,7 +662,7 @@ template&lt;size_t blockSize&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float fasttanh </td>
+          <td class="memname">float fasttan </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -676,8 +678,8 @@ template&lt;size_t blockSize&gt; </div>
 
 </div>
 </div>
-<a id="a42541b10bfd7a222ec39c59866e8be24" name="a42541b10bfd7a222ec39c59866e8be24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42541b10bfd7a222ec39c59866e8be24">&#9670;&#160;</a></span>fasttan()</h2>
+<a id="a28991946705150b3973b2065271cb0b5" name="a28991946705150b3973b2065271cb0b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28991946705150b3973b2065271cb0b5">&#9670;&#160;</a></span>fasttanSSE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -686,7 +688,35 @@ template&lt;size_t blockSize&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float fasttan </td>
+          <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> fasttanSSE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="FastMath_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, <a class="el" href="FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa">M</a>, and <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>.</p>
+
+</div>
+</div>
+<a id="a47653e76478519c2bd195a79fefd8213" name="a47653e76478519c2bd195a79fefd8213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47653e76478519c2bd195a79fefd8213">&#9670;&#160;</a></span>fasttanh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float fasttanh </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -1299,7 +1329,7 @@ template&lt;size_t blocksize&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 27 2025 23:42:00 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Mar 7 2025 23:17:13 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

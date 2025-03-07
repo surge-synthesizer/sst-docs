@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_0',['m',['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h']]],
+  ['m_0',['m',['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h'],['../FastMath_8h.html#aee024c5945e8ca04515fea3513aeeaaa',1,'M:&#160;FastMath.h']]],
   ['m128_5fmask_5fabsval_1',['m128_mask_absval',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a1cb529864fb7583dec34aebdf6f90475',1,'sst::basic_blocks::mechanics']]],
   ['m128_5fmask_5fsignbit_2',['m128_mask_signbit',['../namespacesst_1_1basic__blocks_1_1mechanics.html#afe70a64de113421d02d3efabc495a0c2',1,'sst::basic_blocks::mechanics']]],
   ['mac_5f2_5fblocks_5fto_3',['MAC_2_blocks_to',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a5d61c3ad5764bef7d53ba942c46f81e3',1,'sst::basic_blocks::dsp::lipol_sse']]],
@@ -8,7 +8,7 @@ var searchData=
   ['macros_20and_20defines_5',['sst/basic-blocks/simd/setup.h header providces a set of macros and defines',['../the.html',1,'']]],
   ['matrixoutputs_6',['matrixOutputs',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a399416091d6258552816818c49dc7137',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
   ['maxregisters_7',['maxRegisters',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aff2aa0d4037ed06ab9318c3de6c5c9c2',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['maxval_8',['maxval',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#ae93e2d6504b42710e4ba20fd45cdbde9',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers::maxVal'],['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ae93e2d6504b42710e4ba20fd45cdbde9',1,'sst::basic_blocks::params::ParamMetaData::maxVal']]],
+  ['maxval_8',['maxval',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ae93e2d6504b42710e4ba20fd45cdbde9',1,'sst::basic_blocks::params::ParamMetaData::maxVal'],['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#ae93e2d6504b42710e4ba20fd45cdbde9',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers::maxVal']]],
   ['mid_9',['mid',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#a7913ff18f8ef5333d0310ecc12a2149a',1,'sst::basic_blocks::dsp::UnisonSetup']]],
   ['midi_5fnote_10',['MIDI_NOTE',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a459d9d952c69e633a1f618b619763449',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['midiccnames_2eh_11',['MIDICCNames.h',['../MIDICCNames_8h.html',1,'']]],
