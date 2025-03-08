@@ -14,5 +14,6 @@ var searchData=
   ['k35_5fsaturation_5fblend_11',['k35_saturation_blend',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a0366b6092da73d42b789fa4c5cc658fd',1,'sst::filters::K35Filter']]],
   ['k35_5fsaturation_5fblend_5finv_12',['k35_saturation_blend_inv',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a25363971234bc196359513f32823ee16',1,'sst::filters::K35Filter']]],
   ['k35_5fstate_13',['k35_state',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042',1,'sst::filters::K35Filter']]],
-  ['k35filter_2eh_14',['K35Filter.h',['../K35Filter_8h.html',1,'']]]
+  ['k35filter_2eh_14',['K35Filter.h',['../K35Filter_8h.html',1,'']]],
+  ['ksse_15',['kSSE',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a379bcb1fcae8bb5afa9d566ce0fb9c66',1,'sst::filters::FastTiltNoiseFilter']]]
 ];

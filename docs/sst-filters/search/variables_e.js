@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['r_0',['R',['../structsst_1_1filters_1_1QuadFilterUnitState.html#aff8a522c0aba870e1250ef70d0b85222',1,'sst::filters::QuadFilterUnitState']]],
-  ['res_5ffactor_5fdb_1',['res_factor_db',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a8a3085e3b9c3c8597d0f006b7909b7a2',1,'sst::filters::TriPoleFilter']]],
-  ['res_5fgain_2',['res_gain',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a43809fc2c7f7500e2dd19c43838dd6db',1,'sst::filters::TriPoleFilter']]],
-  ['resultdisposition_3',['resultDisposition',['../structCatch_1_1AssertionInfo.html#a17000016e15f416feada995f72fe5a60',1,'Catch::AssertionInfo']]],
-  ['rload_4',['Rload',['../namespacesst_1_1filters_1_1TriPoleFilter.html#ace3da00d49f11a2e12a78cf36b0ee228',1,'sst::filters::TriPoleFilter']]]
+  ['passed_0',['passed',['../structCatch_1_1Counts.html#a22a9f4a956f4f9225265b203f046019b',1,'Catch::Counts']]],
+  ['precision_1',['precision',['../structCatch_1_1StringMaker_3_01float_01_4.html#aa95455ed52a8459fad69509a4a0411b5',1,'Catch::StringMaker&lt; float &gt;::precision'],['../structCatch_1_1StringMaker_3_01double_01_4.html#aa95455ed52a8459fad69509a4a0411b5',1,'Catch::StringMaker&lt; double &gt;::precision']]],
+  ['prevassertions_2',['prevAssertions',['../structCatch_1_1SectionEndInfo.html#a9679f930776c1fb18c90ebdfdb72e2c7',1,'Catch::SectionEndInfo']]],
+  ['properties_3',['properties',['../structCatch_1_1TestCaseInfo.html#a0192e2df5fb2ea133eab670967efe364',1,'Catch::TestCaseInfo']]]
 ];

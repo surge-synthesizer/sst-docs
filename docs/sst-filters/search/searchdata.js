@@ -5,12 +5,12 @@ var indexSectionsWithContent =
   2: "cms",
   3: "bcdfghkloqrstv",
   4: "abcdefghilmnoprstuvw~",
-  5: "abcdefgiklmnoprstuvwz",
+  5: "abcdefghiklmnoprstuvwz",
   6: "cefgirst",
   7: "cdfhkmnopqrst",
   8: "abcdefghiklmnoprstuwy",
   9: "cgos",
-  10: "acdfgimnrstuw",
+  10: "acdfgimnrstuwz",
   11: "fls"
 };
 
