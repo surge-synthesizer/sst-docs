@@ -122,6 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e5be4497b811ed646dfe5379d580e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1fdc0db386ae9545f0d180595aeaa91" id="r_af1fdc0db386ae9545f0d180595aeaa91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af1fdc0db386ae9545f0d180595aeaa91">terminateVoice</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v)</td></tr>
 <tr class="separator:af1fdc0db386ae9545f0d180595aeaa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a7d86a402fc24387de77925b7233f5" id="r_a79a7d86a402fc24387de77925b7233f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a79a7d86a402fc24387de77925b7233f5">discardHostVoice</a> (int32_t voiceId)</td></tr>
+<tr class="separator:a79a7d86a402fc24387de77925b7233f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd08c1c39f84dd91bad3f4b06c5f581" id="r_affd08c1c39f84dd91bad3f4b06c5f581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#affd08c1c39f84dd91bad3f4b06c5f581">retriggerVoiceWithNewNoteID</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int32_t noteid, float velocity)</td></tr>
 <tr class="separator:affd08c1c39f84dd91bad3f4b06c5f581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90ee470de9a13b66b96a9749fda244c8" id="r_a90ee470de9a13b66b96a9749fda244c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8">moveVoice</a> (typename <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195">VMConfig::voice_t</a> *, uint16_t, uint16_t, uint16_t, float)</td></tr>
@@ -136,6 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab732c6a5cd59ae8a4e79a6d748de485d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65fe418857ec3ea0ec3998acde9c7c56" id="r_a65fe418857ec3ea0ec3998acde9c7c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a65fe418857ec3ea0ec3998acde9c7c56">setVoicePolyphonicParameterModulation</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, uint32_t parameter, double value)</td></tr>
 <tr class="separator:a65fe418857ec3ea0ec3998acde9c7c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab7caf9a72c594e194680cbd03ae3a8" id="r_abab7caf9a72c594e194680cbd03ae3a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#abab7caf9a72c594e194680cbd03ae3a8">setVoiceMonophonicParameterModulation</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, uint32_t parameter, double value)</td></tr>
+<tr class="separator:abab7caf9a72c594e194680cbd03ae3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54fc77660484b7ff4bb719c302539778" id="r_a54fc77660484b7ff4bb719c302539778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a54fc77660484b7ff4bb719c302539778">setNoteExpression</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int32_t expression, double value)</td></tr>
 <tr class="separator:a54fc77660484b7ff4bb719c302539778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7597c2019ab1fd3b89b106264813801" id="r_ac7597c2019ab1fd3b89b106264813801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#ac7597c2019ab1fd3b89b106264813801">setPolyphonicAftertouch</a> (<a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *v, int8_t pat)</td></tr>
@@ -436,6 +440,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a79a7d86a402fc24387de77925b7233f5" name="a79a7d86a402fc24387de77925b7233f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a7d86a402fc24387de77925b7233f5">&#9670;&#160;</a></span>discardHostVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void discardHostVoice </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>voiceId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="affd08c1c39f84dd91bad3f4b06c5f581" name="affd08c1c39f84dd91bad3f4b06c5f581"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affd08c1c39f84dd91bad3f4b06c5f581">&#9670;&#160;</a></span>retriggerVoiceWithNewNoteID()</h2>
 
@@ -692,6 +714,40 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abab7caf9a72c594e194680cbd03ae3a8" name="abab7caf9a72c594e194680cbd03ae3a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab7caf9a72c594e194680cbd03ae3a8">&#9670;&#160;</a></span>setVoiceMonophonicParameterModulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setVoiceMonophonicParameterModulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1voice_1_1Voice.html">voice::Voice</a> *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>parameter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a54fc77660484b7ff4bb719c302539778" name="a54fc77660484b7ff4bb719c302539778"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54fc77660484b7ff4bb719c302539778">&#9670;&#160;</a></span>setNoteExpression()</h2>
 
@@ -830,7 +886,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 8 2025 00:54:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 18 2025 18:12:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
