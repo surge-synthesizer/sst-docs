@@ -32,7 +32,7 @@ var searchData=
   ['maxvoicecount_29',['maxVoiceCount',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html#abf1491f10a79bb9720dea0bfc6d08bfc',1,'scxt::engine::Engine::VMConfig']]],
   ['md5_30',['md5',['../structscxt_1_1SampleID.html#a647439f07d1382177ad0f93522b71025',1,'scxt::SampleID']]],
   ['md5len_31',['md5len',['../structscxt_1_1SampleID.html#a3b5b3de050636cdb6903dad68e3ab98e',1,'scxt::SampleID']]],
-  ['md5sum_32',['md5sum',['../structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#ae10771ab1367ced7862a347eef8a9518',1,'scxt::sample::Sample::SampleFileAddress::md5sum'],['../structscxt_1_1sample_1_1Sample.html#aac0cd658a947f15c542f739648c23420',1,'scxt::sample::Sample::md5Sum']]],
+  ['md5sum_32',['md5sum',['../structscxt_1_1sample_1_1Sample.html#aac0cd658a947f15c542f739648c23420',1,'scxt::sample::Sample::md5Sum'],['../structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#ae10771ab1367ced7862a347eef8a9518',1,'scxt::sample::Sample::SampleFileAddress::md5sum']]],
   ['mdbtolinear_33',['mDbToLinear',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1EqAdapter_1_1BaseClass.html#a68810a2a80cec19a49fb56abd44ac6f0',1,'scxt::ui::app::edit_screen::EqDisplayBase::EqAdapter::BaseClass']]],
   ['members_34',['members',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a12c25bb8eb4f31f3ad4e424301ce6a41',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore']]],
   ['memorypool_35',['memoryPool',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#adf5fb5edb9365c2f6a3fa57b63ed4c10',1,'scxt::dsp::processor::Processor']]],

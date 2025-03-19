@@ -261,6 +261,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae5e7b91083cfb0cc4ea6eb53ccc7bf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52ca371fb8609bd313dd9be0a9c7d845" id="r_a52ca371fb8609bd313dd9be0a9c7d845"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a52ca371fb8609bd313dd9be0a9c7d845">makeComingSoon</a> (const std::string &amp;feature=&quot;This feature&quot;) const</td></tr>
 <tr class="separator:a52ca371fb8609bd313dd9be0a9c7d845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b34a83bb055183bd11e882c6e6cf48" id="r_a50b34a83bb055183bd11e882c6e6cf48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a50b34a83bb055183bd11e882c6e6cf48">promptOKCancel</a> (const std::string &amp;title, const std::string &amp;message, std::function&lt; void()&gt; onOK, std::function&lt; void()&gt; onCancel=[]() {})</td></tr>
+<tr class="separator:a50b34a83bb055183bd11e882c6e6cf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -1962,6 +1964,48 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a50b34a83bb055183bd11e882c6e6cf48" name="a50b34a83bb055183bd11e882c6e6cf48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b34a83bb055183bd11e882c6e6cf48">&#9670;&#160;</a></span>promptOKCancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void promptOKCancel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
+          <td class="paramname"><em>onOK</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
+          <td class="paramname"><em>onCancel</em> = <code>[]()&#160;{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a57ceae81dc9b31ea7fc82f3a98cbeb79">MissingResolutionScreen::applyResolution()</a>.</p>
+
+</div>
+</div>
 <a id="a3a5c220394e639a91b7a0b5f6006a339" name="a3a5c220394e639a91b7a0b5f6006a339"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a5c220394e639a91b7a0b5f6006a339">&#9670;&#160;</a></span>sendToSerialization()</h2>
 
@@ -2798,7 +2842,7 @@ template&lt;typename A &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 18 2025 18:12:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Mar 19 2025 16:01:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
