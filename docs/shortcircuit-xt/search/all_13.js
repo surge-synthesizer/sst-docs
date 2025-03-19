@@ -88,7 +88,7 @@ var searchData=
   ['triggerattachment_5ft_85',['triggerAttachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a4bcb6bf5b61f7cd6915c1b983bd95e0e',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['triggerconditions_86',['triggerConditions',['../structscxt_1_1engine_1_1Group.html#a7d531934c0c8580b6cbae3d9fcf58cd3',1,'scxt::engine::Group']]],
   ['triggerl_87',['triggerL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a697c7f8271d5544654d4d685586726a8',1,'scxt::ui::app::edit_screen::LfoPane']]],
-  ['triggermode_88',['triggermode',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127',1,'scxt::modulation::ModulatorStorage::TriggerMode'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ad32d2c2a0a304dcca4b5b87e3333dfe4',1,'scxt::ui::app::edit_screen::LfoPane::triggerMode']]],
+  ['triggermode_88',['triggermode',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ad32d2c2a0a304dcca4b5b87e3333dfe4',1,'scxt::ui::app::edit_screen::LfoPane::triggerMode'],['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127',1,'scxt::modulation::ModulatorStorage::TriggerMode']]],
   ['triggermodea_89',['triggerModeA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#afe71bb8a4c8371ed8fbd6e85cc7f72ad',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['triggersdivider_90',['triggersDivider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html#a2fe7191df0f590614444d47ddb2836d7',1,'scxt::ui::app::edit_screen::GroupSidebar']]],
   ['true_5frandom_91',['TRUE_RANDOM',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a6deb1c96c47d5c476bde70203a08f5ac',1,'scxt::engine::Zone']]],
