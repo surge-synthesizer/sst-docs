@@ -49,7 +49,7 @@ var searchData=
   ['updateringout_46',['updateRingout',['../structscxt_1_1engine_1_1Group.html#a3991fb53c76f77b1272aee7e23968199',1,'scxt::engine::Group']]],
   ['updateroutinglabel_47',['updateRoutingLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputTab.html#a4401fe43ea04f32d32192f4ce451dfa9',1,'scxt::ui::app::edit_screen::OutputTab']]],
   ['updateroutingtableafterprocessorswap_48',['updateRoutingTableAfterProcessorSwap',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a67e8ef0bf1887803ba42aef21949523d',1,'scxt::engine::HasGroupZoneProcessors']]],
-  ['updatesampleplaybackposition_49',['updatesampleplaybackposition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#ab2e16064da0a423a79ddb43e750aa240',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane::updateSamplePlaybackPosition()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a0b125036012273a57d874a3b071b0de5',1,'scxt::ui::app::edit_screen::SampleWaveform::updateSamplePlaybackPosition()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ab2e16064da0a423a79ddb43e750aa240',1,'scxt::ui::app::edit_screen::EditScreen::updateSamplePlaybackPosition()']]],
+  ['updatesampleplaybackposition_49',['updatesampleplaybackposition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ab2e16064da0a423a79ddb43e750aa240',1,'scxt::ui::app::edit_screen::EditScreen::updateSamplePlaybackPosition()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a0b125036012273a57d874a3b071b0de5',1,'scxt::ui::app::edit_screen::SampleWaveform::updateSamplePlaybackPosition()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#ab2e16064da0a423a79ddb43e750aa240',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane::updateSamplePlaybackPosition()']]],
   ['updateselection_50',['updateselection',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#ae32fd073c972974456acfd0547feca50',1,'scxt::ui::app::edit_screen::ZoneSidebar::updateSelection()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html#ae32fd073c972974456acfd0547feca50',1,'scxt::ui::app::edit_screen::GroupSidebar::updateSelection()']]],
   ['updateselectionfrom_51',['updateSelectionFrom',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#abcce655bf90e6dacdfb49eaa5bb217df',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase']]],
   ['updatesinglevalue_52',['updateSingleValue',['../namespacescxt_1_1ui_1_1connectors.html#a65554b061dea6bf90bd045f8107a91d0',1,'scxt::ui::connectors']]],
@@ -73,10 +73,11 @@ var searchData=
   ['useoversampling_70',['useOversampling',['../structscxt_1_1voice_1_1Voice.html#a35a96d79def9851ed57c1c3671aea1fd',1,'scxt::voice::Voice']]],
   ['user_5fdefaults_2eh_71',['user_defaults.h',['../user__defaults_8h.html',1,'']]],
   ['userdirectory_72',['userDirectory',['../structscxt_1_1browser_1_1Browser.html#af968b3af9937e9ef2df84cf21680f2da',1,'scxt::browser::Browser']]],
-  ['usesoutput_73',['usesOutput',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#acacbaa71e6c2dd30cd164103bb8d7cec',1,'scxt::engine::Patch::Busses']]],
-  ['usesoutputbus_74',['usesOutputBus',['../structscxt_1_1engine_1_1Patch.html#a3593acfa183792579850360902d994c5',1,'scxt::engine::Patch']]],
-  ['usewaveendian_75',['useWaveEndian',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a67470c6dd1c7483bcc2cf05f3e7aed9a',1,'scxt::sample::loaders::RIFFMemFile']]],
-  ['utils_2ecpp_76',['utils.cpp',['../utils_8cpp.html',1,'']]],
-  ['utils_2eh_77',['utils.h',['../utils_8h.html',1,'']]],
-  ['utils_5ftraits_2eh_78',['utils_traits.h',['../utils__traits_8h.html',1,'']]]
+  ['usesoftwarerenderer_73',['useSoftwareRenderer',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a79d6bc569382bc1f292e484ccf35e1e9',1,'scxt::infrastructure']]],
+  ['usesoutput_74',['usesOutput',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#acacbaa71e6c2dd30cd164103bb8d7cec',1,'scxt::engine::Patch::Busses']]],
+  ['usesoutputbus_75',['usesOutputBus',['../structscxt_1_1engine_1_1Patch.html#a3593acfa183792579850360902d994c5',1,'scxt::engine::Patch']]],
+  ['usewaveendian_76',['useWaveEndian',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a67470c6dd1c7483bcc2cf05f3e7aed9a',1,'scxt::sample::loaders::RIFFMemFile']]],
+  ['utils_2ecpp_77',['utils.cpp',['../utils_8cpp.html',1,'']]],
+  ['utils_2eh_78',['utils.h',['../utils_8h.html',1,'']]],
+  ['utils_5ftraits_2eh_79',['utils_traits.h',['../utils__traits_8h.html',1,'']]]
 ];
