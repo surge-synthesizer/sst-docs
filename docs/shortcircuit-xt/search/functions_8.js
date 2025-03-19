@@ -29,7 +29,7 @@ var searchData=
   ['init_5ffreq_5fgraph_26',['init_freq_graph',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#ad75bcc5fca2981ddebd6bd73aaafa0ab',1,'scxt::dsp::processor::Processor']]],
   ['init_5fgrains_27',['init_grains',['../structscxt_1_1sample_1_1Sample.html#a842642423340ec7ba50683ee41e7fb2d',1,'scxt::sample::Sample']]],
   ['init_5fparams_28',['init_params',['../structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#a847521e1f6f703f5e2620618308be4ca',1,'scxt::dsp::processor::SSTVoiceEffectShim::init_params()'],['../structscxt_1_1dsp_1_1processor_1_1Processor.html#a8a8e8aaceccd5ccbe15a8bef574d5477',1,'scxt::dsp::processor::Processor::init_params()']]],
-  ['initfromresourcebundle_29',['initFromResourceBundle',['../namespacescxt_1_1patch__io.html#a63cc7fed982f9bc94257d36c470cf979',1,'scxt::patch_io']]],
+  ['initfromresourcebundle_29',['initFromResourceBundle',['../namespacescxt_1_1patch__io.html#a7c0ed19b5ae406ac8e0d85d9ae8dfc1a',1,'scxt::patch_io']]],
   ['initialise_30',['initialise',['../classSCXTStandaloneClapFirstJuceImpl.html#ad99b6f84a69de8f9a060a745eb0e4228',1,'SCXTStandaloneClapFirstJuceImpl']]],
   ['initialize_31',['initialize',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#a25a40b6614565f755233080a384c35f1',1,'scxt::engine::Patch::Busses::initialize()'],['../structscxt_1_1engine_1_1Zone.html#a25a40b6614565f755233080a384c35f1',1,'scxt::engine::Zone::initialize()']]],
   ['initializeafterunstream_32',['initializeAfterUnstream',['../structscxt_1_1engine_1_1Bus.html#a3b5c763b7aa56cded3e0ec30e5b35e14',1,'scxt::engine::Bus']]],

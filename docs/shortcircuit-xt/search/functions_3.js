@@ -51,7 +51,7 @@ var searchData=
   ['dorenamegroup_48',['doRenameGroup',['../namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2',1,'scxt::messaging::client']]],
   ['dorenamezone_49',['doRenameZone',['../namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8',1,'scxt::messaging::client']]],
   ['dorequestzonedatarefresh_50',['doRequestZoneDataRefresh',['../namespacescxt_1_1messaging_1_1client.html#aa9134fba4f2e281e8ff641837a4b8498',1,'scxt::messaging::client']]],
-  ['doresetengine_51',['doResetEngine',['../namespacescxt_1_1messaging_1_1client.html#a16b03cd28fd5a32774e131932e5334e8',1,'scxt::messaging::client']]],
+  ['doresetengine_51',['doResetEngine',['../namespacescxt_1_1messaging_1_1client.html#add0b869c7e38daed69e579af284482cc',1,'scxt::messaging::client']]],
   ['doresolvesample_52',['doResolveSample',['../namespacescxt_1_1messaging_1_1client.html#a172e25f4111b4b0b2ae76a17bdd47d34',1,'scxt::messaging::client']]],
   ['dosavemulti_53',['dosavemulti',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#af370aa50785623ad0368d6ff9c8ecf96',1,'scxt::ui::app::shared::HeaderRegion::doSaveMulti()'],['../namespacescxt_1_1messaging_1_1client.html#a08da93de18bc01e837da8adfbc40c46e',1,'scxt::messaging::client::doSaveMulti(const std::string &amp;s, engine::Engine &amp;engine, MessageController &amp;cont)']]],
   ['dosaveselectedpart_54',['dosaveselectedpart',['../namespacescxt_1_1messaging_1_1client.html#a5a899852f62a908a58510905c2fb860f',1,'scxt::messaging::client::doSaveSelectedPart()'],['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a200e6152f6fae436fe578b0a2240452f',1,'scxt::ui::app::shared::HeaderRegion::doSaveSelectedPart()']]],
