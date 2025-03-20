@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s_0',['s',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a874f74a4dc1c9a0cd9c6e0d79c298f55',1,'scxt::modulation::modulators::AdsrStorage::s'],['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a5bfa9674e03287c54a1f4e9613d5d34f',1,'scxt::browser::SQL::Statement::s'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a6a84d841917100717d9bf3421794e627',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::S']]],
-  ['sample_1',['sample',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#af46952b9c6a58134dd11ed5332813ba7',1,'scxt::engine::Engine::SharedUIMemoryState::VoiceDisplayStateItem::sample'],['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a14d9fdc7007acfba1abc36d249880970',1,'scxt::sample::compound::CompoundElement::SAMPLE'],['../structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#aa4e923f536072f9a37b80e4adc4dc3cd',1,'scxt::voice::PreviewVoice::Details::sample']]],
+  ['sample_1',['sample',['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a14d9fdc7007acfba1abc36d249880970',1,'scxt::sample::compound::CompoundElement::SAMPLE'],['../structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#aa4e923f536072f9a37b80e4adc4dc3cd',1,'scxt::voice::PreviewVoice::Details::sample'],['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#af46952b9c6a58134dd11ed5332813ba7',1,'scxt::engine::Engine::SharedUIMemoryState::VoiceDisplayStateItem::sample']]],
   ['sample_5flength_2',['sample_length',['../structscxt_1_1sample_1_1Sample.html#a4f4f996dae6690f6d6507bd0c647d3a4',1,'scxt::sample::Sample']]],
   ['sample_5floaded_3',['sample_loaded',['../structscxt_1_1sample_1_1Sample.html#a7c5725772640ddc616c8f5aac0e3aae0',1,'scxt::sample::Sample']]],
   ['sample_5frate_4',['sample_rate',['../structscxt_1_1sample_1_1Sample.html#a2fba55d9442e7dba4623825cd737e520',1,'scxt::sample::Sample']]],
@@ -34,7 +34,7 @@ var searchData=
   ['samplesize_31',['sampleSize',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#a241c6caf6fb0c8f94567dcb30c1a3a27',1,'scxt::sample::aiff_CommonChunk']]],
   ['samplestart_32',['samplestart',['../structscxt_1_1dsp_1_1GeneratorState.html#a100d1c889896a162ff69db5069d18a4e',1,'scxt::dsp::GeneratorState::sampleStart'],['../structscxt_1_1exs__support_1_1EXSZone.html#a100d1c889896a162ff69db5069d18a4e',1,'scxt::exs_support::EXSZone::sampleStart']]],
   ['samplestop_33',['sampleStop',['../structscxt_1_1dsp_1_1GeneratorState.html#a2c3f8040f355822e95a13abb691f4dd6',1,'scxt::dsp::GeneratorState']]],
-  ['samplesubpos_34',['samplesubpos',['../structscxt_1_1dsp_1_1KernelProcessor.html#a98254a7e89b0fccc511ebf25b2ac431f',1,'scxt::dsp::KernelProcessor::SampleSubPos'],['../structscxt_1_1dsp_1_1GeneratorState.html#a07b96163307c8eed1cde2a3eb3b1f9e3',1,'scxt::dsp::GeneratorState::sampleSubPos']]],
+  ['samplesubpos_34',['samplesubpos',['../structscxt_1_1dsp_1_1GeneratorState.html#a07b96163307c8eed1cde2a3eb3b1f9e3',1,'scxt::dsp::GeneratorState::sampleSubPos'],['../structscxt_1_1dsp_1_1KernelProcessor.html#a98254a7e89b0fccc511ebf25b2ac431f',1,'scxt::dsp::KernelProcessor::SampleSubPos']]],
   ['sampleview_35',['sampleView',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#afa028eaf78ac1c9e865ff265653694e9',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane']]],
   ['saveasbutton_36',['saveAsButton',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a9c65649683c16fed6473827cc84bbe2b',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['sc_5fstreamdef_37',['SC_STREAMDEF',['../namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2',1,'scxt::json']]],
@@ -67,7 +67,7 @@ var searchData=
   ['settingsdivider_64',['settingsDivider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html#a5cf4a17ffdc4c1e209f0c8e8b4272a64',1,'scxt::ui::app::edit_screen::GroupSidebar']]],
   ['setup_5fsql_65',['setup_sql',['../structscxt_1_1browser_1_1WriterWorker.html#a92ee0f39acbdf98047030e16be47a67e',1,'scxt::browser::WriterWorker']]],
   ['setupfor_66',['setupFor',['../structscxt_1_1engine_1_1Zone.html#a821d8218204376488784772a16aa4448',1,'scxt::engine::Zone']]],
-  ['shareduimemorystate_67',['shareduimemorystate',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ac00006657c778b5d1a10fe42e3ad1f63',1,'scxt::ui::app::SCXTEditor::sharedUiMemoryState'],['../structscxt_1_1engine_1_1Engine.html#a9bbc52323b419776f6a21d0d44a938ee',1,'scxt::engine::Engine::sharedUIMemoryState']]],
+  ['shareduimemorystate_67',['shareduimemorystate',['../structscxt_1_1engine_1_1Engine.html#a9bbc52323b419776f6a21d0d44a938ee',1,'scxt::engine::Engine::sharedUIMemoryState'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ac00006657c778b5d1a10fe42e3ad1f63',1,'scxt::ui::app::SCXTEditor::sharedUiMemoryState']]],
   ['shortcircuitformats_68',['shortcircuitFormats',['../structscxt_1_1browser_1_1Browser_1_1LoadableFile.html#ac4c79b5a548f5f2696cba54f74767c4b',1,'scxt::browser::Browser::LoadableFile']]],
   ['shuffle_5fid_69',['shuffle_id',['../structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#ae10e7043e6105fd048c729ac39d77a20',1,'scxt::modulation::modulators::StepLFO']]],
   ['sidebar_70',['sidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel.html#a097763cf4a98fce9b89263330e861c22',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel']]],
