@@ -10,8 +10,8 @@ var searchData=
   ['hash_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3atargetidentifier_20_3e_7',['hash&lt; scxt::modulation::shared::TargetIdentifier &gt;',['../structstd_1_1hash_3_01scxt_1_1modulation_1_1shared_1_1TargetIdentifier_01_4.html',1,'std']]],
   ['hash_3c_20scxt_3a_3asampleid_20_3e_8',['hash&lt; scxt::SampleID &gt;',['../structstd_1_1hash_3_01scxt_1_1SampleID_01_4.html',1,'std']]],
   ['hasmodulators_9',['HasModulators',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
-  ['hasmodulators_3c_20group_20_3e_10',['HasModulators&lt; Group &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
-  ['hasmodulators_3c_20voice_20_3e_11',['HasModulators&lt; Voice &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
+  ['hasmodulators_3c_20group_2c_20egspergroup_20_3e_10',['HasModulators&lt; Group, egsPerGroup &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
+  ['hasmodulators_3c_20voice_2c_20egsperzone_20_3e_11',['HasModulators&lt; Voice, egsPerZone &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
   ['header_12',['Header',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html',1,'scxt::sfz_support::SFZParser']]],
   ['headerregion_13',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html',1,'scxt::ui::app::shared']]]
 ];
