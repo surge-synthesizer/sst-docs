@@ -95,7 +95,7 @@ var searchData=
   ['mprepareband_92',['mPrepareBand',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#a15e2dbc9b7628258ef0c51c96510ead2',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
   ['mprocessor_93',['mProcessor',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ac70ff8e964dbd66562bc59082e534040',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
   ['mprocessorpane_94',['mProcessorPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#acfe909a2c95698d6b6157e6c7262b5d8',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
-  ['ms_95',['ms',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7',1,'scxt::ui::app::edit_screen::CurveLFOPane::CurveDraw']]],
+  ['ms_95',['ms',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender::ms'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7',1,'scxt::ui::app::edit_screen::CurveLFOPane::CurveDraw::ms']]],
   ['mseglfopane_96',['msegLfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a4f74eaabe55575ba17e72f528f73b77e',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['msg_97',['msg',['../structscxt_1_1browser_1_1WriterWorker_1_1EnQDebugMsg.html#a30c3e2a6148eb3534efc9e78020a8da8',1,'scxt::browser::WriterWorker::EnQDebugMsg']]],
   ['msgcont_98',['msgCont',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a12c8c061c428ad6a4a0189d1636f472a',1,'scxt::ui::app::SCXTEditor']]],
