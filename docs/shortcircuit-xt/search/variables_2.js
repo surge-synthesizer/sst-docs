@@ -67,13 +67,14 @@ var searchData=
   ['curvelfos_64',['curveLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a85cde7989a4078aa6953c3ee78203687',1,'scxt::modulation::shared::HasModulators']]],
   ['curvelfostorage_65',['curveLfoStorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a49988d936bb27b84531e86f3eb17b702',1,'scxt::modulation::ModulatorStorage']]],
   ['curvenames_66',['curveNames',['../structscxt_1_1modulation_1_1ModulationCurves.html#a4c286d7071c9e048d5ccad1d0da8e3aa',1,'scxt::modulation::ModulationCurves']]],
-  ['curver_67',['curveR',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#af964cadc71056aceb3214f42e842bea7',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
-  ['curverl_68',['curveRL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#ac298a5a3a115b0a8a543f56f8231abe7',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
-  ['curves_69',['curves',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#af648d7b3865fcff4514a61379f359693',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
-  ['curvesbuilt_70',['curvesBuilt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#acd873aa2416fc2b1d5fab83f67e8ca09',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
-  ['curveshape_71',['curveShape',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ac10363992a101ae5895558f77865d6db',1,'scxt::modulation::modulators::CurveLFO']]],
-  ['cutoffoffset_72',['cutoffOffset',['../structscxt_1_1exs__support_1_1EXSGroup.html#a094a26d6ded5fbf06b4f8e156f2586d0',1,'scxt::exs_support::EXSGroup']]],
-  ['cyclea_73',['cycleA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65e7ef6065050d88983a7163011cd76d',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['cycleb_74',['cycleB',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a1caefc1205f18f0f31efc918666f48b6',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['cyclecurve_75',['cycleCurve',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a7eee530a18b86185204d51fa15ed2a8c',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]]
+  ['curvepath_67',['curvePath',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a86981560acfac1f0ad71e5f9839e9392',1,'scxt::ui::app::edit_screen::CurveLFOPane::CurveDraw']]],
+  ['curver_68',['curveR',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#af964cadc71056aceb3214f42e842bea7',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
+  ['curverl_69',['curveRL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#ac298a5a3a115b0a8a543f56f8231abe7',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
+  ['curves_70',['curves',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#af648d7b3865fcff4514a61379f359693',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
+  ['curvesbuilt_71',['curvesBuilt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#acd873aa2416fc2b1d5fab83f67e8ca09',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]],
+  ['curveshape_72',['curveShape',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ac10363992a101ae5895558f77865d6db',1,'scxt::modulation::modulators::CurveLFO']]],
+  ['cutoffoffset_73',['cutoffOffset',['../structscxt_1_1exs__support_1_1EXSGroup.html#a094a26d6ded5fbf06b4f8e156f2586d0',1,'scxt::exs_support::EXSGroup']]],
+  ['cyclea_74',['cycleA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65e7ef6065050d88983a7163011cd76d',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
+  ['cycleb_75',['cycleB',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a1caefc1205f18f0f31efc918666f48b6',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
+  ['cyclecurve_76',['cycleCurve',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a7eee530a18b86185204d51fa15ed2a8c',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]]
 ];
