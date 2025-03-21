@@ -20,5 +20,6 @@ var searchData=
   ['note_5fto_5fpitch_17',['note_to_pitch',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ac42279f0cab3467cbf3dcc00ae034904',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
   ['npoints_18',['npoints',['../structsst_1_1basic__blocks_1_1dsp_1_1RunningAverage.html#acb51832fd6e501fbd5f2e99e211eeed2',1,'sst::basic_blocks::dsp::RunningAverage::nPoints'],['../structsst_1_1basic__blocks_1_1tables_1_1DbToLinearProvider.html#a02d87e0bf4ef9d194d817a6ce2f93df1',1,'sst::basic_blocks::tables::DbToLinearProvider::nPoints']]],
   ['ntables_19',['nTables',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aa10d63dd02bc05aacb0758581d870cc5',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['numregisters_20',['numRegisters',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a871882c9504a3128251bd279b5a7eccd',1,'sst::basic_blocks::dsp::lipol_sse']]]
+  ['numerator_20',['numerator',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport_1_1Signature.html#a2e8cfa1f1e977bc67cc88cba452bb9e0',1,'sst::basic_blocks::modulators::Transport::Signature']]],
+  ['numregisters_21',['numRegisters',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a871882c9504a3128251bd279b5a7eccd',1,'sst::basic_blocks::dsp::lipol_sse']]]
 ];

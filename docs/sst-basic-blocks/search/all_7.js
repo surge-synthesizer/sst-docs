@@ -18,5 +18,6 @@ var searchData=
   ['hilbertcoefs_15',['hilbertcoefs',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html#ae4c15114e4c0dcd5b7598bacb29e5b5f',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::hilbertCoefs'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat.html#ae4c15114e4c0dcd5b7598bacb29e5b5f',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::hilbertCoefs']]],
   ['hilberttransform_2eh_16',['HilbertTransform.h',['../HilbertTransform_8h.html',1,'']]],
   ['hilberttransformmonofloat_17',['HilbertTransformMonoFloat',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat.html',1,'sst::basic_blocks::dsp']]],
-  ['hilberttransformstereosse_18',['HilbertTransformStereoSSE',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html',1,'sst::basic_blocks::dsp']]]
+  ['hilberttransformstereosse_18',['HilbertTransformStereoSSE',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html',1,'sst::basic_blocks::dsp']]],
+  ['hosttimeinbeats_19',['hostTimeInBeats',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb',1,'sst::basic_blocks::modulators::Transport']]]
 ];

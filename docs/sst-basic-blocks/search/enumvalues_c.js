@@ -17,5 +17,6 @@ var searchData=
   ['sh_5fnoise_14',['SH_NOISE',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca8eafd79bc5dd29c18cd354acfee5b844',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['sine_15',['SINE',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca6fb78345b237d9715b391bff6773e931',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['smooth_5fnoise_16',['SMOOTH_NOISE',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca5d62a763f5ea43d894107cfd2929d36b',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['supports_5fmultiplicative_5fmodulation_17',['SUPPORTS_MULTIPLICATIVE_MODULATION',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['stopped_17',['STOPPED',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba948b2aee15f52b421fa4770c47bcfe8c',1,'sst::basic_blocks::modulators::Transport']]],
+  ['supports_5fmultiplicative_5fmodulation_18',['SUPPORTS_MULTIPLICATIVE_MODULATION',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
