@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['h_0',['h',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a85f2f1bd58b3b44ffdf3881823393959',1,'scxt::modulation::modulators::AdsrStorage::h'],['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a2df332e04a7d2398918045205822b91b',1,'scxt::browser::SQL::Statement::h'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a2f029caa6936992bae6bd23abe2f12fa',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::H']]],
+  ['h_0',['h',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a2df332e04a7d2398918045205822b91b',1,'scxt::browser::SQL::Statement::h'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a2f029caa6936992bae6bd23abe2f12fa',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::H'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a85f2f1bd58b3b44ffdf3881823393959',1,'scxt::modulation::modulators::AdsrStorage::h']]],
   ['halfrate_1',['halfRate',['../structscxt_1_1voice_1_1Voice.html#ad5202c9ef68f643df6d1ae0c4fb30786',1,'scxt::voice::Voice']]],
   ['hasindependentpolylimit_2',['hasIndependentPolyLimit',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a14cfaaa1e2459c643b1c84818c2a7cf7',1,'scxt::engine::Group::GroupOutputInfo']]],
   ['hasknobs_3',['hasKnobs',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a8e3e3517102b1b2f4362decf758f72ba',1,'scxt::ui::theme::ColorMap']]],
@@ -22,11 +22,10 @@ var searchData=
   ['holds_19',['holdS',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#a7d58d457d4f27078d0f78f2f39a6c110',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
   ['holdt_20',['holdT',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Env.html#a10e09115ed89069c3d36f5a85a5ad059',1,'scxt::modulation::shared::LFOTargetEndpointData::Env']]],
   ['hostpos_21',['hostpos',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1TransportDisplayState.html#ac1e35711732af3f23162a95436356a88',1,'scxt::engine::Engine::SharedUIMemoryState::TransportDisplayState']]],
-  ['hosttimeinbeats_22',['hostTimeInBeats',['../structscxt_1_1engine_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb',1,'scxt::engine::Transport']]],
-  ['hovered_23',['hovered',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#a9a61bb2fb8c309b32c457adb0392ec31',1,'scxt::ui::app::browser_ui::DriveArea::DriveAreaRow']]],
-  ['hoverfactor_24',['hoverFactor',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a63f31dea17cf878ba164f4e97677adf3',1,'scxt::ui::theme::ColorMap']]],
-  ['hp_25',['hP',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#acd6adc5e7da99546cde2271f15bdb32e',1,'scxt::modulation::shared::EGTargetEndpointData']]],
-  ['hpct_26',['hPct',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a0cce2d25bf5bc7847429116ce6b33470',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['ht_27',['hT',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a78324ecc492e77fa4341faeed7b7e4dd',1,'scxt::modulation::shared::EGTargetEndpointData']]],
-  ['hzoom_28',['hZoom',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3b8800e8b5d3f6f9aa5e3d695df4a8a4',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
+  ['hovered_22',['hovered',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#a9a61bb2fb8c309b32c457adb0392ec31',1,'scxt::ui::app::browser_ui::DriveArea::DriveAreaRow']]],
+  ['hoverfactor_23',['hoverFactor',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a63f31dea17cf878ba164f4e97677adf3',1,'scxt::ui::theme::ColorMap']]],
+  ['hp_24',['hP',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#acd6adc5e7da99546cde2271f15bdb32e',1,'scxt::modulation::shared::EGTargetEndpointData']]],
+  ['hpct_25',['hPct',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a0cce2d25bf5bc7847429116ce6b33470',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['ht_26',['hT',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a78324ecc492e77fa4341faeed7b7e4dd',1,'scxt::modulation::shared::EGTargetEndpointData']]],
+  ['hzoom_27',['hZoom',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3b8800e8b5d3f6f9aa5e3d695df4a8a4',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
 ];

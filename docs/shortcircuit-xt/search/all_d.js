@@ -52,12 +52,11 @@ var searchData=
   ['number_49',['number',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#aac2feed41803e5abcf4dc56f62dc0e7e',1,'scxt::ui::connectors::JSONLayoutConsumer::number(const double n)'],['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#aa54fd1c878050a1535467ce832f90137',1,'scxt::ui::connectors::JSONLayoutConsumer::number(const std::int64_t n)'],['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a111fa05454c27b8de3e27cfe96acb8cb',1,'scxt::ui::connectors::JSONLayoutConsumer::number(const std::uint64_t n)']]],
   ['numberofjobsoutstanding_50',['numberOfJobsOutstanding',['../structscxt_1_1browser_1_1BrowserDB.html#a2562f2aa425bd8d657ee1a42ce557d8f',1,'scxt::browser::BrowserDB']]],
   ['numchannels_51',['numChannels',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#acc45742113101a540115abfd7b48396a',1,'scxt::sample::aiff_CommonChunk']]],
-  ['numerator_52',['numerator',['../structscxt_1_1engine_1_1Transport_1_1Signature.html#a2e8cfa1f1e977bc67cc88cba452bb9e0',1,'scxt::engine::Transport::Signature']]],
-  ['numfloatparams_53',['numFloatParams',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html#a72730de0375a64d6109294faf27a7436',1,'scxt::dsp::processor::ProcessorControlDescription']]],
-  ['numgeneratorsactive_54',['numGeneratorsActive',['../structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0',1,'scxt::voice::Voice']]],
-  ['numintparams_55',['numIntParams',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html#a156a08120cd263801acaefcb2bd10d23',1,'scxt::dsp::processor::ProcessorControlDescription']]],
-  ['nummidicc_56',['numMidiCC',['../structMIDICCBase.html#ae32a4407997b1d0646050929221d4ab9',1,'MIDICCBase']]],
-  ['numparams_57',['numparams',['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()'],['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()']]],
-  ['numprocessordisplays_58',['numProcessorDisplays',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ade8ee90ea5fbde9f3776125608ab0d2d',1,'scxt::ui::app::edit_screen::EditScreen']]],
-  ['numsampleframes_59',['numSampleFrames',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#ac02ed2f034593d2bff1c48cf6e31bf5c',1,'scxt::sample::aiff_CommonChunk']]]
+  ['numfloatparams_52',['numFloatParams',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html#a72730de0375a64d6109294faf27a7436',1,'scxt::dsp::processor::ProcessorControlDescription']]],
+  ['numgeneratorsactive_53',['numGeneratorsActive',['../structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0',1,'scxt::voice::Voice']]],
+  ['numintparams_54',['numIntParams',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html#a156a08120cd263801acaefcb2bd10d23',1,'scxt::dsp::processor::ProcessorControlDescription']]],
+  ['nummidicc_55',['numMidiCC',['../structMIDICCBase.html#ae32a4407997b1d0646050929221d4ab9',1,'MIDICCBase']]],
+  ['numparams_56',['numparams',['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()'],['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()']]],
+  ['numprocessordisplays_57',['numProcessorDisplays',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ade8ee90ea5fbde9f3776125608ab0d2d',1,'scxt::ui::app::edit_screen::EditScreen']]],
+  ['numsampleframes_58',['numSampleFrames',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#ac02ed2f034593d2bff1c48cf6e31bf5c',1,'scxt::sample::aiff_CommonChunk']]]
 ];

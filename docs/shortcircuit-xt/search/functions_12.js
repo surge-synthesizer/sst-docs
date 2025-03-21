@@ -227,7 +227,7 @@ var searchData=
   ['statement_224',['Statement',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a0b888ff2927d9ebabf61271783795de6',1,'scxt::browser::SQL::Statement']]],
   ['statesave_225',['stateSave',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a1d34688a243a74dafce70fd08b671944',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['stdmapcolormap_226',['StdMapColormap',['../structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#a6cd89249a0e7782d2b20045957006da1',1,'scxt::ui::theme::StdMapColormap']]],
-  ['step_227',['step',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Step.html#a28ae9eacbaa93460e746e856839c176b',1,'scxt::modulation::shared::LFOTargetEndpointData::Step::Step()'],['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a5c82a17c8895fb01c15cd004fb942104',1,'scxt::browser::SQL::Statement::step()']]],
+  ['step_227',['step',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a5c82a17c8895fb01c15cd004fb942104',1,'scxt::browser::SQL::Statement::step()'],['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Step.html#a28ae9eacbaa93460e746e856839c176b',1,'scxt::modulation::shared::LFOTargetEndpointData::Step::Step()']]],
   ['steplfo_228',['StepLFO',['../structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#a89bd8332d2d1a742713ce2730840a32a',1,'scxt::modulation::modulators::StepLFO']]],
   ['steplfopane_229',['StepLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#ae45d6bf8d132c551e97922c0fd9ead04',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
   ['steplfostorage_230',['StepLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1StepLFOStorage.html#ac6acb5e0a3c9f54ff76e725eafbd8b39',1,'scxt::modulation::modulators::StepLFOStorage']]],

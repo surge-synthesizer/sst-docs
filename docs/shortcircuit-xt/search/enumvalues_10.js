@@ -45,6 +45,5 @@ var searchData=
   ['startl_42',['startL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faaefd6dc915310e623976caa6d8fa1bea',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['startp_43',['startP',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faf3cdb072964735cb2d59f19a932b1472',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['step_44',['step',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281dac0ba526afb7f54207517b48a892961c2',1,'scxt::modulation::ModulatorStorage::STEP'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08ac0ba526afb7f54207517b48a892961c2',1,'scxt::modulation::shared::HasModulators::STEP']]],
-  ['stopped_45',['STOPPED',['../structscxt_1_1engine_1_1Transport.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba948b2aee15f52b421fa4770c47bcfe8c',1,'scxt::engine::Transport']]],
-  ['string_46',['STRING',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#ab46204964cb8bdc608663b68c83d743caee847e634a4297b274316de8a8ca9921',1,'scxt::ui::connectors::JSONLayoutConsumer']]]
+  ['string_45',['STRING',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#ab46204964cb8bdc608663b68c83d743caee847e634a4297b274316de8a8ca9921',1,'scxt::ui::connectors::JSONLayoutConsumer']]]
 ];
