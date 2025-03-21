@@ -20,12 +20,11 @@ var searchData=
   ['eqdisplaybase_17',['EqDisplayBase',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase.html',1,'scxt::ui::app::edit_screen']]],
   ['eqdisplaysupport_18',['EqDisplaySupport',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html',1,'scxt::ui::app::edit_screen']]],
   ['eqnbanddisplay_19',['EqNBandDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqNBandDisplay.html',1,'scxt::ui::app::edit_screen']]],
-  ['equaltuningprovider_20',['EqualTuningProvider',['../structscxt_1_1tuning_1_1EqualTuningProvider.html',1,'scxt::tuning']]],
-  ['exception_21',['Exception',['../structscxt_1_1browser_1_1SQL_1_1Exception.html',1,'scxt::browser::SQL']]],
-  ['exsblock_22',['EXSBlock',['../structscxt_1_1exs__support_1_1EXSBlock.html',1,'scxt::exs_support']]],
-  ['exsgroup_23',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html',1,'scxt::exs_support']]],
-  ['exsinstrument_24',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
-  ['exsobject_25',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
-  ['exssample_26',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
-  ['exszone_27',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
+  ['exception_20',['Exception',['../structscxt_1_1browser_1_1SQL_1_1Exception.html',1,'scxt::browser::SQL']]],
+  ['exsblock_21',['EXSBlock',['../structscxt_1_1exs__support_1_1EXSBlock.html',1,'scxt::exs_support']]],
+  ['exsgroup_22',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html',1,'scxt::exs_support']]],
+  ['exsinstrument_23',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
+  ['exsobject_24',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
+  ['exssample_25',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
+  ['exszone_26',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
 ];

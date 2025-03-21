@@ -66,7 +66,7 @@ var searchData=
   ['envlfostorage_63',['envLfoStorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a9bc921d7852ed970bc6deddc265b91ca',1,'scxt::modulation::ModulatorStorage']]],
   ['envs_64',['envS',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#ae5eb984c0ccc30243ba881d31f6bfac3',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['envslots_65',['envSlots',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#a57583fa7bae2499c07249390c5d073d3',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
-  ['equaltuning_66',['equalTuning',['../namespacescxt_1_1tuning.html#a23b800a3eabd586ff5d6381177dd9001',1,'scxt::tuning']]],
+  ['equaltuning_66',['equalTuning',['../namespacescxt_1_1tuning.html#ac8cbe86b3c537de9185840488db5fffd',1,'scxt::tuning']]],
   ['errorreporter_67',['errorReporter',['../structscxt_1_1browser_1_1Browser.html#a0306286bae69366edc90320214db7a1e',1,'scxt::browser::Browser']]],
   ['everedited_68',['everEdited',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html#ac90b21741b9647093af2debedd0b9f40',1,'scxt::ui::connectors::DummyContinuous']]],
   ['exclusive_69',['exclusive',['../structscxt_1_1exs__support_1_1EXSGroup.html#a181c030799f6ac471f93c5794cc0ce35',1,'scxt::exs_support::EXSGroup']]],

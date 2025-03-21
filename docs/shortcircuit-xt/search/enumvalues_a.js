@@ -15,17 +15,5 @@ var searchData=
   ['loop_12',['LOOP',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c',1,'scxt::engine::Zone']]],
   ['loop_5fduring_5fvoice_13',['LOOP_DURING_VOICE',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94',1,'scxt::engine::Zone']]],
   ['loop_5ffor_5fcount_14',['LOOP_FOR_COUNT',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a00ebc606476a3174fe59af7588b9db0b',1,'scxt::engine::Zone']]],
-  ['loop_5fwhile_5fgated_15',['LOOP_WHILE_GATED',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf',1,'scxt::engine::Zone']]],
-  ['lp_5fclear_16',['lp_clear',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cead33fb4fb1b7d48f060d9ee2d99931ac2',1,'scxt::modulation::modulators']]],
-  ['lp_5fcustom_17',['lp_custom',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea6402b8d9f354048346621cb4d4a8cd26',1,'scxt::modulation::modulators']]],
-  ['lp_5fnoise_18',['lp_noise',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea4e7c56a3a1fd81eafaabc7e19502490f',1,'scxt::modulation::modulators']]],
-  ['lp_5fnoise_5fmean3_19',['lp_noise_mean3',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33ceadefdf24347177937f6a04e57487096c8',1,'scxt::modulation::modulators']]],
-  ['lp_5fnoise_5fmean5_20',['lp_noise_mean5',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea4a391257fa46a8c48243a59336c44e5b',1,'scxt::modulation::modulators']]],
-  ['lp_5framp_5fdown_21',['lp_ramp_down',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea2b060549e766e3c322f677799c61772d',1,'scxt::modulation::modulators']]],
-  ['lp_5framp_5fup_22',['lp_ramp_up',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea681a02bc7a46426f41e8f46197a56ee3',1,'scxt::modulation::modulators']]],
-  ['lp_5fsine_23',['lp_sine',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea718bbf3307f1037ba855104265d27d4a',1,'scxt::modulation::modulators']]],
-  ['lp_5fsquare_24',['lp_square',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea8f263975072a2d3043c6d1b59e11b520',1,'scxt::modulation::modulators']]],
-  ['lp_5ftremolo_5fsin_25',['lp_tremolo_sin',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea6b1ec451270df277b30900ba99d420a0',1,'scxt::modulation::modulators']]],
-  ['lp_5ftremolo_5ftri_26',['lp_tremolo_tri',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea41261fcf924ef7eac70cb85144aabe59',1,'scxt::modulation::modulators']]],
-  ['lp_5ftri_27',['lp_tri',['../namespacescxt_1_1modulation_1_1modulators.html#ab722fc0d779243a282678ca66d9b33cea89663331419ef78c61282ffacc13cc8f',1,'scxt::modulation::modulators']]]
+  ['loop_5fwhile_5fgated_15',['LOOP_WHILE_GATED',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf',1,'scxt::engine::Zone']]]
 ];

@@ -50,7 +50,7 @@ var searchData=
   ['_7esinglemacroeditor_47',['~SingleMacroEditor',['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#a93f11155de2235ba47e9cf4933507497',1,'scxt::ui::app::shared::SingleMacroEditor']]],
   ['_7esstvoiceeffectshim_48',['~SSTVoiceEffectShim',['../structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#a7153779fbd803556fb8cb60669d7c083',1,'scxt::dsp::processor::SSTVoiceEffectShim']]],
   ['_7estatement_49',['~Statement',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#ac4d5c8e72f8284964244a6f5d2b047fe',1,'scxt::browser::SQL::Statement']]],
-  ['_7esteplfo_50',['~StepLFO',['../structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#ad13c530459a71441e89d506469a70a64',1,'scxt::modulation::modulators::StepLFO']]],
+  ['_7esteplfo_50',['~StepLFO',['../structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#aa2f7d32a818f1a81ccf7b87a5bc54839',1,'scxt::modulation::modulators::StepLFO']]],
   ['_7estreamguard_51',['~StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html#a4ed6adad51e527ccc240918e1029114b',1,'scxt::engine::Engine::StreamGuard']]],
   ['_7etxnguard_52',['~TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a24bbddeb426dd151b0c709817ad2e7c4',1,'scxt::browser::SQL::TxnGuard']]],
   ['_7eunstreamguard_53',['~UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#acc89f194447c3ab407f1a2dd73a640b3',1,'scxt::engine::Engine::UnstreamGuard']]],

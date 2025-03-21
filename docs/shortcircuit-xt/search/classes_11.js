@@ -21,7 +21,7 @@ var searchData=
   ['searchpane_18',['SearchPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1SearchPane.html',1,'scxt::ui::app::browser_ui']]],
   ['selectactioncontents_19',['SelectActionContents',['../structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html',1,'scxt::selection::SelectionManager']]],
   ['selectionmanager_20',['SelectionManager',['../structscxt_1_1selection_1_1SelectionManager.html',1,'scxt::selection']]],
-  ['selfmodulationtarget_21',['selfmodulationtarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1SelfModulationTarget.html',1,'GroupMatrixEndpoints::SelfModulationTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1SelfModulationTarget.html',1,'MatrixEndpoints::SelfModulationTarget']]],
+  ['selfmodulationtarget_21',['selfmodulationtarget',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1SelfModulationTarget.html',1,'MatrixEndpoints::SelfModulationTarget'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1SelfModulationTarget.html',1,'GroupMatrixEndpoints::SelfModulationTarget']]],
   ['serializationtoaudio_22',['SerializationToAudio',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html',1,'scxt::messaging::audio']]],
   ['serializationtoclienttype_23',['SerializationToClientType',['../structscxt_1_1messaging_1_1client_1_1SerializationToClientType.html',1,'scxt::messaging::client']]],
   ['settingscomponent_24',['SettingsComponent',['../classSCXTApplicationWindow_1_1SettingsComponent.html',1,'SCXTApplicationWindow']]],
@@ -40,8 +40,7 @@ var searchData=
   ['step_37',['Step',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Step.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
   ['steplfo_38',['StepLFO',['../structscxt_1_1modulation_1_1modulators_1_1StepLFO.html',1,'scxt::modulation::modulators']]],
   ['steplfopane_39',['StepLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['steplfostorage_40',['StepLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1StepLFOStorage.html',1,'scxt::modulation::modulators']]],
-  ['stepmenutypein_41',['StepMenuTypein',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender_1_1StepMenuTypein.html',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]],
-  ['steprender_42',['StepRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['streamguard_43',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html',1,'scxt::engine::Engine']]]
+  ['stepmenutypein_40',['StepMenuTypein',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender_1_1StepMenuTypein.html',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]],
+  ['steprender_41',['StepRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
+  ['streamguard_42',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html',1,'scxt::engine::Engine']]]
 ];
