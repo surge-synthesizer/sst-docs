@@ -75,6 +75,5 @@ var searchData=
   ['curveshape_72',['curveShape',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ac10363992a101ae5895558f77865d6db',1,'scxt::modulation::modulators::CurveLFO']]],
   ['cutoffoffset_73',['cutoffOffset',['../structscxt_1_1exs__support_1_1EXSGroup.html#a094a26d6ded5fbf06b4f8e156f2586d0',1,'scxt::exs_support::EXSGroup']]],
   ['cyclea_74',['cycleA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65e7ef6065050d88983a7163011cd76d',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['cycleb_75',['cycleB',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a1caefc1205f18f0f31efc918666f48b6',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['cyclecurve_76',['cycleCurve',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a7eee530a18b86185204d51fa15ed2a8c',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]]
+  ['cycleb_75',['cycleB',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a1caefc1205f18f0f31efc918666f48b6',1,'scxt::ui::app::edit_screen::StepLFOPane']]]
 ];
