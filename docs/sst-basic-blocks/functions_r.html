@@ -97,6 +97,8 @@ $(function() {
 <li>RAMP&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca291e3bb43cd8449155161d1fa023348b">SimpleLFO&lt; SRProvider, BLOCK_SIZE, clampDeform &gt;</a></li>
 <li>RANDOM_TRIGGER&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca85fd5f0e0ac371de3fd15cf8cd77b545">SimpleLFO&lt; SRProvider, BLOCK_SIZE, clampDeform &gt;</a></li>
 <li>rateFrom01()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a088a67b334b2671ece2b131965447274">DiscreteStagesEnvelope&lt; BLOCK_SIZE, RangeProvider &gt;</a></li>
+<li>rateIsForSingleStep&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html#a4c83fa4793ce63077ec4171ba1ab0924">StepLFO&lt; blockSize &gt;::Storage</a></li>
+<li>ratemult&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a6de1a6a74113ae980a92fdbb13947c24">StepLFO&lt; blockSize &gt;</a></li>
 <li>rateTo01()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ad14c4aad55d5e1e7fdd6c80f33c2e561">DiscreteStagesEnvelope&lt; BLOCK_SIZE, RangeProvider &gt;</a></li>
 <li>read()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#abb87771211347d7e1707d263af678672">LanczosResampler&lt; blockSize &gt;</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a5e010d981facf7fdedf131d3ac9ef2ca">SSESincDelayLine&lt; COMB_SIZE &gt;</a></li>
 <li>readLin()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a7a17bee616e49b447dc769c0d77c405a">LanczosResampler&lt; blockSize &gt;</a></li>
@@ -109,6 +111,7 @@ $(function() {
 <li>releaseScale&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1DAHDSREnvelope.html#a65feba3a2fe39b1b0895af69501da0cd">DAHDSREnvelope&lt; SRProvider, BLOCK_SIZE, RangeProvider, processEverySample &gt;</a></li>
 <li>releaseStartValue&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#adba6466c1b79709c3d66a2baebd56da4">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;</a></li>
 <li>renormalizePhases()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a3ce123bcf03da0274f8c42fe5eb534fd">LanczosResampler&lt; blockSize &gt;</a></li>
+<li>repeat&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html#a1f4b38ebe02f9b4ba21acd0fb9775716">StepLFO&lt; blockSize &gt;::Storage</a></li>
 <li>reseed()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a361cd18664313565018abfa345030b77">RNG</a></li>
 <li>reseedWithClock()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a994588f3ca1bae9d28842cbba305fb8b">RNG</a></li>
 <li>reset()&#160;:&#160;<a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#ad20897c5c8bd47f5d4005989bead0e55">DCBlocker&lt; blocksize &gt;</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#ad20897c5c8bd47f5d4005989bead0e55">HilbertTransformMonoFloat::BQ</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#ad20897c5c8bd47f5d4005989bead0e55">HilbertTransformStereoSSE::BQ</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad20897c5c8bd47f5d4005989bead0e55">lipol&lt; T, defaultBlockSize, first_run_checks &gt;</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#ad20897c5c8bd47f5d4005989bead0e55">LowPassEnvelopeFollower</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RunningAverage.html#ad20897c5c8bd47f5d4005989bead0e55">RunningAverage</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SlewLimiter.html#ad20897c5c8bd47f5d4005989bead0e55">SlewLimiter</a></li>
@@ -133,7 +136,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 21 2025 17:57:10 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Mar 21 2025 21:06:31 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
