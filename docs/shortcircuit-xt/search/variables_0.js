@@ -40,7 +40,7 @@ var searchData=
   ['anglel_37',['angleL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#a625e15dd89a09920e4b7473adc90c452',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['anglep_38',['angleP',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html#a42646301c3801664b553e6f6226a2c1c',1,'scxt::modulation::shared::LFOTargetEndpointData::Curve']]],
   ['anglet_39',['angleT',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html#a84ca67347d06ab095ae9071d60aa47a4',1,'scxt::modulation::shared::LFOTargetEndpointData::Curve']]],
-  ['ap_40',['aP',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a5ec4be291c335b9297773c17ceda8952',1,'scxt::modulation::shared::EGTargetEndpointData']]],
+  ['ap_40',['aP',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#acc88fee68d095598e435dc61b6ff9c5b',1,'scxt::modulation::shared::EGTargetEndpointData']]],
   ['applf_41',['appLF',['../classSCXTStandaloneClapFirstJuceImpl.html#a4dff86405ee89b104932daf58f499a19',1,'SCXTStandaloneClapFirstJuceImpl']]],
   ['args_42',['args',['../structscxt_1_1engine_1_1GroupTriggerStorage.html#afc8919b60f3cd7de56ad4ea527c11e59',1,'scxt::engine::GroupTriggerStorage']]],
   ['ash_43',['Ash',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a72d00a03a864d6656c6927e02d4a49a1',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore']]],
