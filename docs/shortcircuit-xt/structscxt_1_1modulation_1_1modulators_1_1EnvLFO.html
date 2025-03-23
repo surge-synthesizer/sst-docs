@@ -119,17 +119,21 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:adaab8dbc46bd6d1e4cf1b40c44f465ad" id="r_adaab8dbc46bd6d1e4cf1b40c44f465ad"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adaab8dbc46bd6d1e4cf1b40c44f465ad">env_t</a> = sst::basic_blocks::modulators::DAHDSREnvelope&lt; <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html">EnvLFO</a>, blockSize &gt;</td></tr>
-<tr class="separator:adaab8dbc46bd6d1e4cf1b40c44f465ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7474034921d690ef15cbfb6c33d528dd" id="r_a7474034921d690ef15cbfb6c33d528dd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7474034921d690ef15cbfb6c33d528dd">env_t</a> = sst::basic_blocks::modulators::AHDSRShapedSC&lt; <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html">EnvLFO</a>, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp &gt;</td></tr>
+<tr class="separator:a7474034921d690ef15cbfb6c33d528dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abf843557abaa8bfcda9b93d659b14322" id="r_abf843557abaa8bfcda9b93d659b14322"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#abf843557abaa8bfcda9b93d659b14322">envelope_rate_linear_nowrap</a> (float f)</td></tr>
 <tr class="separator:abf843557abaa8bfcda9b93d659b14322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4865855136a2563f684531444446a74e" id="r_a4865855136a2563f684531444446a74e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a4865855136a2563f684531444446a74e">attack</a> (float delay)</td></tr>
-<tr class="separator:a4865855136a2563f684531444446a74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad721437bc3624f7e5f4a98743ce998a2" id="r_ad721437bc3624f7e5f4a98743ce998a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ad721437bc3624f7e5f4a98743ce998a2">process</a> (float delay, float <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a4865855136a2563f684531444446a74e">attack</a>, float hold, float decay, float sustain, float release, bool isGated)</td></tr>
-<tr class="separator:ad721437bc3624f7e5f4a98743ce998a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee2666a0bf1b276043fd8db5923b281" id="r_adee2666a0bf1b276043fd8db5923b281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">attack</a> (float delay, float attack)</td></tr>
+<tr class="separator:adee2666a0bf1b276043fd8db5923b281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233a37f09403fb1d0d3fb0a1095580dc" id="r_a233a37f09403fb1d0d3fb0a1095580dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a233a37f09403fb1d0d3fb0a1095580dc">process</a> (float delay, float <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">attack</a>, float hold, float decay, float sustain, float release, float aShape, float dShape, float rShape, float rateMul, bool isGated)</td></tr>
+<tr class="separator:a233a37f09403fb1d0d3fb0a1095580dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e65bb57a97ca3b067feebf8a120c48" id="r_ae4e65bb57a97ca3b067feebf8a120c48"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ae4e65bb57a97ca3b067feebf8a120c48">timeTakenBy</a> (float stage)</td></tr>
+<tr class="separator:ae4e65bb57a97ca3b067feebf8a120c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7554f88e283b01a34abc4ad5af9a5a28" id="r_a7554f88e283b01a34abc4ad5af9a5a28"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7554f88e283b01a34abc4ad5af9a5a28">timeTakenBy</a> (float delay, float <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">attack</a>, float hold, float decay, float release)</td></tr>
+<tr class="separator:a7554f88e283b01a34abc4ad5af9a5a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1SampleRateSupport"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1SampleRateSupport')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1SampleRateSupport.html">SampleRateSupport</a></td></tr>
 <tr class="memitem:a01c502bd437d80506bb1232a14f12c27 inherit pub_methods_structscxt_1_1SampleRateSupport" id="r_a01c502bd437d80506bb1232a14f12c27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1SampleRateSupport.html#a01c502bd437d80506bb1232a14f12c27">setSampleRate</a> (double sr)</td></tr>
 <tr class="separator:a01c502bd437d80506bb1232a14f12c27 inherit pub_methods_structscxt_1_1SampleRateSupport"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,7 +154,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aff3d1d13386708e7e5f664ecc148bc96" id="r_aff3d1d13386708e7e5f664ecc148bc96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adaab8dbc46bd6d1e4cf1b40c44f465ad">env_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">envelope</a> {this}</td></tr>
+<tr class="memitem:aff3d1d13386708e7e5f664ecc148bc96" id="r_aff3d1d13386708e7e5f664ecc148bc96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7474034921d690ef15cbfb6c33d528dd">env_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">envelope</a> {this}</td></tr>
 <tr class="separator:aff3d1d13386708e7e5f664ecc148bc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1084d7e47a5571b229a33ad347cc9453" id="r_a1084d7e47a5571b229a33ad347cc9453"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a1084d7e47a5571b229a33ad347cc9453">output</a> {0.f}</td></tr>
 <tr class="separator:a1084d7e47a5571b229a33ad347cc9453"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,14 +173,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8c16432d74d313179ad0247b42fbd570 inherit pub_attribs_structscxt_1_1SampleRateSupport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="adaab8dbc46bd6d1e4cf1b40c44f465ad" name="adaab8dbc46bd6d1e4cf1b40c44f465ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaab8dbc46bd6d1e4cf1b40c44f465ad">&#9670;&#160;</a></span>env_t</h2>
+<a id="a7474034921d690ef15cbfb6c33d528dd" name="a7474034921d690ef15cbfb6c33d528dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7474034921d690ef15cbfb6c33d528dd">&#9670;&#160;</a></span>env_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adaab8dbc46bd6d1e4cf1b40c44f465ad">env_t</a> =  sst::basic_blocks::modulators::DAHDSREnvelope&lt;<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html">EnvLFO</a>, blockSize&gt;</td>
+          <td class="memname">using <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7474034921d690ef15cbfb6c33d528dd">env_t</a> =  sst::basic_blocks::modulators::AHDSRShapedSC&lt; <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html">EnvLFO</a>, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,8 +208,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4865855136a2563f684531444446a74e" name="a4865855136a2563f684531444446a74e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4865855136a2563f684531444446a74e">&#9670;&#160;</a></span>attack()</h2>
+<a id="adee2666a0bf1b276043fd8db5923b281" name="adee2666a0bf1b276043fd8db5923b281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adee2666a0bf1b276043fd8db5923b281">&#9670;&#160;</a></span>attack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,20 +218,30 @@ Public Attributes</h2></td></tr>
           <td class="memname">void attack </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>delay</em></td><td>)</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>attack</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">EnvLFO::envelope</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">EnvLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">EnvLFO::envelope</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ad721437bc3624f7e5f4a98743ce998a2">EnvLFO::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae0ffbf5e6ab498fa011280bba584d79a">Group::resetLFOs()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">EnvLFO::attack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">ENVLFOPane::ENVRender::paint()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a233a37f09403fb1d0d3fb0a1095580dc">EnvLFO::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae0ffbf5e6ab498fa011280bba584d79a">Group::resetLFOs()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7554f88e283b01a34abc4ad5af9a5a28">EnvLFO::timeTakenBy()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
-<a id="ad721437bc3624f7e5f4a98743ce998a2" name="ad721437bc3624f7e5f4a98743ce998a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad721437bc3624f7e5f4a98743ce998a2">&#9670;&#160;</a></span>process()</h2>
+<a id="a233a37f09403fb1d0d3fb0a1095580dc" name="a233a37f09403fb1d0d3fb0a1095580dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233a37f09403fb1d0d3fb0a1095580dc">&#9670;&#160;</a></span>process()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,6 +285,30 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>aShape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dShape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rShape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rateMul</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isGated</em>&#160;</td>
         </tr>
@@ -282,9 +320,79 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a4865855136a2563f684531444446a74e">EnvLFO::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">EnvLFO::envelope</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a1084d7e47a5571b229a33ad347cc9453">EnvLFO::output</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">EnvLFO::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">EnvLFO::envelope</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a1084d7e47a5571b229a33ad347cc9453">EnvLFO::output</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2">scxt::dsp::twoToTheXTable</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">ENVLFOPane::ENVRender::paint()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>.</p>
+
+</div>
+</div>
+<a id="ae4e65bb57a97ca3b067feebf8a120c48" name="ae4e65bb57a97ca3b067feebf8a120c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e65bb57a97ca3b067feebf8a120c48">&#9670;&#160;</a></span>timeTakenBy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float timeTakenBy </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>stage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#aff3d1d13386708e7e5f664ecc148bc96">EnvLFO::envelope</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">ENVLFOPane::ENVRender::paint()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7554f88e283b01a34abc4ad5af9a5a28">EnvLFO::timeTakenBy()</a>.</p>
+
+</div>
+</div>
+<a id="a7554f88e283b01a34abc4ad5af9a5a28" name="a7554f88e283b01a34abc4ad5af9a5a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7554f88e283b01a34abc4ad5af9a5a28">&#9670;&#160;</a></span>timeTakenBy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float timeTakenBy </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>attack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>hold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>decay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>release</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">EnvLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ae4e65bb57a97ca3b067feebf8a120c48">EnvLFO::timeTakenBy()</a>.</p>
 
 </div>
 </div>
@@ -296,12 +404,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adaab8dbc46bd6d1e4cf1b40c44f465ad">env_t</a> envelope {this}</td>
+          <td class="memname"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7474034921d690ef15cbfb6c33d528dd">env_t</a> envelope {this}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a4865855136a2563f684531444446a74e">EnvLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ad721437bc3624f7e5f4a98743ce998a2">EnvLFO::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281">EnvLFO::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a233a37f09403fb1d0d3fb0a1095580dc">EnvLFO::process()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ae4e65bb57a97ca3b067feebf8a120c48">EnvLFO::timeTakenBy()</a>.</p>
 
 </div>
 </div>
@@ -317,7 +425,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ad721437bc3624f7e5f4a98743ce998a2">EnvLFO::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">ENVLFOPane::ENVRender::paint()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a233a37f09403fb1d0d3fb0a1095580dc">EnvLFO::process()</a>.</p>
 
 </div>
 </div>
@@ -327,7 +435,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 22 2025 18:32:52 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Mar 23 2025 16:03:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
