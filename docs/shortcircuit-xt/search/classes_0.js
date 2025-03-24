@@ -9,7 +9,6 @@ var searchData=
   ['aiff_5finst_5fchunk_6',['aiff_INST_chunk',['../structscxt_1_1sample_1_1aiff__INST__chunk.html',1,'scxt::sample']]],
   ['aiff_5floop_7',['aiff_loop',['../structscxt_1_1sample_1_1aiff__loop.html',1,'scxt::sample']]],
   ['aiff_5fmarker_8',['aiff_marker',['../structscxt_1_1sample_1_1aiff__marker.html',1,'scxt::sample']]],
-  ['audiocallback_9',['AudioCallback',['../structSCXTApplicationWindow_1_1AudioCallback.html',1,'SCXTApplicationWindow']]],
-  ['audiothreadcallback_10',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
-  ['audiotoserialization_11',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
+  ['audiothreadcallback_9',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
+  ['audiotoserialization_10',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
 ];

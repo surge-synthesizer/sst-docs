@@ -33,6 +33,5 @@ var searchData=
   ['buseffectstoragechangedfromgui_30',['busEffectStorageChangedFromGUI',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1PartEffectsPane.html#ac43e491cde9a19c6d6d14719829ec752',1,'scxt::ui::app::mixer_screen::PartEffectsPane']]],
   ['buspane_31',['BusPane',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html#acd905426210a3f9a0dceecbf626dda0f',1,'scxt::ui::app::mixer_screen::BusPane']]],
   ['bussendstorage_32',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a8b9e230a43a4f6fb33406b97a1768a26',1,'scxt::engine::Bus::BusSendStorage']]],
-  ['busses_33',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#aa009ab46a2ddd86d253a781716b39e20',1,'scxt::engine::Patch::Busses']]],
-  ['buttonclicked_34',['buttonClicked',['../structSCXTApplicationWindow.html#ad8efd035e8257a61ee9b342cb8e70129',1,'SCXTApplicationWindow']]]
+  ['busses_33',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#aa009ab46a2ddd86d253a781716b39e20',1,'scxt::engine::Patch::Busses']]]
 ];
