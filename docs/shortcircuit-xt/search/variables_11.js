@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
+  ['r_0',['r',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r']]],
   ['ramlabel_1',['ramLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a50272caa5c41814266e845fefb33972c',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramlevel_2',['ramLevel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#ae001ea2bc1dc2dbcd28cefaaa46fd2cb',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramusage_3',['ramUsage',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a4e9134df73f141cceebc93adfcd24e7b',1,'scxt::engine::Engine::SharedUIMemoryState']]],
