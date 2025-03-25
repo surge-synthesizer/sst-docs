@@ -118,7 +118,7 @@ var searchData=
   ['loadsamplefromsf2_115',['loadSampleFromSF2',['../structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74',1,'scxt::sample::SampleManager']]],
   ['loadsampleintoselectedpartandgroup_116',['loadSampleIntoSelectedPartAndGroup',['../structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c',1,'scxt::engine::Engine']]],
   ['loadsampleintozone_117',['loadSampleIntoZone',['../structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b',1,'scxt::engine::Engine']]],
-  ['loadsf2multisampleintoselectedpart_118',['loadSf2MultiSampleIntoSelectedPart',['../structscxt_1_1engine_1_1Engine.html#ab460934eecee782ca126dbe7e7e9a768',1,'scxt::engine::Engine']]],
+  ['loadsf2multisampleintoselectedpart_118',['loadSf2MultiSampleIntoSelectedPart',['../structscxt_1_1engine_1_1Engine.html#af1c8959052e00a71a89deeec75e0403a',1,'scxt::engine::Engine']]],
   ['loadtextfile_119',['loadTextFile',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#a90964a05c9f80e079d9ba6071fd220bc',1,'scxt::ui::connectors::resources']]],
   ['loadtypeface_120',['loadTypeface',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#a1614be5e8a62d6fbf512d139850d40b5',1,'scxt::ui::connectors::resources']]],
   ['lockbutton_121',['lockButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#afa1dc1596b24eea9cbd0d07f4fbf4f2a',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],

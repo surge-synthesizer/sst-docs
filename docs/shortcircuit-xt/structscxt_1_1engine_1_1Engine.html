@@ -239,8 +239,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7bf567bdf605ba7a632afeffbfc0135d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0dc578e222078942c6a2dd5deea8bfc" id="r_ad0dc578e222078942c6a2dd5deea8bfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ad0dc578e222078942c6a2dd5deea8bfc">pasteZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
 <tr class="separator:ad0dc578e222078942c6a2dd5deea8bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab460934eecee782ca126dbe7e7e9a768" id="r_ab460934eecee782ca126dbe7e7e9a768"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab460934eecee782ca126dbe7e7e9a768">loadSf2MultiSampleIntoSelectedPart</a> (const fs::path &amp;)</td></tr>
-<tr class="separator:ab460934eecee782ca126dbe7e7e9a768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c8959052e00a71a89deeec75e0403a" id="r_af1c8959052e00a71a89deeec75e0403a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af1c8959052e00a71a89deeec75e0403a">loadSf2MultiSampleIntoSelectedPart</a> (const fs::path &amp;, int instrument=-1)</td></tr>
+<tr class="separator:af1c8959052e00a71a89deeec75e0403a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb525e855030e3ca75d3dcd268839531" id="r_abb525e855030e3ca75d3dcd268839531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#abb525e855030e3ca75d3dcd268839531">sendMetadataToClient</a> () const</td></tr>
 <tr class="separator:abb525e855030e3ca75d3dcd268839531"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedf6344041da5eea0012860faeacf19" id="r_aaedf6344041da5eea0012860faeacf19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#aaedf6344041da5eea0012860faeacf19">sendFullRefreshToClient</a> () const</td></tr>
@@ -1221,7 +1221,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aab9a2965cc36333e4b9c1b0e055435d45">CompoundElement::INSTRUMENT</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#aac29fa85a95a2efeaeb4fd65637aa0c3">CompoundElement::sampleAddress</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6fdf332d7f46bbf1ff77118ddbc6f622">Engine::getPartGroupZoneStructure()</a>, <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aab9a2965cc36333e4b9c1b0e055435d45">CompoundElement::INSTRUMENT</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#afdaec00e75d76173d9a0e57d97da359e">Sample::SampleFileAddress::instrument</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af1c8959052e00a71a89deeec75e0403a">Engine::loadSf2MultiSampleIntoSelectedPart()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>, <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#aac29fa85a95a2efeaeb4fd65637aa0c3">CompoundElement::sampleAddress</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a170b50cc424270f113ea75be93646a84">scxt::messaging::client::addCompoundElementWithRange()</a>.</p>
 
@@ -1419,8 +1419,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab460934eecee782ca126dbe7e7e9a768" name="ab460934eecee782ca126dbe7e7e9a768"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab460934eecee782ca126dbe7e7e9a768">&#9670;&#160;</a></span>loadSf2MultiSampleIntoSelectedPart()</h2>
+<a id="af1c8959052e00a71a89deeec75e0403a" name="af1c8959052e00a71a89deeec75e0403a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c8959052e00a71a89deeec75e0403a">&#9670;&#160;</a></span>loadSf2MultiSampleIntoSelectedPart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1429,13 +1429,25 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void loadSf2MultiSampleIntoSelectedPart </td>
           <td>(</td>
           <td class="paramtype">const fs::path &amp;&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>instrument</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1infrastructure.html#a747ff15adc12dc69d4d145330abacbc8">scxt::infrastructure::createMD5SumFromFile()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1modulation.html#a3d82406d5494c9bbcba713e9fa2c585f">scxt::modulation::secondsToNormalizedEnvTime()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>.</p>
 
 </div>
 </div>
@@ -1560,7 +1572,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#afd1b761f8d14a5ed98feaaa0c7cc4596a55abd6c8b0460e54822565c5b2d2c0cc">scxt::engine::MISSING_SAMPLE</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">scxt::messaging::client::clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">scxt::messaging::client::doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">scxt::messaging::client::pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">scxt::messaging::client::removeSelectedZones()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">scxt::messaging::client::removeZone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">scxt::messaging::client::clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">scxt::messaging::client::doRenameZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">scxt::messaging::client::pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">scxt::messaging::client::removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">scxt::messaging::client::removeSelectedZones()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">scxt::messaging::client::removeZone()</a>.</p>
 
 </div>
 </div>
@@ -2332,7 +2344,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 25 2025 13:41:48 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 25 2025 16:05:22 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
