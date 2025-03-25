@@ -12,11 +12,10 @@ var searchData=
   ['plughelper_5ft_9',['plugHelper_t',['../namespacescxt_1_1clap__first.html#a1ed12370aa96af300f7719202f0d4fdd',1,'scxt::clap_first']]],
   ['pmd_10',['pmd',['../namespacescxt_1_1datamodel.html#a1eb273f3bb8f42c854ab0983b6ec8255',1,'scxt::datamodel']]],
   ['posn_5ft_11',['posn_t',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a438b2ac561c02e9531633d331774f508',1,'scxt::ui::theme::layout']]],
-  ['previewbrowsersamplepayload_5ft_12',['previewBrowserSamplePayload_t',['../namespacescxt_1_1messaging_1_1client.html#aa5fa6b9c826a0203622be91286725c25',1,'scxt::messaging::client']]],
-  ['processoraddress_5ft_13',['processorAddress_t',['../structscxt_1_1engine_1_1Engine.html#a16469390d3c378adf6e7f3ecfb75921d',1,'scxt::engine::Engine']]],
-  ['processordataresponsepayload_5ft_14',['processorDataResponsePayload_t',['../namespacescxt_1_1messaging_1_1client.html#ad15dc6ce29f91d93e17c7034e4aa0bac',1,'scxt::messaging::client']]],
-  ['processorlist_5ft_15',['processorList_t',['../namespacescxt_1_1dsp_1_1processor.html#a69ac7194741681ad5aff7ff38c14dbaa',1,'scxt::dsp::processor']]],
-  ['processormismatchpayload_5ft_16',['processorMismatchPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a220c276102b8a67ce820cf0a1201160c',1,'scxt::messaging::client']]],
-  ['processorpair_5ft_17',['processorPair_t',['../namespacescxt_1_1messaging_1_1client.html#a3f0ea4e141c8ef95651bb7471f02922c',1,'scxt::messaging::client']]],
-  ['ptvec_5ft_18',['ptvec_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ab25feb76a94ab8e2000494cc6ea9ec51',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]]
+  ['processoraddress_5ft_12',['processorAddress_t',['../structscxt_1_1engine_1_1Engine.html#a16469390d3c378adf6e7f3ecfb75921d',1,'scxt::engine::Engine']]],
+  ['processordataresponsepayload_5ft_13',['processorDataResponsePayload_t',['../namespacescxt_1_1messaging_1_1client.html#ad15dc6ce29f91d93e17c7034e4aa0bac',1,'scxt::messaging::client']]],
+  ['processorlist_5ft_14',['processorList_t',['../namespacescxt_1_1dsp_1_1processor.html#a69ac7194741681ad5aff7ff38c14dbaa',1,'scxt::dsp::processor']]],
+  ['processormismatchpayload_5ft_15',['processorMismatchPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a220c276102b8a67ce820cf0a1201160c',1,'scxt::messaging::client']]],
+  ['processorpair_5ft_16',['processorPair_t',['../namespacescxt_1_1messaging_1_1client.html#a3f0ea4e141c8ef95651bb7471f02922c',1,'scxt::messaging::client']]],
+  ['ptvec_5ft_17',['ptvec_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ab25feb76a94ab8e2000494cc6ea9ec51',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]]
 ];

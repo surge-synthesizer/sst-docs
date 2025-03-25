@@ -151,7 +151,7 @@ var searchData=
   ['wavesize_148',['waveSize',['../structscxt_1_1dsp_1_1GeneratorIO.html#af7fcb7dc871abfb94689070aece93291',1,'scxt::dsp::GeneratorIO']]],
   ['wavheader_149',['wavheader',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html',1,'scxt::sample::loaders']]],
   ['wbitspersample_150',['wBitsPerSample',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a3ad425735abd59c6be57ada75518dfe8',1,'scxt::sample::loaders::wavheader']]],
-  ['welcomescreen_151',['welcomescreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'WelcomeScreen'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e',1,'scxt::ui::app::SCXTEditor::welcomeScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#ae7e8a456383574cb46746b85036f2be9',1,'scxt::ui::app::other_screens::WelcomeScreen::WelcomeScreen()']]],
+  ['welcomescreen_151',['welcomescreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'WelcomeScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#ae7e8a456383574cb46746b85036f2be9',1,'scxt::ui::app::other_screens::WelcomeScreen::WelcomeScreen()'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e',1,'scxt::ui::app::SCXTEditor::welcomeScreen']]],
   ['welcomescreen_2ecpp_152',['WelcomeScreen.cpp',['../WelcomeScreen_8cpp.html',1,'']]],
   ['welcomescreen_2eh_153',['WelcomeScreen.h',['../WelcomeScreen_8h.html',1,'']]],
   ['welcomescreenseen_154',['welcomeScreenSeen',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a86bd686bf43c1746ee8af4fb57ee17d4',1,'scxt::infrastructure']]],
@@ -165,10 +165,12 @@ var searchData=
   ['within_162',['within',['../structscxt_1_1exs__support_1_1EXSObject.html#afe8c28aaf3a84ae3218936ae682554ab',1,'scxt::exs_support::EXSObject']]],
   ['withsampleinfo_163',['WithSampleInfo',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html',1,'scxt::ui::app::browser_ui']]],
   ['workitemcomps_164',['workItemComps',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a2f1338329a9816dcadf6b0d597a23461',1,'scxt::ui::app::missing_resolution::Contents']]],
-  ['workitemlineitem_165',['workitemlineitem',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html',1,'WorkItemLineItem'],['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html#a7883d04b672f8bf3d2136a420561e1a1',1,'scxt::ui::app::missing_resolution::WorkItemLineItem::WorkItemLineItem()']]],
+  ['workitemlineitem_165',['workitemlineitem',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html#a7883d04b672f8bf3d2136a420561e1a1',1,'scxt::ui::app::missing_resolution::WorkItemLineItem::WorkItemLineItem()'],['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html',1,'WorkItemLineItem']]],
   ['workitems_166',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
   ['writedebugmessage_167',['writeDebugMessage',['../structscxt_1_1browser_1_1BrowserDB.html#aec866111e323071d6e69c5e43db68e75',1,'scxt::browser::BrowserDB']]],
   ['writedword_168',['WriteDWORD',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a21b5cb970ccb37c66504da5c7d805310',1,'scxt::sample::loaders::RIFFMemFile']]],
   ['writedwordbe_169',['WriteDWORDBE',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#aa07c06ed3e1fd5cdd885f52d2fc46cac',1,'scxt::sample::loaders::RIFFMemFile']]],
-  ['writerworker_170',['writerworker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'WriterWorker'],['../structscxt_1_1browser_1_1WriterWorker.html#acf1eea74b2cb82cdc5b0439ed0bc9d62',1,'scxt::browser::WriterWorker::WriterWorker()']]]
+  ['writer_170',['writer',['../structscxt_1_1browser_1_1Scanner.html#a63cad92f66d3d178301593fd57332e55',1,'scxt::browser::Scanner']]],
+  ['writer_5fworker_2eh_171',['writer_worker.h',['../writer__worker_8h.html',1,'']]],
+  ['writerworker_172',['writerworker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'WriterWorker'],['../structscxt_1_1browser_1_1WriterWorker.html#a0afd84af5b06b36cd1fb4fdb62b1c5d4',1,'scxt::browser::WriterWorker::WriterWorker()']]]
 ];

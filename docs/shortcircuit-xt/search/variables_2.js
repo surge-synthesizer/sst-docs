@@ -21,7 +21,7 @@ var searchData=
   ['claphost_18',['clapHost',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adcc89f0623df1139a1b410c3516c0efc',1,'scxt::ui::app::SCXTEditor']]],
   ['clapjuceshim_19',['clapJuceShim',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#adf8c539dfd8f79c5c941447dd3c5eebf',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['clientcallback_20',['clientCallback',['../structscxt_1_1messaging_1_1MessageController.html#a94605f77a0a1fd31d0e2f9462ecfb095',1,'scxt::messaging::MessageController']]],
-  ['clientthreadid_21',['clientThreadId',['../structscxt_1_1ThreadingChecker.html#af5747c6871bc93c0b0584fa8d36c8d15',1,'scxt::ThreadingChecker']]],
+  ['clientthreadids_21',['clientThreadIds',['../structscxt_1_1ThreadingChecker.html#a418881c131e96465f32cd7d280870af0',1,'scxt::ThreadingChecker']]],
   ['closebutton_22',['closeButton',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a527ccb12cccb6b64a757dac0abd666b6',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['cm_23',['cM',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a9214d35c5f657d9b927f0b1686c7a9f2',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['coarsetuning_24',['coarseTuning',['../structscxt_1_1exs__support_1_1EXSZone.html#a8f889d86ae206452bdc9e6985faff6cd',1,'scxt::exs_support::EXSZone']]],

@@ -106,8 +106,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a63a103c994f61eeb8d9cff6405aefe82" id="r_a63a103c994f61eeb8d9cff6405aefe82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a63a103c994f61eeb8d9cff6405aefe82">registerAsClientThread</a> ()</td></tr>
-<tr class="separator:a63a103c994f61eeb8d9cff6405aefe82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d99a1475545c081453c762f2fe901c4" id="r_a6d99a1475545c081453c762f2fe901c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a6d99a1475545c081453c762f2fe901c4">addAsAClientThread</a> ()</td></tr>
+<tr class="separator:a6d99a1475545c081453c762f2fe901c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e06f2b3fb0d0d899023687ac010da9" id="r_a48e06f2b3fb0d0d899023687ac010da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a48e06f2b3fb0d0d899023687ac010da9">addAsAClientThread</a> (std::thread::id tid)</td></tr>
+<tr class="separator:a48e06f2b3fb0d0d899023687ac010da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39626b1575d037baa31749c3c22b2e9e" id="r_a39626b1575d037baa31749c3c22b2e9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a39626b1575d037baa31749c3c22b2e9e">removeAsAClientThread</a> ()</td></tr>
+<tr class="separator:a39626b1575d037baa31749c3c22b2e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae145a6b3c5028f971e54f8bf34ab50fd" id="r_ae145a6b3c5028f971e54f8bf34ab50fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#ae145a6b3c5028f971e54f8bf34ab50fd">isClientThread</a> () const</td></tr>
 <tr class="separator:ae145a6b3c5028f971e54f8bf34ab50fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a364f0a42f129e7f3d5722b3e8d4b4b8f" id="r_a364f0a42f129e7f3d5722b3e8d4b4b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a364f0a42f129e7f3d5722b3e8d4b4b8f">registerAsSerialThread</a> ()</td></tr>
@@ -125,22 +129,22 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a43fb182d1b800c05d26de5a4dd583caf" id="r_a43fb182d1b800c05d26de5a4dd583caf"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a43fb182d1b800c05d26de5a4dd583caf">bypassThreadChecks</a> {false}</td></tr>
 <tr class="separator:a43fb182d1b800c05d26de5a4dd583caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5747c6871bc93c0b0584fa8d36c8d15" id="r_af5747c6871bc93c0b0584fa8d36c8d15"><td class="memItemLeft" align="right" valign="top">std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#af5747c6871bc93c0b0584fa8d36c8d15">clientThreadId</a> {}</td></tr>
-<tr class="separator:af5747c6871bc93c0b0584fa8d36c8d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38471741ccade01afe8a38915d43ccb9" id="r_a38471741ccade01afe8a38915d43ccb9"><td class="memItemLeft" align="right" valign="top">std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a38471741ccade01afe8a38915d43ccb9">serialThreadId</a> {}</td></tr>
 <tr class="separator:a38471741ccade01afe8a38915d43ccb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0633b68defadb5d562ea9a6407f79e" id="r_a9f0633b68defadb5d562ea9a6407f79e"><td class="memItemLeft" align="right" valign="top">std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a9f0633b68defadb5d562ea9a6407f79e">audioThreadId</a> {}</td></tr>
 <tr class="separator:a9f0633b68defadb5d562ea9a6407f79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418881c131e96465f32cd7d280870af0" id="r_a418881c131e96465f32cd7d280870af0"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::thread::id &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a418881c131e96465f32cd7d280870af0">clientThreadIds</a> {}</td></tr>
+<tr class="separator:a418881c131e96465f32cd7d280870af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a63a103c994f61eeb8d9cff6405aefe82" name="a63a103c994f61eeb8d9cff6405aefe82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63a103c994f61eeb8d9cff6405aefe82">&#9670;&#160;</a></span>registerAsClientThread()</h2>
+<a id="a6d99a1475545c081453c762f2fe901c4" name="a6d99a1475545c081453c762f2fe901c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d99a1475545c081453c762f2fe901c4">&#9670;&#160;</a></span>addAsAClientThread() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void registerAsClientThread </td>
+          <td class="memname">void addAsAClientThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -148,7 +152,44 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1845a081a9a74d53d528dec9d18705ea">MessageController::registerClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a990cef0453c1f031e6c0f4917d3bdeee">BrowserDB::BrowserDB()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1845a081a9a74d53d528dec9d18705ea">MessageController::registerClient()</a>, <a class="el" href="structscxt_1_1browser_1_1ScanWorker.html#a72a303f6a34f9f80002cef071f5f7ea9">ScanWorker::ScanWorker()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>.</p>
+
+</div>
+</div>
+<a id="a48e06f2b3fb0d0d899023687ac010da9" name="a48e06f2b3fb0d0d899023687ac010da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48e06f2b3fb0d0d899023687ac010da9">&#9670;&#160;</a></span>addAsAClientThread() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addAsAClientThread </td>
+          <td>(</td>
+          <td class="paramtype">std::thread::id&#160;</td>
+          <td class="paramname"><em>tid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39626b1575d037baa31749c3c22b2e9e" name="a39626b1575d037baa31749c3c22b2e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39626b1575d037baa31749c3c22b2e9e">&#9670;&#160;</a></span>removeAsAClientThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void removeAsAClientThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a892b4a0a84f75aa9778887e4da14c1a6">MessageController::unregisterClient()</a>.</p>
 
 </div>
 </div>
@@ -277,20 +318,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af5747c6871bc93c0b0584fa8d36c8d15" name="af5747c6871bc93c0b0584fa8d36c8d15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5747c6871bc93c0b0584fa8d36c8d15">&#9670;&#160;</a></span>clientThreadId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::thread::id clientThreadId {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a38471741ccade01afe8a38915d43ccb9" name="a38471741ccade01afe8a38915d43ccb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38471741ccade01afe8a38915d43ccb9">&#9670;&#160;</a></span>serialThreadId</h2>
 
@@ -319,13 +346,27 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a418881c131e96465f32cd7d280870af0" name="a418881c131e96465f32cd7d280870af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418881c131e96465f32cd7d280870af0">&#9670;&#160;</a></span>clientThreadIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;std::thread::id&gt; clientThreadIds {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="utils_8h.html">utils.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 24 2025 03:30:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 25 2025 13:41:48 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

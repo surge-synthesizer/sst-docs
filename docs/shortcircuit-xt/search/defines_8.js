@@ -21,6 +21,7 @@ var searchData=
   ['sclog_5funimpl_5fonce_18',['SCLOG_UNIMPL_ONCE',['../utils_8h.html#a2d5140d6e86a0ce1499a056889842a6f',1,'utils.h']]],
   ['sclog_5fwfunc_19',['SCLOG_WFUNC',['../utils_8h.html#ac5856f216c4e61269838ba634d799388',1,'utils.h']]],
   ['serial_5fto_5fclient_20',['SERIAL_TO_CLIENT',['../client__macros_8h.html#a431ef0af180a125083e0b73b2bbe3e0b',1,'client_macros.h']]],
-  ['stream_5fenum_21',['STREAM_ENUM',['../scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c',1,'scxt_traits.h']]],
-  ['stream_5fenum_5fwith_5fdefault_22',['STREAM_ENUM_WITH_DEFAULT',['../scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce',1,'scxt_traits.h']]]
+  ['show_5findex_5fmenus_21',['SHOW_INDEX_MENUS',['../BrowserPane_8cpp.html#a569f5d055990191d3ff5c4f90cdc202c',1,'BrowserPane.cpp']]],
+  ['stream_5fenum_22',['STREAM_ENUM',['../scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c',1,'scxt_traits.h']]],
+  ['stream_5fenum_5fwith_5fdefault_23',['STREAM_ENUM_WITH_DEFAULT',['../scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce',1,'scxt_traits.h']]]
 ];

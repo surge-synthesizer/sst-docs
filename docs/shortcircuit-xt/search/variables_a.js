@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['keeprunning_0',['keepRunning',['../structscxt_1_1browser_1_1WriterWorker.html#a1e8ab91f9ef632c4cbd7a5866964e114',1,'scxt::browser::WriterWorker']]],
+  ['keeprunning_0',['keeprunning',['../structscxt_1_1browser_1_1WriterWorker.html#a1e8ab91f9ef632c4cbd7a5866964e114',1,'scxt::browser::WriterWorker::keepRunning'],['../structscxt_1_1browser_1_1ScanWorker.html#a1e8ab91f9ef632c4cbd7a5866964e114',1,'scxt::browser::ScanWorker::keepRunning']]],
   ['key_1',['key',['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#a4e8f191bf9d01c37e72e9cf26741c54f',1,'scxt::engine::Engine::pathToZone_t::key'],['../structscxt_1_1exs__support_1_1EXSZone.html#a2cabc63bba88cd42506c29c5a086b7ac',1,'scxt::exs_support::EXSZone::key'],['../structscxt_1_1voice_1_1Voice.html#a3496dfc7a27df7eead65d48ed89e6867',1,'scxt::voice::Voice::key']]],
   ['key_5fhigh_2',['key_high',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html#aaf276ec5ca970907245e49916755e688',1,'scxt::sample::loaders::wave_inst_chunk::key_high'],['../structscxt_1_1sample_1_1Sample.html#aaf276ec5ca970907245e49916755e688',1,'scxt::sample::Sample::key_high']]],
   ['key_5flow_3',['key_low',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html#a7bd47d603855126d432163893d81ac4d',1,'scxt::sample::loaders::wave_inst_chunk::key_low'],['../structscxt_1_1sample_1_1Sample.html#a7bd47d603855126d432163893d81ac4d',1,'scxt::sample::Sample::key_low']]],
@@ -15,7 +15,7 @@ var searchData=
   ['keylow_12',['keyLow',['../structscxt_1_1exs__support_1_1EXSZone.html#a44243fdbb97d2c8c06b9d0fc281758b6',1,'scxt::exs_support::EXSZone']]],
   ['keyrangexfade_13',['keyrangExFade',['../structscxt_1_1exs__support_1_1EXSGroup.html#a6755f5090941ca2721e9f4465d9cbc81',1,'scxt::exs_support::EXSGroup']]],
   ['keyrangexfadetype_14',['keyrangExFadeType',['../structscxt_1_1exs__support_1_1EXSGroup.html#a7ff79940781ee113c5b835085735ac36',1,'scxt::exs_support::EXSGroup']]],
-  ['keystart_15',['keystart',['../structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f',1,'scxt::engine::KeyboardRange::keyStart'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#ac7775f74d72ad3a092032c3155a03d32',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::KeyStart']]],
+  ['keystart_15',['keystart',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#ac7775f74d72ad3a092032c3155a03d32',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::KeyStart'],['../structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f',1,'scxt::engine::KeyboardRange::keyStart']]],
   ['keytrackattackment_16',['keytrackAttackment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a1115c9be1cf39b2045c1c98853f75262',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['keytrackperoct_17',['keytrackPerOct',['../structscxt_1_1voice_1_1Voice.html#ab88ad8ca1ef1c33c297c91e1950fa195',1,'scxt::voice::Voice']]],
   ['keytracksource_18',['keytrackSource',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a71540ed87f7062b3d872af77f3f6ded4',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],

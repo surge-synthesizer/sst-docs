@@ -18,5 +18,6 @@ var searchData=
   ['withcondition_15',['withCondition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a6454bf7fcf1518c04ef7d850606d69a6',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['within_16',['within',['../structscxt_1_1exs__support_1_1EXSObject.html#afe8c28aaf3a84ae3218936ae682554ab',1,'scxt::exs_support::EXSObject']]],
   ['workitemcomps_17',['workItemComps',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a2f1338329a9816dcadf6b0d597a23461',1,'scxt::ui::app::missing_resolution::Contents']]],
-  ['workitems_18',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]]
+  ['workitems_18',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
+  ['writer_19',['writer',['../structscxt_1_1browser_1_1Scanner.html#a63cad92f66d3d178301593fd57332e55',1,'scxt::browser::Scanner']]]
 ];
