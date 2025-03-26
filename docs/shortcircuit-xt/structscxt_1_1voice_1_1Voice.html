@@ -236,6 +236,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2c9657cf6e26fcda21ddb3f2a1a882c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaaeff7bcb88bba08068cd529e0a0729" id="r_acaaeff7bcb88bba08068cd529e0a0729"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729">sampleIndex</a> {0}</td></tr>
 <tr class="separator:acaaeff7bcb88bba08068cd529e0a0729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10991bd3058d74c41dda3e759018d093" id="r_a10991bd3058d74c41dda3e759018d093"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a10991bd3058d74c41dda3e759018d093">sampleIndexF</a> {0.f}</td></tr>
+<tr class="separator:a10991bd3058d74c41dda3e759018d093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4bc3e0b45f78e4cb7dfab6bdced7f7" id="r_a9d4bc3e0b45f78e4cb7dfab6bdced7f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a9d4bc3e0b45f78e4cb7dfab6bdced7f7">sampleIndexFraction</a> {0}</td></tr>
+<tr class="separator:a9d4bc3e0b45f78e4cb7dfab6bdced7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0342501e1a087b0e2c5708d48798b24a" id="r_a0342501e1a087b0e2c5708d48798b24a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a0342501e1a087b0e2c5708d48798b24a">forceOversample</a> {true}</td></tr>
 <tr class="separator:a0342501e1a087b0e2c5708d48798b24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0787e09a735ddf87be5f5e1be6f90e7" id="r_ad0787e09a735ddf87be5f5e1be6f90e7"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">dsp::GeneratorState</a>, maxGeneratorsPerVoice &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#ad0787e09a735ddf87be5f5e1be6f90e7">GD</a></td></tr>
@@ -486,7 +490,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a2c1c74ab0f9f541a682d6a8e6f55bde2">Voice::output</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aa54f6c9a99ca0f9c6533ce04fff8937a">Voice::processorIntParams</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4f13175170726410627f012e212f8131">Zone::getNumSampleLoaded()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a2c1c74ab0f9f541a682d6a8e6f55bde2">Voice::output</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aa54f6c9a99ca0f9c6533ce04fff8937a">Voice::processorIntParams</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729">Voice::sampleIndex</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a10991bd3058d74c41dda3e759018d093">Voice::sampleIndexF</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9d4bc3e0b45f78e4cb7dfab6bdced7f7">Voice::sampleIndexFraction</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1006,39 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>.</p>
+
+</div>
+</div>
+<a id="a10991bd3058d74c41dda3e759018d093" name="a10991bd3058d74c41dda3e759018d093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10991bd3058d74c41dda3e759018d093">&#9670;&#160;</a></span>sampleIndexF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float sampleIndexF {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>.</p>
+
+</div>
+</div>
+<a id="a9d4bc3e0b45f78e4cb7dfab6bdced7f7" name="a9d4bc3e0b45f78e4cb7dfab6bdced7f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d4bc3e0b45f78e4cb7dfab6bdced7f7">&#9670;&#160;</a></span>sampleIndexFraction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float sampleIndexFraction {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>.</p>
 
 </div>
 </div>
@@ -1939,7 +1975,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 26 2025 01:34:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Mar 26 2025 13:15:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
