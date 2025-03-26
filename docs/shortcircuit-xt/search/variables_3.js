@@ -2,7 +2,7 @@ var searchData=
 [
   ['d_0',['d',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a7b8a5867044515ce1010eb912dc386b8',1,'scxt::browser::SQL::TxnGuard::d'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'scxt::modulation::modulators::AdsrStorage::d'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7297db0a44694783e2d08e47b10c314a',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::D']]],
   ['data_1',['data',['../structscxt_1_1infrastructure_1_1posixImpl.html#a735984d41155bc1032e09bece8f8d66d',1,'scxt::infrastructure::posixImpl']]],
-  ['datasize_2',['datasize',['../structscxt_1_1infrastructure_1_1posixImpl.html#a78f9703861dd365a513c2c5aab9f9239',1,'scxt::infrastructure::posixImpl::dataSize'],['../structscxt_1_1sample_1_1loaders_1_1riffheader.html#a7e1a0ea769d8bcfeb3ac0cdc17a20810',1,'scxt::sample::loaders::riffheader::datasize']]],
+  ['datasize_2',['datasize',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html#a7e1a0ea769d8bcfeb3ac0cdc17a20810',1,'scxt::sample::loaders::riffheader::datasize'],['../structscxt_1_1infrastructure_1_1posixImpl.html#a78f9703861dd365a513c2c5aab9f9239',1,'scxt::infrastructure::posixImpl::dataSize']]],
   ['dbjobs_3',['dbJobs',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#ad1d376822eb5dc4e7799005dfdc6685f',1,'scxt::ui::app::browser_ui::BrowserPane']]],
   ['dbname_4',['dbname',['../structscxt_1_1browser_1_1WriterWorker.html#a932d0c6f9af34b5aedcf1054f50bee8f',1,'scxt::browser::WriterWorker']]],
   ['dbpath_5',['dbpath',['../structscxt_1_1browser_1_1WriterWorker.html#a52280fdb620ad1ce4fa7a827a510d057',1,'scxt::browser::WriterWorker']]],
