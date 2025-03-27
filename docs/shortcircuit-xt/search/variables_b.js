@@ -58,12 +58,13 @@ var searchData=
   ['loopmode_55',['loopMode',['../structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a95d007369ee92f6067ef6587a792f196',1,'scxt::engine::Zone::SingleVariant']]],
   ['loopmodebutton_56',['loopModeButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a706810497f51db77bbf0a5c6bc439993',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['loopon_57',['loopOn',['../structscxt_1_1exs__support_1_1EXSZone.html#aa30b7a5ad746d4b7642ad69f4d39468f',1,'scxt::exs_support::EXSZone']]],
-  ['loopplaytoendonrelease_58',['loopPlayToEndOnRelease',['../structscxt_1_1exs__support_1_1EXSZone.html#a9bb0ca6aab44eda5b6bb825dc8d66172',1,'scxt::exs_support::EXSZone']]],
-  ['loopstart_59',['loopStart',['../structscxt_1_1exs__support_1_1EXSZone.html#ac7ea9aefa17898c0c21620a2a35a4d6d',1,'scxt::exs_support::EXSZone']]],
-  ['looptune_60',['loopTune',['../structscxt_1_1exs__support_1_1EXSZone.html#ad37bcf430b72089e3d9837758fad921c',1,'scxt::exs_support::EXSZone']]],
-  ['loopupperbound_61',['loopUpperBound',['../structscxt_1_1dsp_1_1GeneratorState.html#ae3f0266db2e4a37da2c2e7418fa669ef',1,'scxt::dsp::GeneratorState']]],
-  ['lowerfill_62',['lowerFill',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad491e124dea26cf169918dc2d85ec7ef',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
-  ['lowerstroke_63',['lowerStroke',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a36ea32617c76926bc849f29898748588',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
-  ['lownote_64',['lowNote',['../structscxt_1_1sample_1_1aiff__INST__chunk.html#a201ab4b764dfc8162792ce4ed605b48f',1,'scxt::sample::aiff_INST_chunk']]],
-  ['lowvelocity_65',['lowvelocity',['../structscxt_1_1sample_1_1aiff__INST__chunk.html#ac569ff5b3f49745b87801fae5bd3ab30',1,'scxt::sample::aiff_INST_chunk']]]
+  ['looppercentage_58',['loopPercentage',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1VoiceSources.html#a16307d1ab08b097474b42bf3dcee3fae',1,'scxt::voice::modulation::MatrixEndpoints::Sources::VoiceSources']]],
+  ['loopplaytoendonrelease_59',['loopPlayToEndOnRelease',['../structscxt_1_1exs__support_1_1EXSZone.html#a9bb0ca6aab44eda5b6bb825dc8d66172',1,'scxt::exs_support::EXSZone']]],
+  ['loopstart_60',['loopStart',['../structscxt_1_1exs__support_1_1EXSZone.html#ac7ea9aefa17898c0c21620a2a35a4d6d',1,'scxt::exs_support::EXSZone']]],
+  ['looptune_61',['loopTune',['../structscxt_1_1exs__support_1_1EXSZone.html#ad37bcf430b72089e3d9837758fad921c',1,'scxt::exs_support::EXSZone']]],
+  ['loopupperbound_62',['loopUpperBound',['../structscxt_1_1dsp_1_1GeneratorState.html#ae3f0266db2e4a37da2c2e7418fa669ef',1,'scxt::dsp::GeneratorState']]],
+  ['lowerfill_63',['lowerFill',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad491e124dea26cf169918dc2d85ec7ef',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['lowerstroke_64',['lowerStroke',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a36ea32617c76926bc849f29898748588',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['lownote_65',['lowNote',['../structscxt_1_1sample_1_1aiff__INST__chunk.html#a201ab4b764dfc8162792ce4ed605b48f',1,'scxt::sample::aiff_INST_chunk']]],
+  ['lowvelocity_66',['lowvelocity',['../structscxt_1_1sample_1_1aiff__INST__chunk.html#ac569ff5b3f49745b87801fae5bd3ab30',1,'scxt::sample::aiff_INST_chunk']]]
 ];
