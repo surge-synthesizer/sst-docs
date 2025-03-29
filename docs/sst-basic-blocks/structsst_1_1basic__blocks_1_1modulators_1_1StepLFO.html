@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace5cbd008cf7cecfa6471fa0fe097e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb17bda8498eaf023c812eb8560d20bf" id="r_adb17bda8498eaf023c812eb8560d20bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#adb17bda8498eaf023c812eb8560d20bf">setSampleRate</a> (double sr, double sri)</td></tr>
 <tr class="separator:adb17bda8498eaf023c812eb8560d20bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97e427c87a2591a50fee6dd17d5d593" id="r_ae97e427c87a2591a50fee6dd17d5d593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ae97e427c87a2591a50fee6dd17d5d593">retrigger</a> ()</td></tr>
+<tr class="separator:ae97e427c87a2591a50fee6dd17d5d593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cae6ad443b870e3d98c67095dd7e793" id="r_a4cae6ad443b870e3d98c67095dd7e793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">process</a> (float rate, int triggerMode, bool ts, bool oneShot, int samples)</td></tr>
 <tr class="separator:a4cae6ad443b870e3d98c67095dd7e793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7284cf9638f7f78b5841948247fc2c" id="r_acd7284cf9638f7f78b5841948247fc2c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#acd7284cf9638f7f78b5841948247fc2c">QuadraticBSpline</a> (float y0, float y1, float y2, float mu)</td></tr>
@@ -297,6 +299,27 @@ template&lt;size_t blockSize&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a56c05744d5ef6b301c0f586d6e818101">StepLFO&lt; blockSize &gt;::samplerate</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a8c16432d74d313179ad0247b42fbd570">StepLFO&lt; blockSize &gt;::samplerate_inv</a>.</p>
+
+</div>
+</div>
+<a id="ae97e427c87a2591a50fee6dd17d5d593" name="ae97e427c87a2591a50fee6dd17d5d593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97e427c87a2591a50fee6dd17d5d593">&#9670;&#160;</a></span>retrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t blockSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void retrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a275dd6dafe5d4455e599ffd15feb06f8">StepLFO&lt; blockSize &gt;::phase</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a52bf4efd4c9555ec60b9584c5ac7a7dc">StepLFO&lt; blockSize &gt;::state</a>.</p>
 
 </div>
 </div>
@@ -491,7 +514,7 @@ template&lt;size_t blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba50d12391778432e75fe13e0e048364">StepLFO&lt; blockSize &gt;::assign()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba97e1dce07391aac04a62e8d72b7570">StepLFO&lt; blockSize &gt;::lfo_ipol()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">StepLFO&lt; blockSize &gt;::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba50d12391778432e75fe13e0e048364">StepLFO&lt; blockSize &gt;::assign()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba97e1dce07391aac04a62e8d72b7570">StepLFO&lt; blockSize &gt;::lfo_ipol()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">StepLFO&lt; blockSize &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ae97e427c87a2591a50fee6dd17d5d593">StepLFO&lt; blockSize &gt;::retrigger()</a>.</p>
 
 </div>
 </div>
@@ -517,7 +540,7 @@ template&lt;size_t blockSize&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba50d12391778432e75fe13e0e048364">StepLFO&lt; blockSize &gt;::assign()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">StepLFO&lt; blockSize &gt;::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba50d12391778432e75fe13e0e048364">StepLFO&lt; blockSize &gt;::assign()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">StepLFO&lt; blockSize &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ae97e427c87a2591a50fee6dd17d5d593">StepLFO&lt; blockSize &gt;::retrigger()</a>.</p>
 
 </div>
 </div>
@@ -783,7 +806,7 @@ template&lt;size_t blockSize&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 23 2025 15:44:59 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Mar 29 2025 21:40:36 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
