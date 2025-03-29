@@ -78,6 +78,7 @@ var searchData=
   ['attachwidgettofloat_75',['attachWidgetToFloat',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1PartEffectsPane.html#a785bf5946b1aa7b77e9ebc8e96352f08',1,'scxt::ui::app::mixer_screen::PartEffectsPane']]],
   ['attachwidgettoint_76',['attachWidgetToInt',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1PartEffectsPane.html#a364e66064923b3efe5833553adff355d',1,'scxt::ui::app::mixer_screen::PartEffectsPane']]],
   ['attack_77',['attack',['../structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb',1,'scxt::voice::Voice::attack()'],['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#adee2666a0bf1b276043fd8db5923b281',1,'scxt::modulation::modulators::EnvLFO::attack()'],['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8',1,'scxt::modulation::modulators::CurveLFO::attack()'],['../structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb',1,'scxt::engine::Group::attack()']]],
-  ['audioportscount_78',['audioPortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a78eb5a00b6e0af43447e76124613b842',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
-  ['audioportsinfo_79',['audioPortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2b8972c9640510bf30e17b3e67e6936e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]]
+  ['attackfrom_78',['attackFrom',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#afd8e0065803e9cbfd7146b8a44d55b40',1,'scxt::modulation::modulators::EnvLFO']]],
+  ['audioportscount_79',['audioPortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a78eb5a00b6e0af43447e76124613b842',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
+  ['audioportsinfo_80',['audioPortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2b8972c9640510bf30e17b3e67e6936e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]]
 ];

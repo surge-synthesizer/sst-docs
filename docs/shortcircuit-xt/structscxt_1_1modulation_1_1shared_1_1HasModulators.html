@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa3a1ebcb142070ab93b983fbd89b9e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f9720712a490acf59a08bd036a3eb8" id="r_a31f9720712a490acf59a08bd036a3eb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a31f9720712a490acf59a08bd036a3eb8">setHasModulatorsSampleRate</a> (double sr, double sri)</td></tr>
 <tr class="separator:a31f9720712a490acf59a08bd036a3eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689" id="r_a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplParams" colspan="2">template&lt;typename Endpoints &gt; </td></tr>
+<tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">updateRetriggers</a> (Endpoints *endpoints)</td></tr>
+<tr class="separator:a51bf8c9799a19ae68e01ada2648ea689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -152,6 +155,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7d211a12926b4f264b4a9ea12f2a50f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46952fbc5703846ed645ab9832d215d2" id="r_a46952fbc5703846ed645ab9832d215d2"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a46952fbc5703846ed645ab9832d215d2">egsActive</a> {}</td></tr>
 <tr class="separator:a46952fbc5703846ed645ab9832d215d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64a6e9ade922602fb90e599cc1cf6e5" id="r_aa64a6e9ade922602fb90e599cc1cf6e5"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa64a6e9ade922602fb90e599cc1cf6e5">doEGRetrigger</a> {}</td></tr>
+<tr class="separator:aa64a6e9ade922602fb90e599cc1cf6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaa0b9261c652c13e82de4f10adf6179" id="r_adaa0b9261c652c13e82de4f10adf6179"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#adaa0b9261c652c13e82de4f10adf6179">lastEGRetrigger</a> {}</td></tr>
+<tr class="separator:adaa0b9261c652c13e82de4f10adf6179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b38fccf5b83e6829bb1a5e08c9308d0" id="r_a7b38fccf5b83e6829bb1a5e08c9308d0"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b38fccf5b83e6829bb1a5e08c9308d0">doLFORetrigger</a> {}</td></tr>
+<tr class="separator:a7b38fccf5b83e6829bb1a5e08c9308d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f0b6fc0d65e3843f8b351497cc042f" id="r_a07f0b6fc0d65e3843f8b351497cc042f"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a07f0b6fc0d65e3843f8b351497cc042f">lastLFORetrigger</a> {}</td></tr>
+<tr class="separator:a07f0b6fc0d65e3843f8b351497cc042f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -268,6 +279,30 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 
 </div>
 </div>
+<a id="a51bf8c9799a19ae68e01ada2648ea689" name="a51bf8c9799a19ae68e01ada2648ea689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51bf8c9799a19ae68e01ada2648ea689">&#9670;&#160;</a></span>updateRetriggers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+<div class="memtemplate">
+template&lt;typename Endpoints &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateRetriggers </td>
+          <td>(</td>
+          <td class="paramtype">Endpoints *&#160;</td>
+          <td class="paramname"><em>endpoints</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa64a6e9ade922602fb90e599cc1cf6e5">HasModulators&lt; T, egsPerObject &gt;::doEGRetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b38fccf5b83e6829bb1a5e08c9308d0">HasModulators&lt; T, egsPerObject &gt;::doLFORetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#adaa0b9261c652c13e82de4f10adf6179">HasModulators&lt; T, egsPerObject &gt;::lastEGRetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a07f0b6fc0d65e3843f8b351497cc042f">HasModulators&lt; T, egsPerObject &gt;::lastLFORetrigger</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">HasModulators&lt; T, egsPerObject &gt;::lfosPerObject</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a39a6cb1f8e50e7e85cd177e9d6e7d96a" name="a39a6cb1f8e50e7e85cd177e9d6e7d96a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39a6cb1f8e50e7e85cd177e9d6e7d96a">&#9670;&#160;</a></span>doubleRate</h2>
@@ -308,6 +343,8 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
 
 </div>
 </div>
@@ -443,13 +480,85 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 
 </div>
 </div>
+<a id="aa64a6e9ade922602fb90e599cc1cf6e5" name="aa64a6e9ade922602fb90e599cc1cf6e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa64a6e9ade922602fb90e599cc1cf6e5">&#9670;&#160;</a></span>doEGRetrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;bool, egsPerObject&gt; doEGRetrigger {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
+
+</div>
+</div>
+<a id="adaa0b9261c652c13e82de4f10adf6179" name="adaa0b9261c652c13e82de4f10adf6179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa0b9261c652c13e82de4f10adf6179">&#9670;&#160;</a></span>lastEGRetrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, egsPerObject&gt; lastEGRetrigger {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
+
+</div>
+</div>
+<a id="a7b38fccf5b83e6829bb1a5e08c9308d0" name="a7b38fccf5b83e6829bb1a5e08c9308d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b38fccf5b83e6829bb1a5e08c9308d0">&#9670;&#160;</a></span>doLFORetrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;bool, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a>&gt; doLFORetrigger {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
+
+</div>
+</div>
+<a id="a07f0b6fc0d65e3843f8b351497cc042f" name="a07f0b6fc0d65e3843f8b351497cc042f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f0b6fc0d65e3843f8b351497cc042f">&#9670;&#160;</a></span>lastLFORetrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a>&gt; lastLFORetrigger {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="has__modulators_8h.html">has_modulators.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 29 2025 20:48:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Mar 29 2025 22:22:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

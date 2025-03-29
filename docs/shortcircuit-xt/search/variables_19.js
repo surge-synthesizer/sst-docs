@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['zerobase_0',['zeroBase',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1MappingTarget.html#a903a2e9c9412cf712f63904a695e2d86',1,'scxt::voice::modulation::MatrixEndpoints::MappingTarget']]],
+  ['zerobase_0',['zerobase',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a903a2e9c9412cf712f63904a695e2d86',1,'scxt::modulation::shared::LFOTargetEndpointData::zeroBase'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1MappingTarget.html#a903a2e9c9412cf712f63904a695e2d86',1,'scxt::voice::modulation::MatrixEndpoints::MappingTarget::zeroBase'],['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a903a2e9c9412cf712f63904a695e2d86',1,'scxt::modulation::shared::EGTargetEndpointData::zeroBase']]],
   ['zerodbamp_1',['zeroDbAmp',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a30e04ca938207193ef89919c44f4f5d9',1,'scxt::dsp::processor::ProcessorStorage']]],
   ['zerosource_2',['zerosource',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#adfb39d929afc12a41f898988e39f1745',1,'scxt::modulation::GroupMatrixEndpoints::Sources::zeroSource'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#adfb39d929afc12a41f898988e39f1745',1,'scxt::voice::modulation::MatrixEndpoints::Sources::zeroSource']]],
   ['zip_5farchive_3',['zip_archive',['../structscxt_1_1sample_1_1ZipArchiveHolder.html#a152670ad91292ce2b4b47731639116ae',1,'scxt::sample::ZipArchiveHolder']]],
