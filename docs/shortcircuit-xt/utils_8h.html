@@ -120,6 +120,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html">ThreadingChecker</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1DebugTimeGuard.html">DebugTimeGuard</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstd_1_1hash_3_01scxt_1_1ID_3_01idType_01_4_01_4.html">hash&lt; scxt::ID&lt; idType &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstd_1_1hash_3_01scxt_1_1SampleID_01_4.html">hash&lt; scxt::SampleID &gt;</a></td></tr>
@@ -146,6 +148,8 @@ Macros</h2></td></tr>
 <tr class="separator:a2d5140d6e86a0ce1499a056889842a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61f1d4987b64140650f38bfb7eda5e18" id="r_a61f1d4987b64140650f38bfb7eda5e18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>(x)&#160;&#160;&#160;#x &lt;&lt; &quot;=&quot; &lt;&lt; (x) &lt;&lt; &quot; &quot;</td></tr>
 <tr class="separator:a61f1d4987b64140650f38bfb7eda5e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9dc0f823bad6ab2743258c8f26dadd0" id="r_ad9dc0f823bad6ab2743258c8f26dadd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ad9dc0f823bad6ab2743258c8f26dadd0">SCLOG_TIME</a>(objn,  msg)&#160;&#160;&#160;DebugTimeGuard objn(msg, __FILE__, __LINE__);</td></tr>
+<tr class="separator:ad9dc0f823bad6ab2743258c8f26dadd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b9cc5d10d7caf899d4ab0ccd86d2f8" id="r_a61b9cc5d10d7caf899d4ab0ccd86d2f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a61b9cc5d10d7caf899d4ab0ccd86d2f8">DECLARE_ENUM_STRING</a>(E)</td></tr>
 <tr class="separator:a61b9cc5d10d7caf899d4ab0ccd86d2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -341,6 +345,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad9dc0f823bad6ab2743258c8f26dadd0" name="ad9dc0f823bad6ab2743258c8f26dadd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9dc0f823bad6ab2743258c8f26dadd0">&#9670;&#160;</a></span>SCLOG_TIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SCLOG_TIME</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">objn, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;DebugTimeGuard objn(msg, __FILE__, __LINE__);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a61b9cc5d10d7caf899d4ab0ccd86d2f8" name="a61b9cc5d10d7caf899d4ab0ccd86d2f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61b9cc5d10d7caf899d4ab0ccd86d2f8">&#9670;&#160;</a></span>DECLARE_ENUM_STRING</h2>
 
@@ -364,7 +396,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 4 2025 16:04:57 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Apr 4 2025 22:03:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
