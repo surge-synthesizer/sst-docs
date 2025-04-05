@@ -27,6 +27,7 @@ var searchData=
   ['alternate_5fdirections_24',['ALTERNATE_DIRECTIONS',['../structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a60775b4e6844333665f29e88f3657c21',1,'scxt::engine::Zone']]],
   ['and_25',['AND',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532',1,'scxt::engine::GroupTriggerConditions']]],
   ['and_5fnot_26',['AND_NOT',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef',1,'scxt::engine::GroupTriggerConditions']]],
-  ['aux_27',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['aux_5f0_28',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
+  ['as_5fmonolith_27',['AS_MONOLITH',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd',1,'scxt::patch_io']]],
+  ['aux_28',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
+  ['aux_5f0_29',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
 ];

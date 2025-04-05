@@ -39,13 +39,14 @@ var searchData=
   ['s2c_5fupdate_5fzone_5fmatrix_5fmetadata_36',['s2c_update_zone_matrix_metadata',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa1637fd9b7e9399b5a449211f863ea71',1,'scxt::messaging::client']]],
   ['s2c_5fupdate_5fzone_5foutput_5finfo_37',['s2c_update_zone_output_info',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba3a3450f9198b81658cebc988da838548',1,'scxt::messaging::client']]],
   ['sample_38',['sample',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ae610328ce0cd5a45fa37377b3d23a0cc',1,'scxt::sfz_support::SFZParser::Header::sample'],['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aa48574801b7270ffdadab4b3d77da90a1',1,'scxt::sample::compound::CompoundElement::SAMPLE']]],
-  ['sf2_5ffile_39',['SF2_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75',1,'scxt::sample::Sample']]],
-  ['sfz_5ffile_40',['SFZ_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41',1,'scxt::sample::Sample']]],
-  ['showknobs_41',['showKnobs',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4ae94156f19b6b847d97e62a5805e80f28',1,'scxt::infrastructure']]],
-  ['sinc_42',['Sinc',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798',1,'scxt::dsp']]],
-  ['src_43',['src',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa968bfe603d5a4456d5662129093c7ddc',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
-  ['startl_44',['startL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faaefd6dc915310e623976caa6d8fa1bea',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
-  ['startp_45',['startP',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faf3cdb072964735cb2d59f19a932b1472',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
-  ['step_46',['step',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281dac0ba526afb7f54207517b48a892961c2',1,'scxt::modulation::ModulatorStorage::STEP'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08ac0ba526afb7f54207517b48a892961c2',1,'scxt::modulation::shared::HasModulators::STEP']]],
-  ['string_47',['STRING',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#ab46204964cb8bdc608663b68c83d743caee847e634a4297b274316de8a8ca9921',1,'scxt::ui::connectors::JSONLayoutConsumer']]]
+  ['scxt_5ffile_39',['SCXT_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff',1,'scxt::sample::Sample']]],
+  ['sf2_5ffile_40',['SF2_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75',1,'scxt::sample::Sample']]],
+  ['sfz_5ffile_41',['SFZ_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41',1,'scxt::sample::Sample']]],
+  ['showknobs_42',['showKnobs',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4ae94156f19b6b847d97e62a5805e80f28',1,'scxt::infrastructure']]],
+  ['sinc_43',['Sinc',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798',1,'scxt::dsp']]],
+  ['src_44',['src',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa968bfe603d5a4456d5662129093c7ddc',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['startl_45',['startL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faaefd6dc915310e623976caa6d8fa1bea',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['startp_46',['startP',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faf3cdb072964735cb2d59f19a932b1472',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['step_47',['step',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281dac0ba526afb7f54207517b48a892961c2',1,'scxt::modulation::ModulatorStorage::STEP'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08ac0ba526afb7f54207517b48a892961c2',1,'scxt::modulation::shared::HasModulators::STEP']]],
+  ['string_48',['STRING',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#ab46204964cb8bdc608663b68c83d743caee847e634a4297b274316de8a8ca9921',1,'scxt::ui::connectors::JSONLayoutConsumer']]]
 ];

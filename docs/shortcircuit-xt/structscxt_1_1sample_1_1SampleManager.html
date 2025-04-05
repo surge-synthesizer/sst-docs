@@ -98,6 +98,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structscxt_1_1sample_1_1SampleManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SampleManager Struct Reference</div></div>
 </div><!--header-->
@@ -148,6 +149,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace95d78ce342e49a9b6ee31cf846540b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7451ade96b2dedd235a8f5ab41f03052" id="r_a7451ade96b2dedd235a8f5ab41f03052"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">Sample</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052">getSample</a> (const <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &amp;id) const</td></tr>
 <tr class="separator:a7451ade96b2dedd235a8f5ab41f03052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc878fb389db2492565b6b209be97255" id="r_acc878fb389db2492565b6b209be97255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#acc878fb389db2492565b6b209be97255">reparentSamplesOnStreamToRelative</a> (const fs::path &amp;newParent)</td></tr>
+<tr class="separator:acc878fb389db2492565b6b209be97255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf34c08cbdeb6df67b490637797d3046" id="r_aaf34c08cbdeb6df67b490637797d3046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aaf34c08cbdeb6df67b490637797d3046">clearReparenting</a> ()</td></tr>
+<tr class="separator:aaf34c08cbdeb6df67b490637797d3046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e77d2eebacafea29a33246627ae0ef" id="r_a73e77d2eebacafea29a33246627ae0ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a73e77d2eebacafea29a33246627ae0ef">setRelativeRoot</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:a73e77d2eebacafea29a33246627ae0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2b951f6e4acb9dea75e4041693dd5d" id="r_abb2b951f6e4acb9dea75e4041693dd5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#abb2b951f6e4acb9dea75e4041693dd5d">clearRelativeRoot</a> ()</td></tr>
+<tr class="separator:abb2b951f6e4acb9dea75e4041693dd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3662f77c43717af20e6fa9f73964abf0" id="r_a3662f77c43717af20e6fa9f73964abf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a541a38eb16192d237e364bbbd3e2e73b">sampleAddressesAndIds_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a3662f77c43717af20e6fa9f73964abf0">getSampleAddressesAndIDs</a> () const</td></tr>
 <tr class="separator:a3662f77c43717af20e6fa9f73964abf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41b94ebe21827bd7a13f163f844115ab" id="r_a41b94ebe21827bd7a13f163f844115ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a541a38eb16192d237e364bbbd3e2e73b">sampleAddressesAndIds_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a41b94ebe21827bd7a13f163f844115ab">getSampleAddressesFor</a> (const std::vector&lt; <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &gt; &amp;) const</td></tr>
@@ -178,10 +187,19 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa606eb1806378ba1c4abc6e94b9ff996" id="r_aa606eb1806378ba1c4abc6e94b9ff996"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structscxt_1_1ThreadingChecker.html">ThreadingChecker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aa606eb1806378ba1c4abc6e94b9ff996">threadingChecker</a></td></tr>
 <tr class="separator:aa606eb1806378ba1c4abc6e94b9ff996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d8a506f26819e43d520ec760125488" id="r_a25d8a506f26819e43d520ec760125488"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488">reparentPath</a></td></tr>
+<tr class="separator:a25d8a506f26819e43d520ec760125488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cbb1ec3eebb8119cfffbf84de3430a" id="r_a30cbb1ec3eebb8119cfffbf84de3430a"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a30cbb1ec3eebb8119cfffbf84de3430a">relativeRoot</a></td></tr>
+<tr class="separator:a30cbb1ec3eebb8119cfffbf84de3430a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe556989e5153e3fd964baf4cfc18c1c" id="r_afe556989e5153e3fd964baf4cfc18c1c"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#afe556989e5153e3fd964baf4cfc18c1c">streamingVersion</a> {0x2112'01'01}</td></tr>
 <tr class="separator:afe556989e5153e3fd964baf4cfc18c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab48a58f8cb4f8fcc54cf6f3c76f41045" id="r_ab48a58f8cb4f8fcc54cf6f3c76f41045"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ab48a58f8cb4f8fcc54cf6f3c76f41045">sampleMemoryInBytes</a> {0}</td></tr>
 <tr class="separator:ab48a58f8cb4f8fcc54cf6f3c76f41045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a182310d2ad62dd237359bdcff05c7cde" id="r_a182310d2ad62dd237359bdcff05c7cde"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a182310d2ad62dd237359bdcff05c7cde">relativeSentinel</a> = &quot;SCXT_RELATIVE_PATH_MARKER&quot;</td></tr>
+<tr class="separator:a182310d2ad62dd237359bdcff05c7cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -315,7 +333,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#afdaec00e75d76173d9a0e57d97da359e">Sample::SampleFileAddress::instrument</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51">SampleManager::loadSampleByPath()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a92965dae36866e580804751a3fca376e">SampleManager::loadSampleFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ace95d78ce342e49a9b6ee31cf846540b">SampleManager::loadSampleFromMultiSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74">SampleManager::loadSampleFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#a2e9d3076c7fd698357ca478e223b7286">Sample::SampleFileAddress::preset</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#ae65983b9419c48cac6d5b2340adaa501">Sample::SampleFileAddress::region</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#a659c5e90d6038a3e6e806eee3985d115">Sample::SampleFileAddress::type</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#afdaec00e75d76173d9a0e57d97da359e">Sample::SampleFileAddress::instrument</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51">SampleManager::loadSampleByPath()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a92965dae36866e580804751a3fca376e">SampleManager::loadSampleFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ace95d78ce342e49a9b6ee31cf846540b">SampleManager::loadSampleFromMultiSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74">SampleManager::loadSampleFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#a2e9d3076c7fd698357ca478e223b7286">Sample::SampleFileAddress::preset</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#ae65983b9419c48cac6d5b2340adaa501">Sample::SampleFileAddress::region</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#a659c5e90d6038a3e6e806eee3985d115">Sample::SampleFileAddress::type</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a62462e265230f69a9d3db6e4ef303023">SampleManager::restoreFromSampleAddressesAndIDs()</a>.</p>
 
@@ -593,6 +611,84 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="acc878fb389db2492565b6b209be97255" name="acc878fb389db2492565b6b209be97255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc878fb389db2492565b6b209be97255">&#9670;&#160;</a></span>reparentSamplesOnStreamToRelative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void reparentSamplesOnStreamToRelative </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>newParent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a182310d2ad62dd237359bdcff05c7cde">SampleManager::relativeSentinel</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488">SampleManager::reparentPath</a>.</p>
+
+</div>
+</div>
+<a id="aaf34c08cbdeb6df67b490637797d3046" name="aaf34c08cbdeb6df67b490637797d3046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf34c08cbdeb6df67b490637797d3046">&#9670;&#160;</a></span>clearReparenting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearReparenting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488">SampleManager::reparentPath</a>.</p>
+
+</div>
+</div>
+<a id="a73e77d2eebacafea29a33246627ae0ef" name="a73e77d2eebacafea29a33246627ae0ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e77d2eebacafea29a33246627ae0ef">&#9670;&#160;</a></span>setRelativeRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setRelativeRoot </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a30cbb1ec3eebb8119cfffbf84de3430a">SampleManager::relativeRoot</a>.</p>
+
+</div>
+</div>
+<a id="abb2b951f6e4acb9dea75e4041693dd5d" name="abb2b951f6e4acb9dea75e4041693dd5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2b951f6e4acb9dea75e4041693dd5d">&#9670;&#160;</a></span>clearRelativeRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearRelativeRoot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a30cbb1ec3eebb8119cfffbf84de3430a">SampleManager::relativeRoot</a>.</p>
+
+</div>
+</div>
 <a id="a3662f77c43717af20e6fa9f73964abf0" name="a3662f77c43717af20e6fa9f73964abf0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3662f77c43717af20e6fa9f73964abf0">&#9670;&#160;</a></span>getSampleAddressesAndIDs()</h2>
 
@@ -607,6 +703,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488">SampleManager::reparentPath</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 </div>
 </div>
@@ -646,7 +744,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">SampleManager::addIdAlias()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">SampleManager::addIdAlias()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a30cbb1ec3eebb8119cfffbf84de3430a">SampleManager::relativeRoot</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a182310d2ad62dd237359bdcff05c7cde">SampleManager::relativeSentinel</a>.</p>
 
 </div>
 </div>
@@ -791,6 +889,62 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a25d8a506f26819e43d520ec760125488" name="a25d8a506f26819e43d520ec760125488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d8a506f26819e43d520ec760125488">&#9670;&#160;</a></span>reparentPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fs::path reparentPath</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aaf34c08cbdeb6df67b490637797d3046">SampleManager::clearReparenting()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a3662f77c43717af20e6fa9f73964abf0">SampleManager::getSampleAddressesAndIDs()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#acc878fb389db2492565b6b209be97255">SampleManager::reparentSamplesOnStreamToRelative()</a>.</p>
+
+</div>
+</div>
+<a id="a182310d2ad62dd237359bdcff05c7cde" name="a182310d2ad62dd237359bdcff05c7cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182310d2ad62dd237359bdcff05c7cde">&#9670;&#160;</a></span>relativeSentinel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* relativeSentinel = &quot;SCXT_RELATIVE_PATH_MARKER&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#acc878fb389db2492565b6b209be97255">SampleManager::reparentSamplesOnStreamToRelative()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a62462e265230f69a9d3db6e4ef303023">SampleManager::restoreFromSampleAddressesAndIDs()</a>.</p>
+
+</div>
+</div>
+<a id="a30cbb1ec3eebb8119cfffbf84de3430a" name="a30cbb1ec3eebb8119cfffbf84de3430a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30cbb1ec3eebb8119cfffbf84de3430a">&#9670;&#160;</a></span>relativeRoot</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fs::path relativeRoot</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#abb2b951f6e4acb9dea75e4041693dd5d">SampleManager::clearRelativeRoot()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a62462e265230f69a9d3db6e4ef303023">SampleManager::restoreFromSampleAddressesAndIDs()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a73e77d2eebacafea29a33246627ae0ef">SampleManager::setRelativeRoot()</a>.</p>
+
+</div>
+</div>
 <a id="afe556989e5153e3fd964baf4cfc18c1c" name="afe556989e5153e3fd964baf4cfc18c1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe556989e5153e3fd964baf4cfc18c1c">&#9670;&#160;</a></span>streamingVersion</h2>
 
@@ -830,7 +984,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 5 2025 13:13:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Apr 5 2025 19:33:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

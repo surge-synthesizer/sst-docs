@@ -96,6 +96,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">patch_io.h File Reference</div></div>
 </div><!--header-->
@@ -108,14 +109,22 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacescxt_1_1patch__io" id="r_namespacescxt_1_1patch__io"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html">scxt::patch_io</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a3581f6f1928496586a0cac5def142324" id="r_a3581f6f1928496586a0cac5def142324"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> { <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324acbdb47ddac475cdec049e12565669750">NO_SAMPLES</a> = 0
+, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>
+, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>
+ }</td></tr>
+<tr class="separator:a3581f6f1928496586a0cac5def142324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4c78d4133b45117423f51367cfd9e87b" id="r_a4c78d4133b45117423f51367cfd9e87b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a4c78d4133b45117423f51367cfd9e87b">saveMulti</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e)</td></tr>
-<tr class="separator:a4c78d4133b45117423f51367cfd9e87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93907272a9916a66689f8d2f460802e0" id="r_a93907272a9916a66689f8d2f460802e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a93907272a9916a66689f8d2f460802e0">saveMulti</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> style)</td></tr>
+<tr class="separator:a93907272a9916a66689f8d2f460802e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8355d53952166b1b89bf9c1339bfeb9" id="r_ad8355d53952166b1b89bf9c1339bfeb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine)</td></tr>
 <tr class="separator:ad8355d53952166b1b89bf9c1339bfeb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba727a60097c4fcf0b2b63e99340d7b7" id="r_aba727a60097c4fcf0b2b63e99340d7b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aba727a60097c4fcf0b2b63e99340d7b7">savePart</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
-<tr class="separator:aba727a60097c4fcf0b2b63e99340d7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64890f31868ae92f548c1384a7105031" id="r_a64890f31868ae92f548c1384a7105031"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a64890f31868ae92f548c1384a7105031">savePart</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">patch_io::SaveStyles</a> style)</td></tr>
+<tr class="separator:a64890f31868ae92f548c1384a7105031"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7afd64ec278fef13b0b8c2d88cbc1784" id="r_a7afd64ec278fef13b0b8c2d88cbc1784"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine, int part)</td></tr>
 <tr class="separator:a7afd64ec278fef13b0b8c2d88cbc1784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c0ed19b5ae406ac8e0d85d9ae8dfc1a" id="r_a7c0ed19b5ae406ac8e0d85d9ae8dfc1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7c0ed19b5ae406ac8e0d85d9ae8dfc1a">initFromResourceBundle</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine, const std::string &amp;file)</td></tr>
@@ -124,7 +133,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 5 2025 13:13:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Apr 5 2025 19:33:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
