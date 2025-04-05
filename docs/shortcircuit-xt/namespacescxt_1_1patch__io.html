@@ -121,6 +121,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab53677d4f59db26386c917d3ee238772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed4d91a4527daacf5f872b72f10600eb" id="r_aed4d91a4527daacf5f872b72f10600eb"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; fs::path, fs::path, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection</a> (const fs::path &amp;path)</td></tr>
 <tr class="separator:aed4d91a4527daacf5f872b72f10600eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c6fa3ed7c917d1efdc45c490d0832b" id="r_a39c6fa3ed7c917d1efdc45c490d0832b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b">getSamplePathsFor</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
+<tr class="separator:a39c6fa3ed7c917d1efdc45c490d0832b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a204f3f3c695f6b1902a6a4cb554b1a27" id="r_a204f3f3c695f6b1902a6a4cb554b1a27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto</a> (const fs::path &amp;collectDir, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
 <tr class="separator:a204f3f3c695f6b1902a6a4cb554b1a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93907272a9916a66689f8d2f460802e0" id="r_a93907272a9916a66689f8d2f460802e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a93907272a9916a66689f8d2f460802e0">saveMulti</a> (const fs::path &amp;p, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> style)</td></tr>
@@ -275,6 +277,38 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a39c6fa3ed7c917d1efdc45c490d0832b" name="a39c6fa3ed7c917d1efdc45c490d0832b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c6fa3ed7c917d1efdc45c490d0832b">&#9670;&#160;</a></span>getSamplePathsFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a> getSamplePathsFor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>.</p>
+
+</div>
+</div>
 <a id="a204f3f3c695f6b1902a6a4cb554b1a27" name="a204f3f3c695f6b1902a6a4cb554b1a27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a204f3f3c695f6b1902a6a4cb554b1a27">&#9670;&#160;</a></span>collectSamplesInto()</h2>
 
@@ -307,7 +341,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b">getSamplePathsFor()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a93907272a9916a66689f8d2f460802e0">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a64890f31868ae92f548c1384a7105031">savePart()</a>.</p>
 
@@ -500,7 +534,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 5 2025 21:36:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Apr 5 2025 22:02:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
