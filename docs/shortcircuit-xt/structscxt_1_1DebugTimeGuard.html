@@ -112,8 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a027b3c60259c1eeefdb4f493ea9fd2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ceaa1c460d05316b221d557d2165091" id="r_a3ceaa1c460d05316b221d557d2165091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1DebugTimeGuard.html#a3ceaa1c460d05316b221d557d2165091">stamp</a> (const std::string &amp;m)</td></tr>
 <tr class="separator:a3ceaa1c460d05316b221d557d2165091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a4338c9e99e554244ccb9f1c65e74b" id="r_ad9a4338c9e99e554244ccb9f1c65e74b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1DebugTimeGuard.html#ad9a4338c9e99e554244ccb9f1c65e74b">print</a> (int64_t t, const std::string &amp;extraMsg=&quot;&quot;)</td></tr>
-<tr class="separator:ad9a4338c9e99e554244ccb9f1c65e74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c39b157cec06c4cbb5b7d8526d31558" id="r_a9c39b157cec06c4cbb5b7d8526d31558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1DebugTimeGuard.html#a9c39b157cec06c4cbb5b7d8526d31558">print</a> (int64_t t, const std::string &amp;extraMsg=&quot;&quot;, int64_t t2=-1)</td></tr>
+<tr class="separator:a9c39b157cec06c4cbb5b7d8526d31558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -125,6 +125,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a178448bb4d6d83c01610fec5d40f7c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46dea58f2d527f376090214bd5c3233d" id="r_a46dea58f2d527f376090214bd5c3233d"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::high_resolution_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1DebugTimeGuard.html#a46dea58f2d527f376090214bd5c3233d">start</a></td></tr>
 <tr class="separator:a46dea58f2d527f376090214bd5c3233d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bf00c54d616b17dd495f10c5641a69" id="r_ab5bf00c54d616b17dd495f10c5641a69"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::high_resolution_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1DebugTimeGuard.html#ab5bf00c54d616b17dd495f10c5641a69">laststamp</a></td></tr>
+<tr class="separator:ab5bf00c54d616b17dd495f10c5641a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af7faeee4aca7fb48a97c0cca876610f0" name="af7faeee4aca7fb48a97c0cca876610f0"></a>
@@ -197,8 +199,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9a4338c9e99e554244ccb9f1c65e74b" name="ad9a4338c9e99e554244ccb9f1c65e74b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9a4338c9e99e554244ccb9f1c65e74b">&#9670;&#160;</a></span>print()</h2>
+<a id="a9c39b157cec06c4cbb5b7d8526d31558" name="a9c39b157cec06c4cbb5b7d8526d31558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c39b157cec06c4cbb5b7d8526d31558">&#9670;&#160;</a></span>print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +215,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>extraMsg</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>extraMsg</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>t2</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -284,13 +292,27 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab5bf00c54d616b17dd495f10c5641a69" name="ab5bf00c54d616b17dd495f10c5641a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bf00c54d616b17dd495f10c5641a69">&#9670;&#160;</a></span>laststamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::time_point&lt;std::chrono::high_resolution_clock&gt; laststamp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="utils_8h.html">utils.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 6 2025 19:49:38 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Apr 6 2025 23:16:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
