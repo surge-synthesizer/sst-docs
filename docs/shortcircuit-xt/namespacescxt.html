@@ -190,6 +190,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ac3b63530fd3797bf5d14f3ccf9386928" id="r_ac3b63530fd3797bf5d14f3ccf9386928"><td class="memTemplParams" colspan="2">template&lt;typename E , std::string(*)(const E &amp;) F&gt; </td></tr>
 <tr class="memitem:ac3b63530fd3797bf5d14f3ccf9386928"><td class="memTemplItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, E &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt.html#ac3b63530fd3797bf5d14f3ccf9386928">makeEnumInverse</a> (const E &amp;from, const E &amp;to)</td></tr>
 <tr class="separator:ac3b63530fd3797bf5d14f3ccf9386928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0155cfe546d671568bf6348a61fdfb54" id="r_a0155cfe546d671568bf6348a61fdfb54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54">extensionStringMatches</a> (const std::string &amp;pes, const std::string &amp;s)</td></tr>
+<tr class="separator:a0155cfe546d671568bf6348a61fdfb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a606be123afc606046b0b1d315f755cf1" id="r_a606be123afc606046b0b1d315f755cf1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">extensionMatches</a> (const fs::path &amp;p, const std::string &amp;s)</td></tr>
 <tr class="separator:a606be123afc606046b0b1d315f755cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90be79419d34cf9126b4ed93fa4b9158" id="r_a90be79419d34cf9126b4ed93fa4b9158"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158">humanReadableVersion</a> (uint64_t v)</td></tr>
@@ -392,6 +394,38 @@ template&lt;typename E , std::string(*)(const E &amp;) F&gt; </div>
 
 </div>
 </div>
+<a id="a0155cfe546d671568bf6348a61fdfb54" name="a0155cfe546d671568bf6348a61fdfb54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0155cfe546d671568bf6348a61fdfb54">&#9670;&#160;</a></span>extensionStringMatches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool extensionStringMatches </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54">extensionStringMatches()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">extensionMatches()</a>, and <a class="el" href="namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54">extensionStringMatches()</a>.</p>
+
+</div>
+</div>
 <a id="a606be123afc606046b0b1d315f755cf1" name="a606be123afc606046b0b1d315f755cf1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a606be123afc606046b0b1d315f755cf1">&#9670;&#160;</a></span>extensionMatches()</h2>
 
@@ -418,9 +452,9 @@ template&lt;typename E , std::string(*)(const E &amp;) F&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">extensionMatches()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">extensionMatches()</a>, and <a class="el" href="namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54">extensionStringMatches()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a1d753333cfc34e17d0ec466a654cc797">Browser::expandForBrowser()</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">extensionMatches()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a36e8f173b50196dfab1c0222536fbdff">scxt::sample::compound::getSFZCompoundList()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae40977ac95cf767240590dd5c2699322">Browser::isLoadableMultiSample()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a2749140dd8f84984c567136f3eb582a0">Browser::isLoadableSingleSample()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a253c670baba39ed000d6ae6ab06b08be">Browser::isShortCircuitFormatFile()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b">Engine::loadSampleIntoZone()</a>, <a class="el" href="namespacescxt_1_1engine.html#a6fc1542075401a7cb697eb7667c031ca">scxt::engine::resolveMultiFileMissingWorkItem()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa65213e0fb4eebf2d0cf51f6fa66cac5">Sample::sourceTypeFromPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1Browser.html#a1d753333cfc34e17d0ec466a654cc797">Browser::expandForBrowser()</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">extensionMatches()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a36e8f173b50196dfab1c0222536fbdff">scxt::sample::compound::getSFZCompoundList()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#ae40977ac95cf767240590dd5c2699322">Browser::isLoadableMultiSample()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a2749140dd8f84984c567136f3eb582a0">Browser::isLoadableSingleSample()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a253c670baba39ed000d6ae6ab06b08be">Browser::isShortCircuitFormatFile()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9f5547d43274c4f1cfbd8518bd61f402">Sample::loadFromSCXTMonolith()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b">Engine::loadSampleIntoZone()</a>, <a class="el" href="namespacescxt_1_1engine.html#a6fc1542075401a7cb697eb7667c031ca">scxt::engine::resolveMultiFileMissingWorkItem()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa65213e0fb4eebf2d0cf51f6fa66cac5">Sample::sourceTypeFromPath()</a>.</p>
 
 </div>
 </div>
@@ -482,7 +516,7 @@ template&lt;typename E , std::string(*)(const E &amp;) F&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 5 2025 22:02:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Apr 6 2025 15:14:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

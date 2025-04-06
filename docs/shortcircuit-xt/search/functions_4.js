@@ -21,7 +21,7 @@ var searchData=
   ['enqueueworkitem_18',['enqueueworkitem',['../structscxt_1_1browser_1_1ScanWorker.html#a66e3782283c1e47785c9b5a63dffabc7',1,'scxt::browser::ScanWorker::enqueueWorkItem()'],['../structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7',1,'scxt::browser::WriterWorker::enqueueWorkItem()']]],
   ['enqueueworklowpri_19',['enqueueWorkLowPri',['../structscxt_1_1browser_1_1ScanWorker.html#a359edf8ff7d2c8682c937029809888fd',1,'scxt::browser::ScanWorker']]],
   ['env_20',['Env',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Env.html#acace3662f451cd029bee5899be3e24e7',1,'scxt::modulation::shared::LFOTargetEndpointData::Env']]],
-  ['envelope_5frate_5flinear_5fnowrap_21',['envelope_rate_linear_nowrap',['../structscxt_1_1voice_1_1Voice.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::voice::Voice::envelope_rate_linear_nowrap()'],['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::modulation::modulators::CurveLFO::envelope_rate_linear_nowrap()'],['../structscxt_1_1engine_1_1Group.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::engine::Group::envelope_rate_linear_nowrap()'],['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::modulation::modulators::EnvLFO::envelope_rate_linear_nowrap()']]],
+  ['envelope_5frate_5flinear_5fnowrap_21',['envelope_rate_linear_nowrap',['../structscxt_1_1voice_1_1Voice.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::voice::Voice::envelope_rate_linear_nowrap()'],['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::modulation::modulators::EnvLFO::envelope_rate_linear_nowrap()'],['../structscxt_1_1engine_1_1Group.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::engine::Group::envelope_rate_linear_nowrap()'],['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abf843557abaa8bfcda9b93d659b14322',1,'scxt::modulation::modulators::CurveLFO::envelope_rate_linear_nowrap()']]],
   ['enveloperatelinear_22',['envelopeRateLinear',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a9365d96ae627de81b4c0651fcd54e4f0',1,'scxt::engine::dtl::Config']]],
   ['envelopethirtytwo_23',['envelopeThirtyTwo',['../modulator__storage_8h.html#a214c3e8419135d54d1d1553fec32b794',1,'modulator_storage.h']]],
   ['envlfopane_24',['ENVLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#ac74c54a9bda9331f2c36ab8168b4dddb',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
@@ -44,5 +44,6 @@ var searchData=
   ['exsobject_41',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html#a54f86fac8834b230bedf087caaa7c636',1,'scxt::exs_support::EXSObject']]],
   ['exssample_42',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html#a3d795e2ccac42ab6d395c88bb8c0c5db',1,'scxt::exs_support::EXSSample']]],
   ['exszone_43',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html#a68070d07b2f5fe164e23331831a9bb6b',1,'scxt::exs_support::EXSZone']]],
-  ['extensionmatches_44',['extensionMatches',['../namespacescxt.html#a606be123afc606046b0b1d315f755cf1',1,'scxt']]]
+  ['extensionmatches_44',['extensionMatches',['../namespacescxt.html#a606be123afc606046b0b1d315f755cf1',1,'scxt']]],
+  ['extensionstringmatches_45',['extensionStringMatches',['../namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54',1,'scxt']]]
 ];

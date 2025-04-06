@@ -95,12 +95,18 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">scxt::patch_io Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html">SCMonolithSampleReader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a3581f6f1928496586a0cac5def142324" id="r_a3581f6f1928496586a0cac5def142324"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> { <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324acbdb47ddac475cdec049e12565669750">NO_SAMPLES</a> = 0
@@ -113,12 +119,20 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:acca601d4e7f184b9245c927374e5d67b" id="r_acca601d4e7f184b9245c927374e5d67b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, const std::string &amp;type)</td></tr>
 <tr class="separator:acca601d4e7f184b9245c927374e5d67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccb8435faf85d0462157f92017beaf3" id="r_a8ccb8435faf85d0462157f92017beaf3"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a8ccb8435faf85d0462157f92017beaf3">readSCManifest</a> (RIFF::File *f)</td></tr>
+<tr class="separator:a8ccb8435faf85d0462157f92017beaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a777eabc53592b01ba6611928c7a46d62" id="r_a777eabc53592b01ba6611928c7a46d62"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a777eabc53592b01ba6611928c7a46d62">readSCManifest</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f)</td></tr>
 <tr class="separator:a777eabc53592b01ba6611928c7a46d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba0fdb9dc8116c9fe0e7c327ccb423c4" id="r_aba0fdb9dc8116c9fe0e7c327ccb423c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, const std::string &amp;msg)</td></tr>
 <tr class="separator:aba0fdb9dc8116c9fe0e7c327ccb423c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53677d4f59db26386c917d3ee238772" id="r_ab53677d4f59db26386c917d3ee238772"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ab53677d4f59db26386c917d3ee238772">readSCDataChunk</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f)</td></tr>
 <tr class="separator:ab53677d4f59db26386c917d3ee238772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1156b4897a68f63c2274011b5d38ed87" id="r_a1156b4897a68f63c2274011b5d38ed87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a> &amp;addThese)</td></tr>
+<tr class="separator:a1156b4897a68f63c2274011b5d38ed87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e83e0fd85d3fb5083bb4a52b50543bb" id="r_a1e83e0fd85d3fb5083bb4a52b50543bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a1e83e0fd85d3fb5083bb4a52b50543bb">hasMonolithBinaries</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f)</td></tr>
+<tr class="separator:a1e83e0fd85d3fb5083bb4a52b50543bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0206ee630bee1c8b54109acd790eed" id="r_a7a0206ee630bee1c8b54109acd790eed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7a0206ee630bee1c8b54109acd790eed">readMonolithBinaryIndex</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
+<tr class="separator:a7a0206ee630bee1c8b54109acd790eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed4d91a4527daacf5f872b72f10600eb" id="r_aed4d91a4527daacf5f872b72f10600eb"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; fs::path, fs::path, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection</a> (const fs::path &amp;path)</td></tr>
 <tr class="separator:aed4d91a4527daacf5f872b72f10600eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c6fa3ed7c917d1efdc45c490d0832b" id="r_a39c6fa3ed7c917d1efdc45c490d0832b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b">getSamplePathsFor</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
@@ -187,8 +201,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8ccb8435faf85d0462157f92017beaf3" name="a8ccb8435faf85d0462157f92017beaf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ccb8435faf85d0462157f92017beaf3">&#9670;&#160;</a></span>readSCManifest() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt; std::string, std::string &gt; readSCManifest </td>
+          <td>(</td>
+          <td class="paramtype">RIFF::File *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a777eabc53592b01ba6611928c7a46d62">readSCManifest()</a>, and <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#a7661b73e0ef50e604053385cdaa8484a">SCMonolithSampleReader::SCMonolithSampleReader()</a>.</p>
+
+</div>
+</div>
 <a id="a777eabc53592b01ba6611928c7a46d62" name="a777eabc53592b01ba6611928c7a46d62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a777eabc53592b01ba6611928c7a46d62">&#9670;&#160;</a></span>readSCManifest()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a777eabc53592b01ba6611928c7a46d62">&#9670;&#160;</a></span>readSCManifest() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +237,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a8ccb8435faf85d0462157f92017beaf3">readSCManifest()</a>.</p>
 
 </div>
 </div>
@@ -257,6 +291,96 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1156b4897a68f63c2274011b5d38ed87" name="a1156b4897a68f63c2274011b5d38ed87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1156b4897a68f63c2274011b5d38ed87">&#9670;&#160;</a></span>addMonolithBinaries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool addMonolithBinaries </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; RIFF::File &gt; &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>addThese</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1browser_1_1Browser.html#a2749140dd8f84984c567136f3eb582a0">Browser::isLoadableSingleSample()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a93907272a9916a66689f8d2f460802e0">saveMulti()</a>.</p>
+
+</div>
+</div>
+<a id="a1e83e0fd85d3fb5083bb4a52b50543bb" name="a1e83e0fd85d3fb5083bb4a52b50543bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e83e0fd85d3fb5083bb4a52b50543bb">&#9670;&#160;</a></span>hasMonolithBinaries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasMonolithBinaries </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; RIFF::File &gt; &amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>.</p>
+
+</div>
+</div>
+<a id="a7a0206ee630bee1c8b54109acd790eed" name="a7a0206ee630bee1c8b54109acd790eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0206ee630bee1c8b54109acd790eed">&#9670;&#160;</a></span>readMonolithBinaryIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; fs::path &gt; readMonolithBinaryIndex </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; RIFF::File &gt; &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">loadMulti()</a>.</p>
+
+</div>
+</div>
 <a id="aed4d91a4527daacf5f872b72f10600eb" name="aed4d91a4527daacf5f872b72f10600eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed4d91a4527daacf5f872b72f10600eb">&#9670;&#160;</a></span>setupForCollection()</h2>
 
@@ -305,7 +429,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a93907272a9916a66689f8d2f460802e0">saveMulti()</a>.</p>
 
 </div>
 </div>
@@ -341,7 +465,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b">getSamplePathsFor()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b">getSamplePathsFor()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a93907272a9916a66689f8d2f460802e0">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a64890f31868ae92f548c1384a7105031">savePart()</a>.</p>
 
@@ -379,7 +503,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b">getSamplePathsFor()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9572701c935cfcbb82d9798f5363af28">scxt::messaging::client::doSaveMulti()</a>.</p>
 
@@ -487,7 +611,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab53677d4f59db26386c917d3ee238772">readSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a777eabc53592b01ba6611928c7a46d62">readSCManifest()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a1e83e0fd85d3fb5083bb4a52b50543bb">hasMonolithBinaries()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9accfb8f190d6cc9914ce8335358624f">Engine::immediatelyTerminateAllVoices()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a7a0206ee630bee1c8b54109acd790eed">readMonolithBinaryIndex()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab53677d4f59db26386c917d3ee238772">readSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a8ccb8435faf85d0462157f92017beaf3">readSCManifest()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1json.html#acddb4f9a5bc14015b119dde106fab7d1">scxt::json::unstreamEngineState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="init-maker_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 
@@ -525,16 +649,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab53677d4f59db26386c917d3ee238772">readSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a777eabc53592b01ba6611928c7a46d62">readSCManifest()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab53677d4f59db26386c917d3ee238772">readSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a8ccb8435faf85d0462157f92017beaf3">readSCManifest()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa16fc3b75d06fdd59a628c63633f5bb3">scxt::messaging::client::doLoadPartInto()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa16fc3b75d06fdd59a628c63633f5bb3">scxt::messaging::client::doLoadPartInto()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 5 2025 22:02:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Apr 6 2025 15:14:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
