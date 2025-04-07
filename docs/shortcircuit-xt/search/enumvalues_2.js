@@ -46,7 +46,7 @@ var searchData=
   ['c2s_5freset_5fengine_43',['c2s_reset_engine',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af246aacc17ed04c171481265d3259b70',1,'scxt::messaging::client']]],
   ['c2s_5fresolve_5fsample_44',['c2s_resolve_sample',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a82ef4e26a14494de230363dbc95cbd12',1,'scxt::messaging::client']]],
   ['c2s_5fsave_5fmulti_45',['c2s_save_multi',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abfd7992ea0ad6c77fef40758068bcaf9',1,'scxt::messaging::client']]],
-  ['c2s_5fsave_5fselected_5fpart_46',['c2s_save_selected_part',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa6012e11b8c25bcd911c392f33b2dec9',1,'scxt::messaging::client']]],
+  ['c2s_5fsave_5fpart_46',['c2s_save_part',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a75b7c76bbda52b5ef1405219ad10b56d',1,'scxt::messaging::client']]],
   ['c2s_5fselect_5fpart_47',['c2s_select_part',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ac20713f748fa6e71f5b7f32f8d8b7c67',1,'scxt::messaging::client']]],
   ['c2s_5fsend_5ffull_5fpart_5fconfig_48',['c2s_send_full_part_config',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a18c23a001da74389dfe73ab5077e4ce2',1,'scxt::messaging::client']]],
   ['c2s_5fset_5fmacro_5ffull_5fstate_49',['c2s_set_macro_full_state',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abe5afa1afc7cad1b8d44037cb30ed31d',1,'scxt::messaging::client']]],

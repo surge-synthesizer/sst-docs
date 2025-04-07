@@ -68,7 +68,7 @@ var searchData=
   ['lfo_5fsine_65',['LFO_SINE',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281dae718b942b5b3a0bbea5599de70c6fab0',1,'scxt::modulation::ModulatorStorage']]],
   ['lfo_5fsmooth_5fnoise_66',['LFO_SMOOTH_NOISE',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281da21fd957b122f20c5a0e35a189a7d8f10',1,'scxt::modulation::ModulatorStorage']]],
   ['lfo_5ftri_67',['LFO_TRI',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281da85d655b9be3e0d865feee4f54f9993b1',1,'scxt::modulation::ModulatorStorage']]],
-  ['lfoevaluator_68',['lfoevaluator',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a83308dd900b9570be1b702d279fbb13c',1,'scxt::modulation::shared::HasModulators::lfoEvaluator'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08',1,'scxt::modulation::shared::HasModulators::LFOEvaluator']]],
+  ['lfoevaluator_68',['lfoevaluator',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08',1,'scxt::modulation::shared::HasModulators::LFOEvaluator'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a83308dd900b9570be1b702d279fbb13c',1,'scxt::modulation::shared::HasModulators::lfoEvaluator']]],
   ['lfopane_69',['lfopane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html',1,'LfoPane'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a4e0bd0c4b619b7958cb7769db23dea95',1,'scxt::ui::app::edit_screen::LfoPane::LfoPane()']]],
   ['lfopane_2ecpp_70',['LFOPane.cpp',['../LFOPane_8cpp.html',1,'']]],
   ['lfopane_2eh_71',['LFOPane.h',['../LFOPane_8h.html',1,'']]],

@@ -169,8 +169,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a66e35a9241690bfa0ea71a9376cbee12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af376552cb372ac4d0224c55478803b6e" id="r_af376552cb372ac4d0224c55478803b6e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af376552cb372ac4d0224c55478803b6e">partConfigurationPayload_t</a> = std::pair&lt; int16_t, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html">scxt::engine::Part::PartConfiguration</a> &gt;</td></tr>
 <tr class="separator:af376552cb372ac4d0224c55478803b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4feee0cdc4212845c769d0f61db37cdd" id="r_a4feee0cdc4212845c769d0f61db37cdd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a> = std::tuple&lt; std::string, int &gt;</td></tr>
-<tr class="separator:a4feee0cdc4212845c769d0f61db37cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd742dc45590b1e56f431a1a6869c38f" id="r_abd742dc45590b1e56f431a1a6869c38f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#abd742dc45590b1e56f431a1a6869c38f">saveMultiPayload_t</a> = std::tuple&lt; std::string, int &gt;</td></tr>
+<tr class="separator:abd742dc45590b1e56f431a1a6869c38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aeceb7a154e2c01424546ea921c249c" id="r_a2aeceb7a154e2c01424546ea921c249c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c">savePartPayload_t</a> = std::tuple&lt; std::string, int, int &gt;</td></tr>
+<tr class="separator:a2aeceb7a154e2c01424546ea921c249c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29b7aef2255d4b9256f8fe666eac11a" id="r_aa29b7aef2255d4b9256f8fe666eac11a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa29b7aef2255d4b9256f8fe666eac11a">loadPartIntoPayload_t</a> = std::tuple&lt; std::string, int16_t &gt;</td></tr>
 <tr class="separator:aa29b7aef2255d4b9256f8fe666eac11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad15dc6ce29f91d93e17c7034e4aa0bac" id="r_ad15dc6ce29f91d93e17c7034e4aa0bac"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; bool, int, bool, <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html">dsp::processor::ProcessorControlDescription</a>, <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">dsp::processor::ProcessorStorage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad15dc6ce29f91d93e17c7034e4aa0bac">processorDataResponsePayload_t</a></td></tr>
@@ -216,7 +218,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a383a1f62163a2de8f7074e2a8e95246a">c2s_unstream_engine_state</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abfd7992ea0ad6c77fef40758068bcaf9">c2s_save_multi</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa6012e11b8c25bcd911c392f33b2dec9">c2s_save_selected_part</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a75b7c76bbda52b5ef1405219ad10b56d">c2s_save_part</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a613f684cbc80ecd1e92e93e10d9b02dd">c2s_load_multi</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af6bad68b3a45860d320da258bb0c622a">c2s_load_part_into</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aebc52af0bbb3a88bc12c1396ccc60725">c2s_apply_select_action</a>
@@ -539,16 +541,16 @@ Functions</h2></td></tr>
 <tr class="separator:a41751f307fd480d6ed41811ab26caec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97705e301a001918e0ff5ec15d807f55" id="r_a97705e301a001918e0ff5ec15d807f55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a97705e301a001918e0ff5ec15d807f55">CLIENT_TO_SERIAL</a> (UpdatePartFullConfig, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a18c23a001da74389dfe73ab5077e4ce2">c2s_send_full_part_config</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af376552cb372ac4d0224c55478803b6e">partConfigurationPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a41751f307fd480d6ed41811ab26caec7">updatePartFullConfig</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:a97705e301a001918e0ff5ec15d807f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9572701c935cfcbb82d9798f5363af28" id="r_a9572701c935cfcbb82d9798f5363af28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9572701c935cfcbb82d9798f5363af28">doSaveMulti</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a> &amp;pl, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
-<tr class="separator:a9572701c935cfcbb82d9798f5363af28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac825564eac663bab74f0ea790c432080" id="r_ac825564eac663bab74f0ea790c432080"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac825564eac663bab74f0ea790c432080">CLIENT_TO_SERIAL</a> (SaveMulti, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abfd7992ea0ad6c77fef40758068bcaf9">c2s_save_multi</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9572701c935cfcbb82d9798f5363af28">doSaveMulti</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
-<tr class="separator:ac825564eac663bab74f0ea790c432080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0344b63f3c55dbab316051d3c855ac" id="r_a9d0344b63f3c55dbab316051d3c855ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac">doSaveMulti</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abd742dc45590b1e56f431a1a6869c38f">saveMultiPayload_t</a> &amp;pl, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="separator:a9d0344b63f3c55dbab316051d3c855ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7348c08447c4965c7dd80cdd4033876d" id="r_a7348c08447c4965c7dd80cdd4033876d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7348c08447c4965c7dd80cdd4033876d">CLIENT_TO_SERIAL</a> (SaveMulti, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abfd7992ea0ad6c77fef40758068bcaf9">c2s_save_multi</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abd742dc45590b1e56f431a1a6869c38f">saveMultiPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac">doSaveMulti</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="separator:a7348c08447c4965c7dd80cdd4033876d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc933ce8f3c9eb745396ad485b57fc00" id="r_acc933ce8f3c9eb745396ad485b57fc00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#acc933ce8f3c9eb745396ad485b57fc00">CLIENT_TO_SERIAL</a> (LoadMulti, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a613f684cbc80ecd1e92e93e10d9b02dd">c2s_load_multi</a>, std::string, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">patch_io::loadMulti</a>(fs::path(fs::u8path(payload)), <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>))</td></tr>
 <tr class="separator:acc933ce8f3c9eb745396ad485b57fc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a461081444a90ddfcfe39e83e15dc8a59" id="r_a461081444a90ddfcfe39e83e15dc8a59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a461081444a90ddfcfe39e83e15dc8a59">doSaveSelectedPart</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a> &amp;pl, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
-<tr class="separator:a461081444a90ddfcfe39e83e15dc8a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a0c8c7b67b149d73266062e8ce03706" id="r_a6a0c8c7b67b149d73266062e8ce03706"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6a0c8c7b67b149d73266062e8ce03706">CLIENT_TO_SERIAL</a> (SaveSelectedPart, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa6012e11b8c25bcd911c392f33b2dec9">c2s_save_selected_part</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a461081444a90ddfcfe39e83e15dc8a59">doSaveSelectedPart</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
-<tr class="separator:a6a0c8c7b67b149d73266062e8ce03706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5e4226cd11877b35bf8f75f0500387" id="r_a1b5e4226cd11877b35bf8f75f0500387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387">doSavePart</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c">savePartPayload_t</a> &amp;pl, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="separator:a1b5e4226cd11877b35bf8f75f0500387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0894bba2767e38fb0d70f0ad1661a7c9" id="r_a0894bba2767e38fb0d70f0ad1661a7c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0894bba2767e38fb0d70f0ad1661a7c9">CLIENT_TO_SERIAL</a> (SavePart, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a75b7c76bbda52b5ef1405219ad10b56d">c2s_save_part</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c">savePartPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387">doSavePart</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="separator:a0894bba2767e38fb0d70f0ad1661a7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16fc3b75d06fdd59a628c63633f5bb3" id="r_aa16fc3b75d06fdd59a628c63633f5bb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa16fc3b75d06fdd59a628c63633f5bb3">doLoadPartInto</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa29b7aef2255d4b9256f8fe666eac11a">loadPartIntoPayload_t</a> &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
 <tr class="separator:aa16fc3b75d06fdd59a628c63633f5bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63508f67947453ef303815ccd473a5fd" id="r_a63508f67947453ef303815ccd473a5fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a63508f67947453ef303815ccd473a5fd">CLIENT_TO_SERIAL</a> (LoadPartInto, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af6bad68b3a45860d320da258bb0c622a">c2s_load_part_into</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa29b7aef2255d4b9256f8fe666eac11a">loadPartIntoPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa16fc3b75d06fdd59a628c63633f5bb3">doLoadPartInto</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
@@ -1058,14 +1060,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4feee0cdc4212845c769d0f61db37cdd" name="a4feee0cdc4212845c769d0f61db37cdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4feee0cdc4212845c769d0f61db37cdd">&#9670;&#160;</a></span>saveMultiPartPayload_t</h2>
+<a id="abd742dc45590b1e56f431a1a6869c38f" name="abd742dc45590b1e56f431a1a6869c38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd742dc45590b1e56f431a1a6869c38f">&#9670;&#160;</a></span>saveMultiPayload_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a> =  std::tuple&lt;std::string, int&gt;</td>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abd742dc45590b1e56f431a1a6869c38f">saveMultiPayload_t</a> =  std::tuple&lt;std::string, int&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2aeceb7a154e2c01424546ea921c249c" name="a2aeceb7a154e2c01424546ea921c249c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aeceb7a154e2c01424546ea921c249c">&#9670;&#160;</a></span>savePartPayload_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c">savePartPayload_t</a> =  std::tuple&lt;std::string, int, int&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1356,7 +1372,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879af246aacc17ed04c171481265d3259b70" name="a9a09962c6a54133102a903e0b71ec879af246aacc17ed04c171481265d3259b70"></a>c2s_reset_engine&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a383a1f62163a2de8f7074e2a8e95246a" name="a9a09962c6a54133102a903e0b71ec879a383a1f62163a2de8f7074e2a8e95246a"></a>c2s_unstream_engine_state&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879abfd7992ea0ad6c77fef40758068bcaf9" name="a9a09962c6a54133102a903e0b71ec879abfd7992ea0ad6c77fef40758068bcaf9"></a>c2s_save_multi&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879aa6012e11b8c25bcd911c392f33b2dec9" name="a9a09962c6a54133102a903e0b71ec879aa6012e11b8c25bcd911c392f33b2dec9"></a>c2s_save_selected_part&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a75b7c76bbda52b5ef1405219ad10b56d" name="a9a09962c6a54133102a903e0b71ec879a75b7c76bbda52b5ef1405219ad10b56d"></a>c2s_save_part&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a613f684cbc80ecd1e92e93e10d9b02dd" name="a9a09962c6a54133102a903e0b71ec879a613f684cbc80ecd1e92e93e10d9b02dd"></a>c2s_load_multi&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879af6bad68b3a45860d320da258bb0c622a" name="a9a09962c6a54133102a903e0b71ec879af6bad68b3a45860d320da258bb0c622a"></a>c2s_load_part_into&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879aebc52af0bbb3a88bc12c1396ccc60725" name="a9a09962c6a54133102a903e0b71ec879aebc52af0bbb3a88bc12c1396ccc60725"></a>c2s_apply_select_action&#160;</td><td class="fielddoc"></td></tr>
@@ -4716,8 +4732,8 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 
 </div>
 </div>
-<a id="a9572701c935cfcbb82d9798f5363af28" name="a9572701c935cfcbb82d9798f5363af28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9572701c935cfcbb82d9798f5363af28">&#9670;&#160;</a></span>doSaveMulti()</h2>
+<a id="a9d0344b63f3c55dbab316051d3c855ac" name="a9d0344b63f3c55dbab316051d3c855ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0344b63f3c55dbab316051d3c855ac">&#9670;&#160;</a></span>doSaveMulti()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4725,7 +4741,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
         <tr>
           <td class="memname">void doSaveMulti </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abd742dc45590b1e56f431a1a6869c38f">saveMultiPayload_t</a> &amp;&#160;</td>
           <td class="paramname"><em>pl</em>, </td>
         </tr>
         <tr>
@@ -4752,8 +4768,8 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 
 </div>
 </div>
-<a id="ac825564eac663bab74f0ea790c432080" name="ac825564eac663bab74f0ea790c432080"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac825564eac663bab74f0ea790c432080">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[27/62]</span></h2>
+<a id="a7348c08447c4965c7dd80cdd4033876d" name="a7348c08447c4965c7dd80cdd4033876d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7348c08447c4965c7dd80cdd4033876d">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[27/62]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4773,13 +4789,13 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#abd742dc45590b1e56f431a1a6869c38f">saveMultiPayload_t</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9572701c935cfcbb82d9798f5363af28">doSaveMulti</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac">doSaveMulti</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -4832,16 +4848,16 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 
 </div>
 </div>
-<a id="a461081444a90ddfcfe39e83e15dc8a59" name="a461081444a90ddfcfe39e83e15dc8a59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a461081444a90ddfcfe39e83e15dc8a59">&#9670;&#160;</a></span>doSaveSelectedPart()</h2>
+<a id="a1b5e4226cd11877b35bf8f75f0500387" name="a1b5e4226cd11877b35bf8f75f0500387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5e4226cd11877b35bf8f75f0500387">&#9670;&#160;</a></span>doSavePart()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void doSaveSelectedPart </td>
+          <td class="memname">void doSavePart </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c">savePartPayload_t</a> &amp;&#160;</td>
           <td class="paramname"><em>pl</em>, </td>
         </tr>
         <tr>
@@ -4868,8 +4884,8 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 
 </div>
 </div>
-<a id="a6a0c8c7b67b149d73266062e8ce03706" name="a6a0c8c7b67b149d73266062e8ce03706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a0c8c7b67b149d73266062e8ce03706">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[29/62]</span></h2>
+<a id="a0894bba2767e38fb0d70f0ad1661a7c9" name="a0894bba2767e38fb0d70f0ad1661a7c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0894bba2767e38fb0d70f0ad1661a7c9">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[29/62]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4877,25 +4893,25 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
         <tr>
           <td class="memname">CLIENT_TO_SERIAL </td>
           <td>(</td>
-          <td class="paramtype">SaveSelectedPart&#160;</td>
+          <td class="paramtype">SavePart&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa6012e11b8c25bcd911c392f33b2dec9">c2s_save_selected_part</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a75b7c76bbda52b5ef1405219ad10b56d">c2s_save_part</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4feee0cdc4212845c769d0f61db37cdd">saveMultiPartPayload_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c">savePartPayload_t</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a461081444a90ddfcfe39e83e15dc8a59">doSaveSelectedPart</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387">doSavePart</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -8119,7 +8135,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2c3100a2920a4d446703ac22bc743fb8">addCompoundElementInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a170b50cc424270f113ea75be93646a84">addCompoundElementWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a889089b552d89f3cc9268e0664cc6f97">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3dd5cee13b0f37b0b6b4c80e2e2a01bc">doAddBlankZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ea46def537a1e4094f2229f6725aef9">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a652680377a5df59fa8760fa4eb9d8cbd">doApplyMultiSelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7d814f5b79219c0a591c22081901dc6a">doApplySelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f352a01130a65029603b2d01ea3508a">doBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986b2cfef7c6fb31e5146f2cb1f8490a">doBrowserQueueRefresh()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa15578524be981e580533f015487e6be">doClearVariantAmplitudeNormalization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a232318b8cebfff64d001385be1bc3479">doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1401f97a9b2207ba388a1453ec9702c8">doDeleteVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa16fc3b75d06fdd59a628c63633f5bb3">doLoadPartInto()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ee41fdc4559e51f6572e05c45f5f4c7">doNormalizeVariantAmplitude()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9bffc7bcf2e79e868b62282dc6eb71ab">doPreviewBrowserSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8adb7f270b1877170fe1c0f2e7aa3b3a">doReindexBrowserLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a648c3e5f9478ea2b908a79c3ece01d19">doRemoveBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9572701c935cfcbb82d9798f5363af28">doSaveMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a461081444a90ddfcfe39e83e15dc8a59">doSaveSelectedPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986dd81c46c55f3dc98c567e16597123">doUpdateGroupOutputInfoPolyphony()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af228951b72404340e8ed06a7d89d2a27">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aed12a59c163020a143ac196889234242">doUpdateGroupTriggerConditions()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4552129ff0700fce63ce135dc6b3d36">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab479f4d297c5f3a0fff65b37f6e566c6">doUpdateLeadZoneSingleVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9708124f64deae70e578b33772c913c2">doUpdateOtherTabSelection()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae02682ca8125d6224ca444f9158af56c">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7d90ec37a9e1eb25f3bd056505ef1b86">moveZoneFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6c070f30deebf08cdff5b0db2957e96a">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4757644acb5222bb9ed3999e222026a5">swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">scxt::messaging::client::detail::updateZoneMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a6f22d40ecb26cdb6b8e313d85f573c13">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2c3100a2920a4d446703ac22bc743fb8">addCompoundElementInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a170b50cc424270f113ea75be93646a84">addCompoundElementWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a889089b552d89f3cc9268e0664cc6f97">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3dd5cee13b0f37b0b6b4c80e2e2a01bc">doAddBlankZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ea46def537a1e4094f2229f6725aef9">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a652680377a5df59fa8760fa4eb9d8cbd">doApplyMultiSelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7d814f5b79219c0a591c22081901dc6a">doApplySelectAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f352a01130a65029603b2d01ea3508a">doBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986b2cfef7c6fb31e5146f2cb1f8490a">doBrowserQueueRefresh()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa15578524be981e580533f015487e6be">doClearVariantAmplitudeNormalization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a232318b8cebfff64d001385be1bc3479">doDebugAction()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1401f97a9b2207ba388a1453ec9702c8">doDeleteVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa16fc3b75d06fdd59a628c63633f5bb3">doLoadPartInto()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ee41fdc4559e51f6572e05c45f5f4c7">doNormalizeVariantAmplitude()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9bffc7bcf2e79e868b62282dc6eb71ab">doPreviewBrowserSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8adb7f270b1877170fe1c0f2e7aa3b3a">doReindexBrowserLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a648c3e5f9478ea2b908a79c3ece01d19">doRemoveBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac">doSaveMulti()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387">doSavePart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986dd81c46c55f3dc98c567e16597123">doUpdateGroupOutputInfoPolyphony()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af228951b72404340e8ed06a7d89d2a27">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aed12a59c163020a143ac196889234242">doUpdateGroupTriggerConditions()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4552129ff0700fce63ce135dc6b3d36">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab479f4d297c5f3a0fff65b37f6e566c6">doUpdateLeadZoneSingleVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9708124f64deae70e578b33772c913c2">doUpdateOtherTabSelection()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae02682ca8125d6224ca444f9158af56c">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7d90ec37a9e1eb25f3bd056505ef1b86">moveZoneFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6c070f30deebf08cdff5b0db2957e96a">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4757644acb5222bb9ed3999e222026a5">swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">scxt::messaging::client::detail::updateZoneMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a6f22d40ecb26cdb6b8e313d85f573c13">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>.</p>
 
 </div>
 </div>
@@ -8145,7 +8161,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 7 2025 16:02:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Apr 7 2025 18:08:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
