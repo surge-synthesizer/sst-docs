@@ -24,10 +24,11 @@ var searchData=
   ['isgated_21',['isGated',['../structsst_1_1basic__blocks_1_1modulators_1_1ADAREnvelope.html#acd8c1dccc93a1818ecea0dc4474a43c7',1,'sst::basic_blocks::modulators::ADAREnvelope']]],
   ['ishighprecision_22',['isHighPrecision',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#ac38ed275ed673402f6858ec666893ecc',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
   ['isinit_23',['isInit',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#a7a07acedc029e72784867cbe9ac10543',1,'sst::basic_blocks::tables::TwoToTheXProvider']]],
-  ['isoutputmapped_24',['isOutputMapped',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a6932a2d2b617c165979d8600fb8ec6ac',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
-  ['issourceused_25',['isSourceUsed',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a3bf3f1721defa208b2fb806cb0f27ce9',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
-  ['istargetmodmatrixdepth_26',['isTargetModMatrixDepth',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
-  ['istemposynced_27',['isTemposynced',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#ac0619ca413db11e8dd8f58515efd1078',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
-  ['isunipolar_28',['isUnipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a73c7b584a84fbf1991e841c26562d9e9',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['iszero_29',['isZero',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#abdc732c60eae4c4f0f352b6a01e01578',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['isnounits_24',['isNoUnits',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#a472aa12f2696cc52bc84fbcbd289cb11',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
+  ['isoutputmapped_25',['isOutputMapped',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a6932a2d2b617c165979d8600fb8ec6ac',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
+  ['issourceused_26',['isSourceUsed',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a3bf3f1721defa208b2fb806cb0f27ce9',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
+  ['istargetmodmatrixdepth_27',['isTargetModMatrixDepth',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
+  ['istemposynced_28',['isTemposynced',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#ac0619ca413db11e8dd8f58515efd1078',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
+  ['isunipolar_29',['isUnipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a73c7b584a84fbf1991e841c26562d9e9',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['iszero_30',['isZero',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#abdc732c60eae4c4f0f352b6a01e01578',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];
