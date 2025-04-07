@@ -136,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae9f0099fa23875834681ada9fa66752c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac67ddeabbc29536d96d27ea4e35ad344" id="r_ac67ddeabbc29536d96d27ea4e35ad344"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">getValueAsStringFor</a> (float f) const override</td></tr>
 <tr class="separator:ac67ddeabbc29536d96d27ea4e35ad344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299b9f5d0388cc4b94ea7cf51de09d8c" id="r_a299b9f5d0388cc4b94ea7cf51de09d8c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a299b9f5d0388cc4b94ea7cf51de09d8c">getValueAsStringWithoutUnitsFor</a> (float f) const override</td></tr>
+<tr class="separator:a299b9f5d0388cc4b94ea7cf51de09d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8b2533c25939de78fb523d47b0d15d1" id="r_aa8b2533c25939de78fb523d47b0d15d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aa8b2533c25939de78fb523d47b0d15d1">setValueAsString</a> (const std::string &amp;s) override</td></tr>
 <tr class="separator:aa8b2533c25939de78fb523d47b0d15d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a6a134e68ef200b12226bbd0113574" id="r_a55a6a134e68ef200b12226bbd0113574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a55a6a134e68ef200b12226bbd0113574">setValueFromModel</a> (const float &amp;f) override</td></tr>
@@ -509,6 +511,36 @@ template&lt;typename Payload , typename ValueType  = float&gt; </div>
 
 </div>
 </div>
+<a id="a299b9f5d0388cc4b94ea7cf51de09d8c" name="a299b9f5d0388cc4b94ea7cf51de09d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299b9f5d0388cc4b94ea7cf51de09d8c">&#9670;&#160;</a></span>getValueAsStringWithoutUnitsFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Payload , typename ValueType  = float&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string getValueAsStringWithoutUnitsFor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a7406f3e85fbb320d73cd65d9d20398c4">PayloadDataAttachment&lt; Payload, ValueType &gt;::description</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a720dac546ae00fdb7735522f10266261">PayloadDataAttachment&lt; Payload, ValueType &gt;::getFeatureState()</a>, and <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a19606c9d51240b161a7e8b93fd75bd23">PayloadDataAttachment&lt; Payload, ValueType &gt;::valueToString</a>.</p>
+
+</div>
+</div>
 <a id="aa8b2533c25939de78fb523d47b0d15d1" name="aa8b2533c25939de78fb523d47b0d15d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8b2533c25939de78fb523d47b0d15d1">&#9670;&#160;</a></span>setValueAsString()</h2>
 
@@ -748,7 +780,7 @@ template&lt;typename Payload , typename ValueType  = float&gt; </div>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a7122ac8c09fb0c5a814ffb6f5368cde8">PayloadDataAttachment&lt; Payload, ValueType &gt;::isTemposynced</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringFor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringFor()</a>, and <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a299b9f5d0388cc4b94ea7cf51de09d8c">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringWithoutUnitsFor()</a>.</p>
 
 </div>
 </div>
@@ -857,7 +889,7 @@ template&lt;typename Payload , typename ValueType  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aaccf9d36d5f23137a32ac7268c427362">PayloadDataAttachment&lt; Payload, ValueType &gt;::getDefaultValue()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aa36460b8d17be2f1a63d341dc4da50ba">PayloadDataAttachment&lt; Payload, ValueType &gt;::getMax()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aef209e33597d21135987ca4b26724772">PayloadDataAttachment&lt; Payload, ValueType &gt;::getMin()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringFor()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a8aa36b61c7777e12686966fb0bb48b2b">PayloadDataAttachment&lt; Payload, ValueType &gt;::isBipolar()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a4368f466c2c111e06640faa8cb3d2483">PayloadDataAttachment&lt; Payload, ValueType &gt;::setTemposyncFunction()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aa8b2533c25939de78fb523d47b0d15d1">PayloadDataAttachment&lt; Payload, ValueType &gt;::setValueAsString()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ae9f0099fa23875834681ada9fa66752c">PayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a9cbe68e8dfd7df1fd81f5388994267be">PayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUIQuantized()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad">ModRow&lt; GZTrait &gt;::updateTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aaccf9d36d5f23137a32ac7268c427362">PayloadDataAttachment&lt; Payload, ValueType &gt;::getDefaultValue()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aa36460b8d17be2f1a63d341dc4da50ba">PayloadDataAttachment&lt; Payload, ValueType &gt;::getMax()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aef209e33597d21135987ca4b26724772">PayloadDataAttachment&lt; Payload, ValueType &gt;::getMin()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringFor()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a299b9f5d0388cc4b94ea7cf51de09d8c">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringWithoutUnitsFor()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a8aa36b61c7777e12686966fb0bb48b2b">PayloadDataAttachment&lt; Payload, ValueType &gt;::isBipolar()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a4368f466c2c111e06640faa8cb3d2483">PayloadDataAttachment&lt; Payload, ValueType &gt;::setTemposyncFunction()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aa8b2533c25939de78fb523d47b0d15d1">PayloadDataAttachment&lt; Payload, ValueType &gt;::setValueAsString()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ae9f0099fa23875834681ada9fa66752c">PayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a9cbe68e8dfd7df1fd81f5388994267be">PayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUIQuantized()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad">ModRow&lt; GZTrait &gt;::updateTooltip()</a>.</p>
 
 </div>
 </div>
@@ -875,7 +907,7 @@ template&lt;typename Payload , typename ValueType  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringFor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#ac67ddeabbc29536d96d27ea4e35ad344">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringFor()</a>, and <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a299b9f5d0388cc4b94ea7cf51de09d8c">PayloadDataAttachment&lt; Payload, ValueType &gt;::getValueAsStringWithoutUnitsFor()</a>.</p>
 
 </div>
 </div>
@@ -903,7 +935,7 @@ template&lt;typename Payload , typename ValueType  = float&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 7 2025 12:43:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Apr 7 2025 14:43:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
