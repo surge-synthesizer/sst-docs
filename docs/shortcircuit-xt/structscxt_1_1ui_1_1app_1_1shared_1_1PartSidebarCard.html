@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4018b0395bfc9a22a647cc3ecb271651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0f1d8fb0ba69c50865c4f734019feee" id="r_ab0f1d8fb0ba69c50865c4f734019feee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ab0f1d8fb0ba69c50865c4f734019feee">resetFromEditorCache</a> ()</td></tr>
 <tr class="separator:ab0f1d8fb0ba69c50865c4f734019feee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5ba61944ef6aa8f7e0f7c690915116d" id="r_ae5ba61944ef6aa8f7e0f7c690915116d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ae5ba61944ef6aa8f7e0f7c690915116d">isInterestedInFileDrag</a> (const juce::StringArray &amp;files) override</td></tr>
+<tr class="separator:ae5ba61944ef6aa8f7e0f7c690915116d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04fe82c41a6246ae1e1676c4c8107b11" id="r_a04fe82c41a6246ae1e1676c4c8107b11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a04fe82c41a6246ae1e1676c4c8107b11">filesDropped</a> (const juce::StringArray &amp;files, int x, int y) override</td></tr>
+<tr class="separator:a04fe82c41a6246ae1e1676c4c8107b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
 <tr class="memitem:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor" id="r_ae7c2e1db62fd864b342d056dfc91fb98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#ae7c2e1db62fd864b342d056dfc91fb98">HasEditor</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *e)</td></tr>
 <tr class="separator:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -619,6 +623,76 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae5ba61944ef6aa8f7e0f7c690915116d" name="ae5ba61944ef6aa8f7e0f7c690915116d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ba61944ef6aa8f7e0f7c690915116d">&#9670;&#160;</a></span>isInterestedInFileDrag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isInterestedInFileDrag </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname"><em>files</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04fe82c41a6246ae1e1676c4c8107b11" name="a04fe82c41a6246ae1e1676c4c8107b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04fe82c41a6246ae1e1676c4c8107b11">&#9670;&#160;</a></span>filesDropped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void filesDropped </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname"><em>files</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a54e2f07c0624c79d98700aff96030e81">PartSidebarCard::part</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a50b34a83bb055183bd11e882c6e6cf48">SCXTEditor::promptOKCancel()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a54e2f07c0624c79d98700aff96030e81" name="a54e2f07c0624c79d98700aff96030e81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54e2f07c0624c79d98700aff96030e81">&#9670;&#160;</a></span>part</h2>
@@ -632,7 +706,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a7573082fd3086ba3775b602db61290bb">PartSidebarCard::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a4f2c219a2cbbd6b61e7c41564dac6169">PartSidebarCard::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a324352255d16be772527214b97352522">PartSidebarCard::PartSidebarCard()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ab0f1d8fb0ba69c50865c4f734019feee">PartSidebarCard::resetFromEditorCache()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a267e625fbad445da07ef74b784edc2ee">PartSidebarCard::showMidiModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a27f8c6ebd8f21e758e0282def9aad5b7">PartSidebarCard::showPartBlurbTooltip()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ad038cb3a783bfa091ac270ac8a1f8c8d">PartSidebarCard::showPartIOMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a0d3723a30d64b8245d42a64177bc98a0">PartSidebarCard::showRoutingMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a4018b0395bfc9a22a647cc3ecb271651">PartSidebarCard::textEditorTextChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a04fe82c41a6246ae1e1676c4c8107b11">PartSidebarCard::filesDropped()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a7573082fd3086ba3775b602db61290bb">PartSidebarCard::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a4f2c219a2cbbd6b61e7c41564dac6169">PartSidebarCard::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a324352255d16be772527214b97352522">PartSidebarCard::PartSidebarCard()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ab0f1d8fb0ba69c50865c4f734019feee">PartSidebarCard::resetFromEditorCache()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a267e625fbad445da07ef74b784edc2ee">PartSidebarCard::showMidiModeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a27f8c6ebd8f21e758e0282def9aad5b7">PartSidebarCard::showPartBlurbTooltip()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ad038cb3a783bfa091ac270ac8a1f8c8d">PartSidebarCard::showPartIOMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a0d3723a30d64b8245d42a64177bc98a0">PartSidebarCard::showRoutingMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a4018b0395bfc9a22a647cc3ecb271651">PartSidebarCard::textEditorTextChanged()</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1203,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 8 2025 22:38:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Apr 8 2025 23:10:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
