@@ -120,8 +120,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af8ecab1d42a22edf12049a5c9b81fca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1ceaccc04887a9b92af812b0a904484" id="r_af1ceaccc04887a9b92af812b0a904484"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#af1ceaccc04887a9b92af812b0a904484">solo</a> {false}</td></tr>
 <tr class="separator:af1ceaccc04887a9b92af812b0a904484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a263c58d652a5d755f097b4a5fe85b642" id="r_a263c58d652a5d755f097b4a5fe85b642"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a263c58d652a5d755f097b4a5fe85b642">polyLimitVoices</a> {0}</td></tr>
-<tr class="separator:a263c58d652a5d755f097b4a5fe85b642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b79fd1b84a1be7ec1115b85d123540e" id="r_a6b79fd1b84a1be7ec1115b85d123540e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a6b79fd1b84a1be7ec1115b85d123540e">muteDueToSolo</a> {false}</td></tr>
+<tr class="separator:a6b79fd1b84a1be7ec1115b85d123540e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774d0eb015e6219a8ebc3a6db955ba7f" id="r_a774d0eb015e6219a8ebc3a6db955ba7f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a774d0eb015e6219a8ebc3a6db955ba7f">polyLimitVoices</a> {0}</td></tr>
+<tr class="separator:a774d0eb015e6219a8ebc3a6db955ba7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b18c58904f51cbdae2f8d84a1f6a11f" id="r_a2b18c58904f51cbdae2f8d84a1f6a11f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">BusAddress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a2b18c58904f51cbdae2f8d84a1f6a11f">routeTo</a> {<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">DEFAULT_BUS</a>}</td></tr>
 <tr class="separator:a2b18c58904f51cbdae2f8d84a1f6a11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a450c3ab9b94a4663caad892b7193b547" id="r_a450c3ab9b94a4663caad892b7193b547"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a450c3ab9b94a4663caad892b7193b547">level</a> {1.f}</td></tr>
@@ -327,14 +329,28 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a263c58d652a5d755f097b4a5fe85b642" name="a263c58d652a5d755f097b4a5fe85b642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a263c58d652a5d755f097b4a5fe85b642">&#9670;&#160;</a></span>polyLimitVoices</h2>
+<a id="a6b79fd1b84a1be7ec1115b85d123540e" name="a6b79fd1b84a1be7ec1115b85d123540e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b79fd1b84a1be7ec1115b85d123540e">&#9670;&#160;</a></span>muteDueToSolo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool polyLimitVoices {0}</td>
+          <td class="memname">bool muteDueToSolo {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a774d0eb015e6219a8ebc3a6db955ba7f" name="a774d0eb015e6219a8ebc3a6db955ba7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a774d0eb015e6219a8ebc3a6db955ba7f">&#9670;&#160;</a></span>polyLimitVoices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t polyLimitVoices {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -463,7 +479,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 8 2025 23:10:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Apr 10 2025 01:58:40 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

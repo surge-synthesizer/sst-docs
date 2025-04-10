@@ -116,5 +116,6 @@ var searchData=
   ['mutebutton_113',['muteButton',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#aa3771473253c8f77cdc2690315a1f048',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['muted_114',['muted',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Group::GroupOutputInfo::muted'],['../structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Zone::ZoneOutputInfo::muted']]],
   ['mutedduetosoloaway_115',['mutedDueToSoloAway',['../structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267',1,'scxt::engine::Bus']]],
-  ['mytype_116',['myType',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#acda4198a6a0bf057d6d028f0e5b1dbf3',1,'scxt::dsp::processor::Processor']]]
+  ['muteduetosolo_116',['muteDueToSolo',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a6b79fd1b84a1be7ec1115b85d123540e',1,'scxt::engine::Part::PartConfiguration']]],
+  ['mytype_117',['myType',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#acda4198a6a0bf057d6d028f0e5b1dbf3',1,'scxt::dsp::processor::Processor']]]
 ];
