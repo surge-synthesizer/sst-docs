@@ -108,6 +108,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a27715f1bac438bff0b0b7fc82262fa48" id="r_a27715f1bac438bff0b0b7fc82262fa48"><td class="memTemplParams" colspan="2">template&lt;typename W , typename... Args&gt; </td></tr>
 <tr class="memitem:a27715f1bac438bff0b0b7fc82262fa48"><td class="memTemplItemLeft" align="right" valign="top">static std::pair&lt; std::unique_ptr&lt; A &gt;, std::unique_ptr&lt; W &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SingleValueFactory.html#a27715f1bac438bff0b0b7fc82262fa48">attachR</a> (const <a class="el" href="namespacescxt_1_1datamodel.html#a1eb273f3bb8f42c854ab0983b6ec8255">datamodel::pmd</a> &amp;md, const typename A::payload_t &amp;p, typename A::value_t &amp;val, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">app::HasEditor</a> *e, Args... args)</td></tr>
 <tr class="separator:a27715f1bac438bff0b0b7fc82262fa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21da1f20634fe278082e30ae802d02a1" id="r_a21da1f20634fe278082e30ae802d02a1"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a21da1f20634fe278082e30ae802d02a1"><td class="memTemplItemLeft" align="right" valign="top">static std::unique_ptr&lt; A &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SingleValueFactory.html#a21da1f20634fe278082e30ae802d02a1">attachOnly</a> (const typename A::payload_t &amp;p, typename A::value_t &amp;val, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">app::HasEditor</a> *e, Args... args)</td></tr>
+<tr class="separator:a21da1f20634fe278082e30ae802d02a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d3089f9746920a1da2b3d2c02dd6382" id="r_a6d3089f9746920a1da2b3d2c02dd6382"><td class="memTemplParams" colspan="2">template&lt;typename W , typename... Args&gt; </td></tr>
 <tr class="memitem:a6d3089f9746920a1da2b3d2c02dd6382"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SingleValueFactory.html#a6d3089f9746920a1da2b3d2c02dd6382">attach</a> (const typename A::payload_t &amp;p, typename A::value_t &amp;val, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">app::HasEditor</a> *e, std::unique_ptr&lt; A &gt; &amp;aRes, std::unique_ptr&lt; W &gt; &amp;wRes, Args... args)</td></tr>
 <tr class="separator:a6d3089f9746920a1da2b3d2c02dd6382"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +188,60 @@ template&lt;typename W , typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af6b4bad9059a6defea9f4d67adb7ae81">HasEditor::addSubscription()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>.</p>
+
+</div>
+</div>
+<a id="a21da1f20634fe278082e30ae802d02a1" name="a21da1f20634fe278082e30ae802d02a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21da1f20634fe278082e30ae802d02a1">&#9670;&#160;</a></span>attachOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename A , typename Msg , typename ABase  = A&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::unique_ptr&lt; A &gt; attachOnly </td>
+          <td>(</td>
+          <td class="paramtype">const typename A::payload_t &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename A::value_t &amp;&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">app::HasEditor</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af6b4bad9059a6defea9f4d67adb7ae81">HasEditor::addSubscription()</a>, and <a class="el" href="namespacescxt_1_1datamodel.html#ae0b3a98b04117a9125d8043a39d3779f">scxt::datamodel::describeValue()</a>.</p>
 
 </div>
 </div>
@@ -620,7 +677,7 @@ template&lt;typename W , typename... Args&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 10 2025 13:57:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Apr 11 2025 23:26:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

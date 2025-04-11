@@ -26,7 +26,9 @@ var searchData=
   ['slfo_5ft_23',['slfo_t',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a27c14f2722b6b272876787724b912e43',1,'scxt::modulation::modulators::CurveLFO']]],
   ['sourceidentifier_24',['sourceidentifier',['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3',1,'scxt::voice::modulation::MatrixConfig::SourceIdentifier'],['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a81d83b21526a395420500f659e8fddb3',1,'scxt::modulation::GroupMatrixConfig::SourceIdentifier']]],
   ['sr_25',['sr',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a62f46af9739264ef8e3734b72ddd3a29',1,'scxt::voice::modulation::MatrixEndpoints::SR'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#ac6e163d47c0de0dc7146b8d3e4d28c5b',1,'scxt::modulation::GroupMatrixEndpoints::SR']]],
-  ['steplfostorage_26',['StepLFOStorage',['../namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa',1,'scxt::modulation::modulators']]],
-  ['stopsounds_5ft_27',['stopSounds_t',['../namespacescxt_1_1messaging_1_1client.html#a574b718fce2749e383b52ea87a1f398b',1,'scxt::messaging::client']]],
-  ['surgesinctable_28',['SurgeSincTable',['../namespacescxt_1_1dsp.html#ac9e3c230feb94d08bdbab7054f4a7c5f',1,'scxt::dsp']]]
+  ['ssmap_5ft_26',['ssmap_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a1f28b1505f92cf3eb7f5bf93c07d8df8',1,'scxt::ui::app::edit_screen']]],
+  ['steplfostorage_27',['StepLFOStorage',['../namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa',1,'scxt::modulation::modulators']]],
+  ['stopsounds_5ft_28',['stopSounds_t',['../namespacescxt_1_1messaging_1_1client.html#a574b718fce2749e383b52ea87a1f398b',1,'scxt::messaging::client']]],
+  ['streamlfo_5ft_29',['streamLfo_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a5061a5c41127ee926980d9ed0f60d8f6',1,'scxt::ui::app::edit_screen']]],
+  ['surgesinctable_30',['SurgeSincTable',['../namespacescxt_1_1dsp.html#ac9e3c230feb94d08bdbab7054f4a7c5f',1,'scxt::dsp']]]
 ];
