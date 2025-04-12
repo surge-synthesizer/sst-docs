@@ -253,7 +253,7 @@ var searchData=
   ['streamenginestate_250',['streamEngineState',['../namespacescxt_1_1json.html#ab9eee5cebf662a67544c03f2c56bb5c8',1,'scxt::json']]],
   ['streamguard_251',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html#aa77bc916878ecfbd888632b8a520e606',1,'scxt::engine::Engine::StreamGuard']]],
   ['streampatch_252',['streamPatch',['../namespacescxt_1_1json.html#a6c176666c902155048afa7da2d0c9916',1,'scxt::json']]],
-  ['streamtojson_253',['streamToJSON',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ab212023efae3ea2e8b0975aacb8655c8',1,'scxt::ui::app::edit_screen::LfoPane']]],
+  ['streamtojson_253',['streamToJSON',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#aeb9f01966746ad52df4f8c24566f10b5',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['streamvalue_254',['streamValue',['../namespacescxt_1_1json.html#a8f9940f2ec6b37c2123ca4e8c7bf5f15',1,'scxt::json']]],
   ['string_255',['string',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a8ca7e45715365b527abc838b65d29fe9',1,'scxt::ui::connectors::JSONLayoutConsumer']]],
   ['supportshorizontalzoom_256',['supportshorizontalzoom',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1LayoutAndKeyboard.html#ad34702722d02183ba5bbede2ad96730e',1,'scxt::ui::app::edit_screen::MappingDisplay::LayoutAndKeyboard::supportsHorizontalZoom()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad34702722d02183ba5bbede2ad96730e',1,'scxt::ui::app::edit_screen::SampleWaveform::supportsHorizontalZoom()']]],

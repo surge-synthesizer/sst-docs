@@ -163,8 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2e269ed4f27fcd56e0080fbffa538a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745940f6fae21cea817ca7f1e1b44d53" id="r_a745940f6fae21cea817ca7f1e1b44d53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a745940f6fae21cea817ca7f1e1b44d53">doLoadPreset</a> ()</td></tr>
 <tr class="separator:a745940f6fae21cea817ca7f1e1b44d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab212023efae3ea2e8b0975aacb8655c8" id="r_ab212023efae3ea2e8b0975aacb8655c8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ab212023efae3ea2e8b0975aacb8655c8">streamToJSON</a> () const</td></tr>
-<tr class="separator:ab212023efae3ea2e8b0975aacb8655c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb9f01966746ad52df4f8c24566f10b5" id="r_aeb9f01966746ad52df4f8c24566f10b5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#aeb9f01966746ad52df4f8c24566f10b5">streamToJSON</a> () const</td></tr>
+<tr class="separator:aeb9f01966746ad52df4f8c24566f10b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc4c0ca0906df25f774ae69728cea6b8" id="r_adc4c0ca0906df25f774ae69728cea6b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#adc4c0ca0906df25f774ae69728cea6b8">unstreamFromJSON</a> (const std::string &amp;)</td></tr>
 <tr class="separator:adc4c0ca0906df25f774ae69728cea6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
@@ -628,14 +628,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ab212023efae3ea2e8b0975aacb8655c8" name="ab212023efae3ea2e8b0975aacb8655c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab212023efae3ea2e8b0975aacb8655c8">&#9670;&#160;</a></span>streamToJSON()</h2>
+<a id="aeb9f01966746ad52df4f8c24566f10b5" name="aeb9f01966746ad52df4f8c24566f10b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb9f01966746ad52df4f8c24566f10b5">&#9670;&#160;</a></span>streamToJSON()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string streamToJSON </td>
+          <td class="memname">std::optional&lt; std::string &gt; streamToJSON </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -643,7 +643,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a43fe41d677a286de535c25e87eaf5b6b">SCXTEditor::displayError()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 </div>
 </div>
@@ -663,7 +663,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a939e6c38aa559753e093d013c46efb7c">LfoPane::forZone</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a43fe41d677a286de535c25e87eaf5b6b">SCXTEditor::displayError()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a939e6c38aa559753e093d013c46efb7c">LfoPane::forZone</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
 
 </div>
 </div>
@@ -872,7 +872,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#ac570337f574f88da7b611beaa332e9de">CurveLFOPane::CurveLFOPane()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#ac74c54a9bda9331f2c36ab8168b4dddb">ENVLFOPane::ENVLFOPane()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender_1_1StepMenuTypein.html#ae723ce26c4ef2606a07a571a8aae3a38">StepLFOPane::StepRender::StepMenuTypein::getInitialText()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a71972919583a2e66a9aac15e6b0deb21">LfoPane::getShapeMenuLabel()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a3a8c5d4be5a376cddb74ea3e00357b5a">StepLFOPane::StepRender::indexForPosition()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">StepLFOPane::StepRender::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">ENVLFOPane::ENVRender::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae4c27ae89339d9200bc83ac1c8f957fb">LfoPane::rebuildPanelComponents()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a0fabde1037a28e4338d12d22427f5b67">StepLFOPane::StepRender::recalcCurve()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65b9370120d713debfbc94645e7b72e8">StepLFOPane::rotate()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a3f0369fce1183209ccb7b767b0403b18">LfoPane::setModulatorStorage()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a9eb1876581f2125b795f49ed2872fcf1">StepLFOPane::setStep()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a8bc68853adbbaf7e55da4452564cedd2">LfoPane::setSubPaneVisibility()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a099ab885901da38eb262dc7b20494590">LfoPane::showModulatorShapeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#ae45d6bf8d132c551e97922c0fd9ead04">StepLFOPane::StepLFOPane()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ab212023efae3ea2e8b0975aacb8655c8">LfoPane::streamToJSON()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#adc4c0ca0906df25f774ae69728cea6b8">LfoPane::unstreamFromJSON()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ConsistencyLFOPane.html#a017838bc9dfe9fac4f47396d49c5dc28">ConsistencyLFOPane::visibilityChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#ac570337f574f88da7b611beaa332e9de">CurveLFOPane::CurveLFOPane()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#ac74c54a9bda9331f2c36ab8168b4dddb">ENVLFOPane::ENVLFOPane()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender_1_1StepMenuTypein.html#ae723ce26c4ef2606a07a571a8aae3a38">StepLFOPane::StepRender::StepMenuTypein::getInitialText()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a71972919583a2e66a9aac15e6b0deb21">LfoPane::getShapeMenuLabel()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a3a8c5d4be5a376cddb74ea3e00357b5a">StepLFOPane::StepRender::indexForPosition()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">StepLFOPane::StepRender::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a4f2c219a2cbbd6b61e7c41564dac6169">ENVLFOPane::ENVRender::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae4c27ae89339d9200bc83ac1c8f957fb">LfoPane::rebuildPanelComponents()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a0fabde1037a28e4338d12d22427f5b67">StepLFOPane::StepRender::recalcCurve()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65b9370120d713debfbc94645e7b72e8">StepLFOPane::rotate()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a3f0369fce1183209ccb7b767b0403b18">LfoPane::setModulatorStorage()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a9eb1876581f2125b795f49ed2872fcf1">StepLFOPane::setStep()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a8bc68853adbbaf7e55da4452564cedd2">LfoPane::setSubPaneVisibility()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a099ab885901da38eb262dc7b20494590">LfoPane::showModulatorShapeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#ae45d6bf8d132c551e97922c0fd9ead04">StepLFOPane::StepLFOPane()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#aeb9f01966746ad52df4f8c24566f10b5">LfoPane::streamToJSON()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#adc4c0ca0906df25f774ae69728cea6b8">LfoPane::unstreamFromJSON()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ConsistencyLFOPane.html#a017838bc9dfe9fac4f47396d49c5dc28">ConsistencyLFOPane::visibilityChanged()</a>.</p>
 
 </div>
 </div>
@@ -899,7 +899,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 12 2025 01:23:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Apr 12 2025 11:47:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
