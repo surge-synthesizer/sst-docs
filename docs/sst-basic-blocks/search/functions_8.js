@@ -9,7 +9,8 @@ var searchData=
   ['instantlysnap_6',['instantlySnap',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandler.html#ab0e9ae80c238186c58afb9194bdbddac',1,'sst::basic_blocks::dsp::UIComponentLagHandler']]],
   ['isactive_7',['isActive',['../structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html#a354c7d206ec624b9bdbb81f3b788f826',1,'sst::basic_blocks::dsp::LinearLag']]],
   ['isbipolar_8',['isBipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad82b1a6884dacc9eaca65a917c53b837',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['istargetmodmatrixdepth_9',['isTargetModMatrixDepth',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
-  ['isunipolar_10',['isUnipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a73c7b584a84fbf1991e841c26562d9e9',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['iszero_11',['isZero',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#abdc732c60eae4c4f0f352b6a01e01578',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['isenabled_9',['isEnabled',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aacb819fb241851fd9fc045271baa4034',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['istargetmodmatrixdepth_10',['isTargetModMatrixDepth',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a8d73db48c336db8f806f61288d328724',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
+  ['isunipolar_11',['isUnipolar',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a73c7b584a84fbf1991e841c26562d9e9',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['iszero_12',['isZero',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#abdc732c60eae4c4f0f352b6a01e01578',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];
