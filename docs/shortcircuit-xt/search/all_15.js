@@ -76,7 +76,7 @@ var searchData=
   ['voicematrixmetadata_5ft_73',['voiceMatrixMetadata_t',['../namespacescxt_1_1voice_1_1modulation.html#a041ae028e6bba1951ab546a585e32a6b',1,'scxt::voice::modulation']]],
   ['voicemodsources_74',['voiceModSources',['../structscxt_1_1engine_1_1Engine.html#a79c6385bc42f8a3a62a1c9e8a66c763d',1,'scxt::engine::Engine']]],
   ['voicemodtargets_75',['voiceModTargets',['../structscxt_1_1engine_1_1Engine.html#a46aef50c45a19c4e2968bb36aa3fc7c9',1,'scxt::engine::Engine']]],
-  ['voicephasors_76',['voicePhasors',['../structTransportSourceBase.html#aca3617459bd851e27eff2754f454d75a',1,'TransportSourceBase']]],
+  ['voicephasors_76',['voicePhasors',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#aca3617459bd851e27eff2754f454d75a',1,'scxt::modulation::shared::TransportSourceBase']]],
   ['voicesources_77',['voicesources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1VoiceSources.html',1,'MatrixEndpoints::Sources::VoiceSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1VoiceSources.html#ab167f2d231ded6ab38d5c514c67e4ecc',1,'scxt::voice::modulation::MatrixEndpoints::Sources::VoiceSources::VoiceSources()'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a158a4c01368e2c6263b7b71710abe0c5',1,'scxt::voice::modulation::MatrixEndpoints::Sources::voiceSources']]],
   ['voicestarted_78',['voiceStarted',['../structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520',1,'scxt::voice::Voice']]],
   ['voiceweakpointers_79',['voiceWeakPointers',['../structscxt_1_1engine_1_1Zone.html#af7829861d8342a31cb177feae10ca3cd',1,'scxt::engine::Zone']]],

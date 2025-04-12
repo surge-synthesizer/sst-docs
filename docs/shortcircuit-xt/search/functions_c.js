@@ -27,7 +27,7 @@ var searchData=
   ['menuvaluetypein_24',['MenuValueTypein',['../structscxt_1_1ui_1_1app_1_1shared_1_1MenuValueTypein.html#ae6a5591cdbdd5e5abb72aeea6e771085',1,'scxt::ui::app::shared::MenuValueTypein']]],
   ['menuvaluetypeinbase_25',['MenuValueTypeinBase',['../structscxt_1_1ui_1_1app_1_1shared_1_1MenuValueTypeinBase.html#aa5f797134b91c24d1c373ca025a38d09',1,'scxt::ui::app::shared::MenuValueTypeinBase']]],
   ['messagecontroller_26',['MessageController',['../structscxt_1_1messaging_1_1MessageController.html#a0fdf622e4079c5a0659438826a864929',1,'scxt::messaging::MessageController']]],
-  ['midiccbase_27',['MIDICCBase',['../structMIDICCBase.html#a8f6e8d27ab782915c63217b243385f89',1,'MIDICCBase']]],
+  ['midiccbase_27',['MIDICCBase',['../structscxt_1_1modulation_1_1shared_1_1MIDICCBase.html#a8f6e8d27ab782915c63217b243385f89',1,'scxt::modulation::shared::MIDICCBase']]],
   ['midikeyretuner_28',['MidikeyRetuner',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#ad09f787c26af7097177d25afa975f56a',1,'scxt::tuning::MidikeyRetuner']]],
   ['midisources_29',['MIDISources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a0591d3d6ab839dbba038f82e97e5542b',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
   ['missingresolutionscreen_30',['MissingResolutionScreen',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a0fc12507152945b66e620ccdfdb4811c',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],

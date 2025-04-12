@@ -34,7 +34,7 @@ var searchData=
   ['noteexpressioncount_31',['noteExpressionCount',['../structscxt_1_1voice_1_1Voice.html#a264ed18d60b8f471e38aa84f76982c25',1,'scxt::voice::Voice']]],
   ['noteexpressions_32',['noteexpressions',['../structscxt_1_1voice_1_1Voice.html#aae8090d39e88ed32c7b5aba100f94515',1,'scxt::voice::Voice::noteExpressions'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a83d62c5ae81a201116053dbf349202e3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::noteExpressions']]],
   ['noteexpressionsources_33',['noteexpressionsources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a9bbefa88efcd4feef178fcfd08ab3de3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources::NoteExpressionSources()'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html',1,'MatrixEndpoints::Sources::NoteExpressionSources']]],
-  ['noteid_34',['noteid',['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId'],['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid']]],
+  ['noteid_34',['noteid',['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid'],['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId']]],
   ['noteonoff_5ft_35',['noteOnOff_t',['../namespacescxt_1_1messaging_1_1client.html#ae1e6111a783b5232e389026e2bb77f26',1,'scxt::messaging::client']]],
   ['noteportscount_36',['notePortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aa5c219b75d4de4da1f6f3f51a95ef542',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['noteportsinfo_37',['notePortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a775a4fc5426c2e1a9193ad5713c89dd8',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
@@ -57,7 +57,7 @@ var searchData=
   ['numfloatparams_54',['numFloatParams',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html#a72730de0375a64d6109294faf27a7436',1,'scxt::dsp::processor::ProcessorControlDescription']]],
   ['numgeneratorsactive_55',['numGeneratorsActive',['../structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0',1,'scxt::voice::Voice']]],
   ['numintparams_56',['numIntParams',['../structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html#a156a08120cd263801acaefcb2bd10d23',1,'scxt::dsp::processor::ProcessorControlDescription']]],
-  ['nummidicc_57',['numMidiCC',['../structMIDICCBase.html#ae32a4407997b1d0646050929221d4ab9',1,'MIDICCBase']]],
+  ['nummidicc_57',['numMidiCC',['../structscxt_1_1modulation_1_1shared_1_1MIDICCBase.html#ae32a4407997b1d0646050929221d4ab9',1,'scxt::modulation::shared::MIDICCBase']]],
   ['numparams_58',['numparams',['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()'],['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()']]],
   ['numprocessordisplays_59',['numProcessorDisplays',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ade8ee90ea5fbde9f3776125608ab0d2d',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['numsampleframes_60',['numSampleFrames',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#ac02ed2f034593d2bff1c48cf6e31bf5c',1,'scxt::sample::aiff_CommonChunk']]]

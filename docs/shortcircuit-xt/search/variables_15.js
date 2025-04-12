@@ -51,7 +51,7 @@ var searchData=
   ['voicemanager_48',['voiceManager',['../structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d',1,'scxt::engine::Engine']]],
   ['voicemodsources_49',['voiceModSources',['../structscxt_1_1engine_1_1Engine.html#a79c6385bc42f8a3a62a1c9e8a66c763d',1,'scxt::engine::Engine']]],
   ['voicemodtargets_50',['voiceModTargets',['../structscxt_1_1engine_1_1Engine.html#a46aef50c45a19c4e2968bb36aa3fc7c9',1,'scxt::engine::Engine']]],
-  ['voicephasors_51',['voicePhasors',['../structTransportSourceBase.html#aca3617459bd851e27eff2754f454d75a',1,'TransportSourceBase']]],
+  ['voicephasors_51',['voicePhasors',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#aca3617459bd851e27eff2754f454d75a',1,'scxt::modulation::shared::TransportSourceBase']]],
   ['voicesources_52',['voiceSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a158a4c01368e2c6263b7b71710abe0c5',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
   ['voiceweakpointers_53',['voiceWeakPointers',['../structscxt_1_1engine_1_1Zone.html#af7829861d8342a31cb177feae10ca3cd',1,'scxt::engine::Zone']]],
   ['volattachment_54',['volAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a7f5c8a630f4b8066c01b94871f2d66db',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
