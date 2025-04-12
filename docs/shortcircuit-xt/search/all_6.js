@@ -185,7 +185,7 @@ var searchData=
   ['groupmatrixendpoints_182',['groupmatrixendpoints',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html',1,'GroupMatrixEndpoints'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a3fa403e08a83f80231905bc7958794e0',1,'scxt::modulation::GroupMatrixEndpoints::GroupMatrixEndpoints()']]],
   ['groupmatrixmetadata_5ft_183',['groupMatrixMetadata_t',['../namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5',1,'scxt::modulation']]],
   ['groupmodsources_184',['groupModSources',['../structscxt_1_1engine_1_1Engine.html#aea04a8c27813a0dcdee556ca70d3409d',1,'scxt::engine::Engine']]],
-  ['groupmodtargets_185',['groupModTargets',['../structscxt_1_1engine_1_1Engine.html#a8dc17f42784ef6ae9d57583cd45efe15',1,'scxt::engine::Engine']]],
+  ['groupmodtargets_185',['groupModTargets',['../structscxt_1_1engine_1_1Engine.html#a46f706e03a5f656ea9c612374a219d19',1,'scxt::engine::Engine']]],
   ['grouponly_186',['groupOnly',['../structscxt_1_1dsp_1_1processor_1_1ProcessorDescription.html#a3c1a0b9986c33539eaa2e7415317f0e1',1,'scxt::dsp::processor::ProcessorDescription']]],
   ['groupoutputinfo_187',['groupoutputinfo',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html',1,'Group::GroupOutputInfo'],['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a2338b13e646a0e20f4cb1bb85b0e1de9',1,'scxt::ui::app::SCXTEditorDataCache::groupOutputInfo']]],
   ['groupoutputinfoupdate_5ft_188',['groupOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b',1,'scxt::messaging::client']]],
