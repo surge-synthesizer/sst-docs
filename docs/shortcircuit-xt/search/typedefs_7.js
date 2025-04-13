@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['identifierdisplayname_5ft_0',['identifierdisplayname_t',['../namespacescxt_1_1modulation.html#a5c668f59593aa4195630e5a8b87f38e7',1,'scxt::modulation::identifierDisplayName_t'],['../namespacescxt_1_1voice_1_1modulation.html#a5c668f59593aa4195630e5a8b87f38e7',1,'scxt::voice::modulation::identifierDisplayName_t']]],
+  ['identifierdisplayname_5ft_0',['identifierdisplayname_t',['../namespacescxt_1_1voice_1_1modulation.html#a5c668f59593aa4195630e5a8b87f38e7',1,'scxt::voice::modulation::identifierDisplayName_t'],['../namespacescxt_1_1modulation.html#a5c668f59593aa4195630e5a8b87f38e7',1,'scxt::modulation::identifierDisplayName_t']]],
   ['indexeddiffmsg_5ft_1',['indexedDiffMsg_t',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a319a39a34f142344f6fa95862c1306d6',1,'scxt::messaging::client::detail']]],
   ['indexedmodulatorstorageupdate_5ft_2',['indexedModulatorStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a66e35a9241690bfa0ea71a9376cbee12',1,'scxt::messaging::client']]],
   ['indexedrootpath_5ft_3',['indexedRootPath_t',['../structscxt_1_1browser_1_1Browser.html#ae6a4a51e9d0e08b28c499b50e1ad843a',1,'scxt::browser::Browser']]],
@@ -11,5 +11,6 @@ var searchData=
   ['int16op_5ft_8',['int16Op_t',['../namespacescxt_1_1dsp_1_1processor_1_1detail.html#a0f125e6f1a214d0d52bc67059f42444b',1,'scxt::dsp::processor::detail']]],
   ['int16refreshmsg_5ft_9',['int16refreshmsg_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutPaneGroupTraits.html#a75fd7fb290c7a349f928e4da4bf13d41',1,'scxt::ui::app::edit_screen::OutPaneGroupTraits::int16RefreshMsg_t'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutPaneZoneTraits.html#a0993434df7faf5c67b052a430684dcb0',1,'scxt::ui::app::edit_screen::OutPaneZoneTraits::int16RefreshMsg_t']]],
   ['int_5fattachment_5ft_10',['int_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
-  ['inteditor_5ft_11',['intEditor_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afd392348a4980f94929e870d2917ddd6',1,'scxt::ui::app::edit_screen::ProcessorPane']]]
+  ['intatt_5ft_11',['intatt_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a16f7e3f73375fe284580fe0119ff891c',1,'scxt::ui::app::edit_screen::MiscPanel']]],
+  ['inteditor_5ft_12',['intEditor_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afd392348a4980f94929e870d2917ddd6',1,'scxt::ui::app::edit_screen::ProcessorPane']]]
 ];

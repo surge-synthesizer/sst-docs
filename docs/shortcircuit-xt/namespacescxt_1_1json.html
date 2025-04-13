@@ -119,8 +119,8 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a3ff4dac8b3f0caf2dd48750ad7f32cea" id="r_a3ff4dac8b3f0caf2dd48750ad7f32cea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a3ff4dac8b3f0caf2dd48750ad7f32cea">SC_STREAMDEF</a> (<a class="el" href="namespacescxt_1_1datamodel.html#a1eb273f3bb8f42c854ab0983b6ec8255">datamodel::pmd</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ assert(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>);std::vector&lt; std::pair&lt; int, std::string &gt; &gt; dvStream;for(const auto &amp;[k, mv] :t.discreteValues) dvStream.emplace_back(k, mv);v={{&quot;t&quot;,(int) t.type}, {&quot;n&quot;, t.name}, {&quot;mn&quot;, t.minVal}, {&quot;mx&quot;, t.maxVal}, {&quot;df&quot;, t.defaultVal}, {&quot;ts&quot;, t.canTemposync}, {&quot;ex&quot;, t.canExtend}, {&quot;de&quot;, t.canDeactivate}, {&quot;ab&quot;, t.canAbsolute}, {&quot;enb&quot;, t.enabled}, {&quot;tsm&quot;, t.temposyncMultiplier}, {&quot;ssc&quot;, t.supportsStringConversion}, {&quot;dsc&quot;,(int) t.displayScale}, {&quot;unit&quot;, t.unit}, {&quot;qt&quot;,(int) t.quantization}, {&quot;qtp&quot;, t.quantizationParam}, {&quot;cmid&quot;, t.customMinDisplay}, {&quot;cmxd&quot;, t.customMaxDisplay}, {&quot;discv&quot;, dvStream}, {&quot;dep&quot;, t.decimalPlaces}, {&quot;svA&quot;, t.svA}, {&quot;svB&quot;, t.svB}, {&quot;svC&quot;, t.svC}, {&quot;svD&quot;, t.svD}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7b79be6f2276868f65491c0841efa224">findEnumIf</a>(v, &quot;t&quot;, to.type);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;n&quot;, to.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;mn&quot;, to.minVal);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;mx&quot;, to.maxVal);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;df&quot;, to.defaultVal);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;ts&quot;, to.canTemposync);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;de&quot;, to.canDeactivate);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;ex&quot;, to.canExtend);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;ab&quot;, to.canAbsolute);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;enb&quot;, true, to.enabled);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;tsm&quot;, to.temposyncMultiplier);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;ssc&quot;, to.supportsStringConversion);<a class="el" href="namespacescxt_1_1json.html#a7b79be6f2276868f65491c0841efa224">findEnumIf</a>(v, &quot;dsc&quot;, to.displayScale);<a class="el" href="namespacescxt_1_1json.html#a7b79be6f2276868f65491c0841efa224">findEnumIf</a>(v, &quot;qt&quot;, to.quantization);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;qtp&quot;, to.quantizationParam);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;unit&quot;, to.unit);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;cmid&quot;, to.customMinDisplay);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;cmxd&quot;, to.customMaxDisplay);std::vector&lt; std::pair&lt; int, std::string &gt; &gt; dvStream;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;discv&quot;, dvStream);for(const auto &amp;[k, mv] :dvStream) to.discreteValues[k]=mv;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;dep&quot;, to.decimalPlaces);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;svA&quot;, to.svA);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;svB&quot;, to.svB);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;svC&quot;, to.svC);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;svD&quot;, to.svD);}))</td></tr>
 <tr class="separator:a3ff4dac8b3f0caf2dd48750ad7f32cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46bda7a9cf47558e7b1a85e7bdfa29a8" id="r_a46bda7a9cf47558e7b1a85e7bdfa29a8"><td class="memItemLeft" align="right" valign="top">SC_STREAMDEF(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: Engine is streaming for state 'IN_PROCESS'&quot;);} v={{&quot;streamingVersion&quot;, scxt::currentStreamingVersion}, {&quot;streamingVersionHumanReadable&quot;, <a class="el" href="namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158">scxt::humanReadableVersion</a>(scxt::currentStreamingVersion)}, {&quot;patch&quot;, from.getPatch()}, {&quot;selectionManager&quot;, from.getSelectionManager()}, {&quot;sampleManager&quot;, from.getSampleManager()}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ assert(to.getMessageController() -&gt;threadingChecker.isSerialThread());auto sv{0};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;streamingVersion&quot;, sv);<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstreaming engine state. Stream version : &quot;&lt;&lt; scxt::humanReadableVersion(sv));<a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html">engine::Engine::UnstreamGuard</a> sg(sv);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;sampleManager&quot;, *(to.getSampleManager()));<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;patch&quot;, *(to.getPatch()));<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;selectionManager&quot;, *(to.getSelectionManager()));to.getPatch() -&gt;setupBussesOnUnstream(to);to.onPartConfigurationUpdated();to.getPatch() -&gt;setSampleRate(to.getSampleRate());})) SC_STREAMDEF(scxt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a46bda7a9cf47558e7b1a85e7bdfa29a8">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;p&quot;, t.part}, {&quot;i&quot;, t.index}, {&quot;v&quot;, t.value}};<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;bp&quot;, false, t.isBipolar);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;st&quot;, false, t.isStepped);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;sc&quot;,(size_t) 1, t.stepCount);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;nm&quot;, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a9be08912e7ba3234feb8615d9ab10371">scxt::engine::Macro::defaultNameFor</a>(t.index), t.name);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;v&quot;, result.value);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;i&quot;, result.index);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;p&quot;, result.part);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;bp&quot;, false, result.isBipolar);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;st&quot;, false, result.isStepped);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;sc&quot;, 1, result.stepCount);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;nm&quot;, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a9be08912e7ba3234feb8615d9ab10371">scxt::engine::Macro::defaultNameFor</a>(result.index), result.name);}))</td></tr>
-<tr class="separator:a46bda7a9cf47558e7b1a85e7bdfa29a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501ebf2fd65343ca82bea22134d6075a" id="r_a501ebf2fd65343ca82bea22134d6075a"><td class="memItemLeft" align="right" valign="top">SC_STREAMDEF(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: Engine is streaming for state 'IN_PROCESS'&quot;);} v={{&quot;streamingVersion&quot;, scxt::currentStreamingVersion}, {&quot;streamingVersionHumanReadable&quot;, <a class="el" href="namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158">scxt::humanReadableVersion</a>(scxt::currentStreamingVersion)}, {&quot;patch&quot;, from.getPatch()}, {&quot;selectionManager&quot;, from.getSelectionManager()}, {&quot;sampleManager&quot;, from.getSampleManager()}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ assert(to.getMessageController() -&gt;threadingChecker.isSerialThread());auto sv{0};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;streamingVersion&quot;, sv);<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstreaming engine state. Stream version : &quot;&lt;&lt; scxt::humanReadableVersion(sv));<a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html">engine::Engine::UnstreamGuard</a> sg(sv);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;sampleManager&quot;, *(to.getSampleManager()));<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;patch&quot;, *(to.getPatch()));<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;selectionManager&quot;, *(to.getSelectionManager()));to.getPatch() -&gt;setupBussesOnUnstream(to);to.onPartConfigurationUpdated();to.getPatch() -&gt;setSampleRate(to.getSampleRate());<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstream and Setup Complete&quot;);})) SC_STREAMDEF(scxt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a501ebf2fd65343ca82bea22134d6075a">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;p&quot;, t.part}, {&quot;i&quot;, t.index}, {&quot;v&quot;, t.value}};<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;bp&quot;, false, t.isBipolar);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;st&quot;, false, t.isStepped);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;sc&quot;,(size_t) 1, t.stepCount);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;nm&quot;, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a9be08912e7ba3234feb8615d9ab10371">scxt::engine::Macro::defaultNameFor</a>(t.index), t.name);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;v&quot;, result.value);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;i&quot;, result.index);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;p&quot;, result.part);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;bp&quot;, false, result.isBipolar);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;st&quot;, false, result.isStepped);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;sc&quot;, 1, result.stepCount);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;nm&quot;, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a9be08912e7ba3234feb8615d9ab10371">scxt::engine::Macro::defaultNameFor</a>(result.index), result.name);}))</td></tr>
+<tr class="separator:a501ebf2fd65343ca82bea22134d6075a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b0612a16675c4441236336224b0d3ec" id="r_a6b0612a16675c4441236336224b0d3ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a6b0612a16675c4441236336224b0d3ec">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html">scxt::engine::Part::PartConfiguration</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>(v={{&quot;a&quot;, from.active}, {&quot;c&quot;, from.channel}, {&quot;m&quot;, from.mute}, {&quot;s&quot;, from.solo}, {&quot;pv&quot;, from.polyLimitVoices}, {&quot;mbr&quot;, from.mpePitchBendRange}, {&quot;lv&quot;, from.level}, {&quot;pan&quot;, from.pan}, {&quot;tun&quot;, from.tuning}, {&quot;xps&quot;, from.transpose}, {&quot;rt&quot;,(int) from.routeTo}, {&quot;nm&quot;, std::string(from.name)}, {&quot;bl&quot;, std::string(from.blurb)}};), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;c&quot;, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d">scxt::engine::Part::PartConfiguration::omniChannel</a>, to.channel);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;a&quot;, true, to.active);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;m&quot;, false, to.mute);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;s&quot;, false, to.solo);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pv&quot;, 0, to.polyLimitVoices);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mbr&quot;, 24, to.mpePitchBendRange);int rtv;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;rt&quot;, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::BusAddress::DEFAULT_BUS</a>, rtv);to.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">scxt::engine::BusAddress</a>) rtv;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;lv&quot;, 1, to.level);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pan&quot;, 0, to.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;tun&quot;, 0, to.tuning);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;xps&quot;, 0, to.transpose);std::string bStr;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;bl&quot;, &quot;&quot;, bStr);memset(to.blurb, 0, sizeof(to.blurb));strncpy(to.blurb, bStr.c_str(), sizeof(to.blurb) - 1);std::string nStr;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;nm&quot;, &quot;&quot;, nStr);if(!nStr.empty()) { memset(to.name, 0, sizeof(to.name));strncpy(to.name, nStr.c_str(), sizeof(to.name) - 1);} }))</td></tr>
 <tr class="separator:a6b0612a16675c4441236336224b0d3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace109a9ac7d1b2b361d0017855a8a4c3" id="r_ace109a9ac7d1b2b361d0017855a8a4c3"><td class="memItemLeft" align="right" valign="top">SC_STREAMDEF(<a class="el" href="structscxt_1_1engine_1_1Part_1_1ZoneMappingItem.html">scxt::engine::Part::ZoneMappingItem</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>(v={{&quot;a&quot;, from.address}, {&quot;kr&quot;, from.kr}, {&quot;vr&quot;, from.vr}, {&quot;name&quot;, from.name}, {&quot;features&quot;, from.features}};), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;a&quot;, to.address);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;kr&quot;, to.kr);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vr&quot;, to.vr);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;name&quot;, to.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;features&quot;, to.features);})) SC_STREAMDEF(scxt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ace109a9ac7d1b2b361d0017855a8a4c3">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">scxt::engine::GroupTriggerStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;id&quot;, from.id}, {&quot;args&quot;, from.args}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;id&quot;, to.id);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;args&quot;, to.args);}))</td></tr>
@@ -139,8 +139,8 @@ Functions</h2></td></tr>
 <tr class="separator:af7e14479ae836d8b6cff00ad36b3d932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60f30ae8bcc8452d7a5ef42e0d586909" id="r_a60f30ae8bcc8452d7a5ef42e0d586909"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a60f30ae8bcc8452d7a5ef42e0d586909">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">scxt::engine::Group::GroupOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;procRouting&quot;, t.procRouting}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}, {&quot;vpm&quot;, <a class="el" href="namespacescxt_1_1json.html#a714d29cc708863e827fa7884232195e2">groupInfoPlayModeTo</a>(t.vmPlayModeInt)}, {&quot;vpf&quot;, <a class="el" href="namespacescxt_1_1json.html#a6eaa2776638e631cdba071eee81c65eb">groupInfoPlayModeFeatureTo</a>(t.vmPlayModeFeaturesInt)}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;amplitude&quot;, result.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, result.pan);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;muted&quot;, result.muted);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;procRouting&quot;, result.procRouting);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;oversample&quot;, result.oversample);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routeTo&quot;, rt);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;hip&quot;, result.hasIndependentPolyLimit);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pl&quot;, result.polyLimit);result.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);std::string tmp;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpm&quot;, tmp);result.vmPlayModeInt=<a class="el" href="namespacescxt_1_1json.html#af73a335641fe8d6febb29bb296f4db10">groupInfoPlayModeFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpf&quot;, tmp);result.vmPlayModeFeaturesInt=<a class="el" href="namespacescxt_1_1json.html#af7e14479ae836d8b6cff00ad36b3d932">groupInfoPlayModeFeatureFrom</a>(tmp);}))</td></tr>
 <tr class="separator:a60f30ae8bcc8452d7a5ef42e0d586909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b31e1f417e47e7f78e965c8f6a3505f" id="r_a9b31e1f417e47e7f78e965c8f6a3505f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a9b31e1f417e47e7f78e965c8f6a3505f">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html">scxt::engine::Group</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;zones&quot;, t.getZones()}, {&quot;name&quot;, t.getName()}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;routingTable&quot;, t.routingTable}, {&quot;gegStorage&quot;, t.gegStorage}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;triggerConditions&quot;, t.triggerConditions}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;group=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;name&quot;, group.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;gegStorage&quot;, group.gegStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, group.outputInfo);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;processorStorage&quot;, group.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, group.routingTable);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;triggerConditions&quot;, group.triggerConditions);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, group.modulatorStorage);group.clearZones();auto vzones=v.at(&quot;zones&quot;).get_array();for(const auto vz :vzones) { auto idx=group.addZone(std::make_unique&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a> &gt;()) - 1;vz.to(*(group.getZone(idx)));if(group.parentPart &amp;&amp;group.parentPart-&gt;parentPatch &amp;&amp;group.parentPart-&gt;parentPatch-&gt;parentEngine) { group.getZone(idx) -&gt;setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));} } group.setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));}))</td></tr>
-<tr class="separator:a9b31e1f417e47e7f78e965c8f6a3505f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bd3254559e4c507332c912ed1c2636c" id="r_a5bd3254559e4c507332c912ed1c2636c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a5bd3254559e4c507332c912ed1c2636c">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html">scxt::engine::Group</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;zones&quot;, t.getZones()}, {&quot;name&quot;, t.getName()}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;routingTable&quot;, t.routingTable}, {&quot;gegStorage&quot;, t.gegStorage}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;miscSourceStorage&quot;, t.miscSourceStorage}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;triggerConditions&quot;, t.triggerConditions}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;group=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;name&quot;, group.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;gegStorage&quot;, group.gegStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, group.outputInfo);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;processorStorage&quot;, group.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, group.routingTable);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;triggerConditions&quot;, group.triggerConditions);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, group.modulatorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;miscSourceStorage&quot;, group.miscSourceStorage);group.clearZones();auto vzones=v.at(&quot;zones&quot;).get_array();for(const auto vz :vzones) { auto idx=group.addZone(std::make_unique&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a> &gt;()) - 1;vz.to(*(group.getZone(idx)));if(group.parentPart &amp;&amp;group.parentPart-&gt;parentPatch &amp;&amp;group.parentPart-&gt;parentPatch-&gt;parentEngine) { group.getZone(idx) -&gt;setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));} } group.setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));}))</td></tr>
+<tr class="separator:a5bd3254559e4c507332c912ed1c2636c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03a20d86bcdfdc96974910e0bd465f70" id="r_a03a20d86bcdfdc96974910e0bd465f70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a03a20d86bcdfdc96974910e0bd465f70">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html">scxt::engine::Zone::ZoneOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amp&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;to&quot;,(int) t.routeTo}};<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;prc&quot;, true, t.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;prt&quot;, engine::Zone::ProcRoutingPath::procRoute_linear, t.procRouting);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;muted&quot;, false, t.muted);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zo=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;amp&quot;, &quot;amplitude&quot;}, zo.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, zo.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;muted&quot;, false, zo.muted);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;prc&quot;, true, zo.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, {&quot;prt&quot;, &quot;procRouting&quot;}, engine::Zone::ProcRoutingPath::procRoute_linear, zo.procRouting);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;to&quot;, &quot;routeTo&quot;}, rt);if(rt &gt;=<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8abc5f80341be466fd1044ceb745d8d9f8">engine::BusAddress::ERROR_BUS</a> &amp;&amp;rt&lt;=<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32">engine::BusAddress::AUX_0</a>+numAux) zo.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);else zo.routeTo=<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>;}))</td></tr>
 <tr class="separator:a03a20d86bcdfdc96974910e0bd465f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28efc7b21fd63ff08a78c6369b97180d" id="r_a28efc7b21fd63ff08a78c6369b97180d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a28efc7b21fd63ff08a78c6369b97180d">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">scxt::engine::Zone::ZoneMappingData</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;rootKey&quot;, t.rootKey}, {&quot;keyR&quot;, t.keyboardRange}, {&quot;velR&quot;, t.velocityRange}, {&quot;pbDown&quot;, t.pbDown}, {&quot;pbUp&quot;, t.pbUp}, {&quot;exclusiveGroup&quot;, t.exclusiveGroup}, {&quot;velocitySens&quot;, t.velocitySens}, {&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;pitchOffset&quot;, t.pitchOffset}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zmd=to;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;rootKey&quot;, 60, zmd.rootKey);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;keyR&quot;, &quot;keyboardRange&quot;}, zmd.keyboardRange);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;velR&quot;, &quot;velocityRange&quot;}, zmd.velocityRange);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pbDown&quot;, zmd.pbDown);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pbUp&quot;, zmd.pbUp);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;amplitude&quot;, zmd.amplitude);if(<a class="el" href="scxt__traits_8h.html#a736b41371004bb8ceee5979bfe57e3d3">SC_UNSTREAMING_FROM_THIS_OR_OLDER</a>(0x2024 '06 '03)) { auto db=20 *std::log10(zmd.amplitude);zmd.amplitude=std::clamp(db, -36.f, 36.f);} <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, zmd.pan);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pitchOffset&quot;, zmd.pitchOffset);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;velocitySens&quot;, 1.0, zmd.velocitySens);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;exclusiveGroup&quot;, 0, zmd.exclusiveGroup);}))</td></tr>
@@ -163,8 +163,8 @@ Functions</h2></td></tr>
 <tr class="separator:a87a50f3b1c62f647322df17f66953d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f0e4fbdae6de4b7414a6764d53179b" id="r_ae7f0e4fbdae6de4b7414a6764d53179b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ae7f0e4fbdae6de4b7414a6764d53179b">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html">scxt::engine::Zone::Variants</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;variants&quot;, t.variants}, {&quot;variantPlaybackMode&quot;, t.variantPlaybackMode}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;variants&quot;, &quot;samples&quot;}, result.variants);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;variantPlaybackMode&quot;, result.variantPlaybackMode);}))</td></tr>
 <tr class="separator:ae7f0e4fbdae6de4b7414a6764d53179b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27f43d55ea906ce39787327c0cd7f38f" id="r_a27f43d55ea906ce39787327c0cd7f38f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a27f43d55ea906ce39787327c0cd7f38f">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto useGivenName=t.givenName;if(useGivenName.empty() &amp;&amp;!t.variantData.variants[0].active) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Crystalizing given name on stream&quot;);useGivenName=t.getName();} v={{&quot;variantData&quot;, t.variantData}, {&quot;mappingData&quot;, t.mapping}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;routingTable&quot;, t.routingTable}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;egs&quot;, t.egStorage}, {&quot;givenName&quot;, useGivenName}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zone=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;variantData&quot;, &quot;sampleData&quot;}, zone.variantData);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;mappingData&quot;, zone.mapping);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, zone.outputInfo);<a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;processorStorage&quot;), zone.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, zone.routingTable);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, zone.modulatorStorage);if(v.find(&quot;aegStorage&quot;)) { <a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;aegStorage&quot;, zone.egStorage[0]);<a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;eg2Storage&quot;, zone.egStorage[1]);} else if(v.find(&quot;egs&quot;)) { <a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;egs&quot;), zone.egStorage);} else { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: No EG storage in zone&quot;);} <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;givenName&quot;, &quot;&quot;, zone.givenName);zone.onRoutingChanged();}))</td></tr>
-<tr class="separator:a27f43d55ea906ce39787327c0cd7f38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d511d5cea4997b1016e3faa44641ef6" id="r_a8d511d5cea4997b1016e3faa44641ef6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a8d511d5cea4997b1016e3faa44641ef6">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto useGivenName=t.givenName;if(useGivenName.empty() &amp;&amp;!t.variantData.variants[0].active) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Crystalizing given name on stream&quot;);useGivenName=t.getName();} v={{&quot;variantData&quot;, t.variantData}, {&quot;mappingData&quot;, t.mapping}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;routingTable&quot;, t.routingTable}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;miscSourceStorage&quot;, t.miscSourceStorage}, {&quot;egs&quot;, t.egStorage}, {&quot;givenName&quot;, useGivenName}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zone=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;variantData&quot;, &quot;sampleData&quot;}, zone.variantData);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;mappingData&quot;, zone.mapping);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, zone.outputInfo);<a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;processorStorage&quot;), zone.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, zone.routingTable);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, zone.modulatorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;miscSourceStorage&quot;, zone.miscSourceStorage);if(v.find(&quot;aegStorage&quot;)) { <a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;aegStorage&quot;, zone.egStorage[0]);<a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;eg2Storage&quot;, zone.egStorage[1]);} else if(v.find(&quot;egs&quot;)) { <a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;egs&quot;), zone.egStorage);} else { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: No EG storage in zone&quot;);} <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;givenName&quot;, &quot;&quot;, zone.givenName);zone.onRoutingChanged();}))</td></tr>
+<tr class="separator:a8d511d5cea4997b1016e3faa44641ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab66a53fc80088127f2f19c583b2759d0" id="r_ab66a53fc80088127f2f19c583b2759d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ab66a53fc80088127f2f19c583b2759d0">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">scxt::engine::KeyboardRange</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;ks&quot;, t.keyStart}, {&quot;ke&quot;, t.keyEnd}, {&quot;fs&quot;, t.fadeStart}, {&quot;fe&quot;, t.fadeEnd}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;ks&quot;, &quot;keyStart&quot;}, to.keyStart);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;ke&quot;, &quot;keyEnd&quot;}, to.keyEnd);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;fs&quot;, &quot;fadeStart&quot;}, to.fadeStart);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;fe&quot;, &quot;fadeEnd&quot;}, to.fadeEnd);}))</td></tr>
 <tr class="separator:ab66a53fc80088127f2f19c583b2759d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c89cbcd153aaaff0793b92a02f14dd6" id="r_a0c89cbcd153aaaff0793b92a02f14dd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a0c89cbcd153aaaff0793b92a02f14dd6">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">scxt::engine::VelocityRange</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;vs&quot;, t.velStart}, {&quot;ve&quot;, t.velEnd}, {&quot;fs&quot;, t.fadeStart}, {&quot;fe&quot;, t.fadeEnd}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;vs&quot;, &quot;velStart&quot;}, to.velStart);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;ve&quot;, &quot;velEnd&quot;}, to.velEnd);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;fs&quot;, &quot;fadeStart&quot;}, to.fadeStart);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;fe&quot;, &quot;fadeEnd&quot;}, to.fadeEnd);}))</td></tr>
@@ -179,8 +179,20 @@ Functions</h2></td></tr>
 <tr class="separator:a70f69891bfb1d6647889cf0ecc980e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a006bee6d0d12f4c34a4b8e0ea17555cb" id="r_a006bee6d0d12f4c34a4b8e0ea17555cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a006bee6d0d12f4c34a4b8e0ea17555cb">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">scxt::engine::MissingResolutionWorkItem</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;i&quot;, from.missingID}, {&quot;p&quot;, from.path.u8string()}, {&quot;m&quot;, from.isMultiUsed}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;i&quot;, to.missingID);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;m&quot;, false, to.isMultiUsed);std::string fp;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;p&quot;, fp);to.path=fs::path(fs::u8path(fp));}))</td></tr>
 <tr class="separator:a006bee6d0d12f4c34a4b8e0ea17555cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ada520e59db528e1ec18810c7961f3" id="r_ae6ada520e59db528e1ec18810c7961f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2">SC_STREAMDEF</a>(<a class="el" href="namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa">scxt::modulation::modulators::StepLFOStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;data&quot;, t.data}, {&quot;repeat&quot;, t.repeat}, {&quot;rateIsForSingleStep&quot;, t.rateIsForSingleStep}, {&quot;smooth&quot;, t.smooth}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;data&quot;, result.data);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;repeat&quot;, result.repeat);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;smooth&quot;, result.smooth);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;rateIsForSingleStep&quot;, result.rateIsForSingleStep);})) <a class="el" href="namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2">SC_STREAMDEF</a>(scxt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ae6ada520e59db528e1ec18810c7961f3">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127">modulation::ModulatorStorage::TriggerMode</a>, modulation::ModulatorStorage::toStringTriggerMode, modulation::ModulatorStorage::fromStringTriggerMode)</td></tr>
-<tr class="separator:ae6ada520e59db528e1ec18810c7961f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6bbc4e04a7c7a064b4edc7eae4a218f" id="r_ab6bbc4e04a7c7a064b4edc7eae4a218f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2">SC_STREAMDEF</a>(<a class="el" href="namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa">scxt::modulation::modulators::StepLFOStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;data&quot;, t.data}, {&quot;repeat&quot;, t.repeat}, {&quot;rateIsForSingleStep&quot;, t.rateIsForSingleStep}, {&quot;smooth&quot;, t.smooth}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;data&quot;, result.data);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;repeat&quot;, result.repeat);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;smooth&quot;, result.smooth);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;rateIsForSingleStep&quot;, result.rateIsForSingleStep);})) <a class="el" href="namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2">SC_STREAMDEF</a>(scxt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ab6bbc4e04a7c7a064b4edc7eae4a218f">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7d">modulation::modulators::PhasorStorage::SyncMode</a>, modulation::modulators::PhasorStorage::toStringSyncMode, modulation::modulators::PhasorStorage::fromStringSyncMode)</td></tr>
+<tr class="separator:ab6bbc4e04a7c7a064b4edc7eae4a218f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d101376f768105f593954cbfeaf3d1" id="r_aa1d101376f768105f593954cbfeaf3d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#aa1d101376f768105f593954cbfeaf3d1">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html">modulation::modulators::PhasorStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v=tao::json::empty_object;using ps=<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html">modulation::modulators::PhasorStorage</a>;<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;di&quot;, ps::Division::NOTE, from.division);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;sy&quot;, ps::SyncMode::VOICEPOS, from.syncMode);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;nu&quot;, 1, from.numerator);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;de&quot;, 4, from.denominator);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ using ps=<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html">modulation::modulators::PhasorStorage</a>;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;di&quot;, ps::Division::NOTE, to.division);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;sy&quot;, ps::SyncMode::VOICEPOS, to.syncMode);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;nu&quot;, 1, to.numerator);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;de&quot;, 4, to.denominator);}))</td></tr>
+<tr class="separator:aa1d101376f768105f593954cbfeaf3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7170b22b71ef8c8b88bc98fb3639dde6" id="r_a7170b22b71ef8c8b88bc98fb3639dde6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a7170b22b71ef8c8b88bc98fb3639dde6">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7">modulation::modulators::RandomStorage::Style</a>, modulation::modulators::RandomStorage::toStringStyle, modulation::modulators::RandomStorage::fromStringStyle)</td></tr>
+<tr class="separator:a7170b22b71ef8c8b88bc98fb3639dde6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555882e0804ba093be17a35fcab2b1d7" id="r_a555882e0804ba093be17a35fcab2b1d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a555882e0804ba093be17a35fcab2b1d7">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html">modulation::modulators::RandomStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v=tao::json::empty_object;<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;st&quot;, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a36efc488271608e87beb8add1348711e">modulation::modulators::RandomStorage::Style::UNIFORM_01</a>, from.style);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;st&quot;, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a36efc488271608e87beb8add1348711e">modulation::modulators::RandomStorage::Style::UNIFORM_01</a>, to.style);}))</td></tr>
+<tr class="separator:a555882e0804ba093be17a35fcab2b1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf94e49d15b79f78d78a88171dd84a79" id="r_acf94e49d15b79f78d78a88171dd84a79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#acf94e49d15b79f78d78a88171dd84a79">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">modulation::MiscSourceStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;rs&quot;, t.randoms}, {&quot;ps&quot;, t.phasors}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;rs&quot;, to.randoms);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;ps&quot;, to.phasors);}))</td></tr>
+<tr class="separator:acf94e49d15b79f78d78a88171dd84a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9f3fa4491ed3810fd323ee06ce4020" id="r_a0d9f3fa4491ed3810fd323ee06ce4020"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a0d9f3fa4491ed3810fd323ee06ce4020">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d">modulation::ModulatorStorage::ModulatorShape</a>, modulation::ModulatorStorage::toStringModulatorShape, modulation::ModulatorStorage::fromStringModulatorShape)</td></tr>
+<tr class="separator:a0d9f3fa4491ed3810fd323ee06ce4020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6273516486ebac1fefcba84718a98b4" id="r_ab6273516486ebac1fefcba84718a98b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ab6273516486ebac1fefcba84718a98b4">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127">modulation::ModulatorStorage::TriggerMode</a>, modulation::ModulatorStorage::toStringTriggerMode, modulation::ModulatorStorage::fromStringTriggerMode)</td></tr>
+<tr class="separator:ab6273516486ebac1fefcba84718a98b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7be95bc1489aa0908a6fa31d5189af6" id="r_aa7be95bc1489aa0908a6fa31d5189af6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#aa7be95bc1489aa0908a6fa31d5189af6">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1modulation_1_1shared_1_1RoutingExtraPayload.html">scxt::modulation::shared::RoutingExtraPayload</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;selC&quot;, t.selConsistent}, {&quot;targetMetadata&quot;, t.targetMetadata}, {&quot;targetBaseValue&quot;, t.targetBaseValue}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;selC&quot;, result.selConsistent);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;targetMetadata&quot;, result.targetMetadata);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;targetBaseValue&quot;, result.targetBaseValue);}))</td></tr>
 <tr class="separator:aa7be95bc1489aa0908a6fa31d5189af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a722758f79de4964742e89e2222871388" id="r_a722758f79de4964742e89e2222871388"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a722758f79de4964742e89e2222871388">SC_STREAMDEF</a> (scxt::voice::modulation::Matrix::RoutingTable::Routing, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(t.hasDefaultValues()) { v=tao::json::empty_object;} else { v={{&quot;active&quot;, t.active}, {&quot;source&quot;, t.source}, {&quot;sourceVia&quot;, t.sourceVia}, {&quot;target&quot;, t.target}, {&quot;curve&quot;, t.curve}, {&quot;depth&quot;, t.depth}, {&quot;srcLMS&quot;, t.sourceLagMS}, {&quot;srVLMS&quot;, t.sourceViaLagMS}, {&quot;srcLE&quot;, t.sourceLagExp}, {&quot;srVLE&quot;, t.sourceViaLagExp}, {&quot;appm&quot;, t.applicationMode}};if(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>) <a class="el" href="namespacescxt_1_1json.html#a1a0ec0fc16bf8976058ff028102889c4">addToObject</a>&lt; val_t &gt;(v, &quot;extraPayload&quot;, t.extraPayload);} }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ result=rt_t();<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;active&quot;, result.active);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;source&quot;, result.source);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;sourceVia&quot;, result.sourceVia);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;target&quot;, result.target);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;curve&quot;, result.curve);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;depth&quot;, result.depth);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;extraPayload&quot;, result.extraPayload);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;srcLMS&quot;, 0, result.sourceLagMS);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;srVLMS&quot;, 0, result.sourceViaLagMS);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;srcLE&quot;, true, result.sourceLagExp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;srVLE&quot;, true, result.sourceViaLagExp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;appm&quot;, 0, result.applicationMode);}))</td></tr>
@@ -271,7 +283,7 @@ Variables</h2></td></tr>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3ff4dac8b3f0caf2dd48750ad7f32cea" name="a3ff4dac8b3f0caf2dd48750ad7f32cea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ff4dac8b3f0caf2dd48750ad7f32cea">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[1/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ff4dac8b3f0caf2dd48750ad7f32cea">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[1/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,14 +318,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a46bda7a9cf47558e7b1a85e7bdfa29a8" name="a46bda7a9cf47558e7b1a85e7bdfa29a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46bda7a9cf47558e7b1a85e7bdfa29a8">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[2/32]</span></h2>
+<a id="a501ebf2fd65343ca82bea22134d6075a" name="a501ebf2fd65343ca82bea22134d6075a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501ebf2fd65343ca82bea22134d6075a">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[2/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SC_STREAMDEF(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: Engine is streaming for state 'IN_PROCESS'&quot;); } v={{&quot;streamingVersion&quot;, scxt::currentStreamingVersion}, {&quot;streamingVersionHumanReadable&quot;, <a class="el" href="namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158">scxt::humanReadableVersion</a>(scxt::currentStreamingVersion)}, {&quot;patch&quot;, from.getPatch()}, {&quot;selectionManager&quot;, from.getSelectionManager()}, {&quot;sampleManager&quot;, from.getSampleManager()}}; }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ assert(to.getMessageController() -&gt;threadingChecker.isSerialThread()); auto sv{0}; <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;streamingVersion&quot;, sv); <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstreaming engine state. Stream version : &quot;&lt;&lt; scxt::humanReadableVersion(sv)); <a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html">engine::Engine::UnstreamGuard</a> sg(sv); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;sampleManager&quot;, *(to.getSampleManager())); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;patch&quot;, *(to.getPatch())); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;selectionManager&quot;, *(to.getSelectionManager())); to.getPatch() -&gt;setupBussesOnUnstream(to); to.onPartConfigurationUpdated(); to.getPatch() -&gt;setSampleRate(to.getSampleRate()); })) SC_STREAMDEF(scxt SC_STREAMDEF </td>
+          <td class="memname">SC_STREAMDEF(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ if(<a class="el" href="scxt__traits_8h.html#aa61f273d3f81bf9f1c0f1317c7aacd5d">SC_STREAMING_FOR_IN_PROCESS</a>) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: Engine is streaming for state 'IN_PROCESS'&quot;); } v={{&quot;streamingVersion&quot;, scxt::currentStreamingVersion}, {&quot;streamingVersionHumanReadable&quot;, <a class="el" href="namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158">scxt::humanReadableVersion</a>(scxt::currentStreamingVersion)}, {&quot;patch&quot;, from.getPatch()}, {&quot;selectionManager&quot;, from.getSelectionManager()}, {&quot;sampleManager&quot;, from.getSampleManager()}}; }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ assert(to.getMessageController() -&gt;threadingChecker.isSerialThread()); auto sv{0}; <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;streamingVersion&quot;, sv); <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstreaming engine state. Stream version : &quot;&lt;&lt; scxt::humanReadableVersion(sv)); <a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html">engine::Engine::UnstreamGuard</a> sg(sv); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;sampleManager&quot;, *(to.getSampleManager())); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;patch&quot;, *(to.getPatch())); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;selectionManager&quot;, *(to.getSelectionManager())); to.getPatch() -&gt;setupBussesOnUnstream(to); to.onPartConfigurationUpdated(); to.getPatch() -&gt;setSampleRate(to.getSampleRate()); <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Unstream and Setup Complete&quot;); })) SC_STREAMDEF(scxt SC_STREAMDEF </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Macro.html">scxt::engine::Macro</a>&#160;</td>
           <td class="paramname">, </td>
@@ -343,7 +355,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6b0612a16675c4441236336224b0d3ec" name="a6b0612a16675c4441236336224b0d3ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b0612a16675c4441236336224b0d3ec">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[3/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b0612a16675c4441236336224b0d3ec">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[3/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +389,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ace109a9ac7d1b2b361d0017855a8a4c3" name="ace109a9ac7d1b2b361d0017855a8a4c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace109a9ac7d1b2b361d0017855a8a4c3">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[4/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ace109a9ac7d1b2b361d0017855a8a4c3">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[4/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,7 +423,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad2a75a546c2e477bd88bb880434dfff0" name="ad2a75a546c2e477bd88bb880434dfff0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2a75a546c2e477bd88bb880434dfff0">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2a75a546c2e477bd88bb880434dfff0">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[1/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +457,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acda9ce48080a668852cbb6cec537e9c0" name="acda9ce48080a668852cbb6cec537e9c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acda9ce48080a668852cbb6cec537e9c0">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[5/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acda9ce48080a668852cbb6cec537e9c0">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[5/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,7 +573,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a60f30ae8bcc8452d7a5ef42e0d586909" name="a60f30ae8bcc8452d7a5ef42e0d586909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60f30ae8bcc8452d7a5ef42e0d586909">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[6/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a60f30ae8bcc8452d7a5ef42e0d586909">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[6/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,8 +608,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b31e1f417e47e7f78e965c8f6a3505f" name="a9b31e1f417e47e7f78e965c8f6a3505f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b31e1f417e47e7f78e965c8f6a3505f">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[7/32]</span></h2>
+<a id="a5bd3254559e4c507332c912ed1c2636c" name="a5bd3254559e4c507332c912ed1c2636c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bd3254559e4c507332c912ed1c2636c">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[7/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,13 +623,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;zones&quot;, t.getZones()}, {&quot;name&quot;, t.getName()}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;routingTable&quot;, t.routingTable}, {&quot;gegStorage&quot;, t.gegStorage}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;triggerConditions&quot;, t.triggerConditions}};})&#160;</td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;zones&quot;, t.getZones()}, {&quot;name&quot;, t.getName()}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;routingTable&quot;, t.routingTable}, {&quot;gegStorage&quot;, t.gegStorage}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;miscSourceStorage&quot;, t.miscSourceStorage}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;triggerConditions&quot;, t.triggerConditions}};})&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;group=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;name&quot;, group.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;gegStorage&quot;, group.gegStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, group.outputInfo);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;processorStorage&quot;, group.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, group.routingTable);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;triggerConditions&quot;, group.triggerConditions);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, group.modulatorStorage);group.clearZones();auto vzones=v.at(&quot;zones&quot;).get_array();for(const auto vz :vzones) { auto idx=group.addZone(std::make_unique&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a> &gt;()) - 1;vz.to(*(group.getZone(idx)));if(group.parentPart &amp;&amp;group.parentPart-&gt;parentPatch &amp;&amp;group.parentPart-&gt;parentPatch-&gt;parentEngine) { group.getZone(idx) -&gt;setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));} } group.setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));})&#160;</td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;group=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;name&quot;, group.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;gegStorage&quot;, group.gegStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, group.outputInfo);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;processorStorage&quot;, group.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, group.routingTable);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;triggerConditions&quot;, group.triggerConditions);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, group.modulatorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;miscSourceStorage&quot;, group.miscSourceStorage);group.clearZones();auto vzones=v.at(&quot;zones&quot;).get_array();for(const auto vz :vzones) { auto idx=group.addZone(std::make_unique&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a> &gt;()) - 1;vz.to(*(group.getZone(idx)));if(group.parentPart &amp;&amp;group.parentPart-&gt;parentPatch &amp;&amp;group.parentPart-&gt;parentPatch-&gt;parentEngine) { group.getZone(idx) -&gt;setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));} } group.setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));})&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -631,7 +643,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a03a20d86bcdfdc96974910e0bd465f70" name="a03a20d86bcdfdc96974910e0bd465f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a20d86bcdfdc96974910e0bd465f70">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[8/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a20d86bcdfdc96974910e0bd465f70">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[8/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,7 +677,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a28efc7b21fd63ff08a78c6369b97180d" name="a28efc7b21fd63ff08a78c6369b97180d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28efc7b21fd63ff08a78c6369b97180d">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[9/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28efc7b21fd63ff08a78c6369b97180d">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[9/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -699,7 +711,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aad2bf7a61c878337bdade44d7ca95e16" name="aad2bf7a61c878337bdade44d7ca95e16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad2bf7a61c878337bdade44d7ca95e16">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2bf7a61c878337bdade44d7ca95e16">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[2/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -733,7 +745,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aac194aa359fdcc0896e1b0529df22f92" name="aac194aa359fdcc0896e1b0529df22f92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac194aa359fdcc0896e1b0529df22f92">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac194aa359fdcc0896e1b0529df22f92">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[3/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,7 +779,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a139fa8627c73cac8530aacb46cdc23a9" name="a139fa8627c73cac8530aacb46cdc23a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139fa8627c73cac8530aacb46cdc23a9">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a139fa8627c73cac8530aacb46cdc23a9">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[4/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -801,7 +813,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7bc3803d8dff1dd1e7309f7b6a131457" name="a7bc3803d8dff1dd1e7309f7b6a131457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bc3803d8dff1dd1e7309f7b6a131457">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc3803d8dff1dd1e7309f7b6a131457">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[5/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -835,7 +847,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3d047ea0884c6ddfadc2ea19b326a2de" name="a3d047ea0884c6ddfadc2ea19b326a2de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d047ea0884c6ddfadc2ea19b326a2de">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d047ea0884c6ddfadc2ea19b326a2de">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[6/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -869,7 +881,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af1e0da7670512d99361e81c67d78f290" name="af1e0da7670512d99361e81c67d78f290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1e0da7670512d99361e81c67d78f290">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e0da7670512d99361e81c67d78f290">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[7/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -903,7 +915,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a695c68ee1bfcb1c6da60c19b93741cfc" name="a695c68ee1bfcb1c6da60c19b93741cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a695c68ee1bfcb1c6da60c19b93741cfc">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a695c68ee1bfcb1c6da60c19b93741cfc">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[8/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -937,7 +949,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a87a50f3b1c62f647322df17f66953d79" name="a87a50f3b1c62f647322df17f66953d79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87a50f3b1c62f647322df17f66953d79">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[10/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a50f3b1c62f647322df17f66953d79">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[10/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -971,7 +983,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae7f0e4fbdae6de4b7414a6764d53179b" name="ae7f0e4fbdae6de4b7414a6764d53179b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f0e4fbdae6de4b7414a6764d53179b">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[11/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f0e4fbdae6de4b7414a6764d53179b">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[11/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1004,8 +1016,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a27f43d55ea906ce39787327c0cd7f38f" name="a27f43d55ea906ce39787327c0cd7f38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27f43d55ea906ce39787327c0cd7f38f">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[12/32]</span></h2>
+<a id="a8d511d5cea4997b1016e3faa44641ef6" name="a8d511d5cea4997b1016e3faa44641ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d511d5cea4997b1016e3faa44641ef6">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[12/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1019,13 +1031,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto useGivenName=t.givenName;if(useGivenName.empty() &amp;&amp;!t.variantData.variants[0].active) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Crystalizing given name on stream&quot;);useGivenName=t.getName();} v={{&quot;variantData&quot;, t.variantData}, {&quot;mappingData&quot;, t.mapping}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;routingTable&quot;, t.routingTable}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;egs&quot;, t.egStorage}, {&quot;givenName&quot;, useGivenName}};})&#160;</td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ auto useGivenName=t.givenName;if(useGivenName.empty() &amp;&amp;!t.variantData.variants[0].active) { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Crystalizing given name on stream&quot;);useGivenName=t.getName();} v={{&quot;variantData&quot;, t.variantData}, {&quot;mappingData&quot;, t.mapping}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;routingTable&quot;, t.routingTable}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;miscSourceStorage&quot;, t.miscSourceStorage}, {&quot;egs&quot;, t.egStorage}, {&quot;givenName&quot;, useGivenName}};})&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zone=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;variantData&quot;, &quot;sampleData&quot;}, zone.variantData);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;mappingData&quot;, zone.mapping);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, zone.outputInfo);<a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;processorStorage&quot;), zone.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, zone.routingTable);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, zone.modulatorStorage);if(v.find(&quot;aegStorage&quot;)) { <a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;aegStorage&quot;, zone.egStorage[0]);<a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;eg2Storage&quot;, zone.egStorage[1]);} else if(v.find(&quot;egs&quot;)) { <a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;egs&quot;), zone.egStorage);} else { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: No EG storage in zone&quot;);} <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;givenName&quot;, &quot;&quot;, zone.givenName);zone.onRoutingChanged();})&#160;</td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zone=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;variantData&quot;, &quot;sampleData&quot;}, zone.variantData);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;mappingData&quot;, zone.mapping);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, zone.outputInfo);<a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;processorStorage&quot;), zone.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, zone.routingTable);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, zone.modulatorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;miscSourceStorage&quot;, zone.miscSourceStorage);if(v.find(&quot;aegStorage&quot;)) { <a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;aegStorage&quot;, zone.egStorage[0]);<a class="el" href="namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572">findOrDefault</a>(v, &quot;eg2Storage&quot;, zone.egStorage[1]);} else if(v.find(&quot;egs&quot;)) { <a class="el" href="extensions_8h.html#a714a48aa325262e5c2599db58de04b02">fromArrayWithSizeDifference</a>&lt; Traits &gt;(v.at(&quot;egs&quot;), zone.egStorage);} else { <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;Warning: No EG storage in zone&quot;);} <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;givenName&quot;, &quot;&quot;, zone.givenName);zone.onRoutingChanged();})&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1039,7 +1051,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab66a53fc80088127f2f19c583b2759d0" name="ab66a53fc80088127f2f19c583b2759d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab66a53fc80088127f2f19c583b2759d0">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[13/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66a53fc80088127f2f19c583b2759d0">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[13/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1073,7 +1085,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0c89cbcd153aaaff0793b92a02f14dd6" name="a0c89cbcd153aaaff0793b92a02f14dd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c89cbcd153aaaff0793b92a02f14dd6">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[14/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c89cbcd153aaaff0793b92a02f14dd6">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[14/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1107,7 +1119,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8d2d882b599cebf381a8102ac912b46e" name="a8d2d882b599cebf381a8102ac912b46e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d2d882b599cebf381a8102ac912b46e">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[15/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2d882b599cebf381a8102ac912b46e">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[15/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1141,7 +1153,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab787b7bec23490126c1a8385d90e51d4" name="ab787b7bec23490126c1a8385d90e51d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab787b7bec23490126c1a8385d90e51d4">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[16/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab787b7bec23490126c1a8385d90e51d4">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[16/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1175,7 +1187,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5e7b3f4240b6e11b49e59583e15af72e" name="a5e7b3f4240b6e11b49e59583e15af72e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e7b3f4240b6e11b49e59583e15af72e">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[17/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7b3f4240b6e11b49e59583e15af72e">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[17/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1211,7 +1223,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a70f69891bfb1d6647889cf0ecc980e61" name="a70f69891bfb1d6647889cf0ecc980e61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f69891bfb1d6647889cf0ecc980e61">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[18/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f69891bfb1d6647889cf0ecc980e61">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[18/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1245,7 +1257,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a006bee6d0d12f4c34a4b8e0ea17555cb" name="a006bee6d0d12f4c34a4b8e0ea17555cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a006bee6d0d12f4c34a4b8e0ea17555cb">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[19/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a006bee6d0d12f4c34a4b8e0ea17555cb">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[19/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1278,14 +1290,220 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae6ada520e59db528e1ec18810c7961f3" name="ae6ada520e59db528e1ec18810c7961f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6ada520e59db528e1ec18810c7961f3">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[9/9]</span></h2>
+<a id="ab6bbc4e04a7c7a064b4edc7eae4a218f" name="ab6bbc4e04a7c7a064b4edc7eae4a218f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6bbc4e04a7c7a064b4edc7eae4a218f">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[9/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2">SC_STREAMDEF</a>(<a class="el" href="namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa">scxt::modulation::modulators::StepLFOStorage</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;data&quot;, t.data}, {&quot;repeat&quot;, t.repeat}, {&quot;rateIsForSingleStep&quot;, t.rateIsForSingleStep}, {&quot;smooth&quot;, t.smooth}}; }), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;data&quot;, result.data); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;repeat&quot;, result.repeat); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;smooth&quot;, result.smooth); <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;rateIsForSingleStep&quot;, result.rateIsForSingleStep); })) <a class="el" href="namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2">SC_STREAMDEF</a>(scxt STREAM_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7d">modulation::modulators::PhasorStorage::SyncMode</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">modulation::modulators::PhasorStorage::toStringSyncMode&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">modulation::modulators::PhasorStorage::fromStringSyncMode&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1d101376f768105f593954cbfeaf3d1" name="aa1d101376f768105f593954cbfeaf3d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d101376f768105f593954cbfeaf3d1">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[20/35]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SC_STREAMDEF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html">modulation::modulators::PhasorStorage</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v=tao::json::empty_object;using ps=<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html">modulation::modulators::PhasorStorage</a>;<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;di&quot;, ps::Division::NOTE, from.division);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;sy&quot;, ps::SyncMode::VOICEPOS, from.syncMode);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;nu&quot;, 1, from.numerator);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;de&quot;, 4, from.denominator);})&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ using ps=<a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html">modulation::modulators::PhasorStorage</a>;<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;di&quot;, ps::Division::NOTE, to.division);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;sy&quot;, ps::SyncMode::VOICEPOS, to.syncMode);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;nu&quot;, 1, to.numerator);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;de&quot;, 4, to.denominator);})&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7170b22b71ef8c8b88bc98fb3639dde6" name="a7170b22b71ef8c8b88bc98fb3639dde6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7170b22b71ef8c8b88bc98fb3639dde6">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[10/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">STREAM_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7">modulation::modulators::RandomStorage::Style</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">modulation::modulators::RandomStorage::toStringStyle&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">modulation::modulators::RandomStorage::fromStringStyle&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a555882e0804ba093be17a35fcab2b1d7" name="a555882e0804ba093be17a35fcab2b1d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555882e0804ba093be17a35fcab2b1d7">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[21/35]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SC_STREAMDEF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html">modulation::modulators::RandomStorage</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v=tao::json::empty_object;<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;st&quot;, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a36efc488271608e87beb8add1348711e">modulation::modulators::RandomStorage::Style::UNIFORM_01</a>, from.style);})&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;st&quot;, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a36efc488271608e87beb8add1348711e">modulation::modulators::RandomStorage::Style::UNIFORM_01</a>, to.style);})&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a36efc488271608e87beb8add1348711e">RandomStorage::UNIFORM_01</a>.</p>
+
+</div>
+</div>
+<a id="acf94e49d15b79f78d78a88171dd84a79" name="acf94e49d15b79f78d78a88171dd84a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf94e49d15b79f78d78a88171dd84a79">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[22/35]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SC_STREAMDEF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">modulation::MiscSourceStorage</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;rs&quot;, t.randoms}, {&quot;ps&quot;, t.phasors}};})&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;rs&quot;, to.randoms);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;ps&quot;, to.phasors);})&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d9f3fa4491ed3810fd323ee06ce4020" name="a0d9f3fa4491ed3810fd323ee06ce4020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9f3fa4491ed3810fd323ee06ce4020">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[11/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">STREAM_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d">modulation::ModulatorStorage::ModulatorShape</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">modulation::ModulatorStorage::toStringModulatorShape&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">modulation::ModulatorStorage::fromStringModulatorShape&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6273516486ebac1fefcba84718a98b4" name="ab6273516486ebac1fefcba84718a98b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6273516486ebac1fefcba84718a98b4">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[12/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">STREAM_ENUM </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127">modulation::ModulatorStorage::TriggerMode</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1313,7 +1531,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa7be95bc1489aa0908a6fa31d5189af6" name="aa7be95bc1489aa0908a6fa31d5189af6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7be95bc1489aa0908a6fa31d5189af6">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[20/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7be95bc1489aa0908a6fa31d5189af6">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[23/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1347,7 +1565,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a722758f79de4964742e89e2222871388" name="a722758f79de4964742e89e2222871388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a722758f79de4964742e89e2222871388">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[21/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a722758f79de4964742e89e2222871388">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[24/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1383,7 +1601,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad3882399ceb554b2c882ed56976a6aab" name="ad3882399ceb554b2c882ed56976a6aab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3882399ceb554b2c882ed56976a6aab">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[22/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3882399ceb554b2c882ed56976a6aab">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[25/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1417,7 +1635,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aca4f1660b78f958f027f7f54944544ed" name="aca4f1660b78f958f027f7f54944544ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca4f1660b78f958f027f7f54944544ed">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[23/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4f1660b78f958f027f7f54944544ed">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[26/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1453,7 +1671,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0821bffe4b631b49345468abb0fc51da" name="a0821bffe4b631b49345468abb0fc51da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0821bffe4b631b49345468abb0fc51da">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[24/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0821bffe4b631b49345468abb0fc51da">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[27/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1487,7 +1705,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3cee252024f356bd0d2a24a12f5cbbf5" name="a3cee252024f356bd0d2a24a12f5cbbf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cee252024f356bd0d2a24a12f5cbbf5">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[25/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cee252024f356bd0d2a24a12f5cbbf5">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[28/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1523,7 +1741,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa5f4d8a54f3852a6cec642c1d755cc6a" name="aa5f4d8a54f3852a6cec642c1d755cc6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5f4d8a54f3852a6cec642c1d755cc6a">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[26/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f4d8a54f3852a6cec642c1d755cc6a">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[29/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1559,7 +1777,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a36dbc37022a42b569bd704324e49cfe5" name="a36dbc37022a42b569bd704324e49cfe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36dbc37022a42b569bd704324e49cfe5">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[27/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36dbc37022a42b569bd704324e49cfe5">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[30/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1593,7 +1811,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a721a88db474468f4a74ee0b36d1d15f8" name="a721a88db474468f4a74ee0b36d1d15f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a721a88db474468f4a74ee0b36d1d15f8">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[28/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a721a88db474468f4a74ee0b36d1d15f8">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[31/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1971,7 +2189,7 @@ template&lt;typename T , typename V , typename R &gt; </div>
 </div>
 </div>
 <a id="abf213b79f38f51b8b0fbdeeb26dc0eb1" name="abf213b79f38f51b8b0fbdeeb26dc0eb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf213b79f38f51b8b0fbdeeb26dc0eb1">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[29/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf213b79f38f51b8b0fbdeeb26dc0eb1">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[32/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2007,7 +2225,7 @@ template&lt;typename T , typename V , typename R &gt; </div>
 </div>
 </div>
 <a id="a4bf19a6265f51a220b354abe327097d8" name="a4bf19a6265f51a220b354abe327097d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bf19a6265f51a220b354abe327097d8">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[30/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf19a6265f51a220b354abe327097d8">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[33/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2041,7 +2259,7 @@ template&lt;typename T , typename V , typename R &gt; </div>
 </div>
 </div>
 <a id="add29400aeb9e67ac5d9664bcd3555915" name="add29400aeb9e67ac5d9664bcd3555915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add29400aeb9e67ac5d9664bcd3555915">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[31/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add29400aeb9e67ac5d9664bcd3555915">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[34/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2283,7 +2501,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ab529a54d5f37cbd31db0f3f2a9caaf58" name="ab529a54d5f37cbd31db0f3f2a9caaf58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab529a54d5f37cbd31db0f3f2a9caaf58">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[32/32]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab529a54d5f37cbd31db0f3f2a9caaf58">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[35/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2354,7 +2572,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 13 2025 14:20:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Apr 13 2025 22:53:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

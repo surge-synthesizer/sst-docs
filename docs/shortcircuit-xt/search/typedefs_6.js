@@ -10,5 +10,6 @@ var searchData=
   ['groupid_7',['GroupID',['../namespacescxt.html#a065ba2acff2c78a8ae6cc01a634b3e05',1,'scxt']]],
   ['groupmatrixmetadata_5ft_8',['groupMatrixMetadata_t',['../namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5',1,'scxt::modulation']]],
   ['groupoutputinfoupdate_5ft_9',['groupOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b',1,'scxt::messaging::client']]],
-  ['grouptriggerbuffer_10',['GroupTriggerBuffer',['../namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92',1,'scxt::engine']]]
+  ['grouptriggerbuffer_10',['GroupTriggerBuffer',['../namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92',1,'scxt::engine']]],
+  ['gzmiscstorageupdate_5ft_11',['gzMiscStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#adea0b65938dbf91699042e82993f5063',1,'scxt::messaging::client']]]
 ];

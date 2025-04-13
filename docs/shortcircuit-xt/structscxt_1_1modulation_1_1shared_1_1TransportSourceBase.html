@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>shortcircuit-xt: TransportSourceBase&lt; SR, gid, includeVoice, registerSource &gt; Struct Template Reference</title>
+<title>shortcircuit-xt: TransportSourceBase&lt; SR, gid, registerSource &gt; Struct Template Reference</title>
 <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -98,7 +98,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structscxt_1_1modulation_1_1shared_1_1TransportSourceBase-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">TransportSourceBase&lt; SR, gid, includeVoice, registerSource &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">TransportSourceBase&lt; SR, gid, registerSource &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -111,10 +111,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a444057688bb34010608e58850904a6ce" id="r_a444057688bb34010608e58850904a6ce"><td class="memItemLeft" align="right" valign="top">std::array&lt; SR, scxt::numTransportPhasors &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#a444057688bb34010608e58850904a6ce">phasors</a></td></tr>
-<tr class="separator:a444057688bb34010608e58850904a6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca3617459bd851e27eff2754f454d75a" id="r_aca3617459bd851e27eff2754f454d75a"><td class="memItemLeft" align="right" valign="top">std::conditional_t&lt; includeVoice, std::array&lt; SR, scxt::numTransportPhasors &gt;, char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#aca3617459bd851e27eff2754f454d75a">voicePhasors</a></td></tr>
-<tr class="separator:aca3617459bd851e27eff2754f454d75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416acb0e68d6ab279a2fd93f6c719dfb" id="r_a416acb0e68d6ab279a2fd93f6c719dfb"><td class="memItemLeft" align="right" valign="top">std::array&lt; SR, scxt::phasorsPerGroupOrZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#a416acb0e68d6ab279a2fd93f6c719dfb">phasors</a></td></tr>
+<tr class="separator:a416acb0e68d6ab279a2fd93f6c719dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a99d83d4eb1d86dfe5bf4d38101d3cdc7" name="a99d83d4eb1d86dfe5bf4d38101d3cdc7"></a>
@@ -123,7 +121,7 @@ Public Attributes</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename SR , uint32_t gid, bool includeVoice, void(*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> *, const SR &amp;, const std::string &amp;, const std::string &amp;) registerSource&gt; </div>
+template&lt;typename SR , uint32_t gid, void(*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> *, const SR &amp;, const std::string &amp;, const std::string &amp;) registerSource&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html">TransportSourceBase</a> </td>
@@ -138,32 +136,16 @@ template&lt;typename SR , uint32_t gid, bool includeVoice, void(*)(<a class="el"
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a444057688bb34010608e58850904a6ce" name="a444057688bb34010608e58850904a6ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a444057688bb34010608e58850904a6ce">&#9670;&#160;</a></span>phasors</h2>
+<a id="a416acb0e68d6ab279a2fd93f6c719dfb" name="a416acb0e68d6ab279a2fd93f6c719dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416acb0e68d6ab279a2fd93f6c719dfb">&#9670;&#160;</a></span>phasors</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename SR , uint32_t gid, bool includeVoice, void(*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> *, const SR &amp;, const std::string &amp;, const std::string &amp;) registerSource&gt; </div>
+template&lt;typename SR , uint32_t gid, void(*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> *, const SR &amp;, const std::string &amp;, const std::string &amp;) registerSource&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;SR, scxt::numTransportPhasors&gt; phasors</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca3617459bd851e27eff2754f454d75a" name="aca3617459bd851e27eff2754f454d75a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca3617459bd851e27eff2754f454d75a">&#9670;&#160;</a></span>voicePhasors</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SR , uint32_t gid, bool includeVoice, void(*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> *, const SR &amp;, const std::string &amp;, const std::string &amp;) registerSource&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::conditional_t&lt;includeVoice, std::array&lt;SR, scxt::numTransportPhasors&gt;, char&gt; voicePhasors</td>
+          <td class="memname">std::array&lt;SR, scxt::phasorsPerGroupOrZone&gt; phasors</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -176,7 +158,7 @@ template&lt;typename SR , uint32_t gid, bool includeVoice, void(*)(<a class="el"
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 13 2025 14:20:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Apr 13 2025 22:53:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
