@@ -73,5 +73,6 @@ var searchData=
   ['exclusive_70',['exclusive',['../structscxt_1_1exs__support_1_1EXSGroup.html#a181c030799f6ac471f93c5794cc0ce35',1,'scxt::exs_support::EXSGroup']]],
   ['exclusivegroup_71',['exclusiveGroup',['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a96ba473a0f393ac2bfdcd56b6855870e',1,'scxt::engine::Zone::ZoneMappingData']]],
   ['expandableaddress_72',['expandableAddress',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea_1_1RowContents.html#ae0b3ff9ea8d227a2099cf5922a3589d0',1,'scxt::ui::app::browser_ui::DriveFSArea::RowContents']]],
-  ['expression_73',['expression',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a8134e0286037cd60c93845471a45040e',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources']]]
+  ['expression_73',['expression',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a8134e0286037cd60c93845471a45040e',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources']]],
+  ['externalsignallag_74',['externalSignalLag',['../structscxt_1_1engine_1_1Part.html#a9058676fd6eb2e16e68041a7fdafa252',1,'scxt::engine::Part']]]
 ];
