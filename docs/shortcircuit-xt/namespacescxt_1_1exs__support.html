@@ -108,6 +108,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSGroup.html">EXSGroup</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSInfo.html">EXSInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSInstrument.html">EXSInstrument</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSObject.html">EXSObject</a></td></tr>
@@ -126,8 +128,12 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a4d782b7f8989e89f0467b64f17a42bd1" id="r_a4d782b7f8989e89f0467b64f17a42bd1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a4d782b7f8989e89f0467b64f17a42bd1">readU32</a> (std::ifstream &amp;f, bool bigE)</td></tr>
 <tr class="separator:a4d782b7f8989e89f0467b64f17a42bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266458bc003355872a1067c59515dc61" id="r_a266458bc003355872a1067c59515dc61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1exs__support_1_1EXSInfo.html">EXSInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:a266458bc003355872a1067c59515dc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758977d1dbfab9b522420f1c60407f08" id="r_a758977d1dbfab9b522420f1c60407f08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">importEXS</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a758977d1dbfab9b522420f1c60407f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adade0ba5d7ce9807202f09bd22c1fc3f" id="r_adade0ba5d7ce9807202f09bd22c1fc3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f">dumpEXSToLog</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:adade0ba5d7ce9807202f09bd22c1fc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a6ff9d665fa11ba6a0f8628135488c741" name="a6ff9d665fa11ba6a0f8628135488c741"></a>
@@ -175,6 +181,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a266458bc003355872a1067c59515dc61" name="a266458bc003355872a1067c59515dc61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a266458bc003355872a1067c59515dc61">&#9670;&#160;</a></span>parseEXS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1exs__support_1_1EXSInfo.html">EXSInfo</a> parseEXS </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a7dc551acf08d4bd155a5e505d9c669dd">EXSBlock::TYPE_GROUP</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#ae86d923de0026293a22487c4a66b024b">EXSBlock::TYPE_INSTRUMENT</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#aec5c89470612a14060a57cdb0370d022">EXSBlock::TYPE_PARAMS</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a7b3fce516052648778bfe3d61083fb6d">EXSBlock::TYPE_SAMPLE</a>, and <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a276da218996e55a2676f9d79efe57f30">EXSBlock::TYPE_ZONE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f">dumpEXSToLog()</a>, and <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">importEXS()</a>.</p>
+
+</div>
+</div>
 <a id="a758977d1dbfab9b522420f1c60407f08" name="a758977d1dbfab9b522420f1c60407f08"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a758977d1dbfab9b522420f1c60407f08">&#9670;&#160;</a></span>importEXS()</h2>
 
@@ -201,16 +229,38 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a7dc551acf08d4bd155a5e505d9c669dd">EXSBlock::TYPE_GROUP</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#ae86d923de0026293a22487c4a66b024b">EXSBlock::TYPE_INSTRUMENT</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#aec5c89470612a14060a57cdb0370d022">EXSBlock::TYPE_PARAMS</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a7b3fce516052648778bfe3d61083fb6d">EXSBlock::TYPE_SAMPLE</a>, and <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a276da218996e55a2676f9d79efe57f30">EXSBlock::TYPE_ZONE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
+
+</div>
+</div>
+<a id="adade0ba5d7ce9807202f09bd22c1fc3f" name="adade0ba5d7ce9807202f09bd22c1fc3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adade0ba5d7ce9807202f09bd22c1fc3f">&#9670;&#160;</a></span>dumpEXSToLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dumpEXSToLog </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exs-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 15 2025 02:32:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Apr 15 2025 12:31:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

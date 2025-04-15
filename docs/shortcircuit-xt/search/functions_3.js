@@ -60,7 +60,7 @@ var searchData=
   ['dorequestzonedatarefresh_57',['doRequestZoneDataRefresh',['../namespacescxt_1_1messaging_1_1client.html#aa9134fba4f2e281e8ff641837a4b8498',1,'scxt::messaging::client']]],
   ['doresetengine_58',['doResetEngine',['../namespacescxt_1_1messaging_1_1client.html#add0b869c7e38daed69e579af284482cc',1,'scxt::messaging::client']]],
   ['doresolvesample_59',['doResolveSample',['../namespacescxt_1_1messaging_1_1client.html#a172e25f4111b4b0b2ae76a17bdd47d34',1,'scxt::messaging::client']]],
-  ['dosavemulti_60',['dosavemulti',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a7ffc71ecacd5457f47ac5988265aef5e',1,'scxt::ui::app::shared::HeaderRegion::doSaveMulti()'],['../namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18',1,'scxt::ui::app::shared::doSaveMulti()'],['../namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac',1,'scxt::messaging::client::doSaveMulti(const saveMultiPayload_t &amp;pl, engine::Engine &amp;engine, MessageController &amp;cont)']]],
+  ['dosavemulti_60',['dosavemulti',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a7ffc71ecacd5457f47ac5988265aef5e',1,'scxt::ui::app::shared::HeaderRegion::doSaveMulti()'],['../namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac',1,'scxt::messaging::client::doSaveMulti()'],['../namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18',1,'scxt::ui::app::shared::doSaveMulti()']]],
   ['dosavepart_61',['dosavepart',['../namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387',1,'scxt::messaging::client::doSavePart()'],['../namespacescxt_1_1ui_1_1app_1_1shared.html#a809d7f072c4adc448b05eceaaa7ec9e8',1,'scxt::ui::app::shared::doSavePart()']]],
   ['dosavepreset_62',['doSavePreset',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#af2e269ed4f27fcd56e0080fbffa538a8',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['dosaveselectedpart_63',['doSaveSelectedPart',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a13cf240df04dba9e2992f210eb77fcac',1,'scxt::ui::app::shared::HeaderRegion']]],
@@ -81,6 +81,7 @@ var searchData=
   ['drivearearow_78',['DriveAreaRow',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#af8e0f095c87273e4b86e713a3db9bfc9',1,'scxt::ui::app::browser_ui::DriveArea::DriveAreaRow']]],
   ['drivefsarea_79',['DriveFSArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#ab28d918bada46ebe6ba6fe8571e33bcd',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['drivefsrowcomponent_80',['DriveFSRowComponent',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSRowComponent.html#a5d971324cd4fc00c842ef9862800b552',1,'scxt::ui::app::browser_ui::DriveFSRowComponent']]],
-  ['dumpinformationtolog_81',['dumpInformationToLog',['../structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f',1,'scxt::sample::Sample']]],
-  ['duplicatezone_82',['duplicateZone',['../structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f',1,'scxt::engine::Engine']]]
+  ['dumpexstolog_81',['dumpEXSToLog',['../namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f',1,'scxt::exs_support']]],
+  ['dumpinformationtolog_82',['dumpInformationToLog',['../structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f',1,'scxt::sample::Sample']]],
+  ['duplicatezone_83',['duplicateZone',['../structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f',1,'scxt::engine::Engine']]]
 ];

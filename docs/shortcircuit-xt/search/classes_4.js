@@ -26,8 +26,9 @@ var searchData=
   ['exception_23',['Exception',['../structscxt_1_1browser_1_1SQL_1_1Exception.html',1,'scxt::browser::SQL']]],
   ['exsblock_24',['EXSBlock',['../structscxt_1_1exs__support_1_1EXSBlock.html',1,'scxt::exs_support']]],
   ['exsgroup_25',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html',1,'scxt::exs_support']]],
-  ['exsinstrument_26',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
-  ['exsobject_27',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
-  ['exssample_28',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
-  ['exszone_29',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
+  ['exsinfo_26',['EXSInfo',['../structscxt_1_1exs__support_1_1EXSInfo.html',1,'scxt::exs_support']]],
+  ['exsinstrument_27',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
+  ['exsobject_28',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
+  ['exssample_29',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
+  ['exszone_30',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
 ];
