@@ -264,6 +264,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa65213e0fb4eebf2d0cf51f6fa66cac5" id="r_aa65213e0fb4eebf2d0cf51f6fa66cac5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#aa65213e0fb4eebf2d0cf51f6fa66cac5">sourceTypeFromPath</a> (const fs::path &amp;path)</td></tr>
 <tr class="separator:aa65213e0fb4eebf2d0cf51f6fa66cac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4593e36d99b71571685b1d5670221e6f" id="r_a4593e36d99b71571685b1d5670221e6f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a4593e36d99b71571685b1d5670221e6f">isSourceTypeSubSampleFromMonolith</a> (<a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a> st)</td></tr>
+<tr class="separator:a4593e36d99b71571685b1d5670221e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a422acfb6220053b68854257a60b92738" id="r_a422acfb6220053b68854257a60b92738"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">Sample</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a422acfb6220053b68854257a60b92738">createMissingPlaceholder</a> (const <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html">SampleFileAddress</a> &amp;a)</td></tr>
 <tr class="separator:a422acfb6220053b68854257a60b92738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fcbf9f12eb0b722f9b3e546af725c58" id="r_a9fcbf9f12eb0b722f9b3e546af725c58"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a9fcbf9f12eb0b722f9b3e546af725c58">bitDepthName</a> (<a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962ef">BitDepth</a> bd)</td></tr>
@@ -528,6 +530,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a485927521a338407870ebad8cc59e506">Sample::WAV_FILE</a>.</p>
+
+</div>
+</div>
+<a id="a4593e36d99b71571685b1d5670221e6f" name="a4593e36d99b71571685b1d5670221e6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4593e36d99b71571685b1d5670221e6f">&#9670;&#160;</a></span>isSourceTypeSubSampleFromMonolith()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isSourceTypeSubSampleFromMonolith </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a>&#160;</td>
+          <td class="paramname"><em>st</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a3afd1e91c9815eb123495d9945036c68">scxt::patch_io::getSamplePathsFor()</a>.</p>
 
 </div>
 </div>
@@ -2362,7 +2394,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 14 2025 22:00:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Apr 15 2025 02:32:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
