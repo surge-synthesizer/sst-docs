@@ -11,7 +11,7 @@ var searchData=
   ['zoneheader_8',['zoneHeader',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a657d25b4cbbf4205ffb4df825ca8eb60',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['zonelayoutviewport_9',['zoneLayoutViewport',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ab30ab701d3a94912bc60cd3123ca6f4c',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['zoneoutputinfo_10',['zoneOutputInfo',['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a4baef605433a39517dcd2613411c2ffe',1,'scxt::ui::app::SCXTEditorDataCache']]],
-  ['zonepad_11',['zonePad',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneListBoxModel_1_1rowComponent.html#adce57d2b7477caf1ea8696caa0ceb390',1,'scxt::ui::app::edit_screen::GroupZoneListBoxModel::rowComponent']]],
+  ['zonepad_11',['zonePad',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#adce57d2b7477caf1ea8696caa0ceb390',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
   ['zonepath_12',['zonePath',['../structscxt_1_1voice_1_1Voice.html#a2c9657cf6e26fcda21ddb3f2a1a882c8',1,'scxt::voice::Voice']]],
   ['zones_13',['zones',['../structscxt_1_1exs__support_1_1EXSInfo.html#a83d75aa8c2412d0b67d0d34b0e1d0b68',1,'scxt::exs_support::EXSInfo']]],
   ['zonesidebar_14',['zoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#afb0dc8728f880bead8dcd4033bae70e8',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
