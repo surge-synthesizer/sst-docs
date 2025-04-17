@@ -49,7 +49,7 @@ var searchData=
   ['moveableonly_46',['moveableonly',['../classscxt_1_1MoveableOnly.html#ae111a984285ce349e8454df85245d03c',1,'scxt::MoveableOnly::MoveableOnly(const MoveableOnly &amp;)=delete'],['../classscxt_1_1MoveableOnly.html#adc2dbcbf9666ea42ce36fea0d6ac079b',1,'scxt::MoveableOnly::MoveableOnly()'],['../classscxt_1_1MoveableOnly.html#a1f8dcf41d494138fedc7c478fd9cc171',1,'scxt::MoveableOnly::MoveableOnly(MoveableOnly &amp;&amp;)=default']]],
   ['moveandretriggervoice_47',['moveAndRetriggerVoice',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac',1,'scxt::engine::Engine::VoiceManagerResponder']]],
   ['movevoice_48',['moveVoice',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8',1,'scxt::engine::Engine::VoiceManagerResponder']]],
-  ['movezonefromto_49',['moveZoneFromTo',['../namespacescxt_1_1messaging_1_1client.html#a7d90ec37a9e1eb25f3bd056505ef1b86',1,'scxt::messaging::client']]],
+  ['movezonesfromto_49',['moveZonesFromTo',['../namespacescxt_1_1messaging_1_1client.html#aa2af38f58123bbec49eee60f4db94ab9',1,'scxt::messaging::client']]],
   ['mpesources_50',['MPESources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MPESources.html#a6209d2261f090482af077082522eac85',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MPESources']]],
   ['mseglfopane_51',['MSEGLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MSEGLFOPane.html#a3d111a5908d783e04e060cd3a74121ef',1,'scxt::ui::app::edit_screen::MSEGLFOPane']]],
   ['multiselectaction_52',['multiSelectAction',['../structscxt_1_1selection_1_1SelectionManager.html#a0e1fe354f53e2bb26856822036cdcb26',1,'scxt::selection::SelectionManager']]],

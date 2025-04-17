@@ -20,7 +20,7 @@ var searchData=
   ['lastvoicedisplaywritecounter_17',['lastVoiceDisplayWriteCounter',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a5f1b3ff0c6fc5759f7ab35aee05e7845',1,'scxt::ui::app::SCXTEditor']]],
   ['lastzoneclicked_18',['lastZoneClicked',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#a32be5cca2e3dbcad346b0b6332b6d59b',1,'scxt::ui::app::edit_screen::ZoneSidebar']]],
   ['lb_19',['lb',['../structscxt_1_1engine_1_1GTMIDI1CC.html#a24737c6bff16c1b71717082b9ce38079',1,'scxt::engine::GTMIDI1CC::lb'],['../structscxt_1_1engine_1_1GTMacro.html#a24737c6bff16c1b71717082b9ce38079',1,'scxt::engine::GTMacro::lb']]],
-  ['lbm_20',['lbm',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a8a72d474c1d5eafcad7ffbbb14be859b',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['lbm_20',['lbm',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a8a72d474c1d5eafcad7ffbbb14be859b',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent::lbm'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8a72d474c1d5eafcad7ffbbb14be859b',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowAddComponent::lbm']]],
   ['leadgroup_21',['leadGroup',['../structscxt_1_1selection_1_1SelectionManager.html#a1f4a453c451eff4bdc96f2bd7633a519',1,'scxt::selection::SelectionManager']]],
   ['leadzone_22',['leadZone',['../structscxt_1_1selection_1_1SelectionManager.html#a69712477cf32e168a1385362cb83ff87',1,'scxt::selection::SelectionManager']]],
   ['length_23',['length',['../structscxt_1_1exs__support_1_1EXSSample.html#a9f59b34b1f25fe00023291b678246bcc',1,'scxt::exs_support::EXSSample']]],

@@ -104,14 +104,26 @@ $(function() {
 
 <p><code>#include &lt;GroupZoneTreeControl.h&gt;</code></p>
 
-<p>Inherits Component.</p>
+<p>Inherits Component, and DragAndDropTarget.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8818e8f6a46aa9ae00266d4e48349303" id="r_a8818e8f6a46aa9ae00266d4e48349303"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303">rowAddComponent</a> ()</td></tr>
 <tr class="separator:a8818e8f6a46aa9ae00266d4e48349303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a298fcdbc45d2ded018c681f590378425" id="r_a298fcdbc45d2ded018c681f590378425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a298fcdbc45d2ded018c681f590378425">resized</a> ()</td></tr>
-<tr class="separator:a298fcdbc45d2ded018c681f590378425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31cc081b3c77bc8855de79094fc1da42" id="r_a31cc081b3c77bc8855de79094fc1da42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a31cc081b3c77bc8855de79094fc1da42">resized</a> () override</td></tr>
+<tr class="separator:a31cc081b3c77bc8855de79094fc1da42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2c219a2cbbd6b61e7c41564dac6169" id="r_a4f2c219a2cbbd6b61e7c41564dac6169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a4f2c219a2cbbd6b61e7c41564dac6169">paint</a> (juce::Graphics &amp;g) override</td></tr>
+<tr class="separator:a4f2c219a2cbbd6b61e7c41564dac6169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e3d11b28ab80532e6147590edb9c70" id="r_ad8e3d11b28ab80532e6147590edb9c70"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#ad8e3d11b28ab80532e6147590edb9c70">isInterestedInDragSource</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:ad8e3d11b28ab80532e6147590edb9c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3b7ed050a2fc96b1e4e2750e83fbaf" id="r_aff3b7ed050a2fc96b1e4e2750e83fbaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#aff3b7ed050a2fc96b1e4e2750e83fbaf">itemDragEnter</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:aff3b7ed050a2fc96b1e4e2750e83fbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c355db5c9dc7b3e5c9afde377fe17b" id="r_a07c355db5c9dc7b3e5c9afde377fe17b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a07c355db5c9dc7b3e5c9afde377fe17b">itemDragMove</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:a07c355db5c9dc7b3e5c9afde377fe17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edfeefd0f1563d51e64ecd4953dee5d" id="r_a9edfeefd0f1563d51e64ecd4953dee5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a9edfeefd0f1563d51e64ecd4953dee5d">itemDragExit</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:a9edfeefd0f1563d51e64ecd4953dee5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94bc74bd81412cf9d6641ec73a97bdcd" id="r_a94bc74bd81412cf9d6641ec73a97bdcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a94bc74bd81412cf9d6641ec73a97bdcd">itemDropped</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
+<tr class="separator:a94bc74bd81412cf9d6641ec73a97bdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d3363cf4c62b89814f4dc089440aabd" id="r_a3d3363cf4c62b89814f4dc089440aabd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a3d3363cf4c62b89814f4dc089440aabd">JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html">rowAddComponent</a>)</td></tr>
 <tr class="separator:a3d3363cf4c62b89814f4dc089440aabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -119,8 +131,12 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a11baad04b74168e3bac3cb76b4dbfb14" id="r_a11baad04b74168e3bac3cb76b4dbfb14"><td class="memItemLeft" align="right" valign="top">SidebarParent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a11baad04b74168e3bac3cb76b4dbfb14">gsb</a> {nullptr}</td></tr>
 <tr class="separator:a11baad04b74168e3bac3cb76b4dbfb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a72d474c1d5eafcad7ffbbb14be859b" id="r_a8a72d474c1d5eafcad7ffbbb14be859b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html">GroupZoneSidebarWidget</a>&lt; SidebarParent, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html#ab89a3aa126117b8c7bfb164a6e9b9151">forZone</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8a72d474c1d5eafcad7ffbbb14be859b">lbm</a> {nullptr}</td></tr>
+<tr class="separator:a8a72d474c1d5eafcad7ffbbb14be859b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae55a2968b2dc8948b5353200f68af0d" id="r_aae55a2968b2dc8948b5353200f68af0d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; jcmp::GlyphButton &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#aae55a2968b2dc8948b5353200f68af0d">gBut</a></td></tr>
 <tr class="separator:aae55a2968b2dc8948b5353200f68af0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5246d6cf43cc9fac9fe5cc9282255e9" id="r_ac5246d6cf43cc9fac9fe5cc9282255e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#ac5246d6cf43cc9fac9fe5cc9282255e9">isDroppingOn</a> {false}</td></tr>
+<tr class="separator:ac5246d6cf43cc9fac9fe5cc9282255e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8818e8f6a46aa9ae00266d4e48349303" name="a8818e8f6a46aa9ae00266d4e48349303"></a>
@@ -145,13 +161,16 @@ template&lt;typename SidebarParent , bool fz&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a298fcdbc45d2ded018c681f590378425" name="a298fcdbc45d2ded018c681f590378425"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a298fcdbc45d2ded018c681f590378425">&#9670;&#160;</a></span>resized()</h2>
+<a id="a31cc081b3c77bc8855de79094fc1da42" name="a31cc081b3c77bc8855de79094fc1da42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31cc081b3c77bc8855de79094fc1da42">&#9670;&#160;</a></span>resized()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void resized </td>
@@ -160,9 +179,190 @@ template&lt;typename SidebarParent , bool fz&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#aae55a2968b2dc8948b5353200f68af0d">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::gBut</a>.</p>
+
+</div>
+</div>
+<a id="a4f2c219a2cbbd6b61e7c41564dac6169" name="a4f2c219a2cbbd6b61e7c41564dac6169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2c219a2cbbd6b61e7c41564dac6169">&#9670;&#160;</a></span>paint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void paint </td>
+          <td>(</td>
+          <td class="paramtype">juce::Graphics &amp;&#160;</td>
+          <td class="paramname"><em>g</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a0d5812bd394a2eac2a0a1d2bd022115a">ColorMap::generic_content_low</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a11baad04b74168e3bac3cb76b4dbfb14">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::gsb</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#ac5246d6cf43cc9fac9fe5cc9282255e9">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::isDroppingOn</a>.</p>
+
+</div>
+</div>
+<a id="ad8e3d11b28ab80532e6147590edb9c70" name="ad8e3d11b28ab80532e6147590edb9c70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8e3d11b28ab80532e6147590edb9c70">&#9670;&#160;</a></span>isInterestedInDragSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isInterestedInDragSource </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff3b7ed050a2fc96b1e4e2750e83fbaf" name="aff3b7ed050a2fc96b1e4e2750e83fbaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3b7ed050a2fc96b1e4e2750e83fbaf">&#9670;&#160;</a></span>itemDragEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itemDragEnter </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#ac5246d6cf43cc9fac9fe5cc9282255e9">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::isDroppingOn</a>.</p>
+
+</div>
+</div>
+<a id="a07c355db5c9dc7b3e5c9afde377fe17b" name="a07c355db5c9dc7b3e5c9afde377fe17b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c355db5c9dc7b3e5c9afde377fe17b">&#9670;&#160;</a></span>itemDragMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itemDragMove </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9edfeefd0f1563d51e64ecd4953dee5d" name="a9edfeefd0f1563d51e64ecd4953dee5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9edfeefd0f1563d51e64ecd4953dee5d">&#9670;&#160;</a></span>itemDragExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itemDragExit </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#ac5246d6cf43cc9fac9fe5cc9282255e9">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::isDroppingOn</a>.</p>
+
+</div>
+</div>
+<a id="a94bc74bd81412cf9d6641ec73a97bdcd" name="a94bc74bd81412cf9d6641ec73a97bdcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94bc74bd81412cf9d6641ec73a97bdcd">&#9670;&#160;</a></span>itemDropped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itemDropped </td>
+          <td>(</td>
+          <td class="paramtype">const SourceDetails &amp;&#160;</td>
+          <td class="paramname"><em>dragSourceDetails</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a11baad04b74168e3bac3cb76b4dbfb14">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::gsb</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#ac5246d6cf43cc9fac9fe5cc9282255e9">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::isDroppingOn</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8a72d474c1d5eafcad7ffbbb14be859b">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::lbm</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html#a78d28909d895643b2f662751bcee581e">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::selectedZones</a>.</p>
 
 </div>
 </div>
@@ -201,7 +401,25 @@ template&lt;typename SidebarParent , bool fz&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::rowAddComponent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a94bc74bd81412cf9d6641ec73a97bdcd">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::itemDropped()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a4f2c219a2cbbd6b61e7c41564dac6169">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::paint()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::rowAddComponent()</a>.</p>
+
+</div>
+</div>
+<a id="a8a72d474c1d5eafcad7ffbbb14be859b" name="a8a72d474c1d5eafcad7ffbbb14be859b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a72d474c1d5eafcad7ffbbb14be859b">&#9670;&#160;</a></span>lbm</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html">GroupZoneSidebarWidget</a>&lt;SidebarParent, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html#ab89a3aa126117b8c7bfb164a6e9b9151">forZone</a>&gt;* lbm {nullptr}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a94bc74bd81412cf9d6641ec73a97bdcd">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::itemDropped()</a>.</p>
 
 </div>
 </div>
@@ -219,7 +437,25 @@ template&lt;typename SidebarParent , bool fz&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a298fcdbc45d2ded018c681f590378425">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::resized()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::rowAddComponent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a31cc081b3c77bc8855de79094fc1da42">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::resized()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::rowAddComponent()</a>.</p>
+
+</div>
+</div>
+<a id="ac5246d6cf43cc9fac9fe5cc9282255e9" name="ac5246d6cf43cc9fac9fe5cc9282255e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5246d6cf43cc9fac9fe5cc9282255e9">&#9670;&#160;</a></span>isDroppingOn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SidebarParent , bool fz&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isDroppingOn {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#aff3b7ed050a2fc96b1e4e2750e83fbaf">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::itemDragEnter()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a9edfeefd0f1563d51e64ecd4953dee5d">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::itemDragExit()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a94bc74bd81412cf9d6641ec73a97bdcd">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::itemDropped()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a4f2c219a2cbbd6b61e7c41564dac6169">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowAddComponent::paint()</a>.</p>
 
 </div>
 </div>
@@ -229,7 +465,7 @@ template&lt;typename SidebarParent , bool fz&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 16 2025 13:06:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Apr 17 2025 13:36:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
