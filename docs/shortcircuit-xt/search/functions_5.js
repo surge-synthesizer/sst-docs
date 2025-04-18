@@ -14,7 +14,7 @@ var searchData=
   ['findifarray_11',['findIfArray',['../extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f',1,'extensions.h']]],
   ['findordefault_12',['findOrDefault',['../namespacescxt_1_1json.html#a26ca2cae8745cc63a3785bb8fd337572',1,'scxt::json']]],
   ['findorset_13',['findorset',['../namespacescxt_1_1json.html#abc8c85bb6199419c77e60113b956a4ca',1,'scxt::json::findOrSet(V &amp;v, const std::initializer_list&lt; std::string &gt; &amp;keys, const D &amp;d, R &amp;r)'],['../namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e',1,'scxt::json::findOrSet(V &amp;v, const std::string &amp;key, const D &amp;d, R &amp;r)']]],
-  ['findothergroups_14',['findOtherGroups',['../namespacescxt_1_1ui_1_1app_1_1shared.html#a136ecfbd8664943779bc8458609e9cd6',1,'scxt::ui::app::shared']]],
+  ['findothergroups_14',['findOtherGroups',['../namespacescxt_1_1ui_1_1app_1_1shared.html#a5221b9a2b18909f6ecec1c4cab228b5c',1,'scxt::ui::app::shared']]],
   ['findsf2sampleindexfor_15',['findSF2SampleIndexFor',['../structscxt_1_1sample_1_1SampleManager.html#a29674e8fdb81a9a55be18e6cb307cf66',1,'scxt::sample::SampleManager']]],
   ['findzone_16',['findZone',['../structscxt_1_1engine_1_1Engine.html#a90ae6483c98b25f92f9d6f90cd229ede',1,'scxt::engine::Engine']]],
   ['fireallnotificationsfor_17',['fireAllNotificationsFor',['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#ac6e84bb9bdae6be9d7bb8a5f4362d587',1,'scxt::ui::app::SCXTEditorDataCache']]],
