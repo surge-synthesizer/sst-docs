@@ -29,6 +29,7 @@ var searchData=
   ['exsinfo_26',['EXSInfo',['../structscxt_1_1exs__support_1_1EXSInfo.html',1,'scxt::exs_support']]],
   ['exsinstrument_27',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
   ['exsobject_28',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
-  ['exssample_29',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
-  ['exszone_30',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
+  ['exsparameters_29',['EXSParameters',['../structscxt_1_1exs__support_1_1EXSParameters.html',1,'scxt::exs_support']]],
+  ['exssample_30',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
+  ['exszone_31',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
 ];
