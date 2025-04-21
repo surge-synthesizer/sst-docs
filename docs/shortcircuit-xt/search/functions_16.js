@@ -7,5 +7,8 @@ var searchData=
   ['writedebugmessage_4',['writeDebugMessage',['../structscxt_1_1browser_1_1BrowserDB.html#aec866111e323071d6e69c5e43db68e75',1,'scxt::browser::BrowserDB']]],
   ['writedword_5',['WriteDWORD',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a21b5cb970ccb37c66504da5c7d805310',1,'scxt::sample::loaders::RIFFMemFile']]],
   ['writedwordbe_6',['WriteDWORDBE',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#aa07c06ed3e1fd5cdd885f52d2fc46cac',1,'scxt::sample::loaders::RIFFMemFile']]],
-  ['writerworker_7',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a0afd84af5b06b36cd1fb4fdb62b1c5d4',1,'scxt::browser::WriterWorker']]]
+  ['writefmtchunk_7',['writeFMTChunk',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a22c1d271d28b7dd0d195c544b8863b4d',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
+  ['writeinstchunk_8',['writeINSTChunk',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a1aab8d4ae8ce3de466934c0e9d33ab64',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
+  ['writeriffheader_9',['writeRIFFHeader',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a660025a0fbf610ae3b9c3a1592d04a7c',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
+  ['writerworker_10',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a0afd84af5b06b36cd1fb4fdb62b1c5d4',1,'scxt::browser::WriterWorker']]]
 ];
