@@ -88,7 +88,7 @@ var searchData=
   ['getsamplefileaddress_85',['getSampleFileAddress',['../structscxt_1_1sample_1_1Sample.html#a2e2e29cf627ab83f3fbf677135623a1c',1,'scxt::sample::Sample']]],
   ['getsamplelength_86',['getSampleLength',['../structscxt_1_1sample_1_1Sample.html#a174de1f7a16a62028c935e58ab835dda',1,'scxt::sample::Sample']]],
   ['getsamplemanager_87',['getSampleManager',['../structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4',1,'scxt::engine::Engine']]],
-  ['getsamplepathsfor_88',['getSamplePathsFor',['../namespacescxt_1_1patch__io.html#a39c6fa3ed7c917d1efdc45c490d0832b',1,'scxt::patch_io']]],
+  ['getsamplepathsfor_88',['getSamplePathsFor',['../namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607',1,'scxt::patch_io']]],
   ['getsampleptrf32_89',['GetSamplePtrF32',['../structscxt_1_1sample_1_1Sample.html#a71ddc1e578fdb71651691eb2ad994805',1,'scxt::sample::Sample']]],
   ['getsampleptri16_90',['GetSamplePtrI16',['../structscxt_1_1sample_1_1Sample.html#a47b1b72e0a9381ff047f07e259de4411',1,'scxt::sample::Sample']]],
   ['getsamplerate_91',['getsamplerate',['../structscxt_1_1dsp_1_1processor_1_1SCXTVFXConfig.html#a052092c1ce918fb5bec4f08e8d578a4d',1,'scxt::dsp::processor::SCXTVFXConfig::getSampleRate()'],['../structscxt_1_1SampleRateSupport.html#ab6597e05f5085eb723517723e5c5bbed',1,'scxt::SampleRateSupport::getSampleRate()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1EqAdapter.html#a0f422cceda703ea2ad44f0bfffc22db0',1,'scxt::ui::app::edit_screen::EqDisplayBase::EqAdapter::getSampleRate()']]],
