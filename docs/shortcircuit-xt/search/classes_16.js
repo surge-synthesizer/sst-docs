@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ziparchiveholder_0',['ZipArchiveHolder',['../structscxt_1_1sample_1_1ZipArchiveHolder.html',1,'scxt::sample']]],
-  ['zone_1',['Zone',['../structscxt_1_1engine_1_1Zone.html',1,'scxt::engine']]],
+  ['zone_1',['zone',['../structscxt_1_1akai__support_1_1ZONE.html',1,'ZONE'],['../structscxt_1_1engine_1_1Zone.html',1,'Zone']]],
   ['zoneaddress_2',['ZoneAddress',['../structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html',1,'scxt::selection::SelectionManager']]],
   ['zonelayoutdisplay_3',['ZoneLayoutDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html',1,'scxt::ui::app::edit_screen']]],
   ['zonelayoutkeyboard_4',['ZoneLayoutKeyboard',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html',1,'scxt::ui::app::edit_screen']]],

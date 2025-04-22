@@ -81,8 +81,9 @@ var searchData=
   ['drivearearow_78',['DriveAreaRow',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#af8e0f095c87273e4b86e713a3db9bfc9',1,'scxt::ui::app::browser_ui::DriveArea::DriveAreaRow']]],
   ['drivefsarea_79',['DriveFSArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#ab28d918bada46ebe6ba6fe8571e33bcd',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['drivefsrowcomponent_80',['DriveFSRowComponent',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSRowComponent.html#a5d971324cd4fc00c842ef9862800b552',1,'scxt::ui::app::browser_ui::DriveFSRowComponent']]],
-  ['dumpexstolog_81',['dumpEXSToLog',['../namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f',1,'scxt::exs_support']]],
-  ['dumpinformationtolog_82',['dumpInformationToLog',['../structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f',1,'scxt::sample::Sample']]],
-  ['dumplist_83',['dumpList',['../riff-dump_8cpp.html#a14e08b4b8d3d920d14d91191d7ca01bc',1,'riff-dump.cpp']]],
-  ['duplicatezone_84',['duplicateZone',['../structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f',1,'scxt::engine::Engine']]]
+  ['dumpakaitolog_81',['dumpAkaiToLog',['../namespacescxt_1_1akai__support.html#a64f892e72c7e7b9e2fdd15bcaaf9c166',1,'scxt::akai_support']]],
+  ['dumpexstolog_82',['dumpEXSToLog',['../namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f',1,'scxt::exs_support']]],
+  ['dumpinformationtolog_83',['dumpInformationToLog',['../structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f',1,'scxt::sample::Sample']]],
+  ['dumplist_84',['dumpList',['../riff-dump_8cpp.html#a14e08b4b8d3d920d14d91191d7ca01bc',1,'riff-dump.cpp']]],
+  ['duplicatezone_85',['duplicateZone',['../structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f',1,'scxt::engine::Engine']]]
 ];

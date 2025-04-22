@@ -33,7 +33,7 @@ var searchData=
   ['lfosourcebase_30',['LFOSourceBase',['../structscxt_1_1modulation_1_1shared_1_1LFOSourceBase.html#a4bc6a993ed40074dbf794b9f997340bd',1,'scxt::modulation::shared::LFOSourceBase']]],
   ['lfotarget_31',['lfotarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1LFOTarget.html#af8bd665a23b27300cc7370c5862c1612',1,'scxt::modulation::GroupMatrixEndpoints::LFOTarget::LFOTarget()'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1LFOTarget.html#af8bd665a23b27300cc7370c5862c1612',1,'scxt::voice::modulation::MatrixEndpoints::LFOTarget::LFOTarget()']]],
   ['lfotargetendpointdata_32',['LFOTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a0e66f92cfda46b05214553636a921af2',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
-  ['load_33',['load',['../structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b',1,'scxt::sample::Sample']]],
+  ['load_33',['load',['../structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b',1,'scxt::sample::Sample::load()'],['../structscxt_1_1akai__support_1_1ZONE.html#a568928fd3e3de2bfec3fb1e235bc56cd',1,'scxt::akai_support::ZONE::load()'],['../structscxt_1_1akai__support_1_1KLOC.html#a568928fd3e3de2bfec3fb1e235bc56cd',1,'scxt::akai_support::KLOC::load()']]],
   ['load_5fdata_5ff32_34',['load_data_f32',['../structscxt_1_1sample_1_1Sample.html#a2ba56ec1d997b841fe0761237ee09c01',1,'scxt::sample::Sample']]],
   ['load_5fdata_5ff64_35',['load_data_f64',['../structscxt_1_1sample_1_1Sample.html#ae3fe8918046951e4958450c6355eaf56',1,'scxt::sample::Sample']]],
   ['load_5fdata_5fi16_36',['load_data_i16',['../structscxt_1_1sample_1_1Sample.html#abb7897f4d31b6c2a864e02070478acaa',1,'scxt::sample::Sample']]],
@@ -63,7 +63,7 @@ var searchData=
   ['loadsampleintozone_60',['loadSampleIntoZone',['../structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b',1,'scxt::engine::Engine']]],
   ['loadtextfile_61',['loadTextFile',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#a90964a05c9f80e079d9ba6071fd220bc',1,'scxt::ui::connectors::resources']]],
   ['loadtypeface_62',['loadTypeface',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#a1614be5e8a62d6fbf512d139850d40b5',1,'scxt::ui::connectors::resources']]],
-  ['lockedexception_63',['lockedexception',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#a5fee59818446e7dbd4c1b9f1d616beb7',1,'scxt::browser::SQL::LockedException::LockedException(int rc, const std::string &amp;msg)'],['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#a2ae9a0e030b056d01a3baf2517dfc3b9',1,'scxt::browser::SQL::LockedException::LockedException(sqlite3 *h)']]],
+  ['lockedexception_63',['lockedexception',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#a2ae9a0e030b056d01a3baf2517dfc3b9',1,'scxt::browser::SQL::LockedException::LockedException(sqlite3 *h)'],['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#a5fee59818446e7dbd4c1b9f1d616beb7',1,'scxt::browser::SQL::LockedException::LockedException(int rc, const std::string &amp;msg)']]],
   ['logscreen_64',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a4a2c82c6114502e70789e34df5b256e4',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['logtimestamp_65',['logTimestamp',['../namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03',1,'scxt']]]
 ];
