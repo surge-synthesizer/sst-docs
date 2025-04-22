@@ -41,7 +41,7 @@ var searchData=
   ['releasetriggertime_38',['releaseTriggerTime',['../structscxt_1_1exs__support_1_1EXSGroup.html#aac4a6a621d89693bc57db9b07848593a',1,'scxt::exs_support::EXSGroup']]],
   ['releasevelocity_39',['releaseVelocity',['../structscxt_1_1voice_1_1Voice.html#a5e5de1a1853ea5f9e4841b75da4f885d',1,'scxt::voice::Voice']]],
   ['releasevelocitysource_40',['releaseVelocitySource',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a5785c8722270a52cd48ec305c65038fd',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
-  ['remapids_41',['remapIds',['../structscxt_1_1sample_1_1SampleManager.html#aa9be167129ec098b3c33ee2224a17668',1,'scxt::sample::SampleManager']]],
+  ['remapids_41',['remapIds',['../structscxt_1_1sample_1_1SampleManager.html#aadb91dc4340b3cae7a0943b46dedbe97',1,'scxt::sample::SampleManager']]],
   ['renameeditor_42',['renameEditor',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a7b72cba3387bdc026d5f1824044899d6',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
   ['reparentpath_43',['reparentPath',['../structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488',1,'scxt::sample::SampleManager']]],
   ['requesthostcallback_44',['requestHostCallback',['../structscxt_1_1messaging_1_1MessageController.html#ac1e08d99b7ea11e3cb27c551cd6e43f4',1,'scxt::messaging::MessageController']]],
