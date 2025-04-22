@@ -189,7 +189,7 @@ var searchData=
   ['dumpakaitolog_186',['dumpAkaiToLog',['../namespacescxt_1_1akai__support.html#a64f892e72c7e7b9e2fdd15bcaaf9c166',1,'scxt::akai_support']]],
   ['dumpexstolog_187',['dumpEXSToLog',['../namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f',1,'scxt::exs_support']]],
   ['dumpinformationtolog_188',['dumpInformationToLog',['../structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f',1,'scxt::sample::Sample']]],
-  ['dumplist_189',['dumpList',['../riff-dump_8cpp.html#a14e08b4b8d3d920d14d91191d7ca01bc',1,'riff-dump.cpp']]],
+  ['dumplist_189',['dumpList',['../riff-dump_8cpp.html#ad31be222b21f3425ac4e5239fe79a09d',1,'riff-dump.cpp']]],
   ['duplicatezone_190',['duplicateZone',['../structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f',1,'scxt::engine::Engine']]],
   ['dwblockstart_191',['dwBlockStart',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html#a9d852126afef169e42da3c4a82229603',1,'scxt::sample::loaders::CuePoint']]],
   ['dwchunkstart_192',['dwChunkStart',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html#adeb5f09aebbb91b8a61a9d716f1680cb',1,'scxt::sample::loaders::CuePoint']]],

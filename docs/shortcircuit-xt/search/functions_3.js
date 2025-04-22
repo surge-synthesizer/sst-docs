@@ -84,6 +84,6 @@ var searchData=
   ['dumpakaitolog_81',['dumpAkaiToLog',['../namespacescxt_1_1akai__support.html#a64f892e72c7e7b9e2fdd15bcaaf9c166',1,'scxt::akai_support']]],
   ['dumpexstolog_82',['dumpEXSToLog',['../namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f',1,'scxt::exs_support']]],
   ['dumpinformationtolog_83',['dumpInformationToLog',['../structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f',1,'scxt::sample::Sample']]],
-  ['dumplist_84',['dumpList',['../riff-dump_8cpp.html#a14e08b4b8d3d920d14d91191d7ca01bc',1,'riff-dump.cpp']]],
+  ['dumplist_84',['dumpList',['../riff-dump_8cpp.html#ad31be222b21f3425ac4e5239fe79a09d',1,'riff-dump.cpp']]],
   ['duplicatezone_85',['duplicateZone',['../structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f',1,'scxt::engine::Engine']]]
 ];
