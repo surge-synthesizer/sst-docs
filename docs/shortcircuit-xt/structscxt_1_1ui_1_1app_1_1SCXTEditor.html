@@ -161,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b6f49a148c16767e4a462295910625c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f0bc6b86b747b615543fb129fad1d57" id="r_a1f0bc6b86b747b615543fb129fad1d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1f0bc6b86b747b615543fb129fad1d57">popupMenuForContinuous</a> (sst::jucegui::components::ContinuousParamEditor *e)</td></tr>
 <tr class="separator:a1f0bc6b86b747b615543fb129fad1d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163db7c2fab6935a45ff9a1587fa8ca6" id="r_a163db7c2fab6935a45ff9a1587fa8ca6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a163db7c2fab6935a45ff9a1587fa8ca6">supressPopupMenuForContinuous</a> (sst::jucegui::components::ContinuousParamEditor *e) const</td></tr>
+<tr class="separator:a163db7c2fab6935a45ff9a1587fa8ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a886a9378efdfd83dc00ded0a3a993801" id="r_a886a9378efdfd83dc00ded0a3a993801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a886a9378efdfd83dc00ded0a3a993801">onErrorFromEngine</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f72a6ea5056f902a343cb7ce1e1482e">scxt::messaging::client::s2cError_t</a> &amp;)</td></tr>
 <tr class="separator:a886a9378efdfd83dc00ded0a3a993801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9878417c76503cf066501443c24c131c" id="r_a9878417c76503cf066501443c24c131c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9878417c76503cf066501443c24c131c">onEngineStatus</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html">engine::Engine::EngineStatusMessage</a> &amp;e)</td></tr>
@@ -831,9 +833,29 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adcc89f0623df1139a1b410c3516c0efc">SCXTEditor::clapHost</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af28a920cb5da46aca95b02c095e3203d">SCXTEditor::defaultPopupMenuOptions()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adcc89f0623df1139a1b410c3516c0efc">SCXTEditor::clapHost</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af28a920cb5da46aca95b02c095e3203d">SCXTEditor::defaultPopupMenuOptions()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a163db7c2fab6935a45ff9a1587fa8ca6">SCXTEditor::supressPopupMenuForContinuous()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a699780a38dfb9e8e71c845fdb44c0439">HasEditor::setupIntAttachedWidgetForValueMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#af9dd984cff20b281df0b6a0d22d48b7d">HasEditor::setupWidgetForValueTooltip()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#abcd3558aef2ca304de29a572562e4457">SingleMacroEditor::SingleMacroEditor()</a>.</p>
+
+</div>
+</div>
+<a id="a163db7c2fab6935a45ff9a1587fa8ca6" name="a163db7c2fab6935a45ff9a1587fa8ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a163db7c2fab6935a45ff9a1587fa8ca6">&#9670;&#160;</a></span>supressPopupMenuForContinuous()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool supressPopupMenuForContinuous </td>
+          <td>(</td>
+          <td class="paramtype">sst::jucegui::components::ContinuousParamEditor *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1f0bc6b86b747b615543fb129fad1d57">SCXTEditor::popupMenuForContinuous()</a>.</p>
 
 </div>
 </div>
@@ -2942,7 +2964,7 @@ template&lt;typename A &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 23 2025 18:18:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Apr 24 2025 14:57:59 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
