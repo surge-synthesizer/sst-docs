@@ -130,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a06f002644d809b162c27bae96cc10833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf843557abaa8bfcda9b93d659b14322" id="r_abf843557abaa8bfcda9b93d659b14322"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abf843557abaa8bfcda9b93d659b14322">envelope_rate_linear_nowrap</a> (float f)</td></tr>
 <tr class="separator:abf843557abaa8bfcda9b93d659b14322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f7300050640c52b641ebeba05430e8" id="r_a66f7300050640c52b641ebeba05430e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8">attack</a> (float initPhase, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d">ModulatorStorage::ModulatorShape</a> shape)</td></tr>
-<tr class="separator:a66f7300050640c52b641ebeba05430e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3f4707776da09edf1d544659beb53cf" id="r_ab3f4707776da09edf1d544659beb53cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">process</a> (const float rate, const float deform, const float angle, const float delay, const float <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8">attack</a>, const float release, bool useEnv, bool unipolar, bool isGated)</td></tr>
+<tr class="memitem:a803eef2d15c77f5b79004057bf632e1d" id="r_a803eef2d15c77f5b79004057bf632e1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">attack</a> (float initPhase, float delay, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d">ModulatorStorage::ModulatorShape</a> shape)</td></tr>
+<tr class="separator:a803eef2d15c77f5b79004057bf632e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f4707776da09edf1d544659beb53cf" id="r_ab3f4707776da09edf1d544659beb53cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">process</a> (const float rate, const float deform, const float angle, const float delay, const float <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">attack</a>, const float release, bool useEnv, bool unipolar, bool isGated)</td></tr>
 <tr class="separator:ab3f4707776da09edf1d544659beb53cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1SampleRateSupport"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1SampleRateSupport')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1SampleRateSupport.html">SampleRateSupport</a></td></tr>
 <tr class="memitem:a01c502bd437d80506bb1232a14f12c27 inherit pub_methods_structscxt_1_1SampleRateSupport" id="r_a01c502bd437d80506bb1232a14f12c27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1SampleRateSupport.html#a01c502bd437d80506bb1232a14f12c27">setSampleRate</a> (double sr)</td></tr>
@@ -262,8 +262,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a66f7300050640c52b641ebeba05430e8" name="a66f7300050640c52b641ebeba05430e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f7300050640c52b641ebeba05430e8">&#9670;&#160;</a></span>attack()</h2>
+<a id="a803eef2d15c77f5b79004057bf632e1d" name="a803eef2d15c77f5b79004057bf632e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a803eef2d15c77f5b79004057bf632e1d">&#9670;&#160;</a></span>attack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,6 +273,12 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>initPhase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -362,7 +368,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8">CurveLFO::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ac10363992a101ae5895558f77865d6db">CurveLFO::curveShape</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1084d7e47a5571b229a33ad347cc9453">CurveLFO::output</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1e685812c71147dbbadf4c9fd003171c">CurveLFO::simpleEnv</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abc943921aef2ff679bc01a04bbd4c113">CurveLFO::simpleLfo</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a9aea98045b6f6cf7ee6dcd4841322258">ModulatorStorage::temposync</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a407959298e351913caa3baf0d3f669b5">CurveLFO::tsConverter</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">CurveLFO::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ac10363992a101ae5895558f77865d6db">CurveLFO::curveShape</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1084d7e47a5571b229a33ad347cc9453">CurveLFO::output</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1e685812c71147dbbadf4c9fd003171c">CurveLFO::simpleEnv</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abc943921aef2ff679bc01a04bbd4c113">CurveLFO::simpleLfo</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a9aea98045b6f6cf7ee6dcd4841322258">ModulatorStorage::temposync</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a407959298e351913caa3baf0d3f669b5">CurveLFO::tsConverter</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>.</p>
 
@@ -397,7 +403,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8">CurveLFO::attack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">CurveLFO::attack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>.</p>
 
 </div>
 </div>
@@ -413,7 +419,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8">CurveLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">CurveLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>.</p>
 
 </div>
 </div>
@@ -443,7 +449,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a66f7300050640c52b641ebeba05430e8">CurveLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">CurveLFO::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>.</p>
 
 </div>
 </div>
@@ -483,7 +489,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 25 2025 12:21:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Apr 26 2025 00:46:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
