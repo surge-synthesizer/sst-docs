@@ -102,14 +102,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Inherits Component.</p>
+<p>Inherits CompactPlot.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a90cd0c0593d7829255e75d550f3a0053" id="r_a90cd0c0593d7829255e75d550f3a0053"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a90cd0c0593d7829255e75d550f3a0053">CurveDraw</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html">LfoPane</a> *p)</td></tr>
 <tr class="separator:a90cd0c0593d7829255e75d550f3a0053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f2c219a2cbbd6b61e7c41564dac6169" id="r_a4f2c219a2cbbd6b61e7c41564dac6169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">paint</a> (juce::Graphics &amp;g) override</td></tr>
-<tr class="separator:a4f2c219a2cbbd6b61e7c41564dac6169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f66bbd01359dca726904a462bd54ff" id="r_a55f66bbd01359dca726904a462bd54ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a55f66bbd01359dca726904a462bd54ff">curvePathIsValid</a> () const override</td></tr>
+<tr class="separator:a55f66bbd01359dca726904a462bd54ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c08897ada0a0cccd19026402d7476f" id="r_af5c08897ada0a0cccd19026402d7476f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#af5c08897ada0a0cccd19026402d7476f">recalculateCurvePath</a> (plotData_t &amp;into) override</td></tr>
+<tr class="separator:af5c08897ada0a0cccd19026402d7476f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -119,8 +121,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adda1aa3a3da5a498e51ac5a217739b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16fe4d2e3aeec4e2b15f5ef9c339aa7" id="r_aa16fe4d2e3aeec4e2b15f5ef9c339aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7">ms</a></td></tr>
 <tr class="separator:aa16fe4d2e3aeec4e2b15f5ef9c339aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86981560acfac1f0ad71e5f9839e9392" id="r_a86981560acfac1f0ad71e5f9839e9392"><td class="memItemLeft" align="right" valign="top">juce::Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a86981560acfac1f0ad71e5f9839e9392">curvePath</a> {}</td></tr>
-<tr class="separator:a86981560acfac1f0ad71e5f9839e9392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a90cd0c0593d7829255e75d550f3a0053" name="a90cd0c0593d7829255e75d550f3a0053"></a>
@@ -144,8 +144,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4f2c219a2cbbd6b61e7c41564dac6169" name="a4f2c219a2cbbd6b61e7c41564dac6169"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f2c219a2cbbd6b61e7c41564dac6169">&#9670;&#160;</a></span>paint()</h2>
+<a id="a55f66bbd01359dca726904a462bd54ff" name="a55f66bbd01359dca726904a462bd54ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55f66bbd01359dca726904a462bd54ff">&#9670;&#160;</a></span>curvePathIsValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,10 +154,37 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void paint </td>
+          <td class="memname">bool curvePathIsValid </td>
           <td>(</td>
-          <td class="paramtype">juce::Graphics &amp;&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7">CurveLFOPane::CurveDraw::ms</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a481c52a01e4db564cd418fb3412bb7dd">CurveLFOPane::CurveDraw::parent</a>.</p>
+
+</div>
+</div>
+<a id="af5c08897ada0a0cccd19026402d7476f" name="af5c08897ada0a0cccd19026402d7476f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c08897ada0a0cccd19026402d7476f">&#9670;&#160;</a></span>recalculateCurvePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void recalculateCurvePath </td>
+          <td>(</td>
+          <td class="paramtype">plotData_t &amp;&#160;</td>
+          <td class="paramname"><em>into</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -168,7 +195,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a06f002644d809b162c27bae96cc10833">CurveLFO::assign()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">CurveLFO::attack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a86981560acfac1f0ad71e5f9839e9392">CurveLFOPane::CurveDraw::curvePath</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#adda1aa3a3da5a498e51ac5a217739b93">CurveLFOPane::CurveDraw::dummyTransport</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a6776e6e05a046312f031e246d33cf5a7">ColorMap::generic_content_high</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7">CurveLFOPane::CurveDraw::ms</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1084d7e47a5571b229a33ad347cc9453">CurveLFO::output</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a481c52a01e4db564cd418fb3412bb7dd">CurveLFOPane::CurveDraw::parent</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a01c502bd437d80506bb1232a14f12c27">SampleRateSupport::setSampleRate()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abc943921aef2ff679bc01a04bbd4c113">CurveLFO::simpleLfo</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a4680da9cf2555473ad40f972dc1b4ba4">SCXTEditor::themeColor()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a06f002644d809b162c27bae96cc10833">CurveLFO::assign()</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a803eef2d15c77f5b79004057bf632e1d">CurveLFO::attack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#adda1aa3a3da5a498e51ac5a217739b93">CurveLFOPane::CurveDraw::dummyTransport</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259">LfoPane::modulatorStorageData</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#aa16fe4d2e3aeec4e2b15f5ef9c339aa7">CurveLFOPane::CurveDraw::ms</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1084d7e47a5571b229a33ad347cc9453">CurveLFO::output</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a481c52a01e4db564cd418fb3412bb7dd">CurveLFOPane::CurveDraw::parent</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab3f4707776da09edf1d544659beb53cf">CurveLFO::process()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a01c502bd437d80506bb1232a14f12c27">SampleRateSupport::setSampleRate()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abc943921aef2ff679bc01a04bbd4c113">CurveLFO::simpleLfo</a>.</p>
 
 </div>
 </div>
@@ -185,7 +212,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a55f66bbd01359dca726904a462bd54ff">CurveLFOPane::CurveDraw::curvePathIsValid()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#af5c08897ada0a0cccd19026402d7476f">CurveLFOPane::CurveDraw::recalculateCurvePath()</a>.</p>
 
 </div>
 </div>
@@ -201,7 +228,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a90cd0c0593d7829255e75d550f3a0053">CurveLFOPane::CurveDraw::CurveDraw()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a90cd0c0593d7829255e75d550f3a0053">CurveLFOPane::CurveDraw::CurveDraw()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#af5c08897ada0a0cccd19026402d7476f">CurveLFOPane::CurveDraw::recalculateCurvePath()</a>.</p>
 
 </div>
 </div>
@@ -217,23 +244,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>.</p>
-
-</div>
-</div>
-<a id="a86981560acfac1f0ad71e5f9839e9392" name="a86981560acfac1f0ad71e5f9839e9392"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86981560acfac1f0ad71e5f9839e9392">&#9670;&#160;</a></span>curvePath</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">juce::Path curvePath {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a4f2c219a2cbbd6b61e7c41564dac6169">CurveLFOPane::CurveDraw::paint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#a55f66bbd01359dca726904a462bd54ff">CurveLFOPane::CurveDraw::curvePathIsValid()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDraw.html#af5c08897ada0a0cccd19026402d7476f">CurveLFOPane::CurveDraw::recalculateCurvePath()</a>.</p>
 
 </div>
 </div>
@@ -243,7 +254,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 6 2025 16:11:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun May 18 2025 22:31:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
