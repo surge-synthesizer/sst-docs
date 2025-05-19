@@ -18,7 +18,7 @@ var searchData=
   ['envlfo_15',['EnvLFO',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html',1,'scxt::modulation::modulators']]],
   ['envlfopane_16',['ENVLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['envlfostorage_17',['EnvLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFOStorage.html',1,'scxt::modulation::modulators']]],
-  ['envrender_18',['ENVRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
+  ['envplotdata_18',['ENVPlotData',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVPlotData.html',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
   ['eqadapter_19',['EqAdapter',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1EqAdapter.html',1,'scxt::ui::app::edit_screen::EqDisplayBase']]],
   ['eqdisplaybase_20',['EqDisplayBase',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase.html',1,'scxt::ui::app::edit_screen']]],
   ['eqdisplaysupport_21',['EqDisplaySupport',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html',1,'scxt::ui::app::edit_screen']]],

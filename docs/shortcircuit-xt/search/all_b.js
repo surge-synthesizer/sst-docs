@@ -136,7 +136,7 @@ var searchData=
   ['logdisplay_133',['logDisplay',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a24544cd288d97aabc06bce31996242f4',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['logmessages_134',['logMessages',['../namespacescxt.html#ad0aea81a825777d44d959d8d9a143b63',1,'scxt']]],
   ['logmutex_135',['logMutex',['../namespacescxt.html#a1ed4e2e604e59227624ba22c4161bc64',1,'scxt']]],
-  ['logscreen_136',['logscreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a4a2c82c6114502e70789e34df5b256e4',1,'scxt::ui::app::other_screens::LogScreen::LogScreen()'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a16d9e6a24e0ae783e2832b3204667696',1,'scxt::ui::app::SCXTEditor::logScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'LogScreen']]],
+  ['logscreen_136',['logscreen',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a16d9e6a24e0ae783e2832b3204667696',1,'scxt::ui::app::SCXTEditor::logScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a4a2c82c6114502e70789e34df5b256e4',1,'scxt::ui::app::other_screens::LogScreen::LogScreen()'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'LogScreen']]],
   ['logscreen_2ecpp_137',['LogScreen.cpp',['../LogScreen_8cpp.html',1,'']]],
   ['logscreen_2eh_138',['LogScreen.h',['../LogScreen_8h.html',1,'']]],
   ['logtimestamp_139',['logTimestamp',['../namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03',1,'scxt']]],

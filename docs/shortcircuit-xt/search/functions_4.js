@@ -27,7 +27,7 @@ var searchData=
   ['enveloperatelinear_24',['envelopeRateLinear',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a9365d96ae627de81b4c0651fcd54e4f0',1,'scxt::engine::dtl::Config']]],
   ['envelopethirtytwo_25',['envelopeThirtyTwo',['../modulator__storage_8h.html#a214c3e8419135d54d1d1553fec32b794',1,'modulator_storage.h']]],
   ['envlfopane_26',['ENVLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#ac74c54a9bda9331f2c36ab8168b4dddb',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
-  ['envrender_27',['ENVRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVRender.html#a3501480b0ed0e5b6b38411e5142e6ada',1,'scxt::ui::app::edit_screen::ENVLFOPane::ENVRender']]],
+  ['envplotdata_27',['ENVPlotData',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane_1_1ENVPlotData.html#a0b65ffd7c5b858f990e7da0bbe2e380a',1,'scxt::ui::app::edit_screen::ENVLFOPane::ENVPlotData']]],
   ['envtime_28',['envTime',['../modulator__storage_8h.html#a97629ea5a8ada8c207ae2e18ba1c9a1e',1,'modulator_storage.h']]],
   ['eob_29',['Eob',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a106226b458776f28ec8959b46675a185',1,'scxt::sample::loaders::RIFFMemFile']]],
   ['eof_30',['Eof',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#afc8df5b294583106e3b7dd4edbb84ad5',1,'scxt::sample::loaders::RIFFMemFile']]],
