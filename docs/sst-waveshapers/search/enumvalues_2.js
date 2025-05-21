@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['continueonfailure_1538',['ContinueOnFailure',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295fa760881b8dc5a350fe1f65aefd9b3b9c6',1,'Catch::ResultDisposition']]]
+  ['didntthrowexception_0',['DidntThrowException',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa60648c2ffff62661a7e904c90f9d2c80',1,'Catch::ResultWas']]]
 ];

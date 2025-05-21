@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['exception_1541',['Exception',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa17524a77b7673b0322cc15aa590d1e41',1,'Catch::ResultWas']]],
-  ['explicitfailure_1542',['ExplicitFailure',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa4d37b01bc48e760e3e50a51357eb98be',1,'Catch::ResultWas']]],
-  ['expressionfailed_1543',['ExpressionFailed',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaad196f293906219128dbbdcdddba5245b',1,'Catch::ResultWas']]]
+  ['failurebit_0',['FailureBit',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa2a771444abe1d6c36859a5986eb4eb59',1,'Catch::ResultWas']]],
+  ['falsetest_1',['FalseTest',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295faa8934af5e371d5eaf8cf64dd7bf62238',1,'Catch::ResultDisposition']]],
+  ['fatalerrorcondition_2',['FatalErrorCondition',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaac681dac676e086a60e902b68bdfa6d00',1,'Catch::ResultWas']]]
 ];

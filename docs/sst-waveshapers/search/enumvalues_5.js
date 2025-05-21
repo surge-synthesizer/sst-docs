@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['failurebit_1544',['FailureBit',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa2a771444abe1d6c36859a5986eb4eb59',1,'Catch::ResultWas']]],
-  ['falsetest_1545',['FalseTest',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295faa8934af5e371d5eaf8cf64dd7bf62238',1,'Catch::ResultDisposition']]],
-  ['fatalerrorcondition_1546',['FatalErrorCondition',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaac681dac676e086a60e902b68bdfa6d00',1,'Catch::ResultWas']]]
+  ['info_0',['Info',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa1cd805eaf0bb58a90fe7e7e4cf6a3cdc',1,'Catch::ResultWas']]],
+  ['ishidden_1',['IsHidden',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea0013f99b933e634f0afc9259daa48e37',1,'Catch::TestCaseInfo']]]
 ];

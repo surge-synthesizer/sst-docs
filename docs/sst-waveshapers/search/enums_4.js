@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['specialproperties_1526',['SpecialProperties',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3e',1,'Catch::TestCaseInfo']]]
+  ['waveshapertype_0',['WaveshaperType',['../namespacesst_1_1waveshapers.html#aa37aacf59f66da78b0b69e2d9ac89245',1,'sst::waveshapers']]]
 ];

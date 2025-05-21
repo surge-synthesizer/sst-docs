@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['always_1532',['Always',['../structCatch_1_1ShowDurations.html#aaa1d79978a2f33bd9e0827e98e2fcc22ae1a8e8cd4807ad56b76df10995885c33',1,'Catch::ShowDurations']]],
-  ['auto_1533',['Auto',['../structCatch_1_1UseColour.html#ac9375db469490767ea03553413d97007ab81b7469043e9c54603ca3aebbe38e90',1,'Catch::UseColour']]]
+  ['benchmark_0',['Benchmark',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea939f08513d0c3666bc2c966265b27bd2',1,'Catch::TestCaseInfo']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['oftype_1524',['OfType',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebba',1,'Catch::ResultWas']]],
-  ['ornot_1525',['OrNot',['../structCatch_1_1ShowDurations.html#aaa1d79978a2f33bd9e0827e98e2fcc22',1,'Catch::ShowDurations']]]
+  ['specialproperties_0',['SpecialProperties',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3e',1,'Catch::TestCaseInfo']]]
 ];

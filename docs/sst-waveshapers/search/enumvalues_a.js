@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ok_1563',['Ok',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa06d32f047358de4e6a30c28046f4688e',1,'Catch::ResultWas']]]
+  ['threwexception_0',['ThrewException',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa3c99b9157c64302c5d21fe72d7a5fef3',1,'Catch::ResultWas']]],
+  ['throws_1',['Throws',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea2007aa7ffff7adbe8260719b6e22bca3',1,'Catch::TestCaseInfo']]]
 ];
