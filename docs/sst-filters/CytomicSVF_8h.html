@@ -97,7 +97,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">CytomicSVF.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -130,6 +131,15 @@ Macros</h2></td></tr>
 <tr class="separator:a460cb170cf4b55887298cdaaca1ee72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24945dfd73b918c244cfaa0ce54f5cbb" id="r_a24945dfd73b918c244cfaa0ce54f5cbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CytomicSVF_8h.html#a24945dfd73b918c244cfaa0ce54f5cbb">SETALL</a>(a)&#160;&#160;&#160;SIMD_MM(set1_ps)(a)</td></tr>
 <tr class="separator:a24945dfd73b918c244cfaa0ce54f5cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adcb6b3be06835f2c37f5408c0233f6e4" id="r_adcb6b3be06835f2c37f5408c0233f6e4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#adcb6b3be06835f2c37f5408c0233f6e4">CytomicSVFGainAt</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911">CytomicSVF::Mode</a> mode, float cutoff, float res, float bellShelfAmp, float atFrequency)</td></tr>
+<tr class="memdesc:adcb6b3be06835f2c37f5408c0233f6e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">CytomicSVFGainAt returns the linear amplitude gain for a given mode cutoff res amp at a given frequency.  <br /></td></tr>
+<tr class="separator:adcb6b3be06835f2c37f5408c0233f6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ed82339b26b2805905823481c05be2" id="r_a98ed82339b26b2805905823481c05be2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#a98ed82339b26b2805905823481c05be2">CytomicSVFGainProfile</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911">CytomicSVF::Mode</a> mode, float cutoff, float res, float bellShelfAmp, float *freqOut, float *gainOut, size_t <a class="el" href="TriPoleFilter_8h.html#af04f8faa08e13b16b70b52a56fbc9c53">N</a>)</td></tr>
+<tr class="memdesc:a98ed82339b26b2805905823481c05be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a convenience function to give you an entire curve worth over a reasonable frequency bound with the frequencies log spaced.  <br /></td></tr>
+<tr class="separator:a98ed82339b26b2805905823481c05be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3d7b10d1c02ef12d64d7a6fa90e9a1e9" name="a3d7b10d1c02ef12d64d7a6fa90e9a1e9"></a>
@@ -279,7 +289,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 8 2025 11:13:21 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue May 27 2025 21:27:51 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
