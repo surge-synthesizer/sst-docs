@@ -280,7 +280,7 @@ var searchData=
   ['curvelfo_277',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
   ['curvelfo_2eh_278',['curvelfo.h',['../curvelfo_8h.html',1,'']]],
   ['curvelfopane_279',['curvelfopane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#aaed4e61e33ed6d82664d50915bd5b0be',1,'scxt::ui::app::edit_screen::LfoPane::curveLfoPane'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#ac570337f574f88da7b611beaa332e9de',1,'scxt::ui::app::edit_screen::CurveLFOPane::CurveLFOPane()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'CurveLFOPane']]],
-  ['curvelfos_280',['curveLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a85cde7989a4078aa6953c3ee78203687',1,'scxt::modulation::shared::HasModulators']]],
+  ['curvelfos_280',['curveLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce',1,'scxt::modulation::shared::HasModulators']]],
   ['curvelfostorage_281',['curvelfostorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a49988d936bb27b84531e86f3eb17b702',1,'scxt::modulation::ModulatorStorage::curveLfoStorage'],['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'CurveLFOStorage']]],
   ['curvenames_282',['curveNames',['../structscxt_1_1modulation_1_1ModulationCurves.html#a4c286d7071c9e048d5ccad1d0da8e3aa',1,'scxt::modulation::ModulationCurves']]],
   ['curvepath_283',['curvePath',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a86981560acfac1f0ad71e5f9839e9392',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]],

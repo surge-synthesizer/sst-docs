@@ -71,7 +71,7 @@ var searchData=
   ['curvedraw_68',['curveDraw',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#a9151120448b1020115f140a2d44dc68e',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['curveimpls_69',['curveImpls',['../structscxt_1_1modulation_1_1ModulationCurves.html#a6bf6a9b6902a10655cf08f59f51f7637',1,'scxt::modulation::ModulationCurves']]],
   ['curvelfopane_70',['curveLfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#aaed4e61e33ed6d82664d50915bd5b0be',1,'scxt::ui::app::edit_screen::LfoPane']]],
-  ['curvelfos_71',['curveLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a85cde7989a4078aa6953c3ee78203687',1,'scxt::modulation::shared::HasModulators']]],
+  ['curvelfos_71',['curveLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce',1,'scxt::modulation::shared::HasModulators']]],
   ['curvelfostorage_72',['curveLfoStorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a49988d936bb27b84531e86f3eb17b702',1,'scxt::modulation::ModulatorStorage']]],
   ['curvenames_73',['curveNames',['../structscxt_1_1modulation_1_1ModulationCurves.html#a4c286d7071c9e048d5ccad1d0da8e3aa',1,'scxt::modulation::ModulationCurves']]],
   ['curvepath_74',['curvePath',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html#a86981560acfac1f0ad71e5f9839e9392',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]],

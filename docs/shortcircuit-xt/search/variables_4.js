@@ -65,7 +65,7 @@ var searchData=
   ['envheight_62',['envHeight',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aa08eee2ba53c668aee2be67571806d9c',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['envl_63',['envL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#a098400d75f5087c4c050cd38c4c35313',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['envlfopane_64',['envLfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae465fc0cf3d0b7b40d973bbf04e7a8ef',1,'scxt::ui::app::edit_screen::LfoPane']]],
-  ['envlfos_65',['envLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#af128a756acffdaa3bc4762dc45cf2666',1,'scxt::modulation::shared::HasModulators']]],
+  ['envlfos_65',['envLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a722735f39fbe07aced5c0de1edb7e20e',1,'scxt::modulation::shared::HasModulators']]],
   ['envlfostorage_66',['envLfoStorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a9bc921d7852ed970bc6deddc265b91ca',1,'scxt::modulation::ModulatorStorage']]],
   ['envs_67',['envS',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#ae5eb984c0ccc30243ba881d31f6bfac3',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['envslots_68',['envSlots',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#a57583fa7bae2499c07249390c5d073d3',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],

@@ -120,7 +120,7 @@ var searchData=
   ['step_117',['step',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a9835fda16e12a64a581185e76aee1529',1,'scxt::modulation::ModulatorStorage::STEP'],['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a16dec0213b441396f9a7aa30c898e49a',1,'scxt::modulation::shared::LFOTargetEndpointData::step']]],
   ['stepcount_118',['stepCount',['../structscxt_1_1engine_1_1Macro.html#afff2dca1d80d16cc1be1f71432bc369b',1,'scxt::engine::Macro']]],
   ['steplfopane_119',['stepLfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#afb6a55e4c9b1ef68256a4366db26b229',1,'scxt::ui::app::edit_screen::LfoPane']]],
-  ['steplfos_120',['stepLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2430e3ba3afd1e67de66b9ccbad3319a',1,'scxt::modulation::shared::HasModulators']]],
+  ['steplfos_120',['stepLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74',1,'scxt::modulation::shared::HasModulators']]],
   ['steplfostorage_121',['stepLfoStorage',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a0e46b347154ce0fe4b08b51dd02013da',1,'scxt::modulation::ModulatorStorage']]],
   ['steprender_122',['stepRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#abbe2d3a144e2a5cd4249400d0bafc141',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
   ['stepsa_123',['stepsA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#aed3f1d2893abddbc698d21443aaea58e',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
