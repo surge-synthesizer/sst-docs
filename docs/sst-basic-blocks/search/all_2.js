@@ -22,7 +22,7 @@ var searchData=
   ['coefa1_19',['CoefA1',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a9983fb44cf842413ff11b8e0b4557bfb',1,'sst::basic_blocks::dsp::CharacterFilter']]],
   ['coefb0_20',['CoefB0',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a0a0c24ac52346294852d147ba04ea751',1,'sst::basic_blocks::dsp::CharacterFilter']]],
   ['coefb1_21',['CoefB1',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a5f1598c07a2da6a3924d3d2f41cdcf7a',1,'sst::basic_blocks::dsp::CharacterFilter']]],
-  ['coeff_5foffset_22',['coeff_offset',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#a8fdf625e30c2e73969d090c6cae178bf',1,'sst::basic_blocks::modulators::DAHDEnvelope::coeff_offset'],['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#a8fdf625e30c2e73969d090c6cae178bf',1,'sst::basic_blocks::modulators::ADSREnvelope::coeff_offset']]],
+  ['coeff_5foffset_22',['coeff_offset',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#a8fdf625e30c2e73969d090c6cae178bf',1,'sst::basic_blocks::modulators::ADSREnvelope::coeff_offset'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#a8fdf625e30c2e73969d090c6cae178bf',1,'sst::basic_blocks::modulators::DAHDEnvelope::coeff_offset']]],
   ['comb_5fsize_23',['comb_size',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a53c2016089ef5f41d337644563ab0fbc',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
   ['constantplaceholders_24',['constantPlaceholders',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a3d2ede313ef904d836602720c0454131',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['copy_5ffrom_5fto_25',['copy_from_to',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a93b9a6d9d2475305e9120051b44dc9c0',1,'sst::basic_blocks::mechanics']]],
@@ -31,12 +31,10 @@ var searchData=
   ['correlatednoise_2eh_28',['CorrelatedNoise.h',['../CorrelatedNoise_8h.html',1,'']]],
   ['cubed_5fas_5fdecibel_29',['CUBED_AS_DECIBEL',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a8ac197e157ddeb12284464c5353360b9',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['cubic_5fipol_30',['cubic_ipol',['../namespacesst_1_1basic__blocks_1_1dsp.html#aba363ecc65489af3901abcf0954c48fd',1,'sst::basic_blocks::dsp']]],
-  ['current_31',['current',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#af9653d31acfffa5a40aa709b2065e00b',1,'sst::basic_blocks::dsp::lipol_sse::current'],['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab04e2d55ea4a544f3575812582af7b51',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::current']]],
+  ['current_31',['current',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab04e2d55ea4a544f3575812582af7b51',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::current'],['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#af9653d31acfffa5a40aa709b2065e00b',1,'sst::basic_blocks::dsp::lipol_sse::current']]],
   ['curve_32',['curve',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable_1_1Routing.html#a94033291bce76a4089e59b976cb9dea7',1,'sst::basic_blocks::mod_matrix::RoutingTable::Routing']]],
   ['curvefn_33',['curveFn',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a427ccf17ba1afd2774781e8d0f9721ef',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers']]],
   ['custom_5finterval_34',['CUSTOM_INTERVAL',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47adcb7463017fd5e88e64081ec593bb8be',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['custom_5fstep_5fcount_35',['CUSTOM_STEP_COUNT',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79bb097a884417fa68a01a38c4857d47a68f238a8346cca6b5e9e08c63b0b248d',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['customdefaultdisplay_36',['customDefaultDisplay',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad5bb3d8dac2c7b9a7dfdee8b24662472',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['custommaxdisplay_37',['customMaxDisplay',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a03ca4853cf2bf2c1371a6c4b71746bd0',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['custommindisplay_38',['customMinDisplay',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a8607b38e214abab277f7e5e177379bcc',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['customvaluelabelswithaccuracy_36',['customValueLabelsWithAccuracy',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#acd107e03ba187ae4d604c9800de3d5d9',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];

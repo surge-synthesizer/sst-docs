@@ -19,7 +19,5 @@ var searchData=
   ['current_16',['current',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#af9653d31acfffa5a40aa709b2065e00b',1,'sst::basic_blocks::dsp::lipol_sse::current'],['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab04e2d55ea4a544f3575812582af7b51',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::current']]],
   ['curve_17',['curve',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable_1_1Routing.html#a94033291bce76a4089e59b976cb9dea7',1,'sst::basic_blocks::mod_matrix::RoutingTable::Routing']]],
   ['curvefn_18',['curveFn',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a427ccf17ba1afd2774781e8d0f9721ef',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers']]],
-  ['customdefaultdisplay_19',['customDefaultDisplay',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad5bb3d8dac2c7b9a7dfdee8b24662472',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['custommaxdisplay_20',['customMaxDisplay',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a03ca4853cf2bf2c1371a6c4b71746bd0',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['custommindisplay_21',['customMinDisplay',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a8607b38e214abab277f7e5e177379bcc',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['customvaluelabelswithaccuracy_19',['customValueLabelsWithAccuracy',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#acd107e03ba187ae4d604c9800de3d5d9',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
