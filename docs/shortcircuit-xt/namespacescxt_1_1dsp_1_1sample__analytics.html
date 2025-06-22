@@ -104,6 +104,8 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:acb125eff744110fcf42747e8cc351c99" id="r_acb125eff744110fcf42747e8cc351c99"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#acb125eff744110fcf42747e8cc351c99">computePeak</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;s)</td></tr>
 <tr class="separator:acb125eff744110fcf42747e8cc351c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f541869bebdbc599aaccc165dcec5a0" id="r_a3f541869bebdbc599aaccc165dcec5a0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#a3f541869bebdbc599aaccc165dcec5a0">computeMaxRMSInBlock</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;s)</td></tr>
+<tr class="separator:a3f541869bebdbc599aaccc165dcec5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c870bd01e1c643fefd038d5ef48712" id="r_ac2c870bd01e1c643fefd038d5ef48712"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#ac2c870bd01e1c643fefd038d5ef48712">computeRMS</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;s)</td></tr>
 <tr class="separator:ac2c870bd01e1c643fefd038d5ef48712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -123,6 +125,42 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>the sample to analyze </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Peak of the entire sample </dd></dl>
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
+
+</div>
+</div>
+<a id="a3f541869bebdbc599aaccc165dcec5a0" name="a3f541869bebdbc599aaccc165dcec5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f541869bebdbc599aaccc165dcec5a0">&#9670;&#160;</a></span>computeMaxRMSInBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float computeMaxRMSInBlock </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The largest RMS in a 64 sample block </dd></dl>
 
 <p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>.</p>
 
@@ -145,17 +183,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>the sample to analyze </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The RMS of the entire sample. Be careful though since silence and a blip will have a very low RMS even though it has a very high sort of 'small block peak' RMS </dd></dl>
 
 <p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 21 2025 08:05:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Jun 22 2025 09:27:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
