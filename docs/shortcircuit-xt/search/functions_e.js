@@ -4,7 +4,7 @@ var searchData=
   ['offsetkeyby_1',['offsetKeyBy',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#ad14cc0a2caf97063e2a52f05a3f7017a',1,'scxt::tuning::MidikeyRetuner']]],
   ['offv_2',['offV',['../namespacescxt_1_1datamodel_1_1detail.html#acf353e7302611c247f8f830c523d3d27',1,'scxt::datamodel::detail']]],
   ['okgotitdontshowagain_3',['okGotItDontShowAgain',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#ab508e7d02c1f2e656f451145a600853e',1,'scxt::ui::app::other_screens::WelcomeScreen']]],
-  ['onactivitynotification_4',['onActivityNotification',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af995361a3eeae28748e04cdca8af2a91',1,'scxt::ui::app::SCXTEditor']]],
+  ['onactivitynotification_4',['onactivitynotification',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af995361a3eeae28748e04cdca8af2a91',1,'scxt::ui::app::SCXTEditor::onActivityNotification()'],['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a54e903ccbd5dc5455ecc11b700bf523a',1,'scxt::ui::app::shared::HeaderRegion::onActivityNotification()']]],
   ['onallprocessordescriptions_5',['onAllProcessorDescriptions',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af38205a97c059775a223e32791976bdd',1,'scxt::ui::app::SCXTEditor']]],
   ['onbrowserqueuelengthrefresh_6',['onBrowserQueueLengthRefresh',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af8277668b83217df06a126d681419884',1,'scxt::ui::app::SCXTEditor']]],
   ['onbrowserrefresh_7',['onBrowserRefresh',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa0b4ac59513a9b5abe352daf1fb77e4a',1,'scxt::ui::app::SCXTEditor']]],
