@@ -239,7 +239,7 @@ Functions</h2></td></tr>
 <tr class="memitem:af98be2b15b8754d18053520c94223a33" id="r_af98be2b15b8754d18053520c94223a33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#af98be2b15b8754d18053520c94223a33">unspawnProcessor</a> (<a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *f)</td></tr>
 <tr class="memdesc:af98be2b15b8754d18053520c94223a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whetner a <a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> is spawned in place or onto fresh memory, release it here.  <br /></td></tr>
 <tr class="separator:af98be2b15b8754d18053520c94223a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbfe8566eff786efd82562222210e6d" id="r_a1cbfe8566eff786efd82562222210e6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="processor_8h.html#a1cbfe8566eff786efd82562222210e6d">SC_DESCRIBE</a> (<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">scxt::dsp::processor::ProcessorStorage</a>, <a class="el" href="metadata__detail_8h.html#aba4f125689122a3b63118b8fb685b0c6">SC_FIELD_COMPUTED</a>(mix, { auto dr=dsp::processor::getProcessorDefaultMix(payload.type);return datamodel::pmd().asPercent().<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Mix&quot;).withDefault(dr);});<a class="el" href="metadata__detail_8h.html#aa725e698677f4290a356d7edf8c61553">SC_FIELD</a>(outputCubAmp, pmd() .asCubicDecibelUpTo(<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a3f07339b14871840ba28a0553513631d">scxt::dsp::processor::ProcessorStorage::maxOutputDB</a>) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Output&quot;));)</td></tr>
+<tr class="memitem:a1cbfe8566eff786efd82562222210e6d" id="r_a1cbfe8566eff786efd82562222210e6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="processor_8h.html#a1cbfe8566eff786efd82562222210e6d">SC_DESCRIBE</a> (<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">scxt::dsp::processor::ProcessorStorage</a>, <a class="el" href="metadata__detail_8h.html#aba4f125689122a3b63118b8fb685b0c6">SC_FIELD_COMPUTED</a>(mix, { auto dr=dsp::processor::getProcessorDefaultMix(payload.type);return datamodel::pmd().asPercent().withName(&quot;Mix&quot;).withDefault(dr);});<a class="el" href="metadata__detail_8h.html#aa725e698677f4290a356d7edf8c61553">SC_FIELD</a>(outputCubAmp, pmd() .asCubicDecibelUpTo(<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a3f07339b14871840ba28a0553513631d">scxt::dsp::processor::ProcessorStorage::maxOutputDB</a>) .withName(&quot;Output&quot;));)</td></tr>
 <tr class="separator:a1cbfe8566eff786efd82562222210e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -258,7 +258,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="metadata__detail_8h.html#aba4f125689122a3b63118b8fb685b0c6">SC_FIELD_COMPUTED</a>(mix, { auto dr=dsp::processor::getProcessorDefaultMix(payload.type);return datamodel::pmd().asPercent().<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Mix&quot;).withDefault(dr);});<a class="el" href="metadata__detail_8h.html#aa725e698677f4290a356d7edf8c61553">SC_FIELD</a>(outputCubAmp, pmd() .asCubicDecibelUpTo(<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a3f07339b14871840ba28a0553513631d">scxt::dsp::processor::ProcessorStorage::maxOutputDB</a>) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Output&quot;));&#160;</td>
+          <td class="paramtype"><a class="el" href="metadata__detail_8h.html#aba4f125689122a3b63118b8fb685b0c6">SC_FIELD_COMPUTED</a>(mix, { auto dr=dsp::processor::getProcessorDefaultMix(payload.type);return datamodel::pmd().asPercent().withName(&quot;Mix&quot;).withDefault(dr);});<a class="el" href="metadata__detail_8h.html#aa725e698677f4290a356d7edf8c61553">SC_FIELD</a>(outputCubAmp, pmd() .asCubicDecibelUpTo(<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a3f07339b14871840ba28a0553513631d">scxt::dsp::processor::ProcessorStorage::maxOutputDB</a>) .withName(&quot;Output&quot;));&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -274,7 +274,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 25 2025 21:38:29 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Jun 26 2025 11:56:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
