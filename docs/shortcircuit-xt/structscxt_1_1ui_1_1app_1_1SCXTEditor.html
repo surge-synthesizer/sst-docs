@@ -108,7 +108,7 @@ $(function() {
 
 <p><code>#include &lt;SCXTEditor.h&gt;</code></p>
 
-<p>Inherits WindowPanel, and DragAndDropContainer.</p>
+<p>Inherits WindowPanel, DragAndDropContainer, and ScreenHolder&lt; SCXTEditor &gt;.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -265,10 +265,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aca6d31134941a1ded5f557111b773a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5e7b91083cfb0cc4ea6eb53ccc7bf92" id="r_ae5e7b91083cfb0cc4ea6eb53ccc7bf92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92">addUIThemesMenu</a> (juce::PopupMenu &amp;p, bool addTitle=true)</td></tr>
 <tr class="separator:ae5e7b91083cfb0cc4ea6eb53ccc7bf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52ca371fb8609bd313dd9be0a9c7d845" id="r_a52ca371fb8609bd313dd9be0a9c7d845"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a52ca371fb8609bd313dd9be0a9c7d845">makeComingSoon</a> (const std::string &amp;feature=&quot;This feature&quot;) const</td></tr>
-<tr class="separator:a52ca371fb8609bd313dd9be0a9c7d845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25eb9bb86007ab7650186815b228bfb8" id="r_a25eb9bb86007ab7650186815b228bfb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a25eb9bb86007ab7650186815b228bfb8">showComingSoon</a> (const std::string &amp;feature=&quot;This feature&quot;) const</td></tr>
-<tr class="separator:a25eb9bb86007ab7650186815b228bfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70813794c6dc73fbd5150da4f2b5e558" id="r_a70813794c6dc73fbd5150da4f2b5e558"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a70813794c6dc73fbd5150da4f2b5e558">makeComingSoon</a> (const std::string &amp;feature=&quot;This feature&quot;)</td></tr>
+<tr class="separator:a70813794c6dc73fbd5150da4f2b5e558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b34a83bb055183bd11e882c6e6cf48" id="r_a50b34a83bb055183bd11e882c6e6cf48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a50b34a83bb055183bd11e882c6e6cf48">promptOKCancel</a> (const std::string &amp;title, const std::string &amp;message, std::function&lt; void()&gt; onOK, std::function&lt; void()&gt; onCancel=[]() {})</td></tr>
 <tr class="separator:a50b34a83bb055183bd11e882c6e6cf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fe41d677a286de535c25e87eaf5b6b" id="r_a43fe41d677a286de535c25e87eaf5b6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a43fe41d677a286de535c25e87eaf5b6b">displayError</a> (const std::string &amp;title, const std::string &amp;message)</td></tr>
@@ -2016,8 +2014,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a52ca371fb8609bd313dd9be0a9c7d845" name="a52ca371fb8609bd313dd9be0a9c7d845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52ca371fb8609bd313dd9be0a9c7d845">&#9670;&#160;</a></span>makeComingSoon()</h2>
+<a id="a70813794c6dc73fbd5150da4f2b5e558" name="a70813794c6dc73fbd5150da4f2b5e558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70813794c6dc73fbd5150da4f2b5e558">&#9670;&#160;</a></span>makeComingSoon()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2027,32 +2025,12 @@ Protected Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>feature</em> = <code>&quot;This&#160;feature&quot;</code></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#adac0f57e2c523edc284d0768ea37c116">GroupSettingsCard::GroupSettingsCard()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a2c96b0935386c0e0676b2af06f035825">HeaderRegion::HeaderRegion()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a9631be5297a95f03ca6c8f0efc8e127e">MappingZoneHeader::MappingZoneHeader()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a7e575ff61a4bd1613b817a905625a8f4">VariantDisplay::rebuildForSelectedVariation()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a099ab885901da38eb262dc7b20494590">LfoPane::showModulatorShapeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8f7bf025d3243cde6d8daa2da3a0477f">VariantDisplay::showVariantTabMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aa1dd1533b1aafff18a709f28e6181eb9">VariantDisplay::VariantDisplay()</a>.</p>
-
-</div>
-</div>
-<a id="a25eb9bb86007ab7650186815b228bfb8" name="a25eb9bb86007ab7650186815b228bfb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25eb9bb86007ab7650186815b228bfb8">&#9670;&#160;</a></span>showComingSoon()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void showComingSoon </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>feature</em> = <code>&quot;This&#160;feature&quot;</code></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9a230cf98c91d96f1825af3ff0afb03f">MappingDisplay::doZoneRename()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9a230cf98c91d96f1825af3ff0afb03f">MappingDisplay::doZoneRename()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#adac0f57e2c523edc284d0768ea37c116">GroupSettingsCard::GroupSettingsCard()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a2c96b0935386c0e0676b2af06f035825">HeaderRegion::HeaderRegion()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a9631be5297a95f03ca6c8f0efc8e127e">MappingZoneHeader::MappingZoneHeader()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a7e575ff61a4bd1613b817a905625a8f4">VariantDisplay::rebuildForSelectedVariation()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a099ab885901da38eb262dc7b20494590">LfoPane::showModulatorShapeMenu()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8f7bf025d3243cde6d8daa2da3a0477f">VariantDisplay::showVariantTabMenu()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aa1dd1533b1aafff18a709f28e6181eb9">VariantDisplay::VariantDisplay()</a>.</p>
 
 </div>
 </div>
@@ -2964,7 +2942,7 @@ template&lt;typename A &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 26 2025 11:56:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Jun 26 2025 19:23:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
