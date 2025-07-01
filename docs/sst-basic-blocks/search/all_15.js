@@ -46,8 +46,9 @@ var searchData=
   ['withtemposyncmultiplier_43',['withTemposyncMultiplier',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a4bbc5cfd773c805e43d9101c38b2b497',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withtype_44',['withType',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a60bd30fb786bf4f68769119218170b1e',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withunit_45',['withUnit',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad6627c25f44e64787e3e08de39e996cc',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withunorderedmapformatting_46',['withUnorderedMapFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a448a3091fdc2d57355a17a8a8b42d165',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withvaluelabelremoved_47',['withValueLabelRemoved',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6779449b855f61558f131725c1898f98',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['wp_48',['wp',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#af203f5ddbac4a47afed1a07b97e7e477',1,'sst::basic_blocks::dsp::LanczosResampler::wp'],['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#af203f5ddbac4a47afed1a07b97e7e477',1,'sst::basic_blocks::dsp::SSESincDelayLine::wp']]],
-  ['write_49',['write',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a966d5aaedf09d6f1f4c280973bec095b',1,'sst::basic_blocks::dsp::SSESincDelayLine']]]
+  ['withunitseparator_46',['withUnitSeparator',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa8075d63c09a0d4d0ee56cc3baca5c43',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withunorderedmapformatting_47',['withUnorderedMapFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a448a3091fdc2d57355a17a8a8b42d165',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withvaluelabelremoved_48',['withValueLabelRemoved',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6779449b855f61558f131725c1898f98',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['wp_49',['wp',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#af203f5ddbac4a47afed1a07b97e7e477',1,'sst::basic_blocks::dsp::LanczosResampler::wp'],['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#af203f5ddbac4a47afed1a07b97e7e477',1,'sst::basic_blocks::dsp::SSESincDelayLine::wp']]],
+  ['write_50',['write',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a966d5aaedf09d6f1f4c280973bec095b',1,'sst::basic_blocks::dsp::SSESincDelayLine']]]
 ];
