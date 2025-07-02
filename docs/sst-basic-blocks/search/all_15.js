@@ -18,7 +18,7 @@ var searchData=
   ['withenabled_15',['withEnabled',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6bbb3bf9f0c6e45333ee000ee2f2abb3',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withextended_16',['withExtended',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#a2d870ac5a9810b9dd5a88f35f5c3185f',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
   ['withextendfactors_17',['withExtendFactors',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#abcf97613c39756100c2a627d8c40348a',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withfeature_18',['withFeature',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24e9847cf88f7c47ff993f56af1526d3',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withfeature_18',['withfeature',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24e9847cf88f7c47ff993f56af1526d3',1,'sst::basic_blocks::params::ParamMetaData::withFeature(Features f) const'],['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a15c9e31ca35ecd48c43c7b0da262d533',1,'sst::basic_blocks::params::ParamMetaData::withFeature(uint64_t f) const']]],
   ['withflags_19',['withFlags',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7dee0e98a187b595e1b9e2f8619e9f48',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withgroupname_20',['withGroupName',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#adcb572684908f8aa155c0350bb25e172',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withhighprecision_21',['withHighPrecision',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#af03da12d9465246d4977e05a0ea360ca',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
