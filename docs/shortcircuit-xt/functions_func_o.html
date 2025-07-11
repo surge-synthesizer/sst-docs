@@ -100,6 +100,8 @@ $(function() {
 <li>onBrowserQueueLengthRefresh()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af8277668b83217df06a126d681419884">SCXTEditor</a></li>
 <li>onBrowserRefresh()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa0b4ac59513a9b5abe352daf1fb77e4a">SCXTEditor</a></li>
 <li>onBusEffectFullData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a1b52fc6fc2afd12d1a6b582b7856f128">MixerScreen</a></li>
+<li>onBusOrPartEffectFullData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a62acbf1c0bc6b30f40e53d86858fc08d">SCXTEditor</a></li>
+<li>onBusOrPartSendData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a186b9f6f230cc2302f64bf9b1380c413">SCXTEditor</a></li>
 <li>onBusSendData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a535b2e6fa1ffd074a73932a9b6b85e5f">MixerScreen</a></li>
 <li>onDataChanged()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a3e5e78ada977d09fcfef2e7bf6839ec2">ChannelStrip</a></li>
 <li>onDebugInfoGenerated()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae212ecd0576d8c72598ce4c7fef1211f">SCXTEditor</a></li>
@@ -119,11 +121,10 @@ $(function() {
 <li>onMainThread()&#160;:&#160;<a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#abd1d7554f952ca318905d9eebedc7a0b">SCXTPlugin</a></li>
 <li>onMappingUpdated()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a037d54eb620a387afe73de25bb1a54df">SCXTEditor</a></li>
 <li>onMissingResolutionWorkItemList()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a6d8ef331072e74bd49e5f1c07ed728f9">SCXTEditor</a></li>
-<li>onMixerBusEffectFullData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aee8df78637ae73fb75cf58c41d4e742f">SCXTEditor</a></li>
-<li>onMixerBusSendData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a669380d1e3b76339c611ec8efc33ba41">SCXTEditor</a></li>
 <li>onOtherTabSelection()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">MixerScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae2830115b739b134bfa5606c5e3aa012">SCXTEditor</a></li>
 <li>onPartConfiguration()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a65e8aa1301b967b2bcf891d2a2cec5c5">SCXTEditor</a></li>
 <li>onPartConfigurationUpdated()&#160;:&#160;<a class="el" href="structscxt_1_1engine_1_1Engine.html#abbd0c36c9e9fefb1b9bd668f87cf3ec8">Engine</a></li>
+<li>onPartEffectFullData()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html#afbc9c7672c49d12663fd2e80fabbac22">PartEditScreen</a></li>
 <li>onProcessorTypeChanged()&#160;:&#160;<a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a6926872b18c094e1a1c156661ff4b4be">Zone</a></li>
 <li>onRoutingChanged()&#160;:&#160;<a class="el" href="structscxt_1_1engine_1_1Group.html#aed959c9eafd1814595f03b425a0fa8ad">Group</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aed959c9eafd1814595f03b425a0fa8ad">Zone</a></li>
 <li>onRowClicked()&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html#aae743073873b0845f7f64177c28eddb3">GroupSidebar</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#aae743073873b0845f7f64177c28eddb3">ZoneSidebar</a></li>
@@ -157,7 +158,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 8 2025 14:25:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jul 11 2025 15:53:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

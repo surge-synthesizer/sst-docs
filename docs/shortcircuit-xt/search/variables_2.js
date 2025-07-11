@@ -28,7 +28,7 @@ var searchData=
   ['cm_25',['cM',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a9214d35c5f657d9b927f0b1686c7a9f2',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['coarsetuning_26',['coarseTuning',['../structscxt_1_1exs__support_1_1EXSZone.html#a8f889d86ae206452bdc9e6985faff6cd',1,'scxt::exs_support::EXSZone']]],
   ['colormap_27',['colorMap',['../structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#af20ef14d27ddddadd1b3562f09f95ae8',1,'scxt::ui::theme::StdMapColormap']]],
-  ['components_28',['components',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1PartEffectsPane.html#a45050a2a62f8b7da9193bf7a68cf7419',1,'scxt::ui::app::mixer_screen::PartEffectsPane']]],
+  ['components_28',['components',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a45050a2a62f8b7da9193bf7a68cf7419',1,'scxt::ui::app::shared::PartEffectsPane']]],
   ['conbutton_29',['conButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ConsistencyLFOPane.html#accdaf4c5553c3dad203307af9e8180dd',1,'scxt::ui::app::edit_screen::ConsistencyLFOPane']]],
   ['cond_30',['cond',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard.html#a56d9f913a0fde61ccb00633ca72e713d',1,'scxt::ui::app::edit_screen::GroupTriggersCard']]],
   ['conditionbuffers_31',['conditionBuffers',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a0433a601f9bd2f8e4057a8d8cab4341e',1,'scxt::engine::GroupTriggerConditions']]],

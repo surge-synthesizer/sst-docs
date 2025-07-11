@@ -97,7 +97,6 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">bus.h File Reference</div></div>
@@ -106,10 +105,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html">Bus</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html">Bus::BusSendStorage</a></td></tr>
@@ -121,11 +116,6 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacescxt_1_1engine" id="r_namespacescxt_1_1engine"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html">scxt::engine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a8ff3b6ee1771f9e0212b6350dcd84844" id="r_a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> = void(*)(int16_t, float *const)</td></tr>
-<tr class="separator:a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -139,41 +129,16 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:abda9c7d4255cb9369a2cc3208fb3dec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acefc6050a5b9c5c80a81b073b07bee54" id="r_acefc6050a5b9c5c80a81b073b07bee54"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> { <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">none</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10">rotaryspeaker</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54aacfa9ea2ed018f85a3ac9db8f926cddd">floatydelay</a>
-, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>
-<br />
- }</td></tr>
-<tr class="separator:acefc6050a5b9c5c80a81b073b07bee54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aceab2fcf87c1a87461865c74f4521ec5" id="r_aceab2fcf87c1a87461865c74f4521ec5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aceab2fcf87c1a87461865c74f4521ec5">getBusAddressLabel</a> (<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">BusAddress</a> rt, const std::string &amp;defaultName, bool shortName)</td></tr>
 <tr class="separator:aceab2fcf87c1a87461865c74f4521ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae02bc1a79069839d30c329fedf98a667" id="r_ae02bc1a79069839d30c329fedf98a667"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">createEffect</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *e, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a> *s)</td></tr>
-<tr class="separator:ae02bc1a79069839d30c329fedf98a667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b669c3d0956eb3de15f01ef35434263" id="r_a8b669c3d0956eb3de15f01ef35434263"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8b669c3d0956eb3de15f01ef35434263">getBusEffectRemapStreamingFunction</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p)</td></tr>
-<tr class="separator:a8b669c3d0956eb3de15f01ef35434263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef804bb90404db2eb7348e10431e27d8" id="r_aef804bb90404db2eb7348e10431e27d8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aef804bb90404db2eb7348e10431e27d8">toStringAvailableBusEffects</a> (const <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> &amp;p)</td></tr>
-<tr class="separator:aef804bb90404db2eb7348e10431e27d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec493ce6a0213af84d4b7d617b3e8522" id="r_aec493ce6a0213af84d4b7d617b3e8522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aec493ce6a0213af84d4b7d617b3e8522">fromStringAvailableBusEffects</a> (const std::string &amp;s)</td></tr>
-<tr class="separator:aec493ce6a0213af84d4b7d617b3e8522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 8 2025 14:25:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jul 11 2025 15:53:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -133,6 +133,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a7059dfa0ed70c89facc3d317fb4138b3" id="r_a7059dfa0ed70c89facc3d317fb4138b3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3">SelectionMode</a> { <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3ab50339a10e1de285ac99d4c3990b8693">NONE</a>
 , <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a1d23cac77df97a722cd2ec7767a06e06">ZONE</a>
 , <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c">GROUP</a>
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a9be203cdfef8628939c9942fb61fdae3">PART</a>
  }</td></tr>
 <tr class="separator:a7059dfa0ed70c89facc3d317fb4138b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -154,6 +155,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace229868185802c5e2314423ff3ccc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2e16064da0a423a79ddb43e750aa240" id="r_ab2e16064da0a423a79ddb43e750aa240"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ab2e16064da0a423a79ddb43e750aa240">updateSamplePlaybackPosition</a> (size_t sampleIndex, int64_t samplePos)</td></tr>
 <tr class="separator:ab2e16064da0a423a79ddb43e750aa240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09ba8432af2d4c84f3d2cb9fba4a70c" id="r_ae09ba8432af2d4c84f3d2cb9fba4a70c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">selectedPartChanged</a> ()</td></tr>
+<tr class="separator:ae09ba8432af2d4c84f3d2cb9fba4a70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8328c8b52610b9eb34056b6e39d7c075" id="r_a8328c8b52610b9eb34056b6e39d7c075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8328c8b52610b9eb34056b6e39d7c075">macroDataChanged</a> (int part, int index)</td></tr>
+<tr class="separator:a8328c8b52610b9eb34056b6e39d7c075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68cae2d8ff881ae96735f862f0fb5612" id="r_a68cae2d8ff881ae96735f862f0fb5612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">setSelectionMode</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3">SelectionMode</a> m)</td></tr>
 <tr class="separator:a68cae2d8ff881ae96735f862f0fb5612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54dddb4dd1d9c55d3c7bd787286917f6" id="r_a54dddb4dd1d9c55d3c7bd787286917f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">onOtherTabSelection</a> ()</td></tr>
@@ -196,6 +201,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a46de3f55d708e1132dce4b536ce9db44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc0768d919bf328c20e3ee9fdcc6564" id="r_aadc0768d919bf328c20e3ee9fdcc6564"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html">PartGroupSidebar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">partSidebar</a></td></tr>
 <tr class="separator:aadc0768d919bf328c20e3ee9fdcc6564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1a6cc5132e4adf5dddac493f9719d0" id="r_a8f1a6cc5132e4adf5dddac493f9719d0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html">PartEditScreen</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8f1a6cc5132e4adf5dddac493f9719d0">partEditScreen</a></td></tr>
+<tr class="separator:a8f1a6cc5132e4adf5dddac493f9719d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac60c27229af3ab76ddb2466b83062e5c" id="r_ac60c27229af3ab76ddb2466b83062e5c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html">ZoneOrGroupElements</a>&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneTraits.html">ZoneTraits</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c">zoneElements</a></td></tr>
 <tr class="separator:ac60c27229af3ab76ddb2466b83062e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfedd9629bb95f0096498c32fb3356b6" id="r_abfedd9629bb95f0096498c32fb3356b6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html">ZoneOrGroupElements</a>&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1GroupTraits.html">GroupTraits</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#abfedd9629bb95f0096498c32fb3356b6">groupElements</a></td></tr>
@@ -249,6 +256,7 @@ Static Public Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7059dfa0ed70c89facc3d317fb4138b3ab50339a10e1de285ac99d4c3990b8693" name="a7059dfa0ed70c89facc3d317fb4138b3ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7059dfa0ed70c89facc3d317fb4138b3a1d23cac77df97a722cd2ec7767a06e06" name="a7059dfa0ed70c89facc3d317fb4138b3a1d23cac77df97a722cd2ec7767a06e06"></a>ZONE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c" name="a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c"></a>GROUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7059dfa0ed70c89facc3d317fb4138b3a9be203cdfef8628939c9942fb61fdae3" name="a7059dfa0ed70c89facc3d317fb4138b3a9be203cdfef8628939c9942fb61fdae3"></a>PART&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -270,7 +278,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af85e727fa5d1128eb77e8f8be6e70e3c">EditScreen::browser</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#abfedd9629bb95f0096498c32fb3356b6">EditScreen::groupElements</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">EditScreen::partSidebar</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">EditScreen::setSelectionMode()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a1d23cac77df97a722cd2ec7767a06e06">EditScreen::ZONE</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c">EditScreen::zoneElements</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af85e727fa5d1128eb77e8f8be6e70e3c">EditScreen::browser</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#abfedd9629bb95f0096498c32fb3356b6">EditScreen::groupElements</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8f1a6cc5132e4adf5dddac493f9719d0">EditScreen::partEditScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">EditScreen::partSidebar</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">EditScreen::setSelectionMode()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a1d23cac77df97a722cd2ec7767a06e06">EditScreen::ZONE</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c">EditScreen::zoneElements</a>.</p>
 
 </div>
 </div>
@@ -380,7 +388,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af85e727fa5d1128eb77e8f8be6e70e3c">EditScreen::browser</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aa08eee2ba53c668aee2be67571806d9c">EditScreen::envHeight</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7cc09b55d00bb540b54c2ea159db73f9">EditScreen::fxHeight</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#abfedd9629bb95f0096498c32fb3356b6">EditScreen::groupElements</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a3ad9a0c489d67bca99bbae2422fce100">EditScreen::modHeight</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae2253f36b3ae535909653639f5b97839">EditScreen::pad</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">EditScreen::partSidebar</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a58eb0b14ea8d09f7a47abe6303d9bdc5">EditScreen::sideWidths</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c">EditScreen::zoneElements</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af85e727fa5d1128eb77e8f8be6e70e3c">EditScreen::browser</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aa08eee2ba53c668aee2be67571806d9c">EditScreen::envHeight</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7cc09b55d00bb540b54c2ea159db73f9">EditScreen::fxHeight</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#abfedd9629bb95f0096498c32fb3356b6">EditScreen::groupElements</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a3ad9a0c489d67bca99bbae2422fce100">EditScreen::modHeight</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae2253f36b3ae535909653639f5b97839">EditScreen::pad</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8f1a6cc5132e4adf5dddac493f9719d0">EditScreen::partEditScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">EditScreen::partSidebar</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a58eb0b14ea8d09f7a47abe6303d9bdc5">EditScreen::sideWidths</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c">EditScreen::zoneElements</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a31cc081b3c77bc8855de79094fc1da42">EditScreen::resized()</a>.</p>
 
@@ -431,7 +439,54 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>.</p>
+</div>
+</div>
+<a id="ae09ba8432af2d4c84f3d2cb9fba4a70c" name="ae09ba8432af2d4c84f3d2cb9fba4a70c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae09ba8432af2d4c84f3d2cb9fba4a70c">&#9670;&#160;</a></span>selectedPartChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void selectedPartChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8f1a6cc5132e4adf5dddac493f9719d0">EditScreen::partEditScreen</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">EditScreen::partSidebar</a>.</p>
+
+</div>
+</div>
+<a id="a8328c8b52610b9eb34056b6e39d7c075" name="a8328c8b52610b9eb34056b6e39d7c075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8328c8b52610b9eb34056b6e39d7c075">&#9670;&#160;</a></span>macroDataChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void macroDataChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8f1a6cc5132e4adf5dddac493f9719d0">EditScreen::partEditScreen</a>.</p>
 
 </div>
 </div>
@@ -450,6 +505,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c">EditScreen::GROUP</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#abfedd9629bb95f0096498c32fb3356b6">EditScreen::groupElements</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a46de3f55d708e1132dce4b536ce9db44">EditScreen::mappingPane</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3ab50339a10e1de285ac99d4c3990b8693">EditScreen::NONE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a9be203cdfef8628939c9942fb61fdae3">EditScreen::PART</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8f1a6cc5132e4adf5dddac493f9719d0">EditScreen::partEditScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a1d23cac77df97a722cd2ec7767a06e06">EditScreen::ZONE</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c">EditScreen::zoneElements</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>.</p>
 
@@ -707,7 +764,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ab2e16064da0a423a79ddb43e750aa240">EditScreen::updateSamplePlaybackPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8328c8b52610b9eb34056b6e39d7c075">EditScreen::macroDataChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">EditScreen::selectedPartChanged()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">EditScreen::setSelectionMode()</a>.</p>
 
 </div>
 </div>
@@ -723,7 +780,23 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">EditScreen::selectedPartChanged()</a>.</p>
+
+</div>
+</div>
+<a id="a8f1a6cc5132e4adf5dddac493f9719d0" name="a8f1a6cc5132e4adf5dddac493f9719d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1a6cc5132e4adf5dddac493f9719d0">&#9670;&#160;</a></span>partEditScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html">PartEditScreen</a>&gt; partEditScreen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a8328c8b52610b9eb34056b6e39d7c075">EditScreen::macroDataChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">EditScreen::selectedPartChanged()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">EditScreen::setSelectionMode()</a>.</p>
 
 </div>
 </div>
@@ -739,7 +812,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aff1a0261f97f6f9e5b34f07291d78fa1">EditScreen::getZoneElements()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a8a950a44a9403b5d654ba1575c79638c">EditScreen::ZoneOrGroupElements&lt; scxt::ui::app::edit_screen::EditScreen::ZoneTraits &gt;::layoutInto()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aff1a0261f97f6f9e5b34f07291d78fa1">EditScreen::getZoneElements()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">EditScreen::setSelectionMode()</a>.</p>
 
 </div>
 </div>
@@ -755,7 +828,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#acfe20dd440d33f01f15de11b20f4d69a">EditScreen::getGroupElements()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a8a950a44a9403b5d654ba1575c79638c">EditScreen::ZoneOrGroupElements&lt; scxt::ui::app::edit_screen::EditScreen::ZoneTraits &gt;::layoutInto()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#acfe20dd440d33f01f15de11b20f4d69a">EditScreen::getGroupElements()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a68cae2d8ff881ae96735f862f0fb5612">EditScreen::setSelectionMode()</a>.</p>
 
 </div>
 </div>
@@ -796,7 +869,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 8 2025 14:25:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jul 11 2025 15:53:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

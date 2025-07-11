@@ -14,6 +14,8 @@ var searchData=
   ['browserpaneinterfaces_2eh_11',['BrowserPaneInterfaces.h',['../BrowserPaneInterfaces_8h.html',1,'']]],
   ['bus_2ecpp_12',['bus.cpp',['../bus_8cpp.html',1,'']]],
   ['bus_2eh_13',['bus.h',['../bus_8h.html',1,'']]],
-  ['buspane_2ecpp_14',['BusPane.cpp',['../BusPane_8cpp.html',1,'']]],
-  ['buspane_2eh_15',['BusPane.h',['../BusPane_8h.html',1,'']]]
+  ['bus_5feffect_2ecpp_14',['bus_effect.cpp',['../bus__effect_8cpp.html',1,'']]],
+  ['bus_5feffect_2eh_15',['bus_effect.h',['../bus__effect_8h.html',1,'']]],
+  ['buspane_2ecpp_16',['BusPane.cpp',['../BusPane_8cpp.html',1,'']]],
+  ['buspane_2eh_17',['BusPane.h',['../BusPane_8h.html',1,'']]]
 ];

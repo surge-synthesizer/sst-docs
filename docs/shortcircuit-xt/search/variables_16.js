@@ -12,7 +12,7 @@ var searchData=
   ['welcomescreen_9',['welcomeScreen',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e',1,'scxt::ui::app::SCXTEditor']]],
   ['welcomeversion_10',['welcomeVersion',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#abdfb4578bb963ef7b3231109ddc5edab',1,'scxt::ui::app::other_screens::WelcomeScreen']]],
   ['wformattag_11',['wFormatTag',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a07e3a5a7091050ed77850bfd49608d10',1,'scxt::sample::loaders::wavheader']]],
-  ['width_12',['width',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartSidebarCard']]],
+  ['width_12',['width',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartEffectsPane::width'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartSidebarCard::width']]],
   ['widthislinear_13',['widthIsLinear',['../structscxt_1_1engine_1_1dtl_1_1Config.html#ac782651ed20212afe6b6dd07f269536f',1,'scxt::engine::dtl::Config']]],
   ['wireframe_14',['WIREFRAME',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af',1,'scxt::ui::theme::ColorMap']]],
   ['withcondition_15',['withCondition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a6454bf7fcf1518c04ef7d850606d69a6',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
