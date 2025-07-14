@@ -108,14 +108,14 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8ac6df1562960a5c066bd7338f8e1b47" id="r_a8ac6df1562960a5c066bd7338f8e1b47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#a8ac6df1562960a5c066bd7338f8e1b47">parseMidiNote</a> (const std::string &amp;s)</td></tr>
-<tr class="separator:a8ac6df1562960a5c066bd7338f8e1b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae85c8ec62b02e3bdbeef78579e054a8f" id="r_ae85c8ec62b02e3bdbeef78579e054a8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#ae85c8ec62b02e3bdbeef78579e054a8f">parseMidiNote</a> (const std::string &amp;s, int offset)</td></tr>
+<tr class="separator:ae85c8ec62b02e3bdbeef78579e054a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf1e4458297eecd1fc1877f2317d182" id="r_adcf1e4458297eecd1fc1877f2317d182"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ</a> (const fs::path &amp;f, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:adcf1e4458297eecd1fc1877f2317d182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8ac6df1562960a5c066bd7338f8e1b47" name="a8ac6df1562960a5c066bd7338f8e1b47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ac6df1562960a5c066bd7338f8e1b47">&#9670;&#160;</a></span>parseMidiNote()</h2>
+<a id="ae85c8ec62b02e3bdbeef78579e054a8f" name="ae85c8ec62b02e3bdbeef78579e054a8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae85c8ec62b02e3bdbeef78579e054a8f">&#9670;&#160;</a></span>parseMidiNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,8 +124,18 @@ Functions</h2></td></tr>
           <td class="memname">int parseMidiNote </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -160,7 +170,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="sfz__import_8cpp.html#a56d4ccbc71e771cd9ca25a20d2d207d4">APPLYEG</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a5d8add8effb2a9964dbebfd27c9ddd31">SFZParser::Header::control</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021">SFZParser::Header::group</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94">Zone::LOOP_DURING_VOICE</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80">Zone::MAPPING</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a8ac6df1562960a5c066bd7338f8e1b47">parseMidiNote()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a0ec3402639e35a1f313fbe3dd6da4553">SFZParser::Header::region</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="sfz__import_8cpp.html#a56d4ccbc71e771cd9ca25a20d2d207d4">APPLYEG</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a5d8add8effb2a9964dbebfd27c9ddd31">SFZParser::Header::control</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021">SFZParser::Header::group</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94">Zone::LOOP_DURING_VOICE</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80">Zone::MAPPING</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ae85c8ec62b02e3bdbeef78579e054a8f">parseMidiNote()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a0ec3402639e35a1f313fbe3dd6da4553">SFZParser::Header::region</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
 
@@ -169,7 +179,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jul 14 2025 19:24:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jul 14 2025 21:31:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

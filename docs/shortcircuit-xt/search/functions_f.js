@@ -16,7 +16,7 @@ var searchData=
   ['parse_5friff_5fwave_13',['parse_riff_wave',['../structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde',1,'scxt::sample::Sample']]],
   ['parseexs_14',['parseEXS',['../namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61',1,'scxt::exs_support']]],
   ['parseflac_15',['parseflac',['../structscxt_1_1sample_1_1Sample.html#ad12e9a5a6484c72a748d630a0c922f01',1,'scxt::sample::Sample::parseFlac(const uint8_t *data, size_t size)'],['../structscxt_1_1sample_1_1Sample.html#ac123656ada39c24d7c9b10c5562d5fa2',1,'scxt::sample::Sample::parseFlac(const fs::path &amp;p)']]],
-  ['parsemidinote_16',['parseMidiNote',['../namespacescxt_1_1sfz__support.html#a8ac6df1562960a5c066bd7338f8e1b47',1,'scxt::sfz_support']]],
+  ['parsemidinote_16',['parseMidiNote',['../namespacescxt_1_1sfz__support.html#ae85c8ec62b02e3bdbeef78579e054a8f',1,'scxt::sfz_support']]],
   ['parsemp3_17',['parsemp3',['../structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d',1,'scxt::sample::Sample::parseMP3(const fs::path &amp;p)'],['../structscxt_1_1sample_1_1Sample.html#a5f2ff927beccd128a23ba9521ac8ef2d',1,'scxt::sample::Sample::parseMP3(const uint8_t *data, size_t size)']]],
   ['part_18',['Part',['../structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52',1,'scxt::engine::Part']]],
   ['partconfigurationchanged_19',['partconfigurationchanged',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a2fe635cbf99a92f951247b7ac2fe90cc',1,'scxt::ui::app::edit_screen::PartGroupSidebar::partConfigurationChanged()'],['../structscxt_1_1ui_1_1app_1_1play__screen_1_1PlayScreen.html#a07ba18bddaf150ef1f7e003e669c5de5',1,'scxt::ui::app::play_screen::PlayScreen::partConfigurationChanged()']]],
