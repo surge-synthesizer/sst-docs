@@ -5,7 +5,7 @@ var searchData=
   ['fadeend_2',['fadeend',['../structscxt_1_1engine_1_1KeyboardRange.html#a5cc0593a59af32bafc840d9a8a05822d',1,'scxt::engine::KeyboardRange::fadeEnd'],['../structscxt_1_1engine_1_1VelocityRange.html#a5cc0593a59af32bafc840d9a8a05822d',1,'scxt::engine::VelocityRange::fadeEnd'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#af3de6b32c83ea2c43a3540240c5e0276',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::FadeEnd']]],
   ['fadeloophz_3',['fadeLoopHz',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a865b2d6515e4648cad04ff6e96828985',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
   ['fadeoverlap_4',['fadeOverlap',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a4ae87439f1d1b80654d638db281d0e3d',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
-  ['fadestart_5',['fadestart',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aa143a6075d08fd3b0f60ba3bfca4cc1f',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::FadeStart'],['../structscxt_1_1engine_1_1KeyboardRange.html#a3f802c55496991b9ab7f8456d815bb78',1,'scxt::engine::KeyboardRange::fadeStart'],['../structscxt_1_1engine_1_1VelocityRange.html#a3f802c55496991b9ab7f8456d815bb78',1,'scxt::engine::VelocityRange::fadeStart']]],
+  ['fadestart_5',['fadestart',['../structscxt_1_1engine_1_1KeyboardRange.html#a3f802c55496991b9ab7f8456d815bb78',1,'scxt::engine::KeyboardRange::fadeStart'],['../structscxt_1_1engine_1_1VelocityRange.html#a3f802c55496991b9ab7f8456d815bb78',1,'scxt::engine::VelocityRange::fadeStart'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aa143a6075d08fd3b0f60ba3bfca4cc1f',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::FadeStart']]],
   ['favoritespane_6',['favoritesPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#adcb47a2d61fd443a34bfe1a50948963f',1,'scxt::ui::app::browser_ui::BrowserPane']]],
   ['fccchunk_7',['fccChunk',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html#af406f5e3222f34d43a52981224e0adb3',1,'scxt::sample::loaders::CuePoint']]],
   ['fd_8',['fd',['../structscxt_1_1infrastructure_1_1posixImpl.html#a6f8059414f0228f0256115e024eeed4b',1,'scxt::infrastructure::posixImpl']]],
@@ -58,8 +58,8 @@ var searchData=
   ['fullengineunstreamstreamingversion_55',['fullEngineUnstreamStreamingVersion',['../structscxt_1_1engine_1_1Engine.html#a4d655302f49fa9e3d489cf971f5bb779',1,'scxt::engine::Engine']]],
   ['fxheight_56',['fxHeight',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7cc09b55d00bb540b54c2ea159db73f9',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['fxlabel_57',['fxLabel',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a3fdd1c6101d2727c24f62768fcfd0282',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['fxmenu_58',['fxMenu',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#aef238796bc4ba64d117ba7fa1ffdd09b',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['fxslot_59',['fxSlot',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a9bd6df87121c0c72a7557e942bb9ed14',1,'scxt::ui::app::shared::PartEffectsPane']]],
+  ['fxmenu_58',['fxMenu',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#ab67271a5e005934dde70a58754fdeba4',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
+  ['fxslot_59',['fxSlot',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html#a9bd6df87121c0c72a7557e942bb9ed14',1,'scxt::ui::app::shared::FXSlotBearing']]],
   ['fxtoggle_60',['fxToggle',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a46598f7cbbcc68951510fd7bae8aa18c',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['fxtoggleatt_61',['fxToggleAtt',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a98f54f61c4ad57fa65a1a0bedee1afa1',1,'scxt::ui::app::mixer_screen::ChannelStrip']]]
 ];

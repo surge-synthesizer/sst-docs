@@ -144,6 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03856070733b9e76667f9eba411ab3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbc9c7672c49d12663fd2e80fabbac22" id="r_afbc9c7672c49d12663fd2e80fabbac22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html#afbc9c7672c49d12663fd2e80fabbac22">onPartEffectFullData</a> (int part, int slot, const std::array&lt; <a class="el" href="namespacescxt_1_1datamodel.html#a1eb273f3bb8f42c854ab0983b6ec8255">datamodel::pmd</a>, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a2810c489bcf52c5a37078a7d740f895c">engine::BusEffectStorage::maxBusEffectParams</a> &gt; &amp;pmd, const <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">engine::BusEffectStorage</a> &amp;bes)</td></tr>
 <tr class="separator:afbc9c7672c49d12663fd2e80fabbac22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3537ef604dd857985b8818afc0c397de" id="r_a3537ef604dd857985b8818afc0c397de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html#a3537ef604dd857985b8818afc0c397de">swapEffects</a> (int bus1, int slot1, int bus2, int slot2, bool swapVsMove=true)</td></tr>
+<tr class="separator:a3537ef604dd857985b8818afc0c397de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
 <tr class="memitem:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor" id="r_ae7c2e1db62fd864b342d056dfc91fb98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#ae7c2e1db62fd864b342d056dfc91fb98">HasEditor</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *e)</td></tr>
 <tr class="separator:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -442,6 +444,54 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3537ef604dd857985b8818afc0c397de" name="a3537ef604dd857985b8818afc0c397de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3537ef604dd857985b8818afc0c397de">&#9670;&#160;</a></span>swapEffects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void swapEffects </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bus1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slot1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bus2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slot2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>swapVsMove</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a70813794c6dc73fbd5150da4f2b5e558">SCXTEditor::makeComingSoon()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aabb41acbb24c23a800a81b6e223de9ce" name="aabb41acbb24c23a800a81b6e223de9ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabb41acbb24c23a800a81b6e223de9ce">&#9670;&#160;</a></span>macroDisplay</h2>
@@ -514,7 +564,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 15 2025 00:26:53 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jul 15 2025 16:59:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad13d438db4ff7d6d8856ed1ca8191a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf575746e50306838f5738f0ecea436b" id="r_acf575746e50306838f5738f0ecea436b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#acf575746e50306838f5738f0ecea436b">sendBusSendStorage</a> (int bus)</td></tr>
 <tr class="separator:acf575746e50306838f5738f0ecea436b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3537ef604dd857985b8818afc0c397de" id="r_a3537ef604dd857985b8818afc0c397de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a3537ef604dd857985b8818afc0c397de">swapEffects</a> (int bus1, int slot1, int bus2, int slot2, bool swapVsMove=true)</td></tr>
+<tr class="separator:a3537ef604dd857985b8818afc0c397de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dd444fcf065c4542c5497fdb18285fc" id="r_a5dd444fcf065c4542c5497fdb18285fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a5dd444fcf065c4542c5497fdb18285fc">setAllBussesToMain</a> ()</td></tr>
 <tr class="separator:a5dd444fcf065c4542c5497fdb18285fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fa2abab75df66fe90e60df0a4fb5d6f" id="r_a4fa2abab75df66fe90e60df0a4fb5d6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a4fa2abab75df66fe90e60df0a4fb5d6f">setAllBussesToUniqueOutput</a> ()</td></tr>
@@ -522,6 +524,56 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3537ef604dd857985b8818afc0c397de" name="a3537ef604dd857985b8818afc0c397de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3537ef604dd857985b8818afc0c397de">&#9670;&#160;</a></span>swapEffects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void swapEffects </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bus1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slot1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bus2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slot2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>swapVsMove</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a70813794c6dc73fbd5150da4f2b5e558">SCXTEditor::makeComingSoon()</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1mixer__screen_1_1DraggableMenuButton.html#a94bc74bd81412cf9d6641ec73a97bdcd">DraggableMenuButton::itemDropped()</a>.</p>
+
+</div>
+</div>
 <a id="a5dd444fcf065c4542c5497fdb18285fc" name="a5dd444fcf065c4542c5497fdb18285fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5dd444fcf065c4542c5497fdb18285fc">&#9670;&#160;</a></span>setAllBussesToMain()</h2>
 
@@ -732,7 +784,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 15 2025 00:26:53 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jul 15 2025 16:59:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
