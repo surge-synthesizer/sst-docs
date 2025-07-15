@@ -28,10 +28,11 @@ var searchData=
   ['bussenddata_25',['busSendData',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#ab0771e16e5d6a16635879d0477dfc93e',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
   ['bussendstorage_26',['busSendStorage',['../structscxt_1_1engine_1_1Bus.html#a394bab1608fbe6134d3916745ba4530f',1,'scxt::engine::Bus']]],
   ['busses_27',['busses',['../structscxt_1_1engine_1_1Patch.html#a427644f9cb7418192d777c1377f99f98',1,'scxt::engine::Patch']]],
-  ['busvulevels_28',['busVULevels',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515',1,'scxt::engine::Engine::SharedUIMemoryState']]],
-  ['buswidth_29',['busWidth',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html#a3629a98b1b33da774063835b6fa11c78',1,'scxt::ui::app::mixer_screen::BusPane']]],
-  ['button_5fh_30',['BUTTON_H',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a8e367667f453972a34319ea08ac650c4',1,'scxt::ui::app::edit_screen']]],
-  ['bypassanyway_31',['bypassAnyway',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#a872ff29984c41cde17d52cad47809636',1,'scxt::dsp::processor::Processor']]],
-  ['bypassattachment_32',['bypassAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a215c27451017446dda36f868e0ec4d33',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
-  ['bypassthreadchecks_33',['bypassThreadChecks',['../structscxt_1_1ThreadingChecker.html#a43fb182d1b800c05d26de5a4dd583caf',1,'scxt::ThreadingChecker']]]
+  ['busused_28',['busUsed',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#a346f83c3423ec8b052d670224a9f6706',1,'scxt::engine::Patch::Busses']]],
+  ['busvulevels_29',['busVULevels',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515',1,'scxt::engine::Engine::SharedUIMemoryState']]],
+  ['buswidth_30',['busWidth',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html#a3629a98b1b33da774063835b6fa11c78',1,'scxt::ui::app::mixer_screen::BusPane']]],
+  ['button_5fh_31',['BUTTON_H',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a8e367667f453972a34319ea08ac650c4',1,'scxt::ui::app::edit_screen']]],
+  ['bypassanyway_32',['bypassAnyway',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#a872ff29984c41cde17d52cad47809636',1,'scxt::dsp::processor::Processor']]],
+  ['bypassattachment_33',['bypassAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a215c27451017446dda36f868e0ec4d33',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
+  ['bypassthreadchecks_34',['bypassThreadChecks',['../structscxt_1_1ThreadingChecker.html#a43fb182d1b800c05d26de5a4dd583caf',1,'scxt::ThreadingChecker']]]
 ];
