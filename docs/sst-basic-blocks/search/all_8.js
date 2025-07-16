@@ -12,7 +12,7 @@ var searchData=
   ['input_9',['input',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#af9df2ab66110bc1b9be530650eb558fe',1,'sst::basic_blocks::dsp::LanczosResampler']]],
   ['inputsrequiredtogenerateoutputs_10',['inputsRequiredToGenerateOutputs',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#aa9c96aedc30e48860ef094da8e532e11',1,'sst::basic_blocks::dsp::LanczosResampler']]],
   ['instantize_11',['instantize',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aaee4ff9761490a41c937567b30529a8a',1,'sst::basic_blocks::dsp::lipol::instantize()'],['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aaee4ff9761490a41c937567b30529a8a',1,'sst::basic_blocks::dsp::lipol_sse::instantize()'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html#aaee4ff9761490a41c937567b30529a8a',1,'sst::basic_blocks::dsp::SurgeLag::instantize()']]],
-  ['instantlysnap_12',['instantlySnap',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandler.html#ab0e9ae80c238186c58afb9194bdbddac',1,'sst::basic_blocks::dsp::UIComponentLagHandler']]],
+  ['instantlysnap_12',['instantlySnap',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#ab0e9ae80c238186c58afb9194bdbddac',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
   ['int_13',['INT',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7afd5a5f51ce25953f3db2c7e93eb7864a',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['intbase_14',['intBase',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#a192c13fda7dd2d0895e33caba2f98f58',1,'sst::basic_blocks::tables::TwoToTheXProvider']]],
   ['interpolators_2eh_15',['Interpolators.h',['../Interpolators_8h.html',1,'']]],

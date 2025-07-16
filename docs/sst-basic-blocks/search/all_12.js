@@ -17,7 +17,7 @@ var searchData=
   ['targetdigitaladsr_14',['targetDigitalADSR',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#a084f9a1d0f33ebe76547375ab218a06e',1,'sst::basic_blocks::modulators::ADSREnvelope']]],
   ['targetdigitaldahd_15',['targetDigitalDAHD',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#abf72484de3a4fd11df8d19969e13a0aa',1,'sst::basic_blocks::modulators::DAHDEnvelope']]],
   ['targettooutputindex_16',['targetToOutputIndex',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2d64e543bf486faf03386cef09967d33',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
-  ['targetvalue_17',['targetValue',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandler.html#ae5c169dad3b9371b6f5d90cbd7a8309b',1,'sst::basic_blocks::dsp::UIComponentLagHandler']]],
+  ['targetvalue_17',['targetValue',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#ae5c169dad3b9371b6f5d90cbd7a8309b',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
   ['td_18',['td',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a5ee9f41b8a4ed71006d1792d78d48624',1,'sst::basic_blocks::modulators::StepLFO']]],
   ['tempo_19',['tempo',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#aff2f6d52166217d13f9b2072c9e67c13',1,'sst::basic_blocks::modulators::Transport']]],
   ['temposyncable_20',['temposyncable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a48d5fd3699b43baaeca57451f087b5e5',1,'sst::basic_blocks::params::ParamMetaData']]],

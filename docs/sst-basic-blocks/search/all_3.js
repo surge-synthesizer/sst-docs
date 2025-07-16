@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d_0',['d',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D'],['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d']]],
+  ['d_0',['d',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D']]],
   ['d2_1',['d2',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#aac1777fc7cfc528c03b3e8c38f14e2b9',1,'sst::basic_blocks::dsp::DriftLFO']]],
   ['dahdenvelope_2',['dahdenvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#a9259f19be7c6acd85e7bfc5290b197da',1,'sst::basic_blocks::modulators::DAHDEnvelope::DAHDEnvelope()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html',1,'DAHDEnvelope&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;']]],
   ['dahdenvelope_2eh_3',['DAHDEnvelope.h',['../DAHDEnvelope_8h.html',1,'']]],
@@ -52,8 +52,8 @@ var searchData=
   ['dpwsawpulseoscillator_2eh_49',['DPWSawPulseOscillator.h',['../DPWSawPulseOscillator_8h.html',1,'']]],
   ['drift_5fnoise_50',['drift_noise',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a9ee64df162f2ef4b8420a0c80e5846f7',1,'sst::basic_blocks::dsp::DriftLFO']]],
   ['driftlfo_51',['driftlfo',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#adf2366b8fc673efa7ee19751fcef63c1',1,'sst::basic_blocks::dsp::DriftLFO::DriftLFO()'],['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html',1,'DriftLFO']]],
-  ['dtarget_52',['dTarget',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandler.html#af310695715c64a0be91bb560646218df',1,'sst::basic_blocks::dsp::UIComponentLagHandler']]],
-  ['dtargetscale_53',['dTargetScale',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandler.html#a5eae64c7af374414ea480a520726ad8b',1,'sst::basic_blocks::dsp::UIComponentLagHandler']]],
+  ['dtarget_52',['dTarget',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#af310695715c64a0be91bb560646218df',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
+  ['dtargetscale_53',['dTargetScale',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#a5eae64c7af374414ea480a520726ad8b',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
   ['dv_54',['dv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a40662deae6e085879bf3eb5b266b96e5',1,'sst::basic_blocks::dsp::lipol']]],
   ['dx_55',['dx',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ad5e8e8914b37176895522897f8cd9b18',1,'sst::basic_blocks::dsp::LanczosResampler']]]
 ];
