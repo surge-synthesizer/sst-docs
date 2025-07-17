@@ -1,9 +1,9 @@
 var searchData=
 [
   ['m0_0',['m0',['../structscxt_1_1dsp_1_1KernelProcessor.html#a7fc920d041b4123c404d143170e835f1',1,'scxt::dsp::KernelProcessor']]],
-  ['macro_1',['macro',['../structscxt_1_1engine_1_1GTMacro.html#abf1315d985daeec479a2e1ca71e2a6b2',1,'scxt::engine::GTMacro']]],
+  ['macro_1',['macro',['../structscxt_1_1engine_1_1GTMacro.html#abf1315d985daeec479a2e1ca71e2a6b2',1,'scxt::engine::GTMacro::macro'],['../structscxt_1_1engine_1_1Part_1_1MacroUILagHandler.html#abf1315d985daeec479a2e1ca71e2a6b2',1,'scxt::engine::Part::MacroUILagHandler::macro']]],
   ['macrocache_2',['macroCache',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af7572e65c8d1a81507ad4048867bb8a2',1,'scxt::ui::app::SCXTEditor']]],
-  ['macrodisplay_3',['macrodisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#aabb41acbb24c23a800a81b6e223de9ce',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane::macroDisplay'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html#aabb41acbb24c23a800a81b6e223de9ce',1,'scxt::ui::app::edit_screen::PartEditScreen::macroDisplay']]],
+  ['macrodisplay_3',['macrodisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartEditScreen.html#aabb41acbb24c23a800a81b6e223de9ce',1,'scxt::ui::app::edit_screen::PartEditScreen::macroDisplay'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#aabb41acbb24c23a800a81b6e223de9ce',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane::macroDisplay']]],
   ['macroeditors_4',['macroEditors',['../structscxt_1_1ui_1_1app_1_1play__screen_1_1PlayScreen.html#a87285d25940d1512c4ec6c05b44af3c7',1,'scxt::ui::app::play_screen::PlayScreen']]],
   ['macronameeditor_5',['macroNameEditor',['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#a04435cc9dfeb78cc02d3178bd6c9e11c',1,'scxt::ui::app::shared::SingleMacroEditor']]],
   ['macronamelabel_6',['macroNameLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#a0474647130cac4d12c3799b54a96489f',1,'scxt::ui::app::shared::SingleMacroEditor']]],
