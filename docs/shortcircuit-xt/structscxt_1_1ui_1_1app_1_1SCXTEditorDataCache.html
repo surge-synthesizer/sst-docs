@@ -109,10 +109,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af0bc7ec0e1c6dd3863ee814fb29a39aa" id="r_af0bc7ec0e1c6dd3863ee814fb29a39aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#af0bc7ec0e1c6dd3863ee814fb29a39aa">addSubscription</a> (void *el, sst::jucegui::data::Continuous *)</td></tr>
-<tr class="separator:af0bc7ec0e1c6dd3863ee814fb29a39aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae30f5652f2e54fa2aca86133a3144693" id="r_ae30f5652f2e54fa2aca86133a3144693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#ae30f5652f2e54fa2aca86133a3144693">addSubscription</a> (void *el, sst::jucegui::data::Discrete *)</td></tr>
-<tr class="separator:ae30f5652f2e54fa2aca86133a3144693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93830b58e27f54f9a680238f6f9bc691" id="r_a93830b58e27f54f9a680238f6f9bc691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a93830b58e27f54f9a680238f6f9bc691">addSubscription</a> (void *el, size_t soel, sst::jucegui::data::Continuous *)</td></tr>
+<tr class="separator:a93830b58e27f54f9a680238f6f9bc691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7034149c02cc4e037ae9d51fc2be99cf" id="r_a7034149c02cc4e037ae9d51fc2be99cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a7034149c02cc4e037ae9d51fc2be99cf">addSubscription</a> (void *el, size_t soel, sst::jucegui::data::Discrete *)</td></tr>
+<tr class="separator:a7034149c02cc4e037ae9d51fc2be99cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32c7675443e94c3d378d27779697ac60" id="r_a32c7675443e94c3d378d27779697ac60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a32c7675443e94c3d378d27779697ac60">fireSubscription</a> (void *el, sst::jucegui::data::Continuous *)</td></tr>
 <tr class="separator:a32c7675443e94c3d378d27779697ac60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15adfba51fd2af9431fe5899c754177c" id="r_a15adfba51fd2af9431fe5899c754177c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a15adfba51fd2af9431fe5899c754177c">fireSubscription</a> (void *el, sst::jucegui::data::Discrete *)</td></tr>
@@ -135,8 +135,8 @@ Public Attributes</h2></td></tr>
 <p>This works well until you want to share data across more than one panel, and then it gets clumsy, or if your heirarchy gets deep.</p>
 <p>So this class exists to have a place for the SCXTEditorResonder thingy to push data copies and for hte UI to bind to, since the UI will reliably be components which haveeditor. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af0bc7ec0e1c6dd3863ee814fb29a39aa" name="af0bc7ec0e1c6dd3863ee814fb29a39aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0bc7ec0e1c6dd3863ee814fb29a39aa">&#9670;&#160;</a></span>addSubscription() <span class="overload">[1/2]</span></h2>
+<a id="a93830b58e27f54f9a680238f6f9bc691" name="a93830b58e27f54f9a680238f6f9bc691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93830b58e27f54f9a680238f6f9bc691">&#9670;&#160;</a></span>addSubscription() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,6 +146,12 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>el</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>soel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -165,8 +171,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae30f5652f2e54fa2aca86133a3144693" name="ae30f5652f2e54fa2aca86133a3144693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae30f5652f2e54fa2aca86133a3144693">&#9670;&#160;</a></span>addSubscription() <span class="overload">[2/2]</span></h2>
+<a id="a7034149c02cc4e037ae9d51fc2be99cf" name="a7034149c02cc4e037ae9d51fc2be99cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7034149c02cc4e037ae9d51fc2be99cf">&#9670;&#160;</a></span>addSubscription() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,6 +182,12 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>el</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>soel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -190,6 +202,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
 
 </div>
 </div>
@@ -341,7 +355,7 @@ template&lt;typename P &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jul 19 2025 20:01:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Jul 19 2025 21:35:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
