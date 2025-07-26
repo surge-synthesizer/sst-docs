@@ -1,7 +1,7 @@
 var searchData=
 [
   ['gain_0',['gain',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html#a9d827d399c021852ca3fb0937e9fbde2',1,'scxt::sample::loaders::wave_inst_chunk::gain'],['../structscxt_1_1sample_1_1aiff__INST__chunk.html#a1ff8089b0e0f437e3b834a6b33e64dff',1,'scxt::sample::aiff_INST_chunk::gain']]],
-  ['gated_1',['gated',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#aa7f42476b5e297d70d7d71aed6ce2862',1,'scxt::engine::Engine::SharedUIMemoryState::VoiceDisplayStateItem::gated'],['../structscxt_1_1dsp_1_1GeneratorState.html#a916cd9419d627e709cdfd07f2d8e1e8f',1,'scxt::dsp::GeneratorState::gated']]],
+  ['gated_1',['gated',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#aa7f42476b5e297d70d7d71aed6ce2862',1,'scxt::engine::Engine::SharedUIMemoryState::VoiceDisplayStateItem::gated'],['../structscxt_1_1engine_1_1Group.html#a916cd9419d627e709cdfd07f2d8e1e8f',1,'scxt::engine::Group::gated'],['../structscxt_1_1dsp_1_1GeneratorState.html#a916cd9419d627e709cdfd07f2d8e1e8f',1,'scxt::dsp::GeneratorState::gated']]],
   ['gatedvoicecount_2',['gatedVoiceCount',['../structscxt_1_1engine_1_1Zone.html#ac2bb05740fc509d8fef59296c677c03b',1,'scxt::engine::Zone']]],
   ['gbut_3',['gBut',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#aae55a2968b2dc8948b5353200f68af0d',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowAddComponent']]],
   ['gd_4',['gd',['../structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a20d07ddcbb4f4c585044035e0b559847',1,'scxt::voice::PreviewVoice::Details::GD'],['../structscxt_1_1voice_1_1Voice.html#ad0787e09a735ddf87be5f5e1be6f90e7',1,'scxt::voice::Voice::GD']]],
