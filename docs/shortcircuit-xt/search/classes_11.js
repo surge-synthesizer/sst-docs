@@ -35,7 +35,7 @@ var searchData=
   ['singlevaluefactory_32',['SingleValueFactory',['../structscxt_1_1ui_1_1connectors_1_1SingleValueFactory.html',1,'scxt::ui::connectors']]],
   ['singlevariant_33',['SingleVariant',['../structscxt_1_1engine_1_1Zone_1_1SingleVariant.html',1,'scxt::engine::Zone']]],
   ['sourceidentifier_34',['SourceIdentifier',['../structscxt_1_1modulation_1_1shared_1_1SourceIdentifier.html',1,'scxt::modulation::shared']]],
-  ['sources_35',['sources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html',1,'GroupMatrixEndpoints::Sources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html',1,'MatrixEndpoints::Sources']]],
+  ['sources_35',['sources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html',1,'MatrixEndpoints::Sources'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html',1,'GroupMatrixEndpoints::Sources']]],
   ['spdata_36',['spData',['../structscxt_1_1ui_1_1app_1_1shared_1_1spData.html',1,'scxt::ui::app::shared']]],
   ['sstvoiceeffectshim_37',['SSTVoiceEffectShim',['../structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html',1,'scxt::dsp::processor']]],
   ['statement_38',['Statement',['../structscxt_1_1browser_1_1SQL_1_1Statement.html',1,'scxt::browser::SQL']]],
@@ -45,5 +45,6 @@ var searchData=
   ['steplfopane_42',['StepLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['stepmenutypein_43',['StepMenuTypein',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender_1_1StepMenuTypein.html',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]],
   ['steprender_44',['StepRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['streamguard_45',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html',1,'scxt::engine::Engine']]]
+  ['streamguard_45',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html',1,'scxt::engine::Engine']]],
+  ['subordinatevoicesources_46',['SubordinateVoiceSources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1SubordinateVoiceSources.html',1,'scxt::modulation::GroupMatrixEndpoints::Sources']]]
 ];
