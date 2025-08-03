@@ -22,7 +22,7 @@ var searchData=
   ['timercallback_19',['timerCallback',['../structscxt_1_1ui_1_1app_1_1SCXTEditor_1_1IdleTimer.html#ac56f546a808974ae71f0aeb42c7fc847',1,'scxt::ui::app::SCXTEditor::IdleTimer']]],
   ['timetakenby_20',['timetakenby',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#ae4e65bb57a97ca3b067feebf8a120c48',1,'scxt::modulation::modulators::EnvLFO::timeTakenBy(float stage)'],['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7554f88e283b01a34abc4ad5af9a5a28',1,'scxt::modulation::modulators::EnvLFO::timeTakenBy(float delay, float attack, float hold, float decay, float release)']]],
   ['to_21',['to',['../structscxt_1_1json_1_1scxt__traits_3_01ID_3_01idType_01_4_01_4.html#a79a39bd1522e6549a17ccff7bb126885',1,'scxt::json::scxt_traits&lt; ID&lt; idType &gt; &gt;']]],
-  ['to_5fpretty_5fstream_22',['to_pretty_stream',['../namespacescxt_1_1json.html#aee85a1fd2417e6cc98f270b31fbefdcb',1,'scxt::json::to_pretty_stream()'],['../namespacescxt_1_1ui_1_1theme.html#aee85a1fd2417e6cc98f270b31fbefdcb',1,'scxt::ui::theme::to_pretty_stream()']]],
+  ['to_5fpretty_5fstream_22',['to_pretty_stream',['../namespacescxt_1_1ui_1_1theme.html#aee85a1fd2417e6cc98f270b31fbefdcb',1,'scxt::ui::theme::to_pretty_stream()'],['../namespacescxt_1_1json.html#aee85a1fd2417e6cc98f270b31fbefdcb',1,'scxt::json::to_pretty_stream()']]],
   ['to_5fstring_23',['to_string',['../structscxt_1_1ID.html#a3eb97fdbeb6112da4dfa93d22e40af93',1,'scxt::ID::to_string()'],['../structscxt_1_1SampleID.html#aac993ecccd3d88aafefb6b8e3caa1dee',1,'scxt::SampleID::to_string()']]],
   ['todebugstring_24',['toDebugString',['../namespacescxt_1_1messaging_1_1audio.html#ace93ed027e867dc0310f78814ff0e303',1,'scxt::messaging::audio']]],
   ['toindexedarrayif_25',['toIndexedArrayIf',['../extensions_8h.html#aaedfe3fa921781e532459cc2177da3f9',1,'extensions.h']]],
@@ -33,7 +33,8 @@ var searchData=
   ['tostringgroupconditionsconjunction_30',['toStringGroupConditionsConjunction',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#aea5777c4a999c83a04d211a5bd130ae8',1,'scxt::engine::GroupTriggerConditions']]],
   ['tostringgrouptriggerid_31',['toStringGroupTriggerID',['../namespacescxt_1_1engine.html#a953a87c1f2d571853bac7926eb67fd6f',1,'scxt::engine']]],
   ['tostringinterpolationtypes_32',['toStringInterpolationTypes',['../namespacescxt_1_1dsp.html#a998f507091d79d4cbe29e986357ea1a1',1,'scxt::dsp']]],
-  ['transportsourcebase_33',['TransportSourceBase',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#a99d83d4eb1d86dfe5bf4d38101d3cdc7',1,'scxt::modulation::shared::TransportSourceBase']]],
-  ['twotothexprovider_34',['twoToTheXProvider',['../structscxt_1_1voice_1_1Voice.html#aa57faa9460e9c0557da565d478589c2c',1,'scxt::voice::Voice']]],
-  ['txnguard_35',['TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a8890d375f639a7fa6ddb3895d3956c7d',1,'scxt::browser::SQL::TxnGuard']]]
+  ['transformselectionactions_33',['transformSelectionActions',['../structscxt_1_1selection_1_1SelectionManager.html#a387917eee8aefac2d066b3ea8f632229',1,'scxt::selection::SelectionManager']]],
+  ['transportsourcebase_34',['TransportSourceBase',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#a99d83d4eb1d86dfe5bf4d38101d3cdc7',1,'scxt::modulation::shared::TransportSourceBase']]],
+  ['twotothexprovider_35',['twoToTheXProvider',['../structscxt_1_1voice_1_1Voice.html#aa57faa9460e9c0557da565d478589c2c',1,'scxt::voice::Voice']]],
+  ['txnguard_36',['TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a8890d375f639a7fa6ddb3895d3956c7d',1,'scxt::browser::SQL::TxnGuard']]]
 ];
