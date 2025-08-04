@@ -140,6 +140,8 @@ Macros</h2></td></tr>
 <tr class="separator:a625d50372c14206767b37135450b522d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb31fe3727e25c507596ba7f1a9ecfd" id="r_a6bb31fe3727e25c507596ba7f1a9ecfd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>(x, ...)</td></tr>
 <tr class="separator:a6bb31fe3727e25c507596ba7f1a9ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09e12b950d934e1b230e6466fddd8aff" id="r_a09e12b950d934e1b230e6466fddd8aff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a09e12b950d934e1b230e6466fddd8aff">SCLOG_ONCE_IF</a>(x, ...)</td></tr>
+<tr class="separator:a09e12b950d934e1b230e6466fddd8aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5856f216c4e61269838ba634d799388" id="r_ac5856f216c4e61269838ba634d799388"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ac5856f216c4e61269838ba634d799388">SCLOG_WFUNC</a>(...)&#160;&#160;&#160;<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(__func__ &lt;&lt; &quot; &quot; &lt;&lt; __VA_ARGS__)</td></tr>
 <tr class="separator:ac5856f216c4e61269838ba634d799388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34285e0bea1e6267ac86cae8d557046d" id="r_a34285e0bea1e6267ac86cae8d557046d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a34285e0bea1e6267ac86cae8d557046d">SCLOG_UNIMPL</a>(...)&#160;&#160;&#160;<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;\033[1;33mUnimpl [&quot; &lt;&lt; __func__ &lt;&lt; &quot;]\033[0m &quot; &lt;&lt; __VA_ARGS__);</td></tr>
@@ -249,6 +251,40 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define SCLOG_IF</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (scxt::log::x)                                                                \</div>
+<div class="line">        {                                                                                          \</div>
+<div class="line">            SCLOG(<span class="stringliteral">&quot;[&quot;</span> &lt;&lt; #x &lt;&lt; <span class="stringliteral">&quot;] &quot;</span> &lt;&lt; __VA_ARGS__);                                               \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a09e12b950d934e1b230e6466fddd8aff" name="a09e12b950d934e1b230e6466fddd8aff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09e12b950d934e1b230e6466fddd8aff">&#9670;&#160;</a></span>SCLOG_ONCE_IF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SCLOG_ONCE_IF</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x, </td>
@@ -398,7 +434,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 4 2025 01:22:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Aug 4 2025 14:23:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

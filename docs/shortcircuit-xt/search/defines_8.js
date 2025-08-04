@@ -17,12 +17,13 @@ var searchData=
   ['sclog_14',['SCLOG',['../utils_8h.html#a21b2a427c04359f36808a9599b552083',1,'utils.h']]],
   ['sclog_5fif_15',['SCLOG_IF',['../utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd',1,'utils.h']]],
   ['sclog_5fonce_16',['SCLOG_ONCE',['../utils_8h.html#a625d50372c14206767b37135450b522d',1,'utils.h']]],
-  ['sclog_5ftime_17',['SCLOG_TIME',['../utils_8h.html#ad9dc0f823bad6ab2743258c8f26dadd0',1,'utils.h']]],
-  ['sclog_5funimpl_18',['SCLOG_UNIMPL',['../utils_8h.html#a34285e0bea1e6267ac86cae8d557046d',1,'utils.h']]],
-  ['sclog_5funimpl_5fonce_19',['SCLOG_UNIMPL_ONCE',['../utils_8h.html#a2d5140d6e86a0ce1499a056889842a6f',1,'utils.h']]],
-  ['sclog_5fwfunc_20',['SCLOG_WFUNC',['../utils_8h.html#ac5856f216c4e61269838ba634d799388',1,'utils.h']]],
-  ['serial_5fto_5fclient_21',['SERIAL_TO_CLIENT',['../client__macros_8h.html#a431ef0af180a125083e0b73b2bbe3e0b',1,'client_macros.h']]],
-  ['show_5findex_5fmenus_22',['SHOW_INDEX_MENUS',['../BrowserPane_8cpp.html#a569f5d055990191d3ff5c4f90cdc202c',1,'BrowserPane.cpp']]],
-  ['stream_5fenum_23',['STREAM_ENUM',['../scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c',1,'scxt_traits.h']]],
-  ['stream_5fenum_5fwith_5fdefault_24',['STREAM_ENUM_WITH_DEFAULT',['../scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce',1,'scxt_traits.h']]]
+  ['sclog_5fonce_5fif_17',['SCLOG_ONCE_IF',['../utils_8h.html#a09e12b950d934e1b230e6466fddd8aff',1,'utils.h']]],
+  ['sclog_5ftime_18',['SCLOG_TIME',['../utils_8h.html#ad9dc0f823bad6ab2743258c8f26dadd0',1,'utils.h']]],
+  ['sclog_5funimpl_19',['SCLOG_UNIMPL',['../utils_8h.html#a34285e0bea1e6267ac86cae8d557046d',1,'utils.h']]],
+  ['sclog_5funimpl_5fonce_20',['SCLOG_UNIMPL_ONCE',['../utils_8h.html#a2d5140d6e86a0ce1499a056889842a6f',1,'utils.h']]],
+  ['sclog_5fwfunc_21',['SCLOG_WFUNC',['../utils_8h.html#ac5856f216c4e61269838ba634d799388',1,'utils.h']]],
+  ['serial_5fto_5fclient_22',['SERIAL_TO_CLIENT',['../client__macros_8h.html#a431ef0af180a125083e0b73b2bbe3e0b',1,'client_macros.h']]],
+  ['show_5findex_5fmenus_23',['SHOW_INDEX_MENUS',['../BrowserPane_8cpp.html#a569f5d055990191d3ff5c4f90cdc202c',1,'BrowserPane.cpp']]],
+  ['stream_5fenum_24',['STREAM_ENUM',['../scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c',1,'scxt_traits.h']]],
+  ['stream_5fenum_5fwith_5fdefault_25',['STREAM_ENUM_WITH_DEFAULT',['../scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce',1,'scxt_traits.h']]]
 ];
