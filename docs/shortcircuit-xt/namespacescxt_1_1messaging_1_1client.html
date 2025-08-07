@@ -181,8 +181,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa29b7aef2255d4b9256f8fe666eac11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad15dc6ce29f91d93e17c7034e4aa0bac" id="r_ad15dc6ce29f91d93e17c7034e4aa0bac"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; bool, int, bool, <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorControlDescription.html">dsp::processor::ProcessorControlDescription</a>, <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">dsp::processor::ProcessorStorage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad15dc6ce29f91d93e17c7034e4aa0bac">processorDataResponsePayload_t</a></td></tr>
 <tr class="separator:ad15dc6ce29f91d93e17c7034e4aa0bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac89b0c10618a1dd2e253c93a32b4e37a" id="r_ac89b0c10618a1dd2e253c93a32b4e37a"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int, int, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac89b0c10618a1dd2e253c93a32b4e37a">processorMismatchPayload_t</a></td></tr>
-<tr class="separator:ac89b0c10618a1dd2e253c93a32b4e37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44ca1c5b67512a4ade4715a623a46c80" id="r_a44ca1c5b67512a4ade4715a623a46c80"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; bool, int32_t, int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a44ca1c5b67512a4ade4715a623a46c80">setProcessorPayload_t</a></td></tr>
 <tr class="separator:a44ca1c5b67512a4ade4715a623a46c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f0ea4e141c8ef95651bb7471f02922c" id="r_a3f0ea4e141c8ef95651bb7471f02922c"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; int32_t, int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3f0ea4e141c8ef95651bb7471f02922c">processorPair_t</a></td></tr>
@@ -357,23 +355,22 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7c2174a3f91989a675f5498616be64c1">s2c_send_group_trigger_conditions</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7133fc20d0586c7168de17a9f6dc9de3">s2c_respond_single_processor_metadata_and_data</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba8f40e354b4d8f24fc8167423c47cbf9d">s2c_notify_mismatched_processors_for_zone</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba3f651f2e902fc647712a659ddabf607e">s2c_send_part_configuration</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba3f651f2e902fc647712a659ddabf607e">s2c_send_part_configuration</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7e25eaadf12fa88b6e4d491c1b811ed9">s2c_send_selected_part</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba670c98a3542d24d405b6bf8a2b4399f9">s2c_send_selected_group_zone_mapping_summary</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba6a1e22f04bc29a0e2b56e292fde1ac2c">s2c_send_selection_state</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba6a1e22f04bc29a0e2b56e292fde1ac2c">s2c_send_selection_state</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baad87a56d36df65e0f1380e343d1f37d7">s2c_send_othertab_selection</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baad87a56d36df65e0f1380e343d1f37d7">s2c_send_othertab_selection</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baed022c04d64c992ea6e2025b216108a3">s2c_bus_effect_full_data</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba2f17c1c2e692c959b10df94a641bee17">s2c_bus_send_data</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99bac13f8f11527011f58c68748423c5bde9">s2c_refresh_browser</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99bac13f8f11527011f58c68748423c5bde9">s2c_refresh_browser</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99badc30af50e70d128b2e3d18814412a3cd">s2c_send_browser_queuelength</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99badc30af50e70d128b2e3d18814412a3cd">s2c_send_browser_queuelength</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa9524932d470c7cff8c9ef1c7996199a">s2c_update_macro_full_state</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba47b5291ef79c471de47a74039fc1c0ff">s2c_update_macro_value</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640">s2c_send_missing_resolution_workitem_list</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640">s2c_send_missing_resolution_workitem_list</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba35ed5f173fdae24803228e887cd88dc9">num_serializationToClientMessages</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba35ed5f173fdae24803228e887cd88dc9">num_serializationToClientMessages</a>
 <br />
  }</td></tr>
 <tr class="separator:a544ff326ddd6908ee4f7c19e8ba2a99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -580,8 +577,6 @@ Functions</h2></td></tr>
 <tr class="separator:a63508f67947453ef303815ccd473a5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b6fa58baff50171101eab26c8d8b202" id="r_a7b6fa58baff50171101eab26c8d8b202"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7b6fa58baff50171101eab26c8d8b202">SERIAL_TO_CLIENT</a> (ProcessorMetadataAndData, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7133fc20d0586c7168de17a9f6dc9de3">s2c_respond_single_processor_metadata_and_data</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad15dc6ce29f91d93e17c7034e4aa0bac">processorDataResponsePayload_t</a>, onGroupOrZoneProcessorDataAndMetadata)</td></tr>
 <tr class="separator:a7b6fa58baff50171101eab26c8d8b202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dc0d767b20a0c77454b0e38017e284a" id="r_a5dc0d767b20a0c77454b0e38017e284a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5dc0d767b20a0c77454b0e38017e284a">SERIAL_TO_CLIENT</a> (ProcessorsMismatched, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba8f40e354b4d8f24fc8167423c47cbf9d">s2c_notify_mismatched_processors_for_zone</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac89b0c10618a1dd2e253c93a32b4e37a">processorMismatchPayload_t</a>, onZoneProcessorDataMismatch)</td></tr>
-<tr class="separator:a5dc0d767b20a0c77454b0e38017e284a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17fc888c52037c810712de82917a042d" id="r_a17fc888c52037c810712de82917a042d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">setProcessorType</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a44ca1c5b67512a4ade4715a623a46c80">setProcessorPayload_t</a> &amp;whichToType, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
 <tr class="separator:a17fc888c52037c810712de82917a042d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2693ec71609503c2f532b8eea1a9660" id="r_ad2693ec71609503c2f532b8eea1a9660"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad2693ec71609503c2f532b8eea1a9660">CLIENT_TO_SERIAL</a> (SetSelectedProcessorType, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a9fb1bddbc4cd24e93c3373de1e47d46c">c2s_set_processor_type</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a44ca1c5b67512a4ade4715a623a46c80">setProcessorPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">setProcessorType</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
@@ -1167,20 +1162,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac89b0c10618a1dd2e253c93a32b4e37a" name="ac89b0c10618a1dd2e253c93a32b4e37a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac89b0c10618a1dd2e253c93a32b4e37a">&#9670;&#160;</a></span>processorMismatchPayload_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::tuple&lt;int, int, std::string&gt; <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac89b0c10618a1dd2e253c93a32b4e37a">processorMismatchPayload_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a44ca1c5b67512a4ade4715a623a46c80" name="a44ca1c5b67512a4ade4715a623a46c80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44ca1c5b67512a4ade4715a623a46c80">&#9670;&#160;</a></span>setProcessorPayload_t</h2>
 
@@ -1556,7 +1537,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba65b0aafb5d5cebf9f083bf4cead9619e" name="a544ff326ddd6908ee4f7c19e8ba2a99ba65b0aafb5d5cebf9f083bf4cead9619e"></a>s2c_update_group_output_info&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba7c2174a3f91989a675f5498616be64c1" name="a544ff326ddd6908ee4f7c19e8ba2a99ba7c2174a3f91989a675f5498616be64c1"></a>s2c_send_group_trigger_conditions&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba7133fc20d0586c7168de17a9f6dc9de3" name="a544ff326ddd6908ee4f7c19e8ba2a99ba7133fc20d0586c7168de17a9f6dc9de3"></a>s2c_respond_single_processor_metadata_and_data&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba8f40e354b4d8f24fc8167423c47cbf9d" name="a544ff326ddd6908ee4f7c19e8ba2a99ba8f40e354b4d8f24fc8167423c47cbf9d"></a>s2c_notify_mismatched_processors_for_zone&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba3f651f2e902fc647712a659ddabf607e" name="a544ff326ddd6908ee4f7c19e8ba2a99ba3f651f2e902fc647712a659ddabf607e"></a>s2c_send_part_configuration&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba7e25eaadf12fa88b6e4d491c1b811ed9" name="a544ff326ddd6908ee4f7c19e8ba2a99ba7e25eaadf12fa88b6e4d491c1b811ed9"></a>s2c_send_selected_part&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba670c98a3542d24d405b6bf8a2b4399f9" name="a544ff326ddd6908ee4f7c19e8ba2a99ba670c98a3542d24d405b6bf8a2b4399f9"></a>s2c_send_selected_group_zone_mapping_summary&#160;</td><td class="fielddoc"></td></tr>
@@ -1910,7 +1890,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4dee13cef28f3175774ae14aa2ee8137" name="a4dee13cef28f3175774ae14aa2ee8137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dee13cef28f3175774ae14aa2ee8137">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[1/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dee13cef28f3175774ae14aa2ee8137">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[1/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2192,7 +2172,7 @@ template&lt;typename Client &gt; </div>
 </div>
 </div>
 <a id="a93812e2dfad3165a601234f1b9e7b299" name="a93812e2dfad3165a601234f1b9e7b299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93812e2dfad3165a601234f1b9e7b299">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[2/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a93812e2dfad3165a601234f1b9e7b299">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[2/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2340,7 +2320,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a8d2fc34a9ec91e0d6ce304c91fea8cf9" name="a8d2fc34a9ec91e0d6ce304c91fea8cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d2fc34a9ec91e0d6ce304c91fea8cf9">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[3/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2fc34a9ec91e0d6ce304c91fea8cf9">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[3/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2526,7 +2506,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="aed4f0f97debee453cd73048e0739e952" name="aed4f0f97debee453cd73048e0739e952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4f0f97debee453cd73048e0739e952">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[4/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4f0f97debee453cd73048e0739e952">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[4/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2566,7 +2546,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="acb6bc3a39ca57af8edf1b50e0eb42614" name="acb6bc3a39ca57af8edf1b50e0eb42614"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb6bc3a39ca57af8edf1b50e0eb42614">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[5/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acb6bc3a39ca57af8edf1b50e0eb42614">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[5/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2606,7 +2586,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad8aa3b435bcada4fc3d1c100c64b0b34" name="ad8aa3b435bcada4fc3d1c100c64b0b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8aa3b435bcada4fc3d1c100c64b0b34">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[6/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8aa3b435bcada4fc3d1c100c64b0b34">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[6/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2890,7 +2870,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab76082a166c08f33b6ca774234b76bc0" name="ab76082a166c08f33b6ca774234b76bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab76082a166c08f33b6ca774234b76bc0">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[7/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76082a166c08f33b6ca774234b76bc0">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[7/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3356,7 +3336,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a2886c966d95f3b315cd65834244eddc1" name="a2886c966d95f3b315cd65834244eddc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2886c966d95f3b315cd65834244eddc1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[8/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2886c966d95f3b315cd65834244eddc1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[8/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3638,7 +3618,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ae69dee92da0270be03cf084ef4e32553" name="ae69dee92da0270be03cf084ef4e32553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae69dee92da0270be03cf084ef4e32553">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[9/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69dee92da0270be03cf084ef4e32553">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[9/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3678,7 +3658,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="adcb52c0a95dc50aa0c2486d2f08390c5" name="adcb52c0a95dc50aa0c2486d2f08390c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcb52c0a95dc50aa0c2486d2f08390c5">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[10/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb52c0a95dc50aa0c2486d2f08390c5">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[10/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3946,7 +3926,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a7e1a7d65f3e98a6824a89ffa2f151fa3" name="a7e1a7d65f3e98a6824a89ffa2f151fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e1a7d65f3e98a6824a89ffa2f151fa3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[11/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e1a7d65f3e98a6824a89ffa2f151fa3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[11/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4062,7 +4042,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a15661188c8459d37c55c8bb6da521a68" name="a15661188c8459d37c55c8bb6da521a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15661188c8459d37c55c8bb6da521a68">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[12/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15661188c8459d37c55c8bb6da521a68">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[12/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4102,7 +4082,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ac88e274cde0bf2102805de2905c33dd1" name="ac88e274cde0bf2102805de2905c33dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac88e274cde0bf2102805de2905c33dd1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[13/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88e274cde0bf2102805de2905c33dd1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[13/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4352,7 +4332,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a6ee8167d35a8daa548b9f21a9f959646" name="a6ee8167d35a8daa548b9f21a9f959646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ee8167d35a8daa548b9f21a9f959646">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[14/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee8167d35a8daa548b9f21a9f959646">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[14/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4392,7 +4372,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a53b456c5e61cc43f87cbad5d74446555" name="a53b456c5e61cc43f87cbad5d74446555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53b456c5e61cc43f87cbad5d74446555">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[15/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b456c5e61cc43f87cbad5d74446555">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[15/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4432,7 +4412,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ac71643f4565dbb11c64864dfb0c8865a" name="ac71643f4565dbb11c64864dfb0c8865a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac71643f4565dbb11c64864dfb0c8865a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[16/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac71643f4565dbb11c64864dfb0c8865a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[16/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4472,7 +4452,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a060f2ea63b4bac02687d10da766b786b" name="a060f2ea63b4bac02687d10da766b786b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a060f2ea63b4bac02687d10da766b786b">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[17/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a060f2ea63b4bac02687d10da766b786b">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[17/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4664,7 +4644,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a78186f0d6dfd4f2fb0f95a20755fa25a" name="a78186f0d6dfd4f2fb0f95a20755fa25a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78186f0d6dfd4f2fb0f95a20755fa25a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[18/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78186f0d6dfd4f2fb0f95a20755fa25a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[18/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4704,7 +4684,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a91698fbcae20fa0240dc71d05793913a" name="a91698fbcae20fa0240dc71d05793913a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91698fbcae20fa0240dc71d05793913a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[19/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91698fbcae20fa0240dc71d05793913a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[19/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4820,7 +4800,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a18b3a7ea6c65e55f67396cf4f080e793" name="a18b3a7ea6c65e55f67396cf4f080e793"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b3a7ea6c65e55f67396cf4f080e793">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[20/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b3a7ea6c65e55f67396cf4f080e793">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[20/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4860,7 +4840,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a3a177e95f64681e4fecbc92b55450119" name="a3a177e95f64681e4fecbc92b55450119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a177e95f64681e4fecbc92b55450119">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[21/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a177e95f64681e4fecbc92b55450119">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[21/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4900,7 +4880,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad220065f545646cebf925df90f6e6152" name="ad220065f545646cebf925df90f6e6152"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad220065f545646cebf925df90f6e6152">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[22/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad220065f545646cebf925df90f6e6152">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[22/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5284,7 +5264,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a7b6fa58baff50171101eab26c8d8b202" name="a7b6fa58baff50171101eab26c8d8b202"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6fa58baff50171101eab26c8d8b202">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[23/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6fa58baff50171101eab26c8d8b202">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[23/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5311,46 +5291,6 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">onGroupOrZoneProcessorDataAndMetadata&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5dc0d767b20a0c77454b0e38017e284a" name="a5dc0d767b20a0c77454b0e38017e284a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dc0d767b20a0c77454b0e38017e284a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[24/30]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SERIAL_TO_CLIENT </td>
-          <td>(</td>
-          <td class="paramtype">ProcessorsMismatched&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba8f40e354b4d8f24fc8167423c47cbf9d">s2c_notify_mismatched_processors_for_zone</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac89b0c10618a1dd2e253c93a32b4e37a">processorMismatchPayload_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">onZoneProcessorDataMismatch&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -5892,7 +5832,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="adb45328f48e52a47f78c779ea667ddc6" name="adb45328f48e52a47f78c779ea667ddc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb45328f48e52a47f78c779ea667ddc6">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[25/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb45328f48e52a47f78c779ea667ddc6">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[24/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5932,7 +5872,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a941a3cf4fef9face87009eeccede0784" name="a941a3cf4fef9face87009eeccede0784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a941a3cf4fef9face87009eeccede0784">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[26/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a941a3cf4fef9face87009eeccede0784">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[25/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6258,7 +6198,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a1dc7342eaea6062f01bda664ccd26abe" name="a1dc7342eaea6062f01bda664ccd26abe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dc7342eaea6062f01bda664ccd26abe">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[27/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc7342eaea6062f01bda664ccd26abe">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[26/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7580,7 +7520,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a85b3704a426b00a3719fd3840546e2e3" name="a85b3704a426b00a3719fd3840546e2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b3704a426b00a3719fd3840546e2e3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[28/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b3704a426b00a3719fd3840546e2e3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[27/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7790,7 +7730,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="af58de2524d96428d6b16ef4a007ff053" name="af58de2524d96428d6b16ef4a007ff053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af58de2524d96428d6b16ef4a007ff053">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[29/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af58de2524d96428d6b16ef4a007ff053">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[28/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8104,7 +8044,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a2391ce5c702ffb91a5c62450a9ca3d9e" name="a2391ce5c702ffb91a5c62450a9ca3d9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2391ce5c702ffb91a5c62450a9ca3d9e">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[30/30]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2391ce5c702ffb91a5c62450a9ca3d9e">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[29/29]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8434,7 +8374,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 5 2025 22:38:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Aug 7 2025 13:09:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
