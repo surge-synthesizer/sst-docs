@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8fa4fba751326442ae850a2d9c865a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f2eb844c63d2a88f88aea6630d459e1" id="r_a1f2eb844c63d2a88f88aea6630d459e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">setupOnUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a1f2eb844c63d2a88f88aea6630d459e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6e1ba9bf2cab82aa2f7011c127e781" id="r_aea6e1ba9bf2cab82aa2f7011c127e781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#aea6e1ba9bf2cab82aa2f7011c127e781">onGroupMidiChannelSubscriptionChanged</a> ()</td></tr>
+<tr class="separator:aea6e1ba9bf2cab82aa2f7011c127e781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a60438a5b55d0b2ceb35c8674b9d8c5" id="r_a8a60438a5b55d0b2ceb35c8674b9d8c5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">getName</a> () const</td></tr>
 <tr class="separator:a8a60438a5b55d0b2ceb35c8674b9d8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827de47baab70396291f8336f759e350" id="r_a827de47baab70396291f8336f759e350"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a827de47baab70396291f8336f759e350">addZone</a> (std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">Zone</a> &gt; &amp;z)</td></tr>
@@ -198,6 +200,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0ff935d0f3c3944592bf3f9e273c8a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084d82345cf442920ae1aabf6c27523d" id="r_a084d82345cf442920ae1aabf6c27523d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">resetPolyAndPlaymode</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)</td></tr>
 <tr class="separator:a084d82345cf442920ae1aabf6c27523d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83d34898f9120b101f2db51f66450fe6" id="r_a83d34898f9120b101f2db51f66450fe6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a83d34898f9120b101f2db51f66450fe6">respondsToChannelOrUsesPartChannel</a> (int16_t channel, bool parentRespondsExcluding)</td></tr>
+<tr class="separator:a83d34898f9120b101f2db51f66450fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed959c9eafd1814595f03b425a0fa8ad" id="r_aed959c9eafd1814595f03b425a0fa8ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#aed959c9eafd1814595f03b425a0fa8ad">onRoutingChanged</a> ()</td></tr>
 <tr class="separator:aed959c9eafd1814595f03b425a0fa8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedd3f973b10a8a932a7613d565b164f4" id="r_aedd3f973b10a8a932a7613d565b164f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4">rePrepareAndBindGroupMatrix</a> ()</td></tr>
@@ -657,9 +661,30 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce">HasModulators&lt; Group, egsPerGroup &gt;::curveLfos</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5d4f5fa2843a572e4fd699aef7787278">Group::endpoints</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#afea763dfc2e9ae748fb2ca7eca806b76">Part::groupTriggerInstrumentState</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#aa9c1871903dbbb338e0f7b685fed9b49">GroupMatrixEndpoints::lfo</a>, <a class="el" href="namespacescxt_1_1engine.html#a960c5262d8150647d8cb3ba9fbbff234">scxt::engine::lfosPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529">Group::modulatorStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aed959c9eafd1814595f03b425a0fa8ad">Group::onRoutingChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a295fedd8f04dcd330a6ee4f7a72862e9">HasGroupZoneProcessors&lt; Group &gt;::processorCount</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a80ddc0de71c64997250da26111d9700f">Group::processors</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a201b46ffc7096da22ec732440aedeae4">HasGroupZoneProcessors&lt; Group &gt;::processorStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4">Group::rePrepareAndBindGroupMatrix()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#aecd543acbff4461ac91af0ab900a716f">SampleRateSupport::sampleRateInv</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#afa2c6450b85eee289235126ba1632eae">HasGroupZoneProcessors&lt; Group &gt;::setupProcessorControlDescriptions()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74">HasModulators&lt; Group, egsPerGroup &gt;::stepLfos</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a7d531934c0c8580b6cbae3d9fcf58cd3">Group::triggerConditions</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#af98be2b15b8754d18053520c94223a33">scxt::dsp::processor::unspawnProcessor()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce">HasModulators&lt; Group, egsPerGroup &gt;::curveLfos</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5d4f5fa2843a572e4fd699aef7787278">Group::endpoints</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#afea763dfc2e9ae748fb2ca7eca806b76">Part::groupTriggerInstrumentState</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#aa9c1871903dbbb338e0f7b685fed9b49">GroupMatrixEndpoints::lfo</a>, <a class="el" href="namespacescxt_1_1engine.html#a960c5262d8150647d8cb3ba9fbbff234">scxt::engine::lfosPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529">Group::modulatorStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aea6e1ba9bf2cab82aa2f7011c127e781">Group::onGroupMidiChannelSubscriptionChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aed959c9eafd1814595f03b425a0fa8ad">Group::onRoutingChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a295fedd8f04dcd330a6ee4f7a72862e9">HasGroupZoneProcessors&lt; Group &gt;::processorCount</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a80ddc0de71c64997250da26111d9700f">Group::processors</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a201b46ffc7096da22ec732440aedeae4">HasGroupZoneProcessors&lt; Group &gt;::processorStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4">Group::rePrepareAndBindGroupMatrix()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#aecd543acbff4461ac91af0ab900a716f">SampleRateSupport::sampleRateInv</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#afa2c6450b85eee289235126ba1632eae">HasGroupZoneProcessors&lt; Group &gt;::setupProcessorControlDescriptions()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74">HasModulators&lt; Group, egsPerGroup &gt;::stepLfos</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a7d531934c0c8580b6cbae3d9fcf58cd3">Group::triggerConditions</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#af98be2b15b8754d18053520c94223a33">scxt::dsp::processor::unspawnProcessor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a0ff935d0f3c3944592bf3f9e273c8a55">Group::onSampleRateChanged()</a>.</p>
+
+</div>
+</div>
+<a id="aea6e1ba9bf2cab82aa2f7011c127e781" name="aea6e1ba9bf2cab82aa2f7011c127e781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea6e1ba9bf2cab82aa2f7011c127e781">&#9670;&#160;</a></span>onGroupMidiChannelSubscriptionChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onGroupMidiChannelSubscriptionChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a4f64fc5e69de6612986b9b3ab145e027">Part::rebuildGroupChannelMask()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -958,6 +983,36 @@ template&lt;bool OS&gt; </div>
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a14cfaaa1e2459c643b1c84818c2a7cf7">Group::GroupOutputInfo::hasIndependentPolyLimit</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a525cdc479fc425dc04d06138da180d3d">Group::outputInfo</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#aaf017e03ebb15a530903ceb77b47d69e">Group::GroupOutputInfo::polyLimit</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a4388712fa2a097a32959d8d24cf4f653">Group::GroupOutputInfo::vmPlayModeFeaturesInt</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a4a79c78eb44a9ca3de71edee61468fab">Group::GroupOutputInfo::vmPlayModeInt</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d">Engine::voiceManager</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a83d34898f9120b101f2db51f66450fe6" name="a83d34898f9120b101f2db51f66450fe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83d34898f9120b101f2db51f66450fe6">&#9670;&#160;</a></span>respondsToChannelOrUsesPartChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool respondsToChannelOrUsesPartChannel </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>parentRespondsExcluding</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a075bd9a846da1aa5679b313cc7032c9d">Group::GroupOutputInfo::midiChannel</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a525cdc479fc425dc04d06138da180d3d">Group::outputInfo</a>.</p>
 
 </div>
 </div>
@@ -1320,7 +1375,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a2bb44d57e37f6ac4be8d29e658a1fb94">Group::addActiveZone()</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#aa1836675edeb334df67a27b566ec8870">GroupMatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab0e713df21e3796eacfb4d2fcabd16ef">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a2d31db150aa19dc07018eb237c4b4b52">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPressure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#ab732c6a5cd59ae8a4e79a6d748de485d">Engine::VoiceManagerResponder::setVoiceMIDIMPETimbre()</a>, <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a87f9d7928e4b4da6b980996667aeea88">GTMacro::value()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a87f9d7928e4b4da6b980996667aeea88">GTMIDI1CC::value()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a2bb44d57e37f6ac4be8d29e658a1fb94">Group::addActiveZone()</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#aa1836675edeb334df67a27b566ec8870">GroupMatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab0e713df21e3796eacfb4d2fcabd16ef">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aea6e1ba9bf2cab82aa2f7011c127e781">Group::onGroupMidiChannelSubscriptionChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a2d31db150aa19dc07018eb237c4b4b52">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPressure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#ab732c6a5cd59ae8a4e79a6d748de485d">Engine::VoiceManagerResponder::setVoiceMIDIMPETimbre()</a>, <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a87f9d7928e4b4da6b980996667aeea88">GTMacro::value()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a87f9d7928e4b4da6b980996667aeea88">GTMIDI1CC::value()</a>.</p>
 
 </div>
 </div>
@@ -1336,7 +1391,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html#ab60ebf452f81bf9ed6c2808ddc6c0b97">GroupMatrixEndpoints::OutputTarget::bind()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab2fb9b3c06e2581c9bd45bac569964de">Group::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">Zone::process()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html#ab60ebf452f81bf9ed6c2808ddc6c0b97">GroupMatrixEndpoints::OutputTarget::bind()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab2fb9b3c06e2581c9bd45bac569964de">Group::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">Zone::process()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a83d34898f9120b101f2db51f66450fe6">Group::respondsToChannelOrUsesPartChannel()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
@@ -1882,7 +1937,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 8 2025 13:04:05 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Aug 8 2025 16:19:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
