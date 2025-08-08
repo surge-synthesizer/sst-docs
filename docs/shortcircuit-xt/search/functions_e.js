@@ -12,7 +12,7 @@ var searchData=
   ['onbusorparteffectfulldata_9',['onBusOrPartEffectFullData',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a62acbf1c0bc6b30f40e53d86858fc08d',1,'scxt::ui::app::SCXTEditor']]],
   ['onbusorpartsenddata_10',['onBusOrPartSendData',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a186b9f6f230cc2302f64bf9b1380c413',1,'scxt::ui::app::SCXTEditor']]],
   ['onbussenddata_11',['onBusSendData',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a535b2e6fa1ffd074a73932a9b6b85e5f',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
-  ['onclipboardtype_12',['onClipboardType',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1e33a700ff5ecb41624007103d828553',1,'scxt::ui::app::SCXTEditor']]],
+  ['onclipboardtype_12',['onClipboardType',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8c7232c1ccc7fe84aadcb35f6da0b725',1,'scxt::ui::app::SCXTEditor']]],
   ['ondatachanged_13',['onDataChanged',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a3e5e78ada977d09fcfef2e7bf6839ec2',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['ondebuginfogenerated_14',['onDebugInfoGenerated',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae212ecd0576d8c72598ce4c7fef1211f',1,'scxt::ui::app::SCXTEditor']]],
   ['onenginestatus_15',['onEngineStatus',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9878417c76503cf066501443c24c131c',1,'scxt::ui::app::SCXTEditor']]],

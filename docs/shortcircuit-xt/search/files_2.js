@@ -9,9 +9,11 @@ var searchData=
   ['client_5fmessages_2eh_6',['client_messages.h',['../client__messages_8h.html',1,'']]],
   ['client_5fserial_2eh_7',['client_serial.h',['../client__serial_8h.html',1,'']]],
   ['client_5fserial_5fimpl_2eh_8',['client_serial_impl.h',['../client__serial__impl_8h.html',1,'']]],
-  ['colormap_2ecpp_9',['ColorMap.cpp',['../ColorMap_8cpp.html',1,'']]],
-  ['colormap_2eh_10',['ColorMap.h',['../ColorMap_8h.html',1,'']]],
-  ['compound_5ffile_2eh_11',['compound_file.h',['../compound__file_8h.html',1,'']]],
-  ['configuration_2eh_12',['configuration.h',['../configuration_8h.html',1,'']]],
-  ['curvelfo_2eh_13',['curvelfo.h',['../curvelfo_8h.html',1,'']]]
+  ['clipboard_2eh_9',['clipboard.h',['../clipboard_8h.html',1,'']]],
+  ['clipboard_5fimpl_2eh_10',['clipboard_impl.h',['../clipboard__impl_8h.html',1,'']]],
+  ['colormap_2ecpp_11',['ColorMap.cpp',['../ColorMap_8cpp.html',1,'']]],
+  ['colormap_2eh_12',['ColorMap.h',['../ColorMap_8h.html',1,'']]],
+  ['compound_5ffile_2eh_13',['compound_file.h',['../compound__file_8h.html',1,'']]],
+  ['configuration_2eh_14',['configuration.h',['../configuration_8h.html',1,'']]],
+  ['curvelfo_2eh_15',['curvelfo.h',['../curvelfo_8h.html',1,'']]]
 ];
