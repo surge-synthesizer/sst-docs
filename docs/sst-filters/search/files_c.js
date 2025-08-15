@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['tripolefilter_2eh_0',['TriPoleFilter.h',['../TriPoleFilter_8h.html',1,'']]],
-  ['tuningprovider_2eh_1',['TuningProvider.h',['../TuningProvider_8h.html',1,'']]]
+  ['readme_2emd_0',['README.md',['../README_8md.html',1,'']]]
 ];

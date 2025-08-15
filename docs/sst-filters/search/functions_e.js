@@ -8,11 +8,14 @@ var searchData=
   ['repeat_5',['repeat',['../namespaceCatch_1_1Generators.html#a6b378a8bc12fda511e09844b363daddc',1,'Catch::Generators']]],
   ['repeatgenerator_6',['RepeatGenerator',['../classCatch_1_1Generators_1_1RepeatGenerator.html#a60432161dc2a27b4271812e02bbf951b',1,'Catch::Generators::RepeatGenerator']]],
   ['replaceinplace_7',['replaceInPlace',['../namespaceCatch.html#a25efcf24924ff7c3777034ffb1ee5884',1,'Catch']]],
-  ['reset_8',['reset',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a372de693ad40b3f42839c8ec6ac845f4',1,'sst::filters::FilterCoefficientMaker::Reset()'],['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filters::HalfRate::HalfRateFilter::reset()']]],
-  ['resoscale_9',['resoscale',['../namespacesst_1_1filters.html#ab085483ba34a0cf9631562b4d65548e3',1,'sst::filters']]],
-  ['resoscale4pole_10',['resoscale4Pole',['../namespacesst_1_1filters.html#a20b2f959970ce27dce4f2e4d416f6165',1,'sst::filters']]],
-  ['retaincoeffforblock_11',['retainCoeffForBlock',['../structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4',1,'sst::filters::CytomicSVF']]],
-  ['reusablestringstream_12',['ReusableStringStream',['../classCatch_1_1ReusableStringStream.html#a0a97da276799c5e436812d42dd677a0c',1,'Catch::ReusableStringStream']]],
-  ['rng_13',['rng',['../namespaceCatch.html#a8ec43e1151a71d759292eff8f6f5594e',1,'Catch']]],
-  ['rngseed_14',['rngSeed',['../namespaceCatch.html#a17880285a46994a714df574bf93669e0',1,'Catch']]]
+  ['requireddelaylinessizes_8',['requiredDelayLinesSizes',['../structsst_1_1filtersplusplus_1_1Filter.html#ac0dd72c059683ae15da44456ccfc49dd',1,'sst::filtersplusplus::Filter']]],
+  ['requirespreparation_9',['requiresPreparation',['../structsst_1_1filtersplusplus_1_1Filter.html#a1e837634d6cb6e4d61b3d1a739a17358',1,'sst::filtersplusplus::Filter']]],
+  ['reset_10',['reset',['../structsst_1_1filtersplusplus_1_1Filter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filtersplusplus::Filter::reset()'],['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filtersplusplus::details::FilterPayload::reset()'],['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filters::HalfRate::HalfRateFilter::reset()'],['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a372de693ad40b3f42839c8ec6ac845f4',1,'sst::filters::FilterCoefficientMaker::Reset()']]],
+  ['resolvelegacytype_11',['resolveLegacyType',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ab97e38b869f89ae935465387dc42b7aa',1,'sst::filtersplusplus::details::FilterPayload']]],
+  ['resoscale_12',['resoscale',['../namespacesst_1_1filters.html#ab085483ba34a0cf9631562b4d65548e3',1,'sst::filters']]],
+  ['resoscale4pole_13',['resoscale4Pole',['../namespacesst_1_1filters.html#a20b2f959970ce27dce4f2e4d416f6165',1,'sst::filters']]],
+  ['retaincoeffforblock_14',['retainCoeffForBlock',['../structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4',1,'sst::filters::CytomicSVF']]],
+  ['reusablestringstream_15',['ReusableStringStream',['../classCatch_1_1ReusableStringStream.html#a0a97da276799c5e436812d42dd677a0c',1,'Catch::ReusableStringStream']]],
+  ['rng_16',['rng',['../namespaceCatch.html#a8ec43e1151a71d759292eff8f6f5594e',1,'Catch']]],
+  ['rngseed_17',['rngSeed',['../namespaceCatch.html#a17880285a46994a714df574bf93669e0',1,'Catch']]]
 ];

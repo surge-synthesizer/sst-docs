@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['result_5ftype_0',['result_type',['../classCatch_1_1SimplePcg32.html#adac493136bfff3943cb165e9c2e2be9a',1,'Catch::SimplePcg32']]]
+  ['legacytype_5ft_0',['legacyType_t',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad748da33f7ae6e231e9a4f85505eb7a1',1,'sst::filtersplusplus::details::FilterPayload']]]
 ];

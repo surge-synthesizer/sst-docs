@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['k35filter_2eh_0',['K35Filter.h',['../K35Filter_8h.html',1,'']]]
+  ['halfratefilter_2eh_0',['HalfRateFilter.h',['../HalfRateFilter_8h.html',1,'']]]
 ];

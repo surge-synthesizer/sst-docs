@@ -155,11 +155,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a625cb4ea28b9e3b39e14f0b31f3ae512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7bc325fd811678e524cede6b3e13bb" id="r_aac7bc325fd811678e524cede6b3e13bb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#aac7bc325fd811678e524cede6b3e13bb">process_sample</a> (float input)</td></tr>
 <tr class="separator:aac7bc325fd811678e524cede6b3e13bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf440d6c1d920223de2b37bfde0138a5" id="r_adf440d6c1d920223de2b37bfde0138a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#adf440d6c1d920223de2b37bfde0138a5">process_sample</a> (float L, float R, float &amp;lOut, float &amp;rOut)</td></tr>
+<tr class="memitem:adf440d6c1d920223de2b37bfde0138a5" id="r_adf440d6c1d920223de2b37bfde0138a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#adf440d6c1d920223de2b37bfde0138a5">process_sample</a> (float <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, float R, float &amp;lOut, float &amp;rOut)</td></tr>
 <tr class="separator:adf440d6c1d920223de2b37bfde0138a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb27be706fd22d6cfc51224615001909" id="r_abb27be706fd22d6cfc51224615001909"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#abb27be706fd22d6cfc51224615001909">process_sample_nolag</a> (float &amp;L, float &amp;R)</td></tr>
+<tr class="memitem:abb27be706fd22d6cfc51224615001909" id="r_abb27be706fd22d6cfc51224615001909"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#abb27be706fd22d6cfc51224615001909">process_sample_nolag</a> (float &amp;<a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, float &amp;R)</td></tr>
 <tr class="separator:abb27be706fd22d6cfc51224615001909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af89ed81b0d44b8360dee8a71fd224ec5" id="r_af89ed81b0d44b8360dee8a71fd224ec5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#af89ed81b0d44b8360dee8a71fd224ec5">process_sample_nolag</a> (float &amp;L, float &amp;R, float &amp;Lout, float &amp;Rout)</td></tr>
+<tr class="memitem:af89ed81b0d44b8360dee8a71fd224ec5" id="r_af89ed81b0d44b8360dee8a71fd224ec5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#af89ed81b0d44b8360dee8a71fd224ec5">process_sample_nolag</a> (float &amp;<a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, float &amp;R, float &amp;Lout, float &amp;Rout)</td></tr>
 <tr class="separator:af89ed81b0d44b8360dee8a71fd224ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2303887436fab6c7af77b40fcc69a55" id="r_ac2303887436fab6c7af77b40fcc69a55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#ac2303887436fab6c7af77b40fcc69a55">process_sample_nolag_noinput</a> (float &amp;Lout, float &amp;Rout)</td></tr>
 <tr class="separator:ac2303887436fab6c7af77b40fcc69a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,7 +221,7 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_LP </td>
@@ -251,7 +251,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_LP2B </td>
@@ -275,7 +275,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 
 <p>Compared to coeff_LP, this version adds a small boost at high frequencies. </p>
 
-<p class="reference">References <a class="el" href="CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>.</p>
+<p class="reference">References <a class="el" href="filters_2CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>.</p>
 
 </div>
 </div>
@@ -285,7 +285,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_HP </td>
@@ -315,7 +315,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_BP </td>
@@ -345,7 +345,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_LP_with_BW </td>
@@ -375,7 +375,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_HP_with_BW </td>
@@ -405,7 +405,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_BP2A </td>
@@ -435,7 +435,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_PKA </td>
@@ -465,7 +465,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_NOTCH </td>
@@ -495,7 +495,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_peakEQ </td>
@@ -531,7 +531,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_LPHPmorph </td>
@@ -567,7 +567,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_APF </td>
@@ -637,7 +637,7 @@ template&lt;typename DT , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>, <a class="el" href="CutoffWarp_8h.html#a722197982835b82ee8aca5482c8d83c9">F</a>, and <a class="el" href="namespacesst_1_1filters_1_1Biquad.html#a435ef393d7d5394df67d5da81c108c7d">sst::filters::Biquad::square()</a>.</p>
+<p class="reference">References <a class="el" href="filters_2CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>, <a class="el" href="filters_2CutoffWarp_8h.html#a722197982835b82ee8aca5482c8d83c9">F</a>, and <a class="el" href="namespacesst_1_1filters_1_1Biquad.html#a435ef393d7d5394df67d5da81c108c7d">sst::filters::Biquad::square()</a>.</p>
 
 </div>
 </div>
@@ -647,7 +647,7 @@ template&lt;typename DT , size_t BLOCK_SIZE, typename Adapter &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_same_as_last_time </td>
@@ -666,7 +666,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void coeff_instantize </td>
@@ -685,7 +685,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void process_block </td>
@@ -705,7 +705,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void process_block </td>
@@ -765,7 +765,7 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void process_block_to </td>
@@ -837,7 +837,7 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void process_block </td>
@@ -911,6 +911,8 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>.</p>
+
 </div>
 </div>
 <a id="abb27be706fd22d6cfc51224615001909" name="abb27be706fd22d6cfc51224615001909"></a>
@@ -940,6 +942,8 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>.</p>
 
 </div>
 </div>
@@ -982,6 +986,8 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>.</p>
 
 </div>
 </div>
@@ -1085,7 +1091,7 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void setBlockSize </td>
@@ -1126,7 +1132,7 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">float plot_magnitude </td>
@@ -1146,7 +1152,7 @@ template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
+template&lt;typename <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a> , size_t BLOCK_SIZE, typename Adapter &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1253,7 +1259,7 @@ template&lt;typename TuningAndDBProvider , size_t BLOCK_SIZE, typename Adapter  
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 29 2025 20:52:10 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Aug 15 2025 12:59:06 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

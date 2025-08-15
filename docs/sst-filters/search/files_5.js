@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['halfratefilter_2eh_0',['HalfRateFilter.h',['../HalfRateFilter_8h.html',1,'']]]
+  ['globals_2eh_0',['globals.h',['../globals_8h.html',1,'']]]
 ];

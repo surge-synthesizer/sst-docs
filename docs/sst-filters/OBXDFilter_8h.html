@@ -154,9 +154,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9dae400855d70611fbc3aa1042e6a747" id="r_a9dae400855d70611fbc3aa1042e6a747"><td class="memTemplParams" colspan="2">template&lt;typename TuningProvider &gt; </td></tr>
-<tr class="memitem:a9dae400855d70611fbc3aa1042e6a747"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a9dae400855d70611fbc3aa1042e6a747">makeCoefficients</a> (<a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html">FilterCoefficientMaker</a>&lt; TuningProvider &gt; *cm, <a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a7333b0d7a4b5625e532f3f704feb0a0e">Poles</a> p, float freq, float reso, int sub, float sampleRateInv, TuningProvider *provider)</td></tr>
-<tr class="separator:a9dae400855d70611fbc3aa1042e6a747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39271aef9172552046b5fd70534cdab6" id="r_a39271aef9172552046b5fd70534cdab6"><td class="memTemplParams" colspan="2">template&lt;typename TuningProvider &gt; </td></tr>
+<tr class="memitem:a39271aef9172552046b5fd70534cdab6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a39271aef9172552046b5fd70534cdab6">makeCoefficients</a> (<a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html">FilterCoefficientMaker</a>&lt; TuningProvider &gt; *cm, <a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a7333b0d7a4b5625e532f3f704feb0a0e">Poles</a> p, float freq, float reso, int sub, float sampleRateInv, TuningProvider *provider, bool continuousMorph=false, float morphPole=0.f)</td></tr>
+<tr class="separator:a39271aef9172552046b5fd70534cdab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fd577b0173e2f05e8666b253fa8a816" id="r_a5fd577b0173e2f05e8666b253fa8a816"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a5fd577b0173e2f05e8666b253fa8a816">diodePairResistanceApprox</a> (SIMD_M128 x)</td></tr>
 <tr class="separator:a5fd577b0173e2f05e8666b253fa8a816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9efd708fa661c6f59fa2b3742378a1f" id="r_ab9efd708fa661c6f59fa2b3742378a1f"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#ab9efd708fa661c6f59fa2b3742378a1f">NewtonRaphson12dB</a> (SIMD_M128 sample, <a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f)</td></tr>
@@ -165,8 +165,9 @@ Functions</h2></td></tr>
 <tr class="separator:a3c6e560996c8f588e3bfbe731e3fe0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a524b567ad007a9032f311e8a9a2f96fe" id="r_a524b567ad007a9032f311e8a9a2f96fe"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a524b567ad007a9032f311e8a9a2f96fe">NewtonRaphsonR24dB</a> (SIMD_M128 sample, SIMD_M128 lpc, <a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f)</td></tr>
 <tr class="separator:a524b567ad007a9032f311e8a9a2f96fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad12bf6f8af8bad014a5cbdf9779b78d5" id="r_ad12bf6f8af8bad014a5cbdf9779b78d5"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#ad12bf6f8af8bad014a5cbdf9779b78d5">process_4_pole</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, SIMD_M128 sample)</td></tr>
-<tr class="separator:ad12bf6f8af8bad014a5cbdf9779b78d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa678a492313f41ae2d14b18cd75a71" id="r_a1fa678a492313f41ae2d14b18cd75a71"><td class="memTemplParams" colspan="2">template&lt;bool broken24db&gt; </td></tr>
+<tr class="memitem:a1fa678a492313f41ae2d14b18cd75a71"><td class="memTemplItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1OBXDFilter.html#a1fa678a492313f41ae2d14b18cd75a71">process_4_pole</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">QuadFilterUnitState</a> *__restrict f, SIMD_M128 sample)</td></tr>
+<tr class="separator:a1fa678a492313f41ae2d14b18cd75a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -202,7 +203,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 29 2025 20:52:10 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Aug 15 2025 12:59:06 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

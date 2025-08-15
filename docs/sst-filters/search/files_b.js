@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['shared_2eh_0',['shared.h',['../shared_8h.html',1,'']]],
-  ['sinctable_2eh_1',['SincTable.h',['../SincTable_8h.html',1,'']]]
+  ['quadfilterunit_2eh_0',['QuadFilterUnit.h',['../QuadFilterUnit_8h.html',1,'']]],
+  ['quadfilterunit_5fimpl_2eh_1',['QuadFilterUnit_Impl.h',['../QuadFilterUnit__Impl_8h.html',1,'']]]
 ];

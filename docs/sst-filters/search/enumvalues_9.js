@@ -1,14 +1,20 @@
 var searchData=
 [
-  ['k35_5f2z_0',['k35_2z',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042ae02a307db9149e9884e8cf0146ec36dd',1,'sst::filters::K35Filter']]],
-  ['k35_5falpha_1',['k35_alpha',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a9468cf0685637c39cd34d082aa39552b',1,'sst::filters::K35Filter']]],
-  ['k35_5fg_2',['k35_G',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a565150e9aaa4cf48581419d151fa88ab',1,'sst::filters::K35Filter']]],
-  ['k35_5fhb_3',['k35_hb',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a306b245d6d883ffe652a2606869f6236',1,'sst::filters::K35Filter']]],
-  ['k35_5fhz_4',['k35_hz',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042a19e8002e25a3ce414fa70c6595845015',1,'sst::filters::K35Filter']]],
-  ['k35_5fk_5',['k35_k',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a8b06ad07d1de935eb8bf2c4035fbfc63',1,'sst::filters::K35Filter']]],
-  ['k35_5flb_6',['k35_lb',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a7882e731d88b726aa4af569a7d5d43b6',1,'sst::filters::K35Filter']]],
-  ['k35_5flz_7',['k35_lz',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042a954e6dcc132150583f606904e1cfc16f',1,'sst::filters::K35Filter']]],
-  ['k35_5fsaturation_8',['k35_saturation',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a57b52c85edbe95a4bdfa5636c97e4da9',1,'sst::filters::K35Filter']]],
-  ['k35_5fsaturation_5fblend_9',['k35_saturation_blend',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a0366b6092da73d42b789fa4c5cc658fd',1,'sst::filters::K35Filter']]],
-  ['k35_5fsaturation_5fblend_5finv_10',['k35_saturation_blend_inv',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a25363971234bc196359513f32823ee16',1,'sst::filters::K35Filter']]]
+  ['k35_0',['K35',['../namespacesst_1_1filtersplusplus.html#a81e581586e5832eaa622b493223cf9ffa550ecafcd47776fc50b37277c3480ffd',1,'sst::filtersplusplus']]],
+  ['k35_5f2z_1',['k35_2z',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042ae02a307db9149e9884e8cf0146ec36dd',1,'sst::filters::K35Filter']]],
+  ['k35_5falpha_2',['k35_alpha',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a9468cf0685637c39cd34d082aa39552b',1,'sst::filters::K35Filter']]],
+  ['k35_5fextreme_3',['K35_Extreme',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfeca00a887497f95ecd526cc78628b243f09',1,'sst::filtersplusplus']]],
+  ['k35_5fg_4',['k35_G',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a565150e9aaa4cf48581419d151fa88ab',1,'sst::filters::K35Filter']]],
+  ['k35_5fhb_5',['k35_hb',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a306b245d6d883ffe652a2606869f6236',1,'sst::filters::K35Filter']]],
+  ['k35_5fheavy_6',['K35_Heavy',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfecac6609e52b3e2a33560db7d196358a8d9',1,'sst::filtersplusplus']]],
+  ['k35_5fhz_7',['k35_hz',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042a19e8002e25a3ce414fa70c6595845015',1,'sst::filters::K35Filter']]],
+  ['k35_5fk_8',['k35_k',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a8b06ad07d1de935eb8bf2c4035fbfc63',1,'sst::filters::K35Filter']]],
+  ['k35_5flb_9',['k35_lb',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a7882e731d88b726aa4af569a7d5d43b6',1,'sst::filters::K35Filter']]],
+  ['k35_5flz_10',['k35_lz',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042a954e6dcc132150583f606904e1cfc16f',1,'sst::filters::K35Filter']]],
+  ['k35_5fmild_11',['K35_Mild',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfecac41217ee18871c2c206a8108a278b390',1,'sst::filtersplusplus']]],
+  ['k35_5fmoderate_12',['K35_Moderate',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfeca20c33a6ae246dd3804393fe1885c43a1',1,'sst::filtersplusplus']]],
+  ['k35_5fnone_13',['K35_None',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfecac6df30ee75df4e4dbd31cd74f2066554',1,'sst::filtersplusplus']]],
+  ['k35_5fsaturation_14',['k35_saturation',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a57b52c85edbe95a4bdfa5636c97e4da9',1,'sst::filters::K35Filter']]],
+  ['k35_5fsaturation_5fblend_15',['k35_saturation_blend',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a0366b6092da73d42b789fa4c5cc658fd',1,'sst::filters::K35Filter']]],
+  ['k35_5fsaturation_5fblend_5finv_16',['k35_saturation_blend_inv',['../namespacesst_1_1filters_1_1K35Filter.html#a67e0a4b5c7f7c033125f0214f8504223a25363971234bc196359513f32823ee16',1,'sst::filters::K35Filter']]]
 ];

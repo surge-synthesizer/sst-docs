@@ -54,7 +54,8 @@ var searchData=
   ['none_51',['None',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3eac9d3e887722f2bc482bcca9d41c512af',1,'Catch::TestCaseInfo']]],
   ['nonportable_52',['NonPortable',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3eac6e098ec8847f0df2d8ad35c6aab32d1',1,'Catch::TestCaseInfo']]],
   ['normal_53',['Normal',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295fa5ecbcf0afce98b042f35ec71ba03fa4b',1,'Catch::ResultDisposition']]],
-  ['notch_54',['NOTCH',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad0682496c50c56ab8dc39c36724aa97a',1,'sst::filters::CytomicSVF']]],
-  ['notetopitchignoringtuning_55',['noteToPitchIgnoringTuning',['../structsst_1_1filters_1_1Biquad_1_1DefaultTuningAndDBAdapter.html#ac4aa65a3141d79fe47f8f4b8d427d30a',1,'sst::filters::Biquad::DefaultTuningAndDBAdapter']]],
-  ['num_5ffilter_5ftypes_56',['num_filter_types',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fadd20116b6094af079feefed7c1ff5658',1,'sst::filters']]]
+  ['notch_54',['notch',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad0682496c50c56ab8dc39c36724aa97a',1,'sst::filters::CytomicSVF::NOTCH'],['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9faa70ec028ca3f03d3bf0f8016f8c072a3',1,'sst::filtersplusplus::Notch']]],
+  ['notchmild_55',['NotchMild',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfeca83a1664d71fecb4e25d4f3ee80c7b610',1,'sst::filtersplusplus']]],
+  ['notetopitchignoringtuning_56',['noteToPitchIgnoringTuning',['../structsst_1_1filters_1_1Biquad_1_1DefaultTuningAndDBAdapter.html#ac4aa65a3141d79fe47f8f4b8d427d30a',1,'sst::filters::Biquad::DefaultTuningAndDBAdapter']]],
+  ['num_5ffilter_5ftypes_57',['num_filter_types',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fadd20116b6094af079feefed7c1ff5658',1,'sst::filters']]]
 ];
