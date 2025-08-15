@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['s_0',['s',['../filters_2DiodeLadder_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;DiodeLadder.h'],['../K35Filter_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;K35Filter.h'],['../filters_2ResonanceWarp_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;ResonanceWarp.h'],['../TriPoleFilter_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;TriPoleFilter.h'],['../VintageLadders_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;VintageLadders.h'],['../VintageLadders_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;VintageLadders.h'],['../filters_2CutoffWarp_8h.html#a6788d74a4942a2ca2568da3a582d73a8',1,'S:&#160;CutoffWarp.h']]],
-  ['scenario_1',['SCENARIO',['../catch2_8hpp.html#acf8f441c7b9d70251ccbb7ccd8b83183',1,'catch2.hpp']]],
-  ['scenario_5fmethod_2',['SCENARIO_METHOD',['../catch2_8hpp.html#add17eb8f8d85412a08a8a048cd38f33b',1,'catch2.hpp']]],
-  ['section_3',['SECTION',['../catch2_8hpp.html#ad512fd95a78b95770b9759823f8fbc21',1,'catch2.hpp']]],
-  ['setall_4',['setall',['../CytomicSVF_8h.html#a24945dfd73b918c244cfaa0ce54f5cbb',1,'SETALL:&#160;CytomicSVF.h'],['../FastTiltNoiseFilter_8h.html#a24945dfd73b918c244cfaa0ce54f5cbb',1,'SETALL:&#160;FastTiltNoiseFilter.h']]],
-  ['simde_5fenable_5fnative_5faliases_5',['simde_enable_native_aliases',['../CytomicSVF_8h.html#a3d7b10d1c02ef12d64d7a6fa90e9a1e9',1,'SIMDE_ENABLE_NATIVE_ALIASES:&#160;CytomicSVF.h'],['../FastTiltNoiseFilter_8h.html#a3d7b10d1c02ef12d64d7a6fa90e9a1e9',1,'SIMDE_ENABLE_NATIVE_ALIASES:&#160;FastTiltNoiseFilter.h']]],
-  ['sst_5ffilters_5fcomb_5fextension_5ffactor_6',['SST_FILTERS_COMB_EXTENSION_FACTOR',['../globals_8h.html#af814629a0dda8079fb54801566efe580',1,'globals.h']]],
-  ['static_5frequire_7',['STATIC_REQUIRE',['../catch2_8hpp.html#abad9ff23b730469f209b010e0ac4687c',1,'catch2.hpp']]],
-  ['static_5frequire_5ffalse_8',['STATIC_REQUIRE_FALSE',['../catch2_8hpp.html#ae7506af68f12e7efdb22e951b911b5a0',1,'catch2.hpp']]],
-  ['sub_9',['sub',['../CytomicSVF_8h.html#afd1fa61640f82472385908c74860f792',1,'SUB:&#160;CytomicSVF.h'],['../FastTiltNoiseFilter_8h.html#afd1fa61640f82472385908c74860f792',1,'SUB:&#160;FastTiltNoiseFilter.h']]],
-  ['succeed_10',['SUCCEED',['../catch2_8hpp.html#a8e852a9421caf4fda4e1903d9f02bcf5',1,'catch2.hpp']]]
+  ['reci_0',['reci',['../filters_2DiodeLadder_8h.html#ab2e185f7fb201f61d2516ef60c57a5d3',1,'DiodeLadder.h']]],
+  ['register_5ftest_5fcase_1',['REGISTER_TEST_CASE',['../catch2_8hpp.html#a784b9192db328b4f21186f9b26e4146e',1,'catch2.hpp']]],
+  ['require_2',['REQUIRE',['../catch2_8hpp.html#ad57835ba8f1bb419a865ada6bd011a85',1,'catch2.hpp']]],
+  ['require_5ffalse_3',['REQUIRE_FALSE',['../catch2_8hpp.html#ada5065594bafc152162761ace47c1dcb',1,'catch2.hpp']]],
+  ['require_5fnothrow_4',['REQUIRE_NOTHROW',['../catch2_8hpp.html#ab0148f0dfca438f7aa01974e9c33216a',1,'catch2.hpp']]],
+  ['require_5fthat_5',['REQUIRE_THAT',['../catch2_8hpp.html#ac1354db6f3e9c1e0a8eda0eea7ff1f0a',1,'catch2.hpp']]],
+  ['require_5fthrows_6',['REQUIRE_THROWS',['../catch2_8hpp.html#ae3c33faa1d31a2bb0811dac74b994e3e',1,'catch2.hpp']]],
+  ['require_5fthrows_5fas_7',['REQUIRE_THROWS_AS',['../catch2_8hpp.html#ae24a059e3c28ff3eea69be48282f5f81',1,'catch2.hpp']]],
+  ['require_5fthrows_5fmatches_8',['REQUIRE_THROWS_MATCHES',['../catch2_8hpp.html#a54473a48ac2ac55bfe1165b69e1b8010',1,'catch2.hpp']]],
+  ['require_5fthrows_5fwith_9',['REQUIRE_THROWS_WITH',['../catch2_8hpp.html#aa39a017db507132071d2819f087b2f28',1,'catch2.hpp']]]
 ];

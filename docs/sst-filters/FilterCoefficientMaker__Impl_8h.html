@@ -96,6 +96,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">FilterCoefficientMaker_Impl.h File Reference</div></div>
@@ -110,14 +111,25 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacesst_1_1filters" id="r_namespacesst_1_1filters"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html">sst::filters</a></td></tr>
 <tr class="memdesc:namespacesst_1_1filters"><td class="mdescLeft">&#160;</td><td class="mdescRight">DSP code for Surge filters. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacesst_1_1filters_1_1details" id="r_namespacesst_1_1filters_1_1details"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1details.html">sst::filters::details</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacesst_1_1filters_1_1detail" id="r_namespacesst_1_1filters_1_1detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1detail.html">sst::filters::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a49f38cec0e881e6ecd5677934fc1b834" id="r_a49f38cec0e881e6ecd5677934fc1b834"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FilterCoefficientMaker__Impl_8h.html#a49f38cec0e881e6ecd5677934fc1b834">HAS_MEMBER</a>(x)</td></tr>
+<tr class="separator:a49f38cec0e881e6ecd5677934fc1b834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a716e194562b706ff58d3147e4c54062c" id="r_a716e194562b706ff58d3147e4c54062c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a716e194562b706ff58d3147e4c54062c"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#a716e194562b706ff58d3147e4c54062c">db_to_linear</a> (T in)</td></tr>
 <tr class="separator:a716e194562b706ff58d3147e4c54062c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c82b1e71545dcba368810bafdea558f" id="r_a1c82b1e71545dcba368810bafdea558f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1details.html#a1c82b1e71545dcba368810bafdea558f">HAS_MEMBER</a> (tuningApplicationMode)</td></tr>
+<tr class="separator:a1c82b1e71545dcba368810bafdea558f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70af6fd60b00bedde475bf599226f9a9" id="r_a70af6fd60b00bedde475bf599226f9a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1details.html#a70af6fd60b00bedde475bf599226f9a9">HAS_MEMBER</a> (_patch)</td></tr>
+<tr class="separator:a70af6fd60b00bedde475bf599226f9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f500135c8b71794fb4106ccbbfd79ac" id="r_a7f500135c8b71794fb4106ccbbfd79ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1detail.html#a7f500135c8b71794fb4106ccbbfd79ac">set1f</a> (SIMD_M128 &amp;m, int i, float f)</td></tr>
 <tr class="separator:a7f500135c8b71794fb4106ccbbfd79ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a4ced33095ae3a8a9b055894a688311" id="r_a9a4ced33095ae3a8a9b055894a688311"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1detail.html#a9a4ced33095ae3a8a9b055894a688311">get1f</a> (SIMD_M128 m, int i)</td></tr>
@@ -144,10 +156,36 @@ Variables</h2></td></tr>
 <tr class="memitem:a5dfd97677b1cd6fe8924a63edc9fdcf3" id="r_a5dfd97677b1cd6fe8924a63edc9fdcf3"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#a5dfd97677b1cd6fe8924a63edc9fdcf3">smooth</a> = 0.2f</td></tr>
 <tr class="separator:a5dfd97677b1cd6fe8924a63edc9fdcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a49f38cec0e881e6ecd5677934fc1b834" name="a49f38cec0e881e6ecd5677934fc1b834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49f38cec0e881e6ecd5677934fc1b834">&#9670;&#160;</a></span>HAS_MEMBER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HAS_MEMBER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keyword">class</span> = <span class="keywordtype">void</span>&gt; <span class="keyword">struct </span>has_member_##x : <span class="keyword">public</span> std::false_type                \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">    };                                                                                             \</div>
+<div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;                                                                             \</div>
+<div class="line">    <span class="keyword">struct </span>has_member_##x&lt;T, std::void_t&lt;decltype(T::x)&gt;&gt; : <span class="keyword">public</span> std::true_type                  \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">    };</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 15 2025 15:29:11 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Aug 15 2025 17:24:36 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
