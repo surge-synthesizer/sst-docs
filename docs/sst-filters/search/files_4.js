@@ -10,10 +10,12 @@ var searchData=
   ['filterplotter_2eh_7',['FilterPlotter.h',['../FilterPlotter_8h.html',1,'']]],
   ['filters_2b_2b_2eh_8',['filters++.h',['../filters_09_09_8h.html',1,'']]],
   ['filters_2b_2b_2fmodels_2fcutoffwarp_2eh_9',['CutoffWarp.h',['../filters_09_09_2models_2CutoffWarp_8h.html',1,'']]],
-  ['filters_2b_2b_2fmodels_2fdiodeladder_2eh_10',['DiodeLadder.h',['../filters_09_09_2models_2DiodeLadder_8h.html',1,'']]],
-  ['filters_2b_2b_2fmodels_2fresonancewarp_2eh_11',['ResonanceWarp.h',['../filters_09_09_2models_2ResonanceWarp_8h.html',1,'']]],
-  ['filters_2eh_12',['filters.h',['../filters_8h.html',1,'']]],
-  ['filters_2fcutoffwarp_2eh_13',['CutoffWarp.h',['../filters_2CutoffWarp_8h.html',1,'']]],
-  ['filters_2fdiodeladder_2eh_14',['DiodeLadder.h',['../filters_2DiodeLadder_8h.html',1,'']]],
-  ['filters_2fresonancewarp_2eh_15',['ResonanceWarp.h',['../filters_2ResonanceWarp_8h.html',1,'']]]
+  ['filters_2b_2b_2fmodels_2fcytomicsvf_2eh_10',['CytomicSVF.h',['../filters_09_09_2models_2CytomicSVF_8h.html',1,'']]],
+  ['filters_2b_2b_2fmodels_2fdiodeladder_2eh_11',['DiodeLadder.h',['../filters_09_09_2models_2DiodeLadder_8h.html',1,'']]],
+  ['filters_2b_2b_2fmodels_2fresonancewarp_2eh_12',['ResonanceWarp.h',['../filters_09_09_2models_2ResonanceWarp_8h.html',1,'']]],
+  ['filters_2eh_13',['filters.h',['../filters_8h.html',1,'']]],
+  ['filters_2fcutoffwarp_2eh_14',['CutoffWarp.h',['../filters_2CutoffWarp_8h.html',1,'']]],
+  ['filters_2fcytomicsvf_2eh_15',['CytomicSVF.h',['../filters_2CytomicSVF_8h.html',1,'']]],
+  ['filters_2fdiodeladder_2eh_16',['DiodeLadder.h',['../filters_2DiodeLadder_8h.html',1,'']]],
+  ['filters_2fresonancewarp_2eh_17',['ResonanceWarp.h',['../filters_2ResonanceWarp_8h.html',1,'']]]
 ];

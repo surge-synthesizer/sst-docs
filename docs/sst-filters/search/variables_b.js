@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['m0_0',['m0',['../structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff',1,'sst::filters::CytomicSVF']]],
-  ['m1_1',['m1',['../structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f',1,'sst::filters::CytomicSVF']]],
+  ['m0_0',['m0',['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#aac06e03744dc19a9ea8d29f65f631440',1,'sst::filters::cytomic_quadform::Coeff::m0'],['../structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff',1,'sst::filters::CytomicSVF::m0']]],
+  ['m1_1',['m1',['../structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f',1,'sst::filters::CytomicSVF::m1'],['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#a01bf319e480096c3318581402ea3bf1a',1,'sst::filters::cytomic_quadform::Coeff::m1']]],
   ['m128_5f0123_2',['m128_0123',['../namespacesst_1_1filters_1_1utilities.html#a1582d1e9ca85fab147ddc2c44736a961',1,'sst::filters::utilities']]],
   ['m128_5f1234_3',['m128_1234',['../namespacesst_1_1filters_1_1utilities.html#a2f85a0a045d42bb1045cfa8074365eaa',1,'sst::filters::utilities']]],
   ['m128_5ffour_4',['m128_four',['../namespacesst_1_1filters_1_1utilities.html#a1df440e6033b75787816d586170bdba1',1,'sst::filters::utilities']]],
@@ -11,7 +11,7 @@ var searchData=
   ['m128_5fone_8',['m128_one',['../namespacesst_1_1filters_1_1utilities.html#adc8cdcdc35ecc44c03bbd9acc9fde1fc',1,'sst::filters::utilities']]],
   ['m128_5ftwo_9',['m128_two',['../namespacesst_1_1filters_1_1utilities.html#a6ba492e0aac7156607944f0615198e19',1,'sst::filters::utilities']]],
   ['m128_5fzero_10',['m128_zero',['../namespacesst_1_1filters_1_1utilities.html#a786423a23011850ceab83ac23dae21d9',1,'sst::filters::utilities']]],
-  ['m2_11',['m2',['../structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d',1,'sst::filters::CytomicSVF']]],
+  ['m2_11',['m2',['../structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d',1,'sst::filters::CytomicSVF::m2'],['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#ad5a3745cd46886d873d5f00050c7c36b',1,'sst::filters::cytomic_quadform::Coeff::m2']]],
   ['m_5fcachedtostring_12',['m_cachedToString',['../classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase.html#a811b03e311863985c74b050a127f1c60',1,'Catch::Matchers::Impl::MatcherUntypedBase']]],
   ['m_5fcasesensitivity_13',['m_caseSensitivity',['../structCatch_1_1Matchers_1_1StdString_1_1CasedString.html#ab5bcc7ad016de312b85e6fb935609a53',1,'Catch::Matchers::StdString::CasedString']]],
   ['m_5fcomparator_14',['m_comparator',['../structCatch_1_1Matchers_1_1StdString_1_1StringMatcherBase.html#a47d020c49ccc44c99241e5bdccc411f4',1,'Catch::Matchers::StdString::StringMatcherBase']]],

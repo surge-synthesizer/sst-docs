@@ -10,5 +10,6 @@ var searchData=
   ['comb_5fpositive_5f50_7',['Comb_Positive_50',['../namespacesst_1_1filtersplusplus.html#a375f9a2f522bbab65462b06181aaf0d6ae4a6fb91dcf29a681ccb6f3b54c4ab51',1,'sst::filtersplusplus']]],
   ['comb_5fpositive_5fcontinuousmix_8',['Comb_Positive_ContinuousMix',['../namespacesst_1_1filtersplusplus.html#a375f9a2f522bbab65462b06181aaf0d6a6d30f98a797e3e3bab44bf3cb24a9bff',1,'sst::filtersplusplus']]],
   ['continueonfailure_9',['ContinueOnFailure',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295fa760881b8dc5a350fe1f65aefd9b3b9c6',1,'Catch::ResultDisposition']]],
-  ['cutoffwarp_10',['CutoffWarp',['../namespacesst_1_1filtersplusplus.html#a81e581586e5832eaa622b493223cf9ffa5043df1dd7d25d8f5d80106fb8ec93da',1,'sst::filtersplusplus']]]
+  ['cutoffwarp_10',['CutoffWarp',['../namespacesst_1_1filtersplusplus.html#a81e581586e5832eaa622b493223cf9ffa5043df1dd7d25d8f5d80106fb8ec93da',1,'sst::filtersplusplus']]],
+  ['cytomicsvf_11',['CytomicSVF',['../namespacesst_1_1filtersplusplus.html#a81e581586e5832eaa622b493223cf9ffa7be04ac8d301f0cfdd3fe9f693e4fd16',1,'sst::filtersplusplus']]]
 ];
