@@ -6,12 +6,13 @@ var searchData=
   ['b2_3',['b2',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a746bcb222044619e5a9b335d242a2a92',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b2'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#ac39b96b9ce1bebb56b8030ab42053807',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b2']]],
   ['basevalue_4',['basevalue',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1ModulationDisplay.html#a0ca29e1e1f44f376a7739508006c77ab',1,'sst::basic_blocks::params::ParamMetaData::ModulationDisplay::baseValue'],['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#a5bf6276d445a5f725c9477b56e60dc3a',1,'sst::basic_blocks::tables::TwoToTheXProvider::baseValue']]],
   ['basevalues_5',['baseValues',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
-  ['blep_6',['blep',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#a5d0f1f6e99e7d5c130783f562e83e9bb',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
-  ['block_5fsize_5finv_7',['block_size_inv',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a26b3e57903f57253ac71cf0834d02c08',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::BLOCK_SIZE_INV'],['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a26b3e57903f57253ac71cf0834d02c08',1,'sst::basic_blocks::modulators::SimpleLFO::BLOCK_SIZE_INV']]],
-  ['blocksize_8',['blockSize',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a4aaa73e329d20f35039fa5cdd2e6f648',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['blocksizeinv_9',['blockSizeInv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aad365b34254175c01dc69b321d4dde53',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['bs_5finv_10',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
-  ['bs_5finv_5fdef_11',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
-  ['buffer_12',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
-  ['buffer_5fsz_13',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]]
+  ['bias_6',['bias',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#aa6231a5027112a1cf56c610e6d7d91c5',1,'sst::basic_blocks::dsp::UnisonSetup']]],
+  ['blep_7',['blep',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#a5d0f1f6e99e7d5c130783f562e83e9bb',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
+  ['block_5fsize_5finv_8',['block_size_inv',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a26b3e57903f57253ac71cf0834d02c08',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::BLOCK_SIZE_INV'],['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a26b3e57903f57253ac71cf0834d02c08',1,'sst::basic_blocks::modulators::SimpleLFO::BLOCK_SIZE_INV']]],
+  ['blocksize_9',['blockSize',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a4aaa73e329d20f35039fa5cdd2e6f648',1,'sst::basic_blocks::dsp::lipol_sse']]],
+  ['blocksizeinv_10',['blockSizeInv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aad365b34254175c01dc69b321d4dde53',1,'sst::basic_blocks::dsp::lipol_sse']]],
+  ['bs_5finv_11',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
+  ['bs_5finv_5fdef_12',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
+  ['buffer_13',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
+  ['buffer_5fsz_14',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]]
 ];
