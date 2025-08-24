@@ -10,5 +10,6 @@ var searchData=
   ['firoffset_7',['FIRoffset',['../structsst_1_1basic__blocks_1_1tables_1_1ShortcircuitSincTableProvider.html#afb8441b7a34770a8265256d500c79419',1,'sst::basic_blocks::tables::ShortcircuitSincTableProvider']]],
   ['first_5frun_8',['first_run',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a580ed2f12b661ba032d0e08c549e9d4d',1,'sst::basic_blocks::dsp::lipol::first_run'],['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a580ed2f12b661ba032d0e08c549e9d4d',1,'sst::basic_blocks::dsp::lipol_sse::first_run'],['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a580ed2f12b661ba032d0e08c549e9d4d',1,'sst::basic_blocks::dsp::OnePoleLag::first_run']]],
   ['flags_9',['flags',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a773b39d480759f67926cb18ae2219281',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['float_10',['FLOAT',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ab658a7e242a86f01d39c2fa9c179961d',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['float_10',['FLOAT',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ab658a7e242a86f01d39c2fa9c179961d',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['frames_11',['frames',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincInterpolater.html#a91cbb326aaace0b3f6101e0ecaddc8ed',1,'sst::basic_blocks::dsp::SSESincInterpolater']]]
 ];
