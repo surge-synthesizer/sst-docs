@@ -14,7 +14,7 @@ var searchData=
   ['fut_5fcutoffwarp_5fhp_11',['fut_cutoffwarp_hp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa01213d001b7ce25ba5eb326e0341ddfc',1,'sst::filters']]],
   ['fut_5fcutoffwarp_5flp_12',['fut_cutoffwarp_lp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faca0a95f13a5c0199f5e54ff9765b6c2c',1,'sst::filters']]],
   ['fut_5fcutoffwarp_5fn_13',['fut_cutoffwarp_n',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fae5dce7d790304e15ae0a4b1c75536961',1,'sst::filters']]],
-  ['fut_5fcytomicsvf_14',['fut_cytomicsvf',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa4019fed339280c05161b2f2825a2ad42',1,'sst::filters']]],
+  ['fut_5fcytomic_5fsvf_14',['fut_cytomic_svf',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa82297a64a762548ee1defa8c73208514',1,'sst::filters']]],
   ['fut_5fdiode_15',['fut_diode',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa935a727596903b474fc4d1b65a4a612f',1,'sst::filters']]],
   ['fut_5fhp12_16',['fut_hp12',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa860930bd018f00a66936f04d1474e6c9',1,'sst::filters']]],
   ['fut_5fhp24_17',['fut_hp24',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa64062ea633dd1a07c1b944bed86d5b35',1,'sst::filters']]],

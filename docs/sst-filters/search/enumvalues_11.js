@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tanh_0',['Tanh',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfecacc132a41cab5676334f353a22a0aa5c5',1,'sst::filtersplusplus']]],
+  ['tanh_0',['Tanh',['../namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76acc132a41cab5676334f353a22a0aa5c5',1,'sst::filtersplusplus']]],
   ['thr_5fa0_1',['thr_a0',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a150ef846871372dc0d371903c1606a73a6ea1a32e7a7d617dad801a441bbaae05',1,'sst::filters::TriPoleFilter']]],
   ['thr_5fa1_2',['thr_a1',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a150ef846871372dc0d371903c1606a73a394b482b35523200f5d687126d6832c3',1,'sst::filters::TriPoleFilter']]],
   ['thr_5fa2_3',['thr_a2',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a150ef846871372dc0d371903c1606a73ae41d47be3a10c5ae8c5ee4a994156eb9',1,'sst::filters::TriPoleFilter']]],
@@ -18,6 +18,6 @@ var searchData=
   ['thr_5fz2_15',['thr_z2',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a93eaace6b6329bb890792b0de43f6b0fac35f5724be7a0a24785c2674100d181e',1,'sst::filters::TriPoleFilter']]],
   ['threwexception_16',['ThrewException',['../structCatch_1_1ResultWas.html#a3df655c4352b2a8f892113ec2324ebbaa3c99b9157c64302c5d21fe72d7a5fef3',1,'Catch::ResultWas']]],
   ['throws_17',['Throws',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea2007aa7ffff7adbe8260719b6e22bca3',1,'Catch::TestCaseInfo']]],
-  ['tripole_18',['TriPole',['../namespacesst_1_1filtersplusplus.html#a81e581586e5832eaa622b493223cf9ffa0fc3dc9bb40a8f6e9d3c5299c6bdac86',1,'sst::filtersplusplus']]],
+  ['tripole_18',['TriPole',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a0fc3dc9bb40a8f6e9d3c5299c6bdac86',1,'sst::filtersplusplus']]],
   ['two_5fpole_19',['TWO_POLE',['../namespacesst_1_1filters_1_1OBXDFilter.html#a7333b0d7a4b5625e532f3f704feb0a0ea498953ef19e6517ea9100c7b591a4d7e',1,'sst::filters::OBXDFilter']]]
 ];

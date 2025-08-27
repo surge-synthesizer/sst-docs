@@ -25,13 +25,13 @@ var searchData=
   ['require_5fthrows_5fas_22',['REQUIRE_THROWS_AS',['../catch2_8hpp.html#ae24a059e3c28ff3eea69be48282f5f81',1,'catch2.hpp']]],
   ['require_5fthrows_5fmatches_23',['REQUIRE_THROWS_MATCHES',['../catch2_8hpp.html#a54473a48ac2ac55bfe1165b69e1b8010',1,'catch2.hpp']]],
   ['require_5fthrows_5fwith_24',['REQUIRE_THROWS_WITH',['../catch2_8hpp.html#aa39a017db507132071d2819f087b2f28',1,'catch2.hpp']]],
-  ['requireddelaylinessizes_25',['requiredDelayLinesSizes',['../structsst_1_1filtersplusplus_1_1Filter.html#ac0dd72c059683ae15da44456ccfc49dd',1,'sst::filtersplusplus::Filter']]],
+  ['requireddelaylinessizes_25',['requiredDelayLinesSizes',['../structsst_1_1filtersplusplus_1_1Filter.html#a68c91df8160a22a251f48ba4008ffe11',1,'sst::filtersplusplus::Filter']]],
   ['requirespreparation_26',['requiresPreparation',['../structsst_1_1filtersplusplus_1_1Filter.html#a1e837634d6cb6e4d61b3d1a739a17358',1,'sst::filtersplusplus::Filter']]],
   ['res_5ffactor_5fdb_27',['res_factor_db',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a8a3085e3b9c3c8597d0f006b7909b7a2',1,'sst::filters::TriPoleFilter']]],
   ['res_5fgain_28',['res_gain',['../namespacesst_1_1filters_1_1TriPoleFilter.html#a43809fc2c7f7500e2dd19c43838dd6db',1,'sst::filters::TriPoleFilter']]],
-  ['reset_29',['reset',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a372de693ad40b3f42839c8ec6ac845f4',1,'sst::filters::FilterCoefficientMaker::Reset()'],['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filters::HalfRate::HalfRateFilter::reset()'],['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filtersplusplus::details::FilterPayload::reset()'],['../structsst_1_1filtersplusplus_1_1Filter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filtersplusplus::Filter::reset()']]],
+  ['reset_29',['reset',['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filters::HalfRate::HalfRateFilter::reset()'],['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filtersplusplus::details::FilterPayload::reset()'],['../structsst_1_1filtersplusplus_1_1Filter.html#ad20897c5c8bd47f5d4005989bead0e55',1,'sst::filtersplusplus::Filter::reset()'],['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a372de693ad40b3f42839c8ec6ac845f4',1,'sst::filters::FilterCoefficientMaker::Reset()']]],
   ['resolvelegacytype_30',['resolveLegacyType',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ab97e38b869f89ae935465387dc42b7aa',1,'sst::filtersplusplus::details::FilterPayload']]],
-  ['resonancewarp_31',['ResonanceWarp',['../namespacesst_1_1filtersplusplus.html#a81e581586e5832eaa622b493223cf9ffafbd5273d0efe403bd457c6a46ddf72f4',1,'sst::filtersplusplus']]],
+  ['resonancewarp_31',['ResonanceWarp',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277afbd5273d0efe403bd457c6a46ddf72f4',1,'sst::filtersplusplus']]],
   ['resoscale_32',['resoscale',['../namespacesst_1_1filters.html#ab085483ba34a0cf9631562b4d65548e3',1,'sst::filters']]],
   ['resoscale4pole_33',['resoscale4Pole',['../namespacesst_1_1filters.html#a20b2f959970ce27dce4f2e4d416f6165',1,'sst::filters']]],
   ['result_5ftype_34',['result_type',['../classCatch_1_1SimplePcg32.html#adac493136bfff3943cb165e9c2e2be9a',1,'Catch::SimplePcg32']]],
@@ -46,6 +46,6 @@ var searchData=
   ['rload_43',['Rload',['../namespacesst_1_1filters_1_1TriPoleFilter.html#ace3da00d49f11a2e12a78cf36b0ee228',1,'sst::filters::TriPoleFilter']]],
   ['rng_44',['rng',['../namespaceCatch.html#a8ec43e1151a71d759292eff8f6f5594e',1,'Catch']]],
   ['rngseed_45',['rngSeed',['../namespaceCatch.html#a17880285a46994a714df574bf93669e0',1,'Catch']]],
-  ['rungekutta_46',['RungeKutta',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04ace1e2811d7456a693c9af29a92127f7b',1,'sst::filtersplusplus']]],
-  ['rungekuttacompensated_47',['RungeKuttaCompensated',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04ad6c1eaafc8750200487800ae98a9a57b',1,'sst::filtersplusplus']]]
+  ['rungekutta_46',['RungeKutta',['../namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdace1e2811d7456a693c9af29a92127f7b',1,'sst::filtersplusplus']]],
+  ['rungekuttacompensated_47',['RungeKuttaCompensated',['../namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdad6c1eaafc8750200487800ae98a9a57b',1,'sst::filtersplusplus']]]
 ];

@@ -1,13 +1,13 @@
 var searchData=
 [
   ['params_0',['Params',['../namespacesst_1_1filters_1_1OBXDFilter.html#ab126c13bc335f4a996ef88c85aec7a24',1,'sst::filters::OBXDFilter']]],
-  ['passed_1',['passed',['../structCatch_1_1Counts.html#a22a9f4a956f4f9225265b203f046019b',1,'Catch::Counts']]],
-  ['passtype_2',['passType',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a8c1b2fcbd67e1a07e9dc5bd20a6411a7',1,'sst::filtersplusplus::details::FilterPayload']]],
-  ['passtypes_3',['PassTypes',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9f',1,'sst::filtersplusplus']]],
+  ['passband_1',['Passband',['../namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9',1,'sst::filtersplusplus']]],
+  ['passed_2',['passed',['../structCatch_1_1Counts.html#a22a9f4a956f4f9225265b203f046019b',1,'Catch::Counts']]],
+  ['passtype_3',['passType',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a79e3a086c6fdbcd281e20d0df9787f2c',1,'sst::filtersplusplus::details::FilterPayload']]],
   ['payload_4',['payload',['../structsst_1_1filtersplusplus_1_1Filter.html#a91387e3bd5ec72538c8cc5759ae3e21c',1,'sst::filtersplusplus::Filter']]],
-  ['peak_5',['peak',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0f6636af563208e8d20f301d3ceb3dff',1,'sst::filters::CytomicSVF::PEAK'],['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9faa21e600ebbe2eab6697e3087ee1fdb9f',1,'sst::filtersplusplus::Peak']]],
-  ['phaser_6',['Phaser',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fac7ffeb4f85999b84a15fcd0381db1537',1,'sst::filtersplusplus']]],
-  ['phaserandlp_7',['PhaserAndLP',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fa887b16a47bb1aa0bb453b97c4519580e',1,'sst::filtersplusplus']]],
+  ['peak_5',['peak',['../structsst_1_1filters_1_1CytomicSVF.html#ac3069308e72d6f1e5125beab34db42ddaa21e600ebbe2eab6697e3087ee1fdb9f',1,'sst::filters::CytomicSVF::Peak'],['../namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9aa21e600ebbe2eab6697e3087ee1fdb9f',1,'sst::filtersplusplus::Peak']]],
+  ['phaser_6',['Phaser',['../namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9ac7ffeb4f85999b84a15fcd0381db1537',1,'sst::filtersplusplus']]],
+  ['phaserandlp_7',['PhaserAndLP',['../namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a887b16a47bb1aa0bb453b97c4519580e',1,'sst::filtersplusplus']]],
   ['plot_5fmagnitude_8',['plot_magnitude',['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#a28dfd1527fcf9e09a23aafc14b7d61e0',1,'sst::filters::Biquad::BiquadFilter']]],
   ['plotfiltermagnituderesponse_9',['plotFilterMagnitudeResponse',['../classsst_1_1filters_1_1FilterPlotter.html#a3e9590c115929d85e22aa0ecefb93c9f',1,'sst::filters::FilterPlotter']]],
   ['pluralise_10',['pluralise',['../structCatch_1_1pluralise.html#ae6b1889a1cd40261b867a88409222de0',1,'Catch::pluralise::pluralise()'],['../structCatch_1_1pluralise.html',1,'pluralise']]],
@@ -47,7 +47,7 @@ var searchData=
   ['provider_5fnote_5fto_5fpitch_44',['provider_note_to_pitch',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a48f28af11228c1d3e413879ddea28bf4',1,'sst::filters::FilterCoefficientMaker']]],
   ['provider_5fnote_5fto_5fpitch_5fignoring_5ftuning_45',['provider_note_to_pitch_ignoring_tuning',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a133b63239e78b88603bdf159cb75769d',1,'sst::filters::FilterCoefficientMaker']]],
   ['provider_5fnote_5fto_5fpitch_5finv_5fignoring_5ftuning_46',['provider_note_to_pitch_inv_ignoring_tuning',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#ada49f044e3b65df9efc1a82c0655104d',1,'sst::filters::FilterCoefficientMaker']]],
-  ['pt_47',['pt',['../structsst_1_1filtersplusplus_1_1ModelConfig.html#af6902c44b762247517913cd83887a32e',1,'sst::filtersplusplus::ModelConfig']]],
-  ['pushed_48',['Pushed',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfeca3708e64f94c2135feadb4e2ae3cc89e4',1,'sst::filtersplusplus']]],
+  ['pt_47',['pt',['../structsst_1_1filtersplusplus_1_1ModelConfig.html#ae0276dfdda03a1b26b7eefc273211619',1,'sst::filtersplusplus::ModelConfig']]],
+  ['pushed_48',['Pushed',['../namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76a3708e64f94c2135feadb4e2ae3cc89e4',1,'sst::filtersplusplus']]],
   ['pushscopedmessage_49',['pushScopedMessage',['../structCatch_1_1IResultCapture.html#a2a3670ca594c6a5f7cc1723f58ad8492',1,'Catch::IResultCapture']]]
 ];
