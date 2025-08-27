@@ -30,8 +30,9 @@ var searchData=
   ['highshelf_27',['HighShelf',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9faaafe3de5c829706a2fda73dd43fd740e',1,'sst::filtersplusplus']]],
   ['host_28',['host',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a1fc6469521d2443dee57582d76c7d2a2',1,'sst::filters::FastTiltNoiseFilter']]],
   ['hp_29',['hp',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911a3b47f547ec1200c4854206be912c2c4c',1,'sst::filters::CytomicSVF::HP'],['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fae6fc8ce107f2bdf0955f021a391514ce',1,'sst::filtersplusplus::HP']]],
-  ['huov_30',['Huov',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04a35e74bddba1e790b23cf1afa789e2922',1,'sst::filtersplusplus']]],
-  ['huov_5fcoeffs_31',['huov_coeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5',1,'sst::filters::VintageLadder::Huov']]],
-  ['huov_5fregoffsets_32',['huov_regoffsets',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57e',1,'sst::filters::VintageLadder::Huov']]],
-  ['huovcompensated_33',['HuovCompensated',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04abc501ce3f2c8c7a23f63365c6afe8270',1,'sst::filtersplusplus']]]
+  ['hpandlp_30',['HPAndLP',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fa7f394e26e74211bf1762c958271aa124',1,'sst::filtersplusplus']]],
+  ['huov_31',['Huov',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04a35e74bddba1e790b23cf1afa789e2922',1,'sst::filtersplusplus']]],
+  ['huov_5fcoeffs_32',['huov_coeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5',1,'sst::filters::VintageLadder::Huov']]],
+  ['huov_5fregoffsets_33',['huov_regoffsets',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a43e7089944c6b4d8675ca24e7feed57e',1,'sst::filters::VintageLadder::Huov']]],
+  ['huovcompensated_34',['HuovCompensated',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04abc501ce3f2c8c7a23f63365c6afe8270',1,'sst::filtersplusplus']]]
 ];

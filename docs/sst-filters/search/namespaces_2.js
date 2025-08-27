@@ -33,11 +33,12 @@ var searchData=
   ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3ak35_30',['k35',['../namespacesst_1_1filtersplusplus_1_1models_1_1k35.html',1,'sst::filtersplusplus::models']]],
   ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3aobxd_5f2pole_31',['obxd_2pole',['../namespacesst_1_1filtersplusplus_1_1models_1_1obxd__2pole.html',1,'sst::filtersplusplus::models']]],
   ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3aobxd_5f4pole_32',['obxd_4pole',['../namespacesst_1_1filtersplusplus_1_1models_1_1obxd__4pole.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3aresonancewarp_33',['resonancewarp',['../namespacesst_1_1filtersplusplus_1_1models_1_1resonancewarp.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3asampleandhold_34',['sampleandhold',['../namespacesst_1_1filtersplusplus_1_1models_1_1sampleandhold.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3atripole_35',['tripole',['../namespacesst_1_1filtersplusplus_1_1models_1_1tripole.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberallpass_36',['vemberallpass',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberallpass.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberclassic_37',['vemberclassic',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberclassic.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberladder_38',['vemberladder',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberladder.html',1,'sst::filtersplusplus::models']]],
-  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avintageladder_39',['vintageladder',['../namespacesst_1_1filtersplusplus_1_1models_1_1vintageladder.html',1,'sst::filtersplusplus::models']]]
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3aobxd_5fxpander_33',['obxd_xpander',['../namespacesst_1_1filtersplusplus_1_1models_1_1obxd__xpander.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3aresonancewarp_34',['resonancewarp',['../namespacesst_1_1filtersplusplus_1_1models_1_1resonancewarp.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3asampleandhold_35',['sampleandhold',['../namespacesst_1_1filtersplusplus_1_1models_1_1sampleandhold.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3atripole_36',['tripole',['../namespacesst_1_1filtersplusplus_1_1models_1_1tripole.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberallpass_37',['vemberallpass',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberallpass.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberclassic_38',['vemberclassic',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberclassic.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberladder_39',['vemberladder',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberladder.html',1,'sst::filtersplusplus::models']]],
+  ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avintageladder_40',['vintageladder',['../namespacesst_1_1filtersplusplus_1_1models_1_1vintageladder.html',1,'sst::filtersplusplus::models']]]
 ];

@@ -39,6 +39,7 @@ var searchData=
   ['nonportable_36',['NonPortable',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3eac6e098ec8847f0df2d8ad35c6aab32d1',1,'Catch::TestCaseInfo']]],
   ['normal_37',['Normal',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295fa5ecbcf0afce98b042f35ec71ba03fa4b',1,'Catch::ResultDisposition']]],
   ['notch_38',['notch',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad0682496c50c56ab8dc39c36724aa97a',1,'sst::filters::CytomicSVF::NOTCH'],['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9faa70ec028ca3f03d3bf0f8016f8c072a3',1,'sst::filtersplusplus::Notch']]],
-  ['notchmild_39',['NotchMild',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfeca83a1664d71fecb4e25d4f3ee80c7b610',1,'sst::filtersplusplus']]],
-  ['num_5ffilter_5ftypes_40',['num_filter_types',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fadd20116b6094af079feefed7c1ff5658',1,'sst::filters']]]
+  ['notchandlp_39',['NotchAndLP',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fa93a75b8b3b263dca6365a48e00467ed9',1,'sst::filtersplusplus']]],
+  ['notchmild_40',['NotchMild',['../namespacesst_1_1filtersplusplus.html#a0489bf589191fe778eb6b15a4f03bfeca83a1664d71fecb4e25d4f3ee80c7b610',1,'sst::filtersplusplus']]],
+  ['num_5ffilter_5ftypes_41',['num_filter_types',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fadd20116b6094af079feefed7c1ff5658',1,'sst::filters']]]
 ];

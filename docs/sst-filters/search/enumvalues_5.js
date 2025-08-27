@@ -31,12 +31,13 @@ var searchData=
   ['fut_5fobxd_5f2pole_5flp_28',['fut_obxd_2pole_lp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa5b1577908496d6c063b19d0e70528cd8',1,'sst::filters']]],
   ['fut_5fobxd_5f2pole_5fn_29',['fut_obxd_2pole_n',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fae7c43f1b7dc9519a3fd3d49d8dea0507',1,'sst::filters']]],
   ['fut_5fobxd_5f4pole_30',['fut_obxd_4pole',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa9ee024cf497f56e312e0a82944bbb21b',1,'sst::filters']]],
-  ['fut_5fresonancewarp_5fap_31',['fut_resonancewarp_ap',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa5d7f1ce67c28d32388affb1a2f0347dd',1,'sst::filters']]],
-  ['fut_5fresonancewarp_5fbp_32',['fut_resonancewarp_bp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fad89d9e2b705a7a983a462adb1d0304c7',1,'sst::filters']]],
-  ['fut_5fresonancewarp_5fhp_33',['fut_resonancewarp_hp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fafc7a205bbf76c0c3cbe5cba551c812c2',1,'sst::filters']]],
-  ['fut_5fresonancewarp_5flp_34',['fut_resonancewarp_lp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faa99881df93a8eb10164a6cbadbb8714a',1,'sst::filters']]],
-  ['fut_5fresonancewarp_5fn_35',['fut_resonancewarp_n',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faabd668443534fa42a1ed6c3e44981ac4',1,'sst::filters']]],
-  ['fut_5fsnh_36',['fut_SNH',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa11093d9dc94aaa0359025a8ed9447d32',1,'sst::filters']]],
-  ['fut_5ftripole_37',['fut_tripole',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa42fc17ad79a303fbc4a36cda9dc18a51',1,'sst::filters']]],
-  ['fut_5fvintageladder_38',['fut_vintageladder',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa633c95b6e15cda622052174224973609',1,'sst::filters']]]
+  ['fut_5fobxd_5fxpander_31',['fut_obxd_xpander',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa39a723d0c829b50c6eb1c8facd4e8305',1,'sst::filters']]],
+  ['fut_5fresonancewarp_5fap_32',['fut_resonancewarp_ap',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa5d7f1ce67c28d32388affb1a2f0347dd',1,'sst::filters']]],
+  ['fut_5fresonancewarp_5fbp_33',['fut_resonancewarp_bp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fad89d9e2b705a7a983a462adb1d0304c7',1,'sst::filters']]],
+  ['fut_5fresonancewarp_5fhp_34',['fut_resonancewarp_hp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fafc7a205bbf76c0c3cbe5cba551c812c2',1,'sst::filters']]],
+  ['fut_5fresonancewarp_5flp_35',['fut_resonancewarp_lp',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faa99881df93a8eb10164a6cbadbb8714a',1,'sst::filters']]],
+  ['fut_5fresonancewarp_5fn_36',['fut_resonancewarp_n',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94faabd668443534fa42a1ed6c3e44981ac4',1,'sst::filters']]],
+  ['fut_5fsnh_37',['fut_SNH',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa11093d9dc94aaa0359025a8ed9447d32',1,'sst::filters']]],
+  ['fut_5ftripole_38',['fut_tripole',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa42fc17ad79a303fbc4a36cda9dc18a51',1,'sst::filters']]],
+  ['fut_5fvintageladder_39',['fut_vintageladder',['../namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94fa633c95b6e15cda622052174224973609',1,'sst::filters']]]
 ];

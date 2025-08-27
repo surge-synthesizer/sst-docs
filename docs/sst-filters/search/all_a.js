@@ -8,7 +8,7 @@ var searchData=
   ['license_5',['LICENSE',['../md_LICENSE.html',1,'']]],
   ['license_2emd_6',['LICENSE.md',['../LICENSE_8md.html',1,'']]],
   ['line_7',['line',['../structCatch_1_1SourceLineInfo.html#a053c9ceec697d4fbb801bcd7bc06d139',1,'Catch::SourceLineInfo']]],
-  ['lineinfo_8',['lineinfo',['../structCatch_1_1MessageInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::MessageInfo::lineInfo'],['../structCatch_1_1SectionInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::SectionInfo::lineInfo'],['../structCatch_1_1TestCaseInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::TestCaseInfo::lineInfo'],['../structCatch_1_1AssertionInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::AssertionInfo::lineInfo']]],
+  ['lineinfo_8',['lineinfo',['../structCatch_1_1SectionInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::SectionInfo::lineInfo'],['../structCatch_1_1AssertionInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::AssertionInfo::lineInfo'],['../structCatch_1_1MessageInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::MessageInfo::lineInfo'],['../structCatch_1_1TestCaseInfo.html#a859bf84dc0c6bd55bc794d80cb3fe452',1,'Catch::TestCaseInfo::lineInfo']]],
   ['load_5fcoefficients_9',['load_coefficients',['../classsst_1_1filters_1_1HalfRate_1_1HalfRateFilter.html#a15c5ef6505c19a4ff5c8c1c9b1a1b846',1,'sst::filters::HalfRate::HalfRateFilter']]],
   ['log_5falpha_10',['log_alpha',['../namespacesst_1_1filters_1_1TriPoleFilter_1_1ResWaveshaper.html#a2269043c13c4431d154d08f05647279b',1,'sst::filters::TriPoleFilter::ResWaveshaper']]],
   ['lookup_11',['lookup',['../structCatch_1_1Detail_1_1EnumInfo.html#ad886298ac333820e5f7c61c9c4a4e1ee',1,'Catch::Detail::EnumInfo']]],
@@ -17,5 +17,10 @@ var searchData=
   ['lowlowlow_14',['LowLowLow',['../namespacesst_1_1filtersplusplus.html#ab794dae93eed6e1041d72f4d662b8c04a7c9a059b0b39a28ea001a1b72c4fa481',1,'sst::filtersplusplus']]],
   ['lowshelf_15',['LowShelf',['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fa04efcd6f392567e252822d1247d8c875',1,'sst::filtersplusplus']]],
   ['lp_16',['lp',['../structsst_1_1filters_1_1CytomicSVF.html#a46c8a310cf4c094f8c80e1cb8dc1f911a417c69b8c9313307f484fd52ea61db84',1,'sst::filters::CytomicSVF::LP'],['../namespacesst_1_1filtersplusplus.html#a795343ba96350d0490da1819bafb4c9fa233724c5adf28da47784390134db3c66',1,'sst::filtersplusplus::LP']]],
-  ['lpmoogquad_17',['LPMOOGquad',['../namespacesst_1_1filters.html#a6150120f9d02e24bc92eb90aeb80d9b1',1,'sst::filters']]]
+  ['lp12_17',['LP12',['../namespacesst_1_1filters_1_1OBXDFilter.html#ac6374fff8e9aa219691f44ffba5632b5a47952f3001646f0061c74206de781401',1,'sst::filters::OBXDFilter']]],
+  ['lp18_18',['LP18',['../namespacesst_1_1filters_1_1OBXDFilter.html#ac6374fff8e9aa219691f44ffba5632b5ab5f0403d9fa836836d414dac1ed77c1b',1,'sst::filters::OBXDFilter']]],
+  ['lp24_19',['LP24',['../namespacesst_1_1filters_1_1OBXDFilter.html#ac6374fff8e9aa219691f44ffba5632b5a84dc8bad57cf0da7dd08387a4c999160',1,'sst::filters::OBXDFilter']]],
+  ['lp6_20',['LP6',['../namespacesst_1_1filters_1_1OBXDFilter.html#ac6374fff8e9aa219691f44ffba5632b5a0118f80d23eec5dcb0ee14bcb8961f1c',1,'sst::filters::OBXDFilter']]],
+  ['lpbroken24_21',['LPBroken24',['../namespacesst_1_1filters_1_1OBXDFilter.html#ac6374fff8e9aa219691f44ffba5632b5aecba6bc51afa4a1707e755ea37ef2220',1,'sst::filters::OBXDFilter']]],
+  ['lpmoogquad_22',['LPMOOGquad',['../namespacesst_1_1filters.html#a6150120f9d02e24bc92eb90aeb80d9b1',1,'sst::filters']]]
 ];

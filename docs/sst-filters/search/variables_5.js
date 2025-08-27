@@ -18,7 +18,7 @@ var searchData=
   ['firsta1_15',['firstA1',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#ae0706299ff95050c79864ccbd2718cc0',1,'sst::filters::FastTiltNoiseFilter']]],
   ['firsta2_16',['firstA2',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a71043523c665d97c833b91697748b954',1,'sst::filters::FastTiltNoiseFilter']]],
   ['firsta3_17',['firstA3',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#ae4fff8c650ae59c4bed7ac37e3e5d341',1,'sst::filters::FastTiltNoiseFilter']]],
-  ['firstblock_18',['firstblock',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a60299141280d12a48c0bbcbe513beee2',1,'sst::filters::FastTiltNoiseFilter::firstBlock'],['../structsst_1_1filters_1_1CytomicSVF.html#a60299141280d12a48c0bbcbe513beee2',1,'sst::filters::CytomicSVF::firstBlock']]],
+  ['firstblock_18',['firstblock',['../structsst_1_1filters_1_1CytomicSVF.html#a60299141280d12a48c0bbcbe513beee2',1,'sst::filters::CytomicSVF::firstBlock'],['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a60299141280d12a48c0bbcbe513beee2',1,'sst::filters::FastTiltNoiseFilter::firstBlock']]],
   ['firstd0_19',['firstD0',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#ad92db5ff1fc923e0bc53aff5eb911369',1,'sst::filters::FastTiltNoiseFilter']]],
   ['firstd1_20',['firstD1',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a97edc7058fb6993be8b2b8eb14b7bea3',1,'sst::filters::FastTiltNoiseFilter']]],
   ['firstd2_21',['firstD2',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#a2b5a50e3a43e665e3204ecc7b6f9a2c3',1,'sst::filters::FastTiltNoiseFilter']]],
@@ -44,8 +44,9 @@ var searchData=
   ['fut_5fnotch_5fsubtypes_41',['fut_notch_subtypes',['../namespacesst_1_1filters.html#a5ce42641e3be5824c295552b74ad2b97',1,'sst::filters']]],
   ['fut_5fobxd_5f2p_5fsubtypes_42',['fut_obxd_2p_subtypes',['../namespacesst_1_1filters.html#a8b2eee68f130d1d56fd014721824708b',1,'sst::filters']]],
   ['fut_5fobxd_5f4p_5fsubtypes_43',['fut_obxd_4p_subtypes',['../namespacesst_1_1filters.html#a01bbe5befe48b275d1a22dfeafe1993f',1,'sst::filters']]],
-  ['fut_5fsubcount_44',['fut_subcount',['../namespacesst_1_1filters.html#ad592387c6c95d69adc9ca034c33ba854',1,'sst::filters']]],
-  ['fut_5ftripole_5foutput_5fstage_45',['fut_tripole_output_stage',['../namespacesst_1_1filters.html#adebe0bce0c399983dccd4aaeb283b351',1,'sst::filters']]],
-  ['fut_5ftripole_5fsubtypes_46',['fut_tripole_subtypes',['../namespacesst_1_1filters.html#a7a2621a3b77adf617e11c51517375507',1,'sst::filters']]],
-  ['fut_5fvintageladder_5fsubtypes_47',['fut_vintageladder_subtypes',['../namespacesst_1_1filters.html#a84748d3c4a9080ee1440bf2ea4349dd9',1,'sst::filters']]]
+  ['fut_5fobxd_5fxpander_5fsubtypes_44',['fut_obxd_xpander_subtypes',['../namespacesst_1_1filters.html#ab5cd92ef44ece4eddac0479371b7f39a',1,'sst::filters']]],
+  ['fut_5fsubcount_45',['fut_subcount',['../namespacesst_1_1filters.html#ad592387c6c95d69adc9ca034c33ba854',1,'sst::filters']]],
+  ['fut_5ftripole_5foutput_5fstage_46',['fut_tripole_output_stage',['../namespacesst_1_1filters.html#adebe0bce0c399983dccd4aaeb283b351',1,'sst::filters']]],
+  ['fut_5ftripole_5fsubtypes_47',['fut_tripole_subtypes',['../namespacesst_1_1filters.html#a7a2621a3b77adf617e11c51517375507',1,'sst::filters']]],
+  ['fut_5fvintageladder_5fsubtypes_48',['fut_vintageladder_subtypes',['../namespacesst_1_1filters.html#a84748d3c4a9080ee1440bf2ea4349dd9',1,'sst::filters']]]
 ];
