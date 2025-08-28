@@ -154,12 +154,10 @@ Macros</h2></td></tr>
 <div class="line">    {                                                                                              \</div>
 <div class="line">        <span class="keyword">namespace </span>ms = ns;                                                                         \</div>
 <div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> &amp;s = ms::getModelConfigurations();                                              \</div>
-<div class="line">        <span class="keyword">auto</span> pos = s.find(modelConfig_t{passType, slopeLevel, driveType, subModelType});           \</div>
+<div class="line">        <span class="keyword">auto</span> pos = s.find(mc);                                                                     \</div>
 <div class="line">        if (pos != s.end())                                                                        \</div>
 <div class="line">        {                                                                                          \</div>
-<div class="line">            currentLegacyType = pos-&gt;second;                                                       \</div>
-<div class="line">            valid = <span class="keyword">true</span>;                                                                          \</div>
-<div class="line">            <span class="keywordflow">return</span> currentLegacyType;                                                              \</div>
+<div class="line">            <span class="keywordflow">return</span> pos-&gt;second;                                                                    \</div>
 <div class="line">        }                                                                                          \</div>
 <div class="line">    }                                                                                              \</div>
 <div class="line">    <span class="keywordflow">break</span>;</div>
@@ -209,7 +207,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 28 2025 00:46:41 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Aug 28 2025 13:22:18 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

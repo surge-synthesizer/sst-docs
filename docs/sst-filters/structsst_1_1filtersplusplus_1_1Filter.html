@@ -95,6 +95,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -108,6 +109,12 @@ $(function() {
 
 <p><code>#include &lt;api.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ad748da33f7ae6e231e9a4f85505eb7a1" id="r_ad748da33f7ae6e231e9a4f85505eb7a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad748da33f7ae6e231e9a4f85505eb7a1">legacyType_t</a> = std::pair&lt; <a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94f">sst::filters::FilterType</a>, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1eba">sst::filters::FilterSubType</a> &gt;</td></tr>
+<tr class="memdesc:ad748da33f7ae6e231e9a4f85505eb7a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API connects us to the legacy enum types for a given model.  <br /></td></tr>
+<tr class="separator:ad748da33f7ae6e231e9a4f85505eb7a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a2e392ad01861daa90acdbffca772dc" id="r_a1a2e392ad01861daa90acdbffca772dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a2e392ad01861daa90acdbffca772dc">setFilterModel</a> (<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> model)</td></tr>
@@ -202,6 +209,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adcc1ea3d3ca6b35171fecfc9ac377f35" id="r_adcc1ea3d3ca6b35171fecfc9ac377f35"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">availableModelConfigurations</a> (<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> model, bool sort=false)</td></tr>
 <tr class="memdesc:adcc1ea3d3ca6b35171fecfc9ac377f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">For a given model, return the configurations that model supports.  <br /></td></tr>
 <tr class="separator:adcc1ea3d3ca6b35171fecfc9ac377f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed717f8d9515f2135170ef7102154fa" id="r_a2ed717f8d9515f2135170ef7102154fa"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad748da33f7ae6e231e9a4f85505eb7a1">legacyType_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a2ed717f8d9515f2135170ef7102154fa">getLegacyTypeFor</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;m, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;c)</td></tr>
+<tr class="separator:a2ed717f8d9515f2135170ef7102154fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -250,8 +259,25 @@ Protected Attributes</h2></td></tr>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="acatch2_8hpp_html_ad57835ba8f1bb419a865ada6bd011a85"><div class="ttname"><a href="catch2_8hpp.html#ad57835ba8f1bb419a865ada6bd011a85">REQUIRE</a></div><div class="ttdeci">#define REQUIRE(...)</div><div class="ttdef"><b>Definition</b> catch2.hpp:17659</div></div>
-<div class="ttc" id="anamespacesst_1_1filtersplusplus_html"><div class="ttname"><a href="namespacesst_1_1filtersplusplus.html">sst::filtersplusplus</a></div><div class="ttdef"><b>Definition</b> api.h:28</div></div>
-</div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="ttc" id="anamespacesst_1_1filtersplusplus_html"><div class="ttname"><a href="namespacesst_1_1filtersplusplus.html">sst::filtersplusplus</a></div><div class="ttdef"><b>Definition</b> api.h:29</div></div>
+</div><!-- fragment --> </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ad748da33f7ae6e231e9a4f85505eb7a1" name="ad748da33f7ae6e231e9a4f85505eb7a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad748da33f7ae6e231e9a4f85505eb7a1">&#9670;&#160;</a></span>legacyType_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad748da33f7ae6e231e9a4f85505eb7a1">legacyType_t</a> =  std::pair&lt;<a class="el" href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94f">sst::filters::FilterType</a>, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1eba">sst::filters::FilterSubType</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API connects us to the legacy enum types for a given model. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1a2e392ad01861daa90acdbffca772dc" name="a1a2e392ad01861daa90acdbffca772dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a2e392ad01861daa90acdbffca772dc">&#9670;&#160;</a></span>setFilterModel()</h2>
 
@@ -1200,6 +1226,44 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2ed717f8d9515f2135170ef7102154fa" name="a2ed717f8d9515f2135170ef7102154fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ed717f8d9515f2135170ef7102154fa">&#9670;&#160;</a></span>getLegacyTypeFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::optional&lt; <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad748da33f7ae6e231e9a4f85505eb7a1">legacyType_t</a> &gt; getLegacyTypeFor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a911d268868a202d3d3b533193dcfaff5">FilterPayload::resolveLegacyTypeFor()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a91387e3bd5ec72538c8cc5759ae3e21c" name="a91387e3bd5ec72538c8cc5759ae3e21c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91387e3bd5ec72538c8cc5759ae3e21c">&#9670;&#160;</a></span>payload</h2>
@@ -1232,7 +1296,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 28 2025 00:46:41 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Aug 28 2025 13:22:18 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

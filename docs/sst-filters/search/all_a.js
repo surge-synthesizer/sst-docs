@@ -4,7 +4,7 @@ var searchData=
   ['lastassertionpassed_1',['lastAssertionPassed',['../structCatch_1_1IResultCapture.html#ae7b44bdbf1982f1ce70a0e0e624079b9',1,'Catch::IResultCapture']]],
   ['lazyexpression_2',['lazyexpression',['../classCatch_1_1LazyExpression.html',1,'LazyExpression'],['../classCatch_1_1LazyExpression.html#a83e974d477491201098434c225d6f45f',1,'Catch::LazyExpression::LazyExpression(bool isNegated)'],['../classCatch_1_1LazyExpression.html#a20860c6210e2b560758b3ee9fdc209d1',1,'Catch::LazyExpression::LazyExpression(LazyExpression const &amp;other)']]],
   ['lcasetags_3',['lcaseTags',['../structCatch_1_1TestCaseInfo.html#a1f3a8835a359f5dd8a103d6f1719fcde',1,'Catch::TestCaseInfo']]],
-  ['legacytype_5ft_4',['legacyType_t',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad748da33f7ae6e231e9a4f85505eb7a1',1,'sst::filtersplusplus::details::FilterPayload']]],
+  ['legacytype_5ft_4',['legacytype_t',['../structsst_1_1filtersplusplus_1_1Filter.html#ad748da33f7ae6e231e9a4f85505eb7a1',1,'sst::filtersplusplus::Filter::legacyType_t'],['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad748da33f7ae6e231e9a4f85505eb7a1',1,'sst::filtersplusplus::details::FilterPayload::legacyType_t']]],
   ['license_5',['LICENSE',['../md_LICENSE.html',1,'']]],
   ['license_2emd_6',['LICENSE.md',['../LICENSE_8md.html',1,'']]],
   ['line_7',['line',['../structCatch_1_1SourceLineInfo.html#a053c9ceec697d4fbb801bcd7bc06d139',1,'Catch::SourceLineInfo']]],
