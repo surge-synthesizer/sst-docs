@@ -123,21 +123,20 @@ Enumerations</h2></td></tr>
 <tr class="memitem:af6e1b94c85265337c3ad6ae28b891277" id="r_af6e1b94c85265337c3ad6ae28b891277"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> : uint32_t { <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277ad15305d7a4e34e02489c74a5ef542f36">Off</a> = 0
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a6c779722bd0b5405629d680c27f22a02">VemberClassic</a> = 0x10
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a893f3be56a7f4e76ce0974a3c1dd39e4">VemberAllpass</a> = 0x15
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277ac28fc8e66f8645d7b3d726a16224aa97">VemberLadder</a> = 0x18
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16">CytomicSVF</a> = 0x20
 , <br />
-&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16">CytomicSVF</a> = 0x20
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd">K35</a> = 0x30
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd">K35</a> = 0x30
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277acc7fde190d78c538311c547b2cf4e1ed">DiodeLadder</a> = 0x35
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a51dfac0ccef5bd25bb26c235f1aa7d92">OBXD_4Pole</a> = 0x40
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a3332df7833bb6d951f20615e6b22fbfa">OBXD_2Pole</a> = 0x45
 , <br />
-&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a3332df7833bb6d951f20615e6b22fbfa">OBXD_2Pole</a> = 0x45
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a1404e3731262463f1681ca9e4fe6de06">OBXD_Xpander</a> = 0x47
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a1404e3731262463f1681ca9e4fe6de06">OBXD_Xpander</a> = 0x47
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a2fc520883f1d4838eb363fd1c0d38a85">VintageLadder</a> = 0x50
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a5043df1dd7d25d8f5d80106fb8ec93da">CutoffWarp</a> = 0x60
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277afbd5273d0efe403bd457c6a46ddf72f4">ResonanceWarp</a> = 0x65
 , <br />
-&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277afbd5273d0efe403bd457c6a46ddf72f4">ResonanceWarp</a> = 0x65
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a0fc3dc9bb40a8f6e9d3c5299c6bdac86">TriPole</a> = 0x70
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a0fc3dc9bb40a8f6e9d3c5299c6bdac86">TriPole</a> = 0x70
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a727a6902aa157bdec751ce0739490899">Comb</a> = 0x80
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7b1d44f330826d642a6ade492ca28031">SampleAndHold</a> = 0x85
 <br />
@@ -274,7 +273,6 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af6e1b94c85265337c3ad6ae28b891277ad15305d7a4e34e02489c74a5ef542f36" name="af6e1b94c85265337c3ad6ae28b891277ad15305d7a4e34e02489c74a5ef542f36"></a>Off&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6e1b94c85265337c3ad6ae28b891277a6c779722bd0b5405629d680c27f22a02" name="af6e1b94c85265337c3ad6ae28b891277a6c779722bd0b5405629d680c27f22a02"></a>VemberClassic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6e1b94c85265337c3ad6ae28b891277a893f3be56a7f4e76ce0974a3c1dd39e4" name="af6e1b94c85265337c3ad6ae28b891277a893f3be56a7f4e76ce0974a3c1dd39e4"></a>VemberAllpass&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6e1b94c85265337c3ad6ae28b891277ac28fc8e66f8645d7b3d726a16224aa97" name="af6e1b94c85265337c3ad6ae28b891277ac28fc8e66f8645d7b3d726a16224aa97"></a>VemberLadder&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16" name="af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16"></a>CytomicSVF&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd" name="af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd"></a>K35&#160;</td><td class="fielddoc"></td></tr>
@@ -494,7 +492,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a727a6902aa157bdec751ce0739490899">Comb</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a5043df1dd7d25d8f5d80106fb8ec93da">CutoffWarp</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16">CytomicSVF</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277acc7fde190d78c538311c547b2cf4e1ed">DiodeLadder</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd">K35</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a3332df7833bb6d951f20615e6b22fbfa">OBXD_2Pole</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a51dfac0ccef5bd25bb26c235f1aa7d92">OBXD_4Pole</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a1404e3731262463f1681ca9e4fe6de06">OBXD_Xpander</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277ad15305d7a4e34e02489c74a5ef542f36">Off</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277afbd5273d0efe403bd457c6a46ddf72f4">ResonanceWarp</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7b1d44f330826d642a6ade492ca28031">SampleAndHold</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a0fc3dc9bb40a8f6e9d3c5299c6bdac86">TriPole</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a893f3be56a7f4e76ce0974a3c1dd39e4">VemberAllpass</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a6c779722bd0b5405629d680c27f22a02">VemberClassic</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277ac28fc8e66f8645d7b3d726a16224aa97">VemberLadder</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a2fc520883f1d4838eb363fd1c0d38a85">VintageLadder</a>.</p>
+<p class="reference">References <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a727a6902aa157bdec751ce0739490899">Comb</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a5043df1dd7d25d8f5d80106fb8ec93da">CutoffWarp</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16">CytomicSVF</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277acc7fde190d78c538311c547b2cf4e1ed">DiodeLadder</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd">K35</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a3332df7833bb6d951f20615e6b22fbfa">OBXD_2Pole</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a51dfac0ccef5bd25bb26c235f1aa7d92">OBXD_4Pole</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a1404e3731262463f1681ca9e4fe6de06">OBXD_Xpander</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277ad15305d7a4e34e02489c74a5ef542f36">Off</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277afbd5273d0efe403bd457c6a46ddf72f4">ResonanceWarp</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7b1d44f330826d642a6ade492ca28031">SampleAndHold</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a0fc3dc9bb40a8f6e9d3c5299c6bdac86">TriPole</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a6c779722bd0b5405629d680c27f22a02">VemberClassic</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277ac28fc8e66f8645d7b3d726a16224aa97">VemberLadder</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a2fc520883f1d4838eb363fd1c0d38a85">VintageLadder</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ac8368a92723f5dc5b3489055655c2e8b">FilterPayload::displayName()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a1fe5121d6528fdea3f243321b3fa3a49">ModelConfig::toString()</a>.</p>
 
@@ -657,7 +655,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 28 2025 13:22:18 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Aug 28 2025 15:09:52 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
