@@ -1,7 +1,7 @@
 var searchData=
 [
   ['plot_5fmagnitude_0',['plot_magnitude',['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#a28dfd1527fcf9e09a23aafc14b7d61e0',1,'sst::filters::Biquad::BiquadFilter']]],
-  ['plotfiltermagnituderesponse_1',['plotFilterMagnitudeResponse',['../classsst_1_1filters_1_1FilterPlotter.html#a3e9590c115929d85e22aa0ecefb93c9f',1,'sst::filters::FilterPlotter']]],
+  ['plotfiltermagnituderesponse_1',['plotfiltermagnituderesponse',['../classsst_1_1filters_1_1FilterPlotter.html#a3e9590c115929d85e22aa0ecefb93c9f',1,'sst::filters::FilterPlotter::plotFilterMagnitudeResponse(sst::filters::FilterType filterType, sst::filters::FilterSubType filterSubType, float pitch, float res, const FilterPlotParameters &amp;params={})'],['../classsst_1_1filters_1_1FilterPlotter.html#a343718a1d67d681a3c954413046465b1',1,'sst::filters::FilterPlotter::plotFilterMagnitudeResponse(sst::filters::FilterType filterType, sst::filters::FilterSubType filterSubType, float pitch, float res, float extra1, float extra2, float extra3, const FilterPlotParameters &amp;params={})']]],
   ['pluralise_2',['pluralise',['../structCatch_1_1pluralise.html#ae6b1889a1cd40261b867a88409222de0',1,'Catch::pluralise']]],
   ['popscopedmessage_3',['popScopedMessage',['../structCatch_1_1IResultCapture.html#a5fcd6b2255bf78403841f9420e5c8c71',1,'Catch::IResultCapture']]],
   ['prepareblock_4',['prepareBlock',['../structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d',1,'sst::filtersplusplus::Filter']]],
