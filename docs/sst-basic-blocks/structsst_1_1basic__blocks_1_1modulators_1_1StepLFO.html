@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acd7284cf9638f7f78b5841948247fc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba97e1dce07391aac04a62e8d72b7570" id="r_aba97e1dce07391aac04a62e8d72b7570"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba97e1dce07391aac04a62e8d72b7570">lfo_ipol</a> (float *<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aee3911fa264812e1f103ae8864ac5b73">wf_history</a>, float <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a275dd6dafe5d4455e599ffd15feb06f8">phase</a>, float smooth, int odd)</td></tr>
 <tr class="separator:aba97e1dce07391aac04a62e8d72b7570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecb463c24208ea24ef1685a1c41d0c9" id="r_a6ecb463c24208ea24ef1685a1c41d0c9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a6ecb463c24208ea24ef1685a1c41d0c9">getCurrentStep</a> () const</td></tr>
+<tr class="separator:a6ecb463c24208ea24ef1685a1c41d0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -463,6 +465,27 @@ template&lt;size_t blockSize&gt; </div>
 
 </div>
 </div>
+<a id="a6ecb463c24208ea24ef1685a1c41d0c9" name="a6ecb463c24208ea24ef1685a1c41d0c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ecb463c24208ea24ef1685a1c41d0c9">&#9670;&#160;</a></span>getCurrentStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t blockSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">long getCurrentStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a52bf4efd4c9555ec60b9584c5ac7a7dc">StepLFO&lt; blockSize &gt;::state</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a721fbb6c4c11d40c66d407f27119a18f" name="a721fbb6c4c11d40c66d407f27119a18f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a721fbb6c4c11d40c66d407f27119a18f">&#9670;&#160;</a></span>tuning</h2>
@@ -540,7 +563,7 @@ template&lt;size_t blockSize&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba50d12391778432e75fe13e0e048364">StepLFO&lt; blockSize &gt;::assign()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">StepLFO&lt; blockSize &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ae97e427c87a2591a50fee6dd17d5d593">StepLFO&lt; blockSize &gt;::retrigger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#aba50d12391778432e75fe13e0e048364">StepLFO&lt; blockSize &gt;::assign()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a6ecb463c24208ea24ef1685a1c41d0c9">StepLFO&lt; blockSize &gt;::getCurrentStep()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a4cae6ad443b870e3d98c67095dd7e793">StepLFO&lt; blockSize &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ae97e427c87a2591a50fee6dd17d5d593">StepLFO&lt; blockSize &gt;::retrigger()</a>.</p>
 
 </div>
 </div>
@@ -806,7 +829,7 @@ template&lt;size_t blockSize&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 24 2025 19:45:37 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 1 2025 00:41:57 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
