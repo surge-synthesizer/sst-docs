@@ -203,6 +203,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac977e8ec33b774a244d07f17120d4888" id="r_ac977e8ec33b774a244d07f17120d4888"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ac977e8ec33b774a244d07f17120d4888">coefficientsExtraCount</a> (<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> model, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;c)</td></tr>
 <tr class="memdesc:ac977e8ec33b774a244d07f17120d4888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some models have coefficient features beyond jsut cutoff and resonance.  <br /></td></tr>
 <tr class="separator:ac977e8ec33b774a244d07f17120d4888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d1f2d8817d1bc7753221f588aff161" id="r_a73d1f2d8817d1bc7753221f588aff161"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a73d1f2d8817d1bc7753221f588aff161">coefficientsExtraIsBipolar</a> (<a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> model, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;c, int coeff)</td></tr>
+<tr class="memdesc:a73d1f2d8817d1bc7753221f588aff161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extra arguments are normalized to either be 0..1 (like pole mixing on a 4 pole filter) or -1..1 (like shelf cut/boost on a low shelf).  <br /></td></tr>
+<tr class="separator:a73d1f2d8817d1bc7753221f588aff161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92e2b1ab832d3c55353610bdecf22991" id="r_a92e2b1ab832d3c55353610bdecf22991"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a92e2b1ab832d3c55353610bdecf22991">availableModels</a> ()</td></tr>
 <tr class="memdesc:a92e2b1ab832d3c55353610bdecf22991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of the available models supported by the API.  <br /></td></tr>
 <tr class="separator:a92e2b1ab832d3c55353610bdecf22991"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -630,6 +633,53 @@ Protected Attributes</h2></td></tr>
 <p>For instance the OBXD 4 pole low pass has a continous pole morphing mode (<a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279acee36f0e37f01bafe97f6788d1fb0206">Slope::Slope_Morph</a>). In that case you will need to provide the 'extra' arguments to the makeCoefficients call to get the feature. This function tells you how manu such 'extra' arguments are consumed for a given model/config. </p>
 
 <p class="reference">References <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a999a06f28346262ef9e1699d9fc1ab56">sst::filtersplusplus::Bell</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a727a6902aa157bdec751ce0739490899">sst::filtersplusplus::Comb</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a23d73e7340fad352d4a11ff3be93534c">sst::filtersplusplus::Comb_Bipolar_ContinuousMix</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a7ffe81dd860a25d028b647e8c3960284">sst::filtersplusplus::Comb_Negative_ContinuousMix</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a6d30f98a797e3e3bab44bf3cb24a9bff">sst::filtersplusplus::Comb_Positive_ContinuousMix</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16">sst::filtersplusplus::CytomicSVF</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a8c72444e966318968a75df7d0bbfb8e2">ModelConfig::dt</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9aaafe3de5c829706a2fda73dd43fd740e">sst::filtersplusplus::HighShelf</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd">sst::filtersplusplus::K35</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76abb473aefe2471e3f4a2b3ee92294108e">sst::filtersplusplus::K35_Continuous</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a04efcd6f392567e252822d1247d8c875">sst::filtersplusplus::LowShelf</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a51dfac0ccef5bd25bb26c235f1aa7d92">sst::filtersplusplus::OBXD_4Pole</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ae0276dfdda03a1b26b7eefc273211619">ModelConfig::pt</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279acee36f0e37f01bafe97f6788d1fb0206">sst::filtersplusplus::Slope_Morph</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0">ModelConfig::st</a>.</p>
+
+</div>
+</div>
+<a id="a73d1f2d8817d1bc7753221f588aff161" name="a73d1f2d8817d1bc7753221f588aff161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d1f2d8817d1bc7753221f588aff161">&#9670;&#160;</a></span>coefficientsExtraIsBipolar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool coefficientsExtraIsBipolar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a>&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coeff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extra arguments are normalized to either be 0..1 (like pole mixing on a 4 pole filter) or -1..1 (like shelf cut/boost on a low shelf). </p>
+<p>But you need to know which is which! This returns true for bipolar (-1..1) and false for unipolar (0..1) </p>
+
+<p class="reference">References <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a999a06f28346262ef9e1699d9fc1ab56">sst::filtersplusplus::Bell</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a727a6902aa157bdec751ce0739490899">sst::filtersplusplus::Comb</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a23d73e7340fad352d4a11ff3be93534c">sst::filtersplusplus::Comb_Bipolar_ContinuousMix</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16">sst::filtersplusplus::CytomicSVF</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9aaafe3de5c829706a2fda73dd43fd740e">sst::filtersplusplus::HighShelf</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a04efcd6f392567e252822d1247d8c875">sst::filtersplusplus::LowShelf</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ae0276dfdda03a1b26b7eefc273211619">ModelConfig::pt</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0">ModelConfig::st</a>.</p>
 
 </div>
 </div>
@@ -1296,7 +1346,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 1 2025 20:18:25 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 2 2025 01:26:53 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
