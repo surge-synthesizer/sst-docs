@@ -141,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a02fd73d861ef2e4aabb38c0c9ff82947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad20897c5c8bd47f5d4005989bead0e55" id="r_ad20897c5c8bd47f5d4005989bead0e55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55">reset</a> ()</td></tr>
 <tr class="separator:ad20897c5c8bd47f5d4005989bead0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5ff979811a35f1afd74a9e7dc241ff" id="r_aac5ff979811a35f1afd74a9e7dc241ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#aac5ff979811a35f1afd74a9e7dc241ff">resetVoice</a> (int ch)</td></tr>
+<tr class="separator:aac5ff979811a35f1afd74a9e7dc241ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab97e38b869f89ae935465387dc42b7aa" id="r_ab97e38b869f89ae935465387dc42b7aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad748da33f7ae6e231e9a4f85505eb7a1">legacyType_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ab97e38b869f89ae935465387dc42b7aa">resolveLegacyType</a> ()</td></tr>
 <tr class="separator:ab97e38b869f89ae935465387dc42b7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d415bfcb027ba138551cd8d6eea2428" id="r_a5d415bfcb027ba138551cd8d6eea2428"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a5d415bfcb027ba138551cd8d6eea2428">provideDelayLine</a> (int voice, float *m)</td></tr>
@@ -580,6 +582,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aac5ff979811a35f1afd74a9e7dc241ff" name="aac5ff979811a35f1afd74a9e7dc241ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5ff979811a35f1afd74a9e7dc241ff">&#9670;&#160;</a></span>resetVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetVoice </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a4060ca5aa1b55f315dd1a3aa21f2d7e1">FilterPayload::makers</a>, <a class="el" href="namespacesst_1_1filters.html#a9e10f0eeb7681e3a122feb2ec40d64a3">sst::filters::n_filter_registers</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a5214b86fecca5a3b820b08bc789ee35f">FilterPayload::qfuState</a>, and <a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html#aff8a522c0aba870e1250ef70d0b85222">QuadFilterUnitState::R</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aac5ff979811a35f1afd74a9e7dc241ff">Filter::resetVoice()</a>.</p>
+
+</div>
+</div>
 <a id="ab97e38b869f89ae935465387dc42b7aa" name="ab97e38b869f89ae935465387dc42b7aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab97e38b869f89ae935465387dc42b7aa">&#9670;&#160;</a></span>resolveLegacyType()</h2>
 
@@ -862,7 +886,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae8ece8404ddc3df4400951bcd6a2b90e">Filter::concludeBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a02fd73d861ef2e4aabb38c0c9ff82947">FilterPayload::init()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d">Filter::prepareBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a3cd5054af97c8e78764b4981e0305d13">Filter::processSample()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55">FilterPayload::reset()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a3aa4ebe01a2db1d1ada9aef3499cb086">FilterPayload::setSampleRateAndBlockSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae8ece8404ddc3df4400951bcd6a2b90e">Filter::concludeBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a02fd73d861ef2e4aabb38c0c9ff82947">FilterPayload::init()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d">Filter::prepareBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a3cd5054af97c8e78764b4981e0305d13">Filter::processSample()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55">FilterPayload::reset()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#aac5ff979811a35f1afd74a9e7dc241ff">FilterPayload::resetVoice()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a3aa4ebe01a2db1d1ada9aef3499cb086">FilterPayload::setSampleRateAndBlockSize()</a>.</p>
 
 </div>
 </div>
@@ -878,7 +902,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae8ece8404ddc3df4400951bcd6a2b90e">Filter::concludeBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a350d1ff0c7c85da0ab75c37a828d48">Filter::copyCoefficientsFromVoiceToVoice()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae198aacaa2a4d55f3ece665390022137">Filter::makeCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a206bb7e05b0f4d6eb38d43f05937c85b">Filter::makeConstantCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d">Filter::prepareBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55">FilterPayload::reset()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a3aa4ebe01a2db1d1ada9aef3499cb086">FilterPayload::setSampleRateAndBlockSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae8ece8404ddc3df4400951bcd6a2b90e">Filter::concludeBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a350d1ff0c7c85da0ab75c37a828d48">Filter::copyCoefficientsFromVoiceToVoice()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae198aacaa2a4d55f3ece665390022137">Filter::makeCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a206bb7e05b0f4d6eb38d43f05937c85b">Filter::makeConstantCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d">Filter::prepareBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#ad20897c5c8bd47f5d4005989bead0e55">FilterPayload::reset()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#aac5ff979811a35f1afd74a9e7dc241ff">FilterPayload::resetVoice()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a3aa4ebe01a2db1d1ada9aef3499cb086">FilterPayload::setSampleRateAndBlockSize()</a>.</p>
 
 </div>
 </div>
@@ -936,7 +960,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 4 2025 20:13:29 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Sep 7 2025 21:23:25 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

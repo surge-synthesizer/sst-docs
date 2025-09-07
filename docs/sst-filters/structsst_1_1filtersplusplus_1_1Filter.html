@@ -194,6 +194,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad20897c5c8bd47f5d4005989bead0e55" id="r_ad20897c5c8bd47f5d4005989bead0e55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad20897c5c8bd47f5d4005989bead0e55">reset</a> ()</td></tr>
 <tr class="memdesc:ad20897c5c8bd47f5d4005989bead0e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the filter registers; leaves the rest of the state intact.  <br /></td></tr>
 <tr class="separator:ad20897c5c8bd47f5d4005989bead0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5ff979811a35f1afd74a9e7dc241ff" id="r_aac5ff979811a35f1afd74a9e7dc241ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aac5ff979811a35f1afd74a9e7dc241ff">resetVoice</a> (int ch)</td></tr>
+<tr class="memdesc:aac5ff979811a35f1afd74a9e7dc241ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the filter registers for a single voice; leaves the rest of the state intact.  <br /></td></tr>
+<tr class="separator:aac5ff979811a35f1afd74a9e7dc241ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1276,6 +1279,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aac5ff979811a35f1afd74a9e7dc241ff" name="aac5ff979811a35f1afd74a9e7dc241ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5ff979811a35f1afd74a9e7dc241ff">&#9670;&#160;</a></span>resetVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetVoice </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets the filter registers for a single voice; leaves the rest of the state intact. </p>
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a91387e3bd5ec72538c8cc5759ae3e21c">Filter::payload</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#aac5ff979811a35f1afd74a9e7dc241ff">FilterPayload::resetVoice()</a>.</p>
+
+</div>
+</div>
 <a id="a2ed717f8d9515f2135170ef7102154fa" name="a2ed717f8d9515f2135170ef7102154fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ed717f8d9515f2135170ef7102154fa">&#9670;&#160;</a></span>getLegacyTypeFor()</h2>
 
@@ -1335,7 +1360,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae8ece8404ddc3df4400951bcd6a2b90e">Filter::concludeBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a350d1ff0c7c85da0ab75c37a828d48">Filter::copyCoefficientsFromVoiceToVoice()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a303c04f07dc6a5e2264b3ad819cf9d27">Filter::displayName()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a9fa4e6a77176ab13076a2af0a957c76e">Filter::getBlockSize()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a74a4d5ba672493a928d86fd09d1809b0">Filter::getFilterModel()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a713203944f561fcdb59a93d190a00ced">Filter::getModelConfiguration()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a02fd73d861ef2e4aabb38c0c9ff82947">Filter::init()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae198aacaa2a4d55f3ece665390022137">Filter::makeCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a206bb7e05b0f4d6eb38d43f05937c85b">Filter::makeConstantCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d">Filter::prepareBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a33a300ef26cdb05b7b110fdc0dff4a06">Filter::prepareInstance()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a3cd5054af97c8e78764b4981e0305d13">Filter::processSample()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a0eea6576af602cfa469da4e41b6a7c70">Filter::provideAllDelayLines()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aec4c2d0445932659ae203d2d13ed54bc">Filter::provideDelayLine()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1e837634d6cb6e4d61b3d1a739a17358">Filter::requiresPreparation()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad20897c5c8bd47f5d4005989bead0e55">Filter::reset()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a4b65d36444ad7485b486fc877a14ba40">Filter::setActive()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ada77ee82b28675d09181d8c8d77cb795">Filter::setDriveMode()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a2e392ad01861daa90acdbffca772dc">Filter::setFilterModel()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a9d0d98ac46914b071915df3cbb3cd18b">Filter::setModelConfiguration()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad92b2d1a3dc07e73a0d1268c4a969279">Filter::setPassband()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a3aa4ebe01a2db1d1ada9aef3499cb086">Filter::setSampleRateAndBlockSize()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a7a238298162309f19d64b98e54355144">Filter::setSlope()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a258a65ddf8a107d9671a769bb5f96998">Filter::setSubmodel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae8ece8404ddc3df4400951bcd6a2b90e">Filter::concludeBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a350d1ff0c7c85da0ab75c37a828d48">Filter::copyCoefficientsFromVoiceToVoice()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a303c04f07dc6a5e2264b3ad819cf9d27">Filter::displayName()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a9fa4e6a77176ab13076a2af0a957c76e">Filter::getBlockSize()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a74a4d5ba672493a928d86fd09d1809b0">Filter::getFilterModel()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a713203944f561fcdb59a93d190a00ced">Filter::getModelConfiguration()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a02fd73d861ef2e4aabb38c0c9ff82947">Filter::init()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ae198aacaa2a4d55f3ece665390022137">Filter::makeCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a206bb7e05b0f4d6eb38d43f05937c85b">Filter::makeConstantCoefficients()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aa6518ed8373b1494d461f3b900dd0e5d">Filter::prepareBlock()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a33a300ef26cdb05b7b110fdc0dff4a06">Filter::prepareInstance()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a3cd5054af97c8e78764b4981e0305d13">Filter::processSample()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a0eea6576af602cfa469da4e41b6a7c70">Filter::provideAllDelayLines()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aec4c2d0445932659ae203d2d13ed54bc">Filter::provideDelayLine()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1e837634d6cb6e4d61b3d1a739a17358">Filter::requiresPreparation()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad20897c5c8bd47f5d4005989bead0e55">Filter::reset()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#aac5ff979811a35f1afd74a9e7dc241ff">Filter::resetVoice()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a4b65d36444ad7485b486fc877a14ba40">Filter::setActive()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ada77ee82b28675d09181d8c8d77cb795">Filter::setDriveMode()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a1a2e392ad01861daa90acdbffca772dc">Filter::setFilterModel()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a9d0d98ac46914b071915df3cbb3cd18b">Filter::setModelConfiguration()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#ad92b2d1a3dc07e73a0d1268c4a969279">Filter::setPassband()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a3aa4ebe01a2db1d1ada9aef3499cb086">Filter::setSampleRateAndBlockSize()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a7a238298162309f19d64b98e54355144">Filter::setSlope()</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#a258a65ddf8a107d9671a769bb5f96998">Filter::setSubmodel()</a>.</p>
 
 </div>
 </div>
@@ -1346,7 +1371,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 4 2025 20:13:29 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Sep 7 2025 21:23:25 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
