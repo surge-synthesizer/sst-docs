@@ -151,7 +151,7 @@ var searchData=
   ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avemberladder_148',['vemberladder',['../namespacesst_1_1filtersplusplus_1_1models_1_1vemberladder.html',1,'sst::filtersplusplus::models']]],
   ['sst_3a_3afiltersplusplus_3a_3amodels_3a_3avintageladder_149',['vintageladder',['../namespacesst_1_1filtersplusplus_1_1models_1_1vintageladder.html',1,'sst::filtersplusplus::models']]],
   ['sst_5ffilters_5fcomb_5fextension_5ffactor_150',['SST_FILTERS_COMB_EXTENSION_FACTOR',['../globals_8h.html#af814629a0dda8079fb54801566efe580',1,'globals.h']]],
-  ['st_151',['st',['../structsst_1_1filters_1_1Biquad_1_1DefaultTuningAndDBAdapter.html#ae9ce8dc5e800d2700b69e330994c1054',1,'sst::filters::Biquad::DefaultTuningAndDBAdapter::ST'],['../structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0',1,'sst::filtersplusplus::ModelConfig::st']]],
+  ['st_151',['st',['../structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0',1,'sst::filtersplusplus::ModelConfig::st'],['../structsst_1_1filters_1_1Biquad_1_1DefaultTuningAndDBAdapter.html#ae9ce8dc5e800d2700b69e330994c1054',1,'sst::filters::Biquad::DefaultTuningAndDBAdapter::ST']]],
   ['st_5fbp12_5flegacyclean_152',['st_bp12_LegacyClean',['../namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa8de3f7b63b463837f8a68e03826ece12',1,'sst::filters']]],
   ['st_5fbp12_5flegacydriven_153',['st_bp12_LegacyDriven',['../namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa98ee2fb087ca9bd21c0382a33025bd2f',1,'sst::filters']]],
   ['st_5fclean_154',['st_Clean',['../namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaadbffa78e092f986f1b18dc5d8c296a95',1,'sst::filters']]],

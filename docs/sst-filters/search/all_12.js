@@ -66,7 +66,7 @@ var searchData=
   ['throw_5fexception_63',['throw_exception',['../namespaceCatch.html#a311450ec327561c56c4fba4657ab687e',1,'Catch']]],
   ['throw_5flogic_5ferror_64',['throw_logic_error',['../namespaceCatch.html#a9fc953d371b5cc75fe74a7d5b9a57c1b',1,'Catch']]],
   ['throw_5fruntime_5ferror_65',['throw_runtime_error',['../namespaceCatch.html#abbe0e2de86bd3322896827f878b19754',1,'Catch']]],
-  ['throws_66',['throws',['../structCatch_1_1TestCaseInfo.html#acde624e2423968a0bbe30eaefee32594',1,'Catch::TestCaseInfo::throws() const'],['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea2007aa7ffff7adbe8260719b6e22bca3',1,'Catch::TestCaseInfo::Throws']]],
+  ['throws_66',['throws',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea2007aa7ffff7adbe8260719b6e22bca3',1,'Catch::TestCaseInfo::Throws'],['../structCatch_1_1TestCaseInfo.html#acde624e2423968a0bbe30eaefee32594',1,'Catch::TestCaseInfo::throws() const']]],
   ['timer_67',['Timer',['../classCatch_1_1Timer.html',1,'Catch']]],
   ['tolower_68',['toLower',['../namespaceCatch.html#acdc9fc48dfe9bcb46e99e9c25477b04c',1,'Catch']]],
   ['tolowerinplace_69',['toLowerInPlace',['../namespaceCatch.html#adf12eacc2c95326e66fa5070d8773863',1,'Catch']]],

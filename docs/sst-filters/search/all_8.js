@@ -134,7 +134,7 @@ var searchData=
   ['is_5frange_131',['is_range',['../structCatch_1_1is__range.html',1,'Catch']]],
   ['isbinaryexpression_132',['isBinaryExpression',['../structCatch_1_1ITransientExpression.html#a69cd431849ceb62ae7fbe9fd3ae63fbf',1,'Catch::ITransientExpression']]],
   ['isfalsetest_133',['isFalseTest',['../namespaceCatch.html#a57094c243bbdbc524ead9509e7fc3ce6',1,'Catch']]],
-  ['ishidden_134',['ishidden',['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea0013f99b933e634f0afc9259daa48e37',1,'Catch::TestCaseInfo::IsHidden'],['../structCatch_1_1TestCaseInfo.html#a451227147204d105046094b758ce3438',1,'Catch::TestCaseInfo::isHidden() const']]],
+  ['ishidden_134',['ishidden',['../structCatch_1_1TestCaseInfo.html#a451227147204d105046094b758ce3438',1,'Catch::TestCaseInfo::isHidden() const'],['../structCatch_1_1TestCaseInfo.html#a3e916b348b505647f565bf6cc4aa2f3ea0013f99b933e634f0afc9259daa48e37',1,'Catch::TestCaseInfo::IsHidden']]],
   ['isjustinfo_135',['isJustInfo',['../namespaceCatch.html#aa60628dd4cfcbaac1f5c7bc0cd6aeab1',1,'Catch']]],
   ['isnullterminated_136',['isNullTerminated',['../classCatch_1_1StringRef.html#abd71166ca95b2e48db46baa3b1a1ca75',1,'Catch::StringRef']]],
   ['isok_137',['isOk',['../namespaceCatch.html#accf3b043a3718473dcdfffdd87c33fe8',1,'Catch']]],
