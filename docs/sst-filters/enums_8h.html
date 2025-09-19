@@ -151,6 +151,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a93a75b8b3b263dca6365a48e00467ed9">NotchAndLP</a> = 0x92
 , <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a887b16a47bb1aa0bb453b97c4519580e">PhaserAndLP</a> = 0x94
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a7c9a059b0b39a28ea001a1b72c4fa481">LowLowLow</a> = 0x30 + 0b000
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a69017cf252cb1f16ba9ec9f1e665a4dd">LowHighLow</a> = 0x30 + 0b010
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9aaef30992068b0c3487752f0d5737011b">HighLowHigh</a> = 0x30 + 0b101
+, <br />
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9adc17c3ce7a5154f1342cee4aab77aab4">HighHighHigh</a> = 0x30 + 0b111
 <br />
  }</td></tr>
 <tr class="separator:ab2bffb91d36a31c6ecea346eb3bd74e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,11 +171,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279abbba421e54b3cb660858764150d33494">Slope_12dB6dB</a> = 0x13
 , <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a0df3db4a3dd8ac2199ec6f696da928a0">Slope_18dB6dB</a> = 0x19
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279adcc98a360eb184861d784c642b21b85d">Slope_1Stage</a> = 0x30
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279ab3dedfd50147d6f951900259672f7534">Slope_2Stage</a> = 0x31
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a0b4e716feacf17e567f05712fc7cc92e">Slope_3Stage</a> = 0x32
-, <br />
-&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279ab05647b7348fbfa14a3a03c9f65a5103">Slope_4Stage</a> = 0x33
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279acee36f0e37f01bafe97f6788d1fb0206">Slope_Morph</a> = 0x40
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a7ffe81dd860a25d028b647e8c3960284">Comb_Negative_ContinuousMix</a> = 0x50
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a5707376a8550a6fa42ea9f831db060cf">Comb_Negative_100</a> = 0x51
@@ -198,11 +198,11 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76ac6609e52b3e2a33560db7d196358a8d9">K35_Heavy</a> = 0x36
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76a00a887497f95ecd526cc78628b243f09">K35_Extreme</a> = 0x38
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76abb473aefe2471e3f4a2b3ee92294108e">K35_Continuous</a> = 0x39
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76acc132a41cab5676334f353a22a0aa5c5">Tanh</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76a6383a65b9c338f22a12a30afa720e930">SoftClip</a> = 0x42
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76ae79d4a744f3a5d85a21707f4e5ed1f7a">OJD</a> = 0x44
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76a3708e64f94c2135feadb4e2ae3cc89e4">Pushed</a> = 0x50
+, <br />
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76acc132a41cab5676334f353a22a0aa5c5">Tanh</a> = 0x40
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76a6383a65b9c338f22a12a30afa720e930">SoftClip</a> = 0x42
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76ae79d4a744f3a5d85a21707f4e5ed1f7a">OJD</a> = 0x44
 <br />
  }</td></tr>
 <tr class="separator:a9dbdd3c904a15ae0c5af61d1014d1c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,11 +214,15 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda35e74bddba1e790b23cf1afa789e2922">Huov</a> = 0x24
 , <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdabc501ce3f2c8c7a23f63365c6afe8270">HuovCompensated</a> = 0x26
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda7c9a059b0b39a28ea001a1b72c4fa481">LowLowLow</a> = 0x30 + 0b000
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda69017cf252cb1f16ba9ec9f1e665a4dd">LowHighLow</a> = 0x30 + 0b010
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda6ba41de0fbf0e3b614719716e1ed54fa">First_output</a> = 0x31
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda7eacbc24163765c583ff3a1d2044833c">Second_output</a> = 0x32
 , <br />
-&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdaaef30992068b0c3487752f0d5737011b">HighLowHigh</a> = 0x30 + 0b101
-, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdadc17c3ce7a5154f1342cee4aab77aab4">HighHighHigh</a> = 0x30 + 0b111
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdacd667eb5d374ba78e9361c55c118b78c">Third_output</a> = 0x33
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdaece1b831ee646b9c92628039c85521a5">Warp_1Stage</a> = 0x60
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdac6322e6faac8e4670234b5cb9e59006a">Warp_2Stage</a> = 0x61
+, <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda7429d154c89224bc1fa48b714d7c30b4">Warp_3Stage</a> = 0x62
+, <br />
+&#160;&#160;<a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdaa04c09c32d456da17c5181ca8481bfd0">Warp_4Stage</a> = 0x63
 <br />
  }</td></tr>
 <tr class="separator:a060500702b86a234df8944eadcc428cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,7 +243,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 11 2025 14:28:33 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 19 2025 22:08:03 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

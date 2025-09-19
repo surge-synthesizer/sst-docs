@@ -11,5 +11,6 @@ var searchData=
   ['filtertests_8',['filterTests',['../namespaceCatch.html#ac30cf42d658b9e1fc3669a14c47a4b4c',1,'Catch']]],
   ['fixedvaluesgenerator_9',['FixedValuesGenerator',['../classCatch_1_1Generators_1_1FixedValuesGenerator.html#aab41160bff7d0ca4de21072d4cd999fe',1,'Catch::Generators::FixedValuesGenerator']]],
   ['formatreconstructedexpression_10',['formatReconstructedExpression',['../namespaceCatch.html#ab7a43c5fc95040e73f921d695f006f47',1,'Catch']]],
-  ['fromdirect_11',['FromDirect',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a0dc5bd487be9c5db01319420f9a73372',1,'sst::filters::FilterCoefficientMaker']]]
+  ['freezecoefficientsfor_11',['freezeCoefficientsFor',['../structsst_1_1filtersplusplus_1_1Filter.html#acf461e5d88cb60e0ed4e728a73b249ff',1,'sst::filtersplusplus::Filter']]],
+  ['fromdirect_12',['FromDirect',['../classsst_1_1filters_1_1FilterCoefficientMaker.html#a0dc5bd487be9c5db01319420f9a73372',1,'sst::filters::FilterCoefficientMaker']]]
 ];
