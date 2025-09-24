@@ -24,7 +24,7 @@ var searchData=
   ['withhighprecision_21',['withHighPrecision',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#af03da12d9465246d4977e05a0ea360ca',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
   ['withid_22',['withID',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af0e25ea125dcbe8733b88d414165e290',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withintegerquantization_23',['withIntegerQuantization',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6253976e6b3253faf7c041c1abe1b16a',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withlinearscaleformatting_24',['withLinearScaleFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad1783681ae1b99713c9d022fe8d2ceb0',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withlinearscaleformatting_24',['withLinearScaleFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a522452be99ec63649a60f38e0e1f6ed7',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withlog2secondsformatting_25',['withLog2SecondsFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a3bab7a06d11e6e0bcf3997ec64520a10',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withlogarithmicformating_26',['withLogarithmicFormating',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ada865f48a78f9c2481c527222892ed31',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withmidinoteformatting_27',['withMidiNoteFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af6b795b8f9c8c9373b9296520fb8949a',1,'sst::basic_blocks::params::ParamMetaData']]],
