@@ -10,7 +10,7 @@ var searchData=
   ['onepolelag_3c_20float_2c_20false_20_3e_7',['OnePoleLag&lt; float, false &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html',1,'sst::basic_blocks::dsp']]],
   ['onepolelag_3c_20t_2c_20true_20_3e_8',['OnePoleLag&lt; T, true &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html',1,'sst::basic_blocks::dsp']]],
   ['onsampleratechanged_9',['onsampleratechanged',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::ADSREnvelope::onSampleRateChanged()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::DAHDEnvelope::onSampleRateChanged()']]],
-  ['onto_10',['onto',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#ae80baca8373aed0d4ee7e717df7aeb24',1,'sst::basic_blocks::dsp::LagCollection::Lagger']]],
+  ['onto_10',['onto',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a77604ce985ffd812475ee610987f923f',1,'sst::basic_blocks::dsp::LagCollection']]],
   ['operator_3d_3d_11',['operator==',['../namespacesst_1_1basic__blocks_1_1mod__matrix_1_1details.html#a61d3eb60f880a7303baef76ac9725856',1,'sst::basic_blocks::mod_matrix::details']]],
   ['oscillatordriftunisoncharacter_2eh_12',['OscillatorDriftUnisonCharacter.h',['../OscillatorDriftUnisonCharacter_8h.html',1,'']]],
   ['outblock0_13',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],

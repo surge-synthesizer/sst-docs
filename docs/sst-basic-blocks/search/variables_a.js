@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['lag_0',['lag',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a4b65420109f0302f0044a571b82f6bfa',1,'sst::basic_blocks::dsp::LagCollection::Lagger']]],
-  ['lags_1',['lags',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#af3e8595c9a695017794e0d9e14d8d678',1,'sst::basic_blocks::dsp::LagCollection']]],
+  ['lag_0',['lag',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase_1_1Lagger.html#a4b65420109f0302f0044a571b82f6bfa',1,'sst::basic_blocks::dsp::LagCollectionBase::Lagger']]],
+  ['lags_1',['lags',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase.html#af3e8595c9a695017794e0d9e14d8d678',1,'sst::basic_blocks::dsp::LagCollectionBase']]],
   ['lanczostable_2',['lanczosTable',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a6db63cea859572818463febc23c4c15d',1,'sst::basic_blocks::dsp::LanczosResampler']]],
   ['lanczostabledx_3',['lanczosTableDX',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a7a3b32d1d425f3b59ed86c2d50308f5b',1,'sst::basic_blocks::dsp::LanczosResampler']]],
   ['last_4',['last',['../structsst_1_1basic__blocks_1_1dsp_1_1SlewLimiter.html#adb0d4f54bba03069d82fe732abc4e0c5',1,'sst::basic_blocks::dsp::SlewLimiter']]],

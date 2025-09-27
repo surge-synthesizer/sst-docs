@@ -2,7 +2,7 @@ var searchData=
 [
   ['i_0',['i',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOsc']]],
   ['id_1',['id',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#abaabdc509cdaba7df9f56c6c76f3ae19',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['index_2',['index',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection_1_1Lagger.html#a750b5d744c39a06bfb13e6eb010e35d0',1,'sst::basic_blocks::dsp::LagCollection::Lagger']]],
+  ['index_2',['index',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase_1_1Lagger.html#a750b5d744c39a06bfb13e6eb010e35d0',1,'sst::basic_blocks::dsp::LagCollectionBase::Lagger']]],
   ['inferred_3',['INFERRED',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a36f18dec66edab93daa4d9cfeacbb7ab',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['initialized_4',['initialized',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#aedeffc7d23da25d52b9a50045189fe2b',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
   ['input_5',['input',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#af9df2ab66110bc1b9be530650eb558fe',1,'sst::basic_blocks::dsp::LanczosResampler']]],
