@@ -6,7 +6,7 @@ var searchData=
   ['lagcollection_2eh_3',['LagCollection.h',['../LagCollection_8h.html',1,'']]],
   ['lagcollectionbase_4',['lagcollectionbase',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase.html',1,'LagCollectionBase&lt; N, T &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase.html#a01776bfac07ec56c5fbabe3c18ea288e',1,'sst::basic_blocks::dsp::LagCollectionBase::LagCollectionBase()']]],
   ['lagcollectionbase_3c_20n_2c_20lagcollection_3c_20n_20_3e_20_3e_5',['LagCollectionBase&lt; N, LagCollection&lt; N &gt; &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase.html',1,'sst::basic_blocks::dsp']]],
-  ['lagcompleted_6',['lagCompleted',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#ada0b805d5984d9e24d54e931f05c2aff',1,'sst::basic_blocks::dsp::LagCollection']]],
+  ['lagcompleted_6',['lagCompleted',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#adc62b434b31ea12c1f27a5c09e95d02a',1,'sst::basic_blocks::dsp::LagCollection']]],
   ['lagger_7',['Lagger',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase_1_1Lagger.html',1,'sst::basic_blocks::dsp::LagCollectionBase']]],
   ['lags_8',['lags',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase.html#af3e8595c9a695017794e0d9e14d8d678',1,'sst::basic_blocks::dsp::LagCollectionBase']]],
   ['lagsmoothingstrategy_9',['LagSmoothingStrategy',['../structsst_1_1basic__blocks_1_1dsp_1_1LagSmoothingStrategy.html',1,'sst::basic_blocks::dsp']]],
