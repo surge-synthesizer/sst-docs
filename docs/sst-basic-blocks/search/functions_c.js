@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['naturaltonormalized01_0',['naturalToNormalized01',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a70b6ebb18847643ff52e0cb33bb6df16',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['naturaltonormalized01_0',['naturalToNormalized01',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa664d72ff005718793d322f12ee69891',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['newvalue_1',['newvalue',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::lipol::newValue()'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::SurgeLag::newValue()']]],
   ['next_2',['next',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#ab2f3c1e9abe108c7c107a29a44514920',1,'sst::basic_blocks::dsp::DriftLFO']]],
   ['norm_3',['norm',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a8379d716df95c91bf2085364e86c543a',1,'sst::basic_blocks::dsp::RNG']]],

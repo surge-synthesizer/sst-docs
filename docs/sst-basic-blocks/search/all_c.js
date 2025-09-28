@@ -2,7 +2,7 @@ var searchData=
 [
   ['n_5funison_0',['n_unison',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#ac662053d496cf2e8b65ce85a3a194d25',1,'sst::basic_blocks::dsp::UnisonSetup']]],
   ['name_1',['name',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a9b45b3e13bd9167aab02e17e08916231',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['naturaltonormalized01_2',['naturalToNormalized01',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a70b6ebb18847643ff52e0cb33bb6df16',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['naturaltonormalized01_2',['naturalToNormalized01',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa664d72ff005718793d322f12ee69891',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['needsrandomrestart_3',['needsRandomRestart',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1ce11fb5f6c7659a8b2fbf2c7cadfc4c',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['new_5fv_4',['new_v',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ac0a74ef8fff3a91ff125b6d1c171eff2',1,'sst::basic_blocks::dsp::lipol']]],
   ['newvalue_5',['newvalue',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::lipol::newValue()'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::SurgeLag::newValue()']]],
