@@ -5,7 +5,7 @@ var searchData=
   ['empty_2',['empty',['../classCatch_1_1StringRef.html#a918aa2db77648f4bd28d098b2291208a',1,'Catch::StringRef::empty()'],['../structCatch_1_1SourceLineInfo.html#a3f6fc5de06a318920d84f3c3742db07f',1,'Catch::SourceLineInfo::empty()']]],
   ['end_3',['end',['../classCatch_1_1StringRef.html#a428cfcc26f33036be7c76ab287ea06c5',1,'Catch::StringRef']]],
   ['endfreqhz_4',['endFreqHz',['../structsst_1_1filters_1_1FilterPlotParameters.html#a52a82197d986eb76ae542135bec4673c',1,'sst::filters::FilterPlotParameters']]],
-  ['endswith_5',['endswith',['../namespaceCatch.html#a4911a430834b439495f16305df9196be',1,'Catch::endsWith(std::string const &amp;s, char suffix)'],['../namespaceCatch.html#a7e64e2d90cb7a3f1ed41b7ec348d923f',1,'Catch::endsWith(std::string const &amp;s, std::string const &amp;suffix)'],['../namespaceCatch_1_1Matchers.html#aa204057611b7a20e82c881fa71760386',1,'Catch::Matchers::EndsWith()']]],
+  ['endswith_5',['endswith',['../namespaceCatch_1_1Matchers.html#aa204057611b7a20e82c881fa71760386',1,'Catch::Matchers::EndsWith()'],['../namespaceCatch.html#a4911a430834b439495f16305df9196be',1,'Catch::endsWith(std::string const &amp;s, char suffix)'],['../namespaceCatch.html#a7e64e2d90cb7a3f1ed41b7ec348d923f',1,'Catch::endsWith(std::string const &amp;s, std::string const &amp;suffix)']]],
   ['endswithmatcher_6',['endswithmatcher',['../structCatch_1_1Matchers_1_1StdString_1_1EndsWithMatcher.html#a6f26b8f4520d36620d66b128b6adc7fa',1,'Catch::Matchers::StdString::EndsWithMatcher::EndsWithMatcher()'],['../structCatch_1_1Matchers_1_1StdString_1_1EndsWithMatcher.html',1,'EndsWithMatcher']]],
   ['enuminfo_7',['EnumInfo',['../structCatch_1_1Detail_1_1EnumInfo.html',1,'Catch::Detail']]],
   ['enums_2eh_8',['enums.h',['../enums_8h.html',1,'']]],

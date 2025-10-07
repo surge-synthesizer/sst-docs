@@ -97,11 +97,15 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#concepts">Concepts</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">sst::filtersplusplus Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>configuration_selector contains a set of useful functions to genreate uis and allow users to navigate the configuration space more naturally than the simple flat list in the core api.  
+<a href="namespacesst_1_1filtersplusplus.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -116,6 +120,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class representing the surge filter models with a easier-to-use api.  <a href="structsst_1_1filtersplusplus_1_1Filter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
+Concepts</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptsst_1_1filtersplusplus_1_1is__modelconfig__enum.html">is_modelconfig_enum</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptsst_1_1filtersplusplus_1_1is__distinct__modelconfig__enum.html">is_distinct_modelconfig_enum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -237,6 +248,70 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acf2e69933c8e91e1e25291a48f0222fe" id="r_acf2e69933c8e91e1e25291a48f0222fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#acf2e69933c8e91e1e25291a48f0222fe">isModelConfigValid</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;tc)</td></tr>
+<tr class="memdesc:acf2e69933c8e91e1e25291a48f0222fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple boolean check of if a given model config is valid for a given model.  <br /></td></tr>
+<tr class="separator:acf2e69933c8e91e1e25291a48f0222fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66355cfa605d186bfbd0a99abd656ca" id="r_ad66355cfa605d186bfbd0a99abd656ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#ad66355cfa605d186bfbd0a99abd656ca">isPartialConfigValid</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> p)</td></tr>
+<tr class="memdesc:ad66355cfa605d186bfbd0a99abd656ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API allows you to build a partial config and test if you are valid so far.  <br /></td></tr>
+<tr class="separator:ad66355cfa605d186bfbd0a99abd656ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db446feaeeed1142ca98446af8ff844" id="r_a4db446feaeeed1142ca98446af8ff844"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a4db446feaeeed1142ca98446af8ff844">isPartialConfigValid</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> p, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> s)</td></tr>
+<tr class="separator:a4db446feaeeed1142ca98446af8ff844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e0b1fd0b216bca5e36fbfb3e8d7b68b" id="r_a7e0b1fd0b216bca5e36fbfb3e8d7b68b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a7e0b1fd0b216bca5e36fbfb3e8d7b68b">isPartialConfigValid</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> p, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> s, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> d)</td></tr>
+<tr class="separator:a7e0b1fd0b216bca5e36fbfb3e8d7b68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282ef7b17df5f196dacefab96fd1cf40" id="r_a282ef7b17df5f196dacefab96fd1cf40"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:a282ef7b17df5f196dacefab96fd1cf40"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a282ef7b17df5f196dacefab96fd1cf40">isPartialMatch</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc, Args... cstr)</td></tr>
+<tr class="memdesc:a282ef7b17df5f196dacefab96fd1cf40"><td class="mdescLeft">&#160;</td><td class="mdescRight">isPartialMatch is just a utility where you can send a model config and then any subset of enums and get a true/false.  <br /></td></tr>
+<tr class="separator:a282ef7b17df5f196dacefab96fd1cf40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100648ea091fa6ac76acb987c72d0400" id="r_a100648ea091fa6ac76acb987c72d0400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a100648ea091fa6ac76acb987c72d0400">closestValidModelTo</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc)</td></tr>
+<tr class="memdesc:a100648ea091fa6ac76acb987c72d0400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a model config, which is the 'closes' valid model to the one handed in.  <br /></td></tr>
+<tr class="separator:a100648ea091fa6ac76acb987c72d0400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55aa15048ab6ad294fca5d89c29b10f" id="r_ac55aa15048ab6ad294fca5d89c29b10f"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:ac55aa15048ab6ad294fca5d89c29b10f"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#ac55aa15048ab6ad294fca5d89c29b10f">potentialValuesFor</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm)</td></tr>
+<tr class="memdesc:ac55aa15048ab6ad294fca5d89c29b10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an enum type, what are the potential values this model could support for just that dimension.  <br /></td></tr>
+<tr class="separator:ac55aa15048ab6ad294fca5d89c29b10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaadc3d6079a5e2ddbd6eae245064693" id="r_aaaadc3d6079a5e2ddbd6eae245064693"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:aaaadc3d6079a5e2ddbd6eae245064693"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#aaaadc3d6079a5e2ddbd6eae245064693">supportsChoice</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm)</td></tr>
+<tr class="memdesc:aaaadc3d6079a5e2ddbd6eae245064693"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a model doesn't use a particular dimension at all (namely all values of that dimension are UNSUPPORTED) return true.  <br /></td></tr>
+<tr class="separator:aaaadc3d6079a5e2ddbd6eae245064693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c377e0729f2ba2357923eb60b55021" id="r_a02c377e0729f2ba2357923eb60b55021"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:a02c377e0729f2ba2357923eb60b55021"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, bool &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a02c377e0729f2ba2357923eb60b55021">valuesAndValidityForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm)</td></tr>
+<tr class="memdesc:a02c377e0729f2ba2357923eb60b55021"><td class="mdescLeft">&#160;</td><td class="mdescRight">To probe a partial config, you want to know which values are possible valid and either get a list with only valid ones, or get a list of values with validity.  <br /></td></tr>
+<tr class="separator:a02c377e0729f2ba2357923eb60b55021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9caa44fb480bfc12da9ff5c8aca6217f" id="r_a9caa44fb480bfc12da9ff5c8aca6217f"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:a9caa44fb480bfc12da9ff5c8aca6217f"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, bool &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a9caa44fb480bfc12da9ff5c8aca6217f">valuesAndValidityForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> p)</td></tr>
+<tr class="separator:a9caa44fb480bfc12da9ff5c8aca6217f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51406217a0cdc222cbc008b6bbef074" id="r_ac51406217a0cdc222cbc008b6bbef074"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:ac51406217a0cdc222cbc008b6bbef074"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, bool &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#ac51406217a0cdc222cbc008b6bbef074">valuesAndValidityForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> p, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> s)</td></tr>
+<tr class="separator:ac51406217a0cdc222cbc008b6bbef074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4de514ce8375904723a4fd6c4042a22" id="r_ae4de514ce8375904723a4fd6c4042a22"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:ae4de514ce8375904723a4fd6c4042a22"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, bool &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#ae4de514ce8375904723a4fd6c4042a22">valuesAndValidityForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> p, <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> s, <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> d)</td></tr>
+<tr class="separator:ae4de514ce8375904723a4fd6c4042a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8875cce4d9dbc71b23e7e415bf210973" id="r_a8875cce4d9dbc71b23e7e415bf210973"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_distinct_modelconfig_enum&lt;Args, T&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:a8875cce4d9dbc71b23e7e415bf210973"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, bool &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a8875cce4d9dbc71b23e7e415bf210973">valuesAndValidityForPartiaulConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, Args... args)</td></tr>
+<tr class="separator:a8875cce4d9dbc71b23e7e415bf210973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be7cbcead74c0db1c2a23c4803f8d6a" id="r_a0be7cbcead74c0db1c2a23c4803f8d6a"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:a0be7cbcead74c0db1c2a23c4803f8d6a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a0be7cbcead74c0db1c2a23c4803f8d6a">valuesForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm)</td></tr>
+<tr class="memdesc:a0be7cbcead74c0db1c2a23c4803f8d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">And this provides the filtered version, so items in the above api with false here would just not appear in the list.  <br /></td></tr>
+<tr class="separator:a0be7cbcead74c0db1c2a23c4803f8d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862436b7f1589326887bc36dea3812af" id="r_a862436b7f1589326887bc36dea3812af"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:a862436b7f1589326887bc36dea3812af"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a862436b7f1589326887bc36dea3812af">valuesForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;p)</td></tr>
+<tr class="separator:a862436b7f1589326887bc36dea3812af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dda2e0a2fed5a0c7b76df8f38835f17" id="r_a1dda2e0a2fed5a0c7b76df8f38835f17"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:a1dda2e0a2fed5a0c7b76df8f38835f17"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a1dda2e0a2fed5a0c7b76df8f38835f17">valuesForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;p, const <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &amp;s)</td></tr>
+<tr class="separator:a1dda2e0a2fed5a0c7b76df8f38835f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323a8e91a8a03740fc9693abe8307972" id="r_a323a8e91a8a03740fc9693abe8307972"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T&gt; </td></tr>
+<tr class="memitem:a323a8e91a8a03740fc9693abe8307972"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a323a8e91a8a03740fc9693abe8307972">valuesForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;p, const <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &amp;s, const <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> &amp;d)</td></tr>
+<tr class="separator:a323a8e91a8a03740fc9693abe8307972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed9f6ab5618792137d0a4957ee95b5e" id="r_a5ed9f6ab5618792137d0a4957ee95b5e"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_distinct_modelconfig_enum&lt;Args, T&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:a5ed9f6ab5618792137d0a4957ee95b5e"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a5ed9f6ab5618792137d0a4957ee95b5e">valuesForPartialConfig</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, Args... args)</td></tr>
+<tr class="separator:a5ed9f6ab5618792137d0a4957ee95b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd83077eba00165cdf8c78a40576f551" id="r_acd83077eba00165cdf8c78a40576f551"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_distinct_modelconfig_enum&lt;Args, T&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:acd83077eba00165cdf8c78a40576f551"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#acd83077eba00165cdf8c78a40576f551">noChoicesOrOnlyUnsupported</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, Args... args)</td></tr>
+<tr class="separator:acd83077eba00165cdf8c78a40576f551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ca7d88599ec2d90d69b0327c996a516" id="r_a2ca7d88599ec2d90d69b0327c996a516"><td class="memItemLeft" align="right" valign="top">SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a2ca7d88599ec2d90d69b0327c996a516">offFun</a> (<a class="el" href="structsst_1_1filters_1_1QuadFilterUnitState.html">sst::filters::QuadFilterUnitState</a> *__restrict, SIMD_M128 in)</td></tr>
 <tr class="separator:a2ca7d88599ec2d90d69b0327c996a516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b2c1a06522569b850e49fd2d3500c88" id="r_a1b2c1a06522569b850e49fd2d3500c88"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a1b2c1a06522569b850e49fd2d3500c88">toString</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;f)</td></tr>
@@ -249,12 +324,40 @@ Functions</h2></td></tr>
 <tr class="separator:ae7cb4b3d657db47144ebd0666f897db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce0966e753de46c1989e45646d3f65b" id="r_a9ce0966e753de46c1989e45646d3f65b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a9ce0966e753de46c1989e45646d3f65b">toString</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a> &amp;s)</td></tr>
 <tr class="separator:a9ce0966e753de46c1989e45646d3f65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a937618cd58f1508f912583f5e439f9" id="r_a3a937618cd58f1508f912583f5e439f9"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a3a937618cd58f1508f912583f5e439f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a3a937618cd58f1508f912583f5e439f9">get&lt; Passband &gt;</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc)</td></tr>
+<tr class="separator:a3a937618cd58f1508f912583f5e439f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf0b9be980bf0daa34744b19bae7262" id="r_a6bf0b9be980bf0daa34744b19bae7262"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a6bf0b9be980bf0daa34744b19bae7262"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a6bf0b9be980bf0daa34744b19bae7262">get&lt; Slope &gt;</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc)</td></tr>
+<tr class="separator:a6bf0b9be980bf0daa34744b19bae7262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f7fddfc59aa9414166154e9d4c5bfb" id="r_a13f7fddfc59aa9414166154e9d4c5bfb"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a13f7fddfc59aa9414166154e9d4c5bfb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a13f7fddfc59aa9414166154e9d4c5bfb">get&lt; DriveMode &gt;</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc)</td></tr>
+<tr class="separator:a13f7fddfc59aa9414166154e9d4c5bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a944af823affeade02225138a467059" id="r_a4a944af823affeade02225138a467059"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a4a944af823affeade02225138a467059"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a4a944af823affeade02225138a467059">get&lt; FilterSubModel &gt;</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc)</td></tr>
+<tr class="separator:a4a944af823affeade02225138a467059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5706b7a1fee08cc3fe01b105bbb28775" id="r_a5706b7a1fee08cc3fe01b105bbb28775"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a5706b7a1fee08cc3fe01b105bbb28775"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a5706b7a1fee08cc3fe01b105bbb28775">set&lt; Passband &gt;</a> (<a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc, const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;t)</td></tr>
+<tr class="separator:a5706b7a1fee08cc3fe01b105bbb28775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99297d3378a137ac464320e41bc0f51f" id="r_a99297d3378a137ac464320e41bc0f51f"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a99297d3378a137ac464320e41bc0f51f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a99297d3378a137ac464320e41bc0f51f">set&lt; Slope &gt;</a> (<a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc, const <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &amp;t)</td></tr>
+<tr class="separator:a99297d3378a137ac464320e41bc0f51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd5f8c6a0cf624f32826089629cd52c" id="r_aedd5f8c6a0cf624f32826089629cd52c"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aedd5f8c6a0cf624f32826089629cd52c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#aedd5f8c6a0cf624f32826089629cd52c">set&lt; DriveMode &gt;</a> (<a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc, const <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> &amp;t)</td></tr>
+<tr class="separator:aedd5f8c6a0cf624f32826089629cd52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9413170f20c79cd2779a2ef6bc6e9d6" id="r_ab9413170f20c79cd2779a2ef6bc6e9d6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ab9413170f20c79cd2779a2ef6bc6e9d6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab9413170f20c79cd2779a2ef6bc6e9d6">set&lt; FilterSubModel &gt;</a> (<a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc, const <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a> &amp;t)</td></tr>
+<tr class="separator:ab9413170f20c79cd2779a2ef6bc6e9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52fdfb4e6e8086459134c1cd1ed8db25" id="r_a52fdfb4e6e8086459134c1cd1ed8db25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a52fdfb4e6e8086459134c1cd1ed8db25">operator==</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;lhs, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;rhs) noexcept</td></tr>
 <tr class="separator:a52fdfb4e6e8086459134c1cd1ed8db25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b7cc3dcb3cfd06853eac78b423b38c8" id="r_a1b7cc3dcb3cfd06853eac78b423b38c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus.html#a1b7cc3dcb3cfd06853eac78b423b38c8">operator&lt;</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;lhs, const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;rhs) noexcept</td></tr>
 <tr class="separator:a1b7cc3dcb3cfd06853eac78b423b38c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>configuration_selector contains a set of useful functions to genreate uis and allow users to navigate the configuration space more naturally than the simple flat list in the core api. </p>
+<p>To make this easier, we have editorialized a hierarchy of enums, PassBand &gt; Slope &gt; Drive &gt; FilterSubModel. That is, the 'partical config validity' means you check passband first and so on.</p>
+<p>You could make a different choice of course! Its just tweaking the presented API. The internal stuff in the impl/details is just all vararg packs anyway </p>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="af6e1b94c85265337c3ad6ae28b891277" name="af6e1b94c85265337c3ad6ae28b891277"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6e1b94c85265337c3ad6ae28b891277">&#9670;&#160;</a></span>FilterModel</h2>
 
@@ -453,6 +556,627 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="acf2e69933c8e91e1e25291a48f0222fe" name="acf2e69933c8e91e1e25291a48f0222fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2e69933c8e91e1e25291a48f0222fe">&#9670;&#160;</a></span>isModelConfigValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isModelConfigValid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>tc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A simple boolean check of if a given model config is valid for a given model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fm</td><td>A given model </td></tr>
+    <tr><td class="paramname">tc</td><td>A candidate config </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filtersplusplus.html#a100648ea091fa6ac76acb987c72d0400">closestValidModelTo()</a>.</p>
+
+</div>
+</div>
+<a id="ad66355cfa605d186bfbd0a99abd656ca" name="ad66355cfa605d186bfbd0a99abd656ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66355cfa605d186bfbd0a99abd656ca">&#9670;&#160;</a></span>isPartialConfigValid() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isPartialConfigValid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API allows you to build a partial config and test if you are valid so far. </p>
+<p>So for a model, do you have a valid passband, passband/slope and passband/slope/drive. The full quartet can be answered with isModelConfigValid </p>
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#a3a937618cd58f1508f912583f5e439f9">get&lt; Passband &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a4db446feaeeed1142ca98446af8ff844" name="a4db446feaeeed1142ca98446af8ff844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db446feaeeed1142ca98446af8ff844">&#9670;&#160;</a></span>isPartialConfigValid() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isPartialConfigValid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a3a937618cd58f1508f912583f5e439f9">get&lt; Passband &gt;()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#a6bf0b9be980bf0daa34744b19bae7262">get&lt; Slope &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a7e0b1fd0b216bca5e36fbfb3e8d7b68b" name="a7e0b1fd0b216bca5e36fbfb3e8d7b68b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e0b1fd0b216bca5e36fbfb3e8d7b68b">&#9670;&#160;</a></span>isPartialConfigValid() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isPartialConfigValid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a>&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a13f7fddfc59aa9414166154e9d4c5bfb">get&lt; DriveMode &gt;()</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a3a937618cd58f1508f912583f5e439f9">get&lt; Passband &gt;()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#a6bf0b9be980bf0daa34744b19bae7262">get&lt; Slope &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a282ef7b17df5f196dacefab96fd1cf40" name="a282ef7b17df5f196dacefab96fd1cf40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a282ef7b17df5f196dacefab96fd1cf40">&#9670;&#160;</a></span>isPartialMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isPartialMatch </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>cstr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>isPartialMatch is just a utility where you can send a model config and then any subset of enums and get a true/false. </p>
+
+<p class="reference">References <a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#acefc0a1d893732a7dbaff28b38689b94">sst::filtersplusplus::details::mcequal()</a>.</p>
+
+</div>
+</div>
+<a id="a100648ea091fa6ac76acb987c72d0400" name="a100648ea091fa6ac76acb987c72d0400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a100648ea091fa6ac76acb987c72d0400">&#9670;&#160;</a></span>closestValidModelTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> closestValidModelTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Given a model config, which is the 'closes' valid model to the one handed in. </p>
+<p>If the model config is valid, it is just returned, otherwise find partial matches up the stack dropping SM, DT, Slp, and Filt each. </p>
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a8c72444e966318968a75df7d0bbfb8e2">ModelConfig::dt</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#acf2e69933c8e91e1e25291a48f0222fe">isModelConfigValid()</a>, <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ae0276dfdda03a1b26b7eefc273211619">ModelConfig::pt</a>, and <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0">ModelConfig::st</a>.</p>
+
+</div>
+</div>
+<a id="ac55aa15048ab6ad294fca5d89c29b10f" name="ac55aa15048ab6ad294fca5d89c29b10f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55aa15048ab6ad294fca5d89c29b10f">&#9670;&#160;</a></span>potentialValuesFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; potentialValuesFor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Given an enum type, what are the potential values this model could support for just that dimension. </p>
+<p>So like potentialValuesFor&lt;sst::filtersplusplus::Slope&gt;(fm) would give you all the slopes that any configuration of the model would use. </p>
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>.</p>
+
+</div>
+</div>
+<a id="aaaadc3d6079a5e2ddbd6eae245064693" name="aaaadc3d6079a5e2ddbd6eae245064693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaadc3d6079a5e2ddbd6eae245064693">&#9670;&#160;</a></span>supportsChoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool supportsChoice </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If a model doesn't use a particular dimension at all (namely all values of that dimension are UNSUPPORTED) return true. </p>
+
+</div>
+</div>
+<a id="a02c377e0729f2ba2357923eb60b55021" name="a02c377e0729f2ba2357923eb60b55021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c377e0729f2ba2357923eb60b55021">&#9670;&#160;</a></span>valuesAndValidityForPartialConfig() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; T, bool &gt; &gt; valuesAndValidityForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>To probe a partial config, you want to know which values are possible valid and either get a list with only valid ones, or get a list of values with validity. </p>
+<p>This first api provides the second - a pair of values and bools for a partiaul config in one dimension along the second dimension. </p>
+
+</div>
+</div>
+<a id="a9caa44fb480bfc12da9ff5c8aca6217f" name="a9caa44fb480bfc12da9ff5c8aca6217f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9caa44fb480bfc12da9ff5c8aca6217f">&#9670;&#160;</a></span>valuesAndValidityForPartialConfig() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; T, bool &gt; &gt; valuesAndValidityForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac51406217a0cdc222cbc008b6bbef074" name="ac51406217a0cdc222cbc008b6bbef074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51406217a0cdc222cbc008b6bbef074">&#9670;&#160;</a></span>valuesAndValidityForPartialConfig() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; T, bool &gt; &gt; valuesAndValidityForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4de514ce8375904723a4fd6c4042a22" name="ae4de514ce8375904723a4fd6c4042a22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4de514ce8375904723a4fd6c4042a22">&#9670;&#160;</a></span>valuesAndValidityForPartialConfig() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; T, bool &gt; &gt; valuesAndValidityForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a>&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8875cce4d9dbc71b23e7e415bf210973" name="a8875cce4d9dbc71b23e7e415bf210973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8875cce4d9dbc71b23e7e415bf210973">&#9670;&#160;</a></span>valuesAndValidityForPartiaulConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_distinct_modelconfig_enum&lt;Args, T&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; T, bool &gt; &gt; valuesAndValidityForPartiaulConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0be7cbcead74c0db1c2a23c4803f8d6a" name="a0be7cbcead74c0db1c2a23c4803f8d6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be7cbcead74c0db1c2a23c4803f8d6a">&#9670;&#160;</a></span>valuesForPartialConfig() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; valuesForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>And this provides the filtered version, so items in the above api with false here would just not appear in the list. </p>
+
+</div>
+</div>
+<a id="a862436b7f1589326887bc36dea3812af" name="a862436b7f1589326887bc36dea3812af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862436b7f1589326887bc36dea3812af">&#9670;&#160;</a></span>valuesForPartialConfig() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; valuesForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dda2e0a2fed5a0c7b76df8f38835f17" name="a1dda2e0a2fed5a0c7b76df8f38835f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dda2e0a2fed5a0c7b76df8f38835f17">&#9670;&#160;</a></span>valuesForPartialConfig() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; valuesForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a323a8e91a8a03740fc9693abe8307972" name="a323a8e91a8a03740fc9693abe8307972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a323a8e91a8a03740fc9693abe8307972">&#9670;&#160;</a></span>valuesForPartialConfig() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; valuesForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ed9f6ab5618792137d0a4957ee95b5e" name="a5ed9f6ab5618792137d0a4957ee95b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ed9f6ab5618792137d0a4957ee95b5e">&#9670;&#160;</a></span>valuesForPartialConfig() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_distinct_modelconfig_enum&lt;Args, T&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; valuesForPartialConfig </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd83077eba00165cdf8c78a40576f551" name="acd83077eba00165cdf8c78a40576f551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd83077eba00165cdf8c78a40576f551">&#9670;&#160;</a></span>noChoicesOrOnlyUnsupported()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_distinct_modelconfig_enum&lt;Args, T&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool noChoicesOrOnlyUnsupported </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2ca7d88599ec2d90d69b0327c996a516" name="a2ca7d88599ec2d90d69b0327c996a516"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ca7d88599ec2d90d69b0327c996a516">&#9670;&#160;</a></span>offFun()</h2>
 
@@ -585,6 +1309,228 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3a937618cd58f1508f912583f5e439f9" name="a3a937618cd58f1508f912583f5e439f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a937618cd58f1508f912583f5e439f9">&#9670;&#160;</a></span>get&lt; Passband &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> get&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ae0276dfdda03a1b26b7eefc273211619">ModelConfig::pt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filtersplusplus.html#ad66355cfa605d186bfbd0a99abd656ca">isPartialConfigValid()</a>, <a class="el" href="namespacesst_1_1filtersplusplus.html#a4db446feaeeed1142ca98446af8ff844">isPartialConfigValid()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#a7e0b1fd0b216bca5e36fbfb3e8d7b68b">isPartialConfigValid()</a>.</p>
+
+</div>
+</div>
+<a id="a6bf0b9be980bf0daa34744b19bae7262" name="a6bf0b9be980bf0daa34744b19bae7262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf0b9be980bf0daa34744b19bae7262">&#9670;&#160;</a></span>get&lt; Slope &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> get&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0">ModelConfig::st</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filtersplusplus.html#a4db446feaeeed1142ca98446af8ff844">isPartialConfigValid()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus.html#a7e0b1fd0b216bca5e36fbfb3e8d7b68b">isPartialConfigValid()</a>.</p>
+
+</div>
+</div>
+<a id="a13f7fddfc59aa9414166154e9d4c5bfb" name="a13f7fddfc59aa9414166154e9d4c5bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13f7fddfc59aa9414166154e9d4c5bfb">&#9670;&#160;</a></span>get&lt; DriveMode &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> get&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a8c72444e966318968a75df7d0bbfb8e2">ModelConfig::dt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filtersplusplus.html#a7e0b1fd0b216bca5e36fbfb3e8d7b68b">isPartialConfigValid()</a>.</p>
+
+</div>
+</div>
+<a id="a4a944af823affeade02225138a467059" name="a4a944af823affeade02225138a467059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a944af823affeade02225138a467059">&#9670;&#160;</a></span>get&lt; FilterSubModel &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a> get&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a65f63ebd9ba82057b500f92bda892b5d">ModelConfig::mt</a>.</p>
+
+</div>
+</div>
+<a id="a5706b7a1fee08cc3fe01b105bbb28775" name="a5706b7a1fee08cc3fe01b105bbb28775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5706b7a1fee08cc3fe01b105bbb28775">&#9670;&#160;</a></span>set&lt; Passband &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void set&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9">Passband</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ae0276dfdda03a1b26b7eefc273211619">ModelConfig::pt</a>.</p>
+
+</div>
+</div>
+<a id="a99297d3378a137ac464320e41bc0f51f" name="a99297d3378a137ac464320e41bc0f51f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99297d3378a137ac464320e41bc0f51f">&#9670;&#160;</a></span>set&lt; Slope &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void set&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279">Slope</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0">ModelConfig::st</a>.</p>
+
+</div>
+</div>
+<a id="aedd5f8c6a0cf624f32826089629cd52c" name="aedd5f8c6a0cf624f32826089629cd52c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd5f8c6a0cf624f32826089629cd52c">&#9670;&#160;</a></span>set&lt; DriveMode &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void set&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76">DriveMode</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a8c72444e966318968a75df7d0bbfb8e2">ModelConfig::dt</a>.</p>
+
+</div>
+</div>
+<a id="ab9413170f20c79cd2779a2ef6bc6e9d6" name="ab9413170f20c79cd2779a2ef6bc6e9d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9413170f20c79cd2779a2ef6bc6e9d6">&#9670;&#160;</a></span>set&lt; FilterSubModel &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void set&lt; <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cd">FilterSubModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html#a65f63ebd9ba82057b500f92bda892b5d">ModelConfig::mt</a>.</p>
+
+</div>
+</div>
 <a id="a52fdfb4e6e8086459134c1cd1ed8db25" name="a52fdfb4e6e8086459134c1cd1ed8db25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52fdfb4e6e8086459134c1cd1ed8db25">&#9670;&#160;</a></span>operator==()</h2>
 
@@ -662,7 +1608,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 19 2025 22:08:03 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Oct 7 2025 12:56:50 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -15,8 +15,11 @@ var searchData=
   ['isfalsetest_12',['isFalseTest',['../namespaceCatch.html#a57094c243bbdbc524ead9509e7fc3ce6',1,'Catch']]],
   ['ishidden_13',['isHidden',['../structCatch_1_1TestCaseInfo.html#a451227147204d105046094b758ce3438',1,'Catch::TestCaseInfo']]],
   ['isjustinfo_14',['isJustInfo',['../namespaceCatch.html#aa60628dd4cfcbaac1f5c7bc0cd6aeab1',1,'Catch']]],
-  ['isnullterminated_15',['isNullTerminated',['../classCatch_1_1StringRef.html#abd71166ca95b2e48db46baa3b1a1ca75',1,'Catch::StringRef']]],
-  ['isok_16',['isOk',['../namespaceCatch.html#accf3b043a3718473dcdfffdd87c33fe8',1,'Catch']]],
-  ['isthrowsafe_17',['isThrowSafe',['../namespaceCatch.html#a81cce1176d63041ed0138e8033d7dd7d',1,'Catch']]],
-  ['itransientexpression_18',['ITransientExpression',['../structCatch_1_1ITransientExpression.html#a96c2cec1ff7e8fdb1c51af23a313e755',1,'Catch::ITransientExpression']]]
+  ['ismodelconfigvalid_15',['isModelConfigValid',['../namespacesst_1_1filtersplusplus.html#acf2e69933c8e91e1e25291a48f0222fe',1,'sst::filtersplusplus']]],
+  ['isnullterminated_16',['isNullTerminated',['../classCatch_1_1StringRef.html#abd71166ca95b2e48db46baa3b1a1ca75',1,'Catch::StringRef']]],
+  ['isok_17',['isOk',['../namespaceCatch.html#accf3b043a3718473dcdfffdd87c33fe8',1,'Catch']]],
+  ['ispartialconfigvalid_18',['ispartialconfigvalid',['../namespacesst_1_1filtersplusplus.html#ad66355cfa605d186bfbd0a99abd656ca',1,'sst::filtersplusplus::isPartialConfigValid(const FilterModel &amp;fm, Passband p)'],['../namespacesst_1_1filtersplusplus.html#a4db446feaeeed1142ca98446af8ff844',1,'sst::filtersplusplus::isPartialConfigValid(const FilterModel &amp;fm, Passband p, Slope s)'],['../namespacesst_1_1filtersplusplus.html#a7e0b1fd0b216bca5e36fbfb3e8d7b68b',1,'sst::filtersplusplus::isPartialConfigValid(const FilterModel &amp;fm, Passband p, Slope s, DriveMode d)']]],
+  ['ispartialmatch_19',['isPartialMatch',['../namespacesst_1_1filtersplusplus.html#a282ef7b17df5f196dacefab96fd1cf40',1,'sst::filtersplusplus']]],
+  ['isthrowsafe_20',['isThrowSafe',['../namespaceCatch.html#a81cce1176d63041ed0138e8033d7dd7d',1,'Catch']]],
+  ['itransientexpression_21',['ITransientExpression',['../structCatch_1_1ITransientExpression.html#a96c2cec1ff7e8fdb1c51af23a313e755',1,'Catch::ITransientExpression']]]
 ];

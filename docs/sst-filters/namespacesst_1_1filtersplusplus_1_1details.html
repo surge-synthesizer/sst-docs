@@ -95,7 +95,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">sst::filtersplusplus::details Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -104,11 +105,152 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html">FilterPayload</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acefc0a1d893732a7dbaff28b38689b94" id="r_acefc0a1d893732a7dbaff28b38689b94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#acefc0a1d893732a7dbaff28b38689b94">mcequal</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc)</td></tr>
+<tr class="separator:acefc0a1d893732a7dbaff28b38689b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402c6753eb9a38b320d2969c6bf53288" id="r_a402c6753eb9a38b320d2969c6bf53288"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:a402c6753eb9a38b320d2969c6bf53288"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#a402c6753eb9a38b320d2969c6bf53288">mcequal</a> (const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;mc, T val, Args... rest_args)</td></tr>
+<tr class="separator:a402c6753eb9a38b320d2969c6bf53288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74aff35340eca920af99f3f3833f95af" id="r_a74aff35340eca920af99f3f3833f95af"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:a74aff35340eca920af99f3f3833f95af"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, bool &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#a74aff35340eca920af99f3f3833f95af">vavpc</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, Args... cstr)</td></tr>
+<tr class="separator:a74aff35340eca920af99f3f3833f95af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5592775b73dcd8b93947dbba0f226d9c" id="r_a5592775b73dcd8b93947dbba0f226d9c"><td class="memTemplParams" colspan="2">template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</td></tr>
+<tr class="memitem:a5592775b73dcd8b93947dbba0f226d9c"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#a5592775b73dcd8b93947dbba0f226d9c">vapc</a> (const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;fm, Args... cstr)</td></tr>
+<tr class="separator:a5592775b73dcd8b93947dbba0f226d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="acefc0a1d893732a7dbaff28b38689b94" name="acefc0a1d893732a7dbaff28b38689b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acefc0a1d893732a7dbaff28b38689b94">&#9670;&#160;</a></span>mcequal() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcequal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1filtersplusplus.html#a282ef7b17df5f196dacefab96fd1cf40">sst::filtersplusplus::isPartialMatch()</a>, <a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#a402c6753eb9a38b320d2969c6bf53288">mcequal()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#a74aff35340eca920af99f3f3833f95af">vavpc()</a>.</p>
+
+</div>
+</div>
+<a id="a402c6753eb9a38b320d2969c6bf53288" name="a402c6753eb9a38b320d2969c6bf53288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402c6753eb9a38b320d2969c6bf53288">&#9670;&#160;</a></span>mcequal() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mcequal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structsst_1_1filtersplusplus_1_1ModelConfig.html">ModelConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>rest_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#acefc0a1d893732a7dbaff28b38689b94">mcequal()</a>.</p>
+
+</div>
+</div>
+<a id="a74aff35340eca920af99f3f3833f95af" name="a74aff35340eca920af99f3f3833f95af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74aff35340eca920af99f3f3833f95af">&#9670;&#160;</a></span>vavpc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; T, bool &gt; &gt; vavpc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>cstr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filtersplusplus_1_1Filter.html#adcc1ea3d3ca6b35171fecfc9ac377f35">Filter::availableModelConfigurations()</a>, and <a class="el" href="namespacesst_1_1filtersplusplus_1_1details.html#acefc0a1d893732a7dbaff28b38689b94">mcequal()</a>.</p>
+
+</div>
+</div>
+<a id="a5592775b73dcd8b93947dbba0f226d9c" name="a5592775b73dcd8b93947dbba0f226d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5592775b73dcd8b93947dbba0f226d9c">&#9670;&#160;</a></span>vapc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;is_modelconfig_enum T, typename... Args&gt; <br />
+requires (is_modelconfig_enum&lt;Args&gt; &amp;&amp; ...)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; T &gt; vapc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277">FilterModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>fm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>cstr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 19 2025 22:08:03 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Oct 7 2025 12:56:50 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
