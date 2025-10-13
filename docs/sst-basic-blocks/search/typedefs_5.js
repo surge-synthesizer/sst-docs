@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tr_1358',['TR',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1RoutingTable.html#a31510144e6725d4017ea2fceba8d9fc5',1,'sst::basic_blocks::mod_matrix::RoutingTable::TR()'],['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a31510144e6725d4017ea2fceba8d9fc5',1,'sst::basic_blocks::mod_matrix::ModMatrix::TR()'],['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#a31510144e6725d4017ea2fceba8d9fc5',1,'sst::basic_blocks::mod_matrix::FixedLengthRoutingTable::TR()'],['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a31510144e6725d4017ea2fceba8d9fc5',1,'sst::basic_blocks::mod_matrix::FixedMatrix::TR()']]]
+  ['value_5ftype_0',['value_type',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#afb8172682a009a8f61f7787f41448e6d',1,'sst::basic_blocks::simd::F32x4']]]
 ];

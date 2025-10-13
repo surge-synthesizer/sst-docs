@@ -10,5 +10,6 @@ var searchData=
   ['sst_3a_3abasic_5fblocks_3a_3amod_5fmatrix_3a_3adetails_7',['details',['../namespacesst_1_1basic__blocks_1_1mod__matrix_1_1details.html',1,'sst::basic_blocks::mod_matrix']]],
   ['sst_3a_3abasic_5fblocks_3a_3amodulators_8',['modulators',['../namespacesst_1_1basic__blocks_1_1modulators.html',1,'sst::basic_blocks']]],
   ['sst_3a_3abasic_5fblocks_3a_3aparams_9',['params',['../namespacesst_1_1basic__blocks_1_1params.html',1,'sst::basic_blocks']]],
-  ['sst_3a_3abasic_5fblocks_3a_3atables_10',['tables',['../namespacesst_1_1basic__blocks_1_1tables.html',1,'sst::basic_blocks']]]
+  ['sst_3a_3abasic_5fblocks_3a_3asimd_10',['simd',['../namespacesst_1_1basic__blocks_1_1simd.html',1,'sst::basic_blocks']]],
+  ['sst_3a_3abasic_5fblocks_3a_3atables_11',['tables',['../namespacesst_1_1basic__blocks_1_1tables.html',1,'sst::basic_blocks']]]
 ];

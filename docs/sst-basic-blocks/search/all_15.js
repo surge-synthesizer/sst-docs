@@ -53,5 +53,6 @@ var searchData=
   ['withunorderedmapformatting_50',['withUnorderedMapFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a448a3091fdc2d57355a17a8a8b42d165',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withvaluelabelremoved_51',['withValueLabelRemoved',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6779449b855f61558f131725c1898f98',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['wp_52',['wp',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#af203f5ddbac4a47afed1a07b97e7e477',1,'sst::basic_blocks::dsp::LanczosResampler::wp'],['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#af203f5ddbac4a47afed1a07b97e7e477',1,'sst::basic_blocks::dsp::SSESincDelayLine::wp']]],
-  ['write_53',['write',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a966d5aaedf09d6f1f4c280973bec095b',1,'sst::basic_blocks::dsp::SSESincDelayLine']]]
+  ['wrap_5fsimd_5ff32x4_2eh_53',['wrap_simd_f32x4.h',['../wrap__simd__f32x4_8h.html',1,'']]],
+  ['write_54',['write',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a966d5aaedf09d6f1f4c280973bec095b',1,'sst::basic_blocks::dsp::SSESincDelayLine']]]
 ];

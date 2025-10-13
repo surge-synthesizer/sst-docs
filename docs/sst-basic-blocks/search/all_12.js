@@ -42,5 +42,5 @@ var searchData=
   ['twotothe_39',['twoToThe',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#ab69002cc218e797b54df12baa3f2aac9',1,'sst::basic_blocks::tables::TwoToTheXProvider']]],
   ['twotothexprovider_40',['TwoToTheXProvider',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html',1,'sst::basic_blocks::tables']]],
   ['twotothexprovider_2eh_41',['TwoToTheXProvider.h',['../TwoToTheXProvider_8h.html',1,'']]],
-  ['type_42',['type',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ac765329451135abec74c45e1897abf26',1,'sst::basic_blocks::dsp::CharacterFilter::type'],['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'sst::basic_blocks::params::ParamMetaData::Type']]]
+  ['type_42',['type',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'sst::basic_blocks::params::ParamMetaData::Type'],['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ac765329451135abec74c45e1897abf26',1,'sst::basic_blocks::dsp::CharacterFilter::type']]]
 ];
