@@ -221,6 +221,10 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a7ef0ab496f57e183b484e62e2053c94f"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are the filter types we have to choose from!  <a href="namespacesst_1_1filters.html#a7ef0ab496f57e183b484e62e2053c94f">More...</a><br /></td></tr>
 <tr class="separator:a7ef0ab496f57e183b484e62e2053c94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804cf2b9159a9b64b907e5ba38b6efbe" id="r_a804cf2b9159a9b64b907e5ba38b6efbe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbe">QFUSubtypeMasks</a> : int32_t { <a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0">UNMASK_SUBTYPE</a> = (1 &lt;&lt; 8) - 1
+, <a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964">EXTENDED_COMB</a> = 1 &lt;&lt; 9
+ }</td></tr>
+<tr class="separator:a804cf2b9159a9b64b907e5ba38b6efbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a88cd17b83350ae37c524667e7d1eba" id="r_a8a88cd17b83350ae37c524667e7d1eba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1eba">FilterSubType</a> { <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa61ee0df48121980f3312f810a413986f">st_Standard</a> = 0
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa0b50e6ad00667a4be36fba45da29ab23">st_Driven</a> = 1
@@ -294,10 +298,20 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa14be3173c722f0695e5f865a6841d17d">st_obxd2pole_standard</a> = 0
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa8932e9e10893afc7a7681f4d2da459d6">st_obxd2pole_pushed</a> = 1
+, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa4be463970ac2e86fe8f359214ac2492a">st_comb_pos_50</a> = 0
+, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaadf158c97e2efc2f3ad155c98df2f7c17">st_comb_pos_100</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa7a09269e7d6ee8e3af70630bbd930659">st_comb_neg_50</a> = 2
+, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa9d87133072e917368fa40cfd30facb16">st_comb_neg_100</a> = 3
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa23cc91005d5c60ca69ac205d9e428045">st_comb_continuous_pos</a> = 4
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaad0d059d20fa4cf1856270d7a2c4d2440">st_comb_continuous_neg</a> = 5
 , <br />
 &#160;&#160;<a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa300627748ba1676275d3e806d7bc4aa5">st_comb_continuous_posneg</a> = 6
+, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa382da8413a99b8b60051ab694fdc1d04">st_comb_pos_50_ext</a> = st_comb_pos_50 | QFUSubtypeMasks::EXTENDED_COMB
+, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa71de5dee9ad312f45f84728a99fdf09a">st_comb_pos_100_ext</a> = st_comb_pos_100 | QFUSubtypeMasks::EXTENDED_COMB
+, <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaac7a033fa9f4feb67933580ce2a5261c3">st_comb_neg_50_ext</a> = st_comb_neg_50 | QFUSubtypeMasks::EXTENDED_COMB
+, <br />
+&#160;&#160;<a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa42fb1c463ee8c9cd37424115b3638e26">st_comb_neg_100_ext</a> = st_comb_neg_100 | QFUSubtypeMasks::EXTENDED_COMB
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa98ee2fb087ca9bd21c0382a33025bd2f">st_bp12_LegacyDriven</a> = 3
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaa8de3f7b63b463837f8a68e03826ece12">st_bp12_LegacyClean</a> = 4
 , <a class="el" href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1ebaad54133d7ebb12e3feb4d6b8ff346d2dc">st_k35_none</a> = 0
@@ -342,10 +356,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a8a88cd17b83350ae37c524667e7d1eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sub-types for each filter are defined here.  <a href="namespacesst_1_1filters.html#a8a88cd17b83350ae37c524667e7d1eba">More...</a><br /></td></tr>
 <tr class="separator:a8a88cd17b83350ae37c524667e7d1eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804cf2b9159a9b64b907e5ba38b6efbe" id="r_a804cf2b9159a9b64b907e5ba38b6efbe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbe">QFUSubtypeMasks</a> : int32_t { <a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0">UNMASK_SUBTYPE</a> = (1 &lt;&lt; 8) - 1
-, <a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964">EXTENDED_COMB</a> = 1 &lt;&lt; 9
- }</td></tr>
-<tr class="separator:a804cf2b9159a9b64b907e5ba38b6efbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -583,6 +593,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a804cf2b9159a9b64b907e5ba38b6efbe" name="a804cf2b9159a9b64b907e5ba38b6efbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804cf2b9159a9b64b907e5ba38b6efbe">&#9670;&#160;</a></span>QFUSubtypeMasks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbe">QFUSubtypeMasks</a> : int32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0" name="a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0"></a>UNMASK_SUBTYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964" name="a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964"></a>EXTENDED_COMB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a8a88cd17b83350ae37c524667e7d1eba" name="a8a88cd17b83350ae37c524667e7d1eba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a88cd17b83350ae37c524667e7d1eba">&#9670;&#160;</a></span>FilterSubType</h2>
 
@@ -706,9 +734,17 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaaf91f44b0304451c773adb78571909949" name="a8a88cd17b83350ae37c524667e7d1ebaaf91f44b0304451c773adb78571909949"></a>st_obxd4pole_morph&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa14be3173c722f0695e5f865a6841d17d" name="a8a88cd17b83350ae37c524667e7d1ebaa14be3173c722f0695e5f865a6841d17d"></a>st_obxd2pole_standard&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa8932e9e10893afc7a7681f4d2da459d6" name="a8a88cd17b83350ae37c524667e7d1ebaa8932e9e10893afc7a7681f4d2da459d6"></a>st_obxd2pole_pushed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa4be463970ac2e86fe8f359214ac2492a" name="a8a88cd17b83350ae37c524667e7d1ebaa4be463970ac2e86fe8f359214ac2492a"></a>st_comb_pos_50&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaadf158c97e2efc2f3ad155c98df2f7c17" name="a8a88cd17b83350ae37c524667e7d1ebaadf158c97e2efc2f3ad155c98df2f7c17"></a>st_comb_pos_100&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa7a09269e7d6ee8e3af70630bbd930659" name="a8a88cd17b83350ae37c524667e7d1ebaa7a09269e7d6ee8e3af70630bbd930659"></a>st_comb_neg_50&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa9d87133072e917368fa40cfd30facb16" name="a8a88cd17b83350ae37c524667e7d1ebaa9d87133072e917368fa40cfd30facb16"></a>st_comb_neg_100&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa23cc91005d5c60ca69ac205d9e428045" name="a8a88cd17b83350ae37c524667e7d1ebaa23cc91005d5c60ca69ac205d9e428045"></a>st_comb_continuous_pos&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaad0d059d20fa4cf1856270d7a2c4d2440" name="a8a88cd17b83350ae37c524667e7d1ebaad0d059d20fa4cf1856270d7a2c4d2440"></a>st_comb_continuous_neg&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa300627748ba1676275d3e806d7bc4aa5" name="a8a88cd17b83350ae37c524667e7d1ebaa300627748ba1676275d3e806d7bc4aa5"></a>st_comb_continuous_posneg&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa382da8413a99b8b60051ab694fdc1d04" name="a8a88cd17b83350ae37c524667e7d1ebaa382da8413a99b8b60051ab694fdc1d04"></a>st_comb_pos_50_ext&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa71de5dee9ad312f45f84728a99fdf09a" name="a8a88cd17b83350ae37c524667e7d1ebaa71de5dee9ad312f45f84728a99fdf09a"></a>st_comb_pos_100_ext&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaac7a033fa9f4feb67933580ce2a5261c3" name="a8a88cd17b83350ae37c524667e7d1ebaac7a033fa9f4feb67933580ce2a5261c3"></a>st_comb_neg_50_ext&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa42fb1c463ee8c9cd37424115b3638e26" name="a8a88cd17b83350ae37c524667e7d1ebaa42fb1c463ee8c9cd37424115b3638e26"></a>st_comb_neg_100_ext&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa98ee2fb087ca9bd21c0382a33025bd2f" name="a8a88cd17b83350ae37c524667e7d1ebaa98ee2fb087ca9bd21c0382a33025bd2f"></a>st_bp12_LegacyDriven&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa8de3f7b63b463837f8a68e03826ece12" name="a8a88cd17b83350ae37c524667e7d1ebaa8de3f7b63b463837f8a68e03826ece12"></a>st_bp12_LegacyClean&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaad54133d7ebb12e3feb4d6b8ff346d2dc" name="a8a88cd17b83350ae37c524667e7d1ebaad54133d7ebb12e3feb4d6b8ff346d2dc"></a>st_k35_none&#160;</td><td class="fielddoc"></td></tr>
@@ -741,24 +777,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaac686cf62339d77ef0507064600d947ca" name="a8a88cd17b83350ae37c524667e7d1ebaac686cf62339d77ef0507064600d947ca"></a>st_obxdxpander_hp3lp1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaaa96b0ac1d0285b2585ec972d34ec3473" name="a8a88cd17b83350ae37c524667e7d1ebaaa96b0ac1d0285b2585ec972d34ec3473"></a>st_obxdxpander_n2lp1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8a88cd17b83350ae37c524667e7d1ebaa72d58a969af0cee55cbc009a36c5efbf" name="a8a88cd17b83350ae37c524667e7d1ebaa72d58a969af0cee55cbc009a36c5efbf"></a>st_obxdxpander_ph3lp1&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a804cf2b9159a9b64b907e5ba38b6efbe" name="a804cf2b9159a9b64b907e5ba38b6efbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804cf2b9159a9b64b907e5ba38b6efbe">&#9670;&#160;</a></span>QFUSubtypeMasks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespacesst_1_1filters.html#a804cf2b9159a9b64b907e5ba38b6efbe">QFUSubtypeMasks</a> : int32_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0" name="a804cf2b9159a9b64b907e5ba38b6efbea0851f23bd487ce8797f5093d4c9383f0"></a>UNMASK_SUBTYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964" name="a804cf2b9159a9b64b907e5ba38b6efbeac297ef6b5e7ee9684cacbb38e0d27964"></a>EXTENDED_COMB&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2186,7 +2204,7 @@ template&lt;int32_t scaleTimes1000, SIMD_M128(*)(<a class="el" href="structsst_1
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 7 2025 12:56:50 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Oct 14 2025 13:41:48 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
