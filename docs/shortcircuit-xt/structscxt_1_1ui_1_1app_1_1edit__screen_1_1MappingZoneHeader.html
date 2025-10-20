@@ -120,6 +120,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9631be5297a95f03ca6c8f0efc8e127e" id="r_a9631be5297a95f03ca6c8f0efc8e127e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a9631be5297a95f03ca6c8f0efc8e127e">MappingZoneHeader</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *ed)</td></tr>
 <tr class="separator:a9631be5297a95f03ca6c8f0efc8e127e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac335c83284821b96afcdabb12dbfd391" id="r_ac335c83284821b96afcdabb12dbfd391"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac335c83284821b96afcdabb12dbfd391">initiateMidiZoneAction</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html#a24d842503cdba6a1024aee4ab482c3c2">engine::Engine::MidiZoneAction</a>)</td></tr>
+<tr class="separator:ac335c83284821b96afcdabb12dbfd391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31cc081b3c77bc8855de79094fc1da42" id="r_a31cc081b3c77bc8855de79094fc1da42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a31cc081b3c77bc8855de79094fc1da42">resized</a> () override</td></tr>
 <tr class="separator:a31cc081b3c77bc8855de79094fc1da42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
@@ -191,11 +193,33 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ad1b5374a761129a8fad87bfd31d01eb8">MappingZoneHeader::autoMap</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a4ae87439f1d1b80654d638db281d0e3d">MappingZoneHeader::fadeOverlap</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a97674251d7fa7a19000904b8fd88ba0e">MappingZoneHeader::fileLabel</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#acbd214a79d205cadf2878e05be8b0ded">MappingZoneHeader::fileMenu</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a6ca239beb422117cb8421deae852dd09">MappingZoneHeader::fixOverlap</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#afa1dc1596b24eea9cbd0d07f4fbf4f2a">MappingZoneHeader::lockButton</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a70813794c6dc73fbd5150da4f2b5e558">SCXTEditor::makeComingSoon()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a44aa12d19c44e510bf8c9cec6de13779">MappingZoneHeader::midiButton</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac7031f548c431bb9cff9557b398f7c58">MappingZoneHeader::midiLRButton</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a892e49a6bd88a430d35deb70d194f5e7">MappingZoneHeader::midiUDButton</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a78083a6933a78a99377b438777901fa5">MappingZoneHeader::zoneSolo</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ad1b5374a761129a8fad87bfd31d01eb8">MappingZoneHeader::autoMap</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a4ae87439f1d1b80654d638db281d0e3d">MappingZoneHeader::fadeOverlap</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a97674251d7fa7a19000904b8fd88ba0e">MappingZoneHeader::fileLabel</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#acbd214a79d205cadf2878e05be8b0ded">MappingZoneHeader::fileMenu</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a6ca239beb422117cb8421deae852dd09">MappingZoneHeader::fixOverlap</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac335c83284821b96afcdabb12dbfd391">MappingZoneHeader::initiateMidiZoneAction()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#afa1dc1596b24eea9cbd0d07f4fbf4f2a">MappingZoneHeader::lockButton</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a70813794c6dc73fbd5150da4f2b5e558">SCXTEditor::makeComingSoon()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a44aa12d19c44e510bf8c9cec6de13779">MappingZoneHeader::midiButton</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac7031f548c431bb9cff9557b398f7c58">MappingZoneHeader::midiLRButton</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a892e49a6bd88a430d35deb70d194f5e7">MappingZoneHeader::midiUDButton</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a24d842503cdba6a1024aee4ab482c3c2a63225f19fccb18e7c709f1fa11bc738e">Engine::SELECT</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a24d842503cdba6a1024aee4ab482c3c2a33021111728372f745a56cf607914251">Engine::SET_KEY_BOUNDS_START</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a24d842503cdba6a1024aee4ab482c3c2a8029aa8675f7bf21439cff09ba72651b">Engine::SET_VEL_BOUNDS_START</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a78083a6933a78a99377b438777901fa5">MappingZoneHeader::zoneSolo</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac335c83284821b96afcdabb12dbfd391" name="ac335c83284821b96afcdabb12dbfd391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac335c83284821b96afcdabb12dbfd391">&#9670;&#160;</a></span>initiateMidiZoneAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initiateMidiZoneAction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a24d842503cdba6a1024aee4ab482c3c2">engine::Engine::MidiZoneAction</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a9631be5297a95f03ca6c8f0efc8e127e">MappingZoneHeader::MappingZoneHeader()</a>.</p>
+
+</div>
+</div>
 <a id="a31cc081b3c77bc8855de79094fc1da42" name="a31cc081b3c77bc8855de79094fc1da42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31cc081b3c77bc8855de79094fc1da42">&#9670;&#160;</a></span>resized()</h2>
 
@@ -391,7 +415,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 20 2025 20:50:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Oct 20 2025 21:43:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
