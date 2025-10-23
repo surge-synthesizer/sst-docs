@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['k35impl_0',['k35Impl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a6dbc899b91e6a25f16ccb76c1081d609',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['k35impl_5fos_1',['k35Impl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#ae85b2702dcfba431503ca90d71928e13',1,'scxt::dsp::processor::procimpl::detail']]]
+  ['jsonfloateditor_5ft_0',['jsonFloatEditor_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a35a603807842972fe36acad66747edc4',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
+  ['jsoninteditor_5ft_1',['jsonIntEditor_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a6b231c84756d4b6e808a7b8b25267f4a',1,'scxt::ui::app::edit_screen::ProcessorPane']]]
 ];

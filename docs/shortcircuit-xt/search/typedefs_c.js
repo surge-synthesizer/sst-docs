@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['obx4impl_0',['obx4Impl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a10c52c8f3ccb7ee93445ebe0e190c648',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['obx4impl_5fos_1',['obx4Impl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a791539c0b04229d4fc53bcbba419a072',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['ongui_5ft_2',['onGui_t',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ada36d479302d937af647374dbb431fcd',1,'scxt::ui::connectors::DiscretePayloadDataAttachment']]],
-  ['opcodes_5ft_3',['opCodes_t',['../structscxt_1_1sfz__support_1_1SFZParser.html#a0565934d0720e1c5fdbd11dda447c34f',1,'scxt::sfz_support::SFZParser']]],
-  ['othertabselection_5ft_4',['otherTabSelection_t',['../structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd',1,'scxt::selection::SelectionManager']]],
-  ['outpanetraits_5',['outpanetraits',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneTraits.html#a109422336b88d68bdc68b649ed6ac921',1,'scxt::ui::app::edit_screen::EditScreen::ZoneTraits::OutPaneTraits'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1GroupTraits.html#a937b41d995d1fe892bcdd01eb8786df5',1,'scxt::ui::app::edit_screen::EditScreen::GroupTraits::OutPaneTraits']]]
+  ['namedcurve_5ft_0',['namedcurve_t',['../namespacescxt_1_1modulation.html#a8eb3af5cb571842d1eff2d58b4ee88d0',1,'scxt::modulation::namedCurve_t'],['../namespacescxt_1_1voice_1_1modulation.html#a4b4e7e0cc3e4a02c9e13cf9bc3b2aa4c',1,'scxt::voice::modulation::namedCurve_t']]],
+  ['namedcurvevector_5ft_1',['namedcurvevector_t',['../namespacescxt_1_1modulation.html#a61908bd3214c32213f95a860958d1456',1,'scxt::modulation::namedCurveVector_t'],['../namespacescxt_1_1voice_1_1modulation.html#a61908bd3214c32213f95a860958d1456',1,'scxt::voice::modulation::namedCurveVector_t']]],
+  ['namedsource_5ft_2',['namedsource_t',['../namespacescxt_1_1modulation.html#a37ca47400b9a64bacaa8cb25e546a179',1,'scxt::modulation::namedSource_t'],['../namespacescxt_1_1voice_1_1modulation.html#a7f24f8ccf80bfe27f5858651ab21670d',1,'scxt::voice::modulation::namedSource_t']]],
+  ['namedsourcevector_5ft_3',['namedsourcevector_t',['../namespacescxt_1_1modulation.html#a5a5d9ab518a903893da5d63349442398',1,'scxt::modulation::namedSourceVector_t'],['../namespacescxt_1_1voice_1_1modulation.html#a5a5d9ab518a903893da5d63349442398',1,'scxt::voice::modulation::namedSourceVector_t']]],
+  ['namedtarget_5ft_4',['namedtarget_t',['../namespacescxt_1_1modulation.html#aa9a7e5ddb376ba608c1b5478a9b48a95',1,'scxt::modulation::namedTarget_t'],['../namespacescxt_1_1voice_1_1modulation.html#ac9e420a2583c9b2bc1a09f765b37a9d8',1,'scxt::voice::modulation::namedTarget_t']]],
+  ['namedtargetvector_5ft_5',['namedtargetvector_t',['../namespacescxt_1_1modulation.html#a5f3de7da9f6d2132c5c064d51f8159b5',1,'scxt::modulation::namedTargetVector_t'],['../namespacescxt_1_1voice_1_1modulation.html#a5f3de7da9f6d2132c5c064d51f8159b5',1,'scxt::voice::modulation::namedTargetVector_t']]],
+  ['normalizevariantamplitudepayload_5ft_6',['normalizeVariantAmplitudePayload_t',['../namespacescxt_1_1messaging_1_1client.html#a003e3299399bb33b2ee9c8ff04039fe0',1,'scxt::messaging::client']]],
+  ['noteonoff_5ft_7',['noteOnOff_t',['../namespacescxt_1_1messaging_1_1client.html#ae1e6111a783b5232e389026e2bb77f26',1,'scxt::messaging::client']]]
 ];

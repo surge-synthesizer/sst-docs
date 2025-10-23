@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['lipol_0',['lipol',['../structscxt_1_1engine_1_1Group.html#a998e9cf4247b55a1cee872655bed30be',1,'scxt::engine::Group::lipol'],['../structscxt_1_1voice_1_1Voice.html#a998e9cf4247b55a1cee872655bed30be',1,'scxt::voice::Voice::lipol']]],
-  ['lipolos_1',['lipolos',['../structscxt_1_1engine_1_1Group.html#aab0296fa59443d6868ea40fb6a9959ff',1,'scxt::engine::Group::lipolOS'],['../structscxt_1_1voice_1_1Voice.html#aab0296fa59443d6868ea40fb6a9959ff',1,'scxt::voice::Voice::lipolOS']]],
-  ['loadpartintopayload_5ft_2',['loadPartIntoPayload_t',['../namespacescxt_1_1messaging_1_1client.html#aa29b7aef2255d4b9256f8fe666eac11a',1,'scxt::messaging::client']]]
+  ['k35impl_0',['k35Impl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a6dbc899b91e6a25f16ccb76c1081d609',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['k35impl_5fos_1',['k35Impl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#ae85b2702dcfba431503ca90d71928e13',1,'scxt::dsp::processor::procimpl::detail']]]
 ];

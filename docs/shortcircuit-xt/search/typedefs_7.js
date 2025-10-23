@@ -12,5 +12,6 @@ var searchData=
   ['int16refreshmsg_5ft_9',['int16refreshmsg_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutPaneGroupTraits.html#a75fd7fb290c7a349f928e4da4bf13d41',1,'scxt::ui::app::edit_screen::OutPaneGroupTraits::int16RefreshMsg_t'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutPaneZoneTraits.html#a0993434df7faf5c67b052a430684dcb0',1,'scxt::ui::app::edit_screen::OutPaneZoneTraits::int16RefreshMsg_t']]],
   ['int_5fattachment_5ft_10',['int_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['intatt_5ft_11',['intatt_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a16f7e3f73375fe284580fe0119ff891c',1,'scxt::ui::app::edit_screen::MiscPanel']]],
-  ['inteditor_5ft_12',['intEditor_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afd392348a4980f94929e870d2917ddd6',1,'scxt::ui::app::edit_screen::ProcessorPane']]]
+  ['inteditor_5ft_12',['intEditor_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afd392348a4980f94929e870d2917ddd6',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
+  ['intproxyattachment_5ft_13',['intProxyAttachment_t',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#aec4b9e77e5d56ec03c48cf7f97fa8f1e',1,'scxt::ui::app::shared::PartEffectsPane']]]
 ];

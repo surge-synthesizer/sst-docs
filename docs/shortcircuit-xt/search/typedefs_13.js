@@ -1,10 +1,15 @@
 var searchData=
 [
-  ['zoneaddressfromto_5ft_0',['zoneAddressFromTo_t',['../namespacescxt_1_1messaging_1_1client.html#a289345f2497cb7b4032b73fbc712ade4',1,'scxt::messaging::client']]],
-  ['zonecontainer_5ft_1',['zoneContainer_t',['../structscxt_1_1engine_1_1Group.html#a7b359822d545f5aa6ca7dab8c0ca68c6',1,'scxt::engine::Group']]],
-  ['zoneid_2',['ZoneID',['../namespacescxt.html#a8d628dbcbcc81f552ff36618d1e5b494',1,'scxt']]],
-  ['zonemappingitem_5ft_3',['zoneMappingItem_t',['../structscxt_1_1engine_1_1Part.html#a65509a6111eb5d9a9e0e0587c0cf9754',1,'scxt::engine::Part']]],
-  ['zonemappingsummary_5ft_4',['zoneMappingSummary_t',['../structscxt_1_1engine_1_1Part.html#a029db25eccaaa5eb8fec1d2292e01a03',1,'scxt::engine::Part']]],
-  ['zoneoutputinfoupdate_5ft_5',['zoneOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a99fcf20070cedcf3ee8063f5643466df',1,'scxt::messaging::client']]],
-  ['zoneroutingrowpayload_5ft_6',['zoneRoutingRowPayload_t',['../namespacescxt_1_1messaging_1_1client.html#aee36856f682f7a268621f7e03ebd7aa0',1,'scxt::messaging::client']]]
+  ['value_5ft_0',['value_t',['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#aa1d5121c2925fb57a77fa6f324a8a950',1,'scxt::ui::connectors::PayloadDataAttachment::value_t'],['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#aa1d5121c2925fb57a77fa6f324a8a950',1,'scxt::ui::connectors::DiscretePayloadDataAttachment::value_t'],['../structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html#a7971b47f1a66f2460c4fc05267645c72',1,'scxt::ui::connectors::BooleanPayloadDataAttachment::value_t']]],
+  ['valuestorage_1',['ValueStorage',['../structscxt_1_1engine_1_1dtl_1_1Config.html#ae03f467d484042d78a1ab88fb9b888cb',1,'scxt::engine::dtl::Config']]],
+  ['vemberimpl_2',['vemberImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a2316ab65e50abc8a68a6d9bccc7218cd',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['vemberimpl_5fos_3',['vemberImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a4f576c5b46ffeb36376a4955b19f1497',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['vintageimpl_4',['vintageImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#aca708d1aabc198b348522463b72c23a7',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['vintageimpl_5fos_5',['vintageImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#ab085cd00d84eb16fd8577f2a8730eae1',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['vmodsrcstrfn_5ft_6',['vmodSrcStrFn_t',['../structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa',1,'scxt::engine::Engine']]],
+  ['vmodtgtboolfn_5ft_7',['vmodTgtBoolFn_t',['../structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17',1,'scxt::engine::Engine']]],
+  ['vmodtgtstrfn_5ft_8',['vmodTgtStrFn_t',['../structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b',1,'scxt::engine::Engine']]],
+  ['voice_5ft_9',['voice_t',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195',1,'scxt::engine::Engine::VMConfig']]],
+  ['voicemanager_5ft_10',['voiceManager_t',['../structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7',1,'scxt::engine::Engine']]],
+  ['voicematrixmetadata_5ft_11',['voiceMatrixMetadata_t',['../namespacescxt_1_1voice_1_1modulation.html#a041ae028e6bba1951ab546a585e32a6b',1,'scxt::voice::modulation']]]
 ];
