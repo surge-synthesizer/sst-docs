@@ -1,7 +1,7 @@
 var searchData=
 [
   ['participant_0',['participant',['../structsst_1_1cpputils_1_1active__set__overlay_1_1participant.html',1,'sst::cpputils::active_set_overlay']]],
-  ['pointer_1',['pointer',['../structsst_1_1cpputils_1_1active__set__overlay_1_1iterator.html#a9c94ab69cec3a561ed81e0caae46a6c3',1,'sst::cpputils::active_set_overlay::iterator']]],
+  ['pointer_1',['pointer',['../structsst_1_1cpputils_1_1active__set__overlay_1_1iterator.html#a9c94ab69cec3a561ed81e0caae46a6c3',1,'sst::cpputils::active_set_overlay::iterator::pointer'],['../classsst_1_1cpputils_1_1AlignedAllocator.html#a6fc03915d7633dfe3c2b7a160f410549',1,'sst::cpputils::AlignedAllocator::pointer'],['../classsst_1_1cpputils_1_1DynArray.html#a1ef1c8c3fdafa4405e3956e50d1f2944',1,'sst::cpputils::DynArray::pointer']]],
   ['pop_2',['pop',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a44a53147d4b3600ec200300ea16e3707',1,'sst::cpputils::SimpleRingBuffer::pop()'],['../classsst_1_1cpputils_1_1StereoRingBuffer.html#afb471621ae5fa5f1bfd00c2f837ee436',1,'sst::cpputils::StereoRingBuffer::pop()']]],
   ['popall_3',['popall',['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a849946b194bd368ad8e51226a52be35a',1,'sst::cpputils::SimpleRingBuffer::popall()'],['../classsst_1_1cpputils_1_1StereoRingBuffer.html#abec5f241d9e57cdb43d710d858b714b1',1,'sst::cpputils::StereoRingBuffer::popall()']]],
   ['preparetoread_4',['prepareToRead',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a3d051e633a8f39dfc4d7c8ff52a6eb48',1,'sst::cpputils::internal::RingBufferInternal']]],
