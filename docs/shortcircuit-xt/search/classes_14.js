@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['variantdisplay_0',['VariantDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html',1,'scxt::ui::app::edit_screen']]],
-  ['variants_1',['Variants',['../structscxt_1_1engine_1_1Zone_1_1Variants.html',1,'scxt::engine::Zone']]],
-  ['velocityrange_2',['VelocityRange',['../structscxt_1_1engine_1_1VelocityRange.html',1,'scxt::engine']]],
-  ['viewportcomponent_3',['ViewportComponent',['../structscxt_1_1ui_1_1app_1_1play__screen_1_1ViewportComponent.html',1,'scxt::ui::app::play_screen']]],
-  ['vmconfig_4',['VMConfig',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html',1,'scxt::engine::Engine']]],
-  ['voice_5',['Voice',['../structscxt_1_1voice_1_1Voice.html',1,'scxt::voice']]],
-  ['voicedisplaystateitem_6',['VoiceDisplayStateItem',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html',1,'scxt::engine::Engine::SharedUIMemoryState']]],
-  ['voicemanagerresponder_7',['VoiceManagerResponder',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html',1,'scxt::engine::Engine']]],
-  ['voicesources_8',['VoiceSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1VoiceSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]]
+  ['wave_5facid_5fchunk_0',['wave_acid_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html',1,'scxt::sample::loaders']]],
+  ['wave_5finst_5fchunk_1',['wave_inst_chunk',['../structscxt_1_1sample_1_1loaders_1_1wave__inst__chunk.html',1,'scxt::sample::loaders']]],
+  ['wave_5fstrc_5fentry_2',['wave_strc_entry',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__entry.html',1,'scxt::sample::loaders']]],
+  ['wave_5fstrc_5fheader_3',['wave_strc_header',['../structscxt_1_1sample_1_1loaders_1_1wave__strc__header.html',1,'scxt::sample::loaders']]],
+  ['wavheader_4',['wavheader',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html',1,'scxt::sample::loaders']]],
+  ['welcomescreen_5',['WelcomeScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['withsampleinfo_6',['WithSampleInfo',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html',1,'scxt::ui::app::browser_ui']]],
+  ['workitemlineitem_7',['WorkItemLineItem',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html',1,'scxt::ui::app::missing_resolution']]],
+  ['writerworker_8',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html',1,'scxt::browser']]]
 ];

@@ -271,8 +271,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:acec8b2d9259281de067d8831822cbbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5de275519ad16e48a8873353d2968a" id="r_a7f5de275519ad16e48a8873353d2968a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a7f5de275519ad16e48a8873353d2968a">rebuildDefaultLayout</a> ()</td></tr>
 <tr class="separator:a7f5de275519ad16e48a8873353d2968a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fa2dcd868221a23dc9c9e448d083cd3" id="r_a0fa2dcd868221a23dc9c9e448d083cd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a0fa2dcd868221a23dc9c9e448d083cd3">rebuildFromJSONLibrary</a> (const std::string &amp;path)</td></tr>
-<tr class="separator:a0fa2dcd868221a23dc9c9e448d083cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c412df8714956b27f4f6e0f74311d84" id="r_a1c412df8714956b27f4f6e0f74311d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a1c412df8714956b27f4f6e0f74311d84">rebuildWithJsonLayoutEngine</a> (const std::string &amp;path)</td></tr>
 <tr class="separator:a1c412df8714956b27f4f6e0f74311d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac43e491cde9a19c6d6d14719829ec752" id="r_ac43e491cde9a19c6d6d14719829ec752"><td class="memTemplParams" colspan="2">template&lt;typename Att &gt; </td></tr>
@@ -454,8 +452,6 @@ template&lt;bool forBus&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="utils_8h.html#a625d50372c14206767b37135450b522d">SCLOG_ONCE</a>.</p>
 
 </div>
 </div>
@@ -1127,36 +1123,6 @@ template&lt;bool forBus&gt; </div>
 
 </div>
 </div>
-<a id="a0fa2dcd868221a23dc9c9e448d083cd3" name="a0fa2dcd868221a23dc9c9e448d083cd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fa2dcd868221a23dc9c9e448d083cd3">&#9670;&#160;</a></span>rebuildFromJSONLibrary()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;bool forBus&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rebuildFromJSONLibrary </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#a3703f81f52a07bb82002a80405cb1dfb">JSONLayoutConsumer::result</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
-
-</div>
-</div>
 <a id="a1c412df8714956b27f4f6e0f74311d84" name="a1c412df8714956b27f4f6e0f74311d84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c412df8714956b27f4f6e0f74311d84">&#9670;&#160;</a></span>rebuildWithJsonLayoutEngine()</h2>
 
@@ -1182,6 +1148,8 @@ template&lt;bool forBus&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1connectors_1_1jsonlayout.html#a06396229343190ee849343d350320e68">scxt::ui::connectors::jsonlayout::resolveJsonFile()</a>.</p>
 
 </div>
 </div>
@@ -1211,7 +1179,7 @@ template&lt;bool forBus&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1connectors_1_1jsonlayout.html#a8bb92f61d0173bc36ff7b073bc8ff7db">scxt::ui::connectors::jsonlayout::resolveJsonFile()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1connectors_1_1jsonlayout.html#a06396229343190ee849343d350320e68">scxt::ui::connectors::jsonlayout::resolveJsonFile()</a>.</p>
 
 </div>
 </div>
@@ -1530,7 +1498,7 @@ template&lt;bool forBus&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 31 2025 23:40:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Nov 1 2025 15:59:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

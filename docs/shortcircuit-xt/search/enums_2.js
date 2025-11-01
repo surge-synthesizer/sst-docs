@@ -5,6 +5,5 @@ var searchData=
   ['conjunction_2',['Conjunction',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767a',1,'scxt::engine::GroupTriggerConditions']]],
   ['consistencycheck_3',['ConsistencyCheck',['../structscxt_1_1selection_1_1SelectionManager.html#ad013daf9867443d70831a8763cc78107',1,'scxt::selection::SelectionManager']]],
   ['contenttype_4',['ContentType',['../structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79',1,'scxt::engine::Clipboard']]],
-  ['ctrl_5',['ctrl',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8c72c82f024ad6af2e49918de816504f',1,'scxt::ui::app::edit_screen::MappingDisplay::Ctrl'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504f',1,'scxt::ui::app::edit_screen::VariantDisplay::Ctrl']]],
-  ['currvaltype_6',['currValType',['../structscxt_1_1ui_1_1connectors_1_1JSONLayoutConsumer.html#ab46204964cb8bdc608663b68c83d743c',1,'scxt::ui::connectors::JSONLayoutConsumer']]]
+  ['ctrl_5',['ctrl',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8c72c82f024ad6af2e49918de816504f',1,'scxt::ui::app::edit_screen::MappingDisplay::Ctrl'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504f',1,'scxt::ui::app::edit_screen::VariantDisplay::Ctrl']]]
 ];
