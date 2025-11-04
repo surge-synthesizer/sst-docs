@@ -31,7 +31,7 @@ var searchData=
   ['outputcubamp_28',['outputCubAmp',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#a6273e26fc21d0d666b36cf408db163d5',1,'scxt::dsp::processor::ProcessorStorage']]],
   ['outputglyph_29',['outputGlyph',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#aac34132e2a4f513ae5dc68b388c53063',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['outputinfo_30',['outputinfo',['../structscxt_1_1engine_1_1Group.html#a525cdc479fc425dc04d06138da180d3d',1,'scxt::engine::Group::outputInfo'],['../structscxt_1_1engine_1_1Zone.html#a306db1ae80088241d8ef06ccb0f38ac1',1,'scxt::engine::Zone::outputInfo']]],
-  ['outputknob_31',['outputKnob',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputTab.html#ab21e5ff555436c86caf7c1ded68389f9',1,'scxt::ui::app::edit_screen::OutputTab']]],
+  ['outputknob_31',['outputKnob',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputTab.html#a74e7f03797323cdf6e33cda46ba386df',1,'scxt::ui::app::edit_screen::OutputTab']]],
   ['outputl_32',['outputL',['../structscxt_1_1dsp_1_1GeneratorIO.html#ab9594154e71a26b3b7e6706db885a15d',1,'scxt::dsp::GeneratorIO']]],
   ['outputleveldbp_33',['outputLevelDbP',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a9c6a88e79ad79071fd2f2c9b09d1db9c',1,'scxt::modulation::shared::ProcessorTargetEndpointData']]],
   ['outputleveldbt_34',['outputLevelDbT',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a660e0d4c7532710bf3e4ac74c42dafb8',1,'scxt::modulation::shared::ProcessorTargetEndpointData']]],
