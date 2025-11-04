@@ -13,5 +13,6 @@ var searchData=
   ['rowaddcomponent_10',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget']]],
   ['rowcomponent_11',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget']]],
   ['rowcontents_12',['RowContents',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea_1_1RowContents.html',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
-  ['rowtopcomponent_13',['rowTopComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowTopComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget']]]
+  ['rowtopcomponent_13',['rowTopComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowTopComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget']]],
+  ['runtimeconfig_14',['RuntimeConfig',['../structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html',1,'scxt::engine::Engine']]]
 ];
