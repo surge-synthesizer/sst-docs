@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['json_20layouts_0',['JSON Layouts',['../md_src-ui_2json-assets_2README__JSON__ASSETS.html',1,'']]]
+  ['readme_5fjson_5fassets_0',['README_JSON_ASSETS',['../md_src_2scxt-plugin_2json-assets_2README__JSON__ASSETS.html',1,'']]]
 ];
