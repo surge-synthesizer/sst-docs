@@ -309,7 +309,7 @@ var searchData=
   ['procroutingpath_306',['ProcRoutingPath',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a6b5183d8441a96fd281de2262fc3b7b9',1,'scxt::engine::HasGroupZoneProcessors']]],
   ['proct_5fautowah_307',['proct_autowah',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fad09568454c196ebf1cd8b8dda8791fe5',1,'scxt::dsp::processor']]],
   ['proct_5fchorus_308',['proct_Chorus',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fac8150f5b8faf5b5c4033ff3aeab24f9f',1,'scxt::dsp::processor']]],
-  ['proct_5fcomb1_309',['proct_comb1',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa5e082939cb960c7451bd0523465bfa06',1,'scxt::dsp::processor']]],
+  ['proct_5fcomb_309',['proct_comb',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa397ced60ae56fae23d94149421750ef7',1,'scxt::dsp::processor']]],
   ['proct_5fcompressor_310',['proct_Compressor',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa700665504fb1a922014300396cad76ea',1,'scxt::dsp::processor']]],
   ['proct_5fcutoffwarp_311',['proct_cutoffwarp',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa6f6235c16571c9bd483c1af31affe8f9',1,'scxt::dsp::processor']]],
   ['proct_5fcytomicsvf_312',['proct_CytomicSVF',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fae5506640382798a02930c2c1a15f7aaa',1,'scxt::dsp::processor']]],
