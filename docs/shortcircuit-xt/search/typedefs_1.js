@@ -12,9 +12,10 @@ var searchData=
   ['browserqueuerefreshpayload_5ft_9',['browserQueueRefreshPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a9958feae879ec5010b1ced25e6a8c4c2',1,'scxt::messaging::client']]],
   ['buseffectfulldata_5ft_10',['busEffectFullData_t',['../namespacescxt_1_1messaging_1_1client.html#afd079cbd7cca2face4cebed05f08e1b1',1,'scxt::messaging::client']]],
   ['busfx_5ft_11',['busFX_t',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a230a6979917628b4c1939999f28af46b',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
-  ['buspartsfx_5ft_12',['busPartsFX_t',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a46c438ebcfa3cdb704492b45424d5160',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
-  ['busremapfn_5ft_13',['busRemapFn_t',['../namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844',1,'scxt::engine']]],
-  ['bussend_5ft_14',['busSend_t',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a344973e430001ad1b212297882e9839b',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
-  ['bussenddata_5ft_15',['busSendData_t',['../namespacescxt_1_1messaging_1_1client.html#a4d413957416a70f34fc1da5cb15b1dae',1,'scxt::messaging::client']]],
-  ['bytedata_5ft_16',['byteData_t',['../namespacescxt_1_1exs__support.html#a6ff9d665fa11ba6a0f8628135488c741',1,'scxt::exs_support']]]
+  ['busfxswap_5ft_12',['busFxSwap_t',['../namespacescxt_1_1messaging_1_1client.html#ac3fbe49874e58ac12055ce579b876f9a',1,'scxt::messaging::client']]],
+  ['buspartsfx_5ft_13',['busPartsFX_t',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a46c438ebcfa3cdb704492b45424d5160',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
+  ['busremapfn_5ft_14',['busRemapFn_t',['../namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844',1,'scxt::engine']]],
+  ['bussend_5ft_15',['busSend_t',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#a344973e430001ad1b212297882e9839b',1,'scxt::ui::app::mixer_screen::MixerScreen']]],
+  ['bussenddata_5ft_16',['busSendData_t',['../namespacescxt_1_1messaging_1_1client.html#a4d413957416a70f34fc1da5cb15b1dae',1,'scxt::messaging::client']]],
+  ['bytedata_5ft_17',['byteData_t',['../namespacescxt_1_1exs__support.html#a6ff9d665fa11ba6a0f8628135488c741',1,'scxt::exs_support']]]
 ];

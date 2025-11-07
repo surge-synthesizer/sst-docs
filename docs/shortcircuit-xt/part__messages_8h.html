@@ -115,6 +115,8 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:af376552cb372ac4d0224c55478803b6e" id="r_af376552cb372ac4d0224c55478803b6e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af376552cb372ac4d0224c55478803b6e">partConfigurationPayload_t</a> = std::pair&lt; int16_t, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html">scxt::engine::Part::PartConfiguration</a> &gt;</td></tr>
 <tr class="separator:af376552cb372ac4d0224c55478803b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8662b31fb4080d6e20f3d0549c9d9fe4" id="r_a8662b31fb4080d6e20f3d0549c9d9fe4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8662b31fb4080d6e20f3d0549c9d9fe4">partFxSwap_t</a> = std::tuple&lt; int16_t, int16_t, int16_t, int16_t, int16_t &gt;</td></tr>
+<tr class="separator:a8662b31fb4080d6e20f3d0549c9d9fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -128,11 +130,15 @@ Functions</h2></td></tr>
 <tr class="separator:a41751f307fd480d6ed41811ab26caec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97705e301a001918e0ff5ec15d807f55" id="r_a97705e301a001918e0ff5ec15d807f55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a97705e301a001918e0ff5ec15d807f55">CLIENT_TO_SERIAL</a> (UpdatePartFullConfig, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a18c23a001da74389dfe73ab5077e4ce2">c2s_send_full_part_config</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af376552cb372ac4d0224c55478803b6e">partConfigurationPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a41751f307fd480d6ed41811ab26caec7">updatePartFullConfig</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:a97705e301a001918e0ff5ec15d807f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ce969e5f290fb7e5b81ad2d36fd504" id="r_a67ce969e5f290fb7e5b81ad2d36fd504"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a67ce969e5f290fb7e5b81ad2d36fd504">doPartSwapFX</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8662b31fb4080d6e20f3d0549c9d9fe4">partFxSwap_t</a> &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="separator:a67ce969e5f290fb7e5b81ad2d36fd504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d5a5c1b5a1b42a0f5bf8f21a2a272f" id="r_a28d5a5c1b5a1b42a0f5bf8f21a2a272f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a28d5a5c1b5a1b42a0f5bf8f21a2a272f">CLIENT_TO_SERIAL</a> (SwapPartFX, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a69c2006fcde82f97391d155865df1ae0">c2s_swap_part_fx</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8662b31fb4080d6e20f3d0549c9d9fe4">partFxSwap_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a67ce969e5f290fb7e5b81ad2d36fd504">doPartSwapFX</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="separator:a28d5a5c1b5a1b42a0f5bf8f21a2a272f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 6 2025 02:17:11 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Nov 7 2025 15:16:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
