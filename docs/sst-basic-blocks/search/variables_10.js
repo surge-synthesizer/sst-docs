@@ -16,5 +16,6 @@ var searchData=
   ['rnghistory_13',['rngHistory',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afd78047e19ef1b32d34501538758e5a1',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['rngstate_14',['rngState',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a798f47cf8edc2b3735f62f34b491493e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['routes_15',['routes',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#ae8a788bc82d6653ae34d209c52d6ae7d',1,'sst::basic_blocks::mod_matrix::FixedLengthRoutingTable']]],
-  ['routingvaluepointers_16',['routingValuePointers',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a7d8ee0528f55e47af92562579da9bfd8',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]]
+  ['routingvaluepointers_16',['routingValuePointers',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a7d8ee0528f55e47af92562579da9bfd8',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]],
+  ['routingvaluepointersprocessorder_17',['routingValuePointersProcessOrder',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#adb4a2d5968a50b18f840044249a36ca7',1,'sst::basic_blocks::mod_matrix::FixedMatrix']]]
 ];
