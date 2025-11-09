@@ -94,11 +94,11 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>#JSON Layouts</p>
-<p>Much of the SCXT ui is relatively fixed. Things like the mapping pane and bus layout and stuff. But a few components are typed and varied, currently the processors and bus effects (but in the future a per-sample pane may be the same, especiily if we add rendering algos).</p>
-<p>To make it so we don't have to write buckets of tedious C++ to lay these out, in July 24, Paul hacked together a quick JSON parse to read files per type and then lay out the widgets. At the same time he wronte the first version of this document, which is woefully incomplete as of the first commit.</p>
+<p>Much of the SCXT ui is relatively fixed. Things like the mapping pane and bus layout and stuff. But a few components are typed and varied, currently the processors bus effects and proc routing pan (but in the future a per-sample pane may be the same, especiily if we add rendering algos).</p>
+<p>To make it so we don't have to write buckets of tedious C++ to lay these out, in July 24, Paul hacked together a quick JSON parse to read files per type and then lay out the widgets. In October- November of 25 he rebuilt it all a bit better, and Andreya made some updates to this document including removing some things that are no longer true (eventually we will also add the things that are).</p>
 <h2>Core Concepts - Mechanics</h2>
 <ul>
-<li>Each 'screen' has a json file which lives in <code>src-ui/json-assets</code></li>
+<li>Each 'screen' has a json file which lives in <code>src/scxt-plugin/json-assets</code></li>
 <li>Those json files have a common high level model but based on the type of thing they are mapping to, will have different features. For instance, voice processors have float and int parameters where as bus processors intermix them, so the specification means subtly different things.</li>
 <li>The JSON files are baked into the program using CMakeRC so they are part of the resulting DLL</li>
 <li>At development time, you can also load the files at each rebuild, allowing dynamic editing of the file without restarting the plugin<ul>
@@ -109,8 +109,6 @@ $(function() {
 </li>
 </ul>
 <h2>Core Concepts - Syntax</h2>
-<p>THe JSON file is a top level object which contains two sub objects, <code>defaults</code> and <code>components</code>. <code>components</code> is an array of component specs and <code>defaults</code> provides the values which all component specs adopt.</p>
-<p>The <code>components</code> array lays out the on-screen components mapped to indices or constructed explicitly and positions them. The meanings of the innards of the compnents array are somewhat different for voice and bus effects but they share many features.</p>
 <h2>A Component - Bus Effect</h2>
 <p>Document this after I do a few more and collect the result and scan for consistency</p>
 <h2>A Component - Voice Effect</h2>
@@ -121,7 +119,7 @@ $(function() {
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 8 2025 17:46:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Nov 9 2025 12:44:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
