@@ -41,7 +41,7 @@ var searchData=
   ['initiategd_38',['initiateGD',['../structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209',1,'scxt::voice::PreviewVoice::Details']]],
   ['initiatemidizoneaction_39',['initiateMidiZoneAction',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac335c83284821b96afcdabb12dbfd391',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
   ['initiatevoice_40',['initiateVoice',['../structscxt_1_1engine_1_1Engine.html#ac1e6ca1c2d67b1f62347d6ab9b0a52eb',1,'scxt::engine::Engine']]],
-  ['inringout_41',['inRingout',['../structscxt_1_1engine_1_1Group.html#a0b4f8125dd2b01d64b7b6776761681b9',1,'scxt::engine::Group']]],
+  ['insilencecheck_41',['inSilenceCheck',['../structscxt_1_1engine_1_1Group.html#a1db43ba9e0bedd2a626f4068b898f085',1,'scxt::engine::Group']]],
   ['interboldfor_42',['interBoldFor',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#af85af2ed8f8af8b47a09b976c05a3cbb',1,'scxt::ui::theme::ThemeApplier']]],
   ['interlightfor_43',['interLightFor',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#a3db48b1ea5a82238f362d22384b7b64c',1,'scxt::ui::theme::ThemeApplier']]],
   ['intermediumfor_44',['interMediumFor',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#aded303201684d4ddfb5ed2bf48406045',1,'scxt::ui::theme::ThemeApplier']]],
