@@ -202,8 +202,18 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adad2848913cb5129834c01bd190dce5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0559e63e198e3376198ef65557389573" id="r_a0559e63e198e3376198ef65557389573"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#a0559e63e198e3376198ef65557389573">inRingout</a> {false}</td></tr>
 <tr class="separator:a0559e63e198e3376198ef65557389573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ac76b84f60012bc857425b9119c3a77" id="r_a5ac76b84f60012bc857425b9119c3a77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#a5ac76b84f60012bc857425b9119c3a77">wasInRingout</a> {false}</td></tr>
+<tr class="memitem:a5ac76b84f60012bc857425b9119c3a77" id="r_a5ac76b84f60012bc857425b9119c3a77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#a5ac76b84f60012bc857425b9119c3a77">wasInRingout</a> {true}</td></tr>
 <tr class="separator:a5ac76b84f60012bc857425b9119c3a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb276fdec71a67665412e3d5566d35d" id="r_acbb276fdec71a67665412e3d5566d35d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#acbb276fdec71a67665412e3d5566d35d">silenceMaxSelf</a> {0}</td></tr>
+<tr class="separator:acbb276fdec71a67665412e3d5566d35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0034f376c6cf077d0b92d9961a49bae" id="r_ad0034f376c6cf077d0b92d9961a49bae"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#ad0034f376c6cf077d0b92d9961a49bae">silenceMaxUpstreamBusses</a> {0}</td></tr>
+<tr class="separator:ad0034f376c6cf077d0b92d9961a49bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba388c25285d89b28598630193c62199" id="r_aba388c25285d89b28598630193c62199"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#aba388c25285d89b28598630193c62199">silenceTime</a> {0}</td></tr>
+<tr class="separator:aba388c25285d89b28598630193c62199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3912d62943e4dd33da85326a8d5bb7c5" id="r_a3912d62943e4dd33da85326a8d5bb7c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#a3912d62943e4dd33da85326a8d5bb7c5">blockSilenceLevel</a> {0.f}</td></tr>
+<tr class="separator:a3912d62943e4dd33da85326a8d5bb7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1cb2175f1660300f747666fb27cb99" id="r_aed1cb2175f1660300f747666fb27cb99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#aed1cb2175f1660300f747666fb27cb99">wasSilent</a> {false}</td></tr>
+<tr class="separator:aed1cb2175f1660300f747666fb27cb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a949fa7915dc0eae6becceefa509189ac" id="r_a949fa7915dc0eae6becceefa509189ac"><td class="memItemLeft" align="right" valign="top">sst::filters::HalfRate::HalfRateFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#a949fa7915dc0eae6becceefa509189ac">downsampleFilter</a></td></tr>
 <tr class="separator:a949fa7915dc0eae6becceefa509189ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a394bab1608fbe6134d3916745ba4530f" id="r_a394bab1608fbe6134d3916745ba4530f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html">scxt::engine::Bus::BusSendStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Bus.html#a394bab1608fbe6134d3916745ba4530f">busSendStorage</a></td></tr>
@@ -340,7 +350,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Bus.html#af4e259eb89bafbc8b01f223e97954afe">Bus::hasOSSignal</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a0559e63e198e3376198ef65557389573">Bus::inRingout</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ac9ab06bf907e356785b4dfbba33daacf">Bus::output</a>, and <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e836b22ffbe44ca0e1f84ee428a2e7b">Bus::outputOS</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Bus.html#af4e259eb89bafbc8b01f223e97954afe">Bus::hasOSSignal</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a0559e63e198e3376198ef65557389573">Bus::inRingout</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ac9ab06bf907e356785b4dfbba33daacf">Bus::output</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e836b22ffbe44ca0e1f84ee428a2e7b">Bus::outputOS</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#acbb276fdec71a67665412e3d5566d35d">Bus::silenceMaxSelf</a>, and <a class="el" href="structscxt_1_1engine_1_1Bus.html#ad0034f376c6cf077d0b92d9961a49bae">Bus::silenceMaxUpstreamBusses</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Patch_1_1Busses.html#ac8bb3912a3ce86b15842e79d0b421204">Patch::Busses::clear()</a>, and <a class="el" href="structscxt_1_1engine_1_1Patch.html#a739fce026a073c7977c11ad46f86b42f">Patch::process()</a>.</p>
 
@@ -361,7 +371,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Bus.html#af01348699df18e6548bd4cabd5497122">Bus::address</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a0aae9dc175e62a8887f90bad062a64ec">Bus::auxoutputPostVCA</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a9d6b1733629e9d4255b6a79b6bc454d2">Bus::auxoutputPreFX</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#aa0a981f8c66c55403f4983074660a43b">Bus::auxoutputPreVCA</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2f5dc63cc61d1200413534211b96895b">Bus::busEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a459d7e8c3f2d191a2ba7f1b4b079889c">Bus::busEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a394bab1608fbe6134d3916745ba4530f">Bus::busSendStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a949fa7915dc0eae6becceefa509189ac">Bus::downsampleFilter</a>, <a class="el" href="namespacescxt_1_1engine.html#aceab2fcf87c1a87461865c74f4521ec5">scxt::engine::getBusAddressLabel()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#af4e259eb89bafbc8b01f223e97954afe">Bus::hasOSSignal</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a9c2204d2af906c50adac9bfc11ea4271">Bus::BusSendStorage::hasSends</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a0559e63e198e3376198ef65557389573">Bus::inRingout</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a450c3ab9b94a4663caad892b7193b547">Bus::BusSendStorage::level</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#af8ecab1d42a22edf12049a5c9b81fca9">Bus::BusSendStorage::mute</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267">Bus::mutedDueToSoloAway</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ac9ab06bf907e356785b4dfbba33daacf">Bus::output</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e836b22ffbe44ca0e1f84ee428a2e7b">Bus::outputOS</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a7363ff46e3c38cb98a41c549f8ce2634">Bus::BusSendStorage::pan</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a04bc95f9534c81f1433c3cdf9bdc2692">Bus::previousHadOSSignal</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#af1ceaccc04887a9b92af812b0a904484">Bus::BusSendStorage::solo</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a7f610fb1d4f906d47d8e75c4962f11a8">Bus::BusSendStorage::supportsSends</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#adad2848913cb5129834c01bd190dce5a">Bus::vuFalloff</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a7d60c5458b7ff2d21a7c417224fa3073">Bus::vuLevel</a>, and <a class="el" href="structscxt_1_1engine_1_1Bus.html#a5ac76b84f60012bc857425b9119c3a77">Bus::wasInRingout</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Bus.html#af01348699df18e6548bd4cabd5497122">Bus::address</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a0aae9dc175e62a8887f90bad062a64ec">Bus::auxoutputPostVCA</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a9d6b1733629e9d4255b6a79b6bc454d2">Bus::auxoutputPreFX</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#aa0a981f8c66c55403f4983074660a43b">Bus::auxoutputPreVCA</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a3912d62943e4dd33da85326a8d5bb7c5">Bus::blockSilenceLevel</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2f5dc63cc61d1200413534211b96895b">Bus::busEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a459d7e8c3f2d191a2ba7f1b4b079889c">Bus::busEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a394bab1608fbe6134d3916745ba4530f">Bus::busSendStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a949fa7915dc0eae6becceefa509189ac">Bus::downsampleFilter</a>, <a class="el" href="namespacescxt_1_1engine.html#aceab2fcf87c1a87461865c74f4521ec5">scxt::engine::getBusAddressLabel()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#af4e259eb89bafbc8b01f223e97954afe">Bus::hasOSSignal</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a9c2204d2af906c50adac9bfc11ea4271">Bus::BusSendStorage::hasSends</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a0559e63e198e3376198ef65557389573">Bus::inRingout</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a450c3ab9b94a4663caad892b7193b547">Bus::BusSendStorage::level</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#af8ecab1d42a22edf12049a5c9b81fca9">Bus::BusSendStorage::mute</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267">Bus::mutedDueToSoloAway</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ac9ab06bf907e356785b4dfbba33daacf">Bus::output</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e836b22ffbe44ca0e1f84ee428a2e7b">Bus::outputOS</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a7363ff46e3c38cb98a41c549f8ce2634">Bus::BusSendStorage::pan</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a04bc95f9534c81f1433c3cdf9bdc2692">Bus::previousHadOSSignal</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#acbb276fdec71a67665412e3d5566d35d">Bus::silenceMaxSelf</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#ad0034f376c6cf077d0b92d9961a49bae">Bus::silenceMaxUpstreamBusses</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#aba388c25285d89b28598630193c62199">Bus::silenceTime</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#af1ceaccc04887a9b92af812b0a904484">Bus::BusSendStorage::solo</a>, <a class="el" href="structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a7f610fb1d4f906d47d8e75c4962f11a8">Bus::BusSendStorage::supportsSends</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#adad2848913cb5129834c01bd190dce5a">Bus::vuFalloff</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a7d60c5458b7ff2d21a7c417224fa3073">Bus::vuLevel</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a5ac76b84f60012bc857425b9119c3a77">Bus::wasInRingout</a>, and <a class="el" href="structscxt_1_1engine_1_1Bus.html#aed1cb2175f1660300f747666fb27cb99">Bus::wasSilent</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Patch.html#a739fce026a073c7977c11ad46f86b42f">Patch::process()</a>.</p>
 
@@ -813,7 +823,87 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool wasInRingout {false}</td>
+          <td class="memname">bool wasInRingout {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e9c5136d19b1a95fc427e0852deab5c">Bus::process()</a>.</p>
+
+</div>
+</div>
+<a id="acbb276fdec71a67665412e3d5566d35d" name="acbb276fdec71a67665412e3d5566d35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbb276fdec71a67665412e3d5566d35d">&#9670;&#160;</a></span>silenceMaxSelf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t silenceMaxSelf {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#ac8bb3912a3ce86b15842e79d0b421204">Bus::clear()</a>, and <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e9c5136d19b1a95fc427e0852deab5c">Bus::process()</a>.</p>
+
+</div>
+</div>
+<a id="ad0034f376c6cf077d0b92d9961a49bae" name="ad0034f376c6cf077d0b92d9961a49bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0034f376c6cf077d0b92d9961a49bae">&#9670;&#160;</a></span>silenceMaxUpstreamBusses</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t silenceMaxUpstreamBusses {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#ac8bb3912a3ce86b15842e79d0b421204">Bus::clear()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e9c5136d19b1a95fc427e0852deab5c">Bus::process()</a>, and <a class="el" href="structscxt_1_1engine_1_1Patch.html#a739fce026a073c7977c11ad46f86b42f">Patch::process()</a>.</p>
+
+</div>
+</div>
+<a id="aba388c25285d89b28598630193c62199" name="aba388c25285d89b28598630193c62199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba388c25285d89b28598630193c62199">&#9670;&#160;</a></span>silenceTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t silenceTime {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e9c5136d19b1a95fc427e0852deab5c">Bus::process()</a>.</p>
+
+</div>
+</div>
+<a id="a3912d62943e4dd33da85326a8d5bb7c5" name="a3912d62943e4dd33da85326a8d5bb7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3912d62943e4dd33da85326a8d5bb7c5">&#9670;&#160;</a></span>blockSilenceLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float blockSilenceLevel {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#a2e9c5136d19b1a95fc427e0852deab5c">Bus::process()</a>.</p>
+
+</div>
+</div>
+<a id="aed1cb2175f1660300f747666fb27cb99" name="aed1cb2175f1660300f747666fb27cb99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed1cb2175f1660300f747666fb27cb99">&#9670;&#160;</a></span>wasSilent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wasSilent {false}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -909,7 +999,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 10 2025 18:43:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Nov 10 2025 19:56:38 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
