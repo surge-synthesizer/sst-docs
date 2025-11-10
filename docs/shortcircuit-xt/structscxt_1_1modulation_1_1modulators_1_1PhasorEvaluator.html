@@ -106,8 +106,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad2c38b531211e90ba50243030561a533" id="r_ad2c38b531211e90ba50243030561a533"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#ad2c38b531211e90ba50243030561a533">attack</a> (sst::basic_blocks::modulators::Transport &amp;transport, <a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">modulation::MiscSourceStorage</a> &amp;rs)</td></tr>
-<tr class="separator:ad2c38b531211e90ba50243030561a533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba06ce7f6cb1c45d20b68c987d6977d" id="r_a0ba06ce7f6cb1c45d20b68c987d6977d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a0ba06ce7f6cb1c45d20b68c987d6977d">attack</a> (sst::basic_blocks::modulators::Transport &amp;transport, <a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">modulation::MiscSourceStorage</a> &amp;rs, sst::basic_blocks::dsp::RNG &amp;rng)</td></tr>
+<tr class="separator:a0ba06ce7f6cb1c45d20b68c987d6977d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86dc73982300d624c30a833684b90e5a" id="r_a86dc73982300d624c30a833684b90e5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a86dc73982300d624c30a833684b90e5a">step</a> (sst::basic_blocks::modulators::Transport &amp;transport, <a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">modulation::MiscSourceStorage</a> &amp;rs)</td></tr>
 <tr class="separator:a86dc73982300d624c30a833684b90e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -117,10 +117,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abd479728d9b96c39bb342fcdd5f8b053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e275a9e6b9b6c26ae661a1a382e2c24" id="r_a3e275a9e6b9b6c26ae661a1a382e2c24"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a3e275a9e6b9b6c26ae661a1a382e2c24">lastAttackTime</a> {0}</td></tr>
 <tr class="separator:a3e275a9e6b9b6c26ae661a1a382e2c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac03e42d694cb30cc7c207e8c5dc63c" id="r_aeac03e42d694cb30cc7c207e8c5dc63c"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, scxt::phasorsPerGroupOrZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#aeac03e42d694cb30cc7c207e8c5dc63c">rphase</a></td></tr>
+<tr class="separator:aeac03e42d694cb30cc7c207e8c5dc63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad2c38b531211e90ba50243030561a533" name="ad2c38b531211e90ba50243030561a533"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2c38b531211e90ba50243030561a533">&#9670;&#160;</a></span>attack()</h2>
+<a id="a0ba06ce7f6cb1c45d20b68c987d6977d" name="a0ba06ce7f6cb1c45d20b68c987d6977d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba06ce7f6cb1c45d20b68c987d6977d">&#9670;&#160;</a></span>attack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,7 +137,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">modulation::MiscSourceStorage</a> &amp;&#160;</td>
-          <td class="paramname"><em>rs</em>&#160;</td>
+          <td class="paramname"><em>rs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sst::basic_blocks::dsp::RNG &amp;&#160;</td>
+          <td class="paramname"><em>rng</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -145,7 +153,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a3e275a9e6b9b6c26ae661a1a382e2c24">PhasorEvaluator::lastAttackTime</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a3e275a9e6b9b6c26ae661a1a382e2c24">PhasorEvaluator::lastAttackTime</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#aeac03e42d694cb30cc7c207e8c5dc63c">PhasorEvaluator::rphase</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#ae0ffbf5e6ab498fa011280bba584d79a">Group::resetLFOs()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
@@ -177,7 +185,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca1616c826577ee62e03fd79da3c74d82a">PhasorStorage::DOTTED</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a3e275a9e6b9b6c26ae661a1a382e2c24">PhasorEvaluator::lastAttackTime</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a7ed32647c5b0e84033b4e5892eefde33">PhasorStorage::NOTE</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#abd479728d9b96c39bb342fcdd5f8b053">PhasorEvaluator::outputs</a>, <a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html#a84c573a8f14b2413facdf8eacfec93ec">MiscSourceStorage::phasors</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca8ed5354b5f84d917a635cff44d414e4c">PhasorStorage::TRIPLET</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a46f9a7764193a1b582fbb9175ede468c">PhasorStorage::VOICEPOS</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca1616c826577ee62e03fd79da3c74d82a">PhasorStorage::DOTTED</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a3e275a9e6b9b6c26ae661a1a382e2c24">PhasorEvaluator::lastAttackTime</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a7ed32647c5b0e84033b4e5892eefde33">PhasorStorage::NOTE</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804cad5f91e583dd04c989b546a276306bf34">PhasorStorage::OF_BEAT</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#abd479728d9b96c39bb342fcdd5f8b053">PhasorEvaluator::outputs</a>, <a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html#a84c573a8f14b2413facdf8eacfec93ec">MiscSourceStorage::phasors</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#aeac03e42d694cb30cc7c207e8c5dc63c">PhasorEvaluator::rphase</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca8ed5354b5f84d917a635cff44d414e4c">PhasorStorage::TRIPLET</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a46f9a7764193a1b582fbb9175ede468c">PhasorStorage::VOICEPOS</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>.</p>
 
@@ -212,7 +220,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#ad2c38b531211e90ba50243030561a533">PhasorEvaluator::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a86dc73982300d624c30a833684b90e5a">PhasorEvaluator::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a0ba06ce7f6cb1c45d20b68c987d6977d">PhasorEvaluator::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a86dc73982300d624c30a833684b90e5a">PhasorEvaluator::step()</a>.</p>
+
+</div>
+</div>
+<a id="aeac03e42d694cb30cc7c207e8c5dc63c" name="aeac03e42d694cb30cc7c207e8c5dc63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac03e42d694cb30cc7c207e8c5dc63c">&#9670;&#160;</a></span>rphase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, scxt::phasorsPerGroupOrZone&gt; rphase</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a0ba06ce7f6cb1c45d20b68c987d6977d">PhasorEvaluator::attack()</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#a86dc73982300d624c30a833684b90e5a">PhasorEvaluator::step()</a>.</p>
 
 </div>
 </div>
@@ -222,7 +246,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 10 2025 20:57:25 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Nov 10 2025 23:11:11 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
