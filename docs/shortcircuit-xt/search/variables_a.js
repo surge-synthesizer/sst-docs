@@ -16,7 +16,7 @@ var searchData=
   ['keylow_13',['keyLow',['../structscxt_1_1exs__support_1_1EXSZone.html#a44243fdbb97d2c8c06b9d0fc281758b6',1,'scxt::exs_support::EXSZone']]],
   ['keyrangexfade_14',['keyrangExFade',['../structscxt_1_1exs__support_1_1EXSGroup.html#a6755f5090941ca2721e9f4465d9cbc81',1,'scxt::exs_support::EXSGroup']]],
   ['keyrangexfadetype_15',['keyrangExFadeType',['../structscxt_1_1exs__support_1_1EXSGroup.html#a7ff79940781ee113c5b835085735ac36',1,'scxt::exs_support::EXSGroup']]],
-  ['keystart_16',['keystart',['../structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f',1,'scxt::engine::KeyboardRange::keyStart'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#ac7775f74d72ad3a092032c3155a03d32',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::KeyStart']]],
+  ['keystart_16',['keystart',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#ac7775f74d72ad3a092032c3155a03d32',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::KeyStart'],['../structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f',1,'scxt::engine::KeyboardRange::keyStart']]],
   ['keytrackattackment_17',['keytrackAttackment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a1115c9be1cf39b2045c1c98853f75262',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['keytrackperoct_18',['keytrackPerOct',['../structscxt_1_1voice_1_1Voice.html#ab88ad8ca1ef1c33c297c91e1950fa195',1,'scxt::voice::Voice']]],
   ['keytracksource_19',['keytrackSource',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a71540ed87f7062b3d872af77f3f6ded4',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
