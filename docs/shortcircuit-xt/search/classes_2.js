@@ -9,11 +9,13 @@ var searchData=
   ['conditionrow_6',['ConditionRow',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html',1,'scxt::ui::app::edit_screen::GroupTriggersCard']]],
   ['config_7',['Config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'scxt::engine::dtl']]],
   ['consistencylfopane_8',['ConsistencyLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ConsistencyLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['contents_9',['Contents',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html',1,'scxt::ui::app::missing_resolution']]],
-  ['cuepoint_10',['CuePoint',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html',1,'scxt::sample::loaders']]],
-  ['curve_11',['Curve',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
-  ['curvedatasource_12',['CurveDataSource',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDataSource.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
-  ['curvelfo_13',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
-  ['curvelfopane_14',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['curvelfostorage_15',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]]
+  ['consoleharness_9',['ConsoleHarness',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html',1,'scxt::clients::console_ui']]],
+  ['consoleui_10',['ConsoleUI',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html',1,'scxt::clients::console_ui']]],
+  ['contents_11',['Contents',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html',1,'scxt::ui::app::missing_resolution']]],
+  ['cuepoint_12',['CuePoint',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html',1,'scxt::sample::loaders']]],
+  ['curve_13',['Curve',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
+  ['curvedatasource_14',['CurveDataSource',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDataSource.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
+  ['curvelfo_15',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
+  ['curvelfopane_16',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
+  ['curvelfostorage_17',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]]
 ];

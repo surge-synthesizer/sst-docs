@@ -9,5 +9,6 @@ var searchData=
   ['akai_5fimport_2eh_6',['akai_import.h',['../akai__import_8h.html',1,'']]],
   ['audio_5fmessages_2ecpp_7',['audio_messages.cpp',['../audio__messages_8cpp.html',1,'']]],
   ['audio_5fmessages_2eh_8',['audio_messages.h',['../audio__messages_8h.html',1,'']]],
-  ['audio_5fserial_2eh_9',['audio_serial.h',['../audio__serial_8h.html',1,'']]]
+  ['audio_5fserial_2eh_9',['audio_serial.h',['../audio__serial_8h.html',1,'']]],
+  ['audio_5fthread_5fprovider_2eh_10',['audio_thread_provider.h',['../audio__thread__provider_8h.html',1,'']]]
 ];

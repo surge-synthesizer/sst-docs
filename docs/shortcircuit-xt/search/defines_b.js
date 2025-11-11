@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unsignedtofloat_0',['UnsignedToFloat',['../load__aiff_8cpp.html#afd8de94c42627e5b7d2ba53263d45cb8',1,'load_aiff.cpp']]]
+  ['trace_5fdb_0',['TRACE_DB',['../writer__worker_8h.html#adea089337ccb65021e653bfbdfae9bcc',1,'writer_worker.h']]]
 ];

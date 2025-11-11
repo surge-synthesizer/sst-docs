@@ -40,7 +40,7 @@ var searchData=
   ['lo_37',['lo',['../structscxt_1_1akai__support_1_1KLOC.html#a66dd65283e02fc47de9403652928cc98',1,'scxt::akai_support::KLOC']]],
   ['lockbutton_38',['lockButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#afa1dc1596b24eea9cbd0d07f4fbf4f2a',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
   ['logdisplay_39',['logDisplay',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a24544cd288d97aabc06bce31996242f4',1,'scxt::ui::app::other_screens::LogScreen']]],
-  ['logmessages_40',['logMessages',['../namespacescxt.html#ad0aea81a825777d44d959d8d9a143b63',1,'scxt']]],
+  ['logmessages_40',['logmessages',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a8d6fbf3e1922f301e5d8724334211fec',1,'scxt::clients::console_ui::ConsoleUI::logMessages'],['../namespacescxt.html#ad0aea81a825777d44d959d8d9a143b63',1,'scxt::logMessages']]],
   ['logmutex_41',['logMutex',['../namespacescxt.html#a1ed4e2e604e59227624ba22c4161bc64',1,'scxt']]],
   ['logscreen_42',['logScreen',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a16d9e6a24e0ae783e2832b3204667696',1,'scxt::ui::app::SCXTEditor']]],
   ['loop_43',['loop',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFOStorage.html#a5ed2b25d9f2f070cb0ee764aa0985308',1,'scxt::modulation::modulators::EnvLFOStorage']]],

@@ -11,5 +11,6 @@ var searchData=
   ['aiff_5floop_8',['aiff_loop',['../structscxt_1_1sample_1_1aiff__loop.html',1,'scxt::sample']]],
   ['aiff_5fmarker_9',['aiff_marker',['../structscxt_1_1sample_1_1aiff__marker.html',1,'scxt::sample']]],
   ['audiothreadcallback_10',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
-  ['audiotoserialization_11',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
+  ['audiothreadprovider_11',['AudioThreadProvider',['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'scxt::clients::console_ui']]],
+  ['audiotoserialization_12',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
 ];
