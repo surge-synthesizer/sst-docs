@@ -41,7 +41,7 @@ var searchData=
   ['loadsamplebyfileaddress_38',['loadSampleByFileAddress',['../structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c',1,'scxt::sample::SampleManager']]],
   ['loadsamplebypath_39',['loadSampleByPath',['../structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51',1,'scxt::sample::SampleManager']]],
   ['loadsamplefromgig_40',['loadSampleFromGIG',['../structscxt_1_1sample_1_1SampleManager.html#a92965dae36866e580804751a3fca376e',1,'scxt::sample::SampleManager']]],
-  ['loadsamplefrommultisample_41',['loadSampleFromMultiSample',['../structscxt_1_1sample_1_1SampleManager.html#ace95d78ce342e49a9b6ee31cf846540b',1,'scxt::sample::SampleManager']]],
+  ['loadsamplefrommultisample_41',['loadSampleFromMultiSample',['../structscxt_1_1sample_1_1SampleManager.html#a2f1efc2ed8cb3326b545957fb52b5405',1,'scxt::sample::SampleManager']]],
   ['loadsamplefromscxtmonolith_42',['loadSampleFromSCXTMonolith',['../structscxt_1_1sample_1_1SampleManager.html#ae8b1acae1f574aa47d06876498bef37d',1,'scxt::sample::SampleManager']]],
   ['loadsamplefromsf2_43',['loadSampleFromSF2',['../structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74',1,'scxt::sample::SampleManager']]],
   ['loadsampleintoselectedpartandgroup_44',['loadSampleIntoSelectedPartAndGroup',['../structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c',1,'scxt::engine::Engine']]],

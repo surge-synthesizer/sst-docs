@@ -40,6 +40,7 @@ var searchData=
   ['modulation_5ftraits_2eh_37',['modulation_traits.h',['../modulation__traits_8h.html',1,'']]],
   ['modulator_5fstorage_2ecpp_38',['modulator_storage.cpp',['../modulator__storage_8cpp.html',1,'']]],
   ['modulator_5fstorage_2eh_39',['modulator_storage.h',['../modulator__storage_8h.html',1,'']]],
-  ['multisample_5fimport_2ecpp_40',['multisample_import.cpp',['../multisample__import_8cpp.html',1,'']]],
-  ['multisample_5fimport_2eh_41',['multisample_import.h',['../multisample__import_8h.html',1,'']]]
+  ['multisample_5fcompound_5ffile_5fimpl_2ecpp_40',['multisample_compound_file_impl.cpp',['../multisample__compound__file__impl_8cpp.html',1,'']]],
+  ['multisample_5fimport_2ecpp_41',['multisample_import.cpp',['../multisample__import_8cpp.html',1,'']]],
+  ['multisample_5fimport_2eh_42',['multisample_import.h',['../multisample__import_8h.html',1,'']]]
 ];
