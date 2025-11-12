@@ -259,8 +259,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade35f926459a5bc7d652e07c9223938b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac45f49390d5c5d185046d0c991e61c66" id="r_ac45f49390d5c5d185046d0c991e61c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ac45f49390d5c5d185046d0c991e61c66">loadCompoundElementIntoZone</a> (const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &amp;, int16_t part, int16_t group, int16_t zone, int variantID)</td></tr>
 <tr class="separator:ac45f49390d5c5d185046d0c991e61c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae656f5d5481c7ea460801f3032ec2703" id="r_ae656f5d5481c7ea460801f3032ec2703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ae656f5d5481c7ea460801f3032ec2703">createEmptyZone</a> (<a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
-<tr class="separator:ae656f5d5481c7ea460801f3032ec2703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5df040f92c40359ae9878d49cafd0b" id="r_a7b5df040f92c40359ae9878d49cafd0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7b5df040f92c40359ae9878d49cafd0b">createEmptyZone</a> (int part, int group, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
+<tr class="separator:a7b5df040f92c40359ae9878d49cafd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61479fa991f1882e9df18d21466ec98f" id="r_a61479fa991f1882e9df18d21466ec98f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a61479fa991f1882e9df18d21466ec98f">duplicateZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
 <tr class="separator:a61479fa991f1882e9df18d21466ec98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf567bdf605ba7a632afeffbfc0135d" id="r_a7bf567bdf605ba7a632afeffbfc0135d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7bf567bdf605ba7a632afeffbfc0135d">copyZone</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;)</td></tr>
@@ -1501,8 +1501,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae656f5d5481c7ea460801f3032ec2703" name="ae656f5d5481c7ea460801f3032ec2703"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae656f5d5481c7ea460801f3032ec2703">&#9670;&#160;</a></span>createEmptyZone()</h2>
+<a id="a7b5df040f92c40359ae9878d49cafd0b" name="a7b5df040f92c40359ae9878d49cafd0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b5df040f92c40359ae9878d49cafd0b">&#9670;&#160;</a></span>createEmptyZone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1510,6 +1510,18 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void createEmptyZone </td>
           <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a>&#160;</td>
           <td class="paramname"><em>krange</em> = <code>{48,&#160;72}</code>, </td>
         </tr>
@@ -2563,7 +2575,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 11 2025 22:23:06 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Nov 12 2025 00:59:28 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

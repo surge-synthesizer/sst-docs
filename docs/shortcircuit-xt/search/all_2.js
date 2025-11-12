@@ -261,7 +261,7 @@ var searchData=
   ['creatediscretewidget_258',['createDiscreteWidget',['../namespacescxt_1_1ui_1_1connectors_1_1jsonlayout.html#ab31406977ff353eca830b99ff15e00c7',1,'scxt::ui::connectors::jsonlayout']]],
   ['createeditor_259',['createEditor',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['createeffect_260',['createEffect',['../namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667',1,'scxt::engine']]],
-  ['createemptyzone_261',['createEmptyZone',['../structscxt_1_1engine_1_1Engine.html#ae656f5d5481c7ea460801f3032ec2703',1,'scxt::engine::Engine']]],
+  ['createemptyzone_261',['createEmptyZone',['../structscxt_1_1engine_1_1Engine.html#a7b5df040f92c40359ae9878d49cafd0b',1,'scxt::engine::Engine']]],
   ['createemptyzoneat_262',['createEmptyZoneAt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a4064485ba78fbbaead763a7c2008b3e0',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
   ['createhamburgerstereo_263',['createHamburgerStereo',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a1c0b40b134e067dfd308dc89ee76655b',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['createlabel_264',['createLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a389ccd404964d50031fa6eff2e0ec8b4',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
