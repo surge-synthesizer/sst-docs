@@ -84,7 +84,7 @@ var searchData=
   ['modulatorpresetdirectory_81',['modulatorPresetDirectory',['../structscxt_1_1browser_1_1Browser.html#ad879808f90f8d71bbe00f56ca2f6c2be',1,'scxt::browser::Browser']]],
   ['modulatorshape_82',['modulatorShape',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#afddcc92ada0ac25b8007dccea94c4284',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['modulatorshapea_83',['modulatorShapeA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae20fdbd1b3a33487d65a85812e9b8a3e',1,'scxt::ui::app::edit_screen::LfoPane']]],
-  ['modulatorstorage_84',['modulatorstorage',['../structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529',1,'scxt::engine::Group::modulatorStorage'],['../structscxt_1_1engine_1_1Zone.html#a3d011e30e8f8231d575309995eb36acd',1,'scxt::engine::Zone::modulatorStorage']]],
+  ['modulatorstorage_84',['modulatorstorage',['../structscxt_1_1engine_1_1Zone.html#a3d011e30e8f8231d575309995eb36acd',1,'scxt::engine::Zone::modulatorStorage'],['../structscxt_1_1engine_1_1Group.html#a8d6a8c75527c9a5a9e13384eb0464529',1,'scxt::engine::Group::modulatorStorage']]],
   ['modulatorstoragedata_85',['modulatorStorageData',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a28b57dd7c4bc2b14bd9b2835c70ca259',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['modwheelsource_86',['modwheelsource',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1MIDISources.html#a3ffcc3a4e714ef13250f38b31eabf64f',1,'scxt::modulation::GroupMatrixEndpoints::Sources::MIDISources::modWheelSource'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a3ffcc3a4e714ef13250f38b31eabf64f',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources::modWheelSource']]],
   ['monogenerator_87',['monoGenerator',['../structscxt_1_1voice_1_1Voice.html#aaf746797b8c3a7ea1c3dd8061d1ebcaa',1,'scxt::voice::Voice']]],
@@ -123,5 +123,7 @@ var searchData=
   ['muted_120',['muted',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Group::GroupOutputInfo::muted'],['../structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Zone::ZoneOutputInfo::muted']]],
   ['mutedduetosoloaway_121',['mutedDueToSoloAway',['../structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267',1,'scxt::engine::Bus']]],
   ['muteduetosolo_122',['muteDueToSolo',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a6b79fd1b84a1be7ec1115b85d123540e',1,'scxt::engine::Part::PartConfiguration']]],
-  ['mytype_123',['myType',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#acda4198a6a0bf057d6d028f0e5b1dbf3',1,'scxt::dsp::processor::Processor']]]
+  ['muteprovider_123',['muteProvider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ad2c72bbc32d5600449708f9b16e33e83',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['mutevalue_124',['muteValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ae1d146796594d4830ab29e446e9bcb5d',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['mytype_125',['myType',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#acda4198a6a0bf057d6d028f0e5b1dbf3',1,'scxt::dsp::processor::Processor']]]
 ];

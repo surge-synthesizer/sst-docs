@@ -10,5 +10,6 @@ var searchData=
   ['metadata_7',['metadata',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModPaneZoneTraits.html#ad79f3fadda34ce9d58415d51297380c1',1,'scxt::ui::app::edit_screen::ModPaneZoneTraits::metadata'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModPaneGroupTraits.html#a837d7c5d16d517d968361585445cb0bc',1,'scxt::ui::app::edit_screen::ModPaneGroupTraits::metadata']]],
   ['metadata_5ft_8',['metadata_t',['../namespacescxt_1_1ui_1_1theme.html#a2a7c381d2dca25be3993bf97a35ad622',1,'scxt::ui::theme']]],
   ['modpanetraits_9',['modpanetraits',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneTraits.html#a41eb250b5693378de1b9fea6c27886cf',1,'scxt::ui::app::edit_screen::EditScreen::ZoneTraits::ModPaneTraits'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1GroupTraits.html#aec0095d900a1cf02a035f8a91cf132ff',1,'scxt::ui::app::edit_screen::EditScreen::GroupTraits::ModPaneTraits']]],
-  ['movegroupaddress_5ft_10',['moveGroupAddress_t',['../namespacescxt_1_1messaging_1_1client.html#af64fdd5dce82119cb8bac2c8fdb7e3b6',1,'scxt::messaging::client']]]
+  ['movegroupaddress_5ft_10',['moveGroupAddress_t',['../namespacescxt_1_1messaging_1_1client.html#af64fdd5dce82119cb8bac2c8fdb7e3b6',1,'scxt::messaging::client']]],
+  ['muteorsologroup_5ft_11',['muteOrSoloGroup_t',['../namespacescxt_1_1messaging_1_1client.html#a03aac04cfe9055da8a2da415060f0355',1,'scxt::messaging::client']]]
 ];
