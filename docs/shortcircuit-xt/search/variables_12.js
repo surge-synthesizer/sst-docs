@@ -42,7 +42,7 @@ var searchData=
   ['sampletarget_39',['sampleTarget',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a2e1619c33622f79f99bbfd645b5fbcd0',1,'scxt::voice::modulation::MatrixEndpoints']]],
   ['sampleview_40',['sampleView',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#afa028eaf78ac1c9e865ff265653694e9',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane']]],
   ['saveasbutton_41',['saveAsButton',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a9c65649683c16fed6473827cc84bbe2b',1,'scxt::ui::app::shared::HeaderRegion']]],
-  ['sc_5fstreamdef_42',['SC_STREAMDEF',['../namespacescxt_1_1json.html#a5ed918b557b0a86babce92d03ddaa7b2',1,'scxt::json']]],
+  ['sc_5fstreamdef_42',['SC_STREAMDEF',['../namespacescxt_1_1json.html#af77084294bb4026f42e6526de62838d4',1,'scxt::json']]],
   ['scanner_43',['scanner',['../structscxt_1_1browser_1_1ScanWorker.html#a6dedec862398f01c6e65473a603da42c',1,'scxt::browser::ScanWorker']]],
   ['scanworker_44',['scanWorker',['../structscxt_1_1browser_1_1Scanner.html#ace019c1a897a0775a2385792e4e64f0e',1,'scxt::browser::Scanner']]],
   ['schedulepurge_45',['schedulePurge',['../structscxt_1_1voice_1_1PreviewVoice.html#a48c98883847ff2a6f8ecad022abb2ccd',1,'scxt::voice::PreviewVoice']]],
