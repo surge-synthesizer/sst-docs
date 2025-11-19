@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['k_0',['k',['../structsst_1_1filters_1_1CytomicSVF.html#a1800773962d7df3b088f801792cde9ba',1,'sst::filters::CytomicSVF']]],
+  ['k_0',['k',['../structsst_1_1filters_1_1CytomicSVF.html#a1800773962d7df3b088f801792cde9ba',1,'sst::filters::CytomicSVF::k'],['../structsst_1_1filters_1_1CytomicTilt.html#a1800773962d7df3b088f801792cde9ba',1,'sst::filters::CytomicTilt::k']]],
   ['k35_1',['K35',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a550ecafcd47776fc50b37277c3480ffd',1,'sst::filtersplusplus']]],
   ['k35_2eh_2',['K35.h',['../K35_8h.html',1,'']]],
   ['k35_5f2z_3',['k35_2z',['../namespacesst_1_1filters_1_1K35Filter.html#a247cd335dde5bff0e133ac2948fd1042ae02a307db9149e9884e8cf0146ec36dd',1,'sst::filters::K35Filter']]],

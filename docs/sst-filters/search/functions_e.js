@@ -1,7 +1,7 @@
 var searchData=
 [
   ['rangetostring_0',['rangetostring',['../namespaceCatch.html#a169cf020beeddf4d6e9cafbee7127f8a',1,'Catch::rangeToString(std::vector&lt; bool, Allocator &gt; const &amp;v)'],['../namespaceCatch.html#a64a7dbf9170ad10cad88e67249ffe5ab',1,'Catch::rangeToString(Range const &amp;range)'],['../namespaceCatch_1_1Detail.html#a3a309ba78028605e6b3f8360fbc14220',1,'Catch::Detail::rangeToString(InputIterator first, Sentinel last)']]],
-  ['rawmemorytostring_1',['rawmemorytostring',['../namespaceCatch_1_1Detail.html#aebeea3e94322b185de3fa8821c4e0725',1,'Catch::Detail::rawMemoryToString(const T &amp;object)'],['../namespaceCatch_1_1Detail.html#ab618b4de41104c8c8c95df49886109bf',1,'Catch::Detail::rawMemoryToString(const void *object, std::size_t size)']]],
+  ['rawmemorytostring_1',['rawmemorytostring',['../namespaceCatch_1_1Detail.html#ab618b4de41104c8c8c95df49886109bf',1,'Catch::Detail::rawMemoryToString(const void *object, std::size_t size)'],['../namespaceCatch_1_1Detail.html#aebeea3e94322b185de3fa8821c4e0725',1,'Catch::Detail::rawMemoryToString(const T &amp;object)']]],
   ['regexmatcher_2',['RegexMatcher',['../structCatch_1_1Matchers_1_1StdString_1_1RegexMatcher.html#a76f25fc4e8a809ca42d0e60084389ac4',1,'Catch::Matchers::StdString::RegexMatcher']]],
   ['registerenum_3',['registerenum',['../structCatch_1_1IMutableEnumValuesRegistry.html#a322b638bf0f0bb1067e5658014192135',1,'Catch::IMutableEnumValuesRegistry::registerEnum(StringRef enumName, StringRef allEnums, std::vector&lt; int &gt; const &amp;values)=0'],['../structCatch_1_1IMutableEnumValuesRegistry.html#ad237b5296c546f7d8deaf4aee9ecfa20',1,'Catch::IMutableEnumValuesRegistry::registerEnum(StringRef enumName, StringRef allEnums, std::initializer_list&lt; E &gt; values)']]],
   ['registrarfortagaliases_4',['RegistrarForTagAliases',['../structCatch_1_1RegistrarForTagAliases.html#a959c9bde1977ca696c0860ecd15006e2',1,'Catch::RegistrarForTagAliases']]],
@@ -16,7 +16,7 @@ var searchData=
   ['resolvelegacytypefor_13',['resolveLegacyTypeFor',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a911d268868a202d3d3b533193dcfaff5',1,'sst::filtersplusplus::details::FilterPayload']]],
   ['resoscale_14',['resoscale',['../namespacesst_1_1filters.html#ab085483ba34a0cf9631562b4d65548e3',1,'sst::filters']]],
   ['resoscale4pole_15',['resoscale4Pole',['../namespacesst_1_1filters.html#a20b2f959970ce27dce4f2e4d416f6165',1,'sst::filters']]],
-  ['retaincoeffforblock_16',['retainCoeffForBlock',['../structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4',1,'sst::filters::CytomicSVF']]],
+  ['retaincoeffforblock_16',['retaincoeffforblock',['../structsst_1_1filters_1_1CytomicTilt.html#a298789f4bdd088b04062ba5be9f01164',1,'sst::filters::CytomicTilt::retainCoeffForBlock()'],['../structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4',1,'sst::filters::CytomicSVF::retainCoeffForBlock()']]],
   ['reusablestringstream_17',['ReusableStringStream',['../classCatch_1_1ReusableStringStream.html#a0a97da276799c5e436812d42dd677a0c',1,'Catch::ReusableStringStream']]],
   ['rng_18',['rng',['../namespaceCatch.html#a8ec43e1151a71d759292eff8f6f5594e',1,'Catch']]],
   ['rngseed_19',['rngSeed',['../namespaceCatch.html#a17880285a46994a714df574bf93669e0',1,'Catch']]]
