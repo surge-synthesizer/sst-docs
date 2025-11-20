@@ -34,7 +34,8 @@ var searchData=
   ['busvulevels_31',['busVULevels',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515',1,'scxt::engine::Engine::SharedUIMemoryState']]],
   ['buswidth_32',['busWidth',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html#a3629a98b1b33da774063835b6fa11c78',1,'scxt::ui::app::mixer_screen::BusPane']]],
   ['button_5fh_33',['BUTTON_H',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a8e367667f453972a34319ea08ac650c4',1,'scxt::ui::app::edit_screen']]],
-  ['bypassanyway_34',['bypassAnyway',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#a872ff29984c41cde17d52cad47809636',1,'scxt::dsp::processor::Processor']]],
-  ['bypassattachment_35',['bypassAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a215c27451017446dda36f868e0ec4d33',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
-  ['bypassthreadchecks_36',['bypassThreadChecks',['../structscxt_1_1ThreadingChecker.html#a43fb182d1b800c05d26de5a4dd583caf',1,'scxt::ThreadingChecker']]]
+  ['buttonwidth_34',['buttonWidth',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1InstrumentPrompt.html#a204c1fff1107630ab711785cd55c6d0e',1,'scxt::ui::app::edit_screen::InstrumentPrompt']]],
+  ['bypassanyway_35',['bypassAnyway',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#a872ff29984c41cde17d52cad47809636',1,'scxt::dsp::processor::Processor']]],
+  ['bypassattachment_36',['bypassAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a215c27451017446dda36f868e0ec4d33',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
+  ['bypassthreadchecks_37',['bypassThreadChecks',['../structscxt_1_1ThreadingChecker.html#a43fb182d1b800c05d26de5a4dd583caf',1,'scxt::ThreadingChecker']]]
 ];
