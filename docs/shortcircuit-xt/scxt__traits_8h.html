@@ -350,13 +350,13 @@ Functions</h2></td></tr>
 <div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> assign(tao::json::basic_value&lt;Traits&gt; &amp;v, <span class="keyword">const</span> rt_t &amp;from)                    \</div>
 <div class="line">        {                                                                                          \</div>
 <div class="line">            <span class="keyword">using </span>val_t = tao::json::basic_value&lt;Traits&gt;;                                          \</div>
-<div class="line">            <span class="keyword">auto</span> &amp;t = from;                                                                        \</div>
+<div class="line">            [[maybe_unused]] <span class="keyword">auto</span> &amp;t = from;                                                       \</div>
 <div class="line">            assignBlock                                                                            \</div>
 <div class="line">        }                                                                                          \</div>
 <div class="line">        <span class="keyword">template</span> &lt;<span class="keyword">template</span> &lt;<span class="keyword">typename</span>...&gt; <span class="keyword">class </span>Traits&gt;                                             \</div>
 <div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> to(<span class="keyword">const</span> tao::json::basic_value&lt;Traits&gt; &amp;v, rt_t &amp;to)                          \</div>
 <div class="line">        {                                                                                          \</div>
-<div class="line">            <span class="keyword">auto</span> &amp;result = to;                                                                     \</div>
+<div class="line">            [[maybe_unused]] <span class="keyword">auto</span> &amp;result = to;                                                    \</div>
 <div class="line">            toBlock                                                                                \</div>
 <div class="line">        }                                                                                          \</div>
 <div class="line">    };</div>
@@ -472,7 +472,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 20 2025 20:05:08 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Nov 20 2025 23:48:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
