@@ -108,7 +108,7 @@ var searchData=
   ['getquantizedstepsize_105',['getQuantizedStepSize',['../structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a351eb6675d666b68b06c2870e4519a3c',1,'scxt::ui::connectors::SamplePointDataAttachment']]],
   ['getreadonlyconn_106',['getReadOnlyConn',['../structscxt_1_1browser_1_1WriterWorker.html#ab3bd3713dae1ab42b6159984a31ec085',1,'scxt::browser::WriterWorker']]],
   ['getrootpathsfordeviceview_107',['getRootPathsForDeviceView',['../structscxt_1_1browser_1_1Browser.html#a39f619a8e86af8377269be799b51771d',1,'scxt::browser::Browser']]],
-  ['getroutinglabel_108',['getRoutingLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputTab.html#afd04c82762f476880628766f53661b2c',1,'scxt::ui::app::edit_screen::OutputTab']]],
+  ['getroutinglabel_108',['getRoutingLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#afd04c82762f476880628766f53661b2c',1,'scxt::ui::app::edit_screen::ProcTab']]],
   ['getroutingname_109',['getRoutingName',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#a4295e95b61ca3c272739fdd9c6d27d69',1,'scxt::ui::app::edit_screen::ProcTab']]],
   ['getsample_110',['getSample',['../structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052',1,'scxt::sample::SampleManager']]],
   ['getsampleaddressesandids_111',['getSampleAddressesAndIDs',['../structscxt_1_1sample_1_1SampleManager.html#a3662f77c43717af20e6fa9f73964abf0',1,'scxt::sample::SampleManager']]],

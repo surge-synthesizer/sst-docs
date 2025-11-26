@@ -23,7 +23,7 @@ var searchData=
   ['updatepartfullconfig_20',['updatePartFullConfig',['../namespacescxt_1_1messaging_1_1client.html#a41751f307fd480d6ed41811ab26caec7',1,'scxt::messaging::client']]],
   ['updateprocroutingfrominfo_21',['updateProcRoutingFromInfo',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#abca02886598fda83ad729631419e773f',1,'scxt::ui::app::edit_screen::ProcTab']]],
   ['updateretriggers_22',['updateRetriggers',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689',1,'scxt::modulation::shared::HasModulators']]],
-  ['updateroutinglabel_23',['updateRoutingLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputTab.html#a4401fe43ea04f32d32192f4ce451dfa9',1,'scxt::ui::app::edit_screen::OutputTab']]],
+  ['updateroutinglabel_23',['updateRoutingLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#a4401fe43ea04f32d32192f4ce451dfa9',1,'scxt::ui::app::edit_screen::ProcTab']]],
   ['updateroutingtableafterprocessorswap_24',['updateRoutingTableAfterProcessorSwap',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a67e8ef0bf1887803ba42aef21949523d',1,'scxt::engine::HasGroupZoneProcessors']]],
   ['updateselection_25',['updateselection',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#ae32fd073c972974456acfd0547feca50',1,'scxt::ui::app::edit_screen::ZoneSidebar::updateSelection()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSidebar.html#ae32fd073c972974456acfd0547feca50',1,'scxt::ui::app::edit_screen::GroupSidebar::updateSelection()']]],
   ['updateselectionfrom_26',['updateSelectionFrom',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#abcce655bf90e6dacdfb49eaa5bb217df',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase']]],
