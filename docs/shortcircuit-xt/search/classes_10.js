@@ -47,5 +47,6 @@ var searchData=
   ['stepmenutypein_44',['StepMenuTypein',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender_1_1StepMenuTypein.html',1,'scxt::ui::app::edit_screen::StepLFOPane::StepRender']]],
   ['steprender_45',['StepRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
   ['streamguard_46',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html',1,'scxt::engine::Engine']]],
-  ['subordinatevoicesources_47',['SubordinateVoiceSources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1SubordinateVoiceSources.html',1,'scxt::modulation::GroupMatrixEndpoints::Sources']]]
+  ['subordinatevoicesources_47',['SubordinateVoiceSources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1SubordinateVoiceSources.html',1,'scxt::modulation::GroupMatrixEndpoints::Sources']]],
+  ['svgpaths_48',['SvgPaths',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab_1_1SvgPaths.html',1,'scxt::ui::app::edit_screen::ProcTab']]]
 ];
