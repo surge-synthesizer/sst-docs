@@ -155,6 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad23e02147450ef9bcf0d1f145b051592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a963c0f6f97a927e43a8e7b32d7a4280f" id="r_a963c0f6f97a927e43a8e7b32d7a4280f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a963c0f6f97a927e43a8e7b32d7a4280f">isMPEVoiceChannel</a> (int16_t channel) const</td></tr>
 <tr class="separator:a963c0f6f97a927e43a8e7b32d7a4280f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a441dffeb7e807b4163cae04d55835d57" id="r_a441dffeb7e807b4163cae04d55835d57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a441dffeb7e807b4163cae04d55835d57">getChannelBasedTransposition</a> (int16_t channel) const</td></tr>
+<tr class="separator:a441dffeb7e807b4163cae04d55835d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f64fc5e69de6612986b9b3ab145e027" id="r_a4f64fc5e69de6612986b9b3ab145e027"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a4f64fc5e69de6612986b9b3ab145e027">rebuildGroupChannelMask</a> ()</td></tr>
 <tr class="separator:a4f64fc5e69de6612986b9b3ab145e027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2fb9b3c06e2581c9bd45bac569964de" id="r_ab2fb9b3c06e2581c9bd45bac569964de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">process</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;onto)</td></tr>
@@ -418,7 +420,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#adccefb91eda0c175d70f9fb6f68d5422">Part::PartConfiguration::mpeChannel</a>, and <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d">Part::PartConfiguration::omniChannel</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a0b130962428bdcd092359733ad57634e">Part::PartConfiguration::chPerOctaveChannel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#adccefb91eda0c175d70f9fb6f68d5422">Part::PartConfiguration::mpeChannel</a>, and <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d">Part::PartConfiguration::omniChannel</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad23e02147450ef9bcf0d1f145b051592">Part::respondsToMIDIChannel()</a>.</p>
 
@@ -461,6 +463,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#adccefb91eda0c175d70f9fb6f68d5422">Part::PartConfiguration::mpeChannel</a>, and <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a2215f84559ea72a7e01b1e9dd9583a36">Part::PartConfiguration::mpeGlobalChannel</a>.</p>
+
+</div>
+</div>
+<a id="a441dffeb7e807b4163cae04d55835d57" name="a441dffeb7e807b4163cae04d55835d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a441dffeb7e807b4163cae04d55835d57">&#9670;&#160;</a></span>getChannelBasedTransposition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getChannelBasedTransposition </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a0b130962428bdcd092359733ad57634e">Part::PartConfiguration::chPerOctaveChannel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a7d1e86075c2f42b3ace82a2d217973e6">MidikeyRetuner::getRepetitionInterval()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a23174a8e7a1c4ec2dac457d59320cdd6">Engine::midikeyRetuner</a>, <a class="el" href="structscxt_1_1engine_1_1Patch.html#accb3e60a9ac0eb459b1e1dbed1a4595b">Patch::parentEngine</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#af99b7fe51321cd93e5df1d50fb6e84d2">Part::parentPatch</a>.</p>
 
 </div>
 </div>
@@ -1126,7 +1148,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ab0e713df21e3796eacfb4d2fcabd16ef">Group::getEngine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a441dffeb7e807b4163cae04d55835d57">Part::getChannelBasedTransposition()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ab0e713df21e3796eacfb4d2fcabd16ef">Group::getEngine()</a>.</p>
 
 </div>
 </div>
@@ -1158,7 +1180,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Part::getName()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Part::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a963c0f6f97a927e43a8e7b32d7a4280f">Part::isMPEVoiceChannel()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#af9be4faf1a1552e2c43cea5538d5e84c">Part::respondsToMIDIChannelExcludingGroupMask()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a441dffeb7e807b4163cae04d55835d57">Part::getChannelBasedTransposition()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Part::getName()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Part::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a963c0f6f97a927e43a8e7b32d7a4280f">Part::isMPEVoiceChannel()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#af9be4faf1a1552e2c43cea5538d5e84c">Part::respondsToMIDIChannelExcludingGroupMask()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1383,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 26 2025 22:46:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Nov 26 2025 22:58:07 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
