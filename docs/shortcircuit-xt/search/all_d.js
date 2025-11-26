@@ -45,7 +45,7 @@ var searchData=
   ['notetopitch_42',['noteToPitch',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a88aee6a097959af827677c2b63b496e5',1,'scxt::engine::dtl::Config']]],
   ['notetopitchignoringtuning_43',['notetopitchignoringtuning',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a1b5bbd3664b742612b5ae9cb320d367a',1,'scxt::engine::dtl::Config::noteToPitchIgnoringTuning()'],['../structscxt_1_1engine_1_1dtl_1_1EngineBiquadAdapter.html#a383995fba664c4467160c5ca6bc63c1d',1,'scxt::engine::dtl::EngineBiquadAdapter::noteToPitchIgnoringTuning()']]],
   ['notetopitchinv_44',['noteToPitchInv',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a9205fcdd0cd7083707a3982560a9108d',1,'scxt::engine::dtl::Config']]],
-  ['nouts_45',['nOuts',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html#af929b9f1d856de5d5ccc0f38a5c737c7',1,'scxt::ui::app::edit_screen::ProcTab']]],
+  ['nouts_45',['nOuts',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#af929b9f1d856de5d5ccc0f38a5c737c7',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]],
   ['ns_46',['NS',['../PartEffectsPane_8cpp.html#a3e797486ea8dd3e564d65a537c67f0c5',1,'PartEffectsPane.cpp']]],
   ['nsamplespersec_47',['nSamplesPerSec',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a3a6a524889c10da7581a2d0d9b2cf4da',1,'scxt::sample::loaders::wavheader']]],
   ['nullserialcompletefunction_48',['nullSerialCompleteFunction',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a220117e41eb7a82171e6c6dfce46e170',1,'scxt::messaging::MessageController::AudioThreadCallback']]],

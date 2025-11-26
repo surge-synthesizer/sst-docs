@@ -37,7 +37,7 @@ var searchData=
   ['adduithemesmenu_34',['addUIThemesMenu',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ae5e7b91083cfb0cc4ea6eb53ccc7bf92',1,'scxt::ui::app::SCXTEditor']]],
   ['addunlessdefault_35',['addUnlessDefault',['../namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c',1,'scxt::json']]],
   ['addvoice_36',['addVoice',['../structscxt_1_1engine_1_1Zone.html#a0000e6c83d3eba34b2929b56902dcffa',1,'scxt::engine::Zone']]],
-  ['addweakprocessorpanereference_37',['addWeakProcessorPaneReference',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1OutputPane.html#aa64aaedb292924568207d2f35c3b0ae4',1,'scxt::ui::app::edit_screen::OutputPane']]],
+  ['addweakprocessorpanereference_37',['addWeakProcessorPaneReference',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aa64aaedb292924568207d2f35c3b0ae4',1,'scxt::ui::app::edit_screen::RoutingPane']]],
   ['addzone_38',['addzone',['../structscxt_1_1engine_1_1Group.html#ae507fa2ca6d8ba6bf59765aa20ebe858',1,'scxt::engine::Group::addZone(std::unique_ptr&lt; Zone &gt; &amp;&amp;z)'],['../structscxt_1_1engine_1_1Group.html#a827de47baab70396291f8336f759e350',1,'scxt::engine::Group::addZone(std::unique_ptr&lt; Zone &gt; &amp;z)']]],
   ['addzoommenu_39',['addZoomMenu',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aca6d31134941a1ded5f557111b773a31',1,'scxt::ui::app::SCXTEditor']]],
   ['adjustchannelstripsolomute_40',['adjustChannelStripSoloMute',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1MixerScreen.html#adce96b24d6ad3854e2c1585d337a04f9',1,'scxt::ui::app::mixer_screen::MixerScreen']]],

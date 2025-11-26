@@ -33,7 +33,5 @@ var searchData=
   ['processortargetendpointdata_30',['ProcessorTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['processortargetendpointdata_3c_20tg_2c_20_27gprc_27_3e_31',['ProcessorTargetEndpointData&lt; TG, &apos;gprc&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['processortargetendpointdata_3c_20tg_2c_20_27proc_27_3e_32',['ProcessorTargetEndpointData&lt; TG, &apos;proc&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html',1,'scxt::modulation::shared']]],
-  ['proctab_33',['ProcTab',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html',1,'scxt::ui::app::edit_screen']]],
-  ['proctab_3c_20typename_20zgtrait_3a_3aoutpanetraits_20_3e_34',['ProcTab&lt; typename ZGTrait::OutPaneTraits &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab.html',1,'scxt::ui::app::edit_screen']]],
-  ['pt_35',['pt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport_1_1pt.html',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]]
+  ['pt_33',['pt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport_1_1pt.html',1,'scxt::ui::app::edit_screen::EqDisplaySupport']]]
 ];
