@@ -135,8 +135,9 @@ var searchData=
   ['rngsourcebase_132',['RNGSourceBase',['../structscxt_1_1modulation_1_1shared_1_1RNGSourceBase.html#a3f48d9a0ab47c3dea99db17c508c6929',1,'scxt::modulation::shared::RNGSourceBase']]],
   ['rootandrangeforposition_133',['rootAndRangeForPosition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#ad54f0de6a9ebddd0503ae64147ff927b',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
   ['rotate_134',['rotate',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65b9370120d713debfbc94645e7b72e8',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['rowaddcomponent_135',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowAddComponent']]],
-  ['rowcomponent_136',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#afb96f6802cbd32358c4b4ee30c302ac4',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
-  ['rowtopcomponent_137',['rowTopComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowTopComponent.html#a1db18ae7676e81fa1d97cd2f6a60dba7',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowTopComponent']]],
-  ['runsingleprocessor_138',['runSingleProcessor',['../namespacescxt_1_1dsp_1_1processor.html#a45f3dd34e5c22dee0c46e87a504a9515',1,'scxt::dsp::processor']]]
+  ['routingbox_135',['RoutingBox',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcTab_1_1RoutingBox.html#a10aee557f4250ece9e5b8f4082cda8cb',1,'scxt::ui::app::edit_screen::ProcTab::RoutingBox']]],
+  ['rowaddcomponent_136',['rowAddComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowAddComponent.html#a8818e8f6a46aa9ae00266d4e48349303',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowAddComponent']]],
+  ['rowcomponent_137',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#afb96f6802cbd32358c4b4ee30c302ac4',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['rowtopcomponent_138',['rowTopComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowTopComponent.html#a1db18ae7676e81fa1d97cd2f6a60dba7',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowTopComponent']]],
+  ['runsingleprocessor_139',['runSingleProcessor',['../namespacescxt_1_1dsp_1_1processor.html#a45f3dd34e5c22dee0c46e87a504a9515',1,'scxt::dsp::processor']]]
 ];
