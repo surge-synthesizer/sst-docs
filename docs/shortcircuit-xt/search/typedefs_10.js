@@ -9,7 +9,7 @@ var searchData=
   ['savepartpayload_5ft_6',['savePartPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a2aeceb7a154e2c01424546ea921c249c',1,'scxt::messaging::client']]],
   ['scxt_5fvalue_7',['scxt_value',['../namespacescxt_1_1json.html#ac446571383e62306252614eafda63f0c',1,'scxt::json']]],
   ['section_5ft_8',['section_t',['../structscxt_1_1sfz__support_1_1SFZParser.html#a2aa18da9bb0a12059cd70a89405ec766',1,'scxt::sfz_support::SFZParser']]],
-  ['selectedstatemessage_5ft_9',['selectedStateMessage_t',['../namespacescxt_1_1messaging_1_1client.html#af2ad93c4730c8729e5a3b1cf966df40b',1,'scxt::messaging::client']]],
+  ['selectedstatemessage_5ft_9',['selectedStateMessage_t',['../namespacescxt_1_1messaging_1_1client.html#a51647e060056b894530b58087698c4b1',1,'scxt::messaging::client']]],
   ['selectedzones_5ft_10',['selectedZones_t',['../structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09',1,'scxt::selection::SelectionManager']]],
   ['senv_5ft_11',['senv_t',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a556aa7207fc86618cc2f3b5ac7d97832',1,'scxt::modulation::modulators::CurveLFO']]],
   ['serializationtoaudiomessage_5ft_12',['serializationToAudioMessage_t',['../structscxt_1_1messaging_1_1MessageController.html#a0b795d7ab21b36c987e8ce79cb4e903f',1,'scxt::messaging::MessageController']]],
