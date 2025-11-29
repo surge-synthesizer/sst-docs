@@ -13,6 +13,6 @@ var searchData=
   ['notetopitchinv_10',['noteToPitchInv',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a9205fcdd0cd7083707a3982560a9108d',1,'scxt::engine::dtl::Config']]],
   ['nullserialcompletefunction_11',['nullSerialCompleteFunction',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a220117e41eb7a82171e6c6dfce46e170',1,'scxt::messaging::MessageController::AudioThreadCallback']]],
   ['numberofjobsoutstanding_12',['numberOfJobsOutstanding',['../structscxt_1_1browser_1_1BrowserDB.html#a2562f2aa425bd8d657ee1a42ce557d8f',1,'scxt::browser::BrowserDB']]],
-  ['numdenquantatt_13',['NumDenQuantAtt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#abb94a90ef1391ce7a15b45f9eda2a34f',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]],
+  ['numdenquantatt_13',['NumDenQuantAtt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a1ef83ce847433dc93e4e1ef25785587f',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]],
   ['numparams_14',['numparams',['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()'],['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()']]]
 ];

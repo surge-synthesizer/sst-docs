@@ -17,5 +17,6 @@ var searchData=
   ['curvedatasource_14',['CurveDataSource',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDataSource.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['curvelfo_15',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
   ['curvelfopane_16',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['curvelfostorage_17',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]]
+  ['curvelfostorage_17',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]],
+  ['customdtev_18',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]]
 ];
