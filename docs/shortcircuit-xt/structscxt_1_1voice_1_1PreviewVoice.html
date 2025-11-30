@@ -128,8 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a896ecbdbca9ffddc50681be5eff86103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48881dd274e7725197919c968d214bb2" id="r_a48881dd274e7725197919c968d214bb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a48881dd274e7725197919c968d214bb2">~PreviewVoice</a> ()</td></tr>
 <tr class="separator:a48881dd274e7725197919c968d214bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eac7508baf391f58700f35cee709273" id="r_a7eac7508baf391f58700f35cee709273"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a7eac7508baf391f58700f35cee709273">attachAndStartUnlessPlaying</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;)</td></tr>
-<tr class="separator:a7eac7508baf391f58700f35cee709273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1fb4f400c65544cdbc58f747d07320" id="r_a2b1fb4f400c65544cdbc58f747d07320"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a2b1fb4f400c65544cdbc58f747d07320">attachAndStartUnlessPlaying</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;, float amplitude)</td></tr>
+<tr class="separator:a2b1fb4f400c65544cdbc58f747d07320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e0e3a5a3b07e7953e4f6b43d9fb31a9" id="r_a8e0e3a5a3b07e7953e4f6b43d9fb31a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">detatchAndStop</a> ()</td></tr>
 <tr class="separator:a8e0e3a5a3b07e7953e4f6b43d9fb31a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05dd27d9db8ffa1e6cafb4b4740dffdc" id="r_a05dd27d9db8ffa1e6cafb4b4740dffdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a05dd27d9db8ffa1e6cafb4b4740dffdc">processBlock</a> ()</td></tr>
@@ -214,8 +214,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7eac7508baf391f58700f35cee709273" name="a7eac7508baf391f58700f35cee709273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7eac7508baf391f58700f35cee709273">&#9670;&#160;</a></span>attachAndStartUnlessPlaying()</h2>
+<a id="a2b1fb4f400c65544cdbc58f747d07320" name="a2b1fb4f400c65544cdbc58f747d07320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1fb4f400c65544cdbc58f747d07320">&#9670;&#160;</a></span>attachAndStartUnlessPlaying()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,8 +224,18 @@ Public Attributes</h2></td></tr>
           <td class="memname">bool attachAndStartUnlessPlaying </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>amplitude</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -251,7 +261,7 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a0b03c5dc4b399966987172d692c99ff4">PreviewVoice::details</a>, <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a96eff8420fb9ee1b4c5d5f1bcace116d">PreviewVoice::isActive</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a48c98883847ff2a6f8ecad022abb2ccd">PreviewVoice::schedulePurge</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a7eac7508baf391f58700f35cee709273">PreviewVoice::attachAndStartUnlessPlaying()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a05dd27d9db8ffa1e6cafb4b4740dffdc">PreviewVoice::processBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a2b1fb4f400c65544cdbc58f747d07320">PreviewVoice::attachAndStartUnlessPlaying()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a05dd27d9db8ffa1e6cafb4b4740dffdc">PreviewVoice::processBlock()</a>.</p>
 
 </div>
 </div>
@@ -303,7 +313,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a7eac7508baf391f58700f35cee709273">PreviewVoice::attachAndStartUnlessPlaying()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">PreviewVoice::detatchAndStop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a2b1fb4f400c65544cdbc58f747d07320">PreviewVoice::attachAndStartUnlessPlaying()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">PreviewVoice::detatchAndStop()</a>.</p>
 
 </div>
 </div>
@@ -319,7 +329,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a7eac7508baf391f58700f35cee709273">PreviewVoice::attachAndStartUnlessPlaying()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">PreviewVoice::detatchAndStop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a2b1fb4f400c65544cdbc58f747d07320">PreviewVoice::attachAndStartUnlessPlaying()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">PreviewVoice::detatchAndStop()</a>.</p>
 
 </div>
 </div>
@@ -335,7 +345,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a7eac7508baf391f58700f35cee709273">PreviewVoice::attachAndStartUnlessPlaying()</a>, <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">PreviewVoice::detatchAndStop()</a>, <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a896ecbdbca9ffddc50681be5eff86103">PreviewVoice::PreviewVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a05dd27d9db8ffa1e6cafb4b4740dffdc">PreviewVoice::processBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a2b1fb4f400c65544cdbc58f747d07320">PreviewVoice::attachAndStartUnlessPlaying()</a>, <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a8e0e3a5a3b07e7953e4f6b43d9fb31a9">PreviewVoice::detatchAndStop()</a>, <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a896ecbdbca9ffddc50681be5eff86103">PreviewVoice::PreviewVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html#a05dd27d9db8ffa1e6cafb4b4740dffdc">PreviewVoice::processBlock()</a>.</p>
 
 </div>
 </div>
@@ -346,7 +356,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 30 2025 01:55:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Nov 30 2025 02:21:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
