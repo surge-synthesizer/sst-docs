@@ -1,7 +1,7 @@
 var searchData=
 [
   ['reampfnop_5ft_0',['reampFnOp_t',['../namespacescxt_1_1dsp_1_1processor_1_1detail.html#a5b30667bc03e9f0729e4f6c341f7866c',1,'scxt::dsp::processor::detail']]],
-  ['remapfn_5ft_1',['remapFn_t',['../namespacescxt_1_1dsp_1_1processor.html#a68d11534f9404d2cd4be06b000004e6d',1,'scxt::dsp::processor']]],
+  ['remapfn_5ft_1',['remapFn_t',['../namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad',1,'scxt::dsp::processor']]],
   ['renamegroupzonepayload_5ft_2',['renameGroupZonePayload_t',['../namespacescxt_1_1messaging_1_1client.html#a93891384b7a1cf8516879bee202c4f6d',1,'scxt::messaging::client']]],
   ['resolvesamplepayload_5ft_3',['resolveSamplePayload_t',['../namespacescxt_1_1messaging_1_1client.html#ae75183725d5b3249ed5cf9845fc48c67',1,'scxt::messaging::client']]],
   ['route_5ft_4',['route_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneZoneTraits.html#a4347b267401bfa6dcbe2ccdb69ad6623',1,'scxt::ui::app::edit_screen::RoutingPaneZoneTraits::route_t'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneGroupTraits.html#a27cfd8e2a16c41738c176201d955d6c4',1,'scxt::ui::app::edit_screen::RoutingPaneGroupTraits::route_t']]],

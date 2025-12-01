@@ -110,7 +110,7 @@ var searchData=
   ['releasevelocity_107',['releaseVelocity',['../structscxt_1_1voice_1_1Voice.html#a5e5de1a1853ea5f9e4841b75da4f885d',1,'scxt::voice::Voice']]],
   ['releasevelocitysource_108',['releaseVelocitySource',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a5785c8722270a52cd48ec305c65038fd',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
   ['releasevoice_109',['releasevoice',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a9e5be4497b811ed646dfe5379d580e53',1,'scxt::engine::Engine::VoiceManagerResponder::releaseVoice()'],['../structscxt_1_1engine_1_1Engine.html#ac0c7b1b3bc6f5de37db424e9b96920bd',1,'scxt::engine::Engine::releaseVoice()']]],
-  ['remapfn_5ft_110',['remapFn_t',['../namespacescxt_1_1dsp_1_1processor.html#a68d11534f9404d2cd4be06b000004e6d',1,'scxt::dsp::processor']]],
+  ['remapfn_5ft_110',['remapFn_t',['../namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad',1,'scxt::dsp::processor']]],
   ['remapids_111',['remapIds',['../structscxt_1_1sample_1_1SampleManager.html#aadb91dc4340b3cae7a0943b46dedbe97',1,'scxt::sample::SampleManager']]],
   ['remapkeyto_112',['remapKeyTo',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a97c8690971de8f606365c497bcc5ffd1',1,'scxt::tuning::MidikeyRetuner']]],
   ['remapzonestonewsample_113',['remapZonesToNewSample',['../structscxt_1_1engine_1_1Engine.html#a59667ba48664275715bb751063e0c383',1,'scxt::engine::Engine']]],

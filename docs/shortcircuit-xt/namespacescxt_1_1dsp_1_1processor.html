@@ -138,8 +138,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a68d11534f9404d2cd4be06b000004e6d" id="r_a68d11534f9404d2cd4be06b000004e6d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a68d11534f9404d2cd4be06b000004e6d">remapFn_t</a> = void(*)(int16_t, float *const, int *const)</td></tr>
-<tr class="separator:a68d11534f9404d2cd4be06b000004e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739ef4879fc46f69e14c59f5775fc9ad" id="r_a739ef4879fc46f69e14c59f5775fc9ad"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a> = void(*)(int16_t, float *const, int *const, uint32_t *const)</td></tr>
+<tr class="separator:a739ef4879fc46f69e14c59f5775fc9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69ac7194741681ad5aff7ff38c14dbaa" id="r_a69ac7194741681ad5aff7ff38c14dbaa"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorDescription.html">ProcessorDescription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a69ac7194741681ad5aff7ff38c14dbaa">processorList_t</a></td></tr>
 <tr class="separator:a69ac7194741681ad5aff7ff38c14dbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea1286312ef7e1a3651c870596fa996e" id="r_aea1286312ef7e1a3651c870596fa996e"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#aea1286312ef7e1a3651c870596fa996e">unimpl_t</a></td></tr>
@@ -224,7 +224,7 @@ Functions</h2></td></tr>
 <tr class="separator:ab409dd604779f7a7491d37cd224b244a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaeebbfec93b018862e723ba9dfbfd82" id="r_afaeebbfec93b018862e723ba9dfbfd82"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#afaeebbfec93b018862e723ba9dfbfd82">getProcessorStreamingName</a> (<a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a> id)</td></tr>
 <tr class="separator:afaeebbfec93b018862e723ba9dfbfd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20fffb78bff0051c40ca05e9890baf37" id="r_a20fffb78bff0051c40ca05e9890baf37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a68d11534f9404d2cd4be06b000004e6d">remapFn_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a20fffb78bff0051c40ca05e9890baf37">getProcessorRemapParametersFromStreamingVersion</a> (<a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a> id)</td></tr>
+<tr class="memitem:a20fffb78bff0051c40ca05e9890baf37" id="r_a20fffb78bff0051c40ca05e9890baf37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a20fffb78bff0051c40ca05e9890baf37">getProcessorRemapParametersFromStreamingVersion</a> (<a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a> id)</td></tr>
 <tr class="separator:a20fffb78bff0051c40ca05e9890baf37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a4c4209ff4f72035bd5a598f2517059" id="r_a3a4c4209ff4f72035bd5a598f2517059"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a3a4c4209ff4f72035bd5a598f2517059">getProcessorDisplayGroup</a> (<a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a> id)</td></tr>
 <tr class="separator:a3a4c4209ff4f72035bd5a598f2517059"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,14 +424,14 @@ Functions</h2></td></tr>
 </li>
 </ol>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a68d11534f9404d2cd4be06b000004e6d" name="a68d11534f9404d2cd4be06b000004e6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d11534f9404d2cd4be06b000004e6d">&#9670;&#160;</a></span>remapFn_t</h2>
+<a id="a739ef4879fc46f69e14c59f5775fc9ad" name="a739ef4879fc46f69e14c59f5775fc9ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a739ef4879fc46f69e14c59f5775fc9ad">&#9670;&#160;</a></span>remapFn_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a68d11534f9404d2cd4be06b000004e6d">remapFn_t</a> =  void (*)(int16_t, float *const, int *const)</td>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a> =  void (*)(int16_t, float *const, int *const, uint32_t *const)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -611,7 +611,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a68d11534f9404d2cd4be06b000004e6d">remapFn_t</a> getProcessorRemapParametersFromStreamingVersion </td>
+          <td class="memname"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a> getProcessorRemapParametersFromStreamingVersion </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -4683,7 +4683,7 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 1 2025 14:14:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Dec 1 2025 22:47:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
