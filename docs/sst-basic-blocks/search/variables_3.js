@@ -19,8 +19,9 @@ var searchData=
   ['dphase_16',['dphase',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#a7c7fb8710c37f8079cd5b0abb862e71a',1,'sst::basic_blocks::dsp::EBOscillatorBase::dphase'],['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html#a4590211fadb8e865b06eeab84528d796',1,'sst::basic_blocks::dsp::DPWSawOscillator::dPhase'],['../structsst_1_1basic__blocks_1_1dsp_1_1DPWPulseOscillator.html#a4590211fadb8e865b06eeab84528d796',1,'sst::basic_blocks::dsp::DPWPulseOscillator::dPhase']]],
   ['dphasei_17',['dPhaseI',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a52b4c302ce461a40abe7aa2ab8ab7b5f',1,'sst::basic_blocks::dsp::LanczosResampler']]],
   ['dphaseo_18',['dPhaseO',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a564f8ac3dc4cbdc0f03df578d1e20160',1,'sst::basic_blocks::dsp::LanczosResampler']]],
-  ['dtarget_19',['dTarget',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#af310695715c64a0be91bb560646218df',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
-  ['dtargetscale_20',['dTargetScale',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#a5eae64c7af374414ea480a520726ad8b',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
-  ['dv_21',['dv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a40662deae6e085879bf3eb5b266b96e5',1,'sst::basic_blocks::dsp::lipol']]],
-  ['dx_22',['dx',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ad5e8e8914b37176895522897f8cd9b18',1,'sst::basic_blocks::dsp::LanczosResampler']]]
+  ['dquadranttable_19',['dQuadrantTable',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a9033c96dd057eba075cb93bec23b691b',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
+  ['dtarget_20',['dTarget',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#af310695715c64a0be91bb560646218df',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
+  ['dtargetscale_21',['dTargetScale',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#a5eae64c7af374414ea480a520726ad8b',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
+  ['dv_22',['dv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a40662deae6e085879bf3eb5b266b96e5',1,'sst::basic_blocks::dsp::lipol']]],
+  ['dx_23',['dx',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ad5e8e8914b37176895522897f8cd9b18',1,'sst::basic_blocks::dsp::LanczosResampler']]]
 ];

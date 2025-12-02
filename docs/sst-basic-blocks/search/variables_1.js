@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['b',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a59f0e83edd2fc0a8fd275a68f45afebe',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::B'],['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#aa6598e5eacf0ff022041dc48e58c266e',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower::b']]],
+  ['b_0',['b',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#aa6598e5eacf0ff022041dc48e58c266e',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower::b'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a59f0e83edd2fc0a8fd275a68f45afebe',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::B']]],
   ['b0_1',['b0',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#aae36fc890ea9532f56273eb4ff3d8fc3',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b0'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#a5e71c4ead67220a4290f57de932fe275',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b0']]],
   ['b1_2',['b1',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a0a909289ec9fbfaa70c0e112ec9e3b15',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b1'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#ab933bb7073744ccb719e0e4855fe0b60',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b1']]],
   ['b2_3',['b2',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#a746bcb222044619e5a9b335d242a2a92',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::b2'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#ac39b96b9ce1bebb56b8030ab42053807',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::b2']]],
@@ -14,5 +14,6 @@ var searchData=
   ['bs_5finv_11',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
   ['bs_5finv_5fdef_12',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
   ['buffer_13',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
-  ['buffer_5fsz_14',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]]
+  ['buffer_5fsz_14',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]],
+  ['butonlyforsine_15',['butOnlyForSine',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a16d64251c8f7ba83c2939a1686209ce5',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]]
 ];

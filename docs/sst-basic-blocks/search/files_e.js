@@ -4,8 +4,9 @@ var searchData=
   ['simd_2dops_2eh_1',['simd-ops.h',['../simd-ops_8h.html',1,'']]],
   ['simplelfo_2eh_2',['SimpleLFO.h',['../SimpleLFO_8h.html',1,'']]],
   ['sinctableprovider_2eh_3',['SincTableProvider.h',['../SincTableProvider_8h.html',1,'']]],
-  ['smoothingstrategies_2eh_4',['SmoothingStrategies.h',['../SmoothingStrategies_8h.html',1,'']]],
-  ['specialfunctions_2eh_5',['SpecialFunctions.h',['../SpecialFunctions_8h.html',1,'']]],
-  ['ssesincdelayline_2eh_6',['SSESincDelayLine.h',['../SSESincDelayLine_8h.html',1,'']]],
-  ['steplfo_2eh_7',['StepLFO.h',['../StepLFO_8h.html',1,'']]]
+  ['sixsineswaveprovider_2eh_4',['SixSinesWaveProvider.h',['../SixSinesWaveProvider_8h.html',1,'']]],
+  ['smoothingstrategies_2eh_5',['SmoothingStrategies.h',['../SmoothingStrategies_8h.html',1,'']]],
+  ['specialfunctions_2eh_6',['SpecialFunctions.h',['../SpecialFunctions_8h.html',1,'']]],
+  ['ssesincdelayline_2eh_7',['SSESincDelayLine.h',['../SSESincDelayLine_8h.html',1,'']]],
+  ['steplfo_2eh_8',['StepLFO.h',['../StepLFO_8h.html',1,'']]]
 ];

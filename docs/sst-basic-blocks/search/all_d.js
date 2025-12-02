@@ -3,7 +3,7 @@ var searchData=
   ['objrng_0',['objrng',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#acfad75ef9a610dfa4e9c14dd183b5540',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['objrngref_1',['objrngRef',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ac98c90e35e911c575849ca6ecca20617',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['odd_2',['odd',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#af101694c028ce1374bb11428981ab4a4',1,'sst::basic_blocks::dsp::UnisonSetup']]],
-  ['of_20macros_20and_20defines_3',['sst/basic-blocks/simd/setup.h header providces a set of macros and defines',['../the.html',1,'']]],
+  ['of_20macros_20and_20defines_3',['sst/basic-blocks/simd/setup.h header provides a set of macros and defines',['../the.html',1,'']]],
   ['offset_4',['offset',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincInterpolater.html#aadb6d6eb83e646653a1402032e45dcab',1,'sst::basic_blocks::dsp::SSESincInterpolater']]],
   ['oneovern_5',['oneOverN',['../structsst_1_1basic__blocks_1_1dsp_1_1RunningAverage.html#a9a4c3f355da3da74f01bcd27b1390c1e',1,'sst::basic_blocks::dsp::RunningAverage']]],
   ['onepolelag_6',['onepolelag',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html',1,'OnePoleLag&lt; T, first_run_checks &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#aedccec910cc86a64319aa9e413523b5e',1,'sst::basic_blocks::dsp::OnePoleLag::OnePoleLag(T rate)'],['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a12beec88fdd0ec1ad74e71c120355bf5',1,'sst::basic_blocks::dsp::OnePoleLag::OnePoleLag()']]],

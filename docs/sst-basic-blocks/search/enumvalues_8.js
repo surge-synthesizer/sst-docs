@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['midi_5fnote_0',['MIDI_NOTE',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a459d9d952c69e633a1f618b619763449',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['mod_5fnoise_1',['mod_noise',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['mod_5fsaw_2',['mod_saw',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['mod_5fsine_3',['mod_sine',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['mod_5fsnh_4',['mod_snh',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['mod_5fsquare_5',['mod_square',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['mod_5ftri_6',['mod_tri',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['multiplicative_7',['MULTIPLICATIVE',['../namespacesst_1_1basic__blocks_1_1mod__matrix.html#add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164',1,'sst::basic_blocks::mod_matrix']]]
+  ['linear_0',['LINEAR',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2adc101ebf31c49c2d4b80b7c6f59f22cb',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['linlag_1',['LINLAG',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix_1_1RoutingValuePointers.html#a42292dd6d9a35e5f2fe8eef07664b1d4a8e7fdefc512ff27e6226b5e4e77709f4',1,'sst::basic_blocks::mod_matrix::FixedMatrix::RoutingValuePointers']]],
+  ['logarithmic_2',['LOGARITHMIC',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a71bf32ee139bca740e5417d978347587',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['looping_3',['LOOPING',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a67a0db04d321a74b7e7fcfd3f1a3f70babf8adca09119847298f112a3a84e4962',1,'sst::basic_blocks::modulators::Transport']]]
 ];

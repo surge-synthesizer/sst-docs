@@ -16,9 +16,10 @@ var searchData=
   ['lasttsscale_13',['lastTSScale',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a53caa1768de648318f9705e9bf6fa23f',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['level_14',['level',['../structsst_1_1basic__blocks_1_1dsp_1_1EBPulse.html#a450c3ab9b94a4663caad892b7193b547',1,'sst::basic_blocks::dsp::EBPulse']]],
   ['linear_15',['LINEAR',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a9255fe1c132b4c49368bf7b130c1dee3',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['lp_16',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lpinv_17',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
-  ['lrate_18',['lrate',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a5184705b457b0c00ab41c0883ddaba93',1,'sst::basic_blocks::modulators::StepLFO']]],
-  ['lut_19',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['lutsinitialized_20',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['linterpcoefficients_16',['linterpCoefficients',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a08887c79a21a39384de1ac19cef8b49a',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
+  ['lp_17',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
+  ['lpinv_18',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
+  ['lrate_19',['lrate',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a5184705b457b0c00ab41c0883ddaba93',1,'sst::basic_blocks::modulators::StepLFO']]],
+  ['lut_20',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['lutsinitialized_21',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
 ];

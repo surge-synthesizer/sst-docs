@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>sst-basic-blocks: sst/basic-blocks/simd/setup.h header providces a set of macros and defines</title>
+<title>sst-basic-blocks: sst/basic-blocks/simd/setup.h header provides a set of macros and defines</title>
 <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -90,20 +90,20 @@ $(function() {
 
 </div><!-- top -->
 <div><div class="header">
-  <div class="headertitle"><div class="title">sst/basic-blocks/simd/setup.h header providces a set of macros and defines</div></div>
+  <div class="headertitle"><div class="title">sst/basic-blocks/simd/setup.h header provides a set of macros and defines</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>for simd inclusion which we can use across all of our properties, which conditionally sets up the <a href="https://github.com/simd-everywhere/simde">https://github.com/simd-everywhere/simde</a> in various ways, and defines some macros which, especiall with the introduction of windows arm64ec builds (which define the sse intrinsics, but define them as emulation points) allows us to actually get native code on all platforms</p>
+<div class="textblock"><p>for simd inclusion which we can use across all of our properties, which conditionally sets up the <a href="https://github.com/simd-everywhere/simde">https://github.com/simd-everywhere/simde</a> in various ways, and defines some macros which, especially with the introduction of windows arm64ec builds (which define the sse intrinsics, but define them as emulation points) allows us to actually get native code on all platforms</p>
 <p>This header is controlled by a few important macros SST_SIMD_OMIT_NATIVE_ALIASES - on ARM etc platforms do not eject native aliases</p>
 <p>This header also defines a few important macros you can use</p>
 <p>Programming macros: SIMD_M128 -&gt; can be used as an alias for SIMD_M128 in all code in all settings <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM(x)</a> -&gt; creates the appropriate function. Replace <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM(set1_ps)</a>(2.f) with <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM(set1_ps)</a>(2.f)</p>
-<p>from pre-existing _mm code youc an use scripts/fix_simd.pl on a directory</p>
+<p>from pre-existing _mm code you can use scripts/fix_simd.pl on a directory</p>
 <p>Conditions: SST_SIMD_NATIVE_X86 - you are on an x86 / sse2 hardware platform SST_SIMD_ARM64EC - you are in microsoft arm64 emulation compatible mode SST_SIMD_ARM64 - you are on an arm64 platform without emulation </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 2 2025 00:36:39 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 2 2025 12:59:50 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

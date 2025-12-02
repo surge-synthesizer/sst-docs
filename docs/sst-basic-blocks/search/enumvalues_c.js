@@ -1,22 +1,6 @@
 var searchData=
 [
-  ['s_5fanalog_5fresidual_5fdecay_0',['s_analog_residual_decay',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebaf705030780a4d0307d1b35dd09076114',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fanalog_5fresidual_5frelease_1',['s_analog_residual_release',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604eba8d2339825b658c50610eab8b871ad3cd',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fattack_2',['s_attack',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebaa79c06e9d028e1961b8c2e5ed710a4e2',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fcomplete_3',['s_complete',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604eba6ace8a5dca7cb481616f9e25751ae4fe',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fdecay_4',['s_decay',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebae0267b04366a7a94cd9d676b3148922f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fdelay_5',['s_delay',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604eba3a786e42fb1b78cbafc205e560da61ee',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5feoc_6',['s_eoc',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebae717f83729b9a79a4243a7da01ebf4c7',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fhold_7',['s_hold',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebac6eefd7e11de9a9dd3d1ad0f9b6696ab',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5frelease_8',['s_release',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604eba099d52c8788f27b26b527462baa4de22',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['s_5fsustain_9',['s_sustain',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aca8133200c1122e29b87b314d82604ebaadc41194e2a07c78bb34e210369ecb78',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['saw_5ftri_5framp_10',['SAW_TRI_RAMP',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca4b67cdbbaf8b1e14acefc5d919e59f8b',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['scale_5fabove_11',['SCALE_ABOVE',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ade623c461700bc0994ed6dac85a71bbfa02d1d0750afe594a0bc3f286ab0d744a',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['scale_5fbelow_12',['SCALE_BELOW',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ade623c461700bc0994ed6dac85a71bbfa18bce8d0dffb0ad6f9d8c69642ca24a1',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['scaled_5foffset_5fexp_13',['SCALED_OFFSET_EXP',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a38a1f5f503e83e82e02823384dd25af1',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['sh_5fnoise_14',['SH_NOISE',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca8eafd79bc5dd29c18cd354acfee5b844',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['sine_15',['SINE',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca6fb78345b237d9715b391bff6773e931',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['smooth_5fnoise_16',['SMOOTH_NOISE',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca5d62a763f5ea43d894107cfd2929d36b',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['stopped_17',['STOPPED',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba948b2aee15f52b421fa4770c47bcfe8c',1,'sst::basic_blocks::modulators::Transport']]],
-  ['supports_5fmultiplicative_5fmodulation_18',['SUPPORTS_MULTIPLICATIVE_MODULATION',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['ramp_0',['RAMP',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca291e3bb43cd8449155161d1fa023348b',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['random_5ftrigger_1',['RANDOM_TRIGGER',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca85fd5f0e0ac371de3fd15cf8cd77b545',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['recording_2',['RECORDING',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba875fadf1437508cebb97bb5c3445cbdc',1,'sst::basic_blocks::modulators::Transport']]]
 ];
