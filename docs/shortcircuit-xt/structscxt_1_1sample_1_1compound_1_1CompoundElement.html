@@ -108,6 +108,7 @@ $(function() {
 Public Types</h2></td></tr>
 <tr class="memitem:a532fdb47187a0d41d4d837074705c18a" id="r_a532fdb47187a0d41d4d837074705c18a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18a">Type</a> : int32_t { <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aa48574801b7270ffdadab4b3d77da90a1">SAMPLE</a>
 , <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aab9a2965cc36333e4b9c1b0e055435d45">INSTRUMENT</a>
+, <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aaf3ff67fee2b9111b01f3533e31b86fc0">ERROR_SENTINEL</a>
  }</td></tr>
 <tr class="separator:a532fdb47187a0d41d4d837074705c18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -117,6 +118,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a14d9fdc7007acfba1abc36d249880970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b45b3e13bd9167aab02e17e08916231" id="r_a9b45b3e13bd9167aab02e17e08916231"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a9b45b3e13bd9167aab02e17e08916231">name</a></td></tr>
 <tr class="separator:a9b45b3e13bd9167aab02e17e08916231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebd0073b66276daa5dbeb4a522b67f3" id="r_a5ebd0073b66276daa5dbeb4a522b67f3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a5ebd0073b66276daa5dbeb4a522b67f3">emsg</a> {}</td></tr>
+<tr class="separator:a5ebd0073b66276daa5dbeb4a522b67f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac29fa85a95a2efeaeb4fd65637aa0c3" id="r_aac29fa85a95a2efeaeb4fd65637aa0c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html">Sample::SampleFileAddress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#aac29fa85a95a2efeaeb4fd65637aa0c3">sampleAddress</a></td></tr>
 <tr class="separator:aac29fa85a95a2efeaeb4fd65637aa0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -135,6 +138,7 @@ Public Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a532fdb47187a0d41d4d837074705c18aa48574801b7270ffdadab4b3d77da90a1" name="a532fdb47187a0d41d4d837074705c18aa48574801b7270ffdadab4b3d77da90a1"></a>SAMPLE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a532fdb47187a0d41d4d837074705c18aab9a2965cc36333e4b9c1b0e055435d45" name="a532fdb47187a0d41d4d837074705c18aab9a2965cc36333e4b9c1b0e055435d45"></a>INSTRUMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a532fdb47187a0d41d4d837074705c18aaf3ff67fee2b9111b01f3533e31b86fc0" name="a532fdb47187a0d41d4d837074705c18aaf3ff67fee2b9111b01f3533e31b86fc0"></a>ERROR_SENTINEL&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -168,7 +172,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a5e8ea240c4f82bcc7cd6e23ea49b20e6">scxt::sample::compound::getGIGCompoundList()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a1326e0ea8173bb5b9de9ba976329bbf3">scxt::sample::compound::getMultisampleCompoundList()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a7f3570db7a8de94db7e263bc23080e2a">scxt::sample::compound::getSF2InstrumentAddresses()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#ab0900aa5dc12b8e3d64869ce50e2bd19">scxt::sample::compound::getSF2SampleAddresses()</a>, and <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a36e8f173b50196dfab1c0222536fbdff">scxt::sample::compound::getSFZCompoundList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a5e8ea240c4f82bcc7cd6e23ea49b20e6">scxt::sample::compound::getGIGCompoundList()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a1326e0ea8173bb5b9de9ba976329bbf3">scxt::sample::compound::getMultisampleCompoundList()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a7f3570db7a8de94db7e263bc23080e2a">scxt::sample::compound::getSF2InstrumentAddresses()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#ab0900aa5dc12b8e3d64869ce50e2bd19">scxt::sample::compound::getSF2SampleAddresses()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a36e8f173b50196dfab1c0222536fbdff">scxt::sample::compound::getSFZCompoundList()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac45f49390d5c5d185046d0c991e61c66">Engine::loadCompoundElementIntoZone()</a>.</p>
+
+</div>
+</div>
+<a id="a5ebd0073b66276daa5dbeb4a522b67f3" name="a5ebd0073b66276daa5dbeb4a522b67f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ebd0073b66276daa5dbeb4a522b67f3">&#9670;&#160;</a></span>emsg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string emsg {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac45f49390d5c5d185046d0c991e61c66">Engine::loadCompoundElementIntoZone()</a>.</p>
 
 </div>
 </div>
@@ -194,7 +214,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 6 2025 15:36:40 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Dec 6 2025 17:01:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
