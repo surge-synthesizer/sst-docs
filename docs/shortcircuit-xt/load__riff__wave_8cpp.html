@@ -95,7 +95,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">load_riff_wave.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -106,11 +107,40 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacescxt_1_1sample" id="r_namespacescxt_1_1sample"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sample.html">scxt::sample</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7303f3c63e4cb09389092f3ef88a2775" id="r_a7303f3c63e4cb09389092f3ef88a2775"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="load__riff__wave_8cpp.html#a7303f3c63e4cb09389092f3ef88a2775">ADD_ERROR_MESSAGE</a>(...)</td></tr>
+<tr class="separator:a7303f3c63e4cb09389092f3ef88a2775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7303f3c63e4cb09389092f3ef88a2775" name="a7303f3c63e4cb09389092f3ef88a2775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7303f3c63e4cb09389092f3ef88a2775">&#9670;&#160;</a></span>ADD_ERROR_MESSAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADD_ERROR_MESSAGE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        std::ostringstream oss;                                                                    \</div>
+<div class="line">        oss &lt;&lt; __VA_ARGS__;                                                                        \</div>
+<div class="line">        addError(oss.str());                                                                       \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 11 2025 23:29:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Dec 13 2025 16:09:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

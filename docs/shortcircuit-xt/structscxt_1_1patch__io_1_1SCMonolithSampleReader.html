@@ -119,6 +119,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a08628997d5f46424a5c67548d5bc3023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab20c2a878df4abe8785719601e750c79" id="r_ab20c2a878df4abe8785719601e750c79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#ab20c2a878df4abe8785719601e750c79">getSampleData</a> (size_t index, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html">SampleData</a> &amp;data)</td></tr>
 <tr class="separator:ab20c2a878df4abe8785719601e750c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3a6b7b4a957ee250351e7f1b706b09" id="r_a3d3a6b7b4a957ee250351e7f1b706b09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#a3d3a6b7b4a957ee250351e7f1b706b09">resetErrorString</a> ()</td></tr>
+<tr class="separator:a3d3a6b7b4a957ee250351e7f1b706b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef8d0d19b718871c0bcbed4baf65a73" id="r_a4ef8d0d19b718871c0bcbed4baf65a73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#a4ef8d0d19b718871c0bcbed4baf65a73">addError</a> (const std::string &amp;msg)</td></tr>
+<tr class="separator:a4ef8d0d19b718871c0bcbed4baf65a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa871aa958cb921d9d2b565ffb38b3eee" id="r_aa871aa958cb921d9d2b565ffb38b3eee"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#aa871aa958cb921d9d2b565ffb38b3eee">getErrorString</a> () const</td></tr>
+<tr class="separator:aa871aa958cb921d9d2b565ffb38b3eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7661b73e0ef50e604053385cdaa8484a" name="a7661b73e0ef50e604053385cdaa8484a"></a>
@@ -202,7 +208,61 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae081d61a778f0464ced3d2795e53601d">SCMonolithSampleReader::SampleData::data</a>, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae80f820219e45772366a2a68de6a54c4">SCMonolithSampleReader::SampleData::filename</a>, and <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#a4ef8d0d19b718871c0bcbed4baf65a73">SCMonolithSampleReader::addError()</a>, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae081d61a778f0464ced3d2795e53601d">SCMonolithSampleReader::SampleData::data</a>, and <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae80f820219e45772366a2a68de6a54c4">SCMonolithSampleReader::SampleData::filename</a>.</p>
+
+</div>
+</div>
+<a id="a3d3a6b7b4a957ee250351e7f1b706b09" name="a3d3a6b7b4a957ee250351e7f1b706b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3a6b7b4a957ee250351e7f1b706b09">&#9670;&#160;</a></span>resetErrorString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetErrorString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ef8d0d19b718871c0bcbed4baf65a73" name="a4ef8d0d19b718871c0bcbed4baf65a73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ef8d0d19b718871c0bcbed4baf65a73">&#9670;&#160;</a></span>addError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addError </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader.html#ab20c2a878df4abe8785719601e750c79">SCMonolithSampleReader::getSampleData()</a>.</p>
+
+</div>
+</div>
+<a id="aa871aa958cb921d9d2b565ffb38b3eee" name="aa871aa958cb921d9d2b565ffb38b3eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa871aa958cb921d9d2b565ffb38b3eee">&#9670;&#160;</a></span>getErrorString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string getErrorString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -213,7 +273,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 11 2025 23:29:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Dec 13 2025 16:09:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
