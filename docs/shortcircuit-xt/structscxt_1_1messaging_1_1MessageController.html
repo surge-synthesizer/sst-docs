@@ -646,8 +646,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ae40f2f8aaed78d8328a1f48ba42bef97">scxt::messaging::audio::s2a_dispatch_to_pointer</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a321c4c4b6bec67a1659d18612a47ea41">MessageController::scheduleAudioThreadFunctionCallback()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a843bfa7fa8e24548304f9e242ff88c59">MessageController::restartAudioThreadFromSerial()</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1a093e44dc5818b9c8d419ef545ca101">MessageController::stopAudioThreadThenRunOnSerial()</a>.</p>
-
 </div>
 </div>
 <a id="a1a818582dce10ea833043fb41cc7d3bf" name="a1a818582dce10ea833043fb41cc7d3bf"></a>
@@ -677,6 +675,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519a8e67f985b77d0a7b03d1ac6ff6b79938">scxt::messaging::audio::s2a_dispatch_to_pointer_under_structurelock</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a321c4c4b6bec67a1659d18612a47ea41">MessageController::scheduleAudioThreadFunctionCallback()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a843bfa7fa8e24548304f9e242ff88c59">MessageController::restartAudioThreadFromSerial()</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1a093e44dc5818b9c8d419ef545ca101">MessageController::stopAudioThreadThenRunOnSerial()</a>.</p>
 
 </div>
 </div>
@@ -734,7 +734,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ThreadingChecker.html#a591c5a87e0cd89f78479b744b8344225">ThreadingChecker::isSerialThread()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a4de0bb7f7ca65e8d2e98db0675b2c730">MessageController::scheduleAudioThreadCallback()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ae530c6d2cba421820d4dd43d209aa140">MessageController::threadingChecker</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ThreadingChecker.html#a591c5a87e0cd89f78479b744b8344225">ThreadingChecker::isSerialThread()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1a818582dce10ea833043fb41cc7d3bf">MessageController::scheduleAudioThreadCallbackUnderStructureLock()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ae530c6d2cba421820d4dd43d209aa140">MessageController::threadingChecker</a>.</p>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ThreadingChecker.html#a591c5a87e0cd89f78479b744b8344225">ThreadingChecker::isSerialThread()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a4de0bb7f7ca65e8d2e98db0675b2c730">MessageController::scheduleAudioThreadCallback()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ae530c6d2cba421820d4dd43d209aa140">MessageController::threadingChecker</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ThreadingChecker.html#a591c5a87e0cd89f78479b744b8344225">ThreadingChecker::isSerialThread()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1a818582dce10ea833043fb41cc7d3bf">MessageController::scheduleAudioThreadCallbackUnderStructureLock()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ae530c6d2cba421820d4dd43d209aa140">MessageController::threadingChecker</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1084,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 14 2025 16:21:11 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Dec 14 2025 17:51:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

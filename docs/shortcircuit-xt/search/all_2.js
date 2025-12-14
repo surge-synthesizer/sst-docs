@@ -140,7 +140,7 @@ var searchData=
   ['clapjuceshim_137',['clapJuceShim',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#adf8c539dfd8f79c5c941447dd3c5eebf',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['cleanupvoice_138',['cleanupVoice',['../structscxt_1_1voice_1_1Voice.html#aeeb1b8365fab04d2aed97104b154c54f',1,'scxt::voice::Voice']]],
   ['clear_139',['clear',['../structscxt_1_1engine_1_1Bus.html#ac8bb3912a3ce86b15842e79d0b421204',1,'scxt::engine::Bus::clear()'],['../structscxt_1_1engine_1_1Patch_1_1Busses.html#ac8bb3912a3ce86b15842e79d0b421204',1,'scxt::engine::Patch::Busses::clear()']]],
-  ['clearall_140',['clearAll',['../structscxt_1_1engine_1_1Engine.html#a798729dca95209ecdc609807a653a2bf',1,'scxt::engine::Engine']]],
+  ['clearall_140',['clearAll',['../structscxt_1_1engine_1_1Engine.html#a09f089a8fb00437d0440f9ad561c8ce4',1,'scxt::engine::Engine']]],
   ['clearallselections_141',['clearAllSelections',['../structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348',1,'scxt::selection::SelectionManager']]],
   ['clearbindings_142',['clearBindings',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#ab73d6e74fb2f0a9763b77c26c79726b2',1,'scxt::browser::SQL::Statement']]],
   ['cleargroups_143',['clearGroups',['../structscxt_1_1engine_1_1Part.html#a105de53c0d93a5bd524572e6e32033c0',1,'scxt::engine::Part']]],
