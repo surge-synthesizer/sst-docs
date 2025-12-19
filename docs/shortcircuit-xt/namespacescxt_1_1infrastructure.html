@@ -139,6 +139,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a166c56691db8c433c289b99a70c53e2c" id="r_a166c56691db8c433c289b99a70c53e2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1infrastructure_1_1posixImpl.html">posixImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1infrastructure.html#a166c56691db8c433c289b99a70c53e2c">as</a> (<a class="el" href="structscxt_1_1infrastructure_1_1FileMapView_1_1Impl.html">FileMapView::Impl</a> *imp)</td></tr>
 <tr class="separator:a166c56691db8c433c289b99a70c53e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1453fa84137dd3e6981af66ebcd7dc" id="r_a7d1453fa84137dd3e6981af66ebcd7dc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1infrastructure.html#a7d1453fa84137dd3e6981af66ebcd7dc">hexString</a> (unsigned char *digest, int length)</td></tr>
+<tr class="separator:a7d1453fa84137dd3e6981af66ebcd7dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a747ff15adc12dc69d4d145330abacbc8" id="r_a747ff15adc12dc69d4d145330abacbc8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1infrastructure.html#a747ff15adc12dc69d4d145330abacbc8">createMD5SumFromFile</a> (const fs::path &amp;path)</td></tr>
 <tr class="separator:a747ff15adc12dc69d4d145330abacbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae55da7faec96652ea65feca13f140c1f" id="r_ae55da7faec96652ea65feca13f140c1f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1infrastructure.html#ae55da7faec96652ea65feca13f140c1f">defaultKeyToString</a> (<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a> k)</td></tr>
@@ -195,6 +197,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d1453fa84137dd3e6981af66ebcd7dc" name="a7d1453fa84137dd3e6981af66ebcd7dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1453fa84137dd3e6981af66ebcd7dc">&#9670;&#160;</a></span>hexString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string hexString </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>digest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1infrastructure.html#a747ff15adc12dc69d4d145330abacbc8">createMD5SumFromFile()</a>.</p>
+
+</div>
+</div>
 <a id="a747ff15adc12dc69d4d145330abacbc8" name="a747ff15adc12dc69d4d145330abacbc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a747ff15adc12dc69d4d145330abacbc8">&#9670;&#160;</a></span>createMD5SumFromFile()</h2>
 
@@ -211,7 +243,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1ScanWorker_1_1ScanFile.html#ab691b1a6b1864b5c2d6b678e3551ce47">ScanWorker::ScanFile::go()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a92965dae36866e580804751a3fca376e">SampleManager::loadSampleFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae8b1acae1f574aa47d06876498bef37d">SampleManager::loadSampleFromSCXTMonolith()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#af0c625642573720b01fdfe8aa1ec7b74">SampleManager::loadSampleFromSF2()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1infrastructure.html#a7d1453fa84137dd3e6981af66ebcd7dc">hexString()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1ScanWorker_1_1ScanFile.html#ab691b1a6b1864b5c2d6b678e3551ce47">ScanWorker::ScanFile::go()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>.</p>
 
 </div>
 </div>
@@ -240,7 +274,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 14 2025 17:51:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Dec 19 2025 21:56:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

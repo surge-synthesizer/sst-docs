@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
+  ['r_0',['r',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r']]],
   ['raiseerror_1',['raiseError',['../structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4',1,'scxt::sample::SampleManager']]],
   ['ramlabel_2',['ramLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a50272caa5c41814266e845fefb33972c',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramlevel_3',['ramLevel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#ae001ea2bc1dc2dbcd28cefaaa46fd2cb',1,'scxt::ui::app::shared::HeaderRegion']]],
@@ -59,7 +59,7 @@ var searchData=
   ['reverseattachment_56',['reverseAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a049fb942e81070d616885163fa475e71',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['rng_57',['rng',['../namespacescxt_1_1voice_1_1modulation.html#a517e3a5ba16b52ffd3c63fc55ae1feea',1,'scxt::voice::modulation::rng'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a517e3a5ba16b52ffd3c63fc55ae1feea',1,'scxt::ui::app::SCXTEditor::rng'],['../structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea',1,'scxt::engine::Engine::rng']]],
   ['rngsources_58',['rngsources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#a7e8add3f977ed094562ad9054bdf8dcd',1,'scxt::modulation::GroupMatrixEndpoints::Sources::rngSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#ad295afc0fa9908dc110954b7efb953c6',1,'scxt::voice::modulation::MatrixEndpoints::Sources::rngSources']]],
-  ['rootkey_59',['rootkey',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aeade06da0343d6d48ffd5f8c2c54c47c',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::RootKey'],['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3',1,'scxt::engine::Zone::ZoneMappingData::rootKey']]],
+  ['rootkey_59',['rootkey',['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3',1,'scxt::engine::Zone::ZoneMappingData::rootKey'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aeade06da0343d6d48ffd5f8c2c54c47c',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::RootKey']]],
   ['rootkey_5fpresent_60',['rootkey_present',['../structscxt_1_1sample_1_1Sample.html#afddd926fe862ce0311bf9204b27fd1cf',1,'scxt::sample::Sample']]],
   ['rootnote_61',['rootnote',['../structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html#ae32dc3039110b24a8500eaebae374a71',1,'scxt::sample::loaders::wave_acid_chunk']]],
   ['rootpath_62',['rootPath',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#a264957fec5f8e5bf30978ffe375980d5',1,'scxt::ui::app::browser_ui::DriveFSArea']]],

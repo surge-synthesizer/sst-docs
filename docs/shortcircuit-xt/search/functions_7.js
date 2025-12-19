@@ -10,7 +10,8 @@ var searchData=
   ['hasmodulators_7',['HasModulators',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa3a1ebcb142070ab93b983fbd89b9e6f',1,'scxt::modulation::shared::HasModulators']]],
   ['hasmonolithbinaries_8',['hasMonolithBinaries',['../namespacescxt_1_1patch__io.html#a1e83e0fd85d3fb5083bb4a52b50543bb',1,'scxt::patch_io']]],
   ['headerregion_9',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a2c96b0935386c0e0676b2af06f035825',1,'scxt::ui::app::shared::HeaderRegion']]],
-  ['hidepartblurbtooltip_10',['hidePartBlurbTooltip',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a903720eb3d4f40d52c10c4dc8b144981',1,'scxt::ui::app::shared::PartSidebarCard']]],
-  ['hidetooltip_11',['hideTooltip',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f',1,'scxt::ui::app::SCXTEditor']]],
-  ['humanreadableversion_12',['humanReadableVersion',['../namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158',1,'scxt']]]
+  ['hexstring_10',['hexString',['../namespacescxt_1_1infrastructure.html#a7d1453fa84137dd3e6981af66ebcd7dc',1,'scxt::infrastructure']]],
+  ['hidepartblurbtooltip_11',['hidePartBlurbTooltip',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a903720eb3d4f40d52c10c4dc8b144981',1,'scxt::ui::app::shared::PartSidebarCard']]],
+  ['hidetooltip_12',['hideTooltip',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f',1,'scxt::ui::app::SCXTEditor']]],
+  ['humanreadableversion_13',['humanReadableVersion',['../namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158',1,'scxt']]]
 ];
