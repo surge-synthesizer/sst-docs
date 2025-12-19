@@ -156,6 +156,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a87b1fd870e912a7a1e4bcd8c5ac12b6b" id="r_a87b1fd870e912a7a1e4bcd8c5ac12b6b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html#a87b1fd870e912a7a1e4bcd8c5ac12b6b">tC</a> [<a class="el" href="namespacesst_1_1filters.html#a0e477c7b1b57147e6b307cdae7ba4bf1">n_cm_coeffs</a>] {}</td></tr>
 <tr class="memdesc:a87b1fd870e912a7a1e4bcd8c5ac12b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Target" filter coefficients  <br /></td></tr>
 <tr class="separator:a87b1fd870e912a7a1e4bcd8c5ac12b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3daf6dfb876d1a81d7be3c1a8f13bb27" id="r_a3daf6dfb876d1a81d7be3c1a8f13bb27"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsst_1_1filters_1_1FilterCoefficientMaker.html#a3daf6dfb876d1a81d7be3c1a8f13bb27">fromDirectLast</a> [<a class="el" href="namespacesst_1_1filters.html#a0e477c7b1b57147e6b307cdae7ba4bf1">n_cm_coeffs</a>] {}</td></tr>
+<tr class="memdesc:a3daf6dfb876d1a81d7be3c1a8f13bb27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last 'N' value used in fromdirect You would think this would be target (and ultimately it is) but the original usage calculated and applied these over and over and target was and still is the low pass filtered value.  <br /></td></tr>
+<tr class="separator:a3daf6dfb876d1a81d7be3c1a8f13bb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename TuningProvider = detail::BasicTuningProvider&gt;<br />
@@ -648,6 +651,25 @@ template&lt;typename TuningProvider  = detail::BasicTuningProvider&gt; </div>
 
 </div>
 </div>
+<a id="a3daf6dfb876d1a81d7be3c1a8f13bb27" name="a3daf6dfb876d1a81d7be3c1a8f13bb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3daf6dfb876d1a81d7be3c1a8f13bb27">&#9670;&#160;</a></span>fromDirectLast</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TuningProvider  = detail::BasicTuningProvider&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">float fromDirectLast[<a class="el" href="namespacesst_1_1filters.html#a0e477c7b1b57147e6b307cdae7ba4bf1">n_cm_coeffs</a>] {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Last 'N' value used in fromdirect You would think this would be target (and ultimately it is) but the original usage calculated and applied these over and over and target was and still is the low pass filtered value. </p>
+<p>So this is that value and if you know that the register calculation is unchanged you can just apply it again in FromDirect (like Filters++::freezeCoefficients does) </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="FilterCoefficientMaker_8h.html">FilterCoefficientMaker.h</a></li>
 <li><a class="el" href="FilterCoefficientMaker__Impl_8h.html">FilterCoefficientMaker_Impl.h</a></li>
@@ -655,7 +677,7 @@ template&lt;typename TuningProvider  = detail::BasicTuningProvider&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 19 2025 01:08:41 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Dec 19 2025 22:08:32 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
