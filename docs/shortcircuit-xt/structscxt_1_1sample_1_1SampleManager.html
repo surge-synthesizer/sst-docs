@@ -181,6 +181,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad6ca8399e9b77911720c2e8d4d5939cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af138ba4b2ce5d51be96108062efad494" id="r_af138ba4b2ce5d51be96108062efad494"><td class="memItemLeft" align="right" valign="top">sampleMap_t::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#af138ba4b2ce5d51be96108062efad494">samplesEnd</a> () const</td></tr>
 <tr class="separator:af138ba4b2ce5d51be96108062efad494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac91de1166662228f782dd676869b4722" id="r_ac91de1166662228f782dd676869b4722"><td class="memItemLeft" align="right" valign="top">std::unique_lock&lt; std::mutex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">acquireMapLock</a> () const</td></tr>
+<tr class="separator:ac91de1166662228f782dd676869b4722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a63f534101a86a5d54e9c0f3bc0f44b" id="r_a4a63f534101a86a5d54e9c0f3bc0f44b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">storeSample</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">Sample</a> &gt; &amp;sp)</td></tr>
+<tr class="separator:a4a63f534101a86a5d54e9c0f3bc0f44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classscxt_1_1MoveableOnly"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classscxt_1_1MoveableOnly')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly&lt; SampleManager &gt;</a></td></tr>
 <tr class="memitem:a1f8dcf41d494138fedc7c478fd9cc171 inherit pub_methods_classscxt_1_1MoveableOnly" id="r_a1f8dcf41d494138fedc7c478fd9cc171"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1MoveableOnly.html#a1f8dcf41d494138fedc7c478fd9cc171">MoveableOnly</a> (<a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:a1f8dcf41d494138fedc7c478fd9cc171 inherit pub_methods_classscxt_1_1MoveableOnly"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,7 +319,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">SampleManager::addIdAlias()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a422acfb6220053b68854257a60b92738">Sample::createMissingPlaceholder()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1SampleID.html#a2df9560d0665b79dd79db671903b1ab1">SampleID::setPathHash()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">SampleManager::addIdAlias()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a422acfb6220053b68854257a60b92738">Sample::createMissingPlaceholder()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1SampleID.html#a2df9560d0665b79dd79db671903b1ab1">SampleID::setPathHash()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a62462e265230f69a9d3db6e4ef303023">SampleManager::restoreFromSampleAddressesAndIDs()</a>.</p>
 
@@ -425,7 +429,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a29674e8fdb81a9a55be18e6cb307cf66">SampleManager::findSF2SampleIndexFor()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4">SampleManager::raiseError</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a29674e8fdb81a9a55be18e6cb307cf66">SampleManager::findSF2SampleIndexFor()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4">SampleManager::raiseError</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">SampleManager::storeSample()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>.</p>
 
@@ -523,7 +527,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">SampleManager::storeSample()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>.</p>
 
@@ -579,7 +583,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">SampleManager::storeSample()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>.</p>
 
@@ -629,7 +633,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">SampleManager::storeSample()</a>.</p>
 
 </div>
 </div>
@@ -671,7 +675,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">SampleManager::storeSample()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>.</p>
 
@@ -693,7 +697,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052">SampleManager::getSample()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052">SampleManager::getSample()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052">SampleManager::getSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a41b94ebe21827bd7a13f163f844115ab">SampleManager::getSampleAddressesFor()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a518e874f19ef2f2a390f96f3f63e2706">VariantDisplay::rebuild()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#abd07aa8b0053f50d8ab58713fc8accef">SampleWaveform::rebuildEnvelopePaths()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a7239a94345c68261bb9046413797a766">SampleWaveform::rebuildHotZones()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#acb7d1eb56377b21a40d2feb6f050b67a">SampleWaveform::sampleForXPixel()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#ab33385f504dc781cc98c747e8724087a">VariantDisplay::selectNextFile()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a03b0d64dde61588649152350502da337">SampleWaveform::xPixelForSample()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ae10dada2b2233061f6ebcf11d5449495">SampleWaveform::xPixelForSampleDistance()</a>.</p>
 
@@ -841,7 +845,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aadb91dc4340b3cae7a0943b46dedbe97">SampleManager::remapIds</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488">SampleManager::reparentPath</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aadb91dc4340b3cae7a0943b46dedbe97">SampleManager::remapIds</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488">SampleManager::reparentPath</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 </div>
 </div>
@@ -900,7 +904,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 </div>
 </div>
@@ -919,7 +923,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#afe556989e5153e3fd964baf4cfc18c1c">SampleManager::streamingVersion</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#afe556989e5153e3fd964baf4cfc18c1c">SampleManager::streamingVersion</a>.</p>
 
 </div>
 </div>
@@ -1006,6 +1010,47 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac91de1166662228f782dd676869b4722" name="ac91de1166662228f782dd676869b4722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac91de1166662228f782dd676869b4722">&#9670;&#160;</a></span>acquireMapLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_lock&lt; std::mutex &gt; acquireMapLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052">SampleManager::getSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a3662f77c43717af20e6fa9f73964abf0">SampleManager::getSampleAddressesAndIDs()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9c516f768729120880641f892e8aeb2d">SampleManager::loadSampleFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a265b859ecc6434c4a0fe5caf38a0ac7f">SampleManager::loadSampleFromSCXTMonolith()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7a2228f3884875f96e3b044ad37d5240">SampleManager::loadSampleFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a83a3cf791ac15a44d7b4d0634e066a8c">SampleManager::purgeUnreferencedSamples()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ad20897c5c8bd47f5d4005989bead0e55">SampleManager::reset()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a4a63f534101a86a5d54e9c0f3bc0f44b">SampleManager::storeSample()</a>.</p>
+
+</div>
+</div>
+<a id="a4a63f534101a86a5d54e9c0f3bc0f44b" name="a4a63f534101a86a5d54e9c0f3bc0f44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a63f534101a86a5d54e9c0f3bc0f44b">&#9670;&#160;</a></span>storeSample()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void storeSample </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">Sample</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722">SampleManager::acquireMapLock()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9c516f768729120880641f892e8aeb2d">SampleManager::loadSampleFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a2f1efc2ed8cb3326b545957fb52b5405">SampleManager::loadSampleFromMultiSample()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a265b859ecc6434c4a0fe5caf38a0ac7f">SampleManager::loadSampleFromSCXTMonolith()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7a2228f3884875f96e3b044ad37d5240">SampleManager::loadSampleFromSF2()</a>, and <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#aaa81113ba1aad575acb22586f8e1ec33">SampleManager::setupSampleFromMultifile()</a>.</p>
 
 </div>
 </div>
@@ -1185,7 +1230,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 19 2025 23:01:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Dec 20 2025 08:52:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
