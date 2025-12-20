@@ -213,6 +213,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab48a58f8cb4f8fcc54cf6f3c76f41045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fb057048722afdb06a3ba3deede24b4" id="r_a3fb057048722afdb06a3ba3deede24b4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const std::string &amp;, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4">raiseError</a> = [](auto, auto) {}</td></tr>
 <tr class="separator:a3fb057048722afdb06a3ba3deede24b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fa817adc5536d50665ef0073ad4d79" id="r_a61fa817adc5536d50665ef0073ad4d79"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a61fa817adc5536d50665ef0073ad4d79">informUI</a> = [](auto) {}</td></tr>
+<tr class="separator:a61fa817adc5536d50665ef0073ad4d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -885,7 +887,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">SampleManager::addIdAlias()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a2ebbf1ed6f090990eb416d667d6ded58">SampleManager::monolithIndex</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac4a5e3f47b600a142c443904f0b2eb57">SampleManager::monolithPath</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a30cbb1ec3eebb8119cfffbf84de3430a">SampleManager::relativeRoot</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a182310d2ad62dd237359bdcff05c7cde">SampleManager::relativeSentinel</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a9b3efec34f6266e1239a24e5c8a82443">SampleManager::addIdAlias()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a02d6003a6971f4a39e85139a7ad19d6b">SampleManager::addSampleAsMissing()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a61fa817adc5536d50665ef0073ad4d79">SampleManager::informUI</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#ae10771ab1367ced7862a347eef8a9518">Sample::SampleFileAddress::md5sum</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a2ebbf1ed6f090990eb416d667d6ded58">SampleManager::monolithIndex</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ac4a5e3f47b600a142c443904f0b2eb57">SampleManager::monolithPath</a>, <a class="el" href="structscxt_1_1sample_1_1Sample_1_1SampleFileAddress.html#acf59817b7053ce33c8d96406e1ca31b7">Sample::SampleFileAddress::path</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a30cbb1ec3eebb8119cfffbf84de3430a">SampleManager::relativeRoot</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a182310d2ad62dd237359bdcff05c7cde">SampleManager::relativeSentinel</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>.</p>
 
 </div>
 </div>
@@ -1223,6 +1225,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a61fa817adc5536d50665ef0073ad4d79" name="a61fa817adc5536d50665ef0073ad4d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61fa817adc5536d50665ef0073ad4d79">&#9670;&#160;</a></span>informUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(const std::string &amp;)&gt; informUI = [](auto) {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a62462e265230f69a9d3db6e4ef303023">SampleManager::restoreFromSampleAddressesAndIDs()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="sample__manager_8h.html">sample_manager.h</a></li>
 <li><a class="el" href="sample__manager_8cpp.html">sample_manager.cpp</a></li>
@@ -1230,7 +1248,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 20 2025 08:52:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Dec 20 2025 14:59:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
