@@ -533,7 +533,7 @@ var searchData=
   ['simpleenv_530',['simpleEnv',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1e685812c71147dbbadf4c9fd003171c',1,'scxt::modulation::modulators::CurveLFO']]],
   ['simplelfo_531',['simpleLfo',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abc943921aef2ff679bc01a04bbd4c113',1,'scxt::modulation::modulators::CurveLFO']]],
   ['sinc_532',['Sinc',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798',1,'scxt::dsp']]],
-  ['sinctable_533',['sinctable',['../namespacescxt_1_1dsp.html#ae2fb008938e299eebe04d7e65922bfed',1,'scxt::dsp::sincTable'],['../namespacescxt_1_1dsp.html#ac37d62d8ef7d4f366424ed181ce014b1',1,'scxt::dsp::SincTable']]],
+  ['sinctable_533',['sinctable',['../namespacescxt_1_1dsp.html#ac37d62d8ef7d4f366424ed181ce014b1',1,'scxt::dsp::SincTable'],['../namespacescxt_1_1dsp.html#ae2fb008938e299eebe04d7e65922bfed',1,'scxt::dsp::sincTable']]],
   ['singlemacroeditor_534',['singlemacroeditor',['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#abcd3558aef2ca304de29a572562e4457',1,'scxt::ui::app::shared::SingleMacroEditor::SingleMacroEditor()'],['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html',1,'SingleMacroEditor']]],
   ['singlemacroeditor_2ecpp_535',['SingleMacroEditor.cpp',['../SingleMacroEditor_8cpp.html',1,'']]],
   ['singlemacroeditor_2eh_536',['SingleMacroEditor.h',['../SingleMacroEditor_8h.html',1,'']]],
