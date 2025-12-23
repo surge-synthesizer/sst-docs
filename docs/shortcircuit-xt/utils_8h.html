@@ -134,22 +134,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a21b2a427c04359f36808a9599b552083" id="r_a21b2a427c04359f36808a9599b552083"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(...)</td></tr>
-<tr class="separator:a21b2a427c04359f36808a9599b552083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625d50372c14206767b37135450b522d" id="r_a625d50372c14206767b37135450b522d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a625d50372c14206767b37135450b522d">SCLOG_ONCE</a>(...)</td></tr>
-<tr class="separator:a625d50372c14206767b37135450b522d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb31fe3727e25c507596ba7f1a9ecfd" id="r_a6bb31fe3727e25c507596ba7f1a9ecfd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>(x, ...)</td></tr>
 <tr class="separator:a6bb31fe3727e25c507596ba7f1a9ecfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99411fab6d4942ae2d40ebe9c68cc343" id="r_a99411fab6d4942ae2d40ebe9c68cc343"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a99411fab6d4942ae2d40ebe9c68cc343">SCLOG_WFUNC_IF</a>(x, ...)</td></tr>
+<tr class="memitem:a99411fab6d4942ae2d40ebe9c68cc343" id="r_a99411fab6d4942ae2d40ebe9c68cc343"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a99411fab6d4942ae2d40ebe9c68cc343">SCLOG_WFUNC_IF</a>(x, ...)&#160;&#160;&#160;{<a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>(x, __func__ &lt;&lt; &quot; &quot; &lt;&lt; __VA_ARGS__)}</td></tr>
 <tr class="separator:a99411fab6d4942ae2d40ebe9c68cc343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e12b950d934e1b230e6466fddd8aff" id="r_a09e12b950d934e1b230e6466fddd8aff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a09e12b950d934e1b230e6466fddd8aff">SCLOG_ONCE_IF</a>(x, ...)</td></tr>
 <tr class="separator:a09e12b950d934e1b230e6466fddd8aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5856f216c4e61269838ba634d799388" id="r_ac5856f216c4e61269838ba634d799388"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ac5856f216c4e61269838ba634d799388">SCLOG_WFUNC</a>(...)&#160;&#160;&#160;<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(__func__ &lt;&lt; &quot; &quot; &lt;&lt; __VA_ARGS__)</td></tr>
-<tr class="separator:ac5856f216c4e61269838ba634d799388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34285e0bea1e6267ac86cae8d557046d" id="r_a34285e0bea1e6267ac86cae8d557046d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a34285e0bea1e6267ac86cae8d557046d">SCLOG_UNIMPL</a>(...)&#160;&#160;&#160;<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;\033[1;33mUnimpl [&quot; &lt;&lt; __func__ &lt;&lt; &quot;]\033[0m &quot; &lt;&lt; __VA_ARGS__);</td></tr>
-<tr class="separator:a34285e0bea1e6267ac86cae8d557046d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d5140d6e86a0ce1499a056889842a6f" id="r_a2d5140d6e86a0ce1499a056889842a6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a2d5140d6e86a0ce1499a056889842a6f">SCLOG_UNIMPL_ONCE</a>(...)&#160;&#160;&#160;<a class="el" href="utils_8h.html#a625d50372c14206767b37135450b522d">SCLOG_ONCE</a>(&quot;Unimpl [&quot; &lt;&lt; __func__ &lt;&lt; &quot;] &quot; &lt;&lt; __VA_ARGS__);</td></tr>
-<tr class="separator:a2d5140d6e86a0ce1499a056889842a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61f1d4987b64140650f38bfb7eda5e18" id="r_a61f1d4987b64140650f38bfb7eda5e18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>(x)&#160;&#160;&#160;#x &lt;&lt; &quot;=&quot; &lt;&lt; (x) &lt;&lt; &quot; &quot;</td></tr>
 <tr class="separator:a61f1d4987b64140650f38bfb7eda5e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9dc0f823bad6ab2743258c8f26dadd0" id="r_ad9dc0f823bad6ab2743258c8f26dadd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ad9dc0f823bad6ab2743258c8f26dadd0">SCLOG_TIME</a>(objn,  msg)&#160;&#160;&#160;DebugTimeGuard objn(msg, __FILE__, __LINE__);</td></tr>
@@ -191,60 +181,6 @@ Functions</h2></td></tr>
 <tr class="separator:a90be79419d34cf9126b4ed93fa4b9158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a21b2a427c04359f36808a9599b552083" name="a21b2a427c04359f36808a9599b552083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21b2a427c04359f36808a9599b552083">&#9670;&#160;</a></span>SCLOG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SCLOG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
-<div class="line">        std::ostringstream oss_macr;                                                               \</div>
-<div class="line">        oss_macr &lt;&lt; __FILE__ &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; __LINE__ &lt;&lt; <span class="stringliteral">&quot; [&quot;</span> &lt;&lt; <a class="code hl_function" href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a>() &lt;&lt; <span class="stringliteral">&quot;] &quot;</span>            \</div>
-<div class="line">                 &lt;&lt; __VA_ARGS__ &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;                                                           \</div>
-<div class="line">        scxt::postToLog(oss_macr.str());                                                           \</div>
-<div class="line">    }</div>
-<div class="ttc" id="anamespacescxt_html_a8e49ec8fc52d71c0423912645e3e3e03"><div class="ttname"><a href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a></div><div class="ttdeci">std::string logTimestamp()</div><div class="ttdef"><b>Definition</b> utils.cpp:105</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a625d50372c14206767b37135450b522d" name="a625d50372c14206767b37135450b522d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a625d50372c14206767b37135450b522d">&#9670;&#160;</a></span>SCLOG_ONCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SCLOG_ONCE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
-<div class="line">        <span class="keyword">static</span> <span class="keywordtype">bool</span> x842132{<span class="keyword">false</span>};                                                                \</div>
-<div class="line">        if (!x842132)                                                                              \</div>
-<div class="line">        {                                                                                          \</div>
-<div class="line">            std::ostringstream oss_macr;                                                           \</div>
-<div class="line">            oss_macr &lt;&lt; __FILE__ &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; __LINE__ &lt;&lt; <span class="stringliteral">&quot; [&quot;</span> &lt;&lt; <a class="code hl_function" href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a>() &lt;&lt; <span class="stringliteral">&quot;] &quot;</span>        \</div>
-<div class="line">                     &lt;&lt; __VA_ARGS__ &lt;&lt; <span class="stringliteral">&quot; (Message will only appear once)\n&quot;</span>;                       \</div>
-<div class="line">            scxt::postToLog(oss_macr.str());                                                       \</div>
-<div class="line">        }                                                                                          \</div>
-<div class="line">        x842132 = <span class="keyword">true</span>;                                                                            \</div>
-<div class="line">    }</div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a6bb31fe3727e25c507596ba7f1a9ecfd" name="a6bb31fe3727e25c507596ba7f1a9ecfd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bb31fe3727e25c507596ba7f1a9ecfd">&#9670;&#160;</a></span>SCLOG_IF</h2>
 
@@ -273,9 +209,13 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
 <div class="line">        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (scxt::log::x)                                                                \</div>
 <div class="line">        {                                                                                          \</div>
-<div class="line">            SCLOG(<span class="stringliteral">&quot;[&quot;</span> &lt;&lt; #x &lt;&lt; <span class="stringliteral">&quot;] &quot;</span> &lt;&lt; __VA_ARGS__);                                               \</div>
+<div class="line">            std::ostringstream oss_macr;                                                           \</div>
+<div class="line">            oss_macr &lt;&lt; __FILE__ &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; __LINE__ &lt;&lt; <span class="stringliteral">&quot; [&quot;</span> &lt;&lt; #x &lt;&lt; <span class="stringliteral">&quot; | &quot;</span> &lt;&lt; <a class="code hl_function" href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a>() \</div>
+<div class="line">                     &lt;&lt; <span class="stringliteral">&quot;] &quot;</span> &lt;&lt; __VA_ARGS__ &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;                                               \</div>
+<div class="line">            scxt::postToLog(oss_macr.str());                                                       \</div>
 <div class="line">        }                                                                                          \</div>
 <div class="line">    }</div>
+<div class="ttc" id="anamespacescxt_html_a8e49ec8fc52d71c0423912645e3e3e03"><div class="ttname"><a href="namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03">scxt::logTimestamp</a></div><div class="ttdeci">std::string logTimestamp()</div><div class="ttdef"><b>Definition</b> utils.cpp:106</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -300,17 +240,11 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td>&#160;&#160;&#160;{<a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>(x, __func__ &lt;&lt; &quot; &quot; &lt;&lt; __VA_ARGS__)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
-<div class="line">        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (scxt::log::x)                                                                \</div>
-<div class="line">        {                                                                                          \</div>
-<div class="line">            SCLOG_WFUNC(<span class="stringliteral">&quot;[&quot;</span> &lt;&lt; #x &lt;&lt; <span class="stringliteral">&quot;] &quot;</span> &lt;&lt; __VA_ARGS__);                                         \</div>
-<div class="line">        }                                                                                          \</div>
-<div class="line">    }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a09e12b950d934e1b230e6466fddd8aff" name="a09e12b950d934e1b230e6466fddd8aff"></a>
@@ -341,64 +275,15 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
 <div class="line">        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (scxt::log::x)                                                                \</div>
 <div class="line">        {                                                                                          \</div>
-<div class="line">            SCLOG(<span class="stringliteral">&quot;[&quot;</span> &lt;&lt; #x &lt;&lt; <span class="stringliteral">&quot;] &quot;</span> &lt;&lt; __VA_ARGS__);                                               \</div>
+<div class="line">            <span class="keyword">static</span> <span class="keywordtype">bool</span> x842132{<span class="keyword">false</span>};                                                            \</div>
+<div class="line">            if (!x842132)                                                                          \</div>
+<div class="line">            {                                                                                      \</div>
+<div class="line">                SCLOG_IF(x, __VA_ARGS__);                                                          \</div>
+<div class="line">            }                                                                                      \</div>
+<div class="line">            x842132 = <span class="keyword">true</span>;                                                                        \</div>
 <div class="line">        }                                                                                          \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="ac5856f216c4e61269838ba634d799388" name="ac5856f216c4e61269838ba634d799388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5856f216c4e61269838ba634d799388">&#9670;&#160;</a></span>SCLOG_WFUNC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SCLOG_WFUNC</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(__func__ &lt;&lt; &quot; &quot; &lt;&lt; __VA_ARGS__)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a34285e0bea1e6267ac86cae8d557046d" name="a34285e0bea1e6267ac86cae8d557046d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34285e0bea1e6267ac86cae8d557046d">&#9670;&#160;</a></span>SCLOG_UNIMPL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SCLOG_UNIMPL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>(&quot;\033[1;33mUnimpl [&quot; &lt;&lt; __func__ &lt;&lt; &quot;]\033[0m &quot; &lt;&lt; __VA_ARGS__);</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d5140d6e86a0ce1499a056889842a6f" name="a2d5140d6e86a0ce1499a056889842a6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d5140d6e86a0ce1499a056889842a6f">&#9670;&#160;</a></span>SCLOG_UNIMPL_ONCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SCLOG_UNIMPL_ONCE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="utils_8h.html#a625d50372c14206767b37135450b522d">SCLOG_ONCE</a>(&quot;Unimpl [&quot; &lt;&lt; __func__ &lt;&lt; &quot;] &quot; &lt;&lt; __VA_ARGS__);</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="a61f1d4987b64140650f38bfb7eda5e18" name="a61f1d4987b64140650f38bfb7eda5e18"></a>
@@ -470,7 +355,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 23 2025 18:57:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 23 2025 21:21:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
