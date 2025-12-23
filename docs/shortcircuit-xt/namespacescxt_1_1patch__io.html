@@ -141,8 +141,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1e83e0fd85d3fb5083bb4a52b50543bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a0206ee630bee1c8b54109acd790eed" id="r_a7a0206ee630bee1c8b54109acd790eed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7a0206ee630bee1c8b54109acd790eed">readMonolithBinaryIndex</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a7a0206ee630bee1c8b54109acd790eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed4d91a4527daacf5f872b72f10600eb" id="r_aed4d91a4527daacf5f872b72f10600eb"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; fs::path, fs::path, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection</a> (const fs::path &amp;path)</td></tr>
-<tr class="separator:aed4d91a4527daacf5f872b72f10600eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a5b3b87e1367dd2ad820411c9660d3" id="r_ad8a5b3b87e1367dd2ad820411c9660d3"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; fs::path, fs::path, std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection</a> (const fs::path &amp;path)</td></tr>
+<tr class="separator:ad8a5b3b87e1367dd2ad820411c9660d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd1c668771eef4bc2637e7f0435f990" id="r_acdd1c668771eef4bc2637e7f0435f990"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#acdd1c668771eef4bc2637e7f0435f990">saveSubSample</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a> &amp;toCollect, const <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &amp;id, const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;sp)</td></tr>
 <tr class="separator:acdd1c668771eef4bc2637e7f0435f990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0885fcfe2ad7545df5041aba87c607" id="r_aaf0885fcfe2ad7545df5041aba87c607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part, std::vector&lt; fs::path &gt; &amp;tempFilesCreated)</td></tr>
@@ -413,14 +413,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed4d91a4527daacf5f872b72f10600eb" name="aed4d91a4527daacf5f872b72f10600eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4d91a4527daacf5f872b72f10600eb">&#9670;&#160;</a></span>setupForCollection()</h2>
+<a id="ad8a5b3b87e1367dd2ad820411c9660d3" name="ad8a5b3b87e1367dd2ad820411c9660d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8a5b3b87e1367dd2ad820411c9660d3">&#9670;&#160;</a></span>setupForCollection()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::tuple&lt; fs::path, fs::path, std::string &gt; setupForCollection </td>
+          <td class="memname">std::tuple&lt; fs::path, fs::path, std::string, std::string &gt; setupForCollection </td>
           <td>(</td>
           <td class="paramtype">const fs::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -428,6 +428,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a0748df3344cada345bb2007fd96fdf51">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a5c7d2563488b7412c18776daaae8ebf3">savePart()</a>.</p>
 
@@ -585,7 +587,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac">scxt::messaging::client::doSaveMulti()</a>.</p>
 
@@ -629,7 +631,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001">Engine::FOR_PART</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb">setupForCollection()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001">Engine::FOR_PART</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a21b2a427c04359f36808a9599b552083">SCLOG</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387">scxt::messaging::client::doSavePart()</a>.</p>
 
@@ -762,7 +764,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 22 2025 20:07:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 23 2025 00:11:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

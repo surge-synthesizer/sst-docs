@@ -414,7 +414,7 @@ var searchData=
   ['setup_5fsql_411',['setup_sql',['../structscxt_1_1browser_1_1WriterWorker.html#a92ee0f39acbdf98047030e16be47a67e',1,'scxt::browser::WriterWorker']]],
   ['setupdatabase_412',['setupDatabase',['../structscxt_1_1browser_1_1WriterWorker.html#a37fd7d4f70d32c7993fe34e2dee703e6',1,'scxt::browser::WriterWorker']]],
   ['setupfor_413',['setupFor',['../structscxt_1_1engine_1_1Zone.html#a821d8218204376488784772a16aa4448',1,'scxt::engine::Zone']]],
-  ['setupforcollection_414',['setupForCollection',['../namespacescxt_1_1patch__io.html#aed4d91a4527daacf5f872b72f10600eb',1,'scxt::patch_io']]],
+  ['setupforcollection_414',['setupForCollection',['../namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3',1,'scxt::patch_io']]],
   ['setupfromcolormap_415',['setupFromColormap',['../structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#a5fca3c86c109f19e8b7d2732827de238',1,'scxt::ui::theme::StdMapColormap']]],
   ['setupintattachedwidgetforvaluemenu_416',['setupIntAttachedWidgetForValueMenu',['../structscxt_1_1ui_1_1app_1_1HasEditor.html#a699780a38dfb9e8e71c845fdb44c0439',1,'scxt::ui::app::HasEditor']]],
   ['setupjsontypemap_417',['setupJsonTypeMap',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ac9220e314d1603da882f0fcdd8be2c55',1,'scxt::ui::app::edit_screen::ProcessorPane']]],

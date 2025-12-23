@@ -2,7 +2,7 @@ var searchData=
 [
   ['aboutlink_0',['AboutLink',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html#a858f615aa0bf5e65d211e585b4a4df88',1,'scxt::ui::app::other_screens::AboutLink']]],
   ['aboutscreen_1',['AboutScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#adc5d2ef3825dbd2383cf1d67263d22ac',1,'scxt::ui::app::other_screens::AboutScreen']]],
-  ['acquiremaplock_2',['acquireMapLock',['../structscxt_1_1sample_1_1SampleManager.html#ac91de1166662228f782dd676869b4722',1,'scxt::sample::SampleManager']]],
+  ['acquiremaplock_2',['acquireMapLock',['../structscxt_1_1sample_1_1SampleManager.html#a7ee056932c005ebc8b5f7a0f2c5b3613',1,'scxt::sample::SampleManager']]],
   ['acrossselectionconsistency_3',['acrossSelectionConsistency',['../structscxt_1_1selection_1_1SelectionManager.html#ae38aa61cca0131c021c8be6a89403f66',1,'scxt::selection::SelectionManager']]],
   ['activate_4',['activate',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a716c7a12230acabe4a80a3ebb67db286',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['activitydisplay_5',['ActivityDisplay',['../structscxt_1_1ui_1_1app_1_1shared_1_1ActivityDisplay.html#a32f729ffb62b7db96d3dd25f5ec88f10',1,'scxt::ui::app::shared::ActivityDisplay']]],
