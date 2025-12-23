@@ -166,7 +166,7 @@ Functions</h2></td></tr>
 <div class="line">        static_assert(std::is_standard_layout_v&lt;T&gt;);                                               \</div>
 <div class="line">        __VA_ARGS__;                                                                               \</div>
 <div class="line">                                                                                                   \</div>
-<div class="line">        SCLOG(<span class="stringliteral">&quot;Failed to bind &quot;</span> &lt;&lt; pd &lt;&lt; <span class="stringliteral">&quot; position element of &quot;</span> &lt;&lt; #T);                           \</div>
+<div class="line">        SCLOG_IF(warnings, <span class="stringliteral">&quot;Failed to bind &quot;</span> &lt;&lt; pd &lt;&lt; <span class="stringliteral">&quot; position element of &quot;</span> &lt;&lt; #T);              \</div>
 <div class="line">        assert(<span class="keyword">false</span>);                                                                             \</div>
 <div class="line">        <span class="keywordflow">return</span> pmd();                                                                              \</div>
 <div class="line">    }</div>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 23 2025 16:14:09 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 23 2025 18:57:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
