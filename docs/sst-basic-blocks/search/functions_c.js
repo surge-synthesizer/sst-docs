@@ -6,5 +6,6 @@ var searchData=
   ['norm_3',['norm',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a8379d716df95c91bf2085364e86c543a',1,'sst::basic_blocks::dsp::RNG']]],
   ['normalized01tonatural_4',['normalized01ToNatural',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac536f12f0d03bea1e1da5ede73005caa',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['normpm1_5',['normPM1',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a6490d43df4c3f0f2edc3a85a710e42c5',1,'sst::basic_blocks::dsp::RNG']]],
-  ['note_5fto_5fpitch_6',['note_to_pitch',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ac42279f0cab3467cbf3dcc00ae034904',1,'sst::basic_blocks::tables::EqualTuningProvider']]]
+  ['note_5fto_5fpitch_6',['note_to_pitch',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ac42279f0cab3467cbf3dcc00ae034904',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
+  ['notenametonotenumber_7',['noteNameToNoteNumber',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1df90820bff80a3d5957d02365405ab7',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];

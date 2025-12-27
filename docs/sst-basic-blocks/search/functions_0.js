@@ -27,7 +27,7 @@ var searchData=
   ['aslforate_24',['asLfoRate',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#adac51f2be605924d61cf8d6e4de0e0e4',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['aslineardecibel_25',['asLinearDecibel',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af04803d21c815cc406c2f9680a4b4499',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['aslog2secondsrange_26',['asLog2SecondsRange',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad3a7f1af8fc79d768f888de7f9b16f61',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['asmidinote_27',['asMIDINote',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a5c70242203b11861b36afca59b3da509',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['asmidinote_27',['asMIDINote',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ab232c041867c6654e3916b8383d85cd6',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['asmidipitch_28',['asMIDIPitch',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af21eef1c62015478da9f1fadaa12a7be',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['asonoffbool_29',['asOnOffBool',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7fc1857e6d4358b1d28bdf5ce1f00041',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['aspan_30',['asPan',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a06c3c697323aeeca2a679305eb1775a2',1,'sst::basic_blocks::params::ParamMetaData']]],

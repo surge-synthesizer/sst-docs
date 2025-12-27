@@ -30,7 +30,7 @@ var searchData=
   ['withlinearscaleformatting_27',['withLinearScaleFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a522452be99ec63649a60f38e0e1f6ed7',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withlog2secondsformatting_28',['withLog2SecondsFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a3bab7a06d11e6e0bcf3997ec64520a10',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withlogarithmicformating_29',['withLogarithmicFormating',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ada865f48a78f9c2481c527222892ed31',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withmidinoteformatting_30',['withMidiNoteFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af6b795b8f9c8c9373b9296520fb8949a',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withmidinoteformatting_30',['withMidiNoteFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ae6d1e13d9cb6ad1f755690d769d41e38',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withmilisecondsbelowonesecond_31',['withMilisecondsBelowOneSecond',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#abfdf3664fabaebae3f13c8daf64cee93',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withmodulationclamped_32',['withModulationClamped',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#aa3b30da70579d26f3bb43c5d642d066d',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
   ['withname_33',['withName',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7d4e7e0896d7982e534547eede3844e6',1,'sst::basic_blocks::params::ParamMetaData']]],
