@@ -111,10 +111,11 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736">mod_sine</a> = 0
 , <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb">mod_tri</a>
 , <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f">mod_saw</a>
-, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534">mod_noise</a>
+, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dae6fe7a7cf9642830dcfd42576138ff3d">mod_ramp</a>
 , <br />
-&#160;&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738">mod_snh</a>
-, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d">mod_square</a>
+&#160;&#160;<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d">mod_square</a>
+, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534">mod_noise</a>
+, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738">mod_snh</a>
 <br />
  }</td></tr>
 <tr class="separator:a70a0b4f1113996d5c7b444a607a9170d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,12 +128,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a42aedac965b8e768535e1d50e3f08bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01c502bd437d80506bb1232a14f12c27" id="r_a01c502bd437d80506bb1232a14f12c27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">setSampleRate</a> (double sr)</td></tr>
 <tr class="separator:a01c502bd437d80506bb1232a14f12c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41dada879cbb4ac5d9acb1d7011cc323" id="r_a41dada879cbb4ac5d9acb1d7011cc323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a41dada879cbb4ac5d9acb1d7011cc323">pre_process</a> (int mwave, float rate, float depth_val, float phase_offset)</td></tr>
-<tr class="separator:a41dada879cbb4ac5d9acb1d7011cc323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9c01be4638ba06f33e247845d3e38f" id="r_a0a9c01be4638ba06f33e247845d3e38f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0a9c01be4638ba06f33e247845d3e38f">processStartOfBlock</a> (int mwave, float rate, float depth, float phase_offset, float width=0.f)</td></tr>
+<tr class="separator:a0a9c01be4638ba06f33e247845d3e38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a706067905f223e03202bebf448e28307" id="r_a706067905f223e03202bebf448e28307"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a706067905f223e03202bebf448e28307">value</a> () const noexcept</td></tr>
 <tr class="separator:a706067905f223e03202bebf448e28307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cec5f17d3c97f34f2dadcb4d6dadd9a" id="r_a8cec5f17d3c97f34f2dadcb4d6dadd9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a8cec5f17d3c97f34f2dadcb4d6dadd9a">post_process</a> ()</td></tr>
-<tr class="separator:a8cec5f17d3c97f34f2dadcb4d6dadd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67550c07eda0b92efab150a3a35c6ff1" id="r_a67550c07eda0b92efab150a3a35c6ff1"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a67550c07eda0b92efab150a3a35c6ff1">valueStereo</a> () const noexcept</td></tr>
+<tr class="separator:a67550c07eda0b92efab150a3a35c6ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb961551844d16e661560eac8387a72" id="r_adcb961551844d16e661560eac8387a72"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">nextValueInBlock</a> ()</td></tr>
+<tr class="separator:adcb961551844d16e661560eac8387a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c42a3b99e60fa02f631e11eb50b700c" id="r_a0c42a3b99e60fa02f631e11eb50b700c"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">nextStereoValueInBlock</a> ()</td></tr>
+<tr class="separator:a0c42a3b99e60fa02f631e11eb50b700c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9c5136d19b1a95fc427e0852deab5c" id="r_a2e9c5136d19b1a95fc427e0852deab5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">process</a> ()</td></tr>
+<tr class="separator:a2e9c5136d19b1a95fc427e0852deab5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -161,9 +168,10 @@ template&lt;int blockSize&gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736" name="a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736"></a>mod_sine&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb" name="a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb"></a>mod_tri&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f" name="a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f"></a>mod_saw&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170dae6fe7a7cf9642830dcfd42576138ff3d" name="a70a0b4f1113996d5c7b444a607a9170dae6fe7a7cf9642830dcfd42576138ff3d"></a>mod_ramp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d" name="a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d"></a>mod_square&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534" name="a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534"></a>mod_noise&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738" name="a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738"></a>mod_snh&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d" name="a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d"></a>mod_square&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -241,8 +249,8 @@ template&lt;int blockSize&gt; </div>
 
 </div>
 </div>
-<a id="a41dada879cbb4ac5d9acb1d7011cc323" name="a41dada879cbb4ac5d9acb1d7011cc323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41dada879cbb4ac5d9acb1d7011cc323">&#9670;&#160;</a></span>pre_process()</h2>
+<a id="a0a9c01be4638ba06f33e247845d3e38f" name="a0a9c01be4638ba06f33e247845d3e38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9c01be4638ba06f33e247845d3e38f">&#9670;&#160;</a></span>processStartOfBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +258,7 @@ template&lt;int blockSize&gt; </div>
 template&lt;int blockSize&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void pre_process </td>
+          <td class="memname">void processStartOfBlock </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>mwave</em>, </td>
@@ -265,13 +273,19 @@ template&lt;int blockSize&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>depth_val</em>, </td>
+          <td class="paramname"><em>depth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>phase_offset</em>&#160;</td>
+          <td class="paramname"><em>phase_offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em> = <code>0.f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -281,7 +295,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534">FXModControl&lt; blockSize &gt;::mod_noise</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f">FXModControl&lt; blockSize &gt;::mod_saw</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736">FXModControl&lt; blockSize &gt;::mod_sine</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738">FXModControl&lt; blockSize &gt;::mod_snh</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d">FXModControl&lt; blockSize &gt;::mod_square</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb">FXModControl&lt; blockSize &gt;::mod_tri</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::newValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea">FXModControl&lt; blockSize &gt;::rng</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a467936eacd89bde71d4fc66c4ef3ddf9">FXModControl&lt; blockSize &gt;::samplerate</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
+<p class="reference">References <a class="el" href="FXModControl_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="FXModControl_8h.html#a5ceda26a59b995f39bf22eb1061c781a">DIV</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534">FXModControl&lt; blockSize &gt;::mod_noise</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dae6fe7a7cf9642830dcfd42576138ff3d">FXModControl&lt; blockSize &gt;::mod_ramp</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f">FXModControl&lt; blockSize &gt;::mod_saw</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736">FXModControl&lt; blockSize &gt;::mod_sine</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738">FXModControl&lt; blockSize &gt;::mod_snh</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d">FXModControl&lt; blockSize &gt;::mod_square</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb">FXModControl&lt; blockSize &gt;::mod_tri</a>, <a class="el" href="FXModControl_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::newValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea">FXModControl&lt; blockSize &gt;::rng</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a467936eacd89bde71d4fc66c4ef3ddf9">FXModControl&lt; blockSize &gt;::samplerate</a>, <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, <a class="el" href="FXModControl_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
 
 </div>
 </div>
@@ -312,10 +326,43 @@ template&lt;int blockSize&gt; </div>
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">FXModControl&lt; blockSize &gt;::nextValueInBlock()</a>.</p>
+
 </div>
 </div>
-<a id="a8cec5f17d3c97f34f2dadcb4d6dadd9a" name="a8cec5f17d3c97f34f2dadcb4d6dadd9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cec5f17d3c97f34f2dadcb4d6dadd9a">&#9670;&#160;</a></span>post_process()</h2>
+<a id="a67550c07eda0b92efab150a3a35c6ff1" name="a67550c07eda0b92efab150a3a35c6ff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67550c07eda0b92efab150a3a35c6ff1">&#9670;&#160;</a></span>valueStereo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; float, 2 &gt; valueStereo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">FXModControl&lt; blockSize &gt;::nextStereoValueInBlock()</a>.</p>
+
+</div>
+</div>
+<a id="adcb961551844d16e661560eac8387a72" name="adcb961551844d16e661560eac8387a72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb961551844d16e661560eac8387a72">&#9670;&#160;</a></span>nextValueInBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +370,49 @@ template&lt;int blockSize&gt; </div>
 template&lt;int blockSize&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void post_process </td>
+          <td class="memname">float nextValueInBlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a706067905f223e03202bebf448e28307">FXModControl&lt; blockSize &gt;::value()</a>.</p>
+
+</div>
+</div>
+<a id="a0c42a3b99e60fa02f631e11eb50b700c" name="a0c42a3b99e60fa02f631e11eb50b700c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c42a3b99e60fa02f631e11eb50b700c">&#9670;&#160;</a></span>nextStereoValueInBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; float, 2 &gt; nextStereoValueInBlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a67550c07eda0b92efab150a3a35c6ff1">FXModControl&lt; blockSize &gt;::valueStereo()</a>.</p>
+
+</div>
+</div>
+<a id="a2e9c5136d19b1a95fc427e0852deab5c" name="a2e9c5136d19b1a95fc427e0852deab5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9c5136d19b1a95fc427e0852deab5c">&#9670;&#160;</a></span>process()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void process </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -332,6 +421,8 @@ template&lt;int blockSize&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a2e9c5136d19b1a95fc427e0852deab5c">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::process()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">FXModControl&lt; blockSize &gt;::nextStereoValueInBlock()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">FXModControl&lt; blockSize &gt;::nextValueInBlock()</a>.</p>
 
 </div>
 </div>
@@ -350,7 +441,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a41dada879cbb4ac5d9acb1d7011cc323">FXModControl&lt; blockSize &gt;::pre_process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">FXModControl&lt; blockSize &gt;::setSampleRate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0a9c01be4638ba06f33e247845d3e38f">FXModControl&lt; blockSize &gt;::processStartOfBlock()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">FXModControl&lt; blockSize &gt;::setSampleRate()</a>.</p>
 
 </div>
 </div>
@@ -386,7 +477,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a41dada879cbb4ac5d9acb1d7011cc323">FXModControl&lt; blockSize &gt;::pre_process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0a9c01be4638ba06f33e247845d3e38f">FXModControl&lt; blockSize &gt;::processStartOfBlock()</a>.</p>
 
 </div>
 </div>
@@ -396,7 +487,7 @@ template&lt;int blockSize&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 27 2025 14:55:06 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 30 2025 18:36:42 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
