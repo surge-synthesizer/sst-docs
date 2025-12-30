@@ -36,7 +36,7 @@ var searchData=
   ['texteds_33',['textEds',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade2abf9fadd0bf1d725990b3d573d210',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['tg_34',['tg',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#ab962d4b36802fc96d0b77cb2377bc22b',1,'scxt::modulation::GroupMatrixEndpoints::TG'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a5f1623ccc8a2aaed67fe9c027afc6cf8',1,'scxt::voice::modulation::MatrixEndpoints::TG']]],
   ['that_35',['that',['../structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html#acacb8208282a266e5aebd5e6c9490dcb',1,'scxt::modulation::shared::HasModulators::DoubleRate']]],
-  ['themeapplier_36',['themeapplier',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#a95915722bd3fe5a3dffa93d49f2b4624',1,'scxt::ui::theme::ThemeApplier::ThemeApplier()'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562978ff8c4be1b9acce2df720c5de20',1,'scxt::ui::app::SCXTEditor::themeApplier'],['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html',1,'ThemeApplier']]],
+  ['themeapplier_36',['themeapplier',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562978ff8c4be1b9acce2df720c5de20',1,'scxt::ui::app::SCXTEditor::themeApplier'],['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#a95915722bd3fe5a3dffa93d49f2b4624',1,'scxt::ui::theme::ThemeApplier::ThemeApplier()'],['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html',1,'ThemeApplier']]],
   ['themeapplier_2ecpp_37',['ThemeApplier.cpp',['../ThemeApplier_8cpp.html',1,'']]],
   ['themeapplier_2eh_38',['ThemeApplier.h',['../ThemeApplier_8h.html',1,'']]],
   ['themecolor_39',['themeColor',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a4680da9cf2555473ad40f972dc1b4ba4',1,'scxt::ui::app::SCXTEditor']]],
