@@ -189,6 +189,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa137e81ab1e613949cc0ac3988f81762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8cea698a94ed2a2a9a7ac5d4b9974f0" id="r_ac8cea698a94ed2a2a9a7ac5d4b9974f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ac8cea698a94ed2a2a9a7ac5d4b9974f0">showPresetsMenu</a> ()</td></tr>
 <tr class="separator:ac8cea698a94ed2a2a9a7ac5d4b9974f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ad5805971d996ed630c997490bdbae" id="r_af8ad5805971d996ed630c997490bdbae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#af8ad5805971d996ed630c997490bdbae">savePreset</a> ()</td></tr>
+<tr class="separator:af8ad5805971d996ed630c997490bdbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59871f0b6ad9878427e723d8b18e2d5c" id="r_a59871f0b6ad9878427e723d8b18e2d5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a59871f0b6ad9878427e723d8b18e2d5c">loadPreset</a> ()</td></tr>
+<tr class="separator:a59871f0b6ad9878427e723d8b18e2d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e3d11b28ab80532e6147590edb9c70" id="r_ad8e3d11b28ab80532e6147590edb9c70"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad8e3d11b28ab80532e6147590edb9c70">isInterestedInDragSource</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
 <tr class="separator:ad8e3d11b28ab80532e6147590edb9c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94bc74bd81412cf9d6641ec73a97bdcd" id="r_a94bc74bd81412cf9d6641ec73a97bdcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a94bc74bd81412cf9d6641ec73a97bdcd">itemDropped</a> (const SourceDetails &amp;dragSourceDetails) override</td></tr>
@@ -931,6 +935,44 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
 
 </div>
 </div>
+<a id="af8ad5805971d996ed630c997490bdbae" name="af8ad5805971d996ed630c997490bdbae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8ad5805971d996ed630c997490bdbae">&#9670;&#160;</a></span>savePreset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void savePreset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ab409dd604779f7a7491d37cd224b244a">scxt::dsp::processor::getProcessorName()</a>.</p>
+
+</div>
+</div>
+<a id="a59871f0b6ad9878427e723d8b18e2d5c" name="a59871f0b6ad9878427e723d8b18e2d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59871f0b6ad9878427e723d8b18e2d5c">&#9670;&#160;</a></span>loadPreset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loadPreset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ab409dd604779f7a7491d37cd224b244a">scxt::dsp::processor::getProcessorName()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ac8eb79f6aca9d8e504f596b291f7ad62">scxt::dsp::processor::getProcessorStreamingVersion()</a>.</p>
+
+</div>
+</div>
 <a id="ad8e3d11b28ab80532e6147590edb9c70" name="ad8e3d11b28ab80532e6147590edb9c70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8e3d11b28ab80532e6147590edb9c70">&#9670;&#160;</a></span>isInterestedInDragSource()</h2>
 
@@ -1169,7 +1211,7 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ae4e488002f59fd15cca70969ef017268">EqDisplaySupport&lt; Proc, nSub &gt;::EqDisplaySupport()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afe8459a665fda378906a93a4491dc9da">ProcessorPane::setProcessorControlDescriptionAndStorage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetReceiverAdapter.html#ac715edf152b874594cb7f5f6cdb7e0ca">PresetReceiverAdapter::canReceiveForStreamingName()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ae4e488002f59fd15cca70969ef017268">EqDisplaySupport&lt; Proc, nSub &gt;::EqDisplaySupport()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a181548adacb8dadba888ec5ed0d3e006">PresetProviderAdapter::provideDeactivated()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#ac6a0fe871888abe5e37d302b4206373e">PresetProviderAdapter::provideFloatParam()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a68b5726ecd0102df381f10c27d4b8bbb">PresetProviderAdapter::provideFloatParamCount()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a5f02c2820afc5312a0d0ddaefe0ba6b3">PresetProviderAdapter::provideIntParam()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a1dcf0552bfddbad421457f9f961f4fcb">PresetProviderAdapter::provideIntParamCount()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a8d88281322825139804ef2ffdbf80d29">PresetProviderAdapter::provideKeytrack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a84ae15eae5552588d0d5fe1d675efbbe">PresetProviderAdapter::provideStreamingName()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#ab9391e82a7cf25e390838b23289c8298">PresetProviderAdapter::provideStreamingVersion()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetProviderAdapter.html#a5e7d5e55d3e5096f2c916ccca1c7cc42">PresetProviderAdapter::provideTemposync()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetReceiverAdapter.html#a5ab7250ac9f6d123f7edb2ed5f568faa">PresetReceiverAdapter::receiveDeactivated()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetReceiverAdapter.html#ab5713d9a925fa0e2c100dc71e76d3541">PresetReceiverAdapter::receiveFloatParam()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetReceiverAdapter.html#a5caf007db941d243d41ce5fcdacf5fd2">PresetReceiverAdapter::receiveIntParam()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetReceiverAdapter.html#a5e18df927223e3ae78ad484e7598882a">PresetReceiverAdapter::receiveKeytrack()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1PresetReceiverAdapter.html#a7129663f29422581e8cdfd84dbe1899b">PresetReceiverAdapter::receiveTemposync()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#afe8459a665fda378906a93a4491dc9da">ProcessorPane::setProcessorControlDescriptionAndStorage()</a>.</p>
 
 </div>
 </div>
@@ -1549,7 +1591,7 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 27 2025 15:02:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 30 2025 17:43:43 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

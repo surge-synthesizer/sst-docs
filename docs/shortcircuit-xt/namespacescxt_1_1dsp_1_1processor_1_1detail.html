@@ -95,7 +95,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">scxt::dsp::processor::detail Namespace Reference</div></div>
 </div><!--header-->
@@ -104,40 +103,30 @@ $(function() {
 <p>This code blob uses constexpr expansion to allow us to convert a runtime integer to a template argument without a big case statement.  
 <a href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:abc6a95d423f57354bb53d3b2143a107a" id="r_abc6a95d423f57354bb53d3b2143a107a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#abc6a95d423f57354bb53d3b2143a107a">boolOp_t</a> = bool(*)()</td></tr>
-<tr class="memdesc:abc6a95d423f57354bb53d3b2143a107a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booleans.  <br /></td></tr>
-<tr class="separator:abc6a95d423f57354bb53d3b2143a107a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140c0f02b7dcf505f39e084b30b3c951" id="r_a140c0f02b7dcf505f39e084b30b3c951"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a140c0f02b7dcf505f39e084b30b3c951">constCharOp_t</a> = const char *(*)()</td></tr>
-<tr class="separator:a140c0f02b7dcf505f39e084b30b3c951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00aab577f0596e0a02e14aa385d1412e" id="r_a00aab577f0596e0a02e14aa385d1412e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a00aab577f0596e0a02e14aa385d1412e">floatOp_t</a> = float(*)()</td></tr>
-<tr class="separator:a00aab577f0596e0a02e14aa385d1412e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f125e6f1a214d0d52bc67059f42444b" id="r_a0f125e6f1a214d0d52bc67059f42444b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a0f125e6f1a214d0d52bc67059f42444b">int16Op_t</a> = int16_t(*)()</td></tr>
-<tr class="separator:a0f125e6f1a214d0d52bc67059f42444b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b30667bc03e9f0729e4f6c341f7866c" id="r_a5b30667bc03e9f0729e4f6c341f7866c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a5b30667bc03e9f0729e4f6c341f7866c">reampFnOp_t</a> = <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a>(*)()</td></tr>
-<tr class="separator:a5b30667bc03e9f0729e4f6c341f7866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a45e58d73cdb674f5fb2d1ce6c99b7ce4" id="r_a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memTemplParams" colspan="2">template&lt;typename ReturnType , ReturnType(*...Funcs)() &gt; </td></tr>
+<tr class="memitem:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a45e58d73cdb674f5fb2d1ce6c99b7ce4">genericWrapper</a> (size_t ft)</td></tr>
+<tr class="memdesc:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic wrapper to eliminate duplication between impl* and wrapper functions.  <br /></td></tr>
+<tr class="separator:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accc73e5b2d9f66455d9baec0a9405461" id="r_accc73e5b2d9f66455d9baec0a9405461"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:accc73e5b2d9f66455d9baec0a9405461"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#accc73e5b2d9f66455d9baec0a9405461">implIsProcessorImplemented</a> ()</td></tr>
 <tr class="separator:accc73e5b2d9f66455d9baec0a9405461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59a2783527aa27ed4048373abd278ee9" id="r_a59a2783527aa27ed4048373abd278ee9"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:a59a2783527aa27ed4048373abd278ee9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a59a2783527aa27ed4048373abd278ee9">isProcessorImplemented</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a59a2783527aa27ed4048373abd278ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5691e45eabe95b4a84c8117e7814c18f" id="r_a5691e45eabe95b4a84c8117e7814c18f"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:a5691e45eabe95b4a84c8117e7814c18f"><td class="memTemplItemLeft" align="right" valign="top">const char *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a5691e45eabe95b4a84c8117e7814c18f">implGetProcessorName</a> ()</td></tr>
 <tr class="separator:a5691e45eabe95b4a84c8117e7814c18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e3354644b84721306c418a82543381e" id="r_a9e3354644b84721306c418a82543381e"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:a9e3354644b84721306c418a82543381e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a9e3354644b84721306c418a82543381e">getProcessorName</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a9e3354644b84721306c418a82543381e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a700f59df6c8a99a87b4ceff7c93566ed" id="r_a700f59df6c8a99a87b4ceff7c93566ed"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:a700f59df6c8a99a87b4ceff7c93566ed"><td class="memTemplItemLeft" align="right" valign="top">const char *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a700f59df6c8a99a87b4ceff7c93566ed">implGetProcessorStreamingName</a> ()</td></tr>
 <tr class="separator:a700f59df6c8a99a87b4ceff7c93566ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bcb8655673d879af40af7bba5cdcd02" id="r_a6bcb8655673d879af40af7bba5cdcd02"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:a6bcb8655673d879af40af7bba5cdcd02"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a6bcb8655673d879af40af7bba5cdcd02">getProcessorStreamingName</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a6bcb8655673d879af40af7bba5cdcd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee517b0dfcd4dbb069bc793da3c01040" id="r_aee517b0dfcd4dbb069bc793da3c01040"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:aee517b0dfcd4dbb069bc793da3c01040"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#aee517b0dfcd4dbb069bc793da3c01040">implGetProcessorSSTDisplayName</a> ()</td></tr>
+<tr class="separator:aee517b0dfcd4dbb069bc793da3c01040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287438b688650598d38d7f1383ff04d7" id="r_a287438b688650598d38d7f1383ff04d7"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a287438b688650598d38d7f1383ff04d7"><td class="memTemplItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a287438b688650598d38d7f1383ff04d7">implGetProcessorFloatParamCount</a> ()</td></tr>
+<tr class="separator:a287438b688650598d38d7f1383ff04d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2987b0bf107b60a2762c61abe332247" id="r_ae2987b0bf107b60a2762c61abe332247"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:ae2987b0bf107b60a2762c61abe332247"><td class="memTemplItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#ae2987b0bf107b60a2762c61abe332247">implGetProcessorIntParamCount</a> ()</td></tr>
+<tr class="separator:ae2987b0bf107b60a2762c61abe332247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5fa79433461e3e8224bacc2a70bd3f5" id="r_af5fa79433461e3e8224bacc2a70bd3f5"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:af5fa79433461e3e8224bacc2a70bd3f5"><td class="memTemplItemLeft" align="right" valign="top">const char *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#af5fa79433461e3e8224bacc2a70bd3f5">implGetProcessorDisplayGroup</a> ()</td></tr>
 <tr class="separator:af5fa79433461e3e8224bacc2a70bd3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,21 +142,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4373270be08a5f363dd269badfa881b2" id="r_a4373270be08a5f363dd269badfa881b2"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:a4373270be08a5f363dd269badfa881b2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a4373270be08a5f363dd269badfa881b2">implGetRemapFn</a> ()</td></tr>
 <tr class="separator:a4373270be08a5f363dd269badfa881b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe1206482c2eac57e483b1dd5c858849" id="r_afe1206482c2eac57e483b1dd5c858849"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:afe1206482c2eac57e483b1dd5c858849"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#afe1206482c2eac57e483b1dd5c858849">getProcessorDisplayGroup</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:afe1206482c2eac57e483b1dd5c858849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65d3f123209f4dabfd3d2370ebc3a897" id="r_a65d3f123209f4dabfd3d2370ebc3a897"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:a65d3f123209f4dabfd3d2370ebc3a897"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a65d3f123209f4dabfd3d2370ebc3a897">getProcessorDefaultMix</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a65d3f123209f4dabfd3d2370ebc3a897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2af2aec2402ce2c2d22e03d065d1bf53" id="r_a2af2aec2402ce2c2d22e03d065d1bf53"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:a2af2aec2402ce2c2d22e03d065d1bf53"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a2af2aec2402ce2c2d22e03d065d1bf53">getProcessorStreamingVersion</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a2af2aec2402ce2c2d22e03d065d1bf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab065026cf8e07c31a0d5e945db5c5fc7" id="r_ab065026cf8e07c31a0d5e945db5c5fc7"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:ab065026cf8e07c31a0d5e945db5c5fc7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#ab065026cf8e07c31a0d5e945db5c5fc7">getProcessorRemapFn</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:ab065026cf8e07c31a0d5e945db5c5fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a491eecd9e9a6591d45e5dd2a2a78b376" id="r_a491eecd9e9a6591d45e5dd2a2a78b376"><td class="memTemplParams" colspan="2">template&lt;size_t... Is&gt; </td></tr>
-<tr class="memitem:a491eecd9e9a6591d45e5dd2a2a78b376"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a491eecd9e9a6591d45e5dd2a2a78b376">getForGroupOnly</a> (size_t ft, std::index_sequence&lt; Is... &gt;)</td></tr>
-<tr class="separator:a491eecd9e9a6591d45e5dd2a2a78b376"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d779f506c144db337b12ee32424d19" id="r_a60d779f506c144db337b12ee32424d19"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:a60d779f506c144db337b12ee32424d19"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a60d779f506c144db337b12ee32424d19">returnSpawnOnto</a> (uint8_t *m, <a class="el" href="structscxt_1_1engine_1_1MemoryPool.html">engine::MemoryPool</a> *mp, const <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">ProcessorStorage</a> &amp;ps, float *f, int *i, bool needsMetadata)</td></tr>
 <tr class="separator:a60d779f506c144db337b12ee32424d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,80 +157,30 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This code blob uses constexpr expansion to allow us to convert a runtime integer to a template argument without a big case statement. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="abc6a95d423f57354bb53d3b2143a107a" name="abc6a95d423f57354bb53d3b2143a107a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc6a95d423f57354bb53d3b2143a107a">&#9670;&#160;</a></span>boolOp_t</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a45e58d73cdb674f5fb2d1ce6c99b7ce4" name="a45e58d73cdb674f5fb2d1ce6c99b7ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e58d73cdb674f5fb2d1ce6c99b7ce4">&#9670;&#160;</a></span>genericWrapper()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ReturnType , ReturnType(*...Funcs)() &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#abc6a95d423f57354bb53d3b2143a107a">boolOp_t</a> =  bool (*)()</td>
+          <td class="memname">auto genericWrapper </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ft</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Booleans. </p>
+<p>Generic wrapper to eliminate duplication between impl* and wrapper functions. </p>
+<p>Takes a return type and variadic function pointers, then indexes into them. Each wrapper function explicitly passes its impl function instantiations. </p>
 
 </div>
 </div>
-<a id="a140c0f02b7dcf505f39e084b30b3c951" name="a140c0f02b7dcf505f39e084b30b3c951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a140c0f02b7dcf505f39e084b30b3c951">&#9670;&#160;</a></span>constCharOp_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a140c0f02b7dcf505f39e084b30b3c951">constCharOp_t</a> =  const char *(*)()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00aab577f0596e0a02e14aa385d1412e" name="a00aab577f0596e0a02e14aa385d1412e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00aab577f0596e0a02e14aa385d1412e">&#9670;&#160;</a></span>floatOp_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a00aab577f0596e0a02e14aa385d1412e">floatOp_t</a> =  float (*)()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f125e6f1a214d0d52bc67059f42444b" name="a0f125e6f1a214d0d52bc67059f42444b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f125e6f1a214d0d52bc67059f42444b">&#9670;&#160;</a></span>int16Op_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a0f125e6f1a214d0d52bc67059f42444b">int16Op_t</a> =  int16_t (*)()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5b30667bc03e9f0729e4f6c341f7866c" name="a5b30667bc03e9f0729e4f6c341f7866c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b30667bc03e9f0729e4f6c341f7866c">&#9670;&#160;</a></span>reampFnOp_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacescxt_1_1dsp_1_1processor_1_1detail.html#a5b30667bc03e9f0729e4f6c341f7866c">reampFnOp_t</a> =  <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a739ef4879fc46f69e14c59f5775fc9ad">remapFn_t</a> (*)()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
 <a id="accc73e5b2d9f66455d9baec0a9405461" name="accc73e5b2d9f66455d9baec0a9405461"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accc73e5b2d9f66455d9baec0a9405461">&#9670;&#160;</a></span>implIsProcessorImplemented()</h2>
 
@@ -275,38 +199,6 @@ template&lt;size_t I&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fab6080b828311d406f61ea40920cfecf7">scxt::dsp::processor::proct_none</a>.</p>
-
-</div>
-</div>
-<a id="a59a2783527aa27ed4048373abd278ee9" name="a59a2783527aa27ed4048373abd278ee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a2783527aa27ed4048373abd278ee9">&#9670;&#160;</a></span>isProcessorImplemented()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto isProcessorImplemented </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a9a31ff79c04fffeab14b3db622f53d09">scxt::dsp::processor::isProcessorImplemented()</a>.</p>
 
 </div>
 </div>
@@ -331,38 +223,6 @@ template&lt;size_t I&gt; </div>
 
 </div>
 </div>
-<a id="a9e3354644b84721306c418a82543381e" name="a9e3354644b84721306c418a82543381e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e3354644b84721306c418a82543381e">&#9670;&#160;</a></span>getProcessorName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto getProcessorName </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ab409dd604779f7a7491d37cd224b244a">scxt::dsp::processor::getProcessorName()</a>.</p>
-
-</div>
-</div>
 <a id="a700f59df6c8a99a87b4ceff7c93566ed" name="a700f59df6c8a99a87b4ceff7c93566ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a700f59df6c8a99a87b4ceff7c93566ed">&#9670;&#160;</a></span>implGetProcessorStreamingName()</h2>
 
@@ -384,35 +244,66 @@ template&lt;size_t I&gt; </div>
 
 </div>
 </div>
-<a id="a6bcb8655673d879af40af7bba5cdcd02" name="a6bcb8655673d879af40af7bba5cdcd02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bcb8655673d879af40af7bba5cdcd02">&#9670;&#160;</a></span>getProcessorStreamingName()</h2>
+<a id="aee517b0dfcd4dbb069bc793da3c01040" name="aee517b0dfcd4dbb069bc793da3c01040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee517b0dfcd4dbb069bc793da3c01040">&#9670;&#160;</a></span>implGetProcessorSSTDisplayName()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
+template&lt;size_t I&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto getProcessorStreamingName </td>
+          <td class="memname">std::string implGetProcessorSSTDisplayName </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#afaeebbfec93b018862e723ba9dfbfd82">scxt::dsp::processor::getProcessorStreamingName()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fab6080b828311d406f61ea40920cfecf7">scxt::dsp::processor::proct_none</a>.</p>
+
+</div>
+</div>
+<a id="a287438b688650598d38d7f1383ff04d7" name="a287438b688650598d38d7f1383ff04d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287438b688650598d38d7f1383ff04d7">&#9670;&#160;</a></span>implGetProcessorFloatParamCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t implGetProcessorFloatParamCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fab6080b828311d406f61ea40920cfecf7">scxt::dsp::processor::proct_none</a>.</p>
+
+</div>
+</div>
+<a id="ae2987b0bf107b60a2762c61abe332247" name="ae2987b0bf107b60a2762c61abe332247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2987b0bf107b60a2762c61abe332247">&#9670;&#160;</a></span>implGetProcessorIntParamCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t implGetProcessorIntParamCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fab6080b828311d406f61ea40920cfecf7">scxt::dsp::processor::proct_none</a>.</p>
 
 </div>
 </div>
@@ -510,166 +401,6 @@ template&lt;size_t I&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="afe1206482c2eac57e483b1dd5c858849" name="afe1206482c2eac57e483b1dd5c858849"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe1206482c2eac57e483b1dd5c858849">&#9670;&#160;</a></span>getProcessorDisplayGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto getProcessorDisplayGroup </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a3a4c4209ff4f72035bd5a598f2517059">scxt::dsp::processor::getProcessorDisplayGroup()</a>.</p>
-
-</div>
-</div>
-<a id="a65d3f123209f4dabfd3d2370ebc3a897" name="a65d3f123209f4dabfd3d2370ebc3a897"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65d3f123209f4dabfd3d2370ebc3a897">&#9670;&#160;</a></span>getProcessorDefaultMix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto getProcessorDefaultMix </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#adfce4d0348ff46c61a24ca93001e2f40">scxt::dsp::processor::getProcessorDefaultMix()</a>.</p>
-
-</div>
-</div>
-<a id="a2af2aec2402ce2c2d22e03d065d1bf53" name="a2af2aec2402ce2c2d22e03d065d1bf53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2af2aec2402ce2c2d22e03d065d1bf53">&#9670;&#160;</a></span>getProcessorStreamingVersion()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto getProcessorStreamingVersion </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ac8eb79f6aca9d8e504f596b291f7ad62">scxt::dsp::processor::getProcessorStreamingVersion()</a>.</p>
-
-</div>
-</div>
-<a id="ab065026cf8e07c31a0d5e945db5c5fc7" name="ab065026cf8e07c31a0d5e945db5c5fc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab065026cf8e07c31a0d5e945db5c5fc7">&#9670;&#160;</a></span>getProcessorRemapFn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto getProcessorRemapFn </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a20fffb78bff0051c40ca05e9890baf37">scxt::dsp::processor::getProcessorRemapParametersFromStreamingVersion()</a>.</p>
-
-</div>
-</div>
-<a id="a491eecd9e9a6591d45e5dd2a2a78b376" name="a491eecd9e9a6591d45e5dd2a2a78b376"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a491eecd9e9a6591d45e5dd2a2a78b376">&#9670;&#160;</a></span>getForGroupOnly()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t... Is&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto getForGroupOnly </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ft</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::index_sequence&lt; Is... &gt;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a581d0a727f7ae3db8ffd05daf2dd81be">scxt::dsp::processor::getProcessorGroupOnly()</a>.</p>
 
 </div>
 </div>
@@ -920,7 +651,7 @@ template&lt;size_t... Is&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 27 2025 15:02:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Dec 30 2025 17:43:43 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
