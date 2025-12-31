@@ -99,6 +99,7 @@ $(function() {
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#concepts">Concepts</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">bus_effect.cpp File Reference</div></div>
 </div><!--header-->
@@ -106,6 +107,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1BusFxImplementor.html">BusFxImplementor&lt; ft &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1EngineBiquadAdapter.html">EngineBiquadAdapter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html">Config</a></td></tr>
@@ -131,43 +134,110 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aa8fce856c9a04566167af3036654b02b" id="r_aa8fce856c9a04566167af3036654b02b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bus__effect_8cpp.html#aa8fce856c9a04566167af3036654b02b">RETVAL</a>(x)</td></tr>
-<tr class="separator:aa8fce856c9a04566167af3036654b02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec867faa0a7eb9f9f101ec585a03c68" id="r_a2ec867faa0a7eb9f9f101ec585a03c68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bus__effect_8cpp.html#a2ec867faa0a7eb9f9f101ec585a03c68">DEFINE_BUSFX</a>(ABS,  BASE)</td></tr>
+<tr class="separator:a2ec867faa0a7eb9f9f101ec585a03c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aea1286312ef7e1a3651c870596fa996e" id="r_aea1286312ef7e1a3651c870596fa996e"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#aea1286312ef7e1a3651c870596fa996e">unimpl_t</a></td></tr>
+<tr class="separator:aea1286312ef7e1a3651c870596fa996e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f96efdcc389d64511493849151bd4f" id="r_ad3f96efdcc389d64511493849151bd4f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f">createEffectFn_t</a> = std::function&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a> &gt;(<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a> *)&gt;</td></tr>
+<tr class="separator:ad3f96efdcc389d64511493849151bd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:afc81c20b54154675d00cf7a6e0963eb8" id="r_afc81c20b54154675d00cf7a6e0963eb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#afc81c20b54154675d00cf7a6e0963eb8">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412">reverb1</a>, sst::effects::reverb1::Reverb1)</td></tr>
+<tr class="separator:afc81c20b54154675d00cf7a6e0963eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7f59e53c77aa2543a93193e16b3f69" id="r_a5b7f59e53c77aa2543a93193e16b3f69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a5b7f59e53c77aa2543a93193e16b3f69">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a">reverb2</a>, sst::effects::reverb2::Reverb2)</td></tr>
+<tr class="separator:a5b7f59e53c77aa2543a93193e16b3f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e15d123aec81d3ed7df7f3f917d25c" id="r_ae4e15d123aec81d3ed7df7f3f917d25c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae4e15d123aec81d3ed7df7f3f917d25c">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a3e94509259f9c55527b74041502c0d86">flanger</a>, sst::effects::flanger::Flanger)</td></tr>
+<tr class="separator:ae4e15d123aec81d3ed7df7f3f917d25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e10fb3f22d4c7d13498bd883081a3d" id="r_a30e10fb3f22d4c7d13498bd883081a3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a30e10fb3f22d4c7d13498bd883081a3d">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a7b3d1bfc7c25c64d8b1a371b61358dbf">phaser</a>, sst::effects::phaser::Phaser)</td></tr>
+<tr class="separator:a30e10fb3f22d4c7d13498bd883081a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a483cdb0266d168a90d835cd5323f2b5a" id="r_a483cdb0266d168a90d835cd5323f2b5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a483cdb0266d168a90d835cd5323f2b5a">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9">treemonster</a>, sst::effects::treemonster::TreeMonster)</td></tr>
+<tr class="separator:a483cdb0266d168a90d835cd5323f2b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d4153e73896e45d859e2b096f9302d" id="r_a50d4153e73896e45d859e2b096f9302d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a50d4153e73896e45d859e2b096f9302d">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852">delay</a>, sst::effects::delay::Delay)</td></tr>
+<tr class="separator:a50d4153e73896e45d859e2b096f9302d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246eba623b4c63ea8963e2cf44232075" id="r_a246eba623b4c63ea8963e2cf44232075"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a246eba623b4c63ea8963e2cf44232075">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54aacfa9ea2ed018f85a3ac9db8f926cddd">floatydelay</a>, sst::effects::floatydelay::FloatyDelay)</td></tr>
+<tr class="separator:a246eba623b4c63ea8963e2cf44232075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84297e436c0affa128c516b23940effc" id="r_a84297e436c0affa128c516b23940effc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a84297e436c0affa128c516b23940effc">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ad90d0bb18e84fbd4a15a0c404bf60bac">nimbus</a>, sst::effects::nimbus::Nimbus)</td></tr>
+<tr class="separator:a84297e436c0affa128c516b23940effc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cedf2680c04afedaa116b3a4a09fa08" id="r_a4cedf2680c04afedaa116b3a4a09fa08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a4cedf2680c04afedaa116b3a4a09fa08">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10">rotaryspeaker</a>, sst::effects::rotaryspeaker::RotarySpeaker)</td></tr>
+<tr class="separator:a4cedf2680c04afedaa116b3a4a09fa08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c84c154c89d136f7da3804b6f98531" id="r_ab7c84c154c89d136f7da3804b6f98531"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ab7c84c154c89d136f7da3804b6f98531">DEFINE_BUSFX</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3">bonsai</a>, sst::effects::bonsai::Bonsai)</td></tr>
+<tr class="separator:ab7c84c154c89d136f7da3804b6f98531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45e58d73cdb674f5fb2d1ce6c99b7ce4" id="r_a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memTemplParams" colspan="2">template&lt;typename ReturnType , ReturnType(*...Funcs)() &gt; </td></tr>
+<tr class="memitem:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a45e58d73cdb674f5fb2d1ce6c99b7ce4">genericWrapper</a> (size_t ft)</td></tr>
+<tr class="separator:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5b27c2f7c22f03e7079e67c9ba7fa1" id="r_a3b5b27c2f7c22f03e7079e67c9ba7fa1"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a3b5b27c2f7c22f03e7079e67c9ba7fa1"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a3b5b27c2f7c22f03e7079e67c9ba7fa1">implGetBusFxStreamingName</a> ()</td></tr>
+<tr class="separator:a3b5b27c2f7c22f03e7079e67c9ba7fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a7f40be365ecde88e5e0f6499963cc" id="r_aa1a7f40be365ecde88e5e0f6499963cc"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:aa1a7f40be365ecde88e5e0f6499963cc"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#aa1a7f40be365ecde88e5e0f6499963cc">implGetBusFxDisplayName</a> ()</td></tr>
+<tr class="separator:aa1a7f40be365ecde88e5e0f6499963cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caa98f2d103542f24a9e2380ce1dc40" id="r_a1caa98f2d103542f24a9e2380ce1dc40"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a1caa98f2d103542f24a9e2380ce1dc40"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f">createEffectFn_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a1caa98f2d103542f24a9e2380ce1dc40">implCreateEffect</a> ()</td></tr>
+<tr class="separator:a1caa98f2d103542f24a9e2380ce1dc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0400c635e741410c7b668028f2c0d860" id="r_a0400c635e741410c7b668028f2c0d860"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a0400c635e741410c7b668028f2c0d860"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a0400c635e741410c7b668028f2c0d860">implGetRemap</a> ()</td></tr>
+<tr class="separator:a0400c635e741410c7b668028f2c0d860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab455f0f9814a10a34cb798563a86c873" id="r_ab455f0f9814a10a34cb798563a86c873"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ab455f0f9814a10a34cb798563a86c873">getBusEffectStreamingName</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p)</td></tr>
+<tr class="separator:ab455f0f9814a10a34cb798563a86c873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e576199b4bf4fb03b58b104c85eabc" id="r_ad0e576199b4bf4fb03b58b104c85eabc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ad0e576199b4bf4fb03b58b104c85eabc">getBusEffectDisplayName</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p)</td></tr>
+<tr class="separator:ad0e576199b4bf4fb03b58b104c85eabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae02bc1a79069839d30c329fedf98a667" id="r_ae02bc1a79069839d30c329fedf98a667"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">createEffect</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *e, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a> *s)</td></tr>
 <tr class="separator:ae02bc1a79069839d30c329fedf98a667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b669c3d0956eb3de15f01ef35434263" id="r_a8b669c3d0956eb3de15f01ef35434263"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8b669c3d0956eb3de15f01ef35434263">getBusEffectRemapStreamingFunction</a> (<a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> p)</td></tr>
 <tr class="separator:a8b669c3d0956eb3de15f01ef35434263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa8fce856c9a04566167af3036654b02b" name="aa8fce856c9a04566167af3036654b02b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8fce856c9a04566167af3036654b02b">&#9670;&#160;</a></span>RETVAL</h2>
+<a id="a2ec867faa0a7eb9f9f101ec585a03c68" name="a2ec867faa0a7eb9f9f101ec585a03c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ec867faa0a7eb9f9f101ec585a03c68">&#9670;&#160;</a></span>DEFINE_BUSFX</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RETVAL</td>
+          <td class="memname">#define DEFINE_BUSFX</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
+          <td class="paramname">ABS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">BASE&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
-<div class="line">        sfx::x&lt;dtl::Config&gt;::streamingVersion,                                                     \</div>
-<div class="line">            &amp;sfx::x&lt;dtl::Config&gt;::remapParametersForStreamingVersion                               \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">namespace </span>dtl                                                                                  \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">    <span class="keyword">struct </span>impl_##ABS : dtl::Impl&lt;BASE&lt;dtl::Config&gt;&gt;                                               \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">        impl_##ABS(Engine *e, BusEffectStorage *f, <span class="keywordtype">float</span> *v)                                       \</div>
+<div class="line">            : dtl::Impl&lt;BASE&lt;dtl::Config&gt;&gt;(e, f, v)                                                \</div>
+<div class="line">        {                                                                                          \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    };                                                                                             \</div>
+<div class="line">    <span class="keyword">template</span> &lt;&gt; <span class="keyword">struct </span>BusFxImplementor&lt;<a class="code hl_enumeration" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>::ABS&gt;                                  \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keyword">typedef</span> impl_##ABS T;                                                                      \</div>
+<div class="line">    };                                                                                             \</div>
 <div class="line">    }</div>
+<div class="ttc" id="anamespacescxt_1_1engine_html_acefc6050a5b9c5c80a81b073b07bee54"><div class="ttname"><a href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">scxt::engine::AvailableBusEffects</a></div><div class="ttdeci">AvailableBusEffects</div><div class="ttdef"><b>Definition</b> bus_effect.h:62</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2025 03:08:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Dec 31 2025 17:41:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

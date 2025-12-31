@@ -12,7 +12,8 @@ var searchData=
   ['bus_9',['Bus',['../structscxt_1_1engine_1_1Bus.html',1,'scxt::engine']]],
   ['buseffect_10',['BusEffect',['../structscxt_1_1engine_1_1BusEffect.html',1,'scxt::engine']]],
   ['buseffectstorage_11',['BusEffectStorage',['../structscxt_1_1engine_1_1BusEffectStorage.html',1,'scxt::engine']]],
-  ['buspane_12',['BusPane',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html',1,'scxt::ui::app::mixer_screen']]],
-  ['bussendstorage_13',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html',1,'scxt::engine::Bus']]],
-  ['busses_14',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html',1,'scxt::engine::Patch']]]
+  ['busfximplementor_12',['BusFxImplementor',['../structscxt_1_1engine_1_1dtl_1_1BusFxImplementor.html',1,'scxt::engine::dtl']]],
+  ['buspane_13',['BusPane',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html',1,'scxt::ui::app::mixer_screen']]],
+  ['bussendstorage_14',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html',1,'scxt::engine::Bus']]],
+  ['busses_15',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html',1,'scxt::engine::Patch']]]
 ];

@@ -96,13 +96,17 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#concepts">Concepts</a>  </div>
+<a href="#concepts">Concepts</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">scxt::engine::dtl Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1BusFxImplementor.html">BusFxImplementor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html">Config</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1EngineBiquadAdapter.html">EngineBiquadAdapter</a></td></tr>
@@ -116,11 +120,170 @@ Concepts</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptscxt_1_1engine_1_1dtl_1_1HasSilentSamplesLength.html">HasSilentSamplesLength</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aea1286312ef7e1a3651c870596fa996e" id="r_aea1286312ef7e1a3651c870596fa996e"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#aea1286312ef7e1a3651c870596fa996e">unimpl_t</a></td></tr>
+<tr class="separator:aea1286312ef7e1a3651c870596fa996e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f96efdcc389d64511493849151bd4f" id="r_ad3f96efdcc389d64511493849151bd4f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f">createEffectFn_t</a> = std::function&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a> &gt;(<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a> *)&gt;</td></tr>
+<tr class="separator:ad3f96efdcc389d64511493849151bd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a45e58d73cdb674f5fb2d1ce6c99b7ce4" id="r_a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memTemplParams" colspan="2">template&lt;typename ReturnType , ReturnType(*...Funcs)() &gt; </td></tr>
+<tr class="memitem:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a45e58d73cdb674f5fb2d1ce6c99b7ce4">genericWrapper</a> (size_t ft)</td></tr>
+<tr class="separator:a45e58d73cdb674f5fb2d1ce6c99b7ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5b27c2f7c22f03e7079e67c9ba7fa1" id="r_a3b5b27c2f7c22f03e7079e67c9ba7fa1"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a3b5b27c2f7c22f03e7079e67c9ba7fa1"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a3b5b27c2f7c22f03e7079e67c9ba7fa1">implGetBusFxStreamingName</a> ()</td></tr>
+<tr class="separator:a3b5b27c2f7c22f03e7079e67c9ba7fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a7f40be365ecde88e5e0f6499963cc" id="r_aa1a7f40be365ecde88e5e0f6499963cc"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:aa1a7f40be365ecde88e5e0f6499963cc"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#aa1a7f40be365ecde88e5e0f6499963cc">implGetBusFxDisplayName</a> ()</td></tr>
+<tr class="separator:aa1a7f40be365ecde88e5e0f6499963cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caa98f2d103542f24a9e2380ce1dc40" id="r_a1caa98f2d103542f24a9e2380ce1dc40"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a1caa98f2d103542f24a9e2380ce1dc40"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f">createEffectFn_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a1caa98f2d103542f24a9e2380ce1dc40">implCreateEffect</a> ()</td></tr>
+<tr class="separator:a1caa98f2d103542f24a9e2380ce1dc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0400c635e741410c7b668028f2c0d860" id="r_a0400c635e741410c7b668028f2c0d860"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a0400c635e741410c7b668028f2c0d860"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#a0400c635e741410c7b668028f2c0d860">implGetRemap</a> ()</td></tr>
+<tr class="separator:a0400c635e741410c7b668028f2c0d860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aea1286312ef7e1a3651c870596fa996e" name="aea1286312ef7e1a3651c870596fa996e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea1286312ef7e1a3651c870596fa996e">&#9670;&#160;</a></span>unimpl_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint8_t <a class="el" href="namespacescxt_1_1engine_1_1dtl.html#aea1286312ef7e1a3651c870596fa996e">unimpl_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3f96efdcc389d64511493849151bd4f" name="ad3f96efdcc389d64511493849151bd4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f96efdcc389d64511493849151bd4f">&#9670;&#160;</a></span>createEffectFn_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f">createEffectFn_t</a> =  std::function&lt;std::unique_ptr&lt;<a class="el" href="structscxt_1_1engine_1_1BusEffect.html">BusEffect</a>&gt;(<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html">BusEffectStorage</a> *)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a45e58d73cdb674f5fb2d1ce6c99b7ce4" name="a45e58d73cdb674f5fb2d1ce6c99b7ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e58d73cdb674f5fb2d1ce6c99b7ce4">&#9670;&#160;</a></span>genericWrapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ReturnType , ReturnType(*...Funcs)() &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto genericWrapper </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ft</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b5b27c2f7c22f03e7079e67c9ba7fa1" name="a3b5b27c2f7c22f03e7079e67c9ba7fa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5b27c2f7c22f03e7079e67c9ba7fa1">&#9670;&#160;</a></span>implGetBusFxStreamingName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string implGetBusFxStreamingName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">scxt::engine::none</a>.</p>
+
+</div>
+</div>
+<a id="aa1a7f40be365ecde88e5e0f6499963cc" name="aa1a7f40be365ecde88e5e0f6499963cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a7f40be365ecde88e5e0f6499963cc">&#9670;&#160;</a></span>implGetBusFxDisplayName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string implGetBusFxDisplayName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">scxt::engine::none</a>.</p>
+
+</div>
+</div>
+<a id="a1caa98f2d103542f24a9e2380ce1dc40" name="a1caa98f2d103542f24a9e2380ce1dc40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caa98f2d103542f24a9e2380ce1dc40">&#9670;&#160;</a></span>implCreateEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f">createEffectFn_t</a> implCreateEffect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">scxt::engine::none</a>.</p>
+
+</div>
+</div>
+<a id="a0400c635e741410c7b668028f2c0d860" name="a0400c635e741410c7b668028f2c0d860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0400c635e741410c7b668028f2c0d860">&#9670;&#160;</a></span>implGetRemap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; int16_t, <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> &gt; implGetRemap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">scxt::engine::none</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2025 03:08:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Dec 31 2025 17:41:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
