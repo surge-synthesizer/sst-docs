@@ -124,6 +124,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a85286762caafac5e2f58a5088150ca0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9365d96ae627de81b4c0651fcd54e4f0" id="r_a9365d96ae627de81b4c0651fcd54e4f0"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a9365d96ae627de81b4c0651fcd54e4f0">envelopeRateLinear</a> (<a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#ac69ec3f22f51908f0b6c788d023b0e50">GlobalStorage</a> *s, float f)</td></tr>
 <tr class="separator:a9365d96ae627de81b4c0651fcd54e4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f355296d8bac83294e712c166d5f413" id="r_a7f355296d8bac83294e712c166d5f413"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a7f355296d8bac83294e712c166d5f413">isTemposynced</a> (<a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a6ec6fe91d1eba306b998da02ff0a0553">EffectStorage</a> *e, int idx)</td></tr>
+<tr class="separator:a7f355296d8bac83294e712c166d5f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a716830025181703ba370f8b2ef3c75b4" id="r_a716830025181703ba370f8b2ef3c75b4"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a716830025181703ba370f8b2ef3c75b4">temposyncRatio</a> (<a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#ac69ec3f22f51908f0b6c788d023b0e50">GlobalStorage</a> *s, <a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a6ec6fe91d1eba306b998da02ff0a0553">EffectStorage</a> *e, int idx)</td></tr>
 <tr class="separator:a716830025181703ba370f8b2ef3c75b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa908032b4f61780cb2e365ea04860c5d" id="r_aa908032b4f61780cb2e365ea04860c5d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#aa908032b4f61780cb2e365ea04860c5d">isDeactivated</a> (<a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a6ec6fe91d1eba306b998da02ff0a0553">EffectStorage</a> *e, int idx)</td></tr>
@@ -341,6 +343,44 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a2e1d93c90d7312f682b8c925343fa0fd">Config::blockSize</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2f6b27613feaf21455a80e6f0dd9d3ed">SampleRateSupport::getSampleRateInv()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2">scxt::dsp::twoToTheXTable</a>.</p>
+
+</div>
+</div>
+<a id="a7f355296d8bac83294e712c166d5f413" name="a7f355296d8bac83294e712c166d5f413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f355296d8bac83294e712c166d5f413">&#9670;&#160;</a></span>isTemposynced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isTemposynced </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1dtl_1_1Config.html#a6ec6fe91d1eba306b998da02ff0a0553">EffectStorage</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#ae8db5dd795332c51303cdc2341138635">BusEffectStorage::isTemposync</a>.</p>
 
 </div>
 </div>
@@ -727,7 +767,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2025 17:41:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Jan 1 2026 15:20:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

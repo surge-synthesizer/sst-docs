@@ -38,7 +38,7 @@ var searchData=
   ['loadimagedrawable_35',['loadImageDrawable',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#ac62aea2b5da21530ae69bebd3da45931',1,'scxt::ui::connectors::resources']]],
   ['loadmulti_36',['loadMulti',['../namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9',1,'scxt::patch_io']]],
   ['loadpartinto_37',['loadPartInto',['../namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784',1,'scxt::patch_io']]],
-  ['loadpreset_38',['loadPreset',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a59871f0b6ad9878427e723d8b18e2d5c',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
+  ['loadpreset_38',['loadpreset',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a59871f0b6ad9878427e723d8b18e2d5c',1,'scxt::ui::app::edit_screen::ProcessorPane::loadPreset()'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a59871f0b6ad9878427e723d8b18e2d5c',1,'scxt::ui::app::shared::PartEffectsPane::loadPreset()']]],
   ['loadqueuefunction_39',['loadQueueFunction',['../structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50',1,'scxt::browser::WriterWorker']]],
   ['loadsamplebyfileaddress_40',['loadSampleByFileAddress',['../structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c',1,'scxt::sample::SampleManager']]],
   ['loadsamplebypath_41',['loadSampleByPath',['../structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51',1,'scxt::sample::SampleManager']]],
