@@ -8,5 +8,5 @@ var searchData=
   ['simd_5fmm_5',['SIMD_MM',['../setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9',1,'setup.h']]],
   ['simd_5fmm_5fshuffle_6',['SIMD_MM_SHUFFLE',['../setup_8h.html#ae195cc7165de14721cd8d1e313355d67',1,'setup.h']]],
   ['simde_5fenable_5fnative_5faliases_7',['SIMDE_ENABLE_NATIVE_ALIASES',['../setup_8h.html#a3d7b10d1c02ef12d64d7a6fa90e9a1e9',1,'setup.h']]],
-  ['sub_8',['SUB',['../FXModControl_8h.html#afd1fa61640f82472385908c74860f792',1,'FXModControl.h']]]
+  ['sub_8',['sub',['../SSESincDelayLine_8h.html#afd1fa61640f82472385908c74860f792',1,'SUB:&#160;SSESincDelayLine.h'],['../FXModControl_8h.html#afd1fa61640f82472385908c74860f792',1,'SUB:&#160;FXModControl.h']]]
 ];

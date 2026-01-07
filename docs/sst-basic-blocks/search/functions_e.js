@@ -23,6 +23,6 @@ var searchData=
   ['processcore_20',['processCore',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a880e867a07a9e43f4c77da73d64b1bfb',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
   ['processpartial_21',['processPartial',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a1720647a9e2c9c5d7eb16d3a8bc89839',1,'sst::basic_blocks::dsp::lipol']]],
   ['processscaledad_22',['processscaledad',['../structsst_1_1basic__blocks_1_1modulators_1_1ADAREnvelope.html#afe40e844b8a6554eaf59559bf8e37fd6',1,'sst::basic_blocks::modulators::ADAREnvelope::processScaledAD()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDSREnvelope.html#abea0d0b63e323e5f2af72616a1ee4a12',1,'sst::basic_blocks::modulators::DAHDSREnvelope::processScaledAD()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAREnvelope.html#ad6e3e8a1585f26250725fd49a4c3def9',1,'sst::basic_blocks::modulators::DAREnvelope::processScaledAD()']]],
-  ['processstartofblock_23',['processStartOfBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0a9c01be4638ba06f33e247845d3e38f',1,'sst::basic_blocks::modulators::FXModControl']]],
+  ['processstartofblock_23',['processStartOfBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0de7e39565a15adc305ed87044b56eb3',1,'sst::basic_blocks::modulators::FXModControl']]],
   ['push_24',['push',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#a7ead37016cc2eae88c61d5add7f38f1b',1,'sst::basic_blocks::dsp::LanczosResampler']]]
 ];

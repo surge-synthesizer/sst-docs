@@ -96,7 +96,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">SSESincDelayLine.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -104,6 +105,8 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html">SSESincDelayLine&lt; COMB_SIZE &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html">quadDelayLine&lt; COMB_SIZE &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SSESincInterpolater.html">SSESincInterpolater&lt; stride &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,11 +119,105 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacesst_1_1basic__blocks_1_1dsp" id="r_namespacesst_1_1basic__blocks_1_1dsp"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html">sst::basic_blocks::dsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad5439a21111fdc8227864eba3b98c661" id="r_ad5439a21111fdc8227864eba3b98c661"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SSESincDelayLine_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>(a,  b)&#160;&#160;&#160;<a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(add_ps)(a, b)</td></tr>
+<tr class="separator:ad5439a21111fdc8227864eba3b98c661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1fa61640f82472385908c74860f792" id="r_afd1fa61640f82472385908c74860f792"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SSESincDelayLine_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>(a,  b)&#160;&#160;&#160;<a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(sub_epi32)(a, b)</td></tr>
+<tr class="separator:afd1fa61640f82472385908c74860f792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460cb170cf4b55887298cdaaca1ee72c" id="r_a460cb170cf4b55887298cdaaca1ee72c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SSESincDelayLine_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>(a,  b)&#160;&#160;&#160;<a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(mul_ps)(a, b)</td></tr>
+<tr class="separator:a460cb170cf4b55887298cdaaca1ee72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad5439a21111fdc8227864eba3b98c661" name="ad5439a21111fdc8227864eba3b98c661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5439a21111fdc8227864eba3b98c661">&#9670;&#160;</a></span>ADD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(add_ps)(a, b)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd1fa61640f82472385908c74860f792" name="afd1fa61640f82472385908c74860f792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd1fa61640f82472385908c74860f792">&#9670;&#160;</a></span>SUB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SUB</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(sub_epi32)(a, b)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a460cb170cf4b55887298cdaaca1ee72c" name="a460cb170cf4b55887298cdaaca1ee72c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460cb170cf4b55887298cdaaca1ee72c">&#9670;&#160;</a></span>MUL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MUL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(mul_ps)(a, b)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 30 2025 18:36:42 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jan 7 2026 18:23:18 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

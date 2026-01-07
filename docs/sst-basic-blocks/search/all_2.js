@@ -16,7 +16,7 @@ var searchData=
   ['checkmodmatrixconstraints_3c_20modmatrixtraits_20_3e_13',['CheckModMatrixConstraints&lt; ModMatrixTraits &gt;',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1details_1_1CheckModMatrixConstraints.html',1,'sst::basic_blocks::mod_matrix::details']]],
   ['clamptopirange_14',['clampToPiRange',['../namespacesst_1_1basic__blocks_1_1dsp.html#ac709b283f3bb2a786d853870e075d5d9',1,'sst::basic_blocks::dsp']]],
   ['clamptopirangesse_15',['clampToPiRangeSSE',['../namespacesst_1_1basic__blocks_1_1dsp.html#a6b643d7672ed0431fd549f761bd635b3',1,'sst::basic_blocks::dsp']]],
-  ['clear_16',['clear',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#ac8bb3912a3ce86b15842e79d0b421204',1,'sst::basic_blocks::dsp::SSESincDelayLine']]],
+  ['clear_16',['clear',['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#ac8bb3912a3ce86b15842e79d0b421204',1,'sst::basic_blocks::dsp::quadDelayLine::clear()'],['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#ac8bb3912a3ce86b15842e79d0b421204',1,'sst::basic_blocks::dsp::SSESincDelayLine::clear()']]],
   ['clear_5fblock_17',['clear_block',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a3f67fa7e95abef0f19cf72302ebd7b14',1,'sst::basic_blocks::mechanics']]],
   ['clippers_2eh_18',['Clippers.h',['../Clippers_8h.html',1,'']]],
   ['coefa1_19',['CoefA1',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a9983fb44cf842413ff11b8e0b4557bfb',1,'sst::basic_blocks::dsp::CharacterFilter']]],
