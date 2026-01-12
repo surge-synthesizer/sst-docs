@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n_5fhcoeffs_0',['n_hcoeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5a7f0eb0d35eb62f0711e0ef17d5d0f640',1,'sst::filters::VintageLadder::Huov']]],
+  ['n_5fhcoeffs_0',['n_hcoeffs',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov.html#a32d218ceceed8ea9f08dfa870f3cc3e5a7f0eb0d35eb62f0711e0ef17d5d0f640',1,'sst::filters::VintageLadder::Huov::n_hcoeffs'],['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov2010.html#a683c89e90662ba53f43be1061d4e39aaa7f0eb0d35eb62f0711e0ef17d5d0f640',1,'sst::filters::VintageLadder::Huov2010::n_hcoeffs']]],
   ['n_5fnlf_5fcoeff_1',['n_nlf_coeff',['../namespacesst_1_1filters_1_1CutoffWarp.html#a2080870d1969438935f866b7ad3967d6a793f09c1bf074b09fca6e0b1a3362047',1,'sst::filters::CutoffWarp']]],
   ['n_5fnls_5fcoeff_2',['n_nls_coeff',['../namespacesst_1_1filters_1_1ResonanceWarp.html#a2666c3a644a77a4c4e09436f3e640c2fad2d95f13b4e27dc51559d6f22f0bda78',1,'sst::filters::ResonanceWarp']]],
   ['n_5fobxd12_5fcoeff_3',['n_obxd12_coeff',['../namespacesst_1_1filters_1_1OBXDFilter.html#a6afb72829aefe0074a44fccdda7195e9a0ad85f47856cb30522565a2edd96c4e4',1,'sst::filters::OBXDFilter']]],
