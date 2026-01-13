@@ -96,6 +96,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">sst::basic_blocks::mechanics Namespace Reference</div></div>
@@ -106,6 +107,14 @@ $(function() {
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacesst_1_1basic__blocks_1_1mechanics_1_1detail" id="r_namespacesst_1_1basic__blocks_1_1mechanics_1_1detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics_1_1detail.html">detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a750049fe32363b0be8bb2e882466af12" id="r_a750049fe32363b0be8bb2e882466af12"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12">ShuffleTimes</a> { <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12af1110c378b0b40a4b5bd04fdd92220c4">ONCE</a> = 1
+, <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12aa0ea0fd749261252884a9aa3ec4d1a4e">TWICE</a> = 2
+, <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12a72855f9e65e2c9e93163a92fe8e9635c">THRICE</a> = 3
+ }</td></tr>
+<tr class="separator:a750049fe32363b0be8bb2e882466af12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -196,7 +205,7 @@ Functions</h2></td></tr>
 <tr class="separator:ace84e008b9ec0019272733fe00ccfde6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92e56ac18df0c934b3c008dac304b61b" id="r_a92e56ac18df0c934b3c008dac304b61b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a92e56ac18df0c934b3c008dac304b61b">hsum_ps</a> (<a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
 <tr class="separator:a92e56ac18df0c934b3c008dac304b61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc2d7486e4ec950c731edb5af5940a5e" id="r_abc2d7486e4ec950c731edb5af5940a5e"><td class="memTemplParams" colspan="2">template&lt;int S&gt; </td></tr>
+<tr class="memitem:abc2d7486e4ec950c731edb5af5940a5e" id="r_abc2d7486e4ec950c731edb5af5940a5e"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12">ShuffleTimes</a> S&gt; </td></tr>
 <tr class="memitem:abc2d7486e4ec950c731edb5af5940a5e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#abc2d7486e4ec950c731edb5af5940a5e">shuffle_all_ps</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
 <tr class="separator:abc2d7486e4ec950c731edb5af5940a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -207,6 +216,26 @@ Variables</h2></td></tr>
 <tr class="memitem:a1cb529864fb7583dec34aebdf6f90475" id="r_a1cb529864fb7583dec34aebdf6f90475"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a1cb529864fb7583dec34aebdf6f90475">m128_mask_absval</a> = <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>(set1_ps)(<a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics_1_1detail.html#a35e8084ac00d1fa695304b093460c73c">detail::i2f_binary_cast</a>(0x7fffffff))</td></tr>
 <tr class="separator:a1cb529864fb7583dec34aebdf6f90475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a750049fe32363b0be8bb2e882466af12" name="a750049fe32363b0be8bb2e882466af12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a750049fe32363b0be8bb2e882466af12">&#9670;&#160;</a></span>ShuffleTimes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12">ShuffleTimes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a750049fe32363b0be8bb2e882466af12af1110c378b0b40a4b5bd04fdd92220c4" name="a750049fe32363b0be8bb2e882466af12af1110c378b0b40a4b5bd04fdd92220c4"></a>ONCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a750049fe32363b0be8bb2e882466af12aa0ea0fd749261252884a9aa3ec4d1a4e" name="a750049fe32363b0be8bb2e882466af12aa0ea0fd749261252884a9aa3ec4d1a4e"></a>TWICE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a750049fe32363b0be8bb2e882466af12a72855f9e65e2c9e93163a92fe8e9635c" name="a750049fe32363b0be8bb2e882466af12a72855f9e65e2c9e93163a92fe8e9635c"></a>THRICE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3f67fa7e95abef0f19cf72302ebd7b14" name="a3f67fa7e95abef0f19cf72302ebd7b14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f67fa7e95abef0f19cf72302ebd7b14">&#9670;&#160;</a></span>clear_block()</h2>
@@ -1142,7 +1171,7 @@ template&lt;size_t blockSize&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int S&gt; </div>
+template&lt;<a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12">ShuffleTimes</a> S&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> shuffle_all_ps </td>
@@ -1154,7 +1183,7 @@ template&lt;int S&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>, <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, and <a class="el" href="setup_8h.html#ae195cc7165de14721cd8d1e313355d67">SIMD_MM_SHUFFLE</a>.</p>
+<p class="reference">References <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12af1110c378b0b40a4b5bd04fdd92220c4">ONCE</a>, <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>, <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12a72855f9e65e2c9e93163a92fe8e9635c">THRICE</a>, and <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a750049fe32363b0be8bb2e882466af12aa0ea0fd749261252884a9aa3ec4d1a4e">TWICE</a>.</p>
 
 </div>
 </div>
@@ -1192,7 +1221,7 @@ template&lt;int S&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 13 2026 21:48:10 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jan 13 2026 23:52:19 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
