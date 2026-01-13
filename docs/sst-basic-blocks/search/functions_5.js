@@ -25,5 +25,5 @@ var searchData=
   ['fordisplay_22',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
   ['freeze_23',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['fromrawarray_24',['fromRawArray',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a37f93981fa090835e5ba1e119df521cf',1,'sst::basic_blocks::simd::F32x4']]],
-  ['fxmodcontrol_25',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#aa7ae4866c7f600cd1f7cc5f8eba8b9e1',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri)']]]
+  ['fxmodcontrol_25',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a76cab151698b6ec91bf7f07fd93c3227',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri, float *sineTable=nullptr)']]]
 ];

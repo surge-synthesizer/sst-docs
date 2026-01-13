@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>sst-basic-blocks: FXModControl&lt; blockSize, RB &gt; Struct Template Reference</title>
+<title>sst-basic-blocks: FXModControl&lt; blockSize, RB, externalSineTable &gt; Struct Template Reference</title>
 <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -99,7 +99,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">FXModControl&lt; blockSize, RB &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">FXModControl&lt; blockSize, RB, externalSineTable &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -122,10 +122,12 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa7ae4866c7f600cd1f7cc5f8eba8b9e1" id="r_aa7ae4866c7f600cd1f7cc5f8eba8b9e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#aa7ae4866c7f600cd1f7cc5f8eba8b9e1">FXModControl</a> (float sr, float sri)</td></tr>
-<tr class="separator:aa7ae4866c7f600cd1f7cc5f8eba8b9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76cab151698b6ec91bf7f07fd93c3227" id="r_a76cab151698b6ec91bf7f07fd93c3227"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a76cab151698b6ec91bf7f07fd93c3227">FXModControl</a> (float sr, float sri, float *sineTable=nullptr)</td></tr>
+<tr class="separator:a76cab151698b6ec91bf7f07fd93c3227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42aedac965b8e768535e1d50e3f08bc5" id="r_a42aedac965b8e768535e1d50e3f08bc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5">FXModControl</a> ()</td></tr>
 <tr class="separator:a42aedac965b8e768535e1d50e3f08bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ba965c21e164d64db8ef3a9943bd10a" id="r_a2ba965c21e164d64db8ef3a9943bd10a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2ba965c21e164d64db8ef3a9943bd10a">~FXModControl</a> ()</td></tr>
+<tr class="separator:a2ba965c21e164d64db8ef3a9943bd10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01c502bd437d80506bb1232a14f12c27" id="r_a01c502bd437d80506bb1232a14f12c27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">setSampleRate</a> (double sr)</td></tr>
 <tr class="separator:a01c502bd437d80506bb1232a14f12c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de7e39565a15adc305ed87044b56eb3" id="r_a0de7e39565a15adc305ed87044b56eb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0de7e39565a15adc305ed87044b56eb3">processStartOfBlock</a> (int mwave, float rate, float depth, float phase_offset, float width=1.0)</td></tr>
@@ -167,7 +169,7 @@ Public Attributes</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170d">mod_waves</a></td>
@@ -187,13 +189,13 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa7ae4866c7f600cd1f7cc5f8eba8b9e1" name="aa7ae4866c7f600cd1f7cc5f8eba8b9e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7ae4866c7f600cd1f7cc5f8eba8b9e1">&#9670;&#160;</a></span>FXModControl() <span class="overload">[1/2]</span></h2>
+<a id="a76cab151698b6ec91bf7f07fd93c3227" name="a76cab151698b6ec91bf7f07fd93c3227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76cab151698b6ec91bf7f07fd93c3227">&#9670;&#160;</a></span>FXModControl() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html">FXModControl</a> </td>
@@ -205,7 +207,13 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>sri</em>&#160;</td>
+          <td class="paramname"><em>sri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>sineTable</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -223,10 +231,29 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html">FXModControl</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ba965c21e164d64db8ef3a9943bd10a" name="a2ba965c21e164d64db8ef3a9943bd10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ba965c21e164d64db8ef3a9943bd10a">&#9670;&#160;</a></span>~FXModControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">~<a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html">FXModControl</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -243,7 +270,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void setSampleRate </td>
@@ -255,7 +282,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a467936eacd89bde71d4fc66c4ef3ddf9">FXModControl&lt; blockSize, RB &gt;::samplerate</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2b7e5fe7db5037e08736939620aba287">FXModControl&lt; blockSize, RB &gt;::samplerate_inv</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a467936eacd89bde71d4fc66c4ef3ddf9">FXModControl&lt; blockSize, RB, externalSineTable &gt;::samplerate</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2b7e5fe7db5037e08736939620aba287">FXModControl&lt; blockSize, RB, externalSineTable &gt;::samplerate_inv</a>.</p>
 
 </div>
 </div>
@@ -265,7 +292,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void processStartOfBlock </td>
@@ -305,7 +332,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="SSESincDelayLine_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="FXModControl_8h.html#a5ceda26a59b995f39bf22eb1061c781a">DIV</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534">FXModControl&lt; blockSize, RB &gt;::mod_noise</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dae6fe7a7cf9642830dcfd42576138ff3d">FXModControl&lt; blockSize, RB &gt;::mod_ramp</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f">FXModControl&lt; blockSize, RB &gt;::mod_saw</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736">FXModControl&lt; blockSize, RB &gt;::mod_sine</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738">FXModControl&lt; blockSize, RB &gt;::mod_snh</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d">FXModControl&lt; blockSize, RB &gt;::mod_square</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb">FXModControl&lt; blockSize, RB &gt;::mod_tri</a>, <a class="el" href="SSESincDelayLine_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::newValue()</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756a214dbf105bf934144193b647c3154496">sst::basic_blocks::modulators::rnd_dual_stereo</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756ae671ccf444efecbabd4bc6d525f2ee7d">sst::basic_blocks::modulators::rnd_quad</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756a91a601e6e55b1bb62cc1f969ffb6bdaf">sst::basic_blocks::modulators::rnd_single</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea">FXModControl&lt; blockSize, RB &gt;::rng</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a467936eacd89bde71d4fc66c4ef3ddf9">FXModControl&lt; blockSize, RB &gt;::samplerate</a>, <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>, <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, <a class="el" href="SSESincDelayLine_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>.</p>
+<p class="reference">References <a class="el" href="SSESincDelayLine_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="FXModControl_8h.html#a5ceda26a59b995f39bf22eb1061c781a">DIV</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da09f80d49cf8bbe67957b502b113f7534">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_noise</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dae6fe7a7cf9642830dcfd42576138ff3d">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_ramp</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da5230d3fdc07e319b50fd1f2ea50e089f">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_saw</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da8bffc31c6fe468c5ed94b8a52eee3736">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_sine</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_snh</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_square</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb">FXModControl&lt; blockSize, RB, externalSineTable &gt;::mod_tri</a>, <a class="el" href="SSESincDelayLine_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::newValue()</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756a214dbf105bf934144193b647c3154496">sst::basic_blocks::modulators::rnd_dual_stereo</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756ae671ccf444efecbabd4bc6d525f2ee7d">sst::basic_blocks::modulators::rnd_quad</a>, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756a91a601e6e55b1bb62cc1f969ffb6bdaf">sst::basic_blocks::modulators::rnd_single</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea">FXModControl&lt; blockSize, RB, externalSineTable &gt;::rng</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a467936eacd89bde71d4fc66c4ef3ddf9">FXModControl&lt; blockSize, RB, externalSineTable &gt;::samplerate</a>, <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>, <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, <a class="el" href="SSESincDelayLine_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a2a59559bca90fc9ef4388d025b45cf53">RNG::unifPM1()</a>.</p>
 
 </div>
 </div>
@@ -315,7 +342,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -336,7 +363,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">FXModControl&lt; blockSize, RB &gt;::nextValueInBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextValueInBlock()</a>.</p>
 
 </div>
 </div>
@@ -346,7 +373,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">float nextValueInBlock </td>
@@ -357,7 +384,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a706067905f223e03202bebf448e28307">FXModControl&lt; blockSize, RB &gt;::value()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a706067905f223e03202bebf448e28307">FXModControl&lt; blockSize, RB, externalSineTable &gt;::value()</a>.</p>
 
 </div>
 </div>
@@ -367,7 +394,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -388,7 +415,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">FXModControl&lt; blockSize, RB &gt;::nextStereoValueInBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextStereoValueInBlock()</a>.</p>
 
 </div>
 </div>
@@ -398,7 +425,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::array&lt; float, 2 &gt; nextStereoValueInBlock </td>
@@ -409,7 +436,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a67550c07eda0b92efab150a3a35c6ff1">FXModControl&lt; blockSize, RB &gt;::valueStereo()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a67550c07eda0b92efab150a3a35c6ff1">FXModControl&lt; blockSize, RB, externalSineTable &gt;::valueStereo()</a>.</p>
 
 </div>
 </div>
@@ -419,7 +446,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -440,7 +467,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a38f81a67238a42ac1753f27857aae33c">FXModControl&lt; blockSize, RB &gt;::nextQuadValueInBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a38f81a67238a42ac1753f27857aae33c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextQuadValueInBlock()</a>.</p>
 
 </div>
 </div>
@@ -450,7 +477,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::array&lt; float, 4 &gt; nextQuadValueInBlock </td>
@@ -461,7 +488,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a9852b5be3fefab3f75439c8ee5f68a72">FXModControl&lt; blockSize, RB &gt;::valueQuad()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a9852b5be3fefab3f75439c8ee5f68a72">FXModControl&lt; blockSize, RB, externalSineTable &gt;::valueQuad()</a>.</p>
 
 </div>
 </div>
@@ -471,7 +498,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -492,7 +519,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 
 <p class="reference">References <a class="el" href="SSESincDelayLine_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ae8d2c78edb8ce768e9ff2ccf1957ea0f">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::v</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#ab3a3a07d98e2de11d5a34a4b55bdfc00">FXModControl&lt; blockSize, RB &gt;::nextQuadValueInBlockSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#ab3a3a07d98e2de11d5a34a4b55bdfc00">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextQuadValueInBlockSSE()</a>.</p>
 
 </div>
 </div>
@@ -502,7 +529,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> nextQuadValueInBlockSSE </td>
@@ -513,7 +540,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a4a3744bd7554358c316bf74b6a8e5fdf">FXModControl&lt; blockSize, RB &gt;::valueQuadSSE()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a2e9c5136d19b1a95fc427e0852deab5c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a4a3744bd7554358c316bf74b6a8e5fdf">FXModControl&lt; blockSize, RB, externalSineTable &gt;::valueQuadSSE()</a>.</p>
 
 </div>
 </div>
@@ -523,7 +550,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void process </td>
@@ -536,7 +563,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a2e9c5136d19b1a95fc427e0852deab5c">lipol&lt; T, defaultBlockSize, first_run_checks &gt;::process()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a38f81a67238a42ac1753f27857aae33c">FXModControl&lt; blockSize, RB &gt;::nextQuadValueInBlock()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#ab3a3a07d98e2de11d5a34a4b55bdfc00">FXModControl&lt; blockSize, RB &gt;::nextQuadValueInBlockSSE()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">FXModControl&lt; blockSize, RB &gt;::nextStereoValueInBlock()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">FXModControl&lt; blockSize, RB &gt;::nextValueInBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a38f81a67238a42ac1753f27857aae33c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextQuadValueInBlock()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#ab3a3a07d98e2de11d5a34a4b55bdfc00">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextQuadValueInBlockSSE()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextStereoValueInBlock()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72">FXModControl&lt; blockSize, RB, externalSineTable &gt;::nextValueInBlock()</a>.</p>
 
 </div>
 </div>
@@ -546,7 +573,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::array&lt; float, 4 &gt; getLastPhase </td>
@@ -566,7 +593,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">float samplerate {0}</td>
@@ -574,7 +601,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0de7e39565a15adc305ed87044b56eb3">FXModControl&lt; blockSize, RB &gt;::processStartOfBlock()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">FXModControl&lt; blockSize, RB &gt;::setSampleRate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0de7e39565a15adc305ed87044b56eb3">FXModControl&lt; blockSize, RB, externalSineTable &gt;::processStartOfBlock()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">FXModControl&lt; blockSize, RB, externalSineTable &gt;::setSampleRate()</a>.</p>
 
 </div>
 </div>
@@ -584,7 +611,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">float samplerate_inv {0}</td>
@@ -592,7 +619,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">FXModControl&lt; blockSize, RB &gt;::setSampleRate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a01c502bd437d80506bb1232a14f12c27">FXModControl&lt; blockSize, RB, externalSineTable &gt;::setSampleRate()</a>.</p>
 
 </div>
 </div>
@@ -602,7 +629,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo&gt; </div>
+template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756">RandomBehavior</a> RB = rnd_dual_stereo, bool externalSineTable = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1RNG.html">sst::basic_blocks::dsp::RNG</a> rng</td>
@@ -610,7 +637,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0de7e39565a15adc305ed87044b56eb3">FXModControl&lt; blockSize, RB &gt;::processStartOfBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0de7e39565a15adc305ed87044b56eb3">FXModControl&lt; blockSize, RB, externalSineTable &gt;::processStartOfBlock()</a>.</p>
 
 </div>
 </div>
@@ -620,7 +647,7 @@ template&lt;int blockSize, <a class="el" href="namespacesst_1_1basic__blocks_1_1
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 7 2026 18:23:18 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jan 13 2026 18:53:12 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

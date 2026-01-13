@@ -21,5 +21,6 @@ var searchData=
   ['hilberttransform_2eh_18',['HilbertTransform.h',['../HilbertTransform_8h.html',1,'']]],
   ['hilberttransformmonofloat_19',['HilbertTransformMonoFloat',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat.html',1,'sst::basic_blocks::dsp']]],
   ['hilberttransformstereosse_20',['HilbertTransformStereoSSE',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html',1,'sst::basic_blocks::dsp']]],
-  ['hosttimeinbeats_21',['hostTimeInBeats',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb',1,'sst::basic_blocks::modulators::Transport']]]
+  ['hosttimeinbeats_21',['hostTimeInBeats',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb',1,'sst::basic_blocks::modulators::Transport']]],
+  ['hsum_5fps_22',['hsum_ps',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a92e56ac18df0c934b3c008dac304b61b',1,'sst::basic_blocks::mechanics']]]
 ];

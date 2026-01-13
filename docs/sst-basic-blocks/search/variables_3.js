@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d_0',['d',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D']]],
+  ['d_0',['d',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D'],['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d']]],
   ['d2_1',['d2',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#aac1777fc7cfc528c03b3e8c38f14e2b9',1,'sst::basic_blocks::dsp::DriftLFO']]],
   ['data_2',['data',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincInterpolater.html#a5cfe4579508c57e7ed428b074a03e629',1,'sst::basic_blocks::dsp::SSESincInterpolater::data'],['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html#ab390cc0a8a14c206cdc049fe07d14ddf',1,'sst::basic_blocks::modulators::StepLFO::Storage::data']]],
   ['decimalplaces_3',['decimalPlaces',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a476b8abd31ed52ce84c0f9c8f643f91b',1,'sst::basic_blocks::params::ParamMetaData']]],
