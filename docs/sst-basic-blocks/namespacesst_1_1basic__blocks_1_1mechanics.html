@@ -196,18 +196,10 @@ Functions</h2></td></tr>
 <tr class="separator:ace84e008b9ec0019272733fe00ccfde6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92e56ac18df0c934b3c008dac304b61b" id="r_a92e56ac18df0c934b3c008dac304b61b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a92e56ac18df0c934b3c008dac304b61b">hsum_ps</a> (<a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
 <tr class="separator:a92e56ac18df0c934b3c008dac304b61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa7c3aa51914fabed58bad3d23aaea7" id="r_a1fa7c3aa51914fabed58bad3d23aaea7"><td class="memTemplParams" colspan="2">template&lt;int S&gt; </td></tr>
-<tr class="memitem:a1fa7c3aa51914fabed58bad3d23aaea7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a1fa7c3aa51914fabed58bad3d23aaea7">shuffle_all_ps</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)=delete</td></tr>
-<tr class="separator:a1fa7c3aa51914fabed58bad3d23aaea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bcfc7b2fdae199151d3dc1c949ae755" id="r_a2bcfc7b2fdae199151d3dc1c949ae755"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a2bcfc7b2fdae199151d3dc1c949ae755"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a2bcfc7b2fdae199151d3dc1c949ae755">shuffle_all_ps&lt; 1 &gt;</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
-<tr class="separator:a2bcfc7b2fdae199151d3dc1c949ae755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f30ffb4e6d6160dd312d91cb63fa1a2" id="r_a0f30ffb4e6d6160dd312d91cb63fa1a2"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a0f30ffb4e6d6160dd312d91cb63fa1a2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a0f30ffb4e6d6160dd312d91cb63fa1a2">shuffle_all_ps&lt; 2 &gt;</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
-<tr class="separator:a0f30ffb4e6d6160dd312d91cb63fa1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb1d7f6db9d709d091c4966860bbbc66" id="r_aeb1d7f6db9d709d091c4966860bbbc66"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aeb1d7f6db9d709d091c4966860bbbc66"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#aeb1d7f6db9d709d091c4966860bbbc66">shuffle_all_ps&lt; 3 &gt;</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
-<tr class="separator:aeb1d7f6db9d709d091c4966860bbbc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14e1512a5de58230ce013795d9e60f1" id="r_aa14e1512a5de58230ce013795d9e60f1"><td class="memTemplParams" colspan="2">template&lt;int S&gt; <br />
+requires (1 &lt;= <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a> &amp;&amp; <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a> &lt;= 3)</td></tr>
+<tr class="memitem:aa14e1512a5de58230ce013795d9e60f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#aa14e1512a5de58230ce013795d9e60f1">shuffle_all_ps</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
+<tr class="separator:aa14e1512a5de58230ce013795d9e60f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1145,16 +1137,14 @@ template&lt;size_t blockSize&gt; </div>
 
 </div>
 </div>
-<a id="a1fa7c3aa51914fabed58bad3d23aaea7" name="a1fa7c3aa51914fabed58bad3d23aaea7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fa7c3aa51914fabed58bad3d23aaea7">&#9670;&#160;</a></span>shuffle_all_ps()</h2>
+<a id="aa14e1512a5de58230ce013795d9e60f1" name="aa14e1512a5de58230ce013795d9e60f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa14e1512a5de58230ce013795d9e60f1">&#9670;&#160;</a></span>shuffle_all_ps()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;int S&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+template&lt;int S&gt; <br />
+requires (1 &lt;= <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a> &amp;&amp; <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a> &lt;= 3)</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> shuffle_all_ps </td>
@@ -1164,78 +1154,9 @@ template&lt;int S&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a2bcfc7b2fdae199151d3dc1c949ae755" name="a2bcfc7b2fdae199151d3dc1c949ae755"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bcfc7b2fdae199151d3dc1c949ae755">&#9670;&#160;</a></span>shuffle_all_ps&lt; 1 &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a1fa7c3aa51914fabed58bad3d23aaea7">shuffle_all_ps</a>&lt; 1 &gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>.</p>
-
-</div>
-</div>
-<a id="a0f30ffb4e6d6160dd312d91cb63fa1a2" name="a0f30ffb4e6d6160dd312d91cb63fa1a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f30ffb4e6d6160dd312d91cb63fa1a2">&#9670;&#160;</a></span>shuffle_all_ps&lt; 2 &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a1fa7c3aa51914fabed58bad3d23aaea7">shuffle_all_ps</a>&lt; 2 &gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>.</p>
-
-</div>
-</div>
-<a id="aeb1d7f6db9d709d091c4966860bbbc66" name="aeb1d7f6db9d709d091c4966860bbbc66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb1d7f6db9d709d091c4966860bbbc66">&#9670;&#160;</a></span>shuffle_all_ps&lt; 3 &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> <a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#a1fa7c3aa51914fabed58bad3d23aaea7">shuffle_all_ps</a>&lt; 3 &gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>.</p>
+<p class="reference">References <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a>, and <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>.</p>
 
 </div>
 </div>
@@ -1273,7 +1194,7 @@ template&lt;&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 14 2026 01:49:01 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jan 14 2026 11:20:02 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
