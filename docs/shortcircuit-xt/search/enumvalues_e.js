@@ -88,10 +88,11 @@ var searchData=
   ['proct_5fstringresonator_85',['proct_stringResonator',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa2109dd59fb578e54b8a3221a1b56c0b7',1,'scxt::dsp::processor']]],
   ['proct_5fsurgebiquads_86',['proct_SurgeBiquads',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa8147c2d9ee83eb80e6b3dab630b96f53',1,'scxt::dsp::processor']]],
   ['proct_5fsurgefilters_87',['proct_SurgeFilters',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faf7011a55bffe7ddf5c5d5f119336eff3',1,'scxt::dsp::processor']]],
-  ['proct_5ftremolo_88',['proct_Tremolo',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa565b314a547f34480a2f4b92c6493dfe',1,'scxt::dsp::processor']]],
-  ['proct_5ftripole_89',['proct_tripole',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa72f2e9d834acc2fd6f653b338894f617',1,'scxt::dsp::processor']]],
-  ['proct_5futilfilt_90',['proct_utilfilt',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa1b24ac2aa76b77fa084957a977cbcf51',1,'scxt::dsp::processor']]],
-  ['proct_5fvemberclassic_91',['proct_VemberClassic',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa84b762019680cad2dbbb5f665bb27961',1,'scxt::dsp::processor']]],
-  ['proct_5fvintageladder_92',['proct_vintageladder',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faa5f1ed2878a0c2f5475b8a92cda1e05f',1,'scxt::dsp::processor']]],
-  ['proct_5fvolpan_93',['proct_volpan',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faeb1870a46f8a73f36532fb6d48ad33dc',1,'scxt::dsp::processor']]]
+  ['proct_5ftetradresonator_88',['proct_tetradResonator',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa3fd3708306e7e8a4e7b30d5a79f17eed',1,'scxt::dsp::processor']]],
+  ['proct_5ftremolo_89',['proct_Tremolo',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa565b314a547f34480a2f4b92c6493dfe',1,'scxt::dsp::processor']]],
+  ['proct_5ftripole_90',['proct_tripole',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa72f2e9d834acc2fd6f653b338894f617',1,'scxt::dsp::processor']]],
+  ['proct_5futilfilt_91',['proct_utilfilt',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa1b24ac2aa76b77fa084957a977cbcf51',1,'scxt::dsp::processor']]],
+  ['proct_5fvemberclassic_92',['proct_VemberClassic',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa84b762019680cad2dbbb5f665bb27961',1,'scxt::dsp::processor']]],
+  ['proct_5fvintageladder_93',['proct_vintageladder',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faa5f1ed2878a0c2f5475b8a92cda1e05f',1,'scxt::dsp::processor']]],
+  ['proct_5fvolpan_94',['proct_volpan',['../namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1faeb1870a46f8a73f36532fb6d48ad33dc',1,'scxt::dsp::processor']]]
 ];
