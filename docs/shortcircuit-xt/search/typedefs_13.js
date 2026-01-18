@@ -8,8 +8,9 @@ var searchData=
   ['vintageimpl_5fos_5',['vintageImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#ab085cd00d84eb16fd8577f2a8730eae1',1,'scxt::dsp::processor::procimpl::detail']]],
   ['vmodsrcstrfn_5ft_6',['vmodSrcStrFn_t',['../structscxt_1_1engine_1_1Engine.html#a98bff2c87a981e9d1b8cbfc6f92168fa',1,'scxt::engine::Engine']]],
   ['vmodtgtboolfn_5ft_7',['vmodTgtBoolFn_t',['../structscxt_1_1engine_1_1Engine.html#a34935a6b77a0c86ff774258d6ae41d17',1,'scxt::engine::Engine']]],
-  ['vmodtgtstrfn_5ft_8',['vmodTgtStrFn_t',['../structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b',1,'scxt::engine::Engine']]],
-  ['voice_5ft_9',['voice_t',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195',1,'scxt::engine::Engine::VMConfig']]],
-  ['voicemanager_5ft_10',['voiceManager_t',['../structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7',1,'scxt::engine::Engine']]],
-  ['voicematrixmetadata_5ft_11',['voiceMatrixMetadata_t',['../namespacescxt_1_1voice_1_1modulation.html#a041ae028e6bba1951ab546a585e32a6b',1,'scxt::voice::modulation']]]
+  ['vmodtgtintfn_5ft_8',['vmodTgtIntFn_t',['../structscxt_1_1engine_1_1Engine.html#adf9865f1f90a952082dc5924bc4e948f',1,'scxt::engine::Engine']]],
+  ['vmodtgtstrfn_5ft_9',['vmodTgtStrFn_t',['../structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b',1,'scxt::engine::Engine']]],
+  ['voice_5ft_10',['voice_t',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195',1,'scxt::engine::Engine::VMConfig']]],
+  ['voicemanager_5ft_11',['voiceManager_t',['../structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7',1,'scxt::engine::Engine']]],
+  ['voicematrixmetadata_5ft_12',['voiceMatrixMetadata_t',['../namespacescxt_1_1voice_1_1modulation.html#a041ae028e6bba1951ab546a585e32a6b',1,'scxt::voice::modulation']]]
 ];
