@@ -8,5 +8,6 @@ var searchData=
   ['mod_5fsnh_5',['mod_snh',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170dadd235d3b29307a29698165a3fde04738',1,'sst::basic_blocks::modulators::FXModControl']]],
   ['mod_5fsquare_6',['mod_square',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da7c0f0c7c0cdc3ace65d1687ff201e20d',1,'sst::basic_blocks::modulators::FXModControl']]],
   ['mod_5ftri_7',['mod_tri',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a70a0b4f1113996d5c7b444a607a9170da1fa876b9833635f0ca587fd5d2044dfb',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['multiplicative_8',['MULTIPLICATIVE',['../namespacesst_1_1basic__blocks_1_1mod__matrix.html#add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164',1,'sst::basic_blocks::mod_matrix']]]
+  ['multiplicative_8',['MULTIPLICATIVE',['../namespacesst_1_1basic__blocks_1_1mod__matrix.html#add86e7c88dd109abea3f708b422f31f0a2618be531dddb3647be5874ddcae5164',1,'sst::basic_blocks::mod_matrix']]],
+  ['multiplicative_5fmodulation_5foff_5fby_5fdefault_9',['MULTIPLICATIVE_MODULATION_OFF_BY_DEFAULT',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a6e2a0445aa71fef6fd6591d8c4f3f1c8',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
