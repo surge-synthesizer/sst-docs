@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tabchanged_0',['tabchanged',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ad01b819ac0b7f74847375724bf6d1f5c',1,'scxt::ui::app::edit_screen::LfoPane::tabChanged()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane.html#a009e1196f5c4d3817f048bf5f7e46595',1,'scxt::ui::app::edit_screen::AdsrPane::tabChanged()']]],
+  ['tabchanged_0',['tabchanged',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ad01b819ac0b7f74847375724bf6d1f5c',1,'scxt::ui::app::edit_screen::LfoPane::tabChanged()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane.html#ae6a5be36bf118cb2506d7c10e533081d',1,'scxt::ui::app::edit_screen::AdsrPane::tabChanged()']]],
   ['tabkey_1',['tabKey',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a5f58cfe8942a0b00834a460976c70942',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['tagtofourcc_2',['tagToFourCC',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a12ffb9831cc2a54d2953a78386e4e03b',1,'scxt::sample::loaders::RIFFMemFile']]],
   ['tagtofourccstr_3',['tagToFourCCStr',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a7e5514174b4a581f57786401980a5f3b',1,'scxt::sample::loaders::RIFFMemFile']]],
