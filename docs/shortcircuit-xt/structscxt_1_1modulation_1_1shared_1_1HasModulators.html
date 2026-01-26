@@ -136,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689" id="r_a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplParams" colspan="2">template&lt;typename Endpoints &gt; </td></tr>
 <tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">updateRetriggers</a> (Endpoints *endpoints)</td></tr>
 <tr class="separator:a51bf8c9799a19ae68e01ada2648ea689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075d8a8005edd119500a722bd50cff65" id="r_a075d8a8005edd119500a722bd50cff65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a075d8a8005edd119500a722bd50cff65">getEnvSpecificGate</a> (bool keyGate, const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;adsr, ahdsrenv_t::Stage stage)</td></tr>
+<tr class="separator:a075d8a8005edd119500a722bd50cff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -334,6 +336,44 @@ template&lt;typename Endpoints &gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aa64a6e9ade922602fb90e599cc1cf6e5">HasModulators&lt; T, egsPerObject &gt;::doEGRetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b38fccf5b83e6829bb1a5e08c9308d0">HasModulators&lt; T, egsPerObject &gt;::doLFORetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#adaa0b9261c652c13e82de4f10adf6179">HasModulators&lt; T, egsPerObject &gt;::lastEGRetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a07f0b6fc0d65e3843f8b351497cc042f">HasModulators&lt; T, egsPerObject &gt;::lastLFORetrigger</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">HasModulators&lt; T, egsPerObject &gt;::lfosPerObject</a>.</p>
+
+</div>
+</div>
+<a id="a075d8a8005edd119500a722bd50cff65" name="a075d8a8005edd119500a722bd50cff65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a075d8a8005edd119500a722bd50cff65">&#9670;&#160;</a></span>getEnvSpecificGate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool getEnvSpecificGate </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>keyGate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>adsr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ahdsrenv_t::Stage&#160;</td>
+          <td class="paramname"><em>stage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1ca51f9170b78227011c2eeb24f30b0622f">AdsrStorage::GATED</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cae875b67b322212bf81da51e697bc4450">AdsrStorage::ONESHOT</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1caf39146b22588f4e75c00f4d1e43bf0a4">AdsrStorage::SEMI_GATED</a>.</p>
 
 </div>
 </div>
@@ -644,7 +684,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 25 2026 22:39:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jan 26 2026 16:09:38 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

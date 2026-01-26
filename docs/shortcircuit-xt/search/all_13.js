@@ -72,7 +72,7 @@ var searchData=
   ['tostringgrouptriggerid_69',['toStringGroupTriggerID',['../namespacescxt_1_1engine.html#a953a87c1f2d571853bac7926eb67fd6f',1,'scxt::engine']]],
   ['tostringinterpolationtypes_70',['toStringInterpolationTypes',['../namespacescxt_1_1dsp.html#a998f507091d79d4cbe29e986357ea1a1',1,'scxt::dsp']]],
   ['trace_5fdb_71',['TRACE_DB',['../writer__worker_8h.html#adea089337ccb65021e653bfbdfae9bcc',1,'writer_worker.h']]],
-  ['tracking_72',['tracking',['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aeabdff6a226c85d14aa058b75aa7ce10',1,'scxt::engine::Zone::ZoneMappingData::tracking'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a62b4d16e554ce79c08f4e493d0bf72e8',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::Tracking']]],
+  ['tracking_72',['tracking',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a62b4d16e554ce79c08f4e493d0bf72e8',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::Tracking'],['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aeabdff6a226c85d14aa058b75aa7ce10',1,'scxt::engine::Zone::ZoneMappingData::tracking']]],
   ['transformselectionactions_73',['transformSelectionActions',['../structscxt_1_1selection_1_1SelectionManager.html#a387917eee8aefac2d066b3ea8f632229',1,'scxt::selection::SelectionManager']]],
   ['transport_74',['transport',['../structscxt_1_1engine_1_1Engine.html#a6f225a729ef9e976b6234e840235e010',1,'scxt::engine::Engine']]],
   ['transportdisplay_75',['transportDisplay',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a0d0ccffe349582fdee2bb96e36a21af2',1,'scxt::engine::Engine::SharedUIMemoryState']]],
