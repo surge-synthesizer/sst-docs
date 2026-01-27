@@ -37,12 +37,13 @@ var searchData=
   ['fixedmatrix_34',['FixedMatrix',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html',1,'sst::basic_blocks::mod_matrix']]],
   ['flags_35',['flags',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a773b39d480759f67926cb18ae2219281',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['float_36',['float',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7a9cf4a0866224b0bb4a7a895da27c9c4c',1,'sst::basic_blocks::params::ParamMetaData::FLOAT'],['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ab658a7e242a86f01d39c2fa9c179961d',1,'sst::basic_blocks::params::ParamMetaData::FLOAT']]],
-  ['followslewandsmooth_2eh_37',['FollowSlewAndSmooth.h',['../FollowSlewAndSmooth_8h.html',1,'']]],
-  ['fordisplay_38',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
-  ['frames_39',['frames',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincInterpolater.html#a91cbb326aaace0b3f6101e0ecaddc8ed',1,'sst::basic_blocks::dsp::SSESincInterpolater']]],
-  ['freeze_40',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['fromrawarray_41',['fromRawArray',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a37f93981fa090835e5ba1e119df521cf',1,'sst::basic_blocks::simd::F32x4']]],
-  ['frtophase_42',['frToPhase',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#ac432345a90422a7be5e422fa2a674513',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
-  ['fxmodcontrol_43',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a76cab151698b6ec91bf7f07fd93c3227',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri, float *sineTable=nullptr)'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html',1,'FXModControl&lt; blockSize, RB, externalSineTable &gt;']]],
-  ['fxmodcontrol_2eh_44',['FXModControl.h',['../FXModControl_8h.html',1,'']]]
+  ['float_5falways_5fquantizes_37',['FLOAT_ALWAYS_QUANTIZES',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5b49cc246b390b788d8b949b983a85d1',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['followslewandsmooth_2eh_38',['FollowSlewAndSmooth.h',['../FollowSlewAndSmooth_8h.html',1,'']]],
+  ['fordisplay_39',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
+  ['frames_40',['frames',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincInterpolater.html#a91cbb326aaace0b3f6101e0ecaddc8ed',1,'sst::basic_blocks::dsp::SSESincInterpolater']]],
+  ['freeze_41',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['fromrawarray_42',['fromRawArray',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a37f93981fa090835e5ba1e119df521cf',1,'sst::basic_blocks::simd::F32x4']]],
+  ['frtophase_43',['frToPhase',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#ac432345a90422a7be5e422fa2a674513',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
+  ['fxmodcontrol_44',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a76cab151698b6ec91bf7f07fd93c3227',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri, float *sineTable=nullptr)'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html',1,'FXModControl&lt; blockSize, RB, externalSineTable &gt;']]],
+  ['fxmodcontrol_2eh_45',['FXModControl.h',['../FXModControl_8h.html',1,'']]]
 ];
