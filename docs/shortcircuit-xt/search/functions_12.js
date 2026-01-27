@@ -128,7 +128,7 @@ var searchData=
   ['setmiscmodstorage_125',['setMiscModStorage',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ae66a4787263b497e1944db0664585159',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['setmodulatorstorage_126',['setModulatorStorage',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a3f0369fce1183209ccb7b767b0403b18',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['setmonolithbinaryindex_127',['setMonolithBinaryIndex',['../structscxt_1_1sample_1_1SampleManager.html#a7ca44fd34f5bfabd47f3128cc2b8bb9a',1,'scxt::sample::SampleManager']]],
-  ['setmuteto_128',['setMuteTo',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a0ae96ddce4100e80002909848d86eec1',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['setmuteto_128',['setMuteTo',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a2a8e0150b3dcb7975301d57c6564abb8',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
   ['setnormalizedsamplelevel_129',['setNormalizedSampleLevel',['../structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6',1,'scxt::engine::Zone']]],
   ['setnoteexpression_130',['setNoteExpression',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a54fc77660484b7ff4bb719c302539778',1,'scxt::engine::Engine::VoiceManagerResponder']]],
   ['setpartgroupzonestructure_131',['setPartGroupZoneStructure',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#ac3d12bb1fdd5aa1764cf8732ef32023f',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
