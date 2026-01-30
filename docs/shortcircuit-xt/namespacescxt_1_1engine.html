@@ -134,6 +134,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTKeyswitchLatch.html">GTKeyswitchLatch</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html">GTKeyswitchMomentary</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTMacro.html">GTMacro</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html">GTMIDI1CC</a></td></tr>
@@ -198,10 +202,15 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19ad7750b2464175cffe19792309edf40f8">MUTED</a> = 1 &lt;&lt; 1
  }</td></tr>
 <tr class="separator:aaa957a2ad5cab5601254ce8eae665f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99904f2c6e1ed9d61e6f170de982c100" id="r_a99904f2c6e1ed9d61e6f170de982c100"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> : int32_t { <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>
+<tr class="memitem:a99904f2c6e1ed9d61e6f170de982c100" id="r_a99904f2c6e1ed9d61e6f170de982c100"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> : int32_t { <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>
-, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a> = MACRO + scxt::macrosPerPart
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a> = MACRO + scxt::macrosPerPart
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a> = MIDICC + 128
+<br />
  }</td></tr>
 <tr class="separator:a99904f2c6e1ed9d61e6f170de982c100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -384,6 +393,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693" name="a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8" name="a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8"></a>KEYSWITCH_LATCH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12" name="a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12"></a>KEYSWITCH_MOMENTARY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c" name="a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c"></a>MACRO&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745" name="a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745"></a>MIDICC&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b" name="a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b"></a>LAST_MIDICC&#160;</td><td class="fielddoc"></td></tr>
@@ -800,7 +811,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a3e0f7f8a0a7afae851d2400f45ae0260">BusEffectStorage::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Bus::initializeAfterUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Part::initializeAfterUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a811f54e8a3235096db56f12a52aa33eb">Bus::setBusEffectType()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">Part::setBusEffectType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Bus.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Bus::initializeAfterUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Bus.html#a811f54e8a3235096db56f12a52aa33eb">Bus::setBusEffectType()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">Part::setBusEffectType()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -878,7 +889,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
 
 </div>
 </div>
@@ -940,7 +951,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>.</p>
+<p class="reference">References <a class="el" href="group__triggers_8cpp.html#a08e6ac896c71158832c8ac77ff2b6c38">CS</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
 
@@ -962,7 +973,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
 
@@ -1142,7 +1153,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 29 2026 16:03:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jan 30 2026 18:28:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

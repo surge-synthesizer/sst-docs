@@ -23,6 +23,8 @@ var searchData=
   ['groupzonesidebarwidget_3c_20sidebarparent_2c_20forzone_20_3e_20',['GroupZoneSidebarWidget&lt; SidebarParent, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html',1,'scxt::ui::app::edit_screen']]],
   ['groupzonesidebarwidget_3c_20t_2c_20forzone_20_3e_21',['GroupZoneSidebarWidget&lt; T, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html',1,'scxt::ui::app::edit_screen']]],
   ['groupzonesidebarwidget_3c_20zonesidebar_2c_20forzone_20_3e_22',['GroupZoneSidebarWidget&lt; ZoneSidebar, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html',1,'scxt::ui::app::edit_screen']]],
-  ['gtmacro_23',['GTMacro',['../structscxt_1_1engine_1_1GTMacro.html',1,'scxt::engine']]],
-  ['gtmidi1cc_24',['GTMIDI1CC',['../structscxt_1_1engine_1_1GTMIDI1CC.html',1,'scxt::engine']]]
+  ['gtkeyswitchlatch_23',['GTKeyswitchLatch',['../structscxt_1_1engine_1_1GTKeyswitchLatch.html',1,'scxt::engine']]],
+  ['gtkeyswitchmomentary_24',['GTKeyswitchMomentary',['../structscxt_1_1engine_1_1GTKeyswitchMomentary.html',1,'scxt::engine']]],
+  ['gtmacro_25',['GTMacro',['../structscxt_1_1engine_1_1GTMacro.html',1,'scxt::engine']]],
+  ['gtmidi1cc_26',['GTMIDI1CC',['../structscxt_1_1engine_1_1GTMIDI1CC.html',1,'scxt::engine']]]
 ];

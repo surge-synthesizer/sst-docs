@@ -205,8 +205,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab2868590f0ec881c9712072791e6b64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a811f54e8a3235096db56f12a52aa33eb" id="r_a811f54e8a3235096db56f12a52aa33eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">setBusEffectType</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e, int idx, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a> t)</td></tr>
 <tr class="separator:a811f54e8a3235096db56f12a52aa33eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b5c763b7aa56cded3e0ec30e5b35e14" id="r_a3b5c763b7aa56cded3e0ec30e5b35e14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a3b5c763b7aa56cded3e0ec30e5b35e14">initializeAfterUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
-<tr class="separator:a3b5c763b7aa56cded3e0ec30e5b35e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68fc4333b9868ca9d97d472f58dc6e8" id="r_ad68fc4333b9868ca9d97d472f58dc6e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">setupOnUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
+<tr class="separator:ad68fc4333b9868ca9d97d472f58dc6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae212a7628c93bc10d3592a106031f7cc" id="r_ae212a7628c93bc10d3592a106031f7cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">guaranteeKeyswitchLatchCoherence</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
+<tr class="separator:ae212a7628c93bc10d3592a106031f7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f62c23c70c6fc10e99e92026dcd3337" id="r_a3f62c23c70c6fc10e99e92026dcd3337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a3f62c23c70c6fc10e99e92026dcd3337">sendAllBusEffectInfoToClient</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:a3f62c23c70c6fc10e99e92026dcd3337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab67e5f6098b672b851c2a159a2bf14d3" id="r_ab67e5f6098b672b851c2a159a2bf14d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">sendBusEffectInfoToClient</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, int slot)</td></tr>
@@ -503,7 +505,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#a5ff3125549f3da63858133feb3283148">Part::groupChannelMask</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Part::initializeAfterUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#aea6e1ba9bf2cab82aa2f7011c127e781">Group::onGroupMidiChannelSubscriptionChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#aea6e1ba9bf2cab82aa2f7011c127e781">Group::onGroupMidiChannelSubscriptionChanged()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1018,14 +1020,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b5c763b7aa56cded3e0ec30e5b35e14" name="a3b5c763b7aa56cded3e0ec30e5b35e14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b5c763b7aa56cded3e0ec30e5b35e14">&#9670;&#160;</a></span>initializeAfterUnstream()</h2>
+<a id="ad68fc4333b9868ca9d97d472f58dc6e8" name="ad68fc4333b9868ca9d97d472f58dc6e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68fc4333b9868ca9d97d472f58dc6e8">&#9670;&#160;</a></span>setupOnUnstream()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void initializeAfterUnstream </td>
+          <td class="memname">void setupOnUnstream </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
@@ -1034,7 +1036,29 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">scxt::engine::createEffect()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a4f64fc5e69de6612986b9b3ab145e027">Part::rebuildGroupChannelMask()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">scxt::engine::createEffect()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">Part::guaranteeKeyswitchLatchCoherence()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a4f64fc5e69de6612986b9b3ab145e027">Part::rebuildGroupChannelMask()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>.</p>
+
+</div>
+</div>
+<a id="ae212a7628c93bc10d3592a106031f7cc" name="ae212a7628c93bc10d3592a106031f7cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae212a7628c93bc10d3592a106031f7cc">&#9670;&#160;</a></span>guaranteeKeyswitchLatchCoherence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void guaranteeKeyswitchLatchCoherence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1086,7 +1110,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1BusEffectStorage.html#a2810c489bcf52c5a37078a7d740f895c">BusEffectStorage::maxBusEffectParams</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baed022c04d64c992ea6e2025b216108a3">scxt::messaging::client::s2c_bus_effect_full_data</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Part::initializeAfterUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a3f62c23c70c6fc10e99e92026dcd3337">Part::sendAllBusEffectInfoToClient()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a3f62c23c70c6fc10e99e92026dcd3337">Part::sendAllBusEffectInfoToClient()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1264,7 +1288,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#aa1836675edeb334df67a27b566ec8870">GroupMatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a87f9d7928e4b4da6b980996667aeea88">GTMIDI1CC::value()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#aa1836675edeb334df67a27b566ec8870">GroupMatrixEndpoints::Sources::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#af2fb38e19cbda6dbc3a13877ec8cddaf">MatrixEndpoints::Sources::bind()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a5ee80e7cb8f3edae354f55fa86006554">GTMIDI1CC::groupShouldPlay()</a>.</p>
 
 </div>
 </div>
@@ -1342,7 +1366,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1MacroUILagHandler.html#ad388f2f606b8de01186d779a4e6e193c">Part::MacroUILagHandler::updateDestination()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a87f9d7928e4b4da6b980996667aeea88">GTMacro::value()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a5ee80e7cb8f3edae354f55fa86006554">GTMacro::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part_1_1MacroUILagHandler.html#ad388f2f606b8de01186d779a4e6e193c">Part::MacroUILagHandler::updateDestination()</a>.</p>
 
 </div>
 </div>
@@ -1358,7 +1382,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Part::initializeAfterUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">Part::setBusEffectType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">Part::setBusEffectType()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1374,7 +1398,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a3b5c763b7aa56cded3e0ec30e5b35e14">Part::initializeAfterUnstream()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a0ff935d0f3c3944592bf3f9e273c8a55">Part::onSampleRateChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">Part::setBusEffectType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a0ff935d0f3c3944592bf3f9e273c8a55">Part::onSampleRateChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a811f54e8a3235096db56f12a52aa33eb">Part::setBusEffectType()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1385,7 +1409,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 29 2026 16:03:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jan 30 2026 18:28:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

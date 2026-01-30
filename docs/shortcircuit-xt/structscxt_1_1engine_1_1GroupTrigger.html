@@ -113,11 +113,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="structscxt_1_1engine_1_1GroupTrigger__inherit__graph.png" border="0" usemap="#aGroupTrigger_inherit__map" alt="Inheritance graph"/></div>
 <map name="aGroupTrigger_inherit__map" id="aGroupTrigger_inherit__map">
-<area shape="rect" title="Calculate if a group is triggered." alt="" coords="57,5,162,31"/>
-<area shape="rect" href="structscxt_1_1engine_1_1GTMIDI1CC.html" title=" " alt="" coords="5,79,101,104"/>
-<area shape="poly" title=" " alt="" coords="94,43,64,80,60,77,89,40"/>
-<area shape="rect" href="structscxt_1_1engine_1_1GTMacro.html" title=" " alt="" coords="125,79,205,104"/>
-<area shape="poly" title=" " alt="" coords="129,40,158,77,154,80,125,43"/>
+<area shape="rect" title="Calculate if a group is triggered." alt="" coords="290,5,395,31"/>
+<area shape="rect" href="structscxt_1_1engine_1_1GTKeyswitchLatch.html" title=" " alt="" coords="5,79,147,104"/>
+<area shape="poly" title=" " alt="" coords="287,37,120,81,118,76,286,32"/>
+<area shape="rect" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html" title=" " alt="" coords="171,79,352,104"/>
+<area shape="poly" title=" " alt="" coords="321,42,276,80,273,76,318,38"/>
+<area shape="rect" href="structscxt_1_1engine_1_1GTMIDI1CC.html" title=" " alt="" coords="376,79,472,104"/>
+<area shape="poly" title=" " alt="" coords="368,38,412,76,409,80,364,42"/>
+<area shape="rect" href="structscxt_1_1engine_1_1GTMacro.html" title=" " alt="" coords="496,79,576,104"/>
+<area shape="poly" title=" " alt="" coords="387,33,505,76,503,81,385,38"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -129,8 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a91b3afbf4d7fc76a8cbc30188025cb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac679f8783ffb9aa4dad3d12936ab86b8" id="r_ac679f8783ffb9aa4dad3d12936ab86b8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html#ac679f8783ffb9aa4dad3d12936ab86b8">~GroupTrigger</a> ()=default</td></tr>
 <tr class="separator:ac679f8783ffb9aa4dad3d12936ab86b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cbb7c3d5c0324b9b400a4c00f6a2588" id="r_a5cbb7c3d5c0324b9b400a4c00f6a2588"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html#a5cbb7c3d5c0324b9b400a4c00f6a2588">value</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;) const =0</td></tr>
-<tr class="separator:a5cbb7c3d5c0324b9b400a4c00f6a2588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476c2d86ca6d0dd557b915f942bcb332" id="r_a476c2d86ca6d0dd557b915f942bcb332"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html#a476c2d86ca6d0dd557b915f942bcb332">groupShouldPlay</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, int16_t channel, int16_t key) const =0</td></tr>
+<tr class="separator:a476c2d86ca6d0dd557b915f942bcb332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4272d670198cea4a7b0d27a1ddb74f9d" id="r_a4272d670198cea4a7b0d27a1ddb74f9d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html#a4272d670198cea4a7b0d27a1ddb74f9d">storageAdjusted</a> ()=0</td></tr>
 <tr class="separator:a4272d670198cea4a7b0d27a1ddb74f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -225,8 +229,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5cbb7c3d5c0324b9b400a4c00f6a2588" name="a5cbb7c3d5c0324b9b400a4c00f6a2588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cbb7c3d5c0324b9b400a4c00f6a2588">&#9670;&#160;</a></span>value()</h2>
+<a id="a476c2d86ca6d0dd557b915f942bcb332" name="a476c2d86ca6d0dd557b915f942bcb332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476c2d86ca6d0dd557b915f942bcb332">&#9670;&#160;</a></span>groupShouldPlay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +239,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool value </td>
+          <td class="memname">virtual bool groupShouldPlay </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
           <td class="paramname">, </td>
@@ -244,7 +248,19 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -259,7 +275,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a87f9d7928e4b4da6b980996667aeea88">GTMacro</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a87f9d7928e4b4da6b980996667aeea88">GTMIDI1CC</a>.</p>
+<p>Implemented in <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchLatch.html#a3a42012c1244dc7339d51edbe86a0736">GTKeyswitchLatch</a>, <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a5ee80e7cb8f3edae354f55fa86006554">GTMacro</a>, <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a5ee80e7cb8f3edae354f55fa86006554">GTMIDI1CC</a>, and <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#a9a5750bb43eb58b376dca069a7296baa">GTKeyswitchMomentary</a>.</p>
 
 </div>
 </div>
@@ -286,7 +302,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMacro</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMIDI1CC</a>.</p>
+<p>Implemented in <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMacro</a>, <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMIDI1CC</a>, <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchLatch.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTKeyswitchLatch</a>, and <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTKeyswitchMomentary</a>.</p>
 
 </div>
 </div>
@@ -317,7 +333,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMacro::storageAdjusted()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMIDI1CC::storageAdjusted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchLatch.html#a3a42012c1244dc7339d51edbe86a0736">GTKeyswitchLatch::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#a9a5750bb43eb58b376dca069a7296baa">GTKeyswitchMomentary::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1GTMacro.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMacro::storageAdjusted()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTMIDI1CC.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTMIDI1CC::storageAdjusted()</a>.</p>
 
 </div>
 </div>
@@ -343,7 +359,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 29 2026 16:03:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jan 30 2026 18:28:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

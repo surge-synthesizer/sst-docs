@@ -78,7 +78,7 @@ var searchData=
   ['mixt_75',['mixT',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a1d6cd82025f35985b938693c76131352',1,'scxt::modulation::shared::ProcessorTargetEndpointData']]],
   ['modheight_76',['modHeight',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a3ad9a0c489d67bca99bbae2422fce100',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['modifystructuremutex_77',['modifyStructureMutex',['../structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d',1,'scxt::engine::Engine']]],
-  ['modmatrix_78',['modmatrix',['../structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6',1,'scxt::engine::Group::modMatrix'],['../structscxt_1_1voice_1_1Voice.html#a07d616744e269fe15200a8a1326de513',1,'scxt::voice::Voice::modMatrix']]],
+  ['modmatrix_78',['modmatrix',['../structscxt_1_1voice_1_1Voice.html#a07d616744e269fe15200a8a1326de513',1,'scxt::voice::Voice::modMatrix'],['../structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6',1,'scxt::engine::Group::modMatrix']]],
   ['modpane_79',['modPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a1d6b30935f8a940c261d2d42282e6bcb',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements']]],
   ['modstylebutton_80',['modStyleButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a676ed8354a8863509b43f07938bdfc98',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['modulation_5foutput_81',['modulation_output',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#af13f28438ce6863b7df90f5a95385f4e',1,'scxt::dsp::processor::Processor']]],
@@ -125,9 +125,10 @@ var searchData=
   ['muteatt_122',['muteatt',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a8660f33927c544a2840b764879dab927',1,'scxt::ui::app::mixer_screen::ChannelStrip::muteAtt'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a8660f33927c544a2840b764879dab927',1,'scxt::ui::app::shared::PartSidebarCard::muteAtt']]],
   ['mutebutton_123',['muteButton',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#aa3771473253c8f77cdc2690315a1f048',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['muted_124',['muted',['../structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Zone::ZoneOutputInfo::muted'],['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Group::GroupOutputInfo::muted']]],
-  ['mutedduetosoloaway_125',['mutedDueToSoloAway',['../structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267',1,'scxt::engine::Bus']]],
-  ['muteduetosolo_126',['muteDueToSolo',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a6b79fd1b84a1be7ec1115b85d123540e',1,'scxt::engine::Part::PartConfiguration']]],
-  ['muteprovider_127',['muteProvider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ad2c72bbc32d5600449708f9b16e33e83',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
-  ['mutevalue_128',['muteValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ae1d146796594d4830ab29e446e9bcb5d',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
-  ['mytype_129',['myType',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#acda4198a6a0bf057d6d028f0e5b1dbf3',1,'scxt::dsp::processor::Processor']]]
+  ['mutedbylatch_125',['mutedByLatch',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a130da05d57b3bee428cd992bac2797f7',1,'scxt::engine::Group::GroupOutputInfo']]],
+  ['mutedduetosoloaway_126',['mutedDueToSoloAway',['../structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267',1,'scxt::engine::Bus']]],
+  ['muteduetosolo_127',['muteDueToSolo',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a6b79fd1b84a1be7ec1115b85d123540e',1,'scxt::engine::Part::PartConfiguration']]],
+  ['muteprovider_128',['muteProvider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ad2c72bbc32d5600449708f9b16e33e83',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['mutevalue_129',['muteValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ae1d146796594d4830ab29e446e9bcb5d',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['mytype_130',['myType',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#acda4198a6a0bf057d6d028f0e5b1dbf3',1,'scxt::dsp::processor::Processor']]]
 ];
