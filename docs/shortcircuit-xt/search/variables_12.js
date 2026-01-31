@@ -130,7 +130,7 @@ var searchData=
   ['startsamplehz_127',['startSampleHZ',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad7b2bee2d93164710622884b82566af1',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
   ['state_128',['state',['../structscxt_1_1engine_1_1GroupTrigger.html#af0d56290c6f9c18c1130da853ce75b6d',1,'scxt::engine::GroupTrigger']]],
   ['statementcopy_129',['statementCopy',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a514546e171bb242926f08b7bce0770d9',1,'scxt::browser::SQL::Statement']]],
-  ['step_130',['step',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a9835fda16e12a64a581185e76aee1529',1,'scxt::modulation::ModulatorStorage::STEP'],['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a16dec0213b441396f9a7aa30c898e49a',1,'scxt::modulation::shared::LFOTargetEndpointData::step']]],
+  ['step_130',['step',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a16dec0213b441396f9a7aa30c898e49a',1,'scxt::modulation::shared::LFOTargetEndpointData::step'],['../structscxt_1_1modulation_1_1ModulatorStorage.html#a9835fda16e12a64a581185e76aee1529',1,'scxt::modulation::ModulatorStorage::STEP']]],
   ['stepcount_131',['stepCount',['../structscxt_1_1engine_1_1Macro.html#afff2dca1d80d16cc1be1f71432bc369b',1,'scxt::engine::Macro']]],
   ['steplfopane_132',['stepLfoPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#afb6a55e4c9b1ef68256a4366db26b229',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['steplfos_133',['stepLfos',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74',1,'scxt::modulation::shared::HasModulators']]],
