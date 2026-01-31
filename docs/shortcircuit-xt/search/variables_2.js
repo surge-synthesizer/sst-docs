@@ -27,7 +27,7 @@ var searchData=
   ['clientcallback_24',['clientCallback',['../structscxt_1_1messaging_1_1MessageController.html#a94605f77a0a1fd31d0e2f9462ecfb095',1,'scxt::messaging::MessageController']]],
   ['clientcallbackmutex_25',['clientCallbackMutex',['../structscxt_1_1messaging_1_1MessageController.html#a93bbec06804c3c8ab5dd1a880ffa04ab',1,'scxt::messaging::MessageController']]],
   ['clientthreadids_26',['clientThreadIds',['../structscxt_1_1ThreadingChecker.html#a418881c131e96465f32cd7d280870af0',1,'scxt::ThreadingChecker']]],
-  ['clipboard_27',['clipboard',['../structscxt_1_1engine_1_1Engine.html#a6fc70dbc8e59e8d2e54696df2a93bcc8',1,'scxt::engine::Engine']]],
+  ['clipboard_27',['clipboard',['../structscxt_1_1engine_1_1Engine.html#a6fc70dbc8e59e8d2e54696df2a93bcc8',1,'scxt::engine::Engine::clipboard'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a2678c40018026e9f50a095913f11010b',1,'scxt::ui::app::SCXTEditor::clipboard']]],
   ['clipboardtype_28',['clipboardType',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a96cc591b53b960c2d5989d47bbaaf832',1,'scxt::ui::app::SCXTEditor']]],
   ['closebutton_29',['closeButton',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a527ccb12cccb6b64a757dac0abd666b6',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['cm_30',['cM',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a9214d35c5f657d9b927f0b1686c7a9f2',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
