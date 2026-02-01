@@ -11,10 +11,10 @@ var searchData=
   ['lfo_5fsine_8',['LFO_SINE',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281dae718b942b5b3a0bbea5599de70c6fab0',1,'scxt::modulation::ModulatorStorage']]],
   ['lfo_5fsmooth_5fnoise_9',['LFO_SMOOTH_NOISE',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281da21fd957b122f20c5a0e35a189a7d8f10',1,'scxt::modulation::ModulatorStorage']]],
   ['lfo_5ftri_10',['LFO_TRI',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281da85d655b9be3e0d865feee4f54f9993b1',1,'scxt::modulation::ModulatorStorage']]],
-  ['light_11',['LIGHT',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5af917d6c11c85b4ac32e30d1cc9da25eb',1,'scxt::ui::theme::ColorMap']]],
-  ['linear_12',['Linear',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b',1,'scxt::dsp']]],
-  ['loop_13',['LOOP',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c',1,'scxt::engine::Zone']]],
-  ['loop_5fcount_14',['LOOP_COUNT',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ae9885352ad051820c0493e6d3082ce48',1,'scxt::engine::Zone']]],
-  ['loop_5fduring_5fvoice_15',['LOOP_DURING_VOICE',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94',1,'scxt::engine::Zone']]],
-  ['loop_5fwhile_5fgated_16',['LOOP_WHILE_GATED',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf',1,'scxt::engine::Zone']]]
+  ['linear_11',['Linear',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b',1,'scxt::dsp']]],
+  ['loop_12',['LOOP',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c',1,'scxt::engine::Zone']]],
+  ['loop_5fcount_13',['LOOP_COUNT',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ae9885352ad051820c0493e6d3082ce48',1,'scxt::engine::Zone']]],
+  ['loop_5fduring_5fvoice_14',['LOOP_DURING_VOICE',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94',1,'scxt::engine::Zone']]],
+  ['loop_5fwhile_5fgated_15',['LOOP_WHILE_GATED',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf',1,'scxt::engine::Zone']]],
+  ['lux2_16',['LUX2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5a5838b5a5d16edbb50fce5c804e0f0e8b',1,'scxt::ui::theme::ColorMap']]]
 ];
