@@ -405,6 +405,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a45f3dd34e5c22dee0c46e87a504a9515" id="r_a45f3dd34e5c22dee0c46e87a504a9515"><td class="memTemplParams" colspan="2">template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints &gt; </td></tr>
 <tr class="memitem:a45f3dd34e5c22dee0c46e87a504a9515"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a45f3dd34e5c22dee0c46e87a504a9515">runSingleProcessor</a> (int i, float fpitch, <a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *processors[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], bool processorConsumesMono[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], Mix &amp;mix, Mix &amp;outLev, Endpoints *endpoints, bool &amp;chainIsMono, float input[2][N], float output[2][N])</td></tr>
 <tr class="separator:a45f3dd34e5c22dee0c46e87a504a9515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978cdb1c6efa85983bf7bfec97491dda" id="r_a978cdb1c6efa85983bf7bfec97491dda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive</a> (<a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *processors[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], size_t idx)</td></tr>
+<tr class="separator:a978cdb1c6efa85983bf7bfec97491dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a850c4e205be0fe313a1dd7768879b198" id="r_a850c4e205be0fe313a1dd7768879b198"><td class="memTemplParams" colspan="2">template&lt;typename... Indices&gt; </td></tr>
+<tr class="memitem:a850c4e205be0fe313a1dd7768879b198"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a850c4e205be0fe313a1dd7768879b198">anyActive</a> (<a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *processors[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], Indices... idxs)</td></tr>
+<tr class="separator:a850c4e205be0fe313a1dd7768879b198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47d97930cd1102c71139661ef903916" id="r_ab47d97930cd1102c71139661ef903916"><td class="memTemplParams" colspan="2">template&lt;typename... Indices&gt; </td></tr>
+<tr class="memitem:ab47d97930cd1102c71139661ef903916"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ab47d97930cd1102c71139661ef903916">allActive</a> (<a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *processors[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], Indices... idxs)</td></tr>
+<tr class="separator:ab47d97930cd1102c71139661ef903916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeddea6db53b5f818c3b7c1f46ddd2181" id="r_aeddea6db53b5f818c3b7c1f46ddd2181"><td class="memTemplParams" colspan="2">template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints &gt; </td></tr>
 <tr class="memitem:aeddea6db53b5f818c3b7c1f46ddd2181"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#aeddea6db53b5f818c3b7c1f46ddd2181">processSequential</a> (float fpitch, <a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *processors[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], bool processorConsumesMono[<a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">engine::processorCount</a>], Mix &amp;mix, Mix &amp;outLev, Endpoints *endpoints, bool &amp;chainIsMono, float output[2][N])</td></tr>
 <tr class="separator:aeddea6db53b5f818c3b7c1f46ddd2181"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4227,6 +4235,102 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
 
 </div>
 </div>
+<a id="a978cdb1c6efa85983bf7bfec97491dda" name="a978cdb1c6efa85983bf7bfec97491dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978cdb1c6efa85983bf7bfec97491dda">&#9670;&#160;</a></span>isActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isActive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *&#160;</td>
+          <td class="paramname"><em>processors</em>[engine::processorCount], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ab47d97930cd1102c71139661ef903916">allActive()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a850c4e205be0fe313a1dd7768879b198">anyActive()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ac11faf9a00137caf73f7c98c6b946d36">processPar1Pattern()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a217cee05621095b71bd422c9f5adb90d">processPar2Pattern()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ad14fe55526d19fc456a4b7903c7bfdc8">processPar3Pattern()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#aef50a846eac4a7b00422674efd1f422f">processParallelPair()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#aeddea6db53b5f818c3b7c1f46ddd2181">processSequential()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ac71e41a8320e9ab0b740c710b6639383">processSer3Pattern()</a>.</p>
+
+</div>
+</div>
+<a id="a850c4e205be0fe313a1dd7768879b198" name="a850c4e205be0fe313a1dd7768879b198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a850c4e205be0fe313a1dd7768879b198">&#9670;&#160;</a></span>anyActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Indices&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool anyActive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *&#160;</td>
+          <td class="paramname"><em>processors</em>[engine::processorCount], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Indices...&#160;</td>
+          <td class="paramname"><em>idxs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a217cee05621095b71bd422c9f5adb90d">processPar2Pattern()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ad14fe55526d19fc456a4b7903c7bfdc8">processPar3Pattern()</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#abf36b590e70326571711172768f2ef53">processSer2Pattern()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ac71e41a8320e9ab0b740c710b6639383">processSer3Pattern()</a>.</p>
+
+</div>
+</div>
+<a id="ab47d97930cd1102c71139661ef903916" name="ab47d97930cd1102c71139661ef903916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47d97930cd1102c71139661ef903916">&#9670;&#160;</a></span>allActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Indices&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool allActive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *&#160;</td>
+          <td class="paramname"><em>processors</em>[engine::processorCount], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Indices...&#160;</td>
+          <td class="paramname"><em>idxs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>.</p>
+
+</div>
+</div>
 <a id="aeddea6db53b5f818c3b7c1f46ddd2181" name="aeddea6db53b5f818c3b7c1f46ddd2181"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeddea6db53b5f818c3b7c1f46ddd2181">&#9670;&#160;</a></span>processSequential()</h2>
 
@@ -4291,7 +4395,7 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">scxt::engine::processorCount</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>, and <a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">scxt::engine::processorCount</a>.</p>
 
 </div>
 </div>
@@ -4371,6 +4475,8 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>.</p>
+
 </div>
 </div>
 <a id="abf36b590e70326571711172768f2ef53" name="abf36b590e70326571711172768f2ef53"></a>
@@ -4436,6 +4542,8 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a850c4e205be0fe313a1dd7768879b198">anyActive()</a>.</p>
 
 </div>
 </div>
@@ -4503,6 +4611,8 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a850c4e205be0fe313a1dd7768879b198">anyActive()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>.</p>
+
 </div>
 </div>
 <a id="ac11faf9a00137caf73f7c98c6b946d36" name="ac11faf9a00137caf73f7c98c6b946d36"></a>
@@ -4569,7 +4679,7 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">scxt::engine::processorCount</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>, and <a class="el" href="namespacescxt_1_1engine.html#a295fedd8f04dcd330a6ee4f7a72862e9">scxt::engine::processorCount</a>.</p>
 
 </div>
 </div>
@@ -4637,6 +4747,8 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a850c4e205be0fe313a1dd7768879b198">anyActive()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>.</p>
+
 </div>
 </div>
 <a id="ad14fe55526d19fc456a4b7903c7bfdc8" name="ad14fe55526d19fc456a4b7903c7bfdc8"></a>
@@ -4703,12 +4815,14 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
       </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a850c4e205be0fe313a1dd7768879b198">anyActive()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a978cdb1c6efa85983bf7bfec97491dda">isActive()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 5 2026 05:16:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Feb 5 2026 15:33:28 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
