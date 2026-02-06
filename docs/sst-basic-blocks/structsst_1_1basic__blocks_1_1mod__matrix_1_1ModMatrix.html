@@ -129,6 +129,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7172b4d7d30837310de6bf6c42bf6655" id="r_a7172b4d7d30837310de6bf6c42bf6655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a7172b4d7d30837310de6bf6c42bf6655">bindTargetBaseValue</a> (const typename TR::TargetIdentifier &amp;t, float &amp;f)</td></tr>
 <tr class="separator:a7172b4d7d30837310de6bf6c42bf6655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fa8018c5d8810597831dfd5e1e5ab87" id="r_a3fa8018c5d8810597831dfd5e1e5ab87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a3fa8018c5d8810597831dfd5e1e5ab87">bindTargetBaseValueWithDistinctUnmodulatedValue</a> (const typename TR::TargetIdentifier &amp;t, float &amp;base, float &amp;unmod)</td></tr>
+<tr class="separator:a3fa8018c5d8810597831dfd5e1e5ab87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a986aaba501969d6e0d8634ff0dc4a850" id="r_a986aaba501969d6e0d8634ff0dc4a850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a986aaba501969d6e0d8634ff0dc4a850">bindSourceValue</a> (const typename TR::SourceIdentifier &amp;s, float &amp;f)</td></tr>
 <tr class="separator:a986aaba501969d6e0d8634ff0dc4a850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a267d73634d8f8b37a16aa32a2e55c82a" id="r_a267d73634d8f8b37a16aa32a2e55c82a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a267d73634d8f8b37a16aa32a2e55c82a">bindSourceConstantValue</a> (const typename TR::SourceIdentifier &amp;c, float value)</td></tr>
@@ -142,6 +144,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a270a4d898f548b1ad42b6c0538752d67" id="r_a270a4d898f548b1ad42b6c0538752d67"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; typename TR::TargetIdentifier, float &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">baseValues</a></td></tr>
 <tr class="separator:a270a4d898f548b1ad42b6c0538752d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a529b80447d8bb2fbe7877dba342cb3ff" id="r_a529b80447d8bb2fbe7877dba342cb3ff"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; typename TR::TargetIdentifier, float &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a529b80447d8bb2fbe7877dba342cb3ff">unmodulatedValues</a></td></tr>
+<tr class="separator:a529b80447d8bb2fbe7877dba342cb3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c3bf1ad567fa1a35fb3b5b8ce4970ed" id="r_a2c3bf1ad567fa1a35fb3b5b8ce4970ed"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; typename TR::SourceIdentifier, float &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a2c3bf1ad567fa1a35fb3b5b8ce4970ed">sourceValues</a></td></tr>
 <tr class="separator:a2c3bf1ad567fa1a35fb3b5b8ce4970ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d2ede313ef904d836602720c0454131" id="r_a3d2ede313ef904d836602720c0454131"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; typename TR::SourceIdentifier, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a3d2ede313ef904d836602720c0454131">constantPlaceholders</a></td></tr>
@@ -204,7 +208,45 @@ template&lt;typename ModMatrixTraits &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a529b80447d8bb2fbe7877dba342cb3ff">ModMatrix&lt; ModMatrixTraits &gt;::unmodulatedValues</a>.</p>
+
+</div>
+</div>
+<a id="a3fa8018c5d8810597831dfd5e1e5ab87" name="a3fa8018c5d8810597831dfd5e1e5ab87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa8018c5d8810597831dfd5e1e5ab87">&#9670;&#160;</a></span>bindTargetBaseValueWithDistinctUnmodulatedValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ModMatrixTraits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void bindTargetBaseValueWithDistinctUnmodulatedValue </td>
+          <td>(</td>
+          <td class="paramtype">const typename TR::TargetIdentifier &amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>unmod</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a270a4d898f548b1ad42b6c0538752d67">ModMatrix&lt; ModMatrixTraits &gt;::baseValues</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a529b80447d8bb2fbe7877dba342cb3ff">ModMatrix&lt; ModMatrixTraits &gt;::unmodulatedValues</a>.</p>
 
 </div>
 </div>
@@ -333,7 +375,25 @@ template&lt;typename ModMatrixTraits &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a7172b4d7d30837310de6bf6c42bf6655">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a416dfb1a360fbca5583bf1e1725825cc">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a7172b4d7d30837310de6bf6c42bf6655">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a3fa8018c5d8810597831dfd5e1e5ab87">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValueWithDistinctUnmodulatedValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a0a187f6ca8ecafcc58ce93bac773aa56">FixedMatrix&lt; ModMatrixTraits &gt;::prepare()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a2e9c5136d19b1a95fc427e0852deab5c">FixedMatrix&lt; ModMatrixTraits &gt;::process()</a>.</p>
+
+</div>
+</div>
+<a id="a529b80447d8bb2fbe7877dba342cb3ff" name="a529b80447d8bb2fbe7877dba342cb3ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a529b80447d8bb2fbe7877dba342cb3ff">&#9670;&#160;</a></span>unmodulatedValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ModMatrixTraits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;typename TR::TargetIdentifier, float &amp;&gt; unmodulatedValues</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a7172b4d7d30837310de6bf6c42bf6655">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValue()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a3fa8018c5d8810597831dfd5e1e5ab87">ModMatrix&lt; ModMatrixTraits &gt;::bindTargetBaseValueWithDistinctUnmodulatedValue()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedMatrix.html#a416dfb1a360fbca5583bf1e1725825cc">FixedMatrix&lt; ModMatrixTraits &gt;::getTargetValuePointer()</a>.</p>
 
 </div>
 </div>
@@ -479,7 +539,7 @@ template&lt;typename ModMatrixTraits &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 27 2026 14:54:32 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 6 2026 14:09:11 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
