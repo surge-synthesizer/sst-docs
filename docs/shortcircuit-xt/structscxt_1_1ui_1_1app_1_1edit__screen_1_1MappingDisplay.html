@@ -149,6 +149,12 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a8c72c82f024ad6af2e49918de816504f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb8f9831bfc4bc6cf74e441d9f0e860" id="r_a8bb8f9831bfc4bc6cf74e441d9f0e860"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860">DeltaResult</a> { <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a7fb0c1cca10ff57ae7aa3878ba530fbd">NO_CHANGE</a> = 0
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860ac73ef72ecd852fc19b07cea8d941d3d3">KEYRANGE_CHANGED</a> = 1
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a15f4a826bd3a972cf9b816ee3d342aea">VELOCITY_CHANGED</a> = 2
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a6153741f69289430233e63b1dcc87c0c">BOTH_CHANGED</a> = KEYRANGE_CHANGED | VELOCITY_CHANGED
+ }</td></tr>
+<tr class="separator:a8bb8f9831bfc4bc6cf74e441d9f0e860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30ee693043f51d574355ea6ca233c610" id="r_a30ee693043f51d574355ea6ca233c610"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html">connectors::PayloadDataAttachment</a>&lt; <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">engine::Zone::ZoneMappingData</a>, int16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a30ee693043f51d574355ea6ca233c610">int16Attachment_t</a></td></tr>
 <tr class="separator:a30ee693043f51d574355ea6ca233c610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d87cdb73b410248e22a9e157b1bc5e5" id="r_a4d87cdb73b410248e22a9e157b1bc5e5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html">connectors::PayloadDataAttachment</a>&lt; <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">engine::Zone::ZoneMappingData</a>, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a4d87cdb73b410248e22a9e157b1bc5e5">floatAttachment_t</a></td></tr>
@@ -198,6 +204,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9a230cf98c91d96f1825af3ff0afb03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee4b337a9e4e190184f440b1b68ab21" id="r_aaee4b337a9e4e190184f440b1b68ab21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aaee4b337a9e4e190184f440b1b68ab21">keyPressed</a> (const juce::KeyPress &amp;key) override</td></tr>
 <tr class="separator:aaee4b337a9e4e190184f440b1b68ab21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bffa4d2063c39185e00a354736fc704" id="r_a9bffa4d2063c39185e00a354736fc704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860">DeltaResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9bffa4d2063c39185e00a354736fc704">applyDeltaToSelectedZones</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a> dim, int &amp;deltaX, int &amp;deltaY, bool updateLead=true)</td></tr>
+<tr class="separator:a9bffa4d2063c39185e00a354736fc704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0512fee98d3cb89f0e8d301d03794ff0" id="r_a0512fee98d3cb89f0e8d301d03794ff0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a0512fee98d3cb89f0e8d301d03794ff0">applyAbsoluteToSelectedZones</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a> dim, int newX, int newY, bool updateLead=true)</td></tr>
+<tr class="separator:a0512fee98d3cb89f0e8d301d03794ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0ea3eabe547dc1a12799db99946217" id="r_aff0ea3eabe547dc1a12799db99946217"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aff0ea3eabe547dc1a12799db99946217">evaluateCanApplyUISide</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a> dim, int deltaX, int deltaY) const</td></tr>
+<tr class="separator:aff0ea3eabe547dc1a12799db99946217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad114ac46538f701ba43c95dfbed34afd" id="r_ad114ac46538f701ba43c95dfbed34afd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ad114ac46538f701ba43c95dfbed34afd">adjustDeltasToMakeSureTheyWillFit</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a> dim, int &amp;deltaX, int &amp;deltaY, const <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">engine::KeyboardRange</a> &amp;kr, const <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">engine::VelocityRange</a> &amp;vr) const</td></tr>
+<tr class="separator:ad114ac46538f701ba43c95dfbed34afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
 <tr class="memitem:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor" id="r_ae7c2e1db62fd864b342d056dfc91fb98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#ae7c2e1db62fd864b342d056dfc91fb98">HasEditor</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *e)</td></tr>
 <tr class="separator:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,6 +343,26 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8bb8f9831bfc4bc6cf74e441d9f0e860" name="a8bb8f9831bfc4bc6cf74e441d9f0e860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb8f9831bfc4bc6cf74e441d9f0e860">&#9670;&#160;</a></span>DeltaResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860">DeltaResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8bb8f9831bfc4bc6cf74e441d9f0e860a7fb0c1cca10ff57ae7aa3878ba530fbd" name="a8bb8f9831bfc4bc6cf74e441d9f0e860a7fb0c1cca10ff57ae7aa3878ba530fbd"></a>NO_CHANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8bb8f9831bfc4bc6cf74e441d9f0e860ac73ef72ecd852fc19b07cea8d941d3d3" name="a8bb8f9831bfc4bc6cf74e441d9f0e860ac73ef72ecd852fc19b07cea8d941d3d3"></a>KEYRANGE_CHANGED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8bb8f9831bfc4bc6cf74e441d9f0e860a15f4a826bd3a972cf9b816ee3d342aea" name="a8bb8f9831bfc4bc6cf74e441d9f0e860a15f4a826bd3a972cf9b816ee3d342aea"></a>VELOCITY_CHANGED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8bb8f9831bfc4bc6cf74e441d9f0e860a6153741f69289430233e63b1dcc87c0c" name="a8bb8f9831bfc4bc6cf74e441d9f0e860a6153741f69289430233e63b1dcc87c0c"></a>BOTH_CHANGED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae3ae89e871814e11941ef35658b9d0c6" name="ae3ae89e871814e11941ef35658b9d0c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3ae89e871814e11941ef35658b9d0c6">&#9670;&#160;</a></span>MappingDisplay()</h2>
@@ -346,7 +380,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1connectors.html#a4cdcc23a50ee74fdd8d96e156312f9e7">scxt::ui::connectors::addGuiStepBeforeSend()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a31bef58f966d97b1ace9bd3a58ffd9a6">Zone::ZoneMappingData::amplitude</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a5cc0593a59af32bafc840d9a8a05822d">KeyboardRange::fadeEnd</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a5cc0593a59af32bafc840d9a8a05822d">VelocityRange::fadeEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#af3de6b32c83ea2c43a3540240c5e0276">MappingDisplay::MapEls&lt; T &gt;::FadeEnd</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a3f802c55496991b9ab7f8456d815bb78">KeyboardRange::fadeStart</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a3f802c55496991b9ab7f8456d815bb78">VelocityRange::fadeStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aa143a6075d08fd3b0f60ba3bfca4cc1f">MappingDisplay::MapEls&lt; T &gt;::FadeStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aca7ecf19807211f20725fa1569c82e05">MappingDisplay::floatAttachments</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#af2ec6bae12fe8a4ac1207d65e875b973">MappingDisplay::glyphs</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a3dd818bf605e2299e9b6a62ab54a96b1">MappingDisplay::intAttachments</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a50c2886c79fb8d6f80ec462d896a1ca0">MappingDisplay::keyboard</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aa2e6e643a476bf86192c6f5f1df50fc7">Zone::ZoneMappingData::keyboardRange</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a35ace404aa7ccc6d69cef60dbed0db00">KeyboardRange::keyEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a7371329d78dbdac3ebb7aa307819a36d">MappingDisplay::MapEls&lt; T &gt;::KeyEnd</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f">KeyboardRange::keyStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#ac7775f74d72ad3a092032c3155a03d32">MappingDisplay::MapEls&lt; T &gt;::KeyStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a3f870180803cdee56047c6119a24b4cc">MappingDisplay::labels</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a2d1261ebb3c85632177a27820761d771">MappingDisplay::MapEls&lt; T &gt;::Level</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade7f3f388c3fe53610ff35961b5b4e9e">MappingDisplay::mappingView</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a7929a5eaa93e4e460a45940bfc087be7">MappingDisplay::mappingZones</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a7363ff46e3c38cb98a41c549f8ce2634">Zone::ZoneMappingData::pan</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aaf667f7c1778326ac235ec1d9c88a3b9">MappingDisplay::MapEls&lt; T &gt;::Pan</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1cc3b4d370625a856e41bce8eb26640b">Zone::ZoneMappingData::pbDown</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#acd351809b37cdb8780913a76ab5029fc">MappingDisplay::MapEls&lt; T &gt;::PBDown</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#adc3abe36fe849a46d6fb43ff916342d3">Zone::ZoneMappingData::pbUp</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a6e7bdaa4e1983ea14c04114f95cfa507">MappingDisplay::MapEls&lt; T &gt;::PBUp</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a758af25d832a01242cf02c0268a6c118">MappingDisplay::MapEls&lt; T &gt;::Pitch</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#af698b1ed7ee6972e701fa13bd3143d2e">Zone::ZoneMappingData::pitchOffset</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aeade06da0343d6d48ffd5f8c2c54c47c">MappingDisplay::MapEls&lt; T &gt;::RootKey</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade2abf9fadd0bf1d725990b3d573d210">MappingDisplay::textEds</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aeabdff6a226c85d14aa058b75aa7ce10">Zone::ZoneMappingData::tracking</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a62b4d16e554ce79c08f4e493d0bf72e8">MappingDisplay::MapEls&lt; T &gt;::Tracking</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a73ef1ddb7c0abd7188ecb5e87d82c375">VelocityRange::velEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a4de7ff1d1691d9628556f8786b41e140">MappingDisplay::MapEls&lt; T &gt;::VelEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#acfa2c1a99caa5a718c9fbf3f58ea87fe">MappingDisplay::MapEls&lt; T &gt;::VelFadeEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a38733aa5d5019667ec835ec9f7305b28">MappingDisplay::MapEls&lt; T &gt;::VelFadeStart</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1f512238c65076e89ec0cc1a3ed4ab47">Zone::ZoneMappingData::velocityRange</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a537ffb9fb59eed2d45e57fee7203a096">VelocityRange::velStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a45825d99369f203d0dbc7e1b748d43cc">MappingDisplay::MapEls&lt; T &gt;::VelStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a657d25b4cbbf4205ffb4df825ca8eb60">MappingDisplay::zoneHeader</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ab30ab701d3a94912bc60cd3123ca6f4c">MappingDisplay::zoneLayoutViewport</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1connectors.html#a4cdcc23a50ee74fdd8d96e156312f9e7">scxt::ui::connectors::addGuiStepBeforeSend()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a31bef58f966d97b1ace9bd3a58ffd9a6">Zone::ZoneMappingData::amplitude</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a0512fee98d3cb89f0e8d301d03794ff0">MappingDisplay::applyAbsoluteToSelectedZones()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9bffa4d2063c39185e00a354736fc704">MappingDisplay::applyDeltaToSelectedZones()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a5cc0593a59af32bafc840d9a8a05822d">KeyboardRange::fadeEnd</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a5cc0593a59af32bafc840d9a8a05822d">VelocityRange::fadeEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#af3de6b32c83ea2c43a3540240c5e0276">MappingDisplay::MapEls&lt; T &gt;::FadeEnd</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a3f802c55496991b9ab7f8456d815bb78">KeyboardRange::fadeStart</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a3f802c55496991b9ab7f8456d815bb78">VelocityRange::fadeStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aa143a6075d08fd3b0f60ba3bfca4cc1f">MappingDisplay::MapEls&lt; T &gt;::FadeStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aca7ecf19807211f20725fa1569c82e05">MappingDisplay::floatAttachments</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#af2ec6bae12fe8a4ac1207d65e875b973">MappingDisplay::glyphs</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a3dd818bf605e2299e9b6a62ab54a96b1">MappingDisplay::intAttachments</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8daf1be965f4a5c13607fd94c1ebbe84259">Zone::KEY_FADE_END</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da369124d6232d58bc87344247c54f2e87">Zone::KEY_FADE_START</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da405b0ec06abce121e66d4c0d2b5ac185">Zone::KEY_RANGE_END</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8dab2e8020d6fcd02b353aa27ba5c012dbf">Zone::KEY_RANGE_START</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a50c2886c79fb8d6f80ec462d896a1ca0">MappingDisplay::keyboard</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aa2e6e643a476bf86192c6f5f1df50fc7">Zone::ZoneMappingData::keyboardRange</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a35ace404aa7ccc6d69cef60dbed0db00">KeyboardRange::keyEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a7371329d78dbdac3ebb7aa307819a36d">MappingDisplay::MapEls&lt; T &gt;::KeyEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860ac73ef72ecd852fc19b07cea8d941d3d3">MappingDisplay::KEYRANGE_CHANGED</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f">KeyboardRange::keyStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#ac7775f74d72ad3a092032c3155a03d32">MappingDisplay::MapEls&lt; T &gt;::KeyStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a3f870180803cdee56047c6119a24b4cc">MappingDisplay::labels</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a2d1261ebb3c85632177a27820761d771">MappingDisplay::MapEls&lt; T &gt;::Level</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade7f3f388c3fe53610ff35961b5b4e9e">MappingDisplay::mappingView</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a7929a5eaa93e4e460a45940bfc087be7">MappingDisplay::mappingZones</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a7363ff46e3c38cb98a41c549f8ce2634">Zone::ZoneMappingData::pan</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aaf667f7c1778326ac235ec1d9c88a3b9">MappingDisplay::MapEls&lt; T &gt;::Pan</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1cc3b4d370625a856e41bce8eb26640b">Zone::ZoneMappingData::pbDown</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#acd351809b37cdb8780913a76ab5029fc">MappingDisplay::MapEls&lt; T &gt;::PBDown</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#adc3abe36fe849a46d6fb43ff916342d3">Zone::ZoneMappingData::pbUp</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a6e7bdaa4e1983ea14c04114f95cfa507">MappingDisplay::MapEls&lt; T &gt;::PBUp</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a758af25d832a01242cf02c0268a6c118">MappingDisplay::MapEls&lt; T &gt;::Pitch</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#af698b1ed7ee6972e701fa13bd3143d2e">Zone::ZoneMappingData::pitchOffset</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#aeade06da0343d6d48ffd5f8c2c54c47c">MappingDisplay::MapEls&lt; T &gt;::RootKey</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade2abf9fadd0bf1d725990b3d573d210">MappingDisplay::textEds</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aeabdff6a226c85d14aa058b75aa7ce10">Zone::ZoneMappingData::tracking</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a62b4d16e554ce79c08f4e493d0bf72e8">MappingDisplay::MapEls&lt; T &gt;::Tracking</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8dac69da6caad10c98efbd7ffc9f37b5938">Zone::VEL_FADE_END</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da76a540819641c9ae9cff2bb52ad1d3c1">Zone::VEL_FADE_START</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8dafbe91be19570ea89c5a0d2948297164d">Zone::VEL_RANGE_END</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da9708fc5b04a039d7bf7680e4b0eebb9f">Zone::VEL_RANGE_START</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a73ef1ddb7c0abd7188ecb5e87d82c375">VelocityRange::velEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a4de7ff1d1691d9628556f8786b41e140">MappingDisplay::MapEls&lt; T &gt;::VelEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#acfa2c1a99caa5a718c9fbf3f58ea87fe">MappingDisplay::MapEls&lt; T &gt;::VelFadeEnd</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a38733aa5d5019667ec835ec9f7305b28">MappingDisplay::MapEls&lt; T &gt;::VelFadeStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a15f4a826bd3a972cf9b816ee3d342aea">MappingDisplay::VELOCITY_CHANGED</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1f512238c65076e89ec0cc1a3ed4ab47">Zone::ZoneMappingData::velocityRange</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a537ffb9fb59eed2d45e57fee7203a096">VelocityRange::velStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a45825d99369f203d0dbc7e1b748d43cc">MappingDisplay::MapEls&lt; T &gt;::VelStart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a657d25b4cbbf4205ffb4df825ca8eb60">MappingDisplay::zoneHeader</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ab30ab701d3a94912bc60cd3123ca6f4c">MappingDisplay::zoneLayoutViewport</a>.</p>
 
 </div>
 </div>
@@ -420,7 +454,7 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade7f3f388c3fe53610ff35961b5b4e9e">MappingDisplay::mappingView</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutDisplay::mouseDrag()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutKeyboard::mouseDrag()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutKeyboard::mouseDrag()</a>.</p>
 
 </div>
 </div>
@@ -902,6 +936,182 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9bffa4d2063c39185e00a354736fc704" name="a9bffa4d2063c39185e00a354736fc704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bffa4d2063c39185e00a354736fc704">&#9670;&#160;</a></span>applyDeltaToSelectedZones()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860">MappingDisplay::DeltaResult</a> applyDeltaToSelectedZones </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a>&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>deltaX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>deltaY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateLead</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ad114ac46538f701ba43c95dfbed34afd">MappingDisplay::adjustDeltasToMakeSureTheyWillFit()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae5212687c05b7bafc8637f8b140565bf">Zone::applyChange()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aff0ea3eabe547dc1a12799db99946217">MappingDisplay::evaluateCanApplyUISide()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8e2f1ec67e93de7517eed468e0ac3715">SCXTEditor::isSelected()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860ac73ef72ecd852fc19b07cea8d941d3d3">MappingDisplay::KEYRANGE_CHANGED</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ade7f3f388c3fe53610ff35961b5b4e9e">MappingDisplay::mappingView</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a7fb0c1cca10ff57ae7aa3878ba530fbd">MappingDisplay::NO_CHANGE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ad21003aa91956f8c56231795658a8b95">MappingDisplay::summary</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a15f4a826bd3a972cf9b816ee3d342aea">MappingDisplay::VELOCITY_CHANGED</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ae3ae89e871814e11941ef35658b9d0c6">MappingDisplay::MappingDisplay()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutDisplay::mouseDrag()</a>.</p>
+
+</div>
+</div>
+<a id="a0512fee98d3cb89f0e8d301d03794ff0" name="a0512fee98d3cb89f0e8d301d03794ff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0512fee98d3cb89f0e8d301d03794ff0">&#9670;&#160;</a></span>applyAbsoluteToSelectedZones()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool applyAbsoluteToSelectedZones </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a>&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateLead</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a408b1d4bb09c421a3238f0dac7154275">Zone::canApplyAbsoluteBoundEdit()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8e2f1ec67e93de7517eed468e0ac3715">SCXTEditor::isSelected()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ad21003aa91956f8c56231795658a8b95">MappingDisplay::summary</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ae3ae89e871814e11941ef35658b9d0c6">MappingDisplay::MappingDisplay()</a>.</p>
+
+</div>
+</div>
+<a id="aff0ea3eabe547dc1a12799db99946217" name="aff0ea3eabe547dc1a12799db99946217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0ea3eabe547dc1a12799db99946217">&#9670;&#160;</a></span>evaluateCanApplyUISide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool evaluateCanApplyUISide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a>&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deltaX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deltaY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a85eaeb82aefe43ac24153d75a24e972c">Zone::canApplyChange()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8e2f1ec67e93de7517eed468e0ac3715">SCXTEditor::isSelected()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ad21003aa91956f8c56231795658a8b95">MappingDisplay::summary</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9bffa4d2063c39185e00a354736fc704">MappingDisplay::applyDeltaToSelectedZones()</a>.</p>
+
+</div>
+</div>
+<a id="ad114ac46538f701ba43c95dfbed34afd" name="ad114ac46538f701ba43c95dfbed34afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad114ac46538f701ba43c95dfbed34afd">&#9670;&#160;</a></span>adjustDeltasToMakeSureTheyWillFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void adjustDeltasToMakeSureTheyWillFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">engine::Zone::ChangeDimension</a>&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>deltaX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>deltaY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">engine::KeyboardRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>kr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">engine::VelocityRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>vr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da405b0ec06abce121e66d4c0d2b5ac185">Zone::KEY_RANGE_END</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8dab2e8020d6fcd02b353aa27ba5c012dbf">Zone::KEY_RANGE_START</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#a35ace404aa7ccc6d69cef60dbed0db00">KeyboardRange::keyEnd</a>, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html#ad845463090e55df5626f0a700c31f49f">KeyboardRange::keyStart</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da6eeafc2d7bca84749caf545d0d91affa">Zone::MOVE_CTR</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8dafbe91be19570ea89c5a0d2948297164d">Zone::VEL_RANGE_END</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8da9708fc5b04a039d7bf7680e4b0eebb9f">Zone::VEL_RANGE_START</a>, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a73ef1ddb7c0abd7188ecb5e87d82c375">VelocityRange::velEnd</a>, and <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html#a537ffb9fb59eed2d45e57fee7203a096">VelocityRange::velStart</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9bffa4d2063c39185e00a354736fc704">MappingDisplay::applyDeltaToSelectedZones()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab30ab701d3a94912bc60cd3123ca6f4c" name="ab30ab701d3a94912bc60cd3123ca6f4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab30ab701d3a94912bc60cd3123ca6f4c">&#9670;&#160;</a></span>zoneLayoutViewport</h2>
@@ -1115,7 +1325,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a1dc1410f30069052c4906830fbd69ff0">MappingDisplay::mappingChangedFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ae3ae89e871814e11941ef35658b9d0c6">MappingDisplay::MappingDisplay()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a7573082fd3086ba3775b602db61290bb">ZoneLayoutKeyboard::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutDisplay::mouseDrag()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutKeyboard::mouseDrag()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a4f2c219a2cbbd6b61e7c41564dac6169">ZoneLayoutKeyboard::paint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9bffa4d2063c39185e00a354736fc704">MappingDisplay::applyDeltaToSelectedZones()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a1dc1410f30069052c4906830fbd69ff0">MappingDisplay::mappingChangedFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ae3ae89e871814e11941ef35658b9d0c6">MappingDisplay::MappingDisplay()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a7573082fd3086ba3775b602db61290bb">ZoneLayoutKeyboard::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a09d58428ae7c3742bb1a5f1f3ed827b7">ZoneLayoutKeyboard::mouseDrag()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutKeyboard.html#a4f2c219a2cbbd6b61e7c41564dac6169">ZoneLayoutKeyboard::paint()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a1c3c026928214ec0a144db9cc94abc75">ZoneLayoutDisplay::updateCacheFromDisplay()</a>.</p>
 
 </div>
 </div>
@@ -1195,7 +1405,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a4064485ba78fbbaead763a7c2008b3e0">ZoneLayoutDisplay::createEmptyZoneAt()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a6db7490d94b7b9b0ca7a2c81024f2c6e">ZoneLayoutDisplay::mappingWasReset()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a7573082fd3086ba3775b602db61290bb">ZoneLayoutDisplay::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a6eabfe70d2d9352ed41a16e2882e1645">ZoneLayoutDisplay::mouseUp()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a4f2c219a2cbbd6b61e7c41564dac6169">ZoneLayoutDisplay::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a4ecf6e3af74653b21c4037ecf86ecd51">MappingDisplay::setGroupZoneMappingSummary()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aa4607f2c12da3fc89586c0c7e21d9abf">MappingDisplay::setLeadSelection()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#af8a5693e6853312ce65f28188cd8c16c">ZoneLayoutDisplay::showZoneMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a0512fee98d3cb89f0e8d301d03794ff0">MappingDisplay::applyAbsoluteToSelectedZones()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a9bffa4d2063c39185e00a354736fc704">MappingDisplay::applyDeltaToSelectedZones()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a4064485ba78fbbaead763a7c2008b3e0">ZoneLayoutDisplay::createEmptyZoneAt()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aff0ea3eabe547dc1a12799db99946217">MappingDisplay::evaluateCanApplyUISide()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a6db7490d94b7b9b0ca7a2c81024f2c6e">ZoneLayoutDisplay::mappingWasReset()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a7573082fd3086ba3775b602db61290bb">ZoneLayoutDisplay::mouseDown()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a6eabfe70d2d9352ed41a16e2882e1645">ZoneLayoutDisplay::mouseUp()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a4f2c219a2cbbd6b61e7c41564dac6169">ZoneLayoutDisplay::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a4ecf6e3af74653b21c4037ecf86ecd51">MappingDisplay::setGroupZoneMappingSummary()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aa4607f2c12da3fc89586c0c7e21d9abf">MappingDisplay::setLeadSelection()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#af8a5693e6853312ce65f28188cd8c16c">ZoneLayoutDisplay::showZoneMenu()</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1416,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 7 2026 23:45:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Feb 8 2026 00:52:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
