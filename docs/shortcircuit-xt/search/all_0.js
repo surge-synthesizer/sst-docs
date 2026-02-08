@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A']]],
+  ['a_0',['a',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a']]],
   ['a1_1',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a1a_2',['a1A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a4cb4d419a0ae7aa614224fc63aaedf91',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['a1m_3',['a1M',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae249681fe8195a228d7a011cf493b154',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
@@ -226,7 +226,7 @@ var searchData=
   ['audioportsinfo_223',['audioPortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2b8972c9640510bf30e17b3e67e6936e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['audiothreadcallback_224',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
   ['audiothreadid_225',['audioThreadId',['../structscxt_1_1ThreadingChecker.html#a9f0633b68defadb5d562ea9a6407f79e',1,'scxt::ThreadingChecker']]],
-  ['audiothreadprovider_226',['audiothreadprovider',['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html#ac260c15a54e1a7be9fd4cbf553b6950b',1,'scxt::clients::console_ui::AudioThreadProvider::AudioThreadProvider()'],['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a4b9a4c7414db5bd004eab36473f3cc8a',1,'scxt::clients::console_ui::ConsoleHarness::audioThreadProvider'],['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'AudioThreadProvider']]],
+  ['audiothreadprovider_226',['audiothreadprovider',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a4b9a4c7414db5bd004eab36473f3cc8a',1,'scxt::clients::console_ui::ConsoleHarness::audioThreadProvider'],['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html#ac260c15a54e1a7be9fd4cbf553b6950b',1,'scxt::clients::console_ui::AudioThreadProvider::AudioThreadProvider()'],['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'AudioThreadProvider']]],
   ['audiotoserialization_227',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]],
   ['audiotoserializationmessage_5ft_228',['audioToSerializationMessage_t',['../structscxt_1_1messaging_1_1MessageController.html#a72fc37c0a93198d703acfc8783ff486e',1,'scxt::messaging::MessageController']]],
   ['audiotoserializationmessageid_229',['AudioToSerializationMessageId',['../namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663ee',1,'scxt::messaging::audio']]],
