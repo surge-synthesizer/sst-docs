@@ -9,5 +9,6 @@ var searchData=
   ['kernelprocessor_6',['KernelProcessor',['../structscxt_1_1dsp_1_1KernelProcessor.html',1,'scxt::dsp']]],
   ['keybindings_7',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html',1,'scxt::ui::app']]],
   ['keyboardrange_8',['KeyboardRange',['../structscxt_1_1engine_1_1KeyboardRange.html',1,'scxt::engine']]],
-  ['kloc_9',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
+  ['keygroup_9',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
+  ['kloc_10',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
 ];

@@ -5,7 +5,7 @@ var searchData=
   ['wassilent_2',['wasSilent',['../structscxt_1_1engine_1_1Bus.html#aed1cb2175f1660300f747666fb27cb99',1,'scxt::engine::Bus']]],
   ['wav_5ffile_3',['WAV_FILE',['../structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6',1,'scxt::sample::Sample']]],
   ['wavedatastart_4',['waveDataStart',['../structscxt_1_1exs__support_1_1EXSSample.html#a4f36089fa0a4277748b1cc945939d5a1',1,'scxt::exs_support::EXSSample']]],
-  ['waveform_5',['waveform',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1ZoomableWaveform.html#a86a5106996c966ef11e676174f8373c6',1,'scxt::ui::app::edit_screen::VariantDisplay::ZoomableWaveform']]],
+  ['waveform_5',['waveform',['../structscxt_1_1akai__support_1_1GLOBAL__LFO.html#aad003a56ef13753b8cd1af327c19e419',1,'scxt::akai_support::GLOBAL_LFO::waveform'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1ZoomableWaveform.html#a86a5106996c966ef11e676174f8373c6',1,'scxt::ui::app::edit_screen::VariantDisplay::ZoomableWaveform::waveform']]],
   ['waveforms_6',['waveforms',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a55259b18e03ee99493e19b14db00bbe5',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['waveformstabbedgroup_7',['waveformsTabbedGroup',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#afa3bcf4918912c8b3425b28f7913d0f9',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['waveformviewport_8',['waveformViewport',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1ZoomableWaveform.html#aa2aa152f89d077fab1c0d69fa9cf09b3',1,'scxt::ui::app::edit_screen::VariantDisplay::ZoomableWaveform']]],
