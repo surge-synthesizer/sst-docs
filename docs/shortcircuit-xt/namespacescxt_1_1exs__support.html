@@ -106,6 +106,8 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html">EXSBlock</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSCompoundElement.html">EXSCompoundElement</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSGroup.html">EXSGroup</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1exs__support_1_1EXSInfo.html">EXSInfo</a></td></tr>
@@ -132,6 +134,10 @@ Functions</h2></td></tr>
 <tr class="separator:a4d782b7f8989e89f0467b64f17a42bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a266458bc003355872a1067c59515dc61" id="r_a266458bc003355872a1067c59515dc61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1exs__support_1_1EXSInfo.html">EXSInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS</a> (const fs::path &amp;p)</td></tr>
 <tr class="separator:a266458bc003355872a1067c59515dc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93c696189b6965dc2b5484ca0cdb7909" id="r_a93c696189b6965dc2b5484ca0cdb7909"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1exs__support_1_1EXSCompoundElement.html">EXSCompoundElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a93c696189b6965dc2b5484ca0cdb7909">getEXSCompoundElements</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:a93c696189b6965dc2b5484ca0cdb7909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafaede31d80e654133a38f1f0321c567" id="r_aafaede31d80e654133a38f1f0321c567"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structscxt_1_1SampleID.html">scxt::SampleID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#aafaede31d80e654133a38f1f0321c567">loadSampleFromEXS</a> (const fs::path &amp;p, int sampleIndex, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html">sample::SampleManager</a> *sm)</td></tr>
+<tr class="separator:aafaede31d80e654133a38f1f0321c567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758977d1dbfab9b522420f1c60407f08" id="r_a758977d1dbfab9b522420f1c60407f08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">importEXS</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a758977d1dbfab9b522420f1c60407f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adade0ba5d7ce9807202f09bd22c1fc3f" id="r_adade0ba5d7ce9807202f09bd22c1fc3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f">dumpEXSToLog</a> (const fs::path &amp;p)</td></tr>
@@ -201,7 +207,67 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a7dc551acf08d4bd155a5e505d9c669dd">EXSBlock::TYPE_GROUP</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#ae86d923de0026293a22487c4a66b024b">EXSBlock::TYPE_INSTRUMENT</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#aec5c89470612a14060a57cdb0370d022">EXSBlock::TYPE_PARAMS</a>, <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a7b3fce516052648778bfe3d61083fb6d">EXSBlock::TYPE_SAMPLE</a>, and <a class="el" href="structscxt_1_1exs__support_1_1EXSBlock.html#a276da218996e55a2676f9d79efe57f30">EXSBlock::TYPE_ZONE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f">dumpEXSToLog()</a>, and <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">importEXS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#adade0ba5d7ce9807202f09bd22c1fc3f">dumpEXSToLog()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a93c696189b6965dc2b5484ca0cdb7909">getEXSCompoundElements()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">importEXS()</a>, and <a class="el" href="namespacescxt_1_1exs__support.html#aafaede31d80e654133a38f1f0321c567">loadSampleFromEXS()</a>.</p>
+
+</div>
+</div>
+<a id="a93c696189b6965dc2b5484ca0cdb7909" name="a93c696189b6965dc2b5484ca0cdb7909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93c696189b6965dc2b5484ca0cdb7909">&#9670;&#160;</a></span>getEXSCompoundElements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structscxt_1_1exs__support_1_1EXSCompoundElement.html">EXSCompoundElement</a> &gt; getEXSCompoundElements </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sample_1_1compound.html#aa1920e20379f2ac2fe9f3bfe479159f2">scxt::sample::compound::getEXSCompoundList()</a>.</p>
+
+</div>
+</div>
+<a id="aafaede31d80e654133a38f1f0321c567" name="aafaede31d80e654133a38f1f0321c567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafaede31d80e654133a38f1f0321c567">&#9670;&#160;</a></span>loadSampleFromEXS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structscxt_1_1SampleID.html">scxt::SampleID</a> &gt; loadSampleFromEXS </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1sample_1_1SampleManager.html">sample::SampleManager</a> *&#160;</td>
+          <td class="paramname"><em>sm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a341f5711678b9651d6bbb4a5172dbe51">SampleManager::loadSampleByPath()</a>, and <a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>.</p>
 
 </div>
 </div>
@@ -262,7 +328,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 9 2026 22:23:08 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Feb 9 2026 23:36:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

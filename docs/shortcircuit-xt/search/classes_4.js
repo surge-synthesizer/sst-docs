@@ -2,7 +2,7 @@ var searchData=
 [
   ['editscreen_0',['EditScreen',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html',1,'scxt::ui::app::edit_screen']]],
   ['eg_1',['EG',['../structscxt_1_1akai__support_1_1EG.html',1,'scxt::akai_support']]],
-  ['egtarget_2',['egtarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1EGTarget.html',1,'GroupMatrixEndpoints::EGTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1EGTarget.html',1,'MatrixEndpoints::EGTarget']]],
+  ['egtarget_2',['egtarget',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1EGTarget.html',1,'MatrixEndpoints::EGTarget'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1EGTarget.html',1,'GroupMatrixEndpoints::EGTarget']]],
   ['egtargetendpointdata_3',['EGTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['egtargetendpointdata_3c_20tg_2c_20_27envg_27_3e_4',['EGTargetEndpointData&lt; TG, &apos;envg&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['egtargetendpointdata_3c_20tg_2c_20_27genv_27_3e_5',['EGTargetEndpointData&lt; TG, &apos;genv&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html',1,'scxt::modulation::shared']]],
@@ -26,11 +26,12 @@ var searchData=
   ['eqnbanddisplay_23',['EqNBandDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqNBandDisplay.html',1,'scxt::ui::app::edit_screen']]],
   ['exception_24',['Exception',['../structscxt_1_1browser_1_1SQL_1_1Exception.html',1,'scxt::browser::SQL']]],
   ['exsblock_25',['EXSBlock',['../structscxt_1_1exs__support_1_1EXSBlock.html',1,'scxt::exs_support']]],
-  ['exsgroup_26',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html',1,'scxt::exs_support']]],
-  ['exsinfo_27',['EXSInfo',['../structscxt_1_1exs__support_1_1EXSInfo.html',1,'scxt::exs_support']]],
-  ['exsinstrument_28',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
-  ['exsobject_29',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
-  ['exsparameters_30',['EXSParameters',['../structscxt_1_1exs__support_1_1EXSParameters.html',1,'scxt::exs_support']]],
-  ['exssample_31',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
-  ['exszone_32',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
+  ['exscompoundelement_26',['EXSCompoundElement',['../structscxt_1_1exs__support_1_1EXSCompoundElement.html',1,'scxt::exs_support']]],
+  ['exsgroup_27',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html',1,'scxt::exs_support']]],
+  ['exsinfo_28',['EXSInfo',['../structscxt_1_1exs__support_1_1EXSInfo.html',1,'scxt::exs_support']]],
+  ['exsinstrument_29',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html',1,'scxt::exs_support']]],
+  ['exsobject_30',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html',1,'scxt::exs_support']]],
+  ['exsparameters_31',['EXSParameters',['../structscxt_1_1exs__support_1_1EXSParameters.html',1,'scxt::exs_support']]],
+  ['exssample_32',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html',1,'scxt::exs_support']]],
+  ['exszone_33',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html',1,'scxt::exs_support']]]
 ];

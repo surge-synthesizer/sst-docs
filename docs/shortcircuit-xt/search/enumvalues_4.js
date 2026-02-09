@@ -9,5 +9,6 @@ var searchData=
   ['env_6',['ENV',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a90a589408899045d76b41b0b3520afaf',1,'scxt::modulation::shared::HasModulators']]],
   ['error_5fbus_7',['ERROR_BUS',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8abc5f80341be466fd1044ceb745d8d9f8',1,'scxt::engine']]],
   ['error_5fsentinel_8',['ERROR_SENTINEL',['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aaf3ff67fee2b9111b01f3533e31b86fc0',1,'scxt::sample::compound::CompoundElement']]],
-  ['expression_9',['EXPRESSION',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9aea8ec660a4ff1a0cf378ac911be7efb2',1,'scxt::voice::Voice']]]
+  ['expression_9',['EXPRESSION',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9aea8ec660a4ff1a0cf378ac911be7efb2',1,'scxt::voice::Voice']]],
+  ['exs_5ffile_10',['EXS_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020',1,'scxt::sample::Sample']]]
 ];

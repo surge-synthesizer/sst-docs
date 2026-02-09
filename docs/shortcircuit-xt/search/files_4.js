@@ -11,7 +11,8 @@ var searchData=
   ['equal_2ecpp_8',['equal.cpp',['../equal_8cpp.html',1,'']]],
   ['equal_2eh_9',['equal.h',['../equal_8h.html',1,'']]],
   ['exs_2ddump_2ecpp_10',['exs-dump.cpp',['../exs-dump_8cpp.html',1,'']]],
-  ['exs_5fimport_2ecpp_11',['exs_import.cpp',['../exs__import_8cpp.html',1,'']]],
-  ['exs_5fimport_2eh_12',['exs_import.h',['../exs__import_8h.html',1,'']]],
-  ['extensions_2eh_13',['extensions.h',['../extensions_8h.html',1,'']]]
+  ['exs_5fcompound_5ffile_5fimpl_2ecpp_11',['exs_compound_file_impl.cpp',['../exs__compound__file__impl_8cpp.html',1,'']]],
+  ['exs_5fimport_2ecpp_12',['exs_import.cpp',['../exs__import_8cpp.html',1,'']]],
+  ['exs_5fimport_2eh_13',['exs_import.h',['../exs__import_8h.html',1,'']]],
+  ['extensions_2eh_14',['extensions.h',['../extensions_8h.html',1,'']]]
 ];
