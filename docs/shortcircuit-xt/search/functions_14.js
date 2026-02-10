@@ -9,7 +9,7 @@ var searchData=
   ['unstreamguard_6',['UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#ad37d7c7b1f36b5eaa9ee3d1d100ef2ad',1,'scxt::engine::Engine::UnstreamGuard']]],
   ['unstreampartstate_7',['unstreamPartState',['../namespacescxt_1_1json.html#a2be127744ac9c891a751093b8d1bcd6d',1,'scxt::json']]],
   ['unstreampathfromstring_8',['unstreamPathFromString',['../namespacescxt_1_1json.html#a081e163b3806a977626b609c2d6b7d41',1,'scxt::json']]],
-  ['updateaudiorunning_9',['updateAudioRunning',['../structscxt_1_1messaging_1_1MessageController.html#ab6e73bf1c4b71c5520bda8687ac6f73d',1,'scxt::messaging::MessageController']]],
+  ['updateaudiorunning_9',['updateAudioRunning',['../structscxt_1_1messaging_1_1MessageController.html#ac5e274e5a2dde3652a9a515dee54ccc8',1,'scxt::messaging::MessageController']]],
   ['updatecachefromdisplay_10',['updateCacheFromDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a1c3c026928214ec0a144db9cc94abc75',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
   ['updateclientactivitynotification_11',['updateClientActivityNotification',['../structscxt_1_1messaging_1_1MessageController.html#a581b3694e553349f9a30aad7d740f118',1,'scxt::messaging::MessageController']]],
   ['updatedestination_12',['updateDestination',['../structscxt_1_1engine_1_1Part_1_1MacroUILagHandler.html#ad388f2f606b8de01186d779a4e6e193c',1,'scxt::engine::Part::MacroUILagHandler']]],
