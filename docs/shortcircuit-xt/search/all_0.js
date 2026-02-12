@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A']]],
+  ['a_0',['a',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a']]],
   ['a1_1',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a1a_2',['a1A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a4cb4d419a0ae7aa614224fc63aaedf91',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['a1m_3',['a1M',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae249681fe8195a228d7a011cf493b154',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
@@ -239,7 +239,7 @@ var searchData=
   ['audioportsinfo_236',['audioPortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2b8972c9640510bf30e17b3e67e6936e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['audiothreadcallback_237',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
   ['audiothreadid_238',['audioThreadId',['../structscxt_1_1ThreadingChecker.html#a9f0633b68defadb5d562ea9a6407f79e',1,'scxt::ThreadingChecker']]],
-  ['audiothreadprovider_239',['audiothreadprovider',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a4b9a4c7414db5bd004eab36473f3cc8a',1,'scxt::clients::console_ui::ConsoleHarness::audioThreadProvider'],['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html#ac260c15a54e1a7be9fd4cbf553b6950b',1,'scxt::clients::console_ui::AudioThreadProvider::AudioThreadProvider()'],['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'AudioThreadProvider']]],
+  ['audiothreadprovider_239',['audiothreadprovider',['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html#ac260c15a54e1a7be9fd4cbf553b6950b',1,'scxt::clients::console_ui::AudioThreadProvider::AudioThreadProvider()'],['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a4b9a4c7414db5bd004eab36473f3cc8a',1,'scxt::clients::console_ui::ConsoleHarness::audioThreadProvider'],['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'AudioThreadProvider']]],
   ['audiotoserialization_240',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]],
   ['audiotoserializationmessage_5ft_241',['audioToSerializationMessage_t',['../structscxt_1_1messaging_1_1MessageController.html#a72fc37c0a93198d703acfc8783ff486e',1,'scxt::messaging::MessageController']]],
   ['audiotoserializationmessageid_242',['AudioToSerializationMessageId',['../namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663ee',1,'scxt::messaging::audio']]],
@@ -252,7 +252,7 @@ var searchData=
   ['auxattachments_249',['auxAttachments',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5c173d6bb580abb6f7ba6914a123ce70',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['auxbusses_250',['auxBusses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#a46ef26c886fc445b54d3c4c071ff900d',1,'scxt::engine::Patch::Busses']]],
   ['auxlabel_251',['auxLabel',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a62286cab4aa2369c58e0921c8fdc07c3',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['auxlocation_252',['auxlocation',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#ab26241814dbcea6b2a648b59e71798e4',1,'scxt::engine::Bus::BusSendStorage::auxLocation'],['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a2a79863b610e64afc88282f0dee0f411',1,'scxt::engine::Bus::BusSendStorage::AuxLocation']]],
+  ['auxlocation_252',['auxlocation',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a2a79863b610e64afc88282f0dee0f411',1,'scxt::engine::Bus::BusSendStorage::AuxLocation'],['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#ab26241814dbcea6b2a648b59e71798e4',1,'scxt::engine::Bus::BusSendStorage::auxLocation']]],
   ['auxoutputpostvca_253',['auxoutputPostVCA',['../structscxt_1_1engine_1_1Bus.html#a0aae9dc175e62a8887f90bad062a64ec',1,'scxt::engine::Bus']]],
   ['auxoutputprefx_254',['auxoutputPreFX',['../structscxt_1_1engine_1_1Bus.html#a9d6b1733629e9d4255b6a79b6bc454d2',1,'scxt::engine::Bus']]],
   ['auxoutputprevca_255',['auxoutputPreVCA',['../structscxt_1_1engine_1_1Bus.html#aa0a981f8c66c55403f4983074660a43b',1,'scxt::engine::Bus']]],
