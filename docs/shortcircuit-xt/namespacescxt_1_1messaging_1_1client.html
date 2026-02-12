@@ -137,6 +137,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a574b718fce2749e383b52ea87a1f398b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42f7d32f64cdd9097b4766ccf1c82f84" id="r_a42f7d32f64cdd9097b4766ccf1c82f84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a42f7d32f64cdd9097b4766ccf1c82f84">tuningStatusPayload_t</a> = std::pair&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278">engine::Engine::TuningMode</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ab1bb276938a2990feca1b21a38aea2a6">engine::Engine::TuningZoneResolution</a> &gt;</td></tr>
 <tr class="separator:a42f7d32f64cdd9097b4766ccf1c82f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6376ce5d87e2c23fc6e7cf2f15e6d2e" id="r_ab6376ce5d87e2c23fc6e7cf2f15e6d2e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6376ce5d87e2c23fc6e7cf2f15e6d2e">omniFlavor_t</a> = <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">scxt::engine::Engine::OmniFlavor</a></td></tr>
+<tr class="separator:ab6376ce5d87e2c23fc6e7cf2f15e6d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4761c02197a8760f0c1f2818b8b7e88" id="r_af4761c02197a8760f0c1f2818b8b7e88"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af4761c02197a8760f0c1f2818b8b7e88">omniFlavorUpdate_t</a> = std::pair&lt; int, bool &gt;</td></tr>
+<tr class="separator:af4761c02197a8760f0c1f2818b8b7e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b706ab3d3f11d930fa29e798678088b" id="r_a5b706ab3d3f11d930fa29e798678088b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b">groupOutputInfoUpdate_t</a> = std::pair&lt; bool, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">engine::Group::GroupOutputInfo</a> &gt;</td></tr>
 <tr class="separator:a5b706ab3d3f11d930fa29e798678088b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa857f6c73ca043879d7cb3d7b1af2d4" id="r_aaa857f6c73ca043879d7cb3d7b1af2d4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aaa857f6c73ca043879d7cb3d7b1af2d4">muteOrSoloGroup_t</a> = std::tuple&lt; int32_t, int32_t, bool, bool, bool &gt;</td></tr>
@@ -344,16 +348,17 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879abe5afa1afc7cad1b8d44037cb30ed31d">c2s_set_macro_full_state</a>
 , <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a041ef4576400121a6cdbe46854e6ec98">c2s_set_macro_value</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6e1d1c078bc2609a64cfc73862e25923">c2s_set_omni_flavor</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af5d96734ff002b94a3ce475ed735a520">c2s_request_host_callback</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ad42c31162608729ee3903b3f767c114f">c2s_macro_begin_end_edit</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a01660e8b42f7535c8ef91924ee4c87a3">c2s_set_othertab_selection</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a18c23a001da74389dfe73ab5077e4ce2">c2s_send_full_part_config</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a01660e8b42f7535c8ef91924ee4c87a3">c2s_set_othertab_selection</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a18c23a001da74389dfe73ab5077e4ce2">c2s_send_full_part_config</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a82ef4e26a14494de230363dbc95cbd12">c2s_resolve_sample</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a4d2eeb10c4aafcfc0e827a82a95535ac">c2s_resolve_multiple_samples</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ac89efcf162d687ee845ebf091f7ffa37">c2s_initiate_midizone_action</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a2b64ee97e0a023853950031cc1ba9ce4">c2s_activate_next_part</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879ac89efcf162d687ee845ebf091f7ffa37">c2s_initiate_midizone_action</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a2b64ee97e0a023853950031cc1ba9ce4">c2s_activate_next_part</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a482d5e6ddb95160fd1c92dddb19b27eb">c2s_deactivate_part</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa7dc9db1a8a2bf3cf00854d63cb5b124">num_clientToSerializationMessages</a>
 <br />
@@ -403,6 +408,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640">s2c_send_missing_resolution_workitem_list</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba20a82662a629bef6892a44d9001f08b5">s2c_send_tuning_status</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119">s2c_update_omni_flavor</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba35ed5f173fdae24803228e887cd88dc9">num_serializationToClientMessages</a>
 <br />
  }</td></tr>
@@ -474,6 +480,12 @@ Functions</h2></td></tr>
 <tr class="separator:a4c86e46569635ec941201d5584a8e6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab068af113a444b1bdcbe1eedfcf33bb3" id="r_ab068af113a444b1bdcbe1eedfcf33bb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab068af113a444b1bdcbe1eedfcf33bb3">CLIENT_TO_SERIAL</a> (SetTuningMode, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879af6e7a626420f03e2725e19788d8e47ec">c2s_set_tuning_mode</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a42f7d32f64cdd9097b4766ccf1c82f84">tuningStatusPayload_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4c86e46569635ec941201d5584a8e6f6">applyTuningStatusPayload</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:ab068af113a444b1bdcbe1eedfcf33bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f480d859bcd708ac152a2ae867e0334" id="r_a2f480d859bcd708ac152a2ae867e0334"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2f480d859bcd708ac152a2ae867e0334">applyOmniFlavorPayload</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">omniFlavor_t</a> &amp;payload, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="separator:a2f480d859bcd708ac152a2ae867e0334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20eaeb6d6a1b46d5eb34b6f5b63e4f09" id="r_a20eaeb6d6a1b46d5eb34b6f5b63e4f09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a20eaeb6d6a1b46d5eb34b6f5b63e4f09">CLIENT_TO_SERIAL</a> (SetOmniFlavor, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6e1d1c078bc2609a64cfc73862e25923">c2s_set_omni_flavor</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">omniFlavor_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2f480d859bcd708ac152a2ae867e0334">applyOmniFlavorPayload</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="separator:a20eaeb6d6a1b46d5eb34b6f5b63e4f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af87c982e0578cef7590aa441b3d992d3" id="r_af87c982e0578cef7590aa441b3d992d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af87c982e0578cef7590aa441b3d992d3">SERIAL_TO_CLIENT</a> (UpdateOmniFlavor, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119">s2c_update_omni_flavor</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af4761c02197a8760f0c1f2818b8b7e88">omniFlavorUpdate_t</a>, onOmniFlavorFromEngine)</td></tr>
+<tr class="separator:af87c982e0578cef7590aa441b3d992d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb6bc3a39ca57af8edf1b50e0eb42614" id="r_acb6bc3a39ca57af8edf1b50e0eb42614"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#acb6bc3a39ca57af8edf1b50e0eb42614">SERIAL_TO_CLIENT</a> (GroupOutputInfoUpdated, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba65b0aafb5d5cebf9f083bf4cead9619e">s2c_update_group_output_info</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b">groupOutputInfoUpdate_t</a>, onGroupOutputInfoUpdated)</td></tr>
 <tr class="separator:acb6bc3a39ca57af8edf1b50e0eb42614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8aa3b435bcada4fc3d1c100c64b0b34" id="r_ad8aa3b435bcada4fc3d1c100c64b0b34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad8aa3b435bcada4fc3d1c100c64b0b34">SERIAL_TO_CLIENT</a> (SendGroupTriggerConditions, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7c2174a3f91989a675f5498616be64c1">s2c_send_group_trigger_conditions</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html">scxt::engine::GroupTriggerConditions</a>, onGroupTriggerConditions) <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a16bd5f38084ca2b2ce678e957fe30b55">CLIENT_TO_SERIAL_CONSTRAINED</a>(UpdateGroupOutputFloatValue</td></tr>
@@ -937,6 +949,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a42f7d32f64cdd9097b4766ccf1c82f84">tuningStatusPayload_t</a> =  std::pair&lt;<a class="el" href="structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278">engine::Engine::TuningMode</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ab1bb276938a2990feca1b21a38aea2a6">engine::Engine::TuningZoneResolution</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6376ce5d87e2c23fc6e7cf2f15e6d2e" name="ab6376ce5d87e2c23fc6e7cf2f15e6d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6376ce5d87e2c23fc6e7cf2f15e6d2e">&#9670;&#160;</a></span>omniFlavor_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">omniFlavor_t</a> =  <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">scxt::engine::Engine::OmniFlavor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4761c02197a8760f0c1f2818b8b7e88" name="af4761c02197a8760f0c1f2818b8b7e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4761c02197a8760f0c1f2818b8b7e88">&#9670;&#160;</a></span>omniFlavorUpdate_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af4761c02197a8760f0c1f2818b8b7e88">omniFlavorUpdate_t</a> =  std::pair&lt;int, bool&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1704,6 +1744,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879abab0f6a286c7fc43fbbb13eac0e03e65" name="a9a09962c6a54133102a903e0b71ec879abab0f6a286c7fc43fbbb13eac0e03e65"></a>c2s_silence_engine&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879abe5afa1afc7cad1b8d44037cb30ed31d" name="a9a09962c6a54133102a903e0b71ec879abe5afa1afc7cad1b8d44037cb30ed31d"></a>c2s_set_macro_full_state&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a041ef4576400121a6cdbe46854e6ec98" name="a9a09962c6a54133102a903e0b71ec879a041ef4576400121a6cdbe46854e6ec98"></a>c2s_set_macro_value&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a6e1d1c078bc2609a64cfc73862e25923" name="a9a09962c6a54133102a903e0b71ec879a6e1d1c078bc2609a64cfc73862e25923"></a>c2s_set_omni_flavor&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879af5d96734ff002b94a3ce475ed735a520" name="a9a09962c6a54133102a903e0b71ec879af5d96734ff002b94a3ce475ed735a520"></a>c2s_request_host_callback&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879ad42c31162608729ee3903b3f767c114f" name="a9a09962c6a54133102a903e0b71ec879ad42c31162608729ee3903b3f767c114f"></a>c2s_macro_begin_end_edit&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a09962c6a54133102a903e0b71ec879a01660e8b42f7535c8ef91924ee4c87a3" name="a9a09962c6a54133102a903e0b71ec879a01660e8b42f7535c8ef91924ee4c87a3"></a>c2s_set_othertab_selection&#160;</td><td class="fielddoc"></td></tr>
@@ -1764,6 +1805,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba47b5291ef79c471de47a74039fc1c0ff" name="a544ff326ddd6908ee4f7c19e8ba2a99ba47b5291ef79c471de47a74039fc1c0ff"></a>s2c_update_macro_value&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640" name="a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640"></a>s2c_send_missing_resolution_workitem_list&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba20a82662a629bef6892a44d9001f08b5" name="a544ff326ddd6908ee4f7c19e8ba2a99ba20a82662a629bef6892a44d9001f08b5"></a>s2c_send_tuning_status&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119" name="a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119"></a>s2c_update_omni_flavor&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a544ff326ddd6908ee4f7c19e8ba2a99ba35ed5f173fdae24803228e887cd88dc9" name="a544ff326ddd6908ee4f7c19e8ba2a99ba35ed5f173fdae24803228e887cd88dc9"></a>num_serializationToClientMessages&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -1807,7 +1849,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af970561511f150e57f80b31324f890fd" name="af970561511f150e57f80b31324f890fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af970561511f150e57f80b31324f890fd">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[1/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af970561511f150e57f80b31324f890fd">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[1/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1877,7 +1919,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2a7d774401f77491b06626de06ae35e8" name="a2a7d774401f77491b06626de06ae35e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a7d774401f77491b06626de06ae35e8">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[2/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7d774401f77491b06626de06ae35e8">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[2/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1919,7 +1961,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a24f0ce07b4ba77276b73fe1337ce3af7" name="a24f0ce07b4ba77276b73fe1337ce3af7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24f0ce07b4ba77276b73fe1337ce3af7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[3/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f0ce07b4ba77276b73fe1337ce3af7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[3/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1995,7 +2037,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa58153b78cfbe20b175749fe82e2cf09" name="aa58153b78cfbe20b175749fe82e2cf09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa58153b78cfbe20b175749fe82e2cf09">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[4/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa58153b78cfbe20b175749fe82e2cf09">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[4/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2065,7 +2107,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a98fcef2e17c22b9db8f787af659a88db" name="a98fcef2e17c22b9db8f787af659a88db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98fcef2e17c22b9db8f787af659a88db">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[5/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a98fcef2e17c22b9db8f787af659a88db">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[5/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2105,7 +2147,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4dee13cef28f3175774ae14aa2ee8137" name="a4dee13cef28f3175774ae14aa2ee8137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dee13cef28f3175774ae14aa2ee8137">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[1/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dee13cef28f3175774ae14aa2ee8137">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[1/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2181,7 +2223,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a00afa73d0895c467f3e7d6b70a3a488c" name="a00afa73d0895c467f3e7d6b70a3a488c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00afa73d0895c467f3e7d6b70a3a488c">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[6/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a00afa73d0895c467f3e7d6b70a3a488c">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[6/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2387,7 +2429,7 @@ template&lt;typename Client &gt; </div>
 </div>
 </div>
 <a id="a93812e2dfad3165a601234f1b9e7b299" name="a93812e2dfad3165a601234f1b9e7b299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93812e2dfad3165a601234f1b9e7b299">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[2/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a93812e2dfad3165a601234f1b9e7b299">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[2/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2495,7 +2537,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a0dac7ac025b9e6c6acc5454496c4515a" name="a0dac7ac025b9e6c6acc5454496c4515a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dac7ac025b9e6c6acc5454496c4515a">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[7/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dac7ac025b9e6c6acc5454496c4515a">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[7/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2535,7 +2577,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="aed4f0f97debee453cd73048e0739e952" name="aed4f0f97debee453cd73048e0739e952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4f0f97debee453cd73048e0739e952">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[3/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4f0f97debee453cd73048e0739e952">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[3/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2575,7 +2617,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a8d2fc34a9ec91e0d6ce304c91fea8cf9" name="a8d2fc34a9ec91e0d6ce304c91fea8cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d2fc34a9ec91e0d6ce304c91fea8cf9">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[4/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2fc34a9ec91e0d6ce304c91fea8cf9">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[4/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2651,7 +2693,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="af8b1c00d4de777c60f330793aba1861a" name="af8b1c00d4de777c60f330793aba1861a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8b1c00d4de777c60f330793aba1861a">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[8/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b1c00d4de777c60f330793aba1861a">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[8/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2721,7 +2763,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a82e1b272b07d26aa6ef833ecdbc6845c" name="a82e1b272b07d26aa6ef833ecdbc6845c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82e1b272b07d26aa6ef833ecdbc6845c">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[9/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82e1b272b07d26aa6ef833ecdbc6845c">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[9/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2761,7 +2803,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a8d61e593971f3b04a6996319425963b3" name="a8d61e593971f3b04a6996319425963b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d61e593971f3b04a6996319425963b3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[5/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d61e593971f3b04a6996319425963b3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[5/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2831,7 +2873,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab068af113a444b1bdcbe1eedfcf33bb3" name="ab068af113a444b1bdcbe1eedfcf33bb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab068af113a444b1bdcbe1eedfcf33bb3">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[10/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab068af113a444b1bdcbe1eedfcf33bb3">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[10/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2870,8 +2912,118 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 
 </div>
 </div>
+<a id="a2f480d859bcd708ac152a2ae867e0334" name="a2f480d859bcd708ac152a2ae867e0334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f480d859bcd708ac152a2ae867e0334">&#9670;&#160;</a></span>applyOmniFlavorPayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void applyOmniFlavorPayload </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">omniFlavor_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;&#160;</td>
+          <td class="paramname"><em>cont</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a94ce8ee8705719af5c3e6230917ad1b7">Engine::setOmniFlavor()</a>.</p>
+
+</div>
+</div>
+<a id="a20eaeb6d6a1b46d5eb34b6f5b63e4f09" name="a20eaeb6d6a1b46d5eb34b6f5b63e4f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20eaeb6d6a1b46d5eb34b6f5b63e4f09">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[11/77]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CLIENT_TO_SERIAL </td>
+          <td>(</td>
+          <td class="paramtype">SetOmniFlavor&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a6e1d1c078bc2609a64cfc73862e25923">c2s_set_omni_flavor</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">omniFlavor_t</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2f480d859bcd708ac152a2ae867e0334">applyOmniFlavorPayload</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af87c982e0578cef7590aa441b3d992d3" name="af87c982e0578cef7590aa441b3d992d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af87c982e0578cef7590aa441b3d992d3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[6/32]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SERIAL_TO_CLIENT </td>
+          <td>(</td>
+          <td class="paramtype">UpdateOmniFlavor&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119">s2c_update_omni_flavor</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#af4761c02197a8760f0c1f2818b8b7e88">omniFlavorUpdate_t</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">onOmniFlavorFromEngine&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acb6bc3a39ca57af8edf1b50e0eb42614" name="acb6bc3a39ca57af8edf1b50e0eb42614"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb6bc3a39ca57af8edf1b50e0eb42614">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[6/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acb6bc3a39ca57af8edf1b50e0eb42614">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[7/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2911,7 +3063,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad8aa3b435bcada4fc3d1c100c64b0b34" name="ad8aa3b435bcada4fc3d1c100c64b0b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8aa3b435bcada4fc3d1c100c64b0b34">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[7/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8aa3b435bcada4fc3d1c100c64b0b34">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[8/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3079,7 +3231,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a334716d274ececa4e72a1d4a86372a9b" name="a334716d274ececa4e72a1d4a86372a9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a334716d274ececa4e72a1d4a86372a9b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[11/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a334716d274ececa4e72a1d4a86372a9b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[12/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3155,7 +3307,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a4b76528c0afbc931e75540c81d5184b6" name="a4b76528c0afbc931e75540c81d5184b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b76528c0afbc931e75540c81d5184b6">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[12/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b76528c0afbc931e75540c81d5184b6">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[13/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3231,7 +3383,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="aecec6d0845c08490e3f1609ec7aab056" name="aecec6d0845c08490e3f1609ec7aab056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecec6d0845c08490e3f1609ec7aab056">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[13/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aecec6d0845c08490e3f1609ec7aab056">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[14/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3307,7 +3459,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="acd4f078a76aedf9559e4bd9840c40f0f" name="acd4f078a76aedf9559e4bd9840c40f0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd4f078a76aedf9559e4bd9840c40f0f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[14/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4f078a76aedf9559e4bd9840c40f0f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[15/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3347,7 +3499,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab76082a166c08f33b6ca774234b76bc0" name="ab76082a166c08f33b6ca774234b76bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab76082a166c08f33b6ca774234b76bc0">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[8/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76082a166c08f33b6ca774234b76bc0">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[9/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3515,7 +3667,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a08d8007dd85e9c90cf9c2c8a53cb9d80" name="a08d8007dd85e9c90cf9c2c8a53cb9d80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08d8007dd85e9c90cf9c2c8a53cb9d80">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[15/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d8007dd85e9c90cf9c2c8a53cb9d80">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[16/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3741,7 +3893,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad033ac7925e50cd95cf9998c7595b8cb" name="ad033ac7925e50cd95cf9998c7595b8cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad033ac7925e50cd95cf9998c7595b8cb">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[16/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad033ac7925e50cd95cf9998c7595b8cb">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[17/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3817,7 +3969,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a25ecc39c34411accc837a01dbc9385c7" name="a25ecc39c34411accc837a01dbc9385c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25ecc39c34411accc837a01dbc9385c7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[17/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ecc39c34411accc837a01dbc9385c7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[18/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3893,7 +4045,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="adeb25c6fb546019f88711bd5de672c59" name="adeb25c6fb546019f88711bd5de672c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adeb25c6fb546019f88711bd5de672c59">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[18/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adeb25c6fb546019f88711bd5de672c59">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[19/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3933,7 +4085,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a2886c966d95f3b315cd65834244eddc1" name="a2886c966d95f3b315cd65834244eddc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2886c966d95f3b315cd65834244eddc1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[9/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2886c966d95f3b315cd65834244eddc1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[10/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4059,7 +4211,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a7bb5dd1c2baac5373f4408862a180df7" name="a7bb5dd1c2baac5373f4408862a180df7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bb5dd1c2baac5373f4408862a180df7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[19/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb5dd1c2baac5373f4408862a180df7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[20/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4135,7 +4287,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="af4b02767ed276a96bc929cadd183c27e" name="af4b02767ed276a96bc929cadd183c27e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4b02767ed276a96bc929cadd183c27e">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[20/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af4b02767ed276a96bc929cadd183c27e">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[21/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4211,7 +4363,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ae9fedd18b2e4c9f3e3db4bf834a88f95" name="ae9fedd18b2e4c9f3e3db4bf834a88f95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9fedd18b2e4c9f3e3db4bf834a88f95">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[21/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9fedd18b2e4c9f3e3db4bf834a88f95">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[22/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4251,7 +4403,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ae69dee92da0270be03cf084ef4e32553" name="ae69dee92da0270be03cf084ef4e32553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae69dee92da0270be03cf084ef4e32553">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[10/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69dee92da0270be03cf084ef4e32553">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[11/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4291,7 +4443,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="adcb52c0a95dc50aa0c2486d2f08390c5" name="adcb52c0a95dc50aa0c2486d2f08390c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcb52c0a95dc50aa0c2486d2f08390c5">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[11/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb52c0a95dc50aa0c2486d2f08390c5">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[12/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4367,7 +4519,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a90b3164d0c9e96dd0307794d4273c6f8" name="a90b3164d0c9e96dd0307794d4273c6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90b3164d0c9e96dd0307794d4273c6f8">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[22/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b3164d0c9e96dd0307794d4273c6f8">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[23/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4443,7 +4595,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a4f176dc2065939a125361d9fff4f614f" name="a4f176dc2065939a125361d9fff4f614f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f176dc2065939a125361d9fff4f614f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[23/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f176dc2065939a125361d9fff4f614f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[24/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4519,7 +4671,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a65d29e7be258614d04e0a51c4688bfd3" name="a65d29e7be258614d04e0a51c4688bfd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65d29e7be258614d04e0a51c4688bfd3">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[24/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d29e7be258614d04e0a51c4688bfd3">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[25/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4559,7 +4711,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a7e1a7d65f3e98a6824a89ffa2f151fa3" name="a7e1a7d65f3e98a6824a89ffa2f151fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e1a7d65f3e98a6824a89ffa2f151fa3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[12/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e1a7d65f3e98a6824a89ffa2f151fa3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[13/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4635,7 +4787,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a3477dfddf71469279c6bb300d62259d0" name="a3477dfddf71469279c6bb300d62259d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3477dfddf71469279c6bb300d62259d0">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[25/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3477dfddf71469279c6bb300d62259d0">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[26/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4711,7 +4863,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a462cfce9b36cf431a48db916b6ff7353" name="a462cfce9b36cf431a48db916b6ff7353"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a462cfce9b36cf431a48db916b6ff7353">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[26/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a462cfce9b36cf431a48db916b6ff7353">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[27/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4751,7 +4903,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a15661188c8459d37c55c8bb6da521a68" name="a15661188c8459d37c55c8bb6da521a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15661188c8459d37c55c8bb6da521a68">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[13/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15661188c8459d37c55c8bb6da521a68">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[14/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4791,7 +4943,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ac88e274cde0bf2102805de2905c33dd1" name="ac88e274cde0bf2102805de2905c33dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac88e274cde0bf2102805de2905c33dd1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[14/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88e274cde0bf2102805de2905c33dd1">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[15/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4861,7 +5013,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a99586fd21640e48a9fea268f071285b3" name="a99586fd21640e48a9fea268f071285b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99586fd21640e48a9fea268f071285b3">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[27/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99586fd21640e48a9fea268f071285b3">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[28/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4931,7 +5083,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a73b773786fd6450fa006df547356fa29" name="a73b773786fd6450fa006df547356fa29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73b773786fd6450fa006df547356fa29">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[28/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b773786fd6450fa006df547356fa29">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[29/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5001,7 +5153,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ae2b21d7946414035dcceecf1c7e2c370" name="ae2b21d7946414035dcceecf1c7e2c370"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2b21d7946414035dcceecf1c7e2c370">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[29/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2b21d7946414035dcceecf1c7e2c370">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[30/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5077,7 +5229,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a4578a9aa485ab0d08cb40cf628382d61" name="a4578a9aa485ab0d08cb40cf628382d61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4578a9aa485ab0d08cb40cf628382d61">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[30/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4578a9aa485ab0d08cb40cf628382d61">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[31/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5117,7 +5269,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a6ee8167d35a8daa548b9f21a9f959646" name="a6ee8167d35a8daa548b9f21a9f959646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ee8167d35a8daa548b9f21a9f959646">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[15/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee8167d35a8daa548b9f21a9f959646">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[16/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5157,7 +5309,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a53b456c5e61cc43f87cbad5d74446555" name="a53b456c5e61cc43f87cbad5d74446555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53b456c5e61cc43f87cbad5d74446555">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[16/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b456c5e61cc43f87cbad5d74446555">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[17/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5197,7 +5349,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ac71643f4565dbb11c64864dfb0c8865a" name="ac71643f4565dbb11c64864dfb0c8865a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac71643f4565dbb11c64864dfb0c8865a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[17/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac71643f4565dbb11c64864dfb0c8865a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[18/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5237,7 +5389,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a060f2ea63b4bac02687d10da766b786b" name="a060f2ea63b4bac02687d10da766b786b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a060f2ea63b4bac02687d10da766b786b">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[18/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a060f2ea63b4bac02687d10da766b786b">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[19/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5313,7 +5465,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a1f225c7aaef53376c978ff8ebd785add" name="a1f225c7aaef53376c978ff8ebd785add"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f225c7aaef53376c978ff8ebd785add">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[31/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f225c7aaef53376c978ff8ebd785add">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[32/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5389,7 +5541,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a04631da50a7ca756db4d3e485959bf05" name="a04631da50a7ca756db4d3e485959bf05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04631da50a7ca756db4d3e485959bf05">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[32/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04631da50a7ca756db4d3e485959bf05">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[33/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5429,7 +5581,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a78186f0d6dfd4f2fb0f95a20755fa25a" name="a78186f0d6dfd4f2fb0f95a20755fa25a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78186f0d6dfd4f2fb0f95a20755fa25a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[19/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78186f0d6dfd4f2fb0f95a20755fa25a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[20/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5469,7 +5621,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a91698fbcae20fa0240dc71d05793913a" name="a91698fbcae20fa0240dc71d05793913a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91698fbcae20fa0240dc71d05793913a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[20/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91698fbcae20fa0240dc71d05793913a">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[21/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5545,7 +5697,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab9cce70710c2db9b03ba5eddbbffe6f1" name="ab9cce70710c2db9b03ba5eddbbffe6f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9cce70710c2db9b03ba5eddbbffe6f1">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[33/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9cce70710c2db9b03ba5eddbbffe6f1">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[34/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5585,7 +5737,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a18b3a7ea6c65e55f67396cf4f080e793" name="a18b3a7ea6c65e55f67396cf4f080e793"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b3a7ea6c65e55f67396cf4f080e793">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[21/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b3a7ea6c65e55f67396cf4f080e793">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[22/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5625,7 +5777,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a3a177e95f64681e4fecbc92b55450119" name="a3a177e95f64681e4fecbc92b55450119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a177e95f64681e4fecbc92b55450119">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[22/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a177e95f64681e4fecbc92b55450119">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[23/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5665,7 +5817,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad220065f545646cebf925df90f6e6152" name="ad220065f545646cebf925df90f6e6152"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad220065f545646cebf925df90f6e6152">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[23/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad220065f545646cebf925df90f6e6152">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[24/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5741,7 +5893,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a97705e301a001918e0ff5ec15d807f55" name="a97705e301a001918e0ff5ec15d807f55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97705e301a001918e0ff5ec15d807f55">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[34/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a97705e301a001918e0ff5ec15d807f55">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[35/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5817,7 +5969,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a28d5a5c1b5a1b42a0f5bf8f21a2a272f" name="a28d5a5c1b5a1b42a0f5bf8f21a2a272f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28d5a5c1b5a1b42a0f5bf8f21a2a272f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[35/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d5a5c1b5a1b42a0f5bf8f21a2a272f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[36/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5893,7 +6045,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a7348c08447c4965c7dd80cdd4033876d" name="a7348c08447c4965c7dd80cdd4033876d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7348c08447c4965c7dd80cdd4033876d">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[36/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7348c08447c4965c7dd80cdd4033876d">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[37/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5933,7 +6085,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="acc933ce8f3c9eb745396ad485b57fc00" name="acc933ce8f3c9eb745396ad485b57fc00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc933ce8f3c9eb745396ad485b57fc00">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[37/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acc933ce8f3c9eb745396ad485b57fc00">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[38/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6009,7 +6161,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a0894bba2767e38fb0d70f0ad1661a7c9" name="a0894bba2767e38fb0d70f0ad1661a7c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0894bba2767e38fb0d70f0ad1661a7c9">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[38/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0894bba2767e38fb0d70f0ad1661a7c9">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[39/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6085,7 +6237,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a63508f67947453ef303815ccd473a5fd" name="a63508f67947453ef303815ccd473a5fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63508f67947453ef303815ccd473a5fd">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[39/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63508f67947453ef303815ccd473a5fd">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[40/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6125,7 +6277,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a7b6fa58baff50171101eab26c8d8b202" name="a7b6fa58baff50171101eab26c8d8b202"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6fa58baff50171101eab26c8d8b202">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[24/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6fa58baff50171101eab26c8d8b202">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[25/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6201,7 +6353,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad2693ec71609503c2f532b8eea1a9660" name="ad2693ec71609503c2f532b8eea1a9660"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2693ec71609503c2f532b8eea1a9660">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[40/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2693ec71609503c2f532b8eea1a9660">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[41/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6277,7 +6429,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a0e14f171a41f6389fdbf2e2de37d9635" name="a0e14f171a41f6389fdbf2e2de37d9635"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e14f171a41f6389fdbf2e2de37d9635">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[41/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e14f171a41f6389fdbf2e2de37d9635">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[42/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6347,7 +6499,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a5395e7b469f3b1138b19f4cd8e57ee36" name="a5395e7b469f3b1138b19f4cd8e57ee36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5395e7b469f3b1138b19f4cd8e57ee36">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[42/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5395e7b469f3b1138b19f4cd8e57ee36">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[43/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6573,7 +6725,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab5a45373bb0d8b145427cf9a748829e0" name="ab5a45373bb0d8b145427cf9a748829e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5a45373bb0d8b145427cf9a748829e0">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[43/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a45373bb0d8b145427cf9a748829e0">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[44/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6649,7 +6801,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a67ba5a0a225e852a69ef4d85fa1c2c10" name="a67ba5a0a225e852a69ef4d85fa1c2c10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67ba5a0a225e852a69ef4d85fa1c2c10">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[44/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ba5a0a225e852a69ef4d85fa1c2c10">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[45/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6719,7 +6871,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a5c4ad687ec6fd5a4ff8396c84dfda30b" name="a5c4ad687ec6fd5a4ff8396c84dfda30b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c4ad687ec6fd5a4ff8396c84dfda30b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[45/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c4ad687ec6fd5a4ff8396c84dfda30b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[46/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6759,7 +6911,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a2590fac2b1ad12519583c529bc3d9600" name="a2590fac2b1ad12519583c529bc3d9600"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2590fac2b1ad12519583c529bc3d9600">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[46/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2590fac2b1ad12519583c529bc3d9600">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[47/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6799,7 +6951,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="adb45328f48e52a47f78c779ea667ddc6" name="adb45328f48e52a47f78c779ea667ddc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb45328f48e52a47f78c779ea667ddc6">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[25/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb45328f48e52a47f78c779ea667ddc6">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[26/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6839,7 +6991,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a941a3cf4fef9face87009eeccede0784" name="a941a3cf4fef9face87009eeccede0784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a941a3cf4fef9face87009eeccede0784">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[26/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a941a3cf4fef9face87009eeccede0784">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[27/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6909,7 +7061,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a34a88a5ad989c6429092a1e6733a3ff4" name="a34a88a5ad989c6429092a1e6733a3ff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34a88a5ad989c6429092a1e6733a3ff4">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[47/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a88a5ad989c6429092a1e6733a3ff4">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[48/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6991,7 +7143,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a3a7404a72dad23d064e82c204f616ef9" name="a3a7404a72dad23d064e82c204f616ef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a7404a72dad23d064e82c204f616ef9">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[48/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a7404a72dad23d064e82c204f616ef9">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[49/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7031,7 +7183,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a039df95a2b046ab82f1af3024dbf0608" name="a039df95a2b046ab82f1af3024dbf0608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a039df95a2b046ab82f1af3024dbf0608">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[49/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a039df95a2b046ab82f1af3024dbf0608">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[50/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7165,7 +7317,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a1dc7342eaea6062f01bda664ccd26abe" name="a1dc7342eaea6062f01bda664ccd26abe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dc7342eaea6062f01bda664ccd26abe">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[27/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc7342eaea6062f01bda664ccd26abe">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[28/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7235,7 +7387,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a84670117b7ddd29081d518d068b2586b" name="a84670117b7ddd29081d518d068b2586b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84670117b7ddd29081d518d068b2586b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[50/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a84670117b7ddd29081d518d068b2586b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[51/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7347,7 +7499,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="aafe9ee9dd3b06a54a3039cad57846a33" name="aafe9ee9dd3b06a54a3039cad57846a33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafe9ee9dd3b06a54a3039cad57846a33">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[51/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe9ee9dd3b06a54a3039cad57846a33">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[52/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7423,7 +7575,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ac409468b99563fd79a8890db7d9eb6ce" name="ac409468b99563fd79a8890db7d9eb6ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac409468b99563fd79a8890db7d9eb6ce">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[52/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac409468b99563fd79a8890db7d9eb6ce">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[53/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7499,7 +7651,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ae76c75769ba0a2fa27f45cc557e808f8" name="ae76c75769ba0a2fa27f45cc557e808f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae76c75769ba0a2fa27f45cc557e808f8">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[53/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76c75769ba0a2fa27f45cc557e808f8">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[54/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7575,7 +7727,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a1428211120723b51768a7c388e0920ae" name="a1428211120723b51768a7c388e0920ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1428211120723b51768a7c388e0920ae">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[54/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1428211120723b51768a7c388e0920ae">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[55/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7671,7 +7823,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a3761bfb81a8f52a5102159cb23f60d78" name="a3761bfb81a8f52a5102159cb23f60d78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3761bfb81a8f52a5102159cb23f60d78">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[55/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3761bfb81a8f52a5102159cb23f60d78">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[56/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7747,7 +7899,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a4b01836d75a886bfb82c4282784db69f" name="a4b01836d75a886bfb82c4282784db69f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b01836d75a886bfb82c4282784db69f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[56/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b01836d75a886bfb82c4282784db69f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[57/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7787,7 +7939,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a1b895799a0fa6097502e3f132576b9da" name="a1b895799a0fa6097502e3f132576b9da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b895799a0fa6097502e3f132576b9da">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[57/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b895799a0fa6097502e3f132576b9da">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[58/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7827,7 +7979,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab549a3ae7531bdcbee57967951718b31" name="ab549a3ae7531bdcbee57967951718b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab549a3ae7531bdcbee57967951718b31">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[58/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab549a3ae7531bdcbee57967951718b31">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[59/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7867,7 +8019,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a983fe63fb6b733e4c73d43882d6942af" name="a983fe63fb6b733e4c73d43882d6942af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a983fe63fb6b733e4c73d43882d6942af">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[59/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a983fe63fb6b733e4c73d43882d6942af">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[60/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7907,7 +8059,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="abdf77bff0fdc309263b660ec8b8dae7c" name="abdf77bff0fdc309263b660ec8b8dae7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdf77bff0fdc309263b660ec8b8dae7c">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[28/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abdf77bff0fdc309263b660ec8b8dae7c">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[29/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7983,7 +8135,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a44d5bb5dc1aac7b00648d9fead03b180" name="a44d5bb5dc1aac7b00648d9fead03b180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44d5bb5dc1aac7b00648d9fead03b180">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[60/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d5bb5dc1aac7b00648d9fead03b180">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[61/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8059,7 +8211,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="aaa4a2e947bbe152f0a72d83d9863ebea" name="aaa4a2e947bbe152f0a72d83d9863ebea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa4a2e947bbe152f0a72d83d9863ebea">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[61/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa4a2e947bbe152f0a72d83d9863ebea">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[62/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8135,7 +8287,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a6e2cb1325d199d65d38ff826beae4e8b" name="a6e2cb1325d199d65d38ff826beae4e8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e2cb1325d199d65d38ff826beae4e8b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[62/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2cb1325d199d65d38ff826beae4e8b">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[63/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8211,7 +8363,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="afb817f5d669e700f16b12b86fea8373f" name="afb817f5d669e700f16b12b86fea8373f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb817f5d669e700f16b12b86fea8373f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[63/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb817f5d669e700f16b12b86fea8373f">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[64/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8287,7 +8439,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="af4788cb02465524eea4ef3ed6f28c877" name="af4788cb02465524eea4ef3ed6f28c877"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4788cb02465524eea4ef3ed6f28c877">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[64/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af4788cb02465524eea4ef3ed6f28c877">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[65/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8347,7 +8499,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a2d6f0fca67e7808294eee6872ed98102" name="a2d6f0fca67e7808294eee6872ed98102"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6f0fca67e7808294eee6872ed98102">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[65/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6f0fca67e7808294eee6872ed98102">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[66/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8417,7 +8569,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a404bd909f51d921a1fc351905deca4b7" name="a404bd909f51d921a1fc351905deca4b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a404bd909f51d921a1fc351905deca4b7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[66/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a404bd909f51d921a1fc351905deca4b7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[67/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8487,7 +8639,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a43169a1b882d2c01b54c4ed9a665eb89" name="a43169a1b882d2c01b54c4ed9a665eb89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43169a1b882d2c01b54c4ed9a665eb89">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[67/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43169a1b882d2c01b54c4ed9a665eb89">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[68/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8527,7 +8679,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a85b3704a426b00a3719fd3840546e2e3" name="a85b3704a426b00a3719fd3840546e2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b3704a426b00a3719fd3840546e2e3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[29/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b3704a426b00a3719fd3840546e2e3">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[30/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8603,7 +8755,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a49e32c5ea595d0db5aa2b18d966f34f0" name="a49e32c5ea595d0db5aa2b18d966f34f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49e32c5ea595d0db5aa2b18d966f34f0">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[68/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e32c5ea595d0db5aa2b18d966f34f0">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[69/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8679,7 +8831,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a3d97e6054f86147a5c3272e1dbbf4a6e" name="a3d97e6054f86147a5c3272e1dbbf4a6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d97e6054f86147a5c3272e1dbbf4a6e">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[69/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d97e6054f86147a5c3272e1dbbf4a6e">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[70/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8755,7 +8907,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a0e23783c06cefefa6f957f1dfdc0c8b7" name="a0e23783c06cefefa6f957f1dfdc0c8b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e23783c06cefefa6f957f1dfdc0c8b7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[70/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e23783c06cefefa6f957f1dfdc0c8b7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[71/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8889,7 +9041,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="af58de2524d96428d6b16ef4a007ff053" name="af58de2524d96428d6b16ef4a007ff053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af58de2524d96428d6b16ef4a007ff053">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[30/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af58de2524d96428d6b16ef4a007ff053">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[31/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8965,7 +9117,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a9d18a3247859f95f4f029b5510776894" name="a9d18a3247859f95f4f029b5510776894"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d18a3247859f95f4f029b5510776894">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[71/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d18a3247859f95f4f029b5510776894">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[72/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9041,7 +9193,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a5911ec478bde11783b6ea6ebefc029a1" name="a5911ec478bde11783b6ea6ebefc029a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5911ec478bde11783b6ea6ebefc029a1">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[72/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5911ec478bde11783b6ea6ebefc029a1">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[73/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9117,7 +9269,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a972e955d1507aaa2c4461ca2440d46b7" name="a972e955d1507aaa2c4461ca2440d46b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a972e955d1507aaa2c4461ca2440d46b7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[73/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a972e955d1507aaa2c4461ca2440d46b7">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[74/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9203,7 +9355,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a2391ce5c702ffb91a5c62450a9ca3d9e" name="a2391ce5c702ffb91a5c62450a9ca3d9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2391ce5c702ffb91a5c62450a9ca3d9e">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[31/31]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2391ce5c702ffb91a5c62450a9ca3d9e">&#9670;&#160;</a></span>SERIAL_TO_CLIENT() <span class="overload">[32/32]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9419,7 +9571,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ad7cd6bbf5ba1329cde629703dc0686d1" name="ad7cd6bbf5ba1329cde629703dc0686d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7cd6bbf5ba1329cde629703dc0686d1">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[74/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cd6bbf5ba1329cde629703dc0686d1">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[75/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9495,7 +9647,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="a73fa110885e426788b958c920adfeb97" name="a73fa110885e426788b958c920adfeb97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73fa110885e426788b958c920adfeb97">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[75/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73fa110885e426788b958c920adfeb97">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[76/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9571,7 +9723,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div>
 </div>
 <a id="ab2273953a7ab2ebb537e1418c5075539" name="ab2273953a7ab2ebb537e1418c5075539"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2273953a7ab2ebb537e1418c5075539">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[76/76]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2273953a7ab2ebb537e1418c5075539">&#9670;&#160;</a></span>CLIENT_TO_SERIAL() <span class="overload">[77/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9642,14 +9794,14 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 <div class="line">    <span class="keywordflow">if</span> (partNumber &lt; 0 || partNumber &gt; numParts)</div>
 <div class="line">        partNumber = 0</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2c3100a2920a4d446703ac22bc743fb8">addCompoundElementInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a170b50cc424270f113ea75be93646a84">addCompoundElementWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a889089b552d89f3cc9268e0664cc6f97">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4c86e46569635ec941201d5584a8e6f6">applyTuningStatusPayload()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2a7d774401f77491b06626de06ae35e8">CLIENT_TO_SERIAL()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d7b0432ab0540ff0c165b3b4eb34a43">doActivateNextPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ea46def537a1e4094f2229f6725aef9">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66eaf3db410b7264a526e77dda4ad693">doApplyZoneDelta()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a81c942694f73ae37859ad33832f085e1">doBusSwapFX()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa15578524be981e580533f015487e6be">doClearVariantAmplitudeNormalization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6229646560349f02347ee0ca586ad4e0">doDeactivatePart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1401f97a9b2207ba388a1453ec9702c8">doDeleteVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af41ba3b2793245590e0c4bdd77907fcc">doFullAdsrStorageUpdateForGroupsOrZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aac0f7ddb877d60f15907182ec1573e9e">doFullModStorageUpdateForGroupsOrZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a45fdc03e36459c32f98405314c41cb1e">doHostCallback()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9e923d2e0ea3ec096312538d39408b84">doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abead1128430f996d265656f03bdf3ba1">doMiscmodUpdate()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a729a4d9472bd0acf86cc97173e728e0a">doMuteOrSoloGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ee41fdc4559e51f6572e05c45f5f4c7">doNormalizeVariantAmplitude()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a67ce969e5f290fb7e5b81ad2d36fd504">doPartSwapFX()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9bffc7bcf2e79e868b62282dc6eb71ab">doPreviewBrowserSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a648c3e5f9478ea2b908a79c3ece01d19">doRemoveBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa8d41f138fc0e3c6c9be0c0f80b72938">doResolveMultiSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae781e986561c645eba41b1af0f59a089">doUpdateGroupOutputInfoMidiChannel()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986dd81c46c55f3dc98c567e16597123">doUpdateGroupOutputInfoPolyphony()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af228951b72404340e8ed06a7d89d2a27">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aed12a59c163020a143ac196889234242">doUpdateGroupTriggerConditions()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4552129ff0700fce63ce135dc6b3d36">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab479f4d297c5f3a0fff65b37f6e566c6">doUpdateLeadZoneSingleVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae02682ca8125d6224ca444f9158af56c">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abc64c8c87d00923e5917de5d41daad71">moveGroupTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa2af38f58123bbec49eee60f4db94ab9">moveZonesFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a04f989067007a5f342268778837a89">setBusEffectStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#acaff4a7db3c458c54d22ef31d550db65">setBusEffectToType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7b8e1a032ff0fd0f21054e98a1beb9a6">setBusSendStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ace1fb8c3fe8e26bed3e41ec78975c05c">setFullProcessorStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">stopSoundsMessage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6c070f30deebf08cdff5b0db2957e96a">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4757644acb5222bb9ed3999e222026a5">swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4fa7e23931873add04f1a5cfedcc80c9">updateMacroFullState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8096b534686fdffb60c71924b914056a">updateMacroValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a41751f307fd480d6ed41811ab26caec7">updatePartFullConfig()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">scxt::messaging::client::detail::updateZoneMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a6f22d40ecb26cdb6b8e313d85f573c13">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2c3100a2920a4d446703ac22bc743fb8">addCompoundElementInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a170b50cc424270f113ea75be93646a84">addCompoundElementWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a889089b552d89f3cc9268e0664cc6f97">addSampleInZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">addSampleWithRange()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2f480d859bcd708ac152a2ae867e0334">applyOmniFlavorPayload()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4c86e46569635ec941201d5584a8e6f6">applyTuningStatusPayload()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d30f5eef81564daa92cef5f8c197f2b">clearPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2a7d774401f77491b06626de06ae35e8">CLIENT_TO_SERIAL()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8d7b0432ab0540ff0c165b3b4eb34a43">doActivateNextPart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ea46def537a1e4094f2229f6725aef9">doAddBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a66eaf3db410b7264a526e77dda4ad693">doApplyZoneDelta()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a81c942694f73ae37859ad33832f085e1">doBusSwapFX()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa15578524be981e580533f015487e6be">doClearVariantAmplitudeNormalization()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6229646560349f02347ee0ca586ad4e0">doDeactivatePart()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1401f97a9b2207ba388a1453ec9702c8">doDeleteVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af41ba3b2793245590e0c4bdd77907fcc">doFullAdsrStorageUpdateForGroupsOrZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aac0f7ddb877d60f15907182ec1573e9e">doFullModStorageUpdateForGroupsOrZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a45fdc03e36459c32f98405314c41cb1e">doHostCallback()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9e923d2e0ea3ec096312538d39408b84">doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abead1128430f996d265656f03bdf3ba1">doMiscmodUpdate()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a729a4d9472bd0acf86cc97173e728e0a">doMuteOrSoloGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9ee41fdc4559e51f6572e05c45f5f4c7">doNormalizeVariantAmplitude()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a67ce969e5f290fb7e5b81ad2d36fd504">doPartSwapFX()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9bffc7bcf2e79e868b62282dc6eb71ab">doPreviewBrowserSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a648c3e5f9478ea2b908a79c3ece01d19">doRemoveBrowserDeviceLocation()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab6dd00cf80fedfcd0d320a49752a80b2">doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad82dd10b117945f2edcf55731108f7f8">doRenameZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa8d41f138fc0e3c6c9be0c0f80b72938">doResolveMultiSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">doUnstreamEngineState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae781e986561c645eba41b1af0f59a089">doUpdateGroupOutputInfoMidiChannel()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a986dd81c46c55f3dc98c567e16597123">doUpdateGroupOutputInfoPolyphony()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af228951b72404340e8ed06a7d89d2a27">doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aed12a59c163020a143ac196889234242">doUpdateGroupTriggerConditions()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad4552129ff0700fce63ce135dc6b3d36">doUpdateLeadZoneMapping()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab479f4d297c5f3a0fff65b37f6e566c6">doUpdateLeadZoneSingleVariant()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae02682ca8125d6224ca444f9158af56c">doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abc64c8c87d00923e5917de5d41daad71">moveGroupTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa2af38f58123bbec49eee60f4db94ab9">moveZonesFromTo()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3b7787d595616fde84f1ec0d82c0b7ae">pgzSerialSide()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">processMidiFromGUI()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2d7c70d1ccb214fe4d592ec8a367bfcf">removeGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1ef2a34b712270f17e7a3a7df579dd3">removeSelectedZones()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046">removeZone()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a04f989067007a5f342268778837a89">setBusEffectStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#acaff4a7db3c458c54d22ef31d550db65">setBusEffectToType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7b8e1a032ff0fd0f21054e98a1beb9a6">setBusSendStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ace1fb8c3fe8e26bed3e41ec78975c05c">setFullProcessorStorage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a17fc888c52037c810712de82917a042d">setProcessorType()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">stopSoundsMessage()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6c070f30deebf08cdff5b0db2957e96a">swapGroupProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4757644acb5222bb9ed3999e222026a5">swapZoneProcessors()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878">scxt::messaging::client::detail::updateGroupIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">scxt::messaging::client::detail::updateGroupMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a4fa7e23931873add04f1a5cfedcc80c9">updateMacroFullState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8096b534686fdffb60c71924b914056a">updateMacroValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a41751f307fd480d6ed41811ab26caec7">updatePartFullConfig()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">scxt::messaging::client::detail::updateZoneIndexedMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc">scxt::messaging::client::detail::updateZoneLeadMemberValue()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">scxt::messaging::client::detail::updateZoneMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a6f22d40ecb26cdb6b8e313d85f573c13">scxt::messaging::client::detail::updateZoneOrGroupIndexedMemberValue()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2026 19:16:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Feb 12 2026 19:23:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
