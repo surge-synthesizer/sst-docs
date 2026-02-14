@@ -147,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a70b681bbced232c6b932964269b58cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f04218566c8c11c9b7c7246808e35a" id="r_aa1f04218566c8c11c9b7c7246808e35a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa1f04218566c8c11c9b7c7246808e35a">showWelcomeOverlay</a> ()</td></tr>
 <tr class="separator:aa1f04218566c8c11c9b7c7246808e35a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd481abf40c7528a20b10681fb6c0bb9" id="r_afd481abf40c7528a20b10681fb6c0bb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afd481abf40c7528a20b10681fb6c0bb9">onMpeTuningAwarenessFromEngine</a> (bool)</td></tr>
+<tr class="separator:afd481abf40c7528a20b10681fb6c0bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab718919ec2426c941d316d0defdf536" id="r_aab718919ec2426c941d316d0defdf536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aab718919ec2426c941d316d0defdf536">onOmniFlavorFromEngine</a> (std::pair&lt; int, bool &gt; f)</td></tr>
 <tr class="separator:aab718919ec2426c941d316d0defdf536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf3ff5e1bd8891f2a800f65ab98718a2" id="r_aaf3ff5e1bd8891f2a800f65ab98718a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aaf3ff5e1bd8891f2a800f65ab98718a2">setupOmniApplyDefault</a> (bool b)</td></tr>
@@ -344,6 +346,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abc51ba45d30d15eafe020c6b1118d470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0c550d4ac40c8f8f031e867fa5c665" id="r_a1a0c550d4ac40c8f8f031e867fa5c665"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1a0c550d4ac40c8f8f031e867fa5c665">checkWelcomeCountdown</a> {20}</td></tr>
 <tr class="separator:a1a0c550d4ac40c8f8f031e867fa5c665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db2f3b6c5dd7feac7904a925630a03b" id="r_a9db2f3b6c5dd7feac7904a925630a03b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9db2f3b6c5dd7feac7904a925630a03b">tuningAwareMPE</a> {true}</td></tr>
+<tr class="separator:a9db2f3b6c5dd7feac7904a925630a03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab240d5ec71e866cb23deed5dac3afbe5" id="r_ab240d5ec71e866cb23deed5dac3afbe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18">engine::Engine::OmniFlavor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ab240d5ec71e866cb23deed5dac3afbe5">currentOmniFlavor</a> {<a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18a63389071b9b8e84b1c40330b2eeecac0">engine::Engine::OmniFlavor::OMNI</a>}</td></tr>
 <tr class="separator:ab240d5ec71e866cb23deed5dac3afbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63c06b8b3fd6849a0a425e1754869c86" id="r_a63c06b8b3fd6849a0a425e1754869c86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a63c06b8b3fd6849a0a425e1754869c86">shouldApplyOmniOnSelect</a> {false}</td></tr>
@@ -694,6 +698,26 @@ Protected Member Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495">SCXTEditor::aboutScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a16d9e6a24e0ae783e2832b3204667696">SCXTEditor::logScreen</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a31cc081b3c77bc8855de79094fc1da42">SCXTEditor::resized()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e">SCXTEditor::welcomeScreen</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a83abbeda22fc5e6c2b35523b64199c1c">SCXTEditor::idle()</a>.</p>
+
+</div>
+</div>
+<a id="afd481abf40c7528a20b10681fb6c0bb9" name="afd481abf40c7528a20b10681fb6c0bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd481abf40c7528a20b10681fb6c0bb9">&#9670;&#160;</a></span>onMpeTuningAwarenessFromEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onMpeTuningAwarenessFromEngine </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a9db2f3b6c5dd7feac7904a925630a03b">SCXTEditor::tuningAwareMPE</a>.</p>
 
 </div>
 </div>
@@ -2968,6 +2992,22 @@ template&lt;typename A &gt; </div>
 
 </div>
 </div>
+<a id="a9db2f3b6c5dd7feac7904a925630a03b" name="a9db2f3b6c5dd7feac7904a925630a03b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9db2f3b6c5dd7feac7904a925630a03b">&#9670;&#160;</a></span>tuningAwareMPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tuningAwareMPE {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afd481abf40c7528a20b10681fb6c0bb9">SCXTEditor::onMpeTuningAwarenessFromEngine()</a>.</p>
+
+</div>
+</div>
 <a id="ab240d5ec71e866cb23deed5dac3afbe5" name="ab240d5ec71e866cb23deed5dac3afbe5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab240d5ec71e866cb23deed5dac3afbe5">&#9670;&#160;</a></span>currentOmniFlavor</h2>
 
@@ -3401,7 +3441,7 @@ template&lt;typename A &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 14 2026 15:48:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Feb 14 2026 20:58:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
