@@ -98,6 +98,7 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structscxt_1_1sfz__support_1_1SFZParser-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SFZParser Struct Reference</div></div>
 </div><!--header-->
@@ -127,6 +128,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a60414d7226fdf4686024355268300258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32857499361fd64e197dd097425a138a" id="r_a32857499361fd64e197dd097425a138a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a006f188dfa375d57095c47be3c48fa4a">document_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a32857499361fd64e197dd097425a138a">parse</a> (const fs::path &amp;file)</td></tr>
 <tr class="separator:a32857499361fd64e197dd097425a138a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab230ab081860f26f7af66a1661ed0cce" id="r_ab230ab081860f26f7af66a1661ed0cce"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">onError</a></td></tr>
+<tr class="separator:ab230ab081860f26f7af66a1661ed0cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a0565934d0720e1c5fdbd11dda447c34f" name="a0565934d0720e1c5fdbd11dda447c34f"></a>
@@ -188,7 +194,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="sfz__parse_8cpp.html#accb3e6fcc64ccb83ed375a8ec44ab6be">HDR_HELPER</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1OpCode.html#a9b45b3e13bd9167aab02e17e08916231">SFZParser::OpCode::name</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1OpCode.html#a5c33da5929c9f2f9ef8d006d2350e6ec">SFZParser::OpCode::value</a>.</p>
+<p class="reference">References <a class="el" href="sfz__parse_8cpp.html#accb3e6fcc64ccb83ed375a8ec44ab6be">HDR_HELPER</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1OpCode.html#a9b45b3e13bd9167aab02e17e08916231">SFZParser::OpCode::name</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">SFZParser::onError</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1OpCode.html#a5c33da5929c9f2f9ef8d006d2350e6ec">SFZParser::OpCode::value</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="sfz-token-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a32857499361fd64e197dd097425a138a">SFZParser::parse()</a>.</p>
 
@@ -214,6 +220,27 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab230ab081860f26f7af66a1661ed0cce" name="ab230ab081860f26f7af66a1661ed0cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab230ab081860f26f7af66a1661ed0cce">&#9670;&#160;</a></span>onError</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(const std::string &amp;)&gt; onError</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= [](<span class="keyword">auto</span> s) {</div>
+<div class="line">        <a class="code hl_define" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>(warnings, <span class="stringliteral">&quot;SFZParser error: &quot;</span> &lt;&lt; s);</div>
+<div class="line">    }</div>
+<div class="ttc" id="autils_8h_html_a6bb31fe3727e25c507596ba7f1a9ecfd"><div class="ttname"><a href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a></div><div class="ttdeci">#define SCLOG_IF(x,...)</div><div class="ttdef"><b>Definition</b> utils.h:279</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="sfz__parse_8h.html">sfz_parse.h</a></li>
 <li><a class="el" href="sfz__parse_8cpp.html">sfz_parse.cpp</a></li>
@@ -221,7 +248,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 15 2026 23:34:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Feb 15 2026 23:34:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
