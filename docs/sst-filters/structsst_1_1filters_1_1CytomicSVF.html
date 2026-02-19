@@ -130,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aed4c0c1714f7307dba86404d61209b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9feae4105792d054e7a2a69e9ac7f20b" id="r_a9feae4105792d054e7a2a69e9ac7f20b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">setCoeff</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac3069308e72d6f1e5125beab34db42dd">Mode</a> mode, float freqL, float freqR, float resL, float resR, float srInv, float bellShelfAmpL, float bellShelfAmpR)</td></tr>
 <tr class="separator:a9feae4105792d054e7a2a69e9ac7f20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc3a39ae49be002675bd47f31b642b5" id="r_a8fc3a39ae49be002675bd47f31b642b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">setCoeffQuadBandpass</a> (float *freq, float res, float srInv)</td></tr>
+<tr class="separator:a8fc3a39ae49be002675bd47f31b642b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe90fc085cff34b94203c4d9473f33a9" id="r_abe90fc085cff34b94203c4d9473f33a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">setCoeffPostGK</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac3069308e72d6f1e5125beab34db42dd">Mode</a> mode, SIMD_M128 bellShelfSSE)</td></tr>
 <tr class="separator:abe90fc085cff34b94203c4d9473f33a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63fa8fb82792672dd9b3f2f4ea54aabd" id="r_a63fa8fb82792672dd9b3f2f4ea54aabd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">fetchCoeffs</a> (const <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;that)</td></tr>
@@ -140,13 +142,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2242bf7c429dbf80aafe0386456aff5c" id="r_a2242bf7c429dbf80aafe0386456aff5c"><td class="memTemplParams" colspan="2">template&lt;int blockSize&gt; </td></tr>
 <tr class="memitem:a2242bf7c429dbf80aafe0386456aff5c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">setCoeffForBlock</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac3069308e72d6f1e5125beab34db42dd">Mode</a> mode, float freqL, float freqR, float resL, float resR, float srInv, float bellShelfAmpL, float bellShelfAmpR)</td></tr>
 <tr class="separator:a2242bf7c429dbf80aafe0386456aff5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a664f041bc7557de9785a315a8e20b" id="r_a42a664f041bc7557de9785a315a8e20b"><td class="memTemplParams" colspan="2">template&lt;int blockSize&gt; </td></tr>
+<tr class="memitem:a42a664f041bc7557de9785a315a8e20b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">setCoeffForBlockQuadBandpass</a> (float *freq, float res, float srInv)</td></tr>
+<tr class="separator:a42a664f041bc7557de9785a315a8e20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac19497adc72e61b0dd443a79b3e656e4" id="r_ac19497adc72e61b0dd443a79b3e656e4"><td class="memTemplParams" colspan="2">template&lt;int blockSize&gt; </td></tr>
 <tr class="memitem:ac19497adc72e61b0dd443a79b3e656e4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">retainCoeffForBlock</a> ()</td></tr>
 <tr class="separator:ac19497adc72e61b0dd443a79b3e656e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715883e2f99db3e45e1f0ef5bc40933c" id="r_a715883e2f99db3e45e1f0ef5bc40933c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">processBlockStep</a> (float &amp;<a class="el" href="filters_2CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, float &amp;B, float &amp;C, float &amp;<a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>)</td></tr>
+<tr class="separator:a715883e2f99db3e45e1f0ef5bc40933c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad7081ca7198fea7c228d2836cb6b66c" id="r_aad7081ca7198fea7c228d2836cb6b66c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">processBlockStep</a> (float &amp;<a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, float &amp;R)</td></tr>
 <tr class="separator:aad7081ca7198fea7c228d2836cb6b66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4fc3de0332c39fddb1abfba5abb25a8" id="r_ad4fc3de0332c39fddb1abfba5abb25a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">processBlockStep</a> (float &amp;<a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>)</td></tr>
 <tr class="separator:ad4fc3de0332c39fddb1abfba5abb25a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e8b4dfd970639335206c350833dcd9" id="r_a28e8b4dfd970639335206c350833dcd9"><td class="memTemplParams" colspan="2">template&lt;int blockSize&gt; </td></tr>
+<tr class="memitem:a28e8b4dfd970639335206c350833dcd9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a28e8b4dfd970639335206c350833dcd9">processBlockQuad</a> (const float *const in, float *outA, float *outB, float *outC, float *outD)</td></tr>
+<tr class="separator:a28e8b4dfd970639335206c350833dcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a412684caa51b69dd948e408012463620" id="r_a412684caa51b69dd948e408012463620"><td class="memTemplParams" colspan="2">template&lt;int blockSize&gt; </td></tr>
 <tr class="memitem:a412684caa51b69dd948e408012463620"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a412684caa51b69dd948e408012463620">processBlock</a> (const float *const inL, const float *const inR, float *outL, float *outR)</td></tr>
 <tr class="separator:a412684caa51b69dd948e408012463620"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,8 +168,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6a5b1291f6d447698b1b5afcc064b3bf" id="r_a6a5b1291f6d447698b1b5afcc064b3bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a6a5b1291f6d447698b1b5afcc064b3bf">step</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;that, float &amp;V)</td></tr>
+<tr class="separator:a6a5b1291f6d447698b1b5afcc064b3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe3ba9a15ba7cef31daa5a13aa994ebe" id="r_abe3ba9a15ba7cef31daa5a13aa994ebe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe3ba9a15ba7cef31daa5a13aa994ebe">step</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;that, float &amp;<a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, float &amp;R)</td></tr>
 <tr class="separator:abe3ba9a15ba7cef31daa5a13aa994ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990b1015b28470d115fa83c464e89d0b" id="r_a990b1015b28470d115fa83c464e89d0b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a990b1015b28470d115fa83c464e89d0b">step</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;that, float &amp;<a class="el" href="filters_2CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, float &amp;B, float &amp;C, float &amp;<a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>)</td></tr>
+<tr class="separator:a990b1015b28470d115fa83c464e89d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bfd44bc46fb90153e58a3d4a2cbac9d" id="r_a7bfd44bc46fb90153e58a3d4a2cbac9d"><td class="memItemLeft" align="right" valign="top">static SIMD_M128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">stepSSE</a> (<a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;that, SIMD_M128 vin)</td></tr>
 <tr class="separator:a7bfd44bc46fb90153e58a3d4a2cbac9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -361,6 +375,44 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8fc3a39ae49be002675bd47f31b642b5" name="a8fc3a39ae49be002675bd47f31b642b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc3a39ae49be002675bd47f31b642b5">&#9670;&#160;</a></span>setCoeffQuadBandpass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setCoeffQuadBandpass </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>srInv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="filters_2CytomicSVF_8h.html#a5ceda26a59b995f39bf22eb1061c781a">DIV</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a09bda21e497999f5218b992d76a68429">CytomicSVF::g</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a4939c12a79d1037550d538936016763b">CytomicSVF::gk</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1800773962d7df3b088f801792cde9ba">CytomicSVF::k</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, <a class="el" href="filters_2CytomicSVF_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa356e5cdb7d2c56ef427ef772e2f067b">CytomicSVF::oneSSE</a>, <a class="el" href="filters_2CytomicSVF_8h.html#a24945dfd73b918c244cfaa0ce54f5cbb">SETALL</a>, <a class="el" href="filters_2CytomicSVF_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa102b0b44e87a7683719947dfcb8a3dc">CytomicSVF::twoSSE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
+
+</div>
+</div>
 <a id="abe90fc085cff34b94203c4d9473f33a9" name="abe90fc085cff34b94203c4d9473f33a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe90fc085cff34b94203c4d9473f33a9">&#9670;&#160;</a></span>setCoeffPostGK()</h2>
 
@@ -413,8 +465,48 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6a5b1291f6d447698b1b5afcc064b3bf" name="a6a5b1291f6d447698b1b5afcc064b3bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a5b1291f6d447698b1b5afcc064b3bf">&#9670;&#160;</a></span>step() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void step </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;&#160;</td>
+          <td class="paramname"><em>that</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>V</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>.</p>
+
+</div>
+</div>
 <a id="abe3ba9a15ba7cef31daa5a13aa994ebe" name="abe3ba9a15ba7cef31daa5a13aa994ebe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe3ba9a15ba7cef31daa5a13aa994ebe">&#9670;&#160;</a></span>step()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3ba9a15ba7cef31daa5a13aa994ebe">&#9670;&#160;</a></span>step() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,7 +547,61 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>.</p>
+</div>
+</div>
+<a id="a990b1015b28470d115fa83c464e89d0b" name="a990b1015b28470d115fa83c464e89d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990b1015b28470d115fa83c464e89d0b">&#9670;&#160;</a></span>step() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void step </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsst_1_1filters_1_1CytomicSVF.html">CytomicSVF</a> &amp;&#160;</td>
+          <td class="paramname"><em>that</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>D</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="filters_2CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -495,7 +641,7 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a330c4b355bf065289e2af63845e239c3">CytomicSVF::ic1eq</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af5dbce600b0f9c862cc6de4e6ab6dba4">CytomicSVF::ic2eq</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, <a class="el" href="filters_2CytomicSVF_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="filters_2CytomicSVF_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa102b0b44e87a7683719947dfcb8a3dc">CytomicSVF::twoSSE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe3ba9a15ba7cef31daa5a13aa994ebe">CytomicSVF::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a990b1015b28470d115fa83c464e89d0b">CytomicSVF::step()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe3ba9a15ba7cef31daa5a13aa994ebe">CytomicSVF::step()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a6a5b1291f6d447698b1b5afcc064b3bf">CytomicSVF::step()</a>.</p>
 
 </div>
 </div>
@@ -617,6 +763,44 @@ template&lt;int blockSize&gt; </div>
 
 </div>
 </div>
+<a id="a42a664f041bc7557de9785a315a8e20b" name="a42a664f041bc7557de9785a315a8e20b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a664f041bc7557de9785a315a8e20b">&#9670;&#160;</a></span>setCoeffForBlockQuadBandpass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void setCoeffForBlockQuadBandpass </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>srInv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a0496aa6b8c50224ecefa2fbaeff756cc">CytomicSVF::da1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8bcdf32cb8feae7afea3dfe1ab72f7a9">CytomicSVF::da2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ab85a2899083d2b2009d08c5e79452691">CytomicSVF::da3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1d2e146c08209e4a411406f8e4a64741">CytomicSVF::dm0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9dea15996ce0995f7e96fe2a11744303">CytomicSVF::dm1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa001edad32bc1f55c16534b14a4072db">CytomicSVF::dm2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60299141280d12a48c0bbcbe513beee2">CytomicSVF::firstBlock</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, <a class="el" href="filters_2CytomicSVF_8h.html#a460cb170cf4b55887298cdaaca1ee72c">MUL</a>, <a class="el" href="filters_2CytomicSVF_8h.html#a24945dfd73b918c244cfaa0ce54f5cbb">SETALL</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="filters_2CytomicSVF_8h.html#afd1fa61640f82472385908c74860f792">SUB</a>.</p>
+
+</div>
+</div>
 <a id="ac19497adc72e61b0dd443a79b3e656e4" name="ac19497adc72e61b0dd443a79b3e656e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac19497adc72e61b0dd443a79b3e656e4">&#9670;&#160;</a></span>retainCoeffForBlock()</h2>
 
@@ -638,8 +822,52 @@ template&lt;int blockSize&gt; </div>
 
 </div>
 </div>
+<a id="a715883e2f99db3e45e1f0ef5bc40933c" name="a715883e2f99db3e45e1f0ef5bc40933c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715883e2f99db3e45e1f0ef5bc40933c">&#9670;&#160;</a></span>processBlockStep() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processBlockStep </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>D</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="filters_2CutoffWarp_8h.html#a42b2ebd385e21f96a9663ad9f6c5e481">A</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="filters_2DiodeLadder_8h.html#aa5e973f0ad08438b86334cf6e94fa16a">D</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a0496aa6b8c50224ecefa2fbaeff756cc">CytomicSVF::da1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8bcdf32cb8feae7afea3dfe1ab72f7a9">CytomicSVF::da2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ab85a2899083d2b2009d08c5e79452691">CytomicSVF::da3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1d2e146c08209e4a411406f8e4a64741">CytomicSVF::dm0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9dea15996ce0995f7e96fe2a11744303">CytomicSVF::dm1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa001edad32bc1f55c16534b14a4072db">CytomicSVF::dm2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a6a5b1291f6d447698b1b5afcc064b3bf">CytomicSVF::step()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a412684caa51b69dd948e408012463620">CytomicSVF::processBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9908e9eeda8a48f1b4ab6f1ed50ef987">CytomicSVF::processBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a28e8b4dfd970639335206c350833dcd9">CytomicSVF::processBlockQuad()</a>.</p>
+
+</div>
+</div>
 <a id="aad7081ca7198fea7c228d2836cb6b66c" name="aad7081ca7198fea7c228d2836cb6b66c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad7081ca7198fea7c228d2836cb6b66c">&#9670;&#160;</a></span>processBlockStep() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7081ca7198fea7c228d2836cb6b66c">&#9670;&#160;</a></span>processBlockStep() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,14 +892,12 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a0496aa6b8c50224ecefa2fbaeff756cc">CytomicSVF::da1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8bcdf32cb8feae7afea3dfe1ab72f7a9">CytomicSVF::da2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ab85a2899083d2b2009d08c5e79452691">CytomicSVF::da3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1d2e146c08209e4a411406f8e4a64741">CytomicSVF::dm0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9dea15996ce0995f7e96fe2a11744303">CytomicSVF::dm1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa001edad32bc1f55c16534b14a4072db">CytomicSVF::dm2</a>, <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe3ba9a15ba7cef31daa5a13aa994ebe">CytomicSVF::step()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a412684caa51b69dd948e408012463620">CytomicSVF::processBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9908e9eeda8a48f1b4ab6f1ed50ef987">CytomicSVF::processBlock()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a0496aa6b8c50224ecefa2fbaeff756cc">CytomicSVF::da1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8bcdf32cb8feae7afea3dfe1ab72f7a9">CytomicSVF::da2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ab85a2899083d2b2009d08c5e79452691">CytomicSVF::da3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1d2e146c08209e4a411406f8e4a64741">CytomicSVF::dm0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9dea15996ce0995f7e96fe2a11744303">CytomicSVF::dm1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa001edad32bc1f55c16534b14a4072db">CytomicSVF::dm2</a>, <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a6a5b1291f6d447698b1b5afcc064b3bf">CytomicSVF::step()</a>.</p>
 
 </div>
 </div>
 <a id="ad4fc3de0332c39fddb1abfba5abb25a8" name="ad4fc3de0332c39fddb1abfba5abb25a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4fc3de0332c39fddb1abfba5abb25a8">&#9670;&#160;</a></span>processBlockStep() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4fc3de0332c39fddb1abfba5abb25a8">&#9670;&#160;</a></span>processBlockStep() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -686,7 +912,57 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a0496aa6b8c50224ecefa2fbaeff756cc">CytomicSVF::da1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8bcdf32cb8feae7afea3dfe1ab72f7a9">CytomicSVF::da2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ab85a2899083d2b2009d08c5e79452691">CytomicSVF::da3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1d2e146c08209e4a411406f8e4a64741">CytomicSVF::dm0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9dea15996ce0995f7e96fe2a11744303">CytomicSVF::dm1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa001edad32bc1f55c16534b14a4072db">CytomicSVF::dm2</a>, <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe3ba9a15ba7cef31daa5a13aa994ebe">CytomicSVF::step()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a60810a988829769ab598f1cbdbb4c96c">CytomicSVF::a1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7d373c0e268f6941a206fc3dc3be7046">CytomicSVF::a2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b">CytomicSVF::a3</a>, <a class="el" href="filters_2CytomicSVF_8h.html#ad5439a21111fdc8227864eba3b98c661">ADD</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a0496aa6b8c50224ecefa2fbaeff756cc">CytomicSVF::da1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8bcdf32cb8feae7afea3dfe1ab72f7a9">CytomicSVF::da2</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ab85a2899083d2b2009d08c5e79452691">CytomicSVF::da3</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a1d2e146c08209e4a411406f8e4a64741">CytomicSVF::dm0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9dea15996ce0995f7e96fe2a11744303">CytomicSVF::dm1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aa001edad32bc1f55c16534b14a4072db">CytomicSVF::dm2</a>, <a class="el" href="model__config_8h.html#a7577d49f3bfffb1cf048eef843177784">L</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff">CytomicSVF::m0</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f">CytomicSVF::m1</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ae74ef83de6d0e81fb79f77e2a3b35a6d">CytomicSVF::m2</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a6a5b1291f6d447698b1b5afcc064b3bf">CytomicSVF::step()</a>.</p>
+
+</div>
+</div>
+<a id="a28e8b4dfd970639335206c350833dcd9" name="a28e8b4dfd970639335206c350833dcd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e8b4dfd970639335206c350833dcd9">&#9670;&#160;</a></span>processBlockQuad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void processBlockQuad </td>
+          <td>(</td>
+          <td class="paramtype">const float *const&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outC</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outD</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>.</p>
 
 </div>
 </div>
@@ -730,7 +1006,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>.</p>
 
 </div>
 </div>
@@ -762,7 +1038,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>.</p>
 
 </div>
 </div>
@@ -830,7 +1106,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aed4c0c1714f7307dba86404d61209b35">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">CytomicSVF::setCoeff()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aed4c0c1714f7307dba86404d61209b35">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -846,7 +1122,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aed4c0c1714f7307dba86404d61209b35">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">CytomicSVF::setCoeff()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aed4c0c1714f7307dba86404d61209b35">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -862,7 +1138,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -878,7 +1154,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -894,7 +1170,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -910,7 +1186,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -926,7 +1202,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -942,7 +1218,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -958,7 +1234,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -974,7 +1250,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#abe90fc085cff34b94203c4d9473f33a9">CytomicSVF::setCoeffPostGK()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1006,7 +1282,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">CytomicSVF::setCoeff()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a9feae4105792d054e7a2a69e9ac7f20b">CytomicSVF::setCoeff()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a8fc3a39ae49be002675bd47f31b642b5">CytomicSVF::setCoeffQuadBandpass()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a7bfd44bc46fb90153e58a3d4a2cbac9d">CytomicSVF::stepSSE()</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1314,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1054,7 +1330,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1346,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a63fa8fb82792672dd9b3f2f4ea54aabd">CytomicSVF::fetchCoeffs()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1086,7 +1362,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1102,7 +1378,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1118,7 +1394,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a715883e2f99db3e45e1f0ef5bc40933c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ad4fc3de0332c39fddb1abfba5abb25a8">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#aad7081ca7198fea7c228d2836cb6b66c">CytomicSVF::processBlockStep()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#ac19497adc72e61b0dd443a79b3e656e4">CytomicSVF::retainCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1134,7 +1410,7 @@ template&lt;int blockSize&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a59648d79e47566834cb48376fb059bda">CytomicSVF::setCoeffForBlock()</a>, <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a2242bf7c429dbf80aafe0386456aff5c">CytomicSVF::setCoeffForBlock()</a>, and <a class="el" href="structsst_1_1filters_1_1CytomicSVF.html#a42a664f041bc7557de9785a315a8e20b">CytomicSVF::setCoeffForBlockQuadBandpass()</a>.</p>
 
 </div>
 </div>
@@ -1144,7 +1420,7 @@ template&lt;int blockSize&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 12 2026 16:46:35 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Feb 19 2026 00:19:03 for sst-filters by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
