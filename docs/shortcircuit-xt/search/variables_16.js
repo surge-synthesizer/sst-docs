@@ -14,12 +14,13 @@ var searchData=
   ['welcomescreen_11',['welcomeScreen',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e',1,'scxt::ui::app::SCXTEditor']]],
   ['welcomeversion_12',['welcomeVersion',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#abdfb4578bb963ef7b3231109ddc5edab',1,'scxt::ui::app::other_screens::WelcomeScreen']]],
   ['wformattag_13',['wFormatTag',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a07e3a5a7091050ed77850bfd49608d10',1,'scxt::sample::loaders::wavheader']]],
-  ['width_14',['width',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartEffectsPane::width'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartSidebarCard::width']]],
-  ['widthislinear_15',['widthIsLinear',['../structscxt_1_1engine_1_1dtl_1_1Config.html#ac782651ed20212afe6b6dd07f269536f',1,'scxt::engine::dtl::Config']]],
-  ['wireframe_16',['WIREFRAME',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af',1,'scxt::ui::theme::ColorMap']]],
-  ['withcondition_17',['withCondition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a6454bf7fcf1518c04ef7d850606d69a6',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
-  ['within_18',['within',['../structscxt_1_1exs__support_1_1EXSObject.html#afe8c28aaf3a84ae3218936ae682554ab',1,'scxt::exs_support::EXSObject']]],
-  ['workitemcomps_19',['workItemComps',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a2f1338329a9816dcadf6b0d597a23461',1,'scxt::ui::app::missing_resolution::Contents']]],
-  ['workitems_20',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
-  ['writer_21',['writer',['../structscxt_1_1browser_1_1Scanner.html#a63cad92f66d3d178301593fd57332e55',1,'scxt::browser::Scanner']]]
+  ['whichprocessor_14',['whichprocessor',['../structscxt_1_1undo_1_1ZoneProcessorTypeChangeItem.html#af599012efeaa7439b4618ee9635835bc',1,'scxt::undo::ZoneProcessorTypeChangeItem::whichProcessor'],['../structscxt_1_1undo_1_1GroupProcessorTypeChangeItem.html#af599012efeaa7439b4618ee9635835bc',1,'scxt::undo::GroupProcessorTypeChangeItem::whichProcessor']]],
+  ['width_15',['width',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartEffectsPane::width'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartSidebarCard::width']]],
+  ['widthislinear_16',['widthIsLinear',['../structscxt_1_1engine_1_1dtl_1_1Config.html#ac782651ed20212afe6b6dd07f269536f',1,'scxt::engine::dtl::Config']]],
+  ['wireframe_17',['WIREFRAME',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af',1,'scxt::ui::theme::ColorMap']]],
+  ['withcondition_18',['withCondition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a6454bf7fcf1518c04ef7d850606d69a6',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
+  ['within_19',['within',['../structscxt_1_1exs__support_1_1EXSObject.html#afe8c28aaf3a84ae3218936ae682554ab',1,'scxt::exs_support::EXSObject']]],
+  ['workitemcomps_20',['workItemComps',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a2f1338329a9816dcadf6b0d597a23461',1,'scxt::ui::app::missing_resolution::Contents']]],
+  ['workitems_21',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
+  ['writer_22',['writer',['../structscxt_1_1browser_1_1Scanner.html#a63cad92f66d3d178301593fd57332e55',1,'scxt::browser::Scanner']]]
 ];

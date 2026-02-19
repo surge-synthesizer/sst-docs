@@ -59,9 +59,10 @@ var searchData=
   ['scxt_3a_3aui_3a_3atheme_3a_3adetail_56',['detail',['../namespacescxt_1_1ui_1_1theme_1_1detail.html',1,'scxt::ui::theme']]],
   ['scxt_3a_3aui_3a_3atheme_3a_3alayout_57',['layout',['../namespacescxt_1_1ui_1_1theme_1_1layout.html',1,'scxt::ui::theme']]],
   ['scxt_3a_3aui_3a_3atheme_3a_3alayout_3a_3aconstants_58',['constants',['../namespacescxt_1_1ui_1_1theme_1_1layout_1_1constants.html',1,'scxt::ui::theme::layout']]],
-  ['scxt_3a_3avoice_59',['voice',['../namespacescxt_1_1voice.html',1,'scxt']]],
-  ['scxt_3a_3avoice_3a_3amodulation_60',['modulation',['../namespacescxt_1_1voice_1_1modulation.html',1,'scxt::voice']]],
-  ['sst_61',['sst',['../namespacesst.html',1,'']]],
-  ['sst_3a_3ajucegui_62',['jucegui',['../namespacesst_1_1jucegui.html',1,'sst']]],
-  ['sst_3a_3ajucegui_3a_3acomponents_63',['components',['../namespacesst_1_1jucegui_1_1components.html',1,'sst::jucegui']]]
+  ['scxt_3a_3aundo_59',['undo',['../namespacescxt_1_1undo.html',1,'scxt']]],
+  ['scxt_3a_3avoice_60',['voice',['../namespacescxt_1_1voice.html',1,'scxt']]],
+  ['scxt_3a_3avoice_3a_3amodulation_61',['modulation',['../namespacescxt_1_1voice_1_1modulation.html',1,'scxt::voice']]],
+  ['sst_62',['sst',['../namespacesst.html',1,'']]],
+  ['sst_3a_3ajucegui_63',['jucegui',['../namespacesst_1_1jucegui.html',1,'sst']]],
+  ['sst_3a_3ajucegui_3a_3acomponents_64',['components',['../namespacesst_1_1jucegui_1_1components.html',1,'sst::jucegui']]]
 ];

@@ -15,9 +15,11 @@ var searchData=
   ['group_5for_5fzone_5fmessages_2eh_12',['group_or_zone_messages.h',['../group__or__zone__messages_8h.html',1,'']]],
   ['group_5ftriggers_2ecpp_13',['group_triggers.cpp',['../group__triggers_8cpp.html',1,'']]],
   ['group_5ftriggers_2eh_14',['group_triggers.h',['../group__triggers_8h.html',1,'']]],
-  ['groupsettingscard_2ecpp_15',['GroupSettingsCard.cpp',['../GroupSettingsCard_8cpp.html',1,'']]],
-  ['groupsettingscard_2eh_16',['GroupSettingsCard.h',['../GroupSettingsCard_8h.html',1,'']]],
-  ['grouptriggerscard_2ecpp_17',['GroupTriggersCard.cpp',['../GroupTriggersCard_8cpp.html',1,'']]],
-  ['grouptriggerscard_2eh_18',['GroupTriggersCard.h',['../GroupTriggersCard_8h.html',1,'']]],
-  ['groupzonetreecontrol_2eh_19',['GroupZoneTreeControl.h',['../GroupZoneTreeControl_8h.html',1,'']]]
+  ['group_5fundoable_5fitems_2ecpp_15',['group_undoable_items.cpp',['../group__undoable__items_8cpp.html',1,'']]],
+  ['group_5fundoable_5fitems_2eh_16',['group_undoable_items.h',['../group__undoable__items_8h.html',1,'']]],
+  ['groupsettingscard_2ecpp_17',['GroupSettingsCard.cpp',['../GroupSettingsCard_8cpp.html',1,'']]],
+  ['groupsettingscard_2eh_18',['GroupSettingsCard.h',['../GroupSettingsCard_8h.html',1,'']]],
+  ['grouptriggerscard_2ecpp_19',['GroupTriggersCard.cpp',['../GroupTriggersCard_8cpp.html',1,'']]],
+  ['grouptriggerscard_2eh_20',['GroupTriggersCard.h',['../GroupTriggersCard_8h.html',1,'']]],
+  ['groupzonetreecontrol_2eh_21',['GroupZoneTreeControl.h',['../GroupZoneTreeControl_8h.html',1,'']]]
 ];

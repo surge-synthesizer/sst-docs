@@ -62,13 +62,14 @@ var searchData=
   ['_7esteplfo_59',['~StepLFO',['../structscxt_1_1modulation_1_1modulators_1_1StepLFO.html#aa2f7d32a818f1a81ccf7b87a5bc54839',1,'scxt::modulation::modulators::StepLFO']]],
   ['_7estreamguard_60',['~StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html#a4ed6adad51e527ccc240918e1029114b',1,'scxt::engine::Engine::StreamGuard']]],
   ['_7etxnguard_61',['~TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a24bbddeb426dd151b0c709817ad2e7c4',1,'scxt::browser::SQL::TxnGuard']]],
-  ['_7eunstreamguard_62',['~UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#acc89f194447c3ab407f1a2dd73a640b3',1,'scxt::engine::Engine::UnstreamGuard']]],
-  ['_7evariantdisplay_63',['~VariantDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aae1118c4218038e042cc5e73bbdb3b9d',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
-  ['_7evoice_64',['~Voice',['../structscxt_1_1voice_1_1Voice.html#a5063ff08093aec1bf535da54f82d2b46',1,'scxt::voice::Voice']]],
-  ['_7ewithsampleinfo_65',['~WithSampleInfo',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#afb4ee2df912f12222d737ef76915e116',1,'scxt::ui::app::browser_ui::WithSampleInfo']]],
-  ['_7ewriterworker_66',['~WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28',1,'scxt::browser::WriterWorker']]],
-  ['_7eziparchiveholder_67',['~ZipArchiveHolder',['../structscxt_1_1sample_1_1ZipArchiveHolder.html#a02bf16fcf3a021654b4d48c2037dd3d3',1,'scxt::sample::ZipArchiveHolder']]],
-  ['_7ezone_68',['~Zone',['../structscxt_1_1engine_1_1Zone.html#aa578fb94963108f603cc9950eb3944bb',1,'scxt::engine::Zone']]],
-  ['_7ezoneorgroupelements_69',['~ZoneOrGroupElements',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a84aef4f6d6c858b735f02217c22121b9',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements']]],
-  ['_7ezonesidebar_70',['~ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af9b51ebb5ae29b372e8f92dde7947eb3',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
+  ['_7eundoableitem_62',['~UndoableItem',['../structscxt_1_1undo_1_1UndoableItem.html#a97dc15fddf0118677f33a0d20fbd4a3a',1,'scxt::undo::UndoableItem']]],
+  ['_7eunstreamguard_63',['~UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#acc89f194447c3ab407f1a2dd73a640b3',1,'scxt::engine::Engine::UnstreamGuard']]],
+  ['_7evariantdisplay_64',['~VariantDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#aae1118c4218038e042cc5e73bbdb3b9d',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['_7evoice_65',['~Voice',['../structscxt_1_1voice_1_1Voice.html#a5063ff08093aec1bf535da54f82d2b46',1,'scxt::voice::Voice']]],
+  ['_7ewithsampleinfo_66',['~WithSampleInfo',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#afb4ee2df912f12222d737ef76915e116',1,'scxt::ui::app::browser_ui::WithSampleInfo']]],
+  ['_7ewriterworker_67',['~WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28',1,'scxt::browser::WriterWorker']]],
+  ['_7eziparchiveholder_68',['~ZipArchiveHolder',['../structscxt_1_1sample_1_1ZipArchiveHolder.html#a02bf16fcf3a021654b4d48c2037dd3d3',1,'scxt::sample::ZipArchiveHolder']]],
+  ['_7ezone_69',['~Zone',['../structscxt_1_1engine_1_1Zone.html#aa578fb94963108f603cc9950eb3944bb',1,'scxt::engine::Zone']]],
+  ['_7ezoneorgroupelements_70',['~ZoneOrGroupElements',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a84aef4f6d6c858b735f02217c22121b9',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements']]],
+  ['_7ezonesidebar_71',['~ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af9b51ebb5ae29b372e8f92dde7947eb3',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
 ];

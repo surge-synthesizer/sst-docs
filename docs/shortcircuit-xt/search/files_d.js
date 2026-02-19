@@ -28,7 +28,9 @@ var searchData=
   ['processor_5fdefs_2eh_25',['processor_defs.h',['../processor__defs_8h.html',1,'']]],
   ['processor_5fimpl_2eh_26',['processor_impl.h',['../processor__impl_8h.html',1,'']]],
   ['processor_5fmessages_2eh_27',['processor_messages.h',['../processor__messages_8h.html',1,'']]],
-  ['processorpane_2ecpp_28',['ProcessorPane.cpp',['../ProcessorPane_8cpp.html',1,'']]],
-  ['processorpane_2eh_29',['ProcessorPane.h',['../ProcessorPane_8h.html',1,'']]],
-  ['processorpaneeqsfilters_2ecpp_30',['ProcessorPaneEQsFilters.cpp',['../ProcessorPaneEQsFilters_8cpp.html',1,'']]]
+  ['processor_5fundoable_5fitems_2ecpp_28',['processor_undoable_items.cpp',['../processor__undoable__items_8cpp.html',1,'']]],
+  ['processor_5fundoable_5fitems_2eh_29',['processor_undoable_items.h',['../processor__undoable__items_8h.html',1,'']]],
+  ['processorpane_2ecpp_30',['ProcessorPane.cpp',['../ProcessorPane_8cpp.html',1,'']]],
+  ['processorpane_2eh_31',['ProcessorPane.h',['../ProcessorPane_8h.html',1,'']]],
+  ['processorpaneeqsfilters_2ecpp_32',['ProcessorPaneEQsFilters.cpp',['../ProcessorPaneEQsFilters_8cpp.html',1,'']]]
 ];
