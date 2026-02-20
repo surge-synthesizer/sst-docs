@@ -12,11 +12,12 @@ var searchData=
   ['consoleharness_9',['ConsoleHarness',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html',1,'scxt::clients::console_ui']]],
   ['consoleui_10',['ConsoleUI',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html',1,'scxt::clients::console_ui']]],
   ['contents_11',['Contents',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html',1,'scxt::ui::app::missing_resolution']]],
-  ['cuepoint_12',['CuePoint',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html',1,'scxt::sample::loaders']]],
-  ['curve_13',['Curve',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
-  ['curvedatasource_14',['CurveDataSource',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDataSource.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
-  ['curvelfo_15',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
-  ['curvelfopane_16',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['curvelfostorage_17',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]],
-  ['customdtev_18',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]]
+  ['continuationdata_12',['ContinuationData',['../structscxt_1_1engine_1_1Engine_1_1VMConfig_1_1ContinuationData.html',1,'scxt::engine::Engine::VMConfig']]],
+  ['cuepoint_13',['CuePoint',['../structscxt_1_1sample_1_1loaders_1_1CuePoint.html',1,'scxt::sample::loaders']]],
+  ['curve_14',['Curve',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Curve.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
+  ['curvedatasource_15',['CurveDataSource',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane_1_1CurveDataSource.html',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
+  ['curvelfo_16',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
+  ['curvelfopane_17',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
+  ['curvelfostorage_18',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]],
+  ['customdtev_19',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]]
 ];

@@ -156,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec073665c35dd44604da58bc833e9cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a807a6d9b51b8ad352e2591e82dfa2bdc" id="r_a807a6d9b51b8ad352e2591e82dfa2bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">initiateGlide</a> (uint8_t newKey)</td></tr>
 <tr class="separator:a807a6d9b51b8ad352e2591e82dfa2bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f27205655535a225194123eab7adb0" id="r_a87f27205655535a225194123eab7adb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">startGlideFrom</a> (float pitch)</td></tr>
+<tr class="separator:a87f27205655535a225194123eab7adb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab97954932ee807863d4c3c729a28b25" id="r_aab97954932ee807863d4c3c729a28b25"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">updateGlide</a> ()</td></tr>
 <tr class="separator:aab97954932ee807863d4c3c729a28b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf843557abaa8bfcda9b93d659b14322" id="r_abf843557abaa8bfcda9b93d659b14322"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#abf843557abaa8bfcda9b93d659b14322">envelope_rate_linear_nowrap</a> (float f)</td></tr>
@@ -607,6 +609,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a87f27205655535a225194123eab7adb0" name="a87f27205655535a225194123eab7adb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f27205655535a225194123eab7adb0">&#9670;&#160;</a></span>startGlideFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void startGlideFrom </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pitch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a89a4fe50cb4af8719daffdb7acf16209">Voice::glideProgress</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a1be2a0cdf20490d3a0119ccdf12f6a90">Voice::glideSemitones</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ab26143df8149599b6ec6e0e94f7aadd6">Voice::inGlide</a>.</p>
+
+</div>
+</div>
 <a id="aab97954932ee807863d4c3c729a28b25" name="aab97954932ee807863d4c3c729a28b25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab97954932ee807863d4c3c729a28b25">&#9670;&#160;</a></span>updateGlide()</h2>
 
@@ -796,7 +818,7 @@ template&lt;bool OS&gt; </div>
 
 <p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87a2d059ff3004eb769848369d28a509">Voice::channel</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a17debed7e83edfa5f64b3616a16fef03">Voice::endpoints</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">Group::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8e9ff76af0be91e732db400ba764796c">Zone::getEngine()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a3496dfc7a27df7eead65d48ed89e6867">Voice::key</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ab88ad8ca1ef1c33c297c91e1950fa195">Voice::keytrackPerOct</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2">Zone::mapping</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a23174a8e7a1c4ec2dac457d59320cdd6">Engine::midikeyRetuner</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#abc5218bab3d28dbbd429ee90dcc0af1c">Voice::mpePitchBend</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aae8090d39e88ed32c7b5aba100f94515">Voice::noteExpressions</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a8b12aaa43ec8eb476290a2f801f9126b">Voice::originalMidiKey</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a525cdc479fc425dc04d06138da180d3d">Group::outputInfo</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aada141a1b4e1678b1e91bc3b18b9cfd7">Group::parentPart</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a1cc3b4d370625a856e41bce8eb26640b">Group::GroupOutputInfo::pbDown</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1cc3b4d370625a856e41bce8eb26640b">Zone::ZoneMappingData::pbDown</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#adc3abe36fe849a46d6fb43ff916342d3">Group::GroupOutputInfo::pbUp</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#adc3abe36fe849a46d6fb43ff916342d3">Zone::ZoneMappingData::pbUp</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#af0b143144b9c99c08e36bd164c8a358a">Part::pitchBendValue</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9db1fd5fa7b1768b6a63f55b608effce">Voice::retuneContinuous</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ae5fea576d9ec9bb11c6e0d75477798b5">Voice::retuningForKeyAtAttack</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a3a0984dc845c1dba0af62ec210688b39">MidikeyRetuner::retuningForRemappedKeyWithInterpolation()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af5f29f40494d6049bcbf5780c05391bd">Engine::runtimeConfig</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aeabdff6a226c85d14aa058b75aa7ce10">Zone::ZoneMappingData::tracking</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a0fb775127789ce2215c83775414e6f37">Group::GroupOutputInfo::tuning</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a2041c953e2505185f31b2e4f74545853">Voice::TUNING</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#af9cb61d0a68d263a04b97c1eecfd7e9d">Engine::RuntimeConfig::tuningAwareMPEGlides</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#afea50a8753b98c3e9ece5cc65b10f9e6">Engine::RuntimeConfig::tuningAwarePitchBends</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a00362513949c830014ef34e1eb207412">Voice::initializeProcessors()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8">Engine::VoiceManagerResponder::moveVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a25d600a10c655b3945002669cc52d46a">Engine::VoiceManagerResponder::getContinuationData()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a00362513949c830014ef34e1eb207412">Voice::initializeProcessors()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8">Engine::VoiceManagerResponder::moveVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1377,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8">Engine::VoiceManagerResponder::moveVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af1fdc0db386ae9545f0d180595aeaa91">Engine::VoiceManagerResponder::terminateVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a25d600a10c655b3945002669cc52d46a">Engine::VoiceManagerResponder::getContinuationData()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a90ee470de9a13b66b96a9749fda244c8">Engine::VoiceManagerResponder::moveVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af1fdc0db386ae9545f0d180595aeaa91">Engine::VoiceManagerResponder::terminateVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1569,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>.</p>
 
 </div>
 </div>
@@ -1563,7 +1585,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>.</p>
 
 </div>
 </div>
@@ -1579,7 +1601,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>.</p>
 
 </div>
 </div>
@@ -2175,7 +2197,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af1fdc0db386ae9545f0d180595aeaa91">Engine::VoiceManagerResponder::terminateVoice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a25d600a10c655b3945002669cc52d46a">Engine::VoiceManagerResponder::getContinuationData()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af1fdc0db386ae9545f0d180595aeaa91">Engine::VoiceManagerResponder::terminateVoice()</a>.</p>
 
 </div>
 </div>
@@ -2274,7 +2296,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2026 20:36:29 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 20 2026 22:26:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
