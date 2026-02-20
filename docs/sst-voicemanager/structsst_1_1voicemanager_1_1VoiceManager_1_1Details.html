@@ -117,6 +117,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:aa5140f128ab4ffcd1be0d3fa5ed21d18" id="r_aa5140f128ab4ffcd1be0d3fa5ed21d18"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#aa5140f128ab4ffcd1be0d3fa5ed21d18">keyState_t</a> = std::array&lt; std::array&lt; std::unordered_map&lt; uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html">IndividualKeyState</a> &gt;, 128 &gt;, 16 &gt;</td></tr>
 <tr class="separator:aa5140f128ab4ffcd1be0d3fa5ed21d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5283767be693122dc6300c4a904664fe" id="r_a5283767be693122dc6300c4a904664fe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a> = typename <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt; Cfg &gt;::continuationData_t</td></tr>
+<tr class="separator:a5283767be693122dc6300c4a904664fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -136,8 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4c7078d41260bc068022fd64ba301e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a035c45c1a511c0ad7e63cb69fedd8ce8" id="r_a035c45c1a511c0ad7e63cb69fedd8ce8"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a035c45c1a511c0ad7e63cb69fedd8ce8">findNextStealableVoiceInfo</a> (uint64_t polygroup, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> pm, bool ignorePolygroup=false)</td></tr>
 <tr class="separator:a035c45c1a511c0ad7e63cb69fedd8ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae85d867ae38f9351dc4e1f2f59398227" id="r_ae85d867ae38f9351dc4e1f2f59398227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ae85d867ae38f9351dc4e1f2f59398227">doMonoRetrigger</a> (int16_t port, uint64_t polyGroup)</td></tr>
-<tr class="separator:ae85d867ae38f9351dc4e1f2f59398227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3364d20b03ebc4f58fe6d6a9b6365f1" id="r_ae3364d20b03ebc4f58fe6d6a9b6365f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ae3364d20b03ebc4f58fe6d6a9b6365f1">doMonoRetrigger</a> (int16_t port, uint64_t polyGroup, std::optional&lt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a> &gt; contData=std::nullopt)</td></tr>
+<tr class="separator:ae3364d20b03ebc4f58fe6d6a9b6365f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d06d007744cea6ad8cf33af46789dbb" id="r_a6d06d007744cea6ad8cf33af46789dbb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6d06d007744cea6ad8cf33af46789dbb">anyKeyHeldFor</a> (int16_t port, uint64_t polyGroup, int exceptChannel, int exceptKey, bool includeHeldBySustain=false)</td></tr>
 <tr class="separator:a6d06d007744cea6ad8cf33af46789dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf3d7ec2f4430d4062656c8b69b770b" id="r_acbf3d7ec2f4430d4062656c8b69b770b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#acbf3d7ec2f4430d4062656c8b69b770b">debugDumpKeyState</a> (int port) const</td></tr>
@@ -191,6 +193,22 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#aa5140f128ab4ffcd1be0d3fa5ed21d18">keyState_t</a> =  std::array&lt;std::array&lt;std::unordered_map&lt;uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html">IndividualKeyState</a>&gt;, 128&gt;, 16&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5283767be693122dc6300c4a904664fe" name="a5283767be693122dc6300c4a904664fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5283767be693122dc6300c4a904664fe">&#9670;&#160;</a></span>continuationData_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a> =  typename <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt;Cfg&gt;::continuationData_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -455,8 +473,8 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
-<a id="ae85d867ae38f9351dc4e1f2f59398227" name="ae85d867ae38f9351dc4e1f2f59398227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae85d867ae38f9351dc4e1f2f59398227">&#9670;&#160;</a></span>doMonoRetrigger()</h2>
+<a id="ae3364d20b03ebc4f58fe6d6a9b6365f1" name="ae3364d20b03ebc4f58fe6d6a9b6365f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3364d20b03ebc4f58fe6d6a9b6365f1">&#9670;&#160;</a></span>doMonoRetrigger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -473,7 +491,13 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>polyGroup</em>&#160;</td>
+          <td class="paramname"><em>polyGroup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>contData</em> = <code>std::nullopt</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -483,7 +507,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0afb9e58b03fe52c744df80518f2645934">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::MONO_LEGATO</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a80b61156f92f4479797b5f9968bcd4e2">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::MONO_RETRIGGER</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a9a6af52606029e53f171e3bf3a48db51">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::ON_RELEASE_TO_HIGHEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0aca5c7bda3d4f794b159e33ab1224cdb0">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::ON_RELEASE_TO_LATEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a1ee9db4f3c06106d0119724a4afb3fe1">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::ON_RELEASE_TO_LOWEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a0f95855e1cc27deb8cd9aa6893c3b6c3">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::responder</a>, and <a class="el" href="voicemanager__impl_8h.html#a71f8cd5477d398a11cd11f99d9779362">VML</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#ad53e7f12ae814751296e41b3c13e8855">VoiceInitInstructionsEntry&lt; Cfg &gt;::continuationData</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0afb9e58b03fe52c744df80518f2645934">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::MONO_LEGATO</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a80b61156f92f4479797b5f9968bcd4e2">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::MONO_RETRIGGER</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a9a6af52606029e53f171e3bf3a48db51">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::ON_RELEASE_TO_HIGHEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0aca5c7bda3d4f794b159e33ab1224cdb0">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::ON_RELEASE_TO_LATEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0a1ee9db4f3c06106d0119724a4afb3fe1">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::ON_RELEASE_TO_LOWEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a0f95855e1cc27deb8cd9aa6893c3b6c3">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::responder</a>, and <a class="el" href="voicemanager__impl_8h.html#a71f8cd5477d398a11cd11f99d9779362">VML</a>.</p>
 
 </div>
 </div>
@@ -836,7 +860,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 12 2026 23:46:35 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 20 2026 21:18:30 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

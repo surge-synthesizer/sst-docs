@@ -1,5 +1,6 @@
 var searchData=
 [
   ['findnextstealablevoiceinfo_0',['findNextStealableVoiceInfo',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a035c45c1a511c0ad7e63cb69fedd8ce8',1,'sst::voicemanager::VoiceManager::Details']]],
-  ['fld_1',['FLD',['../voicemanager__constraints_8h.html#a78c391a3a2ffbf51c84cfc510be4016e',1,'voicemanager_constraints.h']]]
+  ['fld_1',['FLD',['../voicemanager__constraints_8h.html#a78c391a3a2ffbf51c84cfc510be4016e',1,'voicemanager_constraints.h']]],
+  ['fromplayingvoice_2',['fromPlayingVoice',['../structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#aa1c8ce62dc0784c05d988bf20ba79803',1,'sst::voicemanager::VoiceInitInstructionsEntry']]]
 ];

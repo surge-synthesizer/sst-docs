@@ -5,12 +5,13 @@ var indexSectionsWithContent =
   2: "s",
   3: "mv",
   4: "adefghmprsuv",
-  5: "acghiklmnoprstuv",
-  6: "bik",
+  5: "acfghiklmnoprstuv",
+  6: "bcik",
   7: "imprs",
   8: "hlmnops",
   9: "fhv",
-  10: "msv"
+  10: "msv",
+  11: "s"
 };
 
 var indexSectionNames =
@@ -25,7 +26,8 @@ var indexSectionNames =
   7: "enums",
   8: "enumvalues",
   9: "defines",
-  10: "pages"
+  10: "pages",
+  11: "concepts"
 };
 
 var indexSectionLabels =
@@ -40,6 +42,7 @@ var indexSectionLabels =
   7: "Enumerations",
   8: "Enumerator",
   9: "Macros",
-  10: "Pages"
+  10: "Pages",
+  11: "Concepts"
 };
 

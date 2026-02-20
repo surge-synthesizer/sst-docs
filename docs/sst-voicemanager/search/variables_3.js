@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['heldbysustain_0',['heldBySustain',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html#aa6fe8a3bf5d32887cb16436e03d518b1',1,'sst::voicemanager::VoiceManager::Details::IndividualKeyState']]],
-  ['heldmidikeybychannel_1',['heldMIDIKeyByChannel',['../structsst_1_1voicemanager_1_1VoiceManager.html#af890754d9ccadda07a60c2982200cb2c',1,'sst::voicemanager::VoiceManager']]]
+  ['gated_0',['gated',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a916cd9419d627e709cdfd07f2d8e1e8f',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]],
+  ['gatedduetosustain_1',['gatedDueToSustain',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#aedecfe326b14c1e0319d7740e483c740',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]]
 ];

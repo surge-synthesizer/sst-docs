@@ -97,6 +97,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VoiceInitInstructionsEntry&lt; Cfg &gt; Struct Template Reference</div></div>
 </div><!--header-->
@@ -113,6 +114,8 @@ Public Types</h2></td></tr>
 , <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684ab85df04e922fe1dd3c1f0692faeaacef">SKIP</a>
  }</td></tr>
 <tr class="separator:acbd603b5f7c788a74eade8d4837ba684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1891f0b4dcb4799d169bf4f079cd314" id="r_ad1891f0b4dcb4799d169bf4f079cd314"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#ad1891f0b4dcb4799d169bf4f079cd314">continuationData_t</a> = typename detail::ContinuationDataType&lt; Cfg, <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a9b6cbf800f7c3c7eba8fbfc77d683353">hasContinuationData</a> &gt;::type</td></tr>
+<tr class="separator:ad1891f0b4dcb4799d169bf4f079cd314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d9a86774fb712cbcf590066b6fae06" id="r_a82d9a86774fb712cbcf590066b6fae06"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a82d9a86774fb712cbcf590066b6fae06">buffer_t</a> = std::array&lt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt; Cfg &gt;, Cfg::maxVoiceCount &gt;</td></tr>
 <tr class="separator:a82d9a86774fb712cbcf590066b6fae06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -120,11 +123,43 @@ Public Types</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7bd05fa0213b0f0f0acb5a7c52f0a348" id="r_a7bd05fa0213b0f0f0acb5a7c52f0a348"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684">sst::voicemanager::VoiceInitInstructionsEntry::Instruction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a7bd05fa0213b0f0f0acb5a7c52f0a348">START</a></td></tr>
 <tr class="separator:a7bd05fa0213b0f0f0acb5a7c52f0a348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c8ce62dc0784c05d988bf20ba79803" id="r_aa1c8ce62dc0784c05d988bf20ba79803"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#aa1c8ce62dc0784c05d988bf20ba79803">fromPlayingVoice</a> {false}</td></tr>
+<tr class="separator:aa1c8ce62dc0784c05d988bf20ba79803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53e7f12ae814751296e41b3c13e8855" id="r_ad53e7f12ae814751296e41b3c13e8855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#ad1891f0b4dcb4799d169bf4f079cd314">continuationData_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#ad53e7f12ae814751296e41b3c13e8855">continuationData</a> {}</td></tr>
+<tr class="separator:ad53e7f12ae814751296e41b3c13e8855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a9b6cbf800f7c3c7eba8fbfc77d683353" id="r_a9b6cbf800f7c3c7eba8fbfc77d683353"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a9b6cbf800f7c3c7eba8fbfc77d683353">hasContinuationData</a> = HasVoiceContinuationData&lt;Cfg&gt;</td></tr>
+<tr class="separator:a9b6cbf800f7c3c7eba8fbfc77d683353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Cfg&gt;<br />
 struct sst::voicemanager::VoiceInitInstructionsEntry&lt; Cfg &gt;</div><p><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html" title="VoiceInitInstructionsEntry is how the voice manager gives instructions to the synth to start or resta...">VoiceInitInstructionsEntry</a> is how the voice manager gives instructions to the synth to start or restart a voice. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Cfg</td><td>the voice manager configuration trait </td></tr>
+    <tr><td class="paramname">Responder</td><td>optional responder type; if Cfg and Responder satisfy HasVoiceContinuationData, the entry carries a continuationData_t member, otherwise it carries an int. </td></tr>
+  </table>
+  </dd>
+</dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ad1891f0b4dcb4799d169bf4f079cd314" name="ad1891f0b4dcb4799d169bf4f079cd314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1891f0b4dcb4799d169bf4f079cd314">&#9670;&#160;</a></span>continuationData_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#ad1891f0b4dcb4799d169bf4f079cd314">continuationData_t</a> =  typename detail::ContinuationDataType&lt;Cfg, <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a9b6cbf800f7c3c7eba8fbfc77d683353">hasContinuationData</a>&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a82d9a86774fb712cbcf590066b6fae06" name="a82d9a86774fb712cbcf590066b6fae06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82d9a86774fb712cbcf590066b6fae06">&#9670;&#160;</a></span>buffer_t</h2>
 
@@ -189,13 +224,71 @@ template&lt;typename Cfg &gt; </div>
 
 </div>
 </div>
+<a id="aa1c8ce62dc0784c05d988bf20ba79803" name="aa1c8ce62dc0784c05d988bf20ba79803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c8ce62dc0784c05d988bf20ba79803">&#9670;&#160;</a></span>fromPlayingVoice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fromPlayingVoice {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b6cbf800f7c3c7eba8fbfc77d683353" name="a9b6cbf800f7c3c7eba8fbfc77d683353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b6cbf800f7c3c7eba8fbfc77d683353">&#9670;&#160;</a></span>hasContinuationData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool hasContinuationData = HasVoiceContinuationData&lt;Cfg&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad53e7f12ae814751296e41b3c13e8855" name="ad53e7f12ae814751296e41b3c13e8855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53e7f12ae814751296e41b3c13e8855">&#9670;&#160;</a></span>continuationData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#ad1891f0b4dcb4799d169bf4f079cd314">continuationData_t</a> continuationData {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ae3364d20b03ebc4f58fe6d6a9b6365f1">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::doMonoRetrigger()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="voicemanager_8h.html">voicemanager.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 12 2026 23:46:35 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 20 2026 21:18:30 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
