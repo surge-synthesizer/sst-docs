@@ -132,6 +132,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a4fcd4ba19af7d789139723798932e6e7" id="r_a4fcd4ba19af7d789139723798932e6e7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7">GlideRateMode</a> : int32_t { <a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7a9c92c2cdec128db11d4ea2159353c1f7">CONSTANT_TIME</a> = 0
+, <a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7ac12a05f078be2899783acf77f0e44747">CONSTANT_RATE</a>
+ }</td></tr>
+<tr class="separator:a4fcd4ba19af7d789139723798932e6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a998e9cf4247b55a1cee872655bed30be" id="r_a998e9cf4247b55a1cee872655bed30be"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a998e9cf4247b55a1cee872655bed30be">lipol</a> = sst::basic_blocks::dsp::lipol_sse&lt; blockSize, false &gt;</td></tr>
 <tr class="separator:a998e9cf4247b55a1cee872655bed30be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab0296fa59443d6868ea40fb6a9959ff" id="r_aab0296fa59443d6868ea40fb6a9959ff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#aab0296fa59443d6868ea40fb6a9959ff">lipolOS</a> = sst::basic_blocks::dsp::lipol_sse&lt; blockSize&lt;&lt; 1, false &gt;</td></tr>
@@ -157,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a27f93532d523e66a79876266c7d5358f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af01fe963b4d079001758b734085e6c8a" id="r_af01fe963b4d079001758b734085e6c8a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#af01fe963b4d079001758b734085e6c8a">~Group</a> ()</td></tr>
 <tr class="separator:af01fe963b4d079001758b734085e6c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b17de60b719252000172cb54b083dde" id="r_a9b17de60b719252000172cb54b083dde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a9b17de60b719252000172cb54b083dde">DECLARE_ENUM_STRING</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7">GlideRateMode</a>)</td></tr>
+<tr class="separator:a9b17de60b719252000172cb54b083dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9ff76af0be91e732db400ba764796c" id="r_a8e9ff76af0be91e732db400ba764796c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">getEngine</a> ()</td></tr>
 <tr class="separator:a8e9ff76af0be91e732db400ba764796c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e713df21e3796eacfb4d2fcabd16ef" id="r_ab0e713df21e3796eacfb4d2fcabd16ef"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#ab0e713df21e3796eacfb4d2fcabd16ef">getEngine</a> () const</td></tr>
@@ -478,6 +484,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a4fcd4ba19af7d789139723798932e6e7" name="a4fcd4ba19af7d789139723798932e6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcd4ba19af7d789139723798932e6e7">&#9670;&#160;</a></span>GlideRateMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7">GlideRateMode</a> : int32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4fcd4ba19af7d789139723798932e6e7a9c92c2cdec128db11d4ea2159353c1f7" name="a4fcd4ba19af7d789139723798932e6e7a9c92c2cdec128db11d4ea2159353c1f7"></a>CONSTANT_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4fcd4ba19af7d789139723798932e6e7ac12a05f078be2899783acf77f0e44747" name="a4fcd4ba19af7d789139723798932e6e7ac12a05f078be2899783acf77f0e44747"></a>CONSTANT_RATE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a27f93532d523e66a79876266c7d5358f" name="a27f93532d523e66a79876266c7d5358f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27f93532d523e66a79876266c7d5358f">&#9670;&#160;</a></span>Group()</h2>
@@ -533,6 +558,24 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9b17de60b719252000172cb54b083dde" name="a9b17de60b719252000172cb54b083dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b17de60b719252000172cb54b083dde">&#9670;&#160;</a></span>DECLARE_ENUM_STRING()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DECLARE_ENUM_STRING </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7">GlideRateMode</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8e9ff76af0be91e732db400ba764796c" name="a8e9ff76af0be91e732db400ba764796c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e9ff76af0be91e732db400ba764796c">&#9670;&#160;</a></span>getEngine() <span class="overload">[1/2]</span></h2>
 
@@ -1404,7 +1447,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html#ab60ebf452f81bf9ed6c2808ddc6c0b97">GroupMatrixEndpoints::OutputTarget::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab2fb9b3c06e2581c9bd45bac569964de">Group::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">Zone::process()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a83d34898f9120b101f2db51f66450fe6">Group::respondsToChannelOrUsesPartChannel()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html#ab60ebf452f81bf9ed6c2808ddc6c0b97">GroupMatrixEndpoints::OutputTarget::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab2fb9b3c06e2581c9bd45bac569964de">Group::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">Zone::process()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a83d34898f9120b101f2db51f66450fe6">Group::respondsToChannelOrUsesPartChannel()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
@@ -1950,7 +1993,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2026 05:13:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 20 2026 17:15:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

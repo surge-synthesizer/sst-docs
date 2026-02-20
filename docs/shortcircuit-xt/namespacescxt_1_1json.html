@@ -143,8 +143,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6eaa2776638e631cdba071eee81c65eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7e14479ae836d8b6cff00ad36b3d932" id="r_af7e14479ae836d8b6cff00ad36b3d932"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#af7e14479ae836d8b6cff00ad36b3d932">groupInfoPlayModeFeatureFrom</a> (const std::string &amp;x)</td></tr>
 <tr class="separator:af7e14479ae836d8b6cff00ad36b3d932"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55b7b909ccb74b76b972b188fc1fe4ce" id="r_a55b7b909ccb74b76b972b188fc1fe4ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a55b7b909ccb74b76b972b188fc1fe4ce">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">scxt::engine::Group::GroupOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;tn&quot;, t.tuning}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;mutedByLatch&quot;, t.mutedByLatch}, {&quot;procRouting&quot;, t.procRouting}, {&quot;prCon&quot;, t.procRoutingConsistent}, {&quot;buCon&quot;, t.busRoutingConsistent}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}, {&quot;mc&quot;, t.midiChannel}, {&quot;pbu&quot;, t.pbUp}, {&quot;pbd&quot;, t.pbDown}, {&quot;vpm&quot;, <a class="el" href="namespacescxt_1_1json.html#a714d29cc708863e827fa7884232195e2">groupInfoPlayModeTo</a>(t.vmPlayModeInt)}, {&quot;vpf&quot;, <a class="el" href="namespacescxt_1_1json.html#a6eaa2776638e631cdba071eee81c65eb">groupInfoPlayModeFeatureTo</a>(t.vmPlayModeFeaturesInt)}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;amplitude&quot;, result.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, result.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;tn&quot;, 0.f, result.tuning);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;muted&quot;, result.muted);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mutedByLatch&quot;, false, result.mutedByLatch);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;procRouting&quot;, result.procRouting);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;oversample&quot;, result.oversample);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routeTo&quot;, rt);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;hip&quot;, result.hasIndependentPolyLimit);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pl&quot;, result.polyLimit);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;prCon&quot;, true, result.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;buCon&quot;, true, result.busRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mc&quot;, -1, result.midiChannel);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbu&quot;, 2, result.pbUp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbd&quot;, 2, result.pbDown);result.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);std::string tmp;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpm&quot;, tmp);result.vmPlayModeInt=<a class="el" href="namespacescxt_1_1json.html#af73a335641fe8d6febb29bb296f4db10">groupInfoPlayModeFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpf&quot;, tmp);result.vmPlayModeFeaturesInt=<a class="el" href="namespacescxt_1_1json.html#af7e14479ae836d8b6cff00ad36b3d932">groupInfoPlayModeFeatureFrom</a>(tmp);}))</td></tr>
-<tr class="separator:a55b7b909ccb74b76b972b188fc1fe4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d889df9689bfa7d8077031afdd45d3" id="r_a70d889df9689bfa7d8077031afdd45d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a70d889df9689bfa7d8077031afdd45d3">STREAM_ENUM</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7">engine::Group::GlideRateMode</a>, engine::Group::toStringGlideRateMode, engine::Group::fromStringGlideRateMode)</td></tr>
+<tr class="separator:a70d889df9689bfa7d8077031afdd45d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1449969c036d99a8c58bb8aeb430577" id="r_aa1449969c036d99a8c58bb8aeb430577"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#aa1449969c036d99a8c58bb8aeb430577">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">scxt::engine::Group::GroupOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;tn&quot;, t.tuning}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;mutedByLatch&quot;, t.mutedByLatch}, {&quot;procRouting&quot;, t.procRouting}, {&quot;prCon&quot;, t.procRoutingConsistent}, {&quot;buCon&quot;, t.busRoutingConsistent}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}, {&quot;mc&quot;, t.midiChannel}, {&quot;pbu&quot;, t.pbUp}, {&quot;pbd&quot;, t.pbDown}, {&quot;vpm&quot;, <a class="el" href="namespacescxt_1_1json.html#a714d29cc708863e827fa7884232195e2">groupInfoPlayModeTo</a>(t.vmPlayModeInt)}, {&quot;vpf&quot;, <a class="el" href="namespacescxt_1_1json.html#a6eaa2776638e631cdba071eee81c65eb">groupInfoPlayModeFeatureTo</a>(t.vmPlayModeFeaturesInt)}, {&quot;glt&quot;, t.glideTime}, {&quot;grm&quot;, t.glideRateMode}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;amplitude&quot;, result.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, result.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;tn&quot;, 0.f, result.tuning);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;muted&quot;, result.muted);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mutedByLatch&quot;, false, result.mutedByLatch);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;procRouting&quot;, result.procRouting);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;oversample&quot;, result.oversample);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routeTo&quot;, rt);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;hip&quot;, result.hasIndependentPolyLimit);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pl&quot;, result.polyLimit);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;prCon&quot;, true, result.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;buCon&quot;, true, result.busRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mc&quot;, -1, result.midiChannel);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbu&quot;, 2, result.pbUp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbd&quot;, 2, result.pbDown);result.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);std::string tmp;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpm&quot;, tmp);result.vmPlayModeInt=<a class="el" href="namespacescxt_1_1json.html#af73a335641fe8d6febb29bb296f4db10">groupInfoPlayModeFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpf&quot;, tmp);result.vmPlayModeFeaturesInt=<a class="el" href="namespacescxt_1_1json.html#af7e14479ae836d8b6cff00ad36b3d932">groupInfoPlayModeFeatureFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;glt&quot;, 0.f, result.glideTime);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;grm&quot;, result.glideRateMode);}))</td></tr>
+<tr class="separator:aa1449969c036d99a8c58bb8aeb430577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aabefaa304f1197c15acbe95f500c70" id="r_a9aabefaa304f1197c15acbe95f500c70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#a9aabefaa304f1197c15acbe95f500c70">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html">scxt::engine::Group</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;zones&quot;, t.getZones()}, {&quot;name&quot;, t.getName()}, {&quot;outputInfo&quot;, t.outputInfo}, {&quot;routingTable&quot;, t.routingTable}, {&quot;gegStorage&quot;, t.gegStorage}, {&quot;modulatorStorage&quot;, t.modulatorStorage}, {&quot;miscSourceStorage&quot;, t.miscSourceStorage}, {&quot;processorStorage&quot;, t.processorStorage}, {&quot;triggerConditions&quot;, t.triggerConditions}};}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;group=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;name&quot;, group.name);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;gegStorage&quot;, group.gegStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;outputInfo&quot;, group.outputInfo);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;processorStorage&quot;, group.processorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routingTable&quot;, group.routingTable);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;triggerConditions&quot;, group.triggerConditions);<a class="el" href="extensions_8h.html#ad25c522695a13a8e2a2ffc280c3e159f">findIfArray</a>(v, &quot;modulatorStorage&quot;, group.modulatorStorage);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;miscSourceStorage&quot;, group.miscSourceStorage);group.clearZones();auto vzones=v.at(&quot;zones&quot;).get_array();for(const auto vz :vzones) { auto idx=group.addZone(std::make_unique&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">scxt::engine::Zone</a> &gt;()) - 1;vz.to(*(group.getZone(idx)));if(group.parentPart &amp;&amp;group.parentPart-&gt;parentPatch &amp;&amp;group.parentPart-&gt;parentPatch-&gt;parentEngine) { group.getZone(idx) -&gt;setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));} } if(<a class="el" href="scxt__traits_8h.html#a6188a9f89568c431c9a62943b1c3b770">SC_UNSTREAMING_FROM_PRIOR_TO</a>(0x2025 '11 '12)) { for(auto &amp;z :group) { if(z-&gt;mapping.pbUp==group.outputInfo.pbUp) { z-&gt;mapping.pbUp=-1;} if(z-&gt;mapping.pbDown==group.outputInfo.pbDown) { z-&gt;mapping.pbDown=-1;} } } group.setupOnUnstream(*(group.parentPart-&gt;parentPatch-&gt;parentEngine));}))</td></tr>
 <tr class="separator:a9aabefaa304f1197c15acbe95f500c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad638a171e47aef420f5256c960f1b6e8" id="r_ad638a171e47aef420f5256c960f1b6e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1json.html#ad638a171e47aef420f5256c960f1b6e8">SC_STREAMDEF</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html">scxt::engine::Zone::ZoneOutputInfo</a>, <a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amp&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;to&quot;,(int) t.routeTo}};<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;prc&quot;, true, t.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;brc&quot;, true, t.busRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;prt&quot;, engine::Zone::ProcRoutingPath::procRoute_linear, t.procRouting);<a class="el" href="namespacescxt_1_1json.html#a14952e58b4d8a98ba8b96acb1430214c">addUnlessDefault</a>&lt; val_t &gt;(v, &quot;muted&quot;, false, t.muted);}), <a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ auto &amp;zo=to;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;amp&quot;, &quot;amplitude&quot;}, zo.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, zo.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;muted&quot;, false, zo.muted);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;prc&quot;, true, zo.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, {&quot;prt&quot;, &quot;procRouting&quot;}, engine::Zone::ProcRoutingPath::procRoute_linear, zo.procRouting);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, {&quot;to&quot;, &quot;routeTo&quot;}, rt);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;brc&quot;, true, zo.busRoutingConsistent);if(rt &gt;=<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8abc5f80341be466fd1044ceb745d8d9f8">engine::BusAddress::ERROR_BUS</a> &amp;&amp;rt&lt;=<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32">engine::BusAddress::AUX_0</a>+numAux) zo.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);else zo.routeTo=<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>;}))</td></tr>
@@ -327,7 +329,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2464990af90bad5dea3d7a5570756321" name="a2464990af90bad5dea3d7a5570756321"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2464990af90bad5dea3d7a5570756321">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[1/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2464990af90bad5dea3d7a5570756321">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[1/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +363,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aeb2d1bf3bd547c6d4ee02840b8119569" name="aeb2d1bf3bd547c6d4ee02840b8119569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb2d1bf3bd547c6d4ee02840b8119569">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[2/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2d1bf3bd547c6d4ee02840b8119569">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[2/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -395,7 +397,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0d1f573f968e9c0ff05a24d5d27eb98f" name="a0d1f573f968e9c0ff05a24d5d27eb98f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d1f573f968e9c0ff05a24d5d27eb98f">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[3/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1f573f968e9c0ff05a24d5d27eb98f">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[3/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -533,7 +535,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad2a75a546c2e477bd88bb880434dfff0" name="ad2a75a546c2e477bd88bb880434dfff0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2a75a546c2e477bd88bb880434dfff0">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[4/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2a75a546c2e477bd88bb880434dfff0">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[4/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -618,7 +620,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1json.html#a55b7b909ccb74b76b972b188fc1fe4ce">SC_STREAMDEF()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1json.html#aa1449969c036d99a8c58bb8aeb430577">SC_STREAMDEF()</a>.</p>
 
 </div>
 </div>
@@ -658,7 +660,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="engine__traits_8h.html#a1a92826e40c6c35737b100598a66ce4b">PMTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1json.html#a55b7b909ccb74b76b972b188fc1fe4ce">SC_STREAMDEF()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1json.html#aa1449969c036d99a8c58bb8aeb430577">SC_STREAMDEF()</a>.</p>
 
 </div>
 </div>
@@ -682,8 +684,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a55b7b909ccb74b76b972b188fc1fe4ce" name="a55b7b909ccb74b76b972b188fc1fe4ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b7b909ccb74b76b972b188fc1fe4ce">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[6/35]</span></h2>
+<a id="a70d889df9689bfa7d8077031afdd45d3" name="a70d889df9689bfa7d8077031afdd45d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d889df9689bfa7d8077031afdd45d3">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[5/18]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">STREAM_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7">engine::Group::GlideRateMode</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">engine::Group::toStringGlideRateMode&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">engine::Group::fromStringGlideRateMode&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1449969c036d99a8c58bb8aeb430577" name="aa1449969c036d99a8c58bb8aeb430577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1449969c036d99a8c58bb8aeb430577">&#9670;&#160;</a></span>SC_STREAMDEF() <span class="overload">[6/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,13 +733,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;tn&quot;, t.tuning}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;mutedByLatch&quot;, t.mutedByLatch}, {&quot;procRouting&quot;, t.procRouting}, {&quot;prCon&quot;, t.procRoutingConsistent}, {&quot;buCon&quot;, t.busRoutingConsistent}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}, {&quot;mc&quot;, t.midiChannel}, {&quot;pbu&quot;, t.pbUp}, {&quot;pbd&quot;, t.pbDown}, {&quot;vpm&quot;, <a class="el" href="namespacescxt_1_1json.html#a714d29cc708863e827fa7884232195e2">groupInfoPlayModeTo</a>(t.vmPlayModeInt)}, {&quot;vpf&quot;, <a class="el" href="namespacescxt_1_1json.html#a6eaa2776638e631cdba071eee81c65eb">groupInfoPlayModeFeatureTo</a>(t.vmPlayModeFeaturesInt)}};})&#160;</td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a3eb10a708bea6a32009e42e3b9cddd4e">SC_FROM</a>({ v={{&quot;amplitude&quot;, t.amplitude}, {&quot;pan&quot;, t.pan}, {&quot;tn&quot;, t.tuning}, {&quot;oversample&quot;, t.oversample}, {&quot;velocitySensitivity&quot;, t.velocitySensitivity}, {&quot;muted&quot;, t.muted}, {&quot;mutedByLatch&quot;, t.mutedByLatch}, {&quot;procRouting&quot;, t.procRouting}, {&quot;prCon&quot;, t.procRoutingConsistent}, {&quot;buCon&quot;, t.busRoutingConsistent}, {&quot;routeTo&quot;,(int) t.routeTo}, {&quot;hip&quot;, t.hasIndependentPolyLimit}, {&quot;pl&quot;, t.polyLimit}, {&quot;mc&quot;, t.midiChannel}, {&quot;pbu&quot;, t.pbUp}, {&quot;pbd&quot;, t.pbDown}, {&quot;vpm&quot;, <a class="el" href="namespacescxt_1_1json.html#a714d29cc708863e827fa7884232195e2">groupInfoPlayModeTo</a>(t.vmPlayModeInt)}, {&quot;vpf&quot;, <a class="el" href="namespacescxt_1_1json.html#a6eaa2776638e631cdba071eee81c65eb">groupInfoPlayModeFeatureTo</a>(t.vmPlayModeFeaturesInt)}, {&quot;glt&quot;, t.glideTime}, {&quot;grm&quot;, t.glideRateMode}};})&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;amplitude&quot;, result.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, result.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;tn&quot;, 0.f, result.tuning);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;muted&quot;, result.muted);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mutedByLatch&quot;, false, result.mutedByLatch);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;procRouting&quot;, result.procRouting);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;oversample&quot;, result.oversample);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routeTo&quot;, rt);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;hip&quot;, result.hasIndependentPolyLimit);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pl&quot;, result.polyLimit);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;prCon&quot;, true, result.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;buCon&quot;, true, result.busRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mc&quot;, -1, result.midiChannel);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbu&quot;, 2, result.pbUp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbd&quot;, 2, result.pbDown);result.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);std::string tmp;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpm&quot;, tmp);result.vmPlayModeInt=<a class="el" href="namespacescxt_1_1json.html#af73a335641fe8d6febb29bb296f4db10">groupInfoPlayModeFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpf&quot;, tmp);result.vmPlayModeFeaturesInt=<a class="el" href="namespacescxt_1_1json.html#af7e14479ae836d8b6cff00ad36b3d932">groupInfoPlayModeFeatureFrom</a>(tmp);})&#160;</td>
+          <td class="paramtype"><a class="el" href="scxt__traits_8h.html#a6f33706ffb79d45bdbe99bd53c505c16">SC_TO</a>({ <a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;amplitude&quot;, result.amplitude);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pan&quot;, result.pan);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;tn&quot;, 0.f, result.tuning);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;muted&quot;, result.muted);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mutedByLatch&quot;, false, result.mutedByLatch);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;procRouting&quot;, result.procRouting);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;velocitySensitivity&quot;, result.velocitySensitivity);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;oversample&quot;, result.oversample);int rt{<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">engine::BusAddress::DEFAULT_BUS</a>};<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;routeTo&quot;, rt);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;hip&quot;, result.hasIndependentPolyLimit);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;pl&quot;, result.polyLimit);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;prCon&quot;, true, result.procRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;buCon&quot;, true, result.busRoutingConsistent);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;mc&quot;, -1, result.midiChannel);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbu&quot;, 2, result.pbUp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;pbd&quot;, 2, result.pbDown);result.routeTo=(<a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8">engine::BusAddress</a>)(rt);std::string tmp;<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpm&quot;, tmp);result.vmPlayModeInt=<a class="el" href="namespacescxt_1_1json.html#af73a335641fe8d6febb29bb296f4db10">groupInfoPlayModeFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;vpf&quot;, tmp);result.vmPlayModeFeaturesInt=<a class="el" href="namespacescxt_1_1json.html#af7e14479ae836d8b6cff00ad36b3d932">groupInfoPlayModeFeatureFrom</a>(tmp);<a class="el" href="namespacescxt_1_1json.html#a90d91a472d3e820d065c8ac12d94fd5e">findOrSet</a>(v, &quot;glt&quot;, 0.f, result.glideTime);<a class="el" href="namespacescxt_1_1json.html#a7d7a8e4cc2647b0d06497442f588f10b">findIf</a>(v, &quot;grm&quot;, result.glideRateMode);})&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -821,7 +857,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aad2bf7a61c878337bdade44d7ca95e16" name="aad2bf7a61c878337bdade44d7ca95e16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad2bf7a61c878337bdade44d7ca95e16">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[5/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2bf7a61c878337bdade44d7ca95e16">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[6/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -855,7 +891,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aac194aa359fdcc0896e1b0529df22f92" name="aac194aa359fdcc0896e1b0529df22f92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac194aa359fdcc0896e1b0529df22f92">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[6/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac194aa359fdcc0896e1b0529df22f92">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[7/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -889,7 +925,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a139fa8627c73cac8530aacb46cdc23a9" name="a139fa8627c73cac8530aacb46cdc23a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139fa8627c73cac8530aacb46cdc23a9">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[7/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a139fa8627c73cac8530aacb46cdc23a9">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[8/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -923,7 +959,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7bc3803d8dff1dd1e7309f7b6a131457" name="a7bc3803d8dff1dd1e7309f7b6a131457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bc3803d8dff1dd1e7309f7b6a131457">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[8/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc3803d8dff1dd1e7309f7b6a131457">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[9/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -957,7 +993,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3d047ea0884c6ddfadc2ea19b326a2de" name="a3d047ea0884c6ddfadc2ea19b326a2de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d047ea0884c6ddfadc2ea19b326a2de">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[9/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d047ea0884c6ddfadc2ea19b326a2de">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[10/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -991,7 +1027,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af1e0da7670512d99361e81c67d78f290" name="af1e0da7670512d99361e81c67d78f290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1e0da7670512d99361e81c67d78f290">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[10/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e0da7670512d99361e81c67d78f290">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[11/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1025,7 +1061,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a695c68ee1bfcb1c6da60c19b93741cfc" name="a695c68ee1bfcb1c6da60c19b93741cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a695c68ee1bfcb1c6da60c19b93741cfc">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[11/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a695c68ee1bfcb1c6da60c19b93741cfc">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[12/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1059,7 +1095,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a04c990f27948d1791c33003c36cab3b8" name="a04c990f27948d1791c33003c36cab3b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c990f27948d1791c33003c36cab3b8">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[12/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04c990f27948d1791c33003c36cab3b8">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[13/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1435,7 +1471,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2e868b37e153931894fe323c23364696" name="a2e868b37e153931894fe323c23364696"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e868b37e153931894fe323c23364696">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[13/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e868b37e153931894fe323c23364696">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[14/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1469,7 +1505,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3e05cb965f93a75e1c351a784f03734f" name="a3e05cb965f93a75e1c351a784f03734f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e05cb965f93a75e1c351a784f03734f">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[14/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e05cb965f93a75e1c351a784f03734f">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[15/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1537,7 +1573,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7170b22b71ef8c8b88bc98fb3639dde6" name="a7170b22b71ef8c8b88bc98fb3639dde6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7170b22b71ef8c8b88bc98fb3639dde6">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[15/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7170b22b71ef8c8b88bc98fb3639dde6">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[16/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1641,7 +1677,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0d9f3fa4491ed3810fd323ee06ce4020" name="a0d9f3fa4491ed3810fd323ee06ce4020"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d9f3fa4491ed3810fd323ee06ce4020">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[16/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9f3fa4491ed3810fd323ee06ce4020">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[17/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1675,7 +1711,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab6273516486ebac1fefcba84718a98b4" name="ab6273516486ebac1fefcba84718a98b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6273516486ebac1fefcba84718a98b4">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[17/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6273516486ebac1fefcba84718a98b4">&#9670;&#160;</a></span>STREAM_ENUM() <span class="overload">[18/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2758,7 +2794,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 20 2026 05:13:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 20 2026 17:15:37 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
