@@ -95,7 +95,9 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#concepts">Concepts</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">sst::basic_blocks::tables Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -106,6 +108,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html">EqualTuningProvider</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html">ExpTimeProvider</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html" title="ExpTimeProvider provides a lookup table for converting a 0..1 parameter into a time value using the e...">ExpTimeProvider</a> provides a lookup table for converting a 0..1 parameter into a time value using the exponential mapping:  <a href="structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1ShortcircuitSincTableProvider.html">ShortcircuitSincTableProvider</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1SimpleSineProvider.html">SimpleSineProvider</a></td></tr>
@@ -114,13 +119,41 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1SurgeSincTableProvider.html">SurgeSincTableProvider</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1TwentyFiveSecondExpConstants.html">TwentyFiveSecondExpConstants</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html">TwoToTheXProvider</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
+Concepts</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptsst_1_1basic__blocks_1_1tables_1_1ExpTimeConstants.html">ExpTimeConstants</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concept for ExpTimeProvider constants: must provide constexpr float A, B, C, D. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a4fcca6c63c87ad26d3b024575fc6bf5c" id="r_a4fcca6c63c87ad26d3b024575fc6bf5c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1tables.html#a4fcca6c63c87ad26d3b024575fc6bf5c">TwentyFiveSecondExpTable</a> = <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html">ExpTimeProvider</a>&lt; <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1TwentyFiveSecondExpConstants.html">TwentyFiveSecondExpConstants</a> &gt;</td></tr>
+<tr class="separator:a4fcca6c63c87ad26d3b024575fc6bf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a4fcca6c63c87ad26d3b024575fc6bf5c" name="a4fcca6c63c87ad26d3b024575fc6bf5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcca6c63c87ad26d3b024575fc6bf5c">&#9670;&#160;</a></span>TwentyFiveSecondExpTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacesst_1_1basic__blocks_1_1tables.html#a4fcca6c63c87ad26d3b024575fc6bf5c">TwentyFiveSecondExpTable</a> =  <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html">ExpTimeProvider</a>&lt;<a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1TwentyFiveSecondExpConstants.html">TwentyFiveSecondExpConstants</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 6 2026 14:09:11 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Feb 20 2026 14:58:10 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

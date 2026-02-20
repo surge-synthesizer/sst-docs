@@ -11,7 +11,7 @@ var searchData=
   ['lastfrate_8',['lastFRate',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afddea5f0355c34fad94fe3b733696405',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['lastrate_9',['lastRate',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a73057348cdbdbb316bfe40716fbd5f5f',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['lastsphase_10',['lastSPhase',['../structsst_1_1basic__blocks_1_1dsp_1_1EBTri.html#a7519267b81108f36ab20305d8ae8ed0c',1,'sst::basic_blocks::dsp::EBTri']]],
-  ['lastsr_11',['lastsr',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afa6313f31e7212203a48617408105dc3',1,'sst::basic_blocks::modulators::SimpleLFO::lastSR'],['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#afa6313f31e7212203a48617408105dc3',1,'sst::basic_blocks::modulators::AHDSRShapedSC::lastSR']]],
+  ['lastsr_11',['lastsr',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#afa6313f31e7212203a48617408105dc3',1,'sst::basic_blocks::modulators::AHDSRShapedSC::lastSR'],['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afa6313f31e7212203a48617408105dc3',1,'sst::basic_blocks::modulators::SimpleLFO::lastSR']]],
   ['lasttarget_12',['lastTarget',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a049eb909257a8fedb9c5891ab90d3633',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['lasttsscale_13',['lastTSScale',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a53caa1768de648318f9705e9bf6fa23f',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['level_14',['level',['../structsst_1_1basic__blocks_1_1dsp_1_1EBPulse.html#a450c3ab9b94a4663caad892b7193b547',1,'sst::basic_blocks::dsp::EBPulse']]],
@@ -22,6 +22,7 @@ var searchData=
   ['lp_19',['lp',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#ade395a4e36911661ac6af7d405f00aec',1,'sst::basic_blocks::dsp::OnePoleLag']]],
   ['lpinv_20',['lpinv',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a5924ed462c7da6365576c56d1356f2b3',1,'sst::basic_blocks::dsp::OnePoleLag']]],
   ['lrate_21',['lrate',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a5184705b457b0c00ab41c0883ddaba93',1,'sst::basic_blocks::modulators::StepLFO']]],
-  ['lut_22',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
-  ['lutsinitialized_23',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]]
+  ['lut_22',['lut',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a5d8658bb594ed2015289377203076184',1,'sst::basic_blocks::modulators::AHDSRShapedSC::lut'],['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#a3ef3abfd94a25034e5644d9be574c014',1,'sst::basic_blocks::tables::ExpTimeProvider::lut']]],
+  ['lutsinitialized_23',['lutsInitialized',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a962b5c3567d97e8dbab13bbcebf90a75',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['lutsize_24',['lutSize',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#a3004890e0b46e99b0cf061d86f4f4b7b',1,'sst::basic_blocks::tables::ExpTimeProvider']]]
 ];

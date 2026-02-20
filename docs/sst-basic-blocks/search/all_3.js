@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d_0',['d',['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D'],['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d']]],
+  ['d_0',['d',['../structsst_1_1basic__blocks_1_1tables_1_1TwentyFiveSecondExpConstants.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::tables::TwentyFiveSecondExpConstants::D'],['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::tables::ExpTimeProvider::D'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#a272aa46832a115556a8e8d318ef2d914',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::D'],['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#a3fbbd8a3959e76a2bc3455d3bade52dc',1,'sst::basic_blocks::dsp::DriftLFO::d']]],
   ['d2_1',['d2',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#aac1777fc7cfc528c03b3e8c38f14e2b9',1,'sst::basic_blocks::dsp::DriftLFO']]],
   ['dahdenvelope_2',['dahdenvelope',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#a9259f19be7c6acd85e7bfc5290b197da',1,'sst::basic_blocks::modulators::DAHDEnvelope::DAHDEnvelope()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html',1,'DAHDEnvelope&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;']]],
   ['dahdenvelope_2eh_3',['DAHDEnvelope.h',['../DAHDEnvelope_8h.html',1,'']]],
@@ -12,7 +12,7 @@ var searchData=
   ['dbtolinear_9',['dbToLinear',['../structsst_1_1basic__blocks_1_1tables_1_1DbToLinearProvider.html#acf193d9324554fd4710e456d7c8eb66d',1,'sst::basic_blocks::tables::DbToLinearProvider']]],
   ['dbtolinearprovider_10',['DbToLinearProvider',['../structsst_1_1basic__blocks_1_1tables_1_1DbToLinearProvider.html',1,'sst::basic_blocks::tables']]],
   ['dbtolinearprovider_2eh_11',['DbToLinearProvider.h',['../DbToLinearProvider_8h.html',1,'']]],
-  ['dcblocker_12',['dcblocker',['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html',1,'DCBlocker&lt; blocksize &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#a175e5b4bb800506cfa3e763e46e27d0c',1,'sst::basic_blocks::dsp::DCBlocker::DCBlocker()']]],
+  ['dcblocker_12',['dcblocker',['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#a175e5b4bb800506cfa3e763e46e27d0c',1,'sst::basic_blocks::dsp::DCBlocker::DCBlocker()'],['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html',1,'DCBlocker&lt; blocksize &gt;']]],
   ['dcblocker_2eh_13',['DCBlocker.h',['../DCBlocker_8h.html',1,'']]],
   ['deactivatable_14',['deactivatable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a24544c516b69d28b016ca97e221c6d16',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['decibel_15',['DECIBEL',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a75c3c273fd1f97ac29fe0051c752d23a',1,'sst::basic_blocks::params::ParamMetaData']]],

@@ -7,5 +7,6 @@ var searchData=
   ['linearlag_4',['LinearLag',['../structsst_1_1basic__blocks_1_1dsp_1_1LinearLag.html#ad7a1520c3502fc3cd7a3f6f199857e4f',1,'sst::basic_blocks::dsp::LinearLag']]],
   ['lipol_5',['lipol',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a59557288eecf56e4e35172cd4aafc653',1,'sst::basic_blocks::dsp::lipol']]],
   ['lipol_5fsse_6',['lipol_sse',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a167702362a9ce8241ab9fe7c195a5753',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['lowpassenvelopefollower_7',['LowPassEnvelopeFollower',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#ab4f2dd4322defaec76e85332279cc2c5',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower']]]
+  ['lookuprate_7',['lookupRate',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#a6281a14fdd7a3b486d199176ce4f0fb2',1,'sst::basic_blocks::tables::ExpTimeProvider']]],
+  ['lowpassenvelopefollower_8',['LowPassEnvelopeFollower',['../structsst_1_1basic__blocks_1_1dsp_1_1LowPassEnvelopeFollower.html#ab4f2dd4322defaec76e85332279cc2c5',1,'sst::basic_blocks::dsp::LowPassEnvelopeFollower']]]
 ];

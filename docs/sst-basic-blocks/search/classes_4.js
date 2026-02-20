@@ -11,5 +11,6 @@ var searchData=
   ['ebpulse_8',['EBPulse',['../structsst_1_1basic__blocks_1_1dsp_1_1EBPulse.html',1,'sst::basic_blocks::dsp']]],
   ['ebsaw_9',['EBSaw',['../structsst_1_1basic__blocks_1_1dsp_1_1EBSaw.html',1,'sst::basic_blocks::dsp']]],
   ['ebtri_10',['EBTri',['../structsst_1_1basic__blocks_1_1dsp_1_1EBTri.html',1,'sst::basic_blocks::dsp']]],
-  ['equaltuningprovider_11',['EqualTuningProvider',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html',1,'sst::basic_blocks::tables']]]
+  ['equaltuningprovider_11',['EqualTuningProvider',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html',1,'sst::basic_blocks::tables']]],
+  ['exptimeprovider_12',['ExpTimeProvider',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html',1,'sst::basic_blocks::tables']]]
 ];
