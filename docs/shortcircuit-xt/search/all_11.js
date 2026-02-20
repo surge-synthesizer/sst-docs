@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
-  ['raisedebugerror_1',['raiseDebugError',['../namespacescxt_1_1messaging_1_1client.html#a13686862d6dd0bd5edf9fef28489539b',1,'scxt::messaging::client']]],
+  ['raisedebugerror_1',['raiseDebugError',['../namespacescxt_1_1messaging_1_1client.html#a7e318f8875863dc411563657fb601dc1',1,'scxt::messaging::client']]],
   ['raiseerror_2',['raiseError',['../structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4',1,'scxt::sample::SampleManager']]],
   ['ramlabel_3',['ramLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a50272caa5c41814266e845fefb33972c',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramlevel_4',['ramLevel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#ae001ea2bc1dc2dbcd28cefaaa46fd2cb',1,'scxt::ui::app::shared::HeaderRegion']]],
