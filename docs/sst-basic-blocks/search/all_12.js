@@ -55,5 +55,5 @@ var searchData=
   ['tx6_52',['TX6',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a6e97b419d7e25fe8157c7c474d5d8501a23c47a168f9292f7fdd6272ce93a4631',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
   ['tx7_53',['TX7',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a6e97b419d7e25fe8157c7c474d5d8501a3a8b9bee8c0b3276a9a46c12cf4b3d1d',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
   ['tx8_54',['TX8',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a6e97b419d7e25fe8157c7c474d5d8501a282bae819bf6555cd1010e2f03833d33',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
-  ['type_55',['type',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ac765329451135abec74c45e1897abf26',1,'sst::basic_blocks::dsp::CharacterFilter::type'],['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'sst::basic_blocks::params::ParamMetaData::Type']]]
+  ['type_55',['type',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'sst::basic_blocks::params::ParamMetaData::Type'],['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ac765329451135abec74c45e1897abf26',1,'sst::basic_blocks::dsp::CharacterFilter::type']]]
 ];
