@@ -2,7 +2,7 @@ var searchData=
 [
   ['narrowverticalmenu_0',['NarrowVerticalMenu',['../structscxt_1_1ui_1_1app_1_1shared_1_1NarrowVerticalMenu.html#a7ced0f47af8f8b8a1b00cfddfd80e094',1,'scxt::ui::app::shared::NarrowVerticalMenu']]],
   ['next_1',['next',['../structscxt_1_1ID.html#ae28a6d1a89ca9fefa14d90c13fd7b439',1,'scxt::ID']]],
-  ['normalize_2',['normalize',['../structscxt_1_1engine_1_1KeyboardRange.html#acd0de676568888d848beb97dcc53ae47',1,'scxt::engine::KeyboardRange::normalize()'],['../structscxt_1_1engine_1_1VelocityRange.html#acd0de676568888d848beb97dcc53ae47',1,'scxt::engine::VelocityRange::normalize()']]],
+  ['normalize_2',['normalize',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html#acd0de676568888d848beb97dcc53ae47',1,'scxt::engine::Group::LowHighLast::normalize()'],['../structscxt_1_1engine_1_1KeyboardRange.html#acd0de676568888d848beb97dcc53ae47',1,'scxt::engine::KeyboardRange::normalize()'],['../structscxt_1_1engine_1_1VelocityRange.html#acd0de676568888d848beb97dcc53ae47',1,'scxt::engine::VelocityRange::normalize()']]],
   ['normalizesampletof32_3',['normalizesampletof32',['../namespacescxt_1_1dsp.html#a3598451cfb5d95d1ce4022d4f5808c9f',1,'scxt::dsp::NormalizeSampleToF32(int16_t val)'],['../namespacescxt_1_1dsp.html#af05c9423ad1e42735cd1f8cdc57528a1',1,'scxt::dsp::NormalizeSampleToF32(float val)']]],
   ['noselection_4',['NoSelection',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1NoSelection.html#a04d24bad4f947e5d611aa95157d7e8e8',1,'scxt::ui::app::edit_screen::NoSelection']]],
   ['noteexpressionsources_5',['NoteExpressionSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a9bbefa88efcd4feef178fcfd08ab3de3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources']]],

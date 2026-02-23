@@ -367,6 +367,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9a387ddf9f9e4622be2ac461024a301d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b989bf1cfed06d1649d8f09644acf0" id="r_a96b989bf1cfed06d1649d8f09644acf0"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">activeVoices</a> {0}</td></tr>
 <tr class="separator:a96b989bf1cfed06d1649d8f09644acf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507c2ea95864633e880d69db1ad30d94" id="r_a507c2ea95864633e880d69db1ad30d94"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a507c2ea95864633e880d69db1ad30d94">nextVoiceCreationId</a> {1}</td></tr>
+<tr class="separator:a507c2ea95864633e880d69db1ad30d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d7bb6ab097f1dbb2cd9aec01cef2986" id="r_a6d7bb6ab097f1dbb2cd9aec01cef2986"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html">voice::PreviewVoice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">previewVoice</a></td></tr>
 <tr class="separator:a6d7bb6ab097f1dbb2cd9aec01cef2986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a424378c67892695a5132577f1d62c39d" id="r_a424378c67892695a5132577f1d62c39d"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d">modifyStructureMutex</a></td></tr>
@@ -1318,7 +1320,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">Engine::activeVoices</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#a87a2d059ff3004eb769848369d28a509">Engine::pathToZone_t::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#a4e8f191bf9d01c37e72e9cf26741c54f">Engine::pathToZone_t::key</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400">Engine::pathToZone_t::noteid</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#aecd543acbff4461ac91af0ab900a716f">SampleRateSupport::sampleRateInv</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa57ed889a904e48d7bc45e50825cc885">Engine::zoneByPath()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">Engine::activeVoices</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#a87a2d059ff3004eb769848369d28a509">Engine::pathToZone_t::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#a4e8f191bf9d01c37e72e9cf26741c54f">Engine::pathToZone_t::key</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a507c2ea95864633e880d69db1ad30d94">Engine::nextVoiceCreationId</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400">Engine::pathToZone_t::noteid</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#aecd543acbff4461ac91af0ab900a716f">SampleRateSupport::sampleRateInv</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa57ed889a904e48d7bc45e50825cc885">Engine::zoneByPath()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>.</p>
 
@@ -2391,6 +2393,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a507c2ea95864633e880d69db1ad30d94" name="a507c2ea95864633e880d69db1ad30d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a507c2ea95864633e880d69db1ad30d94">&#9670;&#160;</a></span>nextVoiceCreationId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t nextVoiceCreationId {1}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac1e6ca1c2d67b1f62347d6ab9b0a52eb">Engine::initiateVoice()</a>.</p>
+
+</div>
+</div>
 <a id="a6d7bb6ab097f1dbb2cd9aec01cef2986" name="a6d7bb6ab097f1dbb2cd9aec01cef2986"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d7bb6ab097f1dbb2cd9aec01cef2986">&#9670;&#160;</a></span>previewVoice</h2>
 
@@ -2750,7 +2768,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 21 2026 23:49:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Feb 23 2026 13:33:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

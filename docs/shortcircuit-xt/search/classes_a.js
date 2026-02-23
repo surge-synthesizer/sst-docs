@@ -15,5 +15,6 @@ var searchData=
   ['lfotargetendpointdata_3c_20tg_2c_20_27lfo_20_27_3e_12',['LFOTargetEndpointData&lt; TG, &apos;lfo &apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['loadablefile_13',['LoadableFile',['../structscxt_1_1browser_1_1Browser_1_1LoadableFile.html',1,'scxt::browser::Browser']]],
   ['lockedexception_14',['LockedException',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html',1,'scxt::browser::SQL']]],
-  ['logscreen_15',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]]
+  ['logscreen_15',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['lowhighlast_16',['LowHighLast',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html',1,'scxt::engine::Group']]]
 ];
