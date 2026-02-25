@@ -1,7 +1,7 @@
 var searchData=
 [
   ['data_0',['data',['../structsst_1_1waveshapers_1_1LUTBase.html#a381b535a0ac16606a4c47edcc51f120c',1,'sst::waveshapers::LUTBase::data'],['../classCatch_1_1StringRef.html#a274ea8daff23ee26369e11ffa37bbb66',1,'Catch::StringRef::data()']]],
-  ['dcblock_1',['dcBlock',['../namespacesst_1_1waveshapers.html#a7ee6bf6afb6186805bf5cba8d813c6a8',1,'sst::waveshapers']]],
+  ['dcblock_1',['dcBlock',['../namespacesst_1_1waveshapers.html#aa7e9013dacad19956cf9c422ee9daf3e',1,'sst::waveshapers']]],
   ['dcblocker_2eh_2',['DCBlocker.h',['../DCBlocker_8h.html',1,'']]],
   ['decomposer_3',['Decomposer',['../structCatch_1_1Decomposer.html',1,'Catch']]],
   ['delta_4',['delta',['../structCatch_1_1Totals.html#a509068c32ad9edf402b217a8b0beab5c',1,'Catch::Totals']]],
