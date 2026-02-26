@@ -115,10 +115,14 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a3581f6f1928496586a0cac5def142324" id="r_a3581f6f1928496586a0cac5def142324"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> { <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324acbdb47ddac475cdec049e12565669750">NO_SAMPLES</a> = 0
-, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>
+<tr class="memitem:a3581f6f1928496586a0cac5def142324" id="r_a3581f6f1928496586a0cac5def142324"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> { <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324acbdb47ddac475cdec049e12565669750">NO_SAMPLES</a> = 0
+, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a5fb10f34b4c60cf55dcf4040d877273b">WITH_COLLECTED_SAMPLES</a>
 , <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>
 , <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac">AS_SFZ</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">ONLY_COLLECT</a>
+<br />
  }</td></tr>
 <tr class="separator:a3581f6f1928496586a0cac5def142324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -150,6 +154,8 @@ Functions</h2></td></tr>
 <tr class="separator:aaf0885fcfe2ad7545df5041aba87c607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3963b704ce3e48d8e8db1b3003d787e1" id="r_a3963b704ce3e48d8e8db1b3003d787e1"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structscxt_1_1SampleID.html">SampleID</a>, fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1">collectSamplesInto</a> (const fs::path &amp;collectDir, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
 <tr class="separator:a3963b704ce3e48d8e8db1b3003d787e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7830e70ef91b116d9d13880aa6f69c2" id="r_ab7830e70ef91b116d9d13880aa6f69c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ab7830e70ef91b116d9d13880aa6f69c2">onlyCollect</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part)</td></tr>
+<tr class="separator:ab7830e70ef91b116d9d13880aa6f69c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0748df3344cada345bb2007fd96fdf51" id="r_a0748df3344cada345bb2007fd96fdf51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a0748df3344cada345bb2007fd96fdf51">saveMulti</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">SaveStyles</a> style)</td></tr>
 <tr class="separator:a0748df3344cada345bb2007fd96fdf51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c7d2563488b7412c18776daaae8ebf3" id="r_a5c7d2563488b7412c18776daaae8ebf3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a5c7d2563488b7412c18776daaae8ebf3">savePart</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;e, int part, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">patch_io::SaveStyles</a> style)</td></tr>
@@ -177,9 +183,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3581f6f1928496586a0cac5def142324acbdb47ddac475cdec049e12565669750" name="a3581f6f1928496586a0cac5def142324acbdb47ddac475cdec049e12565669750"></a>NO_SAMPLES&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf" name="a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf"></a>COLLECT_SAMPLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3581f6f1928496586a0cac5def142324a5fb10f34b4c60cf55dcf4040d877273b" name="a3581f6f1928496586a0cac5def142324a5fb10f34b4c60cf55dcf4040d877273b"></a>WITH_COLLECTED_SAMPLES&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd" name="a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd"></a>AS_MONOLITH&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac" name="a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac"></a>AS_SFZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e" name="a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e"></a>ONLY_COLLECT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -553,7 +560,45 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#a417cb23452ae6cac8c2665467ab57dff">scxt::sfz_support::exportSFZ()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a0748df3344cada345bb2007fd96fdf51">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a5c7d2563488b7412c18776daaae8ebf3">savePart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#a417cb23452ae6cac8c2665467ab57dff">scxt::sfz_support::exportSFZ()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab7830e70ef91b116d9d13880aa6f69c2">onlyCollect()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a0748df3344cada345bb2007fd96fdf51">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a5c7d2563488b7412c18776daaae8ebf3">savePart()</a>.</p>
+
+</div>
+</div>
+<a id="ab7830e70ef91b116d9d13880aa6f69c2" name="ab7830e70ef91b116d9d13880aa6f69c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7830e70ef91b116d9d13880aa6f69c2">&#9670;&#160;</a></span>onlyCollect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool onlyCollect </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1">collectSamplesInto()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1patch__io.html#a0748df3344cada345bb2007fd96fdf51">saveMulti()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a5c7d2563488b7412c18776daaae8ebf3">savePart()</a>.</p>
 
 </div>
 </div>
@@ -589,7 +634,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920">Engine::FOR_MULTI</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">ONLY_COLLECT</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab7830e70ef91b116d9d13880aa6f69c2">onlyCollect()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a5fb10f34b4c60cf55dcf4040d877273b">WITH_COLLECTED_SAMPLES</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9d0344b63f3c55dbab316051d3c855ac">scxt::messaging::client::doSaveMulti()</a>.</p>
 
@@ -633,7 +678,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf">COLLECT_SAMPLES</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001">Engine::FOR_PART</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87">addMonolithBinaries()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aba0fdb9dc8116c9fe0e7c327ccb423c4">addSCDataChunk()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#acca601d4e7f184b9245c927374e5d67b">addSCManifest()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd">AS_MONOLITH</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1">collectSamplesInto()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001">Engine::FOR_PART</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#aaf0885fcfe2ad7545df5041aba87c607">getSamplePathsFor()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">ONLY_COLLECT</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ab7830e70ef91b116d9d13880aa6f69c2">onlyCollect()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a5fb10f34b4c60cf55dcf4040d877273b">WITH_COLLECTED_SAMPLES</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1b5e4226cd11877b35bf8f75f0500387">scxt::messaging::client::doSavePart()</a>.</p>
 
@@ -766,7 +811,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 26 2026 04:54:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Feb 26 2026 13:01:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
