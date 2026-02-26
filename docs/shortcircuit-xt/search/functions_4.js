@@ -41,12 +41,13 @@ var searchData=
   ['executeonserializationfor_38',['executeOnSerializationFor',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a427433558240e8f34365600d60702a19',1,'scxt::messaging::client::detail']]],
   ['expandforbrowser_39',['expandForBrowser',['../structscxt_1_1browser_1_1Browser.html#a1d753333cfc34e17d0ec466a654cc797',1,'scxt::browser::Browser']]],
   ['expandmultifile_40',['expandMultifile',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#a4e10d0da44bd3faca5c9a20abbf10ac1',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
-  ['exsgroup_41',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html#a0d8c86db4513ef1cffe3896e3a4f0919',1,'scxt::exs_support::EXSGroup']]],
-  ['exsinstrument_42',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html#a51a6d333a350646a55ac6859ed741d64',1,'scxt::exs_support::EXSInstrument']]],
-  ['exsobject_43',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html#a54f86fac8834b230bedf087caaa7c636',1,'scxt::exs_support::EXSObject']]],
-  ['exsparameters_44',['EXSParameters',['../structscxt_1_1exs__support_1_1EXSParameters.html#a515c0edb1066ad9829035427f4c44251',1,'scxt::exs_support::EXSParameters']]],
-  ['exssample_45',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html#a3d795e2ccac42ab6d395c88bb8c0c5db',1,'scxt::exs_support::EXSSample']]],
-  ['exszone_46',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html#a68070d07b2f5fe164e23331831a9bb6b',1,'scxt::exs_support::EXSZone']]],
-  ['extensionmatches_47',['extensionMatches',['../namespacescxt.html#a606be123afc606046b0b1d315f755cf1',1,'scxt']]],
-  ['extensionstringmatches_48',['extensionStringMatches',['../namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54',1,'scxt']]]
+  ['exportsfz_41',['exportSFZ',['../namespacescxt_1_1sfz__support.html#a417cb23452ae6cac8c2665467ab57dff',1,'scxt::sfz_support']]],
+  ['exsgroup_42',['EXSGroup',['../structscxt_1_1exs__support_1_1EXSGroup.html#a0d8c86db4513ef1cffe3896e3a4f0919',1,'scxt::exs_support::EXSGroup']]],
+  ['exsinstrument_43',['EXSInstrument',['../structscxt_1_1exs__support_1_1EXSInstrument.html#a51a6d333a350646a55ac6859ed741d64',1,'scxt::exs_support::EXSInstrument']]],
+  ['exsobject_44',['EXSObject',['../structscxt_1_1exs__support_1_1EXSObject.html#a54f86fac8834b230bedf087caaa7c636',1,'scxt::exs_support::EXSObject']]],
+  ['exsparameters_45',['EXSParameters',['../structscxt_1_1exs__support_1_1EXSParameters.html#a515c0edb1066ad9829035427f4c44251',1,'scxt::exs_support::EXSParameters']]],
+  ['exssample_46',['EXSSample',['../structscxt_1_1exs__support_1_1EXSSample.html#a3d795e2ccac42ab6d395c88bb8c0c5db',1,'scxt::exs_support::EXSSample']]],
+  ['exszone_47',['EXSZone',['../structscxt_1_1exs__support_1_1EXSZone.html#a68070d07b2f5fe164e23331831a9bb6b',1,'scxt::exs_support::EXSZone']]],
+  ['extensionmatches_48',['extensionMatches',['../namespacescxt.html#a606be123afc606046b0b1d315f755cf1',1,'scxt']]],
+  ['extensionstringmatches_49',['extensionStringMatches',['../namespacescxt.html#a0155cfe546d671568bf6348a61fdfb54',1,'scxt']]]
 ];

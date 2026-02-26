@@ -214,7 +214,7 @@ var searchData=
   ['collapsmultifile_211',['collapsMultifile',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#ab82c41b202e241329d07b9eb7ebacece',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['collect_5fsamples_212',['COLLECT_SAMPLES',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7c4ae02fc7def95b0672f8b495b85cdf',1,'scxt::patch_io']]],
   ['collectmissingresolutionworkitems_213',['collectMissingResolutionWorkItems',['../namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17',1,'scxt::engine']]],
-  ['collectsamplesinto_214',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27',1,'scxt::patch_io']]],
+  ['collectsamplesinto_214',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1',1,'scxt::patch_io']]],
   ['colormap_215',['colormap',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html',1,'ColorMap'],['../structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#af20ef14d27ddddadd1b3562f09f95ae8',1,'scxt::ui::theme::StdMapColormap::colorMap']]],
   ['colormap_2ecpp_216',['ColorMap.cpp',['../ColorMap_8cpp.html',1,'']]],
   ['colormap_2eh_217',['ColorMap.h',['../ColorMap_8h.html',1,'']]],

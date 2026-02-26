@@ -48,7 +48,7 @@ var searchData=
   ['col_5fstr_45',['col_str',['../structscxt_1_1browser_1_1SQL_1_1Statement.html#a92935f9dbd2fdb050b925df036e878c3',1,'scxt::browser::SQL::Statement']]],
   ['collapsmultifile_46',['collapsMultifile',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#ab82c41b202e241329d07b9eb7ebacece',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['collectmissingresolutionworkitems_47',['collectMissingResolutionWorkItems',['../namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17',1,'scxt::engine']]],
-  ['collectsamplesinto_48',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a204f3f3c695f6b1902a6a4cb554b1a27',1,'scxt::patch_io']]],
+  ['collectsamplesinto_48',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1',1,'scxt::patch_io']]],
   ['columncenters_49',['columnCenters',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a1cbe6988a7803aaefe3068181a6d1967',1,'scxt::ui::theme::layout']]],
   ['columncenterx_50',['columnCenterX',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a5f41b7950cff7503dd1540622fbcb889',1,'scxt::ui::theme::layout']]],
   ['columns_51',['columns',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#aa172923c7c1f8aa87a89aa61df83074f',1,'scxt::ui::theme::layout']]],
