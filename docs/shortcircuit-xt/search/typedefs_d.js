@@ -7,6 +7,7 @@ var searchData=
   ['omniflavor_5ft_4',['omniFlavor_t',['../namespacescxt_1_1messaging_1_1client.html#ab6376ce5d87e2c23fc6e7cf2f15e6d2e',1,'scxt::messaging::client']]],
   ['omniflavorupdate_5ft_5',['omniFlavorUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#af4761c02197a8760f0c1f2818b8b7e88',1,'scxt::messaging::client']]],
   ['ongui_5ft_6',['onGui_t',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ada36d479302d937af647374dbb431fcd',1,'scxt::ui::connectors::DiscretePayloadDataAttachment']]],
-  ['opcodes_5ft_7',['opCodes_t',['../structscxt_1_1sfz__support_1_1SFZParser.html#a0565934d0720e1c5fdbd11dda447c34f',1,'scxt::sfz_support::SFZParser']]],
-  ['othertabselection_5ft_8',['otherTabSelection_t',['../structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd',1,'scxt::selection::SelectionManager']]]
+  ['opcodemap_5ft_7',['opCodeMap_t',['../namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0',1,'scxt::sfz_support']]],
+  ['opcodes_5ft_8',['opCodes_t',['../structscxt_1_1sfz__support_1_1SFZParser.html#a0565934d0720e1c5fdbd11dda447c34f',1,'scxt::sfz_support::SFZParser']]],
+  ['othertabselection_5ft_9',['otherTabSelection_t',['../structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd',1,'scxt::selection::SelectionManager']]]
 ];
