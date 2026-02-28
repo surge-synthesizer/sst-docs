@@ -6,5 +6,6 @@ var searchData=
   ['env_5ft_3',['env_t',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7474034921d690ef15cbfb6c33d528dd',1,'scxt::modulation::modulators::EnvLFO']]],
   ['eq3impl_4',['eq3impl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a359ddccaac3688b32a352c5f2b12d0a9',1,'scxt::dsp::processor::procimpl::detail']]],
   ['eq3impl_5fos_5',['eq3impl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#ad9b1b9525696350b56811b9557f5d2d1',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['errorreporter_5ft_6',['errorReporter_t',['../structscxt_1_1browser_1_1Browser.html#a1f2fb1be2c5822cc9daf69e4f01137cc',1,'scxt::browser::Browser']]]
+  ['eq_5ft_6',['eq_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a5fac2697129e50631424522cca9cf0c4',1,'scxt::ui::app::edit_screen']]],
+  ['errorreporter_5ft_7',['errorReporter_t',['../structscxt_1_1browser_1_1Browser.html#a1f2fb1be2c5822cc9daf69e4f01137cc',1,'scxt::browser::Browser']]]
 ];

@@ -31,6 +31,5 @@ var searchData=
   ['processor_5fundoable_5fitems_2ecpp_28',['processor_undoable_items.cpp',['../processor__undoable__items_8cpp.html',1,'']]],
   ['processor_5fundoable_5fitems_2eh_29',['processor_undoable_items.h',['../processor__undoable__items_8h.html',1,'']]],
   ['processorpane_2ecpp_30',['ProcessorPane.cpp',['../ProcessorPane_8cpp.html',1,'']]],
-  ['processorpane_2eh_31',['ProcessorPane.h',['../ProcessorPane_8h.html',1,'']]],
-  ['processorpaneeqsfilters_2ecpp_32',['ProcessorPaneEQsFilters.cpp',['../ProcessorPaneEQsFilters_8cpp.html',1,'']]]
+  ['processorpane_2eh_31',['ProcessorPane.h',['../ProcessorPane_8h.html',1,'']]]
 ];

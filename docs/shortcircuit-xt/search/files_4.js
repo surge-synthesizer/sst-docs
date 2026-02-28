@@ -8,11 +8,12 @@ var searchData=
   ['engine_5fvoice_5fresponder_2ecpp_5',['engine_voice_responder.cpp',['../engine__voice__responder_8cpp.html',1,'']]],
   ['enginestatus_5fmessages_2eh_6',['enginestatus_messages.h',['../enginestatus__messages_8h.html',1,'']]],
   ['envlfo_2eh_7',['envlfo.h',['../envlfo_8h.html',1,'']]],
-  ['equal_2ecpp_8',['equal.cpp',['../equal_8cpp.html',1,'']]],
-  ['equal_2eh_9',['equal.h',['../equal_8h.html',1,'']]],
-  ['exs_2ddump_2ecpp_10',['exs-dump.cpp',['../exs-dump_8cpp.html',1,'']]],
-  ['exs_5fcompound_5ffile_5fimpl_2ecpp_11',['exs_compound_file_impl.cpp',['../exs__compound__file__impl_8cpp.html',1,'']]],
-  ['exs_5fimport_2ecpp_12',['exs_import.cpp',['../exs__import_8cpp.html',1,'']]],
-  ['exs_5fimport_2eh_13',['exs_import.h',['../exs__import_8h.html',1,'']]],
-  ['extensions_2eh_14',['extensions.h',['../extensions_8h.html',1,'']]]
+  ['eqdisplay_2eh_8',['EQDisplay.h',['../EQDisplay_8h.html',1,'']]],
+  ['equal_2ecpp_9',['equal.cpp',['../equal_8cpp.html',1,'']]],
+  ['equal_2eh_10',['equal.h',['../equal_8h.html',1,'']]],
+  ['exs_2ddump_2ecpp_11',['exs-dump.cpp',['../exs-dump_8cpp.html',1,'']]],
+  ['exs_5fcompound_5ffile_5fimpl_2ecpp_12',['exs_compound_file_impl.cpp',['../exs__compound__file__impl_8cpp.html',1,'']]],
+  ['exs_5fimport_2ecpp_13',['exs_import.cpp',['../exs__import_8cpp.html',1,'']]],
+  ['exs_5fimport_2eh_14',['exs_import.h',['../exs__import_8h.html',1,'']]],
+  ['extensions_2eh_15',['extensions.h',['../extensions_8h.html',1,'']]]
 ];
