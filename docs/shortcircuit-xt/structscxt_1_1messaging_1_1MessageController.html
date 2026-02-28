@@ -184,8 +184,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1a093e44dc5818b9c8d419ef545ca101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a843bfa7fa8e24548304f9e242ff88c59" id="r_a843bfa7fa8e24548304f9e242ff88c59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a843bfa7fa8e24548304f9e242ff88c59">restartAudioThreadFromSerial</a> ()</td></tr>
 <tr class="separator:a843bfa7fa8e24548304f9e242ff88c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d0fccb0fdff4d149ddec921da5ba1f9" id="r_a7d0fccb0fdff4d149ddec921da5ba1f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a7d0fccb0fdff4d149ddec921da5ba1f9">reportErrorToClient</a> (const std::string &amp;title, const std::string &amp;body)</td></tr>
-<tr class="separator:a7d0fccb0fdff4d149ddec921da5ba1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef217d5ea59fb5fefeb83e26892c7c5" id="r_a6ef217d5ea59fb5fefeb83e26892c7c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a6ef217d5ea59fb5fefeb83e26892c7c5">reportErrorToClient</a> (const std::string &amp;title, const std::string &amp;body, const std::string &amp;source, int line)</td></tr>
+<tr class="separator:a6ef217d5ea59fb5fefeb83e26892c7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af98c4d46cbb1a579c695b80574f32487" id="r_af98c4d46cbb1a579c695b80574f32487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#af98c4d46cbb1a579c695b80574f32487">sendStreamCompleteNotification</a> ()</td></tr>
 <tr class="separator:af98c4d46cbb1a579c695b80574f32487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581b3694e553349f9a30aad7d740f118" id="r_a581b3694e553349f9a30aad7d740f118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a581b3694e553349f9a30aad7d740f118">updateClientActivityNotification</a> (const std::string &amp;msg, int idx=-1)</td></tr>
@@ -783,8 +783,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d0fccb0fdff4d149ddec921da5ba1f9" name="a7d0fccb0fdff4d149ddec921da5ba1f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d0fccb0fdff4d149ddec921da5ba1f9">&#9670;&#160;</a></span>reportErrorToClient()</h2>
+<a id="a6ef217d5ea59fb5fefeb83e26892c7c5" name="a6ef217d5ea59fb5fefeb83e26892c7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ef217d5ea59fb5fefeb83e26892c7c5">&#9670;&#160;</a></span>reportErrorToClient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -799,7 +799,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>body</em>&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -810,8 +822,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baba133a40bbaec2220169b6d81418631b">scxt::messaging::client::s2c_report_error</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#a19a143153aec6a614f6a300d45129061">BrowserDB::getBrowserLocations()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7e318f8875863dc411563657fb601dc1">scxt::messaging::client::raiseDebugError()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
 </div>
 </div>
@@ -1134,7 +1144,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 28 2026 14:52:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Feb 28 2026 23:57:57 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

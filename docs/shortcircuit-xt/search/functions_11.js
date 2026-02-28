@@ -83,7 +83,7 @@ var searchData=
   ['removevoice_80',['removeVoice',['../structscxt_1_1engine_1_1Zone.html#ac5da2e6909a5dde1e667b8aa089b88b7',1,'scxt::engine::Zone']]],
   ['removezone_81',['removezone',['../structscxt_1_1engine_1_1Group.html#a1b19f37f60bb00e87816f99e5a88986d',1,'scxt::engine::Group::removeZone()'],['../namespacescxt_1_1messaging_1_1client.html#abef9b4ea2d25123c7392209706786046',1,'scxt::messaging::client::removeZone()']]],
   ['reparentsamplesonstreamtorelative_82',['reparentSamplesOnStreamToRelative',['../structscxt_1_1sample_1_1SampleManager.html#acc878fb389db2492565b6b209be97255',1,'scxt::sample::SampleManager']]],
-  ['reporterrortoclient_83',['reportErrorToClient',['../structscxt_1_1messaging_1_1MessageController.html#a7d0fccb0fdff4d149ddec921da5ba1f9',1,'scxt::messaging::MessageController']]],
+  ['reporterrortoclient_83',['reportErrorToClient',['../structscxt_1_1messaging_1_1MessageController.html#a6ef217d5ea59fb5fefeb83e26892c7c5',1,'scxt::messaging::MessageController']]],
   ['repositioncontentareacomponents_84',['repositionContentAreaComponents',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a5407b37c3cfc3eb6a822d0a6103ea933',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['repositiontooltip_85',['repositionTooltip',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a791d063ee6d06f8d68e04cb6266a2d17',1,'scxt::ui::app::SCXTEditor']]],
   ['reprepareandbindgroupmatrix_86',['rePrepareAndBindGroupMatrix',['../structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4',1,'scxt::engine::Group']]],

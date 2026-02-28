@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['s2cerror_5ft_0',['s2cError_t',['../namespacescxt_1_1messaging_1_1client.html#a8f72a6ea5056f902a343cb7ce1e1482e',1,'scxt::messaging::client']]],
+  ['s2cerror_5ft_0',['s2cError_t',['../namespacescxt_1_1messaging_1_1client.html#affcb9777a62241001a34a360e347a6f5',1,'scxt::messaging::client']]],
   ['sample_5fattachment_5ft_1',['sample_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#addedbf10b4f946ecec77b3d41e684e25',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['sampleaddressesandids_5ft_2',['sampleAddressesAndIds_t',['../structscxt_1_1sample_1_1SampleManager.html#a541a38eb16192d237e364bbbd3e2e73b',1,'scxt::sample::SampleManager']]],
   ['samplemap_5ft_3',['sampleMap_t',['../structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f',1,'scxt::sample::SampleManager']]],
