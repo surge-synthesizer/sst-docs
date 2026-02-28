@@ -46,7 +46,7 @@ var searchData=
   ['loadsamplefrommultisample_43',['loadSampleFromMultiSample',['../structscxt_1_1sample_1_1SampleManager.html#a2f1efc2ed8cb3326b545957fb52b5405',1,'scxt::sample::SampleManager']]],
   ['loadsamplefromscxtmonolith_44',['loadSampleFromSCXTMonolith',['../structscxt_1_1sample_1_1SampleManager.html#a265b859ecc6434c4a0fe5caf38a0ac7f',1,'scxt::sample::SampleManager']]],
   ['loadsamplefromsf2_45',['loadSampleFromSF2',['../structscxt_1_1sample_1_1SampleManager.html#a7a2228f3884875f96e3b044ad37d5240',1,'scxt::sample::SampleManager']]],
-  ['loadsampleintoselectedpartandgroup_46',['loadSampleIntoSelectedPartAndGroup',['../structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c',1,'scxt::engine::Engine']]],
+  ['loadsampleintoselectedpartandgroup_46',['loadsampleintoselectedpartandgroup',['../structscxt_1_1engine_1_1Engine.html#a9dbd87cd1615341ab7a2ae6f45a0abf4',1,'scxt::engine::Engine::loadSampleIntoSelectedPartAndGroup(const fs::path &amp;p)'],['../structscxt_1_1engine_1_1Engine.html#a57090e0e338affea5d6911d2a3af03c4',1,'scxt::engine::Engine::loadSampleIntoSelectedPartAndGroup(const fs::path &amp;, int16_t rootKey, KeyboardRange krange, VelocityRange vrange, bool sampleRangeInfoOverridesArguments=false)']]],
   ['loadsampleintozone_47',['loadSampleIntoZone',['../structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b',1,'scxt::engine::Engine']]],
   ['loadtextfile_48',['loadTextFile',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#a90964a05c9f80e079d9ba6071fd220bc',1,'scxt::ui::connectors::resources']]],
   ['loadtypeface_49',['loadTypeface',['../namespacescxt_1_1ui_1_1connectors_1_1resources.html#a1614be5e8a62d6fbf512d139850d40b5',1,'scxt::ui::connectors::resources']]],

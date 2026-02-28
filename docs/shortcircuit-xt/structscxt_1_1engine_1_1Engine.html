@@ -268,8 +268,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af61884fac4cd566e76778b2c777675dd" id="r_af61884fac4cd566e76778b2c777675dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af61884fac4cd566e76778b2c777675dd">prepareToPlay</a> (double <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">sampleRate</a>)</td></tr>
 <tr class="memdesc:af61884fac4cd566e76778b2c777675dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare to play sets up the internal state to prepare us to play.  <br /></td></tr>
 <tr class="separator:af61884fac4cd566e76778b2c777675dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e70607c88dcd40282ec2348d632be5c" id="r_a3e70607c88dcd40282ec2348d632be5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a3e70607c88dcd40282ec2348d632be5c">loadSampleIntoSelectedPartAndGroup</a> (const fs::path &amp;, int16_t rootKey=60, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
-<tr class="separator:a3e70607c88dcd40282ec2348d632be5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57090e0e338affea5d6911d2a3af03c4" id="r_a57090e0e338affea5d6911d2a3af03c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a57090e0e338affea5d6911d2a3af03c4">loadSampleIntoSelectedPartAndGroup</a> (const fs::path &amp;, int16_t rootKey, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange, bool sampleRangeInfoOverridesArguments=false)</td></tr>
+<tr class="separator:a57090e0e338affea5d6911d2a3af03c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbd87cd1615341ab7a2ae6f45a0abf4" id="r_a9dbd87cd1615341ab7a2ae6f45a0abf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9dbd87cd1615341ab7a2ae6f45a0abf4">loadSampleIntoSelectedPartAndGroup</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:a9dbd87cd1615341ab7a2ae6f45a0abf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e92b2c4cf812fd0a77f30ab4fbf7ca4" id="r_a7e92b2c4cf812fd0a77f30ab4fbf7ca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">loadCompoundElementIntoSelectedPartAndGroup</a> (const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">scxt::sample::compound::CompoundElement</a> &amp;, int16_t rootKey=60, <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> krange={48, 72}, <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> vrange={0, 127})</td></tr>
 <tr class="separator:a7e92b2c4cf812fd0a77f30ab4fbf7ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade35f926459a5bc7d652e07c9223938b" id="r_ade35f926459a5bc7d652e07c9223938b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ade35f926459a5bc7d652e07c9223938b">loadSampleIntoZone</a> (const fs::path &amp;, int16_t part, int16_t group, int16_t zone, int variantID)</td></tr>
@@ -1473,8 +1475,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e70607c88dcd40282ec2348d632be5c" name="a3e70607c88dcd40282ec2348d632be5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e70607c88dcd40282ec2348d632be5c">&#9670;&#160;</a></span>loadSampleIntoSelectedPartAndGroup()</h2>
+<a id="a57090e0e338affea5d6911d2a3af03c4" name="a57090e0e338affea5d6911d2a3af03c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57090e0e338affea5d6911d2a3af03c4">&#9670;&#160;</a></span>loadSampleIntoSelectedPartAndGroup() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1489,19 +1491,25 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>rootKey</em> = <code>60</code>, </td>
+          <td class="paramname"><em>rootKey</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a>&#160;</td>
-          <td class="paramname"><em>krange</em> = <code>{48,&#160;72}</code>, </td>
+          <td class="paramname"><em>krange</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a>&#160;</td>
-          <td class="paramname"><em>vrange</em> = <code>{0,&#160;127}</code>&#160;</td>
+          <td class="paramname"><em>vrange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sampleRangeInfoOverridesArguments</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1513,7 +1521,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#ad8355d53952166b1b89bf9c1339bfeb9">scxt::patch_io::loadMulti()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">scxt::patch_io::loadPartInto()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">scxt::messaging::client::addSample()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">scxt::messaging::client::addSampleWithRange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afb7e5053560b649ea6ab4d9377e1adae">scxt::messaging::client::addSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3e6ae0a8538a4214eea5f702120d3eb3">scxt::messaging::client::addSampleWithRange()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9dbd87cd1615341ab7a2ae6f45a0abf4">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a9dbd87cd1615341ab7a2ae6f45a0abf4" name="a9dbd87cd1615341ab7a2ae6f45a0abf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbd87cd1615341ab7a2ae6f45a0abf4">&#9670;&#160;</a></span>loadSampleIntoSelectedPartAndGroup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loadSampleIntoSelectedPartAndGroup </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a57090e0e338affea5d6911d2a3af03c4">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
 
 </div>
 </div>
@@ -2768,7 +2796,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 28 2026 02:52:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Feb 28 2026 14:20:47 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
