@@ -8,9 +8,10 @@ var searchData=
   ['gmodtgtintfn_5ft_5',['gmodTgtIntFn_t',['../structscxt_1_1engine_1_1Engine.html#adeb84e6e6dd239158c0b384fa28ed3bb',1,'scxt::engine::Engine']]],
   ['gmodtgtstrfn_5ft_6',['gmodTgtStrFn_t',['../structscxt_1_1engine_1_1Engine.html#ad521a2327793bb527c7fde1cdf5bff1c',1,'scxt::engine::Engine']]],
   ['groupcontainer_5ft_7',['groupContainer_t',['../structscxt_1_1engine_1_1Part.html#a0e5ad9d6b8d5a152b324548f58d28b4f',1,'scxt::engine::Part']]],
-  ['groupid_8',['GroupID',['../namespacescxt.html#a065ba2acff2c78a8ae6cc01a634b3e05',1,'scxt']]],
-  ['groupmatrixmetadata_5ft_9',['groupMatrixMetadata_t',['../namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5',1,'scxt::modulation']]],
-  ['groupoutputinfoupdate_5ft_10',['groupOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b',1,'scxt::messaging::client']]],
-  ['grouptriggerbuffer_11',['GroupTriggerBuffer',['../namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92',1,'scxt::engine']]],
-  ['gzmiscstorageupdate_5ft_12',['gzMiscStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#adea0b65938dbf91699042e82993f5063',1,'scxt::messaging::client']]]
+  ['groupfloatattachment_5ft_8',['groupFloatAttachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#a1aad516aa6a80918afe9d36dd87689e4',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]],
+  ['groupid_9',['GroupID',['../namespacescxt.html#a065ba2acff2c78a8ae6cc01a634b3e05',1,'scxt']]],
+  ['groupmatrixmetadata_5ft_10',['groupMatrixMetadata_t',['../namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5',1,'scxt::modulation']]],
+  ['groupoutputinfoupdate_5ft_11',['groupOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b',1,'scxt::messaging::client']]],
+  ['grouptriggerbuffer_12',['GroupTriggerBuffer',['../namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92',1,'scxt::engine']]],
+  ['gzmiscstorageupdate_5ft_13',['gzMiscStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#adea0b65938dbf91699042e82993f5063',1,'scxt::messaging::client']]]
 ];
