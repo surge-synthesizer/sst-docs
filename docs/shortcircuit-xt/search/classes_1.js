@@ -1,7 +1,7 @@
 var searchData=
 [
   ['bandselect_0',['BandSelect',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1BandSelect.html',1,'scxt::ui::app::edit_screen::EqDisplayBase']]],
-  ['baseclass_1',['BaseClass',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplayBase_1_1EqAdapter_1_1BaseClass.html',1,'scxt::ui::app::edit_screen::EqDisplayBase::EqAdapter']]],
+  ['baseclass_1',['BaseClass',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1fxAdapter_1_1BaseClass.html',1,'scxt::ui::app::edit_screen::fxAdapter']]],
   ['booleanpayloaddataattachment_2',['BooleanPayloadDataAttachment',['../structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],
   ['booleanpayloaddataattachment_3c_20scxt_3a_3aengine_3a_3azone_3a_3avariants_20_3e_3',['BooleanPayloadDataAttachment&lt; scxt::engine::Zone::Variants &gt;',['../structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],
   ['booleanpayloaddataattachment_3c_20typename_20gztrait_3a_3arouting_3a_3arouting_20_3e_4',['BooleanPayloadDataAttachment&lt; typename GZTrait::routing::Routing &gt;',['../structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html',1,'scxt::ui::connectors']]],

@@ -5,5 +5,6 @@ var searchData=
   ['filemapview_2',['FileMapView',['../classscxt_1_1infrastructure_1_1FileMapView.html',1,'scxt::infrastructure']]],
   ['filter_3',['FILTER',['../structscxt_1_1akai__support_1_1FILTER.html',1,'scxt::akai_support']]],
   ['fouruintsfourfloats_4',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]],
-  ['fxslotbearing_5',['FXSlotBearing',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html',1,'scxt::ui::app::shared']]]
+  ['fxadapter_5',['fxAdapter',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1fxAdapter.html',1,'scxt::ui::app::edit_screen']]],
+  ['fxslotbearing_6',['FXSlotBearing',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html',1,'scxt::ui::app::shared']]]
 ];

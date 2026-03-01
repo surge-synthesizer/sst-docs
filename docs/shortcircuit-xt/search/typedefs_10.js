@@ -29,10 +29,11 @@ var searchData=
   ['snhimpl_26',['SnHImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a3d11e38374de0183b82293d2eb7ea226',1,'scxt::dsp::processor::procimpl::detail']]],
   ['snhimpl_5fos_27',['SnHImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#af32a283419afd0fc11ff97f9f0ff3d3f',1,'scxt::dsp::processor::procimpl::detail']]],
   ['sourceidentifier_28',['sourceidentifier',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a81d83b21526a395420500f659e8fddb3',1,'scxt::modulation::GroupMatrixConfig::SourceIdentifier'],['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a81d83b21526a395420500f659e8fddb3',1,'scxt::voice::modulation::MatrixConfig::SourceIdentifier']]],
-  ['sr_29',['sr',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a62f46af9739264ef8e3734b72ddd3a29',1,'scxt::voice::modulation::MatrixEndpoints::SR'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#ac6e163d47c0de0dc7146b8d3e4d28c5b',1,'scxt::modulation::GroupMatrixEndpoints::SR']]],
-  ['ssmap_5ft_30',['ssmap_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a1f28b1505f92cf3eb7f5bf93c07d8df8',1,'scxt::ui::app::edit_screen']]],
-  ['steplfostorage_31',['StepLFOStorage',['../namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa',1,'scxt::modulation::modulators']]],
-  ['stopsounds_5ft_32',['stopSounds_t',['../namespacescxt_1_1messaging_1_1client.html#a574b718fce2749e383b52ea87a1f398b',1,'scxt::messaging::client']]],
-  ['streamlfo_5ft_33',['streamLfo_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a5061a5c41127ee926980d9ed0f60d8f6',1,'scxt::ui::app::edit_screen']]],
-  ['surgesinctable_34',['SurgeSincTable',['../namespacescxt_1_1dsp.html#ac9e3c230feb94d08bdbab7054f4a7c5f',1,'scxt::dsp']]]
+  ['sp_5ft_29',['sp_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a7a607af1a58788fd77cdfd00889cd27e',1,'scxt::ui::app::edit_screen']]],
+  ['sr_30',['sr',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a62f46af9739264ef8e3734b72ddd3a29',1,'scxt::voice::modulation::MatrixEndpoints::SR'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#ac6e163d47c0de0dc7146b8d3e4d28c5b',1,'scxt::modulation::GroupMatrixEndpoints::SR']]],
+  ['ssmap_5ft_31',['ssmap_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a1f28b1505f92cf3eb7f5bf93c07d8df8',1,'scxt::ui::app::edit_screen']]],
+  ['steplfostorage_32',['StepLFOStorage',['../namespacescxt_1_1modulation_1_1modulators.html#abc09b7dd85c8fef724c573e9daeb36aa',1,'scxt::modulation::modulators']]],
+  ['stopsounds_5ft_33',['stopSounds_t',['../namespacescxt_1_1messaging_1_1client.html#a574b718fce2749e383b52ea87a1f398b',1,'scxt::messaging::client']]],
+  ['streamlfo_5ft_34',['streamLfo_t',['../namespacescxt_1_1ui_1_1app_1_1edit__screen.html#a5061a5c41127ee926980d9ed0f60d8f6',1,'scxt::ui::app::edit_screen']]],
+  ['surgesinctable_35',['SurgeSincTable',['../namespacescxt_1_1dsp.html#ac9e3c230feb94d08bdbab7054f4a7c5f',1,'scxt::dsp']]]
 ];
