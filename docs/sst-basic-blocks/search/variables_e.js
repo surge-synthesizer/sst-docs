@@ -7,11 +7,12 @@ var searchData=
   ['phaseo_4',['phaseO',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#aa864a1b1cd194e5258005aeb58ac4df1',1,'sst::basic_blocks::dsp::LanczosResampler']]],
   ['phasestrategy_5',['phasestrategy',['../structsst_1_1basic__blocks_1_1modulators_1_1TenSecondRange.html#ac3b4a71fa8621d4908fab3195458f1c3',1,'sst::basic_blocks::modulators::TenSecondRange::phaseStrategy'],['../structsst_1_1basic__blocks_1_1modulators_1_1ThirtyTwoSecondRange.html#ac3b4a71fa8621d4908fab3195458f1c3',1,'sst::basic_blocks::modulators::ThirtyTwoSecondRange::phaseStrategy'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwoMinuteRange.html#ac3b4a71fa8621d4908fab3195458f1c3',1,'sst::basic_blocks::modulators::TwoMinuteRange::phaseStrategy'],['../structsst_1_1basic__blocks_1_1modulators_1_1TwentyFiveSecondExp.html#ac3b4a71fa8621d4908fab3195458f1c3',1,'sst::basic_blocks::modulators::TwentyFiveSecondExp::phaseStrategy']]],
   ['poled_6',['poled',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#a580f8b79d829ecf478d58755b8cc5b19',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
-  ['priorrate_7',['priorRate',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ab1f7cde2f58371d9e731c6577104d4f4',1,'sst::basic_blocks::modulators::StepLFO']]],
-  ['priorx_5fl_8',['priorX_L',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#aed647ed0ed898c58340645486f560c8b',1,'sst::basic_blocks::dsp::CharacterFilter']]],
-  ['priorx_5fr_9',['priorX_R',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#abd0682a4f0cb8f22ee1f4d85ccb0f662',1,'sst::basic_blocks::dsp::CharacterFilter']]],
-  ['priory_5fl_10',['priorY_L',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ad1f587b611aaf0657ee8bc447f333208',1,'sst::basic_blocks::dsp::CharacterFilter']]],
-  ['priory_5fr_11',['priorY_R',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a20aeb014f4efcaee7248b23b89e1c7ed',1,'sst::basic_blocks::dsp::CharacterFilter']]],
-  ['providerrange_12',['providerRange',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#ade99c10dd52060346b7506ba47598926',1,'sst::basic_blocks::tables::TwoToTheXProvider']]],
-  ['pulsewidth_13',['pulseWidth',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWPulseOscillator.html#ab84c9689d9486cfbc6598b855f680c64',1,'sst::basic_blocks::dsp::DPWPulseOscillator']]]
+  ['posinblock_7',['posInBlock',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html#a3b95a3f9963b23e866b4e32f9c2cabaf',1,'sst::basic_blocks::dsp::QuadratureOscillator']]],
+  ['priorrate_8',['priorRate',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#ab1f7cde2f58371d9e731c6577104d4f4',1,'sst::basic_blocks::modulators::StepLFO']]],
+  ['priorx_5fl_9',['priorX_L',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#aed647ed0ed898c58340645486f560c8b',1,'sst::basic_blocks::dsp::CharacterFilter']]],
+  ['priorx_5fr_10',['priorX_R',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#abd0682a4f0cb8f22ee1f4d85ccb0f662',1,'sst::basic_blocks::dsp::CharacterFilter']]],
+  ['priory_5fl_11',['priorY_L',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ad1f587b611aaf0657ee8bc447f333208',1,'sst::basic_blocks::dsp::CharacterFilter']]],
+  ['priory_5fr_12',['priorY_R',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a20aeb014f4efcaee7248b23b89e1c7ed',1,'sst::basic_blocks::dsp::CharacterFilter']]],
+  ['providerrange_13',['providerRange',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#ade99c10dd52060346b7506ba47598926',1,'sst::basic_blocks::tables::TwoToTheXProvider']]],
+  ['pulsewidth_14',['pulseWidth',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWPulseOscillator.html#ab84c9689d9486cfbc6598b855f680c64',1,'sst::basic_blocks::dsp::DPWPulseOscillator']]]
 ];

@@ -10,5 +10,6 @@ var searchData=
   ['blackman_5fharris_7',['blackman_harris',['../namespacesst_1_1basic__blocks_1_1dsp.html#a776e2c2320e2ab56bbf3c250cf981702',1,'sst::basic_blocks::dsp::blackman_harris(int i, int n)'],['../namespacesst_1_1basic__blocks_1_1dsp.html#a5915265fcfe4c658ec12743b5426193b',1,'sst::basic_blocks::dsp::blackman_harris(double i, int n)']]],
   ['blockabsavg_8',['blockAbsAvg',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a5db7bddd83c1983475649edfa4792ffd',1,'sst::basic_blocks::mechanics']]],
   ['blockabsmax_9',['blockAbsMax',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a1f97a3b540f1bac3ed277920aacc7c2d',1,'sst::basic_blocks::mechanics']]],
-  ['boolean_10',['boolean',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a54a211ac234172119d7ee8f89cb53750',1,'sst::basic_blocks::dsp::RNG']]]
+  ['blockstep_10',['blockStep',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html#a84653bd0d9a74a40680c60278822c562',1,'sst::basic_blocks::dsp::QuadratureOscillator']]],
+  ['boolean_11',['boolean',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a54a211ac234172119d7ee8f89cb53750',1,'sst::basic_blocks::dsp::RNG']]]
 ];
