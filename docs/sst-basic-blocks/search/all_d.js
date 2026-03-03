@@ -23,11 +23,12 @@ var searchData=
   ['operator_2f_3d_20',['operator/=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a2ef58d83b097428e13083bf99c18602d',1,'sst::basic_blocks::simd::F32x4']]],
   ['operator_3d_21',['operator=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#ad1b47336fae6f6360d5ca664c8bbb434',1,'sst::basic_blocks::simd::F32x4']]],
   ['operator_3d_3d_22',['operator==',['../namespacesst_1_1basic__blocks_1_1mod__matrix_1_1details.html#a61d3eb60f880a7303baef76ac9725856',1,'sst::basic_blocks::mod_matrix::details']]],
-  ['oscillatordriftunisoncharacter_2eh_23',['OscillatorDriftUnisonCharacter.h',['../OscillatorDriftUnisonCharacter_8h.html',1,'']]],
-  ['outblock0_24',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['output_25',['output',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::StepLFO::output'],['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::output']]],
-  ['outputblock_26',['outputBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['outputcache_27',['outputCache',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab052e8cf7ad5ebfe770f8577db3af81d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputcachecubed_28',['outputCacheCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a3f142fe566c46d572d9ac4129dd1eee4',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputcubed_29',['outputCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#abc62f19a9752d21cad0625df584b0c6a',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
+  ['ordinalnumbering_23',['ordinalNumbering',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a2192e65867b51a4f5be5a21f23d926ea',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['oscillatordriftunisoncharacter_2eh_24',['OscillatorDriftUnisonCharacter.h',['../OscillatorDriftUnisonCharacter_8h.html',1,'']]],
+  ['outblock0_25',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['output_26',['output',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::StepLFO::output'],['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::output']]],
+  ['outputblock_27',['outputBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['outputcache_28',['outputCache',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab052e8cf7ad5ebfe770f8577db3af81d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputcachecubed_29',['outputCacheCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a3f142fe566c46d572d9ac4129dd1eee4',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputcubed_30',['outputCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#abc62f19a9752d21cad0625df584b0c6a',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
 ];
