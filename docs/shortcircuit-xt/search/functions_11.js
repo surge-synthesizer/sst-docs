@@ -5,7 +5,7 @@ var searchData=
   ['randomdisplayname_2',['randomDisplayName',['../structscxt_1_1modulation_1_1MiscSourceStorage.html#ab5bb45363f83742a3036d5e4094d176a',1,'scxt::modulation::MiscSourceStorage']]],
   ['randomevaluator_3',['RandomEvaluator',['../structscxt_1_1modulation_1_1modulators_1_1RandomEvaluator.html#afa3ab2c125e4d4d5e9deac3a21291d1e',1,'scxt::modulation::modulators::RandomEvaluator']]],
   ['randomroll_4',['randomRoll',['../namespacescxt_1_1voice_1_1modulation.html#a2bca6094365521e38f49eab2ead94f23',1,'scxt::voice::modulation']]],
-  ['read_5',['read',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a66844c577d4c79b3fb6dce4908e45a4b',1,'scxt::sample::loaders::RIFFMemFile::Read()'],['../structscxt_1_1exs__support_1_1EXSBlock.html#a4595a3f237567c6971dacb5afc6b56fc',1,'scxt::exs_support::EXSBlock::read()']]],
+  ['read_5',['read',['../structscxt_1_1exs__support_1_1EXSBlock.html#a4595a3f237567c6971dacb5afc6b56fc',1,'scxt::exs_support::EXSBlock::read()'],['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a66844c577d4c79b3fb6dce4908e45a4b',1,'scxt::sample::loaders::RIFFMemFile::Read()']]],
   ['readbyte_6',['readByte',['../structscxt_1_1exs__support_1_1EXSObject.html#a9b760904bbc60f357339dc98253d6d17',1,'scxt::exs_support::EXSObject']]],
   ['readbytetoint_7',['readByteToInt',['../structscxt_1_1exs__support_1_1EXSObject.html#aa28d65998b68f11f0f9cbcfaaa6cd5dd',1,'scxt::exs_support::EXSObject']]],
   ['readdword_8',['ReadDWORD',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a4c271fab5c20d0d22b8e57a9eb4088a2',1,'scxt::sample::loaders::RIFFMemFile']]],

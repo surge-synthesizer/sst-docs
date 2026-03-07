@@ -11,8 +11,9 @@ var searchData=
   ['notetopitch_8',['noteToPitch',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a88aee6a097959af827677c2b63b496e5',1,'scxt::engine::dtl::Config']]],
   ['notetopitchignoringtuning_9',['notetopitchignoringtuning',['../structscxt_1_1engine_1_1dtl_1_1EngineBiquadAdapter.html#a383995fba664c4467160c5ca6bc63c1d',1,'scxt::engine::dtl::EngineBiquadAdapter::noteToPitchIgnoringTuning()'],['../structscxt_1_1engine_1_1dtl_1_1Config.html#a1b5bbd3664b742612b5ae9cb320d367a',1,'scxt::engine::dtl::Config::noteToPitchIgnoringTuning(GlobalStorage *s, float p)']]],
   ['notetopitchinv_10',['noteToPitchInv',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a9205fcdd0cd7083707a3982560a9108d',1,'scxt::engine::dtl::Config']]],
-  ['nullserialcompletefunction_11',['nullSerialCompleteFunction',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a220117e41eb7a82171e6c6dfce46e170',1,'scxt::messaging::MessageController::AudioThreadCallback']]],
-  ['numberofjobsoutstanding_12',['numberOfJobsOutstanding',['../structscxt_1_1browser_1_1BrowserDB.html#a2562f2aa425bd8d657ee1a42ce557d8f',1,'scxt::browser::BrowserDB']]],
-  ['numdenquantatt_13',['NumDenQuantAtt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a1ef83ce847433dc93e4e1ef25785587f',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]],
-  ['numparams_14',['numparams',['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()'],['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()']]]
+  ['notifyserialofprocessorrefresh_11',['notifySerialOfProcessorRefresh',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a6e443d88392ac3abe680cbb36260dd88',1,'scxt::engine::HasGroupZoneProcessors']]],
+  ['nullserialcompletefunction_12',['nullSerialCompleteFunction',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a220117e41eb7a82171e6c6dfce46e170',1,'scxt::messaging::MessageController::AudioThreadCallback']]],
+  ['numberofjobsoutstanding_13',['numberOfJobsOutstanding',['../structscxt_1_1browser_1_1BrowserDB.html#a2562f2aa425bd8d657ee1a42ce557d8f',1,'scxt::browser::BrowserDB']]],
+  ['numdenquantatt_14',['NumDenQuantAtt',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a1ef83ce847433dc93e4e1ef25785587f',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]],
+  ['numparams_15',['numparams',['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()'],['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()']]]
 ];
