@@ -8,10 +8,15 @@ var searchData=
   ['generic_5fcontent_5fmedium_5',['generic_content_medium',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ac1a902c80eade27803d29c67d5c44e7d',1,'scxt::ui::theme::ColorMap']]],
   ['gig_5ffile_6',['GIG_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe',1,'scxt::sample::Sample']]],
   ['global_7',['global',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ac0848296a9510c4fc803b4553e6f75f9',1,'scxt::sfz_support::SFZParser::Header']]],
-  ['graylow_8',['GRAYLOW',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5a2fd08c46924c2bfa193f3538427a856b',1,'scxt::ui::theme::ColorMap']]],
-  ['grid_5fprimary_9',['grid_primary',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2',1,'scxt::ui::theme::ColorMap']]],
-  ['grid_5fsecondary_10',['grid_secondary',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6',1,'scxt::ui::theme::ColorMap']]],
-  ['group_11',['group',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c',1,'scxt::ui::app::edit_screen::EditScreen::GROUP'],['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021',1,'scxt::sfz_support::SFZParser::Header::group']]],
-  ['gutter_5f2_12',['gutter_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1ed24f6c7bd3f77fa9a5764390227b2c',1,'scxt::ui::theme::ColorMap']]],
-  ['gutter_5f3_13',['gutter_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa34cf25ea57f84b59e5d58a31fe0319f',1,'scxt::ui::theme::ColorMap']]]
+  ['gp_5fconstant_8',['GP_CONSTANT',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2a8049e6ef0aae458e3f00db5e09cc0690',1,'scxt::dsp::processor::ProcessorStorage']]],
+  ['gp_5fhighest_9',['GP_HIGHEST',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2aecacbcd91cc718445a7ad4128f6ac445',1,'scxt::dsp::processor::ProcessorStorage']]],
+  ['gp_5flatest_10',['GP_LATEST',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2abcf0e9104ffd102a3ca6e72bce4616f8',1,'scxt::dsp::processor::ProcessorStorage']]],
+  ['gp_5flowest_11',['GP_LOWEST',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2a0ae4ec24445d786ca28392a34f80010d',1,'scxt::dsp::processor::ProcessorStorage']]],
+  ['gp_5fnote_5fprio_12',['GP_NOTE_PRIO',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2ab14c26d62e94e5fb188743807cf0e625',1,'scxt::dsp::processor::ProcessorStorage']]],
+  ['graylow_13',['GRAYLOW',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5a2fd08c46924c2bfa193f3538427a856b',1,'scxt::ui::theme::ColorMap']]],
+  ['grid_5fprimary_14',['grid_primary',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2',1,'scxt::ui::theme::ColorMap']]],
+  ['grid_5fsecondary_15',['grid_secondary',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6',1,'scxt::ui::theme::ColorMap']]],
+  ['group_16',['group',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c',1,'scxt::ui::app::edit_screen::EditScreen::GROUP'],['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021',1,'scxt::sfz_support::SFZParser::Header::group']]],
+  ['gutter_5f2_17',['gutter_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1ed24f6c7bd3f77fa9a5764390227b2c',1,'scxt::ui::theme::ColorMap']]],
+  ['gutter_5f3_18',['gutter_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa34cf25ea57f84b59e5d58a31fe0319f',1,'scxt::ui::theme::ColorMap']]]
 ];
