@@ -131,15 +131,15 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (OS)                                                                              \</div>
 <div class="line">    {                                                                                              \</div>
-<div class="line">        scxt::dsp::processor::FNN&lt;OS, true&gt;(fpitch, processors.data(), processorConsumesMono,      \</div>
-<div class="line">                                            processorMixOS, processorLevelOS, &amp;endpoints,          \</div>
-<div class="line">                                            chainIsMono, output);                                  \</div>
+<div class="line">        scxt::dsp::processor::FNN&lt;OS, true&gt;(groupProcPitches, processors.data(),                   \</div>
+<div class="line">                                            processorConsumesMono, processorMixOS,                 \</div>
+<div class="line">                                            processorLevelOS, &amp;endpoints, chainIsMono, output);    \</div>
 <div class="line">    }                                                                                              \</div>
 <div class="line">    <span class="keywordflow">else</span>                                                                                           \</div>
 <div class="line">    {                                                                                              \</div>
-<div class="line">        scxt::dsp::processor::FNN&lt;OS, true&gt;(fpitch, processors.data(), processorConsumesMono,      \</div>
-<div class="line">                                            processorMix, processorLevel, &amp;endpoints, chainIsMono, \</div>
-<div class="line">                                            output);                                               \</div>
+<div class="line">        scxt::dsp::processor::FNN&lt;OS, true&gt;(groupProcPitches, processors.data(),                   \</div>
+<div class="line">                                            processorConsumesMono, processorMix, processorLevel,   \</div>
+<div class="line">                                            &amp;endpoints, chainIsMono, output);                      \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>
@@ -147,7 +147,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 9 2026 16:50:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Mar 9 2026 19:20:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
