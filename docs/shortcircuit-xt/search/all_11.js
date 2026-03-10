@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r']]],
+  ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
   ['raise_5ferror_5fcont_1',['RAISE_ERROR_CONT',['../utils_8h.html#ace79af729b9eeb0f5538604349a848ef',1,'utils.h']]],
   ['raise_5ferror_5fengine_2',['RAISE_ERROR_ENGINE',['../utils_8h.html#adfc9736c98bfc337566f0ad14b7bda71',1,'utils.h']]],
   ['raisedebugerror_3',['raiseDebugError',['../namespacescxt_1_1messaging_1_1client.html#a7e318f8875863dc411563657fb601dc1',1,'scxt::messaging::client']]],
@@ -36,7 +36,7 @@ var searchData=
   ['ratet_33',['rateT',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a5c651289fa36a6e0863c22d10e7ff7d2',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
   ['ratio_34',['ratio',['../structscxt_1_1dsp_1_1GeneratorState.html#a1f6b73c6c61c2ee9e7bd75fb061eacf1',1,'scxt::dsp::GeneratorState']]],
   ['rc_35',['rc',['../structscxt_1_1browser_1_1SQL_1_1Exception.html#ac6509c6fe4cbf7bde170597172f8a288',1,'scxt::browser::SQL::Exception::rc'],['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#ac6509c6fe4cbf7bde170597172f8a288',1,'scxt::browser::SQL::LockedException::rc'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents_1_1RC.html',1,'RoutingPaneContents&lt; RPTraits &gt;::RC']]],
-  ['read_36',['read',['../structscxt_1_1exs__support_1_1EXSBlock.html#a4595a3f237567c6971dacb5afc6b56fc',1,'scxt::exs_support::EXSBlock::read()'],['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a66844c577d4c79b3fb6dce4908e45a4b',1,'scxt::sample::loaders::RIFFMemFile::Read()']]],
+  ['read_36',['read',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a66844c577d4c79b3fb6dce4908e45a4b',1,'scxt::sample::loaders::RIFFMemFile::Read()'],['../structscxt_1_1exs__support_1_1EXSBlock.html#a4595a3f237567c6971dacb5afc6b56fc',1,'scxt::exs_support::EXSBlock::read()']]],
   ['readbyte_37',['readByte',['../structscxt_1_1exs__support_1_1EXSObject.html#a9b760904bbc60f357339dc98253d6d17',1,'scxt::exs_support::EXSObject']]],
   ['readbytetoint_38',['readByteToInt',['../structscxt_1_1exs__support_1_1EXSObject.html#aa28d65998b68f11f0f9cbcfaaa6cd5dd',1,'scxt::exs_support::EXSObject']]],
   ['readdword_39',['ReadDWORD',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a4c271fab5c20d0d22b8e57a9eb4088a2',1,'scxt::sample::loaders::RIFFMemFile']]],
