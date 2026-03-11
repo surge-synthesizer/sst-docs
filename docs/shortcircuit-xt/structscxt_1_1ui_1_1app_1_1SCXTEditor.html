@@ -124,6 +124,17 @@ Public Types</h2></td></tr>
 , <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa1c8652f00e000a160bc62b0999a78d9a2a9e7eafdf243acb1757bdd9e14afacd">MIXER</a>
  }</td></tr>
 <tr class="separator:aa1c8652f00e000a160bc62b0999a78d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562ab118132a9d8e45c3065490ab008b" id="r_a562ab118132a9d8e45c3065490ab008b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008b">TooltipPosition</a> { <br />
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008baaad01162f441b9162610e81352541694">ABOVE</a> = 1 &lt;&lt; 0
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008ba249f61b14032b08617e4b2446bace97e">BELOW</a> = 1 &lt;&lt; 1
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008badb45120aafd37a973140edee24708065">LEFT</a> = 1 &lt;&lt; 2
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008baec8379af7490bb9eaaf579cf17876f38">RIGHT</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008ba90980372094dd417d11b7c29f6c03c84">VCENTER</a> = 1 &lt;&lt; 4
+, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008ba9395d6535fe3fe88769a9eb0b3a1850d">HCENTER</a> = 1 &lt;&lt; 5
+<br />
+ }</td></tr>
+<tr class="separator:a562ab118132a9d8e45c3065490ab008b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -261,6 +272,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af503d5f69d0a12ae879a39283e0343cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2f1ec67e93de7517eed468e0ac3715" id="r_a8e2f1ec67e93de7517eed468e0ac3715"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8e2f1ec67e93de7517eed468e0ac3715">isSelected</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;a)</td></tr>
 <tr class="separator:a8e2f1ec67e93de7517eed468e0ac3715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af239dcb0ad3bb6e067ecc4b0003d6c9e" id="r_af239dcb0ad3bb6e067ecc4b0003d6c9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#af239dcb0ad3bb6e067ecc4b0003d6c9e">setTooltipPosition</a> (juce::Component &amp;, int tooltipPosition)</td></tr>
+<tr class="separator:af239dcb0ad3bb6e067ecc4b0003d6c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a713d97b97f0bdaa5b1242e104026e837" id="r_a713d97b97f0bdaa5b1242e104026e837"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a713d97b97f0bdaa5b1242e104026e837">showTooltip</a> (const juce::Component &amp;relativeTo)</td></tr>
 <tr class="separator:a713d97b97f0bdaa5b1242e104026e837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ea42cb8bbba0630446cfa5a6303080c" id="r_a1ea42cb8bbba0630446cfa5a6303080c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1ea42cb8bbba0630446cfa5a6303080c">showTooltip</a> (const juce::Component &amp;relativeTo, const juce::Point&lt; int &gt; &amp;internalPosition)</td></tr>
@@ -444,6 +457,28 @@ Protected Member Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa1c8652f00e000a160bc62b0999a78d9a0352906d1ea1dfcd663c918f3a86755b" name="aa1c8652f00e000a160bc62b0999a78d9a0352906d1ea1dfcd663c918f3a86755b"></a>PLAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa1c8652f00e000a160bc62b0999a78d9a3b6e3be2dfacfb1d14722ea50147ac05" name="aa1c8652f00e000a160bc62b0999a78d9a3b6e3be2dfacfb1d14722ea50147ac05"></a>MULTI&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa1c8652f00e000a160bc62b0999a78d9a2a9e7eafdf243acb1757bdd9e14afacd" name="aa1c8652f00e000a160bc62b0999a78d9a2a9e7eafdf243acb1757bdd9e14afacd"></a>MIXER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a562ab118132a9d8e45c3065490ab008b" name="a562ab118132a9d8e45c3065490ab008b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562ab118132a9d8e45c3065490ab008b">&#9670;&#160;</a></span>TooltipPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008b">TooltipPosition</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a562ab118132a9d8e45c3065490ab008baaad01162f441b9162610e81352541694" name="a562ab118132a9d8e45c3065490ab008baaad01162f441b9162610e81352541694"></a>ABOVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a562ab118132a9d8e45c3065490ab008ba249f61b14032b08617e4b2446bace97e" name="a562ab118132a9d8e45c3065490ab008ba249f61b14032b08617e4b2446bace97e"></a>BELOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a562ab118132a9d8e45c3065490ab008badb45120aafd37a973140edee24708065" name="a562ab118132a9d8e45c3065490ab008badb45120aafd37a973140edee24708065"></a>LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a562ab118132a9d8e45c3065490ab008baec8379af7490bb9eaaf579cf17876f38" name="a562ab118132a9d8e45c3065490ab008baec8379af7490bb9eaaf579cf17876f38"></a>RIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a562ab118132a9d8e45c3065490ab008ba90980372094dd417d11b7c29f6c03c84" name="a562ab118132a9d8e45c3065490ab008ba90980372094dd417d11b7c29f6c03c84"></a>VCENTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a562ab118132a9d8e45c3065490ab008ba9395d6535fe3fe88769a9eb0b3a1850d" name="a562ab118132a9d8e45c3065490ab008ba9395d6535fe3fe88769a9eb0b3a1850d"></a>HCENTER&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1942,6 +1977,36 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af239dcb0ad3bb6e067ecc4b0003d6c9e" name="af239dcb0ad3bb6e067ecc4b0003d6c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af239dcb0ad3bb6e067ecc4b0003d6c9e">&#9670;&#160;</a></span>setTooltipPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setTooltipPosition </td>
+          <td>(</td>
+          <td class="paramtype">juce::Component &amp;&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tooltipPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app.html#af5c6250387d7d81a77d5427d8e89b481">scxt::ui::app::tooltipPositionPropertyName</a>.</p>
+
+</div>
+</div>
 <a id="a713d97b97f0bdaa5b1242e104026e837" name="a713d97b97f0bdaa5b1242e104026e837"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a713d97b97f0bdaa5b1242e104026e837">&#9670;&#160;</a></span>showTooltip() <span class="overload">[1/2]</span></h2>
 
@@ -1990,7 +2055,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app.html#af5c6250387d7d81a77d5427d8e89b481">scxt::ui::app::tooltipPositionPropertyName</a>.</p>
 
 </div>
 </div>
@@ -2020,7 +2085,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aadcc122539910fc7b665a46afb889798">SCXTEditor::toolTip</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app.html#af5c6250387d7d81a77d5427d8e89b481">scxt::ui::app::tooltipPositionPropertyName</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a278d9b27ae24a65205f4079608988d93">ZoneLayoutDisplay::updateTooltipContents()</a>.</p>
 
@@ -3479,7 +3544,7 @@ template&lt;typename A &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 10 2026 22:58:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Mar 11 2026 22:52:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

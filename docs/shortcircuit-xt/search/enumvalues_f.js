@@ -10,6 +10,7 @@ var searchData=
   ['resolve_5ftuned_5fpitch_7',['RESOLVE_TUNED_PITCH',['../structscxt_1_1engine_1_1Engine.html#ab1bb276938a2990feca1b21a38aea2a6ac4f83741d82ae4e0af2264c429b7ae06',1,'scxt::engine::Engine']]],
   ['reverb1_8',['reverb1',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e3e9456828447acd24ca9b2a0957412',1,'scxt::engine']]],
   ['reverb2_9',['reverb2',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a2db8425ceaee44c5cc8595d66fd33c0a',1,'scxt::engine']]],
-  ['rootkey_10',['RootKey',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8c72c82f024ad6af2e49918de816504fa6ec3983ee0a1b0b2e56df631751ac551',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
-  ['rotaryspeaker_11',['rotaryspeaker',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10',1,'scxt::engine']]]
+  ['right_10',['RIGHT',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008baec8379af7490bb9eaaf579cf17876f38',1,'scxt::ui::app::SCXTEditor']]],
+  ['rootkey_11',['RootKey',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8c72c82f024ad6af2e49918de816504fa6ec3983ee0a1b0b2e56df631751ac551',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
+  ['rotaryspeaker_12',['rotaryspeaker',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab5a5d0d93e2a10cc49e30799c3213c10',1,'scxt::engine']]]
 ];

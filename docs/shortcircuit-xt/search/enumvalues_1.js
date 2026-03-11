@@ -2,14 +2,15 @@ var searchData=
 [
   ['bd_5ff32_0',['BD_F32',['../structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa4a0eccf0f232047182ab12e9751a4bbb',1,'scxt::sample::Sample']]],
   ['bd_5fi16_1',['BD_I16',['../structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f',1,'scxt::sample::Sample']]],
-  ['bg_5f1_2',['bg_1',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a47c81afcaecd0c454f2831c675c306dc',1,'scxt::ui::theme::ColorMap']]],
-  ['bg_5f2_3',['bg_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9',1,'scxt::ui::theme::ColorMap']]],
-  ['bg_5f3_4',['bg_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf',1,'scxt::ui::theme::ColorMap']]],
-  ['bonsai_5',['bonsai',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3',1,'scxt::engine']]],
-  ['bool_5fneg_6',['BOOL_NEG',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a2376631779880674cf579e2338481c70',1,'scxt::modulation::modulators::RandomStorage']]],
-  ['bool_5fpos_7',['BOOL_POS',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a31bbf2244b683403b7e46ccc4d3476e6',1,'scxt::modulation::modulators::RandomStorage']]],
-  ['both_5fchanged_8',['BOTH_CHANGED',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a6153741f69289430233e63b1dcc87c0c',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
-  ['brightness_9',['BRIGHTNESS',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a3a8a0aeb55d2886191dee8a5e0d07cc9',1,'scxt::voice::Voice']]],
-  ['browserautopreviewenabled_10',['browserAutoPreviewEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4afc43963602ac63f719e0109c2f533576',1,'scxt::infrastructure']]],
-  ['browserpreviewamplitude_11',['browserPreviewAmplitude',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a01c973f9a6e10581872a3d6f1d436f5a',1,'scxt::infrastructure']]]
+  ['below_2',['BELOW',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008ba249f61b14032b08617e4b2446bace97e',1,'scxt::ui::app::SCXTEditor']]],
+  ['bg_5f1_3',['bg_1',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a47c81afcaecd0c454f2831c675c306dc',1,'scxt::ui::theme::ColorMap']]],
+  ['bg_5f2_4',['bg_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9',1,'scxt::ui::theme::ColorMap']]],
+  ['bg_5f3_5',['bg_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf',1,'scxt::ui::theme::ColorMap']]],
+  ['bonsai_6',['bonsai',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3',1,'scxt::engine']]],
+  ['bool_5fneg_7',['BOOL_NEG',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a2376631779880674cf579e2338481c70',1,'scxt::modulation::modulators::RandomStorage']]],
+  ['bool_5fpos_8',['BOOL_POS',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a31bbf2244b683403b7e46ccc4d3476e6',1,'scxt::modulation::modulators::RandomStorage']]],
+  ['both_5fchanged_9',['BOTH_CHANGED',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a6153741f69289430233e63b1dcc87c0c',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
+  ['brightness_10',['BRIGHTNESS',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a3a8a0aeb55d2886191dee8a5e0d07cc9',1,'scxt::voice::Voice']]],
+  ['browserautopreviewenabled_11',['browserAutoPreviewEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4afc43963602ac63f719e0109c2f533576',1,'scxt::infrastructure']]],
+  ['browserpreviewamplitude_12',['browserPreviewAmplitude',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a01c973f9a6e10581872a3d6f1d436f5a',1,'scxt::infrastructure']]]
 ];
