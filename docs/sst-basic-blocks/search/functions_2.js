@@ -9,6 +9,7 @@ var searchData=
   ['copytorawarray_6',['copyToRawArray',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#ae1efe7f76265a0fa88ff477f67d0328a',1,'sst::basic_blocks::simd::F32x4']]],
   ['correlated_5fnoise_5fo2mk2_5fsupplied_5fvalue_7',['correlated_noise_o2mk2_supplied_value',['../namespacesst_1_1basic__blocks_1_1dsp.html#ad431caeec17d8a36b30bb9921a312cae',1,'sst::basic_blocks::dsp']]],
   ['correlated_5fnoise_5fo2mk2_5fsuppliedrng_8',['correlated_noise_o2mk2_suppliedrng',['../namespacesst_1_1basic__blocks_1_1dsp.html#a3f60d46ce011d4d89d74d2c9f9c36e2a',1,'sst::basic_blocks::dsp']]],
-  ['csip_9',['csip',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#acd55b08c52e0a32d07cd8d7b8e800ed9',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
-  ['cubic_5fipol_10',['cubic_ipol',['../namespacesst_1_1basic__blocks_1_1dsp.html#aba363ecc65489af3901abcf0954c48fd',1,'sst::basic_blocks::dsp']]]
+  ['crossstagephasescale_9',['crossStagePhaseScale',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aadf611810df4e40b689c22245f1c25ac',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
+  ['csip_10',['csip',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#acd55b08c52e0a32d07cd8d7b8e800ed9',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
+  ['cubic_5fipol_11',['cubic_ipol',['../namespacesst_1_1basic__blocks_1_1dsp.html#aba363ecc65489af3901abcf0954c48fd',1,'sst::basic_blocks::dsp']]]
 ];
