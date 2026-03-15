@@ -98,6 +98,7 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structscxt_1_1modulation_1_1shared_1_1HasModulators-members.html">List of all members</a>  </div>
@@ -136,8 +137,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689" id="r_a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplParams" colspan="2">template&lt;typename Endpoints &gt; </td></tr>
 <tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">updateRetriggers</a> (Endpoints *endpoints)</td></tr>
 <tr class="separator:a51bf8c9799a19ae68e01ada2648ea689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a075d8a8005edd119500a722bd50cff65" id="r_a075d8a8005edd119500a722bd50cff65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a075d8a8005edd119500a722bd50cff65">getEnvSpecificGate</a> (bool keyGate, const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;adsr, ahdsrenv_t::Stage stage)</td></tr>
-<tr class="separator:a075d8a8005edd119500a722bd50cff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d6521f1ac6ce80ea18ba885b94c435" id="r_af4d6521f1ac6ce80ea18ba885b94c435"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#af4d6521f1ac6ce80ea18ba885b94c435">getEnvSpecificGate</a> (bool keyGate, const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;adsr, ahdsrenv_t::Stage stage, bool samplePlaying=false)</td></tr>
+<tr class="separator:af4d6521f1ac6ce80ea18ba885b94c435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab87a423636cf5f383510aaed10222bae" id="r_ab87a423636cf5f383510aaed10222bae"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ab87a423636cf5f383510aaed10222bae">evaluateGate</a> (bool keyGate, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1c">modulation::modulators::AdsrStorage::GateMode</a> mode, ahdsrenv_t::Stage stage, bool samplePlaying=false)</td></tr>
+<tr class="separator:ab87a423636cf5f383510aaed10222bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -339,8 +345,62 @@ template&lt;typename Endpoints &gt; </div>
 
 </div>
 </div>
-<a id="a075d8a8005edd119500a722bd50cff65" name="a075d8a8005edd119500a722bd50cff65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a075d8a8005edd119500a722bd50cff65">&#9670;&#160;</a></span>getEnvSpecificGate()</h2>
+<a id="ab87a423636cf5f383510aaed10222bae" name="ab87a423636cf5f383510aaed10222bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab87a423636cf5f383510aaed10222bae">&#9670;&#160;</a></span>evaluateGate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool evaluateGate </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>keyGate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1c">modulation::modulators::AdsrStorage::GateMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ahdsrenv_t::Stage&#160;</td>
+          <td class="paramname"><em>stage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>samplePlaying</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1ca51f9170b78227011c2eeb24f30b0622f">AdsrStorage::GATED</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cae875b67b322212bf81da51e697bc4450">AdsrStorage::ONESHOT</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cafa66ba442f073c071229dcb2dc9199d0">AdsrStorage::SAMPLE_GATED</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1caf39146b22588f4e75c00f4d1e43bf0a4">AdsrStorage::SEMI_GATED</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#af4d6521f1ac6ce80ea18ba885b94c435">HasModulators&lt; T, egsPerObject &gt;::getEnvSpecificGate()</a>.</p>
+
+</div>
+</div>
+<a id="af4d6521f1ac6ce80ea18ba885b94c435" name="af4d6521f1ac6ce80ea18ba885b94c435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4d6521f1ac6ce80ea18ba885b94c435">&#9670;&#160;</a></span>getEnvSpecificGate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +423,13 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ahdsrenv_t::Stage&#160;</td>
-          <td class="paramname"><em>stage</em>&#160;</td>
+          <td class="paramname"><em>stage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>samplePlaying</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -373,7 +439,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1ca51f9170b78227011c2eeb24f30b0622f">AdsrStorage::GATED</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cae875b67b322212bf81da51e697bc4450">AdsrStorage::ONESHOT</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1caf39146b22588f4e75c00f4d1e43bf0a4">AdsrStorage::SEMI_GATED</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ab87a423636cf5f383510aaed10222bae">HasModulators&lt; T, egsPerObject &gt;::evaluateGate()</a>.</p>
 
 </div>
 </div>
@@ -684,7 +750,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 14 2026 17:07:19 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Mar 15 2026 18:08:14 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
