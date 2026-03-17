@@ -12,7 +12,9 @@ var searchData=
   ['aiff_5fmarker_9',['aiff_marker',['../structscxt_1_1sample_1_1aiff__marker.html',1,'scxt::sample']]],
   ['akpcontext_10',['AKPContext',['../structscxt_1_1akai__support_1_1AKPContext.html',1,'scxt::akai_support']]],
   ['akpfile_11',['AKPFile',['../structscxt_1_1akai__support_1_1AKPFile.html',1,'scxt::akai_support']]],
-  ['audiothreadcallback_12',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
-  ['audiothreadprovider_13',['AudioThreadProvider',['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'scxt::clients::console_ui']]],
-  ['audiotoserialization_14',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
+  ['audiopane_12',['AudioPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html',1,'scxt::ui::app::edit_screen']]],
+  ['audiosourcestorage_13',['AudioSourceStorage',['../structscxt_1_1modulation_1_1AudioSourceStorage.html',1,'scxt::modulation']]],
+  ['audiothreadcallback_14',['AudioThreadCallback',['../structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html',1,'scxt::messaging::MessageController']]],
+  ['audiothreadprovider_15',['AudioThreadProvider',['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html',1,'scxt::clients::console_ui']]],
+  ['audiotoserialization_16',['AudioToSerialization',['../structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html',1,'scxt::messaging::audio']]]
 ];

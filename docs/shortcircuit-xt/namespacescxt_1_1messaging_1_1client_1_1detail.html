@@ -108,6 +108,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a42713074fb3a8d7a494d2ac7c569ee61" id="r_a42713074fb3a8d7a494d2ac7c569ee61"><td class="memTemplParams" colspan="2">template&lt;typename VT &gt; </td></tr>
 <tr class="memitem:a42713074fb3a8d7a494d2ac7c569ee61"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a> = std::tuple&lt; ptrdiff_t, VT &gt;</td></tr>
 <tr class="separator:a42713074fb3a8d7a494d2ac7c569ee61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3dbd1e7cb619206dd7bbd0c6f380503" id="r_ab3dbd1e7cb619206dd7bbd0c6f380503"><td class="memTemplParams" colspan="2">template&lt;typename VT &gt; </td></tr>
+<tr class="memitem:ab3dbd1e7cb619206dd7bbd0c6f380503"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab3dbd1e7cb619206dd7bbd0c6f380503">zoneOrGroupDiffMsg_t</a> = std::tuple&lt; bool, ptrdiff_t, VT &gt;</td></tr>
+<tr class="separator:ab3dbd1e7cb619206dd7bbd0c6f380503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a319a39a34f142344f6fa95862c1306d6" id="r_a319a39a34f142344f6fa95862c1306d6"><td class="memTemplParams" colspan="2">template&lt;typename VT &gt; </td></tr>
 <tr class="memitem:a319a39a34f142344f6fa95862c1306d6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a319a39a34f142344f6fa95862c1306d6">indexedDiffMsg_t</a> = std::tuple&lt; size_t, ptrdiff_t, VT &gt;</td></tr>
 <tr class="separator:a319a39a34f142344f6fa95862c1306d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +141,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a265ffd509429f01e900e525aab8afbfd" id="r_a265ffd509429f01e900e525aab8afbfd"><td class="memTemplParams" colspan="2">template&lt;typename VT , typename M &gt; </td></tr>
 <tr class="memitem:a265ffd509429f01e900e525aab8afbfd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">updateGroupMemberValue</a> (M m, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a>&lt; VT &gt; &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr)</td></tr>
 <tr class="separator:a265ffd509429f01e900e525aab8afbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c3f33f4de8655a4a7491fbc67e45ea" id="r_af5c3f33f4de8655a4a7491fbc67e45ea"><td class="memTemplParams" colspan="2">template&lt;typename VT , typename MZ , typename MG &gt; </td></tr>
+<tr class="memitem:af5c3f33f4de8655a4a7491fbc67e45ea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#af5c3f33f4de8655a4a7491fbc67e45ea">updateZoneOrGroupMemberValue</a> (MZ mz, MG mg, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab3dbd1e7cb619206dd7bbd0c6f380503">zoneOrGroupDiffMsg_t</a>&lt; VT &gt; &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr, std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt; onZoneEngineExtra=nullptr, std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt; onGroupEngineExtra=nullptr)</td></tr>
+<tr class="separator:af5c3f33f4de8655a4a7491fbc67e45ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a38471a9cd5d53be961d3b61c87b250" id="r_a1a38471a9cd5d53be961d3b61c87b250"><td class="memTemplParams" colspan="2">template&lt;typename VT , typename M &gt; </td></tr>
 <tr class="memitem:a1a38471a9cd5d53be961d3b61c87b250"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a1a38471a9cd5d53be961d3b61c87b250">updateZoneIndexedMemberValue</a> (M m, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a319a39a34f142344f6fa95862c1306d6">indexedDiffMsg_t</a>&lt; VT &gt; &amp;payload, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr, std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt; onEngineExtra=nullptr)</td></tr>
 <tr class="separator:a1a38471a9cd5d53be961d3b61c87b250"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +179,22 @@ template&lt;typename VT &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a> =  std::tuple&lt;ptrdiff_t, VT&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3dbd1e7cb619206dd7bbd0c6f380503" name="ab3dbd1e7cb619206dd7bbd0c6f380503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3dbd1e7cb619206dd7bbd0c6f380503">&#9670;&#160;</a></span>zoneOrGroupDiffMsg_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab3dbd1e7cb619206dd7bbd0c6f380503">zoneOrGroupDiffMsg_t</a> =  std::tuple&lt;bool, ptrdiff_t, VT&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -470,6 +492,8 @@ template&lt;typename VT , typename M &gt; </div>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">scxt::messaging::client::cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#af5c3f33f4de8655a4a7491fbc67e45ea">updateZoneOrGroupMemberValue()</a>.</p>
+
 </div>
 </div>
 <a id="a265ffd509429f01e900e525aab8afbfd" name="a265ffd509429f01e900e525aab8afbfd"></a>
@@ -519,6 +543,76 @@ template&lt;typename VT , typename M &gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">scxt::messaging::client::cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#af5c3f33f4de8655a4a7491fbc67e45ea">updateZoneOrGroupMemberValue()</a>.</p>
+
+</div>
+</div>
+<a id="af5c3f33f4de8655a4a7491fbc67e45ea" name="af5c3f33f4de8655a4a7491fbc67e45ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c3f33f4de8655a4a7491fbc67e45ea">&#9670;&#160;</a></span>updateZoneOrGroupMemberValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VT , typename MZ , typename MG &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateZoneOrGroupMemberValue </td>
+          <td>(</td>
+          <td class="paramtype">MZ&#160;</td>
+          <td class="paramname"><em>mz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MG&#160;</td>
+          <td class="paramname"><em>mg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab3dbd1e7cb619206dd7bbd0c6f380503">zoneOrGroupDiffMsg_t</a>&lt; VT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>engine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;&#160;</td>
+          <td class="paramname"><em>cont</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>responseCB</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>onZoneEngineExtra</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>onGroupEngineExtra</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">scxt::messaging::client::cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">scxt::messaging::client::engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd">updateGroupMemberValue()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306">updateZoneMemberValue()</a>.</p>
 
 </div>
 </div>
@@ -709,7 +803,7 @@ template&lt;typename VT , typename MZ , typename MG &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 17 2026 13:43:38 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 17 2026 23:49:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

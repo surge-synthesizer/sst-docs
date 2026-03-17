@@ -115,9 +115,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html">RandomStorage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvFollowerStorage.html">EnvFollowerStorage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">ModulatorStorage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1MiscSourceStorage.html">MiscSourceStorage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1AudioSourceStorage.html">AudioSourceStorage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -148,6 +152,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3f1e4c64608fdb6a72911e0920a23780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b255dfd1292f227e83091cf879d6a48" id="r_a2b255dfd1292f227e83091cf879d6a48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="modulator__storage_8h.html#a2b255dfd1292f227e83091cf879d6a48">asInt</a> () .<a class="el" href="zone_8h.html#af85e8a4186cf275d834c318739883f48">withLinearScaleFormatting</a>(&quot;&quot;) .withDefault(4) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Denominator&quot;) .withRange(1</td></tr>
 <tr class="separator:a2b255dfd1292f227e83091cf879d6a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa193aca29e0911cee62578e21d2fc13f" id="r_aa193aca29e0911cee62578e21d2fc13f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="modulator__storage_8h.html#aa193aca29e0911cee62578e21d2fc13f">SC_DESCRIBE</a> (<a class="el" href="structscxt_1_1modulation_1_1AudioSourceStorage.html">scxt::modulation::AudioSourceStorage</a>, <a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, attack, envFollowersPerGroupOrZone, pmd() .<a class="el" href="zone_8h.html#a2f0a363966f80876864a6ab010fb3fe0">asFloat</a>() .withRange(0.000001f,.1f) .withDefault(0.01f) .<a class="el" href="zone_8h.html#af85e8a4186cf275d834c318739883f48">withLinearScaleFormatting</a>(&quot;ms&quot;, 1000.f) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Attack&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, release, envFollowersPerGroupOrZone, pmd() .<a class="el" href="zone_8h.html#a2f0a363966f80876864a6ab010fb3fe0">asFloat</a>() .withRange(.01f,.5f) .withDefault(0.2f) .<a class="el" href="zone_8h.html#af85e8a4186cf275d834c318739883f48">withLinearScaleFormatting</a>(&quot;ms&quot;, 1000.f) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Release&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, gain, envFollowersPerGroupOrZone, pmd().<a class="el" href="zone_8h.html#a2f0a363966f80876864a6ab010fb3fe0">asFloat</a>().asDecibelWithRange(-36.f, 36.f).<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Gain&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, stereoLink, envFollowersPerGroupOrZone, pmd().asBool().withDefault(false).<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Stereo Link&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, followSource, envFollowersPerGroupOrZone, pmd() .<a class="el" href="zone_8h.html#a7cd79e0f6c3b8e17bc90b1d4bd3a36da">asInt</a>() .withUnorderedMapFormatting({{modulation::modulators::EnvFollowerStorage::PRE_PROC, &quot;Pre-procs&quot;}, {modulation::modulators::EnvFollowerStorage::POST_PROC, &quot;Post-procs&quot;}}) .withDefault(modulation::modulators::EnvFollowerStorage::PRE_PROC) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Source&quot;);))</td></tr>
+<tr class="separator:aa193aca29e0911cee62578e21d2fc13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a214c3e8419135d54d1d1553fec32b794" name="a214c3e8419135d54d1d1553fec32b794"></a>
@@ -187,7 +193,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ace89dcf8f1bd2940e4e38b1631f30999" name="ace89dcf8f1bd2940e4e38b1631f30999"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace89dcf8f1bd2940e4e38b1631f30999">&#9670;&#160;</a></span>SC_DESCRIBE() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ace89dcf8f1bd2940e4e38b1631f30999">&#9670;&#160;</a></span>SC_DESCRIBE() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,7 +223,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3f1e4c64608fdb6a72911e0920a23780" name="a3f1e4c64608fdb6a72911e0920a23780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f1e4c64608fdb6a72911e0920a23780">&#9670;&#160;</a></span>SC_DESCRIBE() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f1e4c64608fdb6a72911e0920a23780">&#9670;&#160;</a></span>SC_DESCRIBE() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,10 +267,38 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa193aca29e0911cee62578e21d2fc13f" name="aa193aca29e0911cee62578e21d2fc13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa193aca29e0911cee62578e21d2fc13f">&#9670;&#160;</a></span>SC_DESCRIBE() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SC_DESCRIBE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1AudioSourceStorage.html">scxt::modulation::AudioSourceStorage</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, attack, envFollowersPerGroupOrZone, pmd() .<a class="el" href="zone_8h.html#a2f0a363966f80876864a6ab010fb3fe0">asFloat</a>() .withRange(0.000001f,.1f) .withDefault(0.01f) .<a class="el" href="zone_8h.html#af85e8a4186cf275d834c318739883f48">withLinearScaleFormatting</a>(&quot;ms&quot;, 1000.f) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Attack&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, release, envFollowersPerGroupOrZone, pmd() .<a class="el" href="zone_8h.html#a2f0a363966f80876864a6ab010fb3fe0">asFloat</a>() .withRange(.01f,.5f) .withDefault(0.2f) .<a class="el" href="zone_8h.html#af85e8a4186cf275d834c318739883f48">withLinearScaleFormatting</a>(&quot;ms&quot;, 1000.f) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Release&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, gain, envFollowersPerGroupOrZone, pmd().<a class="el" href="zone_8h.html#a2f0a363966f80876864a6ab010fb3fe0">asFloat</a>().asDecibelWithRange(-36.f, 36.f).<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Gain&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, stereoLink, envFollowersPerGroupOrZone, pmd().asBool().withDefault(false).<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Stereo Link&quot;));<a class="el" href="metadata__detail_8h.html#a7e649d18286f08d8df2d8d09c3c0674d">SC_FIELD_ARRAY_MEMBER</a>(followers, followSource, envFollowersPerGroupOrZone, pmd() .<a class="el" href="zone_8h.html#a7cd79e0f6c3b8e17bc90b1d4bd3a36da">asInt</a>() .withUnorderedMapFormatting({{modulation::modulators::EnvFollowerStorage::PRE_PROC, &quot;Pre-procs&quot;}, {modulation::modulators::EnvFollowerStorage::POST_PROC, &quot;Post-procs&quot;}}) .withDefault(modulation::modulators::EnvFollowerStorage::PRE_PROC) .<a class="el" href="zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2">withName</a>(&quot;Source&quot;);)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 17 2026 13:43:38 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 17 2026 23:49:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

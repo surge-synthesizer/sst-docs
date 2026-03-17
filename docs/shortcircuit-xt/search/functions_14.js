@@ -16,7 +16,7 @@ var searchData=
   ['updatefromeditordata_13',['updateFromEditorData',['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#a93ce6459324d62b8843e92a50f120ff6',1,'scxt::ui::app::shared::SingleMacroEditor']]],
   ['updatefromoutputinfo_14',['updateFromOutputInfo',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aadb80bb5926f01706e0e3a66888ff043',1,'scxt::ui::app::edit_screen::RoutingPane']]],
   ['updatefromprocessorpanes_15',['updatefromprocessorpanes',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#a4ce0c89571c898f9b20a4bb358a601f7',1,'scxt::ui::app::edit_screen::RoutingPaneContents::updateFromProcessorPanes()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a4ce0c89571c898f9b20a4bb358a601f7',1,'scxt::ui::app::edit_screen::RoutingPane::updateFromProcessorPanes()']]],
-  ['updatefromvalues_16',['updateFromValues',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::MiscPanel']]],
+  ['updatefromvalues_16',['updatefromvalues',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::MiscPanel::updateFromValues()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::AudioPane::updateFromValues()']]],
   ['updateglide_17',['updateGlide',['../structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25',1,'scxt::voice::Voice']]],
   ['updategroupindexedmembervalue_18',['updateGroupIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a097069772dc2fc2c85d97f7af71f0878',1,'scxt::messaging::client::detail']]],
   ['updategroupmembervalue_19',['updateGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a265ffd509429f01e900e525aab8afbfd',1,'scxt::messaging::client::detail']]],
@@ -42,6 +42,7 @@ var searchData=
   ['updatezoneleadmembervalue_39',['updateZoneLeadMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ad10dee82fb205cbe569e0e2a10eea8dc',1,'scxt::messaging::client::detail']]],
   ['updatezonemembervalue_40',['updateZoneMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#aa75a64a5586ed230b3d326fc0b674306',1,'scxt::messaging::client::detail']]],
   ['updatezoneorgroupindexedmembervalue_41',['updateZoneOrGroupIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a6f22d40ecb26cdb6b8e313d85f573c13',1,'scxt::messaging::client::detail']]],
-  ['uponelevel_42',['upOneLevel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#aa796bc0c1e998a616ef9ad0fc6718cc0',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
-  ['usesoutputbus_43',['usesOutputBus',['../structscxt_1_1engine_1_1Patch.html#a3593acfa183792579850360902d994c5',1,'scxt::engine::Patch']]]
+  ['updatezoneorgroupmembervalue_42',['updateZoneOrGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#af5c3f33f4de8655a4a7491fbc67e45ea',1,'scxt::messaging::client::detail']]],
+  ['uponelevel_43',['upOneLevel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#aa796bc0c1e998a616ef9ad0fc6718cc0',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
+  ['usesoutputbus_44',['usesOutputBus',['../structscxt_1_1engine_1_1Patch.html#a3593acfa183792579850360902d994c5',1,'scxt::engine::Patch']]]
 ];
