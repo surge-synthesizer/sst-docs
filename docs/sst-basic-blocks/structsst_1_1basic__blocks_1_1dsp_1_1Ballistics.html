@@ -118,8 +118,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16e104ceaed3dc80a5b0a1881bca195f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82e5faa4eaa3be594a736eaf9383f5fd" id="r_a82e5faa4eaa3be594a736eaf9383f5fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a82e5faa4eaa3be594a736eaf9383f5fd">set_release</a> (float time_seconds)</td></tr>
 <tr class="separator:a82e5faa4eaa3be594a736eaf9383f5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6401d87da5a35f7bdab3d7c6a439e3e7" id="r_a6401d87da5a35f7bdab3d7c6a439e3e7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a6401d87da5a35f7bdab3d7c6a439e3e7">process</a> (float abs_x)</td></tr>
-<tr class="separator:a6401d87da5a35f7bdab3d7c6a439e3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711bf63e583e08d554beabf2c6737dfb" id="r_a711bf63e583e08d554beabf2c6737dfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a711bf63e583e08d554beabf2c6737dfb">process_sample</a> (float abs_x, float &amp;res)</td></tr>
+<tr class="separator:a711bf63e583e08d554beabf2c6737dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a9f406d45e82dae00a4d1d16c00f8d8" id="r_a1a9f406d45e82dae00a4d1d16c00f8d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a1a9f406d45e82dae00a4d1d16c00f8d8">process_sample</a> (float abs_xL, float abs_xR, float &amp;resL, float &amp;resR)</td></tr>
+<tr class="separator:a1a9f406d45e82dae00a4d1d16c00f8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -129,8 +131,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a86f937b1aa6413c4eb25d691aa3ba3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb2b08a728f71dd2c175091da044fcc8" id="r_adb2b08a728f71dd2c175091da044fcc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#adb2b08a728f71dd2c175091da044fcc8">negSampleRateInv</a> {0.f}</td></tr>
 <tr class="separator:adb2b08a728f71dd2c175091da044fcc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af73583b1e980b0aa03f9884812e9fd4d" id="r_af73583b1e980b0aa03f9884812e9fd4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#af73583b1e980b0aa03f9884812e9fd4d">z</a> {0.f}</td></tr>
-<tr class="separator:af73583b1e980b0aa03f9884812e9fd4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1d7868040ed66b2dfeae7f64bdf7af" id="r_a7c1d7868040ed66b2dfeae7f64bdf7af"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a7c1d7868040ed66b2dfeae7f64bdf7af">zL</a> {0.f}</td></tr>
+<tr class="separator:a7c1d7868040ed66b2dfeae7f64bdf7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa915510537a91b561f62ae75a0cfed25" id="r_aa915510537a91b561f62ae75a0cfed25"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#aa915510537a91b561f62ae75a0cfed25">zR</a> {0.f}</td></tr>
+<tr class="separator:aa915510537a91b561f62ae75a0cfed25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a42129be1b735a6ed039500d885a4a35d" name="a42129be1b735a6ed039500d885a4a35d"></a>
@@ -193,23 +197,75 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6401d87da5a35f7bdab3d7c6a439e3e7" name="a6401d87da5a35f7bdab3d7c6a439e3e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6401d87da5a35f7bdab3d7c6a439e3e7">&#9670;&#160;</a></span>process()</h2>
+<a id="a711bf63e583e08d554beabf2c6737dfb" name="a711bf63e583e08d554beabf2c6737dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a711bf63e583e08d554beabf2c6737dfb">&#9670;&#160;</a></span>process_sample() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float process </td>
+          <td class="memname">void process_sample </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>abs_x</em></td><td>)</td>
+          <td class="paramname"><em>abs_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a7781990eedc9c3a5adc868a456f61464">Ballistics::attack_coeffs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics_1_1BallisticCoeffs.html#aae36fc890ea9532f56273eb4ff3d8fc3">Ballistics::BallisticCoeffs::b0</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a86f937b1aa6413c4eb25d691aa3ba3db">Ballistics::release_coeffs</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#af73583b1e980b0aa03f9884812e9fd4d">Ballistics::z</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a7781990eedc9c3a5adc868a456f61464">Ballistics::attack_coeffs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics_1_1BallisticCoeffs.html#aae36fc890ea9532f56273eb4ff3d8fc3">Ballistics::BallisticCoeffs::b0</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a86f937b1aa6413c4eb25d691aa3ba3db">Ballistics::release_coeffs</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a7c1d7868040ed66b2dfeae7f64bdf7af">Ballistics::zL</a>.</p>
+
+</div>
+</div>
+<a id="a1a9f406d45e82dae00a4d1d16c00f8d8" name="a1a9f406d45e82dae00a4d1d16c00f8d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a9f406d45e82dae00a4d1d16c00f8d8">&#9670;&#160;</a></span>process_sample() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void process_sample </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>abs_xL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>abs_xR</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>resL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>resR</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a7781990eedc9c3a5adc868a456f61464">Ballistics::attack_coeffs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics_1_1BallisticCoeffs.html#aae36fc890ea9532f56273eb4ff3d8fc3">Ballistics::BallisticCoeffs::b0</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a86f937b1aa6413c4eb25d691aa3ba3db">Ballistics::release_coeffs</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a7c1d7868040ed66b2dfeae7f64bdf7af">Ballistics::zL</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#aa915510537a91b561f62ae75a0cfed25">Ballistics::zR</a>.</p>
 
 </div>
 </div>
@@ -226,7 +282,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a6401d87da5a35f7bdab3d7c6a439e3e7">Ballistics::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a16e104ceaed3dc80a5b0a1881bca195f">Ballistics::set_attack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a711bf63e583e08d554beabf2c6737dfb">Ballistics::process_sample()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a1a9f406d45e82dae00a4d1d16c00f8d8">Ballistics::process_sample()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a16e104ceaed3dc80a5b0a1881bca195f">Ballistics::set_attack()</a>.</p>
 
 </div>
 </div>
@@ -242,7 +298,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a6401d87da5a35f7bdab3d7c6a439e3e7">Ballistics::process()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a82e5faa4eaa3be594a736eaf9383f5fd">Ballistics::set_release()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a711bf63e583e08d554beabf2c6737dfb">Ballistics::process_sample()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a1a9f406d45e82dae00a4d1d16c00f8d8">Ballistics::process_sample()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a82e5faa4eaa3be594a736eaf9383f5fd">Ballistics::set_release()</a>.</p>
 
 </div>
 </div>
@@ -262,19 +318,35 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af73583b1e980b0aa03f9884812e9fd4d" name="af73583b1e980b0aa03f9884812e9fd4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af73583b1e980b0aa03f9884812e9fd4d">&#9670;&#160;</a></span>z</h2>
+<a id="a7c1d7868040ed66b2dfeae7f64bdf7af" name="a7c1d7868040ed66b2dfeae7f64bdf7af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c1d7868040ed66b2dfeae7f64bdf7af">&#9670;&#160;</a></span>zL</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float z {0.f}</td>
+          <td class="memname">float zL {0.f}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a6401d87da5a35f7bdab3d7c6a439e3e7">Ballistics::process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a711bf63e583e08d554beabf2c6737dfb">Ballistics::process_sample()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a1a9f406d45e82dae00a4d1d16c00f8d8">Ballistics::process_sample()</a>.</p>
+
+</div>
+</div>
+<a id="aa915510537a91b561f62ae75a0cfed25" name="aa915510537a91b561f62ae75a0cfed25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa915510537a91b561f62ae75a0cfed25">&#9670;&#160;</a></span>zR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float zR {0.f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1Ballistics.html#a1a9f406d45e82dae00a4d1d16c00f8d8">Ballistics::process_sample()</a>.</p>
 
 </div>
 </div>
@@ -284,7 +356,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 15 2026 19:54:04 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 17 2026 22:31:15 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
