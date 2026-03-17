@@ -170,6 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2bcdcb9ff388997d0a61a5db00dae672" id="r_a2bcdcb9ff388997d0a61a5db00dae672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a2bcdcb9ff388997d0a61a5db00dae672">sendAudioToSerialization</a> (const <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a72fc37c0a93198d703acfc8783ff486e">audioToSerializationMessage_t</a> &amp;m)</td></tr>
 <tr class="memdesc:a2bcdcb9ff388997d0a61a5db00dae672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to the serialization thread from the audio thread.  <br /></td></tr>
 <tr class="separator:a2bcdcb9ff388997d0a61a5db00dae672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d704d6cc29afb4cc745922487a17261" id="r_a3d704d6cc29afb4cc745922487a17261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a3d704d6cc29afb4cc745922487a17261">sendItemForDeletion</a> (void *ptr, decltype(<a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1ToBeDeleted.html#ac201abb7d41f8603e72f7ef88a22c7d0">audio::AudioToSerialization::ToBeDeleted::type</a>) delType)</td></tr>
+<tr class="memdesc:a3d704d6cc29afb4cc745922487a17261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to schedule deletion of an engine object from the audio thread.  <br /></td></tr>
+<tr class="separator:a3d704d6cc29afb4cc745922487a17261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd3e8f2c8b28e67174cd520f1f11685d" id="r_abd3e8f2c8b28e67174cd520f1f11685d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#abd3e8f2c8b28e67174cd520f1f11685d">sendSerializationToAudio</a> (const <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a0b795d7ab21b36c987e8ce79cb4e903f">serializationToAudioMessage_t</a> &amp;m)</td></tr>
 <tr class="memdesc:abd3e8f2c8b28e67174cd520f1f11685d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message from the serialization thread to the audio thread.  <br /></td></tr>
 <tr class="separator:abd3e8f2c8b28e67174cd520f1f11685d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -605,7 +608,40 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#a9b42ad7012b3b30e6947a97f8112e4f1">scxt::messaging::audio::sendStructureRefresh()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a3d704d6cc29afb4cc745922487a17261">MessageController::sendItemForDeletion()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#a9b42ad7012b3b30e6947a97f8112e4f1">scxt::messaging::audio::sendStructureRefresh()</a>.</p>
+
+</div>
+</div>
+<a id="a3d704d6cc29afb4cc745922487a17261" name="a3d704d6cc29afb4cc745922487a17261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d704d6cc29afb4cc745922487a17261">&#9670;&#160;</a></span>sendItemForDeletion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sendItemForDeletion </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decltype(<a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1ToBeDeleted.html#ac201abb7d41f8603e72f7ef88a22c7d0">audio::AudioToSerialization::ToBeDeleted::type</a>)&#160;</td>
+          <td class="paramname"><em>delType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper to schedule deletion of an engine object from the audio thread. </p>
+<p>Call from within an audio thread callback. </p>
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea9d1f082dc69ddbe20757f3f74ce31380">scxt::messaging::audio::a2s_delete_this_pointer</a>, <a class="el" href="unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#a6f0269de02b857ee91d3b624de40247b">AudioToSerialization::Payload::delThis</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#aa7c0e8c9cc04c5f1945436c389d963ab">AudioToSerialization::id</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a54d050ac7d728e18a89898aeb024ef49">AudioToSerialization::payload</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1ToBeDeleted.html#add9af9569af79ec26dd741fb226b38ba">AudioToSerialization::ToBeDeleted::ptr</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a2bcdcb9ff388997d0a61a5db00dae672">MessageController::sendAudioToSerialization()</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989a7f3f0f3a8f060ae65e3bfb1768a94da4">AudioToSerialization::TO_BE_DELETED</a>, and <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1ToBeDeleted.html#ac201abb7d41f8603e72f7ef88a22c7d0">AudioToSerialization::ToBeDeleted::type</a>.</p>
 
 </div>
 </div>
@@ -1144,7 +1180,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 15 2026 20:11:48 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 17 2026 13:43:38 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
