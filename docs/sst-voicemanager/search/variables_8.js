@@ -6,6 +6,6 @@ var searchData=
   ['mostrecenttransactionid_3',['mostRecentTransactionID',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ab4d8ae784c1c89485a17db36b0817f42',1,'sst::voicemanager::VoiceManager::Details']]],
   ['mostrecentvoicecounter_4',['mostRecentVoiceCounter',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6d1232dad79432c8a7a3345d64d04e66',1,'sst::voicemanager::VoiceManager::Details']]],
   ['mpeglobalchannel_5',['mpeGlobalChannel',['../structsst_1_1voicemanager_1_1VoiceManager.html#acef42213bbebd88480837b7691966343',1,'sst::voicemanager::VoiceManager']]],
-  ['mpetimbrecc_6',['mpeTimbreCC',['../structsst_1_1voicemanager_1_1VoiceManager.html#a5f0faa6736a61c2f793e6e89d794a314',1,'sst::voicemanager::VoiceManager']]],
+  ['mpetimbrecc_6',['mpeTimbreCC',['../structsst_1_1voicemanager_1_1VoiceManager.html#a1f3961a040547cb54a67c8618c443d24',1,'sst::voicemanager::VoiceManager']]],
   ['multi_5fvoice_7',['MULTI_VOICE',['../structsst_1_1voicemanager_1_1VoiceManager.html#acc8b7ad0b5e01381b849b5641e3cb41b',1,'sst::voicemanager::VoiceManager']]]
 ];

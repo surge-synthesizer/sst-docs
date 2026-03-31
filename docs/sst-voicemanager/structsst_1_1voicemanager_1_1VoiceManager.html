@@ -99,6 +99,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structsst_1_1voicemanager_1_1VoiceManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VoiceManager&lt; Cfg, Responder, MonoResponder &gt; Struct Template Reference</div></div>
 </div><!--header-->
@@ -206,14 +207,17 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acc8b7ad0b5e01381b849b5641e3cb41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acef42213bbebd88480837b7691966343" id="r_acef42213bbebd88480837b7691966343"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#acef42213bbebd88480837b7691966343">mpeGlobalChannel</a> {0}</td></tr>
 <tr class="separator:acef42213bbebd88480837b7691966343"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f0faa6736a61c2f793e6e89d794a314" id="r_a5f0faa6736a61c2f793e6e89d794a314"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a5f0faa6736a61c2f793e6e89d794a314">mpeTimbreCC</a> {74}</td></tr>
-<tr class="separator:a5f0faa6736a61c2f793e6e89d794a314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f95855e1cc27deb8cd9aa6893c3b6c3" id="r_a0f95855e1cc27deb8cd9aa6893c3b6c3"><td class="memItemLeft" align="right" valign="top">Responder &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a0f95855e1cc27deb8cd9aa6893c3b6c3">responder</a></td></tr>
 <tr class="separator:a0f95855e1cc27deb8cd9aa6893c3b6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada1becd89312e040e088a2065b7366d2" id="r_ada1becd89312e040e088a2065b7366d2"><td class="memItemLeft" align="right" valign="top">MonoResponder &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#ada1becd89312e040e088a2065b7366d2">monoResponder</a></td></tr>
 <tr class="separator:ada1becd89312e040e088a2065b7366d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af890754d9ccadda07a60c2982200cb2c" id="r_af890754d9ccadda07a60c2982200cb2c"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::array&lt; bool, 16 &gt;, 128 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af890754d9ccadda07a60c2982200cb2c">heldMIDIKeyByChannel</a></td></tr>
-<tr class="separator:af890754d9ccadda07a60c2982200cb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1bf6fd2f240da8744305adb72d3be4" id="r_aaf1bf6fd2f240da8744305adb72d3be4"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::array&lt; bool, 128 &gt;, 16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#aaf1bf6fd2f240da8744305adb72d3be4">heldMIDIKeyByChannel</a></td></tr>
+<tr class="separator:aaf1bf6fd2f240da8744305adb72d3be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a1f3961a040547cb54a67c8618c443d24" id="r_a1f3961a040547cb54a67c8618c443d24"><td class="memItemLeft" align="right" valign="top">static constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a1f3961a040547cb54a67c8618c443d24">mpeTimbreCC</a> {74}</td></tr>
+<tr class="separator:a1f3961a040547cb54a67c8618c443d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Cfg, typename Responder, typename MonoResponder&gt;<br />
@@ -446,7 +450,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af890754d9ccadda07a60c2982200cb2c">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::heldMIDIKeyByChannel</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af8604a1373be862db876c118cc81cdf0">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::registerVoiceEndCallback()</a>, and <a class="el" href="structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#ab903ee36e905e9e98d113e080ac5d672">ConstraintsChecker&lt; Cfg, Responder, MonoResponder &gt;::satisfies()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#aaf1bf6fd2f240da8744305adb72d3be4">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::heldMIDIKeyByChannel</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af8604a1373be862db876c118cc81cdf0">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::registerVoiceEndCallback()</a>, and <a class="el" href="structsst_1_1voicemanager_1_1constraints_1_1ConstraintsChecker.html#ab903ee36e905e9e98d113e080ac5d672">ConstraintsChecker&lt; Cfg, Responder, MonoResponder &gt;::satisfies()</a>.</p>
 
 </div>
 </div>
@@ -1193,18 +1197,26 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
-<a id="a5f0faa6736a61c2f793e6e89d794a314" name="a5f0faa6736a61c2f793e6e89d794a314"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f0faa6736a61c2f793e6e89d794a314">&#9670;&#160;</a></span>mpeTimbreCC</h2>
+<a id="a1f3961a040547cb54a67c8618c443d24" name="a1f3961a040547cb54a67c8618c443d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f3961a040547cb54a67c8618c443d24">&#9670;&#160;</a></span>mpeTimbreCC</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int8_t mpeTimbreCC {74}</td>
+          <td class="memname">constexpr int8_t mpeTimbreCC {74}</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1245,8 +1257,8 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
-<a id="af890754d9ccadda07a60c2982200cb2c" name="af890754d9ccadda07a60c2982200cb2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af890754d9ccadda07a60c2982200cb2c">&#9670;&#160;</a></span>heldMIDIKeyByChannel</h2>
+<a id="aaf1bf6fd2f240da8744305adb72d3be4" name="aaf1bf6fd2f240da8744305adb72d3be4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf1bf6fd2f240da8744305adb72d3be4">&#9670;&#160;</a></span>heldMIDIKeyByChannel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1254,7 +1266,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;std::array&lt;bool, 16&gt;, 128&gt; heldMIDIKeyByChannel</td>
+          <td class="memname">std::array&lt;std::array&lt;bool, 128&gt;, 16&gt; heldMIDIKeyByChannel</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1270,7 +1282,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 31 2026 15:43:36 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 31 2026 21:20:49 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
