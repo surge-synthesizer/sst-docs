@@ -161,6 +161,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6f4064547a5707709774a506f44c0548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5119895a722c03170323df5ed090a9c" id="r_ab5119895a722c03170323df5ed090a9c"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ab5119895a722c03170323df5ed090a9c">stealingPriorityMode</a> {}</td></tr>
 <tr class="separator:ab5119895a722c03170323df5ed090a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322a05280959a0dcdb3f0e8dc0e12721" id="r_a322a05280959a0dcdb3f0e8dc0e12721"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a54760f344ea12f29a7bdbb1ec80553f4">MonoPriorityMode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a322a05280959a0dcdb3f0e8dc0e12721">monoPriorityMode</a> {}</td></tr>
+<tr class="separator:a322a05280959a0dcdb3f0e8dc0e12721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1feaa7fde3dfe3639c87501c770c7106" id="r_a1feaa7fde3dfe3639c87501c770c7106"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a1feaa7fde3dfe3639c87501c770c7106">playMode</a> {}</td></tr>
 <tr class="separator:a1feaa7fde3dfe3639c87501c770c7106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7dabb149b581c504ede0ac4a3348f5a" id="r_af7dabb149b581c504ede0ac4a3348f5a"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#af7dabb149b581c504ede0ac4a3348f5a">playModeFeatures</a> {}</td></tr>
@@ -257,7 +259,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::NONE</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60affec199ac034a0999ccfcb7f0325c8a3">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::OLDEST</a>, and <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ad067247cfabc0d4f5b62e6f24bf2b43a">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::POLY_VOICES</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a54760f344ea12f29a7bdbb1ec80553f4a402c00b13906631809870b721330e84c">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::LATEST</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::NONE</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60affec199ac034a0999ccfcb7f0325c8a3">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::OLDEST</a>, and <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ad067247cfabc0d4f5b62e6f24bf2b43a">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::POLY_VOICES</a>.</p>
 
 </div>
 </div>
@@ -694,6 +696,22 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
+<a id="a322a05280959a0dcdb3f0e8dc0e12721" name="a322a05280959a0dcdb3f0e8dc0e12721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a322a05280959a0dcdb3f0e8dc0e12721">&#9670;&#160;</a></span>monoPriorityMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a54760f344ea12f29a7bdbb1ec80553f4">MonoPriorityMode</a>&gt; monoPriorityMode {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1feaa7fde3dfe3639c87501c770c7106" name="a1feaa7fde3dfe3639c87501c770c7106"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1feaa7fde3dfe3639c87501c770c7106">&#9670;&#160;</a></span>playMode</h2>
 
@@ -860,7 +878,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 31 2026 21:20:49 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Mar 31 2026 23:07:02 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
