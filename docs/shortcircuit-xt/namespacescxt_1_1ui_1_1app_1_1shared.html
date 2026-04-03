@@ -109,6 +109,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html">HeaderRegion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html">InstrumentPrompt</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1MacroValueAttachment.html">MacroValueAttachment</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1MenuValueTypein.html">MenuValueTypein</a></td></tr>
@@ -127,6 +129,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PresetReceiverAdapter.html">PresetReceiverAdapter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html">SampleDropSource</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html">SingleMacroEditor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1spData.html">spData</a></td></tr>
@@ -134,6 +138,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ad781c424a8b7b79fb7aa8380361cd795" id="r_ad781c424a8b7b79fb7aa8380361cd795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#ad781c424a8b7b79fb7aa8380361cd795">promptForMultiInstrument</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *editor, const std::vector&lt; <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &gt; &amp;inst, std::function&lt; void(const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &amp;)&gt; onSelected)</td></tr>
+<tr class="separator:ad781c424a8b7b79fb7aa8380361cd795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a170cd1eabba6af9a7c70be1a80075a18" id="r_a170cd1eabba6af9a7c70be1a80075a18"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a170cd1eabba6af9a7c70be1a80075a18"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18">doSaveMulti</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fileChooser, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">patch_io::SaveStyles</a> style)</td></tr>
 <tr class="separator:a170cd1eabba6af9a7c70be1a80075a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +152,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a119a7a4adac34187ec0970c74867bcb9" id="r_a119a7a4adac34187ec0970c74867bcb9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a119a7a4adac34187ec0970c74867bcb9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a119a7a4adac34187ec0970c74867bcb9">doLoadPartInto</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fileChooser, int part)</td></tr>
 <tr class="separator:a119a7a4adac34187ec0970c74867bcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a2739d141f4415484e20caf4764d2e" id="r_a36a2739d141f4415484e20caf4764d2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a36a2739d141f4415484e20caf4764d2e">executeBatchDropOnPart</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html">browser_ui::WithSampleInfo</a> *wsi, int targetPart, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a> *editor)</td></tr>
+<tr class="separator:a36a2739d141f4415484e20caf4764d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667d6edcd2c0604ede3e1bba6a6ff281" id="r_a667d6edcd2c0604ede3e1bba6a6ff281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a667d6edcd2c0604ede3e1bba6a6ff281">executeBatchDropOnGroup</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html">browser_ui::WithSampleInfo</a> *wsi, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a> *editor)</td></tr>
+<tr class="separator:a667d6edcd2c0604ede3e1bba6a6ff281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c1e6df706d26fa969137ce3fd43a13a" id="r_a4c1e6df706d26fa969137ce3fd43a13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a4c1e6df706d26fa969137ce3fd43a13a">executeBatchDropOnGroup</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html">browser_ui::WithSampleInfo</a> *wsi, int part, int group, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a> *editor)</td></tr>
+<tr class="separator:a4c1e6df706d26fa969137ce3fd43a13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405af9cfb769cdb2565027c3010ce00a" id="r_a405af9cfb769cdb2565027c3010ce00a"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a405af9cfb769cdb2565027c3010ce00a">juceStringToFSPath</a> (const juce::String &amp;fullPathName)</td></tr>
 <tr class="separator:a405af9cfb769cdb2565027c3010ce00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc5181bc32712831b347f466796a3880" id="r_acc5181bc32712831b347f466796a3880"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath</a> (const juce::File &amp;f)</td></tr>
@@ -162,6 +174,44 @@ Functions</h2></td></tr>
 <tr class="separator:a00a2cb3d64a16227456ebbe51d6ed219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ad781c424a8b7b79fb7aa8380361cd795" name="ad781c424a8b7b79fb7aa8380361cd795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad781c424a8b7b79fb7aa8380361cd795">&#9670;&#160;</a></span>promptForMultiInstrument()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void promptForMultiInstrument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *&#160;</td>
+          <td class="paramname"><em>editor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>onSelected</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a43fe41d677a286de535c25e87eaf5b6b">SCXTEditor::displayError()</a>, and <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html#a532fdb47187a0d41d4d837074705c18aaf3ff67fee2b9111b01f3533e31b86fc0">CompoundElement::ERROR_SENTINEL</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html#a93cd135f95cdad7b35cff2864732006a">SampleDropSource::dropOnPart()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a225439355d5960569cda3c49c8a30386">MappingDisplay::promptForMultiInstrument()</a>.</p>
+
+</div>
+</div>
 <a id="a170cd1eabba6af9a7c70be1a80075a18" name="a170cd1eabba6af9a7c70be1a80075a18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a170cd1eabba6af9a7c70be1a80075a18">&#9670;&#160;</a></span>doSaveMulti()</h2>
 
@@ -319,6 +369,118 @@ template&lt;typename T &gt; </div>
 <p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#af9c3e1edf1cef9777c68d969576954ff">HeaderRegion::doLoadIntoSelectedPart()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ad038cb3a783bfa091ac270ac8a1f8c8d">PartSidebarCard::showPartIOMenu()</a>.</p>
+
+</div>
+</div>
+<a id="a36a2739d141f4415484e20caf4764d2e" name="a36a2739d141f4415484e20caf4764d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a2739d141f4415484e20caf4764d2e">&#9670;&#160;</a></span>executeBatchDropOnPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void executeBatchDropOnPart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html">browser_ui::WithSampleInfo</a> *&#160;</td>
+          <td class="paramname"><em>wsi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>targetPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a> *&#160;</td>
+          <td class="paramname"><em>editor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#afb5c1a6e880db00a3977a21f4c51e4ea">WithSampleInfo::encompassesMultipleSampleInfos()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a36a2739d141f4415484e20caf4764d2e">executeBatchDropOnPart()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#a7e3c1c277f86c508680ff37ab2c2a3c8">WithSampleInfo::getMultipleSampleInfos()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a36a2739d141f4415484e20caf4764d2e">executeBatchDropOnPart()</a>.</p>
+
+</div>
+</div>
+<a id="a667d6edcd2c0604ede3e1bba6a6ff281" name="a667d6edcd2c0604ede3e1bba6a6ff281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667d6edcd2c0604ede3e1bba6a6ff281">&#9670;&#160;</a></span>executeBatchDropOnGroup() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void executeBatchDropOnGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html">browser_ui::WithSampleInfo</a> *&#160;</td>
+          <td class="paramname"><em>wsi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a> *&#160;</td>
+          <td class="paramname"><em>editor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#afb5c1a6e880db00a3977a21f4c51e4ea">WithSampleInfo::encompassesMultipleSampleInfos()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a667d6edcd2c0604ede3e1bba6a6ff281">executeBatchDropOnGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#a7e3c1c277f86c508680ff37ab2c2a3c8">WithSampleInfo::getMultipleSampleInfos()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a667d6edcd2c0604ede3e1bba6a6ff281">executeBatchDropOnGroup()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a4c1e6df706d26fa969137ce3fd43a13a">executeBatchDropOnGroup()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a94bc74bd81412cf9d6641ec73a97bdcd">GroupZoneSidebarWidget&lt; SidebarParent, fz &gt;::rowComponent::itemDropped()</a>.</p>
+
+</div>
+</div>
+<a id="a4c1e6df706d26fa969137ce3fd43a13a" name="a4c1e6df706d26fa969137ce3fd43a13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1e6df706d26fa969137ce3fd43a13a">&#9670;&#160;</a></span>executeBatchDropOnGroup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void executeBatchDropOnGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html">browser_ui::WithSampleInfo</a> *&#160;</td>
+          <td class="paramname"><em>wsi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a> *&#160;</td>
+          <td class="paramname"><em>editor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#afb5c1a6e880db00a3977a21f4c51e4ea">WithSampleInfo::encompassesMultipleSampleInfos()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a667d6edcd2c0604ede3e1bba6a6ff281">executeBatchDropOnGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1WithSampleInfo.html#a7e3c1c277f86c508680ff37ab2c2a3c8">WithSampleInfo::getMultipleSampleInfos()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
 
 </div>
 </div>
@@ -515,7 +677,7 @@ template&lt;typename SendingComp &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 1 2026 21:48:25 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Apr 3 2026 14:17:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

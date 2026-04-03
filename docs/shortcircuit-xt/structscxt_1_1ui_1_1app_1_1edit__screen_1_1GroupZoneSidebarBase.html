@@ -122,6 +122,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92f66c62e523c1129722271790de38a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a112851f871027996a0304e27e25dac72" id="r_a112851f871027996a0304e27e25dac72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a112851f871027996a0304e27e25dac72">~GroupZoneSidebarBase</a> ()</td></tr>
 <tr class="separator:a112851f871027996a0304e27e25dac72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5ba61944ef6aa8f7e0f7c690915116d" id="r_ae5ba61944ef6aa8f7e0f7c690915116d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#ae5ba61944ef6aa8f7e0f7c690915116d">isInterestedInFileDrag</a> (const juce::StringArray &amp;files) override</td></tr>
+<tr class="separator:ae5ba61944ef6aa8f7e0f7c690915116d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b04db55ec98f0b2b7aacecd86c39e2" id="r_ae5b04db55ec98f0b2b7aacecd86c39e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#ae5b04db55ec98f0b2b7aacecd86c39e2">fileDragEnter</a> (const juce::StringArray &amp;, int, int) override</td></tr>
+<tr class="separator:ae5b04db55ec98f0b2b7aacecd86c39e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4d269cff23d7eabeabc3bd6ffa25d3" id="r_a5a4d269cff23d7eabeabc3bd6ffa25d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a5a4d269cff23d7eabeabc3bd6ffa25d3">fileDragMove</a> (const juce::StringArray &amp;, int, int) override</td></tr>
+<tr class="separator:a5a4d269cff23d7eabeabc3bd6ffa25d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bc55de755b662323dab71fb485a046" id="r_a83bc55de755b662323dab71fb485a046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a83bc55de755b662323dab71fb485a046">fileDragExit</a> (const juce::StringArray &amp;) override</td></tr>
+<tr class="separator:a83bc55de755b662323dab71fb485a046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04fe82c41a6246ae1e1676c4c8107b11" id="r_a04fe82c41a6246ae1e1676c4c8107b11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a04fe82c41a6246ae1e1676c4c8107b11">filesDropped</a> (const juce::StringArray &amp;files, int x, int y) override</td></tr>
+<tr class="separator:a04fe82c41a6246ae1e1676c4c8107b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b7f5d7468c90b73f8a829f09e9b415" id="r_a46b7f5d7468c90b73f8a829f09e9b415"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a46b7f5d7468c90b73f8a829f09e9b415">postInit</a> ()</td></tr>
 <tr class="separator:a46b7f5d7468c90b73f8a829f09e9b415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a4441a580d6e7e6c4c37ec051e71b32" id="r_a9a4441a580d6e7e6c4c37ec051e71b32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a9a4441a580d6e7e6c4c37ec051e71b32">showPartSelectorMenu</a> ()</td></tr>
@@ -235,6 +245,198 @@ template&lt;typename T , bool forZone&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a46b7f5d7468c90b73f8a829f09e9b415">GroupZoneSidebarBase&lt; T, forZone &gt;::postInit()</a>.</p>
+
+</div>
+</div>
+<a id="ae5ba61944ef6aa8f7e0f7c690915116d" name="ae5ba61944ef6aa8f7e0f7c690915116d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ba61944ef6aa8f7e0f7c690915116d">&#9670;&#160;</a></span>isInterestedInFileDrag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , bool forZone&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isInterestedInFileDrag </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname"><em>files</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1Browser.html#a2749140dd8f84984c567136f3eb582a0">Browser::isLoadableSingleSample()</a>.</p>
+
+</div>
+</div>
+<a id="ae5b04db55ec98f0b2b7aacecd86c39e2" name="ae5b04db55ec98f0b2b7aacecd86c39e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b04db55ec98f0b2b7aacecd86c39e2">&#9670;&#160;</a></span>fileDragEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , bool forZone&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fileDragEnter </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a4d269cff23d7eabeabc3bd6ffa25d3" name="a5a4d269cff23d7eabeabc3bd6ffa25d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4d269cff23d7eabeabc3bd6ffa25d3">&#9670;&#160;</a></span>fileDragMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , bool forZone&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fileDragMove </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83bc55de755b662323dab71fb485a046" name="a83bc55de755b662323dab71fb485a046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bc55de755b662323dab71fb485a046">&#9670;&#160;</a></span>fileDragExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , bool forZone&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fileDragExit </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04fe82c41a6246ae1e1676c4c8107b11" name="a04fe82c41a6246ae1e1676c4c8107b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04fe82c41a6246ae1e1676c4c8107b11">&#9670;&#160;</a></span>filesDropped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , bool forZone&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void filesDropped </td>
+          <td>(</td>
+          <td class="paramtype">const juce::StringArray &amp;&#160;</td>
+          <td class="paramname"><em>files</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html#a7967e755065cccb0bbdf16b11409e4fc">SampleDropSource::dropAsZoneInCurrentGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html#a9afd4e0ed8b1681ba124d2ed4adace3a">SampleDropSource::dropAsZoneInGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html#aad0d7715225e91da71c6d537c9c72af1">SampleDropSource::fromPath()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a2ff3157b00b60d9c0fa0d3d537d23cfd">GroupZoneSidebarBase&lt; T, forZone &gt;::gzTreeControl</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html#a492c66f1b8501454f22f2bcd53a64b3d">SampleDropSource::isSingleSample()</a>.</p>
 
 </div>
 </div>
@@ -443,7 +645,7 @@ template&lt;typename T , bool forZone&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a46b7f5d7468c90b73f8a829f09e9b415">GroupZoneSidebarBase&lt; T, forZone &gt;::postInit()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#abcce655bf90e6dacdfb49eaa5bb217df">GroupZoneSidebarBase&lt; T, forZone &gt;::updateSelectionFrom()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a04fe82c41a6246ae1e1676c4c8107b11">GroupZoneSidebarBase&lt; T, forZone &gt;::filesDropped()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a46b7f5d7468c90b73f8a829f09e9b415">GroupZoneSidebarBase&lt; T, forZone &gt;::postInit()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#abcce655bf90e6dacdfb49eaa5bb217df">GroupZoneSidebarBase&lt; T, forZone &gt;::updateSelectionFrom()</a>.</p>
 
 </div>
 </div>
@@ -471,7 +673,7 @@ template&lt;typename T , bool forZone&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 1 2026 21:48:25 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Apr 3 2026 14:17:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -23,8 +23,9 @@ var searchData=
   ['mts_5fcontinous_20',['MTS_CONTINOUS',['../structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278a0a17124a3384f075d8ec8fae08acdd5c',1,'scxt::engine::Engine']]],
   ['mts_5fesp_21',['MTS_ESP',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305',1,'scxt::tuning::MidikeyRetuner']]],
   ['mts_5fnote_5fon_22',['MTS_NOTE_ON',['../structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278aa1aec8603798b85679b50af0474c3af4',1,'scxt::engine::Engine']]],
-  ['multi_23',['multi',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa1c8652f00e000a160bc62b0999a78d9a3b6e3be2dfacfb1d14722ea50147ac05',1,'scxt::ui::app::SCXTEditor::MULTI'],['../structscxt_1_1selection_1_1SelectionManager.html#acf5fcdaecfe60be057e76a93cac9fdeda3b6e3be2dfacfb1d14722ea50147ac05',1,'scxt::selection::SelectionManager::MULTI']]],
+  ['multi_23',['multi',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa1c8652f00e000a160bc62b0999a78d9a3b6e3be2dfacfb1d14722ea50147ac05',1,'scxt::ui::app::SCXTEditor::MULTI'],['../structscxt_1_1selection_1_1SelectionManager.html#acf5fcdaecfe60be057e76a93cac9fdeda3b6e3be2dfacfb1d14722ea50147ac05',1,'scxt::selection::SelectionManager::MULTI'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#abf2e9e7c9c068f9356aa9add8cb33445ace7898536dd0e928d1640ee2ad531cc8',1,'scxt::ui::app::shared::PartSidebarCard::Multi']]],
   ['multi_5fselect_24',['MULTI_SELECT',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8ca7bfc4b418c4f998d5b3802cdc5d167e0',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['multisample_5ffile_25',['MULTISAMPLE_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb',1,'scxt::sample::Sample']]],
-  ['muted_26',['MUTED',['../namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19ad7750b2464175cffe19792309edf40f8',1,'scxt::engine']]]
+  ['multifile_25',['MultiFile',['../structscxt_1_1ui_1_1app_1_1shared_1_1SampleDropSource.html#aa10c9e8951b8ccf714a59ec321bdac5ba1e1c1bd7f9cc7129802e1f00d2b171bd',1,'scxt::ui::app::shared::SampleDropSource']]],
+  ['multisample_5ffile_26',['MULTISAMPLE_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb',1,'scxt::sample::Sample']]],
+  ['muted_27',['MUTED',['../namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19ad7750b2464175cffe19792309edf40f8',1,'scxt::engine']]]
 ];

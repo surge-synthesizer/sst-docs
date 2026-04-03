@@ -43,7 +43,7 @@ var searchData=
   ['buttonrectactions_40',['buttonRectActions',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#a7aa06e3216e8bfe0876e8c9e14f46c7b',1,'scxt::ui::app::other_screens::AboutScreen']]],
   ['buttonrects_41',['buttonRects',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#a9c667b1c24f7fe5c32dcad0c521e80ad',1,'scxt::ui::app::other_screens::AboutScreen']]],
   ['buttonsize_42',['buttonSize',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#aa5893133c64f02782ea47884ac8602a2',1,'scxt::ui::app::other_screens::AboutScreen']]],
-  ['buttonwidth_43',['buttonWidth',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1InstrumentPrompt.html#a204c1fff1107630ab711785cd55c6d0e',1,'scxt::ui::app::edit_screen::InstrumentPrompt']]],
+  ['buttonwidth_43',['buttonWidth',['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html#a204c1fff1107630ab711785cd55c6d0e',1,'scxt::ui::app::shared::InstrumentPrompt']]],
   ['bypassanyway_44',['bypassAnyway',['../structscxt_1_1dsp_1_1processor_1_1Processor.html#a872ff29984c41cde17d52cad47809636',1,'scxt::dsp::processor::Processor']]],
   ['bypassattachment_45',['bypassAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a215c27451017446dda36f868e0ec4d33',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['bypassthreadchecks_46',['bypassThreadChecks',['../structscxt_1_1ThreadingChecker.html#a43fb182d1b800c05d26de5a4dd583caf',1,'scxt::ThreadingChecker']]]
