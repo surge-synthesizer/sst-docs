@@ -40,7 +40,7 @@ var searchData=
   ['noteexpressionlags_37',['noteExpressionLags',['../structscxt_1_1voice_1_1Voice.html#ac6f321d0ef4d3b66283794f98011f994',1,'scxt::voice::Voice']]],
   ['noteexpressions_38',['noteexpressions',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a83d62c5ae81a201116053dbf349202e3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::noteExpressions'],['../structscxt_1_1voice_1_1Voice.html#aae8090d39e88ed32c7b5aba100f94515',1,'scxt::voice::Voice::noteExpressions']]],
   ['noteexpressionsources_39',['noteexpressionsources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html',1,'MatrixEndpoints::Sources::NoteExpressionSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a9bbefa88efcd4feef178fcfd08ab3de3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources::NoteExpressionSources()']]],
-  ['noteid_40',['noteid',['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid'],['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId']]],
+  ['noteid_40',['noteid',['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId'],['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid']]],
   ['noteonoff_5ft_41',['noteOnOff_t',['../namespacescxt_1_1messaging_1_1client.html#ae1e6111a783b5232e389026e2bb77f26',1,'scxt::messaging::client']]],
   ['noteportscount_42',['notePortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aa5c219b75d4de4da1f6f3f51a95ef542',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['noteportsinfo_43',['notePortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a775a4fc5426c2e1a9193ad5713c89dd8',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
@@ -74,7 +74,8 @@ var searchData=
   ['nummidicc_71',['numMidiCC',['../structscxt_1_1modulation_1_1shared_1_1MIDICCBase.html#ae32a4407997b1d0646050929221d4ab9',1,'scxt::modulation::shared::MIDICCBase']]],
   ['numparams_72',['numparams',['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a963fac470025902b57f0b0eae437c50a',1,'scxt::engine::dtl::Impl::numParams()'],['../structscxt_1_1engine_1_1BusEffect.html#a3db76123c963e30dad063ad0fb9a4ee7',1,'scxt::engine::BusEffect::numParams()']]],
   ['numprocessordisplays_73',['numProcessorDisplays',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ade8ee90ea5fbde9f3776125608ab0d2d',1,'scxt::ui::app::edit_screen::EditScreen']]],
-  ['numsampleframes_74',['numSampleFrames',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#ac02ed2f034593d2bff1c48cf6e31bf5c',1,'scxt::sample::aiff_CommonChunk']]],
-  ['numtext_75',['numText',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a3ca21b1bb2b4d34e4d77c236876500f5',1,'scxt::ui::app::edit_screen::MiscPanel']]],
-  ['numtexta_76',['numTextA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#aaf0f182a5ad1d7834a9c75ab830bdd1f',1,'scxt::ui::app::edit_screen::MiscPanel']]]
+  ['numrules_74',['NumRules',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aa9681d8287b7110e5223863dce73a2dca8a6c4e71b43c463c76e84c963c9ab7d1',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
+  ['numsampleframes_75',['numSampleFrames',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#ac02ed2f034593d2bff1c48cf6e31bf5c',1,'scxt::sample::aiff_CommonChunk']]],
+  ['numtext_76',['numText',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a3ca21b1bb2b4d34e4d77c236876500f5',1,'scxt::ui::app::edit_screen::MiscPanel']]],
+  ['numtexta_77',['numTextA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#aaf0f182a5ad1d7834a9c75ab830bdd1f',1,'scxt::ui::app::edit_screen::MiscPanel']]]
 ];

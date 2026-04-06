@@ -15,7 +15,7 @@ var searchData=
   ['keyboardrange_12',['keyboardRange',['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aa2e6e643a476bf86192c6f5f1df50fc7',1,'scxt::engine::Zone::ZoneMappingData']]],
   ['keychangedinlegatomodetrigger_13',['keyChangedInLegatoModeTrigger',['../structscxt_1_1voice_1_1Voice.html#a33ccd94fc8d62a22d26df9a0f6d0d9ce',1,'scxt::voice::Voice']]],
   ['keychangedleg_14',['keyChangedLeg',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a0a4cccd713ce4178e9907e65ba856e0a',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
-  ['keyend_15',['keyend',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a7371329d78dbdac3ebb7aa307819a36d',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::KeyEnd'],['../structscxt_1_1engine_1_1KeyboardRange.html#a35ace404aa7ccc6d69cef60dbed0db00',1,'scxt::engine::KeyboardRange::keyEnd']]],
+  ['keyend_15',['keyend',['../structscxt_1_1engine_1_1KeyboardRange.html#a35ace404aa7ccc6d69cef60dbed0db00',1,'scxt::engine::KeyboardRange::keyEnd'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a7371329d78dbdac3ebb7aa307819a36d',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::KeyEnd']]],
   ['keyfloat_16',['keyFloat',['../structscxt_1_1voice_1_1Voice.html#a5b4d71c2206622f98cc410a6b8a18c13',1,'scxt::voice::Voice']]],
   ['keygroups_17',['keygroups',['../structscxt_1_1akai__support_1_1AKPFile.html#a1bc954110cf857471a935e40ea4b342f',1,'scxt::akai_support::AKPFile']]],
   ['keyhigh_18',['keyHigh',['../structscxt_1_1exs__support_1_1EXSZone.html#a53b71d97b4e96efd1100b12815498d5d',1,'scxt::exs_support::EXSZone']]],

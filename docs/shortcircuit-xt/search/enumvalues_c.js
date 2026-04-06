@@ -11,5 +11,6 @@ var searchData=
   ['num_5fclienttoserializationmessages_8',['num_clientToSerializationMessages',['../namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa7dc9db1a8a2bf3cf00854d63cb5b124',1,'scxt::messaging::client']]],
   ['num_5fserializationtoclientmessages_9',['num_serializationToClientMessages',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba35ed5f173fdae24803228e887cd88dc9',1,'scxt::messaging::client']]],
   ['numkeycommands_10',['numKeyCommands',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb',1,'scxt::ui::app']]],
-  ['numlags_11',['numLags',['../structscxt_1_1engine_1_1Part.html#a42bf42be2767479212a64b1a8a24e638ae688b77ee08a22318c206078e890da38',1,'scxt::engine::Part']]]
+  ['numlags_11',['numLags',['../structscxt_1_1engine_1_1Part.html#a42bf42be2767479212a64b1a8a24e638ae688b77ee08a22318c206078e890da38',1,'scxt::engine::Part']]],
+  ['numrules_12',['NumRules',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aa9681d8287b7110e5223863dce73a2dca8a6c4e71b43c463c76e84c963c9ab7d1',1,'scxt::ui::app::edit_screen::MappingDisplay']]]
 ];
