@@ -84,7 +84,7 @@ var searchData=
   ['errstack_81',['errStack',['../structscxt_1_1sample_1_1Sample.html#aa9b791cde5afbcc2df65824e50de752d',1,'scxt::sample::Sample']]],
   ['everedited_82',['everEdited',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html#ac90b21741b9647093af2debedd0b9f40',1,'scxt::ui::connectors::DummyContinuous']]],
   ['exclusive_83',['exclusive',['../structscxt_1_1exs__support_1_1EXSGroup.html#a181c030799f6ac471f93c5794cc0ce35',1,'scxt::exs_support::EXSGroup']]],
-  ['exclusivegroup_84',['exclusiveGroup',['../structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a96ba473a0f393ac2bfdcd56b6855870e',1,'scxt::engine::Zone::ZoneMappingData']]],
+  ['exclusivegroup_84',['exclusiveGroup',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#aebf6db687ba89e59aac88784b516c060',1,'scxt::engine::Group::GroupOutputInfo']]],
   ['exclusivegroupglyph_85',['exclusiveGroupGlyph',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a0a6422f5451e88f5a7d8703726bd80d7',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['exclusivegroupmenu_86',['exclusiveGroupMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a2d7ab00712a0b8499b2128ed1f415a5a',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['exclusivegroupnotesglyph_87',['exclusiveGroupNotesGlyph',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a3fab98fda8c679d7013bee2f214c0edf',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
