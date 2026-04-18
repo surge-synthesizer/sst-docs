@@ -7,7 +7,7 @@ var searchData=
   ['patchparamstexttovalue_4',['patchParamsTextToValue',['../namespacesst_1_1plugininfra_1_1patch__support.html#aba85d94869d73300c252e0607c7fbb73',1,'sst::plugininfra::patch_support']]],
   ['patchparamsvalue_5',['patchParamsValue',['../namespacesst_1_1plugininfra_1_1patch__support.html#a103c534343eed1dcfaa6725f23d7d336',1,'sst::plugininfra::patch_support']]],
   ['patchparamsvaluetotext_6',['patchParamsValueToText',['../namespacesst_1_1plugininfra_1_1patch__support.html#aa833d202ea8041394f01ddfa85185a6a',1,'sst::plugininfra::patch_support']]],
-  ['patchtooutstream_7',['patchToOutStream',['../namespacesst_1_1plugininfra_1_1patch__support.html#ac61cf4b214d70347faa56e136b12ddb4',1,'sst::plugininfra::patch_support']]],
+  ['patchtooutstream_7',['patchToOutStream',['../namespacesst_1_1plugininfra_1_1patch__support.html#a2d1ae9ddecb4cb4627bd92936bb90072',1,'sst::plugininfra::patch_support']]],
   ['paths_2eh_8',['paths.h',['../paths_8h.html',1,'']]],
   ['paths_5flinux_2ecpp_9',['paths_linux.cpp',['../paths__linux_8cpp.html',1,'']]],
   ['paths_5fmacos_2emm_10',['paths_macos.mm',['../paths__macos_8mm.html',1,'']]],
