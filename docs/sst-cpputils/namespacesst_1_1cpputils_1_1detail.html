@@ -114,6 +114,9 @@ Functions</h2></td></tr>
 <tr class="memitem:afccabc44e9bc6f50b82033944b100b1b" id="r_afccabc44e9bc6f50b82033944b100b1b"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">typename</a> T , size_t... Is, <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">typename</a> <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Maker</a> &gt; </td></tr>
 <tr class="memitem:afccabc44e9bc6f50b82033944b100b1b"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; T, sizeof...(<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Is</a>)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1cpputils_1_1detail.html#afccabc44e9bc6f50b82033944b100b1b">make_array_lambda</a> (std::index_sequence&lt; Is... &gt;, <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Maker</a> &amp;&amp;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">maker</a>)</td></tr>
 <tr class="separator:afccabc44e9bc6f50b82033944b100b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2e7006ec05328d4317ea491a882a7f" id="r_a0f2e7006ec05328d4317ea491a882a7f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">typename</a> <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &gt; </td></tr>
+<tr class="memitem:a0f2e7006ec05328d4317ea491a882a7f"><td class="memTemplItemLeft" align="right" valign="top">detail::scope_guard&lt; <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a0f2e7006ec05328d4317ea491a882a7f">make_scope_guard</a> (<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &amp;&amp;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">callback</a>) <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">noexcept</a>(std::is_nothrow_constructible&lt; <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a>, <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &amp;&amp; &gt;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">::value</a>)</td></tr>
+<tr class="separator:a0f2e7006ec05328d4317ea491a882a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a4c3f12f6260751cb58a9ad8e24a44d15" name="a4c3f12f6260751cb58a9ad8e24a44d15"></a>
@@ -144,7 +147,7 @@ template&lt;typename T , size_t... Is, typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacesst_1_1cpputils.html#a295e57b5ecd829a3510fe9cebc33b902">sst::cpputils::make_array()</a>, <a class="el" href="namespacesst_1_1cpputils.html#a02f1a4223451d14cc805cf7390da47b7">sst::cpputils::make_array_bind_first_index()</a>, <a class="el" href="namespacesst_1_1cpputils.html#a3a33b93d8fa285d288dbccd7476b2d2e">sst::cpputils::make_array_bind_last_index()</a>, and <a class="el" href="namespacesst_1_1cpputils.html#a8c74c91153a0a9b88268c425eead89a1">sst::cpputils::make_array_lambda()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1cpputils.html#a295e57b5ecd829a3510fe9cebc33b902">sst::cpputils::make_array()</a>, <a class="el" href="namespacesst_1_1cpputils.html#a02f1a4223451d14cc805cf7390da47b7">sst::cpputils::make_array_bind_first_index()</a>, <a class="el" href="namespacesst_1_1cpputils.html#a3a33b93d8fa285d288dbccd7476b2d2e">sst::cpputils::make_array_bind_last_index()</a>, <a class="el" href="namespacesst_1_1cpputils.html#a8c74c91153a0a9b88268c425eead89a1">sst::cpputils::make_array_lambda()</a>, and <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a0f2e7006ec05328d4317ea491a882a7f">make_scope_guard()</a>.</p>
 
 </div>
 </div>
@@ -238,10 +241,42 @@ template&lt;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f
 
 </div>
 </div>
+<a id="a0f2e7006ec05328d4317ea491a882a7f" name="a0f2e7006ec05328d4317ea491a882a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2e7006ec05328d4317ea491a882a7f">&#9670;&#160;</a></span>make_scope_guard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">typename</a> <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">detail::scope_guard&lt; <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &gt; make_scope_guard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">Callback</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td> const &amp;&amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a4c3f12f6260751cb58a9ad8e24a44d15">make_array_helper()</a>, and <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a0f2e7006ec05328d4317ea491a882a7f">make_scope_guard()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacesst_1_1cpputils_1_1detail.html#a0f2e7006ec05328d4317ea491a882a7f">make_scope_guard()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 1 2025 22:15:49 for sst-cpputils by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Apr 20 2026 00:23:27 for sst-cpputils by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
