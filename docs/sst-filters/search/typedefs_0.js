@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['configmap_5ft_0',['configMap_t',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a97d30019f5d5b404ec5fb624f466ba96',1,'sst::filtersplusplus::details::FilterPayload']]],
-  ['const_5fiterator_1',['const_iterator',['../classCatch_1_1StringRef.html#a4558950bcba7df6bbd307ea07a181f5d',1,'Catch::StringRef']]]
+  ['butterworthhp_0',['ButterworthHP',['../namespacesst_1_1filters.html#a275d2e7166e10a84bdc8ce07c6386cf7',1,'sst::filters']]],
+  ['butterworthlp_1',['ButterworthLP',['../namespacesst_1_1filters.html#af4aa0563c24e31078bf8da94a92d09d1',1,'sst::filters']]]
 ];

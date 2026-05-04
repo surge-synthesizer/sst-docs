@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['dlf_5fcoeffs_0',['dlf_coeffs',['../namespacesst_1_1filters_1_1DiodeLadderFilter.html#a114cad316d03b044968b374c9f7a0861',1,'sst::filters::DiodeLadderFilter']]],
-  ['dlf_5fstate_1',['dlf_state',['../namespacesst_1_1filters_1_1CutoffWarp.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::CutoffWarp::dlf_state'],['../namespacesst_1_1filters_1_1DiodeLadderFilter.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::DiodeLadderFilter::dlf_state'],['../namespacesst_1_1filters_1_1ResonanceWarp.html#a0470110ce784386c39f4f32d5837991f',1,'sst::filters::ResonanceWarp::dlf_state']]],
-  ['drivemode_2',['DriveMode',['../namespacesst_1_1filtersplusplus.html#a9dbdd3c904a15ae0c5af61d1014d1c76',1,'sst::filtersplusplus']]]
+  ['choice_0',['Choice',['../structCatch_1_1CaseSensitive.html#ac5102e0b11ce43d0b9ef595c3c3ab0c3',1,'Catch::CaseSensitive']]],
+  ['coeff_1',['coeff',['../namespacesst_1_1filters_1_1VintageLadder_1_1Huov2010.html#a683c89e90662ba53f43be1061d4e39aa',1,'sst::filters::VintageLadder::Huov2010']]]
 ];

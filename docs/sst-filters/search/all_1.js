@@ -14,5 +14,10 @@ var searchData=
   ['blocksize_11',['blockSize',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#aa219775c20ca1c090756a777840c0c58',1,'sst::filtersplusplus::details::FilterPayload']]],
   ['boundfreq_12',['boundFreq',['../namespacesst_1_1filters.html#a152fda510435e45078455301b2bde6c5',1,'sst::filters']]],
   ['bp_13',['BP',['../namespacesst_1_1filtersplusplus.html#ab2bffb91d36a31c6ecea346eb3bd74e9a96d4cdff8ed57e93e3b3d843cffe3af7',1,'sst::filtersplusplus']]],
-  ['brokenobxd4pole24_14',['BrokenOBXD4Pole24',['../namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdacbc92f06fd1348901712e2adb4680e96',1,'sst::filtersplusplus']]]
+  ['brokenobxd4pole24_14',['BrokenOBXD4Pole24',['../namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cdacbc92f06fd1348901712e2adb4680e96',1,'sst::filtersplusplus']]],
+  ['butterworth_15',['butterworth',['../classsst_1_1filters_1_1Butterworth.html#acce2b28abf331dd5c86756aeba1c44ce',1,'sst::filters::Butterworth::Butterworth()'],['../classsst_1_1filters_1_1Butterworth.html',1,'Butterworth&lt; N, Type &gt;']]],
+  ['butterworthhp_16',['ButterworthHP',['../namespacesst_1_1filters.html#a275d2e7166e10a84bdc8ce07c6386cf7',1,'sst::filters']]],
+  ['butterworthlp_17',['ButterworthLP',['../namespacesst_1_1filters.html#af4aa0563c24e31078bf8da94a92d09d1',1,'sst::filters']]],
+  ['butterworthlphp_2eh_18',['ButterworthLPHP.h',['../ButterworthLPHP_8h.html',1,'']]],
+  ['butterworthtype_19',['ButterworthType',['../namespacesst_1_1filters.html#a2c8791c6f8d109e4ef32a417692bd7a2',1,'sst::filters']]]
 ];
