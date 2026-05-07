@@ -206,6 +206,10 @@ Functions</h2></td></tr>
 requires (1 &lt;= <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a> &amp;&amp; <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a582d73a8">S</a> &lt;= 3)</td></tr>
 <tr class="memitem:aa14e1512a5de58230ce013795d9e60f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#aa14e1512a5de58230ce013795d9e60f1">shuffle_all_ps</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> v)</td></tr>
 <tr class="separator:aa14e1512a5de58230ce013795d9e60f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab870b9c4c4d099b826a96f25fa01bceb" id="r_ab870b9c4c4d099b826a96f25fa01bceb"><td class="memTemplParams" colspan="2">template&lt;int N&gt; <br />
+requires (N &gt;= 0 &amp;&amp; N &lt; 4)</td></tr>
+<tr class="memitem:ab870b9c4c4d099b826a96f25fa01bceb"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacesst_1_1basic__blocks_1_1mechanics.html#ab870b9c4c4d099b826a96f25fa01bceb">simd_float_extract</a> (const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a> x)</td></tr>
+<tr class="separator:ab870b9c4c4d099b826a96f25fa01bceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1216,6 +1220,29 @@ requires (1 &lt;= <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a
 
 </div>
 </div>
+<a id="ab870b9c4c4d099b826a96f25fa01bceb" name="ab870b9c4c4d099b826a96f25fa01bceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab870b9c4c4d099b826a96f25fa01bceb">&#9670;&#160;</a></span>simd_float_extract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; <br />
+requires (N &gt;= 0 &amp;&amp; N &lt; 4)</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">float simd_float_extract </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="setup_8h.html#a298583abc774cf6ab0874a33658faf3a">SIMD_M128</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="setup_8h.html#a226ac8556284a5089e7b4ac2acda51f9">SIMD_MM</a>, and <a class="el" href="setup_8h.html#ae195cc7165de14721cd8d1e313355d67">SIMD_MM_SHUFFLE</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="afe70a64de113421d02d3efabc495a0c2" name="afe70a64de113421d02d3efabc495a0c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe70a64de113421d02d3efabc495a0c2">&#9670;&#160;</a></span>m128_mask_signbit</h2>
@@ -1250,7 +1277,7 @@ requires (1 &lt;= <a class="el" href="FastMath_8h.html#a6788d74a4942a2ca2568da3a
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 5 2026 18:14:43 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu May 7 2026 16:15:41 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
