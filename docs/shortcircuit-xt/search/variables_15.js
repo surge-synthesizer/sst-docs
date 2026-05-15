@@ -36,7 +36,7 @@ var searchData=
   ['velocitysensitivityslider_33',['velocitySensitivitySlider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#a6f06643853b2b9bbfcd49cbdd35909be',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]],
   ['velocitysource_34',['velocitySource',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#ae6448ae87fba513ce19fd7837bfe24b5',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
   ['velsens_35',['velSens',['../structscxt_1_1akai__support_1_1GLOBAL__OUT.html#a42dcb0c66d4ca668fb00f1dc91e245e4',1,'scxt::akai_support::GLOBAL_OUT']]],
-  ['velstart_36',['velstart',['../structscxt_1_1engine_1_1VelocityRange.html#a537ffb9fb59eed2d45e57fee7203a096',1,'scxt::engine::VelocityRange::velStart'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a45825d99369f203d0dbc7e1b748d43cc',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::VelStart']]],
+  ['velstart_36',['velstart',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay_1_1MapEls.html#a45825d99369f203d0dbc7e1b748d43cc',1,'scxt::ui::app::edit_screen::MappingDisplay::MapEls::VelStart'],['../structscxt_1_1engine_1_1VelocityRange.html#a537ffb9fb59eed2d45e57fee7203a096',1,'scxt::engine::VelocityRange::velStart']]],
   ['veltoattack_37',['velToAttack',['../structscxt_1_1akai__support_1_1EG.html#ad829bb20c4fb6bdd7a8c571a561de70f',1,'scxt::akai_support::EG']]],
   ['veltorel_38',['velToRel',['../structscxt_1_1akai__support_1_1EG.html#a4601569e0d4d02f9256879792422e1c9',1,'scxt::akai_support::EG']]],
   ['veltostart_39',['velToStart',['../structscxt_1_1akai__support_1_1ZONE.html#ab00117b4736078b80b837ea257937983',1,'scxt::akai_support::ZONE']]],
