@@ -95,6 +95,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structscxt_1_1ThreadingChecker-members.html">List of all members</a>  </div>
@@ -104,6 +105,11 @@ $(function() {
 
 <p><code>#include &lt;utils.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker_1_1BypassGuard.html">BypassGuard</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d99a1475545c081453c762f2fe901c4" id="r_a6d99a1475545c081453c762f2fe901c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a6d99a1475545c081453c762f2fe901c4">addAsAClientThread</a> ()</td></tr>
@@ -124,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aefff0a17ff892945d01750ae7e1a4a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34716a4686f670c010b92230d16302c9" id="r_a34716a4686f670c010b92230d16302c9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#a34716a4686f670c010b92230d16302c9">threadName</a> ()</td></tr>
 <tr class="separator:a34716a4686f670c010b92230d16302c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47cb65f7e464fdaa469dd33d4685018" id="r_ab47cb65f7e464fdaa469dd33d4685018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1ThreadingChecker_1_1BypassGuard.html">BypassGuard</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ThreadingChecker.html#ab47cb65f7e464fdaa469dd33d4685018">bypassChecksInScope</a> ()</td></tr>
+<tr class="separator:ab47cb65f7e464fdaa469dd33d4685018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -301,6 +309,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab47cb65f7e464fdaa469dd33d4685018" name="ab47cb65f7e464fdaa469dd33d4685018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47cb65f7e464fdaa469dd33d4685018">&#9670;&#160;</a></span>bypassChecksInScope()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1ThreadingChecker_1_1BypassGuard.html">BypassGuard</a> bypassChecksInScope </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a43fb182d1b800c05d26de5a4dd583caf" name="a43fb182d1b800c05d26de5a4dd583caf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43fb182d1b800c05d26de5a4dd583caf">&#9670;&#160;</a></span>bypassThreadChecks</h2>
@@ -314,7 +339,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a321c4c4b6bec67a1659d18612a47ea41">MessageController::scheduleAudioThreadFunctionCallback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ThreadingChecker_1_1BypassGuard.html#ad97161d1ad2cf04a9fdea454836d01a6">ThreadingChecker::BypassGuard::BypassGuard()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a321c4c4b6bec67a1659d18612a47ea41">MessageController::scheduleAudioThreadFunctionCallback()</a>, and <a class="el" href="structscxt_1_1ThreadingChecker_1_1BypassGuard.html#a3824e95b4d9a4a175473f755c9ee9a60">ThreadingChecker::BypassGuard::~BypassGuard()</a>.</p>
 
 </div>
 </div>
@@ -366,7 +391,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 15 2026 21:39:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat May 16 2026 16:10:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['init_2dmaker_2ecpp_0',['init-maker.cpp',['../init-maker_8cpp.html',1,'']]],
-  ['interaction_5fmessages_2eh_1',['interaction_messages.h',['../interaction__messages_8h.html',1,'']]]
+  ['import_5fenvelope_2ecpp_0',['import_envelope.cpp',['../import__envelope_8cpp.html',1,'']]],
+  ['import_5fenvelope_2eh_1',['import_envelope.h',['../import__envelope_8h.html',1,'']]],
+  ['import_5ffilter_2ecpp_2',['import_filter.cpp',['../import__filter_8cpp.html',1,'']]],
+  ['import_5ffilter_2eh_3',['import_filter.h',['../import__filter_8h.html',1,'']]],
+  ['import_5fharness_2ecpp_4',['import_harness.cpp',['../import__harness_8cpp.html',1,'']]],
+  ['import_5fharness_2eh_5',['import_harness.h',['../import__harness_8h.html',1,'']]],
+  ['import_5flfo_2ecpp_6',['import_lfo.cpp',['../import__lfo_8cpp.html',1,'']]],
+  ['import_5flfo_2eh_7',['import_lfo.h',['../import__lfo_8h.html',1,'']]],
+  ['import_5floop_2ecpp_8',['import_loop.cpp',['../import__loop_8cpp.html',1,'']]],
+  ['import_5floop_2eh_9',['import_loop.h',['../import__loop_8h.html',1,'']]],
+  ['import_5fmapping_2ecpp_10',['import_mapping.cpp',['../import__mapping_8cpp.html',1,'']]],
+  ['import_5fmapping_2eh_11',['import_mapping.h',['../import__mapping_8h.html',1,'']]],
+  ['import_5fmodulation_2ecpp_12',['import_modulation.cpp',['../import__modulation_8cpp.html',1,'']]],
+  ['import_5fmodulation_2eh_13',['import_modulation.h',['../import__modulation_8h.html',1,'']]],
+  ['import_5fnumeric_2eh_14',['import_numeric.h',['../import__numeric_8h.html',1,'']]],
+  ['init_2dmaker_2ecpp_15',['init-maker.cpp',['../init-maker_8cpp.html',1,'']]],
+  ['interaction_5fmessages_2eh_16',['interaction_messages.h',['../interaction__messages_8h.html',1,'']]]
 ];

@@ -15,5 +15,6 @@ var searchData=
   ['busfximplementor_12',['BusFxImplementor',['../structscxt_1_1engine_1_1dtl_1_1BusFxImplementor.html',1,'scxt::engine::dtl']]],
   ['buspane_13',['BusPane',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1BusPane.html',1,'scxt::ui::app::mixer_screen']]],
   ['bussendstorage_14',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html',1,'scxt::engine::Bus']]],
-  ['busses_15',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html',1,'scxt::engine::Patch']]]
+  ['busses_15',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html',1,'scxt::engine::Patch']]],
+  ['bypassguard_16',['BypassGuard',['../structscxt_1_1ThreadingChecker_1_1BypassGuard.html',1,'scxt::ThreadingChecker']]]
 ];
