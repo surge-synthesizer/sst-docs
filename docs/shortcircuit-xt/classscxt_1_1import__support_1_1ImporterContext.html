@@ -131,6 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0214003454427ee7aba3fcad7609ea13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf463969236ae2a60313ab61ef65cae" id="r_a1cf463969236ae2a60313ab61ef65cae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a1cf463969236ae2a60313ab61ef65cae">addZoneToGroup</a> (int groupIdx, std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; zone)</td></tr>
 <tr class="separator:a1cf463969236ae2a60313ab61ef65cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19de3db0977be1db137784f04cc325de" id="r_a19de3db0977be1db137784f04cc325de"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a19de3db0977be1db137784f04cc325de">loadSampleFromDisk</a> (std::initializer_list&lt; fs::path &gt; candidates, std::initializer_list&lt; const char * &gt; extensionFallbacks={})</td></tr>
+<tr class="separator:a19de3db0977be1db137784f04cc325de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a96d5a00dd08d7fcec229dc351fd14" id="r_ae6a96d5a00dd08d7fcec229dc351fd14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#ae6a96d5a00dd08d7fcec229dc351fd14">finish</a> ()</td></tr>
 <tr class="separator:ae6a96d5a00dd08d7fcec229dc351fd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -444,7 +446,7 @@ Public Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#af29aa52efae730bcebce1a3bfe297b06">Part::addGroup()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a7bef8f48f40a8ece38610b14960c1df0">Part::getGroup()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1import__support.html#a2182695630acb7e442c3331188ef28dd">scxt::import_support::getOrCreateGroup()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1import__support.html#a2182695630acb7e442c3331188ef28dd">scxt::import_support::getOrCreateGroup()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
 
 </div>
 </div>
@@ -476,7 +478,39 @@ Public Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#a7bef8f48f40a8ece38610b14960c1df0">Part::getGroup()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
+
+</div>
+</div>
+<a id="a19de3db0977be1db137784f04cc325de" name="a19de3db0977be1db137784f04cc325de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19de3db0977be1db137784f04cc325de">&#9670;&#160;</a></span>loadSampleFromDisk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &gt; loadSampleFromDisk </td>
+          <td>(</td>
+          <td class="paramtype">std::initializer_list&lt; fs::path &gt;&#160;</td>
+          <td class="paramname"><em>candidates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::initializer_list&lt; const char * &gt;&#160;</td>
+          <td class="paramname"><em>extensionFallbacks</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
 
 </div>
 </div>
@@ -497,7 +531,7 @@ Public Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0e872148ed724797a3d6106569853d12">ImporterContext::raise()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
 
 </div>
 </div>
@@ -508,7 +542,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 16 2026 16:10:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat May 16 2026 17:16:08 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
