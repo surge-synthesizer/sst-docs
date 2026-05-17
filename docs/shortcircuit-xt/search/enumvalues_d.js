@@ -10,5 +10,6 @@ var searchData=
   ['only_5fcollect_7',['ONLY_COLLECT',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e',1,'scxt::patch_io']]],
   ['or_8',['OR',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa1d00e7dce692e8dc3f6877f035e3a616',1,'scxt::engine::GroupTriggerConditions']]],
   ['or_5fnot_9',['OR_NOT',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa756eaf1e3554bffb0df4a824191577f6',1,'scxt::engine::GroupTriggerConditions']]],
-  ['output_5frouting_10',['OUTPUT_ROUTING',['../structscxt_1_1selection_1_1SelectionManager.html#ad013daf9867443d70831a8763cc78107ae5b28f146fd707f82d4156f376c72031',1,'scxt::selection::SelectionManager']]]
+  ['other_10',['Other',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa6311ae17c1ee52b36e68aaf4ad066387',1,'scxt::import_support']]],
+  ['output_5frouting_11',['OUTPUT_ROUTING',['../structscxt_1_1selection_1_1SelectionManager.html#ad013daf9867443d70831a8763cc78107ae5b28f146fd707f82d4156f376c72031',1,'scxt::selection::SelectionManager']]]
 ];

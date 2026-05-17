@@ -10,7 +10,10 @@ var searchData=
   ['bool_5fneg_7',['BOOL_NEG',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a2376631779880674cf579e2338481c70',1,'scxt::modulation::modulators::RandomStorage']]],
   ['bool_5fpos_8',['BOOL_POS',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a31bbf2244b683403b7e46ccc4d3476e6',1,'scxt::modulation::modulators::RandomStorage']]],
   ['both_5fchanged_9',['BOTH_CHANGED',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a8bb8f9831bfc4bc6cf74e441d9f0e860a6153741f69289430233e63b1dcc87c0c',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
-  ['brightness_10',['BRIGHTNESS',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a3a8a0aeb55d2886191dee8a5e0d07cc9',1,'scxt::voice::Voice']]],
-  ['browserautopreviewenabled_11',['browserAutoPreviewEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4afc43963602ac63f719e0109c2f533576',1,'scxt::infrastructure']]],
-  ['browserpreviewamplitude_12',['browserPreviewAmplitude',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a01c973f9a6e10581872a3d6f1d436f5a',1,'scxt::infrastructure']]]
+  ['bp12_10',['BP12',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fabb408d8bbb455c3c0343bde980710642',1,'scxt::import_support']]],
+  ['bp24_11',['BP24',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa85c2032881e1ea801fe940671648bd53',1,'scxt::import_support']]],
+  ['bp6_12',['BP6',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa3c92b737d8192b22da0b2854a916ff2b',1,'scxt::import_support']]],
+  ['brightness_13',['BRIGHTNESS',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a3a8a0aeb55d2886191dee8a5e0d07cc9',1,'scxt::voice::Voice']]],
+  ['browserautopreviewenabled_14',['browserAutoPreviewEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4afc43963602ac63f719e0109c2f533576',1,'scxt::infrastructure']]],
+  ['browserpreviewamplitude_15',['browserPreviewAmplitude',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a01c973f9a6e10581872a3d6f1d436f5a',1,'scxt::infrastructure']]]
 ];
