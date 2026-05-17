@@ -97,6 +97,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">scxt::exs_support Namespace Reference</div></div>
 </div><!--header-->
@@ -128,8 +129,236 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a6ff9d665fa11ba6a0f8628135488c741" id="r_a6ff9d665fa11ba6a0f8628135488c741"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a6ff9d665fa11ba6a0f8628135488c741">byteData_t</a> = std::vector&lt; uint8_t &gt;</td></tr>
 <tr class="separator:a6ff9d665fa11ba6a0f8628135488c741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa720d0a28ea34b938684edc6b674c6a2" id="r_aa720d0a28ea34b938684edc6b674c6a2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2">EXSParam</a> : uint16_t { <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2af41f17f4428e48e3ee187211123a0eeb">MASTER_VOLUME</a> = 0x07
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a07c83bea73c855bd6ee6ce0b4ce446a3">MASTER_PAN</a> = 0x160
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a4a9ef9f46cd420d6106e4278833e46cb">VOLUME_KEYSCALE</a> = 0x08
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a741b7c08d910af7705680f307b66bdf4">PITCH_BEND_UP</a> = 0x03
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2acf8c2876a7f03625eb5bf886296baed9">PITCH_BEND_DOWN</a> = 0x04
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2afb9e58b03fe52c744df80518f2645934">MONO_LEGATO</a> = 0x0a
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aef187fa1d76ebdd749e4208f21c52b50">MIDI_MONO_MODE</a> = 0x116
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aeccf126288bc0abe4ea2ecbf1b146913">MIDI_MONO_MODE_PITCH_RANGE</a> = 0x11a
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2af761ac380f840e42dcd9be74aec158a4">POLYPHONY_VOICES</a> = 0x05
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2af2298dd538e1d707988cbcdc0810707e">TRANSPOSE</a> = 0x2d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a761c0d02de4b74e339a5995c7474797c">COARSE_TUNE</a> = 0x0e
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5665bf9ccd5bc0163bf755e0767c97b5">FINE_TUNE</a> = 0x0f
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8163acad1c5fcd3bd5f60596bbd7bfbc">GLIDE</a> = 0x14
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0a527cf5e4d0bae19b2ad785c9d396fa">PORTA_DOWN</a> = 0x48
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2afe213f4a0cebff1bcc7ed8c8e8bd395f">PORTA_UP</a> = 0x49
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2afbeea4218e21ddb3c2c93b86c45e906d">FILTER1_TOGGLE</a> = 0x2c
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a530a18a39a7e94806b3ba4f186fc60ff">FILTER1_TYPE</a> = 0xf3
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ab70eb8ec961d77206220f534cecb0a86">FILTER1_FAT</a> = 0xaa
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8cf14b053bf915748d7851519755d314">FILTER1_CUTOFF</a> = 0x1e
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a9395faee2454596e3419f6fa044cdad6">FILTER1_RESO</a> = 0x1d
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2acc0c580f7219fa5e07c378951107c4c1">FILTER1_DRIVE</a> = 0x4b
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a9c9229bc6da9d540a08ae29d43af29b3">FILTER1_KEYTRACK</a> = 0x2e
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae308aa7c74035802b583b640c6bc657b">FILTER2_TOGGLE</a> = 0x174
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2afa635c624c8767afece5abf02b8d9b8e">FILTER2_TYPE</a> = 0x186
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac9378b54a4344dd3738a873a5b255a49">FILTER2_CUTOFF</a> = 0x177
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8b398f279720f72ee64c8ffd984129e0">FILTER2_RESO</a> = 0x178
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a563e81f913cc7649d67006a7a3adc7c9">FILTER2_DRIVE</a> = 0x179
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a074c654a3f69943da3d1f5bedac03503">FILTERS_SERIAL_PARALLEL</a> = 0x173
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a3d331b39ab415b5471df92ea9faf3e6c">FILTERS_BLEND</a> = 0x17a
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2af6aa8cd6a18e01318ab7b25a277adb2c">LFO_1_FADE</a> = 0x3c
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a7ded875ab590641a7a7d7a5dd7dea186">LFO_1_RATE</a> = 0x3d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a69eaacc03618d274bfc4115dfc84251e">LFO_1_WAVE_SHAPE</a> = 0x3e
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae577e5d379219d07815aca2f453d8aa1">LFO_1_KEY_TRIGGER</a> = 0x14c
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a05caf90aaabc67e85ae44061fe9c4382">LFO_1_MONO_POLY</a> = 0x14d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a185e27b872dbb9879f82f5b853209fcf">LFO_1_PHASE</a> = 0x14e
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae142b1aa166249952ed78a6c67b789b4">LFO_1_POSITIVE_OR_MIDPOINT</a> = 0x14f
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aed83b68be54d847e23cdc8d5cf53fca0">LFO_1_TEMPO_SYNC</a> = 0x150
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a68609750975a91361bc134e680914d1b">LFO_1_FADE_IN_OR_OUT</a> = 0x187
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ad625b187394dee1fcd9af4f1f956bb97">LFO_2_RATE</a> = 0x3f
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2acde55fa77714c11c5dc1801ab8aeecdc">LFO_2_WAVE_SHAPE</a> = 0x40
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a854f76f96e8d75119769bf5d2aa3f13e">LFO_2_FADE</a> = 0x151
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5d0af5778d48d232d56f23af9e2cc446">LFO_2_KEY_TRIGGER</a> = 0x152
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ad6f1126de004ecfe510788a01db544d4">LFO_2_MONO_POLY</a> = 0x153
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae6a9066acd40831e94f92b183b83a361">LFO_2_PHASE</a> = 0x154
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8aa29a9ab1545be056ae6ec03ce27719">LFO_2_POSITIVE_OR_MIDPOINT</a> = 0x155
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5843feb18125b6c30da4afb29f8ecd33">LFO_2_TEMPO_SYNC</a> = 0x156
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a04b67b7d36e3c2347d0a47af103eaa6f">LFO_2_FADE_IN_OR_OUT</a> = 0x188
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0d6ac99953835b1815fc9b0855dba236">LFO_3_RATE</a> = 0xa7
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5ceeecd8c9fc98fbb50af86be786dd66">LFO_3_WAVE_SHAPE</a> = 0x158
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a39ff619bfb92655df1afccb27544e1fc">LFO_3_FADE</a> = 0x157
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a454e14499a42507ccb5eb18526ebd32a">LFO_3_KEY_TRIGGER</a> = 0x159
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2fa0bd8305f02a8739329d908d0a7f42">LFO_3_MONO_POLY</a> = 0x15a
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2af37b2079f21506b0ee462efe1a88d123">LFO_3_PHASE</a> = 0x15b
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0980529fffa74a0d4f48adaea17856a9">LFO_3_POSITIVE_OR_MIDPOINT</a> = 0x15c
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a3d96251cc965c6c8859777624a646ce0">LFO_3_TEMPO_SYNC</a> = 0x15d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a3cd3d5b119e574363a090472f02a260e">LFO_3_FADE_IN_OR_OUT</a> = 0x189
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a831bc0c28ff52feaedec59a7b8c5ec76">ENV2_TYPE</a> = 0x16a
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2adf97f3d1011fecdb2b6b6b6ba6edcf83">ENV2_VEL_SENS</a> = 0x17d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a99ca300d0fd6e45cf74df31697942019">ENV2_DELAY_START</a> = 0x16c
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa098548be6cade459a7dcdf787e1ca78">ENV2_ATK_CURVE</a> = 0x192
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a09f0faf60644cdbd851d2f844642d8d4">ENV2_ATK_HI_VEL</a> = 0x4c
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a95438b4377df056794d91fb2c8de3e2d">ENV2_ATK_LO_VEL</a> = 0x4d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a36706f4833c3302151dc11a09230a09c">ENV2_HOLD</a> = 0x38
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac82d22ed85b41fe2b6f220f40fa16328">ENV2_DECAY</a> = 0x4e
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0510c3464a27746f8b80c78172ccae99">ENV2_SUSTAIN</a> = 0x4f
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aaaf23c59833d9863e5b6b6014d7f7021">ENV2_RELEASE</a> = 0x50
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae801028a9d3c882c8f725d87cc1e588b">ENV2_TIME_CURVE</a> = 0x5b
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2adfa9209f588dfe705f13a96e0b154fcb">ENV1_TYPE</a> = 0x6b
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a62e42215cc02e1744ac13dd7b057f7ec">ENV1_VEL_SENS</a> = 0x5a
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8a872943d3ec42d123e9f5014aaaed32">ENV1_VOLUME_HIGH</a> = 0x59
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a070ae5f306ebbecc23f4f959e63e3d0d">ENV1_DELAY_START</a> = 0x16d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ad55f7e0fcfaf02a55230197424ce165d">ENV1_ATK_CURVE</a> = 0x195
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a00d25b21d4ef34dc0c5fe6c4a9ad83a8">ENV1_ATK_HI_VEL</a> = 0x52
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a912708dfc546c4b569ea9738559592bd">ENV1_ATK_LO_VEL</a> = 0x53
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a64277e702c1c90fb6131e9be4575bcb5">ENV1_HOLD</a> = 0x58
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa434bd4628af9a5d771a7c9265944d06">ENV1_DECAY</a> = 0x54
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a6efbbe63d8b5cc63feb06e4da4464f38">ENV1_SUSTAIN</a> = 0x51
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2db238731da2fbd4b6d00dda21e31c14">ENV1_RELEASE</a> = 0x55
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a73a8ed3aa2c59327ebd4d49e9f4242f1">AMP_VELOCITY_CURVE</a> = 0x183
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a045ecbdb4a477a9b1671725bb44f0467">VELOCITY_OFFSET</a> = 0x5f
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae646d824ad50f07a4f01a8cb648e70a9">RANDOM_VELOCITY</a> = 0xa4
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0f361e54003dd0302f89e38d7b0329b8">RANDOM_SAMPLE_SEL</a> = 0xa3
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5ec93924154099aec81b7a6dda05997e">RANDOM_PITCH</a> = 0x62
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0ebdb685f70da904f0ec9b5909a535a8">XFADE_AMOUNT</a> = 0x61
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a26b83be081e5fb14db54bbfd12c60078">XFADE_TYPE</a> = 0xa5
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ab7cb10d548493dc317be7f16c8259960">UNISON_TOGGLE</a> = 0xab
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aee1531a7229b26de1a12350542167336">COARSE_TUNE_REMOTE</a> = 0xa6
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8eada2b119c132ca4ca81203737856df">HOLD_VIA_CONTROL</a> = 0xac
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae7110a6533972ba499218916620bf704">MOD1_DESTINATION</a> = 0xad
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a68eb2b9bc381e25d74574f3317a41771">MOD1_SOURCE</a> = 0xae
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a7ac5c83a049cdafbd41361d0a48ffbf2">MOD1_VIA</a> = 0xaf
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a20f7122abcaff65a1e6ada12852a6bf8">MOD1_AMOUNT_LOW</a> = 0xb0
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a09fe5c57f553bfbf5f11b09c06bf0029">MOD1_AMOUNT_HIGH</a> = 0xb1
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a36da6221ac2a7839957bb91d75bab2db">MOD1_SRC_INVERT</a> = 0xe9
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a742cfdf016b82083bd52eccf88d1bac9">MOD1_VIA_INVERT</a> = 0xb2
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a088fa89e47899c4d1638a4e394fe5b50">MOD1_BYPASS</a> = 0xf4
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5e86cc20e820f52686250487f033df1d">MOD2_DESTINATION</a> = 0xb3
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a4fd574a4584b9bfcb7b883af3edaf2af">MOD2_SOURCE</a> = 0xb4
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a15490c0157f20e8b1f2865d00d3e1c12">MOD2_VIA</a> = 0xb5
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8bc0ee4312aa15360a9d2a1032e0f0ff">MOD2_AMOUNT_LOW</a> = 0xb6
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae5d1b0e107f9e6b34f2f4d04ebdca089">MOD2_AMOUNT_HIGH</a> = 0xb7
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a4c61186246c8823c5cf204c5fc805bf1">MOD2_SRC_INVERT</a> = 0xea
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a7a7908163e8f964d3c97d5c3bb62679e">MOD2_VIA_INVERT</a> = 0xb8
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa903d1b134eea9a7d62ea6fda176a2e2">MOD2_BYPASS</a> = 0xf5
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ae7a9397fd6c1442f47899ef250e3219c">MOD3_DESTINATION</a> = 0xb9
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a055da40104ac1c966b806532fc4ec0f6">MOD3_SOURCE</a> = 0xba
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0015b1c89a6569621b3d94acaa915c47">MOD3_VIA</a> = 0xbb
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a053d0527584ecd6376a19f044646a2b4">MOD3_AMOUNT_LOW</a> = 0xbc
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2a49dc8101eda53b9f26c89b14406aa7">MOD3_AMOUNT_HIGH</a> = 0xbd
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac89713cd18f7022cf64316aeb60b7eb8">MOD3_SRC_INVERT</a> = 0xeb
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a70174285a039f2da39ee5140cfddffaa">MOD3_VIA_INVERT</a> = 0xbe
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a64981fe868f98a23482053700754a604">MOD3_BYPASS</a> = 0xf6
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a4bebfd5b260b2a5cc21658e178c3ef1d">MOD4_DESTINATION</a> = 0xbf
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a90036bbd8af87e736ff740e136c3d2b4">MOD4_SOURCE</a> = 0xc0
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac904f83ff9032ebc6600dee73e36405d">MOD4_VIA</a> = 0xc1
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ab04c25b38739b3acce76985fbcbd5287">MOD4_AMOUNT_LOW</a> = 0xc2
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a1aded7578922d387b01ed0c802257cbd">MOD4_AMOUNT_HIGH</a> = 0xc3
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a3b73aea7cda5836bd8c74bc21d121050">MOD4_SRC_INVERT</a> = 0xec
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a21bf66a1a1ac04db9ea149d97335a0b5">MOD4_VIA_INVERT</a> = 0xc4
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa28363d1ea8262a2a9969f01d711fe93">MOD4_BYPASS</a> = 0xf7
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5c874dbac38534c8c8a3ccd93eda0317">MOD5_DESTINATION</a> = 0xc5
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2afc5c03f1e5c198806e165bab36c9e095">MOD5_SOURCE</a> = 0xc6
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aeff3e5661b917af34816e094aca2299a">MOD5_VIA</a> = 0xc7
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa49161a7867a507e8f19f233c9d3ae3a">MOD5_AMOUNT_LOW</a> = 0xc8
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a3ee3ce7af7ce705a135378b347335057">MOD5_AMOUNT_HIGH</a> = 0xc9
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0fc3f94d6faf5255566e13ff557014d9">MOD5_SRC_INVERT</a> = 0xed
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a718231ac9b61b872a362032dcac0533f">MOD5_VIA_INVERT</a> = 0xca
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a062b6f0e3cea7163ea4762c74a8e25b6">MOD5_BYPASS</a> = 0xf8
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aed1beb10e994ee07670024ce960d9203">MOD6_DESTINATION</a> = 0xcb
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a582713cadf76d43a15b57774243df907">MOD6_SOURCE</a> = 0xcc
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a68e637e7236f2254f3ce20d56bebc7a9">MOD6_VIA</a> = 0xcd
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a1cad097df6f9cb861fe8945e0dc3e42c">MOD6_AMOUNT_LOW</a> = 0xce
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a3d3d39c20d51c8ffd32a25ff6a1a913b">MOD6_AMOUNT_HIGH</a> = 0xcf
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aef5ec8b9e74d81a5787a525eeb32f60b">MOD6_SRC_INVERT</a> = 0xee
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aee8931f4302bc4f4da550aeacd8967c2">MOD6_VIA_INVERT</a> = 0xd0
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a20743846f3ea7782b9f158ba0e1ae3a4">MOD6_BYPASS</a> = 0xf9
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ad95eb0cd76760d11b73e74bcc63692c3">MOD7_DESTINATION</a> = 0xd1
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8da3ba66c400d6cc4f19423860ccacbc">MOD7_SOURCE</a> = 0xd2
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac291da9274563472845d443fdee54df1">MOD7_VIA</a> = 0xd3
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a7cae03f45b4e7840d4bbe27f41e9c6ad">MOD7_AMOUNT_LOW</a> = 0xd4
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa9da56a3f782e143d4ef18b91c3949fd">MOD7_AMOUNT_HIGH</a> = 0xd5
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a270bb1cb86700b07a2883f2e48388f66">MOD7_SRC_INVERT</a> = 0xef
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a25a297b0bfc6415dac37c7f0a9fc45ee">MOD7_VIA_INVERT</a> = 0xd6
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a62c2363ac6217d9adacbd8344b3cfcd8">MOD7_BYPASS</a> = 0xfa
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac0c961cede8ae1a7ff7783e10ca2092f">MOD8_DESTINATION</a> = 0xd7
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8b0e894d28da600c2dee5713ee720adc">MOD8_SOURCE</a> = 0xd8
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a57305ec399d03ff001bc1f6b3edeac30">MOD8_VIA</a> = 0xd9
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a48a573af985083021ab185d73fdc9150">MOD8_AMOUNT_LOW</a> = 0xda
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a4dafd73f38dd2dce9fd6bd80783bc718">MOD8_AMOUNT_HIGH</a> = 0xdb
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2453987ca7c7aa8ac132ee2143866141">MOD8_SRC_INVERT</a> = 0xf0
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2addabb2b660cc62102945f382e25c7f9f">MOD8_VIA_INVERT</a> = 0xdc
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a019aef9b561207d9044b596eb5fe7a67">MOD8_BYPASS</a> = 0xfb
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a623745726a79428f89a0d20da6654e96">MOD9_DESTINATION</a> = 0xdd
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a4c07ce2a72baab357d3162ebb6feedc1">MOD9_SOURCE</a> = 0xde
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2601b5776254eb3d66d3454618df4b87">MOD9_VIA</a> = 0xdf
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a9bb6638851da1dbcfc5ef6e65da21f4c">MOD9_AMOUNT_LOW</a> = 0xe0
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a80ddb4b722807a8b6eb6d3acf1897d70">MOD9_AMOUNT_HIGH</a> = 0xe1
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0da060eed470a238f33b44f3f155bed0">MOD9_SRC_INVERT</a> = 0xf1
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a62358371992a87a43e316d32b81283a6">MOD9_VIA_INVERT</a> = 0xe2
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2782363cfbc9f32c5377423c0365d0e6">MOD9_BYPASS</a> = 0xfc
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a7b225a6a0e2353744a6c003eabe73a60">MOD10_DESTINATION</a> = 0xe3
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a10db351166d871059182f75a3dbc9937">MOD10_SOURCE</a> = 0xe4
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac7c5e30d2c839653d0bc32358ebefaf4">MOD10_VIA</a> = 0xe5
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2adff194894bcf715f64157d30d46c5dfc">MOD10_AMOUNT_LOW</a> = 0xe6
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8c369a85ace57c996048620d52a21a61">MOD10_AMOUNT_HIGH</a> = 0xe7
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0de1076af0e55079c8f00cfa22e01a3b">MOD10_SRC_INVERT</a> = 0xf2
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a1335f4e9423d1beed91891d837d89dfb">MOD10_VIA_INVERT</a> = 0xe8
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a18eb3a497f59394c017be90a8c7a71a9">MOD10_BYPASS</a> = 0xfd
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a342b133e6ea56eb0b24cf627c99d6016">MOD11_DESTINATION</a> = 0x19b
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0cb6e2edfce03ae6560dee5bc771423c">MOD11_SOURCE</a> = 0x19c
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a1095e794b6280b74b2a3df24cb763e5c">MOD11_VIA</a> = 0x19d
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0b5089a0beb860a7e8c2eee3ac413d2f">MOD11_AMOUNT_LOW</a> = 0x19e
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a51ca9286937cf2f5b90baf3f8a4b89ac">MOD11_AMOUNT_HIGH</a> = 0x19f
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a7e08dce1f3f4022862de9c6fe2c94700">MOD11_SRC_INVERT</a> = 0x1a0
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a494e4d7d26e5a21aa77290e03ae32a6f">MOD11_VIA_INVERT</a> = 0x1a1
+, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2acc8e3d74247698d5a682945cead181a6">MOD11_BYPASS</a> = 0x1a2
+<br />
+ }</td></tr>
+<tr class="separator:aa720d0a28ea34b938684edc6b674c6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acfd5a356f27a48d6968f95cb4ec13889" id="r_acfd5a356f27a48d6968f95cb4ec13889"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#acfd5a356f27a48d6968f95cb4ec13889">exsEnvByteToSeconds</a> (int v)</td></tr>
+<tr class="separator:acfd5a356f27a48d6968f95cb4ec13889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d782b7f8989e89f0467b64f17a42bd1" id="r_a4d782b7f8989e89f0467b64f17a42bd1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a4d782b7f8989e89f0467b64f17a42bd1">readU32</a> (std::ifstream &amp;f, bool bigE)</td></tr>
 <tr class="separator:a4d782b7f8989e89f0467b64f17a42bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a266458bc003355872a1067c59515dc61" id="r_a266458bc003355872a1067c59515dc61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1exs__support_1_1EXSInfo.html">EXSInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS</a> (const fs::path &amp;p)</td></tr>
@@ -158,7 +387,228 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aa720d0a28ea34b938684edc6b674c6a2" name="aa720d0a28ea34b938684edc6b674c6a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa720d0a28ea34b938684edc6b674c6a2">&#9670;&#160;</a></span>EXSParam</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2">EXSParam</a> : uint16_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2af41f17f4428e48e3ee187211123a0eeb" name="aa720d0a28ea34b938684edc6b674c6a2af41f17f4428e48e3ee187211123a0eeb"></a>MASTER_VOLUME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a07c83bea73c855bd6ee6ce0b4ce446a3" name="aa720d0a28ea34b938684edc6b674c6a2a07c83bea73c855bd6ee6ce0b4ce446a3"></a>MASTER_PAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a4a9ef9f46cd420d6106e4278833e46cb" name="aa720d0a28ea34b938684edc6b674c6a2a4a9ef9f46cd420d6106e4278833e46cb"></a>VOLUME_KEYSCALE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a741b7c08d910af7705680f307b66bdf4" name="aa720d0a28ea34b938684edc6b674c6a2a741b7c08d910af7705680f307b66bdf4"></a>PITCH_BEND_UP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2acf8c2876a7f03625eb5bf886296baed9" name="aa720d0a28ea34b938684edc6b674c6a2acf8c2876a7f03625eb5bf886296baed9"></a>PITCH_BEND_DOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2afb9e58b03fe52c744df80518f2645934" name="aa720d0a28ea34b938684edc6b674c6a2afb9e58b03fe52c744df80518f2645934"></a>MONO_LEGATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aef187fa1d76ebdd749e4208f21c52b50" name="aa720d0a28ea34b938684edc6b674c6a2aef187fa1d76ebdd749e4208f21c52b50"></a>MIDI_MONO_MODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aeccf126288bc0abe4ea2ecbf1b146913" name="aa720d0a28ea34b938684edc6b674c6a2aeccf126288bc0abe4ea2ecbf1b146913"></a>MIDI_MONO_MODE_PITCH_RANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2af761ac380f840e42dcd9be74aec158a4" name="aa720d0a28ea34b938684edc6b674c6a2af761ac380f840e42dcd9be74aec158a4"></a>POLYPHONY_VOICES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2af2298dd538e1d707988cbcdc0810707e" name="aa720d0a28ea34b938684edc6b674c6a2af2298dd538e1d707988cbcdc0810707e"></a>TRANSPOSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a761c0d02de4b74e339a5995c7474797c" name="aa720d0a28ea34b938684edc6b674c6a2a761c0d02de4b74e339a5995c7474797c"></a>COARSE_TUNE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5665bf9ccd5bc0163bf755e0767c97b5" name="aa720d0a28ea34b938684edc6b674c6a2a5665bf9ccd5bc0163bf755e0767c97b5"></a>FINE_TUNE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8163acad1c5fcd3bd5f60596bbd7bfbc" name="aa720d0a28ea34b938684edc6b674c6a2a8163acad1c5fcd3bd5f60596bbd7bfbc"></a>GLIDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0a527cf5e4d0bae19b2ad785c9d396fa" name="aa720d0a28ea34b938684edc6b674c6a2a0a527cf5e4d0bae19b2ad785c9d396fa"></a>PORTA_DOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2afe213f4a0cebff1bcc7ed8c8e8bd395f" name="aa720d0a28ea34b938684edc6b674c6a2afe213f4a0cebff1bcc7ed8c8e8bd395f"></a>PORTA_UP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2afbeea4218e21ddb3c2c93b86c45e906d" name="aa720d0a28ea34b938684edc6b674c6a2afbeea4218e21ddb3c2c93b86c45e906d"></a>FILTER1_TOGGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a530a18a39a7e94806b3ba4f186fc60ff" name="aa720d0a28ea34b938684edc6b674c6a2a530a18a39a7e94806b3ba4f186fc60ff"></a>FILTER1_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ab70eb8ec961d77206220f534cecb0a86" name="aa720d0a28ea34b938684edc6b674c6a2ab70eb8ec961d77206220f534cecb0a86"></a>FILTER1_FAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8cf14b053bf915748d7851519755d314" name="aa720d0a28ea34b938684edc6b674c6a2a8cf14b053bf915748d7851519755d314"></a>FILTER1_CUTOFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a9395faee2454596e3419f6fa044cdad6" name="aa720d0a28ea34b938684edc6b674c6a2a9395faee2454596e3419f6fa044cdad6"></a>FILTER1_RESO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2acc0c580f7219fa5e07c378951107c4c1" name="aa720d0a28ea34b938684edc6b674c6a2acc0c580f7219fa5e07c378951107c4c1"></a>FILTER1_DRIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a9c9229bc6da9d540a08ae29d43af29b3" name="aa720d0a28ea34b938684edc6b674c6a2a9c9229bc6da9d540a08ae29d43af29b3"></a>FILTER1_KEYTRACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae308aa7c74035802b583b640c6bc657b" name="aa720d0a28ea34b938684edc6b674c6a2ae308aa7c74035802b583b640c6bc657b"></a>FILTER2_TOGGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2afa635c624c8767afece5abf02b8d9b8e" name="aa720d0a28ea34b938684edc6b674c6a2afa635c624c8767afece5abf02b8d9b8e"></a>FILTER2_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac9378b54a4344dd3738a873a5b255a49" name="aa720d0a28ea34b938684edc6b674c6a2ac9378b54a4344dd3738a873a5b255a49"></a>FILTER2_CUTOFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8b398f279720f72ee64c8ffd984129e0" name="aa720d0a28ea34b938684edc6b674c6a2a8b398f279720f72ee64c8ffd984129e0"></a>FILTER2_RESO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a563e81f913cc7649d67006a7a3adc7c9" name="aa720d0a28ea34b938684edc6b674c6a2a563e81f913cc7649d67006a7a3adc7c9"></a>FILTER2_DRIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a074c654a3f69943da3d1f5bedac03503" name="aa720d0a28ea34b938684edc6b674c6a2a074c654a3f69943da3d1f5bedac03503"></a>FILTERS_SERIAL_PARALLEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a3d331b39ab415b5471df92ea9faf3e6c" name="aa720d0a28ea34b938684edc6b674c6a2a3d331b39ab415b5471df92ea9faf3e6c"></a>FILTERS_BLEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2af6aa8cd6a18e01318ab7b25a277adb2c" name="aa720d0a28ea34b938684edc6b674c6a2af6aa8cd6a18e01318ab7b25a277adb2c"></a>LFO_1_FADE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a7ded875ab590641a7a7d7a5dd7dea186" name="aa720d0a28ea34b938684edc6b674c6a2a7ded875ab590641a7a7d7a5dd7dea186"></a>LFO_1_RATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a69eaacc03618d274bfc4115dfc84251e" name="aa720d0a28ea34b938684edc6b674c6a2a69eaacc03618d274bfc4115dfc84251e"></a>LFO_1_WAVE_SHAPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae577e5d379219d07815aca2f453d8aa1" name="aa720d0a28ea34b938684edc6b674c6a2ae577e5d379219d07815aca2f453d8aa1"></a>LFO_1_KEY_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a05caf90aaabc67e85ae44061fe9c4382" name="aa720d0a28ea34b938684edc6b674c6a2a05caf90aaabc67e85ae44061fe9c4382"></a>LFO_1_MONO_POLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a185e27b872dbb9879f82f5b853209fcf" name="aa720d0a28ea34b938684edc6b674c6a2a185e27b872dbb9879f82f5b853209fcf"></a>LFO_1_PHASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae142b1aa166249952ed78a6c67b789b4" name="aa720d0a28ea34b938684edc6b674c6a2ae142b1aa166249952ed78a6c67b789b4"></a>LFO_1_POSITIVE_OR_MIDPOINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aed83b68be54d847e23cdc8d5cf53fca0" name="aa720d0a28ea34b938684edc6b674c6a2aed83b68be54d847e23cdc8d5cf53fca0"></a>LFO_1_TEMPO_SYNC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a68609750975a91361bc134e680914d1b" name="aa720d0a28ea34b938684edc6b674c6a2a68609750975a91361bc134e680914d1b"></a>LFO_1_FADE_IN_OR_OUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ad625b187394dee1fcd9af4f1f956bb97" name="aa720d0a28ea34b938684edc6b674c6a2ad625b187394dee1fcd9af4f1f956bb97"></a>LFO_2_RATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2acde55fa77714c11c5dc1801ab8aeecdc" name="aa720d0a28ea34b938684edc6b674c6a2acde55fa77714c11c5dc1801ab8aeecdc"></a>LFO_2_WAVE_SHAPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a854f76f96e8d75119769bf5d2aa3f13e" name="aa720d0a28ea34b938684edc6b674c6a2a854f76f96e8d75119769bf5d2aa3f13e"></a>LFO_2_FADE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5d0af5778d48d232d56f23af9e2cc446" name="aa720d0a28ea34b938684edc6b674c6a2a5d0af5778d48d232d56f23af9e2cc446"></a>LFO_2_KEY_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ad6f1126de004ecfe510788a01db544d4" name="aa720d0a28ea34b938684edc6b674c6a2ad6f1126de004ecfe510788a01db544d4"></a>LFO_2_MONO_POLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae6a9066acd40831e94f92b183b83a361" name="aa720d0a28ea34b938684edc6b674c6a2ae6a9066acd40831e94f92b183b83a361"></a>LFO_2_PHASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8aa29a9ab1545be056ae6ec03ce27719" name="aa720d0a28ea34b938684edc6b674c6a2a8aa29a9ab1545be056ae6ec03ce27719"></a>LFO_2_POSITIVE_OR_MIDPOINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5843feb18125b6c30da4afb29f8ecd33" name="aa720d0a28ea34b938684edc6b674c6a2a5843feb18125b6c30da4afb29f8ecd33"></a>LFO_2_TEMPO_SYNC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a04b67b7d36e3c2347d0a47af103eaa6f" name="aa720d0a28ea34b938684edc6b674c6a2a04b67b7d36e3c2347d0a47af103eaa6f"></a>LFO_2_FADE_IN_OR_OUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0d6ac99953835b1815fc9b0855dba236" name="aa720d0a28ea34b938684edc6b674c6a2a0d6ac99953835b1815fc9b0855dba236"></a>LFO_3_RATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5ceeecd8c9fc98fbb50af86be786dd66" name="aa720d0a28ea34b938684edc6b674c6a2a5ceeecd8c9fc98fbb50af86be786dd66"></a>LFO_3_WAVE_SHAPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a39ff619bfb92655df1afccb27544e1fc" name="aa720d0a28ea34b938684edc6b674c6a2a39ff619bfb92655df1afccb27544e1fc"></a>LFO_3_FADE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a454e14499a42507ccb5eb18526ebd32a" name="aa720d0a28ea34b938684edc6b674c6a2a454e14499a42507ccb5eb18526ebd32a"></a>LFO_3_KEY_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a2fa0bd8305f02a8739329d908d0a7f42" name="aa720d0a28ea34b938684edc6b674c6a2a2fa0bd8305f02a8739329d908d0a7f42"></a>LFO_3_MONO_POLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2af37b2079f21506b0ee462efe1a88d123" name="aa720d0a28ea34b938684edc6b674c6a2af37b2079f21506b0ee462efe1a88d123"></a>LFO_3_PHASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0980529fffa74a0d4f48adaea17856a9" name="aa720d0a28ea34b938684edc6b674c6a2a0980529fffa74a0d4f48adaea17856a9"></a>LFO_3_POSITIVE_OR_MIDPOINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a3d96251cc965c6c8859777624a646ce0" name="aa720d0a28ea34b938684edc6b674c6a2a3d96251cc965c6c8859777624a646ce0"></a>LFO_3_TEMPO_SYNC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a3cd3d5b119e574363a090472f02a260e" name="aa720d0a28ea34b938684edc6b674c6a2a3cd3d5b119e574363a090472f02a260e"></a>LFO_3_FADE_IN_OR_OUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a831bc0c28ff52feaedec59a7b8c5ec76" name="aa720d0a28ea34b938684edc6b674c6a2a831bc0c28ff52feaedec59a7b8c5ec76"></a>ENV2_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2adf97f3d1011fecdb2b6b6b6ba6edcf83" name="aa720d0a28ea34b938684edc6b674c6a2adf97f3d1011fecdb2b6b6b6ba6edcf83"></a>ENV2_VEL_SENS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a99ca300d0fd6e45cf74df31697942019" name="aa720d0a28ea34b938684edc6b674c6a2a99ca300d0fd6e45cf74df31697942019"></a>ENV2_DELAY_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aa098548be6cade459a7dcdf787e1ca78" name="aa720d0a28ea34b938684edc6b674c6a2aa098548be6cade459a7dcdf787e1ca78"></a>ENV2_ATK_CURVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a09f0faf60644cdbd851d2f844642d8d4" name="aa720d0a28ea34b938684edc6b674c6a2a09f0faf60644cdbd851d2f844642d8d4"></a>ENV2_ATK_HI_VEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a95438b4377df056794d91fb2c8de3e2d" name="aa720d0a28ea34b938684edc6b674c6a2a95438b4377df056794d91fb2c8de3e2d"></a>ENV2_ATK_LO_VEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a36706f4833c3302151dc11a09230a09c" name="aa720d0a28ea34b938684edc6b674c6a2a36706f4833c3302151dc11a09230a09c"></a>ENV2_HOLD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac82d22ed85b41fe2b6f220f40fa16328" name="aa720d0a28ea34b938684edc6b674c6a2ac82d22ed85b41fe2b6f220f40fa16328"></a>ENV2_DECAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0510c3464a27746f8b80c78172ccae99" name="aa720d0a28ea34b938684edc6b674c6a2a0510c3464a27746f8b80c78172ccae99"></a>ENV2_SUSTAIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aaaf23c59833d9863e5b6b6014d7f7021" name="aa720d0a28ea34b938684edc6b674c6a2aaaf23c59833d9863e5b6b6014d7f7021"></a>ENV2_RELEASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae801028a9d3c882c8f725d87cc1e588b" name="aa720d0a28ea34b938684edc6b674c6a2ae801028a9d3c882c8f725d87cc1e588b"></a>ENV2_TIME_CURVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2adfa9209f588dfe705f13a96e0b154fcb" name="aa720d0a28ea34b938684edc6b674c6a2adfa9209f588dfe705f13a96e0b154fcb"></a>ENV1_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a62e42215cc02e1744ac13dd7b057f7ec" name="aa720d0a28ea34b938684edc6b674c6a2a62e42215cc02e1744ac13dd7b057f7ec"></a>ENV1_VEL_SENS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8a872943d3ec42d123e9f5014aaaed32" name="aa720d0a28ea34b938684edc6b674c6a2a8a872943d3ec42d123e9f5014aaaed32"></a>ENV1_VOLUME_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a070ae5f306ebbecc23f4f959e63e3d0d" name="aa720d0a28ea34b938684edc6b674c6a2a070ae5f306ebbecc23f4f959e63e3d0d"></a>ENV1_DELAY_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ad55f7e0fcfaf02a55230197424ce165d" name="aa720d0a28ea34b938684edc6b674c6a2ad55f7e0fcfaf02a55230197424ce165d"></a>ENV1_ATK_CURVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a00d25b21d4ef34dc0c5fe6c4a9ad83a8" name="aa720d0a28ea34b938684edc6b674c6a2a00d25b21d4ef34dc0c5fe6c4a9ad83a8"></a>ENV1_ATK_HI_VEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a912708dfc546c4b569ea9738559592bd" name="aa720d0a28ea34b938684edc6b674c6a2a912708dfc546c4b569ea9738559592bd"></a>ENV1_ATK_LO_VEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a64277e702c1c90fb6131e9be4575bcb5" name="aa720d0a28ea34b938684edc6b674c6a2a64277e702c1c90fb6131e9be4575bcb5"></a>ENV1_HOLD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aa434bd4628af9a5d771a7c9265944d06" name="aa720d0a28ea34b938684edc6b674c6a2aa434bd4628af9a5d771a7c9265944d06"></a>ENV1_DECAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a6efbbe63d8b5cc63feb06e4da4464f38" name="aa720d0a28ea34b938684edc6b674c6a2a6efbbe63d8b5cc63feb06e4da4464f38"></a>ENV1_SUSTAIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a2db238731da2fbd4b6d00dda21e31c14" name="aa720d0a28ea34b938684edc6b674c6a2a2db238731da2fbd4b6d00dda21e31c14"></a>ENV1_RELEASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a73a8ed3aa2c59327ebd4d49e9f4242f1" name="aa720d0a28ea34b938684edc6b674c6a2a73a8ed3aa2c59327ebd4d49e9f4242f1"></a>AMP_VELOCITY_CURVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a045ecbdb4a477a9b1671725bb44f0467" name="aa720d0a28ea34b938684edc6b674c6a2a045ecbdb4a477a9b1671725bb44f0467"></a>VELOCITY_OFFSET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae646d824ad50f07a4f01a8cb648e70a9" name="aa720d0a28ea34b938684edc6b674c6a2ae646d824ad50f07a4f01a8cb648e70a9"></a>RANDOM_VELOCITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0f361e54003dd0302f89e38d7b0329b8" name="aa720d0a28ea34b938684edc6b674c6a2a0f361e54003dd0302f89e38d7b0329b8"></a>RANDOM_SAMPLE_SEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5ec93924154099aec81b7a6dda05997e" name="aa720d0a28ea34b938684edc6b674c6a2a5ec93924154099aec81b7a6dda05997e"></a>RANDOM_PITCH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0ebdb685f70da904f0ec9b5909a535a8" name="aa720d0a28ea34b938684edc6b674c6a2a0ebdb685f70da904f0ec9b5909a535a8"></a>XFADE_AMOUNT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a26b83be081e5fb14db54bbfd12c60078" name="aa720d0a28ea34b938684edc6b674c6a2a26b83be081e5fb14db54bbfd12c60078"></a>XFADE_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ab7cb10d548493dc317be7f16c8259960" name="aa720d0a28ea34b938684edc6b674c6a2ab7cb10d548493dc317be7f16c8259960"></a>UNISON_TOGGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aee1531a7229b26de1a12350542167336" name="aa720d0a28ea34b938684edc6b674c6a2aee1531a7229b26de1a12350542167336"></a>COARSE_TUNE_REMOTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8eada2b119c132ca4ca81203737856df" name="aa720d0a28ea34b938684edc6b674c6a2a8eada2b119c132ca4ca81203737856df"></a>HOLD_VIA_CONTROL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae7110a6533972ba499218916620bf704" name="aa720d0a28ea34b938684edc6b674c6a2ae7110a6533972ba499218916620bf704"></a>MOD1_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a68eb2b9bc381e25d74574f3317a41771" name="aa720d0a28ea34b938684edc6b674c6a2a68eb2b9bc381e25d74574f3317a41771"></a>MOD1_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a7ac5c83a049cdafbd41361d0a48ffbf2" name="aa720d0a28ea34b938684edc6b674c6a2a7ac5c83a049cdafbd41361d0a48ffbf2"></a>MOD1_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a20f7122abcaff65a1e6ada12852a6bf8" name="aa720d0a28ea34b938684edc6b674c6a2a20f7122abcaff65a1e6ada12852a6bf8"></a>MOD1_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a09fe5c57f553bfbf5f11b09c06bf0029" name="aa720d0a28ea34b938684edc6b674c6a2a09fe5c57f553bfbf5f11b09c06bf0029"></a>MOD1_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a36da6221ac2a7839957bb91d75bab2db" name="aa720d0a28ea34b938684edc6b674c6a2a36da6221ac2a7839957bb91d75bab2db"></a>MOD1_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a742cfdf016b82083bd52eccf88d1bac9" name="aa720d0a28ea34b938684edc6b674c6a2a742cfdf016b82083bd52eccf88d1bac9"></a>MOD1_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a088fa89e47899c4d1638a4e394fe5b50" name="aa720d0a28ea34b938684edc6b674c6a2a088fa89e47899c4d1638a4e394fe5b50"></a>MOD1_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5e86cc20e820f52686250487f033df1d" name="aa720d0a28ea34b938684edc6b674c6a2a5e86cc20e820f52686250487f033df1d"></a>MOD2_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a4fd574a4584b9bfcb7b883af3edaf2af" name="aa720d0a28ea34b938684edc6b674c6a2a4fd574a4584b9bfcb7b883af3edaf2af"></a>MOD2_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a15490c0157f20e8b1f2865d00d3e1c12" name="aa720d0a28ea34b938684edc6b674c6a2a15490c0157f20e8b1f2865d00d3e1c12"></a>MOD2_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8bc0ee4312aa15360a9d2a1032e0f0ff" name="aa720d0a28ea34b938684edc6b674c6a2a8bc0ee4312aa15360a9d2a1032e0f0ff"></a>MOD2_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae5d1b0e107f9e6b34f2f4d04ebdca089" name="aa720d0a28ea34b938684edc6b674c6a2ae5d1b0e107f9e6b34f2f4d04ebdca089"></a>MOD2_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a4c61186246c8823c5cf204c5fc805bf1" name="aa720d0a28ea34b938684edc6b674c6a2a4c61186246c8823c5cf204c5fc805bf1"></a>MOD2_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a7a7908163e8f964d3c97d5c3bb62679e" name="aa720d0a28ea34b938684edc6b674c6a2a7a7908163e8f964d3c97d5c3bb62679e"></a>MOD2_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aa903d1b134eea9a7d62ea6fda176a2e2" name="aa720d0a28ea34b938684edc6b674c6a2aa903d1b134eea9a7d62ea6fda176a2e2"></a>MOD2_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ae7a9397fd6c1442f47899ef250e3219c" name="aa720d0a28ea34b938684edc6b674c6a2ae7a9397fd6c1442f47899ef250e3219c"></a>MOD3_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a055da40104ac1c966b806532fc4ec0f6" name="aa720d0a28ea34b938684edc6b674c6a2a055da40104ac1c966b806532fc4ec0f6"></a>MOD3_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0015b1c89a6569621b3d94acaa915c47" name="aa720d0a28ea34b938684edc6b674c6a2a0015b1c89a6569621b3d94acaa915c47"></a>MOD3_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a053d0527584ecd6376a19f044646a2b4" name="aa720d0a28ea34b938684edc6b674c6a2a053d0527584ecd6376a19f044646a2b4"></a>MOD3_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a2a49dc8101eda53b9f26c89b14406aa7" name="aa720d0a28ea34b938684edc6b674c6a2a2a49dc8101eda53b9f26c89b14406aa7"></a>MOD3_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac89713cd18f7022cf64316aeb60b7eb8" name="aa720d0a28ea34b938684edc6b674c6a2ac89713cd18f7022cf64316aeb60b7eb8"></a>MOD3_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a70174285a039f2da39ee5140cfddffaa" name="aa720d0a28ea34b938684edc6b674c6a2a70174285a039f2da39ee5140cfddffaa"></a>MOD3_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a64981fe868f98a23482053700754a604" name="aa720d0a28ea34b938684edc6b674c6a2a64981fe868f98a23482053700754a604"></a>MOD3_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a4bebfd5b260b2a5cc21658e178c3ef1d" name="aa720d0a28ea34b938684edc6b674c6a2a4bebfd5b260b2a5cc21658e178c3ef1d"></a>MOD4_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a90036bbd8af87e736ff740e136c3d2b4" name="aa720d0a28ea34b938684edc6b674c6a2a90036bbd8af87e736ff740e136c3d2b4"></a>MOD4_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac904f83ff9032ebc6600dee73e36405d" name="aa720d0a28ea34b938684edc6b674c6a2ac904f83ff9032ebc6600dee73e36405d"></a>MOD4_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ab04c25b38739b3acce76985fbcbd5287" name="aa720d0a28ea34b938684edc6b674c6a2ab04c25b38739b3acce76985fbcbd5287"></a>MOD4_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a1aded7578922d387b01ed0c802257cbd" name="aa720d0a28ea34b938684edc6b674c6a2a1aded7578922d387b01ed0c802257cbd"></a>MOD4_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a3b73aea7cda5836bd8c74bc21d121050" name="aa720d0a28ea34b938684edc6b674c6a2a3b73aea7cda5836bd8c74bc21d121050"></a>MOD4_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a21bf66a1a1ac04db9ea149d97335a0b5" name="aa720d0a28ea34b938684edc6b674c6a2a21bf66a1a1ac04db9ea149d97335a0b5"></a>MOD4_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aa28363d1ea8262a2a9969f01d711fe93" name="aa720d0a28ea34b938684edc6b674c6a2aa28363d1ea8262a2a9969f01d711fe93"></a>MOD4_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a5c874dbac38534c8c8a3ccd93eda0317" name="aa720d0a28ea34b938684edc6b674c6a2a5c874dbac38534c8c8a3ccd93eda0317"></a>MOD5_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2afc5c03f1e5c198806e165bab36c9e095" name="aa720d0a28ea34b938684edc6b674c6a2afc5c03f1e5c198806e165bab36c9e095"></a>MOD5_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aeff3e5661b917af34816e094aca2299a" name="aa720d0a28ea34b938684edc6b674c6a2aeff3e5661b917af34816e094aca2299a"></a>MOD5_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aa49161a7867a507e8f19f233c9d3ae3a" name="aa720d0a28ea34b938684edc6b674c6a2aa49161a7867a507e8f19f233c9d3ae3a"></a>MOD5_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a3ee3ce7af7ce705a135378b347335057" name="aa720d0a28ea34b938684edc6b674c6a2a3ee3ce7af7ce705a135378b347335057"></a>MOD5_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0fc3f94d6faf5255566e13ff557014d9" name="aa720d0a28ea34b938684edc6b674c6a2a0fc3f94d6faf5255566e13ff557014d9"></a>MOD5_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a718231ac9b61b872a362032dcac0533f" name="aa720d0a28ea34b938684edc6b674c6a2a718231ac9b61b872a362032dcac0533f"></a>MOD5_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a062b6f0e3cea7163ea4762c74a8e25b6" name="aa720d0a28ea34b938684edc6b674c6a2a062b6f0e3cea7163ea4762c74a8e25b6"></a>MOD5_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aed1beb10e994ee07670024ce960d9203" name="aa720d0a28ea34b938684edc6b674c6a2aed1beb10e994ee07670024ce960d9203"></a>MOD6_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a582713cadf76d43a15b57774243df907" name="aa720d0a28ea34b938684edc6b674c6a2a582713cadf76d43a15b57774243df907"></a>MOD6_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a68e637e7236f2254f3ce20d56bebc7a9" name="aa720d0a28ea34b938684edc6b674c6a2a68e637e7236f2254f3ce20d56bebc7a9"></a>MOD6_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a1cad097df6f9cb861fe8945e0dc3e42c" name="aa720d0a28ea34b938684edc6b674c6a2a1cad097df6f9cb861fe8945e0dc3e42c"></a>MOD6_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a3d3d39c20d51c8ffd32a25ff6a1a913b" name="aa720d0a28ea34b938684edc6b674c6a2a3d3d39c20d51c8ffd32a25ff6a1a913b"></a>MOD6_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aef5ec8b9e74d81a5787a525eeb32f60b" name="aa720d0a28ea34b938684edc6b674c6a2aef5ec8b9e74d81a5787a525eeb32f60b"></a>MOD6_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aee8931f4302bc4f4da550aeacd8967c2" name="aa720d0a28ea34b938684edc6b674c6a2aee8931f4302bc4f4da550aeacd8967c2"></a>MOD6_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a20743846f3ea7782b9f158ba0e1ae3a4" name="aa720d0a28ea34b938684edc6b674c6a2a20743846f3ea7782b9f158ba0e1ae3a4"></a>MOD6_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ad95eb0cd76760d11b73e74bcc63692c3" name="aa720d0a28ea34b938684edc6b674c6a2ad95eb0cd76760d11b73e74bcc63692c3"></a>MOD7_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8da3ba66c400d6cc4f19423860ccacbc" name="aa720d0a28ea34b938684edc6b674c6a2a8da3ba66c400d6cc4f19423860ccacbc"></a>MOD7_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac291da9274563472845d443fdee54df1" name="aa720d0a28ea34b938684edc6b674c6a2ac291da9274563472845d443fdee54df1"></a>MOD7_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a7cae03f45b4e7840d4bbe27f41e9c6ad" name="aa720d0a28ea34b938684edc6b674c6a2a7cae03f45b4e7840d4bbe27f41e9c6ad"></a>MOD7_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2aa9da56a3f782e143d4ef18b91c3949fd" name="aa720d0a28ea34b938684edc6b674c6a2aa9da56a3f782e143d4ef18b91c3949fd"></a>MOD7_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a270bb1cb86700b07a2883f2e48388f66" name="aa720d0a28ea34b938684edc6b674c6a2a270bb1cb86700b07a2883f2e48388f66"></a>MOD7_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a25a297b0bfc6415dac37c7f0a9fc45ee" name="aa720d0a28ea34b938684edc6b674c6a2a25a297b0bfc6415dac37c7f0a9fc45ee"></a>MOD7_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a62c2363ac6217d9adacbd8344b3cfcd8" name="aa720d0a28ea34b938684edc6b674c6a2a62c2363ac6217d9adacbd8344b3cfcd8"></a>MOD7_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac0c961cede8ae1a7ff7783e10ca2092f" name="aa720d0a28ea34b938684edc6b674c6a2ac0c961cede8ae1a7ff7783e10ca2092f"></a>MOD8_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8b0e894d28da600c2dee5713ee720adc" name="aa720d0a28ea34b938684edc6b674c6a2a8b0e894d28da600c2dee5713ee720adc"></a>MOD8_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a57305ec399d03ff001bc1f6b3edeac30" name="aa720d0a28ea34b938684edc6b674c6a2a57305ec399d03ff001bc1f6b3edeac30"></a>MOD8_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a48a573af985083021ab185d73fdc9150" name="aa720d0a28ea34b938684edc6b674c6a2a48a573af985083021ab185d73fdc9150"></a>MOD8_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a4dafd73f38dd2dce9fd6bd80783bc718" name="aa720d0a28ea34b938684edc6b674c6a2a4dafd73f38dd2dce9fd6bd80783bc718"></a>MOD8_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a2453987ca7c7aa8ac132ee2143866141" name="aa720d0a28ea34b938684edc6b674c6a2a2453987ca7c7aa8ac132ee2143866141"></a>MOD8_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2addabb2b660cc62102945f382e25c7f9f" name="aa720d0a28ea34b938684edc6b674c6a2addabb2b660cc62102945f382e25c7f9f"></a>MOD8_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a019aef9b561207d9044b596eb5fe7a67" name="aa720d0a28ea34b938684edc6b674c6a2a019aef9b561207d9044b596eb5fe7a67"></a>MOD8_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a623745726a79428f89a0d20da6654e96" name="aa720d0a28ea34b938684edc6b674c6a2a623745726a79428f89a0d20da6654e96"></a>MOD9_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a4c07ce2a72baab357d3162ebb6feedc1" name="aa720d0a28ea34b938684edc6b674c6a2a4c07ce2a72baab357d3162ebb6feedc1"></a>MOD9_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a2601b5776254eb3d66d3454618df4b87" name="aa720d0a28ea34b938684edc6b674c6a2a2601b5776254eb3d66d3454618df4b87"></a>MOD9_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a9bb6638851da1dbcfc5ef6e65da21f4c" name="aa720d0a28ea34b938684edc6b674c6a2a9bb6638851da1dbcfc5ef6e65da21f4c"></a>MOD9_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a80ddb4b722807a8b6eb6d3acf1897d70" name="aa720d0a28ea34b938684edc6b674c6a2a80ddb4b722807a8b6eb6d3acf1897d70"></a>MOD9_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0da060eed470a238f33b44f3f155bed0" name="aa720d0a28ea34b938684edc6b674c6a2a0da060eed470a238f33b44f3f155bed0"></a>MOD9_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a62358371992a87a43e316d32b81283a6" name="aa720d0a28ea34b938684edc6b674c6a2a62358371992a87a43e316d32b81283a6"></a>MOD9_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a2782363cfbc9f32c5377423c0365d0e6" name="aa720d0a28ea34b938684edc6b674c6a2a2782363cfbc9f32c5377423c0365d0e6"></a>MOD9_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a7b225a6a0e2353744a6c003eabe73a60" name="aa720d0a28ea34b938684edc6b674c6a2a7b225a6a0e2353744a6c003eabe73a60"></a>MOD10_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a10db351166d871059182f75a3dbc9937" name="aa720d0a28ea34b938684edc6b674c6a2a10db351166d871059182f75a3dbc9937"></a>MOD10_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2ac7c5e30d2c839653d0bc32358ebefaf4" name="aa720d0a28ea34b938684edc6b674c6a2ac7c5e30d2c839653d0bc32358ebefaf4"></a>MOD10_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2adff194894bcf715f64157d30d46c5dfc" name="aa720d0a28ea34b938684edc6b674c6a2adff194894bcf715f64157d30d46c5dfc"></a>MOD10_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a8c369a85ace57c996048620d52a21a61" name="aa720d0a28ea34b938684edc6b674c6a2a8c369a85ace57c996048620d52a21a61"></a>MOD10_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0de1076af0e55079c8f00cfa22e01a3b" name="aa720d0a28ea34b938684edc6b674c6a2a0de1076af0e55079c8f00cfa22e01a3b"></a>MOD10_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a1335f4e9423d1beed91891d837d89dfb" name="aa720d0a28ea34b938684edc6b674c6a2a1335f4e9423d1beed91891d837d89dfb"></a>MOD10_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a18eb3a497f59394c017be90a8c7a71a9" name="aa720d0a28ea34b938684edc6b674c6a2a18eb3a497f59394c017be90a8c7a71a9"></a>MOD10_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a342b133e6ea56eb0b24cf627c99d6016" name="aa720d0a28ea34b938684edc6b674c6a2a342b133e6ea56eb0b24cf627c99d6016"></a>MOD11_DESTINATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0cb6e2edfce03ae6560dee5bc771423c" name="aa720d0a28ea34b938684edc6b674c6a2a0cb6e2edfce03ae6560dee5bc771423c"></a>MOD11_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a1095e794b6280b74b2a3df24cb763e5c" name="aa720d0a28ea34b938684edc6b674c6a2a1095e794b6280b74b2a3df24cb763e5c"></a>MOD11_VIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a0b5089a0beb860a7e8c2eee3ac413d2f" name="aa720d0a28ea34b938684edc6b674c6a2a0b5089a0beb860a7e8c2eee3ac413d2f"></a>MOD11_AMOUNT_LOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a51ca9286937cf2f5b90baf3f8a4b89ac" name="aa720d0a28ea34b938684edc6b674c6a2a51ca9286937cf2f5b90baf3f8a4b89ac"></a>MOD11_AMOUNT_HIGH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a7e08dce1f3f4022862de9c6fe2c94700" name="aa720d0a28ea34b938684edc6b674c6a2a7e08dce1f3f4022862de9c6fe2c94700"></a>MOD11_SRC_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2a494e4d7d26e5a21aa77290e03ae32a6f" name="aa720d0a28ea34b938684edc6b674c6a2a494e4d7d26e5a21aa77290e03ae32a6f"></a>MOD11_VIA_INVERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa720d0a28ea34b938684edc6b674c6a2acc8e3d74247698d5a682945cead181a6" name="aa720d0a28ea34b938684edc6b674c6a2acc8e3d74247698d5a682945cead181a6"></a>MOD11_BYPASS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="acfd5a356f27a48d6968f95cb4ec13889" name="acfd5a356f27a48d6968f95cb4ec13889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfd5a356f27a48d6968f95cb4ec13889">&#9670;&#160;</a></span>exsEnvByteToSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float exsEnvByteToSeconds </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">importEXS()</a>.</p>
+
+</div>
+</div>
 <a id="a4d782b7f8989e89f0467b64f17a42bd1" name="a4d782b7f8989e89f0467b64f17a42bd1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d782b7f8989e89f0467b64f17a42bd1">&#9670;&#160;</a></span>readU32()</h2>
 
@@ -297,7 +747,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0214003454427ee7aba3fcad7609ea13">ImporterContext::addGroup()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a1cf463969236ae2a60313ab61ef65cae">ImporterContext::addZoneToGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a60775b4e6844333665f29e88f3657c21">Zone::ALTERNATE_DIRECTIONS</a>, <a class="el" href="namespacescxt_1_1import__support.html#a85fd7e9bd8c8fec8561c6762aa79b95e">scxt::import_support::centsToSemitones()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#ae6a96d5a00dd08d7fcec229dc351fd14">ImporterContext::finish()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a24e591b4b7902af4271d01a84c1844fb">scxt::import_support::importZoneLoop()</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad6b2c1aad037c45a6b67958e8bad93c9">scxt::import_support::importZoneMapping()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a19de3db0977be1db137784f04cc325de">ImporterContext::loadSampleFromDisk()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94">Zone::LOOP_DURING_VOICE</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a188092ed559d356ade9a517d60ec3f34a811e55ae9fced8f0b5d4be29bbe0775b">Zone::ONE_SHOT</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0214003454427ee7aba3fcad7609ea13">ImporterContext::addGroup()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a08d5189db735a67f02af0fa893ceb521">scxt::import_support::addImportedModRoute()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a1cf463969236ae2a60313ab61ef65cae">ImporterContext::addZoneToGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a60775b4e6844333665f29e88f3657c21">Zone::ALTERNATE_DIRECTIONS</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a5df7ddbefaca75e791e7901a14131a2e">EnvelopeArgs::attackSeconds</a>, <a class="el" href="namespacescxt_1_1import__support.html#a85fd7e9bd8c8fec8561c6762aa79b95e">scxt::import_support::centsToSemitones()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a761c0d02de4b74e339a5995c7474797c">COARSE_TUNE</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#a767c63a3e97d88466076a04451a2ea8c">FilterArgs::cutoff</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad0561aac2328a7ce5df5d7fcb542c06babc5449e9092ea92f5393be6516916084">scxt::import_support::Cutoff</a>, <a class="el" href="namespacescxt_1_1import__support.html#ae404e737facedf0179c635243e9a318b">scxt::import_support::dBToCubicAttenuation()</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a025939c830825980c1bbcb69d4a639a8">EnvelopeArgs::decaySeconds</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a69e9b251c1e6ba2f11b5763accecde24">EnvelopeArgs::delaySeconds</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a00d25b21d4ef34dc0c5fe6c4a9ad83a8">ENV1_ATK_HI_VEL</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aa434bd4628af9a5d771a7c9265944d06">ENV1_DECAY</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a070ae5f306ebbecc23f4f959e63e3d0d">ENV1_DELAY_START</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a64277e702c1c90fb6131e9be4575bcb5">ENV1_HOLD</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a2db238731da2fbd4b6d00dda21e31c14">ENV1_RELEASE</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a6efbbe63d8b5cc63feb06e4da4464f38">ENV1_SUSTAIN</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a09f0faf60644cdbd851d2f844642d8d4">ENV2_ATK_HI_VEL</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ac82d22ed85b41fe2b6f220f40fa16328">ENV2_DECAY</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a99ca300d0fd6e45cf74df31697942019">ENV2_DELAY_START</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a36706f4833c3302151dc11a09230a09c">ENV2_HOLD</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aaaf23c59833d9863e5b6b6014d7f7021">ENV2_RELEASE</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a0510c3464a27746f8b80c78172ccae99">ENV2_SUSTAIN</a>, <a class="el" href="namespacescxt_1_1exs__support.html#acfd5a356f27a48d6968f95cb4ec13889">exsEnvByteToSeconds()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a508ca599df89c332310f56ac2f758b92">ImportedTarget::filter()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8cf14b053bf915748d7851519755d314">FILTER1_CUTOFF</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a9395faee2454596e3419f6fa044cdad6">FILTER1_RESO</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2afbeea4218e21ddb3c2c93b86c45e906d">FILTER1_TOGGLE</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a5665bf9ccd5bc0163bf755e0767c97b5">FINE_TUNE</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#ae6a96d5a00dd08d7fcec229dc351fd14">ImporterContext::finish()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#a34521ffac74b2c4184146327f4fea1f4">ImportedSource::fromEG()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a7bef8f48f40a8ece38610b14960c1df0">Part::getGroup()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a4eba51ff648ba83aee203534f088552c">ImporterContext::getPart()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a11fb718cdfa798e212b51736df683ecd">EnvelopeArgs::holdSeconds</a>, <a class="el" href="namespacescxt_1_1import__support.html#ae9db272ac3dc5131ae36efe1ef05815e">scxt::import_support::importZoneEnvelope()</a>, <a class="el" href="namespacescxt_1_1import__support.html#aad2b8cdb4425b4b2ddddaf923ab26217">scxt::import_support::importZoneFilter()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a24e591b4b7902af4271d01a84c1844fb">scxt::import_support::importZoneLoop()</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad6b2c1aad037c45a6b67958e8bad93c9">scxt::import_support::importZoneMapping()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a19de3db0977be1db137784f04cc325de">ImporterContext::loadSampleFromDisk()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94">Zone::LOOP_DURING_VOICE</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa3828195437a1112429b5c7a3e8780570">Group::MONO</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a65b583c9b3b9f65cf7ce14c709f94731">Part::PartConfiguration::numExclusiveGroups</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a188092ed559d356ade9a517d60ec3f34a612203253b887081ce8d008feaa45a08">Zone::ON_RELEASE</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a188092ed559d356ade9a517d60ec3f34a811e55ae9fced8f0b5d4be29bbe0775b">Zone::ONE_SHOT</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a266458bc003355872a1067c59515dc61">parseEXS()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2acf8c2876a7f03625eb5bf886296baed9">PITCH_BEND_DOWN</a>, <a class="el" href="namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a741b7c08d910af7705680f307b66bdf4">PITCH_BEND_UP</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fae5506640382798a02930c2c1a15f7aaa">scxt::dsp::processor::proct_CytomicSVF</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a80a3dc173ed8088d4b4a5989899e881c">EnvelopeArgs::releaseSeconds</a>, <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#ac4c0e1f08189c6980460c6359c9229de">FilterArgs::resonance</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a3ba4b1bbe27d1255e3799f84be6be9cf">EnvelopeArgs::sustainLevel</a>, <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#a756f9eb8518897ef219bef74e042a7ee">FilterArgs::type</a>, and <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a07853ae7e60310b03ee92d1c8f3c038f">ImporterContext::unsupported()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a57090e0e338affea5d6911d2a3af03c4">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
 
@@ -328,7 +778,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 16 2026 22:03:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun May 17 2026 00:54:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

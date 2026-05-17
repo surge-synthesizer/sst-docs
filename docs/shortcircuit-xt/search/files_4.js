@@ -16,5 +16,6 @@ var searchData=
   ['exs_5fcompound_5ffile_5fimpl_2ecpp_13',['exs_compound_file_impl.cpp',['../exs__compound__file__impl_8cpp.html',1,'']]],
   ['exs_5fimport_2ecpp_14',['exs_import.cpp',['../exs__import_8cpp.html',1,'']]],
   ['exs_5fimport_2eh_15',['exs_import.h',['../exs__import_8h.html',1,'']]],
-  ['extensions_2eh_16',['extensions.h',['../extensions_8h.html',1,'']]]
+  ['exs_5fparameters_2eh_16',['exs_parameters.h',['../exs__parameters_8h.html',1,'']]],
+  ['extensions_2eh_17',['extensions.h',['../extensions_8h.html',1,'']]]
 ];

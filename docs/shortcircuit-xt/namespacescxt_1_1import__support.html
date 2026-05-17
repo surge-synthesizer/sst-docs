@@ -175,6 +175,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7baa12df8ea0da0c057ccddb08b0a4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7276de0c325ccb2d61ab22de424b9032" id="r_a7276de0c325ccb2d61ab22de424b9032"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#a7276de0c325ccb2d61ab22de424b9032">sf2NormalizedPan</a> (int pan)</td></tr>
 <tr class="separator:a7276de0c325ccb2d61ab22de424b9032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae404e737facedf0179c635243e9a318b" id="r_ae404e737facedf0179c635243e9a318b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#ae404e737facedf0179c635243e9a318b">dBToCubicAttenuation</a> (float dB)</td></tr>
+<tr class="separator:ae404e737facedf0179c635243e9a318b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a28024c8811b4bc688a2a0f3b06ba2521" name="a28024c8811b4bc688a2a0f3b06ba2521"></a>
@@ -325,7 +327,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a5df7ddbefaca75e791e7901a14131a2e">EnvelopeArgs::attackSeconds</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a24d49f0a554fba40678826a83fb1577e">EnvelopeArgs::attackShape</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a025939c830825980c1bbcb69d4a639a8">EnvelopeArgs::decaySeconds</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#ae4969ce1ec8897673e578e947b816723">EnvelopeArgs::decayShape</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a69e9b251c1e6ba2f11b5763accecde24">EnvelopeArgs::delaySeconds</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a9f9d193999aea9d4e7c2981567c9fdbe">Zone::egStorage</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a11fb718cdfa798e212b51736df683ecd">EnvelopeArgs::holdSeconds</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a80a3dc173ed8088d4b4a5989899e881c">EnvelopeArgs::releaseSeconds</a>, <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a5704e20037ff12df33d4621e3eea39ef">EnvelopeArgs::releaseShape</a>, <a class="el" href="namespacescxt_1_1modulation.html#a3d82406d5494c9bbcba713e9fa2c585f">scxt::modulation::secondsToNormalizedEnvTime()</a>, and <a class="el" href="structscxt_1_1import__support_1_1EnvelopeArgs.html#a3ba4b1bbe27d1255e3799f84be6be9cf">EnvelopeArgs::sustainLevel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">scxt::sfz_support::zoneEnvelope()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">scxt::sfz_support::zoneEnvelope()</a>.</p>
 
 </div>
 </div>
@@ -369,7 +371,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#a767c63a3e97d88466076a04451a2ea8c">FilterArgs::cutoff</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a7405295052a62c4a60617b8d789a321b">ImporterContext::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a201b46ffc7096da22ec732440aedeae4">HasGroupZoneProcessors&lt; T &gt;::processorStorage</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fae5506640382798a02930c2c1a15f7aaa">scxt::dsp::processor::proct_CytomicSVF</a>, <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#ac4c0e1f08189c6980460c6359c9229de">FilterArgs::resonance</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#abdbbbecc1d5535894753ca93387fab40">HasGroupZoneProcessors&lt; T &gt;::setProcessorType()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a5ce3bfa68ea542fbc4d23549888842d1">ImporterContext::software_error()</a>, and <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#a756f9eb8518897ef219bef74e042a7ee">FilterArgs::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
 
 </div>
 </div>
@@ -579,7 +581,7 @@ template&lt;typename Map , typename Key , typename NameFn &gt; </div>
 
 <p class="reference">References <a class="el" href="structscxt_1_1import__support_1_1ImportedModRoute.html#a03c996f9fcf0e10baeb3e700be0c409a">ImportedModRoute::active</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedModRoute.html#a845896541a0621f5fbd11f0d115ce463">ImportedModRoute::depth</a>, <a class="el" href="namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fbafbe46383db390907541a234bec7f2424">EG</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a742739af289f050d3856a17561cf9192">MatrixEndpoints::Sources::egSource()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a8425f009cc31361c338a42529a9fad1ba6cf9c650034aac242f4e3b9085ce95ab">FilterParam</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a54230cb8bf32eece7e2d6e1bdcb14006">ProcessorTargetEndpointData&lt; TG, 'proc'&gt;::floatParam()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#a750b5d744c39a06bfb13e6eb010e35d0">ImportedSource::index</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#afce2132df89ca347f2cefb4f13e23e1a">ImportedSource::kind</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a5c50ade08dc8f7355f0604cfaf7881f2">ImportedTarget::kind</a>, <a class="el" href="namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fbae3fbe998c30a2912f5e9127cd2c4c572">LFO</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a07a5748ae838d437cbb511ee20cf99ff">MatrixEndpoints::Sources::lfoSource()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aed959c9eafd1814595f03b425a0fa8ad">Zone::onRoutingChanged()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a268d2e21b46f15ef6535422e00db08d9">ImportedTarget::paramIdx</a>, <a class="el" href="namespacescxt_1_1import__support.html#a8425f009cc31361c338a42529a9fad1ba87f800274a7f46c50e17114f89171e2e">Pitch</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1MappingTarget.html#a383cc2d18a1cb4565868ba902224924e">MatrixEndpoints::MappingTarget::pitchOffsetA</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a173d9f991e74d779b03ba2e2435611d5">ImportedTarget::procSlot</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a85ece7f7a79faf84c1fbaebd41d4bd6a">Zone::routingTable</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a5ce3bfa68ea542fbc4d23549888842d1">ImporterContext::software_error()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedModRoute.html#a0ae2e87e2efbe9880d3a94eb47e9a767">ImportedModRoute::source</a>, and <a class="el" href="structscxt_1_1import__support_1_1ImportedModRoute.html#a526da7763d3aa617ca063891573709c7">ImportedModRoute::target</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
 
 </div>
 </div>
@@ -651,10 +653,30 @@ template&lt;typename Map , typename Key , typename NameFn &gt; </div>
 
 </div>
 </div>
+<a id="ae404e737facedf0179c635243e9a318b" name="ae404e737facedf0179c635243e9a318b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae404e737facedf0179c635243e9a318b">&#9670;&#160;</a></span>dBToCubicAttenuation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float dBToCubicAttenuation </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 16 2026 22:03:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun May 17 2026 00:54:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

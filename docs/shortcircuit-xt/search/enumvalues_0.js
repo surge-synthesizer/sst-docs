@@ -26,12 +26,13 @@ var searchData=
   ['aiff_5ffile_23',['AIFF_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea',1,'scxt::sample::Sample']]],
   ['all_24',['ALL',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48ab1d5eac4b1dca480c8056eaea7663b7a',1,'scxt::engine::Zone']]],
   ['alternate_5fdirections_25',['ALTERNATE_DIRECTIONS',['../structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a60775b4e6844333665f29e88f3657c21',1,'scxt::engine::Zone']]],
-  ['and_26',['AND',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532',1,'scxt::engine::GroupTriggerConditions']]],
-  ['and_5fnot_27',['AND_NOT',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef',1,'scxt::engine::GroupTriggerConditions']]],
-  ['applyomnitoallonselect_28',['applyOmniToAllOnSelect',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a8f7384ab4c9c50a3b1d594f6a103f6af',1,'scxt::infrastructure']]],
-  ['as_5fmonolith_29',['AS_MONOLITH',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd',1,'scxt::patch_io']]],
-  ['as_5fsfz_30',['AS_SFZ',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac',1,'scxt::patch_io']]],
-  ['ascending_31',['ASCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaa35cb4c8640a823da9718e5cd29d211ea',1,'scxt::modulation::modulators::PhasorStorage']]],
-  ['aux_32',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['aux_5f0_33',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
+  ['amp_5fvelocity_5fcurve_26',['AMP_VELOCITY_CURVE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a73a8ed3aa2c59327ebd4d49e9f4242f1',1,'scxt::exs_support']]],
+  ['and_27',['AND',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532',1,'scxt::engine::GroupTriggerConditions']]],
+  ['and_5fnot_28',['AND_NOT',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef',1,'scxt::engine::GroupTriggerConditions']]],
+  ['applyomnitoallonselect_29',['applyOmniToAllOnSelect',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a8f7384ab4c9c50a3b1d594f6a103f6af',1,'scxt::infrastructure']]],
+  ['as_5fmonolith_30',['AS_MONOLITH',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd',1,'scxt::patch_io']]],
+  ['as_5fsfz_31',['AS_SFZ',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac',1,'scxt::patch_io']]],
+  ['ascending_32',['ASCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaa35cb4c8640a823da9718e5cd29d211ea',1,'scxt::modulation::modulators::PhasorStorage']]],
+  ['aux_33',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
+  ['aux_5f0_34',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
 ];
