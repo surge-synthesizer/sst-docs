@@ -4,6 +4,7 @@ var searchData=
   ['keybindings_1',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html#a08943765f5655c99fe84eb22690af015',1,'scxt::ui::app::KeyBindings']]],
   ['keyboardrange_2',['keyboardrange',['../structscxt_1_1engine_1_1KeyboardRange.html#ad646d1a5362f10ce49114e40a2fa5dbe',1,'scxt::engine::KeyboardRange::KeyboardRange()=default'],['../structscxt_1_1engine_1_1KeyboardRange.html#a8ed3649f261610d8bce652d8c996f96a',1,'scxt::engine::KeyboardRange::KeyboardRange(int s, int e)']]],
   ['keypressed_3',['keypressed',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#aaee4b337a9e4e190184f440b1b68ab21',1,'scxt::ui::app::edit_screen::MappingDisplay::keyPressed()'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#aaee4b337a9e4e190184f440b1b68ab21',1,'scxt::ui::app::other_screens::LogScreen::keyPressed()'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#aaee4b337a9e4e190184f440b1b68ab21',1,'scxt::ui::app::other_screens::WelcomeScreen::keyPressed()'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aaee4b337a9e4e190184f440b1b68ab21',1,'scxt::ui::app::SCXTEditor::keyPressed()']]],
-  ['knob_4',['knob',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a47ded4ad26089c5bd326913c7b9e8006',1,'scxt::ui::theme::layout']]],
-  ['knobcx_5',['knobCX',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a3d62d1214c1fa485923b9497e6fced94',1,'scxt::ui::theme::layout']]]
+  ['keytrack_4',['keyTrack',['../structscxt_1_1import__support_1_1ImportedSource.html#a6371c92d07adb1e340b8e4e58804ae36',1,'scxt::import_support::ImportedSource']]],
+  ['knob_5',['knob',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a47ded4ad26089c5bd326913c7b9e8006',1,'scxt::ui::theme::layout']]],
+  ['knobcx_6',['knobCX',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a3d62d1214c1fa485923b9497e6fced94',1,'scxt::ui::theme::layout']]]
 ];

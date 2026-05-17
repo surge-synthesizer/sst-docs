@@ -128,8 +128,22 @@ Functions</h2></td></tr>
 <tr class="separator:a0d7555c36889510bcf9921644d0dfd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68d19e0f591713a9fe5d2974ebaf88d9" id="r_a68d19e0f591713a9fe5d2974ebaf88d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">zoneEnvelope</a> (std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; &amp;zn, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx, <a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;opCodes, int slot, const std::string &amp;prefix)</td></tr>
 <tr class="separator:a68d19e0f591713a9fe5d2974ebaf88d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad50929bf36755d2708a440773773f272" id="r_ad50929bf36755d2708a440773773f272"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#ad50929bf36755d2708a440773773f272">zoneFilter</a> (std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; &amp;zn, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx, <a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;opCodes, std::set&lt; std::string &gt; &amp;reportedFilTypes)</td></tr>
-<tr class="separator:ad50929bf36755d2708a440773773f272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae167d3c7116cc5c83130c59e0ed57912" id="r_ae167d3c7116cc5c83130c59e0ed57912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1import__support_1_1FilterHandle.html">import_support::FilterHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#ae167d3c7116cc5c83130c59e0ed57912">zoneFilter</a> (std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; &amp;zn, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx, <a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;opCodes, std::set&lt; std::string &gt; &amp;reportedFilTypes)</td></tr>
+<tr class="separator:ae167d3c7116cc5c83130c59e0ed57912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25be781337dea9c8c87284d9b4b3bb7b" id="r_a25be781337dea9c8c87284d9b4b3bb7b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html">import_support::ImportedSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#a25be781337dea9c8c87284d9b4b3bb7b">sfzSourceForSuffix</a> (const std::string &amp;name, const std::string &amp;prefix, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx)</td></tr>
+<tr class="separator:a25be781337dea9c8c87284d9b4b3bb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3c5beba2e0e6dc8f07296bf1522ed1" id="r_aab3c5beba2e0e6dc8f07296bf1522ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#aab3c5beba2e0e6dc8f07296bf1522ed1">zoneParamKeytrack</a> (<a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;opCodes, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx, <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;zn, const std::string &amp;prefix, const std::function&lt; <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html">import_support::ImportedTarget</a>()&gt; &amp;targetMaker, const std::function&lt; float(float)&gt; &amp;perKeyToDepth)</td></tr>
+<tr class="separator:aab3c5beba2e0e6dc8f07296bf1522ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40797040e89ebcd7c80fe7316c85c667" id="r_a40797040e89ebcd7c80fe7316c85c667"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#a40797040e89ebcd7c80fe7316c85c667">zoneParamMods</a> (<a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;opCodes, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx, <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;zn, const std::string &amp;prefix, const std::function&lt; <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html">import_support::ImportedTarget</a>()&gt; &amp;targetMaker, const std::function&lt; float(float)&gt; &amp;valueToDepth)</td></tr>
+<tr class="separator:a40797040e89ebcd7c80fe7316c85c667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279109b60029e57fcadd0059807741f1" id="r_a279109b60029e57fcadd0059807741f1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#a279109b60029e57fcadd0059807741f1">egNormToSeconds</a> (float norm)</td></tr>
+<tr class="separator:a279109b60029e57fcadd0059807741f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b27771c023a42b59567b1d7b807adf" id="r_ad6b27771c023a42b59567b1d7b807adf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#ad6b27771c023a42b59567b1d7b807adf">egSecondsToNorm</a> (float secs)</td></tr>
+<tr class="separator:ad6b27771c023a42b59567b1d7b807adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3142ebe8ddce883ed5308a5f239d9d8" id="r_aa3142ebe8ddce883ed5308a5f239d9d8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#aa3142ebe8ddce883ed5308a5f239d9d8">egSecondsDeltaToDepth</a> (float baseNorm, float deltaSec)</td></tr>
+<tr class="separator:aa3142ebe8ddce883ed5308a5f239d9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9863d0c1ac3b466de2721bdbc79f53" id="r_a9a9863d0c1ac3b466de2721bdbc79f53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#a9a9863d0c1ac3b466de2721bdbc79f53">zoneEnvelopeMods</a> (<a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;opCodes, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;ctx, <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;zn, const std::string &amp;prefix, int egSlot)</td></tr>
+<tr class="separator:a9a9863d0c1ac3b466de2721bdbc79f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf1e4458297eecd1fc1877f2317d182" id="r_adcf1e4458297eecd1fc1877f2317d182"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ</a> (const fs::path &amp;f, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:adcf1e4458297eecd1fc1877f2317d182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -213,7 +227,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6">zoneGeometry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6">zoneGeometry()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#aab3c5beba2e0e6dc8f07296bf1522ed1">zoneParamKeytrack()</a>.</p>
 
 </div>
 </div>
@@ -243,7 +257,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">zoneEnvelope()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ad50929bf36755d2708a440773773f272">zoneFilter()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6">zoneGeometry()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a0d7555c36889510bcf9921644d0dfd53">zoneLoopParse()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a416ce2461a9559313e08dd18fc26d596">zonePlayback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">zoneEnvelope()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a9a9863d0c1ac3b466de2721bdbc79f53">zoneEnvelopeMods()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ae167d3c7116cc5c83130c59e0ed57912">zoneFilter()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6">zoneGeometry()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a0d7555c36889510bcf9921644d0dfd53">zoneLoopParse()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#aab3c5beba2e0e6dc8f07296bf1522ed1">zoneParamKeytrack()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a40797040e89ebcd7c80fe7316c85c667">zoneParamMods()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a416ce2461a9559313e08dd18fc26d596">zonePlayback()</a>.</p>
 
 </div>
 </div>
@@ -411,14 +425,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad50929bf36755d2708a440773773f272" name="ad50929bf36755d2708a440773773f272"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad50929bf36755d2708a440773773f272">&#9670;&#160;</a></span>zoneFilter()</h2>
+<a id="ae167d3c7116cc5c83130c59e0ed57912" name="ae167d3c7116cc5c83130c59e0ed57912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae167d3c7116cc5c83130c59e0ed57912">&#9670;&#160;</a></span>zoneFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void zoneFilter </td>
+          <td class="memname"><a class="el" href="structscxt_1_1import__support_1_1FilterHandle.html">import_support::FilterHandle</a> zoneFilter </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>zn</em>, </td>
@@ -455,6 +469,278 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a25be781337dea9c8c87284d9b4b3bb7b" name="a25be781337dea9c8c87284d9b4b3bb7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25be781337dea9c8c87284d9b4b3bb7b">&#9670;&#160;</a></span>sfzSourceForSuffix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html">import_support::ImportedSource</a> &gt; sfzSourceForSuffix </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#a145590112cc065152a9a99233ff1475a">ImportedSource::channelAT()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#a95547f8ba96983281566400511d518b8">ImportedSource::midiCC()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#af352454f8decb33b73fb940bd7b4354c">ImportedSource::modWheel()</a>, and <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a07853ae7e60310b03ee92d1c8f3c038f">ImporterContext::unsupported()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#a40797040e89ebcd7c80fe7316c85c667">zoneParamMods()</a>.</p>
+
+</div>
+</div>
+<a id="aab3c5beba2e0e6dc8f07296bf1522ed1" name="aab3c5beba2e0e6dc8f07296bf1522ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab3c5beba2e0e6dc8f07296bf1522ed1">&#9670;&#160;</a></span>zoneParamKeytrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void zoneParamKeytrack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>opCodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;&#160;</td>
+          <td class="paramname"><em>zn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html">import_support::ImportedTarget</a>()&gt; &amp;&#160;</td>
+          <td class="paramname"><em>targetMaker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>perKeyToDepth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1import__support.html#a08d5189db735a67f02af0fa893ceb521">scxt::import_support::addImportedModRoute()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a14d51f28bcede21c6ab5419e184386e9">consumeOpcode()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#a6371c92d07adb1e340b8e4e58804ae36">ImportedSource::keyTrack()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2">Zone::mapping</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ae85c8ec62b02e3bdbeef78579e054a8f">parseMidiNote()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, and <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a07853ae7e60310b03ee92d1c8f3c038f">ImporterContext::unsupported()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ()</a>.</p>
+
+</div>
+</div>
+<a id="a40797040e89ebcd7c80fe7316c85c667" name="a40797040e89ebcd7c80fe7316c85c667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40797040e89ebcd7c80fe7316c85c667">&#9670;&#160;</a></span>zoneParamMods()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void zoneParamMods </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>opCodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;&#160;</td>
+          <td class="paramname"><em>zn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html">import_support::ImportedTarget</a>()&gt; &amp;&#160;</td>
+          <td class="paramname"><em>targetMaker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(float)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>valueToDepth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1import__support.html#a08d5189db735a67f02af0fa893ceb521">scxt::import_support::addImportedModRoute()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a14d51f28bcede21c6ab5419e184386e9">consumeOpcode()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a25be781337dea9c8c87284d9b4b3bb7b">sfzSourceForSuffix()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ()</a>.</p>
+
+</div>
+</div>
+<a id="a279109b60029e57fcadd0059807741f1" name="a279109b60029e57fcadd0059807741f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279109b60029e57fcadd0059807741f1">&#9670;&#160;</a></span>egNormToSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float egNormToSeconds </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>norm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#aa3142ebe8ddce883ed5308a5f239d9d8">egSecondsDeltaToDepth()</a>.</p>
+
+</div>
+</div>
+<a id="ad6b27771c023a42b59567b1d7b807adf" name="ad6b27771c023a42b59567b1d7b807adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b27771c023a42b59567b1d7b807adf">&#9670;&#160;</a></span>egSecondsToNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float egSecondsToNorm </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>secs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#aa3142ebe8ddce883ed5308a5f239d9d8">egSecondsDeltaToDepth()</a>.</p>
+
+</div>
+</div>
+<a id="aa3142ebe8ddce883ed5308a5f239d9d8" name="aa3142ebe8ddce883ed5308a5f239d9d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3142ebe8ddce883ed5308a5f239d9d8">&#9670;&#160;</a></span>egSecondsDeltaToDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float egSecondsDeltaToDepth </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>baseNorm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deltaSec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1sfz__support.html#a279109b60029e57fcadd0059807741f1">egNormToSeconds()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#ad6b27771c023a42b59567b1d7b807adf">egSecondsToNorm()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#a9a9863d0c1ac3b466de2721bdbc79f53">zoneEnvelopeMods()</a>.</p>
+
+</div>
+</div>
+<a id="a9a9863d0c1ac3b466de2721bdbc79f53" name="a9a9863d0c1ac3b466de2721bdbc79f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9863d0c1ac3b466de2721bdbc79f53">&#9670;&#160;</a></span>zoneEnvelopeMods()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void zoneEnvelopeMods </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0">opCodeMap_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>opCodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">import_support::ImporterContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;&#160;</td>
+          <td class="paramname"><em>zn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>egSlot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1import__support.html#a08d5189db735a67f02af0fa893ceb521">scxt::import_support::addImportedModRoute()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6adcfafcb4323b102c7e204555d313ba0a">scxt::import_support::Attack</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a14d51f28bcede21c6ab5419e184386e9">consumeOpcode()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6a657f1228bb53523274ae58bcd123ae81">scxt::import_support::Decay</a>, <a class="el" href="namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6a8f497c1a3d15af9e0c215019f26b887d">scxt::import_support::Delay</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#aa3142ebe8ddce883ed5308a5f239d9d8">egSecondsDeltaToDepth()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a9f9d193999aea9d4e7c2981567c9fdbe">Zone::egStorage</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#afd7c3af7716348ffcfcbff559a59d00d">ImportedTarget::egTime()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6abcd8db575b47c838e5d551e3973db4ac">scxt::import_support::Hold</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#a95547f8ba96983281566400511d518b8">ImportedSource::midiCC()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#af352454f8decb33b73fb940bd7b4354c">ImportedSource::modWheel()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6ab8e7b465df7c5979dc731d06e84ce2cf">scxt::import_support::Release</a>, <a class="el" href="namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6ac98a9f29cbf065cabb6867cbcb7c8ab9">scxt::import_support::Sustain</a>, and <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#afdf9672af7b4344ff203f0eec10375c5">ImportedSource::velocity()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">importSFZ()</a>.</p>
+
+</div>
+</div>
 <a id="adcf1e4458297eecd1fc1877f2317d182" name="adcf1e4458297eecd1fc1877f2317d182"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcf1e4458297eecd1fc1877f2317d182">&#9670;&#160;</a></span>importSFZ()</h2>
 
@@ -481,7 +767,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0214003454427ee7aba3fcad7609ea13">ImporterContext::addGroup()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a1cf463969236ae2a60313ab61ef65cae">ImporterContext::addZoneToGroup()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a14d51f28bcede21c6ab5419e184386e9">consumeOpcode()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a5d8add8effb2a9964dbebfd27c9ddd31">SFZParser::Header::control</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#adc4a702e482262e3e974e05d0940d4dc">ImporterContext::fail()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a7bef8f48f40a8ece38610b14960c1df0">Part::getGroup()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a4eba51ff648ba83aee203534f088552c">ImporterContext::getPart()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021">SFZParser::Header::group</a>, <a class="el" href="namespacescxt_1_1import__support.html#a24e591b4b7902af4271d01a84c1844fb">scxt::import_support::importZoneLoop()</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad6b2c1aad037c45a6b67958e8bad93c9">scxt::import_support::importZoneMapping()</a>, <a class="el" href="namespacescxt.html#ab0cc327dc636ffe6f580315473f4b3ff">scxt::isValidUtf()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a19de3db0977be1db137784f04cc325de">ImporterContext::loadSampleFromDisk()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80">Zone::MAPPING</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">SFZParser::onError</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0e872148ed724797a3d6106569853d12">ImporterContext::raise()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a0ec3402639e35a1f313fbe3dd6da4553">SFZParser::Header::region</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">zoneEnvelope()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ad50929bf36755d2708a440773773f272">zoneFilter()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6">zoneGeometry()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a0d7555c36889510bcf9921644d0dfd53">zoneLoopParse()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a416ce2461a9559313e08dd18fc26d596">zonePlayback()</a>.</p>
+<p class="reference">References <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0214003454427ee7aba3fcad7609ea13">ImporterContext::addGroup()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a08d5189db735a67f02af0fa893ceb521">scxt::import_support::addImportedModRoute()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a1cf463969236ae2a60313ab61ef65cae">ImporterContext::addZoneToGroup()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a14d51f28bcede21c6ab5419e184386e9">consumeOpcode()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a5d8add8effb2a9964dbebfd27c9ddd31">SFZParser::Header::control</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad0561aac2328a7ce5df5d7fcb542c06babc5449e9092ea92f5393be6516916084">scxt::import_support::Cutoff</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab9ff1ea9091ab835b54adcf0f626ef49">Zone::engine</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#adc4a702e482262e3e974e05d0940d4dc">ImporterContext::fail()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a508ca599df89c332310f56ac2f758b92">ImportedTarget::filter()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a7bef8f48f40a8ece38610b14960c1df0">Part::getGroup()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a4eba51ff648ba83aee203534f088552c">ImporterContext::getPart()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021">SFZParser::Header::group</a>, <a class="el" href="namespacescxt_1_1import__support.html#a24e591b4b7902af4271d01a84c1844fb">scxt::import_support::importZoneLoop()</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad6b2c1aad037c45a6b67958e8bad93c9">scxt::import_support::importZoneMapping()</a>, <a class="el" href="namespacescxt.html#ab0cc327dc636ffe6f580315473f4b3ff">scxt::isValidUtf()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aa2e6e643a476bf86192c6f5f1df50fc7">Zone::ZoneMappingData::keyboardRange</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a19de3db0977be1db137784f04cc325de">ImporterContext::loadSampleFromDisk()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80">Zone::MAPPING</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2">Zone::mapping</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">SFZParser::onError</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a44c75c5ed835add0c6ceaf105d65db70">ImportedTarget::pitch()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0e872148ed724797a3d6106569853d12">ImporterContext::raise()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a0ec3402639e35a1f313fbe3dd6da4553">SFZParser::Header::region</a>, <a class="el" href="namespacescxt_1_1import__support.html#ad0561aac2328a7ce5df5d7fcb542c06ba685328de133c45adec07a1effcd3fa88">scxt::import_support::Resonance</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html#afdf9672af7b4344ff203f0eec10375c5">ImportedSource::velocity()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1f512238c65076e89ec0cc1a3ed4ab47">Zone::ZoneMappingData::velocityRange</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#a1161fc37468aaaa0b1758e4e2831535a">ImportedTarget::zoneAmplitude()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9">zoneEnvelope()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a9a9863d0c1ac3b466de2721bdbc79f53">zoneEnvelopeMods()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ae167d3c7116cc5c83130c59e0ed57912">zoneFilter()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6">zoneGeometry()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a0d7555c36889510bcf9921644d0dfd53">zoneLoopParse()</a>, <a class="el" href="structscxt_1_1import__support_1_1ImportedTarget.html#affc05e7bf045143c960973ec86fc7236">ImportedTarget::zonePan()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#aab3c5beba2e0e6dc8f07296bf1522ed1">zoneParamKeytrack()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#a40797040e89ebcd7c80fe7316c85c667">zoneParamMods()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a416ce2461a9559313e08dd18fc26d596">zonePlayback()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e92b2c4cf812fd0a77f30ab4fbf7ca4">Engine::loadCompoundElementIntoSelectedPartAndGroup()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a57090e0e338affea5d6911d2a3af03c4">Engine::loadSampleIntoSelectedPartAndGroup()</a>.</p>
 
@@ -490,7 +776,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 17 2026 14:38:12 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun May 17 2026 22:14:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
