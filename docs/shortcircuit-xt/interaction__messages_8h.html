@@ -97,6 +97,7 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">interaction_messages.h File Reference</div></div>
 </div><!--header-->
@@ -113,19 +114,31 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:affcb9777a62241001a34a360e347a6f5" id="r_affcb9777a62241001a34a360e347a6f5"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; std::string, std::string, std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#affcb9777a62241001a34a360e347a6f5">s2cError_t</a></td></tr>
-<tr class="separator:affcb9777a62241001a34a360e347a6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4cbcd0d1a646a9cb49c4276f48aebc" id="r_abe4cbcd0d1a646a9cb49c4276f48aebc"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int, std::string, std::string, std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#abe4cbcd0d1a646a9cb49c4276f48aebc">s2cError_t</a></td></tr>
+<tr class="separator:abe4cbcd0d1a646a9cb49c4276f48aebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f369c6165f29722a6c7cc93f13b3979" id="r_a6f369c6165f29722a6c7cc93f13b3979"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::tuple&lt; std::string, std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979">s2cUnusedItems_t</a></td></tr>
 <tr class="separator:a6f369c6165f29722a6c7cc93f13b3979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a062f9c73a328accc5f25be9d938f28" id="r_a1a062f9c73a328accc5f25be9d938f28"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; std::string, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1a062f9c73a328accc5f25be9d938f28">s2cImportComplete_t</a></td></tr>
+<tr class="separator:a1a062f9c73a328accc5f25be9d938f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1e6111a783b5232e389026e2bb77f26" id="r_ae1e6111a783b5232e389026e2bb77f26"><td class="memItemLeft" align="right" valign="top">typedef std::tuple&lt; int32_t, float, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1e6111a783b5232e389026e2bb77f26">noteOnOff_t</a></td></tr>
 <tr class="separator:ae1e6111a783b5232e389026e2bb77f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa431d89caf65910b25049ece6b702420" id="r_aa431d89caf65910b25049ece6b702420"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420">ReportItemSeverity</a> : int { <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420a7c600d44be78a924edee8db9bbce7bdf">Severity_Error</a> = 0
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420afb69de7aebe35e887ebabd383f45e1b8">Severity_Warning</a> = 1
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420a114266b09e45248ca3afde3b1dac2adc">Severity_Info</a> = 2
+ }</td></tr>
+<tr class="separator:aa431d89caf65910b25049ece6b702420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2886c966d95f3b315cd65834244eddc1" id="r_a2886c966d95f3b315cd65834244eddc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2886c966d95f3b315cd65834244eddc1">SERIAL_TO_CLIENT</a> (ReportError, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baba133a40bbaec2220169b6d81418631b">s2c_report_error</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#affcb9777a62241001a34a360e347a6f5">s2cError_t</a>, onErrorFromEngine)</td></tr>
+<tr class="memitem:a2886c966d95f3b315cd65834244eddc1" id="r_a2886c966d95f3b315cd65834244eddc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a2886c966d95f3b315cd65834244eddc1">SERIAL_TO_CLIENT</a> (ReportError, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baba133a40bbaec2220169b6d81418631b">s2c_report_error</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#abe4cbcd0d1a646a9cb49c4276f48aebc">s2cError_t</a>, onErrorFromEngine)</td></tr>
 <tr class="separator:a2886c966d95f3b315cd65834244eddc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65d5ca2b9815019cfd669d104d43fae5" id="r_a65d5ca2b9815019cfd669d104d43fae5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a65d5ca2b9815019cfd669d104d43fae5">SERIAL_TO_CLIENT</a> (ReportUnusedItems, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99babdd0ab534bed29eaaca7a6ecc2c4d660">s2c_report_unused_items</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979">s2cUnusedItems_t</a>, onUnusedItemsFromEngine)</td></tr>
 <tr class="separator:a65d5ca2b9815019cfd669d104d43fae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12184c9df8b30c3f7e2a7af36488ddc9" id="r_a12184c9df8b30c3f7e2a7af36488ddc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a12184c9df8b30c3f7e2a7af36488ddc9">SERIAL_TO_CLIENT</a> (ReportImportComplete, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba0ecf8d2169763d8bee85b08b6c888fb4">s2c_compound_import_complete</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1a062f9c73a328accc5f25be9d938f28">s2cImportComplete_t</a>, onImportCompleteFromEngine)</td></tr>
+<tr class="separator:a12184c9df8b30c3f7e2a7af36488ddc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e318f8875863dc411563657fb601dc1" id="r_a7e318f8875863dc411563657fb601dc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a7e318f8875863dc411563657fb601dc1">raiseDebugError</a> (<a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;c, int count)</td></tr>
 <tr class="separator:a7e318f8875863dc411563657fb601dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07329ae0f4970c1e26578f19ac6d6141" id="r_a07329ae0f4970c1e26578f19ac6d6141"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a07329ae0f4970c1e26578f19ac6d6141">processMidiFromGUI</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ae1e6111a783b5232e389026e2bb77f26">noteOnOff_t</a> &amp;g, const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
@@ -152,7 +165,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 18 2026 13:19:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon May 18 2026 14:40:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
