@@ -225,6 +225,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae9db272ac3dc5131ae36efe1ef05815e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad2b8cdb4425b4b2ddddaf923ab26217" id="r_aad2b8cdb4425b4b2ddddaf923ab26217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1import__support_1_1FilterHandle.html">FilterHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#aad2b8cdb4425b4b2ddddaf923ab26217">importZoneFilter</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;zone, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">ImporterContext</a> &amp;ctx, int procSlot, const <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html">FilterArgs</a> &amp;a)</td></tr>
 <tr class="separator:aad2b8cdb4425b4b2ddddaf923ab26217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac803daa9f0b369527f5351634a675a7b" id="r_ac803daa9f0b369527f5351634a675a7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#ac803daa9f0b369527f5351634a675a7b">isVirtualSampleName</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:ac803daa9f0b369527f5351634a675a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188ee62bb8170ebee10e15965a62ee5d" id="r_a188ee62bb8170ebee10e15965a62ee5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#a188ee62bb8170ebee10e15965a62ee5d">installVirtualSample</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;zone, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">ImporterContext</a> &amp;ctx, const std::string &amp;name)</td></tr>
+<tr class="separator:a188ee62bb8170ebee10e15965a62ee5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2182695630acb7e442c3331188ef28dd" id="r_a2182695630acb7e442c3331188ef28dd"><td class="memTemplParams" colspan="2">template&lt;typename Map , typename Key , typename NameFn &gt; </td></tr>
 <tr class="memitem:a2182695630acb7e442c3331188ef28dd"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#a2182695630acb7e442c3331188ef28dd">getOrCreateGroup</a> (<a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">ImporterContext</a> &amp;ctx, Map &amp;map, const Key &amp;key, NameFn &amp;&amp;nameFn)</td></tr>
 <tr class="separator:a2182695630acb7e442c3331188ef28dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -524,7 +528,65 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#a767c63a3e97d88466076a04451a2ea8c">FilterArgs::cutoff</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a7405295052a62c4a60617b8d789a321b">ImporterContext::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a201b46ffc7096da22ec732440aedeae4">HasGroupZoneProcessors&lt; T &gt;::processorStorage</a>, <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#ac4c0e1f08189c6980460c6359c9229de">FilterArgs::resonance</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#abdbbbecc1d5535894753ca93387fab40">HasGroupZoneProcessors&lt; T &gt;::setProcessorType()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a5ce3bfa68ea542fbc4d23549888842d1">ImporterContext::software_error()</a>, and <a class="el" href="structscxt_1_1import__support_1_1FilterArgs.html#a0b01eeef3fa86b4f99b30538a0136e1a">FilterArgs::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#ae167d3c7116cc5c83130c59e0ed57912">scxt::sfz_support::zoneFilter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>, and <a class="el" href="namespacescxt_1_1sfz__support.html#a61d087f6a703ca73b9daceda81f12855">scxt::sfz_support::zoneFilter()</a>.</p>
+
+</div>
+</div>
+<a id="ac803daa9f0b369527f5351634a675a7b" name="ac803daa9f0b369527f5351634a675a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac803daa9f0b369527f5351634a675a7b">&#9670;&#160;</a></span>isVirtualSampleName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isVirtualSampleName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
+
+</div>
+</div>
+<a id="a188ee62bb8170ebee10e15965a62ee5d" name="a188ee62bb8170ebee10e15965a62ee5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188ee62bb8170ebee10e15965a62ee5d">&#9670;&#160;</a></span>installVirtualSample()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool installVirtualSample </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &amp;&#160;</td>
+          <td class="paramname"><em>zone</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">ImporterContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a7405295052a62c4a60617b8d789a321b">ImporterContext::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a201b46ffc7096da22ec732440aedeae4">HasGroupZoneProcessors&lt; T &gt;::processorStorage</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa083a5980f7079b4b8ada97f83a4ecd92">scxt::dsp::processor::proct_osc_EBWaveforms</a>, <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa46695dbda5e010e0982ba7f31493d6e8">scxt::dsp::processor::proct_osc_tiltnoise</a>, and <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#abdbbbecc1d5535894753ca93387fab40">HasGroupZoneProcessors&lt; T &gt;::setProcessorType()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>.</p>
 
 </div>
 </div>
@@ -829,7 +891,7 @@ template&lt;typename Map , typename Key , typename NameFn &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 18 2026 00:17:28 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon May 18 2026 01:44:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

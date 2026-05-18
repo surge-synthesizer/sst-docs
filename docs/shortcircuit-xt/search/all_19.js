@@ -22,7 +22,7 @@ var searchData=
   ['zoneelements_19',['zoneElements',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac60c27229af3ab76ddb2466b83062e5c',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['zoneenvelope_20',['zoneEnvelope',['../namespacescxt_1_1sfz__support.html#a68d19e0f591713a9fe5d2974ebaf88d9',1,'scxt::sfz_support']]],
   ['zoneenvelopemods_21',['zoneEnvelopeMods',['../namespacescxt_1_1sfz__support.html#a9a9863d0c1ac3b466de2721bdbc79f53',1,'scxt::sfz_support']]],
-  ['zonefilter_22',['zoneFilter',['../namespacescxt_1_1sfz__support.html#ae167d3c7116cc5c83130c59e0ed57912',1,'scxt::sfz_support']]],
+  ['zonefilter_22',['zoneFilter',['../namespacescxt_1_1sfz__support.html#a61d087f6a703ca73b9daceda81f12855',1,'scxt::sfz_support']]],
   ['zonegeometry_23',['zoneGeometry',['../namespacescxt_1_1sfz__support.html#ab8da4a596fde01b600d9e122be1ff5f6',1,'scxt::sfz_support']]],
   ['zoneheader_24',['zoneHeader',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a657d25b4cbbf4205ffb4df825ca8eb60',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['zoneid_25',['ZoneID',['../namespacescxt.html#a8d628dbcbcc81f552ff36618d1e5b494',1,'scxt']]],
