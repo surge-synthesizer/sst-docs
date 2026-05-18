@@ -118,6 +118,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6c38ad3cb0a99c36277aab7291a028e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a1056d4e9d26a692f621e83be8cd8d1" id="r_a5a1056d4e9d26a692f621e83be8cd8d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a5a1056d4e9d26a692f621e83be8cd8d1">clearErrors</a> ()</td></tr>
 <tr class="separator:a5a1056d4e9d26a692f621e83be8cd8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d501fca80643e0854b9300e45a25254" id="r_a9d501fca80643e0854b9300e45a25254"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a9d501fca80643e0854b9300e45a25254">onUnusedItemsFromEngine</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979">scxt::messaging::client::s2cUnusedItems_t</a> &amp;items)</td></tr>
+<tr class="separator:a9d501fca80643e0854b9300e45a25254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76092e166ad28d872bf567805b33fa2b" id="r_a76092e166ad28d872bf567805b33fa2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a76092e166ad28d872bf567805b33fa2b">hasUnusedItems</a> ()</td></tr>
+<tr class="separator:a76092e166ad28d872bf567805b33fa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae100b95c76325e4f99756603fbef0026" id="r_ae100b95c76325e4f99756603fbef0026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979">scxt::messaging::client::s2cUnusedItems_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#ae100b95c76325e4f99756603fbef0026">readUnusedItems</a> ()</td></tr>
+<tr class="separator:ae100b95c76325e4f99756603fbef0026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd41eda827005256620a059713e33c1" id="r_affd41eda827005256620a059713e33c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#affd41eda827005256620a059713e33c1">clearUnusedItems</a> ()</td></tr>
+<tr class="separator:affd41eda827005256620a059713e33c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa1442fd83724ff01e95cb72f6a72267" id="r_aaa1442fd83724ff01e95cb72f6a72267"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#aaa1442fd83724ff01e95cb72f6a72267">onEngineStatus</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html">engine::Engine::EngineStatusMessage</a> &amp;e) <a class="el" href="console__ui_8h.html#ac748a562ce072e2490a6944d0043a201">ON_STUB</a></td></tr>
 <tr class="separator:aaa1442fd83724ff01e95cb72f6a72267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9178a11d32e8c1bba4e5ba927b81beab" id="r_a9178a11d32e8c1bba4e5ba927b81beab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a9178a11d32e8c1bba4e5ba927b81beab">onMappingUpdated</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a89bcd6b88f9d2b52e76e817b81b2b21d">scxt::messaging::client::mappingSelectedZoneViewResposne_t</a> &amp;) <a class="el" href="console__ui_8h.html#ac748a562ce072e2490a6944d0043a201">ON_STUB</a></td></tr>
@@ -341,6 +349,75 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void clearErrors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d501fca80643e0854b9300e45a25254" name="a9d501fca80643e0854b9300e45a25254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d501fca80643e0854b9300e45a25254">&#9670;&#160;</a></span>onUnusedItemsFromEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onUnusedItemsFromEngine </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979">scxt::messaging::client::s2cUnusedItems_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>items</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76092e166ad28d872bf567805b33fa2b" name="a76092e166ad28d872bf567805b33fa2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76092e166ad28d872bf567805b33fa2b">&#9670;&#160;</a></span>hasUnusedItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasUnusedItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae100b95c76325e4f99756603fbef0026" name="ae100b95c76325e4f99756603fbef0026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae100b95c76325e4f99756603fbef0026">&#9670;&#160;</a></span>readUnusedItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979">scxt::messaging::client::s2cUnusedItems_t</a> readUnusedItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affd41eda827005256620a059713e33c1" name="affd41eda827005256620a059713e33c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affd41eda827005256620a059713e33c1">&#9670;&#160;</a></span>clearUnusedItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearUnusedItems </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1129,7 +1206,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 18 2026 01:44:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon May 18 2026 13:19:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

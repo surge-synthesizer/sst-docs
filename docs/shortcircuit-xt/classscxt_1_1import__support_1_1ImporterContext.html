@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ce3bfa68ea542fbc4d23549888842d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07853ae7e60310b03ee92d1c8f3c038f" id="r_a07853ae7e60310b03ee92d1c8f3c038f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a07853ae7e60310b03ee92d1c8f3c038f">unsupported</a> (const std::string &amp;category, const std::string &amp;detail)</td></tr>
 <tr class="separator:a07853ae7e60310b03ee92d1c8f3c038f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74833f09a22b6f7d7ffbc32f8b1b71a7" id="r_a74833f09a22b6f7d7ffbc32f8b1b71a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a74833f09a22b6f7d7ffbc32f8b1b71a7">recordUnusedItem</a> (const std::string &amp;format, const std::string &amp;key, const std::string &amp;value)</td></tr>
+<tr class="separator:a74833f09a22b6f7d7ffbc32f8b1b71a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0214003454427ee7aba3fcad7609ea13" id="r_a0214003454427ee7aba3fcad7609ea13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0214003454427ee7aba3fcad7609ea13">addGroup</a> (const std::string &amp;name=&quot;&quot;)</td></tr>
 <tr class="separator:a0214003454427ee7aba3fcad7609ea13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf463969236ae2a60313ab61ef65cae" id="r_a1cf463969236ae2a60313ab61ef65cae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a1cf463969236ae2a60313ab61ef65cae">addZoneToGroup</a> (int groupIdx, std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; zone)</td></tr>
@@ -428,6 +430,40 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a74833f09a22b6f7d7ffbc32f8b1b71a7" name="a74833f09a22b6f7d7ffbc32f8b1b71a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74833f09a22b6f7d7ffbc32f8b1b71a7">&#9670;&#160;</a></span>recordUnusedItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void recordUnusedItem </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0214003454427ee7aba3fcad7609ea13" name="a0214003454427ee7aba3fcad7609ea13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0214003454427ee7aba3fcad7609ea13">&#9670;&#160;</a></span>addGroup()</h2>
 
@@ -529,7 +565,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0e872148ed724797a3d6106569853d12">ImporterContext::raise()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a53968220fade2ffd5370ea337085a0ad">Engine::getSelectionManager()</a>, <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a0e872148ed724797a3d6106569853d12">ImporterContext::raise()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99babdd0ab534bed29eaaca7a6ecc2c4d660">scxt::messaging::client::s2c_report_unused_items</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1akai__support.html#a5ff8b1346a4ddf99e69853bca2d05f39">scxt::akai_support::importAKP()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1gig__support.html#aa690cd0447a4eccf22e0ffb2e09ae3d2">scxt::gig_support::importGIG()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
 
@@ -542,7 +578,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 18 2026 01:44:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon May 18 2026 13:19:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
