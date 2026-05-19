@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A']]],
+  ['a_0',['a',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a']]],
   ['a1_1',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a1a_2',['a1A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a4cb4d419a0ae7aa614224fc63aaedf91',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['a1m_3',['a1M',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae249681fe8195a228d7a011cf493b154',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
@@ -19,7 +19,7 @@ var searchData=
   ['aboutinfo_16',['AboutInfo',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen_1_1AboutInfo.html',1,'scxt::ui::app::other_screens::AboutScreen']]],
   ['aboutlink_17',['aboutlink',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html#a858f615aa0bf5e65d211e585b4a4df88',1,'scxt::ui::app::other_screens::AboutLink::AboutLink()'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html',1,'AboutLink']]],
   ['aboutlinkicons_18',['aboutLinkIcons',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#a89c39ba838ec5dda4331031b65881bee',1,'scxt::ui::app::other_screens::AboutScreen']]],
-  ['aboutscreen_19',['aboutscreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html',1,'AboutScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#adc5d2ef3825dbd2383cf1d67263d22ac',1,'scxt::ui::app::other_screens::AboutScreen::AboutScreen()'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495',1,'scxt::ui::app::SCXTEditor::aboutScreen']]],
+  ['aboutscreen_19',['aboutscreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html',1,'AboutScreen'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a53879f86071bdbebb67404f8cf5ed495',1,'scxt::ui::app::SCXTEditor::aboutScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#adc5d2ef3825dbd2383cf1d67263d22ac',1,'scxt::ui::app::other_screens::AboutScreen::AboutScreen()']]],
   ['aboutscreen_2ecpp_20',['AboutScreen.cpp',['../AboutScreen_8cpp.html',1,'']]],
   ['aboutscreen_2eh_21',['AboutScreen.h',['../AboutScreen_8h.html',1,'']]],
   ['above_22',['ABOVE',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a562ab118132a9d8e45c3065490ab008baaad01162f441b9162610e81352541694',1,'scxt::ui::app::SCXTEditor']]],
