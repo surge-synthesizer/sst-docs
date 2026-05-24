@@ -6,7 +6,8 @@ var searchData=
   ['filter_3',['FILTER',['../structscxt_1_1akai__support_1_1FILTER.html',1,'scxt::akai_support']]],
   ['filterargs_4',['FilterArgs',['../structscxt_1_1import__support_1_1FilterArgs.html',1,'scxt::import_support']]],
   ['filterhandle_5',['FilterHandle',['../structscxt_1_1import__support_1_1FilterHandle.html',1,'scxt::import_support']]],
-  ['fouruintsfourfloats_6',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]],
-  ['fxadapter_7',['fxAdapter',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1fxAdapter.html',1,'scxt::ui::app::edit_screen']]],
-  ['fxslotbearing_8',['FXSlotBearing',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html',1,'scxt::ui::app::shared']]]
+  ['fingerprint_6',['Fingerprint',['../structscxt_1_1perf_1_1Fingerprint.html',1,'scxt::perf']]],
+  ['fouruintsfourfloats_7',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]],
+  ['fxadapter_8',['fxAdapter',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1fxAdapter.html',1,'scxt::ui::app::edit_screen']]],
+  ['fxslotbearing_9',['FXSlotBearing',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html',1,'scxt::ui::app::shared']]]
 ];

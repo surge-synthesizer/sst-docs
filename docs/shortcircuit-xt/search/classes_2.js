@@ -7,7 +7,7 @@ var searchData=
   ['colormap_4',['ColorMap',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html',1,'scxt::ui::theme']]],
   ['compoundelement_5',['CompoundElement',['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html',1,'scxt::sample::compound']]],
   ['conditionrow_6',['ConditionRow',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html',1,'scxt::ui::app::edit_screen::GroupTriggersCard']]],
-  ['config_7',['Config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'scxt::engine::dtl']]],
+  ['config_7',['config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'Config'],['../structscxt_1_1perf_1_1Config.html',1,'Config']]],
   ['consistencylfopane_8',['ConsistencyLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ConsistencyLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['consoleharness_9',['ConsoleHarness',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html',1,'scxt::clients::console_ui']]],
   ['consoleui_10',['ConsoleUI',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html',1,'scxt::clients::console_ui']]],
@@ -19,5 +19,6 @@ var searchData=
   ['curvelfo_16',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
   ['curvelfopane_17',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['curvelfostorage_18',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]],
-  ['customdtev_19',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]]
+  ['customdtev_19',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]],
+  ['customevent_20',['CustomEvent',['../structscxt_1_1perf_1_1CustomEvent.html',1,'scxt::perf']]]
 ];

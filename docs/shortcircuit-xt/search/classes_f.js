@@ -22,5 +22,7 @@ var searchData=
   ['rowcomponent_19',['rowComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget']]],
   ['rowcontents_20',['RowContents',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea_1_1RowContents.html',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['rowtopcomponent_21',['rowTopComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowTopComponent.html',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget']]],
-  ['runtimeconfig_22',['RuntimeConfig',['../structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html',1,'scxt::engine::Engine']]]
+  ['runconfig_22',['RunConfig',['../structscxt_1_1perf_1_1RunConfig.html',1,'scxt::perf']]],
+  ['runresult_23',['RunResult',['../structscxt_1_1perf_1_1RunResult.html',1,'scxt::perf']]],
+  ['runtimeconfig_24',['RuntimeConfig',['../structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html',1,'scxt::engine::Engine']]]
 ];

@@ -12,5 +12,6 @@ var searchData=
   ['importedsource_9',['ImportedSource',['../structscxt_1_1import__support_1_1ImportedSource.html',1,'scxt::import_support']]],
   ['importedtarget_10',['ImportedTarget',['../structscxt_1_1import__support_1_1ImportedTarget.html',1,'scxt::import_support']]],
   ['importercontext_11',['ImporterContext',['../classscxt_1_1import__support_1_1ImporterContext.html',1,'scxt::import_support']]],
-  ['instrumentprompt_12',['InstrumentPrompt',['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html',1,'scxt::ui::app::shared']]]
+  ['instrumentprompt_12',['InstrumentPrompt',['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html',1,'scxt::ui::app::shared']]],
+  ['iterationstats_13',['IterationStats',['../structscxt_1_1perf_1_1IterationStats.html',1,'scxt::perf']]]
 ];

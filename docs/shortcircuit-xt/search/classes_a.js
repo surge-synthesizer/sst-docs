@@ -16,8 +16,10 @@ var searchData=
   ['lfotargetendpointdata_3c_20tg_2c_20_27glfo_27_3e_13',['LFOTargetEndpointData&lt; TG, &apos;glfo&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['lfotargetendpointdata_3c_20tg_2c_20_27lfo_20_27_3e_14',['LFOTargetEndpointData&lt; TG, &apos;lfo &apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['loadablefile_15',['LoadableFile',['../structscxt_1_1browser_1_1Browser_1_1LoadableFile.html',1,'scxt::browser::Browser']]],
-  ['lockedexception_16',['LockedException',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html',1,'scxt::browser::SQL']]],
-  ['logscreen_17',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]],
-  ['loopargs_18',['LoopArgs',['../structscxt_1_1import__support_1_1LoopArgs.html',1,'scxt::import_support']]],
-  ['lowhighlast_19',['LowHighLast',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html',1,'scxt::engine::Group']]]
+  ['loadresult_16',['LoadResult',['../structscxt_1_1perf_1_1LoadResult.html',1,'scxt::perf']]],
+  ['loadstep_17',['LoadStep',['../structscxt_1_1perf_1_1LoadStep.html',1,'scxt::perf']]],
+  ['lockedexception_18',['LockedException',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html',1,'scxt::browser::SQL']]],
+  ['logscreen_19',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['loopargs_20',['LoopArgs',['../structscxt_1_1import__support_1_1LoopArgs.html',1,'scxt::import_support']]],
+  ['lowhighlast_21',['LowHighLast',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html',1,'scxt::engine::Group']]]
 ];
