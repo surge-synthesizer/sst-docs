@@ -373,6 +373,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4a58cb2ff139652d3e778d6eb9ce8276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc75c2353e91c643f02849b5a40fd714" id="r_abc75c2353e91c643f02849b5a40fd714"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, egsPerZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#abc75c2353e91c643f02849b5a40fd714">egsActive</a> {}</td></tr>
 <tr class="separator:abc75c2353e91c643f02849b5a40fd714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0810374933e7941e10968d3b0b14c97" id="r_ae0810374933e7941e10968d3b0b14c97"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, envFollowersPerGroupOrZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#ae0810374933e7941e10968d3b0b14c97">envFollowersActive</a> {}</td></tr>
+<tr class="separator:ae0810374933e7941e10968d3b0b14c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac52f7695ac97e188cc58a717ca33bd67" id="r_ac52f7695ac97e188cc58a717ca33bd67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#ac52f7695ac97e188cc58a717ca33bd67">phasorsActive</a> {}</td></tr>
 <tr class="separator:ac52f7695ac97e188cc58a717ca33bd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f9d193999aea9d4e7c2981567c9fdbe" id="r_a9f9d193999aea9d4e7c2981567c9fdbe"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a>, egsPerZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a9f9d193999aea9d4e7c2981567c9fdbe">egStorage</a></td></tr>
@@ -793,7 +795,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::DEFAULT_BUS</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac2bb05740fc509d8fef59296c677c03b">Zone::gatedVoiceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8e9ff76af0be91e732db400ba764796c">Zone::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#af6224631cfd74675f1c9aa7107c7443a">Zone::mUILag</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad6ee5919d018f2ea8c868654a74eab74">Zone::output</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a306db1ae80088241d8ef06ccb0f38ac1">Zone::outputInfo</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html#a2b18c58904f51cbdae2f8d84a1f6a11f">Zone::ZoneOutputInfo::routeTo</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a9588da702f57c6cc3291c76db582d6bf">Zone::terminateAllVoices()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8e25fea2a4c87b5e25cb1a6a5cffe4ff">Zone::terminateOnNextProcess</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#af7829861d8342a31cb177feae10ca3cd">Zone::voiceWeakPointers</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#ace4c40cad7197ac09e2dd4ce5998f19f">Zone::activeVoices</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::DEFAULT_BUS</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac2bb05740fc509d8fef59296c677c03b">Zone::gatedVoiceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8e9ff76af0be91e732db400ba764796c">Zone::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#af6224631cfd74675f1c9aa7107c7443a">Zone::mUILag</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad6ee5919d018f2ea8c868654a74eab74">Zone::output</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a306db1ae80088241d8ef06ccb0f38ac1">Zone::outputInfo</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html#a2b18c58904f51cbdae2f8d84a1f6a11f">Zone::ZoneOutputInfo::routeTo</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a9588da702f57c6cc3291c76db582d6bf">Zone::terminateAllVoices()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8e25fea2a4c87b5e25cb1a6a5cffe4ff">Zone::terminateOnNextProcess</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#af7829861d8342a31cb177feae10ca3cd">Zone::voiceWeakPointers</a>.</p>
 
 </div>
 </div>
@@ -1104,7 +1106,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc75c2353e91c643f02849b5a40fd714">Zone::egsActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#afcafb49d5b2430ea4fecc056a13e91a9">MatrixEndpoints::Sources::egSources</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4a58cb2ff139652d3e778d6eb9ce8276">Zone::glfosActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#ae6117e718f65c84a466f37af79115724">MatrixEndpoints::Sources::glfoSources</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a406401d5bff3bb7699b425e818fb00a3">Zone::lfosActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#aee7f737164e317b302d03abed0d4eaed">MatrixEndpoints::Sources::lfoSources</a>, <a class="el" href="namespacescxt_1_1engine.html#acbabe8eb069bff3780fba3458b35d02c">scxt::engine::lfosPerGroup</a>, <a class="el" href="namespacescxt_1_1engine.html#a960c5262d8150647d8cb3ba9fbbff234">scxt::engine::lfosPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac52f7695ac97e188cc58a717ca33bd67">Zone::phasorsActive</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4">Group::rePrepareAndBindGroupMatrix()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a85ece7f7a79faf84c1fbaebd41d4bd6a">Zone::routingTable</a>, and <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a354a1edc73d5c4528e92c1ee7f9cf01b">MatrixEndpoints::Sources::transportSources</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc75c2353e91c643f02849b5a40fd714">Zone::egsActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#afcafb49d5b2430ea4fecc056a13e91a9">MatrixEndpoints::Sources::egSources</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae0810374933e7941e10968d3b0b14c97">Zone::envFollowersActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a1bfee90688838b52902f898afb7a08f4">MatrixEndpoints::Sources::envFollowerSources</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4a58cb2ff139652d3e778d6eb9ce8276">Zone::glfosActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#ae6117e718f65c84a466f37af79115724">MatrixEndpoints::Sources::glfoSources</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a406401d5bff3bb7699b425e818fb00a3">Zone::lfosActive</a>, <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#aee7f737164e317b302d03abed0d4eaed">MatrixEndpoints::Sources::lfoSources</a>, <a class="el" href="namespacescxt_1_1engine.html#acbabe8eb069bff3780fba3458b35d02c">scxt::engine::lfosPerGroup</a>, <a class="el" href="namespacescxt_1_1engine.html#a960c5262d8150647d8cb3ba9fbbff234">scxt::engine::lfosPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4ebb34eb7f7513c03184ddab21873511">Zone::parentGroup</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac52f7695ac97e188cc58a717ca33bd67">Zone::phasorsActive</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#aedd3f973b10a8a932a7613d565b164f4">Group::rePrepareAndBindGroupMatrix()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a85ece7f7a79faf84c1fbaebd41d4bd6a">Zone::routingTable</a>, and <a class="el" href="structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a354a1edc73d5c4528e92c1ee7f9cf01b">MatrixEndpoints::Sources::transportSources</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1import__support.html#a08d5189db735a67f02af0fa893ceb521">scxt::import_support::addImportedModRoute()</a>.</p>
 
@@ -1832,7 +1834,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0000e6c83d3eba34b2929b56902dcffa">Zone::addVoice()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Zone::isActive()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac5da2e6909a5dde1e667b8aa089b88b7">Zone::removeVoice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0000e6c83d3eba34b2929b56902dcffa">Zone::addVoice()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Zone::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae8fa4fba751326442ae850a2d9c865a0">Zone::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#ac5da2e6909a5dde1e667b8aa089b88b7">Zone::removeVoice()</a>.</p>
 
 </div>
 </div>
@@ -1996,6 +1998,22 @@ template&lt;bool OS&gt; </div>
 
 </div>
 </div>
+<a id="ae0810374933e7941e10968d3b0b14c97" name="ae0810374933e7941e10968d3b0b14c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0810374933e7941e10968d3b0b14c97">&#9670;&#160;</a></span>envFollowersActive</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;bool, envFollowersPerGroupOrZone&gt; envFollowersActive {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aed959c9eafd1814595f03b425a0fa8ad">Zone::onRoutingChanged()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+
+</div>
+</div>
 <a id="ac52f7695ac97e188cc58a717ca33bd67" name="ac52f7695ac97e188cc58a717ca33bd67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac52f7695ac97e188cc58a717ca33bd67">&#9670;&#160;</a></span>phasorsActive</h2>
 
@@ -2067,7 +2085,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 24 2026 14:22:47 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun May 24 2026 23:15:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
