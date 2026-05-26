@@ -43,7 +43,7 @@ var searchData=
   ['groupinfo_40',['groupinfo',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#a8833137073a6658fb9390c6982636d59',1,'scxt::ui::app::edit_screen::RoutingPaneContents::groupInfo'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a6c597f94e806074a3f471b35d849db5c',1,'scxt::ui::app::edit_screen::RoutingPane::groupInfo']]],
   ['grouplabelpad_41',['grouplabelPad',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a94136f7c482e871eea7ce8377e7b6174',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
   ['groupmodsources_42',['groupModSources',['../structscxt_1_1engine_1_1Engine.html#aea04a8c27813a0dcdee556ca70d3409d',1,'scxt::engine::Engine']]],
-  ['groupmodtargets_43',['groupModTargets',['../structscxt_1_1engine_1_1Engine.html#a828475668690c7e13eccaf58e5bc8d56',1,'scxt::engine::Engine']]],
+  ['groupmodtargets_43',['groupModTargets',['../structscxt_1_1engine_1_1Engine.html#ac2e2e735e793f7f84ac62fc5ae5a1b3c',1,'scxt::engine::Engine']]],
   ['grouponly_44',['groupOnly',['../structscxt_1_1dsp_1_1processor_1_1ProcessorDescription.html#a3c1a0b9986c33539eaa2e7415317f0e1',1,'scxt::dsp::processor::ProcessorDescription']]],
   ['groupoutputinfo_45',['groupOutputInfo',['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a2338b13e646a0e20f4cb1bb85b0e1de9',1,'scxt::ui::app::SCXTEditorDataCache']]],
   ['groupprocpitches_46',['groupProcPitches',['../structscxt_1_1engine_1_1Group.html#a73318a27dbcd1fe88764c8721748508e',1,'scxt::engine::Group']]],
