@@ -29,13 +29,14 @@ var searchData=
   ['focus_5fparts_26',['FOCUS_PARTS',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980',1,'scxt::ui::app']]],
   ['focus_5fplay_27',['FOCUS_PLAY',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f',1,'scxt::ui::app']]],
   ['focus_5fzones_28',['FOCUS_ZONES',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2',1,'scxt::ui::app']]],
-  ['for_5fdaw_29',['FOR_DAW',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8',1,'scxt::engine::Engine']]],
-  ['for_5fmulti_30',['FOR_MULTI',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920',1,'scxt::engine::Engine']]],
-  ['for_5fpart_31',['FOR_PART',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001',1,'scxt::engine::Engine']]],
-  ['forward_5fonly_32',['FORWARD_ONLY',['../structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898',1,'scxt::engine::Zone']]],
-  ['forward_5frr_33',['FORWARD_RR',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a25b562d272135e58643d31d78aaf8792',1,'scxt::engine::Zone']]],
-  ['four_5ffour_5fmix_34',['FOUR_FOUR_MIX',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html#a7648fc5b59ca02797e5d3d876e21b989a93dd0ced643f6bb636bbb7c74614baaf',1,'scxt::messaging::audio::SerializationToAudio']]],
-  ['freerun_35',['FREERUN',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a1525d2ff5432f1379e07ed432f7110a7',1,'scxt::modulation::ModulatorStorage']]],
-  ['from_5fend_36',['FROM_END',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150afa6d2b748d0a871eac569731b2f01181',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['from_5fstart_37',['FROM_START',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150a544c7456916ea221e663f9125c3a7aab',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
+  ['folded_29',['FOLDED',['../namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19a9353856724aeb42ec6e10984e4eb32dd',1,'scxt::engine']]],
+  ['for_5fdaw_30',['FOR_DAW',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8',1,'scxt::engine::Engine']]],
+  ['for_5fmulti_31',['FOR_MULTI',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197afe78fb2ff9121a1832149e16bff59920',1,'scxt::engine::Engine']]],
+  ['for_5fpart_32',['FOR_PART',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a8400ad98be7c9cf04bb2bc67ca4f9001',1,'scxt::engine::Engine']]],
+  ['forward_5fonly_33',['FORWARD_ONLY',['../structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898',1,'scxt::engine::Zone']]],
+  ['forward_5frr_34',['FORWARD_RR',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a25b562d272135e58643d31d78aaf8792',1,'scxt::engine::Zone']]],
+  ['four_5ffour_5fmix_35',['FOUR_FOUR_MIX',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html#a7648fc5b59ca02797e5d3d876e21b989a93dd0ced643f6bb636bbb7c74614baaf',1,'scxt::messaging::audio::SerializationToAudio']]],
+  ['freerun_36',['FREERUN',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a1525d2ff5432f1379e07ed432f7110a7',1,'scxt::modulation::ModulatorStorage']]],
+  ['from_5fend_37',['FROM_END',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150afa6d2b748d0a871eac569731b2f01181',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['from_5fstart_38',['FROM_START',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150a544c7456916ea221e663f9125c3a7aab',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
 ];

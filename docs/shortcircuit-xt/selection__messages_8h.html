@@ -119,6 +119,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa4d4d101367a37eb592526a2e1cf2bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0faa0f5bafd75987be4e3c98e985854e" id="r_a0faa0f5bafd75987be4e3c98e985854e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0faa0f5bafd75987be4e3c98e985854e">editGestureFor_t</a> = bool</td></tr>
 <tr class="separator:a0faa0f5bafd75987be4e3c98e985854e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b264d5010a82a6b486f20902974b6a" id="r_a12b264d5010a82a6b486f20902974b6a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a12b264d5010a82a6b486f20902974b6a">setGroupCollapsedPayload_t</a> = std::tuple&lt; int32_t, int32_t, bool &gt;</td></tr>
+<tr class="separator:a12b264d5010a82a6b486f20902974b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7364aecaf7524c1ff8a711ece65b1f" id="r_a1f7364aecaf7524c1ff8a711ece65b1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1f7364aecaf7524c1ff8a711ece65b1f">setAllGroupsCollapsedPayload_t</a> = std::pair&lt; int32_t, bool &gt;</td></tr>
+<tr class="separator:a1f7364aecaf7524c1ff8a711ece65b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -142,11 +146,15 @@ Functions</h2></td></tr>
 <tr class="separator:a3a7404a72dad23d064e82c204f616ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a039df95a2b046ab82f1af3024dbf0608" id="r_a039df95a2b046ab82f1af3024dbf0608"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a039df95a2b046ab82f1af3024dbf0608">CLIENT_TO_SERIAL</a> (EndEdit, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aede6072415de1e99f3a24e11c36c1069">c2s_end_edit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0faa0f5bafd75987be4e3c98e985854e">editGestureFor_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a8f352a01130a65029603b2d01ea3508a">doBeginEndEdit</a>(false, payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:a039df95a2b046ab82f1af3024dbf0608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33c5293d0d670227faf84c298aafcff1" id="r_a33c5293d0d670227faf84c298aafcff1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a33c5293d0d670227faf84c298aafcff1">CLIENT_TO_SERIAL</a> (SetGroupCollapsed, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879acc1150900664ffde5b1dc87f27b1e6d3">c2s_set_group_collapsed</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a12b264d5010a82a6b486f20902974b6a">setGroupCollapsedPayload_t</a>, engine.getSelectionManager() -&gt;setGroupCollapsed(std::get&lt; 0 &gt;(payload), std::get&lt; 1 &gt;(payload), std::get&lt; 2 &gt;(payload)))</td></tr>
+<tr class="separator:a33c5293d0d670227faf84c298aafcff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b180c38f29094044015eef301f7a1b6" id="r_a6b180c38f29094044015eef301f7a1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a6b180c38f29094044015eef301f7a1b6">CLIENT_TO_SERIAL</a> (SetAllGroupsCollapsed, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a2226f7c6d3df060d05f56b943629bdec">c2s_set_all_groups_collapsed</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1f7364aecaf7524c1ff8a711ece65b1f">setAllGroupsCollapsedPayload_t</a>, engine.getSelectionManager() -&gt;setAllGroupsCollapsed(payload.first, payload.second))</td></tr>
+<tr class="separator:a6b180c38f29094044015eef301f7a1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 26 2026 15:08:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed May 27 2026 13:00:55 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
