@@ -30,11 +30,10 @@ var searchData=
   ['amp_5fvelocity_5fcurve_27',['AMP_VELOCITY_CURVE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a73a8ed3aa2c59327ebd4d49e9f4242f1',1,'scxt::exs_support']]],
   ['and_28',['AND',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa558ffc8f5770d8e4f95f51d822685532',1,'scxt::engine::GroupTriggerConditions']]],
   ['and_5fnot_29',['AND_NOT',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa68d29af060ea90083c505ee392700eef',1,'scxt::engine::GroupTriggerConditions']]],
-  ['applyomnitoallonselect_30',['applyOmniToAllOnSelect',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a8f7384ab4c9c50a3b1d594f6a103f6af',1,'scxt::infrastructure']]],
-  ['as_5fmonolith_31',['AS_MONOLITH',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd',1,'scxt::patch_io']]],
-  ['as_5fsfz_32',['AS_SFZ',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac',1,'scxt::patch_io']]],
-  ['ascending_33',['ASCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaa35cb4c8640a823da9718e5cd29d211ea',1,'scxt::modulation::modulators::PhasorStorage']]],
-  ['attack_34',['Attack',['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6adcfafcb4323b102c7e204555d313ba0a',1,'scxt::import_support']]],
-  ['aux_35',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['aux_5f0_36',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
+  ['as_5fmonolith_30',['AS_MONOLITH',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a7d86656eb3d082ed4661b8d902891bcd',1,'scxt::patch_io']]],
+  ['as_5fsfz_31',['AS_SFZ',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac',1,'scxt::patch_io']]],
+  ['ascending_32',['ASCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaa35cb4c8640a823da9718e5cd29d211ea',1,'scxt::modulation::modulators::PhasorStorage']]],
+  ['attack_33',['Attack',['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6adcfafcb4323b102c7e204555d313ba0a',1,'scxt::import_support']]],
+  ['aux_34',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
+  ['aux_5f0_35',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
 ];
