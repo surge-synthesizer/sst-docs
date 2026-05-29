@@ -43,7 +43,7 @@ var searchData=
   ['closebutton_40',['closeButton',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a527ccb12cccb6b64a757dac0abd666b6',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['cm_41',['cM',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a9214d35c5f657d9b927f0b1686c7a9f2',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['coarsetuning_42',['coarseTuning',['../structscxt_1_1exs__support_1_1EXSZone.html#a8f889d86ae206452bdc9e6985faff6cd',1,'scxt::exs_support::EXSZone']]],
-  ['collapsedgroupsbypart_43',['collapsedGroupsByPart',['../structscxt_1_1selection_1_1SelectionManager.html#a03c703ae51bdd3f2b0f4897214505171',1,'scxt::selection::SelectionManager']]],
+  ['collapsedgroups_43',['collapsedGroups',['../structscxt_1_1selection_1_1SelectionManager_1_1PerPartState.html#aa0dc42c58b7f6c0f3c5081510e98668d',1,'scxt::selection::SelectionManager::PerPartState']]],
   ['color_44',['color',['../ThemeEditor_8cpp.html#af73b69f7c431b8ef2f28eecaa058bec2',1,'ThemeEditor.cpp']]],
   ['coloreditor_45',['colorEditor',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1ThemeEditor.html#a25833a9b67974f357681dea68cf98067',1,'scxt::ui::app::other_screens::ThemeEditor']]],
   ['colormap_46',['colorMap',['../structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#af20ef14d27ddddadd1b3562f09f95ae8',1,'scxt::ui::theme::StdMapColormap']]],

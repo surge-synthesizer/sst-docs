@@ -186,7 +186,7 @@ var searchData=
   ['glideglpyh_183',['glideGlpyh',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#accdadddeaf10ff05c9128d03b3b41bd1',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['glidemenu_184',['glideMenu',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a1e8315342295e21b23d036f90428979d',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['glideprogress_185',['glideProgress',['../structscxt_1_1voice_1_1Voice.html#a89a4fe50cb4af8719daffdb7acf16209',1,'scxt::voice::Voice']]],
-  ['glideratemode_186',['glideratemode',['../structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7',1,'scxt::engine::Group::GlideRateMode'],['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a8e758404eceac631cd3bfc19487096a4',1,'scxt::engine::Group::GroupOutputInfo::glideRateMode']]],
+  ['glideratemode_186',['glideratemode',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a8e758404eceac631cd3bfc19487096a4',1,'scxt::engine::Group::GroupOutputInfo::glideRateMode'],['../structscxt_1_1engine_1_1Group.html#a4fcd4ba19af7d789139723798932e6e7',1,'scxt::engine::Group::GlideRateMode']]],
   ['glideruleh_187',['glideRuleH',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a8a12b7d38fea0bfe0014149b693e2500',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['glidesemitones_188',['glideSemitones',['../structscxt_1_1voice_1_1Voice.html#a1be2a0cdf20490d3a0119ccdf12f6a90',1,'scxt::voice::Voice']]],
   ['glidetime_189',['glideTime',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a0143e2f7b989251821ef9c826051a9d4',1,'scxt::engine::Group::GroupOutputInfo']]],
