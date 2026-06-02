@@ -348,7 +348,7 @@ var searchData=
   ['processorlist_5ft_345',['processorList_t',['../namespacescxt_1_1dsp_1_1processor.html#a69ac7194741681ad5aff7ff38c14dbaa',1,'scxt::dsp::processor']]],
   ['processormix_346',['processormix',['../structscxt_1_1engine_1_1Group.html#a3433046f35aeeba8983db63c5bf6c50d',1,'scxt::engine::Group::processorMix'],['../structscxt_1_1voice_1_1Voice.html#a3433046f35aeeba8983db63c5bf6c50d',1,'scxt::voice::Voice::processorMix']]],
   ['processormixos_347',['processormixos',['../structscxt_1_1engine_1_1Group.html#aeb2d9e75a440c5ac486c22c6a1eae2f8',1,'scxt::engine::Group::processorMixOS'],['../structscxt_1_1voice_1_1Voice.html#aeb2d9e75a440c5ac486c22c6a1eae2f8',1,'scxt::voice::Voice::processorMixOS']]],
-  ['processorpair_5ft_348',['processorPair_t',['../namespacescxt_1_1messaging_1_1client.html#a3f0ea4e141c8ef95651bb7471f02922c',1,'scxt::messaging::client']]],
+  ['processorpair_5ft_348',['processorPair_t',['../namespacescxt_1_1messaging_1_1client.html#ae7c34f8d673301365d490985cc2fe13d',1,'scxt::messaging::client']]],
   ['processorpane_349',['processorpane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ac07de0bc9c1f3bca8200ce9132398466',1,'scxt::ui::app::edit_screen::ProcessorPane::ProcessorPane()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html',1,'ProcessorPane']]],
   ['processorpane_2ecpp_350',['ProcessorPane.cpp',['../ProcessorPane_8cpp.html',1,'']]],
   ['processorpane_2eh_351',['ProcessorPane.h',['../ProcessorPane_8h.html',1,'']]],
