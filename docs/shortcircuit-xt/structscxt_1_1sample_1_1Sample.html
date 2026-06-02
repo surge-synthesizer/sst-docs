@@ -133,11 +133,12 @@ Public Types</h2></td></tr>
 , <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">FLAC_FILE</a>
 , <br />
 &#160;&#160;<a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">MP3_FILE</a>
+, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393">OPUS_FILE</a>
 , <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">AIFF_FILE</a>
 , <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">MULTISAMPLE_FILE</a>
-, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">GIG_FILE</a>
 , <br />
-&#160;&#160;<a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020">EXS_FILE</a>
+&#160;&#160;<a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">GIG_FILE</a>
+, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020">EXS_FILE</a>
 , <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">SCXT_FILE</a>
 <br />
  }</td></tr>
@@ -217,6 +218,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9d614107c76388374b84cbc5cf52628d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f2ff927beccd128a23ba9521ac8ef2d" id="r_a5f2ff927beccd128a23ba9521ac8ef2d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a5f2ff927beccd128a23ba9521ac8ef2d">parseMP3</a> (const uint8_t *data, size_t size)</td></tr>
 <tr class="separator:a5f2ff927beccd128a23ba9521ac8ef2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464c3e9406ec19d4dab9ea3e814c4f0a" id="r_a464c3e9406ec19d4dab9ea3e814c4f0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a464c3e9406ec19d4dab9ea3e814c4f0a">parseOpus</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:a464c3e9406ec19d4dab9ea3e814c4f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3871957e8330e6db27eb63e849f29ff" id="r_aa3871957e8330e6db27eb63e849f29ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#aa3871957e8330e6db27eb63e849f29ff">parseOpus</a> (const uint8_t *data, size_t size)</td></tr>
+<tr class="separator:aa3871957e8330e6db27eb63e849f29ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6df1e060a8e485ed793298bc1490dde" id="r_ab6df1e060a8e485ed793298bc1490dde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde">parse_riff_wave</a> (void *data, size_t filesize, bool skip_riffchunk=false)</td></tr>
 <tr class="separator:ab6df1e060a8e485ed793298bc1490dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a072bd655324ff507c2928595f6ca1591" id="r_a072bd655324ff507c2928595f6ca1591"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">parse_aiff</a> (void *data, size_t filesize)</td></tr>
@@ -397,6 +402,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41" name="a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41"></a>SFZ_FILE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e" name="a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e"></a>FLAC_FILE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552" name="a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552"></a>MP3_FILE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393" name="a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393"></a>OPUS_FILE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea" name="a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea"></a>AIFF_FILE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb" name="a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb"></a>MULTISAMPLE_FILE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe" name="a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe"></a>GIG_FILE&#160;</td><td class="fielddoc"></td></tr>
@@ -543,7 +549,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020">Sample::EXS_FILE</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a485927521a338407870ebad8cc59e506">Sample::WAV_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020">Sample::EXS_FILE</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393">Sample::OPUS_FILE</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a485927521a338407870ebad8cc59e506">Sample::WAV_FILE</a>.</p>
 
 </div>
 </div>
@@ -592,7 +598,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ac90944a20944d91c5684897cdd4f7464">Sample::bitDepthByteSize()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a0057a7f2eb00a01a4b11243fd5bf2f8d">Sample::channels</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020">Sample::EXS_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a6c9aefe2e0ffa7fb7bb22d738c6c37bb">Sample::getCompoundInstrument()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae39b205b2c6ef2edc8435c558bc8f9aa">Sample::getCompoundRegion()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#acc7399acca0fcdbf3221a681afbfeac7">Sample::getDisplayName()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a108471221c17a935d3dcbd47d46d903c">Sample::getPath()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a47b1b72e0a9381ff047f07e259de4411">Sample::GetSamplePtrI16()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2fba55d9442e7dba4623825cd737e520">Sample::sample_rate</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a91192e363dd657601578c4d6b5fb0dd6">Sample::sampleLengthPerChannel</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ac90944a20944d91c5684897cdd4f7464">Sample::bitDepthByteSize()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a0057a7f2eb00a01a4b11243fd5bf2f8d">Sample::channels</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a909817f9ffbbe98b737ac7ed39205020">Sample::EXS_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a6c9aefe2e0ffa7fb7bb22d738c6c37bb">Sample::getCompoundInstrument()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae39b205b2c6ef2edc8435c558bc8f9aa">Sample::getCompoundRegion()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#acc7399acca0fcdbf3221a681afbfeac7">Sample::getDisplayName()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a108471221c17a935d3dcbd47d46d903c">Sample::getPath()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a47b1b72e0a9381ff047f07e259de4411">Sample::GetSamplePtrI16()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a415a6f0d70659eedc1b944e4d1bdbfbe">Sample::GIG_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1abf08167d89e888c8a67c77e7f51d2dfb">Sample::MULTISAMPLE_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393">Sample::OPUS_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2fba55d9442e7dba4623825cd737e520">Sample::sample_rate</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a91192e363dd657601578c4d6b5fb0dd6">Sample::sampleLengthPerChannel</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1aa001d9f7d634ffdb72abe22613e94b75">Sample::SF2_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a52b72978c30e90f09ca26cfbe4fa7a41">Sample::SFZ_FILE</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
 
 </div>
 </div>
@@ -652,7 +658,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a4ef8d0d19b718871c0bcbed4baf65a73">Sample::addError()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2125548646f2e2d0849f8ea6ccd9bad7">Sample::compoundSourceDetails</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a747ff15adc12dc69d4d145330abacbc8">scxt::infrastructure::createMD5SumFromFile()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#abd54db44deb77f599f600479aea631a3">Sample::displayName</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aac0cd658a947f15c542f739648c23420">Sample::md5Sum</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aca0ee3e9166266a388f3f890fc1cd31a">Sample::mFileName</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">Sample::parse_aiff()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde">Sample::parse_riff_wave()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ac123656ada39c24d7c9b10c5562d5fa2">Sample::parseFlac()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3d3a6b7b4a957ee250351e7f1b706b09">Sample::resetErrorString()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a7c5725772640ddc616c8f5aac0e3aae0">Sample::sample_loaded</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a4ef8d0d19b718871c0bcbed4baf65a73">Sample::addError()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a47512652c41bc37c64695c666a16f1ea">Sample::AIFF_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2125548646f2e2d0849f8ea6ccd9bad7">Sample::compoundSourceDetails</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a747ff15adc12dc69d4d145330abacbc8">scxt::infrastructure::createMD5SumFromFile()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#abd54db44deb77f599f600479aea631a3">Sample::displayName</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e">Sample::FLAC_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aac0cd658a947f15c542f739648c23420">Sample::md5Sum</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aca0ee3e9166266a388f3f890fc1cd31a">Sample::mFileName</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a6e5aa5701d3b59f42097f51e47043552">Sample::MP3_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393">Sample::OPUS_FILE</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">Sample::parse_aiff()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde">Sample::parse_riff_wave()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ac123656ada39c24d7c9b10c5562d5fa2">Sample::parseFlac()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a464c3e9406ec19d4dab9ea3e814c4f0a">Sample::parseOpus()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3d3a6b7b4a957ee250351e7f1b706b09">Sample::resetErrorString()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a7c5725772640ddc616c8f5aac0e3aae0">Sample::sample_loaded</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa2d2c7128429e05a9821ecdc992afec6">Sample::WAV_FILE</a>.</p>
 
 </div>
 </div>
@@ -760,7 +766,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a4ef8d0d19b718871c0bcbed4baf65a73">Sample::addError()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2125548646f2e2d0849f8ea6ccd9bad7">Sample::compoundSourceDetails</a>, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae081d61a778f0464ced3d2795e53601d">SCMonolithSampleReader::SampleData::data</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#abd54db44deb77f599f600479aea631a3">Sample::displayName</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae80f820219e45772366a2a68de6a54c4">SCMonolithSampleReader::SampleData::filename</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#afdaec00e75d76173d9a0e57d97da359e">Sample::instrument</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aca0ee3e9166266a388f3f890fc1cd31a">Sample::mFileName</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">Sample::parse_aiff()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde">Sample::parse_riff_wave()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ac123656ada39c24d7c9b10c5562d5fa2">Sample::parseFlac()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2e9d3076c7fd698357ca478e223b7286">Sample::preset</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae65983b9419c48cac6d5b2340adaa501">Sample::region</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a4ef8d0d19b718871c0bcbed4baf65a73">Sample::addError()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2125548646f2e2d0849f8ea6ccd9bad7">Sample::compoundSourceDetails</a>, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae081d61a778f0464ced3d2795e53601d">SCMonolithSampleReader::SampleData::data</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#abd54db44deb77f599f600479aea631a3">Sample::displayName</a>, <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>, <a class="el" href="structscxt_1_1patch__io_1_1SCMonolithSampleReader_1_1SampleData.html#ae80f820219e45772366a2a68de6a54c4">SCMonolithSampleReader::SampleData::filename</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#afdaec00e75d76173d9a0e57d97da359e">Sample::instrument</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aca0ee3e9166266a388f3f890fc1cd31a">Sample::mFileName</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">Sample::parse_aiff()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde">Sample::parse_riff_wave()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ac123656ada39c24d7c9b10c5562d5fa2">Sample::parseFlac()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a464c3e9406ec19d4dab9ea3e814c4f0a">Sample::parseOpus()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a2e9d3076c7fd698357ca478e223b7286">Sample::preset</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ae65983b9419c48cac6d5b2340adaa501">Sample::region</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1ab46988ba1fd747dcbd211ed55f5677ff">Sample::SCXT_FILE</a>.</p>
 
 </div>
 </div>
@@ -1075,6 +1081,58 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a464c3e9406ec19d4dab9ea3e814c4f0a" name="a464c3e9406ec19d4dab9ea3e814c4f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a464c3e9406ec19d4dab9ea3e814c4f0a">&#9670;&#160;</a></span>parseOpus() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool parseOpus </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a4ef8d0d19b718871c0bcbed4baf65a73">Sample::addError()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9f5547d43274c4f1cfbd8518bd61f402">Sample::loadFromSCXTMonolith()</a>.</p>
+
+</div>
+</div>
+<a id="aa3871957e8330e6db27eb63e849f29ff" name="aa3871957e8330e6db27eb63e849f29ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3871957e8330e6db27eb63e849f29ff">&#9670;&#160;</a></span>parseOpus() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool parseOpus </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a4ef8d0d19b718871c0bcbed4baf65a73">Sample::addError()</a>.</p>
+
+</div>
+</div>
 <a id="ab6df1e060a8e485ed793298bc1490dde" name="ab6df1e060a8e485ed793298bc1490dde"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6df1e060a8e485ed793298bc1490dde">&#9670;&#160;</a></span>parse_riff_wave()</h2>
 
@@ -1245,7 +1303,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa9b791cde5afbcc2df65824e50de752d">Sample::errStack</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a89451fbc0d55f1436ac6cfae4c5d6d0a">Sample::loadFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9f5547d43274c4f1cfbd8518bd61f402">Sample::loadFromSCXTMonolith()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a11e311eb4bfc1acbd3d19a46c7f12199">Sample::loadFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">Sample::parse_aiff()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a5f2ff927beccd128a23ba9521ac8ef2d">Sample::parseMP3()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab827e3b125372d4d5b8be35f81a5f16d">Sample::SetMeta()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a89451fbc0d55f1436ac6cfae4c5d6d0a">Sample::loadFromGIG()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9f5547d43274c4f1cfbd8518bd61f402">Sample::loadFromSCXTMonolith()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a11e311eb4bfc1acbd3d19a46c7f12199">Sample::loadFromSF2()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a072bd655324ff507c2928595f6ca1591">Sample::parse_aiff()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a9d614107c76388374b84cbc5cf52628d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a5f2ff927beccd128a23ba9521ac8ef2d">Sample::parseMP3()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a464c3e9406ec19d4dab9ea3e814c4f0a">Sample::parseOpus()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa3871957e8330e6db27eb63e849f29ff">Sample::parseOpus()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab827e3b125372d4d5b8be35f81a5f16d">Sample::SetMeta()</a>.</p>
 
 </div>
 </div>
@@ -1900,7 +1958,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f">Sample::dumpInformationToLog()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a36e8f173b50196dfab1c0222536fbdff">scxt::sample::compound::getSFZCompoundList()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>, <a class="el" href="namespacescxt_1_1json.html#a73d6f92438133adeb26f8e95bcfb59ed">scxt::json::SC_STREAMDEF()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa65213e0fb4eebf2d0cf51f6fa66cac5">Sample::sourceTypeFromPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#a22e373804ceb5b911404af654e417d6f">Sample::dumpInformationToLog()</a>, <a class="el" href="namespacescxt_1_1sample_1_1compound.html#a36e8f173b50196dfab1c0222536fbdff">scxt::sample::compound::getSFZCompoundList()</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#ad7dd3bcf7a2bf46706652934bd17da2b">Sample::load()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#ae2b62e30e6652b8205971dd70688668c">SampleManager::loadSampleByFileAddress()</a>, <a class="el" href="namespacescxt_1_1json.html#a2f6b904ab73f1dca66a23fd800121bd8">scxt::json::SC_STREAMDEF()</a>, and <a class="el" href="structscxt_1_1sample_1_1Sample.html#aa65213e0fb4eebf2d0cf51f6fa66cac5">Sample::sourceTypeFromPath()</a>.</p>
 
 </div>
 </div>
@@ -2519,13 +2577,14 @@ Additional Inherited Members</h2></td></tr>
 <li><a class="el" href="load__aiff_8cpp.html">load_aiff.cpp</a></li>
 <li><a class="el" href="load__flac_8cpp.html">load_flac.cpp</a></li>
 <li><a class="el" href="load__mp3_8cpp.html">load_mp3.cpp</a></li>
+<li><a class="el" href="load__opus_8cpp.html">load_opus.cpp</a></li>
 <li><a class="el" href="load__riff__wave_8cpp.html">load_riff_wave.cpp</a></li>
 <li><a class="el" href="sample_8cpp.html">sample.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 2 2026 22:35:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jun 2 2026 23:36:57 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
