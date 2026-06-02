@@ -15,7 +15,7 @@ var searchData=
   ['midi_12',['midi',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a17bfa43c46bfd6a3def22fa17243cbc8',1,'scxt::sfz_support::SFZParser::Header']]],
   ['midi_5fmono_5fmode_13',['MIDI_MONO_MODE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aef187fa1d76ebdd749e4208f21c52b50',1,'scxt::exs_support']]],
   ['midi_5fmono_5fmode_5fpitch_5frange_14',['MIDI_MONO_MODE_PITCH_RANGE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2aeccf126288bc0abe4ea2ecbf1b146913',1,'scxt::exs_support']]],
-  ['midicc_15',['midicc',['../namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745',1,'scxt::engine::MIDICC'],['../namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fba561f36520cf2998823f1300c2bedd31f',1,'scxt::import_support::MidiCC']]],
+  ['midicc_15',['midicc',['../namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fba561f36520cf2998823f1300c2bedd31f',1,'scxt::import_support::MidiCC'],['../namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745',1,'scxt::engine::MIDICC']]],
   ['missing_5fsample_16',['MISSING_SAMPLE',['../namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19a55abd6c8b0460e54822565c5b2d2c0cc',1,'scxt::engine']]],
   ['mixer_17',['MIXER',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aa1c8652f00e000a160bc62b0999a78d9a2a9e7eafdf243acb1757bdd9e14afacd',1,'scxt::ui::app::SCXTEditor']]],
   ['mod10_5famount_5fhigh_18',['MOD10_AMOUNT_HIGH',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8c369a85ace57c996048620d52a21a61',1,'scxt::exs_support']]],
