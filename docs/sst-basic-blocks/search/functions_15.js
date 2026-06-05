@@ -52,12 +52,14 @@ var searchData=
   ['withshortname_49',['withShortName',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#abc6f151b322acba356b07538630786d6',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withsupportsmultiplicativemodulation_50',['withSupportsMultiplicativeModulation',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a0adfb0a2cd01ff44b943473983b1e69a',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['withtemposync_51',['withTemposync',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#a4f665a6b5549d13dd51aa3928930dc38',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
-  ['withtemposyncmultiplier_52',['withTemposyncMultiplier',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a4bbc5cfd773c805e43d9101c38b2b497',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withtype_53',['withType',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a60bd30fb786bf4f68769119218170b1e',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withunit_54',['withUnit',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad6627c25f44e64787e3e08de39e996cc',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withunitseparator_55',['withUnitSeparator',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa8075d63c09a0d4d0ee56cc3baca5c43',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withunorderedmapformatting_56',['withUnorderedMapFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a448a3091fdc2d57355a17a8a8b42d165',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withvaluelabelremoved_57',['withValueLabelRemoved',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6779449b855f61558f131725c1898f98',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['withversion_58',['withVersion',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a48c6e9619151f07e5adddc7fc5a7ec0f',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['write_59',['write',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a966d5aaedf09d6f1f4c280973bec095b',1,'sst::basic_blocks::dsp::SSESincDelayLine::write()'],['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#a933e205b3c6de389b9c0120d306aaa59',1,'sst::basic_blocks::dsp::quadDelayLine::write()']]]
+  ['withtemposyncflavor_52',['withTemposyncFlavor',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ae5d64328156a3f07a6c3081225dbae89',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withtemposyncmultiplier_53',['withTemposyncMultiplier',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a4bbc5cfd773c805e43d9101c38b2b497',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withtemposynczerostage_54',['withTemposyncZeroStage',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#add62eb9c782bdfa4f2fb0f9dd2c982d5',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withtype_55',['withType',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a60bd30fb786bf4f68769119218170b1e',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withunit_56',['withUnit',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ad6627c25f44e64787e3e08de39e996cc',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withunitseparator_57',['withUnitSeparator',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa8075d63c09a0d4d0ee56cc3baca5c43',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withunorderedmapformatting_58',['withUnorderedMapFormatting',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a448a3091fdc2d57355a17a8a8b42d165',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withvaluelabelremoved_59',['withValueLabelRemoved',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a6779449b855f61558f131725c1898f98',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['withversion_60',['withVersion',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a48c6e9619151f07e5adddc7fc5a7ec0f',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['write_61',['write',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a966d5aaedf09d6f1f4c280973bec095b',1,'sst::basic_blocks::dsp::SSESincDelayLine::write()'],['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#a933e205b3c6de389b9c0120d306aaa59',1,'sst::basic_blocks::dsp::quadDelayLine::write()']]]
 ];

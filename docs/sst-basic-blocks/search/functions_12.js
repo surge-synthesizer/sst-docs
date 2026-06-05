@@ -7,10 +7,15 @@ var searchData=
   ['targetdigitaladsr_4',['targetDigitalADSR',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#a084f9a1d0f33ebe76547375ab218a06e',1,'sst::basic_blocks::modulators::ADSREnvelope']]],
   ['targetdigitaldahd_5',['targetDigitalDAHD',['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#abf72484de3a4fd11df8d19969e13a0aa',1,'sst::basic_blocks::modulators::DAHDEnvelope']]],
   ['temposyncable_6',['temposyncable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a48d5fd3699b43baaeca57451f087b5e5',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['temposyncnotation_7',['temposyncNotation',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a3c4c01285e0e8cb4e8e4395caaca5679',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['ternary_8',['ternary',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#abaff9df655974aa14a197eb7304f6fee',1,'sst::basic_blocks::dsp::RNG']]],
-  ['timeinsecondsfromparam_9',['timeinsecondsfromparam',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aee34108917e8cc43e5b1844eeed72147',1,'sst::basic_blocks::modulators::AHDSRShapedSC::timeInSecondsFromParam()'],['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#aee34108917e8cc43e5b1844eeed72147',1,'sst::basic_blocks::tables::ExpTimeProvider::timeInSecondsFromParam()']]],
-  ['toclapparaminfo_10',['toClapParamInfo',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa2aa589baf13cbe57c3c63ab16518159',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['trixpan_5fblocks_11',['trixpan_blocks',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#af8c8863234a0592eea070a81af6b9ce3',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['twotothe_12',['twoToThe',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#ab69002cc218e797b54df12baa3f2aac9',1,'sst::basic_blocks::tables::TwoToTheXProvider']]]
+  ['temposyncdecode_7',['temposyncDecode',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a16fae8d8517e9dd789d9e81aa3467f8d',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['temposyncencode_8',['temposyncEncode',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a03eaf16f463a4acd3e2cdfe025323d43',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['temposyncnotation_9',['temposyncNotation',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a3c4c01285e0e8cb4e8e4395caaca5679',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['ternary_10',['ternary',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#abaff9df655974aa14a197eb7304f6fee',1,'sst::basic_blocks::dsp::RNG']]],
+  ['timeinsecondsfromparam_11',['timeinsecondsfromparam',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html#aee34108917e8cc43e5b1844eeed72147',1,'sst::basic_blocks::tables::ExpTimeProvider::timeInSecondsFromParam()'],['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#aee34108917e8cc43e5b1844eeed72147',1,'sst::basic_blocks::modulators::AHDSRShapedSC::timeInSecondsFromParam()']]],
+  ['toclapparaminfo_12',['toClapParamInfo',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa2aa589baf13cbe57c3c63ab16518159',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['tofloat_13',['tofloat',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a3f7e214fcac29f685abb466867153bfe',1,'sst::basic_blocks::tables::temposync::ZeroOne::toFloat()'],['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#a37dc1df32a232c5cfd4b92f4ccf03f70',1,'sst::basic_blocks::tables::temposync::TwoToThe::toFloat()']]],
+  ['tostring_14',['toString',['../namespacesst_1_1basic__blocks_1_1tables_1_1temposync.html#a3d16c1bf2c1010f0db8fda296f41691f',1,'sst::basic_blocks::tables::temposync']]],
+  ['tostringcompact_15',['toStringCompact',['../namespacesst_1_1basic__blocks_1_1tables_1_1temposync.html#adb4085163357adb0c816a89580d623cb',1,'sst::basic_blocks::tables::temposync']]],
+  ['trixpan_5fblocks_16',['trixpan_blocks',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#af8c8863234a0592eea070a81af6b9ce3',1,'sst::basic_blocks::dsp::lipol_sse']]],
+  ['twotothe_17',['twoToThe',['../structsst_1_1basic__blocks_1_1tables_1_1TwoToTheXProvider.html#ab69002cc218e797b54df12baa3f2aac9',1,'sst::basic_blocks::tables::TwoToTheXProvider']]]
 ];

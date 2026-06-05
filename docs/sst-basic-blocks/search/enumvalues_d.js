@@ -27,5 +27,6 @@ var searchData=
   ['spiky_5ftx8_24',['SPIKY_TX8',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a6e97b419d7e25fe8157c7c474d5d8501ae9eb7beb535c085fc3e37dce4c30c2bb',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
   ['squarish_25',['SQUARISH',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a6e97b419d7e25fe8157c7c474d5d8501a5d6c1f42f0f0bfbbd8fc3080b69fbc9a',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
   ['stopped_26',['STOPPED',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba948b2aee15f52b421fa4770c47bcfe8c',1,'sst::basic_blocks::modulators::Transport']]],
-  ['supports_5fmultiplicative_5fmodulation_27',['SUPPORTS_MULTIPLICATIVE_MODULATION',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['straight_27',['Straight',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441ada4cdade2120d083fe09b30940e51c12',1,'sst::basic_blocks::tables::temposync::Note']]],
+  ['supports_5fmultiplicative_5fmodulation_28',['SUPPORTS_MULTIPLICATIVE_MODULATION',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a7489d426e232a62a4039ca21e585f487a5a6e6988e52b0b4c728d12ad09d4cb26',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
