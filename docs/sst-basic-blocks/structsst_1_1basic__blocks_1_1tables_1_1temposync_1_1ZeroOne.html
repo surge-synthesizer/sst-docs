@@ -126,6 +126,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a33fe9088741bd1d54a24aaf5d692b113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab763be5b4ebf2c3d5ceb282fd7aea45e" id="r_ab763be5b4ebf2c3d5ceb282fd7aea45e"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#ab763be5b4ebf2c3d5ceb282fd7aea45e">inverseBeatsFromFloat</a> (float v, bool zeroAtBottom=false)</td></tr>
 <tr class="separator:ab763be5b4ebf2c3d5ceb282fd7aea45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7fc70f54804640f726255b8a65932d" id="r_aef7fc70f54804640f726255b8a65932d"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#aef7fc70f54804640f726255b8a65932d">interpolatedBeatsFromFloat</a> (float v, bool zeroAtBottom=false)</td></tr>
+<tr class="separator:aef7fc70f54804640f726255b8a65932d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30617f07a7ed73957c1bf84432341de1" id="r_a30617f07a7ed73957c1bf84432341de1"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a30617f07a7ed73957c1bf84432341de1">baseIndexOf</a> (int idx)</td></tr>
 <tr class="separator:a30617f07a7ed73957c1bf84432341de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cdf588f372e5affc67cec7851f7f018" id="r_a9cdf588f372e5affc67cec7851f7f018"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441">Modifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a9cdf588f372e5affc67cec7851f7f018">modifierOf</a> (int idx)</td></tr>
@@ -404,6 +406,44 @@ Static Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a7fa6d24246e7f049d23f075df865268b">ZeroOne::indexFromZeroOne()</a>, and <a class="el" href="namespacesst_1_1basic__blocks_1_1tables_1_1temposync_1_1detail.html#a4be51a3f165ccb173a87e8c8f75c6c95">sst::basic_blocks::tables::temposync::detail::zInverseBeats</a>.</p>
 
+</div>
+</div>
+<a id="aef7fc70f54804640f726255b8a65932d" name="aef7fc70f54804640f726255b8a65932d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7fc70f54804640f726255b8a65932d">&#9670;&#160;</a></span>interpolatedBeatsFromFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr double interpolatedBeatsFromFloat </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>zeroAtBottom</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#aeade4dd4ed5b38051c963348685ed021">ZeroOne::denom</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a018300730bfdcc7559ca80b97036c751">ZeroOne::entries</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#ac1805a2fb10be1926fc1bbb86a959d89">ZeroOne::nEntries</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a03b25ee64356c2f5dda131c971cee020">AHDSRShapedSC&lt; SRProvider, BLOCK_SIZE, RangeProvider &gt;::dPhase()</a>.</p>
 
 </div>
@@ -593,6 +633,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#aef7fc70f54804640f726255b8a65932d">ZeroOne::interpolatedBeatsFromFloat()</a>.</p>
+
 </div>
 </div>
 <a id="aeade4dd4ed5b38051c963348685ed021" name="aeade4dd4ed5b38051c963348685ed021"></a>
@@ -615,7 +657,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a7fa6d24246e7f049d23f075df865268b">ZeroOne::indexFromZeroOne()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#ad4307f2e2cc2a7e6fcb1d761bfc8dc0d">ZeroOne::zeroOneFromIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a7fa6d24246e7f049d23f075df865268b">ZeroOne::indexFromZeroOne()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#aef7fc70f54804640f726255b8a65932d">ZeroOne::interpolatedBeatsFromFloat()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#ad4307f2e2cc2a7e6fcb1d761bfc8dc0d">ZeroOne::zeroOneFromIndex()</a>.</p>
 
 </div>
 </div>
@@ -639,7 +681,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a30617f07a7ed73957c1bf84432341de1">ZeroOne::baseIndexOf()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a1ce38028f3fbcc3a635ccc1db723adfe">ZeroOne::fromFloat()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a9cdf588f372e5affc67cec7851f7f018">ZeroOne::modifierOf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a30617f07a7ed73957c1bf84432341de1">ZeroOne::baseIndexOf()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a1ce38028f3fbcc3a635ccc1db723adfe">ZeroOne::fromFloat()</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#aef7fc70f54804640f726255b8a65932d">ZeroOne::interpolatedBeatsFromFloat()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a9cdf588f372e5affc67cec7851f7f018">ZeroOne::modifierOf()</a>.</p>
 
 </div>
 </div>
@@ -649,7 +691,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 5 2026 16:54:11 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Jun 6 2026 10:23:32 for sst-basic-blocks by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
