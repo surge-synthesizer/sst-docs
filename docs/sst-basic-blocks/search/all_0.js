@@ -39,7 +39,7 @@ var searchData=
   ['applylag_36',['applyLag',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a82a2beeba26054f58e7a9f557040137b',1,'sst::basic_blocks::dsp::LagCollection']]],
   ['applyphaseoffset_37',['applyPhaseOffset',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a5bbc23489b7a95d667aceabafe14cad0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['as25secondexptime_38',['as25SecondExpTime',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a20efd001ec94ee35752927d2da3ed95c',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['as25secondtemposyncableenvtime_39',['as25SecondTemposyncableEnvTime',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac3752e8d4cfa413d172cd2314cc0ae02',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['as25secondtemposyncableexptime_39',['as25SecondTemposyncableExpTime',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a79537fe9c23392a64be4d2f8f775272a',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['asaudiblefrequency_40',['asAudibleFrequency',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#af9141504e06051e98068689642630e57',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['asbool_41',['asBool',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a5fd66ca756d76553923cc97eb8daa240',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['ascubicdecibelattenuation_42',['asCubicDecibelAttenuation',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a573dc6def8a4468cfc1ba2e52d95334a',1,'sst::basic_blocks::params::ParamMetaData']]],
