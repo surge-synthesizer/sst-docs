@@ -11,10 +11,9 @@ var searchData=
   ['combimpl_8',['combImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#ae6a3842da05724ea8b2ed9d0e6de5251',1,'scxt::dsp::processor::procimpl::detail']]],
   ['combimpl_5fos_9',['combImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#acee9beca8ab231712e54d6ab1dcb1a4e',1,'scxt::dsp::processor::procimpl::detail']]],
   ['continuationdata_5ft_10',['continuationData_t',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a829bc6794abf1a390eb1f74fc3cf552c',1,'scxt::engine::Engine::VMConfig']]],
-  ['coord_5ft_11',['coord_t',['../namespacescxt_1_1ui_1_1theme_1_1layout.html#a3d76b4343210f8e979227d575741b971',1,'scxt::ui::theme::layout']]],
-  ['copyprocessorleadpayload_5ft_12',['copyProcessorLeadPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a5b2138848d7f76b47d0127cf25af6dcc',1,'scxt::messaging::client']]],
-  ['createeffectfn_5ft_13',['createEffectFn_t',['../namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f',1,'scxt::engine::dtl']]],
-  ['curveidentifier_14',['curveidentifier',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a3c5915506a5a3534b7c3eafacbbfb92d',1,'scxt::modulation::GroupMatrixConfig::CurveIdentifier'],['../structscxt_1_1modulation_1_1ModulationCurves.html#ab8a83834a73c7c0a0861d00647a1113d',1,'scxt::modulation::ModulationCurves::CurveIdentifier'],['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a3c5915506a5a3534b7c3eafacbbfb92d',1,'scxt::voice::modulation::MatrixConfig::CurveIdentifier']]],
-  ['cwarpimpl_15',['cWarpImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#aafedfd998fbfa9eee620a3d56c7126df',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['cwarpimpl_5fos_16',['cWarpImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#aba6171da43dd8f774d23ba603e63a2e3',1,'scxt::dsp::processor::procimpl::detail']]]
+  ['copyprocessorleadpayload_5ft_11',['copyProcessorLeadPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a5b2138848d7f76b47d0127cf25af6dcc',1,'scxt::messaging::client']]],
+  ['createeffectfn_5ft_12',['createEffectFn_t',['../namespacescxt_1_1engine_1_1dtl.html#ad3f96efdcc389d64511493849151bd4f',1,'scxt::engine::dtl']]],
+  ['curveidentifier_13',['curveidentifier',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a3c5915506a5a3534b7c3eafacbbfb92d',1,'scxt::modulation::GroupMatrixConfig::CurveIdentifier'],['../structscxt_1_1modulation_1_1ModulationCurves.html#ab8a83834a73c7c0a0861d00647a1113d',1,'scxt::modulation::ModulationCurves::CurveIdentifier'],['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a3c5915506a5a3534b7c3eafacbbfb92d',1,'scxt::voice::modulation::MatrixConfig::CurveIdentifier']]],
+  ['cwarpimpl_14',['cWarpImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#aafedfd998fbfa9eee620a3d56c7126df',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['cwarpimpl_5fos_15',['cWarpImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#aba6171da43dd8f774d23ba603e63a2e3',1,'scxt::dsp::processor::procimpl::detail']]]
 ];

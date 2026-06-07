@@ -125,10 +125,6 @@ Public Types</h2></td></tr>
 <tr class="separator:ad1fd055b7ab60701d5699a5d5f296875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb0d4d7d793f33c635896f5e0fccbf81" id="r_abb0d4d7d793f33c635896f5e0fccbf81"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html">connectors::BooleanPayloadDataAttachment</a>&lt; <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">dsp::processor::ProcessorStorage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#abb0d4d7d793f33c635896f5e0fccbf81">bool_attachment_t</a></td></tr>
 <tr class="separator:abb0d4d7d793f33c635896f5e0fccbf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e705472b0ef7bceaa6b9dd8c55da254" id="r_a2e705472b0ef7bceaa6b9dd8c55da254"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a2e705472b0ef7bceaa6b9dd8c55da254">floatEditor_t</a> = <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::ContinuousParamEditor &gt;</td></tr>
-<tr class="separator:a2e705472b0ef7bceaa6b9dd8c55da254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44ea1251069d854343b2911ec74196fe" id="r_a44ea1251069d854343b2911ec74196fe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a44ea1251069d854343b2911ec74196fe">intEditor_t</a> = <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::DiscreteParamEditor &gt;</td></tr>
-<tr class="separator:a44ea1251069d854343b2911ec74196fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35a603807842972fe36acad66747edc4" id="r_a35a603807842972fe36acad66747edc4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a35a603807842972fe36acad66747edc4">jsonFloatEditor_t</a> = std::unique_ptr&lt; sst::jucegui::components::ContinuousParamEditor &gt;</td></tr>
 <tr class="separator:a35a603807842972fe36acad66747edc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b231c84756d4b6e808a7b8b25267f4a" id="r_a6b231c84756d4b6e808a7b8b25267f4a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a6b231c84756d4b6e808a7b8b25267f4a">jsonIntEditor_t</a> = std::unique_ptr&lt; sst::jucegui::components::DiscreteParamEditor &gt;</td></tr>
@@ -160,18 +156,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acece4ab416db894ddcb11333fa7fe290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6478defe240e40263a447fd19cdb6df3" id="r_a6478defe240e40263a447fd19cdb6df3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a6478defe240e40263a447fd19cdb6df3">pasteFromEditorClipboard</a> ()</td></tr>
 <tr class="separator:a6478defe240e40263a447fd19cdb6df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac93e885b96b4b9f1232c6f1615ee6f26" id="r_ac93e885b96b4b9f1232c6f1615ee6f26"><td class="memTemplParams" colspan="2">template&lt;typename T  = sst::jucegui::components::Knob&gt; </td></tr>
-<tr class="memitem:ac93e885b96b4b9f1232c6f1615ee6f26"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::ContinuousParamEditor &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ac93e885b96b4b9f1232c6f1615ee6f26">createWidgetAttachedTo</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae13ca628b05494d0d121cc16334c95e7">attachment_t</a> &gt; &amp;at, const std::string &amp;label)</td></tr>
-<tr class="separator:ac93e885b96b4b9f1232c6f1615ee6f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1bc4314167d1e8761369f577859261" id="r_aea1bc4314167d1e8761369f577859261"><td class="memTemplParams" colspan="2">template&lt;typename T  = sst::jucegui::components::Knob&gt; </td></tr>
+<tr class="memitem:aea1bc4314167d1e8761369f577859261"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#aea1bc4314167d1e8761369f577859261">createWidgetAttachedTo</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae13ca628b05494d0d121cc16334c95e7">attachment_t</a> &gt; &amp;at)</td></tr>
+<tr class="separator:aea1bc4314167d1e8761369f577859261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75f1733be8e6f33454366e85176effbf" id="r_a75f1733be8e6f33454366e85176effbf"><td class="memTemplParams" colspan="2">template&lt;typename T  = sst::jucegui::components::Knob&gt; </td></tr>
 <tr class="memitem:a75f1733be8e6f33454366e85176effbf"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a75f1733be8e6f33454366e85176effbf">createWidgetAttachedTo</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875">int_attachment_t</a> &gt; &amp;at)</td></tr>
 <tr class="separator:a75f1733be8e6f33454366e85176effbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c039e1a5ae050f4132d2aab77efbbe" id="r_ab6c039e1a5ae050f4132d2aab77efbbe"><td class="memTemplParams" colspan="2">template&lt;typename T  = sst::jucegui::components::ToggleButton&gt; </td></tr>
 <tr class="memitem:ab6c039e1a5ae050f4132d2aab77efbbe"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ab6c039e1a5ae050f4132d2aab77efbbe">createWidgetAttachedTo</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#abb0d4d7d793f33c635896f5e0fccbf81">bool_attachment_t</a> &gt; &amp;at)</td></tr>
 <tr class="separator:ab6c039e1a5ae050f4132d2aab77efbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd69856f284d130367b8fca2bf37c6e8" id="r_acd69856f284d130367b8fca2bf37c6e8"><td class="memTemplParams" colspan="2">template&lt;typename T  = sst::jucegui::components::Knob&gt; </td></tr>
-<tr class="memitem:acd69856f284d130367b8fca2bf37c6e8"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::DiscreteParamEditor &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#acd69856f284d130367b8fca2bf37c6e8">createWidgetAttachedTo</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875">int_attachment_t</a> &gt; &amp;at, const std::string &amp;label)</td></tr>
-<tr class="separator:acd69856f284d130367b8fca2bf37c6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a389ccd404964d50031fa6eff2e0ec8b4" id="r_a389ccd404964d50031fa6eff2e0ec8b4"><td class="memTemplParams" colspan="2">template&lt;typename T  = sst::jucegui::components::Label&gt; </td></tr>
 <tr class="memitem:a389ccd404964d50031fa6eff2e0ec8b4"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a389ccd404964d50031fa6eff2e0ec8b4">createLabel</a> (const std::string &amp;txt)</td></tr>
 <tr class="separator:a389ccd404964d50031fa6eff2e0ec8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,14 +251,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a1b8ff537c6be1b278e59393efc2f53c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86f630e02e302a7352d16a8ba1cb323c" id="r_a86f630e02e302a7352d16a8ba1cb323c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a86f630e02e302a7352d16a8ba1cb323c">multiZone</a> {false}</td></tr>
 <tr class="separator:a86f630e02e302a7352d16a8ba1cb323c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72f48580a7e4477526a506fac2fd5305" id="r_a72f48580a7e4477526a506fac2fd5305"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a2e705472b0ef7bceaa6b9dd8c55da254">floatEditor_t</a> &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a72f48580a7e4477526a506fac2fd5305">floatEditors</a></td></tr>
-<tr class="separator:a72f48580a7e4477526a506fac2fd5305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a260d0b512b482f0054aa332c0245986d" id="r_a260d0b512b482f0054aa332c0245986d"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a44ea1251069d854343b2911ec74196fe">intEditor_t</a> &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a260d0b512b482f0054aa332c0245986d">floatDeactivateEditors</a></td></tr>
-<tr class="separator:a260d0b512b482f0054aa332c0245986d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba5023a6fb8c56080db7ea9279289f3" id="r_aeba5023a6fb8c56080db7ea9279289f3"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; sst::jucegui::components::ContinuousParamEditor &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#aeba5023a6fb8c56080db7ea9279289f3">floatEditors</a></td></tr>
+<tr class="separator:aeba5023a6fb8c56080db7ea9279289f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab07344115620c322f70aa00c938f595" id="r_aab07344115620c322f70aa00c938f595"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; sst::jucegui::components::Label &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#aab07344115620c322f70aa00c938f595">floatLabels</a></td></tr>
+<tr class="separator:aab07344115620c322f70aa00c938f595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ba91ef0e114a3998a6f39d48b88a40" id="r_ae5ba91ef0e114a3998a6f39d48b88a40"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae13ca628b05494d0d121cc16334c95e7">attachment_t</a> &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae5ba91ef0e114a3998a6f39d48b88a40">floatAttachments</a></td></tr>
 <tr class="separator:ae5ba91ef0e114a3998a6f39d48b88a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acecdee5889c326abdff16ede83a56b6a" id="r_acecdee5889c326abdff16ede83a56b6a"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a44ea1251069d854343b2911ec74196fe">intEditor_t</a> &gt;, dsp::processor::maxProcessorIntParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#acecdee5889c326abdff16ede83a56b6a">intEditors</a></td></tr>
-<tr class="separator:acecdee5889c326abdff16ede83a56b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbdf2abb16b7468aefa3fd6f34521cac" id="r_abbdf2abb16b7468aefa3fd6f34521cac"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; sst::jucegui::components::DiscreteParamEditor &gt;, dsp::processor::maxProcessorIntParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#abbdf2abb16b7468aefa3fd6f34521cac">intEditors</a></td></tr>
+<tr class="separator:abbdf2abb16b7468aefa3fd6f34521cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a05f84b2b2693229d5f9bf408f9eb1" id="r_a05a05f84b2b2693229d5f9bf408f9eb1"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; sst::jucegui::components::Label &gt;, dsp::processor::maxProcessorIntParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a05a05f84b2b2693229d5f9bf408f9eb1">intLabels</a></td></tr>
+<tr class="separator:a05a05f84b2b2693229d5f9bf408f9eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadec846cb7fc4a1430f81ee6951a0332" id="r_aadec846cb7fc4a1430f81ee6951a0332"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875">int_attachment_t</a> &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#aadec846cb7fc4a1430f81ee6951a0332">intAttachments</a></td></tr>
 <tr class="separator:aadec846cb7fc4a1430f81ee6951a0332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c9d83c2aabbdc8faf1a3f16fc7e1bef" id="r_a3c9d83c2aabbdc8faf1a3f16fc7e1bef"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#abb0d4d7d793f33c635896f5e0fccbf81">bool_attachment_t</a> &gt;, dsp::processor::maxProcessorFloatParams &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a3c9d83c2aabbdc8faf1a3f16fc7e1bef">deactivateAttachments</a></td></tr>
@@ -278,8 +273,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abf0a0ec62827ffdebb0a93bb4b5ba0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a775259808026d1b74f7131d09b050c81" id="r_a775259808026d1b74f7131d09b050c81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; juce::Component &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a775259808026d1b74f7131d09b050c81">otherEditors</a></td></tr>
 <tr class="separator:a775259808026d1b74f7131d09b050c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85ef5db6f744445e5b0d7afcc28af4b1" id="r_a85ef5db6f744445e5b0d7afcc28af4b1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::ContinuousParamEditor &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a85ef5db6f744445e5b0d7afcc28af4b1">mixEditor</a></td></tr>
-<tr class="separator:a85ef5db6f744445e5b0d7afcc28af4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581dbaaea7fbc70a6916c087d0dda2e8" id="r_a581dbaaea7fbc70a6916c087d0dda2e8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; sst::jucegui::components::ContinuousParamEditor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a581dbaaea7fbc70a6916c087d0dda2e8">mixEditor</a></td></tr>
+<tr class="separator:a581dbaaea7fbc70a6916c087d0dda2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fa0a643d0878a39de833d1976689dc0" id="r_a5fa0a643d0878a39de833d1976689dc0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae13ca628b05494d0d121cc16334c95e7">attachment_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a5fa0a643d0878a39de833d1976689dc0">mixAttachment</a></td></tr>
 <tr class="separator:a5fa0a643d0878a39de833d1976689dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae08340949d0487b09d11cc2971023860" id="r_ae08340949d0487b09d11cc2971023860"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; sst::jucegui::components::Label &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae08340949d0487b09d11cc2971023860">multiLabel</a></td></tr>
@@ -343,34 +338,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="structscxt_1_1ui_1_1connectors_1_1BooleanPayloadDataAttachment.html">connectors::BooleanPayloadDataAttachment</a>&lt;<a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">dsp::processor::ProcessorStorage</a>&gt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#abb0d4d7d793f33c635896f5e0fccbf81">bool_attachment_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2e705472b0ef7bceaa6b9dd8c55da254" name="a2e705472b0ef7bceaa6b9dd8c55da254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e705472b0ef7bceaa6b9dd8c55da254">&#9670;&#160;</a></span>floatEditor_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a2e705472b0ef7bceaa6b9dd8c55da254">floatEditor_t</a> =  <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt;sst::jucegui::components::ContinuousParamEditor&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44ea1251069d854343b2911ec74196fe" name="a44ea1251069d854343b2911ec74196fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44ea1251069d854343b2911ec74196fe">&#9670;&#160;</a></span>intEditor_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a44ea1251069d854343b2911ec74196fe">intEditor_t</a> =  <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt;sst::jucegui::components::DiscreteParamEditor&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -568,8 +535,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html#a6a51a4efa1b18050dfe087daaf263b12">Labeled&lt; T &gt;::item</a>.</p>
-
 </div>
 </div>
 <a id="a4eaccf96c546b182323d7e081c21873a" name="a4eaccf96c546b182323d7e081c21873a"></a>
@@ -606,7 +571,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#a15e2dbc9b7628258ef0c51c96510ead2">EqDisplaySupport&lt; Proc, nSub &gt;::mPrepareBand</a>.</p>
+<p class="reference">References <a class="el" href="akai-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#a15e2dbc9b7628258ef0c51c96510ead2">EqDisplaySupport&lt; Proc, nSub &gt;::mPrepareBand</a>.</p>
 
 </div>
 </div>
@@ -625,7 +590,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ad502746a57b462525157cee4d576136b">EqDisplaySupport&lt; Proc, nSub &gt;::rebuildCurves()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EqDisplaySupport.html#ad502746a57b462525157cee4d576136b">EqDisplaySupport&lt; Proc, nSub &gt;::rebuildCurves()</a>.</p>
 
 </div>
 </div>
@@ -664,8 +629,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac93e885b96b4b9f1232c6f1615ee6f26" name="ac93e885b96b4b9f1232c6f1615ee6f26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac93e885b96b4b9f1232c6f1615ee6f26">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[1/4]</span></h2>
+<a id="aea1bc4314167d1e8761369f577859261" name="aea1bc4314167d1e8761369f577859261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea1bc4314167d1e8761369f577859261">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,21 +638,11 @@ Public Attributes</h2></td></tr>
 template&lt;typename T  = sst::jucegui::components::Knob&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::ContinuousParamEditor &gt; &gt; createWidgetAttachedTo </td>
+          <td class="memname">std::unique_ptr&lt; T &gt; createWidgetAttachedTo </td>
           <td>(</td>
           <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ae13ca628b05494d0d121cc16334c95e7">attachment_t</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>at</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>at</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>label</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -697,7 +652,7 @@ template&lt;typename T  = sst::jucegui::components::Knob&gt; </div>
 </div>
 </div>
 <a id="a75f1733be8e6f33454366e85176effbf" name="a75f1733be8e6f33454366e85176effbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75f1733be8e6f33454366e85176effbf">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a75f1733be8e6f33454366e85176effbf">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -717,7 +672,7 @@ template&lt;typename T  = sst::jucegui::components::Knob&gt; </div>
 </div>
 </div>
 <a id="ab6c039e1a5ae050f4132d2aab77efbbe" name="ab6c039e1a5ae050f4132d2aab77efbbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6c039e1a5ae050f4132d2aab77efbbe">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c039e1a5ae050f4132d2aab77efbbe">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -733,38 +688,6 @@ template&lt;typename T  = sst::jucegui::components::ToggleButton&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd69856f284d130367b8fca2bf37c6e8" name="acd69856f284d130367b8fca2bf37c6e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd69856f284d130367b8fca2bf37c6e8">&#9670;&#160;</a></span>createWidgetAttachedTo() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = sst::jucegui::components::Knob&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt; sst::jucegui::components::DiscreteParamEditor &gt; &gt; createWidgetAttachedTo </td>
-          <td>(</td>
-          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1fd055b7ab60701d5699a5d5f296875">int_attachment_t</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>at</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>label</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html#a6a51a4efa1b18050dfe087daaf263b12">Labeled&lt; T &gt;::item</a>.</p>
 
 </div>
 </div>
@@ -1320,28 +1243,28 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
 
 </div>
 </div>
-<a id="a72f48580a7e4477526a506fac2fd5305" name="a72f48580a7e4477526a506fac2fd5305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72f48580a7e4477526a506fac2fd5305">&#9670;&#160;</a></span>floatEditors</h2>
+<a id="aeba5023a6fb8c56080db7ea9279289f3" name="aeba5023a6fb8c56080db7ea9279289f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba5023a6fb8c56080db7ea9279289f3">&#9670;&#160;</a></span>floatEditors</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a2e705472b0ef7bceaa6b9dd8c55da254">floatEditor_t</a>&gt;, dsp::processor::maxProcessorFloatParams&gt; floatEditors</td>
+          <td class="memname">std::array&lt;std::unique_ptr&lt;sst::jucegui::components::ContinuousParamEditor&gt;, dsp::processor::maxProcessorFloatParams&gt; floatEditors</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a260d0b512b482f0054aa332c0245986d" name="a260d0b512b482f0054aa332c0245986d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a260d0b512b482f0054aa332c0245986d">&#9670;&#160;</a></span>floatDeactivateEditors</h2>
+<a id="aab07344115620c322f70aa00c938f595" name="aab07344115620c322f70aa00c938f595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab07344115620c322f70aa00c938f595">&#9670;&#160;</a></span>floatLabels</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a44ea1251069d854343b2911ec74196fe">intEditor_t</a>&gt;, dsp::processor::maxProcessorFloatParams&gt; floatDeactivateEditors</td>
+          <td class="memname">std::array&lt;std::unique_ptr&lt;sst::jucegui::components::Label&gt;, dsp::processor::maxProcessorFloatParams&gt; floatLabels</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1364,14 +1287,28 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
 
 </div>
 </div>
-<a id="acecdee5889c326abdff16ede83a56b6a" name="acecdee5889c326abdff16ede83a56b6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acecdee5889c326abdff16ede83a56b6a">&#9670;&#160;</a></span>intEditors</h2>
+<a id="abbdf2abb16b7468aefa3fd6f34521cac" name="abbdf2abb16b7468aefa3fd6f34521cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbdf2abb16b7468aefa3fd6f34521cac">&#9670;&#160;</a></span>intEditors</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a44ea1251069d854343b2911ec74196fe">intEditor_t</a>&gt;, dsp::processor::maxProcessorIntParams&gt; intEditors</td>
+          <td class="memname">std::array&lt;std::unique_ptr&lt;sst::jucegui::components::DiscreteParamEditor&gt;, dsp::processor::maxProcessorIntParams&gt; intEditors</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05a05f84b2b2693229d5f9bf408f9eb1" name="a05a05f84b2b2693229d5f9bf408f9eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a05f84b2b2693229d5f9bf408f9eb1">&#9670;&#160;</a></span>intLabels</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;std::unique_ptr&lt;sst::jucegui::components::Label&gt;, dsp::processor::maxProcessorIntParams&gt; intLabels</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1462,14 +1399,14 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
 
 </div>
 </div>
-<a id="a85ef5db6f744445e5b0d7afcc28af4b1" name="a85ef5db6f744445e5b0d7afcc28af4b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85ef5db6f744445e5b0d7afcc28af4b1">&#9670;&#160;</a></span>mixEditor</h2>
+<a id="a581dbaaea7fbc70a6916c087d0dda2e8" name="a581dbaaea7fbc70a6916c087d0dda2e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581dbaaea7fbc70a6916c087d0dda2e8">&#9670;&#160;</a></span>mixEditor</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1theme_1_1layout_1_1Labeled.html">theme::layout::Labeled</a>&lt;sst::jucegui::components::ContinuousParamEditor&gt; &gt; mixEditor</td>
+          <td class="memname">std::unique_ptr&lt;sst::jucegui::components::ContinuousParamEditor&gt; mixEditor</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1639,7 +1576,7 @@ template&lt;typename T  = sst::jucegui::components::Label&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 7 2026 09:08:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Jun 7 2026 15:17:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
