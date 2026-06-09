@@ -1,7 +1,7 @@
 var searchData=
 [
   ['piano_0',['PIANO',['../structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130',1,'sst::voicemanager::VoiceManager']]],
-  ['playmode_1',['playmode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34',1,'sst::voicemanager::VoiceManager::PlayMode'],['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a1feaa7fde3dfe3639c87501c770c7106',1,'sst::voicemanager::VoiceManager::Details::playMode']]],
+  ['playmode_1',['playmode',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a1feaa7fde3dfe3639c87501c770c7106',1,'sst::voicemanager::VoiceManager::Details::playMode'],['../structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34',1,'sst::voicemanager::VoiceManager::PlayMode']]],
   ['playmodefeatures_2',['playModeFeatures',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#af7dabb149b581c504ede0ac4a3348f5a',1,'sst::voicemanager::VoiceManager::Details']]],
   ['poly_5fvoices_3',['POLY_VOICES',['../structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ad067247cfabc0d4f5b62e6f24bf2b43a',1,'sst::voicemanager::VoiceManager']]],
   ['polygroup_4',['polyGroup',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#aad9dfcda460626838f03a505747b37b5',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]],

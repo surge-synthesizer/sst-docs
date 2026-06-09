@@ -15,5 +15,6 @@ var searchData=
   ['sst_3a_3avoicemanager_3a_3ahasvoicecontinuationdata_12',['HasVoiceContinuationData',['../conceptsst_1_1voicemanager_1_1HasVoiceContinuationData.html',1,'sst::voicemanager']]],
   ['start_13',['start',['../structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#a7bd05fa0213b0f0f0acb5a7c52f0a348',1,'sst::voicemanager::VoiceInitInstructionsEntry::START'],['../structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html#acbd603b5f7c788a74eade8d4837ba684ab078ffd28db767c502ac367053f6e0ac',1,'sst::voicemanager::VoiceInitInstructionsEntry::START']]],
   ['stealingprioritymode_14',['stealingprioritymode',['../structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60',1,'sst::voicemanager::VoiceManager::StealingPriorityMode'],['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ab5119895a722c03170323df5ed090a9c',1,'sst::voicemanager::VoiceManager::Details::stealingPriorityMode']]],
-  ['sustainon_15',['sustainOn',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a9c9f4ac6c6745187a9e9a3012b0c4547',1,'sst::voicemanager::VoiceManager::Details']]]
+  ['stealvoicesfromgroup_15',['stealVoicesFromGroup',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a89dba3ba63c59481bc4dde868b191cd2',1,'sst::voicemanager::VoiceManager::Details']]],
+  ['sustainon_16',['sustainOn',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a9c9f4ac6c6745187a9e9a3012b0c4547',1,'sst::voicemanager::VoiceManager::Details']]]
 ];
