@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
+  ['r_0',['r',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r']]],
   ['raise_1',['raise',['../classscxt_1_1import__support_1_1ImporterContext.html#a0e872148ed724797a3d6106569853d12',1,'scxt::import_support::ImporterContext']]],
   ['raise_5ferror_5fcont_2',['RAISE_ERROR_CONT',['../utils_8h.html#ace79af729b9eeb0f5538604349a848ef',1,'utils.h']]],
   ['raise_5ferror_5fengine_3',['RAISE_ERROR_ENGINE',['../utils_8h.html#adfc9736c98bfc337566f0ad14b7bda71',1,'utils.h']]],
