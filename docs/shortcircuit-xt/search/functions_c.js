@@ -27,7 +27,7 @@ var searchData=
   ['mappingdisplay_24',['MappingDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#ae3ae89e871814e11941ef35658b9d0c6',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['mappingtarget_25',['MappingTarget',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1MappingTarget.html#af296e8f2ff734a0cd09791350f9f9212',1,'scxt::voice::modulation::MatrixEndpoints::MappingTarget']]],
   ['mappingwasreset_26',['mappingWasReset',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a6db7490d94b7b9b0ca7a2c81024f2c6e',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['mappingzoneheader_27',['MappingZoneHeader',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a9631be5297a95f03ca6c8f0efc8e127e',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
+  ['mappingzoneheader_27',['MappingZoneHeader',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#aa6ab5d7e538e16777538e8252323464f',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
   ['matrixendpoints_28',['MatrixEndpoints',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a5f0a68bbef78e7400f59af851af5138f',1,'scxt::voice::modulation::MatrixEndpoints']]],
   ['menuvaluetypein_29',['MenuValueTypein',['../structscxt_1_1ui_1_1app_1_1shared_1_1MenuValueTypein.html#ae6a5591cdbdd5e5abb72aeea6e771085',1,'scxt::ui::app::shared::MenuValueTypein']]],
   ['menuvaluetypeinbase_30',['MenuValueTypeinBase',['../structscxt_1_1ui_1_1app_1_1shared_1_1MenuValueTypeinBase.html#aa5f797134b91c24d1c373ca025a38d09',1,'scxt::ui::app::shared::MenuValueTypeinBase']]],
