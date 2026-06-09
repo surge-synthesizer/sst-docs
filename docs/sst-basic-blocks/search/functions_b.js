@@ -4,7 +4,7 @@ var searchData=
   ['mac_5fblock_5fto_1',['MAC_block_to',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#ae6ac9f6c2d82d244ef6d68e0b6d6b0fc',1,'sst::basic_blocks::dsp::lipol_sse']]],
   ['maintainrateforblock_2',['maintainRateForBlock',['../structsst_1_1basic__blocks_1_1dsp_1_1QuadratureOscillator.html#abe89b87830f8f7af00f9dfaffa812a61',1,'sst::basic_blocks::dsp::QuadratureOscillator']]],
   ['modifierof_3',['modifierOf',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a9cdf588f372e5affc67cec7851f7f018',1,'sst::basic_blocks::tables::temposync::ZeroOne']]],
-  ['modulationnaturalfromstring_4',['modulationNaturalFromString',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a5890e498084c0001b856d8900159a30f',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['modulationnaturalfromstring_4',['modulationNaturalFromString',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a452da23c23a14704983ddeb4d4d8504b',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['modulationnaturaltostring_5',['modulationNaturalToString',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a88e3ad01346e6aec79a40b5169249c26',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['monoequalpower_6',['monoEqualPower',['../namespacesst_1_1basic__blocks_1_1dsp_1_1pan__laws.html#a01728c810d2d4bd3f906551f0125191d',1,'sst::basic_blocks::dsp::pan_laws']]],
   ['monoequalpowerunitygainatextrema_7',['monoEqualPowerUnityGainAtExtrema',['../namespacesst_1_1basic__blocks_1_1dsp_1_1pan__laws.html#aa6c9bcbad25a5674d8cde5e0d78b8376',1,'sst::basic_blocks::dsp::pan_laws']]],
