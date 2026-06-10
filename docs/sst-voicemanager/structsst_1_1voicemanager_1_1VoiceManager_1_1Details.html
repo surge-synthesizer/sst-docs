@@ -130,6 +130,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae4b04cca8eff266be694075061929a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdd38d5ae8bfe9dc57285b39725150d5" id="r_abdd38d5ae8bfe9dc57285b39725150d5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1GroupState.html">GroupState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#abdd38d5ae8bfe9dc57285b39725150d5">group</a> (uint64_t id) const</td></tr>
 <tr class="separator:abdd38d5ae8bfe9dc57285b39725150d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3458f2e717421d2ad0781234b2432aee" id="r_a3458f2e717421d2ad0781234b2432aee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a3458f2e717421d2ad0781234b2432aee">isDescendantOrSelf</a> (uint64_t g, uint64_t ancestor) const</td></tr>
+<tr class="separator:a3458f2e717421d2ad0781234b2432aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe75908473003cbbc196c34bccda6f03" id="r_abe75908473003cbbc196c34bccda6f03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#abe75908473003cbbc196c34bccda6f03">adjustSubtreeUsedVoices</a> (uint64_t leaf, int32_t delta)</td></tr>
+<tr class="separator:abe75908473003cbbc196c34bccda6f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a58221592780efb62a48756fec981e5" id="r_a7a58221592780efb62a48756fec981e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a7a58221592780efb62a48756fec981e5">hasChildren</a> (uint64_t groupId) const</td></tr>
+<tr class="separator:a7a58221592780efb62a48756fec981e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0922244cd67320538e4053221ff5fe83" id="r_a0922244cd67320538e4053221ff5fe83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a0922244cd67320538e4053221ff5fe83">recomputeUsedVoices</a> ()</td></tr>
+<tr class="separator:a0922244cd67320538e4053221ff5fe83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef62de268f4d9014a08633d9d475ef5" id="r_a8ef62de268f4d9014a08633d9d475ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a8ef62de268f4d9014a08633d9d475ef5">guaranteeGroup</a> (uint64_t groupId)</td></tr>
 <tr class="separator:a8ef62de268f4d9014a08633d9d475ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16271996dd75965b7154e0027ce30a8b" id="r_a16271996dd75965b7154e0027ce30a8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a16271996dd75965b7154e0027ce30a8b">doMonoPitchBend</a> (int16_t port, int16_t channel, int16_t pb14bit)</td></tr>
@@ -273,6 +281,109 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
           <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3458f2e717421d2ad0781234b2432aee" name="a3458f2e717421d2ad0781234b2432aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3458f2e717421d2ad0781234b2432aee">&#9670;&#160;</a></span>isDescendantOrSelf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isDescendantOrSelf </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>ancestor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#abb623bac7fdee90d5868486e10afe7c1">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::noPolyphonyGroupParent</a>.</p>
+
+</div>
+</div>
+<a id="abe75908473003cbbc196c34bccda6f03" name="abe75908473003cbbc196c34bccda6f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe75908473003cbbc196c34bccda6f03">&#9670;&#160;</a></span>adjustSubtreeUsedVoices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void adjustSubtreeUsedVoices </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>leaf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>delta</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#abb623bac7fdee90d5868486e10afe7c1">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::noPolyphonyGroupParent</a>.</p>
+
+</div>
+</div>
+<a id="a7a58221592780efb62a48756fec981e5" name="a7a58221592780efb62a48756fec981e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a58221592780efb62a48756fec981e5">&#9670;&#160;</a></span>hasChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasChildren </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>groupId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0922244cd67320538e4053221ff5fe83" name="a0922244cd67320538e4053221ff5fe83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0922244cd67320538e4053221ff5fe83">&#9670;&#160;</a></span>recomputeUsedVoices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void recomputeUsedVoices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -866,7 +977,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 10 2026 07:21:59 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jun 10 2026 17:05:16 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

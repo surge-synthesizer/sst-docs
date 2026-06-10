@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['processnoteoffevent_0',['processNoteOffEvent',['../structsst_1_1voicemanager_1_1VoiceManager.html#aa49cbf97639f0b0be8a7931003454ab4',1,'sst::voicemanager::VoiceManager']]],
-  ['processnoteonevent_1',['processNoteOnEvent',['../structsst_1_1voicemanager_1_1VoiceManager.html#a34f5298228e2741a99606878a0f1f39f',1,'sst::voicemanager::VoiceManager']]]
+  ['matches_0',['matches',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a938bc74ad1d4c309e5584b53d7a0ac06',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]],
+  ['matchesvoiceid_1',['matchesVoiceId',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#a511bd8280fbb2d7eb691b93da6c03853',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]]
 ];

@@ -202,8 +202,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac89509ca91f60fb81c06806753a45dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a089fdbdebae320c0981455438282e3fd" id="r_a089fdbdebae320c0981455438282e3fd"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a089fdbdebae320c0981455438282e3fd">getPolyphonyGroupVoiceLimit</a> (uint64_t groupId) const</td></tr>
 <tr class="separator:a089fdbdebae320c0981455438282e3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1b2b53ee79829162a0d44d48e5878da" id="r_ad1b2b53ee79829162a0d44d48e5878da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#ad1b2b53ee79829162a0d44d48e5878da">setPlaymode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> pm, uint64_t features=static_cast&lt; uint64_t &gt;(<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">MonoPlayModeFeatures::NONE</a>))</td></tr>
-<tr class="separator:ad1b2b53ee79829162a0d44d48e5878da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4c4a0d288a0c0897e7283a1e3dbae0" id="r_aed4c4a0d288a0c0897e7283a1e3dbae0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#aed4c4a0d288a0c0897e7283a1e3dbae0">setPolyphonyGroupParent</a> (uint64_t childGroup, uint64_t parentGroup)</td></tr>
+<tr class="memdesc:aed4c4a0d288a0c0897e7283a1e3dbae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make childGroup count its voices against parentGroup (and every ancestor above it), forming a hierarchy.  <br /></td></tr>
+<tr class="separator:aed4c4a0d288a0c0897e7283a1e3dbae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7276d8c8e0b1f7d9dcaf224246db40f5" id="r_a7276d8c8e0b1f7d9dcaf224246db40f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a7276d8c8e0b1f7d9dcaf224246db40f5">setPlaymode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> pm, uint64_t features=static_cast&lt; uint64_t &gt;(<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#af6cc76daccd7eafe7d70e76061f99ed0ab50339a10e1de285ac99d4c3990b8693">MonoPlayModeFeatures::NONE</a>))</td></tr>
+<tr class="memdesc:a7276d8c8e0b1f7d9dcaf224246db40f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a group's play mode.  <br /></td></tr>
+<tr class="separator:a7276d8c8e0b1f7d9dcaf224246db40f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cc7bd2641a75c47033f05d3442ada5" id="r_a89cc7bd2641a75c47033f05d3442ada5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a89cc7bd2641a75c47033f05d3442ada5">getPlaymode</a> (uint64_t groupId) const</td></tr>
+<tr class="separator:a89cc7bd2641a75c47033f05d3442ada5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185935e19f0805f41d79904a40a3158b" id="r_a185935e19f0805f41d79904a40a3158b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a185935e19f0805f41d79904a40a3158b">setStealingPriorityMode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> pm)</td></tr>
 <tr class="separator:a185935e19f0805f41d79904a40a3158b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d17ffa7bd6290ee101b9cf02ac63813" id="r_a1d17ffa7bd6290ee101b9cf02ac63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a1d17ffa7bd6290ee101b9cf02ac63813">setMonoPriorityMode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a54760f344ea12f29a7bdbb1ec80553f4">MonoPriorityMode</a> pm)</td></tr>
@@ -228,6 +234,9 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a1f3961a040547cb54a67c8618c443d24" id="r_a1f3961a040547cb54a67c8618c443d24"><td class="memItemLeft" align="right" valign="top">static constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a1f3961a040547cb54a67c8618c443d24">mpeTimbreCC</a> {74}</td></tr>
 <tr class="separator:a1f3961a040547cb54a67c8618c443d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb623bac7fdee90d5868486e10afe7c1" id="r_abb623bac7fdee90d5868486e10afe7c1"><td class="memItemLeft" align="right" valign="top">static constexpr uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#abb623bac7fdee90d5868486e10afe7c1">noPolyphonyGroupParent</a> {std::numeric_limits&lt;uint64_t&gt;::max()}</td></tr>
+<tr class="memdesc:abb623bac7fdee90d5868486e10afe7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass as the parent to setPolyphonyGroupParent to detach a group, making it a root whose only super-constraint is the global voice pool.  <br /></td></tr>
+<tr class="separator:abb623bac7fdee90d5868486e10afe7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Cfg, typename Responder, typename MonoResponder&gt;<br />
@@ -1144,8 +1153,8 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
-<a id="ad1b2b53ee79829162a0d44d48e5878da" name="ad1b2b53ee79829162a0d44d48e5878da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1b2b53ee79829162a0d44d48e5878da">&#9670;&#160;</a></span>setPlaymode()</h2>
+<a id="aed4c4a0d288a0c0897e7283a1e3dbae0" name="aed4c4a0d288a0c0897e7283a1e3dbae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4c4a0d288a0c0897e7283a1e3dbae0">&#9670;&#160;</a></span>setPolyphonyGroupParent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1153,7 +1162,40 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void setPlaymode </td>
+          <td class="memname">bool setPolyphonyGroupParent </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>childGroup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>parentGroup</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make childGroup count its voices against parentGroup (and every ancestor above it), forming a hierarchy. </p>
+<p>A voice still belongs to exactly one group but is budgeted by the whole ancestor chain. Pass noPolyphonyGroupParent to detach. Returns false (no-op) if it would create a cycle, or if the parent is MONO (only leaf groups may be MONO). </p>
+
+</div>
+</div>
+<a id="a7276d8c8e0b1f7d9dcaf224246db40f5" name="a7276d8c8e0b1f7d9dcaf224246db40f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7276d8c8e0b1f7d9dcaf224246db40f5">&#9670;&#160;</a></span>setPlaymode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool setPlaymode </td>
           <td>(</td>
           <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>groupId</em>, </td>
@@ -1174,6 +1216,29 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a group's play mode. </p>
+<p>Returns false (leaving the group unchanged) if a MONO mode is requested for a group that has children, since only leaf groups may be MONO. </p>
+
+</div>
+</div>
+<a id="a89cc7bd2641a75c47033f05d3442ada5" name="a89cc7bd2641a75c47033f05d3442ada5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89cc7bd2641a75c47033f05d3442ada5">&#9670;&#160;</a></span>getPlaymode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html">VoiceManager</a>&lt; Cfg, Responder, MonoResponder &gt;<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">::PlayMode</a> getPlaymode </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>groupId</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1349,6 +1414,34 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
+<a id="abb623bac7fdee90d5868486e10afe7c1" name="abb623bac7fdee90d5868486e10afe7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb623bac7fdee90d5868486e10afe7c1">&#9670;&#160;</a></span>noPolyphonyGroupParent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint64_t noPolyphonyGroupParent {std::numeric_limits&lt;uint64_t&gt;::max()}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pass as the parent to setPolyphonyGroupParent to detach a group, making it a root whose only super-constraint is the global voice pool. </p>
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#abe75908473003cbbc196c34bccda6f03">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::adjustSubtreeUsedVoices()</a>, and <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a3458f2e717421d2ad0781234b2432aee">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details::isDescendantOrSelf()</a>.</p>
+
+</div>
+</div>
 <a id="aaf1bf6fd2f240da8744305adb72d3be4" name="aaf1bf6fd2f240da8744305adb72d3be4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf1bf6fd2f240da8744305adb72d3be4">&#9670;&#160;</a></span>heldMIDIKeyByChannel</h2>
 
@@ -1374,7 +1467,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 10 2026 07:21:59 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jun 10 2026 17:05:16 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
