@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A']]],
+  ['a_0',['a',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a']]],
   ['a1_1',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['a1a_2',['a1A',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a4cb4d419a0ae7aa614224fc63aaedf91',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
   ['a1m_3',['a1M',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae249681fe8195a228d7a011cf493b154',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
@@ -254,7 +254,7 @@ var searchData=
   ['audio_5fmessages_2eh_251',['audio_messages.h',['../audio__messages_8h.html',1,'']]],
   ['audio_5fserial_2eh_252',['audio_serial.h',['../audio__serial_8h.html',1,'']]],
   ['audio_5fthread_5fprovider_2eh_253',['audio_thread_provider.h',['../audio__thread__provider_8h.html',1,'']]],
-  ['audiopane_254',['audiopane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html',1,'AudioPane'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a8d5b686fd06c2f22c11def04e674e1bb',1,'scxt::ui::app::edit_screen::LfoPane::audioPane'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#a6a4146d49cdff97a71b41c603541b335',1,'scxt::ui::app::edit_screen::AudioPane::AudioPane()']]],
+  ['audiopane_254',['audiopane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html',1,'AudioPane'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#a6a4146d49cdff97a71b41c603541b335',1,'scxt::ui::app::edit_screen::AudioPane::AudioPane()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a8d5b686fd06c2f22c11def04e674e1bb',1,'scxt::ui::app::edit_screen::LfoPane::audioPane']]],
   ['audioportscount_255',['audioPortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a78eb5a00b6e0af43447e76124613b842',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['audioportsinfo_256',['audioPortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2b8972c9640510bf30e17b3e67e6936e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['audiosourcestorage_257',['audiosourcestorage',['../structscxt_1_1engine_1_1Group.html#a4bac73b3db4093670287eba4a34ff045',1,'scxt::engine::Group::audioSourceStorage'],['../structscxt_1_1engine_1_1Zone.html#a4bac73b3db4093670287eba4a34ff045',1,'scxt::engine::Zone::audioSourceStorage'],['../structscxt_1_1modulation_1_1AudioSourceStorage.html',1,'AudioSourceStorage']]],
