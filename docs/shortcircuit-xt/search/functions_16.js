@@ -8,7 +8,7 @@ var searchData=
   ['what_5',['what',['../structscxt_1_1browser_1_1SQL_1_1Exception.html#abf843cbb29dec939d0731e491bab6f70',1,'scxt::browser::SQL::Exception::what()'],['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#abf843cbb29dec939d0731e491bab6f70',1,'scxt::browser::SQL::LockedException::what()']]],
   ['whichprocessorfptarget_6',['whichProcessorFPTarget',['../structscxt_1_1modulation_1_1shared_1_1TargetIdentifier.html#aba6dd774f01a9e0c72067e1ad7c5f448',1,'scxt::modulation::shared::TargetIdentifier']]],
   ['wireerrorreporter_7',['wireErrorReporter',['../structscxt_1_1ui_1_1app_1_1HasEditor.html#a6efe5ac561e9fda9520afc601d080481',1,'scxt::ui::app::HasEditor']]],
-  ['withlinearscaleformatting_8',['withLinearScaleFormatting',['../zone_8h.html#af85e8a4186cf275d834c318739883f48',1,'zone.h']]],
+  ['withlinearscaleformatting_8',['withLinearScaleFormatting',['../zone_8h.html#ac3adb20682e148662d5ff541db971ea6',1,'zone.h']]],
   ['withname_9',['withName',['../zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2',1,'zone.h']]],
   ['workitemlineitem_10',['WorkItemLineItem',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html#a7883d04b672f8bf3d2136a420561e1a1',1,'scxt::ui::app::missing_resolution::WorkItemLineItem']]],
   ['writedebugmessage_11',['writeDebugMessage',['../structscxt_1_1browser_1_1BrowserDB.html#aec866111e323071d6e69c5e43db68e75',1,'scxt::browser::BrowserDB']]],
