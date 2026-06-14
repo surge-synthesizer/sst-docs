@@ -8,5 +8,6 @@ var searchData=
   ['ongui_5ft_5',['onGui_t',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ada36d479302d937af647374dbb431fcd',1,'scxt::ui::connectors::DiscretePayloadDataAttachment']]],
   ['opcodemap_5ft_6',['opCodeMap_t',['../namespacescxt_1_1sfz__support.html#a819c2a9d66b6f3020403a483b4ececa0',1,'scxt::sfz_support']]],
   ['opcodes_5ft_7',['opCodes_t',['../structscxt_1_1sfz__support_1_1SFZParser.html#a0565934d0720e1c5fdbd11dda447c34f',1,'scxt::sfz_support::SFZParser']]],
-  ['othertabselection_5ft_8',['otherTabSelection_t',['../structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd',1,'scxt::selection::SelectionManager']]]
+  ['othertabselection_5ft_8',['otherTabSelection_t',['../structscxt_1_1selection_1_1SelectionManager.html#aed61bdfeb99338477d79a8685899b8dd',1,'scxt::selection::SelectionManager']]],
+  ['owner_5ft_9',['owner_t',['../structscxt_1_1undo_1_1ProcessorSwapSpec.html#a6206474ed947e35cf92be4ebbd0baedf',1,'scxt::undo::ProcessorSwapSpec']]]
 ];

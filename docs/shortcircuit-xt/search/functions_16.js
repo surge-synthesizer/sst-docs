@@ -11,13 +11,14 @@ var searchData=
   ['withlinearscaleformatting_8',['withLinearScaleFormatting',['../zone_8h.html#ac3adb20682e148662d5ff541db971ea6',1,'zone.h']]],
   ['withname_9',['withName',['../zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2',1,'zone.h']]],
   ['workitemlineitem_10',['WorkItemLineItem',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html#a7883d04b672f8bf3d2136a420561e1a1',1,'scxt::ui::app::missing_resolution::WorkItemLineItem']]],
-  ['writedebugmessage_11',['writeDebugMessage',['../structscxt_1_1browser_1_1BrowserDB.html#aec866111e323071d6e69c5e43db68e75',1,'scxt::browser::BrowserDB']]],
-  ['writedword_12',['WriteDWORD',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a21b5cb970ccb37c66504da5c7d805310',1,'scxt::sample::loaders::RIFFMemFile']]],
-  ['writedwordbe_13',['WriteDWORDBE',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#aa07c06ed3e1fd5cdd885f52d2fc46cac',1,'scxt::sample::loaders::RIFFMemFile']]],
-  ['writefmtchunk_14',['writeFMTChunk',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a22c1d271d28b7dd0d195c544b8863b4d',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
-  ['writeinstchunk_15',['writeINSTChunk',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a1aab8d4ae8ce3de466934c0e9d33ab64',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
-  ['writereport_16',['writeReport',['../namespacescxt_1_1perf.html#a0125f744e4da286ecd1da31cdfb44dee',1,'scxt::perf']]],
-  ['writeriffheader_17',['writeRIFFHeader',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a660025a0fbf610ae3b9c3a1592d04a7c',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
-  ['writerworker_18',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a0afd84af5b06b36cd1fb4fdb62b1c5d4',1,'scxt::browser::WriterWorker']]],
-  ['writewavfloat32_19',['writeWavFloat32',['../namespacescxt_1_1perf.html#a70c9b6ed4cbf5c6cab38f334dec8def6',1,'scxt::perf']]]
+  ['write_11',['write',['../structscxt_1_1undo_1_1BusEffectSpec.html#ae8e7904a5cd24736f2c91155b86ecff8',1,'scxt::undo::BusEffectSpec::write()'],['../structscxt_1_1undo_1_1ProcessorSwapSpec.html#ae82f8cbe6ed8399b98f6bc3450e7644a',1,'scxt::undo::ProcessorSwapSpec::write()'],['../structscxt_1_1undo_1_1GroupProcessorSpec.html#ae82f8cbe6ed8399b98f6bc3450e7644a',1,'scxt::undo::GroupProcessorSpec::write()'],['../structscxt_1_1undo_1_1ZoneProcessorSpec.html#ae82f8cbe6ed8399b98f6bc3450e7644a',1,'scxt::undo::ZoneProcessorSpec::write()']]],
+  ['writedebugmessage_12',['writeDebugMessage',['../structscxt_1_1browser_1_1BrowserDB.html#aec866111e323071d6e69c5e43db68e75',1,'scxt::browser::BrowserDB']]],
+  ['writedword_13',['WriteDWORD',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a21b5cb970ccb37c66504da5c7d805310',1,'scxt::sample::loaders::RIFFMemFile']]],
+  ['writedwordbe_14',['WriteDWORDBE',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#aa07c06ed3e1fd5cdd885f52d2fc46cac',1,'scxt::sample::loaders::RIFFMemFile']]],
+  ['writefmtchunk_15',['writeFMTChunk',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a22c1d271d28b7dd0d195c544b8863b4d',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
+  ['writeinstchunk_16',['writeINSTChunk',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a1aab8d4ae8ce3de466934c0e9d33ab64',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
+  ['writereport_17',['writeReport',['../namespacescxt_1_1perf.html#a0125f744e4da286ecd1da31cdfb44dee',1,'scxt::perf']]],
+  ['writeriffheader_18',['writeRIFFHeader',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a660025a0fbf610ae3b9c3a1592d04a7c',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
+  ['writerworker_19',['WriterWorker',['../structscxt_1_1browser_1_1WriterWorker.html#a0afd84af5b06b36cd1fb4fdb62b1c5d4',1,'scxt::browser::WriterWorker']]],
+  ['writewavfloat32_20',['writeWavFloat32',['../namespacescxt_1_1perf.html#a70c9b6ed4cbf5c6cab38f334dec8def6',1,'scxt::perf']]]
 ];

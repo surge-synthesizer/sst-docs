@@ -50,5 +50,7 @@ var searchData=
   ['steplfo_2eh_47',['steplfo.h',['../steplfo_8h.html',1,'']]],
   ['stream_2ecpp_48',['stream.cpp',['../stream_8cpp.html',1,'']]],
   ['stream_2eh_49',['stream.h',['../stream_8h.html',1,'']]],
-  ['structure_5fmessages_2eh_50',['structure_messages.h',['../structure__messages_8h.html',1,'']]]
+  ['structure_5fmessages_2eh_50',['structure_messages.h',['../structure__messages_8h.html',1,'']]],
+  ['structure_5fundoable_5fitems_2ecpp_51',['structure_undoable_items.cpp',['../structure__undoable__items_8cpp.html',1,'']]],
+  ['structure_5fundoable_5fitems_2eh_52',['structure_undoable_items.h',['../structure__undoable__items_8h.html',1,'']]]
 ];

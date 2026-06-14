@@ -107,14 +107,32 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a553cb0a7504a73919f32918e64531973" id="r_a553cb0a7504a73919f32918e64531973"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a553cb0a7504a73919f32918e64531973">storeUndoStep</a> (std::unique_ptr&lt; <a class="el" href="structscxt_1_1undo_1_1UndoableItem.html">UndoableItem</a> &gt; item)</td></tr>
 <tr class="separator:a553cb0a7504a73919f32918e64531973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60564bf2c0edf9e8f0235805d4c00e5c" id="r_a60564bf2c0edf9e8f0235805d4c00e5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a60564bf2c0edf9e8f0235805d4c00e5c">storeUndoStepTagged</a> (std::unique_ptr&lt; <a class="el" href="structscxt_1_1undo_1_1UndoableItem.html">UndoableItem</a> &gt; item, const std::string &amp;tag, <a class="el" href="namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbe">UndoGesture</a> g)</td></tr>
+<tr class="separator:a60564bf2c0edf9e8f0235805d4c00e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2d9ae811da6c5c4a931e2bc053defe9" id="r_ad2d9ae811da6c5c4a931e2bc053defe9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ad2d9ae811da6c5c4a931e2bc053defe9">applyUndoStep</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:ad2d9ae811da6c5c4a931e2bc053defe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8678a9a7648a751d5189ffe0cb749d3f" id="r_a8678a9a7648a751d5189ffe0cb749d3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a8678a9a7648a751d5189ffe0cb749d3f">applyRedoStep</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
 <tr class="separator:a8678a9a7648a751d5189ffe0cb749d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8bb3912a3ce86b15842e79d0b421204" id="r_ac8bb3912a3ce86b15842e79d0b421204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ac8bb3912a3ce86b15842e79d0b421204">clear</a> ()</td></tr>
+<tr class="separator:ac8bb3912a3ce86b15842e79d0b421204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ccc9aabe9c4a36dbddb5fa3e517494f" id="r_a3ccc9aabe9c4a36dbddb5fa3e517494f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a3ccc9aabe9c4a36dbddb5fa3e517494f">hasUndoSteps</a> () const</td></tr>
 <tr class="separator:a3ccc9aabe9c4a36dbddb5fa3e517494f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9392e7fbbe8afd7a62b86a724f7990b3" id="r_a9392e7fbbe8afd7a62b86a724f7990b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a9392e7fbbe8afd7a62b86a724f7990b3">hasRedoSteps</a> () const</td></tr>
 <tr class="separator:a9392e7fbbe8afd7a62b86a724f7990b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d5788e0c45d68e268b0a20fb533cbf" id="r_ad6d5788e0c45d68e268b0a20fb533cbf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ad6d5788e0c45d68e268b0a20fb533cbf">undoStackSize</a> () const</td></tr>
+<tr class="separator:ad6d5788e0c45d68e268b0a20fb533cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285a8e4e6b0445cac1a5b01db8cb0dc8" id="r_a285a8e4e6b0445cac1a5b01db8cb0dc8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a285a8e4e6b0445cac1a5b01db8cb0dc8">redoStackSize</a> () const</td></tr>
+<tr class="separator:a285a8e4e6b0445cac1a5b01db8cb0dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e8be660cecfba3ed2d31c1cf381780" id="r_ac1e8be660cecfba3ed2d31c1cf381780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ac1e8be660cecfba3ed2d31c1cf381780">openGesture</a> (const std::string &amp;tag)</td></tr>
+<tr class="separator:ac1e8be660cecfba3ed2d31c1cf381780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84215becb20889c050ba79ca3ef90f0d" id="r_a84215becb20889c050ba79ca3ef90f0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a84215becb20889c050ba79ca3ef90f0d">closeGesture</a> ()</td></tr>
+<tr class="separator:a84215becb20889c050ba79ca3ef90f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b0863d24b3c0b02a8e8836a4cf4564" id="r_ae8b0863d24b3c0b02a8e8836a4cf4564"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ae8b0863d24b3c0b02a8e8836a4cf4564">gestureCovers</a> (const std::string &amp;tag) const</td></tr>
+<tr class="separator:ae8b0863d24b3c0b02a8e8836a4cf4564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd2e9045618e1b6bfdaa38a522f033a" id="r_a2dd2e9045618e1b6bfdaa38a522f033a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a2dd2e9045618e1b6bfdaa38a522f033a">beginCoalescing</a> ()</td></tr>
+<tr class="separator:a2dd2e9045618e1b6bfdaa38a522f033a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3333137465e6288fab8e714fe48dba4c" id="r_a3333137465e6288fab8e714fe48dba4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a3333137465e6288fab8e714fe48dba4c">endCoalescing</a> ()</td></tr>
+<tr class="separator:a3333137465e6288fab8e714fe48dba4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a553cb0a7504a73919f32918e64531973" name="a553cb0a7504a73919f32918e64531973"></a>
@@ -133,9 +151,47 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a84215becb20889c050ba79ca3ef90f0d">UndoManager::closeGesture()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a806e4a263956642f5d8a5a4fe2a4c66a">scxt::messaging::client::doBeginZoneMappingModification()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af65926e8a25e71fb739fb6b3bad51ec0">scxt::messaging::client::doMacroBeginEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1d473ea5a598d995f2d1c917b45fd9d2">scxt::messaging::client::doRenameGroup()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a680db56593e78aa1a146d1f4edda679c">scxt::messaging::client::doReorderModRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a18115eb745fe5f3aaa681a5eabd593d6">scxt::messaging::client::doUpdateGroupRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a132cc1649fb18281b28d66b2ec8b5532">scxt::messaging::client::doUpdateZoneRoutingRow()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0dce3a2e93a8492ac1d3b2db2e9bd3a4">scxt::messaging::client::setProcessorType()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a0274147efa2ca1cbe4674b638abe2441">scxt::messaging::client::updateMacroFullState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa2af38f58123bbec49eee60f4db94ab9">scxt::messaging::client::moveZonesFromTo()</a>, <a class="el" href="namespacescxt_1_1undo.html#aca5d1b9dae309b6f03e37effa6af886d">scxt::undo::pushZoneAddUndo()</a>, and <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a60564bf2c0edf9e8f0235805d4c00e5c">UndoManager::storeUndoStepTagged()</a>.</p>
+
+</div>
+</div>
+<a id="a60564bf2c0edf9e8f0235805d4c00e5c" name="a60564bf2c0edf9e8f0235805d4c00e5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60564bf2c0edf9e8f0235805d4c00e5c">&#9670;&#160;</a></span>storeUndoStepTagged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void storeUndoStepTagged </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structscxt_1_1undo_1_1UndoableItem.html">UndoableItem</a> &gt;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbe">UndoGesture</a>&#160;</td>
+          <td class="paramname"><em>g</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbea1a06729125544cab7cee73195fc044f0">scxt::undo::Begin</a>, <a class="el" href="namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbea4984667940802dedc139aa7a430a6553">scxt::undo::Discrete</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ae8b0863d24b3c0b02a8e8836a4cf4564">UndoManager::gestureCovers()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ac1e8be660cecfba3ed2d31c1cf381780">UndoManager::openGesture()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a553cb0a7504a73919f32918e64531973">UndoManager::storeUndoStep()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1undo.html#a1043af6bd97bc82b1ee9c2c5bf76674e">scxt::undo::pushPartStreamUndo()</a>, and <a class="el" href="namespacescxt_1_1undo.html#a9d3b876aeba78453f3599014f670a4eb">scxt::undo::pushPayloadUndoFor()</a>.</p>
 
 </div>
 </div>
@@ -155,7 +211,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a84215becb20889c050ba79ca3ef90f0d">UndoManager::closeGesture()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a3333137465e6288fab8e714fe48dba4c">UndoManager::endCoalescing()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#adc9135b82554c809c43ececeed5aa36b">scxt::messaging::client::doUndo()</a>.</p>
 
@@ -177,9 +233,30 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a84215becb20889c050ba79ca3ef90f0d">UndoManager::closeGesture()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a3333137465e6288fab8e714fe48dba4c">UndoManager::endCoalescing()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#adc6402d5b2b668ba9d2701b656765210">scxt::messaging::client::doRedo()</a>.</p>
+
+</div>
+</div>
+<a id="ac8bb3912a3ce86b15842e79d0b421204" name="ac8bb3912a3ce86b15842e79d0b421204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8bb3912a3ce86b15842e79d0b421204">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a84215becb20889c050ba79ca3ef90f0d">UndoManager::closeGesture()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a3333137465e6288fab8e714fe48dba4c">UndoManager::endCoalescing()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#add0b869c7e38daed69e579af284482cc">scxt::messaging::client::doResetEngine()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a24fa6c3f489b331a84d8933ec81c260e">scxt::messaging::client::doUnstreamEngineState()</a>.</p>
 
 </div>
 </div>
@@ -217,6 +294,137 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6d5788e0c45d68e268b0a20fb533cbf" name="ad6d5788e0c45d68e268b0a20fb533cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d5788e0c45d68e268b0a20fb533cbf">&#9670;&#160;</a></span>undoStackSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t undoStackSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a285a8e4e6b0445cac1a5b01db8cb0dc8" name="a285a8e4e6b0445cac1a5b01db8cb0dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285a8e4e6b0445cac1a5b01db8cb0dc8">&#9670;&#160;</a></span>redoStackSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t redoStackSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1e8be660cecfba3ed2d31c1cf381780" name="ac1e8be660cecfba3ed2d31c1cf381780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e8be660cecfba3ed2d31c1cf381780">&#9670;&#160;</a></span>openGesture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void openGesture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a60564bf2c0edf9e8f0235805d4c00e5c">UndoManager::storeUndoStepTagged()</a>.</p>
+
+</div>
+</div>
+<a id="a84215becb20889c050ba79ca3ef90f0d" name="a84215becb20889c050ba79ca3ef90f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84215becb20889c050ba79ca3ef90f0d">&#9670;&#160;</a></span>closeGesture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void closeGesture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a8678a9a7648a751d5189ffe0cb749d3f">UndoManager::applyRedoStep()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ad2d9ae811da6c5c4a931e2bc053defe9">UndoManager::applyUndoStep()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ac8bb3912a3ce86b15842e79d0b421204">UndoManager::clear()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a941ac5bfadf64eea9d611661f2b03d7f">scxt::messaging::client::doEndEdit()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#af65926e8a25e71fb739fb6b3bad51ec0">scxt::messaging::client::doMacroBeginEndEdit()</a>, and <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a553cb0a7504a73919f32918e64531973">UndoManager::storeUndoStep()</a>.</p>
+
+</div>
+</div>
+<a id="ae8b0863d24b3c0b02a8e8836a4cf4564" name="ae8b0863d24b3c0b02a8e8836a4cf4564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b0863d24b3c0b02a8e8836a4cf4564">&#9670;&#160;</a></span>gestureCovers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gestureCovers </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1undo.html#a1043af6bd97bc82b1ee9c2c5bf76674e">scxt::undo::pushPartStreamUndo()</a>, <a class="el" href="namespacescxt_1_1undo.html#a9d3b876aeba78453f3599014f670a4eb">scxt::undo::pushPayloadUndoFor()</a>, and <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a60564bf2c0edf9e8f0235805d4c00e5c">UndoManager::storeUndoStepTagged()</a>.</p>
+
+</div>
+</div>
+<a id="a2dd2e9045618e1b6bfdaa38a522f033a" name="a2dd2e9045618e1b6bfdaa38a522f033a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd2e9045618e1b6bfdaa38a522f033a">&#9670;&#160;</a></span>beginCoalescing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void beginCoalescing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#afbb53e5368fdaf7fa8a4815c373553d6">scxt::messaging::client::doBeginEdit()</a>.</p>
+
+</div>
+</div>
+<a id="a3333137465e6288fab8e714fe48dba4c" name="a3333137465e6288fab8e714fe48dba4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3333137465e6288fab8e714fe48dba4c">&#9670;&#160;</a></span>endCoalescing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void endCoalescing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#a8678a9a7648a751d5189ffe0cb749d3f">UndoManager::applyRedoStep()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ad2d9ae811da6c5c4a931e2bc053defe9">UndoManager::applyUndoStep()</a>, <a class="el" href="structscxt_1_1undo_1_1UndoManager.html#ac8bb3912a3ce86b15842e79d0b421204">UndoManager::clear()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a941ac5bfadf64eea9d611661f2b03d7f">scxt::messaging::client::doEndEdit()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="undo_8h.html">undo.h</a></li>
 <li><a class="el" href="undo_8cpp.html">undo.cpp</a></li>
@@ -224,7 +432,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 14 2026 15:58:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Jun 14 2026 18:51:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

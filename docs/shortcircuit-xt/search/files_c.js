@@ -40,12 +40,10 @@ var searchData=
   ['modpane_2eh_37',['ModPane.h',['../ModPane_8h.html',1,'']]],
   ['modulation_5fmessages_2eh_38',['modulation_messages.h',['../modulation__messages_8h.html',1,'']]],
   ['modulation_5ftraits_2eh_39',['modulation_traits.h',['../modulation__traits_8h.html',1,'']]],
-  ['modulation_5fundoable_5fitems_2ecpp_40',['modulation_undoable_items.cpp',['../modulation__undoable__items_8cpp.html',1,'']]],
-  ['modulation_5fundoable_5fitems_2eh_41',['modulation_undoable_items.h',['../modulation__undoable__items_8h.html',1,'']]],
-  ['modulator_5fstorage_2ecpp_42',['modulator_storage.cpp',['../modulator__storage_8cpp.html',1,'']]],
-  ['modulator_5fstorage_2eh_43',['modulator_storage.h',['../modulator__storage_8h.html',1,'']]],
-  ['multiinstrumentprompt_2eh_44',['MultiInstrumentPrompt.h',['../MultiInstrumentPrompt_8h.html',1,'']]],
-  ['multisample_5fcompound_5ffile_5fimpl_2ecpp_45',['multisample_compound_file_impl.cpp',['../multisample__compound__file__impl_8cpp.html',1,'']]],
-  ['multisample_5fimport_2ecpp_46',['multisample_import.cpp',['../multisample__import_8cpp.html',1,'']]],
-  ['multisample_5fimport_2eh_47',['multisample_import.h',['../multisample__import_8h.html',1,'']]]
+  ['modulator_5fstorage_2ecpp_40',['modulator_storage.cpp',['../modulator__storage_8cpp.html',1,'']]],
+  ['modulator_5fstorage_2eh_41',['modulator_storage.h',['../modulator__storage_8h.html',1,'']]],
+  ['multiinstrumentprompt_2eh_42',['MultiInstrumentPrompt.h',['../MultiInstrumentPrompt_8h.html',1,'']]],
+  ['multisample_5fcompound_5ffile_5fimpl_2ecpp_43',['multisample_compound_file_impl.cpp',['../multisample__compound__file__impl_8cpp.html',1,'']]],
+  ['multisample_5fimport_2ecpp_44',['multisample_import.cpp',['../multisample__import_8cpp.html',1,'']]],
+  ['multisample_5fimport_2eh_45',['multisample_import.h',['../multisample__import_8h.html',1,'']]]
 ];

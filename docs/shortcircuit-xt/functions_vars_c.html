@@ -96,12 +96,9 @@ $(function() {
 <li>c&#160;:&#160;<a class="el" href="unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#acabc4da30d6ff8e88131ae5843a4961a">AudioToSerialization::Payload</a>, <a class="el" href="unionscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1Payload.html#acabc4da30d6ff8e88131ae5843a4961a">SerializationToAudio::Payload</a></li>
 <li>c2sMessageBytes&#160;:&#160;<a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a059908adaa65b2e6f0e162eca3d95ab2">MessageController</a></li>
 <li>c2sMessageCount&#160;:&#160;<a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a7ee25557124ca62cac72371071ab9bf0">MessageController</a></li>
+<li>cached&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1PayloadUndoableItem.html#a025d8b36c8e228d4afaed9509f522f6b">PayloadUndoableItem&lt; Spec &gt;</a></li>
 <li>cachedGroupData&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1GroupChangeItem.html#a8752fd4d453a6b8f8c71e21fd5e7dd5b">GroupChangeItem</a></li>
 <li>cachedMacro&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1MacroFullStateItem.html#ae5af42f2e46d15fbfd7f738c557bfa20">MacroFullStateItem</a></li>
-<li>cachedMappingData&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1ZoneMappingDataUndoableItem.html#a67885d711f3766c17ac0994d11944894">ZoneMappingDataUndoableItem</a></li>
-<li>cachedRows&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1GroupModRowChangeItem.html#a65cffac0580aac5381853251267f0d69">GroupModRowChangeItem</a>, <a class="el" href="structscxt_1_1undo_1_1ZoneModRowChangeItem.html#a37b89135cba9ab68c7fb8e50652e89aa">ZoneModRowChangeItem</a></li>
-<li>cachedStorage&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1GroupProcessorTypeChangeItem.html#ac8b7c85acb3b54dd0a8d2622538f439d">GroupProcessorTypeChangeItem</a>, <a class="el" href="structscxt_1_1undo_1_1ZoneProcessorTypeChangeItem.html#ac8b7c85acb3b54dd0a8d2622538f439d">ZoneProcessorTypeChangeItem</a></li>
-<li>cachedTables&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1GroupModTableSnapshotItem.html#a28cadfaab6dbbb55c938315a61e5fc79">GroupModTableSnapshotItem</a>, <a class="el" href="structscxt_1_1undo_1_1ZoneModTableSnapshotItem.html#ad3833bad002806b6d13f79f998dc8404">ZoneModTableSnapshotItem</a></li>
 <li>cacheLastZone&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#ac8e4138a4ec82a6a34a0f23cbc2530b5">ZoneLayoutDisplay</a></li>
 <li>callback&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1connectors_1_1DirectBooleanPayloadDataAttachment.html#aa081e30ff05191741594f68e40c6e4f2">DirectBooleanPayloadDataAttachment</a></li>
 <li>callbackMutex&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a066fd3d99930bcb327e0f7c510cdacd0">SCXTEditor</a></li>
@@ -161,6 +158,7 @@ $(function() {
 <li>cpuLabel&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a1af1d655b6a6719c08dae31973ca648f">HeaderRegion</a></li>
 <li>cpuLevel&#160;:&#160;<a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#aeaf6dcbb7fe820bb38a6c60a81870009">Engine::SharedUIMemoryState</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a8a6cd887eaacb98e6140894ab6b2184b">HeaderRegion</a></li>
 <li>cpuLevValue&#160;:&#160;<a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a2ccb8c7aae4140bae6803c284a9eba1e">HeaderRegion</a></li>
+<li>createGroupsFirst&#160;:&#160;<a class="el" href="structscxt_1_1undo_1_1ZoneOrderRestoreItem.html#aac55cadb63b2ebf5b442442ad0326ebc">ZoneOrderRestoreItem</a></li>
 <li>cSampleLoops&#160;:&#160;<a class="el" href="structscxt_1_1sample_1_1loaders_1_1SamplerChunk.html#a6eefb5348ca44a4b1dcd307689d5eab9">SamplerChunk</a></li>
 <li>currentBucketBlocks&#160;:&#160;<a class="el" href="structscxt_1_1perf_1_1Fingerprint.html#aebbaf54924e105525dae69ce687fbd64">Fingerprint</a></li>
 <li>currentBucketPeak&#160;:&#160;<a class="el" href="structscxt_1_1perf_1_1Fingerprint.html#ac1a5d611d427c0bf2c6a38e01936477a">Fingerprint</a></li>
@@ -206,7 +204,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 14 2026 15:58:16 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Jun 14 2026 18:51:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

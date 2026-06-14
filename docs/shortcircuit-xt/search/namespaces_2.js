@@ -62,9 +62,10 @@ var searchData=
   ['scxt_3a_3aui_3a_3atheme_59',['theme',['../namespacescxt_1_1ui_1_1theme.html',1,'scxt::ui']]],
   ['scxt_3a_3aui_3a_3atheme_3a_3adetail_60',['detail',['../namespacescxt_1_1ui_1_1theme_1_1detail.html',1,'scxt::ui::theme']]],
   ['scxt_3a_3aundo_61',['undo',['../namespacescxt_1_1undo.html',1,'scxt']]],
-  ['scxt_3a_3avoice_62',['voice',['../namespacescxt_1_1voice.html',1,'scxt']]],
-  ['scxt_3a_3avoice_3a_3amodulation_63',['modulation',['../namespacescxt_1_1voice_1_1modulation.html',1,'scxt::voice']]],
-  ['sst_64',['sst',['../namespacesst.html',1,'']]],
-  ['sst_3a_3ajucegui_65',['jucegui',['../namespacesst_1_1jucegui.html',1,'sst']]],
-  ['sst_3a_3ajucegui_3a_3acomponents_66',['components',['../namespacesst_1_1jucegui_1_1components.html',1,'sst::jucegui']]]
+  ['scxt_3a_3aundo_3a_3apayload_5fdetail_62',['payload_detail',['../namespacescxt_1_1undo_1_1payload__detail.html',1,'scxt::undo']]],
+  ['scxt_3a_3avoice_63',['voice',['../namespacescxt_1_1voice.html',1,'scxt']]],
+  ['scxt_3a_3avoice_3a_3amodulation_64',['modulation',['../namespacescxt_1_1voice_1_1modulation.html',1,'scxt::voice']]],
+  ['sst_65',['sst',['../namespacesst.html',1,'']]],
+  ['sst_3a_3ajucegui_66',['jucegui',['../namespacesst_1_1jucegui.html',1,'sst']]],
+  ['sst_3a_3ajucegui_3a_3acomponents_67',['components',['../namespacesst_1_1jucegui_1_1components.html',1,'sst::jucegui']]]
 ];

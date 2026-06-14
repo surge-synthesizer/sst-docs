@@ -11,8 +11,12 @@ var searchData=
   ['groupfloatattachment_5ft_8',['groupFloatAttachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#a1aad516aa6a80918afe9d36dd87689e4',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]],
   ['groupid_9',['GroupID',['../namespacescxt.html#a065ba2acff2c78a8ae6cc01a634b3e05',1,'scxt']]],
   ['groupmatrixmetadata_5ft_10',['groupMatrixMetadata_t',['../namespacescxt_1_1modulation.html#a91af2096b32ad4ac2f9b6d281c2560c5',1,'scxt::modulation']]],
-  ['groupoutputinfoupdate_5ft_11',['groupOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b',1,'scxt::messaging::client']]],
-  ['grouptriggerbuffer_12',['GroupTriggerBuffer',['../namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92',1,'scxt::engine']]],
-  ['gzaudiomodstorageupdate_5ft_13',['gzAudioModStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#ac26f7e4f8d1008bea928d6f36e31a15e',1,'scxt::messaging::client']]],
-  ['gzmiscstorageupdate_5ft_14',['gzMiscStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#adea0b65938dbf91699042e82993f5063',1,'scxt::messaging::client']]]
+  ['groupmodrowchangeitem_11',['GroupModRowChangeItem',['../namespacescxt_1_1undo.html#a2a3b3a04fc82456bddae677223e05832',1,'scxt::undo']]],
+  ['groupmodtablesnapshotitem_12',['GroupModTableSnapshotItem',['../namespacescxt_1_1undo.html#a2ea0099ef17e68432e1caedf97fb29a0',1,'scxt::undo']]],
+  ['groupoutputinfoupdate_5ft_13',['groupOutputInfoUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b',1,'scxt::messaging::client']]],
+  ['groupprocessorswapspec_14',['GroupProcessorSwapSpec',['../namespacescxt_1_1undo.html#ab6cb1c9f5201b1c6643d71043de1e1de',1,'scxt::undo']]],
+  ['groupprocessortypechangeitem_15',['GroupProcessorTypeChangeItem',['../namespacescxt_1_1undo.html#ae97a9bf089ca5a86fc1f53b1f60bd427',1,'scxt::undo']]],
+  ['grouptriggerbuffer_16',['GroupTriggerBuffer',['../namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92',1,'scxt::engine']]],
+  ['gzaudiomodstorageupdate_5ft_17',['gzAudioModStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#ac26f7e4f8d1008bea928d6f36e31a15e',1,'scxt::messaging::client']]],
+  ['gzmiscstorageupdate_5ft_18',['gzMiscStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#adea0b65938dbf91699042e82993f5063',1,'scxt::messaging::client']]]
 ];

@@ -34,6 +34,7 @@ var searchData=
   ['as_5fsfz_31',['AS_SFZ',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac',1,'scxt::patch_io']]],
   ['ascending_32',['ASCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaa35cb4c8640a823da9718e5cd29d211ea',1,'scxt::modulation::modulators::PhasorStorage']]],
   ['attack_33',['Attack',['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6adcfafcb4323b102c7e204555d313ba0a',1,'scxt::import_support']]],
-  ['aux_34',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
-  ['aux_5f0_35',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
+  ['audio_5fmod_34',['audio_mod',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38abc6577b85fd72191349dc2ab1d5cb1ae',1,'scxt::messaging::client']]],
+  ['aux_35',['AUX',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a5e19c75c2809d2f27eb33a29d1971b46ad22b2d6890a5e46ef1adfd9a5b631097',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
+  ['aux_5f0_36',['AUX_0',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8a0c194d72496a2cdbe5028aecf3f17d32',1,'scxt::engine']]]
 ];
