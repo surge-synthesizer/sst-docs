@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value_5ftype_0',['value_type',['../structsst_1_1cpputils_1_1active__set__overlay_1_1iterator.html#afb9ded5f49336ae503bb9f2035ea902b',1,'sst::cpputils::active_set_overlay::iterator::value_type'],['../classsst_1_1cpputils_1_1AlignedAllocator.html#ab604f1dfd4ef3bf57674236b61862b28',1,'sst::cpputils::AlignedAllocator::value_type'],['../classsst_1_1cpputils_1_1DynArray.html#afb9ded5f49336ae503bb9f2035ea902b',1,'sst::cpputils::DynArray::value_type'],['../structsst_1_1cpputils_1_1fixed__memory__allocator__impl.html#afb9ded5f49336ae503bb9f2035ea902b',1,'sst::cpputils::fixed_memory_allocator_impl::value_type'],['../classsst_1_1cpputils_1_1SimpleRingBuffer.html#a265a253612b46abed17c61b0a5e5ce30',1,'sst::cpputils::SimpleRingBuffer::value_type']]]
+  ['unsubscribe_0',['unsubscribe',['../classsst_1_1cpputils_1_1internal_1_1RingBufferInternal.html#a04fc89aa31e530fde28909fa75cdef76',1,'sst::cpputils::internal::RingBufferInternal']]],
+  ['used_5f_1',['used_',['../structsst_1_1cpputils_1_1fixed__memory__allocator__impl.html#a64c6701dfbd828f909744621d603debe',1,'sst::cpputils::fixed_memory_allocator_impl']]]
 ];

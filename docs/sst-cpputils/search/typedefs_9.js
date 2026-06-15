@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['size_5ftype_0',['size_type',['../classsst_1_1cpputils_1_1AlignedAllocator.html#a5c00f4971030d4471f5ad3de0ea7b17c',1,'sst::cpputils::AlignedAllocator::size_type'],['../classsst_1_1cpputils_1_1DynArray.html#a3507588bf4c5b2d77ede1931846181c3',1,'sst::cpputils::DynArray::size_type']]]
+  ['reference_0',['reference',['../structsst_1_1cpputils_1_1active__set__overlay_1_1iterator.html#a8d4204eb251a857aba99c93b694a0154',1,'sst::cpputils::active_set_overlay::iterator::reference'],['../classsst_1_1cpputils_1_1DynArray.html#a8d4204eb251a857aba99c93b694a0154',1,'sst::cpputils::DynArray::reference']]],
+  ['reverse_5fiterator_1',['reverse_iterator',['../classsst_1_1cpputils_1_1DynArray.html#adb9a673a4271b497ef05158e05170942',1,'sst::cpputils::DynArray']]]
 ];
