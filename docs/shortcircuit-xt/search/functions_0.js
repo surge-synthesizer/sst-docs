@@ -80,7 +80,7 @@ var searchData=
   ['applympetuningawarenesspayload_77',['applyMPETuningAwarenessPayload',['../namespacescxt_1_1messaging_1_1client.html#a34e19835128b81d15e89226bf3cc4102',1,'scxt::messaging::client']]],
   ['applymultiscreensidebartheme_78',['applyMultiScreenSidebarTheme',['../structscxt_1_1ui_1_1theme_1_1ThemeApplier.html#a29ebf99c37a361c9668581198c1a8151',1,'scxt::ui::theme::ThemeApplier']]],
   ['applyomniflavorpayload_79',['applyOmniFlavorPayload',['../namespacescxt_1_1messaging_1_1client.html#a2f480d859bcd708ac152a2ae867e0334',1,'scxt::messaging::client']]],
-  ['applypitchbendtuningawarenesspayload_80',['applyPitchBendTuningAwarenessPayload',['../namespacescxt_1_1messaging_1_1client.html#ad6fd8e57f32387ceed4698e50c0d9717',1,'scxt::messaging::client']]],
+  ['applypitchbendtuningawarenesspayload_80',['applyPitchBendTuningAwarenessPayload',['../namespacescxt_1_1messaging_1_1client.html#a2c73d512a0746a67255235dc8909c24f',1,'scxt::messaging::client']]],
   ['applypresetxml_81',['applypresetxml',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a5050a5807270877798981e21b07457d7',1,'scxt::ui::app::shared::PartEffectsPane::applyPresetXML()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a5050a5807270877798981e21b07457d7',1,'scxt::ui::app::edit_screen::ProcessorPane::applyPresetXML()']]],
   ['applyredostep_82',['applyRedoStep',['../structscxt_1_1undo_1_1UndoManager.html#a8678a9a7648a751d5189ffe0cb749d3f',1,'scxt::undo::UndoManager']]],
   ['applyresolution_83',['applyResolution',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a57ceae81dc9b31ea7fc82f3a98cbeb79',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
