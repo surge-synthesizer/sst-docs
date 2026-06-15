@@ -1,7 +1,7 @@
 var searchData=
 [
   ['effect_0',['effect',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a501f9ea46247fec3e513f1a49f2d548a',1,'scxt::sfz_support::SFZParser::Header']]],
-  ['eg_1',['eg',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a2a6a84e9e44441afbd75cc19ce28be37',1,'scxt::messaging::client::eg'],['../namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fbafbe46383db390907541a234bec7f2424',1,'scxt::import_support::EG']]],
+  ['eg_1',['eg',['../namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fbafbe46383db390907541a234bec7f2424',1,'scxt::import_support::EG'],['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a2a6a84e9e44441afbd75cc19ce28be37',1,'scxt::messaging::client::eg']]],
   ['egtime_2',['EGTime',['../namespacescxt_1_1import__support.html#a8425f009cc31361c338a42529a9fad1ba361d793747b12f5cff366ee58f6749c2',1,'scxt::import_support']]],
   ['endl_3',['endL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fabf9e9fb3920d2d8a5a87983d9dfa3f94',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['endp_4',['endP',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fadb49e7f174779d056a7d0c4a0ddb40bf',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
