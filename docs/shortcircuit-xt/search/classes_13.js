@@ -8,5 +8,7 @@ var searchData=
   ['voice_5',['Voice',['../structscxt_1_1voice_1_1Voice.html',1,'scxt::voice']]],
   ['voicedisplaystateitem_6',['VoiceDisplayStateItem',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html',1,'scxt::engine::Engine::SharedUIMemoryState']]],
   ['voicemanagerresponder_7',['VoiceManagerResponder',['../structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html',1,'scxt::engine::Engine']]],
-  ['voicesources_8',['VoiceSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1VoiceSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]]
+  ['voicemodsource_8',['VoiceModSource',['../structscxt_1_1engine_1_1Engine_1_1VoiceModSource.html',1,'scxt::engine::Engine']]],
+  ['voicemodtarget_9',['VoiceModTarget',['../structscxt_1_1engine_1_1Engine_1_1VoiceModTarget.html',1,'scxt::engine::Engine']]],
+  ['voicesources_10',['VoiceSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1VoiceSources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]]
 ];
