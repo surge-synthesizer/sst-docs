@@ -45,7 +45,7 @@ var searchData=
   ['noteid_42',['noteid',['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid'],['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId']]],
   ['notelens_43',['noteLenS',['../structscxt_1_1perf_1_1SequenceParams.html#a4c01f000436052edcbd0518fd2b95410',1,'scxt::perf::SequenceParams']]],
   ['noteoff_44',['NoteOff',['../structscxt_1_1perf_1_1MidiEvent.html#a1d1cfd8ffb84e947f82999c682b666a7ad37718bd43a7976d5e89e8ee7819e5fd',1,'scxt::perf::MidiEvent']]],
-  ['noteon_45',['noteon',['../structscxt_1_1perf_1_1MidiEvent.html#a1d1cfd8ffb84e947f82999c682b666a7affc541f2571710265776574dd39fc319',1,'scxt::perf::MidiEvent::NoteOn'],['../structscxt_1_1perf_1_1CustomEvent.html#a12fa7e12d4146c6093d82e954848f1e9',1,'scxt::perf::CustomEvent::noteOn']]],
+  ['noteon_45',['noteon',['../structscxt_1_1perf_1_1CustomEvent.html#a12fa7e12d4146c6093d82e954848f1e9',1,'scxt::perf::CustomEvent::noteOn'],['../structscxt_1_1perf_1_1MidiEvent.html#a1d1cfd8ffb84e947f82999c682b666a7affc541f2571710265776574dd39fc319',1,'scxt::perf::MidiEvent::NoteOn']]],
   ['noteonoff_5ft_46',['noteOnOff_t',['../namespacescxt_1_1messaging_1_1client.html#ae1e6111a783b5232e389026e2bb77f26',1,'scxt::messaging::client']]],
   ['noteportscount_47',['notePortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aa5c219b75d4de4da1f6f3f51a95ef542',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['noteportsinfo_48',['notePortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a775a4fc5426c2e1a9193ad5713c89dd8',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
