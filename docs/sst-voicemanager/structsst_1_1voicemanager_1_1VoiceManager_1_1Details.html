@@ -99,6 +99,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::Details Struct Reference</div></div>
 </div><!--header-->
@@ -117,8 +118,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa5140f128ab4ffcd1be0d3fa5ed21d18" id="r_aa5140f128ab4ffcd1be0d3fa5ed21d18"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#aa5140f128ab4ffcd1be0d3fa5ed21d18">keyState_t</a> = std::array&lt; std::array&lt; std::unordered_map&lt; uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html">IndividualKeyState</a> &gt;, 128 &gt;, 16 &gt;</td></tr>
-<tr class="separator:aa5140f128ab4ffcd1be0d3fa5ed21d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb94cb8da1b7125aa72070434e9d4d04" id="r_adb94cb8da1b7125aa72070434e9d4d04"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adb94cb8da1b7125aa72070434e9d4d04">keyGroupMap_t</a> = sst::cpputils::SmallHashMap&lt; uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html">IndividualKeyState</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6d66c1ac1ac58c5e409e82a8f5cac2c6">keyStateInlineGroups</a> &gt;</td></tr>
+<tr class="separator:adb94cb8da1b7125aa72070434e9d4d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412715f9fdb39271770638820b9ee220" id="r_a412715f9fdb39271770638820b9ee220"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a412715f9fdb39271770638820b9ee220">keyState_t</a> = std::array&lt; std::array&lt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adb94cb8da1b7125aa72070434e9d4d04">keyGroupMap_t</a>, 128 &gt;, 16 &gt;</td></tr>
+<tr class="separator:a412715f9fdb39271770638820b9ee220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5283767be693122dc6300c4a904664fe" id="r_a5283767be693122dc6300c4a904664fe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a> = typename <a class="el" href="structsst_1_1voicemanager_1_1VoiceInitInstructionsEntry.html">VoiceInitInstructionsEntry</a>&lt; Cfg &gt;::continuationData_t</td></tr>
 <tr class="separator:a5283767be693122dc6300c4a904664fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -140,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0922244cd67320538e4053221ff5fe83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef62de268f4d9014a08633d9d475ef5" id="r_a8ef62de268f4d9014a08633d9d475ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a8ef62de268f4d9014a08633d9d475ef5">guaranteeGroup</a> (uint64_t groupId)</td></tr>
 <tr class="separator:a8ef62de268f4d9014a08633d9d475ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80acfa10a02e0222361a3ce3141f4284" id="r_a80acfa10a02e0222361a3ce3141f4284"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a80acfa10a02e0222361a3ce3141f4284">guaranteePort</a> (int32_t port)</td></tr>
+<tr class="separator:a80acfa10a02e0222361a3ce3141f4284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16271996dd75965b7154e0027ce30a8b" id="r_a16271996dd75965b7154e0027ce30a8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a16271996dd75965b7154e0027ce30a8b">doMonoPitchBend</a> (int16_t port, int16_t channel, int16_t pb14bit)</td></tr>
 <tr class="separator:a16271996dd75965b7154e0027ce30a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc73f5d68f4f61b789acfb28530e8bdc" id="r_adc73f5d68f4f61b789acfb28530e8bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adc73f5d68f4f61b789acfb28530e8bdc">doMPEPitchBend</a> (int16_t port, int16_t channel, int16_t pb14bit)</td></tr>
@@ -175,8 +180,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab2ae60ca4e208c1c92d4c3a60c590c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a293840e714ef6419e8c0439db5ab42f0" id="r_a293840e714ef6419e8c0439db5ab42f0"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a293840e714ef6419e8c0439db5ab42f0">totalUsedVoices</a> {0}</td></tr>
 <tr class="separator:a293840e714ef6419e8c0439db5ab42f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac698eba63d6a5ab3cb86083913306a19" id="r_ac698eba63d6a5ab3cb86083913306a19"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int32_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#aa5140f128ab4ffcd1be0d3fa5ed21d18">keyState_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ac698eba63d6a5ab3cb86083913306a19">keyStateByPort</a> {}</td></tr>
+<tr class="memitem:ac698eba63d6a5ab3cb86083913306a19" id="r_ac698eba63d6a5ab3cb86083913306a19"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int32_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a412715f9fdb39271770638820b9ee220">keyState_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ac698eba63d6a5ab3cb86083913306a19">keyStateByPort</a> {}</td></tr>
 <tr class="separator:ac698eba63d6a5ab3cb86083913306a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74d7c1f9e64d003b9dc478d0621412b" id="r_ad74d7c1f9e64d003b9dc478d0621412b"><td class="memItemLeft" align="right" valign="top">sst::cpputils::SmallHashMap&lt; uint64_t, int32_t, Cfg::maxVoiceCount &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#ad74d7c1f9e64d003b9dc478d0621412b">createdByPolyGroup</a></td></tr>
+<tr class="separator:ad74d7c1f9e64d003b9dc478d0621412b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af87f1294ae211d053698e11372ae2ff4" id="r_af87f1294ae211d053698e11372ae2ff4"><td class="memItemLeft" align="right" valign="top">sst::cpputils::SmallHashSet&lt; uint64_t, Cfg::maxVoiceCount &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#af87f1294ae211d053698e11372ae2ff4">monoGroups</a></td></tr>
+<tr class="separator:af87f1294ae211d053698e11372ae2ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097df8653fd788de3989873a15a8a207" id="r_a097df8653fd788de3989873a15a8a207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1voicemanager_1_1VoiceBeginBufferEntry.html">VoiceBeginBufferEntry</a>&lt; Cfg &gt;::buffer_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a097df8653fd788de3989873a15a8a207">voiceBeginWorkingBuffer</a> {}</td></tr>
 <tr class="separator:a097df8653fd788de3989873a15a8a207"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5acaf6205eef6075a1d002f45db042cf" id="r_a5acaf6205eef6075a1d002f45db042cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1voicemanager_1_1VoiceInitBufferEntry.html">VoiceInitBufferEntry</a>&lt; Cfg &gt;::buffer_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5acaf6205eef6075a1d002f45db042cf">voiceInitWorkingBuffer</a> {}</td></tr>
@@ -189,10 +198,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9c9f4ac6c6745187a9e9a3012b0c4547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0da06d7ac9c97590ff3878511ed774f0" id="r_a0da06d7ac9c97590ff3878511ed774f0"><td class="memItemLeft" align="right" valign="top">std::array&lt; int16_t, 16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a0da06d7ac9c97590ff3878511ed774f0">lastPBByChannel</a> {}</td></tr>
 <tr class="separator:a0da06d7ac9c97590ff3878511ed774f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9681ea9102f964cacbb41a554eabc689" id="r_a9681ea9102f964cacbb41a554eabc689"><td class="memItemLeft" align="right" valign="top">sst::cpputils::SmallHashMap&lt; uint64_t, std::optional&lt; <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a> &gt;, Cfg::maxVoiceCount &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a9681ea9102f964cacbb41a554eabc689">retriggerGroups</a></td></tr>
+<tr class="separator:a9681ea9102f964cacbb41a554eabc689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40196a9e3737faf48a6642fffbaa0c04" id="r_a40196a9e3737faf48a6642fffbaa0c04"><td class="memItemLeft" align="right" valign="top">sst::cpputils::SmallHashSet&lt; uint64_t, Cfg::maxVoiceCount &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a40196a9e3737faf48a6642fffbaa0c04">sustainRetriggerGroups</a></td></tr>
+<tr class="separator:a40196a9e3737faf48a6642fffbaa0c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6d66c1ac1ac58c5e409e82a8f5cac2c6" id="r_a6d66c1ac1ac58c5e409e82a8f5cac2c6"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6d66c1ac1ac58c5e409e82a8f5cac2c6">keyStateInlineGroups</a> {4}</td></tr>
+<tr class="separator:a6d66c1ac1ac58c5e409e82a8f5cac2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aa5140f128ab4ffcd1be0d3fa5ed21d18" name="aa5140f128ab4ffcd1be0d3fa5ed21d18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5140f128ab4ffcd1be0d3fa5ed21d18">&#9670;&#160;</a></span>keyState_t</h2>
+<a id="adb94cb8da1b7125aa72070434e9d4d04" name="adb94cb8da1b7125aa72070434e9d4d04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb94cb8da1b7125aa72070434e9d4d04">&#9670;&#160;</a></span>keyGroupMap_t</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +218,23 @@ Public Attributes</h2></td></tr>
 template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#aa5140f128ab4ffcd1be0d3fa5ed21d18">keyState_t</a> =  std::array&lt;std::array&lt;std::unordered_map&lt;uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html">IndividualKeyState</a>&gt;, 128&gt;, 16&gt;</td>
+          <td class="memname">using <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adb94cb8da1b7125aa72070434e9d4d04">keyGroupMap_t</a> =  sst::cpputils::SmallHashMap&lt;uint64_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1IndividualKeyState.html">IndividualKeyState</a>, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a6d66c1ac1ac58c5e409e82a8f5cac2c6">keyStateInlineGroups</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a412715f9fdb39271770638820b9ee220" name="a412715f9fdb39271770638820b9ee220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412715f9fdb39271770638820b9ee220">&#9670;&#160;</a></span>keyState_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a412715f9fdb39271770638820b9ee220">keyState_t</a> =  std::array&lt;std::array&lt;<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#adb94cb8da1b7125aa72070434e9d4d04">keyGroupMap_t</a>, 128&gt;, 16&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -242,7 +276,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8ef62de268f4d9014a08633d9d475ef5">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::guaranteeGroup()</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8ef62de268f4d9014a08633d9d475ef5">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::guaranteeGroup()</a>, and <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a01c2240bf15cbe25a11b85d755414c33">VoiceManager&lt; Cfg, Responder, MonoResponder &gt;::guaranteePort()</a>.</p>
 
 </div>
 </div>
@@ -403,6 +437,26 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
           <td>(</td>
           <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>groupId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80acfa10a02e0222361a3ce3141f4284" name="a80acfa10a02e0222361a3ce3141f4284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80acfa10a02e0222361a3ce3141f4284">&#9670;&#160;</a></span>guaranteePort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void guaranteePort </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -859,6 +913,30 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
+<a id="a6d66c1ac1ac58c5e409e82a8f5cac2c6" name="a6d66c1ac1ac58c5e409e82a8f5cac2c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d66c1ac1ac58c5e409e82a8f5cac2c6">&#9670;&#160;</a></span>keyStateInlineGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t keyStateInlineGroups {4}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac698eba63d6a5ab3cb86083913306a19" name="ac698eba63d6a5ab3cb86083913306a19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac698eba63d6a5ab3cb86083913306a19">&#9670;&#160;</a></span>keyStateByPort</h2>
 
@@ -868,7 +946,39 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;int32_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#aa5140f128ab4ffcd1be0d3fa5ed21d18">keyState_t</a>&gt; keyStateByPort {}</td>
+          <td class="memname">std::unordered_map&lt;int32_t, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a412715f9fdb39271770638820b9ee220">keyState_t</a>&gt; keyStateByPort {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad74d7c1f9e64d003b9dc478d0621412b" name="ad74d7c1f9e64d003b9dc478d0621412b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad74d7c1f9e64d003b9dc478d0621412b">&#9670;&#160;</a></span>createdByPolyGroup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">sst::cpputils::SmallHashMap&lt;uint64_t, int32_t, Cfg::maxVoiceCount&gt; createdByPolyGroup</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af87f1294ae211d053698e11372ae2ff4" name="af87f1294ae211d053698e11372ae2ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af87f1294ae211d053698e11372ae2ff4">&#9670;&#160;</a></span>monoGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">sst::cpputils::SmallHashSet&lt;uint64_t, Cfg::maxVoiceCount&gt; monoGroups</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -971,13 +1081,45 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
+<a id="a9681ea9102f964cacbb41a554eabc689" name="a9681ea9102f964cacbb41a554eabc689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9681ea9102f964cacbb41a554eabc689">&#9670;&#160;</a></span>retriggerGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">sst::cpputils::SmallHashMap&lt;uint64_t, std::optional&lt;<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager_1_1Details.html#a5283767be693122dc6300c4a904664fe">continuationData_t</a>&gt;, Cfg::maxVoiceCount&gt; retriggerGroups</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40196a9e3737faf48a6642fffbaa0c04" name="a40196a9e3737faf48a6642fffbaa0c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40196a9e3737faf48a6642fffbaa0c04">&#9670;&#160;</a></span>sustainRetriggerGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">sst::cpputils::SmallHashSet&lt;uint64_t, Cfg::maxVoiceCount&gt; sustainRetriggerGroups</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="voicemanager__impl_8h.html">voicemanager_impl.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 10 2026 17:05:16 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jun 16 2026 13:20:20 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

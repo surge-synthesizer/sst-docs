@@ -9,6 +9,6 @@ var searchData=
   ['polylimit_6',['polyLimit',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1GroupState.html#aaf017e03ebb15a530903ceb77b47d69e',1,'sst::voicemanager::VoiceManager::Details::GroupState']]],
   ['polyphonygroup_7',['polyphonyGroup',['../structsst_1_1voicemanager_1_1VoiceBeginBufferEntry.html#a80ea6ba8357d86a9ec71ffff1943feea',1,'sst::voicemanager::VoiceBeginBufferEntry']]],
   ['port_8',['port',['../structsst_1_1voicemanager_1_1VoiceManager_1_1Details_1_1VoiceInfo.html#af113e27943856fda379256192bf93450',1,'sst::voicemanager::VoiceManager::Details::VoiceInfo']]],
-  ['processnoteoffevent_9',['processNoteOffEvent',['../structsst_1_1voicemanager_1_1VoiceManager.html#aa49cbf97639f0b0be8a7931003454ab4',1,'sst::voicemanager::VoiceManager']]],
-  ['processnoteonevent_10',['processNoteOnEvent',['../structsst_1_1voicemanager_1_1VoiceManager.html#a34f5298228e2741a99606878a0f1f39f',1,'sst::voicemanager::VoiceManager']]]
+  ['processnoteoffevent_9',['processNoteOffEvent',['../structsst_1_1voicemanager_1_1VoiceManager.html#a312406d21ab9d7da68275740dfcdf69e',1,'sst::voicemanager::VoiceManager']]],
+  ['processnoteonevent_10',['processNoteOnEvent',['../structsst_1_1voicemanager_1_1VoiceManager.html#af6d55ef65cc38c8ae74e1e1cad075296',1,'sst::voicemanager::VoiceManager']]]
 ];
