@@ -94,7 +94,7 @@ var searchData=
   ['mode_91',['mode',['../structscxt_1_1import__support_1_1LoopArgs.html#a90e54b7946d1a1288d7cb3f0409ae60d',1,'scxt::import_support::LoopArgs']]],
   ['modheight_92',['modHeight',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a3ad9a0c489d67bca99bbae2422fce100',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['modifystructuremutex_93',['modifyStructureMutex',['../structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d',1,'scxt::engine::Engine']]],
-  ['modmatrix_94',['modmatrix',['../structscxt_1_1voice_1_1Voice.html#a07d616744e269fe15200a8a1326de513',1,'scxt::voice::Voice::modMatrix'],['../structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6',1,'scxt::engine::Group::modMatrix']]],
+  ['modmatrix_94',['modmatrix',['../structscxt_1_1voice_1_1Voice.html#a3a83f06d29e36d802a8b127df838e5ad',1,'scxt::voice::Voice::modMatrix'],['../structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6',1,'scxt::engine::Group::modMatrix']]],
   ['modpane_95',['modPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a1d6b30935f8a940c261d2d42282e6bcb',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements']]],
   ['mods_96',['mods',['../structscxt_1_1akai__support_1_1AKPFile.html#a38c3b0f8a93c025c9bc6d1253333dc67',1,'scxt::akai_support::AKPFile']]],
   ['modstylebutton_97',['modStyleButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a676ed8354a8863509b43f07938bdfc98',1,'scxt::ui::app::edit_screen::ModRow']]],

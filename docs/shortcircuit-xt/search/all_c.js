@@ -296,7 +296,7 @@ var searchData=
   ['modheight_293',['modHeight',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a3ad9a0c489d67bca99bbae2422fce100',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['modifierkeyschanged_294',['modifierKeysChanged',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ab6ba2c42d4f27e8d6bc7a938107428f8',1,'scxt::ui::app::SCXTEditor']]],
   ['modifystructuremutex_295',['modifyStructureMutex',['../structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d',1,'scxt::engine::Engine']]],
-  ['modmatrix_296',['modmatrix',['../structscxt_1_1voice_1_1Voice.html#a07d616744e269fe15200a8a1326de513',1,'scxt::voice::Voice::modMatrix'],['../structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6',1,'scxt::engine::Group::modMatrix']]],
+  ['modmatrix_296',['modmatrix',['../structscxt_1_1voice_1_1Voice.html#a3a83f06d29e36d802a8b127df838e5ad',1,'scxt::voice::Voice::modMatrix'],['../structscxt_1_1engine_1_1Group.html#a46ba2c8a0b793ea93a524e198c1e73f6',1,'scxt::engine::Group::modMatrix']]],
   ['modpane_297',['modpane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#a1d6b30935f8a940c261d2d42282e6bcb',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements::modPane'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModPane.html',1,'ModPane&lt; GZTrait &gt;'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModPane.html#a300e35a77502acf5617846d4060bf336',1,'scxt::ui::app::edit_screen::ModPane::ModPane()']]],
   ['modpane_2ecpp_298',['ModPane.cpp',['../ModPane_8cpp.html',1,'']]],
   ['modpane_2eh_299',['ModPane.h',['../ModPane_8h.html',1,'']]],
