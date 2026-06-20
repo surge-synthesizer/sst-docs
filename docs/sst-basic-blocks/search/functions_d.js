@@ -10,6 +10,5 @@ var searchData=
   ['operator_2d_3d_7',['operator-=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a1fc48270c4ca571a4a296e6a46789c20',1,'sst::basic_blocks::simd::F32x4']]],
   ['operator_2f_8',['operator/',['../namespacesst_1_1basic__blocks_1_1simd.html#a2280e1e6a8096f8fa07885fa9b2f3d09',1,'sst::basic_blocks::simd']]],
   ['operator_2f_3d_9',['operator/=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a2ef58d83b097428e13083bf99c18602d',1,'sst::basic_blocks::simd::F32x4']]],
-  ['operator_3d_10',['operator=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#ad1b47336fae6f6360d5ca664c8bbb434',1,'sst::basic_blocks::simd::F32x4']]],
-  ['operator_3d_3d_11',['operator==',['../namespacesst_1_1basic__blocks_1_1mod__matrix_1_1details.html#a61d3eb60f880a7303baef76ac9725856',1,'sst::basic_blocks::mod_matrix::details']]]
+  ['operator_3d_10',['operator=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#ad1b47336fae6f6360d5ca664c8bbb434',1,'sst::basic_blocks::simd::F32x4']]]
 ];
