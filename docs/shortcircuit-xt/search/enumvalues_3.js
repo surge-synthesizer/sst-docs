@@ -3,7 +3,7 @@ var searchData=
   ['decay_0',['Decay',['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6a657f1228bb53523274ae58bcd123ae81',1,'scxt::import_support']]],
   ['default_5fbus_1',['DEFAULT_BUS',['../namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85',1,'scxt::engine']]],
   ['defaultpriority_2',['DefaultPriority',['../structscxt_1_1perf_1_1RunConfig.html#a7c4b6482b1abcf052a1a4d9dd4fcfe49a2316543d5ba57bab455f4dfcd456443f',1,'scxt::perf::RunConfig']]],
-  ['delay_3',['delay',['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6a8f497c1a3d15af9e0c215019f26b887d',1,'scxt::import_support::Delay'],['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852',1,'scxt::engine::delay']]],
+  ['delay_3',['delay',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852',1,'scxt::engine::delay'],['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6a8f497c1a3d15af9e0c215019f26b887d',1,'scxt::import_support::Delay']]],
   ['descending_4',['DESCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaacee234b4fc0ed1e29e965d79cfe252a6',1,'scxt::modulation::modulators::PhasorStorage']]],
   ['discrete_5',['Discrete',['../namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbea4984667940802dedc139aa7a430a6553',1,'scxt::undo']]],
   ['dotted_6',['DOTTED',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca1616c826577ee62e03fd79da3c74d82a',1,'scxt::modulation::modulators::PhasorStorage']]],

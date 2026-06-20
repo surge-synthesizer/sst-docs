@@ -108,9 +108,13 @@ Functions</h2></td></tr>
 <tr class="memitem:acf353e7302611c247f8f830c523d3d27" id="r_acf353e7302611c247f8f830c523d3d27"><td class="memTemplParams" colspan="2">template&lt;typename P , typename V &gt; </td></tr>
 <tr class="memitem:acf353e7302611c247f8f830c523d3d27"><td class="memTemplItemLeft" align="right" valign="top">ptrdiff_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#acf353e7302611c247f8f830c523d3d27">offV</a> (const P &amp;p, const V &amp;l)</td></tr>
 <tr class="separator:acf353e7302611c247f8f830c523d3d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb9650d5b3aa4cd71de439faee7f2d3f" id="r_abb9650d5b3aa4cd71de439faee7f2d3f"><td class="memTemplParams" colspan="2">template&lt;typename P &gt; </td></tr>
-<tr class="memitem:abb9650d5b3aa4cd71de439faee7f2d3f"><td class="memTemplItemLeft" align="right" valign="top">sst::basic_blocks::params::ParamMetaData&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#abb9650d5b3aa4cd71de439faee7f2d3f">descFor</a> (const P &amp;, ptrdiff_t pd)</td></tr>
-<tr class="separator:abb9650d5b3aa4cd71de439faee7f2d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8cbbf0cde5e1c122aafc82281efa76b" id="r_ad8cbbf0cde5e1c122aafc82281efa76b"><td class="memTemplParams" colspan="2">template&lt;typename P &gt; </td></tr>
+<tr class="memitem:ad8cbbf0cde5e1c122aafc82281efa76b"><td class="memTemplItemLeft" align="right" valign="top">const sst::basic_blocks::params::ParamMetaData &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#ad8cbbf0cde5e1c122aafc82281efa76b">descFor</a> (const P &amp;, ptrdiff_t pd, bool realtime)</td></tr>
+<tr class="separator:ad8cbbf0cde5e1c122aafc82281efa76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2fb3931ce770461d697a35de009584" id="r_a4c2fb3931ce770461d697a35de009584"><td class="memItemLeft" align="right" valign="top">MetadataSeed *&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#a4c2fb3931ce770461d697a35de009584">metadataSeedHead</a> ()</td></tr>
+<tr class="separator:a4c2fb3931ce770461d697a35de009584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63757564d0a6f83fa96e2918ce997258" id="r_a63757564d0a6f83fa96e2918ce997258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#a63757564d0a6f83fa96e2918ce997258">seedAllMetadata</a> ()</td></tr>
+<tr class="separator:a63757564d0a6f83fa96e2918ce997258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a44622377eebbdb2582daf0bcea9dc31a" name="a44622377eebbdb2582daf0bcea9dc31a"></a>
@@ -171,12 +175,12 @@ template&lt;typename P , typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1datamodel.html#ae0b3a98b04117a9125d8043a39d3779f">scxt::datamodel::describeValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1datamodel.html#a54a9795575fc8fbedbeb92cfa38c08cf">scxt::datamodel::describeValue()</a>.</p>
 
 </div>
 </div>
-<a id="abb9650d5b3aa4cd71de439faee7f2d3f" name="abb9650d5b3aa4cd71de439faee7f2d3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb9650d5b3aa4cd71de439faee7f2d3f">&#9670;&#160;</a></span>descFor()</h2>
+<a id="ad8cbbf0cde5e1c122aafc82281efa76b" name="ad8cbbf0cde5e1c122aafc82281efa76b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8cbbf0cde5e1c122aafc82281efa76b">&#9670;&#160;</a></span>descFor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +188,7 @@ template&lt;typename P , typename V &gt; </div>
 template&lt;typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">sst::basic_blocks::params::ParamMetaData descFor </td>
+          <td class="memname">const sst::basic_blocks::params::ParamMetaData &amp; descFor </td>
           <td>(</td>
           <td class="paramtype">const P &amp;&#160;</td>
           <td class="paramname">, </td>
@@ -193,7 +197,13 @@ template&lt;typename P &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ptrdiff_t&#160;</td>
-          <td class="paramname"><em>pd</em>&#160;</td>
+          <td class="paramname"><em>pd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>realtime</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -205,10 +215,50 @@ template&lt;typename P &gt; </div>
 
 </div>
 </div>
+<a id="a4c2fb3931ce770461d697a35de009584" name="a4c2fb3931ce770461d697a35de009584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2fb3931ce770461d697a35de009584">&#9670;&#160;</a></span>metadataSeedHead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MetadataSeed *&amp; metadataSeedHead </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#a63757564d0a6f83fa96e2918ce997258">seedAllMetadata()</a>.</p>
+
+</div>
+</div>
+<a id="a63757564d0a6f83fa96e2918ce997258" name="a63757564d0a6f83fa96e2918ce997258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63757564d0a6f83fa96e2918ce997258">&#9670;&#160;</a></span>seedAllMetadata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void seedAllMetadata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#a4c2fb3931ce770461d697a35de009584">metadataSeedHead()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a916e4a9cdcdb4e2ee4d31c15330f36f4">Engine::Engine()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 20 2026 15:18:25 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Jun 20 2026 18:53:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
