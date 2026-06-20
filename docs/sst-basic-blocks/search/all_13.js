@@ -14,7 +14,7 @@ var searchData=
   ['unisonsetup_11',['unisonsetup',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html',1,'UnisonSetup&lt; valtype &gt;'],['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#a439b0132e4abe44bec4df1e3c2c8f1cf',1,'sst::basic_blocks::dsp::UnisonSetup::UnisonSetup()']]],
   ['unit_12',['unit',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1729796f03559082040198b11c08f0ff',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['unitseparator_13',['unitSeparator',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a8efeb745ed08e8d00ba8859e08bac461',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['unmodulatedvalues_14',['unmodulatedValues',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#a529b80447d8bb2fbe7877dba342cb3ff',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
+  ['unmodulatedvalues_14',['unmodulatedValues',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1ModMatrix.html#ac374fec1acbe87eb235410488f01be06',1,'sst::basic_blocks::mod_matrix::ModMatrix']]],
   ['unordered_5fmap_15',['UNORDERED_MAP',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a56667947ffdbdeea280ff228b5e14bd2a5f549480f0608cdc1fd9597dc7d116e8',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['updateactiveat_16',['updateActiveAt',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1FixedLengthRoutingTable.html#abcd9cddf18881cfb5205ca08d18032d3',1,'sst::basic_blocks::mod_matrix::FixedLengthRoutingTable']]],
   ['updateblockto_17',['updateBlockTo',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#aeef30395d9109fc1a810271a96e8936d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
