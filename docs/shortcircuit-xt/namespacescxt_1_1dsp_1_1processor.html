@@ -250,6 +250,9 @@ Functions</h2></td></tr>
 <tr class="separator:a5bb6bfeba27299cfd2060f8c74e22482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba381c197665974e74ab83d1a69c6a4a" id="r_aba381c197665974e74ab83d1a69c6a4a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#aba381c197665974e74ab83d1a69c6a4a">fromProcessorStreamingName</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:aba381c197665974e74ab83d1a69c6a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77fdbda6bac4c14ffc9c628321cde2a" id="r_ae77fdbda6bac4c14ffc9c628321cde2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ae77fdbda6bac4c14ffc9c628321cde2a">warmUpAllProcessors</a> ()</td></tr>
+<tr class="memdesc:ae77fdbda6bac4c14ffc9c628321cde2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some processors cache configuration which is expensive (and allocating) to build but is a pure function of their compile-time type.  <br /></td></tr>
+<tr class="separator:ae77fdbda6bac4c14ffc9c628321cde2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1ee35ef650c1d44688dd87584012a4d" id="r_ab1ee35ef650c1d44688dd87584012a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a69ac7194741681ad5aff7ff38c14dbaa">processorList_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ab1ee35ef650c1d44688dd87584012a4d">getAllProcessorDescriptions</a> ()</td></tr>
 <tr class="separator:ab1ee35ef650c1d44688dd87584012a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a916d2c946ed0380252f9e6e3426b5e29" id="r_a916d2c946ed0380252f9e6e3426b5e29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1Processor.html">Processor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a916d2c946ed0380252f9e6e3426b5e29">spawnProcessorInPlace</a> (<a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1f">ProcessorType</a> id, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> *e, <a class="el" href="structscxt_1_1engine_1_1MemoryPool.html">engine::MemoryPool</a> *mp, uint8_t *memory, size_t memorySize, const <a class="el" href="structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html">ProcessorStorage</a> &amp;ps, float *f, int *i, bool oversample, bool needsMetadata)</td></tr>
@@ -840,6 +843,28 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#afaeebbfec93b018862e723ba9dfbfd82">getProcessorStreamingName()</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#a6264934da00ac4586e42daee39664b1fa041a6467a319bb351e8812fe5964499a">proct_num_types</a>.</p>
+
+</div>
+</div>
+<a id="ae77fdbda6bac4c14ffc9c628321cde2a" name="ae77fdbda6bac4c14ffc9c628321cde2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae77fdbda6bac4c14ffc9c628321cde2a">&#9670;&#160;</a></span>warmUpAllProcessors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void warmUpAllProcessors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Some processors cache configuration which is expensive (and allocating) to build but is a pure function of their compile-time type. </p>
+<p>Those expose a static warmUpCache() which this populates once. Call off the audio thread (engine construction) so the first audio-thread spawn reads warmed data instead of allocating. </p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a916e4a9cdcdb4e2ee4d31c15330f36f4">Engine::Engine()</a>.</p>
 
 </div>
 </div>
@@ -4866,7 +4891,7 @@ template&lt;bool OS, bool forceStereo, int N, typename Mix , typename Endpoints 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 20 2026 18:53:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jun 22 2026 00:19:48 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -249,7 +249,7 @@ var searchData=
   ['pm_5fforward_5fshotriff_246',['pm_forward_shotRIFF',['../structscxt_1_1sample_1_1Sample.html#a9804ed55b9f472c902d1f1c66b6abfe0aa75b172058863412a0d34fdeb53d3ec9',1,'scxt::sample::Sample']]],
   ['pm_5fforwardriff_247',['pm_forwardRIFF',['../structscxt_1_1sample_1_1Sample.html#a9804ed55b9f472c902d1f1c66b6abfe0a8cbca75c3b05f1d51bb0774f0466cfaa',1,'scxt::sample::Sample']]],
   ['pmd_248',['pmd',['../namespacescxt_1_1datamodel.html#a1eb273f3bb8f42c854ab0983b6ec8255',1,'scxt::datamodel']]],
-  ['pmsinetable_249',['pmsinetable',['../namespacescxt_1_1dsp.html#a91a08171c3d97729069003946c359632',1,'scxt::dsp::pmSineTable'],['../namespacescxt_1_1dsp.html#afa226de9065bbcc89f2ad0c2731ef82a',1,'scxt::dsp::PmSineTable']]],
+  ['pmsinetable_249',['pmsinetable',['../namespacescxt_1_1dsp.html#afa226de9065bbcc89f2ad0c2731ef82a',1,'scxt::dsp::PmSineTable'],['../namespacescxt_1_1dsp.html#a91a08171c3d97729069003946c359632',1,'scxt::dsp::pmSineTable']]],
   ['poly_250',['POLY',['../structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa7d85766d041d397d096dcbc0d7c793fd',1,'scxt::engine::Group']]],
   ['polyat_251',['polyat',['../namespacescxt_1_1import__support.html#af2017d6c8468371ec1e96076cd9857fba63375aacb9540d0a886276a9312797da',1,'scxt::import_support::PolyAT'],['../structscxt_1_1voice_1_1Voice.html#a86c633a15e4fe2061710c4dcc3fff69b',1,'scxt::voice::Voice::polyAT'],['../structscxt_1_1import__support_1_1ImportedSource.html#acb23ae095008554d56d7af0c9a191a12',1,'scxt::import_support::ImportedSource::polyAT()']]],
   ['polyata_252',['polyATA',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a7936717c2f502e3925df0d4dd853ba8c',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
