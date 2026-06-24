@@ -24,7 +24,7 @@ var searchData=
   ['browserpane_21',['BrowserPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#ae2e66d242440c34ff7d20ee0be9a2bb8',1,'scxt::ui::app::browser_ui::BrowserPane']]],
   ['browserpanefooter_22',['BrowserPaneFooter',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPaneFooter.html#ad57830e43ad87c02bd13bdf362987605',1,'scxt::ui::app::browser_ui::BrowserPaneFooter']]],
   ['buildcomponents_23',['buildComponents',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#abf38049cd5a8ecaadb778732b57ac091',1,'scxt::ui::app::edit_screen::MiscPanel']]],
-  ['bus_24',['bus',['../structscxt_1_1engine_1_1Bus.html#a29358764c7d91cfcf3447e93b43bb20f',1,'scxt::engine::Bus::Bus()'],['../structscxt_1_1engine_1_1Bus.html#a531021fa0b1df570a3435177b734c547',1,'scxt::engine::Bus::Bus(BusAddress a)']]],
+  ['bus_24',['bus',['../structscxt_1_1engine_1_1Bus.html#a531021fa0b1df570a3435177b734c547',1,'scxt::engine::Bus::Bus(BusAddress a)'],['../structscxt_1_1engine_1_1Bus.html#a29358764c7d91cfcf3447e93b43bb20f',1,'scxt::engine::Bus::Bus()']]],
   ['busbyaddress_25',['busByAddress',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#a05deb0de897d73c11cb0ae3693203dc9',1,'scxt::engine::Patch::Busses']]],
   ['buseffect_26',['BusEffect',['../structscxt_1_1engine_1_1BusEffect.html#a8785067e4429044b27b115f634e49688',1,'scxt::engine::BusEffect']]],
   ['buseffectstorage_27',['BusEffectStorage',['../structscxt_1_1engine_1_1BusEffectStorage.html#abc25ef0b953bf80a138290c628f44c31',1,'scxt::engine::BusEffectStorage']]],
@@ -33,5 +33,6 @@ var searchData=
   ['bussendstorage_30',['BusSendStorage',['../structscxt_1_1engine_1_1Bus_1_1BusSendStorage.html#a8b9e230a43a4f6fb33406b97a1768a26',1,'scxt::engine::Bus::BusSendStorage']]],
   ['busses_31',['Busses',['../structscxt_1_1engine_1_1Patch_1_1Busses.html#aa009ab46a2ddd86d253a781716b39e20',1,'scxt::engine::Patch::Busses']]],
   ['bypasschecksinscope_32',['bypassChecksInScope',['../structscxt_1_1ThreadingChecker.html#ab47cb65f7e464fdaa469dd33d4685018',1,'scxt::ThreadingChecker']]],
-  ['bypassguard_33',['bypassguard',['../structscxt_1_1ThreadingChecker_1_1BypassGuard.html#ad97161d1ad2cf04a9fdea454836d01a6',1,'scxt::ThreadingChecker::BypassGuard::BypassGuard(ThreadingChecker &amp;c)'],['../structscxt_1_1ThreadingChecker_1_1BypassGuard.html#ab9d5745fe3f9375227bcf0ace47b97a1',1,'scxt::ThreadingChecker::BypassGuard::BypassGuard(const BypassGuard &amp;)=delete']]]
+  ['bypassguard_33',['bypassguard',['../structscxt_1_1ThreadingChecker_1_1BypassGuard.html#ad97161d1ad2cf04a9fdea454836d01a6',1,'scxt::ThreadingChecker::BypassGuard::BypassGuard(ThreadingChecker &amp;c)'],['../structscxt_1_1ThreadingChecker_1_1BypassGuard.html#ab9d5745fe3f9375227bcf0ace47b97a1',1,'scxt::ThreadingChecker::BypassGuard::BypassGuard(const BypassGuard &amp;)=delete']]],
+  ['bytesremaining_34',['bytesRemaining',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a9407024d3d27076275579deebbb8c7b8',1,'scxt::sample::loaders::RIFFMemFile']]]
 ];
