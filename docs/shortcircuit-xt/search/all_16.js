@@ -164,7 +164,7 @@ var searchData=
   ['wavinterleaved_161',['wavInterleaved',['../structscxt_1_1perf_1_1RunResult.html#ae7cd86ee9fd54640725acaf86d10111b',1,'scxt::perf::RunResult']]],
   ['wavoutputpath_162',['wavOutputPath',['../structscxt_1_1perf_1_1RunConfig.html#a5d467abc214b869d8e554b30ed468d3f',1,'scxt::perf::RunConfig']]],
   ['wbitspersample_163',['wBitsPerSample',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a3ad425735abd59c6be57ada75518dfe8',1,'scxt::sample::loaders::wavheader']]],
-  ['welcomescreen_164',['welcomescreen',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e',1,'scxt::ui::app::SCXTEditor::welcomeScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'WelcomeScreen'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#ae7e8a456383574cb46746b85036f2be9',1,'scxt::ui::app::other_screens::WelcomeScreen::WelcomeScreen()']]],
+  ['welcomescreen_164',['welcomescreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#ae7e8a456383574cb46746b85036f2be9',1,'scxt::ui::app::other_screens::WelcomeScreen::WelcomeScreen()'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html',1,'WelcomeScreen'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#afeb52290ff4f4e9c1ccf154064f0fe4e',1,'scxt::ui::app::SCXTEditor::welcomeScreen']]],
   ['welcomescreen_2ecpp_165',['WelcomeScreen.cpp',['../WelcomeScreen_8cpp.html',1,'']]],
   ['welcomescreen_2eh_166',['WelcomeScreen.h',['../WelcomeScreen_8h.html',1,'']]],
   ['welcomescreenseen_167',['welcomeScreenSeen',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a86bd686bf43c1746ee8af4fb57ee17d4',1,'scxt::infrastructure']]],
