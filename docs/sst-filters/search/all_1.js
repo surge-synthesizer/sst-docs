@@ -9,7 +9,7 @@ var searchData=
   ['betaexpovermult_6',['betaExpOverMult',['../namespacesst_1_1filters_1_1TriPoleFilter_1_1ResWaveshaper.html#a8dcf4697670f226ba28fa5192313e225',1,'sst::filters::TriPoleFilter::ResWaveshaper']]],
   ['bias_7',['bias',['../namespacesst_1_1filters_1_1TriPoleFilter_1_1ResWaveshaper.html#ab9c9fca17cb4e35615d4330cdf156676',1,'sst::filters::TriPoleFilter::ResWaveshaper']]],
   ['binaryexpr_8',['binaryexpr',['../classCatch_1_1BinaryExpr.html#a3e74f05cf3b544bf169bad3865a419dc',1,'Catch::BinaryExpr::BinaryExpr()'],['../classCatch_1_1BinaryExpr.html',1,'BinaryExpr&lt; LhsT, RhsT &gt;']]],
-  ['biquadfilter_9',['biquadfilter',['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html',1,'BiquadFilter&lt; TuningAndDBProvider, BLOCK_SIZE, Adapter &gt;'],['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#a93d0957d3bcb0621d0b7e5fbe09f3903',1,'sst::filters::Biquad::BiquadFilter::BiquadFilter()']]],
+  ['biquadfilter_9',['biquadfilter',['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#a93d0957d3bcb0621d0b7e5fbe09f3903',1,'sst::filters::Biquad::BiquadFilter::BiquadFilter()'],['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html',1,'BiquadFilter&lt; TuningAndDBProvider, BLOCK_SIZE, Adapter &gt;']]],
   ['biquadfilter_2eh_10',['BiquadFilter.h',['../BiquadFilter_8h.html',1,'']]],
   ['blocksize_11',['blockSize',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#aa219775c20ca1c090756a777840c0c58',1,'sst::filtersplusplus::details::FilterPayload']]],
   ['boundfreq_12',['boundFreq',['../namespacesst_1_1filters.html#a152fda510435e45078455301b2bde6c5',1,'sst::filters']]],
@@ -19,5 +19,6 @@ var searchData=
   ['butterworthhp_16',['ButterworthHP',['../namespacesst_1_1filters.html#a275d2e7166e10a84bdc8ce07c6386cf7',1,'sst::filters']]],
   ['butterworthlp_17',['ButterworthLP',['../namespacesst_1_1filters.html#af4aa0563c24e31078bf8da94a92d09d1',1,'sst::filters']]],
   ['butterworthlphp_2eh_18',['ButterworthLPHP.h',['../ButterworthLPHP_8h.html',1,'']]],
-  ['butterworthtype_19',['ButterworthType',['../namespacesst_1_1filters.html#a2c8791c6f8d109e4ef32a417692bd7a2',1,'sst::filters']]]
+  ['butterworthres_19',['butterworthRes',['../structsst_1_1filters_1_1LinkwitzRileyLR4Crossover.html#af3855082bfd8fe264902b5a263374215',1,'sst::filters::LinkwitzRileyLR4Crossover']]],
+  ['butterworthtype_20',['ButterworthType',['../namespacesst_1_1filters.html#a2c8791c6f8d109e4ef32a417692bd7a2',1,'sst::filters']]]
 ];
