@@ -624,7 +624,7 @@ var searchData=
   ['silentsampleslength_621',['silentsampleslength',['../structscxt_1_1engine_1_1BusEffect.html#a386c330fe29fda17c44bfe8df779cbb5',1,'scxt::engine::BusEffect::silentSamplesLength()'],['../structscxt_1_1engine_1_1dtl_1_1Impl.html#a913c5aa80d0c02453860ebaccf567d4d',1,'scxt::engine::dtl::Impl::silentSamplesLength()']]],
   ['simpleenv_622',['simpleEnv',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1e685812c71147dbbadf4c9fd003171c',1,'scxt::modulation::modulators::CurveLFO']]],
   ['simplelfo_623',['simpleLfo',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#abc943921aef2ff679bc01a04bbd4c113',1,'scxt::modulation::modulators::CurveLFO']]],
-  ['simplesinetable_624',['simplesinetable',['../namespacescxt_1_1dsp.html#ac715335a4d4fc852c4722aa53345aaf2',1,'scxt::dsp::SimpleSineTable'],['../namespacescxt_1_1dsp.html#ae7aaf3359d2e51e65209c75f26cbde60',1,'scxt::dsp::simpleSineTable']]],
+  ['simplesinetable_624',['simplesinetable',['../namespacescxt_1_1dsp.html#ae7aaf3359d2e51e65209c75f26cbde60',1,'scxt::dsp::simpleSineTable'],['../namespacescxt_1_1dsp.html#ac715335a4d4fc852c4722aa53345aaf2',1,'scxt::dsp::SimpleSineTable']]],
   ['sinc_625',['Sinc',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798',1,'scxt::dsp']]],
   ['sinctable_626',['sinctable',['../namespacescxt_1_1dsp.html#ac37d62d8ef7d4f366424ed181ce014b1',1,'scxt::dsp::SincTable'],['../namespacescxt_1_1dsp.html#ae2fb008938e299eebe04d7e65922bfed',1,'scxt::dsp::sincTable']]],
   ['sinedisplays_627',['sineDisplays',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ac56bd9702c0539ca7bdbadc324b7c732',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
