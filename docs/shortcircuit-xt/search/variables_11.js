@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
+  ['r_0',['r',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r']]],
   ['raiseerror_1',['raiseError',['../structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4',1,'scxt::sample::SampleManager']]],
   ['ramlabel_2',['ramLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a50272caa5c41814266e845fefb33972c',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramlevel_3',['ramLevel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#ae001ea2bc1dc2dbcd28cefaaa46fd2cb',1,'scxt::ui::app::shared::HeaderRegion']]],

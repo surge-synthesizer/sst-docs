@@ -142,6 +142,7 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
 <tr class="memitem:ae2480caac475f0823c21fdb715d8491c" id="r_ae2480caac475f0823c21fdb715d8491c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491c">MainThreadActions</a> : uint64_t { <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc">RESCAN_PARAM_IVT</a> = 1 &lt;&lt; 0
+, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491caadeda8cdc98b4e29e3e067d0d3606dc3">STATE_MARK_DIRTY</a> = 1 &lt;&lt; 1
  }</td></tr>
 <tr class="separator:ae2480caac475f0823c21fdb715d8491c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -221,6 +222,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc" name="ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc"></a>RESCAN_PARAM_IVT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae2480caac475f0823c21fdb715d8491caadeda8cdc98b4e29e3e067d0d3606dc3" name="ae2480caac475f0823c21fdb715d8491caadeda8cdc98b4e29e3e067d0d3606dc3"></a>STATE_MARK_DIRTY&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -333,7 +335,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87428f1c4380347e7b524f4082de6600">SCXTPlugin::nextMainThreadAction</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc">SCXTPlugin::RESCAN_PARAM_IVT</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87428f1c4380347e7b524f4082de6600">SCXTPlugin::nextMainThreadAction</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491ca30cb7e28243616fe329c23a56e7a54fc">SCXTPlugin::RESCAN_PARAM_IVT</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae2480caac475f0823c21fdb715d8491caadeda8cdc98b4e29e3e067d0d3606dc3">SCXTPlugin::STATE_MARK_DIRTY</a>.</p>
 
 </div>
 </div>
@@ -573,7 +575,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a8de814111543faf6d9e13b80b5456423">Engine::drainSerialToEngineQueue()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2f6b27613feaf21455a80e6f0dd9d3ed">SampleRateSupport::getSampleRateInv()</a>, <a class="el" href="akai-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4761b6ba0eb9e99231fb118ada734d4e">Engine::onTransportUpdated()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">scxt::messaging::audio::s2a_param_beginendedit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">scxt::messaging::audio::s2a_param_refresh</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">scxt::messaging::audio::s2a_param_set_value</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6f225a729ef9e976b6234e840235e010">Engine::transport</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a8de814111543faf6d9e13b80b5456423">Engine::drainSerialToEngineQueue()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2f6b27613feaf21455a80e6f0dd9d3ed">SampleRateSupport::getSampleRateInv()</a>, <a class="el" href="akai-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4761b6ba0eb9e99231fb118ada734d4e">Engine::onTransportUpdated()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">scxt::messaging::audio::s2a_param_beginendedit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">scxt::messaging::audio::s2a_param_refresh</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">scxt::messaging::audio::s2a_param_set_value</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519adbcc82bc28026a614a6d52ea4d11c60f">scxt::messaging::audio::s2a_state_mark_dirty</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6f225a729ef9e976b6234e840235e010">Engine::transport</a>.</p>
 
 </div>
 </div>
@@ -1254,7 +1256,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 21 2026 12:12:39 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jul 21 2026 16:04:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
