@@ -19,13 +19,14 @@ var searchData=
   ['fasttanhsseclamped_16',['fasttanhSSEclamped',['../namespacesst_1_1basic__blocks_1_1dsp.html#a9dfb5fa4053b06de48f1aaeb5ce883eb',1,'sst::basic_blocks::dsp']]],
   ['fasttansse_17',['fasttanSSE',['../namespacesst_1_1basic__blocks_1_1dsp.html#a28991946705150b3973b2065271cb0b5',1,'sst::basic_blocks::dsp']]],
   ['featurestate_18',['FeatureState',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData_1_1FeatureState.html#a0e32b948bff830fce8f771b2c9a89c25',1,'sst::basic_blocks::params::ParamMetaData::FeatureState']]],
-  ['fillblock_19',['fillBlock',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html#abeebc3c44ea4e76dd9338206ff3e2af3',1,'sst::basic_blocks::dsp::DPWSawOscillator']]],
-  ['filltable_20',['fillTable',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a07579c2347ae823d57fa1369bb54299f',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
-  ['filter_21',['filter',['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#a7cc05a2d7dc1581885c818581f376b0c',1,'sst::basic_blocks::dsp::DCBlocker']]],
-  ['fordisplay_22',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
-  ['freeze_23',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['fromfloat_24',['fromfloat',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a1ce38028f3fbcc3a635ccc1db723adfe',1,'sst::basic_blocks::tables::temposync::ZeroOne::fromFloat()'],['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#a81ba7ba2ba1fd3ca77328d5bf0202960',1,'sst::basic_blocks::tables::temposync::TwoToThe::fromFloat()']]],
-  ['fromrawarray_25',['fromRawArray',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a37f93981fa090835e5ba1e119df521cf',1,'sst::basic_blocks::simd::F32x4']]],
-  ['fromstring_26',['fromString',['../namespacesst_1_1basic__blocks_1_1tables_1_1temposync.html#a09d5a7cb27958eee0e4d0172c63fb00a',1,'sst::basic_blocks::tables::temposync']]],
-  ['fxmodcontrol_27',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a76cab151698b6ec91bf7f07fd93c3227',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri, float *sineTable=nullptr)']]]
+  ['fill_19',['fill',['../structsst_1_1basic__blocks_1_1dsp_1_1SimpleLerp.html#a7e42c254bbfd85048dfa442bfcb18bbc',1,'sst::basic_blocks::dsp::SimpleLerp']]],
+  ['fillblock_20',['fillBlock',['../structsst_1_1basic__blocks_1_1dsp_1_1DPWSawOscillator.html#abeebc3c44ea4e76dd9338206ff3e2af3',1,'sst::basic_blocks::dsp::DPWSawOscillator']]],
+  ['filltable_21',['fillTable',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a07579c2347ae823d57fa1369bb54299f',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
+  ['filter_22',['filter',['../structsst_1_1basic__blocks_1_1dsp_1_1DCBlocker.html#a7cc05a2d7dc1581885c818581f376b0c',1,'sst::basic_blocks::dsp::DCBlocker']]],
+  ['fordisplay_23',['forDisplay',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#aa1c9be9e05e258ea63e85ebd79358727',1,'sst::basic_blocks::dsp::RNG']]],
+  ['freeze_24',['freeze',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#abd8698b462ce90fe56b15ce7a0192d3e',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['fromfloat_25',['fromfloat',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1ZeroOne.html#a1ce38028f3fbcc3a635ccc1db723adfe',1,'sst::basic_blocks::tables::temposync::ZeroOne::fromFloat()'],['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#a81ba7ba2ba1fd3ca77328d5bf0202960',1,'sst::basic_blocks::tables::temposync::TwoToThe::fromFloat()']]],
+  ['fromrawarray_26',['fromRawArray',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#a37f93981fa090835e5ba1e119df521cf',1,'sst::basic_blocks::simd::F32x4']]],
+  ['fromstring_27',['fromString',['../namespacesst_1_1basic__blocks_1_1tables_1_1temposync.html#a09d5a7cb27958eee0e4d0172c63fb00a',1,'sst::basic_blocks::tables::temposync']]],
+  ['fxmodcontrol_28',['fxmodcontrol',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a42aedac965b8e768535e1d50e3f08bc5',1,'sst::basic_blocks::modulators::FXModControl::FXModControl()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a76cab151698b6ec91bf7f07fd93c3227',1,'sst::basic_blocks::modulators::FXModControl::FXModControl(float sr, float sri, float *sineTable=nullptr)']]]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>sst-basic-blocks: TwoToThe Struct Reference</title>
+<title>sst-basic-blocks: SimpleLerp&lt; blockSize &gt; Struct Template Reference</title>
 <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -90,44 +90,62 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacesst.html">sst</a></li><li class="navelem"><a class="el" href="namespacesst_1_1basic__blocks.html">basic_blocks</a></li><li class="navelem"><a class="el" href="namespacesst_1_1basic__blocks_1_1tables.html">tables</a></li><li class="navelem"><a class="el" href="namespacesst_1_1basic__blocks_1_1tables_1_1temposync.html">temposync</a></li><li class="navelem"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html">TwoToThe</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacesst.html">sst</a></li><li class="navelem"><a class="el" href="namespacesst_1_1basic__blocks.html">basic_blocks</a></li><li class="navelem"><a class="el" href="namespacesst_1_1basic__blocks_1_1dsp.html">dsp</a></li><li class="navelem"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SimpleLerp.html">SimpleLerp</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">TwoToThe Struct Reference</div></div>
+<a href="structsst_1_1basic__blocks_1_1dsp_1_1SimpleLerp-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">SimpleLerp&lt; blockSize &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;TemposyncSupport.h&gt;</code></p>
+<p><code>#include &lt;BlockInterpolators.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af357328dfc707bb62cbd12f0777fef6d" id="r_af357328dfc707bb62cbd12f0777fef6d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#af357328dfc707bb62cbd12f0777fef6d">snap</a> (float f)</td></tr>
-<tr class="separator:af357328dfc707bb62cbd12f0777fef6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81ba7ba2ba1fd3ca77328d5bf0202960" id="r_a81ba7ba2ba1fd3ca77328d5bf0202960"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#a81ba7ba2ba1fd3ca77328d5bf0202960">fromFloat</a> (float g)</td></tr>
-<tr class="separator:a81ba7ba2ba1fd3ca77328d5bf0202960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37dc1df32a232c5cfd4b92f4ccf03f70" id="r_a37dc1df32a232c5cfd4b92f4ccf03f70"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#a37dc1df32a232c5cfd4b92f4ccf03f70">toFloat</a> (const <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html">Note</a> &amp;n)</td></tr>
-<tr class="separator:a37dc1df32a232c5cfd4b92f4ccf03f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e42c254bbfd85048dfa442bfcb18bbc" id="r_a7e42c254bbfd85048dfa442bfcb18bbc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SimpleLerp.html#a7e42c254bbfd85048dfa442bfcb18bbc">fill</a> (float start, float end, float *__restrict dst)</td></tr>
+<tr class="separator:a7e42c254bbfd85048dfa442bfcb18bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7d321f4f8c2c03597c2d10a1dcc8ad" id="r_afa7d321f4f8c2c03597c2d10a1dcc8ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SimpleLerp.html#afa7d321f4f8c2c03597c2d10a1dcc8ad">multiplyAccumulate</a> (float start, float end, const float *__restrict src, float *__restrict dst)</td></tr>
+<tr class="separator:afa7d321f4f8c2c03597c2d10a1dcc8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac385629d316ab28933575beb4395b27e" id="r_ac385629d316ab28933575beb4395b27e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1basic__blocks_1_1dsp_1_1SimpleLerp.html#ac385629d316ab28933575beb4395b27e">multiply</a> (float start, float end, const float *__restrict src, float *__restrict dst)</td></tr>
+<tr class="separator:ac385629d316ab28933575beb4395b27e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af357328dfc707bb62cbd12f0777fef6d" name="af357328dfc707bb62cbd12f0777fef6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af357328dfc707bb62cbd12f0777fef6d">&#9670;&#160;</a></span>snap()</h2>
+<a id="a7e42c254bbfd85048dfa442bfcb18bbc" name="a7e42c254bbfd85048dfa442bfcb18bbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e42c254bbfd85048dfa442bfcb18bbc">&#9670;&#160;</a></span>fill()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float snap </td>
+          <td class="memname">static void fill </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *__restrict&#160;</td>
+          <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -137,25 +155,47 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#a37dc1df32a232c5cfd4b92f4ccf03f70">TwoToThe::toFloat()</a>.</p>
-
 </div>
 </div>
-<a id="a81ba7ba2ba1fd3ca77328d5bf0202960" name="a81ba7ba2ba1fd3ca77328d5bf0202960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81ba7ba2ba1fd3ca77328d5bf0202960">&#9670;&#160;</a></span>fromFloat()</h2>
+<a id="afa7d321f4f8c2c03597c2d10a1dcc8ad" name="afa7d321f4f8c2c03597c2d10a1dcc8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7d321f4f8c2c03597c2d10a1dcc8ad">&#9670;&#160;</a></span>multiplyAccumulate()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html">Note</a> fromFloat </td>
+          <td class="memname">static void multiplyAccumulate </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *__restrict&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *__restrict&#160;</td>
+          <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -165,25 +205,47 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441a9c65fa6b41c311c4b84ffc04578d9e64">Note::Dotted</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441ada4cdade2120d083fe09b30940e51c12">Note::Straight</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441a910e723934d72c010f7295a923877100">Note::Triplet</a>.</p>
-
 </div>
 </div>
-<a id="a37dc1df32a232c5cfd4b92f4ccf03f70" name="a37dc1df32a232c5cfd4b92f4ccf03f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37dc1df32a232c5cfd4b92f4ccf03f70">&#9670;&#160;</a></span>toFloat()</h2>
+<a id="ac385629d316ab28933575beb4395b27e" name="ac385629d316ab28933575beb4395b27e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac385629d316ab28933575beb4395b27e">&#9670;&#160;</a></span>multiply()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;int blockSize&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float toFloat </td>
+          <td class="memname">static void multiply </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html">Note</a> &amp;&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *__restrict&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *__restrict&#160;</td>
+          <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -192,13 +254,11 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441a9c65fa6b41c311c4b84ffc04578d9e64">Note::Dotted</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#ab15e6c2526a1d35231ff95f2eb782d84">Note::exponent</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7954643c45203782fdbc8166b7b00ba1">Note::modifier</a>, <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1TwoToThe.html#af357328dfc707bb62cbd12f0777fef6d">TwoToThe::snap()</a>, and <a class="el" href="structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a7dafefb20be68b4282af80fa17876441a910e723934d72c010f7295a923877100">Note::Triplet</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="TemposyncSupport_8h.html">TemposyncSupport.h</a></li>
+<li><a class="el" href="BlockInterpolators_8h.html">BlockInterpolators.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
