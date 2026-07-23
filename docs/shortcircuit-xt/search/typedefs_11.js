@@ -9,7 +9,7 @@ var searchData=
   ['triggerattachment_5ft_6',['triggerAttachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a4bcb6bf5b61f7cd6915c1b983bd95e0e',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['tripoleimpl_7',['tripoleImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a0f5fbc0a891ebc6397f6746e215420b7',1,'scxt::dsp::processor::procimpl::detail']]],
   ['tripoleimpl_5fos_8',['tripoleImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a63aaa8f20cf282d6df6b497301a38579',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['tsposeattachment_5ft_9',['tsposeattachment_t',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#aca573e91601e543152ee10b4b44de4da',1,'scxt::ui::app::shared::PartSidebarCard']]],
+  ['tsposeattachment_5ft_9',['tsposeattachment_t',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a8a8b2248fdf823609197a385af4d17e7',1,'scxt::ui::app::shared::PartSidebarCard']]],
   ['tuningstatuspayload_5ft_10',['tuningStatusPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a42f7d32f64cdd9097b4766ccf1c82f84',1,'scxt::messaging::client']]],
   ['twentyfivesecondexptable_11',['TwentyFiveSecondExpTable',['../namespacescxt_1_1dsp.html#ac79f594caefd0a1d925c369a564c95fc',1,'scxt::dsp']]],
   ['twotothextable_12',['TwoToTheXTable',['../namespacescxt_1_1dsp.html#acf387eb28e70dc00320940ec1bb9ee4d',1,'scxt::dsp']]]

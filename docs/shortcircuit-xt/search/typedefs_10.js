@@ -3,7 +3,7 @@ var searchData=
   ['s2cerror_5ft_0',['s2cError_t',['../namespacescxt_1_1messaging_1_1client.html#abe4cbcd0d1a646a9cb49c4276f48aebc',1,'scxt::messaging::client']]],
   ['s2cimportcomplete_5ft_1',['s2cImportComplete_t',['../namespacescxt_1_1messaging_1_1client.html#a1a062f9c73a328accc5f25be9d938f28',1,'scxt::messaging::client']]],
   ['s2cunuseditems_5ft_2',['s2cUnusedItems_t',['../namespacescxt_1_1messaging_1_1client.html#a6f369c6165f29722a6c7cc93f13b3979',1,'scxt::messaging::client']]],
-  ['sample_5fattachment_5ft_3',['sample_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#addedbf10b4f946ecec77b3d41e684e25',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['sample_5fattachment_5ft_3',['sample_attachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#ad704439f8d9a8dd50dceff6c37010f1b',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['sampleaddressesandids_5ft_4',['sampleAddressesAndIds_t',['../structscxt_1_1sample_1_1SampleManager.html#a541a38eb16192d237e364bbbd3e2e73b',1,'scxt::sample::SampleManager']]],
   ['samplemap_5ft_5',['sampleMap_t',['../structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f',1,'scxt::sample::SampleManager']]],
   ['sampleselectedzoneviewresposne_5ft_6',['sampleSelectedZoneViewResposne_t',['../namespacescxt_1_1messaging_1_1client.html#ad3a2d16d67453184fe08ebcf1a54f1dc',1,'scxt::messaging::client']]],
