@@ -68,7 +68,7 @@ var searchData=
   ['showundoredo_65',['showUndoRedo',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4abe0a9f7c7c4d8afc927981ca720eadb4',1,'scxt::infrastructure']]],
   ['sinc_66',['Sinc',['../namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798',1,'scxt::dsp']]],
   ['singlenote_67',['SingleNote',['../structscxt_1_1perf_1_1SequenceSpec.html#ad9b61b7f2b7dbe4c6816a994778e318fad1f1834de9acb491385c2cfd5f6bb52c',1,'scxt::perf::SequenceSpec']]],
-  ['songpos_68',['SONGPOS',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7da6fb5738ee51aa639653126865aa5ac1f',1,'scxt::modulation::modulators::PhasorStorage']]],
+  ['songpos_68',['songpos',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7da6fb5738ee51aa639653126865aa5ac1f',1,'scxt::modulation::modulators::PhasorStorage::SONGPOS'],['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a6fb5738ee51aa639653126865aa5ac1f',1,'scxt::modulation::ModulatorStorage::SONGPOS']]],
   ['src_69',['src',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa968bfe603d5a4456d5662129093c7ddc',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['startl_70',['startL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faaefd6dc915310e623976caa6d8fa1bea',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['startp_71',['startP',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504faf3cdb072964735cb2d59f19a932b1472',1,'scxt::ui::app::edit_screen::VariantDisplay']]],

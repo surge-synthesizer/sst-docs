@@ -112,6 +112,8 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html">DoubleRate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1LFOTriggerState.html">LFOTriggerState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -139,11 +141,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689" id="r_a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplParams" colspan="2">template&lt;typename Endpoints &gt; </td></tr>
 <tr class="memitem:a51bf8c9799a19ae68e01ada2648ea689"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">updateRetriggers</a> (Endpoints *endpoints)</td></tr>
 <tr class="separator:a51bf8c9799a19ae68e01ada2648ea689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac096a5dc036a083d2bed55ec3f03b259" id="r_ac096a5dc036a083d2bed55ec3f03b259"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac096a5dc036a083d2bed55ec3f03b259">startStepLFO</a> (int i, const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;ms, const sst::basic_blocks::modulators::Transport &amp;transport, sst::basic_blocks::dsp::RNG &amp;rng)</td></tr>
+<tr class="separator:ac096a5dc036a083d2bed55ec3f03b259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c50ed5665677adfc42b67ebbcbd995c" id="r_a8c50ed5665677adfc42b67ebbcbd995c"><td class="memTemplParams" colspan="2">template&lt;typename LFOEndpoint &gt; </td></tr>
+<tr class="memitem:a8c50ed5665677adfc42b67ebbcbd995c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">startLFO</a> (int i, const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;ms, const sst::basic_blocks::modulators::Transport &amp;transport, sst::basic_blocks::dsp::RNG &amp;rng, const LFOEndpoint &amp;lp)</td></tr>
+<tr class="separator:a8c50ed5665677adfc42b67ebbcbd995c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f093a4219a44e7f024e999ba476644" id="r_a37f093a4219a44e7f024e999ba476644"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a37f093a4219a44e7f024e999ba476644">silenceLFO</a> (int i)</td></tr>
+<tr class="separator:a37f093a4219a44e7f024e999ba476644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad72c384b86f93d98770b5f947a9216c9" id="r_ad72c384b86f93d98770b5f947a9216c9"><td class="memTemplParams" colspan="2">template&lt;typename LFOEndpoint &gt; </td></tr>
+<tr class="memitem:ad72c384b86f93d98770b5f947a9216c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">processLFOBlock</a> (int i, const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;ms, bool gate, const sst::basic_blocks::modulators::Transport &amp;transport, sst::basic_blocks::dsp::RNG &amp;rng, const LFOEndpoint &amp;lp)</td></tr>
+<tr class="separator:ad72c384b86f93d98770b5f947a9216c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4d6521f1ac6ce80ea18ba885b94c435" id="r_af4d6521f1ac6ce80ea18ba885b94c435"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#af4d6521f1ac6ce80ea18ba885b94c435">getEnvSpecificGate</a> (bool keyGate, const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;adsr, ahdsrenv_t::Stage stage, bool samplePlaying=false)</td></tr>
 <tr class="separator:af4d6521f1ac6ce80ea18ba885b94c435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7f0e039353d801caebb62f8edb29a951" id="r_a7f0e039353d801caebb62f8edb29a951"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7f0e039353d801caebb62f8edb29a951">initialLFOPhase</a> (const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;ms, const sst::basic_blocks::modulators::Transport &amp;transport, float rate, sst::basic_blocks::dsp::RNG &amp;rng)</td></tr>
+<tr class="separator:a7f0e039353d801caebb62f8edb29a951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77366e1ca52933a7d6b95024b2e2ad89" id="r_a77366e1ca52933a7d6b95024b2e2ad89"><td class="memTemplParams" colspan="2">template&lt;typename Stage &gt; </td></tr>
+<tr class="memitem:a77366e1ca52933a7d6b95024b2e2ad89"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a77366e1ca52933a7d6b95024b2e2ad89">lfoEnvelopeGate</a> (<a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127">modulation::ModulatorStorage::TriggerMode</a> tm, bool keyGate, Stage stage, Stage sustainStage)</td></tr>
+<tr class="separator:a77366e1ca52933a7d6b95024b2e2ad89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87a423636cf5f383510aaed10222bae" id="r_ab87a423636cf5f383510aaed10222bae"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ab87a423636cf5f383510aaed10222bae">evaluateGate</a> (bool keyGate, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1c">modulation::modulators::AdsrStorage::GateMode</a> mode, ahdsrenv_t::Stage stage, bool samplePlaying=false)</td></tr>
 <tr class="separator:ab87a423636cf5f383510aaed10222bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -185,6 +202,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7b38fccf5b83e6829bb1a5e08c9308d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07f0b6fc0d65e3843f8b351497cc042f" id="r_a07f0b6fc0d65e3843f8b351497cc042f"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a07f0b6fc0d65e3843f8b351497cc042f">lastLFORetrigger</a> {}</td></tr>
 <tr class="separator:a07f0b6fc0d65e3843f8b351497cc042f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef352d71d4114d5c0f35a23b097dafe4" id="r_aef352d71d4114d5c0f35a23b097dafe4"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1LFOTriggerState.html">LFOTriggerState</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aef352d71d4114d5c0f35a23b097dafe4">lfoTrigger</a> {}</td></tr>
+<tr class="separator:aef352d71d4114d5c0f35a23b097dafe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -367,6 +386,298 @@ template&lt;typename Endpoints &gt; </div>
 
 </div>
 </div>
+<a id="a7f0e039353d801caebb62f8edb29a951" name="a7f0e039353d801caebb62f8edb29a951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f0e039353d801caebb62f8edb29a951">&#9670;&#160;</a></span>initialLFOPhase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float initialLFOPhase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>ms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const sst::basic_blocks::modulators::Transport &amp;&#160;</td>
+          <td class="paramname"><em>transport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sst::basic_blocks::dsp::RNG &amp;&#160;</td>
+          <td class="paramname"><em>rng</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127aa2b65445a3a16f164c5e811064d75726">ModulatorStorage::RANDOM</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#a1c5a04cc6887d7e65539b24c0b38f72a">CurveLFO::snappedRate()</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a6fb5738ee51aa639653126865aa5ac1f">ModulatorStorage::SONGPOS</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a531e94091a7078352fdf447e6758a9f7">ModulatorStorage::start_phase</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a9aea98045b6f6cf7ee6dcd4841322258">ModulatorStorage::temposync</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2">scxt::dsp::twoToTheXTable</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>.</p>
+
+</div>
+</div>
+<a id="ac096a5dc036a083d2bed55ec3f03b259" name="ac096a5dc036a083d2bed55ec3f03b259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac096a5dc036a083d2bed55ec3f03b259">&#9670;&#160;</a></span>startStepLFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void startStepLFO </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>ms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const sst::basic_blocks::modulators::Transport &amp;&#160;</td>
+          <td class="paramname"><em>transport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sst::basic_blocks::dsp::RNG &amp;&#160;</td>
+          <td class="paramname"><em>rng</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127aa2b65445a3a16f164c5e811064d75726">ModulatorStorage::RANDOM</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a6fb5738ee51aa639653126865aa5ac1f">ModulatorStorage::SONGPOS</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a531e94091a7078352fdf447e6758a9f7">ModulatorStorage::start_phase</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74">HasModulators&lt; T, egsPerObject &gt;::stepLfos</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>.</p>
+
+</div>
+</div>
+<a id="a8c50ed5665677adfc42b67ebbcbd995c" name="a8c50ed5665677adfc42b67ebbcbd995c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c50ed5665677adfc42b67ebbcbd995c">&#9670;&#160;</a></span>startLFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+<div class="memtemplate">
+template&lt;typename LFOEndpoint &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void startLFO </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>ms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const sst::basic_blocks::modulators::Transport &amp;&#160;</td>
+          <td class="paramname"><em>transport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sst::basic_blocks::dsp::RNG &amp;&#160;</td>
+          <td class="paramname"><em>rng</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const LFOEndpoint &amp;&#160;</td>
+          <td class="paramname"><em>lp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a2267c8aab80fd31714c264f251e343cf">HasModulators&lt; T, egsPerObject &gt;::CURVE</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce">HasModulators&lt; T, egsPerObject &gt;::curveLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a90a589408899045d76b41b0b3520afaf">HasModulators&lt; T, egsPerObject &gt;::ENV</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a722735f39fbe07aced5c0de1edb7e20e">HasModulators&lt; T, egsPerObject &gt;::envLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7f0e039353d801caebb62f8edb29a951">HasModulators&lt; T, egsPerObject &gt;::initialLFOPhase()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a83308dd900b9570be1b702d279fbb13c">HasModulators&lt; T, egsPerObject &gt;::lfoEvaluator</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aef352d71d4114d5c0f35a23b097dafe4">HasModulators&lt; T, egsPerObject &gt;::lfoTrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac096a5dc036a083d2bed55ec3f03b259">HasModulators&lt; T, egsPerObject &gt;::startStepLFO()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08ac0ba526afb7f54207517b48a892961c2">HasModulators&lt; T, egsPerObject &gt;::STEP</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>.</p>
+
+</div>
+</div>
+<a id="a37f093a4219a44e7f024e999ba476644" name="a37f093a4219a44e7f024e999ba476644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37f093a4219a44e7f024e999ba476644">&#9670;&#160;</a></span>silenceLFO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void silenceLFO </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a2267c8aab80fd31714c264f251e343cf">HasModulators&lt; T, egsPerObject &gt;::CURVE</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce">HasModulators&lt; T, egsPerObject &gt;::curveLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a90a589408899045d76b41b0b3520afaf">HasModulators&lt; T, egsPerObject &gt;::ENV</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a722735f39fbe07aced5c0de1edb7e20e">HasModulators&lt; T, egsPerObject &gt;::envLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a83308dd900b9570be1b702d279fbb13c">HasModulators&lt; T, egsPerObject &gt;::lfoEvaluator</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08ac0ba526afb7f54207517b48a892961c2">HasModulators&lt; T, egsPerObject &gt;::STEP</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74">HasModulators&lt; T, egsPerObject &gt;::stepLfos</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>.</p>
+
+</div>
+</div>
+<a id="a77366e1ca52933a7d6b95024b2e2ad89" name="a77366e1ca52933a7d6b95024b2e2ad89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77366e1ca52933a7d6b95024b2e2ad89">&#9670;&#160;</a></span>lfoEnvelopeGate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+<div class="memtemplate">
+template&lt;typename Stage &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool lfoEnvelopeGate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127">modulation::ModulatorStorage::TriggerMode</a>&#160;</td>
+          <td class="paramname"><em>tm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>keyGate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Stage&#160;</td>
+          <td class="paramname"><em>stage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Stage&#160;</td>
+          <td class="paramname"><em>sustainStage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a2724fa87f252403cd2c93f7437f34fd5">ModulatorStorage::ONESHOT</a>, and <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127ad590443978dc58d64aed5001f56efcdf">ModulatorStorage::RELEASE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>.</p>
+
+</div>
+</div>
+<a id="ad72c384b86f93d98770b5f947a9216c9" name="ad72c384b86f93d98770b5f947a9216c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad72c384b86f93d98770b5f947a9216c9">&#9670;&#160;</a></span>processLFOBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+<div class="memtemplate">
+template&lt;typename LFOEndpoint &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void processLFOBlock </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>ms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>gate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const sst::basic_blocks::modulators::Transport &amp;&#160;</td>
+          <td class="paramname"><em>transport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sst::basic_blocks::dsp::RNG &amp;&#160;</td>
+          <td class="paramname"><em>rng</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const LFOEndpoint &amp;&#160;</td>
+          <td class="paramname"><em>lp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a2267c8aab80fd31714c264f251e343cf">HasModulators&lt; T, egsPerObject &gt;::CURVE</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a3bd51cd6861bd9c80b4eee3605b1d6ce">HasModulators&lt; T, egsPerObject &gt;::curveLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a49988d936bb27b84531e86f3eb17b702">ModulatorStorage::curveLfoStorage</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b38fccf5b83e6829bb1a5e08c9308d0">HasModulators&lt; T, egsPerObject &gt;::doLFORetrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08a90a589408899045d76b41b0b3520afaf">HasModulators&lt; T, egsPerObject &gt;::ENV</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a722735f39fbe07aced5c0de1edb7e20e">HasModulators&lt; T, egsPerObject &gt;::envLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a9bc921d7852ed970bc6deddc265b91ca">ModulatorStorage::envLfoStorage</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a77366e1ca52933a7d6b95024b2e2ad89">HasModulators&lt; T, egsPerObject &gt;::lfoEnvelopeGate()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a83308dd900b9570be1b702d279fbb13c">HasModulators&lt; T, egsPerObject &gt;::lfoEvaluator</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#aef352d71d4114d5c0f35a23b097dafe4">HasModulators&lt; T, egsPerObject &gt;::lfoTrigger</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvLFOStorage.html#a5ed2b25d9f2f070cb0ee764aa0985308">EnvLFOStorage::loop</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a2724fa87f252403cd2c93f7437f34fd5">ModulatorStorage::ONESHOT</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a37f093a4219a44e7f024e999ba476644">HasModulators&lt; T, egsPerObject &gt;::silenceLFO()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a9b03541840ed282f2687903729ec6c08ac0ba526afb7f54207517b48a892961c2">HasModulators&lt; T, egsPerObject &gt;::STEP</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7b198f6dd0aa33ce1cbb648fb69fba74">HasModulators&lt; T, egsPerObject &gt;::stepLfos</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html#a9aea98045b6f6cf7ee6dcd4841322258">ModulatorStorage::temposync</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html#afc333731e3a023af8a09d5d6a6c0af49">CurveLFOStorage::unipolar</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html#ad53ef27cf1932a9bb0556acbe9bf6598">CurveLFOStorage::useenv</a>.</p>
+
+</div>
+</div>
 <a id="ab87a423636cf5f383510aaed10222bae" name="ab87a423636cf5f383510aaed10222bae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab87a423636cf5f383510aaed10222bae">&#9670;&#160;</a></span>evaluateGate()</h2>
 
@@ -524,6 +835,8 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a37f093a4219a44e7f024e999ba476644">HasModulators&lt; T, egsPerObject &gt;::silenceLFO()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>.</p>
+
 </div>
 </div>
 <a id="a7b198f6dd0aa33ce1cbb648fb69fba74" name="a7b198f6dd0aa33ce1cbb648fb69fba74"></a>
@@ -539,6 +852,8 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a37f093a4219a44e7f024e999ba476644">HasModulators&lt; T, egsPerObject &gt;::silenceLFO()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac096a5dc036a083d2bed55ec3f03b259">HasModulators&lt; T, egsPerObject &gt;::startStepLFO()</a>.</p>
 
 </div>
 </div>
@@ -556,6 +871,8 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a37f093a4219a44e7f024e999ba476644">HasModulators&lt; T, egsPerObject &gt;::silenceLFO()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>.</p>
+
 </div>
 </div>
 <a id="a722735f39fbe07aced5c0de1edb7e20e" name="a722735f39fbe07aced5c0de1edb7e20e"></a>
@@ -571,6 +888,8 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a37f093a4219a44e7f024e999ba476644">HasModulators&lt; T, egsPerObject &gt;::silenceLFO()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>.</p>
 
 </div>
 </div>
@@ -778,7 +1097,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a51bf8c9799a19ae68e01ada2648ea689">HasModulators&lt; T, egsPerObject &gt;::updateRetriggers()</a>.</p>
 
 </div>
 </div>
@@ -800,13 +1119,31 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 
 </div>
 </div>
+<a id="aef352d71d4114d5c0f35a23b097dafe4" name="aef352d71d4114d5c0f35a23b097dafe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef352d71d4114d5c0f35a23b097dafe4">&#9670;&#160;</a></span>lfoTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t egsPerObject&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1LFOTriggerState.html">LFOTriggerState</a>, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a>&gt; lfoTrigger {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">HasModulators&lt; T, egsPerObject &gt;::processLFOBlock()</a>, and <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a8c50ed5665677adfc42b67ebbcbd995c">HasModulators&lt; T, egsPerObject &gt;::startLFO()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="has__modulators_8h.html">has_modulators.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 24 2026 00:57:30 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Jul 24 2026 12:57:21 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

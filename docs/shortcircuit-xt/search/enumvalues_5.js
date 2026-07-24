@@ -36,7 +36,6 @@ var searchData=
   ['forward_5fonly_33',['FORWARD_ONLY',['../structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898',1,'scxt::engine::Zone']]],
   ['forward_5frr_34',['FORWARD_RR',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a25b562d272135e58643d31d78aaf8792',1,'scxt::engine::Zone']]],
   ['four_5ffour_5fmix_35',['FOUR_FOUR_MIX',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html#a7648fc5b59ca02797e5d3d876e21b989a93dd0ced643f6bb636bbb7c74614baaf',1,'scxt::messaging::audio::SerializationToAudio']]],
-  ['freerun_36',['FREERUN',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a1525d2ff5432f1379e07ed432f7110a7',1,'scxt::modulation::ModulatorStorage']]],
-  ['from_5fend_37',['FROM_END',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150afa6d2b748d0a871eac569731b2f01181',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['from_5fstart_38',['FROM_START',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150a544c7456916ea221e663f9125c3a7aab',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
+  ['from_5fend_36',['FROM_END',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150afa6d2b748d0a871eac569731b2f01181',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['from_5fstart_37',['FROM_START',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150a544c7456916ea221e663f9125c3a7aab',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
 ];

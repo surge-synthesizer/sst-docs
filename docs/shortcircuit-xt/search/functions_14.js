@@ -41,12 +41,13 @@ var searchData=
   ['updatetooltip_38',['updateTooltip',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a38421278c8d976be15fd192a7c53baad',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['updatetooltipcontents_39',['updateTooltipContents',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a278d9b27ae24a65205f4079608988d93',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
   ['updatetransportphasors_40',['updateTransportPhasors',['../structscxt_1_1voice_1_1Voice.html#a9f4a7a47674c8fe7c817d983bfee318e',1,'scxt::voice::Voice']]],
-  ['updatevaluetooltip_41',['updateValueTooltip',['../structscxt_1_1ui_1_1app_1_1HasEditor.html#a4944d08fa01b119c220cb92ed6802d7e',1,'scxt::ui::app::HasEditor']]],
-  ['updatezoneindexedmembervalue_42',['updateZoneIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#afba053b85e2fd13488cc81a21b002b37',1,'scxt::messaging::client::detail']]],
-  ['updatezoneleadmembervalue_43',['updateZoneLeadMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ac54e164f853b353ce178ca3ad1013b3e',1,'scxt::messaging::client::detail']]],
-  ['updatezonemembervalue_44',['updateZoneMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a939a6e39111a39c9d66331ca3b794189',1,'scxt::messaging::client::detail']]],
-  ['updatezoneorgroupindexedmembervalue_45',['updateZoneOrGroupIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ae11502781e6d2ad26324ae25aa5a7b37',1,'scxt::messaging::client::detail']]],
-  ['updatezoneorgroupmembervalue_46',['updateZoneOrGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ac587c0d3c23744bb11e0b5a33355dc4a',1,'scxt::messaging::client::detail']]],
-  ['uponelevel_47',['upOneLevel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#aa796bc0c1e998a616ef9ad0fc6718cc0',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
-  ['usesoutputbus_48',['usesOutputBus',['../structscxt_1_1engine_1_1Patch.html#a3593acfa183792579850360902d994c5',1,'scxt::engine::Patch']]]
+  ['updatetriggerdependentui_41',['updateTriggerDependentUI',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#ad88ed7fea566984612249be5c527a8c6',1,'scxt::ui::app::edit_screen::LfoPane']]],
+  ['updatevaluetooltip_42',['updateValueTooltip',['../structscxt_1_1ui_1_1app_1_1HasEditor.html#a4944d08fa01b119c220cb92ed6802d7e',1,'scxt::ui::app::HasEditor']]],
+  ['updatezoneindexedmembervalue_43',['updateZoneIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#afba053b85e2fd13488cc81a21b002b37',1,'scxt::messaging::client::detail']]],
+  ['updatezoneleadmembervalue_44',['updateZoneLeadMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ac54e164f853b353ce178ca3ad1013b3e',1,'scxt::messaging::client::detail']]],
+  ['updatezonemembervalue_45',['updateZoneMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a939a6e39111a39c9d66331ca3b794189',1,'scxt::messaging::client::detail']]],
+  ['updatezoneorgroupindexedmembervalue_46',['updateZoneOrGroupIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ae11502781e6d2ad26324ae25aa5a7b37',1,'scxt::messaging::client::detail']]],
+  ['updatezoneorgroupmembervalue_47',['updateZoneOrGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#ac587c0d3c23744bb11e0b5a33355dc4a',1,'scxt::messaging::client::detail']]],
+  ['uponelevel_48',['upOneLevel',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#aa796bc0c1e998a616ef9ad0fc6718cc0',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
+  ['usesoutputbus_49',['usesOutputBus',['../structscxt_1_1engine_1_1Patch.html#a3593acfa183792579850360902d994c5',1,'scxt::engine::Patch']]]
 ];
