@@ -20,10 +20,11 @@ var searchData=
   ['hassupportsmultiplicativemodulation_17',['hasSupportsMultiplicativeModulation',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a395fc9cc94050942c72130ba69a5e1be',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['head_18',['head',['../structsst_1_1basic__blocks_1_1dsp_1_1RunningAverage.html#a75844ce74940ef333d11ae090e07c9af',1,'sst::basic_blocks::dsp::RunningAverage']]],
   ['header_20provides_20a_20set_20of_20macros_20and_20defines_19',['sst/basic-blocks/simd/setup.h header provides a set of macros and defines',['../the.html',1,'']]],
-  ['hilbertcoefs_20',['hilbertcoefs',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat.html#ae4c15114e4c0dcd5b7598bacb29e5b5f',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::hilbertCoefs'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html#ae4c15114e4c0dcd5b7598bacb29e5b5f',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::hilbertCoefs']]],
+  ['hilbertcoefs_20',['hilbertcoefs',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html#ae4c15114e4c0dcd5b7598bacb29e5b5f',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::hilbertCoefs'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat.html#ae4c15114e4c0dcd5b7598bacb29e5b5f',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::hilbertCoefs']]],
   ['hilberttransform_2eh_21',['HilbertTransform.h',['../HilbertTransform_8h.html',1,'']]],
   ['hilberttransformmonofloat_22',['HilbertTransformMonoFloat',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat.html',1,'sst::basic_blocks::dsp']]],
   ['hilberttransformstereosse_23',['HilbertTransformStereoSSE',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE.html',1,'sst::basic_blocks::dsp']]],
   ['hosttimeinbeats_24',['hostTimeInBeats',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#ab722526ec1901f0668054c1851a6f3bb',1,'sst::basic_blocks::modulators::Transport']]],
-  ['hsum_5fps_25',['hsum_ps',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a92e56ac18df0c934b3c008dac304b61b',1,'sst::basic_blocks::mechanics']]]
+  ['hosttimeinseconds_25',['hostTimeInSeconds',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a1740935a41693c0cf90d02ac7c92259a',1,'sst::basic_blocks::modulators::Transport']]],
+  ['hsum_5fps_26',['hsum_ps',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a92e56ac18df0c934b3c008dac304b61b',1,'sst::basic_blocks::mechanics']]]
 ];
