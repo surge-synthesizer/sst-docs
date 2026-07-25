@@ -146,7 +146,7 @@ var searchData=
   ['env2releaseoffset_143',['env2ReleaseOffset',['../structscxt_1_1exs__support_1_1EXSGroup.html#a7c41f8738699fc1f1a11135bd48bd4d0',1,'scxt::exs_support::EXSGroup']]],
   ['env2sustainoffset_144',['env2SustainOffset',['../structscxt_1_1exs__support_1_1EXSGroup.html#a6d35c4aa0594c3b2b199445c43c6359c',1,'scxt::exs_support::EXSGroup']]],
   ['env_5ffollower_2eh_145',['env_follower.h',['../env__follower_8h.html',1,'']]],
-  ['env_5ft_146',['env_t',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a7474034921d690ef15cbfb6c33d528dd',1,'scxt::modulation::modulators::EnvLFO']]],
+  ['env_5ft_146',['env_t',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFO.html#a78aef9f653c8b66318b9f13fffcd21d0',1,'scxt::modulation::modulators::EnvLFO']]],
   ['enva_147',['envA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html#a6e6c1446e994178880f7b1d228d17f33',1,'scxt::ui::app::edit_screen::CurveLFOPane']]],
   ['envdata_148',['envData',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#a017a80cd79cb3dcf54f9ead680a5359b',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],
   ['envdraw_149',['envDraw',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ENVLFOPane.html#aad7942274af2ddb0067e2c17b2a98017',1,'scxt::ui::app::edit_screen::ENVLFOPane']]],

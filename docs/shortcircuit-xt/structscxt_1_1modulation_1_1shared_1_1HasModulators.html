@@ -127,10 +127,10 @@ Public Types</h2></td></tr>
 <tr class="separator:a7a537dbefb4d0aac6d920b05ce59195d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf50f48ac666452fe288a2e80e50021" id="r_a1bf50f48ac666452fe288a2e80e50021"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a1bf50f48ac666452fe288a2e80e50021">envF_t</a> = <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvFollower.html">scxt::modulation::modulators::EnvFollower</a></td></tr>
 <tr class="separator:a1bf50f48ac666452fe288a2e80e50021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb9c0362bbf3ffb805ed163533f7b100" id="r_acb9c0362bbf3ffb805ed163533f7b100"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; T, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a></td></tr>
-<tr class="separator:acb9c0362bbf3ffb805ed163533f7b100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a261641475a9d30882de46423a7edc253" id="r_a261641475a9d30882de46423a7edc253"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html">DoubleRate</a>,(blockSize&lt;&lt; 1), sst::basic_blocks::modulators::TwentyFiveSecondExp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a></td></tr>
-<tr class="separator:a261641475a9d30882de46423a7edc253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a657d8ea7d0bc6cabc5dff3ca2edc5ada" id="r_a657d8ea7d0bc6cabc5dff3ca2edc5ada"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; T, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp, true &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a657d8ea7d0bc6cabc5dff3ca2edc5ada">ahdsrenv_t</a></td></tr>
+<tr class="separator:a657d8ea7d0bc6cabc5dff3ca2edc5ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3159e257ff380184f2209aba2c70d0a" id="r_ac3159e257ff380184f2209aba2c70d0a"><td class="memItemLeft" align="right" valign="top">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html">DoubleRate</a>,(blockSize&lt;&lt; 1), sst::basic_blocks::modulators::TwentyFiveSecondExp, true &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac3159e257ff380184f2209aba2c70d0a">ahdsrenvOS_t</a></td></tr>
+<tr class="separator:ac3159e257ff380184f2209aba2c70d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -182,9 +182,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6461ceba0b93cd3ef673ab07e380b6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b1d8ab4f1272a3cd8861513dad1aa2" id="r_ac4b1d8ab4f1272a3cd8861513dad1aa2"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1EnvFollower.html">scxt::modulation::modulators::EnvFollower</a>, envFollowersPerGroupOrZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac4b1d8ab4f1272a3cd8861513dad1aa2">envelopeFollowers</a> {}</td></tr>
 <tr class="separator:ac4b1d8ab4f1272a3cd8861513dad1aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfc435aa4b4ab6b9720c8f5414721ff" id="r_abcfc435aa4b4ab6b9720c8f5414721ff"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a>, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#abcfc435aa4b4ab6b9720c8f5414721ff">eg</a></td></tr>
+<tr class="memitem:abcfc435aa4b4ab6b9720c8f5414721ff" id="r_abcfc435aa4b4ab6b9720c8f5414721ff"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a657d8ea7d0bc6cabc5dff3ca2edc5ada">ahdsrenv_t</a>, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#abcfc435aa4b4ab6b9720c8f5414721ff">eg</a></td></tr>
 <tr class="separator:abcfc435aa4b4ab6b9720c8f5414721ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ebb2db9ed07bf4eb171d3f7e5f90967" id="r_a0ebb2db9ed07bf4eb171d3f7e5f90967"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a>, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a0ebb2db9ed07bf4eb171d3f7e5f90967">egOS</a></td></tr>
+<tr class="memitem:a0ebb2db9ed07bf4eb171d3f7e5f90967" id="r_a0ebb2db9ed07bf4eb171d3f7e5f90967"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac3159e257ff380184f2209aba2c70d0a">ahdsrenvOS_t</a>, egsPerObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a0ebb2db9ed07bf4eb171d3f7e5f90967">egOS</a></td></tr>
 <tr class="separator:a0ebb2db9ed07bf4eb171d3f7e5f90967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d211a12926b4f264b4a9ea12f2a50f6" id="r_a7d211a12926b4f264b4a9ea12f2a50f6"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a2adfc9a3a87179beb53f407dc4953363">lfosPerObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7d211a12926b4f264b4a9ea12f2a50f6">lfosActive</a> {}</td></tr>
 <tr class="separator:a7d211a12926b4f264b4a9ea12f2a50f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,8 +243,8 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 
 </div>
 </div>
-<a id="acb9c0362bbf3ffb805ed163533f7b100" name="acb9c0362bbf3ffb805ed163533f7b100"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb9c0362bbf3ffb805ed163533f7b100">&#9670;&#160;</a></span>ahdsrenv_t</h2>
+<a id="a657d8ea7d0bc6cabc5dff3ca2edc5ada" name="a657d8ea7d0bc6cabc5dff3ca2edc5ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a657d8ea7d0bc6cabc5dff3ca2edc5ada">&#9670;&#160;</a></span>ahdsrenv_t</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,15 +252,15 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 template&lt;typename T , size_t egsPerObject&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; T, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp&gt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a></td>
+          <td class="memname">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; T, blockSize, sst::basic_blocks::modulators::TwentyFiveSecondExp, true&gt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a657d8ea7d0bc6cabc5dff3ca2edc5ada">ahdsrenv_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a261641475a9d30882de46423a7edc253" name="a261641475a9d30882de46423a7edc253"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a261641475a9d30882de46423a7edc253">&#9670;&#160;</a></span>ahdsrenvOS_t</h2>
+<a id="ac3159e257ff380184f2209aba2c70d0a" name="ac3159e257ff380184f2209aba2c70d0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3159e257ff380184f2209aba2c70d0a">&#9670;&#160;</a></span>ahdsrenvOS_t</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +268,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 template&lt;typename T , size_t egsPerObject&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html">DoubleRate</a>, (blockSize &lt;&lt; 1), sst::basic_blocks::modulators::TwentyFiveSecondExp&gt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a></td>
+          <td class="memname">typedef sst::basic_blocks::modulators::AHDSRShapedSC&lt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators_1_1DoubleRate.html">DoubleRate</a>, (blockSize &lt;&lt; 1), sst::basic_blocks::modulators::TwentyFiveSecondExp, true&gt; <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac3159e257ff380184f2209aba2c70d0a">ahdsrenvOS_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -956,7 +956,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 template&lt;typename T , size_t egsPerObject&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#acb9c0362bbf3ffb805ed163533f7b100">ahdsrenv_t</a>, egsPerObject&gt; eg</td>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a657d8ea7d0bc6cabc5dff3ca2edc5ada">ahdsrenv_t</a>, egsPerObject&gt; eg</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -974,7 +974,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 template&lt;typename T , size_t egsPerObject&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a261641475a9d30882de46423a7edc253">ahdsrenvOS_t</a>, egsPerObject&gt; egOS</td>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ac3159e257ff380184f2209aba2c70d0a">ahdsrenvOS_t</a>, egsPerObject&gt; egOS</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1143,7 +1143,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 24 2026 12:57:21 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Jul 25 2026 01:06:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
