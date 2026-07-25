@@ -110,5 +110,6 @@ var searchData=
   ['cutoff_107',['cutoff',['../structscxt_1_1akai__support_1_1FILTER.html#a689d9681834b45d546f92f38f02a97ca',1,'scxt::akai_support::FILTER::cutoff'],['../structscxt_1_1import__support_1_1FilterArgs.html#a767c63a3e97d88466076a04451a2ea8c',1,'scxt::import_support::FilterArgs::cutoff']]],
   ['cutoffoffset_108',['cutoffOffset',['../structscxt_1_1exs__support_1_1EXSGroup.html#a094a26d6ded5fbf06b4f8e156f2586d0',1,'scxt::exs_support::EXSGroup']]],
   ['cyclea_109',['cycleA',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a65e7ef6065050d88983a7163011cd76d',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
-  ['cycleb_110',['cycleB',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a1caefc1205f18f0f31efc918666f48b6',1,'scxt::ui::app::edit_screen::StepLFOPane']]]
+  ['cycleb_110',['cycleB',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane.html#a1caefc1205f18f0f31efc918666f48b6',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
+  ['cycleselapsed_111',['cyclesElapsed',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html#ab5b121321d204670b9ae61b6e38ab881',1,'scxt::modulation::modulators::CurveLFO']]]
 ];
