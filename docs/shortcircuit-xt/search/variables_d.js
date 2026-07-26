@@ -21,7 +21,7 @@ var searchData=
   ['noteexpressioncount_18',['noteExpressionCount',['../structscxt_1_1voice_1_1Voice.html#a264ed18d60b8f471e38aa84f76982c25',1,'scxt::voice::Voice']]],
   ['noteexpressionlags_19',['noteExpressionLags',['../structscxt_1_1voice_1_1Voice.html#ac6f321d0ef4d3b66283794f98011f994',1,'scxt::voice::Voice']]],
   ['noteexpressions_20',['noteexpressions',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a83d62c5ae81a201116053dbf349202e3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::noteExpressions'],['../structscxt_1_1voice_1_1Voice.html#aae8090d39e88ed32c7b5aba100f94515',1,'scxt::voice::Voice::noteExpressions']]],
-  ['noteid_21',['noteid',['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId'],['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid']]],
+  ['noteid_21',['noteid',['../structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html#aa1da9da64abc3c3cb437a3b3a85ed400',1,'scxt::engine::Engine::pathToZone_t::noteid'],['../structscxt_1_1voice_1_1Voice.html#a7a518d5ec56eda1f15cedee978e67a4d',1,'scxt::voice::Voice::noteId']]],
   ['notelens_22',['noteLenS',['../structscxt_1_1perf_1_1SequenceParams.html#a4c01f000436052edcbd0518fd2b95410',1,'scxt::perf::SequenceParams']]],
   ['noteon_23',['noteOn',['../structscxt_1_1perf_1_1CustomEvent.html#a12fa7e12d4146c6093d82e954848f1e9',1,'scxt::perf::CustomEvent']]],
   ['notepriority_24',['notePriority',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a06d3c22015e445d3421bcb2cf54594a6',1,'scxt::engine::Group::GroupOutputInfo']]],
