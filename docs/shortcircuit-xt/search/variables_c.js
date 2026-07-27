@@ -146,7 +146,7 @@ var searchData=
   ['muteatt_143',['muteatt',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#a8660f33927c544a2840b764879dab927',1,'scxt::ui::app::mixer_screen::ChannelStrip::muteAtt'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a8660f33927c544a2840b764879dab927',1,'scxt::ui::app::shared::PartSidebarCard::muteAtt']]],
   ['mutebutton_144',['muteButton',['../structscxt_1_1ui_1_1app_1_1mixer__screen_1_1ChannelStrip.html#aa3771473253c8f77cdc2690315a1f048',1,'scxt::ui::app::mixer_screen::ChannelStrip']]],
   ['muted_145',['muted',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Group::GroupOutputInfo::muted'],['../structscxt_1_1engine_1_1Zone_1_1ZoneOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7',1,'scxt::engine::Zone::ZoneOutputInfo::muted']]],
-  ['mutedbylatch_146',['mutedByLatch',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a130da05d57b3bee428cd992bac2797f7',1,'scxt::engine::Group::GroupOutputInfo']]],
+  ['mutedbylatch_146',['mutedByLatch',['../structscxt_1_1engine_1_1Group.html#a130da05d57b3bee428cd992bac2797f7',1,'scxt::engine::Group']]],
   ['mutedduetosoloaway_147',['mutedDueToSoloAway',['../structscxt_1_1engine_1_1Bus.html#acce26c0d49dd7ed29d3bbc965e456267',1,'scxt::engine::Bus']]],
   ['muteduetosolo_148',['muteDueToSolo',['../structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a6b79fd1b84a1be7ec1115b85d123540e',1,'scxt::engine::Part::PartConfiguration']]],
   ['muteprovider_149',['muteProvider',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#ad2c72bbc32d5600449708f9b16e33e83',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],

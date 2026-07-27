@@ -241,8 +241,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a11beb9fd52d4b4aec6743a7bfbf17366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16551e1b6c8c878cee39bca5885bff56" id="r_a16551e1b6c8c878cee39bca5885bff56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a16551e1b6c8c878cee39bca5885bff56">processNoteOffEvent</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id, double velocity)</td></tr>
 <tr class="separator:a16551e1b6c8c878cee39bca5885bff56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ae6483c98b25f92f9d6f90cd229ede" id="r_a90ae6483c98b25f92f9d6f90cd229ede"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a90ae6483c98b25f92f9d6f90cd229ede">findZone</a> (int16_t channel, int16_t key, int32_t noteId, int16_t velocity, std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a>, maxVoices &gt; &amp;res)</td></tr>
-<tr class="separator:a90ae6483c98b25f92f9d6f90cd229ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac12ce4d47f65009d40460b7a2a424260" id="r_ac12ce4d47f65009d40460b7a2a424260"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">findZone</a> (int16_t channel, int16_t key, int16_t midiKey, int32_t noteId, int16_t velocity, std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a>, maxVoices &gt; &amp;res)</td></tr>
+<tr class="separator:ac12ce4d47f65009d40460b7a2a424260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbd0c36c9e9fefb1b9bd668f87cf3ec8" id="r_abbd0c36c9e9fefb1b9bd668f87cf3ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#abbd0c36c9e9fefb1b9bd668f87cf3ec8">onPartConfigurationUpdated</a> ()</td></tr>
 <tr class="separator:abbd0c36c9e9fefb1b9bd668f87cf3ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f75bb83e07c2dd05f2e7ccbe0afd9a6" id="r_a9f75bb83e07c2dd05f2e7ccbe0afd9a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9f75bb83e07c2dd05f2e7ccbe0afd9a6">DECLARE_ENUM_STRING</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278">TuningMode</a>)</td></tr>
@@ -1098,8 +1098,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a90ae6483c98b25f92f9d6f90cd229ede" name="a90ae6483c98b25f92f9d6f90cd229ede"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ae6483c98b25f92f9d6f90cd229ede">&#9670;&#160;</a></span>findZone()</h2>
+<a id="ac12ce4d47f65009d40460b7a2a424260" name="ac12ce4d47f65009d40460b7a2a424260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac12ce4d47f65009d40460b7a2a424260">&#9670;&#160;</a></span>findZone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1115,6 +1115,12 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>midiKey</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2053,7 +2059,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">scxt::engine::collectMissingResolutionWorkItems()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html#a65d7fb68dff998b5bb6090cd40f35479">SelectionManager::SelectActionContents::distinct</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640">scxt::messaging::client::s2c_send_missing_resolution_workitem_list</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba3f651f2e902fc647712a659ddabf607e">scxt::messaging::client::s2c_send_part_configuration</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba20a82662a629bef6892a44d9001f08b5">scxt::messaging::client::s2c_send_tuning_status</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba1a0a40cc97ae2ba2b776e2e13555b441">scxt::messaging::client::s2c_set_colormap</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa9524932d470c7cff8c9ef1c7996199a">scxt::messaging::client::s2c_update_macro_full_state</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99badb0ef3996e839639efa61387732557d8">scxt::messaging::client::s2c_update_mpe_tuning_awareness</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119">scxt::messaging::client::s2c_update_omni_flavor</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7eebfbe47f1df19c88945a51956d613c">scxt::messaging::client::s2c_update_pitchbend_tuning_awareness</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">scxt::engine::collectMissingResolutionWorkItems()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html#a65d7fb68dff998b5bb6090cd40f35479">SelectionManager::SelectActionContents::distinct</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba45761ad25dd2f9fe23bd903da1872640">scxt::messaging::client::s2c_send_missing_resolution_workitem_list</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba3f651f2e902fc647712a659ddabf607e">scxt::messaging::client::s2c_send_part_configuration</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba51429d92bac1c54be958e2f3104ca833">scxt::messaging::client::s2c_send_part_keyswitch_display</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba20a82662a629bef6892a44d9001f08b5">scxt::messaging::client::s2c_send_tuning_status</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba1a0a40cc97ae2ba2b776e2e13555b441">scxt::messaging::client::s2c_set_colormap</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa9524932d470c7cff8c9ef1c7996199a">scxt::messaging::client::s2c_update_macro_full_state</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99badb0ef3996e839639efa61387732557d8">scxt::messaging::client::s2c_update_mpe_tuning_awareness</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baa19406505fa3a2e73ceb6a3263f5b119">scxt::messaging::client::s2c_update_omni_flavor</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba7eebfbe47f1df19c88945a51956d613c">scxt::messaging::client::s2c_update_pitchbend_tuning_awareness</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac65e5ce278faf8f3d9f9013ceb5b4485">scxt::messaging::client::doRegisterClient()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a23112b5b1c34dd5c3f0c92fac66239b0">scxt::messaging::client::doResendFullState()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#add0b869c7e38daed69e579af284482cc">scxt::messaging::client::doResetEngine()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa8d41f138fc0e3c6c9be0c0f80b72938">scxt::messaging::client::doResolveMultiSample()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a172e25f4111b4b0b2ae76a17bdd47d34">scxt::messaging::client::doResolveSample()</a>, <a class="el" href="structscxt_1_1undo_1_1GroupChangeItem.html#a7a220b237c00806d198f88baff1949f4">GroupChangeItem::restore()</a>, <a class="el" href="structscxt_1_1undo_1_1GroupsRestoreItem.html#a7a220b237c00806d198f88baff1949f4">GroupsRestoreItem::restore()</a>, <a class="el" href="structscxt_1_1undo_1_1PartsStateItem.html#a7a220b237c00806d198f88baff1949f4">PartsStateItem::restore()</a>, <a class="el" href="namespacescxt_1_1json.html#acddb4f9a5bc14015b119dde106fab7d1">scxt::json::unstreamEngineState()</a>, and <a class="el" href="namespacescxt_1_1json.html#a2be127744ac9c891a751093b8d1bcd6d">scxt::json::unstreamPartState()</a>.</p>
 
@@ -2788,7 +2794,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#a9a5750bb43eb58b376dca069a7296baa">GTKeyswitchMomentary::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#aba4c4cc8dd8984182df37991333f9f13">GTKeyswitchMomentary::conditionHolds()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>.</p>
 
 </div>
 </div>
@@ -3247,7 +3253,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 26 2026 22:08:28 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jul 27 2026 13:37:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

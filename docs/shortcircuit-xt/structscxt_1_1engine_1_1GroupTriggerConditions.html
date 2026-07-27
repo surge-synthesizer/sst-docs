@@ -122,10 +122,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e9e69264ed14d682ebcb24f030fe1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5023e4bb12e409c6c26aa286104a3422" id="r_a5023e4bb12e409c6c26aa286104a3422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">setupOnUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
 <tr class="separator:a5023e4bb12e409c6c26aa286104a3422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2484eb028fa7684ea929d911aa817f05" id="r_a2484eb028fa7684ea929d911aa817f05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a2484eb028fa7684ea929d911aa817f05">groupShouldPlay</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, int16_t channel, int16_t key) const</td></tr>
-<tr class="separator:a2484eb028fa7684ea929d911aa817f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7649e0567d4d54256933effc8fbe2d64" id="r_a7649e0567d4d54256933effc8fbe2d64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a7649e0567d4d54256933effc8fbe2d64">wasPlaySupressedByKeySwitch</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, int16_t channel, int16_t key) const</td></tr>
-<tr class="separator:a7649e0567d4d54256933effc8fbe2d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472c08748202807f495dd3fb53197faf" id="r_a472c08748202807f495dd3fb53197faf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a472c08748202807f495dd3fb53197faf">groupShouldPlay</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, int16_t channel, int16_t midiKey) const</td></tr>
+<tr class="separator:a472c08748202807f495dd3fb53197faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467d51fe12c771f957a6582c5a47005e" id="r_a467d51fe12c771f957a6582c5a47005e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a467d51fe12c771f957a6582c5a47005e">keySwitchLatchHolds</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;, const <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, int16_t channel, int16_t midiKey) const</td></tr>
+<tr class="separator:a467d51fe12c771f957a6582c5a47005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59ed113cfc1003f2fdb54689dda5645" id="r_ae59ed113cfc1003f2fdb54689dda5645"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">isKeySwitchKey</a> (int16_t midiKey) const</td></tr>
+<tr class="separator:ae59ed113cfc1003f2fdb54689dda5645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8963b44b169a4b2e2ba1fc3e27e5e179" id="r_a8963b44b169a4b2e2ba1fc3e27e5e179"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">firstKeySwitchLatchKey</a> () const</td></tr>
+<tr class="separator:a8963b44b169a4b2e2ba1fc3e27e5e179"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -284,8 +288,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2484eb028fa7684ea929d911aa817f05" name="a2484eb028fa7684ea929d911aa817f05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2484eb028fa7684ea929d911aa817f05">&#9670;&#160;</a></span>groupShouldPlay()</h2>
+<a id="a472c08748202807f495dd3fb53197faf" name="a472c08748202807f495dd3fb53197faf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472c08748202807f495dd3fb53197faf">&#9670;&#160;</a></span>groupShouldPlay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +316,7 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
+          <td class="paramname"><em>midiKey</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -326,14 +330,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7649e0567d4d54256933effc8fbe2d64" name="a7649e0567d4d54256933effc8fbe2d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7649e0567d4d54256933effc8fbe2d64">&#9670;&#160;</a></span>wasPlaySupressedByKeySwitch()</h2>
+<a id="a467d51fe12c771f957a6582c5a47005e" name="a467d51fe12c771f957a6582c5a47005e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467d51fe12c771f957a6582c5a47005e">&#9670;&#160;</a></span>keySwitchLatchHolds()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool wasPlaySupressedByKeySwitch </td>
+          <td class="memname">bool keySwitchLatchHolds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
           <td class="paramname"><em>e</em>, </td>
@@ -354,7 +358,7 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
+          <td class="paramname"><em>midiKey</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -364,7 +368,46 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">GroupTriggerConditions::active</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5d5c853752e69cfb66dbe5606629ca1d">GroupTriggerConditions::conditions</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">scxt::engine::KEYSWITCH_LATCH</a>.</p>
+
+</div>
+</div>
+<a id="ae59ed113cfc1003f2fdb54689dda5645" name="ae59ed113cfc1003f2fdb54689dda5645"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59ed113cfc1003f2fdb54689dda5645">&#9670;&#160;</a></span>isKeySwitchKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isKeySwitchKey </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>midiKey</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">GroupTriggerConditions::active</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">scxt::engine::KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">scxt::engine::KEYSWITCH_MOMENTARY</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">GroupTriggerConditions::storage</a>.</p>
+
+</div>
+</div>
+<a id="a8963b44b169a4b2e2ba1fc3e27e5e179" name="a8963b44b169a4b2e2ba1fc3e27e5e179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8963b44b169a4b2e2ba1fc3e27e5e179">&#9670;&#160;</a></span>firstKeySwitchLatchKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t firstKeySwitchLatchKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">GroupTriggerConditions::active</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">scxt::engine::KEYSWITCH_LATCH</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">GroupTriggerConditions::storage</a>.</p>
 
 </div>
 </div>
@@ -381,7 +424,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">GroupTriggerConditions::firstKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">GroupTriggerConditions::isKeySwitchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
 
 </div>
 </div>
@@ -397,7 +440,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a2484eb028fa7684ea929d911aa817f05">GroupTriggerConditions::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">GroupTriggerConditions::firstKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a472c08748202807f495dd3fb53197faf">GroupTriggerConditions::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">GroupTriggerConditions::isKeySwitchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a467d51fe12c771f957a6582c5a47005e">GroupTriggerConditions::keySwitchLatchHolds()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
 
 </div>
 </div>
@@ -413,7 +456,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a2484eb028fa7684ea929d911aa817f05">GroupTriggerConditions::groupShouldPlay()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a472c08748202807f495dd3fb53197faf">GroupTriggerConditions::groupShouldPlay()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -491,7 +534,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a2484eb028fa7684ea929d911aa817f05">GroupTriggerConditions::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a7649e0567d4d54256933effc8fbe2d64">GroupTriggerConditions::wasPlaySupressedByKeySwitch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a472c08748202807f495dd3fb53197faf">GroupTriggerConditions::groupShouldPlay()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a467d51fe12c771f957a6582c5a47005e">GroupTriggerConditions::keySwitchLatchHolds()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -502,7 +545,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 26 2026 22:08:28 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jul 27 2026 13:37:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
