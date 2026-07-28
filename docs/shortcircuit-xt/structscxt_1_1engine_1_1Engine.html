@@ -237,6 +237,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ca2277922fe68f6e6f92ec8c85b9d4a" id="r_a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9ca2277922fe68f6e6f92ec8c85b9d4a">processMIDI1Event</a> (uint16_t midiPort, const uint8_t data[3])</td></tr>
 <tr class="memdesc:a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Midi-style events.  <br /></td></tr>
 <tr class="separator:a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59870ff5c717ca932aac0a1ce2606113" id="r_a59870ff5c717ca932aac0a1ce2606113"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a59870ff5c717ca932aac0a1ce2606113">processProgramChangeEvent</a> (int16_t port, int16_t channel, int16_t program)</td></tr>
+<tr class="separator:a59870ff5c717ca932aac0a1ce2606113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11beb9fd52d4b4aec6743a7bfbf17366" id="r_a11beb9fd52d4b4aec6743a7bfbf17366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a11beb9fd52d4b4aec6743a7bfbf17366">processNoteOnEvent</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id, double velocity, float retune)</td></tr>
 <tr class="separator:a11beb9fd52d4b4aec6743a7bfbf17366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16551e1b6c8c878cee39bca5885bff56" id="r_a16551e1b6c8c878cee39bca5885bff56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a16551e1b6c8c878cee39bca5885bff56">processNoteOffEvent</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id, double velocity)</td></tr>
@@ -997,6 +999,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Midi-style events. </p>
 <p>Each event is assumed to be at the top of the blockSize sample block </p>
+
+</div>
+</div>
+<a id="a59870ff5c717ca932aac0a1ce2606113" name="a59870ff5c717ca932aac0a1ce2606113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59870ff5c717ca932aac0a1ce2606113">&#9670;&#160;</a></span>processProgramChangeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processProgramChangeEvent </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>program</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3253,7 +3289,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 28 2026 02:19:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Jul 28 2026 22:29:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
