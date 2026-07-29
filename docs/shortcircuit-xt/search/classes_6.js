@@ -57,5 +57,6 @@ var searchData=
   ['gtmidi1cc_54',['GTMIDI1CC',['../structscxt_1_1engine_1_1GTMIDI1CC.html',1,'scxt::engine']]],
   ['gtpitchbend_55',['GTPitchBend',['../structscxt_1_1engine_1_1GTPitchBend.html',1,'scxt::engine']]],
   ['gtprogramchange_56',['GTProgramChange',['../structscxt_1_1engine_1_1GTProgramChange.html',1,'scxt::engine']]],
-  ['guid_57',['GUID',['../structscxt_1_1sample_1_1loaders_1_1GUID.html',1,'scxt::sample::loaders']]]
+  ['gtroundrobin_57',['GTRoundRobin',['../structscxt_1_1engine_1_1GTRoundRobin.html',1,'scxt::engine']]],
+  ['guid_58',['GUID',['../structscxt_1_1sample_1_1loaders_1_1GUID.html',1,'scxt::sample::loaders']]]
 ];

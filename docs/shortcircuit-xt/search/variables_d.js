@@ -29,7 +29,7 @@ var searchData=
   ['nsamplespersec_26',['nSamplesPerSec',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a3a6a524889c10da7581a2d0d9b2cf4da',1,'scxt::sample::loaders::wavheader']]],
   ['num_27',['num',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a705ac0e58096473d73e392282e281fa8',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]],
   ['num_5fgrains_28',['num_grains',['../structscxt_1_1sample_1_1Sample.html#a1ea6a7e7a2997d78b0a914fe92c74718',1,'scxt::sample::Sample']]],
-  ['numargs_29',['numArgs',['../structscxt_1_1engine_1_1GroupTriggerStorage.html#a39c42bb1b45f380ca862c4405443bc8c',1,'scxt::engine::GroupTriggerStorage']]],
+  ['numargs_29',['numargs',['../structscxt_1_1engine_1_1GroupTriggerStorage.html#a39c42bb1b45f380ca862c4405443bc8c',1,'scxt::engine::GroupTriggerStorage::numArgs'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a16f6a370e0eaf150eb5b005dde33a991',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow::numArgs']]],
   ['numavail_30',['numAvail',['../structscxt_1_1engine_1_1Zone.html#a8d7f13e65c0cd3f3303325acd20901b8',1,'scxt::engine::Zone']]],
   ['numbuttons_31',['numButtons',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#ab32d1114e358f71702d58e1df4b36125',1,'scxt::ui::app::other_screens::AboutScreen']]],
   ['numchannels_32',['numChannels',['../structscxt_1_1sample_1_1aiff__CommonChunk.html#acc45742113101a540115abfd7b48396a',1,'scxt::sample::aiff_CommonChunk']]],

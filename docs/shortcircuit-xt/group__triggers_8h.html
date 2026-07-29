@@ -109,6 +109,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maintain the state of keys ccs etc... for a particular instrument.  <a href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState_1_1RoundRobinSetState.html">GroupTriggerInstrumentState::RoundRobinSetState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerStorage.html">GroupTriggerStorage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTrigger.html">GroupTrigger</a></td></tr>
@@ -126,6 +128,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ac8d1dcd73d98e630d1329b41c4bbfa1e" id="r_ac8d1dcd73d98e630d1329b41c4bbfa1e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> = std::array&lt; uint32_t, numRoundRobinKinds &gt;</td></tr>
+<tr class="separator:ac8d1dcd73d98e630d1329b41c4bbfa1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eafa2b21b2e7ca158319d9030d8a976" id="r_a1eafa2b21b2e7ca158319d9030d8a976"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a1eafa2b21b2e7ca158319d9030d8a976">partKeySwitchDisplay_t</a> = std::array&lt; int32_t, 128 &gt;</td></tr>
 <tr class="separator:a1eafa2b21b2e7ca158319d9030d8a976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7ef92ac6a3eccff054dfc51aea1ef92" id="r_ae7ef92ac6a3eccff054dfc51aea1ef92"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a> = uint8_t[2048]</td></tr>
@@ -140,7 +144,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>
 , <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>
-, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a> = MACRO + scxt::macrosPerPart
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a> = MIDICC + 128
 <br />
@@ -154,6 +162,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a857d739e7d7a94c7c9bb8bccb0494eba" id="r_a857d739e7d7a94c7c9bb8bccb0494eba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a857d739e7d7a94c7c9bb8bccb0494eba">isRoundRobinTriggerID</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> id)</td></tr>
+<tr class="separator:a857d739e7d7a94c7c9bb8bccb0494eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de313bc856d452aee77ad2dc6cb0e8e" id="r_a9de313bc856d452aee77ad2dc6cb0e8e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a9de313bc856d452aee77ad2dc6cb0e8e">roundRobinKindIndex</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> id)</td></tr>
+<tr class="separator:a9de313bc856d452aee77ad2dc6cb0e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a953a87c1f2d571853bac7926eb67fd6f" id="r_a953a87c1f2d571853bac7926eb67fd6f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a953a87c1f2d571853bac7926eb67fd6f">toStringGroupTriggerID</a> (const <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> &amp;p)</td></tr>
 <tr class="separator:a953a87c1f2d571853bac7926eb67fd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a861773719d557bfe222f7672c3aee61a" id="r_a861773719d557bfe222f7672c3aee61a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a861773719d557bfe222f7672c3aee61a">fromStringGroupTriggerID</a> (const std::string &amp;s)</td></tr>
@@ -166,7 +178,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 28 2026 22:29:57 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jul 29 2026 16:12:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

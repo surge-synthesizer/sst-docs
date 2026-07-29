@@ -94,6 +94,11 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structscxt_1_1engine_1_1GroupTriggerInstrumentState-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GroupTriggerInstrumentState Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -102,15 +107,70 @@ $(function() {
  <a href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#details">More...</a></p>
 
 <p><code>#include &lt;group_triggers.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState_1_1RoundRobinSetState.html">RoundRobinSetState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9945247311670808e41f7ba15104467d" id="r_a9945247311670808e41f7ba15104467d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#a9945247311670808e41f7ba15104467d">resetRoundRobin</a> ()</td></tr>
+<tr class="separator:a9945247311670808e41f7ba15104467d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae048c7640831abb157834414462aff04" id="r_ae048c7640831abb157834414462aff04"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::array&lt; <a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState_1_1RoundRobinSetState.html">RoundRobinSetState</a>, scxt::maxRoundRobinSets &gt;, numRoundRobinKinds &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#ae048c7640831abb157834414462aff04">roundRobin</a> {}</td></tr>
+<tr class="separator:ae048c7640831abb157834414462aff04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Maintain the state of keys ccs etc... for a particular instrument. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9945247311670808e41f7ba15104467d" name="a9945247311670808e41f7ba15104467d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9945247311670808e41f7ba15104467d">&#9670;&#160;</a></span>resetRoundRobin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void resetRoundRobin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#ae048c7640831abb157834414462aff04">GroupTriggerInstrumentState::roundRobin</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae048c7640831abb157834414462aff04" name="ae048c7640831abb157834414462aff04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae048c7640831abb157834414462aff04">&#9670;&#160;</a></span>roundRobin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;std::array&lt;<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState_1_1RoundRobinSetState.html">RoundRobinSetState</a>, scxt::maxRoundRobinSets&gt;, numRoundRobinKinds&gt; roundRobin {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a69ca17e1b28f60b2eb71270c0b53a1e8">Part::advanceRoundRobinSets()</a>, <a class="el" href="structscxt_1_1engine_1_1GTRoundRobin.html#adfe82d8b0683d6b1b44067710e5440ca">GTRoundRobin::conditionHolds()</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#a9945247311670808e41f7ba15104467d">GroupTriggerInstrumentState::resetRoundRobin()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="group__triggers_8h.html">group_triggers.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 28 2026 22:29:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jul 29 2026 16:12:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

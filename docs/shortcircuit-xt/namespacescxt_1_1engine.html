@@ -146,6 +146,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTProgramChange.html">GTProgramChange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GTRoundRobin.html">GTRoundRobin</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html">HasGroupZoneProcessors</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a></td></tr>
@@ -170,6 +172,8 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a8ff3b6ee1771f9e0212b6350dcd84844" id="r_a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> = void(*)(int16_t, float *const)</td></tr>
 <tr class="separator:a8ff3b6ee1771f9e0212b6350dcd84844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d1dcd73d98e630d1329b41c4bbfa1e" id="r_ac8d1dcd73d98e630d1329b41c4bbfa1e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> = std::array&lt; uint32_t, numRoundRobinKinds &gt;</td></tr>
+<tr class="separator:ac8d1dcd73d98e630d1329b41c4bbfa1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eafa2b21b2e7ca158319d9030d8a976" id="r_a1eafa2b21b2e7ca158319d9030d8a976"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a1eafa2b21b2e7ca158319d9030d8a976">partKeySwitchDisplay_t</a> = std::array&lt; int32_t, 128 &gt;</td></tr>
 <tr class="separator:a1eafa2b21b2e7ca158319d9030d8a976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7ef92ac6a3eccff054dfc51aea1ef92" id="r_ae7ef92ac6a3eccff054dfc51aea1ef92"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#ae7ef92ac6a3eccff054dfc51aea1ef92">GroupTriggerBuffer</a> = uint8_t[2048]</td></tr>
@@ -216,7 +220,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>
 , <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>
-, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a> = MACRO + scxt::macrosPerPart
 , <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a> = MIDICC + 128
 <br />
@@ -274,6 +282,10 @@ Functions</h2></td></tr>
 <tr class="separator:a13058f697d308308bbf26a1e8d920524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ca69dc506e8544a7735fd6de92bc44e" id="r_a9ca69dc506e8544a7735fd6de92bc44e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a9ca69dc506e8544a7735fd6de92bc44e">getGroupTriggerDisplayName</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> id)</td></tr>
 <tr class="separator:a9ca69dc506e8544a7735fd6de92bc44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857d739e7d7a94c7c9bb8bccb0494eba" id="r_a857d739e7d7a94c7c9bb8bccb0494eba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a857d739e7d7a94c7c9bb8bccb0494eba">isRoundRobinTriggerID</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> id)</td></tr>
+<tr class="separator:a857d739e7d7a94c7c9bb8bccb0494eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de313bc856d452aee77ad2dc6cb0e8e" id="r_a9de313bc856d452aee77ad2dc6cb0e8e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a9de313bc856d452aee77ad2dc6cb0e8e">roundRobinKindIndex</a> (<a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> id)</td></tr>
+<tr class="separator:a9de313bc856d452aee77ad2dc6cb0e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb1e8b9c27cac0dbf06791e4fb64d17" id="r_aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17">collectMissingResolutionWorkItems</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:aedb1e8b9c27cac0dbf06791e4fb64d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a310c75970c853335dea58fc8034c67f7" id="r_a310c75970c853335dea58fc8034c67f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a310c75970c853335dea58fc8034c67f7">resolveSingleFileMissingWorkItem</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="structscxt_1_1engine_1_1MissingResolutionWorkItem.html">MissingResolutionWorkItem</a> &amp;mwi, const fs::path &amp;p)</td></tr>
@@ -299,6 +311,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacescxt_1_1engine.html#a8ff3b6ee1771f9e0212b6350dcd84844">busRemapFn_t</a> =  void (*)(int16_t, float *const)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8d1dcd73d98e630d1329b41c4bbfa1e" name="ac8d1dcd73d98e630d1329b41c4bbfa1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d1dcd73d98e630d1329b41c4bbfa1e">&#9670;&#160;</a></span>roundRobinMask_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> =  std::array&lt;uint32_t, numRoundRobinKinds&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -426,6 +452,9 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12" name="a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12"></a>KEYSWITCH_MOMENTARY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e" name="a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e"></a>PROGRAM_CHANGE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023" name="a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023"></a>PITCH_BEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee" name="a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee"></a>ROUND_ROBIN_CYCLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e" name="a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e"></a>ROUND_ROBIN_RANDOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94" name="a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94"></a>ROUND_ROBIN_SHUFFLE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c" name="a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c"></a>MACRO&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745" name="a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745"></a>MIDICC&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b" name="a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b"></a>LAST_MIDICC&#160;</td><td class="fielddoc"></td></tr>
@@ -949,7 +978,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1040,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="group__triggers_8cpp.html#a08e6ac896c71158832c8ac77ff2b6c38">CS</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="group__triggers_8cpp.html#a08e6ac896c71158832c8ac77ff2b6c38">CS</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>.</p>
 
@@ -1033,9 +1062,53 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">KEYSWITCH_MOMENTARY</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a36f2ff1fb378ccb5b8272147d88e6e6b">LAST_MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a0342ec3f70786edd2267dab692f1ad6c">MACRO</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a01d3318823aaceff6873beaea1df1745">MIDICC</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ac9718325980196dee9b53c5e375d5023">PITCH_BEND</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a9c1ebbbad317dc20a7aebc4e433b0f2e">PROGRAM_CHANGE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>.</p>
+
+</div>
+</div>
+<a id="a857d739e7d7a94c7c9bb8bccb0494eba" name="a857d739e7d7a94c7c9bb8bccb0494eba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857d739e7d7a94c7c9bb8bccb0494eba">&#9670;&#160;</a></span>isRoundRobinTriggerID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isRoundRobinTriggerID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a72f67186fc084b9412dfe15186e59aca">GroupTriggerConditions::evaluate()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#aa089e6bee1b6dd9c0a704cdb2c8cf4ea">GroupTriggersCard::ConditionRow::showTypeMenu()</a>.</p>
+
+</div>
+</div>
+<a id="a9de313bc856d452aee77ad2dc6cb0e8e" name="a9de313bc856d452aee77ad2dc6cb0e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de313bc856d452aee77ad2dc6cb0e8e">&#9670;&#160;</a></span>roundRobinKindIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int roundRobinKindIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">ROUND_ROBIN_CYCLE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a1d004d754483e6fe1abe4b1c1940b68e">ROUND_ROBIN_RANDOM</a>, and <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">ROUND_ROBIN_SHUFFLE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a69ca17e1b28f60b2eb71270c0b53a1e8">Part::advanceRoundRobinSets()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a21e417340f73af67bc75bc2f5a91b368">Part::roundRobinSetsForNote()</a>, and <a class="el" href="structscxt_1_1engine_1_1GTRoundRobin.html#a5e1c3e4cdf6789f725f0df96aa558ade">GTRoundRobin::storageAdjusted()</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1286,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 28 2026 22:29:57 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jul 29 2026 16:12:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

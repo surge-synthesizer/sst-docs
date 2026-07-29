@@ -22,10 +22,11 @@ var searchData=
   ['wformattag_19',['wFormatTag',['../structscxt_1_1sample_1_1loaders_1_1wavheader.html#a49eb504bc2458615f007a548bfa86546',1,'scxt::sample::loaders::wavheader']]],
   ['width_20',['width',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartEffectsPane::width'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a229d697f97d697703cd11ce11d76f53b',1,'scxt::ui::app::shared::PartSidebarCard::width']]],
   ['widthislinear_21',['widthIsLinear',['../structscxt_1_1engine_1_1dtl_1_1Config.html#ac782651ed20212afe6b6dd07f269536f',1,'scxt::engine::dtl::Config']]],
-  ['wireframe_22',['WIREFRAME',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af',1,'scxt::ui::theme::ColorMap']]],
-  ['withcondition_23',['withCondition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a6454bf7fcf1518c04ef7d850606d69a6',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
-  ['within_24',['within',['../structscxt_1_1exs__support_1_1EXSObject.html#afe8c28aaf3a84ae3218936ae682554ab',1,'scxt::exs_support::EXSObject']]],
-  ['workitemcomps_25',['workItemComps',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a2f1338329a9816dcadf6b0d597a23461',1,'scxt::ui::app::missing_resolution::Contents']]],
-  ['workitems_26',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
-  ['writer_27',['writer',['../structscxt_1_1browser_1_1Scanner.html#a63cad92f66d3d178301593fd57332e55',1,'scxt::browser::Scanner']]]
+  ['winner_22',['winner',['../structscxt_1_1engine_1_1GroupTriggerInstrumentState_1_1RoundRobinSetState.html#a1b0704ae397d8f9a0d5794b54bd2ef47',1,'scxt::engine::GroupTriggerInstrumentState::RoundRobinSetState']]],
+  ['wireframe_23',['WIREFRAME',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a94673e8ce55c046fff157222a09cd6af',1,'scxt::ui::theme::ColorMap']]],
+  ['withcondition_24',['withCondition',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a6454bf7fcf1518c04ef7d850606d69a6',1,'scxt::ui::app::edit_screen::GroupTriggersCard::ConditionRow']]],
+  ['within_25',['within',['../structscxt_1_1exs__support_1_1EXSObject.html#afe8c28aaf3a84ae3218936ae682554ab',1,'scxt::exs_support::EXSObject']]],
+  ['workitemcomps_26',['workItemComps',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#a2f1338329a9816dcadf6b0d597a23461',1,'scxt::ui::app::missing_resolution::Contents']]],
+  ['workitems_27',['workItems',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#acb277d678ffd50e1e9ca372fe3077bc3',1,'scxt::ui::app::missing_resolution::MissingResolutionScreen']]],
+  ['writer_28',['writer',['../structscxt_1_1browser_1_1Scanner.html#a63cad92f66d3d178301593fd57332e55',1,'scxt::browser::Scanner']]]
 ];

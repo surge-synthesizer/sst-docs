@@ -213,6 +213,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad68fc4333b9868ca9d97d472f58dc6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae212a7628c93bc10d3592a106031f7cc" id="r_ae212a7628c93bc10d3592a106031f7cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">guaranteeKeyswitchLatchCoherence</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:ae212a7628c93bc10d3592a106031f7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e417340f73af67bc75bc2f5a91b368" id="r_a21e417340f73af67bc75bc2f5a91b368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a21e417340f73af67bc75bc2f5a91b368">roundRobinSetsForNote</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e, int16_t channel, int16_t key, int16_t midiKey, int16_t velocity, int16_t keyTranspose)</td></tr>
+<tr class="separator:a21e417340f73af67bc75bc2f5a91b368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ca17e1b28f60b2eb71270c0b53a1e8" id="r_a69ca17e1b28f60b2eb71270c0b53a1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a69ca17e1b28f60b2eb71270c0b53a1e8">advanceRoundRobinSets</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e, const <a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> &amp;setMask)</td></tr>
+<tr class="separator:a69ca17e1b28f60b2eb71270c0b53a1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a495d186b84d095eacda82eddc20cf588" id="r_a495d186b84d095eacda82eddc20cf588"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#a1eafa2b21b2e7ca158319d9030d8a976">partKeySwitchDisplay_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a495d186b84d095eacda82eddc20cf588">keySwitchDisplay</a> () const</td></tr>
 <tr class="separator:a495d186b84d095eacda82eddc20cf588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f62c23c70c6fc10e99e92026dcd3337" id="r_a3f62c23c70c6fc10e99e92026dcd3337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a3f62c23c70c6fc10e99e92026dcd3337">sendAllBusEffectInfoToClient</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
@@ -434,7 +438,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a87a2d059ff3004eb769848369d28a509">Part::PartConfiguration::channel</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1d429ac041d710e8a840a103b12d9c18a63389071b9b8e84b1c40330b2eeecac0">Engine::OMNI</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a11bbf8b01daf86234c7603e0e410152d">Part::PartConfiguration::omniChannel</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#ad7068171b1e9bb4b75a9bcbf7a92f3b5">Engine::RuntimeConfig::omniFlavor</a>, <a class="el" href="structscxt_1_1engine_1_1Patch.html#accb3e60a9ac0eb459b1e1dbed1a4595b">Patch::parentEngine</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#af99b7fe51321cd93e5df1d50fb6e84d2">Part::parentPatch</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#af5f29f40494d6049bcbf5780c05391bd">Engine::runtimeConfig</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad23e02147450ef9bcf0d1f145b051592">Part::respondsToMIDIChannel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad23e02147450ef9bcf0d1f145b051592">Part::respondsToMIDIChannel()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a21e417340f73af67bc75bc2f5a91b368">Part::roundRobinSetsForNote()</a>.</p>
 
 </div>
 </div>
@@ -1098,7 +1102,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">scxt::engine::createEffect()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">Part::guaranteeKeyswitchLatchCoherence()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a4f64fc5e69de6612986b9b3ab145e027">Part::rebuildGroupChannelMask()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#ae02bc1a79069839d30c329fedf98a667">scxt::engine::createEffect()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#afea763dfc2e9ae748fb2ca7eca806b76">Part::groupTriggerInstrumentState</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">Part::guaranteeKeyswitchLatchCoherence()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a4f64fc5e69de6612986b9b3ab145e027">Part::rebuildGroupChannelMask()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#a9945247311670808e41f7ba15104467d">GroupTriggerInstrumentState::resetRoundRobin()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ab67e5f6098b672b851c2a159a2bf14d3">Part::sendBusEffectInfoToClient()</a>.</p>
 
 </div>
 </div>
@@ -1121,6 +1125,90 @@ Additional Inherited Members</h2></td></tr>
 <p class="reference">References <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a21e417340f73af67bc75bc2f5a91b368" name="a21e417340f73af67bc75bc2f5a91b368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e417340f73af67bc75bc2f5a91b368">&#9670;&#160;</a></span>roundRobinSetsForNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> roundRobinSetsForNote </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>midiKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>velocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>keyTranspose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#af9be4faf1a1552e2c43cea5538d5e84c">Part::respondsToMIDIChannelExcludingGroupMask()</a>, and <a class="el" href="namespacescxt_1_1engine.html#a9de313bc856d452aee77ad2dc6cb0e8e">scxt::engine::roundRobinKindIndex()</a>.</p>
+
+</div>
+</div>
+<a id="a69ca17e1b28f60b2eb71270c0b53a1e8" name="a69ca17e1b28f60b2eb71270c0b53a1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69ca17e1b28f60b2eb71270c0b53a1e8">&#9670;&#160;</a></span>advanceRoundRobinSets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void advanceRoundRobinSets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>setMask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#afea763dfc2e9ae748fb2ca7eca806b76">Part::groupTriggerInstrumentState</a>, <a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54ab7e4e0120a041dbe6528b050c04269e0">scxt::engine::none</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">Engine::rng</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100afabc47cc0b89f312383d73758448c5ee">scxt::engine::ROUND_ROBIN_CYCLE</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100abeed604079fb9e532bff709260021e94">scxt::engine::ROUND_ROBIN_SHUFFLE</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html#ae048c7640831abb157834414462aff04">GroupTriggerInstrumentState::roundRobin</a>, <a class="el" href="namespacescxt_1_1engine.html#a9de313bc856d452aee77ad2dc6cb0e8e">scxt::engine::roundRobinKindIndex()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 </div>
 </div>
@@ -1305,7 +1393,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The state of this part for group trigger caches and so on. </p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a69ca17e1b28f60b2eb71270c0b53a1e8">Part::advanceRoundRobinSets()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1522,7 +1610,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 28 2026 22:29:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Jul 29 2026 16:12:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
