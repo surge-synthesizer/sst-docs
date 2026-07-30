@@ -99,6 +99,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structscxt_1_1sfz__support_1_1SFZParser-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SFZParser Struct Reference</div></div>
 </div><!--header-->
@@ -124,6 +125,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a560badea75a765943fecf182b790b498" id="r_a560badea75a765943fecf182b790b498"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a560badea75a765943fecf182b790b498">preprocessIncludes</a> (const fs::path &amp;file)</td></tr>
+<tr class="separator:a560badea75a765943fecf182b790b498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9321eab00b66d68e31deb5e937c1572e" id="r_a9321eab00b66d68e31deb5e937c1572e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a9321eab00b66d68e31deb5e937c1572e">expandIncludes</a> (const std::string &amp;contents, const fs::path &amp;<a class="el" href="sfz__parse_8cpp.html#a786dee103397043fc17a49b5cd6f52fb">rootDir</a>)</td></tr>
+<tr class="separator:a9321eab00b66d68e31deb5e937c1572e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60414d7226fdf4686024355268300258" id="r_a60414d7226fdf4686024355268300258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a006f188dfa375d57095c47be3c48fa4a">document_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">parse</a> (const std::string &amp;contents)</td></tr>
 <tr class="separator:a60414d7226fdf4686024355268300258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32857499361fd64e197dd097425a138a" id="r_a32857499361fd64e197dd097425a138a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a006f188dfa375d57095c47be3c48fa4a">document_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a32857499361fd64e197dd097425a138a">parse</a> (const fs::path &amp;file)</td></tr>
@@ -133,6 +138,13 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab230ab081860f26f7af66a1661ed0cce" id="r_ab230ab081860f26f7af66a1661ed0cce"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">onError</a></td></tr>
 <tr class="separator:ab230ab081860f26f7af66a1661ed0cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ad97864b1d0eab8df38eac350f29dd800" id="r_ad97864b1d0eab8df38eac350f29dd800"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ad97864b1d0eab8df38eac350f29dd800">maxIncludeDepth</a> {16}</td></tr>
+<tr class="separator:ad97864b1d0eab8df38eac350f29dd800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71a962a7433ae93d1a0009ddc843e7c" id="r_ae71a962a7433ae93d1a0009ddc843e7c"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ae71a962a7433ae93d1a0009ddc843e7c">maxIncludeFiles</a> {4096}</td></tr>
+<tr class="separator:ae71a962a7433ae93d1a0009ddc843e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a0565934d0720e1c5fdbd11dda447c34f" name="a0565934d0720e1c5fdbd11dda447c34f"></a>
@@ -178,6 +190,58 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a560badea75a765943fecf182b790b498" name="a560badea75a765943fecf182b790b498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560badea75a765943fecf182b790b498">&#9670;&#160;</a></span>preprocessIncludes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string preprocessIncludes </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">SFZParser::onError</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a32857499361fd64e197dd097425a138a">SFZParser::parse()</a>.</p>
+
+</div>
+</div>
+<a id="a9321eab00b66d68e31deb5e937c1572e" name="a9321eab00b66d68e31deb5e937c1572e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9321eab00b66d68e31deb5e937c1572e">&#9670;&#160;</a></span>expandIncludes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string expandIncludes </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>contents</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>rootDir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#ab230ab081860f26f7af66a1661ed0cce">SFZParser::onError</a>, and <a class="el" href="sfz__parse_8cpp.html#a786dee103397043fc17a49b5cd6f52fb">rootDir</a>.</p>
+
+</div>
+</div>
 <a id="a60414d7226fdf4686024355268300258" name="a60414d7226fdf4686024355268300258"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60414d7226fdf4686024355268300258">&#9670;&#160;</a></span>parse() <span class="overload">[1/2]</span></h2>
 
@@ -216,7 +280,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a560badea75a765943fecf182b790b498">SFZParser::preprocessIncludes()</a>.</p>
 
 </div>
 </div>
@@ -237,7 +301,51 @@ Public Attributes</h2></td></tr>
 <div class="line">    }</div>
 <div class="ttc" id="autils_8h_html_a6bb31fe3727e25c507596ba7f1a9ecfd"><div class="ttname"><a href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a></div><div class="ttdeci">#define SCLOG_IF(x,...)</div><div class="ttdef"><b>Definition</b> utils.h:294</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a9321eab00b66d68e31deb5e937c1572e">SFZParser::expandIncludes()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a60414d7226fdf4686024355268300258">SFZParser::parse()</a>, and <a class="el" href="structscxt_1_1sfz__support_1_1SFZParser.html#a560badea75a765943fecf182b790b498">SFZParser::preprocessIncludes()</a>.</p>
+
+</div>
+</div>
+<a id="ad97864b1d0eab8df38eac350f29dd800" name="ad97864b1d0eab8df38eac350f29dd800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97864b1d0eab8df38eac350f29dd800">&#9670;&#160;</a></span>maxIncludeDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int maxIncludeDepth {16}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae71a962a7433ae93d1a0009ddc843e7c" name="ae71a962a7433ae93d1a0009ddc843e7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71a962a7433ae93d1a0009ddc843e7c">&#9670;&#160;</a></span>maxIncludeFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int maxIncludeFiles {4096}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -248,7 +356,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 29 2026 16:12:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Jul 30 2026 16:42:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
