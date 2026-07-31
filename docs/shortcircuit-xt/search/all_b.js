@@ -184,7 +184,7 @@ var searchData=
   ['logscreen_2ecpp_181',['LogScreen.cpp',['../LogScreen_8cpp.html',1,'']]],
   ['logscreen_2eh_182',['LogScreen.h',['../LogScreen_8h.html',1,'']]],
   ['logtimestamp_183',['logTimestamp',['../namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03',1,'scxt']]],
-  ['loop_184',['loop',['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c',1,'scxt::engine::Zone::LOOP'],['../structscxt_1_1modulation_1_1modulators_1_1EnvLFOStorage.html#a5ed2b25d9f2f070cb0ee764aa0985308',1,'scxt::modulation::modulators::EnvLFOStorage::loop']]],
+  ['loop_184',['loop',['../structscxt_1_1modulation_1_1modulators_1_1EnvLFOStorage.html#a5ed2b25d9f2f070cb0ee764aa0985308',1,'scxt::modulation::modulators::EnvLFOStorage::loop'],['../structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c',1,'scxt::engine::Zone::LOOP']]],
   ['loop_5fcount_185',['LOOP_COUNT',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ae9885352ad051820c0493e6d3082ce48',1,'scxt::engine::Zone']]],
   ['loop_5fduring_5fvoice_186',['LOOP_DURING_VOICE',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94',1,'scxt::engine::Zone']]],
   ['loop_5fend_187',['loop_end',['../structscxt_1_1sample_1_1Sample.html#a0d0192ab77d9719395c4ef6cbb5f8b3f',1,'scxt::sample::Sample']]],
