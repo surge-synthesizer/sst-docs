@@ -38,6 +38,9 @@ var searchData=
   ['tostringinterpolationtypes_35',['toStringInterpolationTypes',['../namespacescxt_1_1dsp.html#a998f507091d79d4cbe29e986357ea1a1',1,'scxt::dsp']]],
   ['transformselectionactions_36',['transformSelectionActions',['../structscxt_1_1selection_1_1SelectionManager.html#a387917eee8aefac2d066b3ea8f632229',1,'scxt::selection::SelectionManager']]],
   ['transportsourcebase_37',['TransportSourceBase',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html#a99d83d4eb1d86dfe5bf4d38101d3cdc7',1,'scxt::modulation::shared::TransportSourceBase']]],
-  ['twotothexprovider_38',['twoToTheXProvider',['../structscxt_1_1voice_1_1Voice.html#aa57faa9460e9c0557da565d478589c2c',1,'scxt::voice::Voice']]],
-  ['txnguard_39',['TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a8890d375f639a7fa6ddb3895d3956c7d',1,'scxt::browser::SQL::TxnGuard']]]
+  ['tuningscreen_38',['TuningScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1TuningScreen.html#a063cb5b96f522b7d08e9aa32981098e5',1,'scxt::ui::app::other_screens::TuningScreen']]],
+  ['tuningscreencontents_39',['TuningScreenContents',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1TuningScreenContents.html#a3ea28ff1e505ca3a988891118c51d13e',1,'scxt::ui::app::other_screens::TuningScreenContents']]],
+  ['twelvetetscltext_40',['twelveTETSclText',['../namespacescxt_1_1tuning.html#aa04791d808dd332b394145dccc5f2b1e',1,'scxt::tuning']]],
+  ['twotothexprovider_41',['twoToTheXProvider',['../structscxt_1_1voice_1_1Voice.html#aa57faa9460e9c0557da565d478589c2c',1,'scxt::voice::Voice']]],
+  ['txnguard_42',['TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a8890d375f639a7fa6ddb3895d3956c7d',1,'scxt::browser::SQL::TxnGuard']]]
 ];

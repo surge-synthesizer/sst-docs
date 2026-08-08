@@ -95,6 +95,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -105,10 +106,16 @@ $(function() {
 
 <p><code>#include &lt;midikey_retuner.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html">RetuneTable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a63674c70cc3037c6ac5a8b4ec8424278" id="r_a63674c70cc3037c6ac5a8b4ec8424278"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278">TuningMode</a> { <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c">TWELVE_TET</a>
 , <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305">MTS_ESP</a>
+, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a5e12a5bac980af3d84fe474087111ea7">SCL_KBM</a>
  }</td></tr>
 <tr class="separator:a63674c70cc3037c6ac5a8b4ec8424278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -120,6 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e12c406d3b6e44aab01a44c6ef919dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b398bdf227611585fc8219d7582dc1c" id="r_a7b398bdf227611585fc8219d7582dc1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a7b398bdf227611585fc8219d7582dc1c">setTuningMode</a> (<a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278">TuningMode</a>)</td></tr>
 <tr class="separator:a7b398bdf227611585fc8219d7582dc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611c4c7e53f4dcc1402384bada9b6efa" id="r_a611c4c7e53f4dcc1402384bada9b6efa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a611c4c7e53f4dcc1402384bada9b6efa">setSCLKBMTable</a> (const <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html">RetuneTable</a> &amp;)</td></tr>
+<tr class="separator:a611c4c7e53f4dcc1402384bada9b6efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f46d635138d3595de35d9daab61b34" id="r_aa5f46d635138d3595de35d9daab61b34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#aa5f46d635138d3595de35d9daab61b34">clearSCLKBM</a> ()</td></tr>
+<tr class="separator:aa5f46d635138d3595de35d9daab61b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f350f9a6aa76df88652deeffb1140e" id="r_ab2f350f9a6aa76df88652deeffb1140e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#ab2f350f9a6aa76df88652deeffb1140e">hasSCLKBM</a> () const</td></tr>
+<tr class="separator:ab2f350f9a6aa76df88652deeffb1140e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d1e86075c2f42b3ace82a2d217973e6" id="r_a7d1e86075c2f42b3ace82a2d217973e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a7d1e86075c2f42b3ace82a2d217973e6">getRepetitionInterval</a> () const</td></tr>
 <tr class="separator:a7d1e86075c2f42b3ace82a2d217973e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad14cc0a2caf97063e2a52f05a3f7017a" id="r_ad14cc0a2caf97063e2a52f05a3f7017a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#ad14cc0a2caf97063e2a52f05a3f7017a">offsetKeyBy</a> (int channel, int key)</td></tr>
@@ -151,6 +164,7 @@ Public Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c" name="a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c"></a>TWELVE_TET&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305" name="a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305"></a>MTS_ESP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a63674c70cc3037c6ac5a8b4ec8424278a5e12a5bac980af3d84fe474087111ea7" name="a63674c70cc3037c6ac5a8b4ec8424278a5e12a5bac980af3d84fe474087111ea7"></a>SCL_KBM&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -211,6 +225,62 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a611c4c7e53f4dcc1402384bada9b6efa" name="a611c4c7e53f4dcc1402384bada9b6efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a611c4c7e53f4dcc1402384bada9b6efa">&#9670;&#160;</a></span>setSCLKBMTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setSCLKBMTable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html">RetuneTable</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aad955898cc19084a0ae8752dc1bb41cf">scxt::messaging::client::applySclKbmPayload()</a>.</p>
+
+</div>
+</div>
+<a id="aa5f46d635138d3595de35d9daab61b34" name="aa5f46d635138d3595de35d9daab61b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f46d635138d3595de35d9daab61b34">&#9670;&#160;</a></span>clearSCLKBM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearSCLKBM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aad955898cc19084a0ae8752dc1bb41cf">scxt::messaging::client::applySclKbmPayload()</a>.</p>
+
+</div>
+</div>
+<a id="ab2f350f9a6aa76df88652deeffb1140e" name="ab2f350f9a6aa76df88652deeffb1140e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2f350f9a6aa76df88652deeffb1140e">&#9670;&#160;</a></span>hasSCLKBM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasSCLKBM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7d1e86075c2f42b3ace82a2d217973e6" name="a7d1e86075c2f42b3ace82a2d217973e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d1e86075c2f42b3ace82a2d217973e6">&#9670;&#160;</a></span>getRepetitionInterval()</h2>
 
@@ -226,7 +296,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305">MidikeyRetuner::MTS_ESP</a>, and <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#acf393807c60c6b869975dd12366d3225">MidikeyRetuner::TWELVE_TET</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305">MidikeyRetuner::MTS_ESP</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html#ae1ae9b58c2917f43dc2221fa0a248002">MidikeyRetuner::RetuneTable::repetitionInterval</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a5e12a5bac980af3d84fe474087111ea7">MidikeyRetuner::SCL_KBM</a>, and <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#acf393807c60c6b869975dd12366d3225">MidikeyRetuner::TWELVE_TET</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#a441dffeb7e807b4163cae04d55835d57">Part::getChannelBasedTransposition()</a>.</p>
 
@@ -258,7 +328,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305">MidikeyRetuner::MTS_ESP</a>, and <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#acf393807c60c6b869975dd12366d3225">MidikeyRetuner::TWELVE_TET</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html#a1aa4c9fb030adda2363ed4467b567b29">MidikeyRetuner::RetuneTable::midiOffset</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a76b8de6d013c52b8b2c94306eee71305">MidikeyRetuner::MTS_ESP</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278a5e12a5bac980af3d84fe474087111ea7">MidikeyRetuner::SCL_KBM</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html#a18f7373668908a088e913633f48c77f9">MidikeyRetuner::RetuneTable::semitones</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html#a24ebcf44f08eb5a14016bccc0c4b2d8c">MidikeyRetuner::RetuneTable::tableSize</a>, and <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#acf393807c60c6b869975dd12366d3225">MidikeyRetuner::TWELVE_TET</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a97c8690971de8f606365c497bcc5ffd1">MidikeyRetuner::remapKeyTo()</a>, <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#ae198cbbe9271571b9f54d400bbc5f7df">MidikeyRetuner::retuningForRemappedKey()</a>, and <a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html#a3a0984dc845c1dba0af62ec210688b39">MidikeyRetuner::retuningForRemappedKeyWithInterpolation()</a>.</p>
 
@@ -402,7 +472,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 3 2026 13:48:06 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Aug 8 2026 23:01:59 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

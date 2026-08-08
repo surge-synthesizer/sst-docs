@@ -11,5 +11,7 @@ var searchData=
   ['transportsourcebase_8',['TransportSourceBase',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html',1,'scxt::modulation::shared']]],
   ['transportsourcebase_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_2c_20_27gtsp_27_2c_20registergroupmodsource_20_3e_9',['TransportSourceBase&lt; scxt::modulation::shared::SourceIdentifier, &apos;gtsp&apos;, registerGroupModSource &gt;',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html',1,'scxt::modulation::shared']]],
   ['transportsourcebase_3c_20scxt_3a_3amodulation_3a_3ashared_3a_3asourceidentifier_2c_20_27ztsp_27_2c_20registervoicemodsource_20_3e_10',['TransportSourceBase&lt; scxt::modulation::shared::SourceIdentifier, &apos;ztsp&apos;, registerVoiceModSource &gt;',['../structscxt_1_1modulation_1_1shared_1_1TransportSourceBase.html',1,'scxt::modulation::shared']]],
-  ['txnguard_11',['TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html',1,'scxt::browser::SQL']]]
+  ['tuningscreen_11',['TuningScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1TuningScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['tuningscreencontents_12',['TuningScreenContents',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1TuningScreenContents.html',1,'scxt::ui::app::other_screens']]],
+  ['txnguard_13',['TxnGuard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html',1,'scxt::browser::SQL']]]
 ];
