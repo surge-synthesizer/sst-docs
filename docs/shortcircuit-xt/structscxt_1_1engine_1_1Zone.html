@@ -313,8 +313,12 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aad3b3022f4dbe15ddc873b3bb91cbe4a" id="r_aad3b3022f4dbe15ddc873b3bb91cbe4a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#aad3b3022f4dbe15ddc873b3bb91cbe4a">variantFieldCrossesVariants</a> (ptrdiff_t off)</td></tr>
 <tr class="separator:aad3b3022f4dbe15ddc873b3bb91cbe4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad52d3b37131ec67bb2760ff263eae6fd" id="r_ad52d3b37131ec67bb2760ff263eae6fd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#ad52d3b37131ec67bb2760ff263eae6fd">copyVariantField</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;t, const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;lead, ptrdiff_t off, size_t sz)</td></tr>
+<tr class="separator:ad52d3b37131ec67bb2760ff263eae6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a672f4011c581a33ae7725a43b29729f3" id="r_a672f4011c581a33ae7725a43b29729f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a672f4011c581a33ae7725a43b29729f3">applyVariantEdit</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;t, const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;lead, ptrdiff_t off, size_t sz)</td></tr>
 <tr class="separator:a672f4011c581a33ae7725a43b29729f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa268f4ed961c99e6998ca56da5269177" id="r_aa268f4ed961c99e6998ca56da5269177"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#aa268f4ed961c99e6998ca56da5269177">applyVariantFieldEdit</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html">Variants</a> &amp;vd, const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;lead, ptrdiff_t off, size_t sz, size_t variantIndex, bool editAll, bool isEditedZone)</td></tr>
+<tr class="separator:aa268f4ed961c99e6998ca56da5269177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a83acc0fcad65fa3559d67d9029e97a" id="r_a7a83acc0fcad65fa3559d67d9029e97a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a7a83acc0fcad65fa3559d67d9029e97a">clampVariantRegionToLength</a> (int64_t &amp;s, int64_t &amp;e, int64_t len)</td></tr>
 <tr class="separator:a7a83acc0fcad65fa3559d67d9029e97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85eaeb82aefe43ac24153d75a24e972c" id="r_a85eaeb82aefe43ac24153d75a24e972c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a85eaeb82aefe43ac24153d75a24e972c">canApplyChange</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">ChangeDimension</a> dim, int deltaX, int deltaY, const <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> &amp;kr, const <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> &amp;vr)</td></tr>
@@ -764,6 +768,56 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad52d3b37131ec67bb2760ff263eae6fd" name="ad52d3b37131ec67bb2760ff263eae6fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad52d3b37131ec67bb2760ff263eae6fd">&#9670;&#160;</a></span>copyVariantField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void copyVariantField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;&#160;</td>
+          <td class="paramname"><em>lead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t&#160;</td>
+          <td class="paramname"><em>off</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>sz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a672f4011c581a33ae7725a43b29729f3">Zone::applyVariantEdit()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa268f4ed961c99e6998ca56da5269177">Zone::applyVariantFieldEdit()</a>.</p>
+
+</div>
+</div>
 <a id="a672f4011c581a33ae7725a43b29729f3" name="a672f4011c581a33ae7725a43b29729f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a672f4011c581a33ae7725a43b29729f3">&#9670;&#160;</a></span>applyVariantEdit()</h2>
 
@@ -810,9 +864,79 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#aad3b3022f4dbe15ddc873b3bb91cbe4a">Zone::variantFieldCrossesVariants()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad52d3b37131ec67bb2760ff263eae6fd">Zone::copyVariantField()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#aad3b3022f4dbe15ddc873b3bb91cbe4a">Zone::variantFieldCrossesVariants()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#afa6aea89bd557bdfee7ccdfb33d66f63">VariantDisplay::propagateEditAll()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa268f4ed961c99e6998ca56da5269177">Zone::applyVariantFieldEdit()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#afa6aea89bd557bdfee7ccdfb33d66f63">VariantDisplay::propagateEditAll()</a>.</p>
+
+</div>
+</div>
+<a id="aa268f4ed961c99e6998ca56da5269177" name="aa268f4ed961c99e6998ca56da5269177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa268f4ed961c99e6998ca56da5269177">&#9670;&#160;</a></span>applyVariantFieldEdit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void applyVariantFieldEdit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html">Variants</a> &amp;&#160;</td>
+          <td class="paramname"><em>vd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;&#160;</td>
+          <td class="paramname"><em>lead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t&#160;</td>
+          <td class="paramname"><em>off</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>sz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>variantIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>editAll</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isEditedZone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a672f4011c581a33ae7725a43b29729f3">Zone::applyVariantEdit()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad52d3b37131ec67bb2760ff263eae6fd">Zone::copyVariantField()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aef8f213f20b2a44ec737da9d36960a24">Zone::maxVariantsPerZone</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1501010a3982891300771d62928db427">scxt::messaging::client::doUpdateVariantField()</a>.</p>
 
 </div>
 </div>
@@ -1804,7 +1928,7 @@ template&lt;bool OS&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a04fe82c41a6246ae1e1676c4c8107b11">MappingDisplay::filesDropped()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a94bc74bd81412cf9d6641ec73a97bdcd">MappingDisplay::itemDropped()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa268f4ed961c99e6998ca56da5269177">Zone::applyVariantFieldEdit()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a04fe82c41a6246ae1e1676c4c8107b11">MappingDisplay::filesDropped()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a94bc74bd81412cf9d6641ec73a97bdcd">MappingDisplay::itemDropped()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
 
 </div>
 </div>
@@ -2354,7 +2478,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 10 2026 19:31:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Aug 10 2026 21:08:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
