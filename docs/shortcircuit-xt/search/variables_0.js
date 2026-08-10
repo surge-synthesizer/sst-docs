@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['a',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A']]],
+  ['a_0',['a',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#a7d4a787d636d0214575bccf957672006',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::A'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'scxt::modulation::modulators::AdsrStorage::a']]],
   ['a1_1',['a1',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ModRow.html#a2b54e3f62db8fea62012df8bbccf81ed',1,'scxt::ui::app::edit_screen::ModRow']]],
   ['aatts_2',['aAtts',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#a30137acad6d1dd575bf750297b871f4b',1,'scxt::ui::app::edit_screen::AudioPane']]],
   ['aboutlinkicons_3',['aboutLinkIcons',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutScreen.html#a89c39ba838ec5dda4331031b65881bee',1,'scxt::ui::app::other_screens::AboutScreen']]],
