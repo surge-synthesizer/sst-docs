@@ -321,6 +321,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa268f4ed961c99e6998ca56da5269177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a83acc0fcad65fa3559d67d9029e97a" id="r_a7a83acc0fcad65fa3559d67d9029e97a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a7a83acc0fcad65fa3559d67d9029e97a">clampVariantRegionToLength</a> (int64_t &amp;s, int64_t &amp;e, int64_t len)</td></tr>
 <tr class="separator:a7a83acc0fcad65fa3559d67d9029e97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7443d302b13a483e97746b81e8ea3f61" id="r_a7443d302b13a483e97746b81e8ea3f61"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a7443d302b13a483e97746b81e8ea3f61">mappingFieldCrossesZones</a> (ptrdiff_t off, size_t sz)</td></tr>
+<tr class="separator:a7443d302b13a483e97746b81e8ea3f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85eaeb82aefe43ac24153d75a24e972c" id="r_a85eaeb82aefe43ac24153d75a24e972c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a85eaeb82aefe43ac24153d75a24e972c">canApplyChange</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">ChangeDimension</a> dim, int deltaX, int deltaY, const <a class="el" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a> &amp;kr, const <a class="el" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a> &amp;vr)</td></tr>
 <tr class="separator:a85eaeb82aefe43ac24153d75a24e972c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5212687c05b7bafc8637f8b140565bf" id="r_ae5212687c05b7bafc8637f8b140565bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#ae5212687c05b7bafc8637f8b140565bf">applyChange</a> (<a class="el" href="structscxt_1_1engine_1_1Zone.html#a73d22533beaf3158c34082c373082c8d">ChangeDimension</a> dim, int deltaX, int deltaY, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;md)</td></tr>
@@ -428,6 +430,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:aef8f213f20b2a44ec737da9d36960a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5ad0a0225a49178f4abb4fa714f6325" id="r_af5ad0a0225a49178f4abb4fa714f6325"><td class="memItemLeft" align="right" valign="top">static constexpr std::array&lt; size_t, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#af5ad0a0225a49178f4abb4fa714f6325">variantLeadOnlyOffsets</a></td></tr>
 <tr class="separator:af5ad0a0225a49178f4abb4fa714f6325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e815ee6d77280d62ec93ac37b82a85" id="r_ae4e815ee6d77280d62ec93ac37b82a85"><td class="memItemLeft" align="right" valign="top">static constexpr std::array&lt; std::pair&lt; size_t, size_t &gt;, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#ae4e815ee6d77280d62ec93ac37b82a85">mappingLeadOnlySpans</a></td></tr>
+<tr class="separator:ae4e815ee6d77280d62ec93ac37b82a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html">HasGroupZoneProcessors&lt; Zone &gt;</a></td></tr>
 <tr class="memitem:a0880008f9575b689000d0de71465e75e inherit pub_static_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors" id="r_a0880008f9575b689000d0de71465e75e"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a0880008f9575b689000d0de71465e75e">forGroup</a></td></tr>
 <tr class="separator:a0880008f9575b689000d0de71465e75e inherit pub_static_attribs_structscxt_1_1engine_1_1HasGroupZoneProcessors"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1270,6 +1274,44 @@ template&lt;bool OS&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>.</p>
+
+</div>
+</div>
+<a id="a7443d302b13a483e97746b81e8ea3f61" name="a7443d302b13a483e97746b81e8ea3f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7443d302b13a483e97746b81e8ea3f61">&#9670;&#160;</a></span>mappingFieldCrossesZones()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool mappingFieldCrossesZones </td>
+          <td>(</td>
+          <td class="paramtype">ptrdiff_t&#160;</td>
+          <td class="paramname"><em>off</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>sz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae4e815ee6d77280d62ec93ac37b82a85">Zone::mappingLeadOnlySpans</a>.</p>
 
 </div>
 </div>
@@ -2151,6 +2193,38 @@ template&lt;bool OS&gt; </div>
 
 </div>
 </div>
+<a id="ae4e815ee6d77280d62ec93ac37b82a85" name="ae4e815ee6d77280d62ec93ac37b82a85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e815ee6d77280d62ec93ac37b82a85">&#9670;&#160;</a></span>mappingLeadOnlySpans</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr std::array&lt;std::pair&lt;size_t, size_t&gt;, 3&gt; mappingLeadOnlySpans</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">        {{offsetof(ZoneMappingData, rootKey), <span class="keyword">sizeof</span>(<a class="code hl_variable" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">ZoneMappingData::rootKey</a>)},</div>
+<div class="line">         {offsetof(<a class="code hl_struct" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">ZoneMappingData</a>, keyboardRange), <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structscxt_1_1engine_1_1KeyboardRange.html">KeyboardRange</a>)},</div>
+<div class="line">         {offsetof(ZoneMappingData, velocityRange), <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a>)}}}</div>
+<div class="ttc" id="astructscxt_1_1engine_1_1KeyboardRange_html"><div class="ttname"><a href="structscxt_1_1engine_1_1KeyboardRange.html">scxt::engine::KeyboardRange</a></div><div class="ttdoc">A class representing a range of the keyboard with fade zones on either end.</div><div class="ttdef"><b>Definition</b> keyboard.h:42</div></div>
+<div class="ttc" id="astructscxt_1_1engine_1_1VelocityRange_html"><div class="ttname"><a href="structscxt_1_1engine_1_1VelocityRange.html">scxt::engine::VelocityRange</a></div><div class="ttdef"><b>Definition</b> keyboard.h:105</div></div>
+<div class="ttc" id="astructscxt_1_1engine_1_1Zone_1_1ZoneMappingData_html"><div class="ttname"><a href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">scxt::engine::Zone::ZoneMappingData</a></div><div class="ttdef"><b>Definition</b> zone.h:329</div></div>
+<div class="ttc" id="astructscxt_1_1engine_1_1Zone_1_1ZoneMappingData_html_a3e0aa359403df804e342d35f13a5e8c3"><div class="ttname"><a href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">scxt::engine::Zone::ZoneMappingData::rootKey</a></div><div class="ttdeci">int16_t rootKey</div><div class="ttdef"><b>Definition</b> zone.h:330</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a7443d302b13a483e97746b81e8ea3f61">Zone::mappingFieldCrossesZones()</a>.</p>
+
+</div>
+</div>
 <a id="a4ebb34eb7f7513c03184ddab21873511" name="a4ebb34eb7f7513c03184ddab21873511"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ebb34eb7f7513c03184ddab21873511">&#9670;&#160;</a></span>parentGroup</h2>
 
@@ -2478,7 +2552,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 10 2026 21:08:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Aug 11 2026 01:41:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
