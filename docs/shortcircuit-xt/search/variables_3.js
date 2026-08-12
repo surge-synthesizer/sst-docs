@@ -7,7 +7,7 @@ var searchData=
   ['data3_4',['Data3',['../structscxt_1_1sample_1_1loaders_1_1GUID.html#a9c9c134ce8f0f593a9f1a037dd4ebbe1',1,'scxt::sample::loaders::GUID']]],
   ['data4_5',['Data4',['../structscxt_1_1sample_1_1loaders_1_1GUID.html#a516477a59a02bb63a8d8fe969a622a8f',1,'scxt::sample::loaders::GUID']]],
   ['datalen_6',['dataLen',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a8c36bafae31033cc8a35f3239bc66dd9',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
-  ['datasize_7',['datasize',['../structscxt_1_1sample_1_1loaders_1_1riffheader.html#a7e1a0ea769d8bcfeb3ac0cdc17a20810',1,'scxt::sample::loaders::riffheader::datasize'],['../structscxt_1_1infrastructure_1_1posixImpl.html#a78f9703861dd365a513c2c5aab9f9239',1,'scxt::infrastructure::posixImpl::dataSize']]],
+  ['datasize_7',['datasize',['../structscxt_1_1infrastructure_1_1posixImpl.html#a78f9703861dd365a513c2c5aab9f9239',1,'scxt::infrastructure::posixImpl::dataSize'],['../structscxt_1_1sample_1_1loaders_1_1riffheader.html#a7e1a0ea769d8bcfeb3ac0cdc17a20810',1,'scxt::sample::loaders::riffheader::datasize']]],
   ['datasizelocation_8',['dataSizeLocation',['../structscxt_1_1patch__io_1_1riffwav_1_1RIFFWavWriter.html#a8fc12ba13ebc06029d27102268d28f1d',1,'scxt::patch_io::riffwav::RIFFWavWriter']]],
   ['dawextrastate_9',['dawExtraState',['../structscxt_1_1engine_1_1Engine.html#ad573fa07fc505832e4e8b4befabb297c',1,'scxt::engine::Engine']]],
   ['dbjobs_10',['dbJobs',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#ad1d376822eb5dc4e7799005dfdc6685f',1,'scxt::ui::app::browser_ui::BrowserPane']]],
