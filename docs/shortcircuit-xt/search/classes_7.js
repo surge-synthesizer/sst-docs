@@ -13,5 +13,6 @@ var searchData=
   ['hasmodulators_3c_20group_2c_20egspergroup_20_3e_10',['HasModulators&lt; Group, egsPerGroup &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
   ['hasmodulators_3c_20voice_2c_20egsperzone_20_3e_11',['HasModulators&lt; Voice, egsPerZone &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
   ['header_12',['Header',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html',1,'scxt::sfz_support::SFZParser']]],
-  ['headerregion_13',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html',1,'scxt::ui::app::shared']]]
+  ['headerregion_13',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html',1,'scxt::ui::app::shared']]],
+  ['heldnotes_14',['HeldNotes',['../structscxt_1_1engine_1_1HeldNotes.html',1,'scxt::engine']]]
 ];

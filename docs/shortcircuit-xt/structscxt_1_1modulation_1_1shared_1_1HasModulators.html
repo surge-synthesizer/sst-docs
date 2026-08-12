@@ -151,8 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad72c384b86f93d98770b5f947a9216c9" id="r_ad72c384b86f93d98770b5f947a9216c9"><td class="memTemplParams" colspan="2">template&lt;typename LFOEndpoint &gt; </td></tr>
 <tr class="memitem:ad72c384b86f93d98770b5f947a9216c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ad72c384b86f93d98770b5f947a9216c9">processLFOBlock</a> (int i, const <a class="el" href="structscxt_1_1modulation_1_1ModulatorStorage.html">modulation::ModulatorStorage</a> &amp;ms, bool gate, const sst::basic_blocks::modulators::Transport &amp;transport, sst::basic_blocks::dsp::RNG &amp;rng, const LFOEndpoint &amp;lp)</td></tr>
 <tr class="separator:ad72c384b86f93d98770b5f947a9216c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4d6521f1ac6ce80ea18ba885b94c435" id="r_af4d6521f1ac6ce80ea18ba885b94c435"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#af4d6521f1ac6ce80ea18ba885b94c435">getEnvSpecificGate</a> (bool keyGate, const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;adsr, ahdsrenv_t::Stage stage, bool samplePlaying=false)</td></tr>
-<tr class="separator:af4d6521f1ac6ce80ea18ba885b94c435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7568672d4836b8794d88ebc8c7c4983f" id="r_a7568672d4836b8794d88ebc8c7c4983f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7568672d4836b8794d88ebc8c7c4983f">getEnvSpecificGate</a> (bool keyGate, const <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html">modulation::modulators::AdsrStorage</a> &amp;adsr, ahdsrenv_t::Stage stage, bool samplePlaying=false, <a class="el" href="namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523">ReleaseGateSubstitution</a> sub=<a class="el" href="namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523ab50339a10e1de285ac99d4c3990b8693">ReleaseGateSubstitution::NONE</a>)</td></tr>
+<tr class="separator:a7568672d4836b8794d88ebc8c7c4983f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -728,12 +728,12 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 
 <p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1ca51f9170b78227011c2eeb24f30b0622f">AdsrStorage::GATED</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cae875b67b322212bf81da51e697bc4450">AdsrStorage::ONESHOT</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cafa66ba442f073c071229dcb2dc9199d0">AdsrStorage::SAMPLE_GATED</a>, and <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1caf39146b22588f4e75c00f4d1e43bf0a4">AdsrStorage::SEMI_GATED</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#af4d6521f1ac6ce80ea18ba885b94c435">HasModulators&lt; T, egsPerObject &gt;::getEnvSpecificGate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a7568672d4836b8794d88ebc8c7c4983f">HasModulators&lt; T, egsPerObject &gt;::getEnvSpecificGate()</a>.</p>
 
 </div>
 </div>
-<a id="af4d6521f1ac6ce80ea18ba885b94c435" name="af4d6521f1ac6ce80ea18ba885b94c435"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4d6521f1ac6ce80ea18ba885b94c435">&#9670;&#160;</a></span>getEnvSpecificGate()</h2>
+<a id="a7568672d4836b8794d88ebc8c7c4983f" name="a7568672d4836b8794d88ebc8c7c4983f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7568672d4836b8794d88ebc8c7c4983f">&#9670;&#160;</a></span>getEnvSpecificGate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -762,7 +762,13 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>samplePlaying</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>samplePlaying</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523">ReleaseGateSubstitution</a>&#160;</td>
+          <td class="paramname"><em>sub</em> = <code><a class="el" href="namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523ab50339a10e1de285ac99d4c3990b8693">ReleaseGateSubstitution::NONE</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -772,7 +778,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ab87a423636cf5f383510aaed10222bae">HasModulators&lt; T, egsPerObject &gt;::evaluateGate()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1shared_1_1HasModulators.html#ab87a423636cf5f383510aaed10222bae">HasModulators&lt; T, egsPerObject &gt;::evaluateGate()</a>, <a class="el" href="namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523ab50339a10e1de285ac99d4c3990b8693">scxt::modulation::shared::NONE</a>, and <a class="el" href="namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523afa66ba442f073c071229dcb2dc9199d0">scxt::modulation::shared::SAMPLE_GATED</a>.</p>
 
 </div>
 </div>
@@ -1143,7 +1149,7 @@ template&lt;typename T , size_t egsPerObject&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 12 2026 16:27:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Aug 12 2026 23:42:48 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

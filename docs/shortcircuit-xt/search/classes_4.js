@@ -18,7 +18,7 @@ var searchData=
   ['enqclientcallback_15',['EnQClientCallback',['../structscxt_1_1browser_1_1WriterWorker_1_1EnQClientCallback.html',1,'scxt::browser::WriterWorker']]],
   ['enqdebugmsg_16',['EnQDebugMsg',['../structscxt_1_1browser_1_1WriterWorker_1_1EnQDebugMsg.html',1,'scxt::browser::WriterWorker']]],
   ['enqsetup_17',['EnQSetup',['../structscxt_1_1browser_1_1WriterWorker_1_1EnQSetup.html',1,'scxt::browser::WriterWorker']]],
-  ['entry_18',['entry',['../structscxt_1_1undo_1_1GroupsRestoreItem_1_1Entry.html',1,'GroupsRestoreItem::Entry'],['../structscxt_1_1undo_1_1PartsStateItem_1_1Entry.html',1,'PartsStateItem::Entry']]],
+  ['entry_18',['entry',['../structscxt_1_1engine_1_1HeldNotes_1_1Entry.html',1,'HeldNotes::Entry'],['../structscxt_1_1undo_1_1GroupsRestoreItem_1_1Entry.html',1,'GroupsRestoreItem::Entry'],['../structscxt_1_1undo_1_1PartsStateItem_1_1Entry.html',1,'PartsStateItem::Entry']]],
   ['env_19',['Env',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Env.html',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
   ['envelopeargs_20',['EnvelopeArgs',['../structscxt_1_1import__support_1_1EnvelopeArgs.html',1,'scxt::import_support']]],
   ['envfollower_21',['EnvFollower',['../structscxt_1_1modulation_1_1modulators_1_1EnvFollower.html',1,'scxt::modulation::modulators']]],

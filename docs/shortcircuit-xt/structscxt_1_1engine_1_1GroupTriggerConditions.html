@@ -121,6 +121,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e9e69264ed14d682ebcb24f030fe1ba" id="r_a1e9e69264ed14d682ebcb24f030fe1ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions</a> ()</td></tr>
 <tr class="separator:a1e9e69264ed14d682ebcb24f030fe1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73a83da0d9e4ad06ed4034b2f6db03f" id="r_ad73a83da0d9e4ad06ed4034b2f6db03f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ad73a83da0d9e4ad06ed4034b2f6db03f">createsVoicesOnRelease</a> () const</td></tr>
+<tr class="separator:ad73a83da0d9e4ad06ed4034b2f6db03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7ea99b818e2992a8c9abf4de63e85d6" id="r_ad7ea99b818e2992a8c9abf4de63e85d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ad7ea99b818e2992a8c9abf4de63e85d6">inRoundRobin</a> () const</td></tr>
 <tr class="separator:ad7ea99b818e2992a8c9abf4de63e85d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5023e4bb12e409c6c26aa286104a3422" id="r_a5023e4bb12e409c6c26aa286104a3422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">setupOnUnstream</a> (<a class="el" href="structscxt_1_1engine_1_1GroupTriggerInstrumentState.html">GroupTriggerInstrumentState</a> &amp;)</td></tr>
@@ -151,6 +153,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abda13b12191d775aae7efc6e99cd4c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652414a89e705a43378458b3bf1ad498" id="r_a652414a89e705a43378458b3bf1ad498"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, scxt::triggerConditionsPerGroup &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">active</a> {}</td></tr>
 <tr class="separator:a652414a89e705a43378458b3bf1ad498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad309b76fdab831745f181085f2639e9e" id="r_ad309b76fdab831745f181085f2639e9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9d">VoiceCreationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ad309b76fdab831745f181085f2639e9e">voiceCreationMode</a> {<a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da2bf36759a2c4498f0f44fd09db37719c">VoiceCreationMode::ON_NOTE_ON</a>}</td></tr>
+<tr class="separator:ad309b76fdab831745f181085f2639e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0b386b3a47dc6c8c3f0af8bd4d66ed9" id="r_aa0b386b3a47dc6c8c3f0af8bd4d66ed9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aa0b386b3a47dc6c8c3f0af8bd4d66ed9">alwaysReturnsTrue</a> {true}</td></tr>
 <tr class="separator:aa0b386b3a47dc6c8c3f0af8bd4d66ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae61e71196ef40279e8e7bdc73adb1c0" id="r_aae61e71196ef40279e8e7bdc73adb1c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aae61e71196ef40279e8e7bdc73adb1c0">containsKeySwitchLatch</a> {false}</td></tr>
@@ -226,6 +230,27 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad73a83da0d9e4ad06ed4034b2f6db03f" name="ad73a83da0d9e4ad06ed4034b2f6db03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad73a83da0d9e4ad06ed4034b2f6db03f">&#9670;&#160;</a></span>createsVoicesOnRelease()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool createsVoicesOnRelease </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da9d539f8a1cd8cbc1449bc69d73b217c7">scxt::engine::ON_NOTE_OFF</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ad309b76fdab831745f181085f2639e9e">GroupTriggerConditions::voiceCreationMode</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ReleaseRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ReleaseRow::setupValuesFromData()</a>.</p>
+
+</div>
+</div>
 <a id="ad7ea99b818e2992a8c9abf4de63e85d6" name="ad7ea99b818e2992a8c9abf4de63e85d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7ea99b818e2992a8c9abf4de63e85d6">&#9670;&#160;</a></span>inRoundRobin()</h2>
 
@@ -603,6 +628,22 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad309b76fdab831745f181085f2639e9e" name="ad309b76fdab831745f181085f2639e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad309b76fdab831745f181085f2639e9e">&#9670;&#160;</a></span>voiceCreationMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9d">VoiceCreationMode</a> voiceCreationMode {<a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da2bf36759a2c4498f0f44fd09db37719c">VoiceCreationMode::ON_NOTE_ON</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ad73a83da0d9e4ad06ed4034b2f6db03f">GroupTriggerConditions::createsVoicesOnRelease()</a>.</p>
+
+</div>
+</div>
 <a id="aa0b386b3a47dc6c8c3f0af8bd4d66ed9" name="aa0b386b3a47dc6c8c3f0af8bd4d66ed9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0b386b3a47dc6c8c3f0af8bd4d66ed9">&#9670;&#160;</a></span>alwaysReturnsTrue</h2>
 
@@ -752,7 +793,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 12 2026 16:27:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Aug 12 2026 23:42:48 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

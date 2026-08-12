@@ -19,10 +19,11 @@ var searchData=
   ['hasunuseditems_16',['hasUnusedItems',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a76092e166ad28d872bf567805b33fa2b',1,'scxt::clients::console_ui::ConsoleUI']]],
   ['haswarnings_17',['hasWarnings',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html#a7a9075848ff4d23a8b2611acd75eb5e5',1,'scxt::clients::console_ui::ConsoleUI']]],
   ['headerregion_18',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a2c96b0935386c0e0676b2af06f035825',1,'scxt::ui::app::shared::HeaderRegion']]],
-  ['hexstring_19',['hexString',['../namespacescxt_1_1infrastructure.html#a7d1453fa84137dd3e6981af66ebcd7dc',1,'scxt::infrastructure']]],
-  ['hidepartblurbtooltip_20',['hidePartBlurbTooltip',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a903720eb3d4f40d52c10c4dc8b144981',1,'scxt::ui::app::shared::PartSidebarCard']]],
-  ['hidetooltip_21',['hideTooltip',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f',1,'scxt::ui::app::SCXTEditor']]],
-  ['holda_22',['holdA',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a9009da045d9b8ef467cc3b6d3caaeaab',1,'scxt::modulation::shared::EGTargetEndpointData']]],
-  ['holdingsuppressesplay_23',['holdingsuppressesplay',['../structscxt_1_1engine_1_1GroupTrigger.html#ac91e216f8c5d3a0d6bd31d93e6c35384',1,'scxt::engine::GroupTrigger::holdingSuppressesPlay()'],['../structscxt_1_1engine_1_1GTKeyswitchLatch.html#a06bd78f5b8a7dd3e353eb96913b92695',1,'scxt::engine::GTKeyswitchLatch::holdingSuppressesPlay()']]],
-  ['humanreadableversion_24',['humanReadableVersion',['../namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158',1,'scxt']]]
+  ['heldcount_19',['heldCount',['../structscxt_1_1engine_1_1HeldNotes.html#aa00776aaab61175da509e5f28a78dc02',1,'scxt::engine::HeldNotes']]],
+  ['hexstring_20',['hexString',['../namespacescxt_1_1infrastructure.html#a7d1453fa84137dd3e6981af66ebcd7dc',1,'scxt::infrastructure']]],
+  ['hidepartblurbtooltip_21',['hidePartBlurbTooltip',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a903720eb3d4f40d52c10c4dc8b144981',1,'scxt::ui::app::shared::PartSidebarCard']]],
+  ['hidetooltip_22',['hideTooltip',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f',1,'scxt::ui::app::SCXTEditor']]],
+  ['holda_23',['holdA',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a9009da045d9b8ef467cc3b6d3caaeaab',1,'scxt::modulation::shared::EGTargetEndpointData']]],
+  ['holdingsuppressesplay_24',['holdingsuppressesplay',['../structscxt_1_1engine_1_1GroupTrigger.html#ac91e216f8c5d3a0d6bd31d93e6c35384',1,'scxt::engine::GroupTrigger::holdingSuppressesPlay()'],['../structscxt_1_1engine_1_1GTKeyswitchLatch.html#a06bd78f5b8a7dd3e353eb96913b92695',1,'scxt::engine::GTKeyswitchLatch::holdingSuppressesPlay()']]],
+  ['humanreadableversion_25',['humanReadableVersion',['../namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158',1,'scxt']]]
 ];
