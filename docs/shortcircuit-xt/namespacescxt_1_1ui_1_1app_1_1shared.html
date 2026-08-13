@@ -142,6 +142,12 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ad781c424a8b7b79fb7aa8380361cd795" id="r_ad781c424a8b7b79fb7aa8380361cd795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#ad781c424a8b7b79fb7aa8380361cd795">promptForMultiInstrument</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *editor, const std::vector&lt; <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &gt; &amp;inst, std::function&lt; void(const <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &amp;)&gt; onSelected)</td></tr>
 <tr class="separator:ad781c424a8b7b79fb7aa8380361cd795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69cfe8942708573b529ed8f45c73067d" id="r_a69cfe8942708573b529ed8f45c73067d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a69cfe8942708573b529ed8f45c73067d"><td class="memTemplItemLeft" align="right" valign="top">juce::File&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a69cfe8942708573b529ed8f45c73067d">lastSaveDirectory</a> (T *that)</td></tr>
+<tr class="separator:a69cfe8942708573b529ed8f45c73067d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4c265323ba580caede2471d1cc625a" id="r_a3c4c265323ba580caede2471d1cc625a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3c4c265323ba580caede2471d1cc625a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a3c4c265323ba580caede2471d1cc625a">rememberSaveDirectory</a> (T *that, const juce::File &amp;result)</td></tr>
+<tr class="separator:a3c4c265323ba580caede2471d1cc625a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a170cd1eabba6af9a7c70be1a80075a18" id="r_a170cd1eabba6af9a7c70be1a80075a18"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a170cd1eabba6af9a7c70be1a80075a18"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18">doSaveMulti</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fileChooser, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">patch_io::SaveStyles</a> style)</td></tr>
 <tr class="separator:a170cd1eabba6af9a7c70be1a80075a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,6 +222,64 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a69cfe8942708573b529ed8f45c73067d" name="a69cfe8942708573b529ed8f45c73067d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69cfe8942708573b529ed8f45c73067d">&#9670;&#160;</a></span>lastSaveDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">juce::File lastSaveDirectory </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>that</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#af4bc6e999b0fe8a6118cdff7fb28fab5">fsPathToJuceFile()</a>, and <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a61461d191472aa4fac40b9fd85773b57">scxt::infrastructure::lastSavedPath</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18">doSaveMulti()</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a809d7f072c4adc448b05eceaaa7ec9e8">doSavePart()</a>.</p>
+
+</div>
+</div>
+<a id="a3c4c265323ba580caede2471d1cc625a" name="a3c4c265323ba580caede2471d1cc625a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c4c265323ba580caede2471d1cc625a">&#9670;&#160;</a></span>rememberSaveDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void rememberSaveDirectory </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>that</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const juce::File &amp;&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath()</a>, and <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a61461d191472aa4fac40b9fd85773b57">scxt::infrastructure::lastSavedPath</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18">doSaveMulti()</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a809d7f072c4adc448b05eceaaa7ec9e8">doSavePart()</a>.</p>
+
+</div>
+</div>
 <a id="a170cd1eabba6af9a7c70be1a80075a18" name="a170cd1eabba6af9a7c70be1a80075a18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a170cd1eabba6af9a7c70be1a80075a18">&#9670;&#160;</a></span>doSaveMulti()</h2>
 
@@ -250,7 +314,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac">scxt::patch_io::AS_SFZ</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">scxt::patch_io::ONLY_COLLECT</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac">scxt::patch_io::AS_SFZ</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a69cfe8942708573b529ed8f45c73067d">lastSaveDirectory()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">scxt::patch_io::ONLY_COLLECT</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a3c4c265323ba580caede2471d1cc625a">rememberSaveDirectory()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a7ffc71ecacd5457f47ac5988265aef5e">HeaderRegion::doSaveMulti()</a>.</p>
 
@@ -330,7 +394,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac">scxt::patch_io::AS_SFZ</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath()</a>, and <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">scxt::patch_io::ONLY_COLLECT</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324a4879f0992f680b85c30c6c229ca5abac">scxt::patch_io::AS_SFZ</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#acc5181bc32712831b347f466796a3880">juceFileToFSPath()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a69cfe8942708573b529ed8f45c73067d">lastSaveDirectory()</a>, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e">scxt::patch_io::ONLY_COLLECT</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a3c4c265323ba580caede2471d1cc625a">rememberSaveDirectory()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a13cf240df04dba9e2992f210eb77fcac">HeaderRegion::doSaveSelectedPart()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#ad038cb3a783bfa091ac270ac8a1f8c8d">PartSidebarCard::showPartIOMenu()</a>.</p>
 
@@ -526,7 +590,7 @@ template&lt;typename T &gt; </div>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a405af9cfb769cdb2565027c3010ce00a">juceStringToFSPath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1other__screens_1_1TuningScreen.html#abc354fd04979a7acc6bfd912f291f5a3">TuningScreen::doLoad()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a4b1921820b90a4dd945bbf198aac5a1c">doLoadMulti()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a119a7a4adac34187ec0970c74867bcb9">doLoadPartInto()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18">doSaveMulti()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a809d7f072c4adc448b05eceaaa7ec9e8">doSavePart()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a346b1981e17628ab5248d1d20261b14b">MissingResolutionScreen::resolveItem()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#aa0b85af9d1203458c31986770eb8cb37">DriveArea::DriveAreaRow::showPopup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1other__screens_1_1TuningScreen.html#abc354fd04979a7acc6bfd912f291f5a3">TuningScreen::doLoad()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a4b1921820b90a4dd945bbf198aac5a1c">doLoadMulti()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a119a7a4adac34187ec0970c74867bcb9">doLoadPartInto()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a170cd1eabba6af9a7c70be1a80075a18">doSaveMulti()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a809d7f072c4adc448b05eceaaa7ec9e8">doSavePart()</a>, <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a3c4c265323ba580caede2471d1cc625a">rememberSaveDirectory()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1missing__resolution_1_1MissingResolutionScreen.html#a346b1981e17628ab5248d1d20261b14b">MissingResolutionScreen::resolveItem()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html#aa0b85af9d1203458c31986770eb8cb37">DriveArea::DriveAreaRow::showPopup()</a>.</p>
 
 </div>
 </div>
@@ -546,7 +610,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a5593ee2fe26ca21a44d2eef06eb967e9">VariantDisplay::showFileBrowser()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a69cfe8942708573b529ed8f45c73067d">lastSaveDirectory()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a5593ee2fe26ca21a44d2eef06eb967e9">VariantDisplay::showFileBrowser()</a>.</p>
 
 </div>
 </div>
@@ -701,7 +765,7 @@ template&lt;typename SendingComp &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 13 2026 14:50:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Aug 13 2026 14:51:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
