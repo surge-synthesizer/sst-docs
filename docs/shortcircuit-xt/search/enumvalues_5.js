@@ -37,5 +37,8 @@ var searchData=
   ['forward_5frr_34',['FORWARD_RR',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a25b562d272135e58643d31d78aaf8792',1,'scxt::engine::Zone']]],
   ['four_5ffour_5fmix_35',['FOUR_FOUR_MIX',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html#a7648fc5b59ca02797e5d3d876e21b989a93dd0ced643f6bb636bbb7c74614baaf',1,'scxt::messaging::audio::SerializationToAudio']]],
   ['from_5fend_36',['FROM_END',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150afa6d2b748d0a871eac569731b2f01181',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['from_5fstart_37',['FROM_START',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150a544c7456916ea221e663f9125c3a7aab',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]]
+  ['from_5fstart_37',['FROM_START',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#aaaaa58f0f8a711ea0fb0b16dfed26150a544c7456916ea221e663f9125c3a7aab',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['fx_5fcopy_38',['fx_copy',['../namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba41130a49c37728743cb2e7d70b5706af',1,'scxt::messaging::client']]],
+  ['fx_5fmove_39',['fx_move',['../namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba123e4aaf3c4002fdb9a6b97a721d81fa',1,'scxt::messaging::client']]],
+  ['fx_5fswap_40',['fx_swap',['../namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c',1,'scxt::messaging::client']]]
 ];

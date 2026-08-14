@@ -463,6 +463,11 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a544ff326ddd6908ee4f7c19e8ba2a99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8bf079b2b711a25e41a648ad9dd0ab" id="r_a3d8bf079b2b711a25e41a648ad9dd0ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0ab">FXSlotDragAction</a> : int16_t { <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c">fx_swap</a> = 0
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba123e4aaf3c4002fdb9a6b97a721d81fa">fx_move</a> = 1
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba41130a49c37728743cb2e7d70b5706af">fx_copy</a> = 2
+ }</td></tr>
+<tr class="separator:a3d8bf079b2b711a25e41a648ad9dd0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa431d89caf65910b25049ece6b702420" id="r_aa431d89caf65910b25049ece6b702420"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420">ReportItemSeverity</a> : int { <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420a7c600d44be78a924edee8db9bbce7bdf">Severity_Error</a> = 0
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420afb69de7aebe35e887ebabd383f45e1b8">Severity_Warning</a> = 1
 , <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa431d89caf65910b25049ece6b702420a114266b09e45248ca3afde3b1dac2adc">Severity_Info</a> = 2
@@ -519,6 +524,8 @@ Functions</h2></td></tr>
 <tr class="separator:a00afa73d0895c467f3e7d6b70a3a488c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6ba64551c5a1131a53b20c5311cf529" id="r_ad6ba64551c5a1131a53b20c5311cf529"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ad6ba64551c5a1131a53b20c5311cf529">cacheSerializationMessagesAbsentClient</a> (<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99b">SerializationToClientMessageIds</a> id)</td></tr>
 <tr class="separator:ad6ba64551c5a1131a53b20c5311cf529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78220821df01bfe530c2347ec3b26b0e" id="r_a78220821df01bfe530c2347ec3b26b0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a78220821df01bfe530c2347ec3b26b0e">isValidFXSlotDragAction</a> (int16_t a)</td></tr>
+<tr class="separator:a78220821df01bfe530c2347ec3b26b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea96d995030b1394e47e9fc2a02d23c6" id="r_aea96d995030b1394e47e9fc2a02d23c6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aea96d995030b1394e47e9fc2a02d23c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">clientSendToSerialization</a> (const T &amp;message, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;mc)</td></tr>
 <tr class="separator:aea96d995030b1394e47e9fc2a02d23c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2127,6 +2134,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a3d8bf079b2b711a25e41a648ad9dd0ab" name="a3d8bf079b2b711a25e41a648ad9dd0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8bf079b2b711a25e41a648ad9dd0ab">&#9670;&#160;</a></span>FXSlotDragAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0ab">FXSlotDragAction</a> : int16_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c" name="a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c"></a>fx_swap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d8bf079b2b711a25e41a648ad9dd0aba123e4aaf3c4002fdb9a6b97a721d81fa" name="a3d8bf079b2b711a25e41a648ad9dd0aba123e4aaf3c4002fdb9a6b97a721d81fa"></a>fx_move&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3d8bf079b2b711a25e41a648ad9dd0aba41130a49c37728743cb2e7d70b5706af" name="a3d8bf079b2b711a25e41a648ad9dd0aba41130a49c37728743cb2e7d70b5706af"></a>fx_copy&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="aa431d89caf65910b25049ece6b702420" name="aa431d89caf65910b25049ece6b702420"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa431d89caf65910b25049ece6b702420">&#9670;&#160;</a></span>ReportItemSeverity</h2>
 
@@ -2655,6 +2681,28 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99baba133a40bbaec2220169b6d81418631b">s2c_report_error</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99babdd0ab534bed29eaaca7a6ecc2c4d660">s2c_report_unused_items</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">serializationSendToClient()</a>.</p>
+
+</div>
+</div>
+<a id="a78220821df01bfe530c2347ec3b26b0e" name="a78220821df01bfe530c2347ec3b26b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78220821df01bfe530c2347ec3b26b0e">&#9670;&#160;</a></span>isValidFXSlotDragAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isValidFXSlotDragAction </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba41130a49c37728743cb2e7d70b5706af">fx_copy</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c">fx_swap</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a177a6387375ab9a77d57205be516348d">doBusSwapFX()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a550518f39d21150688b540244336f4c9">doPartSwapFX()</a>.</p>
 
 </div>
 </div>
@@ -6390,7 +6438,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, and <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba123e4aaf3c4002fdb9a6b97a721d81fa">fx_move</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c">fx_swap</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a78220821df01bfe530c2347ec3b26b0e">isValidFXSlotDragAction()</a>, <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 </div>
 </div>
@@ -7408,7 +7456,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, and <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0aba123e4aaf3c4002fdb9a6b97a721d81fa">fx_move</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a3d8bf079b2b711a25e41a648ad9dd0abac4aa9f27436f4bde856dc28dd54aa65c">fx_swap</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a78220821df01bfe530c2347ec3b26b0e">isValidFXSlotDragAction()</a>, <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 </div>
 </div>
@@ -11897,7 +11945,7 @@ template&lt;template&lt; typename... &gt; class... Transformers, template&lt; ty
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 14 2026 14:20:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Aug 14 2026 19:27:32 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
