@@ -116,15 +116,12 @@ Enumerations</h2></td></tr>
 <tr class="memitem:aa974023fde004b7cc772017b25d663ee" id="r_aa974023fde004b7cc772017b25d663ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663ee">AudioToSerializationMessageId</a> { <br />
 &#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeac8f1aafc39c9defe3850f070e3cf27f6">a2s_none</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeac7ac4e70759b346c0a57955460f35a2b">a2s_pointer_complete</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea43ade2b659c91e38f005edad49bd544f">a2s_note_on</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeab6cb8569dd553e4decf5de15f6a459ae">a2s_note_off</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea02b54a675f0a2e364a0989a8967947e7">a2s_structure_refresh</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea02b54a675f0a2e364a0989a8967947e7">a2s_structure_refresh</a>
 , <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea0a910c1193018ce85a098e91ea280cab">a2s_processor_refresh</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeafab4a8c21e1cd6439a9210f18bde8e32">a2s_macro_updated</a>
-, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea9d1f082dc69ddbe20757f3f74ce31380">a2s_delete_this_pointer</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea048e03647a42bc8e9399b401bbf2736f">a2s_schedule_sample_purge</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeafab4a8c21e1cd6439a9210f18bde8e32">a2s_macro_updated</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea9d1f082dc69ddbe20757f3f74ce31380">a2s_delete_this_pointer</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea048e03647a42bc8e9399b401bbf2736f">a2s_schedule_sample_purge</a>
 <br />
  }</td></tr>
 <tr class="memdesc:aa974023fde004b7cc772017b25d663ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">We need fixed size data structures to communicate audio &lt;&gt; serialization thread basically.  <a href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663ee">More...</a><br /></td></tr>
@@ -146,8 +143,6 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a9b42ad7012b3b30e6947a97f8112e4f1" id="r_a9b42ad7012b3b30e6947a97f8112e4f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1audio.html#a9b42ad7012b3b30e6947a97f8112e4f1">sendStructureRefresh</a> (<a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;mc)</td></tr>
 <tr class="separator:a9b42ad7012b3b30e6947a97f8112e4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4904de23404433a4757fdf1e7d6d8522" id="r_a4904de23404433a4757fdf1e7d6d8522"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1audio.html#a4904de23404433a4757fdf1e7d6d8522">sendVoiceState</a> (uint32_t voiceCount, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;mc)</td></tr>
-<tr class="separator:a4904de23404433a4757fdf1e7d6d8522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace93ed027e867dc0310f78814ff0e303" id="r_ace93ed027e867dc0310f78814ff0e303"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1audio.html#ace93ed027e867dc0310f78814ff0e303">toDebugString</a> (const <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html">AudioToSerialization</a> &amp;a)</td></tr>
 <tr class="separator:ace93ed027e867dc0310f78814ff0e303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -168,8 +163,6 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eeac8f1aafc39c9defe3850f070e3cf27f6" name="aa974023fde004b7cc772017b25d663eeac8f1aafc39c9defe3850f070e3cf27f6"></a>a2s_none&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eeac7ac4e70759b346c0a57955460f35a2b" name="aa974023fde004b7cc772017b25d663eeac7ac4e70759b346c0a57955460f35a2b"></a>a2s_pointer_complete&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eea43ade2b659c91e38f005edad49bd544f" name="aa974023fde004b7cc772017b25d663eea43ade2b659c91e38f005edad49bd544f"></a>a2s_note_on&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eeab6cb8569dd553e4decf5de15f6a459ae" name="aa974023fde004b7cc772017b25d663eeab6cb8569dd553e4decf5de15f6a459ae"></a>a2s_note_off&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eea02b54a675f0a2e364a0989a8967947e7" name="aa974023fde004b7cc772017b25d663eea02b54a675f0a2e364a0989a8967947e7"></a>a2s_structure_refresh&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eea0a910c1193018ce85a098e91ea280cab" name="aa974023fde004b7cc772017b25d663eea0a910c1193018ce85a098e91ea280cab"></a>a2s_processor_refresh&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa974023fde004b7cc772017b25d663eeafab4a8c21e1cd6439a9210f18bde8e32" name="aa974023fde004b7cc772017b25d663eeafab4a8c21e1cd6439a9210f18bde8e32"></a>a2s_macro_updated&#160;</td><td class="fielddoc"></td></tr>
@@ -225,34 +218,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4904de23404433a4757fdf1e7d6d8522" name="a4904de23404433a4757fdf1e7d6d8522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4904de23404433a4757fdf1e7d6d8522">&#9670;&#160;</a></span>sendVoiceState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sendVoiceState </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>voiceCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;&#160;</td>
-          <td class="paramname"><em>mc</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ace93ed027e867dc0310f78814ff0e303" name="ace93ed027e867dc0310f78814ff0e303"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace93ed027e867dc0310f78814ff0e303">&#9670;&#160;</a></span>toDebugString()</h2>
 
@@ -276,7 +241,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 13 2026 14:51:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Aug 14 2026 14:20:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
