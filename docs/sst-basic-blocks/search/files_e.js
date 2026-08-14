@@ -9,5 +9,6 @@ var searchData=
   ['smoothingstrategies_2eh_6',['SmoothingStrategies.h',['../SmoothingStrategies_8h.html',1,'']]],
   ['specialfunctions_2eh_7',['SpecialFunctions.h',['../SpecialFunctions_8h.html',1,'']]],
   ['ssesincdelayline_2eh_8',['SSESincDelayLine.h',['../SSESincDelayLine_8h.html',1,'']]],
-  ['steplfo_2eh_9',['StepLFO.h',['../StepLFO_8h.html',1,'']]]
+  ['steplfo_2eh_9',['StepLFO.h',['../StepLFO_8h.html',1,'']]],
+  ['string_2dops_2eh_10',['string-ops.h',['../string-ops_8h.html',1,'']]]
 ];

@@ -21,10 +21,11 @@ var searchData=
   ['temposyncmultiplier_18',['temposyncMultiplier',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aacc2be91b3d493c517730c5556b5dd87',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['temposyncratio_19',['temposyncratio',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#a4598e24cddbe43f19072975b5e0287b9',1,'sst::basic_blocks::modulators::AHDSRShapedSC::temposyncRatio'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAREnvelope.html#a4598e24cddbe43f19072975b5e0287b9',1,'sst::basic_blocks::modulators::DAREnvelope::temposyncRatio']]],
   ['temposynczerostage_20',['temposyncZeroStage',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa880bc4eee90417cc9118fbdd4d7a26e',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['timeinbeats_21',['timeInBeats',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#aeb002722b3112ec2e884accf27e57e2d',1,'sst::basic_blocks::modulators::Transport']]],
-  ['timeinseconds_22',['timeInSeconds',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a83066f9ec05f51a4733de0f52d94e188',1,'sst::basic_blocks::modulators::Transport']]],
-  ['tsval_23',['tsVal',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a9de8f7139f03930056e6a99e79773bb6',1,'sst::basic_blocks::modulators::StepLFO']]],
-  ['tuning_24',['tuning',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a721fbb6c4c11d40c66d407f27119a18f',1,'sst::basic_blocks::modulators::StepLFO']]],
-  ['tuning_5ftable_5fsize_25',['tuning_table_size',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ab77588be22fd841d5320d831fd4856d2',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
-  ['type_26',['type',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ac765329451135abec74c45e1897abf26',1,'sst::basic_blocks::dsp::CharacterFilter']]]
+  ['thousands_21',['thousands',['../structsst_1_1basic__blocks_1_1mechanics_1_1SeparatorConventions.html#ab9a6fc977e35d5d464d77a39ae8ade80',1,'sst::basic_blocks::mechanics::SeparatorConventions']]],
+  ['timeinbeats_22',['timeInBeats',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#aeb002722b3112ec2e884accf27e57e2d',1,'sst::basic_blocks::modulators::Transport']]],
+  ['timeinseconds_23',['timeInSeconds',['../structsst_1_1basic__blocks_1_1modulators_1_1Transport.html#a83066f9ec05f51a4733de0f52d94e188',1,'sst::basic_blocks::modulators::Transport']]],
+  ['tsval_24',['tsVal',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a9de8f7139f03930056e6a99e79773bb6',1,'sst::basic_blocks::modulators::StepLFO']]],
+  ['tuning_25',['tuning',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a721fbb6c4c11d40c66d407f27119a18f',1,'sst::basic_blocks::modulators::StepLFO']]],
+  ['tuning_5ftable_5fsize_26',['tuning_table_size',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ab77588be22fd841d5320d831fd4856d2',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
+  ['type_27',['type',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#ac765329451135abec74c45e1897abf26',1,'sst::basic_blocks::dsp::CharacterFilter']]]
 ];

@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['naturaltonormalized01_0',['naturalToNormalized01',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa664d72ff005718793d322f12ee69891',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['newvalue_1',['newvalue',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::lipol::newValue()'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::SurgeLag::newValue()']]],
-  ['next_2',['next',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#ab2f3c1e9abe108c7c107a29a44514920',1,'sst::basic_blocks::dsp::DriftLFO']]],
-  ['nextquadvalueinblock_3',['nextQuadValueInBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a38f81a67238a42ac1753f27857aae33c',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['nextquadvalueinblocksse_4',['nextQuadValueInBlockSSE',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#ab3a3a07d98e2de11d5a34a4b55bdfc00',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['nextstereovalueinblock_5',['nextStereoValueInBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['nextvalueinblock_6',['nextValueInBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72',1,'sst::basic_blocks::modulators::FXModControl']]],
-  ['norm_7',['norm',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a8379d716df95c91bf2085364e86c543a',1,'sst::basic_blocks::dsp::RNG']]],
-  ['normalized01tonatural_8',['normalized01ToNatural',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac536f12f0d03bea1e1da5ede73005caa',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['normpm1_9',['normPM1',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a6490d43df4c3f0f2edc3a85a710e42c5',1,'sst::basic_blocks::dsp::RNG']]],
-  ['note_10',['note',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a5962cb99b901d2788e06aeffb4fe1fb5',1,'sst::basic_blocks::tables::temposync::Note::Note()=default'],['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#af013f8363a6c433730fdd157742463f4',1,'sst::basic_blocks::tables::temposync::Note::Note(int e, Modifier m)']]],
-  ['note_5fto_5fpitch_11',['note_to_pitch',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ac42279f0cab3467cbf3dcc00ae034904',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
-  ['notenametonotenumber_12',['noteNameToNoteNumber',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1df90820bff80a3d5957d02365405ab7',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['nativeconventions_0',['nativeConventions',['../namespacesst_1_1basic__blocks_1_1mechanics_1_1detail.html#afdf7da9349c43311f600fdc81b79eafa',1,'sst::basic_blocks::mechanics::detail']]],
+  ['naturaltonormalized01_1',['naturalToNormalized01',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#aa664d72ff005718793d322f12ee69891',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['newvalue_2',['newvalue',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::lipol::newValue()'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html#a05c440d6b9a0872f1e1f91e8b1c2fd8d',1,'sst::basic_blocks::dsp::SurgeLag::newValue()']]],
+  ['next_3',['next',['../structsst_1_1basic__blocks_1_1dsp_1_1DriftLFO.html#ab2f3c1e9abe108c7c107a29a44514920',1,'sst::basic_blocks::dsp::DriftLFO']]],
+  ['nextquadvalueinblock_4',['nextQuadValueInBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a38f81a67238a42ac1753f27857aae33c',1,'sst::basic_blocks::modulators::FXModControl']]],
+  ['nextquadvalueinblocksse_5',['nextQuadValueInBlockSSE',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#ab3a3a07d98e2de11d5a34a4b55bdfc00',1,'sst::basic_blocks::modulators::FXModControl']]],
+  ['nextstereovalueinblock_6',['nextStereoValueInBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a0c42a3b99e60fa02f631e11eb50b700c',1,'sst::basic_blocks::modulators::FXModControl']]],
+  ['nextvalueinblock_7',['nextValueInBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#adcb961551844d16e661560eac8387a72',1,'sst::basic_blocks::modulators::FXModControl']]],
+  ['norm_8',['norm',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a8379d716df95c91bf2085364e86c543a',1,'sst::basic_blocks::dsp::RNG']]],
+  ['normalized01tonatural_9',['normalized01ToNatural',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ac536f12f0d03bea1e1da5ede73005caa',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['normpm1_10',['normPM1',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a6490d43df4c3f0f2edc3a85a710e42c5',1,'sst::basic_blocks::dsp::RNG']]],
+  ['note_11',['note',['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#a5962cb99b901d2788e06aeffb4fe1fb5',1,'sst::basic_blocks::tables::temposync::Note::Note()=default'],['../structsst_1_1basic__blocks_1_1tables_1_1temposync_1_1Note.html#af013f8363a6c433730fdd157742463f4',1,'sst::basic_blocks::tables::temposync::Note::Note(int e, Modifier m)']]],
+  ['note_5fto_5fpitch_12',['note_to_pitch',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html#ac42279f0cab3467cbf3dcc00ae034904',1,'sst::basic_blocks::tables::EqualTuningProvider']]],
+  ['notenametonotenumber_13',['noteNameToNoteNumber',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1df90820bff80a3d5957d02365405ab7',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
