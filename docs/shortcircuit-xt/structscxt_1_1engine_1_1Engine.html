@@ -421,8 +421,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a96b989bf1cfed06d1649d8f09644acf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a507c2ea95864633e880d69db1ad30d94" id="r_a507c2ea95864633e880d69db1ad30d94"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a507c2ea95864633e880d69db1ad30d94">nextVoiceCreationId</a> {1}</td></tr>
 <tr class="separator:a507c2ea95864633e880d69db1ad30d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5af5c76f8de2060bc2a6f787e69d323" id="r_ab5af5c76f8de2060bc2a6f787e69d323"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab5af5c76f8de2060bc2a6f787e69d323">voiceAlternate</a> {false}</td></tr>
-<tr class="separator:ab5af5c76f8de2060bc2a6f787e69d323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc9622183f6f81e81dfa8d15dd616072" id="r_acc9622183f6f81e81dfa8d15dd616072"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#acc9622183f6f81e81dfa8d15dd616072">voiceAlternateCounter</a> {0}</td></tr>
+<tr class="separator:acc9622183f6f81e81dfa8d15dd616072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d7bb6ab097f1dbb2cd9aec01cef2986" id="r_a6d7bb6ab097f1dbb2cd9aec01cef2986"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1voice_1_1PreviewVoice.html">voice::PreviewVoice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">previewVoice</a></td></tr>
 <tr class="separator:a6d7bb6ab097f1dbb2cd9aec01cef2986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a424378c67892695a5132577f1d62c39d" id="r_a424378c67892695a5132577f1d62c39d"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d">modifyStructureMutex</a></td></tr>
@@ -483,6 +483,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:abb7d09c37d516b4927372787adb49944" id="r_abb7d09c37d516b4927372787adb49944"><td class="memItemLeft" align="right" valign="top">static constexpr int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#abb7d09c37d516b4927372787adb49944">voiceAlternateCycle</a> {6}</td></tr>
+<tr class="separator:abb7d09c37d516b4927372787adb49944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8920c60f8387f751a912efee95fb4040" id="r_a8920c60f8387f751a912efee95fb4040"><td class="memItemLeft" align="right" valign="top">static thread_local bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a8920c60f8387f751a912efee95fb4040">isFullEngineUnstream</a> {false}</td></tr>
 <tr class="separator:a8920c60f8387f751a912efee95fb4040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab27d5bfdcc698690a1e20eed44f08a1e" id="r_ab27d5bfdcc698690a1e20eed44f08a1e"><td class="memItemLeft" align="right" valign="top">static thread_local <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197">StreamReason</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab27d5bfdcc698690a1e20eed44f08a1e">streamReason</a> {<a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a54cd67a1b8e9f285cac7720057e93288">StreamReason::IN_PROCESS</a>}</td></tr>
@@ -2989,16 +2991,40 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab5af5c76f8de2060bc2a6f787e69d323" name="ab5af5c76f8de2060bc2a6f787e69d323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5af5c76f8de2060bc2a6f787e69d323">&#9670;&#160;</a></span>voiceAlternate</h2>
+<a id="acc9622183f6f81e81dfa8d15dd616072" name="acc9622183f6f81e81dfa8d15dd616072"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9622183f6f81e81dfa8d15dd616072">&#9670;&#160;</a></span>voiceAlternateCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool voiceAlternate {false}</td>
+          <td class="memname">int32_t voiceAlternateCounter {0}</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>.</p>
+
+</div>
+</div>
+<a id="abb7d09c37d516b4927372787adb49944" name="abb7d09c37d516b4927372787adb49944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb7d09c37d516b4927372787adb49944">&#9670;&#160;</a></span>voiceAlternateCycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int32_t voiceAlternateCycle {6}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>.</p>
@@ -3428,7 +3454,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 8 2026 22:19:29 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 11 2026 02:33:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
