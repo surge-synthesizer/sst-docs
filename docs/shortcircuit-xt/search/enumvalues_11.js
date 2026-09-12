@@ -6,8 +6,12 @@ var searchData=
   ['transpose_3',['TRANSPOSE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2af2298dd538e1d707988cbcdc0810707e',1,'scxt::exs_support']]],
   ['treemonster_4',['treemonster',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a88e96a14510666fa91f396febeaa0ef9',1,'scxt::engine']]],
   ['triplet_5',['TRIPLET',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca8ed5354b5f84d917a635cff44d414e4c',1,'scxt::modulation::modulators::PhasorStorage']]],
-  ['true_5frandom_6',['TRUE_RANDOM',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a6deb1c96c47d5c476bde70203a08f5ac',1,'scxt::engine::Zone']]],
-  ['tune_7',['tune',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa376efa6acf22da44967294ac3dd6c048',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
-  ['tuning_8',['TUNING',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a2041c953e2505185f31b2e4f74545853',1,'scxt::voice::Voice']]],
-  ['twelve_5ftet_9',['twelve_tet',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c',1,'scxt::tuning::MidikeyRetuner::TWELVE_TET'],['../structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278a758a8a035a3010c78c2baf98902e2a43',1,'scxt::engine::Engine::TWELVE_TET']]]
+  ['trlnone_6',['trlNone',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a68ff4683e40debb45f7df9b613d3c1d2a69657e8ee6dd680c80db2dd72402b5b4',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
+  ['trlselection_7',['trlSelection',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a68ff4683e40debb45f7df9b613d3c1d2abb8cc6e2b565a0fc9be2dccd670c451e',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
+  ['trlstructure_8',['trlStructure',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a68ff4683e40debb45f7df9b613d3c1d2a9619a0928f1561e7e97b4e992e191a88',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
+  ['trlvisible_9',['trlVisible',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a68ff4683e40debb45f7df9b613d3c1d2a7ad3b6d4891310541640f7a516d8af5c',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
+  ['true_5frandom_10',['TRUE_RANDOM',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a6deb1c96c47d5c476bde70203a08f5ac',1,'scxt::engine::Zone']]],
+  ['tune_11',['tune',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa376efa6acf22da44967294ac3dd6c048',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['tuning_12',['TUNING',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a2041c953e2505185f31b2e4f74545853',1,'scxt::voice::Voice']]],
+  ['twelve_5ftet_13',['twelve_tet',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c',1,'scxt::tuning::MidikeyRetuner::TWELVE_TET'],['../structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278a758a8a035a3010c78c2baf98902e2a43',1,'scxt::engine::Engine::TWELVE_TET']]]
 ];
