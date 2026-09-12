@@ -7,12 +7,13 @@ var searchData=
   ['one_4',['ONE',['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#a1590fd923ce6cbb76719eec7fd1818b0',1,'sst::basic_blocks::dsp::quadDelayLine']]],
   ['onef_5',['ONEF',['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#a1f170682a8a7d9223c7bc77630edbfa6',1,'sst::basic_blocks::dsp::quadDelayLine']]],
   ['oneovern_6',['oneOverN',['../structsst_1_1basic__blocks_1_1dsp_1_1RunningAverage.html#a9a4c3f355da3da74f01bcd27b1390c1e',1,'sst::basic_blocks::dsp::RunningAverage']]],
-  ['onto_7',['onto',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a77604ce985ffd812475ee610987f923f',1,'sst::basic_blocks::dsp::LagCollection']]],
-  ['ordinalnumbering_8',['ordinalNumbering',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a2192e65867b51a4f5be5a21f23d926ea',1,'sst::basic_blocks::params::ParamMetaData']]],
-  ['outblock0_9',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['output_10',['output',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::output'],['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::StepLFO::output']]],
-  ['outputblock_11',['outputBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['outputcache_12',['outputCache',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab052e8cf7ad5ebfe770f8577db3af81d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputcachecubed_13',['outputCacheCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a3f142fe566c46d572d9ac4129dd1eee4',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['outputcubed_14',['outputCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#abc62f19a9752d21cad0625df584b0c6a',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
+  ['onsetchargepending_7',['onsetChargePending',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#a45b8823f45d5efe218d85f8281bba6a8',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
+  ['onto_8',['onto',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollection.html#a77604ce985ffd812475ee610987f923f',1,'sst::basic_blocks::dsp::LagCollection']]],
+  ['ordinalnumbering_9',['ordinalNumbering',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a2192e65867b51a4f5be5a21f23d926ea',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['outblock0_10',['outBlock0',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a98c667eb47a89575dd11ac786bf2474f',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['output_11',['output',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::output'],['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a1084d7e47a5571b229a33ad347cc9453',1,'sst::basic_blocks::modulators::StepLFO::output']]],
+  ['outputblock_12',['outputBlock',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#ad5c9096b5f32c015b4882d39cc1966f0',1,'sst::basic_blocks::modulators::SimpleLFO']]],
+  ['outputcache_13',['outputCache',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#ab052e8cf7ad5ebfe770f8577db3af81d',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputcachecubed_14',['outputCacheCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a3f142fe566c46d572d9ac4129dd1eee4',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['outputcubed_15',['outputCubed',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#abc62f19a9752d21cad0625df584b0c6a',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]]
 ];
