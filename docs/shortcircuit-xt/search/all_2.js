@@ -260,7 +260,7 @@ var searchData=
   ['collapsedgroupset_5ft_257',['collapsedGroupSet_t',['../structscxt_1_1selection_1_1SelectionManager.html#a88d07bcca93ba0c3402c3dfb7cbe39cf',1,'scxt::selection::SelectionManager']]],
   ['collapsmultifile_258',['collapsMultifile',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#ab82c41b202e241329d07b9eb7ebacece',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['collectmissingresolutionworkitems_259',['collectMissingResolutionWorkItems',['../namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17',1,'scxt::engine']]],
-  ['collectsamplesinto_260',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1',1,'scxt::patch_io']]],
+  ['collectsamplesinto_260',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a3ff020d039ea23c78567ca163bd4a512',1,'scxt::patch_io']]],
   ['color_261',['color',['../ThemeEditor_8cpp.html#af73b69f7c431b8ef2f28eecaa058bec2',1,'ThemeEditor.cpp']]],
   ['coloreditor_262',['colorEditor',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1ThemeEditor.html#a25833a9b67974f357681dea68cf98067',1,'scxt::ui::app::other_screens::ThemeEditor']]],
   ['colormap_263',['colormap',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html',1,'ColorMap'],['../structscxt_1_1ui_1_1theme_1_1StdMapColormap.html#af20ef14d27ddddadd1b3562f09f95ae8',1,'scxt::ui::theme::StdMapColormap::colorMap']]],

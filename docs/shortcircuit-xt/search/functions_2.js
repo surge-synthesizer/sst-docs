@@ -68,7 +68,7 @@ var searchData=
   ['collapsedgroupschanged_65',['collapsedGroupsChanged',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#ae3492e79e3d5c6b288ce04287ae9bf3e',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
   ['collapsmultifile_66',['collapsMultifile',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#ab82c41b202e241329d07b9eb7ebacece',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['collectmissingresolutionworkitems_67',['collectMissingResolutionWorkItems',['../namespacescxt_1_1engine.html#aedb1e8b9c27cac0dbf06791e4fb64d17',1,'scxt::engine']]],
-  ['collectsamplesinto_68',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a3963b704ce3e48d8e8db1b3003d787e1',1,'scxt::patch_io']]],
+  ['collectsamplesinto_68',['collectSamplesInto',['../namespacescxt_1_1patch__io.html#a3ff020d039ea23c78567ca163bd4a512',1,'scxt::patch_io']]],
   ['commandtostring_69',['commandToString',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html#a778ed7c6ba800cc575390dca3be17cdb',1,'scxt::ui::app::KeyBindings']]],
   ['complete_70',['complete',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a03533c1c680328843d6e8ea02adf8bc7',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
   ['computefallbackshortname_71',['computeFallbackShortName',['../namespacescxt_1_1dsp_1_1processor.html#af7534ad56b8306728222071e55252a08',1,'scxt::dsp::processor']]],
