@@ -20,5 +20,6 @@ var searchData=
   ['curvelfopane_17',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['curvelfostorage_18',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]],
   ['customdtev_19',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]],
-  ['customevent_20',['CustomEvent',['../structscxt_1_1perf_1_1CustomEvent.html',1,'scxt::perf']]]
+  ['customevent_20',['CustomEvent',['../structscxt_1_1perf_1_1CustomEvent.html',1,'scxt::perf']]],
+  ['customstepstypein_21',['CustomStepsTypein',['../structscxt_1_1ui_1_1app_1_1shared_1_1CustomStepsTypein.html',1,'scxt::ui::app::shared']]]
 ];
