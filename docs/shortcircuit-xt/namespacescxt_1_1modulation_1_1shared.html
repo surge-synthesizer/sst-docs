@@ -144,6 +144,9 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a6581ffbe4916f95cc209511a416ce4dc" id="r_a6581ffbe4916f95cc209511a416ce4dc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1modulation_1_1shared.html#a6581ffbe4916f95cc209511a416ce4dc">u2s</a> (uint32_t u)</td></tr>
 <tr class="separator:a6581ffbe4916f95cc209511a416ce4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e95462fee753703ea6533a189886345" id="r_a5e95462fee753703ea6533a189886345"><td class="memTemplParams" colspan="2">template&lt;typename RT , typename SourceMap , typename TargetMap &gt; </td></tr>
+<tr class="memitem:a5e95462fee753703ea6533a189886345"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1modulation_1_1shared.html#a5e95462fee753703ea6533a189886345">clearRoutesWithUnknownEndpoints</a> (RT &amp;rt, const SourceMap &amp;sources, const TargetMap &amp;targets)</td></tr>
+<tr class="separator:a5e95462fee753703ea6533a189886345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a632942e31bca1d0330263f3729de6ea1" id="r_a632942e31bca1d0330263f3729de6ea1"><td class="memTemplParams" colspan="2">template&lt;typename Matrix , typename P &gt; </td></tr>
 <tr class="memitem:a632942e31bca1d0330263f3729de6ea1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1modulation_1_1shared.html#a632942e31bca1d0330263f3729de6ea1">bindEl</a> (Matrix &amp;m, const P &amp;payload, typename Matrix::TR::TargetIdentifier &amp;tg, float &amp;baseValue, const float *&amp;p, const <a class="el" href="namespacescxt_1_1datamodel.html#a1eb273f3bb8f42c854ab0983b6ec8255">datamodel::pmd</a> *providedMetadata=nullptr, std::optional&lt; datamodel::pmd::FeatureState &gt; featureState=std::nullopt)</td></tr>
 <tr class="separator:a632942e31bca1d0330263f3729de6ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +203,46 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e95462fee753703ea6533a189886345" name="a5e95462fee753703ea6533a189886345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e95462fee753703ea6533a189886345">&#9670;&#160;</a></span>clearRoutesWithUnknownEndpoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename RT , typename SourceMap , typename TargetMap &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int clearRoutesWithUnknownEndpoints </td>
+          <td>(</td>
+          <td class="paramtype">RT &amp;&#160;</td>
+          <td class="paramname"><em>rt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SourceMap &amp;&#160;</td>
+          <td class="paramname"><em>sources</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TargetMap &amp;&#160;</td>
+          <td class="paramname"><em>targets</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a6bf6a9b6902a10655cf08f59f51f7637">ModulationCurves::curveImpls</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76bd2fa77271864a08c074372ea030bb">Zone::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -355,7 +398,7 @@ template&lt;typename Matrix , typename P &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 14 2026 19:15:02 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 14 2026 19:48:45 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
