@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afdb671f897d466473c8c43970d370fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a242ac92841b441b6c18f6ff6331af" id="r_a71a242ac92841b441b6c18f6ff6331af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#a71a242ac92841b441b6c18f6ff6331af">makeParametersConsistent</a> () override</td></tr>
 <tr class="separator:a71a242ac92841b441b6c18f6ff6331af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b7b14a48b2ef4a136322b89c57a383" id="r_a21b7b14a48b2ef4a136322b89c57a383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#a21b7b14a48b2ef4a136322b89c57a383">remapFloatsForIntChange</a> (size_t intIndex, int oldValue, float *fparam) override</td></tr>
+<tr class="separator:a21b7b14a48b2ef4a136322b89c57a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafe67b6b85d9d677ca8031998e243193" id="r_aafe67b6b85d9d677ca8031998e243193"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#aafe67b6b85d9d677ca8031998e243193">isKeytracked</a> () const override</td></tr>
 <tr class="separator:aafe67b6b85d9d677ca8031998e243193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf65b5eda4db32d4e885cc9f6c279144" id="r_adf65b5eda4db32d4e885cc9f6c279144"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1processor_1_1SSTVoiceEffectShim.html#adf65b5eda4db32d4e885cc9f6c279144">setKeytrack</a> (bool b) override</td></tr>
@@ -689,6 +691,50 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a21b7b14a48b2ef4a136322b89c57a383" name="a21b7b14a48b2ef4a136322b89c57a383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b7b14a48b2ef4a136322b89c57a383">&#9670;&#160;</a></span>remapFloatsForIntChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remapFloatsForIntChange </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>intIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>fparam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aafe67b6b85d9d677ca8031998e243193" name="aafe67b6b85d9d677ca8031998e243193"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aafe67b6b85d9d677ca8031998e243193">&#9670;&#160;</a></span>isKeytracked()</h2>
 
@@ -796,7 +842,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 14 2026 16:49:05 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 14 2026 19:15:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
