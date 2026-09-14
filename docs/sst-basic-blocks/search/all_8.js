@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i_0',['i',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOsc']]],
+  ['i_0',['i',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOsc::i'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOscRamped::i']]],
   ['i2f_5fbinary_5fcast_1',['i2f_binary_cast',['../namespacesst_1_1basic__blocks_1_1mechanics_1_1detail.html#a35e8084ac00d1fa695304b093460c73c',1,'sst::basic_blocks::mechanics::detail']]],
   ['id_2',['id',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#abaabdc509cdaba7df9f56c6c76f3ae19',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['immediatelysilence_3',['immediatelySilence',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a0ae31ce8d5e917f792d9414554c2401e',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],

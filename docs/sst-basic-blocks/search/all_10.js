@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOsc']]],
+  ['r_0',['r',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOsc::r'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOscRamped::r']]],
   ['ramp_1',['RAMP',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca291e3bb43cd8449155161d1fa023348b',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['random_5ftrigger_2',['RANDOM_TRIGGER',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a55b506070847a13554f8b879c1bfb37ca85fd5f0e0ac371de3fd15cf8cd77b545',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['randombehavior_3',['RandomBehavior',['../namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756',1,'sst::basic_blocks::modulators']]],
@@ -39,7 +39,7 @@ var searchData=
   ['rnd_5fquad_36',['rnd_quad',['../namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756ae671ccf444efecbabd4bc6d525f2ee7d',1,'sst::basic_blocks::modulators']]],
   ['rnd_5fsingle_37',['rnd_single',['../namespacesst_1_1basic__blocks_1_1modulators.html#ab1dcb13cd20aa56c093fb42d1b0f9756a91a601e6e55b1bb62cc1f969ffb6bdaf',1,'sst::basic_blocks::modulators']]],
   ['rndtrigcountdown_38',['rndTrigCountdown',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aea78034f011a446ff70aaa5be3740140',1,'sst::basic_blocks::modulators::SimpleLFO']]],
-  ['rng_39',['rng',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html',1,'RNG'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea',1,'sst::basic_blocks::modulators::FXModControl::rng'],['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a1c605bd24555f413efec8c25f37a3b61',1,'sst::basic_blocks::dsp::RNG::RNG()'],['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a21e51d18496c5a0b993ac91bd1a88526',1,'sst::basic_blocks::dsp::RNG::RNG(uint32_t seed)']]],
+  ['rng_39',['rng',['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html',1,'RNG'],['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a21e51d18496c5a0b993ac91bd1a88526',1,'sst::basic_blocks::dsp::RNG::RNG()'],['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea',1,'sst::basic_blocks::modulators::FXModControl::rng'],['../structsst_1_1basic__blocks_1_1dsp_1_1RNG.html#a1c605bd24555f413efec8c25f37a3b61',1,'sst::basic_blocks::dsp::RNG::RNG()']]],
   ['rng_2eh_40',['RNG.h',['../RNG_8h.html',1,'']]],
   ['rngcurrent_41',['rngCurrent',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1076c00dbcec33df7341db6380fce815',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['rnghistory_42',['rngHistory',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#afd78047e19ef1b32d34501538758e5a1',1,'sst::basic_blocks::modulators::SimpleLFO']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i_0',['i',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOsc']]],
+  ['i_0',['i',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOscRamped::i'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a21091e815bb19a35b2a3a6467c9a42f6',1,'sst::basic_blocks::dsp::SurgeQuadrOsc::i']]],
   ['id_1',['id',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#abaabdc509cdaba7df9f56c6c76f3ae19',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['index_2',['index',['../structsst_1_1basic__blocks_1_1dsp_1_1LagCollectionBase_1_1Lagger.html#a750b5d744c39a06bfb13e6eb010e35d0',1,'sst::basic_blocks::dsp::LagCollectionBase::Lagger']]],
   ['inferred_3',['INFERRED',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a36f18dec66edab93daa4d9cfeacbb7ab',1,'sst::basic_blocks::params::ParamMetaData']]],

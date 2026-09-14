@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOsc']]],
+  ['r_0',['r',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOscRamped::r'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOsc::r']]],
   ['rateisforsinglestep_1',['rateIsForSingleStep',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html#a4c83fa4793ce63077ec4171ba1ab0924',1,'sst::basic_blocks::modulators::StepLFO::Storage']]],
   ['ratemult_2',['ratemult',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a6de1a6a74113ae980a92fdbb13947c24',1,'sst::basic_blocks::modulators::StepLFO']]],
   ['reg0_3',['reg0',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#ab5755c4b82250fdb937af359a150e80c',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::reg0'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#ad2e276ec6f3cdbe0b95c9ca68d7304a1',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::reg0']]],
