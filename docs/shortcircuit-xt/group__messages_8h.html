@@ -97,6 +97,7 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">group_messages.h File Reference</div></div>
 </div><!--header-->
@@ -115,8 +116,17 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a5b706ab3d3f11d930fa29e798678088b" id="r_a5b706ab3d3f11d930fa29e798678088b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a5b706ab3d3f11d930fa29e798678088b">groupOutputInfoUpdate_t</a> = std::pair&lt; bool, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">engine::Group::GroupOutputInfo</a> &gt;</td></tr>
 <tr class="separator:a5b706ab3d3f11d930fa29e798678088b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa857f6c73ca043879d7cb3d7b1af2d4" id="r_aaa857f6c73ca043879d7cb3d7b1af2d4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#aaa857f6c73ca043879d7cb3d7b1af2d4">muteOrSoloGroup_t</a> = std::tuple&lt; int32_t, int32_t, bool, bool, bool &gt;</td></tr>
-<tr class="separator:aaa857f6c73ca043879d7cb3d7b1af2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab913bf5c7e309d9e04f5d2dc821dea29" id="r_ab913bf5c7e309d9e04f5d2dc821dea29"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab913bf5c7e309d9e04f5d2dc821dea29">muteOrSoloGroup_t</a> = std::tuple&lt; int32_t, int32_t, bool, bool, int32_t &gt;</td></tr>
+<tr class="separator:ab913bf5c7e309d9e04f5d2dc821dea29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ac681db151e2a6b261bc53fc7defc2231" id="r_ac681db151e2a6b261bc53fc7defc2231"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac681db151e2a6b261bc53fc7defc2231">MuteOrSoloGesture</a> : int32_t { <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac681db151e2a6b261bc53fc7defc2231a552b6f9f35dd9aac0ed46bc735a4dcd6">MS_THIS_GROUP</a> = 0
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac681db151e2a6b261bc53fc7defc2231a586aeb790f7dd532f852d0a4a53ba9d7">MS_SELECTED_GROUPS</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac681db151e2a6b261bc53fc7defc2231a693c265d0a1ef3297f2b8f8efe5472d1">MS_EXCLUSIVE</a>
+, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ac681db151e2a6b261bc53fc7defc2231ab659933ad69591ca5dd160a0aa7a9c6e">MS_RANGE</a>
+ }</td></tr>
+<tr class="separator:ac681db151e2a6b261bc53fc7defc2231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -144,15 +154,15 @@ Functions</h2></td></tr>
 <tr class="separator:a40f19dd861cff552925b61e097eec107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54dc53ad477f490609fd785d0c94862d" id="r_a54dc53ad477f490609fd785d0c94862d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a54dc53ad477f490609fd785d0c94862d">CLIENT_TO_SERIAL</a> (UpdateGroupOutputInfoExclusiveGroup, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879aa96aa536044d7b335e41eee751841724">c2s_update_group_output_info_exclusive_group</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html">scxt::engine::Group::GroupOutputInfo</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a40f19dd861cff552925b61e097eec107">doUpdateGroupOutputInfoExclusiveGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:a54dc53ad477f490609fd785d0c94862d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413dfc275dab3188618b1021bec48ae5" id="r_a413dfc275dab3188618b1021bec48ae5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a413dfc275dab3188618b1021bec48ae5">doMuteOrSoloGroup</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aaa857f6c73ca043879d7cb3d7b1af2d4">muteOrSoloGroup_t</a> &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
+<tr class="memitem:a413dfc275dab3188618b1021bec48ae5" id="r_a413dfc275dab3188618b1021bec48ae5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#a413dfc275dab3188618b1021bec48ae5">doMuteOrSoloGroup</a> (const <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab913bf5c7e309d9e04f5d2dc821dea29">muteOrSoloGroup_t</a> &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">messaging::MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>)</td></tr>
 <tr class="separator:a413dfc275dab3188618b1021bec48ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd4f078a76aedf9559e4bd9840c40f0f" id="r_acd4f078a76aedf9559e4bd9840c40f0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#acd4f078a76aedf9559e4bd9840c40f0f">CLIENT_TO_SERIAL</a> (MuteOrSoloGroup, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a140b6b23a2b8794fd758f9fdbbfd5d64">c2s_mute_solo_group</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aaa857f6c73ca043879d7cb3d7b1af2d4">muteOrSoloGroup_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a413dfc275dab3188618b1021bec48ae5">doMuteOrSoloGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
+<tr class="memitem:acd4f078a76aedf9559e4bd9840c40f0f" id="r_acd4f078a76aedf9559e4bd9840c40f0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client.html#acd4f078a76aedf9559e4bd9840c40f0f">CLIENT_TO_SERIAL</a> (MuteOrSoloGroup, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9a09962c6a54133102a903e0b71ec879a140b6b23a2b8794fd758f9fdbbfd5d64">c2s_mute_solo_group</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#ab913bf5c7e309d9e04f5d2dc821dea29">muteOrSoloGroup_t</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a413dfc275dab3188618b1021bec48ae5">doMuteOrSoloGroup</a>(payload, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>))</td></tr>
 <tr class="separator:acd4f078a76aedf9559e4bd9840c40f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2026 15:42:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 15 2026 16:57:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

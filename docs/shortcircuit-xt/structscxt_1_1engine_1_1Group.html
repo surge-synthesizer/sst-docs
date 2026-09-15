@@ -181,6 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:addb06af952675f731fbeb2eadf2c702e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a282bdfcb35c72b919ecbe662aed8fb6d" id="r_a282bdfcb35c72b919ecbe662aed8fb6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a282bdfcb35c72b919ecbe662aed8fb6d">DECLARE_ENUM_STRING</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691">NotePriority</a>)</td></tr>
 <tr class="separator:a282bdfcb35c72b919ecbe662aed8fb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc6c07ab843b041442db6c57e4954f3" id="r_a9bc6c07ab843b041442db6c57e4954f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a9bc6c07ab843b041442db6c57e4954f3">isSilencedByMuteOrSolo</a> () const</td></tr>
+<tr class="separator:a9bc6c07ab843b041442db6c57e4954f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9ff76af0be91e732db400ba764796c" id="r_a8e9ff76af0be91e732db400ba764796c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a8e9ff76af0be91e732db400ba764796c">getEngine</a> ()</td></tr>
 <tr class="separator:a8e9ff76af0be91e732db400ba764796c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e713df21e3796eacfb4d2fcabd16ef" id="r_ab0e713df21e3796eacfb4d2fcabd16ef"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#ab0e713df21e3796eacfb4d2fcabd16ef">getEngine</a> () const</td></tr>
@@ -335,6 +337,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7d531934c0c8580b6cbae3d9fcf58cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a130da05d57b3bee428cd992bac2797f7" id="r_a130da05d57b3bee428cd992bac2797f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a130da05d57b3bee428cd992bac2797f7">mutedByLatch</a> {false}</td></tr>
 <tr class="separator:a130da05d57b3bee428cd992bac2797f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acce26c0d49dd7ed29d3bbc965e456267" id="r_acce26c0d49dd7ed29d3bbc965e456267"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#acce26c0d49dd7ed29d3bbc965e456267">mutedDueToSoloAway</a> {false}</td></tr>
+<tr class="separator:acce26c0d49dd7ed29d3bbc965e456267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6ee5919d018f2ea8c868654a74eab74" id="r_ad6ee5919d018f2ea8c868654a74eab74"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#ad6ee5919d018f2ea8c868654a74eab74">output</a> [2][blockSize&lt;&lt; 1]</td></tr>
 <tr class="separator:ad6ee5919d018f2ea8c868654a74eab74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07089a358c6a98dada242f8504668242" id="r_a07089a358c6a98dada242f8504668242"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a07089a358c6a98dada242f8504668242">lastOversample</a> {true}</td></tr>
@@ -710,6 +714,27 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bc6c07ab843b041442db6c57e4954f3" name="a9bc6c07ab843b041442db6c57e4954f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc6c07ab843b041442db6c57e4954f3">&#9670;&#160;</a></span>isSilencedByMuteOrSolo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isSilencedByMuteOrSolo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a3de32eff7fd2ae1c93d4095b57b3f2f7">Group::GroupOutputInfo::muted</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#acce26c0d49dd7ed29d3bbc965e456267">Group::mutedDueToSoloAway</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a427ed2fbbfee558084c2f89eb9a60932">Group::outputInfo</a>, and <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#aa74f03e2e2da6f47098163cf2d6a85b6">Group::GroupOutputInfo::soloed</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>.</p>
 
 </div>
 </div>
@@ -1678,7 +1703,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb">Group::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html#ab60ebf452f81bf9ed6c2808ddc6c0b97">GroupMatrixEndpoints::OutputTarget::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab2fb9b3c06e2581c9bd45bac569964de">Group::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">Zone::process()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a83d34898f9120b101f2db51f66450fe6">Group::respondsToChannelOrUsesPartChannel()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a6a4e7a0f170d7c292ebb55faf4493400">Group::setupGroupPitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a12cac3382532a82a02011368a7d5fefb">Group::attack()</a>, <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1OutputTarget.html#ab60ebf452f81bf9ed6c2808ddc6c0b97">GroupMatrixEndpoints::OutputTarget::bind()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9bc6c07ab843b041442db6c57e4954f3">Group::isSilencedByMuteOrSolo()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a9ea5a4cf8758c2628df340c09c9f7465">Group::onProcessorTypeChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ab2fb9b3c06e2581c9bd45bac569964de">Group::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">Zone::process()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a83d34898f9120b101f2db51f66450fe6">Group::respondsToChannelOrUsesPartChannel()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a6a4e7a0f170d7c292ebb55faf4493400">Group::setupGroupPitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
@@ -1709,6 +1734,22 @@ template&lt;bool OS&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="acce26c0d49dd7ed29d3bbc965e456267" name="acce26c0d49dd7ed29d3bbc965e456267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce26c0d49dd7ed29d3bbc965e456267">&#9670;&#160;</a></span>mutedDueToSoloAway</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mutedDueToSoloAway {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a9bc6c07ab843b041442db6c57e4954f3">Group::isSilencedByMuteOrSolo()</a>.</p>
 
 </div>
 </div>
@@ -2333,7 +2374,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2026 15:42:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 15 2026 16:57:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

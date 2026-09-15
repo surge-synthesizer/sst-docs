@@ -13,5 +13,5 @@ var searchData=
   ['modpanetraits_10',['modpanetraits',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1GroupTraits.html#aec0095d900a1cf02a035f8a91cf132ff',1,'scxt::ui::app::edit_screen::EditScreen::GroupTraits::ModPaneTraits'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneTraits.html#a41eb250b5693378de1b9fea6c27886cf',1,'scxt::ui::app::edit_screen::EditScreen::ZoneTraits::ModPaneTraits']]],
   ['modrowreorderpayload_5ft_11',['modRowReorderPayload_t',['../namespacescxt_1_1messaging_1_1client.html#aabf19706992880798f0890f46607e0b8',1,'scxt::messaging::client']]],
   ['movegroupaddress_5ft_12',['moveGroupAddress_t',['../namespacescxt_1_1messaging_1_1client.html#af64fdd5dce82119cb8bac2c8fdb7e3b6',1,'scxt::messaging::client']]],
-  ['muteorsologroup_5ft_13',['muteOrSoloGroup_t',['../namespacescxt_1_1messaging_1_1client.html#aaa857f6c73ca043879d7cb3d7b1af2d4',1,'scxt::messaging::client']]]
+  ['muteorsologroup_5ft_13',['muteOrSoloGroup_t',['../namespacescxt_1_1messaging_1_1client.html#ab913bf5c7e309d9e04f5d2dc821dea29',1,'scxt::messaging::client']]]
 ];

@@ -6,5 +6,6 @@ var searchData=
   ['midizoneaction_3',['MidiZoneAction',['../structscxt_1_1engine_1_1Engine.html#a24d842503cdba6a1024aee4ab482c3c2',1,'scxt::engine::Engine']]],
   ['mode_4',['mode',['../structscxt_1_1perf_1_1RunConfig.html#a46c8a310cf4c094f8c80e1cb8dc1f911',1,'scxt::perf::RunConfig::Mode'],['../structscxt_1_1engine_1_1Macro.html#a46c8a310cf4c094f8c80e1cb8dc1f911',1,'scxt::engine::Macro::Mode']]],
   ['modulatorshape_5',['ModulatorShape',['../structscxt_1_1modulation_1_1ModulatorStorage.html#acf51cecf2208315ba1a911537276281d',1,'scxt::modulation::ModulatorStorage']]],
-  ['mousestate_6',['mousestate',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8c',1,'scxt::ui::app::edit_screen::SampleWaveform::MouseState'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8c',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay::MouseState']]]
+  ['mousestate_6',['mousestate',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8c',1,'scxt::ui::app::edit_screen::SampleWaveform::MouseState'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8c',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay::MouseState']]],
+  ['muteorsologesture_7',['MuteOrSoloGesture',['../namespacescxt_1_1messaging_1_1client.html#ac681db151e2a6b261bc53fc7defc2231',1,'scxt::messaging::client']]]
 ];
