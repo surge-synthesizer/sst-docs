@@ -23,7 +23,7 @@ var searchData=
   ['ratemult_20',['ratemult',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a7eeb7b026094b0da8c7194a3335883f1',1,'scxt::modulation::shared::EGTargetEndpointData::rateMulT'],['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData_1_1Env.html#a7eeb7b026094b0da8c7194a3335883f1',1,'scxt::modulation::shared::LFOTargetEndpointData::Env::rateMulT']]],
   ['ratep_21',['rateP',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a323fceebbb6cf3122d494fe4ff0eff65',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
   ['ratet_22',['rateT',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html#a5c651289fa36a6e0863c22d10e7ff7d2',1,'scxt::modulation::shared::LFOTargetEndpointData']]],
-  ['ratio_23',['ratio',['../structscxt_1_1dsp_1_1GeneratorState.html#a1f6b73c6c61c2ee9e7bd75fb061eacf1',1,'scxt::dsp::GeneratorState']]],
+  ['ratio_23',['ratio',['../structscxt_1_1dsp_1_1GeneratorState.html#a81491d3a435daed1c40087d1e434db1f',1,'scxt::dsp::GeneratorState']]],
   ['ratts_24',['rAtts',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#aabf79264d371f9d83a8ac775490df62d',1,'scxt::ui::app::edit_screen::AudioPane']]],
   ['rc_25',['rc',['../structscxt_1_1browser_1_1SQL_1_1Exception.html#ac6509c6fe4cbf7bde170597172f8a288',1,'scxt::browser::SQL::Exception']]],
   ['readfadesample_26',['ReadFadeSample',['../structscxt_1_1dsp_1_1KernelProcessor.html#a8ff5ee898fb5f9caf4b8d26e299befe5',1,'scxt::dsp::KernelProcessor']]],

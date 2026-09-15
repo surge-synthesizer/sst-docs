@@ -123,8 +123,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae3f0266db2e4a37da2c2e7418fa669ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f2585dde2be0bd8302f8723cdaef158" id="r_a1f2585dde2be0bd8302f8723cdaef158"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a1f2585dde2be0bd8302f8723cdaef158">loopInvertedBounds</a> {1.f}</td></tr>
 <tr class="separator:a1f2585dde2be0bd8302f8723cdaef158"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f6b73c6c61c2ee9e7bd75fb061eacf1" id="r_a1f6b73c6c61c2ee9e7bd75fb061eacf1"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a1f6b73c6c61c2ee9e7bd75fb061eacf1">ratio</a> {1 &lt;&lt; 24}</td></tr>
-<tr class="separator:a1f6b73c6c61c2ee9e7bd75fb061eacf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81491d3a435daed1c40087d1e434db1f" id="r_a81491d3a435daed1c40087d1e434db1f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a81491d3a435daed1c40087d1e434db1f">ratio</a> {1 &lt;&lt; 24}</td></tr>
+<tr class="separator:a81491d3a435daed1c40087d1e434db1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a271a85ef184bc5ea828274013e4e884f" id="r_a271a85ef184bc5ea828274013e4e884f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a271a85ef184bc5ea828274013e4e884f">blockSize</a> {scxt::blockSize}</td></tr>
 <tr class="separator:a271a85ef184bc5ea828274013e4e884f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e40c5fb8a37c60628678563bfea6975" id="r_a0e40c5fb8a37c60628678563bfea6975"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a0e40c5fb8a37c60628678563bfea6975">isFinished</a> {true}</td></tr>
@@ -255,7 +255,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209">PreviewVoice::Details::initiateGD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209">PreviewVoice::Details::initiateGD()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a66bd11cb1f841f1b4d148d154b69c178">scxt::dsp::reflectPingPong()</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209">PreviewVoice::Details::initiateGD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209">PreviewVoice::Details::initiateGD()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a66bd11cb1f841f1b4d148d154b69c178">scxt::dsp::reflectPingPong()</a>.</p>
 
 </div>
 </div>
@@ -289,14 +289,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f6b73c6c61c2ee9e7bd75fb061eacf1" name="a1f6b73c6c61c2ee9e7bd75fb061eacf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f6b73c6c61c2ee9e7bd75fb061eacf1">&#9670;&#160;</a></span>ratio</h2>
+<a id="a81491d3a435daed1c40087d1e434db1f" name="a81491d3a435daed1c40087d1e434db1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81491d3a435daed1c40087d1e434db1f">&#9670;&#160;</a></span>ratio</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t ratio {1 &lt;&lt; 24}</td>
+          <td class="memname">int64_t ratio {1 &lt;&lt; 24}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -391,6 +391,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#a66bd11cb1f841f1b4d148d154b69c178">scxt::dsp::reflectPingPong()</a>.</p>
+
 </div>
 </div>
 <a id="a97734abbebe920307c67316f9e42cfed" name="a97734abbebe920307c67316f9e42cfed"></a>
@@ -405,7 +407,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209">PreviewVoice::Details::initiateGD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1PreviewVoice_1_1Details.html#a1b19b73b565c67041f1379b29f4c4209">PreviewVoice::Details::initiateGD()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a66bd11cb1f841f1b4d148d154b69c178">scxt::dsp::reflectPingPong()</a>.</p>
 
 </div>
 </div>
@@ -473,7 +475,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2026 15:42:03 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 15 2026 15:42:42 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

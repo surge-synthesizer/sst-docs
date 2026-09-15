@@ -145,7 +145,7 @@ var searchData=
   ['twelvetetscltext_142',['twelveTETSclText',['../namespacescxt_1_1tuning.html#aa04791d808dd332b394145dccc5f2b1e',1,'scxt::tuning']]],
   ['twentyfivesecondexptable_143',['twentyfivesecondexptable',['../namespacescxt_1_1dsp.html#a58d20eccf58560e54ab156443c42e71a',1,'scxt::dsp::twentyFiveSecondExpTable'],['../namespacescxt_1_1dsp.html#ac79f594caefd0a1d925c369a564c95fc',1,'scxt::dsp::TwentyFiveSecondExpTable']]],
   ['twotothexprovider_144',['twoToTheXProvider',['../structscxt_1_1voice_1_1Voice.html#aa57faa9460e9c0557da565d478589c2c',1,'scxt::voice::Voice']]],
-  ['twotothextable_145',['twotothextable',['../namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2',1,'scxt::dsp::twoToTheXTable'],['../namespacescxt_1_1dsp.html#acf387eb28e70dc00320940ec1bb9ee4d',1,'scxt::dsp::TwoToTheXTable']]],
+  ['twotothextable_145',['twotothextable',['../namespacescxt_1_1dsp.html#acf387eb28e70dc00320940ec1bb9ee4d',1,'scxt::dsp::TwoToTheXTable'],['../namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2',1,'scxt::dsp::twoToTheXTable']]],
   ['txnguard_146',['txnguard',['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html',1,'TxnGuard'],['../structscxt_1_1browser_1_1SQL_1_1TxnGuard.html#a8890d375f639a7fa6ddb3895d3956c7d',1,'scxt::browser::SQL::TxnGuard::TxnGuard()']]],
   ['txnid_147',['txnId',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html#a6b2e69184fc3112608e042abc3150695',1,'scxt::engine::Group::LowHighLast']]],
   ['txt_148',['txt',['../namespacescxt_1_1ui_1_1app_1_1other__screens.html#a28dc8bdb6baafeba6f950e8084cecb0e',1,'scxt::ui::app::other_screens::txt'],['../structscxt_1_1ui_1_1app_1_1other__screens_1_1AboutLink.html#a561b8673dc7e5bb1556d3a20104744aa',1,'scxt::ui::app::other_screens::AboutLink::txt']]],
