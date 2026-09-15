@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1d38f99b55f06608e64fc6330163d02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadb80bb5926f01706e0e3a66888ff043" id="r_aadb80bb5926f01706e0e3a66888ff043"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aadb80bb5926f01706e0e3a66888ff043">updateFromOutputInfo</a> ()</td></tr>
 <tr class="separator:aadb80bb5926f01706e0e3a66888ff043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0599e5fd24e7b86c47ff5a7b7be0639f" id="r_a0599e5fd24e7b86c47ff5a7b7be0639f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a0599e5fd24e7b86c47ff5a7b7be0639f">addOversampleButton</a> ()</td></tr>
+<tr class="separator:a0599e5fd24e7b86c47ff5a7b7be0639f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa64aaedb292924568207d2f35c3b0ae4" id="r_aa64aaedb292924568207d2f35c3b0ae4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aa64aaedb292924568207d2f35c3b0ae4">addWeakProcessorPaneReference</a> (int idx, const juce::Component::SafePointer&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html">ProcessorPane</a> &gt; &amp;p)</td></tr>
 <tr class="separator:aa64aaedb292924568207d2f35c3b0ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ce0c89571c898f9b20a4bb358a601f7" id="r_a4ce0c89571c898f9b20a4bb358a601f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a4ce0c89571c898f9b20a4bb358a601f7">updateFromProcessorPanes</a> ()</td></tr>
@@ -173,8 +175,6 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aba5478c33467ac50344f7454ea67025c" id="r_aba5478c33467ac50344f7454ea67025c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#abbb3cdb8aa07f2aafceaad5e9328223d">bool_attachment_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aba5478c33467ac50344f7454ea67025c">oversampleAttachment</a></td></tr>
 <tr class="separator:aba5478c33467ac50344f7454ea67025c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d6028e5d185cd4d6f389acf24011236" id="r_a9d6028e5d185cd4d6f389acf24011236"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; sst::jucegui::components::ToggleButton &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a9d6028e5d185cd4d6f389acf24011236">oversampleButton</a></td></tr>
-<tr class="separator:a9d6028e5d185cd4d6f389acf24011236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac505a64ed7d1a705cc085a7f34c4c8" id="r_a9ac505a64ed7d1a705cc085a7f34c4c8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html">RoutingPaneContents</a>&lt; RPTraits &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a9ac505a64ed7d1a705cc085a7f34c4c8">contents</a></td></tr>
 <tr class="separator:a9ac505a64ed7d1a705cc085a7f34c4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c996f9fcf0e10baeb3e700be0c409a" id="r_a03c996f9fcf0e10baeb3e700be0c409a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a03c996f9fcf0e10baeb3e700be0c409a">active</a> {false}</td></tr>
@@ -225,7 +225,7 @@ template&lt;typename RPTraits &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a9ac505a64ed7d1a705cc085a7f34c4c8">RoutingPane&lt; RPTraits &gt;::contents</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a92255d629d1295c301148302555ae3e6">RoutingPane&lt; RPTraits &gt;::info</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aba5478c33467ac50344f7454ea67025c">RoutingPane&lt; RPTraits &gt;::oversampleAttachment</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a9d6028e5d185cd4d6f389acf24011236">RoutingPane&lt; RPTraits &gt;::oversampleButton</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#ac9a9c8907b6f21b02412cc3cecaae378">HasEditor::setupFloatWidget()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a0599e5fd24e7b86c47ff5a7b7be0639f">RoutingPane&lt; RPTraits &gt;::addOversampleButton()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a9ac505a64ed7d1a705cc085a7f34c4c8">RoutingPane&lt; RPTraits &gt;::contents</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a92255d629d1295c301148302555ae3e6">RoutingPane&lt; RPTraits &gt;::info</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aba5478c33467ac50344f7454ea67025c">RoutingPane&lt; RPTraits &gt;::oversampleAttachment</a>.</p>
 
 </div>
 </div>
@@ -315,6 +315,27 @@ template&lt;typename RPTraits &gt; </div>
 
 </div>
 </div>
+<a id="a0599e5fd24e7b86c47ff5a7b7be0639f" name="a0599e5fd24e7b86c47ff5a7b7be0639f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0599e5fd24e7b86c47ff5a7b7be0639f">&#9670;&#160;</a></span>addOversampleButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename RPTraits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void addOversampleButton </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a238076b542dadb1469d98aad74bf62e1">RoutingPane&lt; RPTraits &gt;::RoutingPane()</a>.</p>
+
+</div>
+</div>
 <a id="aa64aaedb292924568207d2f35c3b0ae4" name="aa64aaedb292924568207d2f35c3b0ae4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa64aaedb292924568207d2f35c3b0ae4">&#9670;&#160;</a></span>addWeakProcessorPaneReference()</h2>
 
@@ -377,24 +398,6 @@ template&lt;typename RPTraits &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#abbb3cdb8aa07f2aafceaad5e9328223d">bool_attachment_t</a>&gt; oversampleAttachment</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a238076b542dadb1469d98aad74bf62e1">RoutingPane&lt; RPTraits &gt;::RoutingPane()</a>.</p>
-
-</div>
-</div>
-<a id="a9d6028e5d185cd4d6f389acf24011236" name="a9d6028e5d185cd4d6f389acf24011236"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d6028e5d185cd4d6f389acf24011236">&#9670;&#160;</a></span>oversampleButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename RPTraits &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;sst::jucegui::components::ToggleButton&gt; oversampleButton</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -496,7 +499,7 @@ template&lt;typename RPTraits &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 14 2026 20:41:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 15 2026 01:05:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
