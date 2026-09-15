@@ -154,6 +154,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aecd4c008e625fa1f7f32c6175f36da78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c74e2f3cc5a309ddb11179745ba2b4" id="r_a66c74e2f3cc5a309ddb11179745ba2b4"><td class="memItemLeft" align="right" valign="top">std::map&lt; FUNCS, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager_1_1Binding.html">Binding</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a66c74e2f3cc5a309ddb11179745ba2b4">defaultBindings</a></td></tr>
 <tr class="separator:a66c74e2f3cc5a309ddb11179745ba2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82aa54e8eebfa409c1b1f7336c5be4f8" id="r_a82aa54e8eebfa409c1b1f7336c5be4f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a82aa54e8eebfa409c1b1f7336c5be4f8">streamDefaultBindings</a> {true}</td></tr>
+<tr class="separator:a82aa54e8eebfa409c1b1f7336c5be4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -343,7 +345,7 @@ template&lt;typename FUNCS , int maxFunc, typename KEY &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#aecd4c008e625fa1f7f32c6175f36da78">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::bindings</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a310a4270058a217b6b5817a338d176d9">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::enumToString</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#aaab8fef2547723538e746e357f989fb7">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::productName</a>, and <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#aa05f53de66faf7de41ff2c6ad5220a81">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::productPath</a>.</p>
+<p class="reference">References <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#aecd4c008e625fa1f7f32c6175f36da78">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::bindings</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a66c74e2f3cc5a309ddb11179745ba2b4">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::defaultBindings</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a310a4270058a217b6b5817a338d176d9">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::enumToString</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#aaab8fef2547723538e746e357f989fb7">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::productName</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#aa05f53de66faf7de41ff2c6ad5220a81">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::productPath</a>, and <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a82aa54e8eebfa409c1b1f7336c5be4f8">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::streamDefaultBindings</a>.</p>
 
 </div>
 </div>
@@ -476,7 +478,25 @@ template&lt;typename FUNCS , int maxFunc, typename KEY &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a94a581ca3c759f1ad5e36670fec6247f">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::addBinding()</a>, and <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#ab73d6e74fb2f0a9763b77c26c79726b2">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::clearBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a94a581ca3c759f1ad5e36670fec6247f">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::addBinding()</a>, <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#ab73d6e74fb2f0a9763b77c26c79726b2">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::clearBindings()</a>, and <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a24abfe7b30ea0535de9b8e75df4b7f11">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::streamToXML()</a>.</p>
+
+</div>
+</div>
+<a id="a82aa54e8eebfa409c1b1f7336c5be4f8" name="a82aa54e8eebfa409c1b1f7336c5be4f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82aa54e8eebfa409c1b1f7336c5be4f8">&#9670;&#160;</a></span>streamDefaultBindings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FUNCS , int maxFunc, typename KEY &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool streamDefaultBindings {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structsst_1_1plugininfra_1_1KeyMapManager.html#a24abfe7b30ea0535de9b8e75df4b7f11">KeyMapManager&lt; FUNCS, maxFunc, KEY &gt;::streamToXML()</a>.</p>
 
 </div>
 </div>
@@ -486,7 +506,7 @@ template&lt;typename FUNCS , int maxFunc, typename KEY &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 16 2026 12:07:26 for sst-plugininfra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 15 2026 16:06:41 for sst-plugininfra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
