@@ -68,5 +68,6 @@ var searchData=
   ['scxt_3a_3avoice_3a_3amodulation_65',['modulation',['../namespacescxt_1_1voice_1_1modulation.html',1,'scxt::voice']]],
   ['sst_66',['sst',['../namespacesst.html',1,'']]],
   ['sst_3a_3ajucegui_67',['jucegui',['../namespacesst_1_1jucegui.html',1,'sst']]],
-  ['sst_3a_3ajucegui_3a_3acomponents_68',['components',['../namespacesst_1_1jucegui_1_1components.html',1,'sst::jucegui']]]
+  ['sst_3a_3ajucegui_3a_3acomponents_68',['components',['../namespacesst_1_1jucegui_1_1components.html',1,'sst::jucegui']]],
+  ['sst_3a_3aplugininfra_69',['plugininfra',['../namespacesst_1_1plugininfra.html',1,'sst']]]
 ];

@@ -10,6 +10,8 @@ var searchData=
   ['keyandpitchsources_7',['keyandpitchsources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'GroupMatrixEndpoints::Sources::KeyAndPitchSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'MatrixEndpoints::Sources::KeyAndPitchSources']]],
   ['keybindings_8',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html',1,'scxt::ui::app']]],
   ['keyboardrange_9',['KeyboardRange',['../structscxt_1_1engine_1_1KeyboardRange.html',1,'scxt::engine']]],
-  ['keygroup_10',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
-  ['kloc_11',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
+  ['keycommandinfo_10',['KeyCommandInfo',['../structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html',1,'scxt::ui::app']]],
+  ['keycommandtarget_11',['KeyCommandTarget',['../structscxt_1_1ui_1_1app_1_1KeyCommandTarget.html',1,'scxt::ui::app']]],
+  ['keygroup_12',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
+  ['kloc_13',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
 ];

@@ -171,6 +171,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a986026fbe98875fa502d1e4eeb8f6a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5ccaed905785cfd2efdec60e2244a03" id="r_af5ccaed905785cfd2efdec60e2244a03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af5ccaed905785cfd2efdec60e2244a03">swapGroupZone</a> ()</td></tr>
 <tr class="separator:af5ccaed905785cfd2efdec60e2244a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181c26d3f94f7fe5d190fb5d6c2224aa" id="r_a181c26d3f94f7fe5d190fb5d6c2224aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a181c26d3f94f7fe5d190fb5d6c2224aa">doZoneEditCommand</a> (<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a> command)</td></tr>
+<tr class="separator:a181c26d3f94f7fe5d190fb5d6c2224aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0da73fa6e605f5aa991dbddbb4cdcce" id="r_ac0da73fa6e605f5aa991dbddbb4cdcce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac0da73fa6e605f5aa991dbddbb4cdcce">doGroupEditCommand</a> (<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a> command)</td></tr>
+<tr class="separator:ac0da73fa6e605f5aa991dbddbb4cdcce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00325ef595382b852821b5222f76491b" id="r_a00325ef595382b852821b5222f76491b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a00325ef595382b852821b5222f76491b">selectAllInPart</a> (bool forZone)</td></tr>
+<tr class="separator:a00325ef595382b852821b5222f76491b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54dddb4dd1d9c55d3c7bd787286917f6" id="r_a54dddb4dd1d9c55d3c7bd787286917f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">onOtherTabSelection</a> ()</td></tr>
 <tr class="separator:a54dddb4dd1d9c55d3c7bd787286917f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f58cfe8942a0b00834a460976c70942" id="r_a5f58cfe8942a0b00834a460976c70942"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a5f58cfe8942a0b00834a460976c70942">tabKey</a> (const std::string &amp;s)</td></tr>
@@ -624,6 +630,68 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a181c26d3f94f7fe5d190fb5d6c2224aa" name="a181c26d3f94f7fe5d190fb5d6c2224aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a181c26d3f94f7fe5d190fb5d6c2224aa">&#9670;&#160;</a></span>doZoneEditCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool doZoneEditCommand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>&#160;</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8ae675321833a69544d265e3510b2fba">SCXTEditor::allZoneSelections</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a96cc591b53b960c2d5989d47bbaaf832">SCXTEditor::clipboardType</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785">scxt::ui::app::COPY</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aff5e03e11097861f3acf1b215716491c">SCXTEditor::currentLeadGroupSelection</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a426431ad08fe0fe24310ddbda4d9f1d2">SCXTEditor::currentLeadZoneSelection</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2">scxt::ui::app::DELETE_SELECTED</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f">scxt::ui::app::DUPLICATE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0">scxt::ui::app::PASTE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e">scxt::ui::app::SELECT_ALL</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a00325ef595382b852821b5222f76491b">EditScreen::selectAllInPart()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa7eaefe48c50e03076ec26780d1b8248">Clipboard::ZONE</a>.</p>
+
+</div>
+</div>
+<a id="ac0da73fa6e605f5aa991dbddbb4cdcce" name="ac0da73fa6e605f5aa991dbddbb4cdcce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0da73fa6e605f5aa991dbddbb4cdcce">&#9670;&#160;</a></span>doGroupEditCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool doGroupEditCommand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>&#160;</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a65438e57ba2882cb5b03741e02f79e35">SCXTEditor::allGroupSelections</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a96cc591b53b960c2d5989d47bbaaf832">SCXTEditor::clipboardType</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785">scxt::ui::app::COPY</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aff5e03e11097861f3acf1b215716491c">SCXTEditor::currentLeadGroupSelection</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2">scxt::ui::app::DELETE_SELECTED</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f">scxt::ui::app::DUPLICATE</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221">Clipboard::GROUP</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0">scxt::ui::app::PASTE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e">scxt::ui::app::SELECT_ALL</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a00325ef595382b852821b5222f76491b">EditScreen::selectAllInPart()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a3a5c220394e639a91b7a0b5f6006a339">HasEditor::sendToSerialization()</a>.</p>
+
+</div>
+</div>
+<a id="a00325ef595382b852821b5222f76491b" name="a00325ef595382b852821b5222f76491b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00325ef595382b852821b5222f76491b">&#9670;&#160;</a></span>selectAllInPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void selectAllInPart </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forZone</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#aff5e03e11097861f3acf1b215716491c">SCXTEditor::currentLeadGroupSelection</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a426431ad08fe0fe24310ddbda4d9f1d2">SCXTEditor::currentLeadZoneSelection</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a8556b0a82a85546b031fddac2a374ce8">SCXTEditor::doSelectionAction()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aadc0768d919bf328c20e3ee9fdcc6564">EditScreen::partSidebar</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a19ef90d0277f9a76a61fd8c333b4407f">SCXTEditor::selectedPart</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ac0da73fa6e605f5aa991dbddbb4cdcce">EditScreen::doGroupEditCommand()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a181c26d3f94f7fe5d190fb5d6c2224aa">EditScreen::doZoneEditCommand()</a>.</p>
+
+</div>
+</div>
 <a id="a54dddb4dd1d9c55d3c7bd787286917f6" name="a54dddb4dd1d9c55d3c7bd787286917f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54dddb4dd1d9c55d3c7bd787286917f6">&#9670;&#160;</a></span>onOtherTabSelection()</h2>
 
@@ -892,7 +960,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">EditScreen::selectedPartChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af5ccaed905785cfd2efdec60e2244a03">EditScreen::swapGroupZone()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#adfe467bda47b571a635ba454d06c4f8e">EditScreen::viewGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a986026fbe98875fa502d1e4eeb8f6a2b">EditScreen::viewPart()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ad5230b83daf38726e1c2edb99ad04683">EditScreen::viewZone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a1030d7d00b072c9add62a6c7d650f48f">EditScreen::EditScreen()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#aeb57d11704c0ddd3ff515aa5b8c8c5a4">EditScreen::layout()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a54dddb4dd1d9c55d3c7bd787286917f6">EditScreen::onOtherTabSelection()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a00325ef595382b852821b5222f76491b">EditScreen::selectAllInPart()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ae09ba8432af2d4c84f3d2cb9fba4a70c">EditScreen::selectedPartChanged()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af5ccaed905785cfd2efdec60e2244a03">EditScreen::swapGroupZone()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#adfe467bda47b571a635ba454d06c4f8e">EditScreen::viewGroup()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a986026fbe98875fa502d1e4eeb8f6a2b">EditScreen::viewPart()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#ad5230b83daf38726e1c2edb99ad04683">EditScreen::viewZone()</a>.</p>
 
 </div>
 </div>
@@ -981,7 +1049,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2026 16:57:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

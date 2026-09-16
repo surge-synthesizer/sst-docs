@@ -127,6 +127,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html">KeyBindings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html">KeyCommandInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyCommandTarget.html">KeyCommandTarget</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html">SCXTEditorDataCache</a></td></tr>
@@ -143,20 +147,42 @@ Concepts</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a84db4db89f72ceb0a07e95474bf5cd6a" id="r_a84db4db89f72ceb0a07e95474bf5cd6a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a> : uint32_t { <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1">SWITCH_GROUP_ZONE_SELECTION</a>
-, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980">FOCUS_PARTS</a>
-, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c">FOCUS_GROUPS</a>
-, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2">FOCUS_ZONES</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f">FOCUS_MIXER</a>
-, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f">FOCUS_PLAY</a>
-, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6">UNDO</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6">UNDO</a>
 , <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449">REDO</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa7674dd98ff76d5a7d6261894f19c7bca">SHOW_KEYBINDINGS_EDITOR</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa74274e592f244befcc07189003057a36">SHOW_TUNING_EDITOR</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb">numKeyCommands</a>
+&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa447ad8107bfab07da9b8b8abc91bb7f8">SHOW_LOG</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad46d91c03ce04653558b450f6ff2e61f">SHOW_ABOUT</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f">FOCUS_PLAY</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980">FOCUS_PARTS</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c">FOCUS_GROUPS</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2">FOCUS_ZONES</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f">FOCUS_MIXER</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1">SWITCH_GROUP_ZONE_SELECTION</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e">SELECT_ALL</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae3b4768297811b014c10d7589ef622a6">SELECT_PREVIOUS</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa083676234c39e58ca445cc9bad5fb6b3">SELECT_NEXT</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9a25989a7678e52c9900c88a81fb18d3">ACTIVATE</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8b7135b040a16efb4067520bd32e723a">COLLAPSE</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaaf65d2b6c36377e4fc639e9fc6aa6fab">EXPAND</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae94f2c2c34d5f628a71ed4847dbd01d0">RENAME</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785">COPY</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0">PASTE</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f">DUPLICATE</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2">DELETE_SELECTED</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb">numKeyCommands</a>
 <br />
  }</td></tr>
 <tr class="separator:a84db4db89f72ceb0a07e95474bf5cd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2bec2b0a72fdbdffc88f48915f1b8b" id="r_abf2bec2b0a72fdbdffc88f48915f1b8b"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8b">KeyCommandScope</a> { <a class="el" href="namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8ba6eecfba72d12922ee1dead07a0ef3334">GLOBAL</a>
+, <a class="el" href="namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8ba93762d802eed04b3e1c59d1d46b35248">EDIT</a>
+ }</td></tr>
+<tr class="separator:abf2bec2b0a72fdbdffc88f48915f1b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -176,15 +202,56 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1" name="a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1"></a>SWITCH_GROUP_ZONE_SELECTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6" name="a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6"></a>UNDO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449" name="a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449"></a>REDO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa7674dd98ff76d5a7d6261894f19c7bca" name="a84db4db89f72ceb0a07e95474bf5cd6aa7674dd98ff76d5a7d6261894f19c7bca"></a>SHOW_KEYBINDINGS_EDITOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa74274e592f244befcc07189003057a36" name="a84db4db89f72ceb0a07e95474bf5cd6aa74274e592f244befcc07189003057a36"></a>SHOW_TUNING_EDITOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa447ad8107bfab07da9b8b8abc91bb7f8" name="a84db4db89f72ceb0a07e95474bf5cd6aa447ad8107bfab07da9b8b8abc91bb7f8"></a>SHOW_LOG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aad46d91c03ce04653558b450f6ff2e61f" name="a84db4db89f72ceb0a07e95474bf5cd6aad46d91c03ce04653558b450f6ff2e61f"></a>SHOW_ABOUT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f" name="a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f"></a>FOCUS_PLAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980" name="a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980"></a>FOCUS_PARTS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c" name="a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c"></a>FOCUS_GROUPS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2" name="a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2"></a>FOCUS_ZONES&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f" name="a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f"></a>FOCUS_MIXER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f" name="a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f"></a>FOCUS_PLAY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6" name="a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6"></a>UNDO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449" name="a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449"></a>REDO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1" name="a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1"></a>SWITCH_GROUP_ZONE_SELECTION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e" name="a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e"></a>SELECT_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aae3b4768297811b014c10d7589ef622a6" name="a84db4db89f72ceb0a07e95474bf5cd6aae3b4768297811b014c10d7589ef622a6"></a>SELECT_PREVIOUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa083676234c39e58ca445cc9bad5fb6b3" name="a84db4db89f72ceb0a07e95474bf5cd6aa083676234c39e58ca445cc9bad5fb6b3"></a>SELECT_NEXT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa9a25989a7678e52c9900c88a81fb18d3" name="a84db4db89f72ceb0a07e95474bf5cd6aa9a25989a7678e52c9900c88a81fb18d3"></a>ACTIVATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa8b7135b040a16efb4067520bd32e723a" name="a84db4db89f72ceb0a07e95474bf5cd6aa8b7135b040a16efb4067520bd32e723a"></a>COLLAPSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aaaf65d2b6c36377e4fc639e9fc6aa6fab" name="a84db4db89f72ceb0a07e95474bf5cd6aaaf65d2b6c36377e4fc639e9fc6aa6fab"></a>EXPAND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aae94f2c2c34d5f628a71ed4847dbd01d0" name="a84db4db89f72ceb0a07e95474bf5cd6aae94f2c2c34d5f628a71ed4847dbd01d0"></a>RENAME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785" name="a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785"></a>COPY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0" name="a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0"></a>PASTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f" name="a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f"></a>DUPLICATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2" name="a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2"></a>DELETE_SELECTED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb" name="a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb"></a>numKeyCommands&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="abf2bec2b0a72fdbdffc88f48915f1b8b" name="abf2bec2b0a72fdbdffc88f48915f1b8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2bec2b0a72fdbdffc88f48915f1b8b">&#9670;&#160;</a></span>KeyCommandScope</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum struct <a class="el" href="namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8b">KeyCommandScope</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abf2bec2b0a72fdbdffc88f48915f1b8ba6eecfba72d12922ee1dead07a0ef3334" name="abf2bec2b0a72fdbdffc88f48915f1b8ba6eecfba72d12922ee1dead07a0ef3334"></a>GLOBAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abf2bec2b0a72fdbdffc88f48915f1b8ba93762d802eed04b3e1c59d1d46b35248" name="abf2bec2b0a72fdbdffc88f48915f1b8ba93762d802eed04b3e1c59d1d46b35248"></a>EDIT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -217,7 +284,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2026 16:57:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

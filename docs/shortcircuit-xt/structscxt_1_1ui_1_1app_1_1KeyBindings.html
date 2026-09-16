@@ -97,6 +97,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structscxt_1_1ui_1_1app_1_1KeyBindings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">KeyBindings Struct Reference</div></div>
@@ -130,8 +131,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acb36d2d9ff492894868e4e672e544368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07d21ac024d363fb6ce2264d3aaaf4bb" id="r_a07d21ac024d363fb6ce2264d3aaaf4bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a07d21ac024d363fb6ce2264d3aaaf4bb">setupKeyBindings</a> ()</td></tr>
 <tr class="separator:a07d21ac024d363fb6ce2264d3aaaf4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a778ed7c6ba800cc575390dca3be17cdb" id="r_a778ed7c6ba800cc575390dca3be17cdb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a778ed7c6ba800cc575390dca3be17cdb">commandToString</a> (<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>)</td></tr>
-<tr class="separator:a778ed7c6ba800cc575390dca3be17cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79eb303923a94154638866fc4957eecc" id="r_a79eb303923a94154638866fc4957eecc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a79eb303923a94154638866fc4957eecc">matchingCommands</a> (const juce::KeyPress &amp;key) const</td></tr>
+<tr class="separator:a79eb303923a94154638866fc4957eecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35c63d28dc512da258fb9302382bee7" id="r_ae35c63d28dc512da258fb9302382bee7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#ae35c63d28dc512da258fb9302382bee7">shortcutDescription</a> (<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>) const</td></tr>
+<tr class="separator:ae35c63d28dc512da258fb9302382bee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2cbd5588ae60c67a3634cc4f1fec4f" id="r_a6e2cbd5588ae60c67a3634cc4f1fec4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a6e2cbd5588ae60c67a3634cc4f1fec4f">showEditor</a> ()</td></tr>
+<tr class="separator:a6e2cbd5588ae60c67a3634cc4f1fec4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html">HasEditor</a></td></tr>
 <tr class="memitem:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor" id="r_ae7c2e1db62fd864b342d056dfc91fb98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#ae7c2e1db62fd864b342d056dfc91fb98">HasEditor</a> (<a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html">SCXTEditor</a> *e)</td></tr>
 <tr class="separator:ae7c2e1db62fd864b342d056dfc91fb98 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +167,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6efe5ac561e9fda9520afc601d080481 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor" id="r_a6efe5ac561e9fda9520afc601d080481"><td class="memTemplParams" colspan="2">template&lt;typename A &gt; </td></tr>
 <tr class="memitem:a6efe5ac561e9fda9520afc601d080481 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a6efe5ac561e9fda9520afc601d080481">wireErrorReporter</a> (A &amp;att)</td></tr>
 <tr class="separator:a6efe5ac561e9fda9520afc601d080481 inherit pub_methods_structscxt_1_1ui_1_1app_1_1HasEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a880435f5dc9545b89710f5247fb82a29" id="r_a880435f5dc9545b89710f5247fb82a29"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html">KeyCommandInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a880435f5dc9545b89710f5247fb82a29">commandInfo</a> (<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>)</td></tr>
+<tr class="separator:a880435f5dc9545b89710f5247fb82a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778ed7c6ba800cc575390dca3be17cdb" id="r_a778ed7c6ba800cc575390dca3be17cdb"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a778ed7c6ba800cc575390dca3be17cdb">commandToString</a> (<a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>)</td></tr>
+<tr class="separator:a778ed7c6ba800cc575390dca3be17cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -240,9 +252,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c">scxt::ui::app::FOCUS_GROUPS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f">scxt::ui::app::FOCUS_MIXER</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980">scxt::ui::app::FOCUS_PARTS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f">scxt::ui::app::FOCUS_PLAY</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2">scxt::ui::app::FOCUS_ZONES</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a4c4eea4ed649042722e20d82d5ba1669">KeyBindings::manager</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449">scxt::ui::app::REDO</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1">scxt::ui::app::SWITCH_GROUP_ZONE_SELECTION</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6">scxt::ui::app::UNDO</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9a25989a7678e52c9900c88a81fb18d3">scxt::ui::app::ACTIVATE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8b7135b040a16efb4067520bd32e723a">scxt::ui::app::COLLAPSE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785">scxt::ui::app::COPY</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2">scxt::ui::app::DELETE_SELECTED</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f">scxt::ui::app::DUPLICATE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaaf65d2b6c36377e4fc639e9fc6aa6fab">scxt::ui::app::EXPAND</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c">scxt::ui::app::FOCUS_GROUPS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f">scxt::ui::app::FOCUS_MIXER</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980">scxt::ui::app::FOCUS_PARTS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f">scxt::ui::app::FOCUS_PLAY</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2">scxt::ui::app::FOCUS_ZONES</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a4c4eea4ed649042722e20d82d5ba1669">KeyBindings::manager</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0">scxt::ui::app::PASTE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449">scxt::ui::app::REDO</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae94f2c2c34d5f628a71ed4847dbd01d0">scxt::ui::app::RENAME</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e">scxt::ui::app::SELECT_ALL</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa083676234c39e58ca445cc9bad5fb6b3">scxt::ui::app::SELECT_NEXT</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae3b4768297811b014c10d7589ef622a6">scxt::ui::app::SELECT_PREVIOUS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa7674dd98ff76d5a7d6261894f19c7bca">scxt::ui::app::SHOW_KEYBINDINGS_EDITOR</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa74274e592f244befcc07189003057a36">scxt::ui::app::SHOW_TUNING_EDITOR</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1">scxt::ui::app::SWITCH_GROUP_ZONE_SELECTION</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6">scxt::ui::app::UNDO</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a08943765f5655c99fe84eb22690af015">KeyBindings::KeyBindings()</a>.</p>
+
+</div>
+</div>
+<a id="a880435f5dc9545b89710f5247fb82a29" name="a880435f5dc9545b89710f5247fb82a29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a880435f5dc9545b89710f5247fb82a29">&#9670;&#160;</a></span>commandInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html">KeyCommandInfo</a> commandInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9a25989a7678e52c9900c88a81fb18d3">scxt::ui::app::ACTIVATE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8b7135b040a16efb4067520bd32e723a">scxt::ui::app::COLLAPSE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaba6788019f0f871f0aefcd5644635785">scxt::ui::app::COPY</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2">scxt::ui::app::DELETE_SELECTED</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f">scxt::ui::app::DUPLICATE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaaf65d2b6c36377e4fc639e9fc6aa6fab">scxt::ui::app::EXPAND</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c">scxt::ui::app::FOCUS_GROUPS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f">scxt::ui::app::FOCUS_MIXER</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980">scxt::ui::app::FOCUS_PARTS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f">scxt::ui::app::FOCUS_PLAY</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2">scxt::ui::app::FOCUS_ZONES</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb">scxt::ui::app::numKeyCommands</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aac4f906197c73a739eeab28811ca34ee0">scxt::ui::app::PASTE</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449">scxt::ui::app::REDO</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae94f2c2c34d5f628a71ed4847dbd01d0">scxt::ui::app::RENAME</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aabed2268a81494490a6ab7030e751876e">scxt::ui::app::SELECT_ALL</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa083676234c39e58ca445cc9bad5fb6b3">scxt::ui::app::SELECT_NEXT</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae3b4768297811b014c10d7589ef622a6">scxt::ui::app::SELECT_PREVIOUS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad46d91c03ce04653558b450f6ff2e61f">scxt::ui::app::SHOW_ABOUT</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa7674dd98ff76d5a7d6261894f19c7bca">scxt::ui::app::SHOW_KEYBINDINGS_EDITOR</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa447ad8107bfab07da9b8b8abc91bb7f8">scxt::ui::app::SHOW_LOG</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa74274e592f244befcc07189003057a36">scxt::ui::app::SHOW_TUNING_EDITOR</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1">scxt::ui::app::SWITCH_GROUP_ZONE_SELECTION</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6">scxt::ui::app::UNDO</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a778ed7c6ba800cc575390dca3be17cdb">KeyBindings::commandToString()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a6e2cbd5588ae60c67a3634cc4f1fec4f">KeyBindings::showEditor()</a>.</p>
 
 </div>
 </div>
@@ -251,6 +293,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::string commandToString </td>
@@ -260,9 +305,73 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae526b4ece469ca58701945c3a7afd39c">scxt::ui::app::FOCUS_GROUPS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aab6795f93878dc907830a78d5797a942f">scxt::ui::app::FOCUS_MIXER</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aae36c080f69af91f2896953229b438980">scxt::ui::app::FOCUS_PARTS</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa487738d4d4f91e1ba1fbaa755872185f">scxt::ui::app::FOCUS_PLAY</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aaf5d66e706730c2fbd4be78535eb708c2">scxt::ui::app::FOCUS_ZONES</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa9e452fdda757397958941890853fdedb">scxt::ui::app::numKeyCommands</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aad20f1b79e9cfc073db19741638050449">scxt::ui::app::REDO</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1">scxt::ui::app::SWITCH_GROUP_ZONE_SELECTION</a>, and <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa22a937c23ef109ac28176b98dacad9c6">scxt::ui::app::UNDO</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a880435f5dc9545b89710f5247fb82a29">KeyBindings::commandInfo()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html#a5002ed4a62b06f1164883eff219afe49">KeyCommandInfo::streamName</a>.</p>
+
+</div>
+</div>
+<a id="a79eb303923a94154638866fc4957eecc" name="a79eb303923a94154638866fc4957eecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79eb303923a94154638866fc4957eecc">&#9670;&#160;</a></span>matchingCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a> &gt; matchingCommands </td>
+          <td>(</td>
+          <td class="paramtype">const juce::KeyPress &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a4c4eea4ed649042722e20d82d5ba1669">KeyBindings::manager</a>.</p>
+
+</div>
+</div>
+<a id="ae35c63d28dc512da258fb9302382bee7" name="ae35c63d28dc512da258fb9302382bee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae35c63d28dc512da258fb9302382bee7">&#9670;&#160;</a></span>shortcutDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string shortcutDescription </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6a">KeyCommands</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a4c4eea4ed649042722e20d82d5ba1669">KeyBindings::manager</a>.</p>
+
+</div>
+</div>
+<a id="a6e2cbd5588ae60c67a3634cc4f1fec4f" name="a6e2cbd5588ae60c67a3634cc4f1fec4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2cbd5588ae60c67a3634cc4f1fec4f">&#9670;&#160;</a></span>showEditor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void showEditor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a880435f5dc9545b89710f5247fb82a29">KeyBindings::commandInfo()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8ba6eecfba72d12922ee1dead07a0ef3334">scxt::ui::app::GLOBAL</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a4c4eea4ed649042722e20d82d5ba1669">KeyBindings::manager</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html#a34e3db75f286acf60751037b2aff007a">KeyCommandInfo::scope</a>.</p>
 
 </div>
 </div>
@@ -279,7 +388,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a08943765f5655c99fe84eb22690af015">KeyBindings::KeyBindings()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a07d21ac024d363fb6ce2264d3aaaf4bb">KeyBindings::setupKeyBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a08943765f5655c99fe84eb22690af015">KeyBindings::KeyBindings()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a79eb303923a94154638866fc4957eecc">KeyBindings::matchingCommands()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a07d21ac024d363fb6ce2264d3aaaf4bb">KeyBindings::setupKeyBindings()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#ae35c63d28dc512da258fb9302382bee7">KeyBindings::shortcutDescription()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1KeyBindings.html#a6e2cbd5588ae60c67a3634cc4f1fec4f">KeyBindings::showEditor()</a>.</p>
 
 </div>
 </div>
@@ -290,7 +399,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2026 16:57:15 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
