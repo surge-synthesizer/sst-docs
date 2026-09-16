@@ -111,6 +111,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a3ccd048df649c335df5a7f82673bbc79" id="r_a3ccd048df649c335df5a7f82673bbc79"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79">ContentType</a> { <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>
 , <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa7eaefe48c50e03076ec26780d1b8248">ZONE</a>
 , <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221">GROUP</a>
+, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79a3c1d6b7c2e5e70ecc5f918a36a13cff5">VARIANT</a>
  }</td></tr>
 <tr class="separator:a3ccd048df649c335df5a7f82673bbc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -134,6 +135,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a859ad6a8f249dd2471917e5140421f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47a18aabcfe4ea0ce5183ce3b5eb225f" id="r_a47a18aabcfe4ea0ce5183ce3b5eb225f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a47a18aabcfe4ea0ce5183ce3b5eb225f">getClipboardItemCount</a> () const</td></tr>
 <tr class="separator:a47a18aabcfe4ea0ce5183ce3b5eb225f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa96318ac83e5751a4be3e7cec04cf38f" id="r_aa96318ac83e5751a4be3e7cec04cf38f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Clipboard.html#aa96318ac83e5751a4be3e7cec04cf38f">holdSamples</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &gt; s)</td></tr>
+<tr class="separator:aa96318ac83e5751a4be3e7cec04cf38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -150,6 +153,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a1d407b90fb3a5c3b8cb5dc59072ba2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4192866025823ecd5592526c757c0b" id="r_a9c4192866025823ecd5592526c757c0b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a9c4192866025823ecd5592526c757c0b">names</a></td></tr>
 <tr class="separator:a9c4192866025823ecd5592526c757c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad327b25c937e686a71fb6acec6d3c0de" id="r_ad327b25c937e686a71fb6acec6d3c0de"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Clipboard.html#ad327b25c937e686a71fb6acec6d3c0de">heldSamples</a></td></tr>
+<tr class="separator:ad327b25c937e686a71fb6acec6d3c0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a3ccd048df649c335df5a7f82673bbc79" name="a3ccd048df649c335df5a7f82673bbc79"></a>
@@ -167,6 +172,7 @@ Protected Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2" name="a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ccd048df649c335df5a7f82673bbc79aa7eaefe48c50e03076ec26780d1b8248" name="a3ccd048df649c335df5a7f82673bbc79aa7eaefe48c50e03076ec26780d1b8248"></a>ZONE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221" name="a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221"></a>GROUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ccd048df649c335df5a7f82673bbc79a3c1d6b7c2e5e70ecc5f918a36a13cff5" name="a3ccd048df649c335df5a7f82673bbc79a3c1d6b7c2e5e70ecc5f918a36a13cff5"></a>VARIANT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -206,7 +212,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a1d407b90fb3a5c3b8cb5dc59072ba2fd">Clipboard::contents</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a9c4192866025823ecd5592526c757c0b">Clipboard::names</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#abec8dd9c3caf0f1cb46a574e5b8334ed">Clipboard::type</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a1d407b90fb3a5c3b8cb5dc59072ba2fd">Clipboard::contents</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#ad327b25c937e686a71fb6acec6d3c0de">Clipboard::heldSamples</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a9c4192866025823ecd5592526c757c0b">Clipboard::names</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#abec8dd9c3caf0f1cb46a574e5b8334ed">Clipboard::type</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a744e18eacd6b07cd89bb6daf67fef44b">Clipboard::streamToClipboard()</a>.</p>
 
@@ -374,6 +380,26 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aa96318ac83e5751a4be3e7cec04cf38f" name="aa96318ac83e5751a4be3e7cec04cf38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa96318ac83e5751a4be3e7cec04cf38f">&#9670;&#160;</a></span>holdSamples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void holdSamples </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#ad327b25c937e686a71fb6acec6d3c0de">Clipboard::heldSamples</a>.</p>
+
+</div>
+</div>
 <a id="aa5d4a3c9cd71fa5c3272838510822adc" name="aa5d4a3c9cd71fa5c3272838510822adc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5d4a3c9cd71fa5c3272838510822adc">&#9670;&#160;</a></span>toStringContentType()</h2>
 
@@ -398,7 +424,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221">Clipboard::GROUP</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2">Clipboard::NONE</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa7eaefe48c50e03076ec26780d1b8248">Clipboard::ZONE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221">Clipboard::GROUP</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2">Clipboard::NONE</a>, <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79a3c1d6b7c2e5e70ecc5f918a36a13cff5">Clipboard::VARIANT</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa7eaefe48c50e03076ec26780d1b8248">Clipboard::ZONE</a>.</p>
 
 </div>
 </div>
@@ -426,7 +452,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221">Clipboard::GROUP</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2">Clipboard::NONE</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79ac157bdf0b85a40d2619cbc8bc1ae5fe2">Clipboard::NONE</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79a3c1d6b7c2e5e70ecc5f918a36a13cff5">Clipboard::VARIANT</a>.</p>
 
 </div>
 </div>
@@ -503,6 +529,30 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ad327b25c937e686a71fb6acec6d3c0de" name="ad327b25c937e686a71fb6acec6d3c0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad327b25c937e686a71fb6acec6d3c0de">&#9670;&#160;</a></span>heldSamples</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a>&gt; &gt; heldSamples</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#aa96318ac83e5751a4be3e7cec04cf38f">Clipboard::holdSamples()</a>, and <a class="el" href="structscxt_1_1engine_1_1Clipboard.html#adf315d2797bc6829d1ef956cf09a8ea2">Clipboard::streamToClipboard()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="clipboard_8h.html">clipboard.h</a></li>
 <li><a class="el" href="clipboard__impl_8h.html">clipboard_impl.h</a></li>
@@ -510,7 +560,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 18:14:46 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 22:22:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -330,6 +330,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad3452f68556328ac5c7c98426f611c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a031b43832946feb42f4f21b8c6f60cb1" id="r_a031b43832946feb42f4f21b8c6f60cb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a031b43832946feb42f4f21b8c6f60cb1">copyGroups</a> (const std::vector&lt; <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &gt; &amp;)</td></tr>
 <tr class="separator:a031b43832946feb42f4f21b8c6f60cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13246c28b0a97d0edf911aaf6ae7d2a6" id="r_a13246c28b0a97d0edf911aaf6ae7d2a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a13246c28b0a97d0edf911aaf6ae7d2a6">copyVariant</a> (int variant)</td></tr>
+<tr class="separator:a13246c28b0a97d0edf911aaf6ae7d2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679e6dfea855b45fb0c62abfe56db5fb" id="r_a679e6dfea855b45fb0c62abfe56db5fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a679e6dfea855b45fb0c62abfe56db5fb">pasteVariant</a> (int afterVariant)</td></tr>
+<tr class="separator:a679e6dfea855b45fb0c62abfe56db5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a343c3293da291aded6ff02f4ac841ad5" id="r_a343c3293da291aded6ff02f4ac841ad5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a343c3293da291aded6ff02f4ac841ad5">isValidZoneAddress</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;) const</td></tr>
 <tr class="separator:a343c3293da291aded6ff02f4ac841ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85997d35ac760dc395cda932c1c03723" id="r_a85997d35ac760dc395cda932c1c03723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a85997d35ac760dc395cda932c1c03723">isValidGroupAddress</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html">selection::SelectionManager::ZoneAddress</a> &amp;) const</td></tr>
@@ -2152,7 +2156,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#a9b42ad7012b3b30e6947a97f8112e4f1">scxt::messaging::audio::sendStructureRefresh()</a>.</p>
 
 </div>
 </div>
@@ -2256,7 +2260,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#a9b42ad7012b3b30e6947a97f8112e4f1">scxt::messaging::audio::sendStructureRefresh()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a082609aca8dd1fd593ede41702bc8830">SelectionManager::ZoneAddress::group</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1ZoneAddress.html#a6ed93abc84107f7589d8968f7df58142">SelectionManager::ZoneAddress::part</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba60d09887a4c1d34f0a3f27b00bc6528d">scxt::messaging::client::s2c_send_pgz_structure</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
 </div>
 </div>
@@ -2301,6 +2305,46 @@ Additional Inherited Members</h2></td></tr>
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba424649a48d23752ebe5b4d4c9ef07022">scxt::messaging::client::s2c_send_clipboard_type</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a72240c600fccca49a8b6accbfae1c74b">Engine::copyGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a13246c28b0a97d0edf911aaf6ae7d2a6" name="a13246c28b0a97d0edf911aaf6ae7d2a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13246c28b0a97d0edf911aaf6ae7d2a6">&#9670;&#160;</a></span>copyVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void copyVariant </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>variant</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba424649a48d23752ebe5b4d4c9ef07022">scxt::messaging::client::s2c_send_clipboard_type</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
+
+</div>
+</div>
+<a id="a679e6dfea855b45fb0c62abfe56db5fb" name="a679e6dfea855b45fb0c62abfe56db5fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679e6dfea855b45fb0c62abfe56db5fb">&#9670;&#160;</a></span>pasteVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pasteVariant </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>afterVariant</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html#a03c996f9fcf0e10baeb3e700be0c409a">Zone::SingleVariant::active</a>, and <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>.</p>
 
 </div>
 </div>
@@ -3702,7 +3746,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 18:14:46 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 22:22:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

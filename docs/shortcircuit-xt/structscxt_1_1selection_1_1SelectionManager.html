@@ -193,6 +193,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aefa2864dbeb81a5012fc5dc76303410a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf979ee3cb5e38a56f5793669967b003" id="r_abf979ee3cb5e38a56f5793669967b003"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abf979ee3cb5e38a56f5793669967b003">remapCollapsedOnMoveAfter</a> (int part, int whichGroup, int toAfter)</td></tr>
 <tr class="separator:abf979ee3cb5e38a56f5793669967b003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d80577e964dda1c57633bbb0d42f22" id="r_a87d80577e964dda1c57633bbb0d42f22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a87d80577e964dda1c57633bbb0d42f22">remapCollapsedOnInsert</a> (int part, int at, int count)</td></tr>
+<tr class="separator:a87d80577e964dda1c57633bbb0d42f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -1306,6 +1308,42 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
 
 </div>
 </div>
+<a id="a87d80577e964dda1c57633bbb0d42f22" name="a87d80577e964dda1c57633bbb0d42f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d80577e964dda1c57633bbb0d42f22">&#9670;&#160;</a></span>remapCollapsedOnInsert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remapCollapsedOnInsert </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>at</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac3e05a3a4ef9fa93fbc4820fa36f5265">SelectionManager::state</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa43980f69e7c0e9e2d54a64a453ff231" name="aa43980f69e7c0e9e2d54a64a453ff231"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa43980f69e7c0e9e2d54a64a453ff231">&#9670;&#160;</a></span>engine</h2>
@@ -1367,7 +1405,7 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae38aa61cca0131c021c8be6a89403f66">SelectionManager::acrossSelectionConsistency()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a28b50b6cb236ff0eed94b014ad337534">SelectionManager::applySelectActions()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ccfaac332d2f109c56956ab0e17fc1e">SelectionManager::copyZoneOrGroupProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af0c1e052826fcf8cfffdf1c6510e33ca">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a70e4a9d81bf2a1011bc4e18b3678562c">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a588755b35a4159b0c245b35d1e87896b">SelectionManager::currentlySelectedGroups()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab560414883ab0ba3ae588b49622ae8dc">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a596fa33abf8020547a2200d7c5a65dd2">SelectionManager::isGroupCollapsed()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abf979ee3cb5e38a56f5793669967b003">SelectionManager::remapCollapsedOnMoveAfter()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aefa2864dbeb81a5012fc5dc76303410a">SelectionManager::remapCollapsedOnSwap()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8eef35a7c1566dfdf67a5d35eb1bedbb">SelectionManager::setAllGroupsCollapsed()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a260badab8cdaea036cc91e7ff00dd10c">SelectionManager::setGroupCollapsed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae38aa61cca0131c021c8be6a89403f66">SelectionManager::acrossSelectionConsistency()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a28b50b6cb236ff0eed94b014ad337534">SelectionManager::applySelectActions()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a218f9f929351e0c010e828335cd63348">SelectionManager::clearAllSelections()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ccfaac332d2f109c56956ab0e17fc1e">SelectionManager::copyZoneOrGroupProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af0c1e052826fcf8cfffdf1c6510e33ca">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a70e4a9d81bf2a1011bc4e18b3678562c">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a588755b35a4159b0c245b35d1e87896b">SelectionManager::currentlySelectedGroups()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab560414883ab0ba3ae588b49622ae8dc">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a596fa33abf8020547a2200d7c5a65dd2">SelectionManager::isGroupCollapsed()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a87d80577e964dda1c57633bbb0d42f22">SelectionManager::remapCollapsedOnInsert()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abf979ee3cb5e38a56f5793669967b003">SelectionManager::remapCollapsedOnMoveAfter()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aefa2864dbeb81a5012fc5dc76303410a">SelectionManager::remapCollapsedOnSwap()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8eef35a7c1566dfdf67a5d35eb1bedbb">SelectionManager::setAllGroupsCollapsed()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a260badab8cdaea036cc91e7ff00dd10c">SelectionManager::setGroupCollapsed()</a>.</p>
 
 </div>
 </div>
@@ -1378,7 +1416,7 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 18:14:46 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 22:22:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

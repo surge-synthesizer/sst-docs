@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r']]],
+  ['r_0',['r',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a4788d82c901b9367dd5c0daff8a7616b',1,'scxt::modulation::modulators::AdsrStorage::r'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AdsrPane_1_1UIStore.html#aa9b801486b34ce37caa832846f7043e0',1,'scxt::ui::app::edit_screen::AdsrPane::UIStore::R']]],
   ['raiseerror_1',['raiseError',['../structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4',1,'scxt::sample::SampleManager']]],
   ['ramlabel_2',['ramLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a50272caa5c41814266e845fefb33972c',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramlevel_3',['ramLevel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#ae001ea2bc1dc2dbcd28cefaaa46fd2cb',1,'scxt::ui::app::shared::HeaderRegion']]],
@@ -54,7 +54,7 @@ var searchData=
   ['releasevelocitya_51',['releaseVelocityA',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#acc768058ef057105fe83882233542cd8',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
   ['releasevelocitysource_52',['releaseVelocitySource',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MIDISources.html#a5785c8722270a52cd48ec305c65038fd',1,'scxt::voice::modulation::MatrixEndpoints::Sources::MIDISources']]],
   ['remapids_53',['remapIds',['../structscxt_1_1sample_1_1SampleManager.html#aadb91dc4340b3cae7a0943b46dedbe97',1,'scxt::sample::SampleManager']]],
-  ['renameeditor_54',['renameEditor',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a7b72cba3387bdc026d5f1824044899d6',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['renameeditor_54',['renameEditor',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#aeae71656909d036314145b69ae183615',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
   ['reparentpath_55',['reparentPath',['../structscxt_1_1sample_1_1SampleManager.html#a25d8a506f26819e43d520ec760125488',1,'scxt::sample::SampleManager']]],
   ['repeats_56',['repeats',['../structscxt_1_1perf_1_1SequenceParams.html#a6d81f902729a57d095fa343793596c1e',1,'scxt::perf::SequenceParams']]],
   ['repetitioninterval_57',['repetitionInterval',['../structscxt_1_1tuning_1_1MidikeyRetuner_1_1RetuneTable.html#ae1ae9b58c2917f43dc2221fa0a248002',1,'scxt::tuning::MidikeyRetuner::RetuneTable']]],

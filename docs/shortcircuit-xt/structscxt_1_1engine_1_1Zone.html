@@ -217,6 +217,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4f13175170726410627f012e212f8131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc4e7610ae96230e25ffc621c75b3f86" id="r_abc4e7610ae96230e25ffc621c75b3f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">deleteVariant</a> (int idx)</td></tr>
 <tr class="separator:abc4e7610ae96230e25ffc621c75b3f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd12b2584512b1bfe062f31536bb8ecc" id="r_abd12b2584512b1bfe062f31536bb8ecc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#abd12b2584512b1bfe062f31536bb8ecc">insertVariant</a> (int idx, const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;v, const <a class="el" href="structscxt_1_1sample_1_1SampleManager.html">sample::SampleManager</a> &amp;manager)</td></tr>
+<tr class="separator:abd12b2584512b1bfe062f31536bb8ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2fb9b3c06e2581c9bd45bac569964de" id="r_ab2fb9b3c06e2581c9bd45bac569964de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Zone.html#ab2fb9b3c06e2581c9bd45bac569964de">process</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;onto)</td></tr>
 <tr class="separator:ab2fb9b3c06e2581c9bd45bac569964de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8fa4fba751326442ae850a2d9c865a0" id="r_ae8fa4fba751326442ae850a2d9c865a0"><td class="memTemplParams" colspan="2">template&lt;bool OS&gt; </td></tr>
@@ -1046,6 +1048,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="abd12b2584512b1bfe062f31536bb8ecc" name="abd12b2584512b1bfe062f31536bb8ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd12b2584512b1bfe062f31536bb8ecc">&#9670;&#160;</a></span>insertVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void insertVariant </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Zone_1_1SingleVariant.html">SingleVariant</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1sample_1_1SampleManager.html">sample::SampleManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>manager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aef8f213f20b2a44ec737da9d36960a24">Zone::maxVariantsPerZone</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48ac157bdf0b85a40d2619cbc8bc1ae5fe2">Zone::NONE</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8e25fea2a4c87b5e25cb1a6a5cffe4ff">Zone::terminateOnNextProcess</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>.</p>
+
+</div>
+</div>
 <a id="ab2fb9b3c06e2581c9bd45bac569964de" name="ab2fb9b3c06e2581c9bd45bac569964de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2fb9b3c06e2581c9bd45bac569964de">&#9670;&#160;</a></span>process()</h2>
 
@@ -1160,7 +1198,7 @@ template&lt;bool OS&gt; </div>
 
 <p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48af177f01b411631e4ec5f79071dbfb7e7">Zone::ENDPOINTS</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a7451ade96b2dedd235a8f5ab41f03052">SampleManager::getSample()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#aa2e6e643a476bf86192c6f5f1df50fc7">Zone::ZoneMappingData::keyboardRange</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a61f7f1587bd5fe978d9ff3ece8d0624c">Zone::LOOP</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a931c2f54425315717778a396e670ed80">Zone::MAPPING</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0f0cd42d8d616b220ed83c03b8de3aa2">Zone::mapping</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">Zone::ZoneMappingData::rootKey</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a102a252ae2c383d786df8136d4af2a48a7cea4aa3e50cb3e629e79d77bcd0dab4">Zone::ROOTKEY_ONLY</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a1f512238c65076e89ec0cc1a3ed4ab47">Zone::ZoneMappingData::velocityRange</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a74dcb1e544028e4e7871080f98a6206e">Zone::attachToSampleAtVariation()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76bd2fa77271864a08c074372ea030bb">Zone::setupOnUnstream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a74dcb1e544028e4e7871080f98a6206e">Zone::attachToSampleAtVariation()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1sfz__support.html#adcf1e4458297eecd1fc1877f2317d182">scxt::sfz_support::importSFZ()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abd12b2584512b1bfe062f31536bb8ecc">Zone::insertVariant()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76bd2fa77271864a08c074372ea030bb">Zone::setupOnUnstream()</a>.</p>
 
 </div>
 </div>
@@ -1968,7 +2006,7 @@ template&lt;bool OS&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa268f4ed961c99e6998ca56da5269177">Zone::applyVariantFieldEdit()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a04fe82c41a6246ae1e1676c4c8107b11">MappingDisplay::filesDropped()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a94bc74bd81412cf9d6641ec73a97bdcd">MappingDisplay::itemDropped()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#aa268f4ed961c99e6998ca56da5269177">Zone::applyVariantFieldEdit()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a04fe82c41a6246ae1e1676c4c8107b11">MappingDisplay::filesDropped()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abd12b2584512b1bfe062f31536bb8ecc">Zone::insertVariant()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a94bc74bd81412cf9d6641ec73a97bdcd">MappingDisplay::itemDropped()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
 
 </div>
 </div>
@@ -1998,7 +2036,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a99cfed817d05d2a34acf46b01980d5a0">Zone::advanceVariantIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a74dcb1e544028e4e7871080f98a6206e">Zone::attachToSampleAtVariation()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aef42c8fddc68010c31ac6777e17bdde9">Voice::foldGeneratorIntoOutput()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4f13175170726410627f012e212f8131">Zone::getNumSampleLoaded()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a24e591b4b7902af4271d01a84c1844fb">scxt::import_support::importZoneLoop()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a38707731adf234b0db62b3af039340f2">Zone::missingSampleCount()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76bd2fa77271864a08c074372ea030bb">Zone::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#af74b153065cc9499bff153b8b6643c39">Zone::Zone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a99cfed817d05d2a34acf46b01980d5a0">Zone::advanceVariantIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a74dcb1e544028e4e7871080f98a6206e">Zone::attachToSampleAtVariation()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aef42c8fddc68010c31ac6777e17bdde9">Voice::foldGeneratorIntoOutput()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a4f13175170726410627f012e212f8131">Zone::getNumSampleLoaded()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1import__support.html#a24e591b4b7902af4271d01a84c1844fb">scxt::import_support::importZoneLoop()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abd12b2584512b1bfe062f31536bb8ecc">Zone::insertVariant()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a38707731adf234b0db62b3af039340f2">Zone::missingSampleCount()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a76bd2fa77271864a08c074372ea030bb">Zone::setupOnUnstream()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#af74b153065cc9499bff153b8b6643c39">Zone::Zone()</a>.</p>
 
 </div>
 </div>
@@ -2043,7 +2081,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a38707731adf234b0db62b3af039340f2">Zone::missingSampleCount()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a69b7b7ec2f6f989fa41a5fec9a889ff1">Zone::attachToSample()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aedca2d687f0ee05b3748aa550c037544">Zone::clearNormalizedSampleLevel()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Zone::getName()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abd12b2584512b1bfe062f31536bb8ecc">Zone::insertVariant()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a38707731adf234b0db62b3af039340f2">Zone::missingSampleCount()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#a291ee7994708c326909163e0fe6ff5f6">Zone::setNormalizedSampleLevel()</a>.</p>
 
 </div>
 </div>
@@ -2216,8 +2254,8 @@ template&lt;bool OS&gt; </div>
 <div class="line">         {offsetof(ZoneMappingData, velocityRange), <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structscxt_1_1engine_1_1VelocityRange.html">VelocityRange</a>)}}}</div>
 <div class="ttc" id="astructscxt_1_1engine_1_1KeyboardRange_html"><div class="ttname"><a href="structscxt_1_1engine_1_1KeyboardRange.html">scxt::engine::KeyboardRange</a></div><div class="ttdoc">A class representing a range of the keyboard with fade zones on either end.</div><div class="ttdef"><b>Definition</b> keyboard.h:42</div></div>
 <div class="ttc" id="astructscxt_1_1engine_1_1VelocityRange_html"><div class="ttname"><a href="structscxt_1_1engine_1_1VelocityRange.html">scxt::engine::VelocityRange</a></div><div class="ttdef"><b>Definition</b> keyboard.h:105</div></div>
-<div class="ttc" id="astructscxt_1_1engine_1_1Zone_1_1ZoneMappingData_html"><div class="ttname"><a href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">scxt::engine::Zone::ZoneMappingData</a></div><div class="ttdef"><b>Definition</b> zone.h:338</div></div>
-<div class="ttc" id="astructscxt_1_1engine_1_1Zone_1_1ZoneMappingData_html_a3e0aa359403df804e342d35f13a5e8c3"><div class="ttname"><a href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">scxt::engine::Zone::ZoneMappingData::rootKey</a></div><div class="ttdeci">int16_t rootKey</div><div class="ttdef"><b>Definition</b> zone.h:339</div></div>
+<div class="ttc" id="astructscxt_1_1engine_1_1Zone_1_1ZoneMappingData_html"><div class="ttname"><a href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">scxt::engine::Zone::ZoneMappingData</a></div><div class="ttdef"><b>Definition</b> zone.h:340</div></div>
+<div class="ttc" id="astructscxt_1_1engine_1_1Zone_1_1ZoneMappingData_html_a3e0aa359403df804e342d35f13a5e8c3"><div class="ttname"><a href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html#a3e0aa359403df804e342d35f13a5e8c3">scxt::engine::Zone::ZoneMappingData::rootKey</a></div><div class="ttdeci">int16_t rootKey</div><div class="ttdef"><b>Definition</b> zone.h:341</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#a7443d302b13a483e97746b81e8ea3f61">Zone::mappingFieldCrossesZones()</a>.</p>
 
@@ -2331,7 +2369,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae8fa4fba751326442ae850a2d9c865a0">Zone::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Zone.html#abc4e7610ae96230e25ffc621c75b3f86">Zone::deleteVariant()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#abd12b2584512b1bfe062f31536bb8ecc">Zone::insertVariant()</a>, and <a class="el" href="structscxt_1_1engine_1_1Zone.html#ae8fa4fba751326442ae850a2d9c865a0">Zone::processWithOS()</a>.</p>
 
 </div>
 </div>
@@ -2550,7 +2588,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 18:14:46 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 22:22:18 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
