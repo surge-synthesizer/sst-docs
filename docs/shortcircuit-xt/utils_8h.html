@@ -152,6 +152,8 @@ Macros</h2></td></tr>
 <tr class="separator:adcdbabb7169c11cde9352d3be99dd13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d8e172d0daab3bd5166f34743fd8b57" id="r_a1d8e172d0daab3bd5166f34743fd8b57"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a1d8e172d0daab3bd5166f34743fd8b57">RAISE_INFO_CONT</a>(<a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>,  title,  msg)&#160;&#160;&#160;(<a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>).reportInfoToClient((title), (msg), __FILE__, __LINE__)</td></tr>
 <tr class="separator:a1d8e172d0daab3bd5166f34743fd8b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed9d380244876500f0e6e5034a307af" id="r_aaed9d380244876500f0e6e5034a307af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#aaed9d380244876500f0e6e5034a307af">RAISE_ERROR_FROM_WORKER</a>(<a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>,  title,  msg)&#160;&#160;&#160;    (<a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>).reportErrorFromWorkerThread((title), (msg), __FILE__, __LINE__)</td></tr>
+<tr class="separator:aaed9d380244876500f0e6e5034a307af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9dc0f823bad6ab2743258c8f26dadd0" id="r_ad9dc0f823bad6ab2743258c8f26dadd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ad9dc0f823bad6ab2743258c8f26dadd0">SCLOG_TIME</a>(objn,  msg)&#160;&#160;&#160;DebugTimeGuard objn(msg, __FILE__, __LINE__);</td></tr>
 <tr class="separator:ad9dc0f823bad6ab2743258c8f26dadd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b9cc5d10d7caf899d4ab0ccd86d2f8" id="r_a61b9cc5d10d7caf899d4ab0ccd86d2f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a61b9cc5d10d7caf899d4ab0ccd86d2f8">DECLARE_ENUM_STRING</a>(E)</td></tr>
@@ -454,6 +456,40 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aaed9d380244876500f0e6e5034a307af" name="aaed9d380244876500f0e6e5034a307af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaed9d380244876500f0e6e5034a307af">&#9670;&#160;</a></span>RAISE_ERROR_FROM_WORKER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RAISE_ERROR_FROM_WORKER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">title, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;    (<a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>).reportErrorFromWorkerThread((title), (msg), __FILE__, __LINE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad9dc0f823bad6ab2743258c8f26dadd0" name="ad9dc0f823bad6ab2743258c8f26dadd0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9dc0f823bad6ab2743258c8f26dadd0">&#9670;&#160;</a></span>SCLOG_TIME</h2>
 
@@ -505,7 +541,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 18:14:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 18:14:46 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
