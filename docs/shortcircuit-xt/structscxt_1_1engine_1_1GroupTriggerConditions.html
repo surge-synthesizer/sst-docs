@@ -135,6 +135,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af0f629b9666be4a9711567bba3d0ff53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae59ed113cfc1003f2fdb54689dda5645" id="r_ae59ed113cfc1003f2fdb54689dda5645"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">isKeySwitchKey</a> (int16_t midiKey) const</td></tr>
 <tr class="separator:ae59ed113cfc1003f2fdb54689dda5645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba950effe53e06e21d97d82d5d1559c0" id="r_aba950effe53e06e21d97d82d5d1559c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aba950effe53e06e21d97d82d5d1559c0">hasKeySwitch</a> () const</td></tr>
+<tr class="separator:aba950effe53e06e21d97d82d5d1559c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeed7765b5aa20a1829d23d6c7770de94" id="r_aeed7765b5aa20a1829d23d6c7770de94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aeed7765b5aa20a1829d23d6c7770de94">isKeySwitchLatchKey</a> (int16_t midiKey) const</td></tr>
 <tr class="separator:aeed7765b5aa20a1829d23d6c7770de94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8963b44b169a4b2e2ba1fc3e27e5e179" id="r_a8963b44b169a4b2e2ba1fc3e27e5e179"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">firstKeySwitchLatchKey</a> () const</td></tr>
@@ -498,6 +500,25 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aba950effe53e06e21d97d82d5d1559c0" name="aba950effe53e06e21d97d82d5d1559c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba950effe53e06e21d97d82d5d1559c0">&#9670;&#160;</a></span>hasKeySwitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasKeySwitch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a652414a89e705a43378458b3bf1ad498">GroupTriggerConditions::active</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100ade23c148494265be7c01a47ae4c215a8">scxt::engine::KEYSWITCH_LATCH</a>, <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a2aa1d1ef96eea6b3490555b2c1283e12">scxt::engine::KEYSWITCH_MOMENTARY</a>, and <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#abda13b12191d775aae7efc6e99cd4c50">GroupTriggerConditions::storage</a>.</p>
+
+</div>
+</div>
 <a id="aeed7765b5aa20a1829d23d6c7770de94" name="aeed7765b5aa20a1829d23d6c7770de94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeed7765b5aa20a1829d23d6c7770de94">&#9670;&#160;</a></span>isKeySwitchLatchKey()</h2>
 
@@ -608,7 +629,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">GroupTriggerConditions::firstKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">GroupTriggerConditions::isKeySwitchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aeed7765b5aa20a1829d23d6c7770de94">GroupTriggerConditions::isKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#aa089e6bee1b6dd9c0a704cdb2c8cf4ea">GroupTriggersCard::ConditionRow::showTypeMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">GroupTriggerConditions::firstKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aba950effe53e06e21d97d82d5d1559c0">GroupTriggerConditions::hasKeySwitch()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">GroupTriggerConditions::isKeySwitchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aeed7765b5aa20a1829d23d6c7770de94">GroupTriggerConditions::isKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard.html#a74f436eafb5b58e7b7e1b82fab71bc74">GroupTriggersCard::noteLearned()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#aa089e6bee1b6dd9c0a704cdb2c8cf4ea">GroupTriggersCard::ConditionRow::showTypeMenu()</a>.</p>
 
 </div>
 </div>
@@ -624,7 +645,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a72f67186fc084b9412dfe15186e59aca">GroupTriggerConditions::evaluate()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">GroupTriggerConditions::firstKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">GroupTriggerConditions::isKeySwitchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aeed7765b5aa20a1829d23d6c7770de94">GroupTriggerConditions::isKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a467d51fe12c771f957a6582c5a47005e">GroupTriggerConditions::keySwitchLatchHolds()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#aa089e6bee1b6dd9c0a704cdb2c8cf4ea">GroupTriggersCard::ConditionRow::showTypeMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#a8bb4f3c33043923ac5687c3a541c4442">GroupTriggersCard::ConditionRow::ConditionRow()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a72f67186fc084b9412dfe15186e59aca">GroupTriggerConditions::evaluate()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179">GroupTriggerConditions::firstKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a1e9e69264ed14d682ebcb24f030fe1ba">GroupTriggerConditions::GroupTriggerConditions()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aba950effe53e06e21d97d82d5d1559c0">GroupTriggerConditions::hasKeySwitch()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#ae59ed113cfc1003f2fdb54689dda5645">GroupTriggerConditions::isKeySwitchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#aeed7765b5aa20a1829d23d6c7770de94">GroupTriggerConditions::isKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a467d51fe12c771f957a6582c5a47005e">GroupTriggerConditions::keySwitchLatchHolds()</a>, <a class="el" href="structscxt_1_1engine_1_1GroupTriggerConditions.html#a5023e4bb12e409c6c26aa286104a3422">GroupTriggerConditions::setupOnUnstream()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#ae07552a7b649e5c8606cfa30cd374c83">GroupTriggersCard::ConditionRow::setupValuesFromData()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html#aa089e6bee1b6dd9c0a704cdb2c8cf4ea">GroupTriggersCard::ConditionRow::showTypeMenu()</a>.</p>
 
 </div>
 </div>
@@ -793,7 +814,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 18:14:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

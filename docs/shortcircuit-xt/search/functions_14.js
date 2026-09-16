@@ -6,7 +6,7 @@ var searchData=
   ['unregisterclient_3',['unregisterClient',['../structscxt_1_1messaging_1_1MessageController.html#a892b4a0a84f75aa9778887e4da14c1a6',1,'scxt::messaging::MessageController']]],
   ['unspawnprocessor_4',['unspawnProcessor',['../namespacescxt_1_1dsp_1_1processor.html#af98be2b15b8754d18053520c94223a33',1,'scxt::dsp::processor']]],
   ['unstreamenginestate_5',['unstreamEngineState',['../namespacescxt_1_1json.html#acddb4f9a5bc14015b119dde106fab7d1',1,'scxt::json']]],
-  ['unstreamfromclipboard_6',['unstreamFromClipboard',['../structscxt_1_1engine_1_1Clipboard.html#abd093672214c23ded868bb3c2a2098b1',1,'scxt::engine::Clipboard']]],
+  ['unstreamfromclipboard_6',['unstreamfromclipboard',['../structscxt_1_1engine_1_1Clipboard.html#a61d24244a7c1089dd532d4b91587d242',1,'scxt::engine::Clipboard::unstreamFromClipboard(ContentType c, size_t idx, T &amp;t)'],['../structscxt_1_1engine_1_1Clipboard.html#abd093672214c23ded868bb3c2a2098b1',1,'scxt::engine::Clipboard::unstreamFromClipboard(ContentType c, T &amp;t)']]],
   ['unstreamfromjson_7',['unstreamFromJSON',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#adc4c0ca0906df25f774ae69728cea6b8',1,'scxt::ui::app::edit_screen::LfoPane']]],
   ['unstreamguard_8',['UnstreamGuard',['../structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html#ad37d7c7b1f36b5eaa9ee3d1d100ef2ad',1,'scxt::engine::Engine::UnstreamGuard']]],
   ['unstreampartstate_9',['unstreamPartState',['../namespacescxt_1_1json.html#a2be127744ac9c891a751093b8d1bcd6d',1,'scxt::json']]],

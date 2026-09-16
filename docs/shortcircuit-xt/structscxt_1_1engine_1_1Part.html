@@ -215,6 +215,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad68fc4333b9868ca9d97d472f58dc6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae212a7628c93bc10d3592a106031f7cc" id="r_ae212a7628c93bc10d3592a106031f7cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">guaranteeKeyswitchLatchCoherence</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e)</td></tr>
 <tr class="separator:ae212a7628c93bc10d3592a106031f7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8943460f14e69bc34212b8c6cd9ffd2e" id="r_a8943460f14e69bc34212b8c6cd9ffd2e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a8943460f14e69bc34212b8c6cd9ffd2e">defaultKeySwitchLatchKey</a> () const</td></tr>
+<tr class="separator:a8943460f14e69bc34212b8c6cd9ffd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebad8723e90c60691e7fb43e328280a" id="r_a6ebad8723e90c60691e7fb43e328280a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a6ebad8723e90c60691e7fb43e328280a">selectDefaultKeySwitchArticulation</a> ()</td></tr>
+<tr class="separator:a6ebad8723e90c60691e7fb43e328280a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21e417340f73af67bc75bc2f5a91b368" id="r_a21e417340f73af67bc75bc2f5a91b368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a21e417340f73af67bc75bc2f5a91b368">roundRobinSetsForNote</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e, int16_t channel, int16_t key, int16_t midiKey, int16_t velocity, int16_t keyTranspose)</td></tr>
 <tr class="separator:a21e417340f73af67bc75bc2f5a91b368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69ca17e1b28f60b2eb71270c0b53a1e8" id="r_a69ca17e1b28f60b2eb71270c0b53a1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a69ca17e1b28f60b2eb71270c0b53a1e8">advanceRoundRobinSets</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a> &amp;e, const <a class="el" href="namespacescxt_1_1engine.html#ac8d1dcd73d98e630d1329b41c4bbfa1e">roundRobinMask_t</a> &amp;setMask)</td></tr>
@@ -1143,9 +1147,49 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#a8943460f14e69bc34212b8c6cd9ffd2e">Part::defaultKeySwitchLatchKey()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ad68fc4333b9868ca9d97d472f58dc6e8">Part::setupOnUnstream()</a>.</p>
+
+</div>
+</div>
+<a id="a8943460f14e69bc34212b8c6cd9ffd2e" name="a8943460f14e69bc34212b8c6cd9ffd2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8943460f14e69bc34212b8c6cd9ffd2e">&#9670;&#160;</a></span>defaultKeySwitchLatchKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t defaultKeySwitchLatchKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, and <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a80425ab4477a38bc98024d8686a8dbcc">Part::PartConfiguration::defaultKeySwitchKey</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ae212a7628c93bc10d3592a106031f7cc">Part::guaranteeKeyswitchLatchCoherence()</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#a6ebad8723e90c60691e7fb43e328280a">Part::selectDefaultKeySwitchArticulation()</a>.</p>
+
+</div>
+</div>
+<a id="a6ebad8723e90c60691e7fb43e328280a" name="a6ebad8723e90c60691e7fb43e328280a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebad8723e90c60691e7fb43e328280a">&#9670;&#160;</a></span>selectDefaultKeySwitchArticulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void selectDefaultKeySwitchArticulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#a8943460f14e69bc34212b8c6cd9ffd2e">Part::defaultKeySwitchLatchKey()</a>.</p>
 
 </div>
 </div>
@@ -1248,7 +1292,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a18ff74f43da410c5529f7d6fca84f115">scxt::engine::ACTIVE</a>, <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a6b273343c454f9c53dcfc9c4ccf171d2">scxt::engine::INACTIVE</a>, and <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86ae275fcddb3e96356f4acce221ba79234">scxt::engine::NOT_A_SWITCH</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a18ff74f43da410c5529f7d6fca84f115">scxt::engine::ACTIVE</a>, <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a6b273343c454f9c53dcfc9c4ccf171d2">scxt::engine::INACTIVE</a>, <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a80768c6f8f179ae9e13b4ee2f748150b">scxt::engine::MOMENTARY</a>, and <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86ae275fcddb3e96356f4acce221ba79234">scxt::engine::NOT_A_SWITCH</a>.</p>
 
 </div>
 </div>
@@ -1396,7 +1440,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Part::getName()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Part::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a963c0f6f97a927e43a8e7b32d7a4280f">Part::isMPEVoiceChannel()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#af9be4faf1a1552e2c43cea5538d5e84c">Part::respondsToMIDIChannelExcludingGroupMask()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8943460f14e69bc34212b8c6cd9ffd2e">Part::defaultKeySwitchLatchKey()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">Part::getName()</a>, <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Part::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a963c0f6f97a927e43a8e7b32d7a4280f">Part::isMPEVoiceChannel()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5a8c3231162e5e5c29808b7abe5b1f52">Part::Part()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#af9be4faf1a1552e2c43cea5538d5e84c">Part::respondsToMIDIChannelExcludingGroupMask()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>.</p>
 
 </div>
 </div>
@@ -1631,7 +1675,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 18:14:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

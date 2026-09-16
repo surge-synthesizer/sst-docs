@@ -121,6 +121,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a7fb46594d295b98500539251135502bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca08579fc4501e961575a7264d62f984" id="r_aca08579fc4501e961575a7264d62f984"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1GroupTriggerConditionsSpec.html#aca08579fc4501e961575a7264d62f984">postWrite</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="namespacescxt_1_1undo.html#a231b75a3abf0d444813ae0977fe1f4f0">ZoneAddress</a> &amp;a, int32_t)</td></tr>
 <tr class="separator:aca08579fc4501e961575a7264d62f984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f3b160b8879d274240378d14a994db" id="r_ae0f3b160b8879d274240378d14a994db"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1GroupTriggerConditionsSpec.html#ae0f3b160b8879d274240378d14a994db">extraClientRefresh</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const std::vector&lt; <a class="el" href="namespacescxt_1_1undo.html#a231b75a3abf0d444813ae0977fe1f4f0">ZoneAddress</a> &gt; &amp;sel, int32_t)</td></tr>
+<tr class="separator:ae0f3b160b8879d274240378d14a994db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_structscxt_1_1undo_1_1GroupMemberSpec"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_structscxt_1_1undo_1_1GroupMemberSpec')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="structscxt_1_1undo_1_1GroupMemberSpec.html">GroupMemberSpec&lt;&amp;engine::Group::triggerConditions &gt;</a></td></tr>
 <tr class="memitem:a271fd0b7d3c33385ece6c599ee4549df inherit pub_static_methods_structscxt_1_1undo_1_1GroupMemberSpec" id="r_a271fd0b7d3c33385ece6c599ee4549df"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structscxt_1_1undo_1_1GroupMemberSpec.html#a7186bd52ee9c8f2f7ea87cf96ef8cebe">value_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1undo_1_1GroupMemberSpec.html#a271fd0b7d3c33385ece6c599ee4549df">ref</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, const <a class="el" href="namespacescxt_1_1undo.html#a231b75a3abf0d444813ae0977fe1f4f0">ZoneAddress</a> &amp;a, int32_t)</td></tr>
 <tr class="separator:a271fd0b7d3c33385ece6c599ee4549df inherit pub_static_methods_structscxt_1_1undo_1_1GroupMemberSpec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,13 +206,57 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ae0f3b160b8879d274240378d14a994db" name="ae0f3b160b8879d274240378d14a994db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f3b160b8879d274240378d14a994db">&#9670;&#160;</a></span>extraClientRefresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void extraClientRefresh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespacescxt_1_1undo.html#a231b75a3abf0d444813ae0977fe1f4f0">ZoneAddress</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#abccd7b8ca4bdfccb8740336e8d6c019d">Engine::sendKeySwitchStateToClient()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="payload__undoable__items_8h.html">payload_undoable_items.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 18:14:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

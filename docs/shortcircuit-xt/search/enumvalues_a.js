@@ -51,12 +51,14 @@ var searchData=
   ['loop_5fcount_48',['LOOP_COUNT',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ae9885352ad051820c0493e6d3082ce48',1,'scxt::engine::Zone']]],
   ['loop_5fduring_5fvoice_49',['LOOP_DURING_VOICE',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ad1e6d90023182431bf640d49b6634f94',1,'scxt::engine::Zone']]],
   ['loop_5fwhile_5fgated_50',['LOOP_WHILE_GATED',['../structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf',1,'scxt::engine::Zone']]],
-  ['lowest_51',['LOWEST',['../structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ae321c2eb4e64b32d51da602bc6352f1d',1,'scxt::engine::Group']]],
-  ['lp12_52',['LP12',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fad06ebe42e97d3ba20627b561f110ecee',1,'scxt::import_support']]],
-  ['lp18_53',['LP18',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94faf01af40e06e2cb4b7a934fce0b760e7d',1,'scxt::import_support']]],
-  ['lp24_54',['LP24',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa2a2cd4072178a8a3ff18bc8da661b4a4',1,'scxt::import_support']]],
-  ['lp36_55',['LP36',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa1e7244ffa80497a90958d77d39168219',1,'scxt::import_support']]],
-  ['lp48_56',['LP48',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa56c110454132ec4ce90ca4422ed6a0b1',1,'scxt::import_support']]],
-  ['lp6_57',['LP6',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa7d77c9b00e37e56b18e6ce8022990256',1,'scxt::import_support']]],
-  ['lux2_58',['LUX2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5a5838b5a5d16edbb50fce5c804e0f0e8b',1,'scxt::ui::theme::ColorMap']]]
+  ['loopend_51',['LoopEnd',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a0eeca3ef82bf064e8450b48e167ad555ad6333bed4738db832fff33c70ae64908',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['loopstart_52',['LoopStart',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a0eeca3ef82bf064e8450b48e167ad555a37bcbc334bac4d0ffab178a84ed8d3cd',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
+  ['lowest_53',['LOWEST',['../structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ae321c2eb4e64b32d51da602bc6352f1d',1,'scxt::engine::Group']]],
+  ['lp12_54',['LP12',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fad06ebe42e97d3ba20627b561f110ecee',1,'scxt::import_support']]],
+  ['lp18_55',['LP18',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94faf01af40e06e2cb4b7a934fce0b760e7d',1,'scxt::import_support']]],
+  ['lp24_56',['LP24',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa2a2cd4072178a8a3ff18bc8da661b4a4',1,'scxt::import_support']]],
+  ['lp36_57',['LP36',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa1e7244ffa80497a90958d77d39168219',1,'scxt::import_support']]],
+  ['lp48_58',['LP48',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa56c110454132ec4ce90ca4422ed6a0b1',1,'scxt::import_support']]],
+  ['lp6_59',['LP6',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa7d77c9b00e37e56b18e6ce8022990256',1,'scxt::import_support']]],
+  ['lux2_60',['LUX2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#aae0e12934c548e8ba6d37fe3a62182a5a5838b5a5d16edbb50fce5c804e0f0e8b',1,'scxt::ui::theme::ColorMap']]]
 ];

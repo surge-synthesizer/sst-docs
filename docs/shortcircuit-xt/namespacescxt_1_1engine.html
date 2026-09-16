@@ -211,10 +211,15 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:acefc6050a5b9c5c80a81b073b07bee54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa957a2ad5cab5601254ce8eae665f19" id="r_aaa957a2ad5cab5601254ce8eae665f19"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19">GroupZoneFeatures</a> { <a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19a55abd6c8b0460e54822565c5b2d2c0cc">MISSING_SAMPLE</a> = 1 &lt;&lt; 0
+<tr class="memitem:aaa957a2ad5cab5601254ce8eae665f19" id="r_aaa957a2ad5cab5601254ce8eae665f19"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19">GroupZoneFeatures</a> { <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19a55abd6c8b0460e54822565c5b2d2c0cc">MISSING_SAMPLE</a> = 1 &lt;&lt; 0
 , <a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19ad7750b2464175cffe19792309edf40f8">MUTED</a> = 1 &lt;&lt; 1
 , <a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19a9353856724aeb42ec6e10984e4eb32dd">FOLDED</a> = 1 &lt;&lt; 2
 , <a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19a5c728f1b3148933e52ebb6e994a44513">SOLOED</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19ac0da96bb41fd3945ede0a7042ed8bd15">MUTED_BY_KEYSWITCH</a> = 1 &lt;&lt; 4
+, <a class="el" href="namespacescxt_1_1engine.html#aaa957a2ad5cab5601254ce8eae665f19afc4a9146a662bc198b8806bdb44eb9e2">KEYSWITCHED</a> = 1 &lt;&lt; 5
+<br />
  }</td></tr>
 <tr class="separator:aaa957a2ad5cab5601254ce8eae665f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99904f2c6e1ed9d61e6f170de982c100" id="r_a99904f2c6e1ed9d61e6f170de982c100"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> : int32_t { <br />
@@ -241,6 +246,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a0171038f66201aae2ae797dbe37f4f86" id="r_a0171038f66201aae2ae797dbe37f4f86"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86">KeySwitchDisplayState</a> : int32_t { <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86ae275fcddb3e96356f4acce221ba79234">NOT_A_SWITCH</a> = 0
 , <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a6b273343c454f9c53dcfc9c4ccf171d2">INACTIVE</a>
 , <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a18ff74f43da410c5529f7d6fca84f115">ACTIVE</a>
+, <a class="el" href="namespacescxt_1_1engine.html#a0171038f66201aae2ae797dbe37f4f86a80768c6f8f179ae9e13b4ee2f748150b">MOMENTARY</a>
  }</td></tr>
 <tr class="separator:a0171038f66201aae2ae797dbe37f4f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -436,6 +442,8 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="aaa957a2ad5cab5601254ce8eae665f19ad7750b2464175cffe19792309edf40f8" name="aaa957a2ad5cab5601254ce8eae665f19ad7750b2464175cffe19792309edf40f8"></a>MUTED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaa957a2ad5cab5601254ce8eae665f19a9353856724aeb42ec6e10984e4eb32dd" name="aaa957a2ad5cab5601254ce8eae665f19a9353856724aeb42ec6e10984e4eb32dd"></a>FOLDED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaa957a2ad5cab5601254ce8eae665f19a5c728f1b3148933e52ebb6e994a44513" name="aaa957a2ad5cab5601254ce8eae665f19a5c728f1b3148933e52ebb6e994a44513"></a>SOLOED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa957a2ad5cab5601254ce8eae665f19ac0da96bb41fd3945ede0a7042ed8bd15" name="aaa957a2ad5cab5601254ce8eae665f19ac0da96bb41fd3945ede0a7042ed8bd15"></a>MUTED_BY_KEYSWITCH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaa957a2ad5cab5601254ce8eae665f19afc4a9146a662bc198b8806bdb44eb9e2" name="aaa957a2ad5cab5601254ce8eae665f19afc4a9146a662bc198b8806bdb44eb9e2"></a>KEYSWITCHED&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -524,6 +532,7 @@ Variables</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0171038f66201aae2ae797dbe37f4f86ae275fcddb3e96356f4acce221ba79234" name="a0171038f66201aae2ae797dbe37f4f86ae275fcddb3e96356f4acce221ba79234"></a>NOT_A_SWITCH&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0171038f66201aae2ae797dbe37f4f86a6b273343c454f9c53dcfc9c4ccf171d2" name="a0171038f66201aae2ae797dbe37f4f86a6b273343c454f9c53dcfc9c4ccf171d2"></a>INACTIVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0171038f66201aae2ae797dbe37f4f86a18ff74f43da410c5529f7d6fca84f115" name="a0171038f66201aae2ae797dbe37f4f86a18ff74f43da410c5529f7d6fca84f115"></a>ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0171038f66201aae2ae797dbe37f4f86a80768c6f8f179ae9e13b4ee2f748150b" name="a0171038f66201aae2ae797dbe37f4f86a80768c6f8f179ae9e13b4ee2f748150b"></a>MOMENTARY&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1365,7 +1374,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 18:14:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

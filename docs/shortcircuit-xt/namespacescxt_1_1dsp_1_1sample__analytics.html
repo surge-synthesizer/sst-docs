@@ -108,6 +108,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3f541869bebdbc599aaccc165dcec5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c870bd01e1c643fefd038d5ef48712" id="r_ac2c870bd01e1c643fefd038d5ef48712"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#ac2c870bd01e1c643fefd038d5ef48712">computeRMS</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;s)</td></tr>
 <tr class="separator:ac2c870bd01e1c643fefd038d5ef48712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f90c2f8eebe87c537218f3cd2dc619f" id="r_a6f90c2f8eebe87c537218f3cd2dc619f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp_1_1sample__analytics.html#a6f90c2f8eebe87c537218f3cd2dc619f">nearestZeroCrossing</a> (const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;s, int64_t pos, int64_t <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>, int64_t <a class="el" href="gig__import_8cpp.html#a53e4061991bce5bb55e85597bf35e58e">hi</a>)</td></tr>
+<tr class="separator:a6f90c2f8eebe87c537218f3cd2dc619f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="acb125eff744110fcf42747e8cc351c99" name="acb125eff744110fcf42747e8cc351c99"></a>
@@ -195,10 +197,61 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f90c2f8eebe87c537218f3cd2dc619f" name="a6f90c2f8eebe87c537218f3cd2dc619f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f90c2f8eebe87c537218f3cd2dc619f">&#9670;&#160;</a></span>nearestZeroCrossing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t nearestZeroCrossing </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>lo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>hi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>the sample to search, whose channels are summed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The frame in [lo, hi] closest to pos where the signal crosses zero - a zero frame, or the quieter side of a sign change - or -1 if nothing in range crosses </dd></dl>
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="gig__import_8cpp.html#a53e4061991bce5bb55e85597bf35e58e">hi</a>, and <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a533222b93bc70b0bf7f1038a94774571">SampleWaveform::snapToZeroCrossingNear()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a6f5fb84b8d749581094a60b19e38ed0c">VariantDisplay::snapToZeroCrossings()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2026 16:49:24 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Sep 16 2026 18:14:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
