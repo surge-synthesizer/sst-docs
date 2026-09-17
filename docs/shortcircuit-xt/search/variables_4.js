@@ -21,7 +21,7 @@ var searchData=
   ['egs_18',['egs',['../structscxt_1_1akai__support_1_1KEYGROUP.html#a02c9bf73fb88cae9a1ea7b00a2e90b4e',1,'scxt::akai_support::KEYGROUP']]],
   ['egsactive_19',['egsactive',['../structscxt_1_1engine_1_1Zone.html#abc75c2353e91c643f02849b5a40fd714',1,'scxt::engine::Zone::egsActive'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a46952fbc5703846ed645ab9832d215d2',1,'scxt::modulation::shared::HasModulators::egsActive']]],
   ['egslot_20',['egSlot',['../structscxt_1_1import__support_1_1EGHandle.html#a34909471def2be198037bf7d941c4faf',1,'scxt::import_support::EGHandle']]],
-  ['egsource_21',['egSource',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#a5079c402b773fe258a9e2d99c6cb9a23',1,'scxt::modulation::GroupMatrixEndpoints::Sources']]],
+  ['egsource_21',['egSource',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#a42b7e43b47f247e525c656d7ab884547',1,'scxt::modulation::GroupMatrixEndpoints::Sources']]],
   ['egsources_22',['egSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#afcafb49d5b2430ea4fecc056a13e91a9',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
   ['egstorage_23',['egStorage',['../structscxt_1_1engine_1_1Zone.html#a9f9d193999aea9d4e7c2981567c9fdbe',1,'scxt::engine::Zone']]],
   ['egtarget_24',['egtarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#a1343c228b0264bb6893fc12fbd305f09',1,'scxt::modulation::GroupMatrixEndpoints::egTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a77f52715d7a75dd2416ddf7f54c5807d',1,'scxt::voice::modulation::MatrixEndpoints::egTarget']]],
