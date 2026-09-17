@@ -95,6 +95,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structscxt_1_1infrastructure_1_1DefaultsProvider-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">DefaultsProvider Struct Reference</div></div>
@@ -105,11 +106,41 @@ $(function() {
 
 <p>Inherits Provider&lt; DefaultKeys, DefaultKeys::nKeys &gt;.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aac21b765d25d1cabe55d10914e989cc7" id="r_aac21b765d25d1cabe55d10914e989cc7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#aac21b765d25d1cabe55d10914e989cc7">base_t</a> = sst::plugininfra::defaults::Provider&lt; <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4af85d8de0ef0abd677ac3b7257f5484ef">DefaultKeys::nKeys</a> &gt;</td></tr>
+<tr class="separator:aac21b765d25d1cabe55d10914e989cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ea8bb9d1b28ed7b41f5b71e38ea07dd" id="r_a3ea8bb9d1b28ed7b41f5b71e38ea07dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a3ea8bb9d1b28ed7b41f5b71e38ea07dd">DefaultsProvider</a> (const fs::path &amp;defaultsDirectory, const std::string &amp;productName, const std::function&lt; std::string(<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>)&gt; &amp;e2S, const std::function&lt; void(const std::string &amp;, const std::string &amp;)&gt; &amp;errHandle)</td></tr>
 <tr class="separator:a3ea8bb9d1b28ed7b41f5b71e38ea07dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75df88ae47440653bbc60666512027d6" id="r_a75df88ae47440653bbc60666512027d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a75df88ae47440653bbc60666512027d6">addOverride</a> (<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a> key, const std::string &amp;s)</td></tr>
+<tr class="separator:a75df88ae47440653bbc60666512027d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9fb23326126c42c362575f322dc84b" id="r_a6d9fb23326126c42c362575f322dc84b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a6d9fb23326126c42c362575f322dc84b">addOverride</a> (<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a> key, int i)</td></tr>
+<tr class="separator:a6d9fb23326126c42c362575f322dc84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257a5089aae99ed2436d9a36d9647845" id="r_a257a5089aae99ed2436d9a36d9647845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a257a5089aae99ed2436d9a36d9647845">clearOverride</a> (<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a> key)</td></tr>
+<tr class="separator:a257a5089aae99ed2436d9a36d9647845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d306ece1882cee84494ba7a9aa0555" id="r_a62d306ece1882cee84494ba7a9aa0555"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a62d306ece1882cee84494ba7a9aa0555">hasOverride</a> (<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a> key) const</td></tr>
+<tr class="separator:a62d306ece1882cee84494ba7a9aa0555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca4419d4db020a10570a4f6a97ac43e" id="r_acca4419d4db020a10570a4f6a97ac43e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#acca4419d4db020a10570a4f6a97ac43e">updateUserDefaultValueOrOverride</a> (<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a> key, const std::string &amp;s)</td></tr>
+<tr class="separator:acca4419d4db020a10570a4f6a97ac43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aac21b765d25d1cabe55d10914e989cc7" name="aac21b765d25d1cabe55d10914e989cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac21b765d25d1cabe55d10914e989cc7">&#9670;&#160;</a></span>base_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#aac21b765d25d1cabe55d10914e989cc7">base_t</a> =  sst::plugininfra::defaults::Provider&lt;<a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4af85d8de0ef0abd677ac3b7257f5484ef">DefaultKeys::nKeys</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3ea8bb9d1b28ed7b41f5b71e38ea07dd" name="a3ea8bb9d1b28ed7b41f5b71e38ea07dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ea8bb9d1b28ed7b41f5b71e38ea07dd">&#9670;&#160;</a></span>DefaultsProvider()</h2>
@@ -151,13 +182,140 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a75df88ae47440653bbc60666512027d6" name="a75df88ae47440653bbc60666512027d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75df88ae47440653bbc60666512027d6">&#9670;&#160;</a></span>addOverride() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addOverride </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#acca4419d4db020a10570a4f6a97ac43e">DefaultsProvider::updateUserDefaultValueOrOverride()</a>.</p>
+
+</div>
+</div>
+<a id="a6d9fb23326126c42c362575f322dc84b" name="a6d9fb23326126c42c362575f322dc84b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d9fb23326126c42c362575f322dc84b">&#9670;&#160;</a></span>addOverride() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addOverride </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a257a5089aae99ed2436d9a36d9647845" name="a257a5089aae99ed2436d9a36d9647845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a257a5089aae99ed2436d9a36d9647845">&#9670;&#160;</a></span>clearOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearOverride </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62d306ece1882cee84494ba7a9aa0555" name="a62d306ece1882cee84494ba7a9aa0555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62d306ece1882cee84494ba7a9aa0555">&#9670;&#160;</a></span>hasOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasOverride </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#acca4419d4db020a10570a4f6a97ac43e">DefaultsProvider::updateUserDefaultValueOrOverride()</a>.</p>
+
+</div>
+</div>
+<a id="acca4419d4db020a10570a4f6a97ac43e" name="acca4419d4db020a10570a4f6a97ac43e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acca4419d4db020a10570a4f6a97ac43e">&#9670;&#160;</a></span>updateUserDefaultValueOrOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateUserDefaultValueOrOverride </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4">DefaultKeys</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a75df88ae47440653bbc60666512027d6">DefaultsProvider::addOverride()</a>, and <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html#a62d306ece1882cee84494ba7a9aa0555">DefaultsProvider::hasOverride()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="user__defaults_8h.html">user_defaults.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 17 2026 00:17:52 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Sep 17 2026 20:15:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
