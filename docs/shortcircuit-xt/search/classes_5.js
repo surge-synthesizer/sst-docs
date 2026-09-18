@@ -7,7 +7,8 @@ var searchData=
   ['filterargs_4',['FilterArgs',['../structscxt_1_1import__support_1_1FilterArgs.html',1,'scxt::import_support']]],
   ['filterhandle_5',['FilterHandle',['../structscxt_1_1import__support_1_1FilterHandle.html',1,'scxt::import_support']]],
   ['fingerprint_6',['Fingerprint',['../structscxt_1_1perf_1_1Fingerprint.html',1,'scxt::perf']]],
-  ['fouruintsfourfloats_7',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]],
-  ['fxadapter_8',['fxAdapter',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1fxAdapter.html',1,'scxt::ui::app::edit_screen']]],
-  ['fxslotbearing_9',['FXSlotBearing',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html',1,'scxt::ui::app::shared']]]
+  ['foldablezone_7',['FoldableZone',['../structscxt_1_1import__support_1_1FoldableZone.html',1,'scxt::import_support']]],
+  ['fouruintsfourfloats_8',['FourUintsFourFloats',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio_1_1FourUintsFourFloats.html',1,'scxt::messaging::audio::SerializationToAudio']]],
+  ['fxadapter_9',['fxAdapter',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1fxAdapter.html',1,'scxt::ui::app::edit_screen']]],
+  ['fxslotbearing_10',['FXSlotBearing',['../structscxt_1_1ui_1_1app_1_1shared_1_1FXSlotBearing.html',1,'scxt::ui::app::shared']]]
 ];

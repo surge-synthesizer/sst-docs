@@ -121,6 +121,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1import__support_1_1FilterHandle.html">FilterHandle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1import__support_1_1FoldableZone.html">FoldableZone</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1import__support_1_1ImportedModRoute.html">ImportedModRoute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1import__support_1_1ImportedSource.html">ImportedSource</a></td></tr>
@@ -248,6 +250,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7276de0c325ccb2d61ab22de424b9032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae404e737facedf0179c635243e9a318b" id="r_ae404e737facedf0179c635243e9a318b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#ae404e737facedf0179c635243e9a318b">dBToCubicAttenuation</a> (float dB)</td></tr>
 <tr class="separator:ae404e737facedf0179c635243e9a318b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11625e49decbb36e3bf5dda3fff7faaf" id="r_a11625e49decbb36e3bf5dda3fff7faaf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1import__support.html#a11625e49decbb36e3bf5dda3fff7faaf">foldZonesToVariants</a> (<a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">ImporterContext</a> &amp;ctx, std::vector&lt; <a class="el" href="structscxt_1_1import__support_1_1FoldableZone.html">FoldableZone</a> &gt; &amp;&amp;candidates, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0">engine::Zone::VariantPlaybackMode</a> mode)</td></tr>
+<tr class="separator:a11625e49decbb36e3bf5dda3fff7faaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a28024c8811b4bc688a2a0f3b06ba2521" name="a28024c8811b4bc688a2a0f3b06ba2521"></a>
@@ -884,14 +888,52 @@ template&lt;typename Map , typename Key , typename NameFn &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1exs__support.html#a758977d1dbfab9b522420f1c60407f08">scxt::exs_support::importEXS()</a>, <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>, and <a class="el" href="namespacescxt_1_1sf2__support.html#a9aba0f6aa86a9172eda13a7c4039d90f">scxt::sf2_support::importSF2()</a>.</p>
+
+</div>
+</div>
+<a id="a11625e49decbb36e3bf5dda3fff7faaf" name="a11625e49decbb36e3bf5dda3fff7faaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11625e49decbb36e3bf5dda3fff7faaf">&#9670;&#160;</a></span>foldZonesToVariants()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Zone.html">engine::Zone</a> &gt; &gt; foldZonesToVariants </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html">ImporterContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structscxt_1_1import__support_1_1FoldableZone.html">FoldableZone</a> &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>candidates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0">engine::Zone::VariantPlaybackMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a7405295052a62c4a60617b8d789a321b">ImporterContext::getEngine()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9973caeaa85cc50b2fb0f00626b40c4">Engine::getSampleManager()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#aef8f213f20b2a44ec737da9d36960a24">Zone::maxVariantsPerZone</a>, and <a class="el" href="classscxt_1_1import__support_1_1ImporterContext.html#a07853ae7e60310b03ee92d1c8f3c038f">ImporterContext::unsupported()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1multisample__support.html#a8c225e3abb6d53252a79612044513b3a">scxt::multisample_support::importMultisample()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 18 2026 16:20:22 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 18 2026 20:44:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -17,6 +17,8 @@ var searchData=
   ['import_5fmodulation_2ecpp_14',['import_modulation.cpp',['../import__modulation_8cpp.html',1,'']]],
   ['import_5fmodulation_2eh_15',['import_modulation.h',['../import__modulation_8h.html',1,'']]],
   ['import_5fnumeric_2eh_16',['import_numeric.h',['../import__numeric_8h.html',1,'']]],
-  ['init_2dmaker_2ecpp_17',['init-maker.cpp',['../init-maker_8cpp.html',1,'']]],
-  ['interaction_5fmessages_2eh_18',['interaction_messages.h',['../interaction__messages_8h.html',1,'']]]
+  ['import_5fvariant_5ffold_2ecpp_17',['import_variant_fold.cpp',['../import__variant__fold_8cpp.html',1,'']]],
+  ['import_5fvariant_5ffold_2eh_18',['import_variant_fold.h',['../import__variant__fold_8h.html',1,'']]],
+  ['init_2dmaker_2ecpp_19',['init-maker.cpp',['../init-maker_8cpp.html',1,'']]],
+  ['interaction_5fmessages_2eh_20',['interaction_messages.h',['../interaction__messages_8h.html',1,'']]]
 ];
