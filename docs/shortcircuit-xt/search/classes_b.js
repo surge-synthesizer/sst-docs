@@ -4,7 +4,7 @@ var searchData=
   ['macrodisplay_1',['MacroDisplay',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroDisplay.html',1,'scxt::ui::app::edit_screen']]],
   ['macrofullstateitem_2',['MacroFullStateItem',['../structscxt_1_1undo_1_1MacroFullStateItem.html',1,'scxt::undo']]],
   ['macromappingvariantpane_3',['MacroMappingVariantPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['macrosources_4',['macrosources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1MacroSources.html',1,'GroupMatrixEndpoints::Sources::MacroSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MacroSources.html',1,'MatrixEndpoints::Sources::MacroSources']]],
+  ['macrosources_4',['macrosources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MacroSources.html',1,'MatrixEndpoints::Sources::MacroSources'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1MacroSources.html',1,'GroupMatrixEndpoints::Sources::MacroSources']]],
   ['macrosteppedattachment_5',['MacroSteppedAttachment',['../structscxt_1_1ui_1_1app_1_1shared_1_1MacroSteppedAttachment.html',1,'scxt::ui::app::shared']]],
   ['macrotoggleattachment_6',['MacroToggleAttachment',['../structscxt_1_1ui_1_1app_1_1shared_1_1MacroToggleAttachment.html',1,'scxt::ui::app::shared']]],
   ['macrouilaghandler_7',['MacroUILagHandler',['../structscxt_1_1engine_1_1Part_1_1MacroUILagHandler.html',1,'scxt::engine::Part']]],
@@ -69,6 +69,7 @@ var searchData=
   ['moveableonly_3c_20zone_20_3e_66',['MoveableOnly&lt; Zone &gt;',['../classscxt_1_1MoveableOnly.html',1,'scxt']]],
   ['mpesources_67',['MPESources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1MPESources.html',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
   ['mseglfopane_68',['MSEGLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MSEGLFOPane.html',1,'scxt::ui::app::edit_screen']]],
-  ['multiselectundobaseitem_69',['MultiSelectUndoBaseItem',['../structscxt_1_1undo_1_1MultiSelectUndoBaseItem.html',1,'scxt::undo']]],
-  ['mytabbedcomponent_70',['MyTabbedComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1MyTabbedComponent.html',1,'scxt::ui::app::edit_screen::VariantDisplay']]]
+  ['multirenameitem_69',['MultiRenameItem',['../structscxt_1_1undo_1_1MultiRenameItem.html',1,'scxt::undo']]],
+  ['multiselectundobaseitem_70',['MultiSelectUndoBaseItem',['../structscxt_1_1undo_1_1MultiSelectUndoBaseItem.html',1,'scxt::undo']]],
+  ['mytabbedcomponent_71',['MyTabbedComponent',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay_1_1MyTabbedComponent.html',1,'scxt::ui::app::edit_screen::VariantDisplay']]]
 ];

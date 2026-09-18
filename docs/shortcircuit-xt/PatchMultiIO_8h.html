@@ -117,6 +117,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a69cfe8942708573b529ed8f45c73067d" id="r_a69cfe8942708573b529ed8f45c73067d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a69cfe8942708573b529ed8f45c73067d"><td class="memTemplItemLeft" align="right" valign="top">juce::File&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a69cfe8942708573b529ed8f45c73067d">lastSaveDirectory</a> (T *that)</td></tr>
 <tr class="separator:a69cfe8942708573b529ed8f45c73067d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3067346eaf10ac3f38a99aa43951eec5" id="r_a3067346eaf10ac3f38a99aa43951eec5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3067346eaf10ac3f38a99aa43951eec5"><td class="memTemplItemLeft" align="right" valign="top">juce::File&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a3067346eaf10ac3f38a99aa43951eec5">currentFolderFor</a> (T *that, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFile.html">selection::SelectionManager::PatchFile</a> &amp;pf)</td></tr>
+<tr class="separator:a3067346eaf10ac3f38a99aa43951eec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae87768f612fef4e3dd4c68a31fd60337" id="r_ae87768f612fef4e3dd4c68a31fd60337"><td class="memItemLeft" align="right" valign="top">juce::File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#ae87768f612fef4e3dd4c68a31fd60337">startFileIn</a> (const juce::File &amp;dir, const std::string &amp;name, const std::string &amp;ext)</td></tr>
+<tr class="separator:ae87768f612fef4e3dd4c68a31fd60337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c4c265323ba580caede2471d1cc625a" id="r_a3c4c265323ba580caede2471d1cc625a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a3c4c265323ba580caede2471d1cc625a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a3c4c265323ba580caede2471d1cc625a">rememberSaveDirectory</a> (T *that, const juce::File &amp;result)</td></tr>
 <tr class="separator:a3c4c265323ba580caede2471d1cc625a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,14 +138,28 @@ Functions</h2></td></tr>
 <tr class="memitem:a809d7f072c4adc448b05eceaaa7ec9e8" id="r_a809d7f072c4adc448b05eceaaa7ec9e8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a809d7f072c4adc448b05eceaaa7ec9e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a809d7f072c4adc448b05eceaaa7ec9e8">doSavePart</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fileChooser, int part, <a class="el" href="namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324">patch_io::SaveStyles</a> style)</td></tr>
 <tr class="separator:a809d7f072c4adc448b05eceaaa7ec9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e438ceb6bd119145b1cdc0b5eca966" id="r_a69e438ceb6bd119145b1cdc0b5eca966"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a69e438ceb6bd119145b1cdc0b5eca966"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a69e438ceb6bd119145b1cdc0b5eca966">doSaveInPlace</a> (T *that, const fs::path &amp;target, bool isCurrent, const std::string &amp;what, std::function&lt; void()&gt; send)</td></tr>
+<tr class="separator:a69e438ceb6bd119145b1cdc0b5eca966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f093f11f36f8b2a6a5f1007dac05a9" id="r_aa7f093f11f36f8b2a6a5f1007dac05a9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#aa7f093f11f36f8b2a6a5f1007dac05a9">inPlaceTarget</a> (const <a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFile.html">selection::SelectionManager::PatchFile</a> &amp;pf, const std::string &amp;name, const std::string &amp;ext)</td></tr>
+<tr class="separator:aa7f093f11f36f8b2a6a5f1007dac05a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63da7e06f592d141ea145f473149d804" id="r_a63da7e06f592d141ea145f473149d804"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a63da7e06f592d141ea145f473149d804"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a63da7e06f592d141ea145f473149d804">doSaveMultiInPlace</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fc)</td></tr>
+<tr class="separator:a63da7e06f592d141ea145f473149d804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29608c0c15c3cca93e2407fb2a83312" id="r_aa29608c0c15c3cca93e2407fb2a83312"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa29608c0c15c3cca93e2407fb2a83312"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#aa29608c0c15c3cca93e2407fb2a83312">doSavePartInPlace</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fc, int part)</td></tr>
+<tr class="separator:aa29608c0c15c3cca93e2407fb2a83312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a119a7a4adac34187ec0970c74867bcb9" id="r_a119a7a4adac34187ec0970c74867bcb9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a119a7a4adac34187ec0970c74867bcb9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a119a7a4adac34187ec0970c74867bcb9">doLoadPartInto</a> (T *that, std::unique_ptr&lt; juce::FileChooser &gt; &amp;fileChooser, int part)</td></tr>
 <tr class="separator:a119a7a4adac34187ec0970c74867bcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5edc11fbc98bf0863a02ccc063700c" id="r_a0e5edc11fbc98bf0863a02ccc063700c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0e5edc11fbc98bf0863a02ccc063700c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1ui_1_1app_1_1shared.html#a0e5edc11fbc98bf0863a02ccc063700c">populatePartIOMenu</a> (T *that, juce::PopupMenu &amp;p, int part, bool withDeactivate=true)</td></tr>
+<tr class="separator:a0e5edc11fbc98bf0863a02ccc063700c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 17 2026 20:15:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 18 2026 16:20:22 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

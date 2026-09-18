@@ -101,6 +101,7 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structscxt_1_1selection_1_1SelectionManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SelectionManager Struct Reference</div></div>
 </div><!--header-->
@@ -110,6 +111,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFile.html">PatchFile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">PatchFiles</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PerPartState.html">PerPartState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html">SelectActionContents</a></td></tr>
@@ -183,6 +188,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade49d7bc07146bd212e6f2a0b35417ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ccfaac332d2f109c56956ab0e17fc1e" id="r_a6ccfaac332d2f109c56956ab0e17fc1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ccfaac332d2f109c56956ab0e17fc1e">copyZoneOrGroupProcessorLeadToAll</a> (bool forZone, int which)</td></tr>
 <tr class="separator:a6ccfaac332d2f109c56956ab0e17fc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb932fe8c4b4537b440c0e15fe153d88" id="r_abb932fe8c4b4537b440c0e15fe153d88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">PatchFiles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">getPatchFiles</a> () const</td></tr>
+<tr class="separator:abb932fe8c4b4537b440c0e15fe153d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e23033822e875d70328e18ea00c8204" id="r_a9e23033822e875d70328e18ea00c8204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9e23033822e875d70328e18ea00c8204">setPatchFiles</a> (<a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">PatchFiles</a>)</td></tr>
+<tr class="separator:a9e23033822e875d70328e18ea00c8204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f9c37c4b12c501299d028bc99d482d" id="r_a23f9c37c4b12c501299d028bc99d482d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a23f9c37c4b12c501299d028bc99d482d">sendPatchFilesToClient</a> () const</td></tr>
+<tr class="separator:a23f9c37c4b12c501299d028bc99d482d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8442d63d84b2939a1aaae1108b4d4c8a" id="r_a8442d63d84b2939a1aaae1108b4d4c8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8442d63d84b2939a1aaae1108b4d4c8a">setMultiFile</a> (const fs::path &amp;, bool monolith)</td></tr>
+<tr class="separator:a8442d63d84b2939a1aaae1108b4d4c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58093925c071605598a8e5896dd59a7f" id="r_a58093925c071605598a8e5896dd59a7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a58093925c071605598a8e5896dd59a7f">setPartFile</a> (int part, const fs::path &amp;, bool monolith)</td></tr>
+<tr class="separator:a58093925c071605598a8e5896dd59a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d33ca853e63f69abe5f132b217743cc" id="r_a9d33ca853e63f69abe5f132b217743cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9d33ca853e63f69abe5f132b217743cc">setMultiName</a> (const std::string &amp;)</td></tr>
+<tr class="separator:a9d33ca853e63f69abe5f132b217743cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82263d7d2587001d5be13cee3c2c0ae0" id="r_a82263d7d2587001d5be13cee3c2c0ae0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a82263d7d2587001d5be13cee3c2c0ae0">clearPartFile</a> (int part)</td></tr>
+<tr class="separator:a82263d7d2587001d5be13cee3c2c0ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a596fa33abf8020547a2200d7c5a65dd2" id="r_a596fa33abf8020547a2200d7c5a65dd2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a596fa33abf8020547a2200d7c5a65dd2">isGroupCollapsed</a> (int part, int group) const</td></tr>
 <tr class="separator:a596fa33abf8020547a2200d7c5a65dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a260badab8cdaea036cc91e7ff00dd10c" id="r_a260badab8cdaea036cc91e7ff00dd10c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a260badab8cdaea036cc91e7ff00dd10c">setGroupCollapsed</a> (int part, int group, bool collapsed)</td></tr>
@@ -234,6 +253,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ac7a1f92ee2dcfb262118d931778b648c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21b1c125398c5b1bba89b73d38e6d423" id="r_a21b1c125398c5b1bba89b73d38e6d423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">debugDumpSelectionState</a> ()</td></tr>
 <tr class="separator:a21b1c125398c5b1bba89b73d38e6d423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ace66d1b7c942e4b6856bbe4995f53f89" id="r_ace66d1b7c942e4b6856bbe4995f53f89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">PatchFiles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ace66d1b7c942e4b6856bbe4995f53f89">patchFiles</a></td></tr>
+<tr class="separator:ace66d1b7c942e4b6856bbe4995f53f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a021ed9ebefe1a4392cfe832bff1e9e09" name="a021ed9ebefe1a4392cfe832bff1e9e09"></a>
@@ -1140,6 +1164,176 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
 
 </div>
 </div>
+<a id="abb932fe8c4b4537b440c0e15fe153d88" name="abb932fe8c4b4537b440c0e15fe153d88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb932fe8c4b4537b440c0e15fe153d88">&#9670;&#160;</a></span>getPatchFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">SelectionManager::PatchFiles</a> getPatchFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa43980f69e7c0e9e2d54a64a453ff231">SelectionManager::engine</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ace66d1b7c942e4b6856bbe4995f53f89">SelectionManager::patchFiles</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2b90b68843d25159bcb0c0186da658eb">Engine::patchFilesMutex</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a23f9c37c4b12c501299d028bc99d482d">SelectionManager::sendPatchFilesToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8442d63d84b2939a1aaae1108b4d4c8a">SelectionManager::setMultiFile()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9d33ca853e63f69abe5f132b217743cc">SelectionManager::setMultiName()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a58093925c071605598a8e5896dd59a7f">SelectionManager::setPartFile()</a>.</p>
+
+</div>
+</div>
+<a id="a9e23033822e875d70328e18ea00c8204" name="a9e23033822e875d70328e18ea00c8204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e23033822e875d70328e18ea00c8204">&#9670;&#160;</a></span>setPatchFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setPatchFiles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">PatchFiles</a>&#160;</td>
+          <td class="paramname"><em>pf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa43980f69e7c0e9e2d54a64a453ff231">SelectionManager::engine</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ace66d1b7c942e4b6856bbe4995f53f89">SelectionManager::patchFiles</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2b90b68843d25159bcb0c0186da658eb">Engine::patchFilesMutex</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8442d63d84b2939a1aaae1108b4d4c8a">SelectionManager::setMultiFile()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9d33ca853e63f69abe5f132b217743cc">SelectionManager::setMultiName()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a58093925c071605598a8e5896dd59a7f">SelectionManager::setPartFile()</a>.</p>
+
+</div>
+</div>
+<a id="a23f9c37c4b12c501299d028bc99d482d" name="a23f9c37c4b12c501299d028bc99d482d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f9c37c4b12c501299d028bc99d482d">&#9670;&#160;</a></span>sendPatchFilesToClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sendPatchFilesToClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa43980f69e7c0e9e2d54a64a453ff231">SelectionManager::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">SelectionManager::getPatchFiles()</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba545f159cf97f53939eeaf12334e54cd0">scxt::messaging::client::s2c_send_patch_files</a>.</p>
+
+</div>
+</div>
+<a id="a8442d63d84b2939a1aaae1108b4d4c8a" name="a8442d63d84b2939a1aaae1108b4d4c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8442d63d84b2939a1aaae1108b4d4c8a">&#9670;&#160;</a></span>setMultiFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setMultiFile </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>monolith</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">SelectionManager::getPatchFiles()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9e23033822e875d70328e18ea00c8204">SelectionManager::setPatchFiles()</a>.</p>
+
+</div>
+</div>
+<a id="a58093925c071605598a8e5896dd59a7f" name="a58093925c071605598a8e5896dd59a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58093925c071605598a8e5896dd59a7f">&#9670;&#160;</a></span>setPartFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setPartFile </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>monolith</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">SelectionManager::getPatchFiles()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9e23033822e875d70328e18ea00c8204">SelectionManager::setPatchFiles()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a82263d7d2587001d5be13cee3c2c0ae0">SelectionManager::clearPartFile()</a>.</p>
+
+</div>
+</div>
+<a id="a9d33ca853e63f69abe5f132b217743cc" name="a9d33ca853e63f69abe5f132b217743cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d33ca853e63f69abe5f132b217743cc">&#9670;&#160;</a></span>setMultiName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setMultiName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">SelectionManager::getPatchFiles()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9e23033822e875d70328e18ea00c8204">SelectionManager::setPatchFiles()</a>.</p>
+
+</div>
+</div>
+<a id="a82263d7d2587001d5be13cee3c2c0ae0" name="a82263d7d2587001d5be13cee3c2c0ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82263d7d2587001d5be13cee3c2c0ae0">&#9670;&#160;</a></span>clearPartFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearPartFile </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>part</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a58093925c071605598a8e5896dd59a7f">SelectionManager::setPartFile()</a>.</p>
+
+</div>
+</div>
 <a id="a596fa33abf8020547a2200d7c5a65dd2" name="a596fa33abf8020547a2200d7c5a65dd2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a596fa33abf8020547a2200d7c5a65dd2">&#9670;&#160;</a></span>isGroupCollapsed()</h2>
 
@@ -1357,7 +1551,7 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae38aa61cca0131c021c8be6a89403f66">SelectionManager::acrossSelectionConsistency()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a28b50b6cb236ff0eed94b014ad337534">SelectionManager::applySelectActions()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aed73dfa974f784a20b64ac26d55dc6ea">SelectionManager::configureAndSendZoneOrGroupModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ccfaac332d2f109c56956ab0e17fc1e">SelectionManager::copyZoneOrGroupProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab560414883ab0ba3ae588b49622ae8dc">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa44a858a5e5ec90650e92127f50506bb">SelectionManager::sendDisplayDataForGroupsBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a092a6b5e039e6c7122b997d4055ea068">SelectionManager::sendDisplayDataForLeadSelection()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a10b45ee640935721d47cee90a99cc1a6">SelectionManager::sendGroupZoneMappingForSelectedPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8eef35a7c1566dfdf67a5d35eb1bedbb">SelectionManager::setAllGroupsCollapsed()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a260badab8cdaea036cc91e7ff00dd10c">SelectionManager::setGroupCollapsed()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a387917eee8aefac2d066b3ea8f632229">SelectionManager::transformSelectionActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae38aa61cca0131c021c8be6a89403f66">SelectionManager::acrossSelectionConsistency()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a28b50b6cb236ff0eed94b014ad337534">SelectionManager::applySelectActions()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aed73dfa974f784a20b64ac26d55dc6ea">SelectionManager::configureAndSendZoneOrGroupModMatrixMetadata()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ccfaac332d2f109c56956ab0e17fc1e">SelectionManager::copyZoneOrGroupProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">SelectionManager::getPatchFiles()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab560414883ab0ba3ae588b49622ae8dc">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aa44a858a5e5ec90650e92127f50506bb">SelectionManager::sendDisplayDataForGroupsBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a092a6b5e039e6c7122b997d4055ea068">SelectionManager::sendDisplayDataForLeadSelection()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a30f3355083c7915552b5cde0929f98f3">SelectionManager::sendDisplayDataForNoGroupSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a906dc8dc476f113ce3d13507ea0bc73e">SelectionManager::sendDisplayDataForNoZoneSelected()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a50b4bd5b69d47ec62f45f03e5c47594e">SelectionManager::sendDisplayDataForZonesBasedOnLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a10b45ee640935721d47cee90a99cc1a6">SelectionManager::sendGroupZoneMappingForSelectedPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a3db6a336135772f175e8b4755f757318">SelectionManager::sendOtherTabsSelectionToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a23f9c37c4b12c501299d028bc99d482d">SelectionManager::sendPatchFilesToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a8eef35a7c1566dfdf67a5d35eb1bedbb">SelectionManager::setAllGroupsCollapsed()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a260badab8cdaea036cc91e7ff00dd10c">SelectionManager::setGroupCollapsed()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9e23033822e875d70328e18ea00c8204">SelectionManager::setPatchFiles()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a387917eee8aefac2d066b3ea8f632229">SelectionManager::transformSelectionActions()</a>.</p>
 
 </div>
 </div>
@@ -1374,6 +1568,30 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae38aa61cca0131c021c8be6a89403f66">SelectionManager::acrossSelectionConsistency()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6c8602bd29ee2e3d7002fe9a90204740">SelectionManager::adjustInternalStateForAction()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a28b50b6cb236ff0eed94b014ad337534">SelectionManager::applySelectActions()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1a491848f536bb2121e400ad6dfd88d9">SelectionManager::bestPartGroupForNewSample()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a6ccfaac332d2f109c56956ab0e17fc1e">SelectionManager::copyZoneOrGroupProcessorLeadToAll()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af0c1e052826fcf8cfffdf1c6510e33ca">SelectionManager::currentLeadGroup()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a70e4a9d81bf2a1011bc4e18b3678562c">SelectionManager::currentLeadZone()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a588755b35a4159b0c245b35d1e87896b">SelectionManager::currentlySelectedGroups()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a7d2c0a0d9cc2814dcedfdc55611cb95b">SelectionManager::currentlySelectedPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab278a9097d9f8b3cfd61c59380bf9870">SelectionManager::currentlySelectedZones()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a21b1c125398c5b1bba89b73d38e6d423">SelectionManager::debugDumpSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ab560414883ab0ba3ae588b49622ae8dc">SelectionManager::guaranteeConsistencyAfterDeletes()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a045854dba3b34f5ebf4ff1c1acd28f1b">SelectionManager::guaranteeSelectedLead()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ac7a1f92ee2dcfb262118d931778b648c">SelectionManager::guaranteeSelectedLeadSomewhereIn()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#ae0c913c244dbcd34b906e88b62b50d63">SelectionManager::selectPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#aec273b74a1a7b793b9b87c732cfdaed3">SelectionManager::sendClientDataForLeadSelectionState()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a10b45ee640935721d47cee90a99cc1a6">SelectionManager::sendGroupZoneMappingForSelectedPart()</a>, <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a1627a557c821a9e8bf7166a2b2144899">SelectionManager::sendSelectedPartMacrosToClient()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#af685ac295f0a725827f099fb141c6daf">SelectionManager::sendSelectedZonesToClient()</a>.</p>
+
+</div>
+</div>
+<a id="ace66d1b7c942e4b6856bbe4995f53f89" name="ace66d1b7c942e4b6856bbe4995f53f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace66d1b7c942e4b6856bbe4995f53f89">&#9670;&#160;</a></span>patchFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html">PatchFiles</a> patchFiles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#abb932fe8c4b4537b440c0e15fe153d88">SelectionManager::getPatchFiles()</a>, and <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a9e23033822e875d70328e18ea00c8204">SelectionManager::setPatchFiles()</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1634,7 @@ template&lt;typename Config , typename Mat , typename RT &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 17 2026 20:15:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 18 2026 16:20:23 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

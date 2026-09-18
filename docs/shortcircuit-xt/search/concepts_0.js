@@ -8,5 +8,6 @@ var searchData=
   ['scxt_3a_3aundo_3a_3aspechaspostwrite_5',['SpecHasPostWrite',['../conceptscxt_1_1undo_1_1SpecHasPostWrite.html',1,'scxt::undo']]],
   ['scxt_3a_3aundo_3a_3aspechasread_6',['SpecHasRead',['../conceptscxt_1_1undo_1_1SpecHasRead.html',1,'scxt::undo']]],
   ['scxt_3a_3aundo_3a_3aspechaswrite_7',['SpecHasWrite',['../conceptscxt_1_1undo_1_1SpecHasWrite.html',1,'scxt::undo']]],
-  ['scxt_3a_3aundo_3a_3aspecskipsleadrefresh_8',['SpecSkipsLeadRefresh',['../conceptscxt_1_1undo_1_1SpecSkipsLeadRefresh.html',1,'scxt::undo']]]
+  ['scxt_3a_3aundo_3a_3aspecisserialwrite_8',['SpecIsSerialWrite',['../conceptscxt_1_1undo_1_1SpecIsSerialWrite.html',1,'scxt::undo']]],
+  ['scxt_3a_3aundo_3a_3aspecskipsleadrefresh_9',['SpecSkipsLeadRefresh',['../conceptscxt_1_1undo_1_1SpecSkipsLeadRefresh.html',1,'scxt::undo']]]
 ];

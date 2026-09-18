@@ -136,6 +136,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af695a65e9da468cdb4bdd7aff5112350" id="r_af695a65e9da468cdb4bdd7aff5112350"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#af695a65e9da468cdb4bdd7aff5112350">patchFilesIn</a> (const fs::path &amp;dir, const std::string &amp;extension)</td></tr>
+<tr class="separator:af695a65e9da468cdb4bdd7aff5112350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab06a3b8197e9194cefa28d6839922a" id="r_acab06a3b8197e9194cefa28d6839922a"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#acab06a3b8197e9194cefa28d6839922a">stepPatchFile</a> (const std::vector&lt; fs::path &gt; &amp;files, const fs::path &amp;current, int direction)</td></tr>
+<tr class="separator:acab06a3b8197e9194cefa28d6839922a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ceedb730d5e7b01a4434d3fad26584b" id="r_a1ceedb730d5e7b01a4434d3fad26584b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a1ceedb730d5e7b01a4434d3fad26584b">isLoadableFile</a> (const fs::path &amp;)</td></tr>
 <tr class="separator:a1ceedb730d5e7b01a4434d3fad26584b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a645afc3ef32da17f59429ec9f0815e34" id="r_a645afc3ef32da17f59429ec9f0815e34"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1Browser.html#a645afc3ef32da17f59429ec9f0815e34">isLoadableSample</a> (const fs::path &amp;)</td></tr>
@@ -353,6 +357,90 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structscxt_1_1browser_1_1Browser.html#a0c6453be11222a12e777946e368b2da0">Browser::browserDb</a>, and <a class="el" href="structscxt_1_1browser_1_1BrowserDB.html#aa8a7f7fea77087412d9c8522cd382601">BrowserDB::reindexLocation()</a>.</p>
+
+</div>
+</div>
+<a id="af695a65e9da468cdb4bdd7aff5112350" name="af695a65e9da468cdb4bdd7aff5112350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af695a65e9da468cdb4bdd7aff5112350">&#9670;&#160;</a></span>patchFilesIn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; fs::path &gt; patchFilesIn </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>extension</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt.html#a606be123afc606046b0b1d315f755cf1">scxt::extensionMatches()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a07d8c0c7b1b43b3792fc0588d1b82d98">HeaderRegion::refreshName()</a>.</p>
+
+</div>
+</div>
+<a id="acab06a3b8197e9194cefa28d6839922a" name="acab06a3b8197e9194cefa28d6839922a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab06a3b8197e9194cefa28d6839922a">&#9670;&#160;</a></span>stepPatchFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; fs::path &gt; stepPatchFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; fs::path &gt; &amp;&#160;</td>
+          <td class="paramname"><em>files</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a5af2b783a89f31c60d4e2e1376e45385">HeaderRegion::jogTo()</a>.</p>
 
 </div>
 </div>
@@ -782,7 +870,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 17 2026 20:15:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 18 2026 16:20:22 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
