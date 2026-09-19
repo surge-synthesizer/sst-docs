@@ -18,5 +18,6 @@ var searchData=
   ['zoneparamkeytrack_15',['zoneParamKeytrack',['../namespacescxt_1_1sfz__support.html#aab3c5beba2e0e6dc8f07296bf1522ed1',1,'scxt::sfz_support']]],
   ['zoneparammods_16',['zoneParamMods',['../namespacescxt_1_1sfz__support.html#a40797040e89ebcd7c80fe7316c85c667',1,'scxt::sfz_support']]],
   ['zoneplayback_17',['zonePlayback',['../namespacescxt_1_1sfz__support.html#a416ce2461a9559313e08dd18fc26d596',1,'scxt::sfz_support']]],
-  ['zonesidebar_18',['ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af26eb7e7e4df20755a33f103712a5170',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
+  ['zonerandslice_18',['zoneRandSlice',['../namespacescxt_1_1sfz__support.html#a4b6c03b1dea64ae86d10276ee2ff9fc1',1,'scxt::sfz_support']]],
+  ['zonesidebar_19',['ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af26eb7e7e4df20755a33f103712a5170',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
 ];
