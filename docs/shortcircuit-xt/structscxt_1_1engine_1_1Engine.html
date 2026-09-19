@@ -425,8 +425,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1a175b7ffd36f23f83ef92d0cc29ca0e" id="r_a1a175b7ffd36f23f83ef92d0cc29ca0e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structscxt_1_1infrastructure_1_1DefaultsProvider.html">infrastructure::DefaultsProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a1a175b7ffd36f23f83ef92d0cc29ca0e">defaults</a></td></tr>
 <tr class="separator:a1a175b7ffd36f23f83ef92d0cc29ca0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c2b8bee873fe89c2bafbfef888fabc7" id="r_a9c2b8bee873fe89c2bafbfef888fabc7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a9c2b8bee873fe89c2bafbfef888fabc7">runningEnvironment</a> {&quot;Unknown&quot;}</td></tr>
-<tr class="memdesc:a9c2b8bee873fe89c2bafbfef888fabc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">An option to add a description of your running environment, like "VST3 in Reaper".  <br /></td></tr>
+<tr class="memdesc:a9c2b8bee873fe89c2bafbfef888fabc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The format we are running as, like "CLAP" or "VST3", and the host which loaded us, like "Reaper 7.28".  <br /></td></tr>
 <tr class="separator:a9c2b8bee873fe89c2bafbfef888fabc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331d000a2180fd9bbca322757a4f4424" id="r_a331d000a2180fd9bbca322757a4f4424"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a331d000a2180fd9bbca322757a4f4424">runningHost</a> {}</td></tr>
+<tr class="separator:a331d000a2180fd9bbca322757a4f4424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f225a729ef9e976b6234e840235e010" id="r_a6f225a729ef9e976b6234e840235e010"><td class="memItemLeft" align="right" valign="top">sst::basic_blocks::modulators::Transport&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a6f225a729ef9e976b6234e840235e010">transport</a></td></tr>
 <tr class="separator:a6f225a729ef9e976b6234e840235e010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af98678d7234716978944f4bb1b78b353" id="r_af98678d7234716978944f4bb1b78b353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html">HeldNotes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af98678d7234716978944f4bb1b78b353">heldNotes</a></td></tr>
@@ -2495,7 +2497,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a0dac787fd7859fe79c2c433db2c35b9f">Engine::EngineStatusMessage::isAudioRunning</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a9c2b8bee873fe89c2bafbfef888fabc7">Engine::EngineStatusMessage::runningEnvironment</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba542637f6857cf319cf0677ba5dbeec13">scxt::messaging::client::s2c_engine_status</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">Engine::EngineStatusMessage::sampleRate</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a0dac787fd7859fe79c2c433db2c35b9f">Engine::EngineStatusMessage::isAudioRunning</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a9c2b8bee873fe89c2bafbfef888fabc7">Engine::EngineStatusMessage::runningEnvironment</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a331d000a2180fd9bbca322757a4f4424">Engine::EngineStatusMessage::runningHost</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99ba542637f6857cf319cf0677ba5dbeec13">scxt::messaging::client::s2c_engine_status</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1EngineStatusMessage.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">Engine::EngineStatusMessage::sampleRate</a>, and <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a9b738f10f78e4aea13b1b5bb2e89d9b7">scxt::messaging::client::serializationSendToClient()</a>.</p>
 
 </div>
 </div>
@@ -3153,7 +3155,22 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>An option to add a description of your running environment, like "VST3 in Reaper". </p>
+<p>The format we are running as, like "CLAP" or "VST3", and the host which loaded us, like "Reaper 7.28". </p>
+<p>The host is empty when there isn't one to name. </p>
+
+</div>
+</div>
+<a id="a331d000a2180fd9bbca322757a4f4424" name="a331d000a2180fd9bbca322757a4f4424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a331d000a2180fd9bbca322757a4f4424">&#9670;&#160;</a></span>runningHost</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string runningHost {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3844,7 +3861,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 19 2026 14:55:22 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Sep 19 2026 16:51:04 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
