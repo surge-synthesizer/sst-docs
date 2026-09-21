@@ -23,8 +23,9 @@ var searchData=
   ['sclog_5ftime_20',['SCLOG_TIME',['../utils_8h.html#ad9dc0f823bad6ab2743258c8f26dadd0',1,'utils.h']]],
   ['sclog_5fwfunc_5fif_21',['SCLOG_WFUNC_IF',['../utils_8h.html#a99411fab6d4942ae2d40ebe9c68cc343',1,'utils.h']]],
   ['scxt_5fsrc_5fclients_5fcli_5ftools_5fcheck_5fmulti_5floadability_22',['SCXT_SRC_CLIENTS_CLI_TOOLS_CHECK_MULTI_LOADABILITY',['../check-multi-loadability_8cpp.html#a0b375484db6946057b441b0c121d64bf',1,'check-multi-loadability.cpp']]],
-  ['serial_5fto_5fclient_23',['SERIAL_TO_CLIENT',['../client__macros_8h.html#a431ef0af180a125083e0b73b2bbe3e0b',1,'client_macros.h']]],
-  ['show_5findex_5fmenus_24',['SHOW_INDEX_MENUS',['../BrowserPane_8cpp.html#a569f5d055990191d3ff5c4f90cdc202c',1,'BrowserPane.cpp']]],
-  ['stream_5fenum_25',['STREAM_ENUM',['../scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c',1,'scxt_traits.h']]],
-  ['stream_5fenum_5fwith_5fdefault_26',['STREAM_ENUM_WITH_DEFAULT',['../scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce',1,'scxt_traits.h']]]
+  ['scxt_5fsrc_5fclients_5fcli_5ftools_5frender_5fzone_23',['SCXT_SRC_CLIENTS_CLI_TOOLS_RENDER_ZONE',['../render-zone_8cpp.html#aa857763fdd6b66b1c108dc7430a0e437',1,'render-zone.cpp']]],
+  ['serial_5fto_5fclient_24',['SERIAL_TO_CLIENT',['../client__macros_8h.html#a431ef0af180a125083e0b73b2bbe3e0b',1,'client_macros.h']]],
+  ['show_5findex_5fmenus_25',['SHOW_INDEX_MENUS',['../BrowserPane_8cpp.html#a569f5d055990191d3ff5c4f90cdc202c',1,'BrowserPane.cpp']]],
+  ['stream_5fenum_26',['STREAM_ENUM',['../scxt__traits_8h.html#a2e26558c6d1878ba7f3418fd230d533c',1,'scxt_traits.h']]],
+  ['stream_5fenum_5fwith_5fdefault_27',['STREAM_ENUM_WITH_DEFAULT',['../scxt__traits_8h.html#add972a37ef55a1b06009b25d0f3308ce',1,'scxt_traits.h']]]
 ];

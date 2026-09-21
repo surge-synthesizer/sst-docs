@@ -135,8 +135,8 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:aad561255dd8401351bc3ce9fe6db1b56" id="r_aad561255dd8401351bc3ce9fe6db1b56"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>(E,  T,  <a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>,  dataL,  dataR,  fadeL,  fadeR)</td></tr>
 <tr class="separator:aad561255dd8401351bc3ce9fe6db1b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ee2cbc8e4d8d2bffad6d76363c02a8b" id="r_a7ee2cbc8e4d8d2bffad6d76363c02a8b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generator_8cpp.html#a7ee2cbc8e4d8d2bffad6d76363c02a8b">KPMono</a>(E,  T,  <a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>,  data,  fade)</td></tr>
-<tr class="separator:a7ee2cbc8e4d8d2bffad6d76363c02a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1234531831a22b5f6da4c2e867e23964" id="r_a1234531831a22b5f6da4c2e867e23964"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>(E,  T,  <a class="el" href="ColorMap_8cpp.html#ac54ae397901fe700628cafadea3c5208">C</a>,  data,  fadeData)</td></tr>
+<tr class="separator:a1234531831a22b5f6da4c2e867e23964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8280a86a26c0af4cda026b940f138332" id="r_a8280a86a26c0af4cda026b940f138332"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="generator_8cpp.html#a8280a86a26c0af4cda026b940f138332">DEBUG_OUTPUT_MINMAX</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a8280a86a26c0af4cda026b940f138332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,14 +149,12 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a6611e51e6f2818a86700458ef3cf6448" id="r_a6611e51e6f2818a86700458ef3cf6448"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a6611e51e6f2818a86700458ef3cf6448">getFadeGainToAmp</a> (float g)</td></tr>
 <tr class="separator:a6611e51e6f2818a86700458ef3cf6448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9405d40030f8894e073844ef96bc15d" id="r_ab9405d40030f8894e073844ef96bc15d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#ab9405d40030f8894e073844ef96bc15d">getFadeGain</a> (int32_t samplePos, int32_t x1, int32_t x2)</td></tr>
-<tr class="separator:ab9405d40030f8894e073844ef96bc15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af05c9423ad1e42735cd1f8cdc57528a1" id="r_af05c9423ad1e42735cd1f8cdc57528a1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#af05c9423ad1e42735cd1f8cdc57528a1">NormalizeSampleToF32</a> (float val)</td></tr>
 <tr class="separator:af05c9423ad1e42735cd1f8cdc57528a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3598451cfb5d95d1ce4022d4f5808c9f" id="r_a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3598451cfb5d95d1ce4022d4f5808c9f">NormalizeSampleToF32</a> (int16_t val)</td></tr>
 <tr class="separator:a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66bd11cb1f841f1b4d148d154b69c178" id="r_a66bd11cb1f841f1b4d148d154b69c178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a66bd11cb1f841f1b4d148d154b69c178">reflectPingPong</a> (int &amp;samplePos, int &amp;sampleSubPos, int &amp;direction, int64_t ratio, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> *GD)</td></tr>
-<tr class="separator:a66bd11cb1f841f1b4d148d154b69c178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb5e5d997fcc810f1a1f298aad07fc63" id="r_afb5e5d997fcc810f1a1f298aad07fc63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong</a> (int &amp;samplePos, int &amp;sampleSubPos, int &amp;travel, int ratioSign, int64_t ratio, int mirrorLo, int mirrorHi, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> *GD)</td></tr>
+<tr class="separator:afb5e5d997fcc810f1a1f298aad07fc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3439075be021dee979fb4a93dcf8d308" id="r_a3439075be021dee979fb4a93dcf8d308"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3439075be021dee979fb4a93dcf8d308">loopEndIndex</a> (int k, int samplePos, int loopUpperBound, int waveSize, int loopLength)</td></tr>
 <tr class="separator:a3439075be021dee979fb4a93dcf8d308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb54bfbce882d9b61edd75b2bda478d2" id="r_acb54bfbce882d9b61edd75b2bda478d2"><td class="memTemplParams" colspan="2">template&lt;int compoundConfig&gt; </td></tr>
@@ -241,14 +239,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    KernelProcessor&lt;E, T, C, loopActive&gt; kp{                                                       \</div>
-<div class="line">        SamplePos,  SampleSubPos, int32_t(m0),        i, {dataL, dataR}, {fadeL, fadeR},           \</div>
-<div class="line">        fadeActive, loopFade,     {OutputL, OutputR}, IO};                                         \</div>
+<div class="line">        SamplePos,        SampleSubPos,       int32_t(m0), i,                                      \</div>
+<div class="line">        {dataL, dataR},   {fadeL, fadeR},     fade.active, fade.mainGain,                          \</div>
+<div class="line">        fade.partnerGain, {OutputL, OutputR}, IO};                                                 \</div>
 <div class="line">    kp.ProcessKernel(GD);</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a7ee2cbc8e4d8d2bffad6d76363c02a8b" name="a7ee2cbc8e4d8d2bffad6d76363c02a8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ee2cbc8e4d8d2bffad6d76363c02a8b">&#9670;&#160;</a></span>KPMono</h2>
+<a id="a1234531831a22b5f6da4c2e867e23964" name="a1234531831a22b5f6da4c2e867e23964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1234531831a22b5f6da4c2e867e23964">&#9670;&#160;</a></span>KPMono</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +280,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">fade&#160;</td>
+          <td class="paramname">fadeData&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -291,8 +290,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    KernelProcessor&lt;E, T, C, loopActive&gt; ks{                                                       \</div>
-<div class="line">        SamplePos, SampleSubPos, int32_t(m0), i,         {data},                                   \</div>
-<div class="line">        {fade},    fadeActive,   loopFade,    {OutputL}, IO};                                      \</div>
+<div class="line">        SamplePos,   SampleSubPos,  int32_t(m0),      i,         {data}, {fadeData},               \</div>
+<div class="line">        fade.active, fade.mainGain, fade.partnerGain, {OutputL}, IO};                              \</div>
 <div class="line">    ks.ProcessKernel(GD);</div>
 </div><!-- fragment -->
 </div>
@@ -314,7 +313,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 21 2026 11:10:41 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 21 2026 16:58:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
