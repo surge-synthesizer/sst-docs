@@ -117,6 +117,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7fc920d041b4123c404d143170e835f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9484f5522d0e5f033037c369365ec61" id="r_ad9484f5522d0e5f033037c369365ec61"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#ad9484f5522d0e5f033037c369365ec61">i</a></td></tr>
 <tr class="separator:ad9484f5522d0e5f033037c369365ec61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856186d459c67003f9d63c88cacb3cb2" id="r_a856186d459c67003f9d63c88cacb3cb2"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a856186d459c67003f9d63c88cacb3cb2">FadeSubPos</a></td></tr>
+<tr class="separator:a856186d459c67003f9d63c88cacb3cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25b83288917c977cf5d28c2c0bf55fe" id="r_af25b83288917c977cf5d28c2c0bf55fe"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#af25b83288917c977cf5d28c2c0bf55fe">FadeM0</a></td></tr>
+<tr class="separator:af25b83288917c977cf5d28c2c0bf55fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a57720b07b72c765d930e78f4896c43" id="r_a7a57720b07b72c765d930e78f4896c43"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a7a57720b07b72c765d930e78f4896c43">ReadSample</a> [NUM_CHANNELS]</td></tr>
 <tr class="separator:a7a57720b07b72c765d930e78f4896c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ff5ee898fb5f9caf4b8d26e299befe5" id="r_a8ff5ee898fb5f9caf4b8d26e299befe5"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a8ff5ee898fb5f9caf4b8d26e299befe5">ReadFadeSample</a> [NUM_CHANNELS]</td></tr>
@@ -223,6 +227,42 @@ template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html#ab69bddad6c6bf2a41c014862fa1ee346">KernelOp&lt; InterpolationTypes::Linear, T &gt;::Process()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html#ac8f9bfcab83735a2b1b32b98e843d81a">KernelOp&lt; InterpolationTypes::Sinc, float &gt;::Process()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01int16__t_01_4.html#a4b5dfb54f8fd0eddef7c11437184abe9">KernelOp&lt; InterpolationTypes::Sinc, int16_t &gt;::Process()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZeroOrderHold_00_01T_01_4.html#ae5f4a74ed14ecaed35eefd7253da30f6">KernelOp&lt; InterpolationTypes::ZeroOrderHold, T &gt;::Process()</a>, and <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html#a9f558e4a16be137c1786d8924c6962cb">KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;::Process()</a>.</p>
+
+</div>
+</div>
+<a id="a856186d459c67003f9d63c88cacb3cb2" name="a856186d459c67003f9d63c88cacb3cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856186d459c67003f9d63c88cacb3cb2">&#9670;&#160;</a></span>FadeSubPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> KT, typename T , int NUM_CHANNELS, bool LOOP_ACTIVE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t FadeSubPos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html#ab69bddad6c6bf2a41c014862fa1ee346">KernelOp&lt; InterpolationTypes::Linear, T &gt;::Process()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html#ac8f9bfcab83735a2b1b32b98e843d81a">KernelOp&lt; InterpolationTypes::Sinc, float &gt;::Process()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01int16__t_01_4.html#a4b5dfb54f8fd0eddef7c11437184abe9">KernelOp&lt; InterpolationTypes::Sinc, int16_t &gt;::Process()</a>, and <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html#a9f558e4a16be137c1786d8924c6962cb">KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;::Process()</a>.</p>
+
+</div>
+</div>
+<a id="af25b83288917c977cf5d28c2c0bf55fe" name="af25b83288917c977cf5d28c2c0bf55fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25b83288917c977cf5d28c2c0bf55fe">&#9670;&#160;</a></span>FadeM0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> KT, typename T , int NUM_CHANNELS, bool LOOP_ACTIVE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t FadeM0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html#ac8f9bfcab83735a2b1b32b98e843d81a">KernelOp&lt; InterpolationTypes::Sinc, float &gt;::Process()</a>, and <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01int16__t_01_4.html#a4b5dfb54f8fd0eddef7c11437184abe9">KernelOp&lt; InterpolationTypes::Sinc, int16_t &gt;::Process()</a>.</p>
 
 </div>
 </div>
@@ -358,7 +398,7 @@ template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 21 2026 16:58:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 21 2026 18:49:21 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

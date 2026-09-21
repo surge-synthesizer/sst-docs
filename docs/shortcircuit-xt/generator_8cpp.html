@@ -238,10 +238,19 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    KernelProcessor&lt;E, T, C, loopActive&gt; kp{                                                       \</div>
-<div class="line">        SamplePos,        SampleSubPos,       int32_t(m0), i,                                      \</div>
-<div class="line">        {dataL, dataR},   {fadeL, fadeR},     fade.active, fade.mainGain,                          \</div>
-<div class="line">        fade.partnerGain, {OutputL, OutputR}, IO};                                                 \</div>
+<b>Value:</b><div class="fragment"><div class="line">    KernelProcessor&lt;E, T, C, loopActive&gt; kp{SamplePos,                                             \</div>
+<div class="line">                                            SampleSubPos,                                          \</div>
+<div class="line">                                            int32_t(m0),                                           \</div>
+<div class="line">                                            i,                                                     \</div>
+<div class="line">                                            fade.partnerSubPos,                                    \</div>
+<div class="line">                                            int32_t(fadeM0),                                       \</div>
+<div class="line">                                            {dataL, dataR},                                        \</div>
+<div class="line">                                            {fadeL, fadeR},                                        \</div>
+<div class="line">                                            fade.active,                                           \</div>
+<div class="line">                                            fade.mainGain,                                         \</div>
+<div class="line">                                            fade.partnerGain,                                      \</div>
+<div class="line">                                            {OutputL, OutputR},                                    \</div>
+<div class="line">                                            IO};                                                   \</div>
 <div class="line">    kp.ProcessKernel(GD);</div>
 </div><!-- fragment -->
 </div>
@@ -290,8 +299,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    KernelProcessor&lt;E, T, C, loopActive&gt; ks{                                                       \</div>
-<div class="line">        SamplePos,   SampleSubPos,  int32_t(m0),      i,         {data}, {fadeData},               \</div>
-<div class="line">        fade.active, fade.mainGain, fade.partnerGain, {OutputL}, IO};                              \</div>
+<div class="line">        SamplePos,        SampleSubPos, int32_t(m0), i,           fade.partnerSubPos,              \</div>
+<div class="line">        int32_t(fadeM0),  {data},       {fadeData},  fade.active, fade.mainGain,                   \</div>
+<div class="line">        fade.partnerGain, {OutputL},    IO};                                                       \</div>
 <div class="line">    ks.ProcessKernel(GD);</div>
 </div><!-- fragment -->
 </div>
@@ -313,7 +323,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 21 2026 16:58:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 21 2026 18:49:21 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
