@@ -6,12 +6,13 @@ var searchData=
   ['delay_3',['delay',['../namespacescxt_1_1import__support.html#a962527988d5911b8c39298c0795007c6a8f497c1a3d15af9e0c215019f26b887d',1,'scxt::import_support::Delay'],['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a5e14a979358fed591dc52376e043d852',1,'scxt::engine::delay']]],
   ['delete_5fselected_4',['DELETE_SELECTED',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa8462c9b18118ed59b78675e43e40e2c2',1,'scxt::ui::app']]],
   ['descending_5',['DESCENDING',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a224b9163917ac32fc95a60d8c1eec3aaacee234b4fc0ed1e29e965d79cfe252a6',1,'scxt::modulation::modulators::PhasorStorage']]],
-  ['discrete_6',['Discrete',['../namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbea4984667940802dedc139aa7a430a6553',1,'scxt::undo']]],
-  ['dotted_7',['DOTTED',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca1616c826577ee62e03fd79da3c74d82a',1,'scxt::modulation::modulators::PhasorStorage']]],
-  ['drag_5fkey_8',['DRAG_KEY',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8cad96c3b4f4214e3d8197fa6c324fb1d91',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['drag_5fkey_5fand_5fvel_9',['DRAG_KEY_AND_VEL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8ca56d0997be1afad847f2a2d73c9ecc15b',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['drag_5fover_10',['DRAG_OVER',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a2e9c278e5d1232725ca7634b61cb934caa069298205b67538b4fbc6b41df25444',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
-  ['drag_5fselected_5fzone_11',['DRAG_SELECTED_ZONE',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8cafeb7bc7dce9667c93558a50c3f6c578a',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['drag_5fvelocity_12',['DRAG_VELOCITY',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8ca1ca2b13275c924b4dbb1b68b8ada877e',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
-  ['duplicate_13',['DUPLICATE',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f',1,'scxt::ui::app']]]
+  ['dice_6',['DICE',['../namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100a7136d42c1991b4901fb2ebb10c45ed87',1,'scxt::engine']]],
+  ['discrete_7',['Discrete',['../namespacescxt_1_1undo.html#a1e2dcb765a587926c0533adb33543cbea4984667940802dedc139aa7a430a6553',1,'scxt::undo']]],
+  ['dotted_8',['DOTTED',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#aabdf37f26100066b7ca28c3b2c1e804ca1616c826577ee62e03fd79da3c74d82a',1,'scxt::modulation::modulators::PhasorStorage']]],
+  ['drag_5fkey_9',['DRAG_KEY',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8cad96c3b4f4214e3d8197fa6c324fb1d91',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['drag_5fkey_5fand_5fvel_10',['DRAG_KEY_AND_VEL',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8ca56d0997be1afad847f2a2d73c9ecc15b',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['drag_5fover_11',['DRAG_OVER',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget_1_1rowComponent.html#a2e9c278e5d1232725ca7634b61cb934caa069298205b67538b4fbc6b41df25444',1,'scxt::ui::app::edit_screen::GroupZoneSidebarWidget::rowComponent']]],
+  ['drag_5fselected_5fzone_12',['DRAG_SELECTED_ZONE',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8cafeb7bc7dce9667c93558a50c3f6c578a',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['drag_5fvelocity_13',['DRAG_VELOCITY',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#a3fe1dc281e20599dff9635c050a28b8ca1ca2b13275c924b4dbb1b68b8ada877e',1,'scxt::ui::app::edit_screen::ZoneLayoutDisplay']]],
+  ['duplicate_14',['DUPLICATE',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aa6d0b42a4ceb4a0594120df04371fad5f',1,'scxt::ui::app']]]
 ];

@@ -51,12 +51,13 @@ var searchData=
   ['groupzonesidebarwidget_3c_20sidebarparent_2c_20forzone_20_3e_48',['GroupZoneSidebarWidget&lt; SidebarParent, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html',1,'scxt::ui::app::edit_screen']]],
   ['groupzonesidebarwidget_3c_20t_2c_20forzone_20_3e_49',['GroupZoneSidebarWidget&lt; T, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html',1,'scxt::ui::app::edit_screen']]],
   ['groupzonesidebarwidget_3c_20zonesidebar_2c_20forzone_20_3e_50',['GroupZoneSidebarWidget&lt; ZoneSidebar, forZone &gt;',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarWidget.html',1,'scxt::ui::app::edit_screen']]],
-  ['gtkeyswitchlatch_51',['GTKeyswitchLatch',['../structscxt_1_1engine_1_1GTKeyswitchLatch.html',1,'scxt::engine']]],
-  ['gtkeyswitchmomentary_52',['GTKeyswitchMomentary',['../structscxt_1_1engine_1_1GTKeyswitchMomentary.html',1,'scxt::engine']]],
-  ['gtmacro_53',['GTMacro',['../structscxt_1_1engine_1_1GTMacro.html',1,'scxt::engine']]],
-  ['gtmidi1cc_54',['GTMIDI1CC',['../structscxt_1_1engine_1_1GTMIDI1CC.html',1,'scxt::engine']]],
-  ['gtpitchbend_55',['GTPitchBend',['../structscxt_1_1engine_1_1GTPitchBend.html',1,'scxt::engine']]],
-  ['gtprogramchange_56',['GTProgramChange',['../structscxt_1_1engine_1_1GTProgramChange.html',1,'scxt::engine']]],
-  ['gtroundrobin_57',['GTRoundRobin',['../structscxt_1_1engine_1_1GTRoundRobin.html',1,'scxt::engine']]],
-  ['guid_58',['GUID',['../structscxt_1_1sample_1_1loaders_1_1GUID.html',1,'scxt::sample::loaders']]]
+  ['gtdice_51',['GTDice',['../structscxt_1_1engine_1_1GTDice.html',1,'scxt::engine']]],
+  ['gtkeyswitchlatch_52',['GTKeyswitchLatch',['../structscxt_1_1engine_1_1GTKeyswitchLatch.html',1,'scxt::engine']]],
+  ['gtkeyswitchmomentary_53',['GTKeyswitchMomentary',['../structscxt_1_1engine_1_1GTKeyswitchMomentary.html',1,'scxt::engine']]],
+  ['gtmacro_54',['GTMacro',['../structscxt_1_1engine_1_1GTMacro.html',1,'scxt::engine']]],
+  ['gtmidi1cc_55',['GTMIDI1CC',['../structscxt_1_1engine_1_1GTMIDI1CC.html',1,'scxt::engine']]],
+  ['gtpitchbend_56',['GTPitchBend',['../structscxt_1_1engine_1_1GTPitchBend.html',1,'scxt::engine']]],
+  ['gtprogramchange_57',['GTProgramChange',['../structscxt_1_1engine_1_1GTProgramChange.html',1,'scxt::engine']]],
+  ['gtroundrobin_58',['GTRoundRobin',['../structscxt_1_1engine_1_1GTRoundRobin.html',1,'scxt::engine']]],
+  ['guid_59',['GUID',['../structscxt_1_1sample_1_1loaders_1_1GUID.html',1,'scxt::sample::loaders']]]
 ];
