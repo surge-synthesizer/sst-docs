@@ -8,12 +8,15 @@ var searchData=
   ['on_5fnote_5fon_5',['ON_NOTE_ON',['../namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da2bf36759a2c4498f0f44fd09db37719c',1,'scxt::engine']]],
   ['on_5frelease_6',['ON_RELEASE',['../structscxt_1_1engine_1_1Zone.html#a188092ed559d356ade9a517d60ec3f34a612203253b887081ce8d008feaa45a08',1,'scxt::engine::Zone']]],
   ['one_5fshot_7',['ONE_SHOT',['../namespacescxt_1_1modulation_1_1shared.html#ac23d6cb90a3297dd7f2f99fc355c1523a5bc2964599423c796ecf0aaecdc5be9d',1,'scxt::modulation::shared']]],
-  ['oneshot_8',['oneshot',['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a2724fa87f252403cd2c93f7437f34fd5',1,'scxt::modulation::ModulatorStorage::ONESHOT'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cae875b67b322212bf81da51e697bc4450',1,'scxt::modulation::modulators::AdsrStorage::ONESHOT']]],
+  ['oneshot_8',['oneshot',['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cae875b67b322212bf81da51e697bc4450',1,'scxt::modulation::modulators::AdsrStorage::ONESHOT'],['../structscxt_1_1modulation_1_1ModulatorStorage.html#a22823e777472311df6b822c4393c6127a2724fa87f252403cd2c93f7437f34fd5',1,'scxt::modulation::ModulatorStorage::ONESHOT']]],
   ['only_5fcollect_9',['ONLY_COLLECT',['../namespacescxt_1_1patch__io.html#a3581f6f1928496586a0cac5def142324abfcb04013527a1baf393ee4843c4f56e',1,'scxt::patch_io']]],
   ['opus_5ffile_10',['OPUS_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a839ddadb16cc4ed728d40f1d009df393',1,'scxt::sample::Sample']]],
   ['or_11',['OR',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa1d00e7dce692e8dc3f6877f035e3a616',1,'scxt::engine::GroupTriggerConditions']]],
   ['or_5fnot_12',['OR_NOT',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a4bf3727f5c3c89a9e7d3b88969ce767aa756eaf1e3554bffb0df4a824191577f6',1,'scxt::engine::GroupTriggerConditions']]],
-  ['other_13',['Other',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa6311ae17c1ee52b36e68aaf4ad066387',1,'scxt::import_support']]],
-  ['output_5finfo_14',['output_info',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a9c3719792f2bc8446dd0b9ff2692f983',1,'scxt::messaging::client']]],
-  ['output_5frouting_15',['OUTPUT_ROUTING',['../structscxt_1_1selection_1_1SelectionManager.html#ad013daf9867443d70831a8763cc78107ae5b28f146fd707f82d4156f376c72031',1,'scxt::selection::SelectionManager']]]
+  ['os_5fauto_13',['OS_AUTO',['../structscxt_1_1engine_1_1Group.html#a53b4df794480ad9caf3df166922d951ca6db028d7aa785d3805b37733d1d2a047',1,'scxt::engine::Group']]],
+  ['os_5foff_14',['OS_OFF',['../structscxt_1_1engine_1_1Group.html#a53b4df794480ad9caf3df166922d951ca46e4da94eb0a0d0943a8a9f25424cc1f',1,'scxt::engine::Group']]],
+  ['os_5fon_15',['OS_ON',['../structscxt_1_1engine_1_1Group.html#a53b4df794480ad9caf3df166922d951caef0683dfe0aef2553da9fdaaa4df8cde',1,'scxt::engine::Group']]],
+  ['other_16',['Other',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa6311ae17c1ee52b36e68aaf4ad066387',1,'scxt::import_support']]],
+  ['output_5finfo_17',['output_info',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a9c3719792f2bc8446dd0b9ff2692f983',1,'scxt::messaging::client']]],
+  ['output_5frouting_18',['OUTPUT_ROUTING',['../structscxt_1_1selection_1_1SelectionManager.html#ad013daf9867443d70831a8763cc78107ae5b28f146fd707f82d4156f376c72031',1,'scxt::selection::SelectionManager']]]
 ];

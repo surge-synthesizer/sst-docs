@@ -57,8 +57,8 @@ var searchData=
   ['outputs_54',['outputs',['../structscxt_1_1modulation_1_1modulators_1_1EnvFollower.html#a6ddbb970aaee2c7004bfd0ce105bc21c',1,'scxt::modulation::modulators::EnvFollower::outputs'],['../structscxt_1_1modulation_1_1modulators_1_1PhasorEvaluator.html#abd479728d9b96c39bb342fcdd5f8b053',1,'scxt::modulation::modulators::PhasorEvaluator::outputs'],['../structscxt_1_1modulation_1_1modulators_1_1RandomEvaluator.html#a627d136fe663061e8c1668474b63dcdf',1,'scxt::modulation::modulators::RandomEvaluator::outputs']]],
   ['outputtarget_55',['outputtarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#af795370668a75b4baebe169ced822bb6',1,'scxt::modulation::GroupMatrixEndpoints::outputTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a3822aad28619013dfbd61bee9a2f5c97',1,'scxt::voice::modulation::MatrixEndpoints::outputTarget']]],
   ['overran_56',['overran',['../structscxt_1_1exs__support_1_1EXSObject.html#a9af815d6fdf60559dd0aa247b267298a',1,'scxt::exs_support::EXSObject']]],
-  ['oversample_57',['oversample',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a56598faac024018f8fa0fc5de91b7a48',1,'scxt::engine::Group::GroupOutputInfo']]],
-  ['oversampleattachment_58',['oversampleAttachment',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#aba5478c33467ac50344f7454ea67025c',1,'scxt::ui::app::edit_screen::RoutingPane']]],
+  ['oversample_57',['oversample',['../structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#ae39885c5c87cadd63ae62b7fadd8d56e',1,'scxt::engine::Group::GroupOutputInfo']]],
+  ['oversamplebutton_58',['oversampleButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPane.html#a93b172dfe1d728ee61394e3e68283057',1,'scxt::ui::app::edit_screen::RoutingPane']]],
   ['oversamplingratio_59',['oversamplingRatio',['../structscxt_1_1dsp_1_1processor_1_1SCXTVFXConfig.html#a86f9b03ad065a470b1bd6972d77bacf1',1,'scxt::dsp::processor::SCXTVFXConfig']]],
   ['owner_60',['owner',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents_1_1SvgPaths.html#a26a2f75e8322a5d471ad9ddfdf0c522a',1,'scxt::ui::app::edit_screen::RoutingPaneContents::SvgPaths']]]
 ];
