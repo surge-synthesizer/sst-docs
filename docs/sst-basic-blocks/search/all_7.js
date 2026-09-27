@@ -7,7 +7,7 @@ var searchData=
   ['hamming_4',['hamming',['../namespacesst_1_1basic__blocks_1_1dsp.html#a2566f8fa1d6497e68b83c1fd9c0541b4',1,'sst::basic_blocks::dsp']]],
   ['hann_5fwindow_5',['HANN_WINDOW',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a6e97b419d7e25fe8157c7c474d5d8501ab2d07fff6f49b86d1b0599cb5791739b',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]],
   ['hanning_6',['hanning',['../namespacesst_1_1basic__blocks_1_1dsp.html#ae610fee143a88186da01794ffccd5015',1,'sst::basic_blocks::dsp']]],
-  ['hardclip_5fblock_7',['hardclip_block',['../namespacesst_1_1basic__blocks_1_1dsp.html#a2e5196b329f27f3519b15887ac9dd80e',1,'sst::basic_blocks::dsp']]],
+  ['hardclip_5fblock_7',['hardclip_block',['../namespacesst_1_1basic__blocks_1_1dsp.html#a80c37ac472be0d7545f74526e2444096',1,'sst::basic_blocks::dsp']]],
   ['hardclip_5fblock8_8',['hardclip_block8',['../namespacesst_1_1basic__blocks_1_1dsp.html#a7305bcfdb6f21d7c66daa28a52d499b6',1,'sst::basic_blocks::dsp']]],
   ['has_5fmember_9',['HAS_MEMBER',['../ModMatrixDetails_8h.html#a228a353244b460a16a685dd587c92261',1,'ModMatrixDetails.h']]],
   ['has_5foperator_5fequal_10',['has_operator_equal',['../structsst_1_1basic__blocks_1_1mod__matrix_1_1details_1_1has__operator__equal.html',1,'sst::basic_blocks::mod_matrix::details']]],
