@@ -166,8 +166,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6611e51e6f2818a86700458ef3cf6448" id="r_a6611e51e6f2818a86700458ef3cf6448"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a6611e51e6f2818a86700458ef3cf6448">getFadeGainToAmp</a> (float g)</td></tr>
-<tr class="separator:a6611e51e6f2818a86700458ef3cf6448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af05c9423ad1e42735cd1f8cdc57528a1" id="r_af05c9423ad1e42735cd1f8cdc57528a1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#af05c9423ad1e42735cd1f8cdc57528a1">NormalizeSampleToF32</a> (float val)</td></tr>
 <tr class="separator:af05c9423ad1e42735cd1f8cdc57528a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3598451cfb5d95d1ce4022d4f5808c9f" id="r_a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3598451cfb5d95d1ce4022d4f5808c9f">NormalizeSampleToF32</a> (int16_t val)</td></tr>
@@ -191,6 +189,10 @@ Functions</h2></td></tr>
 <tr class="separator:a998f507091d79d4cbe29e986357ea1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d4d1a3731ace4a8623ff9076b7c8ed1" id="r_a3d4d1a3731ace4a8623ff9076b7c8ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3d4d1a3731ace4a8623ff9076b7c8ed1">fromStringInterpolationTypes</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a3d4d1a3731ace4a8623ff9076b7c8ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc895ea3d683ec5aeb728b356456c73" id="r_a3cc895ea3d683ec5aeb728b356456c73"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve</a> (float curve)</td></tr>
+<tr class="separator:a3cc895ea3d683ec5aeb728b356456c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919e21d9b1c2270a65c28dd637f0334e" id="r_a919e21d9b1c2270a65c28dd637f0334e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">getFadeGainToAmp</a> (float g, float t)</td></tr>
+<tr class="separator:a919e21d9b1c2270a65c28dd637f0334e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d334a67e333483f2ba4de784f068466" id="r_a1d334a67e333483f2ba4de784f068466"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade</a> (int64_t loopFade, int64_t startSample, int64_t startLoop, int64_t endLoop)</td></tr>
 <tr class="separator:a1d334a67e333483f2ba4de784f068466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba6d24b5770629c5a5a2f2288676ecd" id="r_acba6d24b5770629c5a5a2f2288676ecd"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int32_t, int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead</a> (int32_t pos, int32_t subPos, int32_t bound)</td></tr>
@@ -218,6 +220,12 @@ Variables</h2></td></tr>
 <tr class="separator:a7d03ca06c0a42deca076884b7a9e8f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8528154080fa8336d1e157ec4cd16305" id="r_a8528154080fa8336d1e157ec4cd16305"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a8528154080fa8336d1e157ec4cd16305">I16InvScale_m128</a> = SIMD_MM(set1_ps)(<a class="el" href="namespacescxt_1_1dsp.html#a662597a0cb8a7cb5acd4c6948f23fbc4">I16InvScale</a>)</td></tr>
 <tr class="separator:a8528154080fa8336d1e157ec4cd16305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dd989f12b0ec3a17a286cc01608f4b4" id="r_a7dd989f12b0ec3a17a286cc01608f4b4"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a7dd989f12b0ec3a17a286cc01608f4b4">loopCurveEqualPowerT</a> {1.2426407f}</td></tr>
+<tr class="separator:a7dd989f12b0ec3a17a286cc01608f4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d115874508f1f19831681bf385cf82" id="r_a48d115874508f1f19831681bf385cf82"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a48d115874508f1f19831681bf385cf82">loopCurveMax</a> {1.5f}</td></tr>
+<tr class="separator:a48d115874508f1f19831681bf385cf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693ed17593f6c7c3703be8bf052c1ed6" id="r_a693ed17593f6c7c3703be8bf052c1ed6"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a693ed17593f6c7c3703be8bf052c1ed6">loopCurveLegacy</a> {0.80473785f}</td></tr>
+<tr class="separator:a693ed17593f6c7c3703be8bf052c1ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ac37d62d8ef7d4f366424ed181ce014b1" name="ac37d62d8ef7d4f366424ed181ce014b1"></a>
@@ -354,26 +362,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6611e51e6f2818a86700458ef3cf6448" name="a6611e51e6f2818a86700458ef3cf6448"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6611e51e6f2818a86700458ef3cf6448">&#9670;&#160;</a></span>getFadeGainToAmp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float getFadeGainToAmp </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>.</p>
-
-</div>
-</div>
 <a id="af05c9423ad1e42735cd1f8cdc57528a1" name="af05c9423ad1e42735cd1f8cdc57528a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af05c9423ad1e42735cd1f8cdc57528a1">&#9670;&#160;</a></span>NormalizeSampleToF32() <span class="overload">[1/2]</span></h2>
 
@@ -558,7 +546,7 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a23f12a4285ce6211ceed10526acd77fe">fromLoopValue()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a6611e51e6f2818a86700458ef3cf6448">getFadeGainToAmp()</a>, <a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>, <a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3439075be021dee979fb4a93dcf8d308">loopEndIndex()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead()</a>, <a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a23f12a4285ce6211ceed10526acd77fe">fromLoopValue()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">getFadeGainToAmp()</a>, <a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>, <a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3439075be021dee979fb4a93dcf8d308">loopEndIndex()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead()</a>, <a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
 
 </div>
 </div>
@@ -743,6 +731,58 @@ template&lt;int compoundConfig&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>.</p>
+
+</div>
+</div>
+<a id="a3cc895ea3d683ec5aeb728b356456c73" name="a3cc895ea3d683ec5aeb728b356456c73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc895ea3d683ec5aeb728b356456c73">&#9670;&#160;</a></span>fadeTFromCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float fadeTFromCurve </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>curve</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a7dd989f12b0ec3a17a286cc01608f4b4">loopCurveEqualPowerT</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a48d115874508f1f19831681bf385cf82">loopCurveMax</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>.</p>
+
+</div>
+</div>
+<a id="a919e21d9b1c2270a65c28dd637f0334e" name="a919e21d9b1c2270a65c28dd637f0334e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919e21d9b1c2270a65c28dd637f0334e">&#9670;&#160;</a></span>getFadeGainToAmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float getFadeGainToAmp </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>.</p>
 
 </div>
 </div>
@@ -995,10 +1035,80 @@ template&lt;int compoundConfig&gt; </div>
 
 </div>
 </div>
+<a id="a7dd989f12b0ec3a17a286cc01608f4b4" name="a7dd989f12b0ec3a17a286cc01608f4b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dd989f12b0ec3a17a286cc01608f4b4">&#9670;&#160;</a></span>loopCurveEqualPowerT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float loopCurveEqualPowerT {1.2426407f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>.</p>
+
+</div>
+</div>
+<a id="a48d115874508f1f19831681bf385cf82" name="a48d115874508f1f19831681bf385cf82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d115874508f1f19831681bf385cf82">&#9670;&#160;</a></span>loopCurveMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float loopCurveMax {1.5f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>.</p>
+
+</div>
+</div>
+<a id="a693ed17593f6c7c3703be8bf052c1ed6" name="a693ed17593f6c7c3703be8bf052c1ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a693ed17593f6c7c3703be8bf052c1ed6">&#9670;&#160;</a></span>loopCurveLegacy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float loopCurveLegacy {0.80473785f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 22 2026 15:45:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Sep 27 2026 23:33:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

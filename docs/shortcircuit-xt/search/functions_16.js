@@ -9,7 +9,7 @@ var searchData=
   ['welcomescreen_6',['WelcomeScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1WelcomeScreen.html#ae7e8a456383574cb46746b85036f2be9',1,'scxt::ui::app::other_screens::WelcomeScreen']]],
   ['whichprocessorfptarget_7',['whichProcessorFPTarget',['../structscxt_1_1modulation_1_1shared_1_1TargetIdentifier.html#aba6dd774f01a9e0c72067e1ad7c5f448',1,'scxt::modulation::shared::TargetIdentifier']]],
   ['wireerrorreporter_8',['wireErrorReporter',['../structscxt_1_1ui_1_1app_1_1HasEditor.html#a6efe5ac561e9fda9520afc601d080481',1,'scxt::ui::app::HasEditor']]],
-  ['withdefault_9',['withDefault',['../modulator__storage_8h.html#a294cfc323e3296dbe4e1ea31a37631cb',1,'modulator_storage.h']]],
+  ['withdefault_9',['withdefault',['../modulator__storage_8h.html#a294cfc323e3296dbe4e1ea31a37631cb',1,'withDefault(0) .withLinearScaleFormatting(&quot;&quot;) .withQuantizedInterval(0.25f) .withName(&quot;Deform&quot;)):&#160;modulator_storage.h'],['../zone_8h.html#a3f98313634cda6d06d86814674f57c22',1,'withDefault(1.f) .withName(&quot;Loop Crossfade Curve&quot;)):&#160;zone.h']]],
   ['withlinearscaleformatting_10',['withLinearScaleFormatting',['../zone_8h.html#ac3adb20682e148662d5ff541db971ea6',1,'zone.h']]],
   ['withname_11',['withName',['../zone_8h.html#a1c88d68c3940704476eeb1c6c61c40b2',1,'zone.h']]],
   ['withtype_12',['withType',['../modulator__storage_8h.html#a62f7d27059f9d7d3f77bf19cd2f4c41d',1,'modulator_storage.h']]],
