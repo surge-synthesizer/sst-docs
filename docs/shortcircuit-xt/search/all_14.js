@@ -61,7 +61,7 @@ var searchData=
   ['updatefromvalues_58',['updatefromvalues',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::AudioPane::updateFromValues()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::MiscPanel::updateFromValues()']]],
   ['updateglide_59',['updateGlide',['../structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25',1,'scxt::voice::Voice']]],
   ['updategroupindexedmembervalue_60',['updateGroupIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a1b9ff29e9942cf37858d4493ae588114',1,'scxt::messaging::client::detail']]],
-  ['updategroupmembervalue_61',['updateGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a3d547d2fd6c200e6335728c05eae8436',1,'scxt::messaging::client::detail']]],
+  ['updategroupmembervalue_61',['updateGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a82921a7e364ecf8137f0eb24be536329',1,'scxt::messaging::client::detail']]],
   ['updategrouproutingrowpayload_5ft_62',['updateGroupRoutingRowPayload_t',['../namespacescxt_1_1messaging_1_1client.html#af70858f5691444538db005687b8eeb10',1,'scxt::messaging::client']]],
   ['updatemacrofullstate_63',['updateMacroFullState',['../namespacescxt_1_1messaging_1_1client.html#a0274147efa2ca1cbe4674b638abe2441',1,'scxt::messaging::client']]],
   ['updatemacrofullstateapply_64',['updateMacroFullStateApply',['../namespacescxt_1_1messaging_1_1client.html#ae33ffc40984ae3739c5ef4b42c84bfb3',1,'scxt::messaging::client']]],

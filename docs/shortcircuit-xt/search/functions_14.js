@@ -25,7 +25,7 @@ var searchData=
   ['updatefromvalues_22',['updatefromvalues',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::MiscPanel::updateFromValues()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1AudioPane.html#a4b8bc3b9107b9e912adfe2e34dbe6d90',1,'scxt::ui::app::edit_screen::AudioPane::updateFromValues()']]],
   ['updateglide_23',['updateGlide',['../structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25',1,'scxt::voice::Voice']]],
   ['updategroupindexedmembervalue_24',['updateGroupIndexedMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a1b9ff29e9942cf37858d4493ae588114',1,'scxt::messaging::client::detail']]],
-  ['updategroupmembervalue_25',['updateGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a3d547d2fd6c200e6335728c05eae8436',1,'scxt::messaging::client::detail']]],
+  ['updategroupmembervalue_25',['updateGroupMemberValue',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a82921a7e364ecf8137f0eb24be536329',1,'scxt::messaging::client::detail']]],
   ['updatemacrofullstate_26',['updateMacroFullState',['../namespacescxt_1_1messaging_1_1client.html#a0274147efa2ca1cbe4674b638abe2441',1,'scxt::messaging::client']]],
   ['updatemacrofullstateapply_27',['updateMacroFullStateApply',['../namespacescxt_1_1messaging_1_1client.html#ae33ffc40984ae3739c5ef4b42c84bfb3',1,'scxt::messaging::client']]],
   ['updatemacrovalue_28',['updateMacroValue',['../namespacescxt_1_1messaging_1_1client.html#a47692727344d061b44bf3e264c20435f',1,'scxt::messaging::client']]],

@@ -108,6 +108,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a42713074fb3a8d7a494d2ac7c569ee61" id="r_a42713074fb3a8d7a494d2ac7c569ee61"><td class="memTemplParams" colspan="2">template&lt;typename VT &gt; </td></tr>
 <tr class="memitem:a42713074fb3a8d7a494d2ac7c569ee61"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a> = std::tuple&lt; ptrdiff_t, VT &gt;</td></tr>
 <tr class="separator:a42713074fb3a8d7a494d2ac7c569ee61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940bb0ed46290d8708386195855e2fda" id="r_a940bb0ed46290d8708386195855e2fda"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a940bb0ed46290d8708386195855e2fda">groupAfterPoke_t</a> = void(*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Group.html">engine::Group</a> &amp;, ptrdiff_t, size_t)</td></tr>
+<tr class="separator:a940bb0ed46290d8708386195855e2fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3dbd1e7cb619206dd7bbd0c6f380503" id="r_ab3dbd1e7cb619206dd7bbd0c6f380503"><td class="memTemplParams" colspan="2">template&lt;typename VT &gt; </td></tr>
 <tr class="memitem:ab3dbd1e7cb619206dd7bbd0c6f380503"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab3dbd1e7cb619206dd7bbd0c6f380503">zoneOrGroupDiffMsg_t</a> = std::tuple&lt; bool, ptrdiff_t, VT &gt;</td></tr>
 <tr class="separator:ab3dbd1e7cb619206dd7bbd0c6f380503"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,9 +143,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ab4a348661486cb350c786f5e3f858dd9" id="r_ab4a348661486cb350c786f5e3f858dd9"><td class="memTemplParams" colspan="2">template&lt;typename Spec , typename VT , typename M &gt; </td></tr>
 <tr class="memitem:ab4a348661486cb350c786f5e3f858dd9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab4a348661486cb350c786f5e3f858dd9">updateZoneMemberValueGated</a> (M m, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a>&lt; VT &gt; &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, bool(*crosses)(ptrdiff_t, size_t), std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr)</td></tr>
 <tr class="separator:ab4a348661486cb350c786f5e3f858dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d547d2fd6c200e6335728c05eae8436" id="r_a3d547d2fd6c200e6335728c05eae8436"><td class="memTemplParams" colspan="2">template&lt;typename Spec , typename VT , typename M &gt; </td></tr>
-<tr class="memitem:a3d547d2fd6c200e6335728c05eae8436"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a3d547d2fd6c200e6335728c05eae8436">updateGroupMemberValue</a> (M m, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a>&lt; VT &gt; &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr)</td></tr>
-<tr class="separator:a3d547d2fd6c200e6335728c05eae8436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289e60cfc8c5cfd450e5fbe1ace949fe" id="r_a289e60cfc8c5cfd450e5fbe1ace949fe"><td class="memTemplParams" colspan="2">template&lt;typename VT , typename G , typename DAT &gt; </td></tr>
+<tr class="memitem:a289e60cfc8c5cfd450e5fbe1ace949fe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a289e60cfc8c5cfd450e5fbe1ace949fe">pokeGroupMemberValue</a> (G &amp;grp, DAT &amp;dat, ptrdiff_t d, VT v)</td></tr>
+<tr class="separator:a289e60cfc8c5cfd450e5fbe1ace949fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82921a7e364ecf8137f0eb24be536329" id="r_a82921a7e364ecf8137f0eb24be536329"><td class="memTemplParams" colspan="2">template&lt;typename Spec , typename VT , typename M &gt; </td></tr>
+<tr class="memitem:a82921a7e364ecf8137f0eb24be536329"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a82921a7e364ecf8137f0eb24be536329">updateGroupMemberValue</a> (M m, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a>&lt; VT &gt; &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr, <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a940bb0ed46290d8708386195855e2fda">groupAfterPoke_t</a> afterPoke=nullptr)</td></tr>
+<tr class="separator:a82921a7e364ecf8137f0eb24be536329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac587c0d3c23744bb11e0b5a33355dc4a" id="r_ac587c0d3c23744bb11e0b5a33355dc4a"><td class="memTemplParams" colspan="2">template&lt;typename ZSpec , typename GSpec , typename VT , typename MZ , typename MG &gt; </td></tr>
 <tr class="memitem:ac587c0d3c23744bb11e0b5a33355dc4a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ac587c0d3c23744bb11e0b5a33355dc4a">updateZoneOrGroupMemberValue</a> (MZ mz, MG mg, const <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#ab3dbd1e7cb619206dd7bbd0c6f380503">zoneOrGroupDiffMsg_t</a>&lt; VT &gt; &amp;payload, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#aa43980f69e7c0e9e2d54a64a453ff231">engine</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a> &amp;<a class="el" href="namespacescxt_1_1messaging_1_1client.html#a1374e5e28753287da05dc6300e15c072">cont</a>, std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt; responseCB=nullptr, std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt; onZoneEngineExtra=nullptr, std::function&lt; void(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, const <a class="el" href="structscxt_1_1selection_1_1SelectionManager.html#a021ed9ebefe1a4392cfe832bff1e9e09">selection::SelectionManager::selectedZones_t</a> &amp;)&gt; onGroupEngineExtra=nullptr)</td></tr>
 <tr class="separator:ac587c0d3c23744bb11e0b5a33355dc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,6 +187,20 @@ template&lt;typename VT &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a42713074fb3a8d7a494d2ac7c569ee61">diffMsg_t</a> =  std::tuple&lt;ptrdiff_t, VT&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a940bb0ed46290d8708386195855e2fda" name="a940bb0ed46290d8708386195855e2fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a940bb0ed46290d8708386195855e2fda">&#9670;&#160;</a></span>groupAfterPoke_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a940bb0ed46290d8708386195855e2fda">groupAfterPoke_t</a> =  void (*)(<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Group.html">engine::Group</a> &amp;, ptrdiff_t, size_t)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -545,8 +564,50 @@ template&lt;typename Spec , typename VT , typename M &gt; </div>
 
 </div>
 </div>
-<a id="a3d547d2fd6c200e6335728c05eae8436" name="a3d547d2fd6c200e6335728c05eae8436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d547d2fd6c200e6335728c05eae8436">&#9670;&#160;</a></span>updateGroupMemberValue()</h2>
+<a id="a289e60cfc8c5cfd450e5fbe1ace949fe" name="a289e60cfc8c5cfd450e5fbe1ace949fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289e60cfc8c5cfd450e5fbe1ace949fe">&#9670;&#160;</a></span>pokeGroupMemberValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VT , typename G , typename DAT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void pokeGroupMemberValue </td>
+          <td>(</td>
+          <td class="paramtype">G &amp;&#160;</td>
+          <td class="paramname"><em>grp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DAT &amp;&#160;</td>
+          <td class="paramname"><em>dat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VT&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82921a7e364ecf8137f0eb24be536329" name="a82921a7e364ecf8137f0eb24be536329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82921a7e364ecf8137f0eb24be536329">&#9670;&#160;</a></span>updateGroupMemberValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -581,7 +642,13 @@ template&lt;typename Spec , typename VT , typename M &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::function&lt; void(const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)&gt;&#160;</td>
-          <td class="paramname"><em>responseCB</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>responseCB</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1messaging_1_1client_1_1detail.html#a940bb0ed46290d8708386195855e2fda">groupAfterPoke_t</a>&#160;</td>
+          <td class="paramname"><em>afterPoke</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -846,7 +913,7 @@ template&lt;typename ZSpec , typename GSpec , typename VT , typename MZ , typena
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 28 2026 20:57:07 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 28 2026 23:03:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
