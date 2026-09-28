@@ -153,7 +153,7 @@ var searchData=
   ['setmacromode_150',['setMacroMode',['../structscxt_1_1ui_1_1app_1_1shared_1_1SingleMacroEditor.html#a1daf1408cc08c366793e05ce1490222a',1,'scxt::ui::app::shared::SingleMacroEditor']]],
   ['setmappingdata_151',['setMappingData',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#a888a400649265df533b61b8124b1ae43',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane']]],
   ['setmappinglockfrommodel_152',['setMappingLockFromModel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MacroMappingVariantPane.html#a0c15f64d618b9e38efaf1c613b72d9ab',1,'scxt::ui::app::edit_screen::MacroMappingVariantPane']]],
-  ['setmemusage_153',['setMemUsage',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a08f341ce737eca844ed73426c8ef5bbc',1,'scxt::ui::app::shared::HeaderRegion']]],
+  ['setmemusage_153',['setMemUsage',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a0cbab2b48540b83a293c1d8b20687a7d',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['setmessage_154',['setMessage',['../structscxt_1_1ui_1_1app_1_1shared_1_1ActivityDisplay.html#a4d4cc0e6b4d987fc1e650e42c99a3921',1,'scxt::ui::app::shared::ActivityDisplay']]],
   ['setmeta_155',['SetMeta',['../structscxt_1_1sample_1_1Sample.html#ab827e3b125372d4d5b8be35f81a5f16d',1,'scxt::sample::Sample']]],
   ['setmidi1cc_156',['setMIDI1CC',['../structscxt_1_1engine_1_1Engine_1_1MonoVoiceManagerResponder.html#a0d69fbe809e7113181edf1d620317db3',1,'scxt::engine::Engine::MonoVoiceManagerResponder']]],

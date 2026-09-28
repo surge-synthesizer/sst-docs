@@ -4,7 +4,7 @@ var searchData=
   ['raiseerror_1',['raiseError',['../structscxt_1_1sample_1_1SampleManager.html#a3fb057048722afdb06a3ba3deede24b4',1,'scxt::sample::SampleManager']]],
   ['ramlabel_2',['ramLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#a50272caa5c41814266e845fefb33972c',1,'scxt::ui::app::shared::HeaderRegion']]],
   ['ramlevel_3',['ramLevel',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html#ae001ea2bc1dc2dbcd28cefaaa46fd2cb',1,'scxt::ui::app::shared::HeaderRegion']]],
-  ['ramusage_4',['ramUsage',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a4e9134df73f141cceebc93adfcd24e7b',1,'scxt::engine::Engine::SharedUIMemoryState']]],
+  ['ramusage_4',['ramUsage',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a53a89ea2223b94a1d272c4eaf4743c3a',1,'scxt::engine::Engine::SharedUIMemoryState']]],
   ['randomabcs_5',['randomABCs',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#ad9f474e64837f4011f73cf1df6f0a2f2',1,'scxt::ui::app::edit_screen::MiscPanel']]],
   ['randomevaluator_6',['randomEvaluator',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a14d9d9b91ca19317c7ee3e78cd0dcb0e',1,'scxt::modulation::shared::HasModulators']]],
   ['randommodebuttons_7',['randomModeButtons',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#ae70d2ff4d8af61b769c649a404427579',1,'scxt::ui::app::edit_screen::MiscPanel']]],
