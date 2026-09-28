@@ -17,8 +17,9 @@ var searchData=
   ['bp24_14',['BP24',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa85c2032881e1ea801fe940671648bd53',1,'scxt::import_support']]],
   ['bp6_15',['BP6',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fa3c92b737d8192b22da0b2854a916ff2b',1,'scxt::import_support']]],
   ['brightness_16',['BRIGHTNESS',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a3a8a0aeb55d2886191dee8a5e0d07cc9',1,'scxt::voice::Voice']]],
-  ['browserautopreviewenabled_17',['browserAutoPreviewEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4afc43963602ac63f719e0109c2f533576',1,'scxt::infrastructure']]],
-  ['browserpreviewamplitude_18',['browserPreviewAmplitude',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a01c973f9a6e10581872a3d6f1d436f5a',1,'scxt::infrastructure']]],
-  ['bus_5feffect_19',['bus_effect',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a78f9eb716a47219f61b1eb6e931f365c',1,'scxt::messaging::client']]],
-  ['bus_5fsend_20',['bus_send',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a272af27cf73aa56db49aff0db0dc55b6',1,'scxt::messaging::client']]]
+  ['browserautoloadenabled_17',['browserAutoLoadEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a4c614190e7ec89a99d8cd544bdec82bf',1,'scxt::infrastructure']]],
+  ['browserautopreviewenabled_18',['browserAutoPreviewEnabled',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4afc43963602ac63f719e0109c2f533576',1,'scxt::infrastructure']]],
+  ['browserpreviewamplitude_19',['browserPreviewAmplitude',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a01c973f9a6e10581872a3d6f1d436f5a',1,'scxt::infrastructure']]],
+  ['bus_5feffect_20',['bus_effect',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a78f9eb716a47219f61b1eb6e931f365c',1,'scxt::messaging::client']]],
+  ['bus_5fsend_21',['bus_send',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a272af27cf73aa56db49aff0db0dc55b6',1,'scxt::messaging::client']]]
 ];
