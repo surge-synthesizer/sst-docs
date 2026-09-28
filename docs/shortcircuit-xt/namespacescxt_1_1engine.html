@@ -120,6 +120,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Clipboard.html">Clipboard</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1DropGeometry.html">DropGeometry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The drop gesture, in units the mapping editor has already resolved from pixels, so the layout the drop produces can be reasoned about without a UI.  <a href="structscxt_1_1engine_1_1DropGeometry.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1DropRange.html">DropRange</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Where one dropped sample lands: its root note and the keyboard and velocity span of the zone it creates.  <a href="structscxt_1_1engine_1_1DropRange.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html">Engine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a></td></tr>
@@ -291,6 +297,15 @@ Functions</h2></td></tr>
 <tr class="separator:aef804bb90404db2eb7348e10431e27d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec493ce6a0213af84d4b7d617b3e8522" id="r_aec493ce6a0213af84d4b7d617b3e8522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54">AvailableBusEffects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aec493ce6a0213af84d4b7d617b3e8522">fromStringAvailableBusEffects</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:aec493ce6a0213af84d4b7d617b3e8522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4db09f098755346ecb6d7aca4a909e1" id="r_aa4db09f098755346ecb6d7aca4a909e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#aa4db09f098755346ecb6d7aca4a909e1">isFitToKeyboardAt</a> (float fromTop)</td></tr>
+<tr class="memdesc:aa4db09f098755346ecb6d7aca4a909e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">At the top of the pull a zone that will not fit slides its start down rather than being truncated, so a single sample can be dragged to fill the keyboard.  <br /></td></tr>
+<tr class="separator:aa4db09f098755346ecb6d7aca4a909e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42349c8c5e16f1bd5a2eb67a6ab82f56" id="r_a42349c8c5e16f1bd5a2eb67a6ab82f56"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a42349c8c5e16f1bd5a2eb67a6ab82f56">zoneSpanAt</a> (float fromTop)</td></tr>
+<tr class="memdesc:a42349c8c5e16f1bd5a2eb67a6ab82f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semitones a zone spans at this point in the pull.  <br /></td></tr>
+<tr class="separator:a42349c8c5e16f1bd5a2eb67a6ab82f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd37dc92986899ff01bb81d127b0b17" id="r_a7fd37dc92986899ff01bb81d127b0b17"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1DropRange.html">DropRange</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a7fd37dc92986899ff01bb81d127b0b17">dropRangesFor</a> (const <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html">DropGeometry</a> &amp;)</td></tr>
+<tr class="memdesc:a7fd37dc92986899ff01bb81d127b0b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">One range per dropped element, in drop order.  <br /></td></tr>
+<tr class="separator:a7fd37dc92986899ff01bb81d127b0b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a953a87c1f2d571853bac7926eb67fd6f" id="r_a953a87c1f2d571853bac7926eb67fd6f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a953a87c1f2d571853bac7926eb67fd6f">toStringGroupTriggerID</a> (const <a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a> &amp;p)</td></tr>
 <tr class="separator:a953a87c1f2d571853bac7926eb67fd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a861773719d557bfe222f7672c3aee61a" id="r_a861773719d557bfe222f7672c3aee61a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#a99904f2c6e1ed9d61e6f170de982c100">GroupTriggerID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine.html#a861773719d557bfe222f7672c3aee61a">fromStringGroupTriggerID</a> (const std::string &amp;s)</td></tr>
@@ -1014,6 +1029,76 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa4db09f098755346ecb6d7aca4a909e1" name="aa4db09f098755346ecb6d7aca4a909e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4db09f098755346ecb6d7aca4a909e1">&#9670;&#160;</a></span>isFitToKeyboardAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isFitToKeyboardAt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fromTop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>At the top of the pull a zone that will not fit slides its start down rather than being truncated, so a single sample can be dragged to fill the keyboard. </p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1engine.html#a7fd37dc92986899ff01bb81d127b0b17">dropRangesFor()</a>.</p>
+
+</div>
+</div>
+<a id="a42349c8c5e16f1bd5a2eb67a6ab82f56" name="a42349c8c5e16f1bd5a2eb67a6ab82f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42349c8c5e16f1bd5a2eb67a6ab82f56">&#9670;&#160;</a></span>zoneSpanAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t zoneSpanAt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fromTop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Semitones a zone spans at this point in the pull. </p>
+<p>The first 70% runs 0 to 24 evenly; the rest climbs in octaves to a span that fills the keyboard. </p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1engine.html#a7fd37dc92986899ff01bb81d127b0b17">dropRangesFor()</a>.</p>
+
+</div>
+</div>
+<a id="a7fd37dc92986899ff01bb81d127b0b17" name="a7fd37dc92986899ff01bb81d127b0b17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd37dc92986899ff01bb81d127b0b17">&#9670;&#160;</a></span>dropRangesFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1DropRange.html">DropRange</a> &gt; dropRangesFor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html">DropGeometry</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One range per dropped element, in drop order. </p>
+<p>Always at least one entry, and exactly nElements of them except when the gesture collapses them to a single shared range. </p>
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#a87316d97a0e2fc8a7b0d914d5395172f">DropGeometry::alt</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#acf10fced6ab32d44fa8e86587e9b51d0">DropGeometry::fromTop</a>, <a class="el" href="gig__import_8cpp.html#a53e4061991bce5bb55e85597bf35e58e">hi</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#acd802e00cd536cdef499faff463a8faa">DropGeometry::inLowerKeyboardHalf</a>, <a class="el" href="namespacescxt_1_1engine.html#aa4db09f098755346ecb6d7aca4a909e1">isFitToKeyboardAt()</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#aedd134edb70b7a7b06b1c7f52a264a7d">DropGeometry::isMappedInstrument</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#a9e60f7e5c00e815956cba211ba45d2f3">DropGeometry::key</a>, <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#aff1e2eb2a7fd460383c454526ce98633">DropGeometry::nElements</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#a9870e677abd91d9cb6d0ea214f9c0ac0">DropGeometry::overKeyboard</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#ace78b37abb3d96740735fd8eb41235e6">DropGeometry::shift</a>, <a class="el" href="structscxt_1_1engine_1_1DropGeometry.html#a32e16dd7a1303630dac95106a44df057">DropGeometry::velocityBend</a>, and <a class="el" href="namespacescxt_1_1engine.html#a42349c8c5e16f1bd5a2eb67a6ab82f56">zoneSpanAt()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneLayoutDisplay.html#ae76d7abd453f5aefee8de5cdee7f6e29">ZoneLayoutDisplay::rootAndRangeForPosition()</a>.</p>
+
+</div>
+</div>
 <a id="a953a87c1f2d571853bac7926eb67fd6f" name="a953a87c1f2d571853bac7926eb67fd6f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a953a87c1f2d571853bac7926eb67fd6f">&#9670;&#160;</a></span>toStringGroupTriggerID()</h2>
 
@@ -1378,7 +1463,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:33:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Sep 28 2026 01:09:10 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

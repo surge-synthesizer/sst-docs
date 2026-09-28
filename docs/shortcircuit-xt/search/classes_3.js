@@ -18,5 +18,7 @@ var searchData=
   ['drivearearow_15',['DriveAreaRow',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveArea_1_1DriveAreaRow.html',1,'scxt::ui::app::browser_ui::DriveArea']]],
   ['drivefsarea_16',['DriveFSArea',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html',1,'scxt::ui::app::browser_ui']]],
   ['drivefsrowcomponent_17',['DriveFSRowComponent',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSRowComponent.html',1,'scxt::ui::app::browser_ui']]],
-  ['dummycontinuous_18',['DummyContinuous',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html',1,'scxt::ui::connectors']]]
+  ['dropgeometry_18',['DropGeometry',['../structscxt_1_1engine_1_1DropGeometry.html',1,'scxt::engine']]],
+  ['droprange_19',['DropRange',['../structscxt_1_1engine_1_1DropRange.html',1,'scxt::engine']]],
+  ['dummycontinuous_20',['DummyContinuous',['../structscxt_1_1ui_1_1connectors_1_1DummyContinuous.html',1,'scxt::ui::connectors']]]
 ];

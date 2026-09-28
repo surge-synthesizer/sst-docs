@@ -6,5 +6,7 @@ var searchData=
   ['debug_5fmessages_2eh_3',['debug_messages.h',['../debug__messages_8h.html',1,'']]],
   ['definition_5fhelpers_2eh_4',['definition_helpers.h',['../definition__helpers_8h.html',1,'']]],
   ['diff_5fperf_2epy_5',['diff_perf.py',['../diff__perf_8py.html',1,'']]],
-  ['dsp_5ftraits_2eh_6',['dsp_traits.h',['../dsp__traits_8h.html',1,'']]]
+  ['drop_5fmapping_2ecpp_6',['drop_mapping.cpp',['../drop__mapping_8cpp.html',1,'']]],
+  ['drop_5fmapping_2eh_7',['drop_mapping.h',['../drop__mapping_8h.html',1,'']]],
+  ['dsp_5ftraits_2eh_8',['dsp_traits.h',['../dsp__traits_8h.html',1,'']]]
 ];

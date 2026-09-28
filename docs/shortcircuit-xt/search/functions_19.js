@@ -19,5 +19,6 @@ var searchData=
   ['zoneparammods_16',['zoneParamMods',['../namespacescxt_1_1sfz__support.html#a40797040e89ebcd7c80fe7316c85c667',1,'scxt::sfz_support']]],
   ['zoneplayback_17',['zonePlayback',['../namespacescxt_1_1sfz__support.html#a416ce2461a9559313e08dd18fc26d596',1,'scxt::sfz_support']]],
   ['zonerandslice_18',['zoneRandSlice',['../namespacescxt_1_1sfz__support.html#a4b6c03b1dea64ae86d10276ee2ff9fc1',1,'scxt::sfz_support']]],
-  ['zonesidebar_19',['ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af26eb7e7e4df20755a33f103712a5170',1,'scxt::ui::app::edit_screen::ZoneSidebar']]]
+  ['zonesidebar_19',['ZoneSidebar',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ZoneSidebar.html#af26eb7e7e4df20755a33f103712a5170',1,'scxt::ui::app::edit_screen::ZoneSidebar']]],
+  ['zonespanat_20',['zoneSpanAt',['../namespacescxt_1_1engine.html#a42349c8c5e16f1bd5a2eb67a6ab82f56',1,'scxt::engine']]]
 ];
