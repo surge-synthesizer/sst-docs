@@ -59,5 +59,5 @@ var searchData=
   ['lockedexception_56',['lockedexception',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#a5fee59818446e7dbd4c1b9f1d616beb7',1,'scxt::browser::SQL::LockedException::LockedException(int rc, const std::string &amp;msg)'],['../structscxt_1_1browser_1_1SQL_1_1LockedException.html#a2ae9a0e030b056d01a3baf2517dfc3b9',1,'scxt::browser::SQL::LockedException::LockedException(sqlite3 *h)']]],
   ['logscreen_57',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html#a4a2c82c6114502e70789e34df5b256e4',1,'scxt::ui::app::other_screens::LogScreen']]],
   ['logtimestamp_58',['logTimestamp',['../namespacescxt.html#a8e49ec8fc52d71c0423912645e3e3e03',1,'scxt']]],
-  ['loopendindex_59',['loopEndIndex',['../namespacescxt_1_1dsp.html#a3439075be021dee979fb4a93dcf8d308',1,'scxt::dsp']]]
+  ['loopwrapindex_59',['loopWrapIndex',['../namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc',1,'scxt::dsp']]]
 ];

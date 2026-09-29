@@ -172,8 +172,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb5e5d997fcc810f1a1f298aad07fc63" id="r_afb5e5d997fcc810f1a1f298aad07fc63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong</a> (int &amp;samplePos, int &amp;sampleSubPos, int &amp;travel, int ratioSign, int64_t ratio, int mirrorLo, int mirrorHi, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> *GD)</td></tr>
 <tr class="separator:afb5e5d997fcc810f1a1f298aad07fc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3439075be021dee979fb4a93dcf8d308" id="r_a3439075be021dee979fb4a93dcf8d308"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3439075be021dee979fb4a93dcf8d308">loopEndIndex</a> (int k, int samplePos, int loopUpperBound, int waveSize, int loopLength)</td></tr>
-<tr class="separator:a3439075be021dee979fb4a93dcf8d308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade663251c567fe0ecf39835d28611ecc" id="r_ade663251c567fe0ecf39835d28611ecc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc">loopWrapIndex</a> (int k, int samplePos, int loopLowerBound, int loopUpperBound, int waveSize, int loopLength)</td></tr>
+<tr class="separator:ade663251c567fe0ecf39835d28611ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb54bfbce882d9b61edd75b2bda478d2" id="r_acb54bfbce882d9b61edd75b2bda478d2"><td class="memTemplParams" colspan="2">template&lt;int compoundConfig&gt; </td></tr>
 <tr class="memitem:acb54bfbce882d9b61edd75b2bda478d2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample</a> (<a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> *__restrict GD, <a class="el" href="structscxt_1_1dsp_1_1GeneratorIO.html">GeneratorIO</a> *__restrict IO)</td></tr>
 <tr class="separator:acb54bfbce882d9b61edd75b2bda478d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -470,14 +470,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3439075be021dee979fb4a93dcf8d308" name="a3439075be021dee979fb4a93dcf8d308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3439075be021dee979fb4a93dcf8d308">&#9670;&#160;</a></span>loopEndIndex()</h2>
+<a id="ade663251c567fe0ecf39835d28611ecc" name="ade663251c567fe0ecf39835d28611ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade663251c567fe0ecf39835d28611ecc">&#9670;&#160;</a></span>loopWrapIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int loopEndIndex </td>
+          <td class="memname">int loopWrapIndex </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>k</em>, </td>
@@ -487,6 +487,12 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>samplePos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>loopLowerBound</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -546,7 +552,7 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a23f12a4285ce6211ceed10526acd77fe">fromLoopValue()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">getFadeGainToAmp()</a>, <a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>, <a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3439075be021dee979fb4a93dcf8d308">loopEndIndex()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead()</a>, <a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a23f12a4285ce6211ceed10526acd77fe">fromLoopValue()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">getFadeGainToAmp()</a>, <a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>, <a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc">loopWrapIndex()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead()</a>, <a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
 
 </div>
 </div>
@@ -1108,7 +1114,7 @@ template&lt;int compoundConfig&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 29 2026 00:09:31 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 29 2026 11:17:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
