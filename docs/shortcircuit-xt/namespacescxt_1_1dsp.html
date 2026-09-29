@@ -183,6 +183,8 @@ Functions</h2></td></tr>
 <tr class="separator:a23f12a4285ce6211ceed10526acd77fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b235c3f674d447782875d2f3f077d0c" id="r_a2b235c3f674d447782875d2f3f077d0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1dsp.html#a057300c47a9777c2926af556acaa0b91">GeneratorFPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a2b235c3f674d447782875d2f3f077d0c">GetFPtrGeneratorSample</a> (bool Stereo, bool Float, bool loopActive, bool loopForward, bool loopWhileGated)</td></tr>
 <tr class="separator:a2b235c3f674d447782875d2f3f077d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe1b4fa80e6d2cffd6e001c4144524b" id="r_aabe1b4fa80e6d2cffd6e001c4144524b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#aabe1b4fa80e6d2cffd6e001c4144524b">retargetGeneratorBounds</a> (<a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> &amp;GD, int32_t playbackLo, int32_t playbackHi, int32_t loopLo, int32_t loopHi, bool loopActive, bool loopForward, bool loopWhileGated)</td></tr>
+<tr class="separator:aabe1b4fa80e6d2cffd6e001c4144524b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af32ed52c81723c250684a5747ea42f77" id="r_af32ed52c81723c250684a5747ea42f77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#af32ed52c81723c250684a5747ea42f77">DECLARE_ENUM_STRING</a> (<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a>)</td></tr>
 <tr class="separator:af32ed52c81723c250684a5747ea42f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a998f507091d79d4cbe29e986357ea1a1" id="r_a998f507091d79d4cbe29e986357ea1a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a998f507091d79d4cbe29e986357ea1a1">toStringInterpolationTypes</a> (const <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> &amp;p)</td></tr>
@@ -682,6 +684,74 @@ template&lt;int compoundConfig&gt; </div>
 
 </div>
 </div>
+<a id="aabe1b4fa80e6d2cffd6e001c4144524b" name="aabe1b4fa80e6d2cffd6e001c4144524b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe1b4fa80e6d2cffd6e001c4144524b">&#9670;&#160;</a></span>retargetGeneratorBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void retargetGeneratorBounds </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> &amp;&#160;</td>
+          <td class="paramname"><em>GD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>playbackLo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>playbackHi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>loopLo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>loopHi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loopActive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loopForward</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loopWhileGated</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a97734abbebe920307c67316f9e42cfed">GeneratorState::directionAtOutset</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a916cd9419d627e709cdfd07f2d8e1e8f">GeneratorState::gated</a>, <a class="el" href="gig__import_8cpp.html#a53e4061991bce5bb55e85597bf35e58e">hi</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a0e40c5fb8a37c60628678563bfea6975">GeneratorState::isFinished</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a6d699e246cd94188400f38dc05f2a4e1">GeneratorState::isInLoop</a>, <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a3a4a5f13723123c7300ab13135d5a292">GeneratorState::loopDirection</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a0db9b9ab29b8a81107c5ea8ed8fe9954">GeneratorState::loopFade</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a1f2585dde2be0bd8302f8723cdaef158">GeneratorState::loopInvertedBounds</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#aea6ece4701031f3a0f0e3db3c645f369">GeneratorState::loopLowerBound</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#ae3f0266db2e4a37da2c2e7418fa669ef">GeneratorState::loopUpperBound</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a6417cd3282fe8a92c69514c335b8c33e">GeneratorState::playbackInvertedBounds</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a47378c45289ede5f5a2985c452e2f9fc">GeneratorState::playbackLowerBound</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a761a448828b7f1c95bda256991de1657">GeneratorState::playbackUpperBound</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a81491d3a435daed1c40087d1e434db1f">GeneratorState::ratio</a>, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a32f191d84f94bb44ffa9f78c323dd091">GeneratorState::samplePos</a>, and <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html#a07b96163307c8eed1cde2a3eb3b1f9e3">GeneratorState::sampleSubPos</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>.</p>
+
+</div>
+</div>
 <a id="af32ed52c81723c250684a5747ea42f77" name="af32ed52c81723c250684a5747ea42f77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af32ed52c81723c250684a5747ea42f77">&#9670;&#160;</a></span>DECLARE_ENUM_STRING()</h2>
 
@@ -830,7 +900,7 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a19c95e9476af1c9fc1d5e117e059184e">VariantDisplay::rebuildForSelectedVariation()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a7239a94345c68261bb9046413797a766">SampleWaveform::rebuildHotZones()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a19c95e9476af1c9fc1d5e117e059184e">VariantDisplay::rebuildForSelectedVariation()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a7239a94345c68261bb9046413797a766">SampleWaveform::rebuildHotZones()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#aabe1b4fa80e6d2cffd6e001c4144524b">retargetGeneratorBounds()</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1184,7 @@ template&lt;int compoundConfig&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 29 2026 11:17:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 29 2026 12:36:05 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

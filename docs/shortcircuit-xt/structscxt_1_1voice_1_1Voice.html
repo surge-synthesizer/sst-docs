@@ -95,6 +95,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -122,6 +123,11 @@ $(function() {
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice_1_1GeneratorLoopFlags.html">GeneratorLoopFlags</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a9f6182ae4bcf0e9884551120d9efcef9" id="r_a9f6182ae4bcf0e9884551120d9efcef9"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9">ExpressionIDs</a> { <br />
@@ -190,6 +196,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeca16b311de58f7114aa6bea4e58f40e" id="r_aeca16b311de58f7114aa6bea4e58f40e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">initializeGenerator</a> ()</td></tr>
 <tr class="memdesc:aeca16b311de58f7114aa6bea4e58f40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the dsp generator state.  <br /></td></tr>
 <tr class="separator:aeca16b311de58f7114aa6bea4e58f40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6714d44afad603e42d64c7fb1f147416" id="r_a6714d44afad603e42d64c7fb1f147416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">refreshGeneratorBounds</a> ()</td></tr>
+<tr class="memdesc:a6714d44afad603e42d64c7fb1f147416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry the zone's current sample and loop points, fade and curve onto the running generators.  <br /></td></tr>
+<tr class="separator:a6714d44afad603e42d64c7fb1f147416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54b7c28b5341dda554fd1f574020487f" id="r_a54b7c28b5341dda554fd1f574020487f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">calculateVoicePitch</a> ()</td></tr>
 <tr class="memdesc:a54b7c28b5341dda554fd1f574020487f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the pitch of this voice with modulation, MPE, tuning etc in.  <br /></td></tr>
 <tr class="separator:a54b7c28b5341dda554fd1f574020487f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,6 +299,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4feb2c4159df946cf4ffea4c0845dc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf746797b8c3a7ea1c3dd8061d1ebcaa" id="r_aaf746797b8c3a7ea1c3dd8061d1ebcaa"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, maxGeneratorsPerVoice &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#aaf746797b8c3a7ea1c3dd8061d1ebcaa">monoGenerator</a> {}</td></tr>
 <tr class="separator:aaf746797b8c3a7ea1c3dd8061d1ebcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5037b1921174d1a8831b8ea93068f5f" id="r_aa5037b1921174d1a8831b8ea93068f5f"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1voice_1_1Voice_1_1GeneratorLoopFlags.html">GeneratorLoopFlags</a>, maxGeneratorsPerVoice &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#aa5037b1921174d1a8831b8ea93068f5f">generatorLoopFlags</a> {}</td></tr>
+<tr class="separator:aa5037b1921174d1a8831b8ea93068f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69a9c652cb4f420e4d799d9b26f9847d" id="r_a69a9c652cb4f420e4d799d9b26f9847d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a69a9c652cb4f420e4d799d9b26f9847d">allGeneratorsMono</a> {}</td></tr>
 <tr class="separator:a69a9c652cb4f420e4d799d9b26f9847d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a632543ae77736b4342f1c2ec57a0e9c0" id="r_a632543ae77736b4342f1c2ec57a0e9c0"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0">numGeneratorsActive</a> {0}</td></tr>
@@ -660,7 +671,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729">Voice::sampleIndex</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a9b08ab377b40ed0c0d63dcd2396d68c2">Zone::UNISON</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a9d2a35bc99a7b6f45747c7c873e3390d">Zone::Variants::variantPlaybackMode</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>.</p>
 
 </div>
 </div>
@@ -919,9 +930,31 @@ template&lt;int genBlock&gt; </div>
 
 <p>Initialize the dsp generator state. </p>
 
-<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69a9c652cb4f420e4d799d9b26f9847d">Voice::allGeneratorsMono</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a0bb7d8ac63b7e12166a06463ae30dd0a">Voice::allowAliasOversample</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a9f9d193999aea9d4e7c2981567c9fdbe">Zone::egStorage</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a0342501e1a087b0e2c5708d48798b24a">Voice::forceOversample</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ad0787e09a735ddf87be5f5e1be6f90e7">Voice::GD</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a35b4bc5b830cf2b70885b39111c8397b">Voice::GDIO</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a4feb2c4159df946cf4ffea4c0845dc42">Voice::Generator</a>, <a class="el" href="namespacescxt_1_1dsp.html#a2b235c3f674d447782875d2f3f077d0c">scxt::dsp::GetFPtrGeneratorSample()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9f600a1abcc7e5ce66949e79f4aeda0d">Voice::isAnyGeneratorRunning</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ad2f5bbea39a4fd81059a1c78e713e2c7">Voice::isGeneratorRunning</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ae9885352ad051820c0493e6d3082ce48">Zone::LOOP_COUNT</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf">Zone::LOOP_WHILE_GATED</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aaf746797b8c3a7ea1c3dd8061d1ebcaa">Voice::monoGenerator</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0">Voice::numGeneratorsActive</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a2c1c74ab0f9f541a682d6a8e6f55bde2">Voice::output</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cafa66ba442f073c071229dcb2dc9199d0">AdsrStorage::SAMPLE_GATED</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729">Voice::sampleIndex</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a35a96d79def9851ed57c1c3671aea1fd">Voice::useOversampling</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">scxt::dsp::ZeroOrderHold</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">scxt::dsp::ZOHAA</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#a69a9c652cb4f420e4d799d9b26f9847d">Voice::allGeneratorsMono</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a0bb7d8ac63b7e12166a06463ae30dd0a">Voice::allowAliasOversample</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a9f9d193999aea9d4e7c2981567c9fdbe">Zone::egStorage</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a0342501e1a087b0e2c5708d48798b24a">Voice::forceOversample</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ad0787e09a735ddf87be5f5e1be6f90e7">Voice::GD</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a35b4bc5b830cf2b70885b39111c8397b">Voice::GDIO</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a4feb2c4159df946cf4ffea4c0845dc42">Voice::Generator</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aa5037b1921174d1a8831b8ea93068f5f">Voice::generatorLoopFlags</a>, <a class="el" href="namespacescxt_1_1dsp.html#a2b235c3f674d447782875d2f3f077d0c">scxt::dsp::GetFPtrGeneratorSample()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9f600a1abcc7e5ce66949e79f4aeda0d">Voice::isAnyGeneratorRunning</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#ad2f5bbea39a4fd81059a1c78e713e2c7">Voice::isGeneratorRunning</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3ae9885352ad051820c0493e6d3082ce48">Zone::LOOP_COUNT</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a709fa80256a74e684b52b7190b5087a3a382bf3b1040a3a6914de140805268fbf">Zone::LOOP_WHILE_GATED</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aaf746797b8c3a7ea1c3dd8061d1ebcaa">Voice::monoGenerator</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0">Voice::numGeneratorsActive</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a2c1c74ab0f9f541a682d6a8e6f55bde2">Voice::output</a>, <a class="el" href="structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#a72379015e04e7913b42264153319af1cafa66ba442f073c071229dcb2dc9199d0">AdsrStorage::SAMPLE_GATED</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729">Voice::sampleIndex</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a35a96d79def9851ed57c1c3671aea1fd">Voice::useOversampling</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">scxt::dsp::ZeroOrderHold</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">scxt::dsp::ZOHAA</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+
+</div>
+</div>
+<a id="a6714d44afad603e42d64c7fb1f147416" name="a6714d44afad603e42d64c7fb1f147416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6714d44afad603e42d64c7fb1f147416">&#9670;&#160;</a></span>refreshGeneratorBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void refreshGeneratorBounds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry the zone's current sample and loop points, fade and curve onto the running generators. </p>
+<p>Audio thread, between blocks. </p>
+
+<p class="reference">References <a class="el" href="structscxt_1_1voice_1_1Voice.html#ad0787e09a735ddf87be5f5e1be6f90e7">Voice::GD</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a35b4bc5b830cf2b70885b39111c8397b">Voice::GDIO</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aa5037b1921174d1a8831b8ea93068f5f">Voice::generatorLoopFlags</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a632543ae77736b4342f1c2ec57a0e9c0">Voice::numGeneratorsActive</a>, <a class="el" href="namespacescxt_1_1dsp.html#aabe1b4fa80e6d2cffd6e001c4144524b">scxt::dsp::retargetGeneratorBounds()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#acaaeff7bcb88bba08068cd529e0a0729">Voice::sampleIndex</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a181f592f2ab173ddd26d1335f6cfd0d2">Zone::samplePointers</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#ad75a58a69f86c5f06ab3e839deccc9f2">Zone::variantData</a>, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1Variants.html#a7d0718c0baff754c03d0a142d8f37e83">Zone::Variants::variants</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#abaabd2b1083129e727acb909681a80e4">Voice::zone</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1255,7 @@ template&lt;int genBlock&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeeb1b8365fab04d2aed97104b154c54f">Voice::cleanupVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aef42c8fddc68010c31ac6777e17bdde9">Voice::foldGeneratorIntoOutput()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a00362513949c830014ef34e1eb207412">Voice::initializeProcessors()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af67888b447250f8aeec6c2cba1709940">Engine::VoiceManagerResponder::retuneVoiceToKey()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a4588f40db67500bbcf4239a6a0222845">Voice::setSampleIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a2d31db150aa19dc07018eb237c4b4b52">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPressure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#ab732c6a5cd59ae8a4e79a6d748de485d">Engine::VoiceManagerResponder::setVoiceMIDIMPETimbre()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a12cac3382532a82a02011368a7d5fefb">Voice::attack()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a54b7c28b5341dda554fd1f574020487f">Voice::calculateVoicePitch()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeeb1b8365fab04d2aed97104b154c54f">Voice::cleanupVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aef42c8fddc68010c31ac6777e17bdde9">Voice::foldGeneratorIntoOutput()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a00362513949c830014ef34e1eb207412">Voice::initializeProcessors()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a807a6d9b51b8ad352e2591e82dfa2bdc">Voice::initiateGlide()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a50a723e3171783a4538ebf80b5a1ddac">Engine::VoiceManagerResponder::moveAndRetriggerVoice()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#af67888b447250f8aeec6c2cba1709940">Engine::VoiceManagerResponder::retuneVoiceToKey()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a4588f40db67500bbcf4239a6a0222845">Voice::setSampleIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a93cc351710d4de96dc0b08069b8bfb66">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPitchBend()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a2d31db150aa19dc07018eb237c4b4b52">Engine::VoiceManagerResponder::setVoiceMIDIMPEChannelPressure()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#ab732c6a5cd59ae8a4e79a6d748de485d">Engine::VoiceManagerResponder::setVoiceMIDIMPETimbre()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a87f27205655535a225194123eab7adb0">Voice::startGlideFrom()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aab97954932ee807863d4c3c729a28b25">Voice::updateGlide()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#ac33a310ea40543ec1eb3d66337cb6520">Voice::voiceStarted()</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1301,7 @@ template&lt;int genBlock&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a4588f40db67500bbcf4239a6a0222845">Voice::setSampleIndex()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aec073665c35dd44604da58bc833e9cb4">Voice::sampleIndexRange()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a4588f40db67500bbcf4239a6a0222845">Voice::setSampleIndex()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a9964b15ad1b1bf135741212d4225c356">Voice::Voice()</a>.</p>
 
 </div>
 </div>
@@ -1412,7 +1445,7 @@ template&lt;int genBlock&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#a7da2f3d66b0a2a47bcd74d63ffbd6fb6">Voice::calculateGeneratorRatio()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>.</p>
 
 </div>
 </div>
@@ -1428,7 +1461,7 @@ template&lt;int genBlock&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>.</p>
 
 </div>
 </div>
@@ -1464,6 +1497,22 @@ template&lt;int genBlock&gt; </div>
 
 </div>
 </div>
+<a id="aa5037b1921174d1a8831b8ea93068f5f" name="aa5037b1921174d1a8831b8ea93068f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5037b1921174d1a8831b8ea93068f5f">&#9670;&#160;</a></span>generatorLoopFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1voice_1_1Voice_1_1GeneratorLoopFlags.html">GeneratorLoopFlags</a>, maxGeneratorsPerVoice&gt; generatorLoopFlags {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>.</p>
+
+</div>
+</div>
 <a id="a69a9c652cb4f420e4d799d9b26f9847d" name="a69a9c652cb4f420e4d799d9b26f9847d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69a9c652cb4f420e4d799d9b26f9847d">&#9670;&#160;</a></span>allGeneratorsMono</h2>
 
@@ -1492,7 +1541,7 @@ template&lt;int genBlock&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1voice_1_1Voice.html#aeca16b311de58f7114aa6bea4e58f40e">Voice::initializeGenerator()</a>, <a class="el" href="structscxt_1_1voice_1_1Voice.html#a08603b59d62c582a778076b4af0bef6a">Voice::processWithOS()</a>, and <a class="el" href="structscxt_1_1voice_1_1Voice.html#a6714d44afad603e42d64c7fb1f147416">Voice::refreshGeneratorBounds()</a>.</p>
 
 </div>
 </div>
@@ -2635,7 +2684,7 @@ template&lt;int genBlock&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 29 2026 11:17:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Sep 29 2026 12:36:06 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
