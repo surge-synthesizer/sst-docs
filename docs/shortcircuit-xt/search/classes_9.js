@@ -8,10 +8,11 @@ var searchData=
   ['kernelop_3c_20interpolationtypes_3a_3azohaa_2c_20t_20_3e_5',['KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html',1,'scxt::dsp']]],
   ['kernelprocessor_6',['KernelProcessor',['../structscxt_1_1dsp_1_1KernelProcessor.html',1,'scxt::dsp']]],
   ['keyandpitchsources_7',['keyandpitchsources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'GroupMatrixEndpoints::Sources::KeyAndPitchSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'MatrixEndpoints::Sources::KeyAndPitchSources']]],
-  ['keybindings_8',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html',1,'scxt::ui::app']]],
-  ['keyboardrange_9',['KeyboardRange',['../structscxt_1_1engine_1_1KeyboardRange.html',1,'scxt::engine']]],
-  ['keycommandinfo_10',['KeyCommandInfo',['../structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html',1,'scxt::ui::app']]],
-  ['keycommandtarget_11',['KeyCommandTarget',['../structscxt_1_1ui_1_1app_1_1KeyCommandTarget.html',1,'scxt::ui::app']]],
-  ['keygroup_12',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
-  ['kloc_13',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
+  ['keyaxis_8',['KeyAxis',['../structscxt_1_1engine_1_1structure__edit__detail_1_1KeyAxis.html',1,'scxt::engine::structure_edit_detail']]],
+  ['keybindings_9',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html',1,'scxt::ui::app']]],
+  ['keyboardrange_10',['KeyboardRange',['../structscxt_1_1engine_1_1KeyboardRange.html',1,'scxt::engine']]],
+  ['keycommandinfo_11',['KeyCommandInfo',['../structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html',1,'scxt::ui::app']]],
+  ['keycommandtarget_12',['KeyCommandTarget',['../structscxt_1_1ui_1_1app_1_1KeyCommandTarget.html',1,'scxt::ui::app']]],
+  ['keygroup_13',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
+  ['kloc_14',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
 ];

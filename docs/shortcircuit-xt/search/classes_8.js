@@ -6,12 +6,13 @@ var searchData=
   ['id_3c_204_20_3e_3',['ID&lt; 4 &gt;',['../structscxt_1_1ID.html',1,'scxt']]],
   ['id_3c_205_20_3e_4',['ID&lt; 5 &gt;',['../structscxt_1_1ID.html',1,'scxt']]],
   ['id_3c_207_20_3e_5',['ID&lt; 7 &gt;',['../structscxt_1_1ID.html',1,'scxt']]],
-  ['idletimer_6',['IdleTimer',['../structscxt_1_1ui_1_1app_1_1SCXTEditor_1_1IdleTimer.html',1,'scxt::ui::app::SCXTEditor']]],
-  ['impl_7',['impl',['../structscxt_1_1engine_1_1dtl_1_1Impl.html',1,'Impl&lt; T &gt;'],['../structscxt_1_1infrastructure_1_1FileMapView_1_1Impl.html',1,'FileMapView::Impl']]],
-  ['importedmodroute_8',['ImportedModRoute',['../structscxt_1_1import__support_1_1ImportedModRoute.html',1,'scxt::import_support']]],
-  ['importedsource_9',['ImportedSource',['../structscxt_1_1import__support_1_1ImportedSource.html',1,'scxt::import_support']]],
-  ['importedtarget_10',['ImportedTarget',['../structscxt_1_1import__support_1_1ImportedTarget.html',1,'scxt::import_support']]],
-  ['importercontext_11',['ImporterContext',['../classscxt_1_1import__support_1_1ImporterContext.html',1,'scxt::import_support']]],
-  ['instrumentprompt_12',['InstrumentPrompt',['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html',1,'scxt::ui::app::shared']]],
-  ['iterationstats_13',['IterationStats',['../structscxt_1_1perf_1_1IterationStats.html',1,'scxt::perf']]]
+  ['identitysnapshot_6',['IdentitySnapshot',['../structscxt_1_1selection_1_1SelectionManager_1_1IdentitySnapshot.html',1,'scxt::selection::SelectionManager']]],
+  ['idletimer_7',['IdleTimer',['../structscxt_1_1ui_1_1app_1_1SCXTEditor_1_1IdleTimer.html',1,'scxt::ui::app::SCXTEditor']]],
+  ['impl_8',['impl',['../structscxt_1_1engine_1_1dtl_1_1Impl.html',1,'Impl&lt; T &gt;'],['../structscxt_1_1infrastructure_1_1FileMapView_1_1Impl.html',1,'FileMapView::Impl']]],
+  ['importedmodroute_9',['ImportedModRoute',['../structscxt_1_1import__support_1_1ImportedModRoute.html',1,'scxt::import_support']]],
+  ['importedsource_10',['ImportedSource',['../structscxt_1_1import__support_1_1ImportedSource.html',1,'scxt::import_support']]],
+  ['importedtarget_11',['ImportedTarget',['../structscxt_1_1import__support_1_1ImportedTarget.html',1,'scxt::import_support']]],
+  ['importercontext_12',['ImporterContext',['../classscxt_1_1import__support_1_1ImporterContext.html',1,'scxt::import_support']]],
+  ['instrumentprompt_13',['InstrumentPrompt',['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html',1,'scxt::ui::app::shared']]],
+  ['iterationstats_14',['IterationStats',['../structscxt_1_1perf_1_1IterationStats.html',1,'scxt::perf']]]
 ];

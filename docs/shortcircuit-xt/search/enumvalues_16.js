@@ -6,6 +6,7 @@ var searchData=
   ['zone_5fmapping_3',['zone_mapping',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a42333252942af9a455b22073c4c8ea6f',1,'scxt::messaging::client']]],
   ['zone_5fvariants_4',['zone_variants',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38aa34a8afb568dead18ebf142a585c74db',1,'scxt::messaging::client']]],
   ['zoneamplitude_5',['ZoneAmplitude',['../namespacescxt_1_1import__support.html#a8425f009cc31361c338a42529a9fad1ba94e354d08ff10a02a10040b321d23539',1,'scxt::import_support']]],
-  ['zonepan_6',['ZonePan',['../namespacescxt_1_1import__support.html#a8425f009cc31361c338a42529a9fad1ba353ef6697d251e7dc73b19f4c02aa74c',1,'scxt::import_support']]],
-  ['zoomlevel_7',['zoomLevel',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a9b6b1f625393dc0f51b702cbe35b5996',1,'scxt::infrastructure']]]
+  ['zoneeditsingroupmode_6',['zoneEditsInGroupMode',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4aa7f9a413e4c8b4e7a507d5c5934140ce',1,'scxt::infrastructure']]],
+  ['zonepan_7',['ZonePan',['../namespacescxt_1_1import__support.html#a8425f009cc31361c338a42529a9fad1ba353ef6697d251e7dc73b19f4c02aa74c',1,'scxt::import_support']]],
+  ['zoomlevel_8',['zoomLevel',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a9b6b1f625393dc0f51b702cbe35b5996',1,'scxt::infrastructure']]]
 ];

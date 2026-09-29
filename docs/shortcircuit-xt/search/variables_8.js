@@ -86,9 +86,11 @@ var searchData=
   ['isresizingkeyboard_83',['isResizingKeyboard',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#af4182fe930eb6612e7e2956f6c409bb6',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['isresizingzones_84',['isResizingZones',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#a90e5a655e0384f76f3ebbaedf22a0c29',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
   ['isselected_85',['isSelected',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSRowComponent.html#aa878fd61855f549b463ca8e9ac7ad0f6',1,'scxt::ui::app::browser_ui::DriveFSRowComponent']]],
-  ['istemposync_86',['istemposync',['../structscxt_1_1engine_1_1BusEffectStorage.html#ae8db5dd795332c51303cdc2341138635',1,'scxt::engine::BusEffectStorage::isTemposync'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#ae8db5dd795332c51303cdc2341138635',1,'scxt::modulation::modulators::AdsrStorage::isTemposync']]],
-  ['istemposynced_87',['istemposynced',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#ac0619ca413db11e8dd8f58515efd1078',1,'scxt::dsp::processor::ProcessorStorage::isTemposynced'],['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a7122ac8c09fb0c5a814ffb6f5368cde8',1,'scxt::ui::connectors::PayloadDataAttachment::isTemposynced']]],
-  ['isundertakingdrop_88',['isUndertakingDrop',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#abfe6ac81d13e2285ef8d94d57d661d13',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
-  ['isvoiceassigned_89',['isVoiceAssigned',['../structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae',1,'scxt::voice::Voice']]],
-  ['isvoiceplaying_90',['isVoicePlaying',['../structscxt_1_1voice_1_1Voice.html#a521624bf3f7f941b6285e5b7539545ce',1,'scxt::voice::Voice']]]
+  ['isselection_86',['isSelection',['../structscxt_1_1ui_1_1app_1_1shared_1_1MenuTargets.html#af7a91eb8e4a01fcb099071d7e65fcb8b',1,'scxt::ui::app::shared::MenuTargets']]],
+  ['istemposync_87',['istemposync',['../structscxt_1_1engine_1_1BusEffectStorage.html#ae8db5dd795332c51303cdc2341138635',1,'scxt::engine::BusEffectStorage::isTemposync'],['../structscxt_1_1modulation_1_1modulators_1_1AdsrStorage.html#ae8db5dd795332c51303cdc2341138635',1,'scxt::modulation::modulators::AdsrStorage::isTemposync']]],
+  ['istemposynced_88',['istemposynced',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#ac0619ca413db11e8dd8f58515efd1078',1,'scxt::dsp::processor::ProcessorStorage::isTemposynced'],['../structscxt_1_1ui_1_1connectors_1_1PayloadDataAttachment.html#a7122ac8c09fb0c5a814ffb6f5368cde8',1,'scxt::ui::connectors::PayloadDataAttachment::isTemposynced']]],
+  ['isundertakingdrop_89',['isUndertakingDrop',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingDisplay.html#abfe6ac81d13e2285ef8d94d57d661d13',1,'scxt::ui::app::edit_screen::MappingDisplay']]],
+  ['isvoiceassigned_90',['isVoiceAssigned',['../structscxt_1_1voice_1_1Voice.html#a8908e22272b38da02d577fb24d9297ae',1,'scxt::voice::Voice']]],
+  ['isvoiceplaying_91',['isVoicePlaying',['../structscxt_1_1voice_1_1Voice.html#a521624bf3f7f941b6285e5b7539545ce',1,'scxt::voice::Voice']]],
+  ['items_92',['items',['../structscxt_1_1ui_1_1app_1_1shared_1_1MenuTargets.html#ae709143bade6543793a192b2b4a84166',1,'scxt::ui::app::shared::MenuTargets']]]
 ];

@@ -52,7 +52,8 @@ var searchData=
   ['steplfo_2eh_49',['steplfo.h',['../steplfo_8h.html',1,'']]],
   ['stream_2ecpp_50',['stream.cpp',['../stream_8cpp.html',1,'']]],
   ['stream_2eh_51',['stream.h',['../stream_8h.html',1,'']]],
-  ['structure_5fmessages_2eh_52',['structure_messages.h',['../structure__messages_8h.html',1,'']]],
-  ['structure_5fundoable_5fitems_2ecpp_53',['structure_undoable_items.cpp',['../structure__undoable__items_8cpp.html',1,'']]],
-  ['structure_5fundoable_5fitems_2eh_54',['structure_undoable_items.h',['../structure__undoable__items_8h.html',1,'']]]
+  ['structure_5fedits_2ecpp_52',['structure_edits.cpp',['../structure__edits_8cpp.html',1,'']]],
+  ['structure_5fmessages_2eh_53',['structure_messages.h',['../structure__messages_8h.html',1,'']]],
+  ['structure_5fundoable_5fitems_2ecpp_54',['structure_undoable_items.cpp',['../structure__undoable__items_8cpp.html',1,'']]],
+  ['structure_5fundoable_5fitems_2eh_55',['structure_undoable_items.h',['../structure__undoable__items_8h.html',1,'']]]
 ];
