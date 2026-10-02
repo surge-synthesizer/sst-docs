@@ -113,10 +113,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ade6e40b2006b66b01977ccdb946503ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab83986236229491bf605f183d72e4903" id="r_ab83986236229491bf605f183d72e4903"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#ab83986236229491bf605f183d72e4903">zone</a></td></tr>
 <tr class="separator:ab83986236229491bf605f183d72e4903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af46952b9c6a58134dd11ed5332813ba7" id="r_af46952b9c6a58134dd11ed5332813ba7"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#af46952b9c6a58134dd11ed5332813ba7">sample</a></td></tr>
-<tr class="separator:af46952b9c6a58134dd11ed5332813ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa28f71bdf59c177b48faae4e81da7eaf" id="r_aa28f71bdf59c177b48faae4e81da7eaf"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#aa28f71bdf59c177b48faae4e81da7eaf">samplePos</a> {}</td></tr>
-<tr class="separator:aa28f71bdf59c177b48faae4e81da7eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bec4eb2e27a8457a1288e203d4c0ba" id="r_ac5bec4eb2e27a8457a1288e203d4c0ba"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#ac5bec4eb2e27a8457a1288e203d4c0ba">numSamples</a> {0}</td></tr>
+<tr class="separator:ac5bec4eb2e27a8457a1288e203d4c0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2477150ce8bb9568e673a14b51c629" id="r_a3a2477150ce8bb9568e673a14b51c629"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::atomic&lt; int16_t &gt;, maxVariantsPerZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#a3a2477150ce8bb9568e673a14b51c629">sample</a> {}</td></tr>
+<tr class="separator:a3a2477150ce8bb9568e673a14b51c629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5e9d333f6f84ca93a8a27fb916158e" id="r_a6e5e9d333f6f84ca93a8a27fb916158e"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::atomic&lt; int64_t &gt;, maxVariantsPerZone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#a6e5e9d333f6f84ca93a8a27fb916158e">samplePos</a> {}</td></tr>
+<tr class="separator:a6e5e9d333f6f84ca93a8a27fb916158e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a847de9e45e11004f843ebe0f7099d0de" id="r_a847de9e45e11004f843ebe0f7099d0de"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#a847de9e45e11004f843ebe0f7099d0de">midiNote</a> {-1}</td></tr>
 <tr class="separator:a847de9e45e11004f843ebe0f7099d0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a787a2f4689061f44a0fbf1ede6dd96f6" id="r_a787a2f4689061f44a0fbf1ede6dd96f6"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1VoiceDisplayStateItem.html#a787a2f4689061f44a0fbf1ede6dd96f6">midiChannel</a> {-1}</td></tr>
@@ -181,28 +183,42 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af46952b9c6a58134dd11ed5332813ba7" name="af46952b9c6a58134dd11ed5332813ba7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af46952b9c6a58134dd11ed5332813ba7">&#9670;&#160;</a></span>sample</h2>
+<a id="ac5bec4eb2e27a8457a1288e203d4c0ba" name="ac5bec4eb2e27a8457a1288e203d4c0ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5bec4eb2e27a8457a1288e203d4c0ba">&#9670;&#160;</a></span>numSamples</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;size_t&gt; sample</td>
+          <td class="memname">std::atomic&lt;int16_t&gt; numSamples {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa28f71bdf59c177b48faae4e81da7eaf" name="aa28f71bdf59c177b48faae4e81da7eaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa28f71bdf59c177b48faae4e81da7eaf">&#9670;&#160;</a></span>samplePos</h2>
+<a id="a3a2477150ce8bb9568e673a14b51c629" name="a3a2477150ce8bb9568e673a14b51c629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2477150ce8bb9568e673a14b51c629">&#9670;&#160;</a></span>sample</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;int64_t&gt; samplePos {}</td>
+          <td class="memname">std::array&lt;std::atomic&lt;int16_t&gt;, maxVariantsPerZone&gt; sample {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e5e9d333f6f84ca93a8a27fb916158e" name="a6e5e9d333f6f84ca93a8a27fb916158e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e5e9d333f6f84ca93a8a27fb916158e">&#9670;&#160;</a></span>samplePos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;std::atomic&lt;int64_t&gt;, maxVariantsPerZone&gt; samplePos {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,7 +273,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 1 2026 20:51:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Oct 2 2026 15:37:26 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
