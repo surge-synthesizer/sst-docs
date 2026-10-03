@@ -114,6 +114,10 @@ Public Types</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a455f9e172551691f25ea9c79814d6c37" id="r_a455f9e172551691f25ea9c79814d6c37"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">initializeCurves</a> ()</td></tr>
 <tr class="separator:a455f9e172551691f25ea9c79814d6c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bfa9be78fa349b8eb393decf8ef7b0" id="r_a57bfa9be78fa349b8eb393decf8ef7b0"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a57bfa9be78fa349b8eb393decf8ef7b0">remap01</a> (float x, float eps, bool early)</td></tr>
+<tr class="separator:a57bfa9be78fa349b8eb393decf8ef7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab051f0ad0f92697547f3ff78700988c" id="r_aab051f0ad0f92697547f3ff78700988c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#aab051f0ad0f92697547f3ff78700988c">fall01</a> (float x, float eps, bool early)</td></tr>
+<tr class="separator:aab051f0ad0f92697547f3ff78700988c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57e1ec201f15feabb1b9d93564ff375c" id="r_a57e1ec201f15feabb1b9d93564ff375c"><td class="memItemLeft" align="right" valign="top">static std::function&lt; float(float)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a57e1ec201f15feabb1b9d93564ff375c">getCurveOperator</a> (<a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#ab8a83834a73c7c0a0861d00647a1113d">CurveIdentifier</a> id)</td></tr>
 <tr class="separator:a57e1ec201f15feabb1b9d93564ff375c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -125,6 +129,10 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a4c286d7071c9e048d5ccad1d0da8e3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bf6a9b6902a10655cf08f59f51f7637" id="r_a6bf6a9b6902a10655cf08f59f51f7637"><td class="memItemLeft" align="right" valign="top">static std::unordered_map&lt; <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#ab8a83834a73c7c0a0861d00647a1113d">CurveIdentifier</a>, std::function&lt; float(float)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a6bf6a9b6902a10655cf08f59f51f7637">curveImpls</a></td></tr>
 <tr class="separator:a6bf6a9b6902a10655cf08f59f51f7637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ff4894ddd750ff4ecd9d77b277a802" id="r_af4ff4894ddd750ff4ecd9d77b277a802"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#af4ff4894ddd750ff4ecd9d77b277a802">remapSlowBend</a> {0.0630957344f}</td></tr>
+<tr class="separator:af4ff4894ddd750ff4ecd9d77b277a802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a483197cb1b4b924b1e7657f4dcf3bc9e" id="r_a483197cb1b4b924b1e7657f4dcf3bc9e"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a483197cb1b4b924b1e7657f4dcf3bc9e">remapFastBend</a> {0.0039810717f}</td></tr>
+<tr class="separator:a483197cb1b4b924b1e7657f4dcf3bc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab8a83834a73c7c0a0861d00647a1113d" name="ab8a83834a73c7c0a0861d00647a1113d"></a>
@@ -165,9 +173,99 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a4c7480820975ac36da69bcb76180d9c7">ModulationCurves::allCurves</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a6bf6a9b6902a10655cf08f59f51f7637">ModulationCurves::curveImpls</a>, and <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a4c286d7071c9e048d5ccad1d0da8e3aa">ModulationCurves::curveNames</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a4c7480820975ac36da69bcb76180d9c7">ModulationCurves::allCurves</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a6bf6a9b6902a10655cf08f59f51f7637">ModulationCurves::curveImpls</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a4c286d7071c9e048d5ccad1d0da8e3aa">ModulationCurves::curveNames</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#aab051f0ad0f92697547f3ff78700988c">ModulationCurves::fall01()</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a57bfa9be78fa349b8eb393decf8ef7b0">ModulationCurves::remap01()</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a483197cb1b4b924b1e7657f4dcf3bc9e">ModulationCurves::remapFastBend</a>, and <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#af4ff4894ddd750ff4ecd9d77b277a802">ModulationCurves::remapSlowBend</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a916e4a9cdcdb4e2ee4d31c15330f36f4">Engine::Engine()</a>.</p>
+
+</div>
+</div>
+<a id="a57bfa9be78fa349b8eb393decf8ef7b0" name="a57bfa9be78fa349b8eb393decf8ef7b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57bfa9be78fa349b8eb393decf8ef7b0">&#9670;&#160;</a></span>remap01()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float remap01 </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>eps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>early</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#aab051f0ad0f92697547f3ff78700988c">ModulationCurves::fall01()</a>, and <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">ModulationCurves::initializeCurves()</a>.</p>
+
+</div>
+</div>
+<a id="aab051f0ad0f92697547f3ff78700988c" name="aab051f0ad0f92697547f3ff78700988c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab051f0ad0f92697547f3ff78700988c">&#9670;&#160;</a></span>fall01()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float fall01 </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>eps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>early</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a57bfa9be78fa349b8eb393decf8ef7b0">ModulationCurves::remap01()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">ModulationCurves::initializeCurves()</a>.</p>
 
 </div>
 </div>
@@ -274,6 +372,54 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af4ff4894ddd750ff4ecd9d77b277a802" name="af4ff4894ddd750ff4ecd9d77b277a802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ff4894ddd750ff4ecd9d77b277a802">&#9670;&#160;</a></span>remapSlowBend</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float remapSlowBend {0.0630957344f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">ModulationCurves::initializeCurves()</a>.</p>
+
+</div>
+</div>
+<a id="a483197cb1b4b924b1e7657f4dcf3bc9e" name="a483197cb1b4b924b1e7657f4dcf3bc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a483197cb1b4b924b1e7657f4dcf3bc9e">&#9670;&#160;</a></span>remapFastBend</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float remapFastBend {0.0039810717f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">ModulationCurves::initializeCurves()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="mod__curves_8h.html">mod_curves.h</a></li>
 <li><a class="el" href="mod__curves_8cpp.html">mod_curves.cpp</a></li>
@@ -281,7 +427,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 2 2026 15:37:27 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Oct 3 2026 17:58:17 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
