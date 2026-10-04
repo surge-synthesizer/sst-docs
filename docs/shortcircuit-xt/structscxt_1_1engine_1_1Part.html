@@ -275,6 +275,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:afea763dfc2e9ae748fb2ca7eca806b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480afa6b15ad7c8548bd904a7830564a" id="r_a480afa6b15ad7c8548bd904a7830564a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a480afa6b15ad7c8548bd904a7830564a">activeGroups</a> {0}</td></tr>
 <tr class="separator:a480afa6b15ad7c8548bd904a7830564a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a504f646fd94396dfc509abd577fd0" id="r_ad6a504f646fd94396dfc509abd577fd0"><td class="memItemLeft" align="right" valign="top">std::array&lt; uint64_t, maxSoundingDisplayGroupsPerPart/64 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#ad6a504f646fd94396dfc509abd577fd0">soundingGroups</a> {}</td></tr>
+<tr class="separator:ad6a504f646fd94396dfc509abd577fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba388c25285d89b28598630193c62199" id="r_aba388c25285d89b28598630193c62199"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#aba388c25285d89b28598630193c62199">silenceTime</a> {0}</td></tr>
 <tr class="separator:aba388c25285d89b28598630193c62199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e51726c38f9d10ef362873408da8b7f" id="r_a9e51726c38f9d10ef362873408da8b7f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Part.html#a9e51726c38f9d10ef362873408da8b7f">silenceMax</a> {0}</td></tr>
@@ -549,7 +551,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::DEFAULT_BUS</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a9058676fd6eb2e16e68041a7fdafa252">Part::externalSignalLag</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Part::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a450c3ab9b94a4663caad892b7193b547">Part::PartConfiguration::level</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a7363ff46e3c38cb98a41c549f8ce2634">Part::PartConfiguration::pan</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8afebebca2c506ca98f20beddd238db623">scxt::engine::PART_0</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5e73a0fb9af7d95c8b53657171bfb04f">Part::reconfigureGroupSolo()</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a2b18c58904f51cbdae2f8d84a1f6a11f">Part::PartConfiguration::routeTo</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a9e51726c38f9d10ef362873408da8b7f">Part::silenceMax</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#aba388c25285d89b28598630193c62199">Part::silenceTime</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Part.html#aae24f07a180012eec58f3d0f1197f324">Part::configuration</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8ade3fca173319984de13b632fef6dca85">scxt::engine::DEFAULT_BUS</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a9058676fd6eb2e16e68041a7fdafa252">Part::externalSignalLag</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aa1f512ab0fcc05612f8e3d6a4664ce9a">Part::isActive()</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a450c3ab9b94a4663caad892b7193b547">Part::PartConfiguration::level</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a7363ff46e3c38cb98a41c549f8ce2634">Part::PartConfiguration::pan</a>, <a class="el" href="namespacescxt_1_1engine.html#abda9c7d4255cb9369a2cc3208fb3dec8afebebca2c506ca98f20beddd238db623">scxt::engine::PART_0</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aad4257acada47dcc2aed101033744459">Part::partEffects</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a8813e7012b337c6dedc431d536296089">Part::partEffectStorage</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a77dda0242e80122644b17493adfccdb3">Part::partNumber</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a5e73a0fb9af7d95c8b53657171bfb04f">Part::reconfigureGroupSolo()</a>, <a class="el" href="structscxt_1_1engine_1_1Part_1_1PartConfiguration.html#a2b18c58904f51cbdae2f8d84a1f6a11f">Part::PartConfiguration::routeTo</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#a9e51726c38f9d10ef362873408da8b7f">Part::silenceMax</a>, <a class="el" href="structscxt_1_1engine_1_1Part.html#aba388c25285d89b28598630193c62199">Part::silenceTime</a>, and <a class="el" href="structscxt_1_1engine_1_1Part.html#ad6a504f646fd94396dfc509abd577fd0">Part::soundingGroups</a>.</p>
 
 </div>
 </div>
@@ -1500,6 +1502,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6a504f646fd94396dfc509abd577fd0" name="ad6a504f646fd94396dfc509abd577fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a504f646fd94396dfc509abd577fd0">&#9670;&#160;</a></span>soundingGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;uint64_t, maxSoundingDisplayGroupsPerPart / 64&gt; soundingGroups {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Part.html#ab2fb9b3c06e2581c9bd45bac569964de">Part::process()</a>.</p>
+
+</div>
+</div>
 <a id="aba388c25285d89b28598630193c62199" name="aba388c25285d89b28598630193c62199"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba388c25285d89b28598630193c62199">&#9670;&#160;</a></span>silenceTime</h2>
 
@@ -1697,7 +1715,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 4 2026 01:07:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Oct 4 2026 14:09:40 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
