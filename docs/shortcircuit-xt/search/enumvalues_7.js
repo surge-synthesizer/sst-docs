@@ -11,8 +11,10 @@ var searchData=
   ['hp36_8',['HP36',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fae9270bddbe902bdba221c4bfd2771908',1,'scxt::import_support']]],
   ['hp48_9',['HP48',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94fac513fdf36a9e40aebea93f152a5deee0',1,'scxt::import_support']]],
   ['hp6_10',['HP6',['../namespacescxt_1_1import__support.html#a7ef0ab496f57e183b484e62e2053c94faae2acc4676e8a185ae477f55a826f19b',1,'scxt::import_support']]],
-  ['hz_5fdrag_5floopend_11',['HZ_DRAG_LOOPEND',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
-  ['hz_5fdrag_5floopstart_12',['HZ_DRAG_LOOPSTART',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
-  ['hz_5fdrag_5fsampend_13',['HZ_DRAG_SAMPEND',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
-  ['hz_5fdrag_5fsampstart_14',['HZ_DRAG_SAMPSTART',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf',1,'scxt::ui::app::edit_screen::SampleWaveform']]]
+  ['hz_5fdrag_5ffade_5floopend_11',['HZ_DRAG_FADE_LOOPEND',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['hz_5fdrag_5ffade_5floopstart_12',['HZ_DRAG_FADE_LOOPSTART',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['hz_5fdrag_5floopend_13',['HZ_DRAG_LOOPEND',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['hz_5fdrag_5floopstart_14',['HZ_DRAG_LOOPSTART',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['hz_5fdrag_5fsampend_15',['HZ_DRAG_SAMPEND',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
+  ['hz_5fdrag_5fsampstart_16',['HZ_DRAG_SAMPSTART',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf',1,'scxt::ui::app::edit_screen::SampleWaveform']]]
 ];

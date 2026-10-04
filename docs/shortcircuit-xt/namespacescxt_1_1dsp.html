@@ -163,6 +163,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>
  }</td></tr>
 <tr class="separator:a06410b91b9d0ee6d70901dd29775ecd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f6bd8a59d339470aa58dff9db53f1d" id="r_a03f6bd8a59d339470aa58dff9db53f1d"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1d">LoopFadeMarker</a> { <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1da591ff9fa086dd84da380fcc19cb6de6b">SAMPLE_START</a>
+, <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1da25faf6ade81e7104be66f6b565f45b50">LOOP_START</a>
+, <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1daaf4e972cef154699f25b57a12a0509fe">LOOP_END</a>
+ }</td></tr>
+<tr class="separator:a03f6bd8a59d339470aa58dff9db53f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -197,6 +202,8 @@ Functions</h2></td></tr>
 <tr class="separator:a919e21d9b1c2270a65c28dd637f0334e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d334a67e333483f2ba4de784f068466" id="r_a1d334a67e333483f2ba4de784f068466"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade</a> (int64_t loopFade, int64_t startSample, int64_t startLoop, int64_t endLoop)</td></tr>
 <tr class="separator:a1d334a67e333483f2ba4de784f068466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac497b3c2a495c7c2ce1ee2d5e36a80f7" id="r_ac497b3c2a495c7c2ce1ee2d5e36a80f7"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#ac497b3c2a495c7c2ce1ee2d5e36a80f7">clampMarkerToLoopFade</a> (<a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1d">LoopFadeMarker</a> <a class="el" href="sf2__import_8cpp.html#a7fb1bf2eebc3892a2190bec965a9e16d">which</a>, int64_t pos, int64_t loopFade, int64_t startSample, int64_t startLoop, int64_t endLoop)</td></tr>
+<tr class="separator:ac497b3c2a495c7c2ce1ee2d5e36a80f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba6d24b5770629c5a5a2f2288676ecd" id="r_acba6d24b5770629c5a5a2f2288676ecd"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int32_t, int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead</a> (int32_t pos, int32_t subPos, int32_t bound)</td></tr>
 <tr class="separator:acba6d24b5770629c5a5a2f2288676ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -359,6 +366,33 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b" name="a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b"></a>Linear&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd" name="a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd"></a>ZOHAA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0" name="a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0"></a>ZeroOrderHold&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a03f6bd8a59d339470aa58dff9db53f1d" name="a03f6bd8a59d339470aa58dff9db53f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f6bd8a59d339470aa58dff9db53f1d">&#9670;&#160;</a></span>LoopFadeMarker</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum struct <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1d">LoopFadeMarker</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a03f6bd8a59d339470aa58dff9db53f1da591ff9fa086dd84da380fcc19cb6de6b" name="a03f6bd8a59d339470aa58dff9db53f1da591ff9fa086dd84da380fcc19cb6de6b"></a>SAMPLE_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03f6bd8a59d339470aa58dff9db53f1da25faf6ade81e7104be66f6b565f45b50" name="a03f6bd8a59d339470aa58dff9db53f1da25faf6ade81e7104be66f6b565f45b50"></a>LOOP_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03f6bd8a59d339470aa58dff9db53f1daaf4e972cef154699f25b57a12a0509fe" name="a03f6bd8a59d339470aa58dff9db53f1daaf4e972cef154699f25b57a12a0509fe"></a>LOOP_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -900,7 +934,63 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a19c95e9476af1c9fc1d5e117e059184e">VariantDisplay::rebuildForSelectedVariation()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a7239a94345c68261bb9046413797a766">SampleWaveform::rebuildHotZones()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#aabe1b4fa80e6d2cffd6e001c4144524b">retargetGeneratorBounds()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a3bd7126061f7a5b5cfd48f6eb4ca8159">SampleWaveform::clampedLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#ac497b3c2a495c7c2ce1ee2d5e36a80f7">clampMarkerToLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acb54bfbce882d9b61edd75b2bda478d2">GeneratorSample()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a09d58428ae7c3742bb1a5f1f3ed827b7">SampleWaveform::mouseDrag()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a4f2c219a2cbbd6b61e7c41564dac6169">SampleWaveform::paint()</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a19c95e9476af1c9fc1d5e117e059184e">VariantDisplay::rebuildForSelectedVariation()</a>, and <a class="el" href="namespacescxt_1_1dsp.html#aabe1b4fa80e6d2cffd6e001c4144524b">retargetGeneratorBounds()</a>.</p>
+
+</div>
+</div>
+<a id="ac497b3c2a495c7c2ce1ee2d5e36a80f7" name="ac497b3c2a495c7c2ce1ee2d5e36a80f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac497b3c2a495c7c2ce1ee2d5e36a80f7">&#9670;&#160;</a></span>clampMarkerToLoopFade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t clampMarkerToLoopFade </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1d">LoopFadeMarker</a>&#160;</td>
+          <td class="paramname"><em>which</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>loopFade</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>startSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>startLoop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>endLoop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1daaf4e972cef154699f25b57a12a0509fe">LOOP_END</a>, <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1da25faf6ade81e7104be66f6b565f45b50">LOOP_START</a>, <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1da591ff9fa086dd84da380fcc19cb6de6b">SAMPLE_START</a>, and <a class="el" href="sf2__import_8cpp.html#a7fb1bf2eebc3892a2190bec965a9e16d">which</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a60d3c9d83d7440f4938dcc5a59f9b7e5">VariantDisplay::clampMarker()</a>.</p>
 
 </div>
 </div>
@@ -1155,7 +1245,7 @@ template&lt;int compoundConfig&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#a09d58428ae7c3742bb1a5f1f3ed827b7">SampleWaveform::mouseDrag()</a>.</p>
 
 </div>
 </div>
@@ -1184,7 +1274,7 @@ template&lt;int compoundConfig&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 3 2026 19:30:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sun Oct 4 2026 01:07:58 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
