@@ -101,7 +101,7 @@ var searchData=
   ['getprocroutingpathshortname_98',['getProcRoutingPathShortName',['../structscxt_1_1engine_1_1HasGroupZoneProcessors.html#a66d4e689391cb793b7c5e4c19aafc2e0',1,'scxt::engine::HasGroupZoneProcessors']]],
   ['getptr_99',['GetPtr',['../classscxt_1_1sample_1_1loaders_1_1RIFFMemFile.html#a44a7a33a78c06391d81beffb88efe26f',1,'scxt::sample::loaders::RIFFMemFile']]],
   ['getreadonlyconn_100',['getReadOnlyConn',['../structscxt_1_1browser_1_1WriterWorker.html#ab3bd3713dae1ab42b6159984a31ec085',1,'scxt::browser::WriterWorker']]],
-  ['getrepetitioninterval_101',['getRepetitionInterval',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a7d1e86075c2f42b3ace82a2d217973e6',1,'scxt::tuning::MidikeyRetuner']]],
+  ['getrepetitioninterval_101',['getRepetitionInterval',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#aa5e3fc2fb167769b0e1c63bcac1d5026',1,'scxt::tuning::MidikeyRetuner']]],
   ['getrootpathsfordeviceview_102',['getRootPathsForDeviceView',['../structscxt_1_1browser_1_1Browser.html#a39f619a8e86af8377269be799b51771d',1,'scxt::browser::Browser']]],
   ['getroutinglabel_103',['getRoutingLabel',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#afd04c82762f476880628766f53661b2c',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]],
   ['getroutingname_104',['getRoutingName',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents.html#afb6d3baf13043d04d08bc2f0f41ab267',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]],

@@ -146,7 +146,7 @@ var searchData=
   ['mtssourceavailable_143',['mtsSourceAvailable',['../structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#ae5718ec8733aea08a819135b2ded97ad',1,'scxt::engine::Engine::SharedUIMemoryState']]],
   ['mtsupdatemode_144',['mtsUpdateMode',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a2282cdeb02ec9746961acb4ebf8461e3',1,'scxt::ui::app::SCXTEditor']]],
   ['muilag_145',['muilag',['../structscxt_1_1engine_1_1Group.html#af6224631cfd74675f1c9aa7107c7443a',1,'scxt::engine::Group::mUILag'],['../structscxt_1_1engine_1_1Zone.html#af6224631cfd74675f1c9aa7107c7443a',1,'scxt::engine::Zone::mUILag']]],
-  ['multi_146',['multi',['../structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html#a956b8f91e5102e8228cbb88eecd6d221',1,'scxt::selection::SelectionManager::PatchFiles::multi'],['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#abc51ba45d30d15eafe020c6b1118d470',1,'scxt::ui::app::SCXTEditor::MULTI']]],
+  ['multi_146',['multi',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#abc51ba45d30d15eafe020c6b1118d470',1,'scxt::ui::app::SCXTEditor::MULTI'],['../structscxt_1_1selection_1_1SelectionManager_1_1PatchFiles.html#a956b8f91e5102e8228cbb88eecd6d221',1,'scxt::selection::SelectionManager::PatchFiles::multi']]],
   ['multiaddress_147',['multiAddress',['../structscxt_1_1SampleID.html#a54e9f35ec6bedc7126456412d741ca7e',1,'scxt::SampleID']]],
   ['multibutton_148',['multiButton',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a0d40d0e1090a3c118e124fd899093893',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['multiinst_149',['multiInst',['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html#aceb4bc56e6d0abac52b3e62b01bac589',1,'scxt::ui::app::shared::InstrumentPrompt']]],
