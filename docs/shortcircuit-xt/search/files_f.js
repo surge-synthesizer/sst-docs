@@ -47,13 +47,14 @@ var searchData=
   ['sfz_5fparse_2eh_44',['sfz_parse.h',['../sfz__parse_8h.html',1,'']]],
   ['singlemacroeditor_2ecpp_45',['SingleMacroEditor.cpp',['../SingleMacroEditor_8cpp.html',1,'']]],
   ['singlemacroeditor_2eh_46',['SingleMacroEditor.h',['../SingleMacroEditor_8h.html',1,'']]],
-  ['sql_5fsupport_2eh_47',['sql_support.h',['../sql__support_8h.html',1,'']]],
-  ['sse_5finclude_2eh_48',['sse_include.h',['../sse__include_8h.html',1,'']]],
-  ['steplfo_2eh_49',['steplfo.h',['../steplfo_8h.html',1,'']]],
-  ['stream_2ecpp_50',['stream.cpp',['../stream_8cpp.html',1,'']]],
-  ['stream_2eh_51',['stream.h',['../stream_8h.html',1,'']]],
-  ['structure_5fedits_2ecpp_52',['structure_edits.cpp',['../structure__edits_8cpp.html',1,'']]],
-  ['structure_5fmessages_2eh_53',['structure_messages.h',['../structure__messages_8h.html',1,'']]],
-  ['structure_5fundoable_5fitems_2ecpp_54',['structure_undoable_items.cpp',['../structure__undoable__items_8cpp.html',1,'']]],
-  ['structure_5fundoable_5fitems_2eh_55',['structure_undoable_items.h',['../structure__undoable__items_8h.html',1,'']]]
+  ['source_5fpolarity_2eh_47',['source_polarity.h',['../source__polarity_8h.html',1,'']]],
+  ['sql_5fsupport_2eh_48',['sql_support.h',['../sql__support_8h.html',1,'']]],
+  ['sse_5finclude_2eh_49',['sse_include.h',['../sse__include_8h.html',1,'']]],
+  ['steplfo_2eh_50',['steplfo.h',['../steplfo_8h.html',1,'']]],
+  ['stream_2ecpp_51',['stream.cpp',['../stream_8cpp.html',1,'']]],
+  ['stream_2eh_52',['stream.h',['../stream_8h.html',1,'']]],
+  ['structure_5fedits_2ecpp_53',['structure_edits.cpp',['../structure__edits_8cpp.html',1,'']]],
+  ['structure_5fmessages_2eh_54',['structure_messages.h',['../structure__messages_8h.html',1,'']]],
+  ['structure_5fundoable_5fitems_2ecpp_55',['structure_undoable_items.cpp',['../structure__undoable__items_8cpp.html',1,'']]],
+  ['structure_5fundoable_5fitems_2eh_56',['structure_undoable_items.h',['../structure__undoable__items_8h.html',1,'']]]
 ];

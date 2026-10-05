@@ -28,8 +28,8 @@ var searchData=
   ['hexstring_25',['hexString',['../namespacescxt_1_1infrastructure.html#a7d1453fa84137dd3e6981af66ebcd7dc',1,'scxt::infrastructure']]],
   ['hidepartblurbtooltip_26',['hidePartBlurbTooltip',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a903720eb3d4f40d52c10c4dc8b144981',1,'scxt::ui::app::shared::PartSidebarCard']]],
   ['hidetooltip_27',['hideTooltip',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#adb9104d43a8ae01c2023f36390a1909f',1,'scxt::ui::app::SCXTEditor']]],
-  ['holda_28',['holdA',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a9009da045d9b8ef467cc3b6d3caaeaab',1,'scxt::modulation::shared::EGTargetEndpointData']]],
-  ['holdingsuppressesplay_29',['holdingsuppressesplay',['../structscxt_1_1engine_1_1GroupTrigger.html#ac91e216f8c5d3a0d6bd31d93e6c35384',1,'scxt::engine::GroupTrigger::holdingSuppressesPlay()'],['../structscxt_1_1engine_1_1GTKeyswitchLatch.html#a06bd78f5b8a7dd3e353eb96913b92695',1,'scxt::engine::GTKeyswitchLatch::holdingSuppressesPlay()']]],
-  ['holdsamples_30',['holdSamples',['../structscxt_1_1engine_1_1Clipboard.html#aa96318ac83e5751a4be3e7cec04cf38f',1,'scxt::engine::Clipboard']]],
+  ['holdingsuppressesplay_28',['holdingsuppressesplay',['../structscxt_1_1engine_1_1GroupTrigger.html#ac91e216f8c5d3a0d6bd31d93e6c35384',1,'scxt::engine::GroupTrigger::holdingSuppressesPlay()'],['../structscxt_1_1engine_1_1GTKeyswitchLatch.html#a06bd78f5b8a7dd3e353eb96913b92695',1,'scxt::engine::GTKeyswitchLatch::holdingSuppressesPlay()']]],
+  ['holdsamples_29',['holdSamples',['../structscxt_1_1engine_1_1Clipboard.html#aa96318ac83e5751a4be3e7cec04cf38f',1,'scxt::engine::Clipboard']]],
+  ['holdtid_30',['holdTId',['../structscxt_1_1modulation_1_1shared_1_1EGTargetEndpointData.html#a6559405e8e3b92019e97d53999d4f2e2',1,'scxt::modulation::shared::EGTargetEndpointData']]],
   ['humanreadableversion_31',['humanReadableVersion',['../namespacescxt.html#a90be79419d34cf9126b4ed93fa4b9158',1,'scxt']]]
 ];

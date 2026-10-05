@@ -12,5 +12,5 @@ var searchData=
   ['vmodtgtstrfn_5ft_9',['vmodTgtStrFn_t',['../structscxt_1_1engine_1_1Engine.html#aadf0e0b59d63ad05771dab3175f3d10b',1,'scxt::engine::Engine']]],
   ['voice_5ft_10',['voice_t',['../structscxt_1_1engine_1_1Engine_1_1VMConfig.html#a0fb65110b6d9b5e9a8c59ecbe1e09195',1,'scxt::engine::Engine::VMConfig']]],
   ['voicemanager_5ft_11',['voiceManager_t',['../structscxt_1_1engine_1_1Engine.html#aa4ef4a4c562251f5707a7a955dc16fc7',1,'scxt::engine::Engine']]],
-  ['voicematrixmetadata_5ft_12',['voiceMatrixMetadata_t',['../namespacescxt_1_1voice_1_1modulation.html#a041ae028e6bba1951ab546a585e32a6b',1,'scxt::voice::modulation']]]
+  ['voicematrixmetadata_5ft_12',['voiceMatrixMetadata_t',['../namespacescxt_1_1voice_1_1modulation.html#a1099f6481e2bb4f8e6fe35bbf8e8301d',1,'scxt::voice::modulation']]]
 ];

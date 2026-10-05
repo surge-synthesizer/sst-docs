@@ -96,6 +96,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structscxt_1_1modulation_1_1shared_1_1RNGSourceBase-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RNGSourceBase&lt; SR, gid &gt; Struct Template Reference</div></div>
@@ -108,6 +109,13 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3f48d9a0ab47c3dea99db17c508c6929" id="r_a3f48d9a0ab47c3dea99db17c508c6929"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1RNGSourceBase.html#a3f48d9a0ab47c3dea99db17c508c6929">RNGSourceBase</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> *e)</td></tr>
 <tr class="separator:a3f48d9a0ab47c3dea99db17c508c6929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8e488b3831993267e16fb22b196ddfca" id="r_a8e488b3831993267e16fb22b196ddfca"><td class="memItemLeft" align="right" valign="top">static constexpr SR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1RNGSourceBase.html#a8e488b3831993267e16fb22b196ddfca">randomSId</a> (uint32_t i)</td></tr>
+<tr class="separator:a8e488b3831993267e16fb22b196ddfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeabe83fbbbe3fcbd56face206475eee" id="r_afeabe83fbbbe3fcbd56face206475eee"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1modulation_1_1shared_1_1RNGSourceBase.html#afeabe83fbbbe3fcbd56face206475eee">slotOf</a> (const SR &amp;s)</td></tr>
+<tr class="separator:afeabe83fbbbe3fcbd56face206475eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -135,6 +143,65 @@ template&lt;typename SR , uint32_t gid&gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8e488b3831993267e16fb22b196ddfca" name="a8e488b3831993267e16fb22b196ddfca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e488b3831993267e16fb22b196ddfca">&#9670;&#160;</a></span>randomSId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SR , uint32_t gid&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr SR randomSId </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afeabe83fbbbe3fcbd56face206475eee" name="afeabe83fbbbe3fcbd56face206475eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeabe83fbbbe3fcbd56face206475eee">&#9670;&#160;</a></span>slotOf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SR , uint32_t gid&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::optional&lt; uint32_t &gt; slotOf </td>
+          <td>(</td>
+          <td class="paramtype">const SR &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1modulation_1_1shared.html#a4720bad076d56299e9f2efa8ae02b45f">scxt::modulation::shared::slotIn()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a71432651d9cffdc92091940cc439ece6" name="a71432651d9cffdc92091940cc439ece6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71432651d9cffdc92091940cc439ece6">&#9670;&#160;</a></span>randoms</h2>
@@ -150,6 +217,8 @@ template&lt;typename SR , uint32_t gid&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources.html#a9db3818bffb1dd52966a0c12f531a36a">GroupMatrixEndpoints::Sources::Sources()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
@@ -158,7 +227,7 @@ template&lt;typename SR , uint32_t gid&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 4 2026 22:28:59 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Oct 5 2026 19:25:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -12,11 +12,11 @@ var searchData=
   ['editscreenpart_9',['editScreenPart',['../structscxt_1_1ui_1_1app_1_1SCXTEditorReceiver.html#af77902a90b0646834e7707ebcf9b35d2',1,'scxt::ui::app::SCXTEditorReceiver']]],
   ['edwidth_10',['edWidth',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad14f0b9289641929a4403c6c394695b8',1,'scxt::ui::app::SCXTEditor']]],
   ['eg_11',['eg',['../sf2__import_8cpp.html#a4d41bf05851943dba942988cd9680a46',1,'eg:&#160;sf2_import.cpp'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen_1_1ZoneOrGroupElements.html#aa73f247e66013e472938d0e4520f3788',1,'scxt::ui::app::edit_screen::EditScreen::ZoneOrGroupElements::eg'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#abcfc435aa4b4ab6b9720c8f5414721ff',1,'scxt::modulation::shared::HasModulators::eg']]],
-  ['eg1a_12',['eg1A',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a2eaf7bc66a4d754556115926dcee31e9',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
-  ['eg2a_13',['eg2A',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#ab125801c019afdf30a04ae5ff91541d6',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
-  ['eg3a_14',['eg3A',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a055ea20aeb12ef3e819d75ca2feab25d',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
-  ['eg4a_15',['eg4A',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a4b239d3352cff7c96511668927bd020c',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
-  ['eg5a_16',['eg5A',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a8d4e6fb5abe74a340e753baaafc5403c',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['eg1sid_12',['eg1SId',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#ab7fedf8752414d1b8103170276b51c85',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['eg2sid_13',['eg2SId',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a030ed82af4a7230300d222a0647572b3',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['eg3sid_14',['eg3SId',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a8218cb7c408b493ec50c27c443e1eec7',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['eg4sid_15',['eg4SId',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#afeb192ddded1f31b0976c2657baca432',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
+  ['eg5sid_16',['eg5SId',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources.html#a5e9def9fc077dc132300e3fc6f7f6aee',1,'scxt::voice::modulation::MatrixEndpoints::Sources']]],
   ['egos_17',['egOS',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a0ebb2db9ed07bf4eb171d3f7e5f90967',1,'scxt::modulation::shared::HasModulators']]],
   ['egs_18',['egs',['../structscxt_1_1akai__support_1_1KEYGROUP.html#a02c9bf73fb88cae9a1ea7b00a2e90b4e',1,'scxt::akai_support::KEYGROUP']]],
   ['egsactive_19',['egsactive',['../structscxt_1_1engine_1_1Zone.html#abc75c2353e91c643f02849b5a40fd714',1,'scxt::engine::Zone::egsActive'],['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html#a46952fbc5703846ed645ab9832d215d2',1,'scxt::modulation::shared::HasModulators::egsActive']]],
@@ -108,5 +108,6 @@ var searchData=
   ['exclusivegroupnotesglyph_105',['exclusiveGroupNotesGlyph',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a3fab98fda8c679d7013bee2f214c0edf',1,'scxt::ui::app::edit_screen::GroupSettingsCard']]],
   ['expandableaddress_106',['expandableAddress',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea_1_1RowContents.html#ae0b3ff9ea8d227a2099cf5922a3589d0',1,'scxt::ui::app::browser_ui::DriveFSArea::RowContents']]],
   ['expression_107',['expression',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a8134e0286037cd60c93845471a45040e',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources']]],
-  ['externalsignallag_108',['externalSignalLag',['../structscxt_1_1engine_1_1Part.html#a9058676fd6eb2e16e68041a7fdafa252',1,'scxt::engine::Part']]]
+  ['expressionsid_108',['expressionSId',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a77826767d4f3b9c18ac64ddbc6aea051',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources']]],
+  ['externalsignallag_109',['externalSignalLag',['../structscxt_1_1engine_1_1Part.html#a9058676fd6eb2e16e68041a7fdafa252',1,'scxt::engine::Part']]]
 ];

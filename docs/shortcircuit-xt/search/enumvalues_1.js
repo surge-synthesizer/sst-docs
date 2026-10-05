@@ -9,7 +9,7 @@ var searchData=
   ['bg_5f2_6',['bg_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9',1,'scxt::ui::theme::ColorMap']]],
   ['bg_5f3_7',['bg_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf',1,'scxt::ui::theme::ColorMap']]],
   ['bg_5fmain_8',['bg_main',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aaf268a3dc1794d3b399d3e81a1dfb5a6',1,'scxt::ui::theme::ColorMap']]],
-  ['bipolar_9',['BIPOLAR',['../structscxt_1_1engine_1_1Macro.html#a46c8a310cf4c094f8c80e1cb8dc1f911a86a977d3a8f91d516f8be6b06b82cef4',1,'scxt::engine::Macro']]],
+  ['bipolar_9',['bipolar',['../structscxt_1_1engine_1_1Macro.html#a46c8a310cf4c094f8c80e1cb8dc1f911a86a977d3a8f91d516f8be6b06b82cef4',1,'scxt::engine::Macro::BIPOLAR'],['../namespacescxt_1_1modulation.html#a2e6562bc2d6b867d84bf0e095aadaec6ac153c3f18fcb53798bfbe1a98e8f9457',1,'scxt::modulation::BIPOLAR']]],
   ['bonsai_10',['bonsai',['../namespacescxt_1_1engine.html#acefc6050a5b9c5c80a81b073b07bee54a665955ec94c32107a77bfd2471612bd3',1,'scxt::engine']]],
   ['bool_5fneg_11',['BOOL_NEG',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a2376631779880674cf579e2338481c70',1,'scxt::modulation::modulators::RandomStorage']]],
   ['bool_5fpos_12',['BOOL_POS',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7a31bbf2244b683403b7e46ccc4d3476e6',1,'scxt::modulation::modulators::RandomStorage']]],

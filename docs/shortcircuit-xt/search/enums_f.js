@@ -7,8 +7,9 @@ var searchData=
   ['serializationtoclientmessageids_4',['SerializationToClientMessageIds',['../namespacescxt_1_1messaging_1_1client.html#a544ff326ddd6908ee4f7c19e8ba2a99b',1,'scxt::messaging::client']]],
   ['snappoint_5',['SnapPoint',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a0eeca3ef82bf064e8450b48e167ad555',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['source_6',['Source',['../structscxt_1_1modulation_1_1modulators_1_1EnvFollowerStorage.html#a8a68d69799ee35a1aeeca66e2f582adc',1,'scxt::modulation::modulators::EnvFollowerStorage']]],
-  ['sourcetype_7',['SourceType',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1',1,'scxt::sample::Sample']]],
-  ['streamreason_8',['StreamReason',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197',1,'scxt::engine::Engine']]],
-  ['style_9',['Style',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7',1,'scxt::modulation::modulators::RandomStorage']]],
-  ['syncmode_10',['SyncMode',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7d',1,'scxt::modulation::modulators::PhasorStorage']]]
+  ['sourcepolarity_7',['SourcePolarity',['../namespacescxt_1_1modulation.html#a2e6562bc2d6b867d84bf0e095aadaec6',1,'scxt::modulation']]],
+  ['sourcetype_8',['SourceType',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1',1,'scxt::sample::Sample']]],
+  ['streamreason_9',['StreamReason',['../structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197',1,'scxt::engine::Engine']]],
+  ['style_10',['Style',['../structscxt_1_1modulation_1_1modulators_1_1RandomStorage.html#addb2fa415e015ee482fa2cd9eba96af7',1,'scxt::modulation::modulators::RandomStorage']]],
+  ['syncmode_11',['SyncMode',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7d',1,'scxt::modulation::modulators::PhasorStorage']]]
 ];

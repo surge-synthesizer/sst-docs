@@ -20,7 +20,8 @@ var searchData=
   ['curvelfo_17',['CurveLFO',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFO.html',1,'scxt::modulation::modulators']]],
   ['curvelfopane_18',['CurveLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1CurveLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['curvelfostorage_19',['CurveLFOStorage',['../structscxt_1_1modulation_1_1modulators_1_1CurveLFOStorage.html',1,'scxt::modulation::modulators']]],
-  ['customdtev_20',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]],
-  ['customevent_21',['CustomEvent',['../structscxt_1_1perf_1_1CustomEvent.html',1,'scxt::perf']]],
-  ['customstepstypein_22',['CustomStepsTypein',['../structscxt_1_1ui_1_1app_1_1shared_1_1CustomStepsTypein.html',1,'scxt::ui::app::shared']]]
+  ['curvepolarity_20',['CurvePolarity',['../structscxt_1_1modulation_1_1CurvePolarity.html',1,'scxt::modulation']]],
+  ['customdtev_21',['CustomDTEV',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1CustomDTEV.html',1,'scxt::ui::app::edit_screen::MiscPanel']]],
+  ['customevent_22',['CustomEvent',['../structscxt_1_1perf_1_1CustomEvent.html',1,'scxt::perf']]],
+  ['customstepstypein_23',['CustomStepsTypein',['../structscxt_1_1ui_1_1app_1_1shared_1_1CustomStepsTypein.html',1,'scxt::ui::app::shared']]]
 ];
