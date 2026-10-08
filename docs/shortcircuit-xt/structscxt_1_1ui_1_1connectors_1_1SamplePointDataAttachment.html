@@ -124,6 +124,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a90559f541de445f1596f265442b9a2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d2f4146d2eafee5b2d2d77526e3e27" id="r_a30d2f4146d2eafee5b2d2d77526e3e27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a30d2f4146d2eafee5b2d2d77526e3e27">getDefaultValue</a> () const override</td></tr>
 <tr class="separator:a30d2f4146d2eafee5b2d2d77526e3e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b2533c25939de78fb523d47b0d15d1" id="r_aa8b2533c25939de78fb523d47b0d15d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#aa8b2533c25939de78fb523d47b0d15d1">setValueAsString</a> (const std::string &amp;s) override</td></tr>
+<tr class="separator:aa8b2533c25939de78fb523d47b0d15d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2811e183c67cc34c152b095089e89d9b" id="r_a2811e183c67cc34c152b095089e89d9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a2811e183c67cc34c152b095089e89d9b">trySetValueAsString</a> (const std::string &amp;s) override</td></tr>
+<tr class="separator:a2811e183c67cc34c152b095089e89d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f1b5450ebdcd444d99c9e40e107e65" id="r_a03f1b5450ebdcd444d99c9e40e107e65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a03f1b5450ebdcd444d99c9e40e107e65">jog</a> (int dir) override</td></tr>
 <tr class="separator:a03f1b5450ebdcd444d99c9e40e107e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38f79f8f0dcb499f925c3b838783128a" id="r_a38f79f8f0dcb499f925c3b838783128a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a38f79f8f0dcb499f925c3b838783128a">setValueFromModel</a> (const int &amp;f) override</td></tr>
@@ -143,6 +147,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a3f2efe1a712b968330f4372a5393f4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae23b038feafe8424ea8483f558be0aa5" id="r_ae23b038feafe8424ea8483f558be0aa5"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#ae23b038feafe8424ea8483f558be0aa5">jogIncrement</a> {0}</td></tr>
 <tr class="separator:ae23b038feafe8424ea8483f558be0aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45918b07af8dd067ab3f3220a36e06c5" id="r_a45918b07af8dd067ab3f3220a36e06c5"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(int64_t)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a45918b07af8dd067ab3f3220a36e06c5">onRelativeTypein</a> {nullptr}</td></tr>
+<tr class="separator:a45918b07af8dd067ab3f3220a36e06c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afcb58d67c8ee6cd1de63ac813901b50c" name="afcb58d67c8ee6cd1de63ac813901b50c"></a>
@@ -365,6 +371,64 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa8b2533c25939de78fb523d47b0d15d1" name="aa8b2533c25939de78fb523d47b0d15d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8b2533c25939de78fb523d47b0d15d1">&#9670;&#160;</a></span>setValueAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setValueAsString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a2811e183c67cc34c152b095089e89d9b">SamplePointDataAttachment::trySetValueAsString()</a>.</p>
+
+</div>
+</div>
+<a id="a2811e183c67cc34c152b095089e89d9b" name="a2811e183c67cc34c152b095089e89d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2811e183c67cc34c152b095089e89d9b">&#9670;&#160;</a></span>trySetValueAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool trySetValueAsString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a45918b07af8dd067ab3f3220a36e06c5">SamplePointDataAttachment::onRelativeTypein</a>, and <a class="el" href="namespacescxt.html#ad2eb306840f06aa231551edf9e2d5891">scxt::parseRelativeTypein()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#aa8b2533c25939de78fb523d47b0d15d1">SamplePointDataAttachment::setValueAsString()</a>.</p>
+
+</div>
+</div>
 <a id="a03f1b5450ebdcd444d99c9e40e107e65" name="a03f1b5450ebdcd444d99c9e40e107e65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03f1b5450ebdcd444d99c9e40e107e65">&#9670;&#160;</a></span>jog()</h2>
 
@@ -518,13 +582,29 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a45918b07af8dd067ab3f3220a36e06c5" name="a45918b07af8dd067ab3f3220a36e06c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45918b07af8dd067ab3f3220a36e06c5">&#9670;&#160;</a></span>onRelativeTypein</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(int64_t)&gt; onRelativeTypein {nullptr}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1SamplePointDataAttachment.html#a2811e183c67cc34c152b095089e89d9b">SamplePointDataAttachment::trySetValueAsString()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="PayloadDataAttachment_8h.html">PayloadDataAttachment.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 8 2026 12:57:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 8 2026 22:17:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

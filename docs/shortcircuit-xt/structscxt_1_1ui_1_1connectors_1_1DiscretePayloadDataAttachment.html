@@ -121,6 +121,11 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a5809cfd466277a0205fbf91553cf6ac5" id="r_a5809cfd466277a0205fbf91553cf6ac5"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5">Typein</a> { <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5ad693bc5a3a1f9fb1e12d52909d9c38ac">NOT_TYPED</a>
+, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5a870927df2420f137620bf9603a963e40">TYPED_VALUE</a>
+, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5a6e349202cd58cb73274c078fd3a637b4">TYPED_SHIFT</a>
+ }</td></tr>
+<tr class="separator:a5809cfd466277a0205fbf91553cf6ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39fdedd5f80b698a95a280caacf28c7b" id="r_a39fdedd5f80b698a95a280caacf28c7b"><td class="memItemLeft" align="right" valign="top">typedef Payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a39fdedd5f80b698a95a280caacf28c7b">payload_t</a></td></tr>
 <tr class="separator:a39fdedd5f80b698a95a280caacf28c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1d5121c2925fb57a77fa6f324a8a950" id="r_aa1d5121c2925fb57a77fa6f324a8a950"><td class="memItemLeft" align="right" valign="top">typedef ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#aa1d5121c2925fb57a77fa6f324a8a950">value_t</a></td></tr>
@@ -179,6 +184,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7406f3e85fbb320d73cd65d9d20398c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18c6df154817cbf6ef50f557b79fed3b" id="r_a18c6df154817cbf6ef50f557b79fed3b"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a18c6df154817cbf6ef50f557b79fed3b">valueToString</a> {nullptr}</td></tr>
 <tr class="separator:a18c6df154817cbf6ef50f557b79fed3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15c8bf7be90101c4a08c748b93bce1b" id="r_ac15c8bf7be90101c4a08c748b93bce1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5">Typein</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ac15c8bf7be90101c4a08c748b93bce1b">typein</a> {<a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5ad693bc5a3a1f9fb1e12d52909d9c38ac">Typein::NOT_TYPED</a>}</td></tr>
+<tr class="separator:ac15c8bf7be90101c4a08c748b93bce1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63df2c7edb4df5098ccc0e224fd23ed7" id="r_a63df2c7edb4df5098ccc0e224fd23ed7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a63df2c7edb4df5098ccc0e224fd23ed7">acceptsRelativeTypein</a> {false}</td></tr>
+<tr class="separator:a63df2c7edb4df5098ccc0e224fd23ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdd7ba97b72b71d2bdb8e41512daa08e" id="r_afdd7ba97b72b71d2bdb8e41512daa08e"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::optional&lt; float &gt;(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#afdd7ba97b72b71d2bdb8e41512daa08e">stringToValue</a> {nullptr}</td></tr>
 <tr class="separator:afdd7ba97b72b71d2bdb8e41512daa08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -228,6 +237,36 @@ template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a5809cfd466277a0205fbf91553cf6ac5" name="a5809cfd466277a0205fbf91553cf6ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5809cfd466277a0205fbf91553cf6ac5">&#9670;&#160;</a></span>Typein</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum struct <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5">Typein</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5809cfd466277a0205fbf91553cf6ac5ad693bc5a3a1f9fb1e12d52909d9c38ac" name="a5809cfd466277a0205fbf91553cf6ac5ad693bc5a3a1f9fb1e12d52909d9c38ac"></a>NOT_TYPED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5809cfd466277a0205fbf91553cf6ac5a870927df2420f137620bf9603a963e40" name="a5809cfd466277a0205fbf91553cf6ac5a870927df2420f137620bf9603a963e40"></a>TYPED_VALUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5809cfd466277a0205fbf91553cf6ac5a6e349202cd58cb73274c078fd3a637b4" name="a5809cfd466277a0205fbf91553cf6ac5a6e349202cd58cb73274c078fd3a637b4"></a>TYPED_SHIFT&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -675,7 +714,7 @@ template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a7406f3e85fbb320d73cd65d9d20398c4">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::description</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#abb8c9ae8337003286f380f7566290396">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#afdd7ba97b72b71d2bdb8e41512daa08e">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::stringToValue</a>, and <a class="el" href="namespacescxt_1_1ui_1_1connectors.html#a612f5ae9e9fe09cd65b274db0604b844">scxt::ui::connectors::valueFromStringClamped()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a63df2c7edb4df5098ccc0e224fd23ed7">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::acceptsRelativeTypein</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a7406f3e85fbb320d73cd65d9d20398c4">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::description</a>, <a class="el" href="namespacescxt.html#ad2eb306840f06aa231551edf9e2d5891">scxt::parseRelativeTypein()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#abb8c9ae8337003286f380f7566290396">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#afdd7ba97b72b71d2bdb8e41512daa08e">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::stringToValue</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5a6e349202cd58cb73274c078fd3a637b4">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::TYPED_SHIFT</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5a870927df2420f137620bf9603a963e40">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::TYPED_VALUE</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#ac15c8bf7be90101c4a08c748b93bce1b">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::typein</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a3e0b4bdde6c4224c83e79535eca73054">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::value</a>, and <a class="el" href="namespacescxt_1_1ui_1_1connectors.html#a612f5ae9e9fe09cd65b274db0604b844">scxt::ui::connectors::valueFromStringClamped()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#aa8b2533c25939de78fb523d47b0d15d1">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueAsString()</a>.</p>
 
@@ -718,7 +757,7 @@ template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a6016e7c4b100464fe6bcddd745b1e1c9">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::getValue()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#abb8c9ae8337003286f380f7566290396">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUI()</a>, and <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a38f79f8f0dcb499f925c3b838783128a">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromModel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a6016e7c4b100464fe6bcddd745b1e1c9">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::getValue()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#abb8c9ae8337003286f380f7566290396">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromGUI()</a>, <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a38f79f8f0dcb499f925c3b838783128a">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::setValueFromModel()</a>, and <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a2811e183c67cc34c152b095089e89d9b">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::trySetValueAsString()</a>.</p>
 
 </div>
 </div>
@@ -828,6 +867,42 @@ template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
 
 </div>
 </div>
+<a id="ac15c8bf7be90101c4a08c748b93bce1b" name="ac15c8bf7be90101c4a08c748b93bce1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15c8bf7be90101c4a08c748b93bce1b">&#9670;&#160;</a></span>typein</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5">Typein</a> typein {<a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5ad693bc5a3a1f9fb1e12d52909d9c38ac">Typein::NOT_TYPED</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a2811e183c67cc34c152b095089e89d9b">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::trySetValueAsString()</a>.</p>
+
+</div>
+</div>
+<a id="a63df2c7edb4df5098ccc0e224fd23ed7" name="a63df2c7edb4df5098ccc0e224fd23ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63df2c7edb4df5098ccc0e224fd23ed7">&#9670;&#160;</a></span>acceptsRelativeTypein</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool acceptsRelativeTypein {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a2811e183c67cc34c152b095089e89d9b">DiscretePayloadDataAttachment&lt; Payload, ValueType &gt;::trySetValueAsString()</a>.</p>
+
+</div>
+</div>
 <a id="afdd7ba97b72b71d2bdb8e41512daa08e" name="afdd7ba97b72b71d2bdb8e41512daa08e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afdd7ba97b72b71d2bdb8e41512daa08e">&#9670;&#160;</a></span>stringToValue</h2>
 
@@ -852,7 +927,7 @@ template&lt;typename Payload , typename ValueType  = int32_t&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 8 2026 12:57:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 8 2026 22:17:13 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

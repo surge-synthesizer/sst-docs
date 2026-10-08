@@ -14,5 +14,7 @@ var searchData=
   ['true_5frandom_11',['TRUE_RANDOM',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a6deb1c96c47d5c476bde70203a08f5ac',1,'scxt::engine::Zone']]],
   ['tune_12',['tune',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1VariantDisplay.html#a8c72c82f024ad6af2e49918de816504fa376efa6acf22da44967294ac3dd6c048',1,'scxt::ui::app::edit_screen::VariantDisplay']]],
   ['tuning_13',['TUNING',['../structscxt_1_1voice_1_1Voice.html#a9f6182ae4bcf0e9884551120d9efcef9a2041c953e2505185f31b2e4f74545853',1,'scxt::voice::Voice']]],
-  ['twelve_5ftet_14',['twelve_tet',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c',1,'scxt::tuning::MidikeyRetuner::TWELVE_TET'],['../structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278a758a8a035a3010c78c2baf98902e2a43',1,'scxt::engine::Engine::TWELVE_TET']]]
+  ['twelve_5ftet_14',['twelve_tet',['../structscxt_1_1tuning_1_1MidikeyRetuner.html#a63674c70cc3037c6ac5a8b4ec8424278ae4adf3104b3688c1710460a7afe3935c',1,'scxt::tuning::MidikeyRetuner::TWELVE_TET'],['../structscxt_1_1engine_1_1Engine.html#a63674c70cc3037c6ac5a8b4ec8424278a758a8a035a3010c78c2baf98902e2a43',1,'scxt::engine::Engine::TWELVE_TET']]],
+  ['typed_5fshift_15',['TYPED_SHIFT',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5a6e349202cd58cb73274c078fd3a637b4',1,'scxt::ui::connectors::DiscretePayloadDataAttachment']]],
+  ['typed_5fvalue_16',['TYPED_VALUE',['../structscxt_1_1ui_1_1connectors_1_1DiscretePayloadDataAttachment.html#a5809cfd466277a0205fbf91553cf6ac5a870927df2420f137620bf9603a963e40',1,'scxt::ui::connectors::DiscretePayloadDataAttachment']]]
 ];
