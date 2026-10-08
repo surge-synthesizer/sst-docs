@@ -113,15 +113,19 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes_1_1Entry.html">Entry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes_1_1Released.html">Released</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8bb3912a3ce86b15842e79d0b421204" id="r_ac8bb3912a3ce86b15842e79d0b421204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac8bb3912a3ce86b15842e79d0b421204">clear</a> ()</td></tr>
 <tr class="separator:ac8bb3912a3ce86b15842e79d0b421204"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7fbdd6b3303a4aab9265a2d67a64b16" id="r_ac7fbdd6b3303a4aab9265a2d67a64b16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac7fbdd6b3303a4aab9265a2d67a64b16">noteOn</a> (int16_t channel, int16_t key, int32_t noteId, float velocity)</td></tr>
-<tr class="separator:ac7fbdd6b3303a4aab9265a2d67a64b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e82e9b055d5149cd4c2ea4314db3cf9" id="r_a0e82e9b055d5149cd4c2ea4314db3cf9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a0e82e9b055d5149cd4c2ea4314db3cf9">releaseNote</a> (int16_t channel, int16_t key, int32_t noteId)</td></tr>
-<tr class="separator:a0e82e9b055d5149cd4c2ea4314db3cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a933636d391dc07a2950744c2a1f60a" id="r_a4a933636d391dc07a2950744c2a1f60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a4a933636d391dc07a2950744c2a1f60a">noteOn</a> (int16_t channel, int16_t key, int32_t noteId, float velocity, uint64_t pressedAt=0)</td></tr>
+<tr class="separator:a4a933636d391dc07a2950744c2a1f60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60bd4174ac50d3b3e757bd94ce104e20" id="r_a60bd4174ac50d3b3e757bd94ce104e20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1HeldNotes_1_1Released.html">Released</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a60bd4174ac50d3b3e757bd94ce104e20">releaseNote</a> (int16_t channel, int16_t key, int32_t noteId)</td></tr>
+<tr class="separator:a60bd4174ac50d3b3e757bd94ce104e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4bb6dcad1bba86d90b9e66259865d09" id="r_ac4bb6dcad1bba86d90b9e66259865d09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac4bb6dcad1bba86d90b9e66259865d09">setDice</a> (int16_t channel, int16_t key, int32_t noteId, size_t part, float d)</td></tr>
+<tr class="separator:ac4bb6dcad1bba86d90b9e66259865d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d729ef67da65ef732ad36885246194f" id="r_a7d729ef67da65ef732ad36885246194f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a7d729ef67da65ef732ad36885246194f">velocityFor</a> (int16_t channel, int16_t key, int32_t noteId) const</td></tr>
 <tr class="separator:a7d729ef67da65ef732ad36885246194f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa00776aaab61175da509e5f28a78dc02" id="r_aa00776aaab61175da509e5f28a78dc02"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#aa00776aaab61175da509e5f28a78dc02">heldCount</a> () const</td></tr>
@@ -166,8 +170,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7fbdd6b3303a4aab9265a2d67a64b16" name="ac7fbdd6b3303a4aab9265a2d67a64b16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7fbdd6b3303a4aab9265a2d67a64b16">&#9670;&#160;</a></span>noteOn()</h2>
+<a id="a4a933636d391dc07a2950744c2a1f60a" name="a4a933636d391dc07a2950744c2a1f60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a933636d391dc07a2950744c2a1f60a">&#9670;&#160;</a></span>noteOn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +198,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>velocity</em>&#160;</td>
+          <td class="paramname"><em>velocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>pressedAt</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -208,14 +218,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e82e9b055d5149cd4c2ea4314db3cf9" name="a0e82e9b055d5149cd4c2ea4314db3cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e82e9b055d5149cd4c2ea4314db3cf9">&#9670;&#160;</a></span>releaseNote()</h2>
+<a id="a60bd4174ac50d3b3e757bd94ce104e20" name="a60bd4174ac50d3b3e757bd94ce104e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60bd4174ac50d3b3e757bd94ce104e20">&#9670;&#160;</a></span>releaseNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float releaseNote </td>
+          <td class="memname"><a class="el" href="structscxt_1_1engine_1_1HeldNotes_1_1Released.html">Released</a> releaseNote </td>
           <td>(</td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>channel</em>, </td>
@@ -240,7 +250,57 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a0f7d70cd812c7f986ca276b38c3fb68f">HeldNotes::entries</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a0f7d70cd812c7f986ca276b38c3fb68f">HeldNotes::entries</a>, and <a class="el" href="structscxt_1_1engine_1_1HeldNotes_1_1Released.html#ac46e821ae08930cc9e257642e34275a3">HeldNotes::Released::velocity</a>.</p>
+
+</div>
+</div>
+<a id="ac4bb6dcad1bba86d90b9e66259865d09" name="ac4bb6dcad1bba86d90b9e66259865d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4bb6dcad1bba86d90b9e66259865d09">&#9670;&#160;</a></span>setDice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDice </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>noteId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1HeldNotes_1_1Entry.html#aa637ca74a8288a5b98af21d71f8ef2d0">HeldNotes::Entry::dice</a>, and <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a0f7d70cd812c7f986ca276b38c3fb68f">HeldNotes::entries</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">Engine::findZone()</a>.</p>
 
 </div>
 </div>
@@ -320,7 +380,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac7fbdd6b3303a4aab9265a2d67a64b16">HeldNotes::noteOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a4a933636d391dc07a2950744c2a1f60a">HeldNotes::noteOn()</a>.</p>
 
 </div>
 </div>
@@ -336,7 +396,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac8bb3912a3ce86b15842e79d0b421204">HeldNotes::clear()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#aa00776aaab61175da509e5f28a78dc02">HeldNotes::heldCount()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac7fbdd6b3303a4aab9265a2d67a64b16">HeldNotes::noteOn()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a0e82e9b055d5149cd4c2ea4314db3cf9">HeldNotes::releaseNote()</a>, and <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a7d729ef67da65ef732ad36885246194f">HeldNotes::velocityFor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac8bb3912a3ce86b15842e79d0b421204">HeldNotes::clear()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#aa00776aaab61175da509e5f28a78dc02">HeldNotes::heldCount()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a4a933636d391dc07a2950744c2a1f60a">HeldNotes::noteOn()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a60bd4174ac50d3b3e757bd94ce104e20">HeldNotes::releaseNote()</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac4bb6dcad1bba86d90b9e66259865d09">HeldNotes::setDice()</a>, and <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a7d729ef67da65ef732ad36885246194f">HeldNotes::velocityFor()</a>.</p>
 
 </div>
 </div>
@@ -352,7 +412,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac8bb3912a3ce86b15842e79d0b421204">HeldNotes::clear()</a>, and <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac7fbdd6b3303a4aab9265a2d67a64b16">HeldNotes::noteOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac8bb3912a3ce86b15842e79d0b421204">HeldNotes::clear()</a>, and <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#a4a933636d391dc07a2950744c2a1f60a">HeldNotes::noteOn()</a>.</p>
 
 </div>
 </div>
@@ -362,7 +422,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 5 2026 19:25:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 8 2026 12:57:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

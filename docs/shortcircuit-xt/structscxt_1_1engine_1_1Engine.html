@@ -145,6 +145,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1StreamGuard.html">StreamGuard</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1SustainPedalState.html">SustainPedalState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1UnstreamGuard.html">UnstreamGuard</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine_1_1VariantToAdd.html">VariantToAdd</a></td></tr>
@@ -260,12 +262,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a11beb9fd52d4b4aec6743a7bfbf17366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16551e1b6c8c878cee39bca5885bff56" id="r_a16551e1b6c8c878cee39bca5885bff56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a16551e1b6c8c878cee39bca5885bff56">processNoteOffEvent</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id, double velocity)</td></tr>
 <tr class="separator:a16551e1b6c8c878cee39bca5885bff56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b293176505b59641f5f30f208bef7d8" id="r_a4b293176505b59641f5f30f208bef7d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a4b293176505b59641f5f30f208bef7d8">inReleaseTriggerPass</a> () const</td></tr>
+<tr class="separator:a4b293176505b59641f5f30f208bef7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a995401d6c5566bbefbf2044d5c9abc8a" id="r_a995401d6c5566bbefbf2044d5c9abc8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a995401d6c5566bbefbf2044d5c9abc8a">fireReleaseTriggers</a> (int16_t port, int16_t channel, int16_t key, int32_t note_id)</td></tr>
 <tr class="separator:a995401d6c5566bbefbf2044d5c9abc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ecb9e1f0f487886b80709db0c326e0" id="r_ae8ecb9e1f0f487886b80709db0c326e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ae8ecb9e1f0f487886b80709db0c326e0">anyGroupCreatesVoicesOnRelease</a> () const</td></tr>
 <tr class="separator:ae8ecb9e1f0f487886b80709db0c326e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42956fefe79e94e3d76189d909449f36" id="r_a42956fefe79e94e3d76189d909449f36"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a42956fefe79e94e3d76189d909449f36">secondsSince</a> (uint64_t sampleCount) const</td></tr>
+<tr class="separator:a42956fefe79e94e3d76189d909449f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7015bf8f805850417aaee38ddd6de37" id="r_ac7015bf8f805850417aaee38ddd6de37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ac7015bf8f805850417aaee38ddd6de37">processSustainPedalEvent</a> (int16_t port, int16_t channel, int16_t value)</td></tr>
+<tr class="separator:ac7015bf8f805850417aaee38ddd6de37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0685fc6148429f80ee8ad0a4cb710ab3" id="r_a0685fc6148429f80ee8ad0a4cb710ab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a0685fc6148429f80ee8ad0a4cb710ab3">firePedalTriggers</a> (int16_t channel, double heldSeconds)</td></tr>
+<tr class="separator:a0685fc6148429f80ee8ad0a4cb710ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ac9d2a31cd2ed50d674c21e8a5dd00" id="r_a22ac9d2a31cd2ed50d674c21e8a5dd00"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a22ac9d2a31cd2ed50d674c21e8a5dd00"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a22ac9d2a31cd2ed50d674c21e8a5dd00">forEachPedalZone</a> (int16_t channel, bool askRoundRobin, F &amp;&amp;f)</td></tr>
+<tr class="separator:a22ac9d2a31cd2ed50d674c21e8a5dd00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac12ce4d47f65009d40460b7a2a424260" id="r_ac12ce4d47f65009d40460b7a2a424260"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">findZone</a> (int16_t channel, int16_t key, int16_t midiKey, int32_t noteId, int16_t velocity, std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a>, maxVoices &gt; &amp;res)</td></tr>
 <tr class="separator:ac12ce4d47f65009d40460b7a2a424260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab3d0f201afc66885c13ea4742c759a" id="r_afab3d0f201afc66885c13ea4742c759a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#afab3d0f201afc66885c13ea4742c759a">findPedalZones</a> (int16_t channel, int16_t key, std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a>, maxVoices &gt; &amp;res)</td></tr>
+<tr class="separator:afab3d0f201afc66885c13ea4742c759a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbd0c36c9e9fefb1b9bd668f87cf3ec8" id="r_abbd0c36c9e9fefb1b9bd668f87cf3ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#abbd0c36c9e9fefb1b9bd668f87cf3ec8">onPartConfigurationUpdated</a> ()</td></tr>
 <tr class="separator:abbd0c36c9e9fefb1b9bd668f87cf3ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dbc1d823bc4b11e1003ed9406f99bab" id="r_a5dbc1d823bc4b11e1003ed9406f99bab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a5dbc1d823bc4b11e1003ed9406f99bab">pollMTSStatus</a> ()</td></tr>
@@ -469,8 +484,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6f225a729ef9e976b6234e840235e010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af98678d7234716978944f4bb1b78b353" id="r_af98678d7234716978944f4bb1b78b353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1engine_1_1HeldNotes.html">HeldNotes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af98678d7234716978944f4bb1b78b353">heldNotes</a></td></tr>
 <tr class="separator:af98678d7234716978944f4bb1b78b353"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad288d5b9b8737890461d223d6fd1f909" id="r_ad288d5b9b8737890461d223d6fd1f909"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ad288d5b9b8737890461d223d6fd1f909">inReleaseTriggerPass</a> {false}</td></tr>
-<tr class="separator:ad288d5b9b8737890461d223d6fd1f909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab381cdba59d4ae23ab8a8ce8a7ed30dd" id="r_ab381cdba59d4ae23ab8a8ce8a7ed30dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9d">VoiceCreationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#ab381cdba59d4ae23ab8a8ce8a7ed30dd">voiceCreationPass</a> {<a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da2bf36759a2c4498f0f44fd09db37719c">VoiceCreationMode::ON_NOTE_ON</a>}</td></tr>
+<tr class="separator:ab381cdba59d4ae23ab8a8ce8a7ed30dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d4fcb92ad6234555f365d810b60283" id="r_a44d4fcb92ad6234555f365d810b60283"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a44d4fcb92ad6234555f365d810b60283">samplesProcessed</a> {0}</td></tr>
+<tr class="separator:a44d4fcb92ad6234555f365d810b60283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a1180ca47b912e80913b8579f57ac8" id="r_a50a1180ca47b912e80913b8579f57ac8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a50a1180ca47b912e80913b8579f57ac8">ungatedPassHeldSeconds</a> {0.0}</td></tr>
+<tr class="separator:a50a1180ca47b912e80913b8579f57ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df99349e688c355d60a4f80db88e66c" id="r_a5df99349e688c355d60a4f80db88e66c"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, numParts &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a5df99349e688c355d60a4f80db88e66c">releasePassDice</a> {}</td></tr>
+<tr class="separator:a5df99349e688c355d60a4f80db88e66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43aa0a4dcd2b8bcf93ba269486e2d8d8" id="r_a43aa0a4dcd2b8bcf93ba269486e2d8d8"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SustainPedalState.html">SustainPedalState</a>, 16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a43aa0a4dcd2b8bcf93ba269486e2d8d8">sustainPedal</a> {}</td></tr>
+<tr class="separator:a43aa0a4dcd2b8bcf93ba269486e2d8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23174a8e7a1c4ec2dac457d59320cdd6" id="r_a23174a8e7a1c4ec2dac457d59320cdd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1tuning_1_1MidikeyRetuner.html">tuning::MidikeyRetuner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a23174a8e7a1c4ec2dac457d59320cdd6">midikeyRetuner</a></td></tr>
 <tr class="separator:a23174a8e7a1c4ec2dac457d59320cdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ffe5454fc0d3426e152fbf9a8f0dcab" id="r_a7ffe5454fc0d3426e152fbf9a8f0dcab"><td class="memItemLeft" align="right" valign="top">std::chrono::steady_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a7ffe5454fc0d3426e152fbf9a8f0dcab">lastMTSPoll</a> {}</td></tr>
@@ -557,6 +580,10 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:a09530c5b166306dda1171e25255e9811" id="r_a09530c5b166306dda1171e25255e9811"><td class="memItemLeft" align="right" valign="top">static constexpr int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a09530c5b166306dda1171e25255e9811">pedalLiftThreshold</a> {32}</td></tr>
+<tr class="separator:a09530c5b166306dda1171e25255e9811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80b06dda5ddc8df105db873be483344" id="r_af80b06dda5ddc8df105db873be483344"><td class="memItemLeft" align="right" valign="top">static constexpr int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#af80b06dda5ddc8df105db873be483344">pedalTriggerPort</a> {0x7ff0}</td></tr>
+<tr class="separator:af80b06dda5ddc8df105db873be483344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb7d09c37d516b4927372787adb49944" id="r_abb7d09c37d516b4927372787adb49944"><td class="memItemLeft" align="right" valign="top">static constexpr int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#abb7d09c37d516b4927372787adb49944">voiceAlternateCycle</a> {6}</td></tr>
 <tr class="separator:abb7d09c37d516b4927372787adb49944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8920c60f8387f751a912efee95fb4040" id="r_a8920c60f8387f751a912efee95fb4040"><td class="memItemLeft" align="right" valign="top">static thread_local bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Engine.html#a8920c60f8387f751a912efee95fb4040">isFullEngineUnstream</a> {false}</td></tr>
@@ -900,7 +927,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#af2636d51bad150d277e2c591026bf451">scxt::dsp::dbTable</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#ae55da7faec96652ea65feca13f140c1f">scxt::infrastructure::defaultKeyToString()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#a37a75669a59d1872dd555c2cbb2ff99f">Engine::RuntimeConfig::defaultOmniFlavor</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1a175b7ffd36f23f83ef92d0cc29ca0e">Engine::defaults</a>, <a class="el" href="namespacescxt_1_1tuning.html#ac8cbe86b3c537de9185840488db5fffd">scxt::tuning::equalTuning</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">ModulationCurves::initializeCurves()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#ad7068171b1e9bb4b75a9bcbf7a92f3b5">Engine::RuntimeConfig::omniFlavor</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4ac3e0d3f9321bb9de8d8e5ae02f1f39c1">scxt::infrastructure::omniFlavor</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abbd0c36c9e9fefb1b9bd668f87cf3ec8">Engine::onPartConfigurationUpdated()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">Engine::previewVoice</a>, <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">Engine::rng</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af5f29f40494d6049bcbf5780c05391bd">Engine::runtimeConfig</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#a63757564d0a6f83fa96e2918ce997258">scxt::datamodel::detail::seedAllMetadata()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ade06c9ce7727d45db7db306b2ef0cc28">Engine::setStereoOutputs()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2951f78572a5ff5b8248f1b07f2394e8">Engine::setupUserStorageDirectory()</a>, <a class="el" href="namespacescxt_1_1dsp.html#ae2fb008938e299eebe04d7e65922bfed">scxt::dsp::sincTable</a>, <a class="el" href="namespacescxt_1_1voice_1_1modulation.html#a2cbdcdbd0ad43fe4d015e735b0930c30">scxt::voice::modulation::sourcesForScanning()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a58d20eccf58560e54ab156443c42e71a">scxt::dsp::twentyFiveSecondExpTable</a>, <a class="el" href="namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2">scxt::dsp::twoToTheXTable</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ae77fdbda6bac4c14ffc9c628321cde2a">scxt::dsp::processor::warmUpAllProcessors()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#af2636d51bad150d277e2c591026bf451">scxt::dsp::dbTable</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#ae55da7faec96652ea65feca13f140c1f">scxt::infrastructure::defaultKeyToString()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#a37a75669a59d1872dd555c2cbb2ff99f">Engine::RuntimeConfig::defaultOmniFlavor</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1a175b7ffd36f23f83ef92d0cc29ca0e">Engine::defaults</a>, <a class="el" href="namespacescxt_1_1tuning.html#ac8cbe86b3c537de9185840488db5fffd">scxt::tuning::equalTuning</a>, <a class="el" href="structscxt_1_1modulation_1_1ModulationCurves.html#a455f9e172551691f25ea9c79814d6c37">ModulationCurves::initializeCurves()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1RuntimeConfig.html#ad7068171b1e9bb4b75a9bcbf7a92f3b5">Engine::RuntimeConfig::omniFlavor</a>, <a class="el" href="namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4ac3e0d3f9321bb9de8d8e5ae02f1f39c1">scxt::infrastructure::omniFlavor</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abbd0c36c9e9fefb1b9bd668f87cf3ec8">Engine::onPartConfigurationUpdated()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af80b06dda5ddc8df105db873be483344">Engine::pedalTriggerPort</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">Engine::previewVoice</a>, <a class="el" href="utils_8h.html#ace79af729b9eeb0f5538604349a848ef">RAISE_ERROR_CONT</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">Engine::rng</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af5f29f40494d6049bcbf5780c05391bd">Engine::runtimeConfig</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1datamodel_1_1detail.html#a63757564d0a6f83fa96e2918ce997258">scxt::datamodel::detail::seedAllMetadata()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ade06c9ce7727d45db7db306b2ef0cc28">Engine::setStereoOutputs()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2951f78572a5ff5b8248f1b07f2394e8">Engine::setupUserStorageDirectory()</a>, <a class="el" href="namespacescxt_1_1dsp.html#ae2fb008938e299eebe04d7e65922bfed">scxt::dsp::sincTable</a>, <a class="el" href="namespacescxt_1_1voice_1_1modulation.html#a2cbdcdbd0ad43fe4d015e735b0930c30">scxt::voice::modulation::sourcesForScanning()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a58d20eccf58560e54ab156443c42e71a">scxt::dsp::twentyFiveSecondExpTable</a>, <a class="el" href="namespacescxt_1_1dsp.html#a37e1ac638f00bb1ee9aee36b1f4708d2">scxt::dsp::twoToTheXTable</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d">Engine::voiceManager</a>, and <a class="el" href="namespacescxt_1_1dsp_1_1processor.html#ae77fdbda6bac4c14ffc9c628321cde2a">scxt::dsp::processor::warmUpAllProcessors()</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1065,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Process into an array of size stereoOutputs * 2 * blocksize. </p>
 <p>Returns true if processing should continue </p>
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea048e03647a42bc8e9399b401bbf2736f">scxt::messaging::audio::a2s_schedule_sample_purge</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">Engine::activeVoices</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1c1a3cd42909b90fc0f629a29a06788d">Engine::assertActiveVoiceCount()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515">Engine::SharedUIMemoryState::busVULevels</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#aeaf6dcbb7fe820bb38a6c60a81870009">Engine::SharedUIMemoryState::cpuLevel</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a8de814111543faf6d9e13b80b5456423">Engine::drainSerialToEngineQueue()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a30225440821992fa21ff85f0284451f1">Engine::SharedUIMemoryState::forceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1142de052c0968c97d403c56d76698a6">Engine::forceVoiceUpdate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#aa7c0e8c9cc04c5f1945436c389d963ab">AudioToSerialization::id</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3b949281fdbab90ee09d7a7dcad0e175">Engine::lastMidiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2f185d52aeeded7eb9b83bbbdc577833">Engine::lastUpdateVoiceDisplayState</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e8c48e241fc0b987f3884e34c861f3a">Engine::lastVoiceDisplayCreationId</a>, <a class="el" href="akai-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1RamUsageState.html#ab194ec8bee129d9408b84f3983c86471">Engine::SharedUIMemoryState::RamUsageState::memoryPool</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac2a579006ef9e2e2fb89eea500856522">Engine::midiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a507c2ea95864633e880d69db1ad30d94">Engine::nextVoiceCreationId</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ac157bdf0b85a40d2619cbc8bc1ae5fe2">AudioToSerialization::NONE</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">Engine::previewVoice</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a53a89ea2223b94a1d272c4eaf4743c3a">Engine::SharedUIMemoryState::ramUsage</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1RamUsageState.html#a771dc7b8296d862c4a2f333b42d0e9f7">Engine::SharedUIMemoryState::RamUsageState::sampleMemory</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7c4509a50792c8b1f7050e220e791bb0">Engine::sendSamplePosition</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9bbc52323b419776f6a21d0d44a938ee">Engine::sharedUIMemoryState</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a1ab490323e86700dec6b950f79b58968">Engine::SharedUIMemoryState::soundingGroups</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a3ff20e8ed51012bcde0bf5d8cfac47c6">Engine::SharedUIMemoryState::soundingGroupsWriteCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a76662573e0462aca22d3018003cb09ae">Engine::updateVoiceDisplayStateEvery</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#af62beb4a64abc4f62fda610645e9524c">Engine::SharedUIMemoryState::voiceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7a37043aee9af5106e72c49ccdde816e">Engine::SharedUIMemoryState::voiceDisplayItems</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a408a95b412a5479d84121bae03afed35">Engine::SharedUIMemoryState::voiceDisplayStateWriteCounter</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eea048e03647a42bc8e9399b401bbf2736f">scxt::messaging::audio::a2s_schedule_sample_purge</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a96b989bf1cfed06d1649d8f09644acf0">Engine::activeVoices</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1c1a3cd42909b90fc0f629a29a06788d">Engine::assertActiveVoiceCount()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7b2c9dc9b33eb8ab2b5cd862cf4ab515">Engine::SharedUIMemoryState::busVULevels</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#aeaf6dcbb7fe820bb38a6c60a81870009">Engine::SharedUIMemoryState::cpuLevel</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a8de814111543faf6d9e13b80b5456423">Engine::drainSerialToEngineQueue()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a30225440821992fa21ff85f0284451f1">Engine::SharedUIMemoryState::forceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a1142de052c0968c97d403c56d76698a6">Engine::forceVoiceUpdate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#aa7c0e8c9cc04c5f1945436c389d963ab">AudioToSerialization::id</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a3b949281fdbab90ee09d7a7dcad0e175">Engine::lastMidiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a2f185d52aeeded7eb9b83bbbdc577833">Engine::lastUpdateVoiceDisplayState</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7e8c48e241fc0b987f3884e34c861f3a">Engine::lastVoiceDisplayCreationId</a>, <a class="el" href="akai-dump_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1RamUsageState.html#ab194ec8bee129d9408b84f3983c86471">Engine::SharedUIMemoryState::RamUsageState::memoryPool</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac2a579006ef9e2e2fb89eea500856522">Engine::midiNoteStateCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a507c2ea95864633e880d69db1ad30d94">Engine::nextVoiceCreationId</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ac157bdf0b85a40d2619cbc8bc1ae5fe2">AudioToSerialization::NONE</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a6d7bb6ab097f1dbb2cd9aec01cef2986">Engine::previewVoice</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a53a89ea2223b94a1d272c4eaf4743c3a">Engine::SharedUIMemoryState::ramUsage</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState_1_1RamUsageState.html#a771dc7b8296d862c4a2f333b42d0e9f7">Engine::SharedUIMemoryState::RamUsageState::sampleMemory</a>, <a class="el" href="structscxt_1_1SampleRateSupport.html#a2bd79d2ab2dfb6aeaf75c2878ad30e1f">SampleRateSupport::sampleRate</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a44d4fcb92ad6234555f365d810b60283">Engine::samplesProcessed</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a7c4509a50792c8b1f7050e220e791bb0">Engine::sendSamplePosition</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9bbc52323b419776f6a21d0d44a938ee">Engine::sharedUIMemoryState</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a1ab490323e86700dec6b950f79b58968">Engine::SharedUIMemoryState::soundingGroups</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a3ff20e8ed51012bcde0bf5d8cfac47c6">Engine::SharedUIMemoryState::soundingGroupsWriteCounter</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a994658a266476552cf76b65015d4750a">Engine::stopEngineRequests</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a76662573e0462aca22d3018003cb09ae">Engine::updateVoiceDisplayStateEvery</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#af62beb4a64abc4f62fda610645e9524c">Engine::SharedUIMemoryState::voiceCount</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a7a37043aee9af5106e72c49ccdde816e">Engine::SharedUIMemoryState::voiceDisplayItems</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1SharedUIMemoryState.html#a408a95b412a5479d84121bae03afed35">Engine::SharedUIMemoryState::voiceDisplayStateWriteCounter</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#acff440dd9b97623f0d9e61b66cd6b094">SCXTPlugin::process_nonblock()</a>.</p>
 
@@ -1249,6 +1276,27 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a4b293176505b59641f5f30f208bef7d8" name="a4b293176505b59641f5f30f208bef7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b293176505b59641f5f30f208bef7d8">&#9670;&#160;</a></span>inReleaseTriggerPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool inReleaseTriggerPass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da9d539f8a1cd8cbc1449bc69d73b217c7">scxt::engine::ON_NOTE_OFF</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#ab381cdba59d4ae23ab8a8ce8a7ed30dd">Engine::voiceCreationPass</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">Engine::findZone()</a>.</p>
+
+</div>
+</div>
 <a id="a995401d6c5566bbefbf2044d5c9abc8a" name="a995401d6c5566bbefbf2044d5c9abc8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a995401d6c5566bbefbf2044d5c9abc8a">&#9670;&#160;</a></span>fireReleaseTriggers()</h2>
 
@@ -1306,6 +1354,126 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a42956fefe79e94e3d76189d909449f36" name="a42956fefe79e94e3d76189d909449f36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42956fefe79e94e3d76189d909449f36">&#9670;&#160;</a></span>secondsSince()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double secondsSince </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>sampleCount</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1SampleRateSupport.html#aecd543acbff4461ac91af0ab900a716f">SampleRateSupport::sampleRateInv</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a44d4fcb92ad6234555f365d810b60283">Engine::samplesProcessed</a>.</p>
+
+</div>
+</div>
+<a id="ac7015bf8f805850417aaee38ddd6de37" name="ac7015bf8f805850417aaee38ddd6de37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7015bf8f805850417aaee38ddd6de37">&#9670;&#160;</a></span>processSustainPedalEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processSustainPedalEvent </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0685fc6148429f80ee8ad0a4cb710ab3" name="a0685fc6148429f80ee8ad0a4cb710ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0685fc6148429f80ee8ad0a4cb710ab3">&#9670;&#160;</a></span>firePedalTriggers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void firePedalTriggers </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>heldSeconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine.html#a9de313bc856d452aee77ad2dc6cb0e8e">scxt::engine::roundRobinKindIndex()</a>.</p>
+
+</div>
+</div>
+<a id="a22ac9d2a31cd2ed50d674c21e8a5dd00" name="a22ac9d2a31cd2ed50d674c21e8a5dd00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22ac9d2a31cd2ed50d674c21e8a5dd00">&#9670;&#160;</a></span>forEachPedalZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void forEachPedalZone </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>askRoundRobin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac12ce4d47f65009d40460b7a2a424260" name="ac12ce4d47f65009d40460b7a2a424260"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac12ce4d47f65009d40460b7a2a424260">&#9670;&#160;</a></span>findZone()</h2>
 
@@ -1356,7 +1524,43 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#ad288d5b9b8737890461d223d6fd1f909">Engine::inReleaseTriggerPass</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa0ffb4c8169fecb6be2bfd1ce968c8a9">Engine::notifyKeySwitchStateChanged()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">Engine::rng</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#af98678d7234716978944f4bb1b78b353">Engine::heldNotes</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4b293176505b59641f5f30f208bef7d8">Engine::inReleaseTriggerPass()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa0ffb4c8169fecb6be2bfd1ce968c8a9">Engine::notifyKeySwitchStateChanged()</a>, <a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da2bf36759a2c4498f0f44fd09db37719c">scxt::engine::ON_NOTE_ON</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a5df99349e688c355d60a4f80db88e66c">Engine::releasePassDice</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a517e3a5ba16b52ffd3c63fc55ae1feea">Engine::rng</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1HeldNotes.html#ac4bb6dcad1bba86d90b9e66259865d09">HeldNotes::setDice()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#ab381cdba59d4ae23ab8a8ce8a7ed30dd">Engine::voiceCreationPass</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a3754e89cf66c494fca2310756f9b3277">Engine::VoiceManagerResponder::beginVoiceCreationTransaction()</a>.</p>
+
+</div>
+</div>
+<a id="afab3d0f201afc66885c13ea4742c759a" name="afab3d0f201afc66885c13ea4742c759a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab3d0f201afc66885c13ea4742c759a">&#9670;&#160;</a></span>findPedalZones()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t findPedalZones </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::array&lt; <a class="el" href="structscxt_1_1engine_1_1Engine_1_1pathToZone__t.html">pathToZone_t</a>, maxVoices &gt; &amp;&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a3754e89cf66c494fca2310756f9b3277">Engine::VoiceManagerResponder::beginVoiceCreationTransaction()</a>.</p>
 
@@ -3590,23 +3794,131 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9accfb8f190d6cc9914ce8335358624f">Engine::immediatelyTerminateAllVoices()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">Engine::findZone()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9accfb8f190d6cc9914ce8335358624f">Engine::immediatelyTerminateAllVoices()</a>.</p>
 
 </div>
 </div>
-<a id="ad288d5b9b8737890461d223d6fd1f909" name="ad288d5b9b8737890461d223d6fd1f909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad288d5b9b8737890461d223d6fd1f909">&#9670;&#160;</a></span>inReleaseTriggerPass</h2>
+<a id="ab381cdba59d4ae23ab8a8ce8a7ed30dd" name="ab381cdba59d4ae23ab8a8ce8a7ed30dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab381cdba59d4ae23ab8a8ce8a7ed30dd">&#9670;&#160;</a></span>voiceCreationPass</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool inReleaseTriggerPass {false}</td>
+          <td class="memname"><a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9d">VoiceCreationMode</a> voiceCreationPass {<a class="el" href="namespacescxt_1_1engine.html#aead8b199a9a4a9c90f2b69f59791ad9da2bf36759a2c4498f0f44fd09db37719c">VoiceCreationMode::ON_NOTE_ON</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">Engine::findZone()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a3754e89cf66c494fca2310756f9b3277">Engine::VoiceManagerResponder::beginVoiceCreationTransaction()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">Engine::findZone()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a4b293176505b59641f5f30f208bef7d8">Engine::inReleaseTriggerPass()</a>.</p>
+
+</div>
+</div>
+<a id="a44d4fcb92ad6234555f365d810b60283" name="a44d4fcb92ad6234555f365d810b60283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d4fcb92ad6234555f365d810b60283">&#9670;&#160;</a></span>samplesProcessed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t samplesProcessed {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#aa6c9a5e5d9d2f7d1f1943672f6553943">Engine::processAudio()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a42956fefe79e94e3d76189d909449f36">Engine::secondsSince()</a>.</p>
+
+</div>
+</div>
+<a id="a50a1180ca47b912e80913b8579f57ac8" name="a50a1180ca47b912e80913b8579f57ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a1180ca47b912e80913b8579f57ac8">&#9670;&#160;</a></span>ungatedPassHeldSeconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ungatedPassHeldSeconds {0.0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine_1_1VoiceManagerResponder.html#a53fe862ecb4d22387192b8e2f15a92ff">Engine::VoiceManagerResponder::initializeMultipleVoices()</a>.</p>
+
+</div>
+</div>
+<a id="a5df99349e688c355d60a4f80db88e66c" name="a5df99349e688c355d60a4f80db88e66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df99349e688c355d60a4f80db88e66c">&#9670;&#160;</a></span>releasePassDice</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, numParts&gt; releasePassDice {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#ac12ce4d47f65009d40460b7a2a424260">Engine::findZone()</a>.</p>
+
+</div>
+</div>
+<a id="a43aa0a4dcd2b8bcf93ba269486e2d8d8" name="a43aa0a4dcd2b8bcf93ba269486e2d8d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43aa0a4dcd2b8bcf93ba269486e2d8d8">&#9670;&#160;</a></span>sustainPedal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structscxt_1_1engine_1_1Engine_1_1SustainPedalState.html">SustainPedalState</a>, 16&gt; sustainPedal {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09530c5b166306dda1171e25255e9811" name="a09530c5b166306dda1171e25255e9811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09530c5b166306dda1171e25255e9811">&#9670;&#160;</a></span>pedalLiftThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int16_t pedalLiftThreshold {32}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af80b06dda5ddc8df105db873be483344" name="af80b06dda5ddc8df105db873be483344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80b06dda5ddc8df105db873be483344">&#9670;&#160;</a></span>pedalTriggerPort</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int16_t pedalTriggerPort {0x7ff0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a916e4a9cdcdb4e2ee4d31c15330f36f4">Engine::Engine()</a>.</p>
 
 </div>
 </div>
@@ -3740,7 +4052,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#aba4c4cc8dd8984182df37991333f9f13">GTKeyswitchMomentary::conditionHolds()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1GTKeyswitchMomentary.html#aba4c4cc8dd8984182df37991333f9f13">GTKeyswitchMomentary::conditionHolds()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a916e4a9cdcdb4e2ee4d31c15330f36f4">Engine::Engine()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ae8fa4fba751326442ae850a2d9c865a0">Group::processWithOS()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>, <a class="el" href="namespacescxt_1_1messaging_1_1client.html#a80ea3c1492ed06ac80f9a3967fcb633b">scxt::messaging::client::stopSoundsMessage()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>.</p>
 
 </div>
 </div>
@@ -4264,7 +4576,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 5 2026 19:25:51 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 8 2026 12:57:20 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -30,7 +30,7 @@ var searchData=
   ['searchpane_27',['SearchPane',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1SearchPane.html',1,'scxt::ui::app::browser_ui']]],
   ['selectactioncontents_28',['SelectActionContents',['../structscxt_1_1selection_1_1SelectionManager_1_1SelectActionContents.html',1,'scxt::selection::SelectionManager']]],
   ['selectionmanager_29',['SelectionManager',['../structscxt_1_1selection_1_1SelectionManager.html',1,'scxt::selection']]],
-  ['selfmodulationtarget_30',['selfmodulationtarget',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1SelfModulationTarget.html',1,'MatrixEndpoints::SelfModulationTarget'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1SelfModulationTarget.html',1,'GroupMatrixEndpoints::SelfModulationTarget']]],
+  ['selfmodulationtarget_30',['selfmodulationtarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1SelfModulationTarget.html',1,'GroupMatrixEndpoints::SelfModulationTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1SelfModulationTarget.html',1,'MatrixEndpoints::SelfModulationTarget']]],
   ['sequenceparams_31',['SequenceParams',['../structscxt_1_1perf_1_1SequenceParams.html',1,'scxt::perf']]],
   ['sequencespec_32',['SequenceSpec',['../structscxt_1_1perf_1_1SequenceSpec.html',1,'scxt::perf']]],
   ['serializationtoaudio_33',['SerializationToAudio',['../structscxt_1_1messaging_1_1audio_1_1SerializationToAudio.html',1,'scxt::messaging::audio']]],
@@ -56,5 +56,6 @@ var searchData=
   ['steprender_53',['StepRender',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1StepLFOPane_1_1StepRender.html',1,'scxt::ui::app::edit_screen::StepLFOPane']]],
   ['streamguard_54',['StreamGuard',['../structscxt_1_1engine_1_1Engine_1_1StreamGuard.html',1,'scxt::engine::Engine']]],
   ['subordinatevoicesources_55',['SubordinateVoiceSources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1SubordinateVoiceSources.html',1,'scxt::modulation::GroupMatrixEndpoints::Sources']]],
-  ['svgpaths_56',['SvgPaths',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents_1_1SvgPaths.html',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]]
+  ['sustainpedalstate_56',['SustainPedalState',['../structscxt_1_1engine_1_1Engine_1_1SustainPedalState.html',1,'scxt::engine::Engine']]],
+  ['svgpaths_57',['SvgPaths',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneContents_1_1SvgPaths.html',1,'scxt::ui::app::edit_screen::RoutingPaneContents']]]
 ];

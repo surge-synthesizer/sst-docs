@@ -15,7 +15,7 @@ var searchData=
   ['noteexpressionsources_12',['NoteExpressionSources',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1NoteExpressionSources.html#a9bbefa88efcd4feef178fcfd08ab3de3',1,'scxt::voice::modulation::MatrixEndpoints::Sources::NoteExpressionSources']]],
   ['notelearned_13',['notelearned',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a74f436eafb5b58e7b7e1b82fab71bc74',1,'scxt::ui::app::edit_screen::PartGroupSidebar::noteLearned()'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard.html#a74f436eafb5b58e7b7e1b82fab71bc74',1,'scxt::ui::app::edit_screen::GroupTriggersCard::noteLearned()']]],
   ['notename_14',['noteName',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartSettingsDisplay.html#a8da67b03025b71076bc92548b2a68610',1,'scxt::ui::app::edit_screen::PartSettingsDisplay']]],
-  ['noteon_15',['noteOn',['../structscxt_1_1engine_1_1HeldNotes.html#ac7fbdd6b3303a4aab9265a2d67a64b16',1,'scxt::engine::HeldNotes']]],
+  ['noteon_15',['noteOn',['../structscxt_1_1engine_1_1HeldNotes.html#a4a933636d391dc07a2950744c2a1f60a',1,'scxt::engine::HeldNotes']]],
   ['noteportscount_16',['notePortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aa5c219b75d4de4da1f6f3f51a95ef542',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['noteportsinfo_17',['notePortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a775a4fc5426c2e1a9193ad5713c89dd8',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['notetopitch_18',['noteToPitch',['../structscxt_1_1engine_1_1dtl_1_1Config.html#a88aee6a097959af827677c2b63b496e5',1,'scxt::engine::dtl::Config']]],

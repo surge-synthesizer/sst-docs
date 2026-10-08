@@ -10,7 +10,7 @@ var searchData=
   ['glide_7',['GLIDE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2a8163acad1c5fcd3bd5f60596bbd7bfbc',1,'scxt::exs_support']]],
   ['glide_5ffrom_5fgated_8',['GLIDE_FROM_GATED',['../structscxt_1_1engine_1_1Group.html#acf7cd4da83b5b0f80ea3a711046602f5aca6bb9c3a7387a2185adb85b64b138fd',1,'scxt::engine::Group']]],
   ['glide_5ffrom_5fsounding_9',['GLIDE_FROM_SOUNDING',['../structscxt_1_1engine_1_1Group.html#acf7cd4da83b5b0f80ea3a711046602f5a1e6695438cb58285391629cb2b0f4d51',1,'scxt::engine::Group']]],
-  ['global_10',['global',['../namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8ba6eecfba72d12922ee1dead07a0ef3334',1,'scxt::ui::app::GLOBAL'],['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ac0848296a9510c4fc803b4553e6f75f9',1,'scxt::sfz_support::SFZParser::Header::global']]],
+  ['global_10',['global',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7ac0848296a9510c4fc803b4553e6f75f9',1,'scxt::sfz_support::SFZParser::Header::global'],['../namespacescxt_1_1ui_1_1app.html#abf2bec2b0a72fdbdffc88f48915f1b8ba6eecfba72d12922ee1dead07a0ef3334',1,'scxt::ui::app::GLOBAL']]],
   ['gp_5fconstant_11',['GP_CONSTANT',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2a8049e6ef0aae458e3f00db5e09cc0690',1,'scxt::dsp::processor::ProcessorStorage']]],
   ['gp_5fhighest_12',['GP_HIGHEST',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2aecacbcd91cc718445a7ad4128f6ac445',1,'scxt::dsp::processor::ProcessorStorage']]],
   ['gp_5flatest_13',['GP_LATEST',['../structscxt_1_1dsp_1_1processor_1_1ProcessorStorage.html#aab55b4228c6a369c90c99b0d7c63b4b2abcf0e9104ffd102a3ca6e72bce4616f8',1,'scxt::dsp::processor::ProcessorStorage']]],
@@ -20,6 +20,7 @@ var searchData=
   ['grid_5fprimary_17',['grid_primary',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2',1,'scxt::ui::theme::ColorMap']]],
   ['grid_5fsecondary_18',['grid_secondary',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6',1,'scxt::ui::theme::ColorMap']]],
   ['group_19',['group',['../structscxt_1_1engine_1_1Clipboard.html#a3ccd048df649c335df5a7f82673bbc79aa080685d80f04dc0f10c028c686ea221',1,'scxt::engine::Clipboard::GROUP'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a7059dfa0ed70c89facc3d317fb4138b3a720909a4b948fc9e33633b61960d6b3c',1,'scxt::ui::app::edit_screen::EditScreen::GROUP'],['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a084e12cf09138eec8d807c9ca90d1021',1,'scxt::sfz_support::SFZParser::Header::group']]],
-  ['gutter_5f2_20',['gutter_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1ed24f6c7bd3f77fa9a5764390227b2c',1,'scxt::ui::theme::ColorMap']]],
-  ['gutter_5f3_21',['gutter_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa34cf25ea57f84b59e5d58a31fe0319f',1,'scxt::ui::theme::ColorMap']]]
+  ['group_5ftriggers_20',['group_triggers',['../namespacescxt_1_1messaging_1_1client.html#a2d1e2f23fe578da23e2809d174b8cb38a7efeec8b9c7f4ca53ba507f050d15b46',1,'scxt::messaging::client']]],
+  ['gutter_5f2_21',['gutter_2',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a1ed24f6c7bd3f77fa9a5764390227b2c',1,'scxt::ui::theme::ColorMap']]],
+  ['gutter_5f3_22',['gutter_3',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6aa34cf25ea57f84b59e5d58a31fe0319f',1,'scxt::ui::theme::ColorMap']]]
 ];
