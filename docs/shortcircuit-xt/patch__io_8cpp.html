@@ -134,8 +134,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1156b4897a68f63c2274011b5d38ed87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e83e0fd85d3fb5083bb4a52b50543bb" id="r_a1e83e0fd85d3fb5083bb4a52b50543bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a1e83e0fd85d3fb5083bb4a52b50543bb">hasMonolithBinaries</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f)</td></tr>
 <tr class="separator:a1e83e0fd85d3fb5083bb4a52b50543bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0206ee630bee1c8b54109acd790eed" id="r_a7a0206ee630bee1c8b54109acd790eed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7a0206ee630bee1c8b54109acd790eed">readMonolithBinaryIndex</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e)</td></tr>
-<tr class="separator:a7a0206ee630bee1c8b54109acd790eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dd9c91346213ea7e0fe601d33db2c71" id="r_a6dd9c91346213ea7e0fe601d33db2c71"><td class="memItemLeft" align="right" valign="top">std::vector&lt; fs::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a6dd9c91346213ea7e0fe601d33db2c71">readMonolithBinaryIndex</a> (const std::unique_ptr&lt; RIFF::File &gt; &amp;f, <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;)</td></tr>
+<tr class="separator:a6dd9c91346213ea7e0fe601d33db2c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8a5b3b87e1367dd2ad820411c9660d3" id="r_ad8a5b3b87e1367dd2ad820411c9660d3"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; fs::path, fs::path, std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#ad8a5b3b87e1367dd2ad820411c9660d3">setupForCollection</a> (const fs::path &amp;path)</td></tr>
 <tr class="separator:ad8a5b3b87e1367dd2ad820411c9660d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd1c668771eef4bc2637e7f0435f990" id="r_acdd1c668771eef4bc2637e7f0435f990"><td class="memItemLeft" align="right" valign="top">fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#acdd1c668771eef4bc2637e7f0435f990">saveSubSample</a> (const <a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, <a class="el" href="structscxt_1_1sample_1_1SampleManager.html#a284074a163c986cf250569b65de43e6f">sample::SampleManager::sampleMap_t</a> &amp;toCollect, const <a class="el" href="structscxt_1_1SampleID.html">SampleID</a> &amp;id, const std::shared_ptr&lt; <a class="el" href="structscxt_1_1sample_1_1Sample.html">sample::Sample</a> &gt; &amp;sp)</td></tr>
@@ -172,6 +172,10 @@ Functions</h2></td></tr>
 <tr class="separator:ad8355d53952166b1b89bf9c1339bfeb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7afd64ec278fef13b0b8c2d88cbc1784" id="r_a7afd64ec278fef13b0b8c2d88cbc1784"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a7afd64ec278fef13b0b8c2d88cbc1784">loadPartInto</a> (const fs::path &amp;p, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine, int part)</td></tr>
 <tr class="separator:a7afd64ec278fef13b0b8c2d88cbc1784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad92943055ef54d1d370924ddcac4be5" id="r_aad92943055ef54d1d370924ddcac4be5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#aad92943055ef54d1d370924ddcac4be5">loadPartFromMultiInto</a> (const fs::path &amp;p, int fromPart, <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &amp;engine, int part)</td></tr>
+<tr class="separator:aad92943055ef54d1d370924ddcac4be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191e530b9f937de2c0dd595aabaf9ffc" id="r_a191e530b9f937de2c0dd595aabaf9ffc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structscxt_1_1sample_1_1compound_1_1CompoundElement.html">sample::compound::CompoundElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1patch__io.html#a191e530b9f937de2c0dd595aabaf9ffc">getSCXTCompoundList</a> (const fs::path &amp;p)</td></tr>
+<tr class="separator:a191e530b9f937de2c0dd595aabaf9ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a7368161efca28fa357b86da3c6a766ea" name="a7368161efca28fa357b86da3c6a766ea"></a>
@@ -195,7 +199,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 12 2026 17:33:00 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Oct 12 2026 23:32:01 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
