@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['offset_0',['offset',['../structscxt_1_1exs__support_1_1EXSZone.html#a97bd6c077f3c7769f575b82988b9b668',1,'scxt::exs_support::EXSZone']]],
+  ['offset_0',['offset',['../structscxt_1_1sfz__support_1_1EndpointArgs.html#a81727fe52763dfca2cdd082bee8a3a6a',1,'scxt::sfz_support::EndpointArgs::offset'],['../structscxt_1_1exs__support_1_1EXSZone.html#a97bd6c077f3c7769f575b82988b9b668',1,'scxt::exs_support::EXSZone::offset']]],
   ['ok_1',['ok',['../structscxt_1_1perf_1_1LoadResult.html#a1d67bd6634a9002df97231d8c8dbc66c',1,'scxt::perf::LoadResult::ok'],['../structscxt_1_1ui_1_1app_1_1shared_1_1InstrumentPrompt.html#a13b3b2c1adfc513dc4375cfa4da1613f',1,'scxt::ui::app::shared::InstrumentPrompt::ok']]],
   ['okbutton_2',['okbutton',['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1WorkItemLineItem.html#afa766f2a2dbc7db85ab033cb14cf4a81',1,'scxt::ui::app::missing_resolution::WorkItemLineItem::okButton'],['../structscxt_1_1ui_1_1app_1_1missing__resolution_1_1Contents.html#afa766f2a2dbc7db85ab033cb14cf4a81',1,'scxt::ui::app::missing_resolution::Contents::okButton']]],
   ['oldname_3',['oldname',['../structscxt_1_1undo_1_1GroupRenameItem.html#a9566e525d5ce1294d8d3ce5a4408db1b',1,'scxt::undo::GroupRenameItem::oldName'],['../structscxt_1_1undo_1_1ZoneRenameItem.html#a9566e525d5ce1294d8d3ce5a4408db1b',1,'scxt::undo::ZoneRenameItem::oldName'],['../structscxt_1_1undo_1_1MultiRenameItem.html#a9566e525d5ce1294d8d3ce5a4408db1b',1,'scxt::undo::MultiRenameItem::oldName']]],
