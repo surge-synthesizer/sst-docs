@@ -10,7 +10,7 @@ var searchData=
   ['lfosourcebase_3c_20sr_2c_20_27grlf_27_2c_20lfospergroup_2c_20registergroupmodsource_20_3e_7',['LFOSourceBase&lt; SR, &apos;grlf&apos;, lfosPerGroup, registerGroupModSource &gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOSourceBase.html',1,'scxt::modulation::shared']]],
   ['lfosourcebase_3c_20sr_2c_20_27zglf_27_2c_20lfospergroup_2c_20registervoicemodsource_20_3e_8',['LFOSourceBase&lt; SR, &apos;zglf&apos;, lfosPerGroup, registerVoiceModSource &gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOSourceBase.html',1,'scxt::modulation::shared']]],
   ['lfosourcebase_3c_20sr_2c_20_27znlf_27_2c_20lfosperzone_2c_20registervoicemodsource_20_3e_9',['LFOSourceBase&lt; SR, &apos;znlf&apos;, lfosPerZone, registerVoiceModSource &gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOSourceBase.html',1,'scxt::modulation::shared']]],
-  ['lfotarget_10',['lfotarget',['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1LFOTarget.html',1,'MatrixEndpoints::LFOTarget'],['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1LFOTarget.html',1,'GroupMatrixEndpoints::LFOTarget']]],
+  ['lfotarget_10',['lfotarget',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1LFOTarget.html',1,'GroupMatrixEndpoints::LFOTarget'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1LFOTarget.html',1,'MatrixEndpoints::LFOTarget']]],
   ['lfotargetendpointdata_11',['LFOTargetEndpointData',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['lfotargetendpointdata_3c_20tg_2c_20_27glfo_27_3e_12',['LFOTargetEndpointData&lt; TG, &apos;glfo&apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
   ['lfotargetendpointdata_3c_20tg_2c_20_27lfo_20_27_3e_13',['LFOTargetEndpointData&lt; TG, &apos;lfo &apos;&gt;',['../structscxt_1_1modulation_1_1shared_1_1LFOTargetEndpointData.html',1,'scxt::modulation::shared']]],
@@ -21,5 +21,6 @@ var searchData=
   ['lockedexception_18',['LockedException',['../structscxt_1_1browser_1_1SQL_1_1LockedException.html',1,'scxt::browser::SQL']]],
   ['logscreen_19',['LogScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1LogScreen.html',1,'scxt::ui::app::other_screens']]],
   ['loopargs_20',['LoopArgs',['../structscxt_1_1import__support_1_1LoopArgs.html',1,'scxt::import_support']]],
-  ['lowhighlast_21',['LowHighLast',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html',1,'scxt::engine::Group']]]
+  ['loopparse_21',['LoopParse',['../structscxt_1_1sfz__support_1_1LoopParse.html',1,'scxt::sfz_support']]],
+  ['lowhighlast_22',['LowHighLast',['../structscxt_1_1engine_1_1Group_1_1LowHighLast.html',1,'scxt::engine::Group']]]
 ];
