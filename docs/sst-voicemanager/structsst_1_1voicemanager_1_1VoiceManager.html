@@ -123,8 +123,9 @@ Public Types</h2></td></tr>
 <tr class="separator:adef5d969ee0c8fd79b4d073310cdfb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a948db2cdc1facb3fe3c48ff2c35ca35b" id="r_a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566">MULTI_VOICE</a>
 , <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130">PIANO</a>
+, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35ba438160f9208a67296f584aeb82606b1b">MONO_PER_KEY</a>
  }</td></tr>
-<tr class="memdesc:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a key is struck twice while still gated or sustained, do we start a new voice or do we re-use the voice (and move the note id) or do we trigger a second voice.  <a href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">More...</a><br /></td></tr>
+<tr class="memdesc:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="mdescLeft">&#160;</td><td class="mdescRight">What a polyphony group does when a key it is already sounding is struck again.  <a href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">More...</a><br /></td></tr>
 <tr class="separator:a948db2cdc1facb3fe3c48ff2c35ca35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188092ed559d356ade9a517d60ec3f34" id="r_a188092ed559d356ade9a517d60ec3f34"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34">PlayMode</a> { <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ad067247cfabc0d4f5b62e6f24bf2b43a">POLY_VOICES</a>
 , <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a188092ed559d356ade9a517d60ec3f34ab1cfde9170ea5d634846591999893099">MONO_NOTES</a>
@@ -215,6 +216,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a94b753c0043b7217bbe7aef3e6fd1e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185935e19f0805f41d79904a40a3158b" id="r_a185935e19f0805f41d79904a40a3158b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a185935e19f0805f41d79904a40a3158b">setStealingPriorityMode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a8fe62f239d82bfcbfd6f04d3a1f41e60">StealingPriorityMode</a> pm)</td></tr>
 <tr class="separator:a185935e19f0805f41d79904a40a3158b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbbeb27d70a5a0cdf852ac015631ded1" id="r_abbbeb27d70a5a0cdf852ac015631ded1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#abbbeb27d70a5a0cdf852ac015631ded1">setRepeatedKeyMode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a> rkm)</td></tr>
+<tr class="separator:abbbeb27d70a5a0cdf852ac015631ded1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2104d5fa31d4d4964ab785e96c72b5f" id="r_ab2104d5fa31d4d4964ab785e96c72b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#ab2104d5fa31d4d4964ab785e96c72b5f">getRepeatedKeyMode</a> (uint64_t groupId) const <a class="el" href="voicemanager_8h.html#adeb5941ee2c9404b1ded45dbbe85b7ff">SST_VOICEMANAGER_NONBLOCKING</a></td></tr>
+<tr class="separator:ab2104d5fa31d4d4964ab785e96c72b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d17ffa7bd6290ee101b9cf02ac63813" id="r_a1d17ffa7bd6290ee101b9cf02ac63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a1d17ffa7bd6290ee101b9cf02ac63813">setMonoPriorityMode</a> (uint64_t groupId, <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a54760f344ea12f29a7bdbb1ec80553f4">MonoPriorityMode</a> pm)</td></tr>
 <tr class="separator:a1d17ffa7bd6290ee101b9cf02ac63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -222,8 +227,6 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a534bc0eb8e97697b9d4cb0debf6f8e26" id="r_a534bc0eb8e97697b9d4cb0debf6f8e26"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c">sst::voicemanager::VoiceManager::MIDI1Dialect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a534bc0eb8e97697b9d4cb0debf6f8e26">MIDI1</a></td></tr>
 <tr class="separator:a534bc0eb8e97697b9d4cb0debf6f8e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc8b7ad0b5e01381b849b5641e3cb41b" id="r_acc8b7ad0b5e01381b849b5641e3cb41b"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">sst::voicemanager::VoiceManager::RepeatedKeyMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#acc8b7ad0b5e01381b849b5641e3cb41b">MULTI_VOICE</a></td></tr>
-<tr class="separator:acc8b7ad0b5e01381b849b5641e3cb41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acef42213bbebd88480837b7691966343" id="r_acef42213bbebd88480837b7691966343"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#acef42213bbebd88480837b7691966343">mpeGlobalChannel</a> {0}</td></tr>
 <tr class="separator:acef42213bbebd88480837b7691966343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f95855e1cc27deb8cd9aa6893c3b6c3" id="r_a0f95855e1cc27deb8cd9aa6893c3b6c3"><td class="memItemLeft" align="right" valign="top">Responder &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a0f95855e1cc27deb8cd9aa6893c3b6c3">responder</a></td></tr>
@@ -326,10 +329,15 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </table>
 </div><div class="memdoc">
 
-<p>If a key is struck twice while still gated or sustained, do we start a new voice or do we re-use the voice (and move the note id) or do we trigger a second voice. </p>
+<p>What a polyphony group does when a key it is already sounding is struck again. </p>
+<p>Set per group with setRepeatedKeyMode. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566" name="a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566"></a>MULTI_VOICE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130" name="a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130"></a>PIANO&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566" name="a948db2cdc1facb3fe3c48ff2c35ca35ba1e602db3a59f51e771c8f0320b1a1566"></a>MULTI_VOICE&#160;</td><td class="fielddoc"><p>start another voice alongside the sounding ones </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130" name="a948db2cdc1facb3fe3c48ff2c35ca35baef6dcf375679288e8fe520ec07f29130"></a>PIANO&#160;</td><td class="fielddoc"><p>retrigger a releasing or sustained voice in place, keeping its state </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a948db2cdc1facb3fe3c48ff2c35ca35ba438160f9208a67296f584aeb82606b1b" name="a948db2cdc1facb3fe3c48ff2c35ca35ba438160f9208a67296f584aeb82606b1b"></a>MONO_PER_KEY&#160;</td><td class="fielddoc"><p>end the voices sounding on that key, held or not, and start fresh ones. Only applies to POLY_VOICES groups. </p>
+</td></tr>
 </table>
 
 </div>
@@ -1303,6 +1311,56 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 
 </div>
 </div>
+<a id="abbbeb27d70a5a0cdf852ac015631ded1" name="abbbeb27d70a5a0cdf852ac015631ded1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbbeb27d70a5a0cdf852ac015631ded1">&#9670;&#160;</a></span>setRepeatedKeyMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void setRepeatedKeyMode </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>groupId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">RepeatedKeyMode</a>&#160;</td>
+          <td class="paramname"><em>rkm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2104d5fa31d4d4964ab785e96c72b5f" name="ab2104d5fa31d4d4964ab785e96c72b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2104d5fa31d4d4964ab785e96c72b5f">&#9670;&#160;</a></span>getRepeatedKeyMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html">VoiceManager</a>&lt; Cfg, Responder, MonoResponder &gt;<a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">::RepeatedKeyMode</a> getRepeatedKeyMode </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>groupId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1d17ffa7bd6290ee101b9cf02ac63813" name="a1d17ffa7bd6290ee101b9cf02ac63813"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d17ffa7bd6290ee101b9cf02ac63813">&#9670;&#160;</a></span>setMonoPriorityMode()</h2>
 
@@ -1344,22 +1402,6 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#adef5d969ee0c8fd79b4d073310cdfb6c">sst::voicemanager::VoiceManager::MIDI1Dialect</a> MIDI1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acc8b7ad0b5e01381b849b5641e3cb41b" name="acc8b7ad0b5e01381b849b5641e3cb41b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc8b7ad0b5e01381b849b5641e3cb41b">&#9670;&#160;</a></span>MULTI_VOICE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="structsst_1_1voicemanager_1_1VoiceManager.html#a948db2cdc1facb3fe3c48ff2c35ca35b">sst::voicemanager::VoiceManager::RepeatedKeyMode</a> MULTI_VOICE</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1495,7 +1537,7 @@ template&lt;typename Cfg , typename Responder , typename MonoResponder &gt; </di
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 12 2026 13:19:13 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Oct 13 2026 14:25:38 for sst-voicemanager by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
