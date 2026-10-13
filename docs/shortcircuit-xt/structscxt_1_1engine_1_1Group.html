@@ -146,6 +146,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a5f378dce4af6d74ba80a6340fda12e4a" id="r_a5f378dce4af6d74ba80a6340fda12e4a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4a">PlayMode</a> : int32_t { <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa7d85766d041d397d096dcbc0d7c793fd">POLY</a> = 0
 , <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa3828195437a1112429b5c7a3e8780570">MONO</a>
 , <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aad59d7960b0c704f3ea1bdf5adcc63485">LEGATO</a>
+, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa8c7b64c24baaabd3f1fda4ae322c8c40">PIANO</a>
  }</td></tr>
 <tr class="separator:a5f378dce4af6d74ba80a6340fda12e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5bb3254b9d07a988804d84d028ba691" id="r_ad5bb3254b9d07a988804d84d028ba691"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691">NotePriority</a> : int32_t { <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ab8424d4e326cbc807dd2e613fe50ad0c">LATEST</a> = 0
@@ -339,6 +340,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a273ee035024c5e753bf5d17be213541d" id="r_a273ee035024c5e753bf5d17be213541d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a273ee035024c5e753bf5d17be213541d">isPolyphonic</a> (<a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4a">PlayMode</a> pm)</td></tr>
+<tr class="separator:a273ee035024c5e753bf5d17be213541d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68ced5630477a4ab7071ac47b9671e22" id="r_a68ced5630477a4ab7071ac47b9671e22"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1engine_1_1Group.html#a68ced5630477a4ab7071ac47b9671e22">outputInfoFieldEdited</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;, <a class="el" href="structscxt_1_1engine_1_1Group.html">Group</a> &amp;, ptrdiff_t, size_t)</td></tr>
 <tr class="separator:a68ced5630477a4ab7071ac47b9671e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_structscxt_1_1engine_1_1HasGroupZoneProcessors"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_structscxt_1_1engine_1_1HasGroupZoneProcessors')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="structscxt_1_1engine_1_1HasGroupZoneProcessors.html">HasGroupZoneProcessors&lt; Group &gt;</a></td></tr>
@@ -624,6 +627,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5f378dce4af6d74ba80a6340fda12e4aa7d85766d041d397d096dcbc0d7c793fd" name="a5f378dce4af6d74ba80a6340fda12e4aa7d85766d041d397d096dcbc0d7c793fd"></a>POLY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5f378dce4af6d74ba80a6340fda12e4aa3828195437a1112429b5c7a3e8780570" name="a5f378dce4af6d74ba80a6340fda12e4aa3828195437a1112429b5c7a3e8780570"></a>MONO&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5f378dce4af6d74ba80a6340fda12e4aad59d7960b0c704f3ea1bdf5adcc63485" name="a5f378dce4af6d74ba80a6340fda12e4aad59d7960b0c704f3ea1bdf5adcc63485"></a>LEGATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5f378dce4af6d74ba80a6340fda12e4aa8c7b64c24baaabd3f1fda4ae322c8c40" name="a5f378dce4af6d74ba80a6340fda12e4aa8c7b64c24baaabd3f1fda4ae322c8c40"></a>PIANO&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -772,6 +776,36 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a273ee035024c5e753bf5d17be213541d" name="a273ee035024c5e753bf5d17be213541d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a273ee035024c5e753bf5d17be213541d">&#9670;&#160;</a></span>isPolyphonic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isPolyphonic </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4a">PlayMode</a>&#160;</td>
+          <td class="paramname"><em>pm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa8c7b64c24baaabd3f1fda4ae322c8c40">Group::PIANO</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa7d85766d041d397d096dcbc0d7c793fd">Group::POLY</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupSettingsCard.html#a8d248f35e708381b93c7815468ed0e04">GroupSettingsCard::rebuildFromInfo()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a084d82345cf442920ae1aabf6c27523d">Group::resetPolyAndPlaymode()</a>.</p>
 
 </div>
 </div>
@@ -1391,7 +1425,7 @@ template&lt;bool OS&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a14cfaaa1e2459c643b1c84818c2a7cf7">Group::GroupOutputInfo::hasIndependentPolyLimit</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ae21a4e10ac16b844ebb238a2333bb594">Group::HIGHEST</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ab8424d4e326cbc807dd2e613fe50ad0c">Group::LATEST</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ae321c2eb4e64b32d51da602bc6352f1d">Group::LOWEST</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa3828195437a1112429b5c7a3e8780570">Group::MONO</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a06d3c22015e445d3421bcb2cf54594a6">Group::GroupOutputInfo::notePriority</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a427ed2fbbfee558084c2f89eb9a60932">Group::outputInfo</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a0fe08d72e024817268e4966f28cd8f90">Group::GroupOutputInfo::playMode</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa7d85766d041d397d096dcbc0d7c793fd">Group::POLY</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#aaf017e03ebb15a530903ceb77b47d69e">Group::GroupOutputInfo::polyLimit</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d">Engine::voiceManager</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a14cfaaa1e2459c643b1c84818c2a7cf7">Group::GroupOutputInfo::hasIndependentPolyLimit</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ae21a4e10ac16b844ebb238a2333bb594">Group::HIGHEST</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a273ee035024c5e753bf5d17be213541d">Group::isPolyphonic()</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ab8424d4e326cbc807dd2e613fe50ad0c">Group::LATEST</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ad5bb3254b9d07a988804d84d028ba691ae321c2eb4e64b32d51da602bc6352f1d">Group::LOWEST</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa3828195437a1112429b5c7a3e8780570">Group::MONO</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a06d3c22015e445d3421bcb2cf54594a6">Group::GroupOutputInfo::notePriority</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a427ed2fbbfee558084c2f89eb9a60932">Group::outputInfo</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#a5f378dce4af6d74ba80a6340fda12e4aa8c7b64c24baaabd3f1fda4ae322c8c40">Group::PIANO</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#a0fe08d72e024817268e4966f28cd8f90">Group::GroupOutputInfo::playMode</a>, <a class="el" href="structscxt_1_1engine_1_1Group_1_1GroupOutputInfo.html#aaf017e03ebb15a530903ceb77b47d69e">Group::GroupOutputInfo::polyLimit</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="structscxt_1_1engine_1_1Group.html#ace86c8a0d8ddd540e44f9c816d40af6f">Group::updatePolyphonyGroupParent()</a>, and <a class="el" href="structscxt_1_1engine_1_1Engine.html#a9a387ddf9f9e4622be2ac461024a301d">Engine::voiceManager</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Group.html#a68ced5630477a4ab7071ac47b9671e22">Group::outputInfoFieldEdited()</a>, and <a class="el" href="structscxt_1_1engine_1_1Group.html#a1f2eb844c63d2a88f88aea6630d459e1">Group::setupOnUnstream()</a>.</p>
 
@@ -2532,7 +2566,7 @@ template&lt;bool OS&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2026 14:38:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Oct 13 2026 15:20:36 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
