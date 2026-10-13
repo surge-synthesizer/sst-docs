@@ -28,10 +28,11 @@ var searchData=
   ['sinctablei16_25',['sinctableI16',['../structsst_1_1filters_1_1utilities_1_1SincTable.html#a1fd8958a6f45a9c97e1f606e3c71f155',1,'sst::filters::utilities::SincTable']]],
   ['slopelevel_26',['slopeLevel',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a46c6755283106c4a710d79dc20df9471',1,'sst::filtersplusplus::details::FilterPayload']]],
   ['smooth_27',['smooth',['../namespacesst_1_1filters.html#a5dfd97677b1cd6fe8924a63edc9fdcf3',1,'sst::filters']]],
-  ['st_28',['st',['../structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0',1,'sst::filtersplusplus::ModelConfig']]],
-  ['stage1_29',['stage1',['../structsst_1_1filters_1_1LinkwitzRileyLR4Crossover.html#a8f8a6a50cd2fe9f68b5e52594d2d4e30',1,'sst::filters::LinkwitzRileyLR4Crossover']]],
-  ['stage2_30',['stage2',['../structsst_1_1filters_1_1LinkwitzRileyLR4Crossover.html#ab56136f3cbefc718ce1ec36559aea7bf',1,'sst::filters::LinkwitzRileyLR4Crossover']]],
-  ['startfreqhz_31',['startFreqHz',['../structsst_1_1filters_1_1FilterPlotParameters.html#a69477b193482315a1e827b43596dc768',1,'sst::filters::FilterPlotParameters']]],
-  ['storage_32',['storage',['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#aa7d105b982cac9d752d1cc34a4cac90a',1,'sst::filters::Biquad::BiquadFilter']]],
-  ['submodeltype_33',['subModelType',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#afcae6a5f83eeb6b5e1f3a0adc9c3a6f6',1,'sst::filtersplusplus::details::FilterPayload']]]
+  ['srinv_28',['srInv',['../structsst_1_1filters_1_1CytomicSVFCascade.html#a6c6008f3951998928282287b8060f1ef',1,'sst::filters::CytomicSVFCascade']]],
+  ['st_29',['st',['../structsst_1_1filtersplusplus_1_1ModelConfig.html#ad70f885e95897f6bb10f19b9239f7cf0',1,'sst::filtersplusplus::ModelConfig']]],
+  ['stage1_30',['stage1',['../structsst_1_1filters_1_1LinkwitzRileyLR4Crossover.html#a8f8a6a50cd2fe9f68b5e52594d2d4e30',1,'sst::filters::LinkwitzRileyLR4Crossover']]],
+  ['stage2_31',['stage2',['../structsst_1_1filters_1_1LinkwitzRileyLR4Crossover.html#ab56136f3cbefc718ce1ec36559aea7bf',1,'sst::filters::LinkwitzRileyLR4Crossover']]],
+  ['startfreqhz_32',['startFreqHz',['../structsst_1_1filters_1_1FilterPlotParameters.html#a69477b193482315a1e827b43596dc768',1,'sst::filters::FilterPlotParameters']]],
+  ['storage_33',['storage',['../structsst_1_1filters_1_1Biquad_1_1BiquadFilter.html#aa7d105b982cac9d752d1cc34a4cac90a',1,'sst::filters::Biquad::BiquadFilter']]],
+  ['submodeltype_34',['subModelType',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#afcae6a5f83eeb6b5e1f3a0adc9c3a6f6',1,'sst::filtersplusplus::details::FilterPayload']]]
 ];

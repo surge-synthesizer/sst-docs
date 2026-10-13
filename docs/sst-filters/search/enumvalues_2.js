@@ -9,7 +9,9 @@ var searchData=
   ['comb_5fpositive_5f100_6',['Comb_Positive_100',['../namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a53cb03930dfa9afa6d95103495beeb93',1,'sst::filtersplusplus']]],
   ['comb_5fpositive_5f50_7',['Comb_Positive_50',['../namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279ae4a6fb91dcf29a681ccb6f3b54c4ab51',1,'sst::filtersplusplus']]],
   ['comb_5fpositive_5fcontinuousmix_8',['Comb_Positive_ContinuousMix',['../namespacesst_1_1filtersplusplus.html#a994091da034905976ebf7763e3767279a6d30f98a797e3e3bab44bf3cb24a9bff',1,'sst::filtersplusplus']]],
-  ['continueonfailure_9',['ContinueOnFailure',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295fa760881b8dc5a350fe1f65aefd9b3b9c6',1,'Catch::ResultDisposition']]],
-  ['cutoffwarp_10',['CutoffWarp',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a5043df1dd7d25d8f5d80106fb8ec93da',1,'sst::filtersplusplus']]],
-  ['cytomicsvf_11',['CytomicSVF',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16',1,'sst::filtersplusplus']]]
+  ['compensated_9',['Compensated',['../namespacesst_1_1filtersplusplus.html#a060500702b86a234df8944eadcc428cda843e44b3516301279b16e1fb62ffbc84',1,'sst::filtersplusplus']]],
+  ['continueonfailure_10',['ContinueOnFailure',['../structCatch_1_1ResultDisposition.html#aa705cf7e79a21c2352b00ffe20cd295fa760881b8dc5a350fe1f65aefd9b3b9c6',1,'Catch::ResultDisposition']]],
+  ['cutoffwarp_11',['CutoffWarp',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a5043df1dd7d25d8f5d80106fb8ec93da',1,'sst::filtersplusplus']]],
+  ['cytomiccascade_12',['CytomicCascade',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a842bb7db006ce63b09ce0ae254378268',1,'sst::filtersplusplus']]],
+  ['cytomicsvf_13',['CytomicSVF',['../namespacesst_1_1filtersplusplus.html#af6e1b94c85265337c3ad6ae28b891277a7be04ac8d301f0cfdd3fe9f693e4fd16',1,'sst::filtersplusplus']]]
 ];
