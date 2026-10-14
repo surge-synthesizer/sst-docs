@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a558be07cbae3a5c1e0847292085c6159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66e3782283c1e47785c9b5a63dffabc7" id="r_a66e3782283c1e47785c9b5a63dffabc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7">enqueueWorkItem</a> (<a class="el" href="structscxt_1_1browser_1_1WriterWorker_1_1EnQAble.html">EnQAble</a> *p)</td></tr>
 <tr class="separator:a66e3782283c1e47785c9b5a63dffabc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb64cac513f6c3b88747ca926ab81af0" id="r_abb64cac513f6c3b88747ca926ab81af0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#abb64cac513f6c3b88747ca926ab81af0">waitUntilIdle</a> ()</td></tr>
+<tr class="separator:abb64cac513f6c3b88747ca926ab81af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3bd3713dae1ab42b6159984a31ec085" id="r_ab3bd3713dae1ab42b6159984a31ec085"><td class="memItemLeft" align="right" valign="top">sqlite3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#ab3bd3713dae1ab42b6159984a31ec085">getReadOnlyConn</a> (bool notifyOnError=true)</td></tr>
 <tr class="separator:ab3bd3713dae1ab42b6159984a31ec085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -428,6 +430,25 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abb64cac513f6c3b88747ca926ab81af0" name="abb64cac513f6c3b88747ca926ab81af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb64cac513f6c3b88747ca926ab81af0">&#9670;&#160;</a></span>waitUntilIdle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void waitUntilIdle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a5898fb0380c977a51158cec4d5b40350">WriterWorker::haveOpenedForWriteOnce</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#ac1fd1cf8bb7d8fc76e03c0d03c399cff">WriterWorker::pathQ</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a0aaf8740256febfc3bb729958e3b5c89">WriterWorker::qLock</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#af77deabee50a71a0707783d98a9886f4">WriterWorker::waiting</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#ab36590582055b718281fd2a20d9e0e0c">WriterWorker::waitingCV</a>.</p>
+
+</div>
+</div>
 <a id="ab3bd3713dae1ab42b6159984a31ec085" name="ab3bd3713dae1ab42b6159984a31ec085"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3bd3713dae1ab42b6159984a31ec085">&#9670;&#160;</a></span>getReadOnlyConn()</h2>
 
@@ -575,7 +596,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28">WriterWorker::~WriterWorker()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#abb64cac513f6c3b88747ca926ab81af0">WriterWorker::waitUntilIdle()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28">WriterWorker::~WriterWorker()</a>.</p>
 
 </div>
 </div>
@@ -591,7 +612,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#abb64cac513f6c3b88747ca926ab81af0">WriterWorker::waitUntilIdle()</a>.</p>
 
 </div>
 </div>
@@ -655,7 +676,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7">WriterWorker::enqueueWorkItem()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28">WriterWorker::~WriterWorker()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7">WriterWorker::enqueueWorkItem()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#abb64cac513f6c3b88747ca926ab81af0">WriterWorker::waitUntilIdle()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28">WriterWorker::~WriterWorker()</a>.</p>
 
 </div>
 </div>
@@ -687,7 +708,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#abb64cac513f6c3b88747ca926ab81af0">WriterWorker::waitUntilIdle()</a>.</p>
 
 </div>
 </div>
@@ -703,7 +724,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7">WriterWorker::enqueueWorkItem()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28">WriterWorker::~WriterWorker()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a66e3782283c1e47785c9b5a63dffabc7">WriterWorker::enqueueWorkItem()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a86a28e8f04a4f4e49d37ea84c5807a50">WriterWorker::loadQueueFunction()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a3142259d7b2e826d6508aa81e0f95948">WriterWorker::openForWrite()</a>, <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#abb64cac513f6c3b88747ca926ab81af0">WriterWorker::waitUntilIdle()</a>, and <a class="el" href="structscxt_1_1browser_1_1WriterWorker.html#a9c3d7a1981e3ee517b2e7665e7d10c28">WriterWorker::~WriterWorker()</a>.</p>
 
 </div>
 </div>
@@ -729,7 +750,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 14 2026 15:35:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Oct 14 2026 17:45:43 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

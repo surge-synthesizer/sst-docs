@@ -110,6 +110,8 @@ Macros</h2></td></tr>
 <tr class="separator:a82e0a43b87b43c4defe2d1021c1151e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a431ef0af180a125083e0b73b2bbe3e0b" id="r_a431ef0af180a125083e0b73b2bbe3e0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="client__macros_8h.html#a431ef0af180a125083e0b73b2bbe3e0b">SERIAL_TO_CLIENT</a>(className,  s2id,  s2payloadType,  cliMethod)</td></tr>
 <tr class="separator:a431ef0af180a125083e0b73b2bbe3e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a5e79aa517bd2b426e15c825ae4ee66" id="r_a7a5e79aa517bd2b426e15c825ae4ee66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="client__macros_8h.html#a7a5e79aa517bd2b426e15c825ae4ee66">SERIAL_TO_CLIENT_OPT_IN</a>(className,  s2id,  s2payloadType,  cliMethod)</td></tr>
+<tr class="separator:a7a5e79aa517bd2b426e15c825ae4ee66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a049189a82eb4ca838e71517b6ec3af7e" name="a049189a82eb4ca838e71517b6ec3af7e"></a>
@@ -374,10 +376,65 @@ Macros</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a7a5e79aa517bd2b426e15c825ae4ee66" name="a7a5e79aa517bd2b426e15c825ae4ee66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a5e79aa517bd2b426e15c825ae4ee66">&#9670;&#160;</a></span>SERIAL_TO_CLIENT_OPT_IN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_TO_CLIENT_OPT_IN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">className, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s2id, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s2payloadType, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">cliMethod&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">struct </span>className                                                                               \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keyword">constexpr</span> SerializationToClientMessageIds s2c_id{s2id};                             \</div>
+<div class="line">        <span class="keyword">typedef</span> s2payloadType s2c_payload_t;                                                       \</div>
+<div class="line">        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Client&gt;                                                                 \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keywordtype">void</span> executeOnClient(Client *c, <span class="keyword">const</span> s2c_payload_t &amp;payload)                       \</div>
+<div class="line">        {                                                                                          \</div>
+<div class="line">            <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<span class="keyword">requires</span> { c-&gt;cliMethod(payload); })                                     \</div>
+<div class="line">                c-&gt;cliMethod(payload);                                                             \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    };                                                                                             \</div>
+<div class="line">    <span class="keyword">template</span> &lt;&gt; <span class="keyword">struct </span>SerializationToClientType&lt;className::s2c_id&gt;                                \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keyword">typedef</span> className T;                                                                       \</div>
+<div class="line">    };</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 14 2026 15:35:54 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Oct 14 2026 17:45:43 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
