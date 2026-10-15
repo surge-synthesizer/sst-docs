@@ -1,18 +1,19 @@
 var searchData=
 [
   ['kernelop_0',['KernelOp',['../structscxt_1_1dsp_1_1KernelOp.html',1,'scxt::dsp']]],
-  ['kernelop_3c_20interpolationtypes_3a_3alinear_2c_20t_20_3e_1',['KernelOp&lt; InterpolationTypes::Linear, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html',1,'scxt::dsp']]],
-  ['kernelop_3c_20interpolationtypes_3a_3asinc_2c_20float_20_3e_2',['KernelOp&lt; InterpolationTypes::Sinc, float &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html',1,'scxt::dsp']]],
-  ['kernelop_3c_20interpolationtypes_3a_3asinc_2c_20int16_5ft_20_3e_3',['KernelOp&lt; InterpolationTypes::Sinc, int16_t &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01int16__t_01_4.html',1,'scxt::dsp']]],
-  ['kernelop_3c_20interpolationtypes_3a_3azeroorderhold_2c_20t_20_3e_4',['KernelOp&lt; InterpolationTypes::ZeroOrderHold, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZeroOrderHold_00_01T_01_4.html',1,'scxt::dsp']]],
-  ['kernelop_3c_20interpolationtypes_3a_3azohaa_2c_20t_20_3e_5',['KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html',1,'scxt::dsp']]],
-  ['kernelprocessor_6',['KernelProcessor',['../structscxt_1_1dsp_1_1KernelProcessor.html',1,'scxt::dsp']]],
-  ['keyandpitchsources_7',['keyandpitchsources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'GroupMatrixEndpoints::Sources::KeyAndPitchSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'MatrixEndpoints::Sources::KeyAndPitchSources']]],
-  ['keyaxis_8',['KeyAxis',['../structscxt_1_1engine_1_1structure__edit__detail_1_1KeyAxis.html',1,'scxt::engine::structure_edit_detail']]],
-  ['keybindings_9',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html',1,'scxt::ui::app']]],
-  ['keyboardrange_10',['KeyboardRange',['../structscxt_1_1engine_1_1KeyboardRange.html',1,'scxt::engine']]],
-  ['keycommandinfo_11',['KeyCommandInfo',['../structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html',1,'scxt::ui::app']]],
-  ['keycommandtarget_12',['KeyCommandTarget',['../structscxt_1_1ui_1_1app_1_1KeyCommandTarget.html',1,'scxt::ui::app']]],
-  ['keygroup_13',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
-  ['kloc_14',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
+  ['kernelop_3c_20interpolationtypes_3a_3acubic_2c_20t_20_3e_1',['KernelOp&lt; InterpolationTypes::Cubic, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Cubic_00_01T_01_4.html',1,'scxt::dsp']]],
+  ['kernelop_3c_20interpolationtypes_3a_3alinear_2c_20t_20_3e_2',['KernelOp&lt; InterpolationTypes::Linear, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html',1,'scxt::dsp']]],
+  ['kernelop_3c_20interpolationtypes_3a_3asinc_2c_20float_20_3e_3',['KernelOp&lt; InterpolationTypes::Sinc, float &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html',1,'scxt::dsp']]],
+  ['kernelop_3c_20interpolationtypes_3a_3asinc_2c_20int16_5ft_20_3e_4',['KernelOp&lt; InterpolationTypes::Sinc, int16_t &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01int16__t_01_4.html',1,'scxt::dsp']]],
+  ['kernelop_3c_20interpolationtypes_3a_3azeroorderhold_2c_20t_20_3e_5',['KernelOp&lt; InterpolationTypes::ZeroOrderHold, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZeroOrderHold_00_01T_01_4.html',1,'scxt::dsp']]],
+  ['kernelop_3c_20interpolationtypes_3a_3azohaa_2c_20t_20_3e_6',['KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;',['../structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html',1,'scxt::dsp']]],
+  ['kernelprocessor_7',['KernelProcessor',['../structscxt_1_1dsp_1_1KernelProcessor.html',1,'scxt::dsp']]],
+  ['keyandpitchsources_8',['keyandpitchsources',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'GroupMatrixEndpoints::Sources::KeyAndPitchSources'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints_1_1Sources_1_1KeyAndPitchSources.html',1,'MatrixEndpoints::Sources::KeyAndPitchSources']]],
+  ['keyaxis_9',['KeyAxis',['../structscxt_1_1engine_1_1structure__edit__detail_1_1KeyAxis.html',1,'scxt::engine::structure_edit_detail']]],
+  ['keybindings_10',['KeyBindings',['../structscxt_1_1ui_1_1app_1_1KeyBindings.html',1,'scxt::ui::app']]],
+  ['keyboardrange_11',['KeyboardRange',['../structscxt_1_1engine_1_1KeyboardRange.html',1,'scxt::engine']]],
+  ['keycommandinfo_12',['KeyCommandInfo',['../structscxt_1_1ui_1_1app_1_1KeyCommandInfo.html',1,'scxt::ui::app']]],
+  ['keycommandtarget_13',['KeyCommandTarget',['../structscxt_1_1ui_1_1app_1_1KeyCommandTarget.html',1,'scxt::ui::app']]],
+  ['keygroup_14',['KEYGROUP',['../structscxt_1_1akai__support_1_1KEYGROUP.html',1,'scxt::akai_support']]],
+  ['kloc_15',['KLOC',['../structscxt_1_1akai__support_1_1KLOC.html',1,'scxt::akai_support']]]
 ];

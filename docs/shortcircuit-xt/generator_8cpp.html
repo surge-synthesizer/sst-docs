@@ -113,6 +113,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html">KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Cubic_00_01T_01_4.html">KernelOp&lt; InterpolationTypes::Cubic, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html">KernelOp&lt; InterpolationTypes::Linear, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html">KernelOp&lt; InterpolationTypes::Sinc, float &gt;</a></td></tr>
@@ -151,6 +153,9 @@ Functions</h2></td></tr>
 <tr class="separator:af05c9423ad1e42735cd1f8cdc57528a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3598451cfb5d95d1ce4022d4f5808c9f" id="r_a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3598451cfb5d95d1ce4022d4f5808c9f">NormalizeSampleToF32</a> (int16_t val)</td></tr>
 <tr class="separator:a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e437b541e1972e88e1e03893019e71" id="r_a10e437b541e1972e88e1e03893019e71"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> KT, typename T , int NUM_CHANNELS, bool LOOP_ACTIVE&gt; </td></tr>
+<tr class="memitem:a10e437b541e1972e88e1e03893019e71"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a10e437b541e1972e88e1e03893019e71">catmullRomProcess</a> (<a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html">KernelProcessor</a>&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt; &amp;ks, float f_subPos, float f_fadeSubPos)</td></tr>
+<tr class="separator:a10e437b541e1972e88e1e03893019e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb5e5d997fcc810f1a1f298aad07fc63" id="r_afb5e5d997fcc810f1a1f298aad07fc63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong</a> (int &amp;samplePos, int &amp;sampleSubPos, int &amp;travel, int ratioSign, int64_t ratio, int mirrorLo, int mirrorHi, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> *GD)</td></tr>
 <tr class="separator:afb5e5d997fcc810f1a1f298aad07fc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade663251c567fe0ecf39835d28611ecc" id="r_ade663251c567fe0ecf39835d28611ecc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc">loopWrapIndex</a> (int k, int samplePos, int loopLowerBound, int loopUpperBound, int waveSize, int loopLength)</td></tr>
@@ -250,7 +255,8 @@ Variables</h2></td></tr>
 <div class="line">                                            fade.mainGain,                                         \</div>
 <div class="line">                                            fade.partnerGain,                                      \</div>
 <div class="line">                                            {OutputL, OutputR},                                    \</div>
-<div class="line">                                            IO};                                                   \</div>
+<div class="line">                                            IO,                                                    \</div>
+<div class="line">                                            &amp;zohaaWarp};                                           \</div>
 <div class="line">    kp.ProcessKernel(GD);</div>
 </div><!-- fragment -->
 </div>
@@ -301,7 +307,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    KernelProcessor&lt;E, T, C, loopActive&gt; ks{                                                       \</div>
 <div class="line">        SamplePos,        SampleSubPos, int32_t(m0), i,           fade.partnerSubPos,              \</div>
 <div class="line">        int32_t(fadeM0),  {data},       {fadeData},  fade.active, fade.mainGain,                   \</div>
-<div class="line">        fade.partnerGain, {OutputL},    IO};                                                       \</div>
+<div class="line">        fade.partnerGain, {OutputL},    IO,          &amp;zohaaWarp};                                  \</div>
 <div class="line">    ks.ProcessKernel(GD);</div>
 </div><!-- fragment -->
 </div>
@@ -323,7 +329,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 15 2026 01:34:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 15 2026 01:38:49 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

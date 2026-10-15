@@ -123,6 +123,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp.html">KernelOp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Cubic_00_01T_01_4.html">KernelOp&lt; InterpolationTypes::Cubic, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html">KernelOp&lt; InterpolationTypes::Linear, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Sinc_00_01float_01_4.html">KernelOp&lt; InterpolationTypes::Sinc, float &gt;</a></td></tr>
@@ -134,6 +136,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html">KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html">KernelProcessor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1dsp_1_1ZOHAAWarp.html">ZOHAAWarp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -157,10 +161,14 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a06410b91b9d0ee6d70901dd29775ecd5" id="r_a06410b91b9d0ee6d70901dd29775ecd5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> { <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>
+<tr class="memitem:a06410b91b9d0ee6d70901dd29775ecd5" id="r_a06410b91b9d0ee6d70901dd29775ecd5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> { <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>
 , <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>
 , <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>
 , <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a7105ea83819b1af6af85747e20b462b4">Cubic</a>
+<br />
  }</td></tr>
 <tr class="separator:a06410b91b9d0ee6d70901dd29775ecd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f6bd8a59d339470aa58dff9db53f1d" id="r_a03f6bd8a59d339470aa58dff9db53f1d"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1d">LoopFadeMarker</a> { <a class="el" href="namespacescxt_1_1dsp.html#a03f6bd8a59d339470aa58dff9db53f1da591ff9fa086dd84da380fcc19cb6de6b">SAMPLE_START</a>
@@ -175,6 +183,9 @@ Functions</h2></td></tr>
 <tr class="separator:af05c9423ad1e42735cd1f8cdc57528a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3598451cfb5d95d1ce4022d4f5808c9f" id="r_a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a3598451cfb5d95d1ce4022d4f5808c9f">NormalizeSampleToF32</a> (int16_t val)</td></tr>
 <tr class="separator:a3598451cfb5d95d1ce4022d4f5808c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e437b541e1972e88e1e03893019e71" id="r_a10e437b541e1972e88e1e03893019e71"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> KT, typename T , int NUM_CHANNELS, bool LOOP_ACTIVE&gt; </td></tr>
+<tr class="memitem:a10e437b541e1972e88e1e03893019e71"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#a10e437b541e1972e88e1e03893019e71">catmullRomProcess</a> (<a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html">KernelProcessor</a>&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt; &amp;ks, float f_subPos, float f_fadeSubPos)</td></tr>
+<tr class="separator:a10e437b541e1972e88e1e03893019e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb5e5d997fcc810f1a1f298aad07fc63" id="r_afb5e5d997fcc810f1a1f298aad07fc63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong</a> (int &amp;samplePos, int &amp;sampleSubPos, int &amp;travel, int ratioSign, int64_t ratio, int mirrorLo, int mirrorHi, <a class="el" href="structscxt_1_1dsp_1_1GeneratorState.html">GeneratorState</a> *GD)</td></tr>
 <tr class="separator:afb5e5d997fcc810f1a1f298aad07fc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade663251c567fe0ecf39835d28611ecc" id="r_ade663251c567fe0ecf39835d28611ecc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc">loopWrapIndex</a> (int k, int samplePos, int loopLowerBound, int loopUpperBound, int waveSize, int loopLength)</td></tr>
@@ -366,6 +377,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b" name="a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b"></a>Linear&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd" name="a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd"></a>ZOHAA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0" name="a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0"></a>ZeroOrderHold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a06410b91b9d0ee6d70901dd29775ecd5a7105ea83819b1af6af85747e20b462b4" name="a06410b91b9d0ee6d70901dd29775ecd5a7105ea83819b1af6af85747e20b462b4"></a>Cubic&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -414,7 +426,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html#ab69bddad6c6bf2a41c014862fa1ee346">KernelOp&lt; InterpolationTypes::Linear, T &gt;::Process()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZeroOrderHold_00_01T_01_4.html#ae5f4a74ed14ecaed35eefd7253da30f6">KernelOp&lt; InterpolationTypes::ZeroOrderHold, T &gt;::Process()</a>, and <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html#a9f558e4a16be137c1786d8924c6962cb">KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;::Process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1dsp.html#a10e437b541e1972e88e1e03893019e71">catmullRomProcess()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Linear_00_01T_01_4.html#ab69bddad6c6bf2a41c014862fa1ee346">KernelOp&lt; InterpolationTypes::Linear, T &gt;::Process()</a>, and <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZeroOrderHold_00_01T_01_4.html#ae5f4a74ed14ecaed35eefd7253da30f6">KernelOp&lt; InterpolationTypes::ZeroOrderHold, T &gt;::Process()</a>.</p>
 
 </div>
 </div>
@@ -435,6 +447,46 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a7d03ca06c0a42deca076884b7a9e8f99">I16InvScale2</a>.</p>
+
+</div>
+</div>
+<a id="a10e437b541e1972e88e1e03893019e71" name="a10e437b541e1972e88e1e03893019e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e437b541e1972e88e1e03893019e71">&#9670;&#160;</a></span>catmullRomProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5">InterpolationTypes</a> KT, typename T , int NUM_CHANNELS, bool LOOP_ACTIVE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void catmullRomProcess </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html">KernelProcessor</a>&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f_subPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f_fadeSubPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a38855a6397f3a8b1bf575977fcfc79bf">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::fadeActive</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#ad9484f5522d0e5f033037c369365ec61">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::i</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a8e1a0533dc33e6b4ff7c1b59a7487107">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::mainGain</a>, <a class="el" href="namespacescxt_1_1dsp.html#af05c9423ad1e42735cd1f8cdc57528a1">NormalizeSampleToF32()</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a63b83603665abcda5c62d59e42ef62ed">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::Output</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a45743ec4bdb8fafaa2265a7fb68adea0">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::partnerGain</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a8ff5ee898fb5f9caf4b8d26e299befe5">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::ReadFadeSample</a>, <a class="el" href="structscxt_1_1dsp_1_1KernelProcessor.html#a7a57720b07b72c765d930e78f4896c43">KernelProcessor&lt; KT, T, NUM_CHANNELS, LOOP_ACTIVE &gt;::ReadSample</a>, and <a class="el" href="sf2__import_8cpp.html#a7ae0c17e1dfe65ad7c280626f3a62101">src</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1Cubic_00_01T_01_4.html#a3019e9dc0112972876fd70c42cac5eaa">KernelOp&lt; InterpolationTypes::Cubic, T &gt;::Process()</a>, and <a class="el" href="structscxt_1_1dsp_1_1KernelOp_3_01InterpolationTypes_1_1ZOHAA_00_01T_01_4.html#a9f558e4a16be137c1786d8924c6962cb">KernelOp&lt; InterpolationTypes::ZOHAA, T &gt;::Process()</a>.</p>
 
 </div>
 </div>
@@ -588,7 +640,7 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a23f12a4285ce6211ceed10526acd77fe">fromLoopValue()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">getFadeGainToAmp()</a>, <a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>, <a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc">loopWrapIndex()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead()</a>, <a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">clampLoopFade()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a7105ea83819b1af6af85747e20b462b4">Cubic</a>, <a class="el" href="namespacescxt_1_1dsp.html#a3cc895ea3d683ec5aeb728b356456c73">fadeTFromCurve()</a>, <a class="el" href="structscxt_1_1dsp_1_1ZOHAAWarp.html#a83a091d07975d16ce82fba8896053e57">ZOHAAWarp::forRatio()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a23f12a4285ce6211ceed10526acd77fe">fromLoopValue()</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">getFadeGainToAmp()</a>, <a class="el" href="generator_8cpp.html#a1234531831a22b5f6da4c2e867e23964">KPMono</a>, <a class="el" href="generator_8cpp.html#aad561255dd8401351bc3ce9fe6db1b56">KPStereo</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#ade663251c567fe0ecf39835d28611ecc">loopWrapIndex()</a>, <a class="el" href="namespacescxt_1_1dsp.html#acba6d24b5770629c5a5a2f2288676ecd">mirrorRead()</a>, <a class="el" href="namespacescxt_1_1dsp.html#afb5e5d997fcc810f1a1f298aad07fc63">reflectPingPong()</a>, <a class="el" href="utils_8h.html#a61f1d4987b64140650f38bfb7eda5e18">SCD</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
 
 </div>
 </div>
@@ -820,7 +872,7 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a7105ea83819b1af6af85747e20b462b4">Cubic</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a1a1f3bc55fefa098d9034cc46e2e7a2b">Linear</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a4f50f73dd841512c9dab8269f8c8f7bd">ZOHAA</a>.</p>
 
 </div>
 </div>
@@ -840,7 +892,7 @@ template&lt;int compoundConfig&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5aafa11dfc6c3368f399d91f14b53f86b0">ZeroOrderHold</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a7105ea83819b1af6af85747e20b462b4">Cubic</a>, and <a class="el" href="namespacescxt_1_1dsp.html#a06410b91b9d0ee6d70901dd29775ecd5a68eb33dcf4aa8df051570a9fa14ab798">Sinc</a>.</p>
 
 </div>
 </div>
@@ -1274,7 +1326,7 @@ template&lt;int compoundConfig&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 15 2026 01:34:34 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 15 2026 01:38:50 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
