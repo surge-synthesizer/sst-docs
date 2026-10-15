@@ -96,7 +96,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">scxt::sample::loaders Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -114,6 +115,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1loaders_1_1SampleLoop.html">SampleLoop</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1loaders_1_1SamplerChunk.html">SamplerChunk</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1loaders_1_1SmplTuning.html">SmplTuning</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1sample_1_1loaders_1_1wave__acid__chunk.html">wave_acid_chunk</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +136,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacescxt_1_1sample_1_1loaders.html#a64ef8dfaebae64d60164bdd0e5fd6183a9135fca2ab11b60e3d45ccf2dc98c1dc">mf_FromEnd</a>
  }</td></tr>
 <tr class="separator:a64ef8dfaebae64d60164bdd0e5fd6183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1b2649ea4b642cf1e2a39802db969cd2" id="r_a1b2649ea4b642cf1e2a39802db969cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1sample_1_1loaders_1_1SmplTuning.html">SmplTuning</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1sample_1_1loaders.html#a1b2649ea4b642cf1e2a39802db969cd2">smplTuning</a> (const <a class="el" href="structscxt_1_1sample_1_1loaders_1_1SamplerChunk.html">SamplerChunk</a> &amp;c)</td></tr>
+<tr class="separator:a1b2649ea4b642cf1e2a39802db969cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a64ef8dfaebae64d60164bdd0e5fd6183" name="a64ef8dfaebae64d60164bdd0e5fd6183"></a>
@@ -154,10 +162,33 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1b2649ea4b642cf1e2a39802db969cd2" name="a1b2649ea4b642cf1e2a39802db969cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b2649ea4b642cf1e2a39802db969cd2">&#9670;&#160;</a></span>smplTuning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1sample_1_1loaders_1_1SmplTuning.html">SmplTuning</a> smplTuning </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structscxt_1_1sample_1_1loaders_1_1SamplerChunk.html">SamplerChunk</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1loaders_1_1SmplTuning.html#a302bd10e63fd6190decd0bf8adf5dc76">SmplTuning::cents</a>, <a class="el" href="structscxt_1_1sample_1_1loaders_1_1SamplerChunk.html#a81e1bace429639c255b07f8a8437f1c6">SamplerChunk::dwMIDIPitchFraction</a>, <a class="el" href="structscxt_1_1sample_1_1loaders_1_1SamplerChunk.html#a798c2229498481a57613ce3082713e41">SamplerChunk::dwMIDIUnityNote</a>, and <a class="el" href="structscxt_1_1sample_1_1loaders_1_1SmplTuning.html#a8d81f93fced43e07cee24c8381ba1f94">SmplTuning::rootKey</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1sample_1_1Sample.html#ab6df1e060a8e485ed793298bc1490dde">Sample::parse_riff_wave()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 14 2026 17:45:43 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Oct 15 2026 01:34:35 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
