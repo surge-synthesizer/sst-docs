@@ -141,6 +141,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a3d4af402e82610edc869be04818b078f" id="r_a3d4af402e82610edc869be04818b078f"><td class="memTemplParams" colspan="2">template&lt;typename R , typename O &gt; </td></tr>
 <tr class="memitem:a3d4af402e82610edc869be04818b078f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a3d4af402e82610edc869be04818b078f">autoCrossfade</a> (std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &gt; &amp;m, R range, O other)</td></tr>
 <tr class="separator:a3d4af402e82610edc869be04818b078f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc550e34302feafe6ff4325dc9edee8" id="r_a5dc550e34302feafe6ff4325dc9edee8"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; </td></tr>
+<tr class="memitem:a5dc550e34302feafe6ff4325dc9edee8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5dc550e34302feafe6ff4325dc9edee8">fitFades</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;d, R range)</td></tr>
+<tr class="separator:a5dc550e34302feafe6ff4325dc9edee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287d40840152a6b7c6ffa503ac1608ff" id="r_a287d40840152a6b7c6ffa503ac1608ff"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; </td></tr>
+<tr class="memitem:a287d40840152a6b7c6ffa503ac1608ff"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a287d40840152a6b7c6ffa503ac1608ff">splitPartialOverlap</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;lower, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;upper)</td></tr>
+<tr class="separator:a287d40840152a6b7c6ffa503ac1608ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc9c670c05d0731254ebd4983354e71" id="r_a1fc9c670c05d0731254ebd4983354e71"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; </td></tr>
+<tr class="memitem:a1fc9c670c05d0731254ebd4983354e71"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a1fc9c670c05d0731254ebd4983354e71">splitPartialOverlapEitherWay</a> (<a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;a, <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;b)</td></tr>
+<tr class="separator:a1fc9c670c05d0731254ebd4983354e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db5eb0fc09d1c0a5d2d09ca26f1c917" id="r_a5db5eb0fc09d1c0a5d2d09ca26f1c917"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5db5eb0fc09d1c0a5d2d09ca26f1c917">fixOverlaps</a> (std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &gt; &amp;m)</td></tr>
+<tr class="separator:a5db5eb0fc09d1c0a5d2d09ca26f1c917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a231b75a3abf0d444813ae0977fe1f4f0" name="a231b75a3abf0d444813ae0977fe1f4f0"></a>
@@ -582,10 +593,134 @@ template&lt;typename R , typename O &gt; </div>
 
 </div>
 </div>
+<a id="a5dc550e34302feafe6ff4325dc9edee8" name="a5dc550e34302feafe6ff4325dc9edee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc550e34302feafe6ff4325dc9edee8">&#9670;&#160;</a></span>fitFades()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename R &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void fitFades </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">R&#160;</td>
+          <td class="paramname"><em>range</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5dc550e34302feafe6ff4325dc9edee8">fitFades()</a>, <a class="el" href="gig__import_8cpp.html#a53e4061991bce5bb55e85597bf35e58e">hi</a>, and <a class="el" href="gig__import_8cpp.html#ad36a267e1775b51b050d698ba7111ad6">lo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5dc550e34302feafe6ff4325dc9edee8">fitFades()</a>, and <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5db5eb0fc09d1c0a5d2d09ca26f1c917">fixOverlaps()</a>.</p>
+
+</div>
+</div>
+<a id="a287d40840152a6b7c6ffa503ac1608ff" name="a287d40840152a6b7c6ffa503ac1608ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287d40840152a6b7c6ffa503ac1608ff">&#9670;&#160;</a></span>splitPartialOverlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename R &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool splitPartialOverlap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;&#160;</td>
+          <td class="paramname"><em>lower</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;&#160;</td>
+          <td class="paramname"><em>upper</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a287d40840152a6b7c6ffa503ac1608ff">splitPartialOverlap()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a287d40840152a6b7c6ffa503ac1608ff">splitPartialOverlap()</a>.</p>
+
+</div>
+</div>
+<a id="a1fc9c670c05d0731254ebd4983354e71" name="a1fc9c670c05d0731254ebd4983354e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc9c670c05d0731254ebd4983354e71">&#9670;&#160;</a></span>splitPartialOverlapEitherWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename R &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool splitPartialOverlapEitherWay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a1fc9c670c05d0731254ebd4983354e71">splitPartialOverlapEitherWay()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a1fc9c670c05d0731254ebd4983354e71">splitPartialOverlapEitherWay()</a>.</p>
+
+</div>
+</div>
+<a id="a5db5eb0fc09d1c0a5d2d09ca26f1c917" name="a5db5eb0fc09d1c0a5d2d09ca26f1c917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db5eb0fc09d1c0a5d2d09ca26f1c917">&#9670;&#160;</a></span>fixOverlaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fixOverlaps </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structscxt_1_1engine_1_1Zone_1_1ZoneMappingData.html">Zone::ZoneMappingData</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5dc550e34302feafe6ff4325dc9edee8">fitFades()</a>, and <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5db5eb0fc09d1c0a5d2d09ca26f1c917">fixOverlaps()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1engine_1_1Engine.html#a00188cdbea00a8d36316ab17025e1b2e">Engine::applyZoneBatchOp()</a>, and <a class="el" href="namespacescxt_1_1engine_1_1structure__edit__detail.html#a5db5eb0fc09d1c0a5d2d09ca26f1c917">fixOverlaps()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 17 2026 01:30:56 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Tue Oct 20 2026 15:04:29 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

@@ -5,12 +5,13 @@ var searchData=
   ['targetidentifier_2',['targetidentifier',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a6460c233daeda02481471c3a8e86cb85',1,'scxt::modulation::GroupMatrixConfig::TargetIdentifier'],['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a6460c233daeda02481471c3a8e86cb85',1,'scxt::voice::modulation::MatrixConfig::TargetIdentifier']]],
   ['tg_3',['tg',['../structscxt_1_1modulation_1_1GroupMatrixEndpoints.html#ab962d4b36802fc96d0b77cb2377bc22b',1,'scxt::modulation::GroupMatrixEndpoints::TG'],['../structscxt_1_1voice_1_1modulation_1_1MatrixEndpoints.html#a5f1623ccc8a2aaed67fe9c027afc6cf8',1,'scxt::voice::modulation::MatrixEndpoints::TG'],['../namespacescxt_1_1import__support.html#aba2e817baeab8a886c72c9c7c0979e7d',1,'scxt::import_support::TG']]],
   ['ti_4',['ti',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a97f0c44a56e1a9c74c718b8522f8826d',1,'scxt::modulation::GroupMatrixConfig::TI'],['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a97f0c44a56e1a9c74c718b8522f8826d',1,'scxt::voice::modulation::MatrixConfig::TI']]],
-  ['tos_5',['TOS',['../structscxt_1_1dsp_1_1processor_1_1ProcessorImplementor.html#acdaa59491838ea104a7d8d167d524258',1,'scxt::dsp::processor::ProcessorImplementor']]],
-  ['triggerattachment_5ft_6',['triggerAttachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a4bcb6bf5b61f7cd6915c1b983bd95e0e',1,'scxt::ui::app::edit_screen::LfoPane']]],
-  ['tripoleimpl_7',['tripoleImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a0f5fbc0a891ebc6397f6746e215420b7',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['tripoleimpl_5fos_8',['tripoleImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a63aaa8f20cf282d6df6b497301a38579',1,'scxt::dsp::processor::procimpl::detail']]],
-  ['tsposeattachment_5ft_9',['tsposeattachment_t',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a8a8b2248fdf823609197a385af4d17e7',1,'scxt::ui::app::shared::PartSidebarCard']]],
-  ['tuningstatuspayload_5ft_10',['tuningStatusPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a42f7d32f64cdd9097b4766ccf1c82f84',1,'scxt::messaging::client']]],
-  ['twentyfivesecondexptable_11',['TwentyFiveSecondExpTable',['../namespacescxt_1_1dsp.html#ac79f594caefd0a1d925c369a564c95fc',1,'scxt::dsp']]],
-  ['twotothextable_12',['TwoToTheXTable',['../namespacescxt_1_1dsp.html#acf387eb28e70dc00320940ec1bb9ee4d',1,'scxt::dsp']]]
+  ['toggle_5ft_5',['toggle_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#ac559912f6b21f5160fac481935e6e964',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
+  ['tos_6',['TOS',['../structscxt_1_1dsp_1_1processor_1_1ProcessorImplementor.html#acdaa59491838ea104a7d8d167d524258',1,'scxt::dsp::processor::ProcessorImplementor']]],
+  ['triggerattachment_5ft_7',['triggerAttachment_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1LfoPane.html#a4bcb6bf5b61f7cd6915c1b983bd95e0e',1,'scxt::ui::app::edit_screen::LfoPane']]],
+  ['tripoleimpl_8',['tripoleImpl',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a0f5fbc0a891ebc6397f6746e215420b7',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['tripoleimpl_5fos_9',['tripoleImpl_os',['../namespacescxt_1_1dsp_1_1processor_1_1procimpl_1_1detail.html#a63aaa8f20cf282d6df6b497301a38579',1,'scxt::dsp::processor::procimpl::detail']]],
+  ['tsposeattachment_5ft_10',['tsposeattachment_t',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartSidebarCard.html#a8a8b2248fdf823609197a385af4d17e7',1,'scxt::ui::app::shared::PartSidebarCard']]],
+  ['tuningstatuspayload_5ft_11',['tuningStatusPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a42f7d32f64cdd9097b4766ccf1c82f84',1,'scxt::messaging::client']]],
+  ['twentyfivesecondexptable_12',['TwentyFiveSecondExpTable',['../namespacescxt_1_1dsp.html#ac79f594caefd0a1d925c369a564c95fc',1,'scxt::dsp']]],
+  ['twotothextable_13',['TwoToTheXTable',['../namespacescxt_1_1dsp.html#acf387eb28e70dc00320940ec1bb9ee4d',1,'scxt::dsp']]]
 ];
