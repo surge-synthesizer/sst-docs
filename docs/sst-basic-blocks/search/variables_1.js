@@ -10,11 +10,12 @@ var searchData=
   ['bias_7',['bias',['../structsst_1_1basic__blocks_1_1dsp_1_1UnisonSetup.html#aa6231a5027112a1cf56c610e6d7d91c5',1,'sst::basic_blocks::dsp::UnisonSetup']]],
   ['blep_8',['blep',['../structsst_1_1basic__blocks_1_1dsp_1_1EBOscillatorBase.html#a5d0f1f6e99e7d5c130783f562e83e9bb',1,'sst::basic_blocks::dsp::EBOscillatorBase']]],
   ['block_5fsize_5finv_9',['block_size_inv',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a26b3e57903f57253ac71cf0834d02c08',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope::BLOCK_SIZE_INV'],['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a26b3e57903f57253ac71cf0834d02c08',1,'sst::basic_blocks::modulators::SimpleLFO::BLOCK_SIZE_INV']]],
-  ['blocksize_10',['blockSize',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a4aaa73e329d20f35039fa5cdd2e6f648',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['blocksizeinv_11',['blockSizeInv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aad365b34254175c01dc69b321d4dde53',1,'sst::basic_blocks::dsp::lipol_sse']]],
-  ['bs_5finv_12',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
-  ['bs_5finv_5fdef_13',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
-  ['buffer_14',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine::buffer'],['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#a62ac89d6521e4df5a3aa8ac05c11f42c',1,'sst::basic_blocks::dsp::quadDelayLine::buffer']]],
-  ['buffer_5fsz_15',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]],
-  ['butonlyforsine_16',['butOnlyForSine',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a16d64251c8f7ba83c2939a1686209ce5',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]]
+  ['blocks_10',['blocks',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#ac5ebc9432ec58d54aff086e0b5137b2f',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
+  ['blocksize_11',['blockSize',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#a4aaa73e329d20f35039fa5cdd2e6f648',1,'sst::basic_blocks::dsp::lipol_sse']]],
+  ['blocksizeinv_12',['blockSizeInv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol__sse.html#aad365b34254175c01dc69b321d4dde53',1,'sst::basic_blocks::dsp::lipol_sse']]],
+  ['bs_5finv_13',['bs_inv',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#ad22a7334a448c9fe265fb01b5176f9fc',1,'sst::basic_blocks::dsp::lipol']]],
+  ['bs_5finv_5fdef_14',['bs_inv_def',['../structsst_1_1basic__blocks_1_1dsp_1_1lipol.html#aef1d84af9298bb4cc445b6a690ea44b8',1,'sst::basic_blocks::dsp::lipol']]],
+  ['buffer_15',['buffer',['../structsst_1_1basic__blocks_1_1dsp_1_1SSESincDelayLine.html#a368fb6c08368dc4b883fd9297aab1d4f',1,'sst::basic_blocks::dsp::SSESincDelayLine::buffer'],['../structsst_1_1basic__blocks_1_1dsp_1_1quadDelayLine.html#a62ac89d6521e4df5a3aa8ac05c11f42c',1,'sst::basic_blocks::dsp::quadDelayLine::buffer']]],
+  ['buffer_5fsz_16',['BUFFER_SZ',['../structsst_1_1basic__blocks_1_1dsp_1_1LanczosResampler.html#ae063e3e58f78428d532c47d03211d5c8',1,'sst::basic_blocks::dsp::LanczosResampler']]],
+  ['butonlyforsine_17',['butOnlyForSine',['../structsst_1_1basic__blocks_1_1tables_1_1SixSinesWaveProvider.html#a16d64251c8f7ba83c2939a1686209ce5',1,'sst::basic_blocks::tables::SixSinesWaveProvider']]]
 ];
