@@ -9,5 +9,6 @@ var searchData=
   ['unison_6',['UNISON',['../structscxt_1_1engine_1_1Zone.html#a0252859b619b390cf2ed59741cc65ce0a9b08ab377b40ed0c0d63dcd2396d68c2',1,'scxt::engine::Zone']]],
   ['unison_5ftoggle_7',['UNISON_TOGGLE',['../namespacescxt_1_1exs__support.html#aa720d0a28ea34b938684edc6b674c6a2ab7cb10d548493dc317be7f16c8259960',1,'scxt::exs_support']]],
   ['unknown_8',['unknown',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html#a1d1cfd8ffb84e947f82999c682b666a7a5b9f6d065e6e98483b3d3ed01f4f6cbe',1,'scxt::sfz_support::SFZParser::Header']]],
-  ['usesoftwarerenderer_9',['useSoftwareRenderer',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a79d6bc569382bc1f292e484ccf35e1e9',1,'scxt::infrastructure']]]
+  ['user_5fpatches_9',['USER_PATCHES',['../structscxt_1_1browser_1_1Browser.html#ae86133b3570377b07d67e67aa9ed8e86ac980ddfd9a2d908cb1845397df2146ad',1,'scxt::browser::Browser']]],
+  ['usesoftwarerenderer_10',['useSoftwareRenderer',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a79d6bc569382bc1f292e484ccf35e1e9',1,'scxt::infrastructure']]]
 ];

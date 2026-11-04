@@ -3,7 +3,7 @@ var searchData=
   ['identifierdisplayname_5ft_0',['identifierdisplayname_t',['../namespacescxt_1_1voice_1_1modulation.html#a5c668f59593aa4195630e5a8b87f38e7',1,'scxt::voice::modulation::identifierDisplayName_t'],['../namespacescxt_1_1modulation.html#a5c668f59593aa4195630e5a8b87f38e7',1,'scxt::modulation::identifierDisplayName_t']]],
   ['indexeddiffmsg_5ft_1',['indexedDiffMsg_t',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a319a39a34f142344f6fa95862c1306d6',1,'scxt::messaging::client::detail']]],
   ['indexedmodulatorstorageupdate_5ft_2',['indexedModulatorStorageUpdate_t',['../namespacescxt_1_1messaging_1_1client.html#a66e35a9241690bfa0ea71a9376cbee12',1,'scxt::messaging::client']]],
-  ['indexedrootpath_5ft_3',['indexedRootPath_t',['../structscxt_1_1browser_1_1Browser.html#ae6a4a51e9d0e08b28c499b50e1ad843a',1,'scxt::browser::Browser']]],
+  ['indexedrootpath_5ft_3',['indexedRootPath_t',['../structscxt_1_1browser_1_1Browser.html#a7f44f19502b131374eb6886e055ebb9b',1,'scxt::browser::Browser']]],
   ['indexedzoneorgroupdiffmsg_5ft_4',['indexedZoneOrGroupDiffMsg_t',['../namespacescxt_1_1messaging_1_1client_1_1detail.html#a1ad7c008ee8f924c152ad7525f62949c',1,'scxt::messaging::client::detail']]],
   ['info_5ft_5',['info_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneZoneTraits.html#a526d83b23ac8360a45ea90173a749476',1,'scxt::ui::app::edit_screen::RoutingPaneZoneTraits::info_t'],['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1RoutingPaneGroupTraits.html#a0ca7dbccd6ce2137f8ccf26b6e96d245',1,'scxt::ui::app::edit_screen::RoutingPaneGroupTraits::info_t']]],
   ['initiatemidizoneaction_5ft_6',['initiateMidiZoneAction_t',['../namespacescxt_1_1messaging_1_1client.html#a7abacde4080bef25986a267341abaf9e',1,'scxt::messaging::client']]],
