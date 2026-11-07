@@ -29,7 +29,7 @@ var searchData=
   ['addkeycommanditem_26',['addKeyCommandItem',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a6c43ea79bce3997174ef5793dd79af6f',1,'scxt::ui::app::SCXTEditor']]],
   ['addlabel_27',['addLabel',['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#abb67bb4a1e5aa5ed59478cdd8e581053',1,'scxt::ui::app::shared::PartEffectsPane']]],
   ['addlinkzoneselectionitem_28',['addLinkZoneSelectionItem',['../namespacescxt_1_1ui_1_1app_1_1shared.html#a0b501d936f1f14461f0956926557ed31',1,'scxt::ui::app::shared']]],
-  ['addmonolithbinaries_29',['addMonolithBinaries',['../namespacescxt_1_1patch__io.html#a1156b4897a68f63c2274011b5d38ed87',1,'scxt::patch_io']]],
+  ['addmonolithbinaries_29',['addMonolithBinaries',['../namespacescxt_1_1patch__io.html#ab342ef5f860f676df07661ebfc6f1252',1,'scxt::patch_io']]],
   ['addnotificationcallback_30',['addNotificationCallback',['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a1841388503f75ba3d743b95e8cbdd785',1,'scxt::ui::app::SCXTEditorDataCache']]],
   ['addomniflavormenu_31',['addOmniFlavorMenu',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a1d9f1c3f7c591e9476544bf5bd81ee62',1,'scxt::ui::app::SCXTEditor']]],
   ['addoverride_32',['addoverride',['../structscxt_1_1infrastructure_1_1DefaultsProvider.html#a75df88ae47440653bbc60666512027d6',1,'scxt::infrastructure::DefaultsProvider::addOverride(DefaultKeys key, const std::string &amp;s)'],['../structscxt_1_1infrastructure_1_1DefaultsProvider.html#a6d9fb23326126c42c362575f322dc84b',1,'scxt::infrastructure::DefaultsProvider::addOverride(DefaultKeys key, int i)']]],
