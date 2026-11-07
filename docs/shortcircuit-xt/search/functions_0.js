@@ -157,7 +157,7 @@ var searchData=
   ['audioportscount_154',['audioPortsCount',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a78eb5a00b6e0af43447e76124613b842',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['audioportsinfo_155',['audioPortsInfo',['../structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2b8972c9640510bf30e17b3e67e6936e',1,'scxt::clap_first::scxt_plugin::SCXTPlugin']]],
   ['audiothreadprovider_156',['AudioThreadProvider',['../structscxt_1_1clients_1_1console__ui_1_1AudioThreadProvider.html#ac260c15a54e1a7be9fd4cbf553b6950b',1,'scxt::clients::console_ui::AudioThreadProvider']]],
-  ['autocrossfade_157',['autoCrossfade',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a3d4af402e82610edc869be04818b078f',1,'scxt::engine::structure_edit_detail']]],
+  ['autocrossfade_157',['autoCrossfade',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a2926ee666aa0332edbd8880d432f4d33',1,'scxt::engine::structure_edit_detail']]],
   ['autoexpandforselection_158',['autoExpandForSelection',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a98b3360b55b60ccb15b82161738c545c',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
   ['autoloadrow_159',['autoLoadRow',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSArea.html#abf96858ae69694103fa6f4c0d21c86ac',1,'scxt::ui::app::browser_ui::DriveFSArea']]],
   ['autoloadsampleintoleadzone_160',['autoLoadSampleIntoLeadZone',['../structscxt_1_1engine_1_1Engine.html#a635838c534416e7b36fd47394d3ae5b5',1,'scxt::engine::Engine']]]

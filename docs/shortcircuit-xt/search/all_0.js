@@ -333,7 +333,7 @@ var searchData=
   ['auto_5fcrossfades_330',['AUTO_CROSSFADES',['../structscxt_1_1engine_1_1Engine.html#a817213ca3db7e78f75b702c4c3672c9eacfb457839e5023934d5b499fe6499e4e',1,'scxt::engine::Engine']]],
   ['auto_5fkey_5fcrossfades_331',['AUTO_KEY_CROSSFADES',['../structscxt_1_1engine_1_1Engine.html#a817213ca3db7e78f75b702c4c3672c9ea52c98572c1939b9145da266c95c66c82',1,'scxt::engine::Engine']]],
   ['auto_5fvelocity_5fcrossfades_332',['AUTO_VELOCITY_CROSSFADES',['../structscxt_1_1engine_1_1Engine.html#a817213ca3db7e78f75b702c4c3672c9ea5f46174b626d8e29339b0fc6b749c69b',1,'scxt::engine::Engine']]],
-  ['autocrossfade_333',['autoCrossfade',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a3d4af402e82610edc869be04818b078f',1,'scxt::engine::structure_edit_detail']]],
+  ['autocrossfade_333',['autoCrossfade',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a2926ee666aa0332edbd8880d432f4d33',1,'scxt::engine::structure_edit_detail']]],
   ['autoexpandforselection_334',['autoExpandForSelection',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1PartGroupSidebar.html#a98b3360b55b60ccb15b82161738c545c',1,'scxt::ui::app::edit_screen::PartGroupSidebar']]],
   ['autoexpandselectedgroups_335',['autoExpandSelectedGroups',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4adfad545b7ae582978ada42a66dd7e7d2',1,'scxt::infrastructure']]],
   ['autoexpandselectedzones_336',['autoExpandSelectedZones',['../namespacescxt_1_1infrastructure.html#a4028cef548b8de808e09d66ff5d004f4a4ecdec3b70d6afe81c90a6a01322ed36',1,'scxt::infrastructure']]],

@@ -35,7 +35,7 @@ var searchData=
   ['firesubscription_32',['firesubscription',['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a15adfba51fd2af9431fe5899c754177c',1,'scxt::ui::app::SCXTEditorDataCache::fireSubscription(void *el, sst::jucegui::data::Discrete *)'],['../structscxt_1_1ui_1_1app_1_1SCXTEditorDataCache.html#a32c7675443e94c3d378d27779697ac60',1,'scxt::ui::app::SCXTEditorDataCache::fireSubscription(void *el, sst::jucegui::data::Continuous *)']]],
   ['firstkeyswitchlatchkey_33',['firstKeySwitchLatchKey',['../structscxt_1_1engine_1_1GroupTriggerConditions.html#a8963b44b169a4b2e2ba1fc3e27e5e179',1,'scxt::engine::GroupTriggerConditions']]],
   ['fitfades_34',['fitFades',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a5dc550e34302feafe6ff4325dc9edee8',1,'scxt::engine::structure_edit_detail']]],
-  ['fixoverlaps_35',['fixOverlaps',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a5db5eb0fc09d1c0a5d2d09ca26f1c917',1,'scxt::engine::structure_edit_detail']]],
+  ['fixoverlaps_35',['fixOverlaps',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#af801c69b7055e78881b685d16e4219af',1,'scxt::engine::structure_edit_detail']]],
   ['flippct_36',['flipPct',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform.html#ad5473b3cf7c4660e5bc08aa8014a5318',1,'scxt::ui::app::edit_screen::SampleWaveform']]],
   ['floatparam_37',['floatParam',['../structscxt_1_1modulation_1_1shared_1_1ProcessorTargetEndpointData.html#a54230cb8bf32eece7e2d6e1bdcb14006',1,'scxt::modulation::shared::ProcessorTargetEndpointData']]],
   ['floatvalueat_38',['floatValueAt',['../structscxt_1_1engine_1_1dtl_1_1Config.html#ad98b1e8fc73ee39ff0b79d96fa83ff3b',1,'scxt::engine::dtl::Config']]],

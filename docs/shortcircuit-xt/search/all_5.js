@@ -122,7 +122,7 @@ var searchData=
   ['fixedmatrixsize_119',['fixedmatrixsize',['../structscxt_1_1modulation_1_1GroupMatrixConfig.html#a97d221d259b949c10f05bb212d12ca43',1,'scxt::modulation::GroupMatrixConfig::FixedMatrixSize'],['../structscxt_1_1voice_1_1modulation_1_1MatrixConfig.html#a97d221d259b949c10f05bb212d12ca43',1,'scxt::voice::modulation::MatrixConfig::FixedMatrixSize']]],
   ['fixedsampleselect_120',['fixedSampleSelect',['../structscxt_1_1exs__support_1_1EXSGroup.html#af5a80d83a72a3ed5a38180fae0810b82',1,'scxt::exs_support::EXSGroup']]],
   ['fixoverlap_121',['fixOverlap',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MappingZoneHeader.html#a6ca239beb422117cb8421deae852dd09',1,'scxt::ui::app::edit_screen::MappingZoneHeader']]],
-  ['fixoverlaps_122',['fixOverlaps',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a5db5eb0fc09d1c0a5d2d09ca26f1c917',1,'scxt::engine::structure_edit_detail']]],
+  ['fixoverlaps_122',['fixOverlaps',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#af801c69b7055e78881b685d16e4219af',1,'scxt::engine::structure_edit_detail']]],
   ['fjobs_123',['fJobs',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1BrowserPane.html#aaf52d79efa6271cd5c45a6007d9fa48c',1,'scxt::ui::app::browser_ui::BrowserPane']]],
   ['flac_5ffile_124',['FLAC_FILE',['../structscxt_1_1sample_1_1Sample.html#a3ae727773c367ac1041d72ac770a0ab1a472041fca02d9919ce1f2c657be2c02e',1,'scxt::sample::Sample']]],
   ['flags_125',['flags',['../structscxt_1_1exs__support_1_1EXSBlock.html#a773b39d480759f67926cb18ae2219281',1,'scxt::exs_support::EXSBlock']]],
