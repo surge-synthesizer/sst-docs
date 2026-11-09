@@ -127,6 +127,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1ClientActivityNotificationGuard.html">ClientActivityNotificationGuard</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1HostStateSlot.html">HostStateSlot</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -199,8 +201,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0c521fccbcc29f6c08eced9695467c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f930f657bc605dde009707051696872" id="r_a4f930f657bc605dde009707051696872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a4f930f657bc605dde009707051696872">reportErrorFromWorkerThread</a> (const std::string &amp;title, const std::string &amp;body, const std::string &amp;<a class="el" href="sf2__import_8cpp.html#aaa8fd55ff91628c89bac66757ce7fde2">source</a>, int line)</td></tr>
 <tr class="separator:a4f930f657bc605dde009707051696872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af98c4d46cbb1a579c695b80574f32487" id="r_af98c4d46cbb1a579c695b80574f32487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#af98c4d46cbb1a579c695b80574f32487">sendStreamCompleteNotification</a> ()</td></tr>
-<tr class="separator:af98c4d46cbb1a579c695b80574f32487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581b3694e553349f9a30aad7d740f118" id="r_a581b3694e553349f9a30aad7d740f118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a581b3694e553349f9a30aad7d740f118">updateClientActivityNotification</a> (const std::string &amp;msg, int idx=-1)</td></tr>
 <tr class="separator:a581b3694e553349f9a30aad7d740f118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classscxt_1_1MoveableOnly"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classscxt_1_1MoveableOnly')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classscxt_1_1MoveableOnly.html">MoveableOnly&lt; MessageController &gt;</a></td></tr>
@@ -236,12 +236,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a059908adaa65b2e6f0e162eca3d95ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e08d99b7ea11e3cb27c551cd6e43f4" id="r_ac1e08d99b7ea11e3cb27c551cd6e43f4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(uint64_t)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ac1e08d99b7ea11e3cb27c551cd6e43f4">requestHostCallback</a> {nullptr}</td></tr>
 <tr class="separator:ac1e08d99b7ea11e3cb27c551cd6e43f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f759c3ff8de314d164aeea58a85a6c1" id="r_a8f759c3ff8de314d164aeea58a85a6c1"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a8f759c3ff8de314d164aeea58a85a6c1">streamNotificationMutex</a></td></tr>
-<tr class="separator:a8f759c3ff8de314d164aeea58a85a6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac975291527b6d0b16b999c219fe1ef3b" id="r_ac975291527b6d0b16b999c219fe1ef3b"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ac975291527b6d0b16b999c219fe1ef3b">streamNotificationConditionVariable</a></td></tr>
-<tr class="separator:ac975291527b6d0b16b999c219fe1ef3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70abe5eebbffe78cafc913b1f401f1a1" id="r_a70abe5eebbffe78cafc913b1f401f1a1"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a70abe5eebbffe78cafc913b1f401f1a1">streamNotificationCount</a> {1743}</td></tr>
-<tr class="separator:a70abe5eebbffe78cafc913b1f401f1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219c457e4c0f126a51e23df5ee2a2caf" id="r_a219c457e4c0f126a51e23df5ee2a2caf"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1HostStateSlot.html">scxt::messaging::MessageController::HostStateSlot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a219c457e4c0f126a51e23df5ee2a2caf">hostStateSlot</a></td></tr>
+<tr class="separator:a219c457e4c0f126a51e23df5ee2a2caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54eb9a6919e3820dae6900c813e8bc5b" id="r_a54eb9a6919e3820dae6900c813e8bc5b"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a54eb9a6919e3820dae6900c813e8bc5b">passWrapperEventsToWrapperQueue</a> {false}</td></tr>
 <tr class="separator:a54eb9a6919e3820dae6900c813e8bc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71575a7b394e0d40476c6ed9d46931c2" id="r_a71575a7b394e0d40476c6ed9d46931c2"><td class="memItemLeft" align="right" valign="top">sst::cpputils::SimpleRingBuffer&lt; <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a0b795d7ab21b36c987e8ce79cb4e903f">serializationToAudioMessage_t</a>, 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a71575a7b394e0d40476c6ed9d46931c2">engineToPluginWrapperQueue</a></td></tr>
@@ -1064,25 +1060,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af98c4d46cbb1a579c695b80574f32487" name="af98c4d46cbb1a579c695b80574f32487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af98c4d46cbb1a579c695b80574f32487">&#9670;&#160;</a></span>sendStreamCompleteNotification()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sendStreamCompleteNotification </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#ac975291527b6d0b16b999c219fe1ef3b">MessageController::streamNotificationConditionVariable</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a70abe5eebbffe78cafc913b1f401f1a1">MessageController::streamNotificationCount</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a8f759c3ff8de314d164aeea58a85a6c1">MessageController::streamNotificationMutex</a>.</p>
-
-</div>
-</div>
 <a id="a581b3694e553349f9a30aad7d740f118" name="a581b3694e553349f9a30aad7d740f118"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a581b3694e553349f9a30aad7d740f118">&#9670;&#160;</a></span>updateClientActivityNotification()</h2>
 
@@ -1300,51 +1277,19 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f759c3ff8de314d164aeea58a85a6c1" name="a8f759c3ff8de314d164aeea58a85a6c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f759c3ff8de314d164aeea58a85a6c1">&#9670;&#160;</a></span>streamNotificationMutex</h2>
+<a id="a219c457e4c0f126a51e23df5ee2a2caf" name="a219c457e4c0f126a51e23df5ee2a2caf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219c457e4c0f126a51e23df5ee2a2caf">&#9670;&#160;</a></span>hostStateSlot</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::mutex streamNotificationMutex</td>
+          <td class="memname">struct <a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1HostStateSlot.html">scxt::messaging::MessageController::HostStateSlot</a> hostStateSlot</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#af98c4d46cbb1a579c695b80574f32487">MessageController::sendStreamCompleteNotification()</a>.</p>
-
-</div>
-</div>
-<a id="ac975291527b6d0b16b999c219fe1ef3b" name="ac975291527b6d0b16b999c219fe1ef3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac975291527b6d0b16b999c219fe1ef3b">&#9670;&#160;</a></span>streamNotificationConditionVariable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::condition_variable streamNotificationConditionVariable</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#af98c4d46cbb1a579c695b80574f32487">MessageController::sendStreamCompleteNotification()</a>.</p>
-
-</div>
-</div>
-<a id="a70abe5eebbffe78cafc913b1f401f1a1" name="a70abe5eebbffe78cafc913b1f401f1a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70abe5eebbffe78cafc913b1f401f1a1">&#9670;&#160;</a></span>streamNotificationCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t streamNotificationCount {1743}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#af98c4d46cbb1a579c695b80574f32487">MessageController::sendStreamCompleteNotification()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#ad95b205c245a10f77432fa6c9ceb282b">SCXTEditor::SCXTEditor()</a>, and <a class="el" href="structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a7d4730d4cb8c1cf35a874cd3b08abcb8">SCXTEditor::~SCXTEditor()</a>.</p>
 
 </div>
 </div>
@@ -1383,7 +1328,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 7 2026 16:35:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Nov 9 2026 15:59:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

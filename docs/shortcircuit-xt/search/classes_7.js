@@ -14,5 +14,8 @@ var searchData=
   ['hasmodulators_3c_20voice_2c_20egsperzone_20_3e_11',['HasModulators&lt; Voice, egsPerZone &gt;',['../structscxt_1_1modulation_1_1shared_1_1HasModulators.html',1,'scxt::modulation::shared']]],
   ['header_12',['Header',['../structscxt_1_1sfz__support_1_1SFZParser_1_1Header.html',1,'scxt::sfz_support::SFZParser']]],
   ['headerregion_13',['HeaderRegion',['../structscxt_1_1ui_1_1app_1_1shared_1_1HeaderRegion.html',1,'scxt::ui::app::shared']]],
-  ['heldnotes_14',['HeldNotes',['../structscxt_1_1engine_1_1HeldNotes.html',1,'scxt::engine']]]
+  ['heldnotes_14',['HeldNotes',['../structscxt_1_1engine_1_1HeldNotes.html',1,'scxt::engine']]],
+  ['hostloadmacros_15',['HostLoadMacros',['../structscxt_1_1messaging_1_1HostLoadMacros.html',1,'scxt::messaging']]],
+  ['hostloadscreen_16',['HostLoadScreen',['../structscxt_1_1ui_1_1app_1_1other__screens_1_1HostLoadScreen.html',1,'scxt::ui::app::other_screens']]],
+  ['hoststateslot_17',['HostStateSlot',['../structscxt_1_1messaging_1_1MessageController_1_1HostStateSlot.html',1,'scxt::messaging::MessageController']]]
 ];

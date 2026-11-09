@@ -96,7 +96,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
@@ -124,11 +123,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a87fef62a07ab01df326862712708f4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a105225a31b664d9a2ad2fccb7cbd149b" id="r_a105225a31b664d9a2ad2fccb7cbd149b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a105225a31b664d9a2ad2fccb7cbd149b">registerOrUnregisterPosixFd</a> (int fd, clap_posix_fd_flags_t flags, bool reg) override</td></tr>
 <tr class="separator:a105225a31b664d9a2ad2fccb7cbd149b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab98e2c427c732e01a22b1b998a14f23e" id="r_ab98e2c427c732e01a22b1b998a14f23e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab98e2c427c732e01a22b1b998a14f23e">synchronousEngineUnstream</a> (const std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &gt; &amp;e, const std::string &amp;payload)</td></tr>
-<tr class="separator:ab98e2c427c732e01a22b1b998a14f23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -201,6 +195,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a87428f1c4380347e7b524f4082de6600" id="r_a87428f1c4380347e7b524f4082de6600"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a87428f1c4380347e7b524f4082de6600">nextMainThreadAction</a> {0}</td></tr>
 <tr class="separator:a87428f1c4380347e7b524f4082de6600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc633aa10c130bf01834e9c44c017d1e" id="r_afc633aa10c130bf01834e9c44c017d1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1messaging_1_1HostLoadMacros.html">scxt::messaging::HostLoadMacros</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#afc633aa10c130bf01834e9c44c017d1e">heldHostMacros</a></td></tr>
+<tr class="separator:afc633aa10c130bf01834e9c44c017d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae2480caac475f0823c21fdb715d8491c" name="ae2480caac475f0823c21fdb715d8491c"></a>
@@ -687,7 +683,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8">Engine::FOR_DAW</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9f02f4f43edfdf6c6e63912ffb49fc4">Engine::prepareDawExtraState()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1json.html#ab9eee5cebf662a67544c03f2c56bb5c8">scxt::json::streamEngineState()</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging.html#a619eb284984cfc893aa018a5af4af879">scxt::messaging::hostStateSave()</a>.</p>
 
 </div>
 </div>
@@ -715,7 +711,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1messaging.html#a7cf8c3084112a6f1b3f0a2e42e56dbf1">scxt::messaging::hostStateLoad()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
 
 </div>
 </div>
@@ -803,7 +799,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a940e98e3eaf72895735e033c95f4e440">Engine::getPatch()</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#ad389cb9927de923ccd9612a36f655f43">Macro::partIndexToMacroID()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#ad389cb9927de923ccd9612a36f655f43">Macro::partIndexToMacroID()</a>.</p>
 
 </div>
 </div>
@@ -999,7 +995,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, <a class="el" href="structscxt_1_1messaging_1_1HostLoadMacros.html#a2249ce1ce6621b80075ff290c2338790">HostLoadMacros::find()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#afc633aa10c130bf01834e9c44c017d1e">SCXTPlugin::heldHostMacros</a>, <a class="el" href="structscxt_1_1engine_1_1Macro.html#a0dfdb049e72fcbc1e8ec36c290beef9f">Macro::macroIDToIndex()</a>, and <a class="el" href="structscxt_1_1engine_1_1Macro.html#a8565ce81a207017b22d577b0f49d97e0">Macro::macroIDToPart()</a>.</p>
 
 </div>
 </div>
@@ -1171,44 +1167,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab98e2c427c732e01a22b1b998a14f23e" name="ab98e2c427c732e01a22b1b998a14f23e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab98e2c427c732e01a22b1b998a14f23e">&#9670;&#160;</a></span>synchronousEngineUnstream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool synchronousEngineUnstream </td>
-          <td>(</td>
-          <td class="paramtype">const std::unique_ptr&lt; <a class="el" href="structscxt_1_1engine_1_1Engine.html">scxt::engine::Engine</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>payload</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a7f927056a84436370e7582e443fe3071">SCXTPlugin::engine</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f927056a84436370e7582e443fe3071" name="a7f927056a84436370e7582e443fe3071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f927056a84436370e7582e443fe3071">&#9670;&#160;</a></span>engine</h2>
@@ -1222,7 +1180,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b">SCXTPlugin::createEditor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">SCXTPlugin::handleParamValueEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#af4699542a9e7a0091f6c0fdb7d162cfa">SCXTPlugin::init()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab8ed0beb481e5d64e6cff7b6c7856340">SCXTPlugin::macroFor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab98e2c427c732e01a22b1b998a14f23e">SCXTPlugin::synchronousEngineUnstream()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a8cb82200b06867dd162611986399cf1b">SCXTPlugin::createEditor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a2f2a2b5fb148fcb1e9a50f1a454c595e">SCXTPlugin::handleEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ae714daad27f44d4780fc9410c9a2af85">SCXTPlugin::handleParamValueEvent()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#af4699542a9e7a0091f6c0fdb7d162cfa">SCXTPlugin::init()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab8ed0beb481e5d64e6cff7b6c7856340">SCXTPlugin::macroFor()</a>, <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin::SCXTPlugin()</a>, and <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a916e2ff63102bd0c27ca9f1f1ec9e41c">SCXTPlugin::~SCXTPlugin()</a>.</p>
 
 </div>
 </div>
@@ -1264,6 +1222,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afc633aa10c130bf01834e9c44c017d1e" name="afc633aa10c130bf01834e9c44c017d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc633aa10c130bf01834e9c44c017d1e">&#9670;&#160;</a></span>heldHostMacros</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscxt_1_1messaging_1_1HostLoadMacros.html">scxt::messaging::HostLoadMacros</a> heldHostMacros</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#ab8ed0beb481e5d64e6cff7b6c7856340">SCXTPlugin::macroFor()</a>.</p>
+
+</div>
+</div>
 <a id="adf8c539dfd8f79c5c941447dd3c5eebf" name="adf8c539dfd8f79c5c941447dd3c5eebf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf8c539dfd8f79c5c941447dd3c5eebf">&#9670;&#160;</a></span>clapJuceShim</h2>
 
@@ -1287,7 +1269,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 7 2026 16:35:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Nov 9 2026 15:59:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

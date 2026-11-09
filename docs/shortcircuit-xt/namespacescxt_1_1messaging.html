@@ -96,7 +96,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">scxt::messaging Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -110,14 +111,110 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1HostLoadMacros.html">HostLoadMacros</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1messaging_1_1MessageController.html">MessageController</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The SCXT Next messaging model.  <a href="structscxt_1_1messaging_1_1MessageController.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab5cbde260c97227494fa8b111ff25151" id="r_ab5cbde260c97227494fa8b111ff25151"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging.html#ab5cbde260c97227494fa8b111ff25151">looksLikeEngineState</a> (const std::string &amp;blob)</td></tr>
+<tr class="separator:ab5cbde260c97227494fa8b111ff25151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf8c3084112a6f1b3f0a2e42e56dbf1" id="r_a7cf8c3084112a6f1b3f0a2e42e56dbf1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging.html#a7cf8c3084112a6f1b3f0a2e42e56dbf1">hostStateLoad</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, std::string &amp;&amp;blob)</td></tr>
+<tr class="separator:a7cf8c3084112a6f1b3f0a2e42e56dbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619eb284984cfc893aa018a5af4af879" id="r_a619eb284984cfc893aa018a5af4af879"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacescxt_1_1messaging.html#a619eb284984cfc893aa018a5af4af879">hostStateSave</a> (<a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;e, std::string &amp;out)</td></tr>
+<tr class="separator:a619eb284984cfc893aa018a5af4af879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab5cbde260c97227494fa8b111ff25151" name="ab5cbde260c97227494fa8b111ff25151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5cbde260c97227494fa8b111ff25151">&#9670;&#160;</a></span>looksLikeEngineState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool looksLikeEngineState </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>blob</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespacescxt_1_1messaging.html#a7cf8c3084112a6f1b3f0a2e42e56dbf1">hostStateLoad()</a>.</p>
+
+</div>
+</div>
+<a id="a7cf8c3084112a6f1b3f0a2e42e56dbf1" name="a7cf8c3084112a6f1b3f0a2e42e56dbf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf8c3084112a6f1b3f0a2e42e56dbf1">&#9670;&#160;</a></span>hostStateLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hostStateLoad </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&amp;&#160;</td>
+          <td class="paramname"><em>blob</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1client.html#aea96d995030b1394e47e9fc2a02d23c6">scxt::messaging::client::clientSendToSerialization()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="namespacescxt_1_1messaging.html#ab5cbde260c97227494fa8b111ff25151">looksLikeEngineState()</a>, and <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#aad8a01a414b01be1115df85e9227fd63">SCXTPlugin::stateLoad()</a>.</p>
+
+</div>
+</div>
+<a id="a619eb284984cfc893aa018a5af4af879" name="a619eb284984cfc893aa018a5af4af879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619eb284984cfc893aa018a5af4af879">&#9670;&#160;</a></span>hostStateSave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hostStateSave </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structscxt_1_1engine_1_1Engine.html">engine::Engine</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structscxt_1_1engine_1_1Engine.html#a61de0b10c20c18509354c848d4d27197a474b441bc179b5b7bc84556efbeff6f8">Engine::FOR_DAW</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af948c5aaceac9e2092ca05c1a62df6b1">Engine::getMessageController()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#a424378c67892695a5132577f1d62c39d">Engine::modifyStructureMutex</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#af9f02f4f43edfdf6c6e63912ffb49fc4">Engine::prepareDawExtraState()</a>, <a class="el" href="structscxt_1_1engine_1_1Engine.html#abae7c42a6a54e7ddb6c68388fde80a55">Engine::prepareToStream()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="namespacescxt_1_1json.html#ab9eee5cebf662a67544c03f2c56bb5c8">scxt::json::streamEngineState()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structscxt_1_1clap__first_1_1scxt__plugin_1_1SCXTPlugin.html#a1d34688a243a74dafce70fd08b671944">SCXTPlugin::stateSave()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 7 2026 16:35:44 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Nov 9 2026 15:59:33 for shortcircuit-xt by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
