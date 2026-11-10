@@ -2,10 +2,10 @@ var searchData=
 [
   ['za_5ft_0',['za_t',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#afed2cb0025f3056bb07a98387a3fd5fb',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase::za_t'],['../namespacescxt_1_1ui_1_1app_1_1shared.html#afed2cb0025f3056bb07a98387a3fd5fb',1,'scxt::ui::app::shared::za_t']]],
   ['zone_5ft_1',['zone_t',['../render-zone_8cpp.html#a82ce0e34bdaceabefe738a549b677146',1,'render-zone.cpp']]],
-  ['zoneaddress_2',['zoneaddress',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a231b75a3abf0d444813ae0977fe1f4f0',1,'scxt::engine::structure_edit_detail::ZoneAddress'],['../namespacescxt_1_1undo.html#a231b75a3abf0d444813ae0977fe1f4f0',1,'scxt::undo::ZoneAddress']]],
-  ['zoneaddressfromto_5ft_3',['zoneAddressFromTo_t',['../namespacescxt_1_1messaging_1_1client.html#a289345f2497cb7b4032b73fbc712ade4',1,'scxt::messaging::client']]],
+  ['zoneaddress_2',['ZoneAddress',['../namespacescxt_1_1engine_1_1structure__edit__detail.html#a231b75a3abf0d444813ae0977fe1f4f0',1,'scxt::engine::structure_edit_detail::ZoneAddress'],['../namespacescxt_1_1undo.html#a231b75a3abf0d444813ae0977fe1f4f0',1,'scxt::undo::ZoneAddress']]],
+  ['zoneaddressfromto_5ft_3',['zoneAddressFromTo_t',['../namespacescxt_1_1messaging_1_1client.html#a98bb0bc28ddf41bbe0c19eb3ba830361',1,'scxt::messaging::client']]],
   ['zoneaddresslist_5ft_4',['zoneAddressList_t',['../namespacescxt_1_1messaging_1_1client.html#a3dbc787d9ca6218734f0cc729b35ef40',1,'scxt::messaging::client']]],
-  ['zonebatchoppayload_5ft_5',['zoneBatchOpPayload_t',['../namespacescxt_1_1messaging_1_1client.html#a716595bbffd50ffbf560c24dbe8cbae3',1,'scxt::messaging::client']]],
+  ['zonebatchoppayload_5ft_5',['zoneBatchOpPayload_t',['../namespacescxt_1_1messaging_1_1client.html#ac204d687d6cbaa306a337012bb395863',1,'scxt::messaging::client']]],
   ['zonecontainer_5ft_6',['zoneContainer_t',['../structscxt_1_1engine_1_1Group.html#a7b359822d545f5aa6ca7dab8c0ca68c6',1,'scxt::engine::Group']]],
   ['zoneid_7',['ZoneID',['../namespacescxt.html#a8d628dbcbcc81f552ff36618d1e5b494',1,'scxt']]],
   ['zonemappingdataundoableitem_8',['ZoneMappingDataUndoableItem',['../namespacescxt_1_1undo.html#aad344db1ae728110c5239b4eafa185f5',1,'scxt::undo']]],

@@ -16,7 +16,7 @@ var searchData=
   ['_7edrivefsrowcomponent_13',['~DriveFSRowComponent',['../structscxt_1_1ui_1_1app_1_1browser__ui_1_1DriveFSRowComponent.html#ac5e30caeb1c884ffc388c6025f4c460f',1,'scxt::ui::app::browser_ui::DriveFSRowComponent']]],
   ['_7eeditscreen_14',['~EditScreen',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#a09bf87727cd41bed520256dcecf84617',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['_7eengine_15',['~Engine',['../structscxt_1_1engine_1_1Engine.html#a45936cce93ebf1bfdfd7ba305e03e864',1,'scxt::engine::Engine']]],
-  ['_7eenqable_16',['~enqable',['../structscxt_1_1browser_1_1ScanWorker_1_1EnQAble.html#a39e93eb71d7f59debfc6b55d19bac034',1,'scxt::browser::ScanWorker::EnQAble::~EnQAble()'],['../structscxt_1_1browser_1_1WriterWorker_1_1EnQAble.html#a39e93eb71d7f59debfc6b55d19bac034',1,'scxt::browser::WriterWorker::EnQAble::~EnQAble()']]],
+  ['_7eenqable_16',['~EnQAble',['../structscxt_1_1browser_1_1ScanWorker_1_1EnQAble.html#a39e93eb71d7f59debfc6b55d19bac034',1,'scxt::browser::ScanWorker::EnQAble::~EnQAble()'],['../structscxt_1_1browser_1_1WriterWorker_1_1EnQAble.html#a39e93eb71d7f59debfc6b55d19bac034',1,'scxt::browser::WriterWorker::EnQAble::~EnQAble()']]],
   ['_7eexplicitmenuorder_17',['~ExplicitMenuOrder',['../structscxt_1_1modulation_1_1shared_1_1ExplicitMenuOrder.html#adcfad2ca2cdbb377b4a8381818b02835',1,'scxt::modulation::shared::ExplicitMenuOrder']]],
   ['_7efilemapview_18',['~FileMapView',['../classscxt_1_1infrastructure_1_1FileMapView.html#a6b974174be25e29a78e68764f593161f',1,'scxt::infrastructure::FileMapView']]],
   ['_7egroup_19',['~Group',['../structscxt_1_1engine_1_1Group.html#af01fe963b4d079001758b734085e6c8a',1,'scxt::engine::Group']]],

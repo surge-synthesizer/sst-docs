@@ -9,7 +9,7 @@ var searchData=
   ['colormap_6',['ColorMap',['../structscxt_1_1ui_1_1theme_1_1ColorMap.html',1,'scxt::ui::theme']]],
   ['compoundelement_7',['CompoundElement',['../structscxt_1_1sample_1_1compound_1_1CompoundElement.html',1,'scxt::sample::compound']]],
   ['conditionrow_8',['ConditionRow',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupTriggersCard_1_1ConditionRow.html',1,'scxt::ui::app::edit_screen::GroupTriggersCard']]],
-  ['config_9',['config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'Config'],['../structscxt_1_1perf_1_1Config.html',1,'Config']]],
+  ['config_9',['Config',['../structscxt_1_1engine_1_1dtl_1_1Config.html',1,'Config'],['../structscxt_1_1perf_1_1Config.html',1,'Config']]],
   ['consistencylfopane_10',['ConsistencyLFOPane',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ConsistencyLFOPane.html',1,'scxt::ui::app::edit_screen']]],
   ['consoleharness_11',['ConsoleHarness',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html',1,'scxt::clients::console_ui']]],
   ['consoleui_12',['ConsoleUI',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleUI.html',1,'scxt::clients::console_ui']]],

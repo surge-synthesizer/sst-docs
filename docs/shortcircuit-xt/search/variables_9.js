@@ -10,5 +10,5 @@ var searchData=
   ['jsondefinitions_7',['jsonDefinitions',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#af880f91209777fca16e58bc432a53db0',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['jsonfloateditors_8',['jsonFloatEditors',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a535c6ba50967a4e79ce90e668ac23187',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
   ['jsoninteditors_9',['jsonIntEditors',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#a54aae99ddd35d0eabc974e0e7acada53',1,'scxt::ui::app::edit_screen::ProcessorPane']]],
-  ['jsonlabels_10',['jsonlabels',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1b58857db4b94ac289c8d9b41467430',1,'scxt::ui::app::edit_screen::ProcessorPane::jsonLabels'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#ad1b58857db4b94ac289c8d9b41467430',1,'scxt::ui::app::shared::PartEffectsPane::jsonLabels']]]
+  ['jsonlabels_10',['jsonLabels',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1ProcessorPane.html#ad1b58857db4b94ac289c8d9b41467430',1,'scxt::ui::app::edit_screen::ProcessorPane::jsonLabels'],['../structscxt_1_1ui_1_1app_1_1shared_1_1PartEffectsPane.html#ad1b58857db4b94ac289c8d9b41467430',1,'scxt::ui::app::shared::PartEffectsPane::jsonLabels']]]
 ];
