@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['onepolelag_0',['onepolelag',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a12beec88fdd0ec1ad74e71c120355bf5',1,'sst::basic_blocks::dsp::OnePoleLag::OnePoleLag()'],['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#aedccec910cc86a64319aa9e413523b5e',1,'sst::basic_blocks::dsp::OnePoleLag::OnePoleLag(T rate)']]],
-  ['onsampleratechanged_1',['onsampleratechanged',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::ADSREnvelope::onSampleRateChanged()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::DAHDEnvelope::onSampleRateChanged()']]],
+  ['onepolelag_0',['OnePoleLag',['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#a12beec88fdd0ec1ad74e71c120355bf5',1,'sst::basic_blocks::dsp::OnePoleLag::OnePoleLag()'],['../structsst_1_1basic__blocks_1_1dsp_1_1OnePoleLag.html#aedccec910cc86a64319aa9e413523b5e',1,'sst::basic_blocks::dsp::OnePoleLag::OnePoleLag(T rate)']]],
+  ['onsampleratechanged_1',['onSampleRateChanged',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::ADSREnvelope::onSampleRateChanged()'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#aa05e20514704f3e3ac4118906e855303',1,'sst::basic_blocks::modulators::DAHDEnvelope::onSampleRateChanged()']]],
   ['operator_2a_2',['operator*',['../namespacesst_1_1basic__blocks_1_1simd.html#a0477a2b74af06b66af3db15819d74857',1,'sst::basic_blocks::simd']]],
   ['operator_2a_3d_3',['operator*=',['../structsst_1_1basic__blocks_1_1simd_1_1F32x4.html#ae6399504f0d3990cf01b985f277bcbe9',1,'sst::basic_blocks::simd::F32x4']]],
   ['operator_2b_4',['operator+',['../namespacesst_1_1basic__blocks_1_1simd.html#aeacb870f1545c65b02b3cae918549803',1,'sst::basic_blocks::simd']]],

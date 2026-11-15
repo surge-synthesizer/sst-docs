@@ -15,5 +15,6 @@ var searchData=
   ['ebtri_12',['EBTri',['../structsst_1_1basic__blocks_1_1dsp_1_1EBTri.html',1,'sst::basic_blocks::dsp']]],
   ['ebtritosaw_13',['EBTriToSaw',['../structsst_1_1basic__blocks_1_1dsp_1_1EBTriToSaw.html',1,'sst::basic_blocks::dsp']]],
   ['equaltuningprovider_14',['EqualTuningProvider',['../structsst_1_1basic__blocks_1_1tables_1_1EqualTuningProvider.html',1,'sst::basic_blocks::tables']]],
-  ['exptimeprovider_15',['ExpTimeProvider',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html',1,'sst::basic_blocks::tables']]]
+  ['exptimeprovider_15',['ExpTimeProvider',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html',1,'sst::basic_blocks::tables']]],
+  ['exptimeprovider_3c_20twentyfivesecondexpconstants_20_3e_16',['ExpTimeProvider&lt; TwentyFiveSecondExpConstants &gt;',['../structsst_1_1basic__blocks_1_1tables_1_1ExpTimeProvider.html',1,'sst::basic_blocks::tables']]]
 ];

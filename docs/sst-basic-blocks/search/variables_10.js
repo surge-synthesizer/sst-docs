@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOscRamped::r'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOsc::r']]],
+  ['r_0',['r',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOsc::r'],['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html#a3ff0123200292ec4b7e3e6319d048fa0',1,'sst::basic_blocks::dsp::SurgeQuadrOscRamped::r']]],
   ['rateisforsinglestep_1',['rateIsForSingleStep',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html#a4c83fa4793ce63077ec4171ba1ab0924',1,'sst::basic_blocks::modulators::StepLFO::Storage']]],
   ['ratemult_2',['ratemult',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html#a6de1a6a74113ae980a92fdbb13947c24',1,'sst::basic_blocks::modulators::StepLFO']]],
   ['reg0_3',['reg0',['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformMonoFloat_1_1BQ.html#ab5755c4b82250fdb937af359a150e80c',1,'sst::basic_blocks::dsp::HilbertTransformMonoFloat::BQ::reg0'],['../structsst_1_1basic__blocks_1_1dsp_1_1HilbertTransformStereoSSE_1_1BQ.html#ad2e276ec6f3cdbe0b95c9ca68d7304a1',1,'sst::basic_blocks::dsp::HilbertTransformStereoSSE::BQ::reg0']]],
@@ -11,7 +11,7 @@ var searchData=
   ['releasestartvalue_8',['releaseStartValue',['../structsst_1_1basic__blocks_1_1modulators_1_1AHDSRShapedSC.html#adba6466c1b79709c3d66a2baebd56da4',1,'sst::basic_blocks::modulators::AHDSRShapedSC']]],
   ['remaining_9',['remaining',['../structsst_1_1basic__blocks_1_1dsp_1_1UIComponentLagHandlerBase.html#a8f742a514df155060c3a2cc0457680a9',1,'sst::basic_blocks::dsp::UIComponentLagHandlerBase']]],
   ['repeat_10',['repeat',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html#a1f4b38ebe02f9b4ba21acd0fb9775716',1,'sst::basic_blocks::modulators::StepLFO::Storage']]],
-  ['rfrom_11',['rfrom',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#ac379bf97b055abcaa8b1b7d249f07542',1,'sst::basic_blocks::modulators::ADSREnvelope::rFrom'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#ac379bf97b055abcaa8b1b7d249f07542',1,'sst::basic_blocks::modulators::DAHDEnvelope::rFrom']]],
+  ['rfrom_11',['rFrom',['../structsst_1_1basic__blocks_1_1modulators_1_1ADSREnvelope.html#ac379bf97b055abcaa8b1b7d249f07542',1,'sst::basic_blocks::modulators::ADSREnvelope::rFrom'],['../structsst_1_1basic__blocks_1_1modulators_1_1DAHDEnvelope.html#ac379bf97b055abcaa8b1b7d249f07542',1,'sst::basic_blocks::modulators::DAHDEnvelope::rFrom']]],
   ['rndtrigcountdown_12',['rndTrigCountdown',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#aea78034f011a446ff70aaa5be3740140',1,'sst::basic_blocks::modulators::SimpleLFO']]],
   ['rng_13',['rng',['../structsst_1_1basic__blocks_1_1modulators_1_1FXModControl.html#a517e3a5ba16b52ffd3c63fc55ae1feea',1,'sst::basic_blocks::modulators::FXModControl']]],
   ['rngcurrent_14',['rngCurrent',['../structsst_1_1basic__blocks_1_1modulators_1_1SimpleLFO.html#a1076c00dbcec33df7341db6380fce815',1,'sst::basic_blocks::modulators::SimpleLFO']]],

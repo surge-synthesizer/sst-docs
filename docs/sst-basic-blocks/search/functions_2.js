@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['characterfilter_0',['characterfilter',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a398075027ed9c13e69a82b00d23b0c3d',1,'sst::basic_blocks::dsp::CharacterFilter::CharacterFilter()'],['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#aee961cd8ea41c8f5045f313ac0ace954',1,'sst::basic_blocks::dsp::CharacterFilter::CharacterFilter(SampleRateProvider *s) noexcept']]],
+  ['characterfilter_0',['CharacterFilter',['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#a398075027ed9c13e69a82b00d23b0c3d',1,'sst::basic_blocks::dsp::CharacterFilter::CharacterFilter()'],['../structsst_1_1basic__blocks_1_1dsp_1_1CharacterFilter.html#aee961cd8ea41c8f5045f313ac0ace954',1,'sst::basic_blocks::dsp::CharacterFilter::CharacterFilter(SampleRateProvider *s) noexcept']]],
   ['chargeonset_1',['chargeOnset',['../structsst_1_1basic__blocks_1_1dsp_1_1EBApproxSemiSin.html#a2eb38a74bf99cc9d540a55c5983d4c67',1,'sst::basic_blocks::dsp::EBApproxSemiSin']]],
   ['clampmodulationendpoint_2',['clampModulationEndpoint',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a397479f0379e80049695c453d0af41af',1,'sst::basic_blocks::params::ParamMetaData']]],
   ['clamptopirange_3',['clampToPiRange',['../namespacesst_1_1basic__blocks_1_1dsp.html#ac709b283f3bb2a786d853870e075d5d9',1,'sst::basic_blocks::dsp']]],

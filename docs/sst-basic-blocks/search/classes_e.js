@@ -13,7 +13,8 @@ var searchData=
   ['steplfo_10',['StepLFO',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO.html',1,'sst::basic_blocks::modulators']]],
   ['storage_11',['Storage',['../structsst_1_1basic__blocks_1_1modulators_1_1StepLFO_1_1Storage.html',1,'sst::basic_blocks::modulators::StepLFO']]],
   ['surgelag_12',['SurgeLag',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html',1,'sst::basic_blocks::dsp']]],
-  ['surgequadrosc_13',['SurgeQuadrOsc',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html',1,'sst::basic_blocks::dsp']]],
-  ['surgequadroscramped_14',['SurgeQuadrOscRamped',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html',1,'sst::basic_blocks::dsp']]],
-  ['surgesinctableprovider_15',['SurgeSincTableProvider',['../structsst_1_1basic__blocks_1_1tables_1_1SurgeSincTableProvider.html',1,'sst::basic_blocks::tables']]]
+  ['surgelag_3c_20double_2c_20true_20_3e_13',['SurgeLag&lt; double, true &gt;',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeLag.html',1,'sst::basic_blocks::dsp']]],
+  ['surgequadrosc_14',['SurgeQuadrOsc',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOsc.html',1,'sst::basic_blocks::dsp']]],
+  ['surgequadroscramped_15',['SurgeQuadrOscRamped',['../structsst_1_1basic__blocks_1_1dsp_1_1SurgeQuadrOscRamped.html',1,'sst::basic_blocks::dsp']]],
+  ['surgesinctableprovider_16',['SurgeSincTableProvider',['../structsst_1_1basic__blocks_1_1tables_1_1SurgeSincTableProvider.html',1,'sst::basic_blocks::tables']]]
 ];
