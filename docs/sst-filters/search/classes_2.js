@@ -6,9 +6,10 @@ var searchData=
   ['catch_5fglobal_5fnamespace_5fdummy_3',['Catch_global_namespace_dummy',['../structCatch__global__namespace__dummy.html',1,'']]],
   ['chunkgenerator_4',['ChunkGenerator',['../classCatch_1_1Generators_1_1ChunkGenerator.html',1,'Catch::Generators']]],
   ['coeff_5',['Coeff',['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html',1,'sst::filters::cytomic_quadform']]],
-  ['containsmatcher_6',['ContainsMatcher',['../structCatch_1_1Matchers_1_1StdString_1_1ContainsMatcher.html',1,'Catch::Matchers::StdString']]],
-  ['counts_7',['Counts',['../structCatch_1_1Counts.html',1,'Catch']]],
-  ['cytomicsvf_8',['CytomicSVF',['../structsst_1_1filters_1_1CytomicSVF.html',1,'sst::filters']]],
-  ['cytomicsvfcascade_9',['CytomicSVFCascade',['../structsst_1_1filters_1_1CytomicSVFCascade.html',1,'sst::filters']]],
-  ['cytomictilt_10',['CytomicTilt',['../structsst_1_1filters_1_1CytomicTilt.html',1,'sst::filters']]]
+  ['containselementmatcher_6',['ContainsElementMatcher',['../structCatch_1_1Matchers_1_1Vector_1_1ContainsElementMatcher.html',1,'Catch::Matchers::Vector']]],
+  ['containsmatcher_7',['ContainsMatcher',['../structCatch_1_1Matchers_1_1StdString_1_1ContainsMatcher.html',1,'ContainsMatcher'],['../structCatch_1_1Matchers_1_1Vector_1_1ContainsMatcher.html',1,'ContainsMatcher&lt; T, AllocComp, AllocMatch &gt;']]],
+  ['counts_8',['Counts',['../structCatch_1_1Counts.html',1,'Catch']]],
+  ['cytomicsvf_9',['CytomicSVF',['../structsst_1_1filters_1_1CytomicSVF.html',1,'sst::filters']]],
+  ['cytomicsvfcascade_10',['CytomicSVFCascade',['../structsst_1_1filters_1_1CytomicSVFCascade.html',1,'sst::filters']]],
+  ['cytomictilt_11',['CytomicTilt',['../structsst_1_1filters_1_1CytomicTilt.html',1,'sst::filters']]]
 ];

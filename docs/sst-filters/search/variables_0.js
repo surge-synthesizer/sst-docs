@@ -5,5 +5,6 @@ var searchData=
   ['a3_2',['a3',['../structsst_1_1filters_1_1CytomicSVF.html#a33f43e0987db6180e13e1faebdb0ce9b',1,'sst::filters::CytomicSVF::a3'],['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#a7673140c2bd3e8a5e86529189142a9ef',1,'sst::filters::cytomic_quadform::Coeff::a3'],['../structsst_1_1filters_1_1CytomicTilt.html#a33f43e0987db6180e13e1faebdb0ce9b',1,'sst::filters::CytomicTilt::a3']]],
   ['active_3',['active',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a0b56151486effa654591f0ae4106c8e6',1,'sst::filtersplusplus::details::FilterPayload::active'],['../structsst_1_1filters_1_1QuadFilterUnitState.html#a2d3de04291e527c7ae6fc9a8bedfb43e',1,'sst::filters::QuadFilterUnitState::active']]],
   ['alpha_4',['alpha',['../namespacesst_1_1filters_1_1TriPoleFilter_1_1ResWaveshaper.html#a19b3d4f09bab83f43bd3a3ed5295bddb',1,'sst::filters::TriPoleFilter::ResWaveshaper']]],
-  ['assertions_5',['assertions',['../structCatch_1_1Totals.html#a38a04fbcf66decdfafed26789a378db6',1,'Catch::Totals']]]
+  ['approx_5',['approx',['../structCatch_1_1Matchers_1_1Vector_1_1ApproxMatcher.html#afbde462b8fc7642912262328d47651a6',1,'Catch::Matchers::Vector::ApproxMatcher']]],
+  ['assertions_6',['assertions',['../structCatch_1_1Totals.html#a38a04fbcf66decdfafed26789a378db6',1,'Catch::Totals']]]
 ];

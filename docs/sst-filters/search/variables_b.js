@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m0_0',['m0',['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#aac06e03744dc19a9ea8d29f65f631440',1,'sst::filters::cytomic_quadform::Coeff::m0'],['../structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff',1,'sst::filters::CytomicSVF::m0']]],
+  ['m0_0',['m0',['../structsst_1_1filters_1_1CytomicSVF.html#af2dd74ccee4e3ab6686635bceed1a1ff',1,'sst::filters::CytomicSVF::m0'],['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#aac06e03744dc19a9ea8d29f65f631440',1,'sst::filters::cytomic_quadform::Coeff::m0']]],
   ['m0hi_1',['m0Hi',['../structsst_1_1filters_1_1CytomicTilt.html#a4229ced7f8819c59531fbe8d0b01f118',1,'sst::filters::CytomicTilt']]],
   ['m0lo_2',['m0Lo',['../structsst_1_1filters_1_1CytomicTilt.html#a7df9dda9f58853f620d6c9c909311def',1,'sst::filters::CytomicTilt']]],
   ['m1_3',['m1',['../structsst_1_1filters_1_1CytomicSVF.html#afe53110804bf774f50a7261a7484385f',1,'sst::filters::CytomicSVF::m1'],['../structsst_1_1filters_1_1cytomic__quadform_1_1Coeff.html#a01bf319e480096c3318581402ea3bf1a',1,'sst::filters::cytomic_quadform::Coeff::m1']]],
@@ -20,9 +20,9 @@ var searchData=
   ['m2lo_17',['m2Lo',['../structsst_1_1filters_1_1CytomicTilt.html#aafe8dd33b29f083febb2c71a6dd59cb8',1,'sst::filters::CytomicTilt']]],
   ['m_5fcachedtostring_18',['m_cachedToString',['../classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase.html#a811b03e311863985c74b050a127f1c60',1,'Catch::Matchers::Impl::MatcherUntypedBase']]],
   ['m_5fcasesensitivity_19',['m_caseSensitivity',['../structCatch_1_1Matchers_1_1StdString_1_1CasedString.html#ab5bcc7ad016de312b85e6fb935609a53',1,'Catch::Matchers::StdString::CasedString']]],
-  ['m_5fcomparator_20',['m_comparator',['../structCatch_1_1Matchers_1_1StdString_1_1StringMatcherBase.html#a47d020c49ccc44c99241e5bdccc411f4',1,'Catch::Matchers::StdString::StringMatcherBase']]],
+  ['m_5fcomparator_20',['m_comparator',['../structCatch_1_1Matchers_1_1StdString_1_1StringMatcherBase.html#a47d020c49ccc44c99241e5bdccc411f4',1,'Catch::Matchers::StdString::StringMatcherBase::m_comparator'],['../structCatch_1_1Matchers_1_1Vector_1_1ContainsElementMatcher.html#abd929faeeb6fc922bfc5faa45b0aa288',1,'Catch::Matchers::Vector::ContainsElementMatcher::m_comparator'],['../structCatch_1_1Matchers_1_1Vector_1_1ContainsMatcher.html#a3d1adb59bc5a18ea00a4e28cbf58151f',1,'Catch::Matchers::Vector::ContainsMatcher::m_comparator'],['../structCatch_1_1Matchers_1_1Vector_1_1EqualsMatcher.html#a3d1adb59bc5a18ea00a4e28cbf58151f',1,'Catch::Matchers::Vector::EqualsMatcher::m_comparator'],['../structCatch_1_1Matchers_1_1Vector_1_1ApproxMatcher.html#a3d1adb59bc5a18ea00a4e28cbf58151f',1,'Catch::Matchers::Vector::ApproxMatcher::m_comparator']]],
   ['m_5fcount_21',['m_count',['../structCatch_1_1pluralise.html#aa782f60acf72157e3e2ca7ed937e18cf',1,'Catch::pluralise']]],
-  ['m_5finfo_22',['m_info',['../classCatch_1_1ScopedMessage.html#ad4e1d505ebd1abb7fd62a8e4c7f067fe',1,'Catch::ScopedMessage::m_info'],['../structCatch_1_1MessageBuilder.html#ad4e1d505ebd1abb7fd62a8e4c7f067fe',1,'Catch::MessageBuilder::m_info']]],
+  ['m_5finfo_22',['m_info',['../structCatch_1_1MessageBuilder.html#ad4e1d505ebd1abb7fd62a8e4c7f067fe',1,'Catch::MessageBuilder::m_info'],['../classCatch_1_1ScopedMessage.html#ad4e1d505ebd1abb7fd62a8e4c7f067fe',1,'Catch::ScopedMessage::m_info']]],
   ['m_5fisbinaryexpression_23',['m_isBinaryExpression',['../structCatch_1_1ITransientExpression.html#a7239d2cee55b77e2cdab3f88f14e18ac',1,'Catch::ITransientExpression']]],
   ['m_5flabel_24',['m_label',['../structCatch_1_1pluralise.html#ab7e76ef9dc06dddfd04299b034b6e076',1,'Catch::pluralise']]],
   ['m_5fmatchers_25',['m_matchers',['../structCatch_1_1Matchers_1_1Impl_1_1MatchAllOf.html#ae9a10ae4bf09592e44336f8701c5c247',1,'Catch::Matchers::Impl::MatchAllOf::m_matchers'],['../structCatch_1_1Matchers_1_1Impl_1_1MatchAnyOf.html#ae9a10ae4bf09592e44336f8701c5c247',1,'Catch::Matchers::Impl::MatchAnyOf::m_matchers']]],
@@ -34,7 +34,7 @@ var searchData=
   ['m_5fstream_31',['m_stream',['../structCatch_1_1MessageStream.html#a68bbeae90d591ce0754c5c5829a064c1',1,'Catch::MessageStream']]],
   ['m_5funderlyingmatcher_32',['m_underlyingMatcher',['../structCatch_1_1Matchers_1_1Impl_1_1MatchNotOf.html#ad854ebd0a53d7c60002b850bd8eda823',1,'Catch::Matchers::Impl::MatchNotOf']]],
   ['m_5fvalues_33',['m_values',['../structCatch_1_1Detail_1_1EnumInfo.html#a4139157b0ea3d08ae5c1ee1c118e8be0',1,'Catch::Detail::EnumInfo']]],
-  ['macroname_34',['macroname',['../structCatch_1_1MessageInfo.html#ac5ce430af4cf9d4345671bb206cd0d0e',1,'Catch::MessageInfo::macroName'],['../structCatch_1_1AssertionInfo.html#ac5ce430af4cf9d4345671bb206cd0d0e',1,'Catch::AssertionInfo::macroName']]],
+  ['macroname_34',['macroName',['../structCatch_1_1AssertionInfo.html#ac5ce430af4cf9d4345671bb206cd0d0e',1,'Catch::AssertionInfo::macroName'],['../structCatch_1_1MessageInfo.html#ac5ce430af4cf9d4345671bb206cd0d0e',1,'Catch::MessageInfo::macroName']]],
   ['makers_35',['makers',['../structsst_1_1filtersplusplus_1_1details_1_1FilterPayload.html#a4060ca5aa1b55f315dd1a3aa21f2d7e1',1,'sst::filtersplusplus::details::FilterPayload']]],
   ['mask_36',['mask',['../structsst_1_1filters_1_1FastTiltNoiseFilter.html#ae5070a3573f7e4d003cc8868a77d2300',1,'sst::filters::FastTiltNoiseFilter']]],
   ['max_5ffb_5fcomb_37',['MAX_FB_COMB',['../namespacesst_1_1filters_1_1utilities.html#a233f4adbca294cf570eaa34f52b0e6d1',1,'sst::filters::utilities']]],
