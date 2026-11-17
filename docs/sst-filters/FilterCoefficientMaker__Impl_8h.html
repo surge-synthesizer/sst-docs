@@ -98,6 +98,7 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">FilterCoefficientMaker_Impl.h File Reference</div></div>
@@ -116,6 +117,12 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a49f38cec0e881e6ecd5677934fc1b834" id="r_a49f38cec0e881e6ecd5677934fc1b834"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f38cec0e881e6ecd5677934fc1b834">HAS_MEMBER</a>(x)</td></tr>
+<tr class="memitem:aaa4117215be5a6679042f49f9d66bad1" id="r_aaa4117215be5a6679042f49f9d66bad1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4117215be5a6679042f49f9d66bad1">HAS_STATIC_FN</a>(x)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ae9aff71351a827e54abb6b8cd643ccab" id="r_ae9aff71351a827e54abb6b8cd643ccab"><td class="memTemplParams" colspan="2">template&lt;class P&gt; </td></tr>
+<tr class="memitem:ae9aff71351a827e54abb6b8cd643ccab template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesst_1_1filters_1_1details.html#ae9aff71351a827e54abb6b8cd643ccab">if_static_fn_ptr</a> = std::enable_if_t&lt;std::is_function_v&lt;std::remove_pointer_t&lt;P&gt;&gt;&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -159,6 +166,30 @@ Variables</h2></td></tr>
 <div class="line">    };                                                                                             \</div>
 <div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;                                                                             \</div>
 <div class="line">    <span class="keyword">struct </span>has_member_##x&lt;T, std::void_t&lt;decltype(T::x)&gt;&gt; : <span class="keyword">public</span> std::true_type                  \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">    };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaa4117215be5a6679042f49f9d66bad1" name="aaa4117215be5a6679042f49f9d66bad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa4117215be5a6679042f49f9d66bad1">&#9670;&#160;</a></span>HAS_STATIC_FN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HAS_STATIC_FN</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keyword">class</span> = <span class="keywordtype">void</span>&gt; <span class="keyword">struct </span>has_static_fn_##x : <span class="keyword">public</span> std::false_type             \</div>
+<div class="line">    {                                                                                              \</div>
+<div class="line">    };                                                                                             \</div>
+<div class="line">    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;                                                                             \</div>
+<div class="line">    <span class="keyword">struct </span>has_static_fn_##x&lt;T, if_static_fn_ptr&lt;decltype(&amp;T::x)&gt;&gt; : public std::true_type         \</div>
 <div class="line">    {                                                                                              \</div>
 <div class="line">    };</div>
 </div><!-- fragment -->
