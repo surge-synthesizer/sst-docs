@@ -145,6 +145,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae18d05f121ab3bf26fe144062a62502a" id="r_ae18d05f121ab3bf26fe144062a62502a"><td class="memItemLeft" align="right" valign="top">clap_process_status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process</a> (const clap_process *process) noexcept override</td></tr>
 <tr class="memitem:acff440dd9b97623f0d9e61b66cd6b094" id="r_acff440dd9b97623f0d9e61b66cd6b094"><td class="memItemLeft" align="right" valign="top">clap_process_status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock</a> (const clap_process *<a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process</a>) SST_CPPUTILS_NONBLOCKING</td></tr>
 <tr class="memitem:a2f2a2b5fb148fcb1e9a50f1a454c595e" id="r_a2f2a2b5fb148fcb1e9a50f1a454c595e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2a2b5fb148fcb1e9a50f1a454c595e">handleEvent</a> (const clap_event_header_t *)</td></tr>
+<tr class="memitem:ac608a83b8f132dc0aad3440b39349776" id="r_ac608a83b8f132dc0aad3440b39349776"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac608a83b8f132dc0aad3440b39349776">implementsRender</a> () const noexcept override</td></tr>
+<tr class="memitem:a861ed1cde940639fd9f9899491f5a1f9" id="r_a861ed1cde940639fd9f9899491f5a1f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a861ed1cde940639fd9f9899491f5a1f9">renderHasHardRealtimeRequirement</a> () noexcept override</td></tr>
+<tr class="memitem:a7943081aaef2bb02fed8ef0a687308a5" id="r_a7943081aaef2bb02fed8ef0a687308a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7943081aaef2bb02fed8ef0a687308a5">renderSetMode</a> (clap_plugin_render_mode mode) noexcept override</td></tr>
 <tr class="memitem:a1ec95164ee248e21937463deac95d044" id="r_a1ec95164ee248e21937463deac95d044"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec95164ee248e21937463deac95d044">implementsState</a> () const noexcept override</td></tr>
 <tr class="memitem:a1d34688a243a74dafce70fd08b671944" id="r_a1d34688a243a74dafce70fd08b671944"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d34688a243a74dafce70fd08b671944">stateSave</a> (const clap_ostream *stream) noexcept override</td></tr>
 <tr class="memitem:aad8a01a414b01be1115df85e9227fd63" id="r_aad8a01a414b01be1115df85e9227fd63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad8a01a414b01be1115df85e9227fd63">stateLoad</a> (const clap_istream *stream) noexcept override</td></tr>
@@ -161,6 +164,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a87428f1c4380347e7b524f4082de6600" id="r_a87428f1c4380347e7b524f4082de6600"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87428f1c4380347e7b524f4082de6600">nextMainThreadAction</a> {0}</td></tr>
+<tr class="memitem:aa374190b190732bb5a12560dfb512929" id="r_aa374190b190732bb5a12560dfb512929"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa374190b190732bb5a12560dfb512929">renderOffline</a> {false}</td></tr>
 <tr class="memitem:afc633aa10c130bf01834e9c44c017d1e" id="r_afc633aa10c130bf01834e9c44c017d1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscxt_1_1messaging_1_1HostLoadMacros.html">scxt::messaging::HostLoadMacros</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc633aa10c130bf01834e9c44c017d1e">heldHostMacros</a></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
@@ -517,7 +521,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process()</a>, and <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>.</p>
+<p class="reference">References <a class="el" href="#a7f927056a84436370e7582e443fe3071">engine</a>, <a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process()</a>, <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>, and <a class="el" href="#aa374190b190732bb5a12560dfb512929">renderOffline</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process()</a>, and <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>.</p>
 
@@ -578,6 +582,83 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="#a7f927056a84436370e7582e443fe3071">engine</a>, and <a class="el" href="#ae714daad27f44d4780fc9410c9a2af85">handleParamValueEvent()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>.</p>
+
+</div>
+</div>
+<a id="ac608a83b8f132dc0aad3440b39349776" name="ac608a83b8f132dc0aad3440b39349776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac608a83b8f132dc0aad3440b39349776">&#9670;&#160;</a></span>implementsRender()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool implementsRender </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a861ed1cde940639fd9f9899491f5a1f9" name="a861ed1cde940639fd9f9899491f5a1f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861ed1cde940639fd9f9899491f5a1f9">&#9670;&#160;</a></span>renderHasHardRealtimeRequirement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool renderHasHardRealtimeRequirement </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7943081aaef2bb02fed8ef0a687308a5" name="a7943081aaef2bb02fed8ef0a687308a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7943081aaef2bb02fed8ef0a687308a5">&#9670;&#160;</a></span>renderSetMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool renderSetMode </td>
+          <td>(</td>
+          <td class="paramtype">clap_plugin_render_mode</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="#aa374190b190732bb5a12560dfb512929">renderOffline</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1154,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a716c7a12230acabe4a80a3ebb67db286">activate()</a>, <a class="el" href="#a8cb82200b06867dd162611986399cf1b">createEditor()</a>, <a class="el" href="#a2f2a2b5fb148fcb1e9a50f1a454c595e">handleEvent()</a>, <a class="el" href="#ae714daad27f44d4780fc9410c9a2af85">handleParamValueEvent()</a>, <a class="el" href="#af4699542a9e7a0091f6c0fdb7d162cfa">init()</a>, <a class="el" href="#ab8ed0beb481e5d64e6cff7b6c7856340">macroFor()</a>, <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>, <a class="el" href="#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin()</a>, <a class="el" href="#aad8a01a414b01be1115df85e9227fd63">stateLoad()</a>, <a class="el" href="#a1d34688a243a74dafce70fd08b671944">stateSave()</a>, and <a class="el" href="#a916e2ff63102bd0c27ca9f1f1ec9e41c">~SCXTPlugin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a716c7a12230acabe4a80a3ebb67db286">activate()</a>, <a class="el" href="#a8cb82200b06867dd162611986399cf1b">createEditor()</a>, <a class="el" href="#a2f2a2b5fb148fcb1e9a50f1a454c595e">handleEvent()</a>, <a class="el" href="#ae714daad27f44d4780fc9410c9a2af85">handleParamValueEvent()</a>, <a class="el" href="#af4699542a9e7a0091f6c0fdb7d162cfa">init()</a>, <a class="el" href="#ab8ed0beb481e5d64e6cff7b6c7856340">macroFor()</a>, <a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process()</a>, <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>, <a class="el" href="#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin()</a>, <a class="el" href="#aad8a01a414b01be1115df85e9227fd63">stateLoad()</a>, <a class="el" href="#a1d34688a243a74dafce70fd08b671944">stateSave()</a>, and <a class="el" href="#a916e2ff63102bd0c27ca9f1f1ec9e41c">~SCXTPlugin()</a>.</p>
 
 </div>
 </div>
@@ -1114,6 +1195,30 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="#abd1d7554f952ca318905d9eebedc7a0b">onMainThread()</a>, <a class="el" href="#acff440dd9b97623f0d9e61b66cd6b094">process_nonblock()</a>, and <a class="el" href="#a0ca7b3b7351a7145a77b265750e0d4e8">SCXTPlugin()</a>.</p>
+
+</div>
+</div>
+<a id="aa374190b190732bb5a12560dfb512929" name="aa374190b190732bb5a12560dfb512929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa374190b190732bb5a12560dfb512929">&#9670;&#160;</a></span>renderOffline</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; renderOffline {false}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#ae18d05f121ab3bf26fe144062a62502a">process()</a>, and <a class="el" href="#a7943081aaef2bb02fed8ef0a687308a5">renderSetMode()</a>.</p>
 
 </div>
 </div>

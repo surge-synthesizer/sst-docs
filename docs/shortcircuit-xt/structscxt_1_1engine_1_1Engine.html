@@ -214,6 +214,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6c9a5e5d9d2f7d1f1943672f6553943" id="r_aa6c9a5e5d9d2f7d1f1943672f6553943"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6c9a5e5d9d2f7d1f1943672f6553943">processAudio</a> ()</td></tr>
 <tr class="memdesc:aa6c9a5e5d9d2f7d1f1943672f6553943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process into an array of size stereoOutputs * 2 * blocksize.  <br /></td></tr>
 <tr class="memitem:a8de814111543faf6d9e13b80b5456423" id="r_a8de814111543faf6d9e13b80b5456423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8de814111543faf6d9e13b80b5456423">drainSerialToEngineQueue</a> ()</td></tr>
+<tr class="memitem:a38e5ab4a458ed46586753e9f3bf578cd" id="r_a38e5ab4a458ed46586753e9f3bf578cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38e5ab4a458ed46586753e9f3bf578cd">waitForStoppedEngineWork</a> (std::chrono::milliseconds giveUp)</td></tr>
 <tr class="memitem:a4761b6ba0eb9e99231fb118ada734d4e" id="r_a4761b6ba0eb9e99231fb118ada734d4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4761b6ba0eb9e99231fb118ada734d4e">onTransportUpdated</a> ()</td></tr>
 <tr class="memitem:a9ca2277922fe68f6e6f92ec8c85b9d4a" id="r_a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca2277922fe68f6e6f92ec8c85b9d4a">processMIDI1Event</a> (uint16_t midiPort, const uint8_t data[3])</td></tr>
 <tr class="memdesc:a9ca2277922fe68f6e6f92ec8c85b9d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Midi-style events.  <br /></td></tr>
@@ -920,7 +921,26 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aa974023fde004b7cc772017b25d663eeac7ac4e70759b346c0a57955460f35a2b">scxt::messaging::audio::a2s_pointer_complete</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController_1_1AudioThreadCallback.html#a720d015ff549a10a1c95cf89aaf7f076">MessageController::AudioThreadCallback::exec()</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#aa7c0e8c9cc04c5f1945436c389d963ab">AudioToSerialization::id</a>, <a class="el" href="#a424378c67892695a5132577f1d62c39d">modifyStructureMutex</a>, <a class="el" href="unionscxt_1_1messaging_1_1audio_1_1AudioToSerialization_1_1Payload.html#a117104b82864d3b23ec174af6d392709">AudioToSerialization::Payload::p</a>, <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a54d050ac7d728e18a89898aeb024ef49">AudioToSerialization::payload</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ae40f2f8aaed78d8328a1f48ba42bef97">scxt::messaging::audio::s2a_dispatch_to_pointer</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519a8e67f985b77d0a7b03d1ac6ff6b79938">scxt::messaging::audio::s2a_dispatch_to_pointer_under_structurelock</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519aeda1041f795d6be290656a1fa9b5f39e">scxt::messaging::audio::s2a_none</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519ab92e8c9832620a4d00f9e2c068784a5c">scxt::messaging::audio::s2a_param_beginendedit</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519acf5254f0e71f49f76a2636cd7b79d264">scxt::messaging::audio::s2a_param_refresh</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519af21459e7ca9d44da1c1586ed9bc47824">scxt::messaging::audio::s2a_param_set_value</a>, <a class="el" href="namespacescxt_1_1messaging_1_1audio.html#aae372219b06bf199a914539dbc1c5519adbcc82bc28026a614a6d52ea4d11c60f">scxt::messaging::audio::s2a_state_mark_dirty</a>, and <a class="el" href="structscxt_1_1messaging_1_1audio_1_1AudioToSerialization.html#a7648fc5b59ca02797e5d3d876e21b989ae5decaba54764e59201825ee99c0d177">AudioToSerialization::VOID_STAR</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="#aa6c9a5e5d9d2f7d1f1943672f6553943">processAudio()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#aa6c9a5e5d9d2f7d1f1943672f6553943">processAudio()</a>, and <a class="el" href="#a38e5ab4a458ed46586753e9f3bf578cd">waitForStoppedEngineWork()</a>.</p>
+
+</div>
+</div>
+<a id="a38e5ab4a458ed46586753e9f3bf578cd" name="a38e5ab4a458ed46586753e9f3bf578cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e5ab4a458ed46586753e9f3bf578cd">&#9670;&#160;</a></span>waitForStoppedEngineWork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool waitForStoppedEngineWork </td>
+          <td>(</td>
+          <td class="paramtype">std::chrono::milliseconds</td>          <td class="paramname"><span class="paramname"><em>giveUp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="#a8de814111543faf6d9e13b80b5456423">drainSerialToEngineQueue()</a>, <a class="el" href="utils_8h.html#a6bb31fe3727e25c507596ba7f1a9ecfd">SCLOG_IF</a>, and <a class="el" href="#a994658a266476552cf76b65015d4750a">stopEngineRequests</a>.</p>
 
 </div>
 </div>
@@ -4290,7 +4310,7 @@ template&lt;typename F&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#aa6c9a5e5d9d2f7d1f1943672f6553943">processAudio()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a843bfa7fa8e24548304f9e242ff88c59">MessageController::restartAudioThreadFromSerial()</a>, <a class="el" href="structscxt_1_1undo_1_1EngineStateRestoreItem.html#a7a220b237c00806d198f88baff1949f4">EngineStateRestoreItem::restore()</a>, and <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1a093e44dc5818b9c8d419ef545ca101">MessageController::stopAudioThreadThenRunOnSerial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#aa6c9a5e5d9d2f7d1f1943672f6553943">processAudio()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a843bfa7fa8e24548304f9e242ff88c59">MessageController::restartAudioThreadFromSerial()</a>, <a class="el" href="structscxt_1_1undo_1_1EngineStateRestoreItem.html#a7a220b237c00806d198f88baff1949f4">EngineStateRestoreItem::restore()</a>, <a class="el" href="structscxt_1_1messaging_1_1MessageController.html#a1a093e44dc5818b9c8d419ef545ca101">MessageController::stopAudioThreadThenRunOnSerial()</a>, and <a class="el" href="#a38e5ab4a458ed46586753e9f3bf578cd">waitForStoppedEngineWork()</a>.</p>
 
 </div>
 </div>
