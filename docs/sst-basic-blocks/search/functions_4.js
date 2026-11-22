@@ -14,7 +14,8 @@ var searchData=
   ['endian_5fwrite_5fint16le_11',['endian_write_int16LE',['../namespacesst_1_1basic__blocks_1_1mechanics.html#ac4072c297e4d4734232f50b26c8e6081',1,'sst::basic_blocks::mechanics']]],
   ['endian_5fwrite_5fint32be_12',['endian_write_int32BE',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a0c1fbca95857608f49ec059165887e02',1,'sst::basic_blocks::mechanics']]],
   ['endian_5fwrite_5fint32le_13',['endian_write_int32LE',['../namespacesst_1_1basic__blocks_1_1mechanics.html#a4bb57fa2d4629c37875799ccf3de25e6',1,'sst::basic_blocks::mechanics']]],
-  ['etmaxv_14',['etmaxV',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a080ce847241fe964a478c5cf823e6a9c',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['etminv_15',['etminV',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a8960382ba47257ff03caa55c68c095ea',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
-  ['extendable_16',['extendable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1f147fa80fe946c1cb356f91fc9c91c8',1,'sst::basic_blocks::params::ParamMetaData']]]
+  ['endpointwithtext_14',['endpointWithText',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#ae4ade783e99e906c9424fb52977146e2',1,'sst::basic_blocks::params::ParamMetaData']]],
+  ['etmaxv_15',['etmaxV',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a080ce847241fe964a478c5cf823e6a9c',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['etminv_16',['etminV',['../structsst_1_1basic__blocks_1_1modulators_1_1DiscreteStagesEnvelope.html#a8960382ba47257ff03caa55c68c095ea',1,'sst::basic_blocks::modulators::DiscreteStagesEnvelope']]],
+  ['extendable_17',['extendable',['../structsst_1_1basic__blocks_1_1params_1_1ParamMetaData.html#a1f147fa80fe946c1cb356f91fc9c91c8',1,'sst::basic_blocks::params::ParamMetaData']]]
 ];
