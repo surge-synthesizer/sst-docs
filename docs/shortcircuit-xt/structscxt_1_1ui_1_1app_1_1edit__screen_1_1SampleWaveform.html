@@ -96,6 +96,7 @@ $(function() {
 <div id="doc-content">
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -118,6 +119,10 @@ $(function() {
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:EnvelopeKey" id="r_EnvelopeKey"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform_1_1EnvelopeKey.html">EnvelopeKey</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a3fe1dc281e20599dff9635c050a28b8c" id="r_a3fe1dc281e20599dff9635c050a28b8c"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe1dc281e20599dff9635c050a28b8c">MouseState</a> { <br />
@@ -129,6 +134,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>
 , <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7">HZ_DRAG_FADE_LOOPSTART</a>
 , <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70">HZ_DRAG_FADE_LOOPEND</a>
+, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c">HZ_DRAG_LOOPBODY</a>
 <br />
  }</td></tr>
 <tr class="memitem:a278037dd4daa4c9a3e2e8294db283019" id="r_a278037dd4daa4c9a3e2e8294db283019"><td class="memItemLeft" align="right" valign="top">enum struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a278037dd4daa4c9a3e2e8294db283019">FadeDragAxis</a> { <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a8ba8ac037709b266f6ec856ea77e4489">UNDECIDED</a>
@@ -145,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7239a94345c68261bb9046413797a766" id="r_a7239a94345c68261bb9046413797a766"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones</a> ()</td></tr>
 <tr class="memitem:a533222b93bc70b0bf7f1038a94774571" id="r_a533222b93bc70b0bf7f1038a94774571"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear</a> (int64_t samplePos, float xpos)</td></tr>
 <tr class="memitem:a6c5b3f5fa9e73628f6414e986840840e" id="r_a6c5b3f5fa9e73628f6414e986840840e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag</a> () const</td></tr>
+<tr class="memitem:a99638b59017101b47809cb84b0c36daf" id="r_a99638b59017101b47809cb84b0c36daf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody</a> (float xpos)</td></tr>
 <tr class="memitem:a50621c8b4ea6f782d5a4108df0bfc87f" id="r_a50621c8b4ea6f782d5a4108df0bfc87f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor</a> ()</td></tr>
 <tr class="memitem:a3bd7126061f7a5b5cfd48f6eb4ca8159" id="r_a3bd7126061f7a5b5cfd48f6eb4ca8159"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bd7126061f7a5b5cfd48f6eb4ca8159">clampedLoopFade</a> ()</td></tr>
 <tr class="memitem:a7421d087e8945d0f4ef371690375e11f" id="r_a7421d087e8945d0f4ef371690375e11f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7421d087e8945d0f4ef371690375e11f">loopFadeT</a> ()</td></tr>
@@ -164,6 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6eabfe70d2d9352ed41a16e2882e1645" id="r_a6eabfe70d2d9352ed41a16e2882e1645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp</a> (const juce::MouseEvent &amp;e) override</td></tr>
 <tr class="memitem:a09d58428ae7c3742bb1a5f1f3ed827b7" id="r_a09d58428ae7c3742bb1a5f1f3ed827b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag</a> (const juce::MouseEvent &amp;e) override</td></tr>
 <tr class="memitem:a11155fe9a264c63ca821be33a41894bc" id="r_a11155fe9a264c63ca821be33a41894bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11155fe9a264c63ca821be33a41894bc">mouseMove</a> (const juce::MouseEvent &amp;e) override</td></tr>
+<tr class="memitem:ade5fa32b41128dc73f1bb1a050c71ec3" id="r_ade5fa32b41128dc73f1bb1a050c71ec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5fa32b41128dc73f1bb1a050c71ec3">mouseExit</a> (const juce::MouseEvent &amp;e) override</td></tr>
+<tr class="memitem:aff18baa731577ae1d6ed6109dc07a4b8" id="r_aff18baa731577ae1d6ed6109dc07a4b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff18baa731577ae1d6ed6109dc07a4b8">setLoopBodyHover</a> (bool h)</td></tr>
 <tr class="memitem:a4a59e2a28c17d776747e392ef683ac99" id="r_a4a59e2a28c17d776747e392ef683ac99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a59e2a28c17d776747e392ef683ac99">mouseDoubleClick</a> (const juce::MouseEvent &amp;e) override</td></tr>
 <tr class="memitem:a1e370874198ff3223e76e4a7df645278" id="r_a1e370874198ff3223e76e4a7df645278"><td class="memItemLeft" align="right" valign="top">Component *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e370874198ff3223e76e4a7df645278">associatedComponent</a> () override</td></tr>
 <tr class="memitem:a1f6df1e630ed294cccd930de65d9f88d" id="r_a1f6df1e630ed294cccd930de65d9f88d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6df1e630ed294cccd930de65d9f88d">supportsVerticalZoom</a> () const override</td></tr>
@@ -197,18 +206,24 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af0ec452082b6ad261cf3464c33b88f13" id="r_af0ec452082b6ad261cf3464c33b88f13"><td class="memItemLeft" align="right" valign="top">juce::Rectangle&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a></td></tr>
 <tr class="memitem:ab58e4569e76cb70ebd9ab8b306518389" id="r_ab58e4569e76cb70ebd9ab8b306518389"><td class="memItemLeft" align="right" valign="top">juce::Rectangle&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a></td></tr>
 <tr class="memitem:a6336c20d4bc1abff9b8bf668a68d1e5c" id="r_a6336c20d4bc1abff9b8bf668a68d1e5c"><td class="memItemLeft" align="right" valign="top">juce::Rectangle&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a></td></tr>
+<tr class="memitem:a9b3c9567aa779eb892e14d0e6130ff9c" id="r_a9b3c9567aa779eb892e14d0e6130ff9c"><td class="memItemLeft" align="right" valign="top">juce::Rectangle&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3c9567aa779eb892e14d0e6130ff9c">loopBodyHZ</a></td></tr>
+<tr class="memitem:a829cebd5ae96d482d17e43fe967706ab" id="r_a829cebd5ae96d482d17e43fe967706ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a829cebd5ae96d482d17e43fe967706ab">loopBodyHover</a> {false}</td></tr>
 <tr class="memitem:aa19fe3ff47ed4597364e7fd4aa7cef3f" id="r_aa19fe3ff47ed4597364e7fd4aa7cef3f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa19fe3ff47ed4597364e7fd4aa7cef3f">slicePixelAndSamplePositions</a></td></tr>
 <tr class="memitem:a43e29db5f91859ada462d2a344fc08ea" id="r_a43e29db5f91859ada462d2a344fc08ea"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8c">scxt::ui::app::edit_screen::SampleWaveform::MouseState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43e29db5f91859ada462d2a344fc08ea">NONE</a></td></tr>
 <tr class="memitem:a5267e0dc5d59f8e971616f6835b97d76" id="r_a5267e0dc5d59f8e971616f6835b97d76"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5267e0dc5d59f8e971616f6835b97d76">dragGrabOffsetPx</a> {0.f}</td></tr>
 <tr class="memitem:a1500987af79308344bfc0bd72cad815d" id="r_a1500987af79308344bfc0bd72cad815d"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019">scxt::ui::app::edit_screen::SampleWaveform::FadeDragAxis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1500987af79308344bfc0bd72cad815d">UNDECIDED</a></td></tr>
 <tr class="memitem:a7b49f90a27a45469966ad00cab9d389e" id="r_a7b49f90a27a45469966ad00cab9d389e"><td class="memItemLeft" align="right" valign="top">juce::Point&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b49f90a27a45469966ad00cab9d389e">fadeDragStart</a></td></tr>
 <tr class="memitem:a706cb0ead59a64d67066aa853fe1be47" id="r_a706cb0ead59a64d67066aa853fe1be47"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706cb0ead59a64d67066aa853fe1be47">fadeDragStartCurve</a> {0.f}</td></tr>
+<tr class="memitem:a63a601b1a455b6a9922001327ebe548a" id="r_a63a601b1a455b6a9922001327ebe548a"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63a601b1a455b6a9922001327ebe548a">loopDragStartLoop</a> {0}</td></tr>
+<tr class="memitem:a884cb432c3bc216cbc10e1d775000ffa" id="r_a884cb432c3bc216cbc10e1d775000ffa"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a884cb432c3bc216cbc10e1d775000ffa">loopDragEndLoop</a> {0}</td></tr>
+<tr class="memitem:a395c776b4a731f034e8fc0bc22bb6f7d" id="r_a395c776b4a731f034e8fc0bc22bb6f7d"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a395c776b4a731f034e8fc0bc22bb6f7d">loopDragMouseSample</a> {0}</td></tr>
 <tr class="memitem:a71abaff9a3ceda1d211b117a0891cbda" id="r_a71abaff9a3ceda1d211b117a0891cbda"><td class="memItemLeft" align="right" valign="top">std::set&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71abaff9a3ceda1d211b117a0891cbda">playbackPositions</a></td></tr>
 <tr class="memitem:a6d20f65708079048d01ea02e2df4bc60" id="r_a6d20f65708079048d01ea02e2df4bc60"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d20f65708079048d01ea02e2df4bc60">usedChannels</a> {1}</td></tr>
 <tr class="memitem:a825357b7b6d3baeca341e6798dfa378d" id="r_a825357b7b6d3baeca341e6798dfa378d"><td class="memItemLeft" align="right" valign="top">juce::Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a825357b7b6d3baeca341e6798dfa378d">upperStroke</a> [2]</td></tr>
 <tr class="memitem:a36ea32617c76926bc849f29898748588" id="r_a36ea32617c76926bc849f29898748588"><td class="memItemLeft" align="right" valign="top">juce::Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36ea32617c76926bc849f29898748588">lowerStroke</a> [2]</td></tr>
 <tr class="memitem:a5ae217533fe39ce2b4e31616b2f671bd" id="r_a5ae217533fe39ce2b4e31616b2f671bd"><td class="memItemLeft" align="right" valign="top">juce::Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ae217533fe39ce2b4e31616b2f671bd">upperFill</a> [2]</td></tr>
 <tr class="memitem:ad491e124dea26cf169918dc2d85ec7ef" id="r_ad491e124dea26cf169918dc2d85ec7ef"><td class="memItemLeft" align="right" valign="top">juce::Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad491e124dea26cf169918dc2d85ec7ef">lowerFill</a> [2]</td></tr>
+<tr class="memitem:afcf78c1a0006e24de65c808c745ad280" id="r_afcf78c1a0006e24de65c808c745ad280"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform_1_1EnvelopeKey.html">scxt::ui::app::edit_screen::SampleWaveform::EnvelopeKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf78c1a0006e24de65c808c745ad280">envelopeKey</a></td></tr>
 <tr class="memitem:a30323f344b32cbbf81ed28b13c6c7bcb" id="r_a30323f344b32cbbf81ed28b13c6c7bcb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30323f344b32cbbf81ed28b13c6c7bcb">pctStart</a> {0.f}</td></tr>
 <tr class="memitem:a4c0115542d198c9c7539a3c4eb45f3d7" id="r_a4c0115542d198c9c7539a3c4eb45f3d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c0115542d198c9c7539a3c4eb45f3d7">zoomFactor</a> {1.f}</td></tr>
 <tr class="memitem:a00f153e619a0f486e550928b46566b2d" id="r_a00f153e619a0f486e550928b46566b2d"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00f153e619a0f486e550928b46566b2d">onPopupMenu</a> {nullptr}</td></tr>
@@ -251,6 +266,7 @@ Static Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e" name="a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e"></a>HZ_DRAG_LOOPEND&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7" name="a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7"></a>HZ_DRAG_FADE_LOOPSTART&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70" name="a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70"></a>HZ_DRAG_FADE_LOOPEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c" name="a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c"></a>HZ_DRAG_LOOPBODY&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -326,7 +342,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a9df8ba08a5b7f88ebf6977ffad839177">ColorMap::accent_1a</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae47e0d7e96befc66fbf90661b9b7b772">ColorMap::accent_1b</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a28cfd4ac575d75daa5c58da8dd0b3c69">ColorMap::accent_2a</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a7031f9414e0ac12813028b0f5f49f860">ColorMap::accent_2b</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a47c81afcaecd0c454f2831c675c306dc">ColorMap::bg_1</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9">ColorMap::bg_2</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf">ColorMap::bg_3</a>, <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">scxt::dsp::clampLoopFade()</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a6776e6e05a046312f031e246d33cf5a7">ColorMap::generic_content_high</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a0d5812bd394a2eac2a0a1d2bd022115a">ColorMap::generic_content_low</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ac1a902c80eade27803d29c67d5c44e7d">ColorMap::generic_content_medium</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">scxt::dsp::getFadeGainToAmp()</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2">ColorMap::grid_primary</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6">ColorMap::grid_secondary</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#a7421d087e8945d0f4ef371690375e11f">loopFadeT()</a>, <a class="el" href="#ad491e124dea26cf169918dc2d85ec7ef">lowerFill</a>, <a class="el" href="#a36ea32617c76926bc849f29898748588">lowerStroke</a>, <a class="el" href="#a71abaff9a3ceda1d211b117a0891cbda">playbackPositions</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>, <a class="el" href="#a5ae217533fe39ce2b4e31616b2f671bd">upperFill</a>, <a class="el" href="#a825357b7b6d3baeca341e6798dfa378d">upperStroke</a>, <a class="el" href="#a6d20f65708079048d01ea02e2df4bc60">usedChannels</a>, <a class="el" href="#a02d4a9df7846ae21e576edd6f840a045">vStart</a>, <a class="el" href="#a86f1dc2107120b1e0fabebe6e2d2f07b">vZoom</a>, and <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a9df8ba08a5b7f88ebf6977ffad839177">ColorMap::accent_1a</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae47e0d7e96befc66fbf90661b9b7b772">ColorMap::accent_1b</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a28cfd4ac575d75daa5c58da8dd0b3c69">ColorMap::accent_2a</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a7031f9414e0ac12813028b0f5f49f860">ColorMap::accent_2b</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a47c81afcaecd0c454f2831c675c306dc">ColorMap::bg_1</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ae2a59cca8a86addc0f7e670a459a8cb9">ColorMap::bg_2</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a434823a2f8c4d3f554ade5f2635e49bf">ColorMap::bg_3</a>, <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">scxt::dsp::clampLoopFade()</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a6776e6e05a046312f031e246d33cf5a7">ColorMap::generic_content_high</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a0d5812bd394a2eac2a0a1d2bd022115a">ColorMap::generic_content_low</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6ac1a902c80eade27803d29c67d5c44e7d">ColorMap::generic_content_medium</a>, <a class="el" href="namespacescxt_1_1dsp.html#a919e21d9b1c2270a65c28dd637f0334e">scxt::dsp::getFadeGainToAmp()</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a84c67309a0faea80e63cde6f16bf2cf2">ColorMap::grid_primary</a>, <a class="el" href="structscxt_1_1ui_1_1theme_1_1ColorMap.html#a0b96022cb9768c4cfbb8c14eb2a214e6a29d80ab9513a594bbef277117253fbe6">ColorMap::grid_secondary</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c">HZ_DRAG_LOOPBODY</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#a829cebd5ae96d482d17e43fe967706ab">loopBodyHover</a>, <a class="el" href="#a9b3c9567aa779eb892e14d0e6130ff9c">loopBodyHZ</a>, <a class="el" href="#a7421d087e8945d0f4ef371690375e11f">loopFadeT()</a>, <a class="el" href="#ad491e124dea26cf169918dc2d85ec7ef">lowerFill</a>, <a class="el" href="#a36ea32617c76926bc849f29898748588">lowerStroke</a>, <a class="el" href="#a71abaff9a3ceda1d211b117a0891cbda">playbackPositions</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>, <a class="el" href="#a5ae217533fe39ce2b4e31616b2f671bd">upperFill</a>, <a class="el" href="#a825357b7b6d3baeca341e6798dfa378d">upperStroke</a>, <a class="el" href="#a6d20f65708079048d01ea02e2df4bc60">usedChannels</a>, <a class="el" href="#a02d4a9df7846ae21e576edd6f840a045">vStart</a>, <a class="el" href="#a86f1dc2107120b1e0fabebe6e2d2f07b">vZoom</a>, and <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>.</p>
 
 </div>
 </div>
@@ -399,7 +415,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#a0ba18e3a88fa35982b2a6d7a4a0458ee">fadeNodeFor()</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, <a class="el" href="#aa19fe3ff47ed4597364e7fd4aa7cef3f">slicePixelAndSamplePositions</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>, and <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>.</p>
+<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#a0ba18e3a88fa35982b2a6d7a4a0458ee">fadeNodeFor()</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#a9b3c9567aa779eb892e14d0e6130ff9c">loopBodyHZ</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, <a class="el" href="#aa19fe3ff47ed4597364e7fd4aa7cef3f">slicePixelAndSamplePositions</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>, and <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="#a31cc081b3c77bc8855de79094fc1da42">resized()</a>, <a class="el" href="#ac5372f7628bcfdf8b415c111f72d1344">setHorizontalZoom()</a>, and <a class="el" href="#a23d85ed212d16e9aa8682bf0cbceffd2">setVerticalZoom()</a>.</p>
 
@@ -448,6 +464,27 @@ Static Public Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70">HZ_DRAG_FADE_LOOPEND</a>, and <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7">HZ_DRAG_FADE_LOOPSTART</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>, and <a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp()</a>.</p>
+
+</div>
+</div>
+<a id="a99638b59017101b47809cb84b0c36daf" name="a99638b59017101b47809cb84b0c36daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99638b59017101b47809cb84b0c36daf">&#9670;&#160;</a></span>dragLoopBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dragLoopBody </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>xpos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">scxt::dsp::clampLoopFade()</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#a884cb432c3bc216cbc10e1d775000ffa">loopDragEndLoop</a>, <a class="el" href="#a395c776b4a731f034e8fc0bc22bb6f7d">loopDragMouseSample</a>, <a class="el" href="#a63a601b1a455b6a9922001327ebe548a">loopDragStartLoop</a>, and <a class="el" href="#acb7d1eb56377b21a40d2feb6f050b67a">sampleForXPixel()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>.</p>
 
 </div>
 </div>
@@ -550,7 +587,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70">HZ_DRAG_FADE_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7">HZ_DRAG_FADE_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">HZ_DRAG_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">HZ_DRAG_SAMPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">HZ_DRAG_SAMPSTART</a>, and <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
+<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70">HZ_DRAG_FADE_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7">HZ_DRAG_FADE_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c">HZ_DRAG_LOOPBODY</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">HZ_DRAG_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">HZ_DRAG_SAMPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">HZ_DRAG_SAMPSTART</a>, and <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>, and <a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp()</a>.</p>
 
@@ -626,7 +663,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#ad5473b3cf7c4660e5bc08aa8014a5318">flipPct()</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#ad491e124dea26cf169918dc2d85ec7ef">lowerFill</a>, <a class="el" href="#a36ea32617c76926bc849f29898748588">lowerStroke</a>, <a class="el" href="#a30323f344b32cbbf81ed28b13c6c7bcb">pctStart</a>, <a class="el" href="#a5ae217533fe39ce2b4e31616b2f671bd">upperFill</a>, <a class="el" href="#a825357b7b6d3baeca341e6798dfa378d">upperStroke</a>, <a class="el" href="#a6d20f65708079048d01ea02e2df4bc60">usedChannels</a>, <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>, <a class="el" href="#a5c898ef627d82d8f84a78b0e5551dff8">yPixelForAmplitude()</a>, and <a class="el" href="#a4c0115542d198c9c7539a3c4eb45f3d7">zoomFactor</a>.</p>
+<p class="reference">References <a class="el" href="structscxt_1_1sample_1_1Sample.html#a19239b66ec52ebeddd79a851fbaedd4d">Sample::BD_F32</a>, <a class="el" href="structscxt_1_1sample_1_1Sample.html#a1c8b18f3d81c2eb76de467806f5962efa844aea818b750799f7dfce50284f717f">Sample::BD_I16</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#afcf78c1a0006e24de65c808c745ad280">envelopeKey</a>, <a class="el" href="#ad5473b3cf7c4660e5bc08aa8014a5318">flipPct()</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#ad491e124dea26cf169918dc2d85ec7ef">lowerFill</a>, <a class="el" href="#a36ea32617c76926bc849f29898748588">lowerStroke</a>, <a class="el" href="#a30323f344b32cbbf81ed28b13c6c7bcb">pctStart</a>, <a class="el" href="#a5ae217533fe39ce2b4e31616b2f671bd">upperFill</a>, <a class="el" href="#a825357b7b6d3baeca341e6798dfa378d">upperStroke</a>, <a class="el" href="#a6d20f65708079048d01ea02e2df4bc60">usedChannels</a>, <a class="el" href="#a02d4a9df7846ae21e576edd6f840a045">vStart</a>, <a class="el" href="#a86f1dc2107120b1e0fabebe6e2d2f07b">vZoom</a>, <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>, <a class="el" href="#a5c898ef627d82d8f84a78b0e5551dff8">yPixelForAmplitude()</a>, and <a class="el" href="#a4c0115542d198c9c7539a3c4eb45f3d7">zoomFactor</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>, and <a class="el" href="#a017838bc9dfe9fac4f47396d49c5dc28">visibilityChanged()</a>.</p>
 
@@ -649,7 +686,7 @@ Static Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="#ad5473b3cf7c4660e5bc08aa8014a5318">flipPct()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, and <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#ad5473b3cf7c4660e5bc08aa8014a5318">flipPct()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, and <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>.</p>
 
 </div>
 </div>
@@ -691,7 +728,7 @@ Static Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="structscxt_1_1ui_1_1app_1_1HasEditor.html#a7a92928a81039469a2ce959b39d89d2b">HasEditor::editor</a>, <a class="el" href="#ad5473b3cf7c4660e5bc08aa8014a5318">flipPct()</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#a30323f344b32cbbf81ed28b13c6c7bcb">pctStart</a>, and <a class="el" href="#a4c0115542d198c9c7539a3c4eb45f3d7">zoomFactor</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>, and <a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody()</a>, <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>, and <a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear()</a>.</p>
 
 </div>
 </div>
@@ -792,7 +829,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a5267e0dc5d59f8e971616f6835b97d76">dragGrabOffsetPx</a>, <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor()</a>, <a class="el" href="#a7b49f90a27a45469966ad00cab9d389e">fadeDragStart</a>, <a class="el" href="#a706cb0ead59a64d67066aa853fe1be47">fadeDragStartCurve</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#a0ba18e3a88fa35982b2a6d7a4a0458ee">fadeNodeFor()</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70">HZ_DRAG_FADE_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7">HZ_DRAG_FADE_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">HZ_DRAG_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">HZ_DRAG_SAMPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">HZ_DRAG_SAMPSTART</a>, <a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag()</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="#a00f153e619a0f486e550928b46566b2d">onPopupMenu</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>, <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a8ba8ac037709b266f6ec856ea77e4489">UNDECIDED</a>, and <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>.</p>
+<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a5267e0dc5d59f8e971616f6835b97d76">dragGrabOffsetPx</a>, <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor()</a>, <a class="el" href="#a7b49f90a27a45469966ad00cab9d389e">fadeDragStart</a>, <a class="el" href="#a706cb0ead59a64d67066aa853fe1be47">fadeDragStartCurve</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#a0ba18e3a88fa35982b2a6d7a4a0458ee">fadeNodeFor()</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8caa749380c495dc2e6a427d4b8d6a2fd70">HZ_DRAG_FADE_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca5e4c289478442723b2cbbee6de244ca7">HZ_DRAG_FADE_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c">HZ_DRAG_LOOPBODY</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">HZ_DRAG_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">HZ_DRAG_SAMPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">HZ_DRAG_SAMPSTART</a>, <a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag()</a>, <a class="el" href="#a9b3c9567aa779eb892e14d0e6130ff9c">loopBodyHZ</a>, <a class="el" href="#a884cb432c3bc216cbc10e1d775000ffa">loopDragEndLoop</a>, <a class="el" href="#a395c776b4a731f034e8fc0bc22bb6f7d">loopDragMouseSample</a>, <a class="el" href="#a63a601b1a455b6a9922001327ebe548a">loopDragStartLoop</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="#a00f153e619a0f486e550928b46566b2d">onPopupMenu</a>, <a class="el" href="#acb7d1eb56377b21a40d2feb6f050b67a">sampleForXPixel()</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>, <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a8ba8ac037709b266f6ec856ea77e4489">UNDECIDED</a>, and <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>.</p>
 
 </div>
 </div>
@@ -819,7 +856,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag()</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>, and <a class="el" href="#a00f153e619a0f486e550928b46566b2d">onPopupMenu</a>.</p>
+<p class="reference">References <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag()</a>, <a class="el" href="#a9b3c9567aa779eb892e14d0e6130ff9c">loopBodyHZ</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="#a00f153e619a0f486e550928b46566b2d">onPopupMenu</a>, and <a class="el" href="#aff18baa731577ae1d6ed6109dc07a4b8">setLoopBodyHover()</a>.</p>
 
 </div>
 </div>
@@ -846,7 +883,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">scxt::dsp::clampLoopFade()</a>, <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a01f76e0921f8cebe360cdc9621d7dd0d">CURVE</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a5267e0dc5d59f8e971616f6835b97d76">dragGrabOffsetPx</a>, <a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor()</a>, <a class="el" href="#aad02c1f6a9de060475b43247798eae6f">fadeDragAxisLockPx</a>, <a class="el" href="#a7b49f90a27a45469966ad00cab9d389e">fadeDragStart</a>, <a class="el" href="#a706cb0ead59a64d67066aa853fe1be47">fadeDragStartCurve</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">HZ_DRAG_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">HZ_DRAG_SAMPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">HZ_DRAG_SAMPSTART</a>, <a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag()</a>, <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019aaddeac40406177897b3fccba88558f1c">LENGTH</a>, <a class="el" href="namespacescxt_1_1dsp.html#a48d115874508f1f19831681bf385cf82">scxt::dsp::loopCurveMax</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="#acb7d1eb56377b21a40d2feb6f050b67a">sampleForXPixel()</a>, <a class="el" href="#aa19fe3ff47ed4597364e7fd4aa7cef3f">slicePixelAndSamplePositions</a>, <a class="el" href="#afe6c61bd072ee6aa2f415eac1363ee49">sliceSnapZoneInPixels</a>, <a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear()</a>, and <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a8ba8ac037709b266f6ec856ea77e4489">UNDECIDED</a>.</p>
+<p class="reference">References <a class="el" href="namespacescxt_1_1dsp.html#a1d334a67e333483f2ba4de784f068466">scxt::dsp::clampLoopFade()</a>, <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a01f76e0921f8cebe360cdc9621d7dd0d">CURVE</a>, <a class="el" href="#a3313926bb7b6f840394dea719a4009da">display</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a5267e0dc5d59f8e971616f6835b97d76">dragGrabOffsetPx</a>, <a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody()</a>, <a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor()</a>, <a class="el" href="#aad02c1f6a9de060475b43247798eae6f">fadeDragAxisLockPx</a>, <a class="el" href="#a7b49f90a27a45469966ad00cab9d389e">fadeDragStart</a>, <a class="el" href="#a706cb0ead59a64d67066aa853fe1be47">fadeDragStartCurve</a>, <a class="el" href="structscxt_1_1engine_1_1Zone.html#a1d3d1ffc04e90cc5a9314fce5cdbf741a80e18986b9cec6261f07f0f118992898">Zone::FORWARD_ONLY</a>, <a class="el" href="#ac56144260254e85a66b69de82be9e273">getInsetBounds()</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca0e9c65ed26e65b19ac2fc15e009bef2c">HZ_DRAG_LOOPBODY</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca944c746ea5b211211b7813b8ac25226e">HZ_DRAG_LOOPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca320b194edf9fb9dd307f23ef1a3079ce">HZ_DRAG_LOOPSTART</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cafe31a16f70aa8ab153fae19044f8cf9a">HZ_DRAG_SAMPEND</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8ca63ee9b31742293076e8c0e0509b16fcf">HZ_DRAG_SAMPSTART</a>, <a class="el" href="#a6c5b3f5fa9e73628f6414e986840840e">isFadeDrag()</a>, <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019aaddeac40406177897b3fccba88558f1c">LENGTH</a>, <a class="el" href="namespacescxt_1_1dsp.html#a48d115874508f1f19831681bf385cf82">scxt::dsp::loopCurveMax</a>, <a class="el" href="#a3fe1dc281e20599dff9635c050a28b8cab50339a10e1de285ac99d4c3990b8693">NONE</a>, <a class="el" href="#acb7d1eb56377b21a40d2feb6f050b67a">sampleForXPixel()</a>, <a class="el" href="#aa19fe3ff47ed4597364e7fd4aa7cef3f">slicePixelAndSamplePositions</a>, <a class="el" href="#afe6c61bd072ee6aa2f415eac1363ee49">sliceSnapZoneInPixels</a>, <a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear()</a>, and <a class="el" href="#a278037dd4daa4c9a3e2e8294db283019a8ba8ac037709b266f6ec856ea77e4489">UNDECIDED</a>.</p>
 
 </div>
 </div>
@@ -873,7 +910,55 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, and <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>.</p>
+<p class="reference">References <a class="el" href="#af0ec452082b6ad261cf3464c33b88f13">endLoopHZ</a>, <a class="el" href="#a1cc922b63146f4b35a5dcd0818aa20a7">endSampleHZ</a>, <a class="el" href="#a6336c20d4bc1abff9b8bf668a68d1e5c">fadeEndLoopHZ</a>, <a class="el" href="#ab58e4569e76cb70ebd9ab8b306518389">fadeStartLoopHZ</a>, <a class="el" href="#a829cebd5ae96d482d17e43fe967706ab">loopBodyHover</a>, <a class="el" href="#a9b3c9567aa779eb892e14d0e6130ff9c">loopBodyHZ</a>, <a class="el" href="#aff18baa731577ae1d6ed6109dc07a4b8">setLoopBodyHover()</a>, <a class="el" href="#ae5d73ab7bb082f67a87d75406abca091">startLoopHZ</a>, and <a class="el" href="#ad7b2bee2d93164710622884b82566af1">startSampleHZ</a>.</p>
+
+</div>
+</div>
+<a id="ade5fa32b41128dc73f1bb1a050c71ec3" name="ade5fa32b41128dc73f1bb1a050c71ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5fa32b41128dc73f1bb1a050c71ec3">&#9670;&#160;</a></span>mouseExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mouseExit </td>
+          <td>(</td>
+          <td class="paramtype">const juce::MouseEvent &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="#aff18baa731577ae1d6ed6109dc07a4b8">setLoopBodyHover()</a>.</p>
+
+</div>
+</div>
+<a id="aff18baa731577ae1d6ed6109dc07a4b8" name="aff18baa731577ae1d6ed6109dc07a4b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff18baa731577ae1d6ed6109dc07a4b8">&#9670;&#160;</a></span>setLoopBodyHover()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setLoopBodyHover </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>h</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="#a829cebd5ae96d482d17e43fe967706ab">loopBodyHover</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#ade5fa32b41128dc73f1bb1a050c71ec3">mouseExit()</a>, <a class="el" href="#a11155fe9a264c63ca821be33a41894bc">mouseMove()</a>, and <a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp()</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1158,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a3bd7126061f7a5b5cfd48f6eb4ca8159">clampedLoopFade()</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor()</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#a7421d087e8945d0f4ef371690375e11f">loopFadeT()</a>, <a class="el" href="#a4a59e2a28c17d776747e392ef683ac99">mouseDoubleClick()</a>, <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>, <a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>, <a class="el" href="#acb7d1eb56377b21a40d2feb6f050b67a">sampleForXPixel()</a>, <a class="el" href="#a377c871a6791a7fe4652a073c10b56c2">SampleWaveform()</a>, <a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear()</a>, <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>, and <a class="el" href="#ae10dada2b2233061f6ebcf11d5449495">xPixelForSampleDistance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a3bd7126061f7a5b5cfd48f6eb4ca8159">clampedLoopFade()</a>, <a class="el" href="#a9123da8878f0bad33478d88f32676843">draggedPoint()</a>, <a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody()</a>, <a class="el" href="#a50621c8b4ea6f782d5a4108df0bfc87f">fadeAnchor()</a>, <a class="el" href="#ae21fd57bb79d215a9202d6eba77439b2">isReversed()</a>, <a class="el" href="#a7421d087e8945d0f4ef371690375e11f">loopFadeT()</a>, <a class="el" href="#a4a59e2a28c17d776747e392ef683ac99">mouseDoubleClick()</a>, <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a09d58428ae7c3742bb1a5f1f3ed827b7">mouseDrag()</a>, <a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>, <a class="el" href="#acb7d1eb56377b21a40d2feb6f050b67a">sampleForXPixel()</a>, <a class="el" href="#a377c871a6791a7fe4652a073c10b56c2">SampleWaveform()</a>, <a class="el" href="#a533222b93bc70b0bf7f1038a94774571">snapToZeroCrossingNear()</a>, <a class="el" href="#a03b0d64dde61588649152350502da337">xPixelForSample()</a>, and <a class="el" href="#ae10dada2b2233061f6ebcf11d5449495">xPixelForSampleDistance()</a>.</p>
 
 </div>
 </div>
@@ -1170,6 +1255,38 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a11155fe9a264c63ca821be33a41894bc">mouseMove()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, and <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>.</p>
+
+</div>
+</div>
+<a id="a9b3c9567aa779eb892e14d0e6130ff9c" name="a9b3c9567aa779eb892e14d0e6130ff9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b3c9567aa779eb892e14d0e6130ff9c">&#9670;&#160;</a></span>loopBodyHZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">juce::Rectangle&lt;int&gt; loopBodyHZ</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>, <a class="el" href="#a11155fe9a264c63ca821be33a41894bc">mouseMove()</a>, <a class="el" href="#a6eabfe70d2d9352ed41a16e2882e1645">mouseUp()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, and <a class="el" href="#a7239a94345c68261bb9046413797a766">rebuildHotZones()</a>.</p>
+
+</div>
+</div>
+<a id="a829cebd5ae96d482d17e43fe967706ab" name="a829cebd5ae96d482d17e43fe967706ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a829cebd5ae96d482d17e43fe967706ab">&#9670;&#160;</a></span>loopBodyHover</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool loopBodyHover {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#a11155fe9a264c63ca821be33a41894bc">mouseMove()</a>, <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, and <a class="el" href="#aff18baa731577ae1d6ed6109dc07a4b8">setLoopBodyHover()</a>.</p>
 
 </div>
 </div>
@@ -1337,6 +1454,54 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a63a601b1a455b6a9922001327ebe548a" name="a63a601b1a455b6a9922001327ebe548a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63a601b1a455b6a9922001327ebe548a">&#9670;&#160;</a></span>loopDragStartLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t loopDragStartLoop {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody()</a>, and <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>.</p>
+
+</div>
+</div>
+<a id="a884cb432c3bc216cbc10e1d775000ffa" name="a884cb432c3bc216cbc10e1d775000ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884cb432c3bc216cbc10e1d775000ffa">&#9670;&#160;</a></span>loopDragEndLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t loopDragEndLoop {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody()</a>, and <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>.</p>
+
+</div>
+</div>
+<a id="a395c776b4a731f034e8fc0bc22bb6f7d" name="a395c776b4a731f034e8fc0bc22bb6f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a395c776b4a731f034e8fc0bc22bb6f7d">&#9670;&#160;</a></span>loopDragMouseSample</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t loopDragMouseSample {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#a99638b59017101b47809cb84b0c36daf">dragLoopBody()</a>, and <a class="el" href="#a7573082fd3086ba3775b602db61290bb">mouseDown()</a>.</p>
+
+</div>
+</div>
 <a id="a71abaff9a3ceda1d211b117a0891cbda" name="a71abaff9a3ceda1d211b117a0891cbda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71abaff9a3ceda1d211b117a0891cbda">&#9670;&#160;</a></span>playbackPositions</h2>
 
@@ -1433,6 +1598,22 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afcf78c1a0006e24de65c808c745ad280" name="afcf78c1a0006e24de65c808c745ad280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf78c1a0006e24de65c808c745ad280">&#9670;&#160;</a></span>envelopeKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structscxt_1_1ui_1_1app_1_1edit__screen_1_1SampleWaveform_1_1EnvelopeKey.html">scxt::ui::app::edit_screen::SampleWaveform::EnvelopeKey</a> envelopeKey</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>.</p>
+
+</div>
+</div>
 <a id="a30323f344b32cbbf81ed28b13c6c7bcb" name="a30323f344b32cbbf81ed28b13c6c7bcb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30323f344b32cbbf81ed28b13c6c7bcb">&#9670;&#160;</a></span>pctStart</h2>
 
@@ -1493,7 +1674,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#a23d85ed212d16e9aa8682bf0cbceffd2">setVerticalZoom()</a>, and <a class="el" href="#a5c898ef627d82d8f84a78b0e5551dff8">yPixelForAmplitude()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, <a class="el" href="#a23d85ed212d16e9aa8682bf0cbceffd2">setVerticalZoom()</a>, and <a class="el" href="#a5c898ef627d82d8f84a78b0e5551dff8">yPixelForAmplitude()</a>.</p>
 
 </div>
 </div>
@@ -1509,7 +1690,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#a23d85ed212d16e9aa8682bf0cbceffd2">setVerticalZoom()</a>, and <a class="el" href="#a5c898ef627d82d8f84a78b0e5551dff8">yPixelForAmplitude()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a4f2c219a2cbbd6b61e7c41564dac6169">paint()</a>, <a class="el" href="#abd07aa8b0053f50d8ab58713fc8accef">rebuildEnvelopePaths()</a>, <a class="el" href="#a23d85ed212d16e9aa8682bf0cbceffd2">setVerticalZoom()</a>, and <a class="el" href="#a5c898ef627d82d8f84a78b0e5551dff8">yPixelForAmplitude()</a>.</p>
 
 </div>
 </div>
