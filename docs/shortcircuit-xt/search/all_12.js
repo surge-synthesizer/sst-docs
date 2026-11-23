@@ -928,10 +928,11 @@ var searchData=
   ['swapgroupzone_925',['swapGroupZone',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af5ccaed905785cfd2efdec60e2244a03',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['swapzoneprocessors_926',['swapZoneProcessors',['../namespacescxt_1_1messaging_1_1client.html#a9040410673542e6ccbe16e9e121fb082',1,'scxt::messaging::client']]],
   ['swapzonesbyindex_927',['swapZonesByIndex',['../structscxt_1_1engine_1_1Group.html#adb25930fb4b820e18632a7409bc5c43a',1,'scxt::engine::Group']]],
-  ['switch_5fgroup_5fzone_5fselection_928',['SWITCH_GROUP_ZONE_SELECTION',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1',1,'scxt::ui::app']]],
-  ['switchgrouporzonefocus_929',['switchGroupOrZoneFocus',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a52b16d41356d5ef078d8c430a1350bfa',1,'scxt::ui::app::SCXTEditor']]],
-  ['sync_930',['sync',['../structscxt_1_1akai__support_1_1GLOBAL__LFO.html#adb4b09387463cd61bf8f7217366310ef',1,'scxt::akai_support::GLOBAL_LFO::sync'],['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a5bf899d2c822b24c1939fa64c21759c7',1,'scxt::clients::console_ui::ConsoleHarness::sync()'],['../structscxt_1_1SampleRateSupport.html#ad55f80ed3cd8b6c4f247763b747016af',1,'scxt::SampleRateSupport::sync()']]],
-  ['syncbuttons_931',['syncButtons',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#ae253db0bc5660579226c269b825a6eec',1,'scxt::ui::app::edit_screen::MiscPanel']]],
-  ['syncmode_932',['SyncMode',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7d',1,'scxt::modulation::modulators::PhasorStorage']]],
-  ['syncvalue_933',['syncValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a35d67f8ef37b6318a98f999fd539952e',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]]
+  ['sweepgroups_928',['sweepGroups',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a11a92cda0921529dc5240ecad820597b',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase']]],
+  ['switch_5fgroup_5fzone_5fselection_929',['SWITCH_GROUP_ZONE_SELECTION',['../namespacescxt_1_1ui_1_1app.html#a84db4db89f72ceb0a07e95474bf5cd6aadb50a013f768b60cd935d1b7650cafe1',1,'scxt::ui::app']]],
+  ['switchgrouporzonefocus_930',['switchGroupOrZoneFocus',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a52b16d41356d5ef078d8c430a1350bfa',1,'scxt::ui::app::SCXTEditor']]],
+  ['sync_931',['sync',['../structscxt_1_1akai__support_1_1GLOBAL__LFO.html#adb4b09387463cd61bf8f7217366310ef',1,'scxt::akai_support::GLOBAL_LFO::sync'],['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a5bf899d2c822b24c1939fa64c21759c7',1,'scxt::clients::console_ui::ConsoleHarness::sync()'],['../structscxt_1_1SampleRateSupport.html#ad55f80ed3cd8b6c4f247763b747016af',1,'scxt::SampleRateSupport::sync()']]],
+  ['syncbuttons_932',['syncButtons',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel.html#ae253db0bc5660579226c269b825a6eec',1,'scxt::ui::app::edit_screen::MiscPanel']]],
+  ['syncmode_933',['SyncMode',['../structscxt_1_1modulation_1_1modulators_1_1PhasorStorage.html#a08e3b775868324e578c0fe6af893bf7d',1,'scxt::modulation::modulators::PhasorStorage']]],
+  ['syncvalue_934',['syncValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a35d67f8ef37b6318a98f999fd539952e',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]]
 ];

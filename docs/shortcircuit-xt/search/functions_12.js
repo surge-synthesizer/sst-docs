@@ -428,7 +428,8 @@ var searchData=
   ['swapgroupzone_425',['swapGroupZone',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1EditScreen.html#af5ccaed905785cfd2efdec60e2244a03',1,'scxt::ui::app::edit_screen::EditScreen']]],
   ['swapzoneprocessors_426',['swapZoneProcessors',['../namespacescxt_1_1messaging_1_1client.html#a9040410673542e6ccbe16e9e121fb082',1,'scxt::messaging::client']]],
   ['swapzonesbyindex_427',['swapZonesByIndex',['../structscxt_1_1engine_1_1Group.html#adb25930fb4b820e18632a7409bc5c43a',1,'scxt::engine::Group']]],
-  ['switchgrouporzonefocus_428',['switchGroupOrZoneFocus',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a52b16d41356d5ef078d8c430a1350bfa',1,'scxt::ui::app::SCXTEditor']]],
-  ['sync_429',['sync',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a5bf899d2c822b24c1939fa64c21759c7',1,'scxt::clients::console_ui::ConsoleHarness::sync()'],['../structscxt_1_1SampleRateSupport.html#ad55f80ed3cd8b6c4f247763b747016af',1,'scxt::SampleRateSupport::sync()']]],
-  ['syncvalue_430',['syncValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a35d67f8ef37b6318a98f999fd539952e',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]]
+  ['sweepgroups_428',['sweepGroups',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1GroupZoneSidebarBase.html#a11a92cda0921529dc5240ecad820597b',1,'scxt::ui::app::edit_screen::GroupZoneSidebarBase']]],
+  ['switchgrouporzonefocus_429',['switchGroupOrZoneFocus',['../structscxt_1_1ui_1_1app_1_1SCXTEditor.html#a52b16d41356d5ef078d8c430a1350bfa',1,'scxt::ui::app::SCXTEditor']]],
+  ['sync_430',['sync',['../structscxt_1_1clients_1_1console__ui_1_1ConsoleHarness.html#a5bf899d2c822b24c1939fa64c21759c7',1,'scxt::clients::console_ui::ConsoleHarness::sync()'],['../structscxt_1_1SampleRateSupport.html#ad55f80ed3cd8b6c4f247763b747016af',1,'scxt::SampleRateSupport::sync()']]],
+  ['syncvalue_431',['syncValue',['../structscxt_1_1ui_1_1app_1_1edit__screen_1_1MiscPanel_1_1NumDenQuantAtt.html#a35d67f8ef37b6318a98f999fd539952e',1,'scxt::ui::app::edit_screen::MiscPanel::NumDenQuantAtt']]]
 ];
